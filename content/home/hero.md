@@ -2,13 +2,13 @@
 # Hero widget.
 widget = "hero"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
-active = false  # Activate this widget? true/false
+active = true  # Activate this widget? true/false
 weight = 10  # Order that this section will appear.
 
-title = "Academic"
+title = "The International Interactive Computing Collaboration"
 
 # Hero image (optional). Enter filename of an image in the `static/img/` folder.
-hero_media = "hero-academic.png"
+#hero_media = "hero-academic.png"
 
 [design.background]
   # Apply a background color, gradient, or image.
@@ -38,21 +38,21 @@ hero_media = "hero-academic.png"
 #   Remove a link/note by deleting a cta/note block.
 [cta]
   url = "https://sourcethemes.com/academic/docs/install/"
-  label = "Get Started"
+  label = "Contact"
   icon_pack = "fas"
   icon = "download"
   
-[cta_alt]
-  url = "https://sourcethemes.com/academic/"
-  label = "View Documentation"
-
 # Note. An optional note to show underneath the links.
 [cta_note]
-  label = '<a class="js-github-release" href="https://sourcethemes.com/academic/updates" data-repo="gcushen/hugo-academic">Latest release<!-- V --></a>'
+  label = 'Interested in receiving hosted Jupyter environments for research or education on the infrastructure of your choice?'
 +++
 
-**The Best Way to Create the Website You Want from Markdown (or Jupyter/RStudio)**
+**open infrastructure for interactive computing
+in science and education.**
 
-Build **Anything** with Widgets
+2i2c is a non-profit organization dedicated to supporting tools and workflows
+for interactive computing in science and education. It provides hosted cloud
+    services for interactive computing workflows with Jupyter and the data
+    science software ecosystem. It also builds and supports open source tools in
+    this ecosystem.
 
-<span style="text-shadow: none;"><a class="github-button" href="https://github.com/gcushen/hugo-academic" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star this on GitHub">Star</a><script async defer src="https://buttons.github.io/buttons.js"></script></span>
