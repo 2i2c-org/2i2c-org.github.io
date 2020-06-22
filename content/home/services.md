@@ -3,33 +3,38 @@
 widget = "featurette"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 30  # Order that this section will appear.
+weight = 110  # Order that this section will appear.
 
 title = "Services"
 subtitle = ""
 
 # Showcase personal skills or business features.
-# 
+#
 # Add/remove as many `[[feature]]` blocks below as you like.
-# 
+#
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
 
 [[feature]]
-  icon = "chart-line"
+  icon = "graduation-cap"
   icon_pack = "fas"
-  name = "JupyterHub"
-  
+  name = "Data science education environments"
+
 [[feature]]
-  icon = "chart-line"
+  icon = "microscope"
   icon_pack = "fas"
-  name = "Kubernetes"
-  
+  name = "Large-scale research projects"
+
+[[feature]]
+  icon = "lightbulb"
+  icon_pack = "fas"
+  name = "Data science events and bootcamps"
+
 # Uncomment to use emoji icons.
 # [[feature]]
 #  icon = ":smile:"
 #  icon_pack = "emoji"
 #  name = "Emojiness"
-#  description = "100%"  
+#  description = "100%"
 
 # Uncomment to use custom SVG icons.
 # Place custom SVG icon in `assets/images/icon-pack/`, creating folders if necessary.
@@ -41,3 +46,6 @@ subtitle = ""
 #  description = "90%"
 
 +++
+
+2i2c provides hosted infrastructure and consulting for interactive computing environments
+that power a number of workflows in research and education.

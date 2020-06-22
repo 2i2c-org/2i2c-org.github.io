@@ -3,7 +3,7 @@
 widget = "contact"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 130  # Order that this section will appear.
+weight = 410  # Order that this section will appear.
 
 title = "Contact"
 subtitle = ""
@@ -18,3 +18,6 @@ autolink = true
 email_form = 1
 +++
 
+If you'd like to learn more about 2i2c, receive updates as 2i2c grows, and learn
+about opportunities for collaboration, send us your contact information and we'll
+be in touch.
