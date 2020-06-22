@@ -1,4 +1,32 @@
-<p align="center"><a href="https://sourcethemes.com/academic/" target="_blank" rel="noopener"><img src="https://sourcethemes.com/academic/img/logo_200px.png" alt="Academic logo"></a></p>
+# 2i2c brochure
+
+This is a brochure website for the International International Computing Collaboration (2i2c).
+It is built from the [academic hugo theme].
+
+## Building this website locally
+
+* Install the Hugo extended version from [the latest releases page](https://github.com/gohugoio/hugo/releases)
+  - Ensure that you have the *extended version*
+* Clone this repository locally:
+
+  ```
+  git clone https://github.com/2i2c-org/2i2c-brochure
+  cd 2i2c-brochure
+  git submodule update --init --recursive
+  ```
+* This is a single-page site, and content lives in `content/home/`
+* This folder has a collection of markdown snippets that are stitched into a single page.
+  - Their order is determined by the `weight:` metadata on each page.
+* Preview the site locally with:
+
+  ```
+  hugo server
+  ```
+* Push your changes to the repository and Netlify will automatically update the website.
+
+---
+
+**Below is the Academic Hugo theme documentation for reference**
 
 # Academic Kickstart: The Template for [Academic Website Builder](https://sourcethemes.com/academic/)
 

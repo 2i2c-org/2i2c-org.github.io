@@ -29,8 +29,7 @@ social:
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Researchers
-- Visitors
+
 ---
 2i2c is a non-profit organization dedicated to supporting tools and workflows
 for interactive computing in science and education. It provides hosted cloud
@@ -49,7 +48,7 @@ spent several years running cloud infrastructure for science and education. This
 includes the UC Berkeley DataHub - a JupyterHub for teaching data science that
 is used by thousands of students each day, the Pangeo project - a community
 platform for Big Data geoscience, and Syzygy - an interactive computing provider
-for universities across Canada. 
+for universities across Canada.
 
 We have learned the value of interactive computing and the cloud for science and
 education, but have learned how difficult it is to deploy, customize, and manage
