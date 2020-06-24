@@ -9,15 +9,13 @@ title = "Contact"
 subtitle = ""
 
 # Automatically link email and phone?
-autolink = true
+autolink = false
 
 # Email form provider
 #   0: Disable email form
 #   1: Netlify (requires that the site is hosted by Netlify)
 #   2: formspree.io
-email_form = 1
+email_form = 0
 +++
 
-If you'd like to learn more about 2i2c, receive updates as 2i2c grows, and learn
-about opportunities for collaboration, send us your contact information and we'll
-be in touch.
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdW_bhVrXfgRYa9Ct6w399KQPILbU_3nKUF_tgnGZJbs91SXg/viewform?embedded=true" width="640" height="949" frameborder="0" marginheight="0" marginwidth="0">Loading…</iframe>
