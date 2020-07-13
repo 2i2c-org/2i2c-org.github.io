@@ -1,6 +1,6 @@
 # 2i2c brochure
 
-This is a brochure website for the International International Computing Collaboration (2i2c).
+This is a brochure website for the International Interactive Computing Collaboration (2i2c).
 It is built from the [academic hugo theme].
 
 ## Building this website locally
