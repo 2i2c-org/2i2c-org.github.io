@@ -1,3 +1,12 @@
+// General
+
+section.wg-blank {
+    .container {
+        max-width: 900px;
+    }
+}
+
+// Home page
 h1.hero-title {
     font-size: 2rem;
 }
@@ -8,4 +17,16 @@ h1.hero-title {
 
 .home-section {
     padding: 50px 0 50px 0;
+}
+
+
+// About page
+section#team .people-person {
+    width: 30%;
+}
+
+figure.projects-image img {
+    margin-left: 0;
+    max-height: 4em;
+    max-width: 35%;
 }

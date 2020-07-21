@@ -28,7 +28,7 @@ social:
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
-user_groups:
+user_groups: [Root]
 
 ---
 2i2c is a non-profit organization dedicated to supporting tools and workflows
