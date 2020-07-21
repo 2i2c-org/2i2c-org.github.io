@@ -3,13 +3,11 @@
 widget = "blank"  # See https://sourcethemes.com/academic/docs/page-builder/
 headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
-weight = 210  # Order that this section will appear in.
-
+weight = 10  # Order that this section will appear in.
+title = "Our values and principles"
 [design]
   columns = "1"
 +++
-
-## Our values and principles
 
 As a non-profit organization that is defined and driven by our mission, we believe
 that values are crucial to accomplishing our goals in a way that is equitable

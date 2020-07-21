@@ -1,0 +1,19 @@
++++
+# Homepage
+type = "blank"
+headless = true  # Homepage is headless, other widget pages are not.
+weight = 42
+title = "Callysto"
+
+[design]
+  columns = "2"
++++
+
+{{< figure src="https://callysto.ca/wp-content/uploads/2018/05/Callysto-Logos_Screen_Hor_Colour.png" class="projects-image" >}}
+
+[Callysto](https://callysto.ca/) is a free, interactive, curriculum-based learning and skills development tool —
+think “interactive textbook” — that can be accessed from any device with an internet
+connection. It was created by Cybera and PIMS to help students strengthen their
+computational thinking, coding, and data science skills. Callysto builds open education
+resources and training programs for teachers and students in grades 5-12 that leverage a
+cloud-hosted interactive computing platform.
