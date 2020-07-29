@@ -9,6 +9,11 @@
   weight = 10
 
 [[main]]
+  name = "Hosted Infrastructure"
+  url = "infrastructure/"
+  weight = 10
+
+[[main]]
   name = "Contact"
   url = "#contact"
   weight = 60
