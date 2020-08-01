@@ -22,6 +22,6 @@ computing in science and education. It has the following core goals:
   in interactive computing.
 * build and support open source tools and communities in this ecosystem.
 
-[2i2c's founding team](/about) has years of experience in infrastructure for interactive
-computing in research and education, and are core members of many large open source
-projects.
+[2i2c's founding team](/about) has years of experience in
+[infrastructure for interactive computing](/infrastructure) in research and education,
+and are core members of many large open source projects.
