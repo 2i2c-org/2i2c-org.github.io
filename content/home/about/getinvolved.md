@@ -25,4 +25,4 @@ tools for science and education.
 * If you are interested in working for 2i2c, [get in touch](mailto:colliand@2i2c.org?subject=Inquiry%20about%20employment).
 
 If you'd like updates about 2i2c as it grows and evolves, fill out the form
-below and we will be in touch!
+below to add yourself to our mailing list, and we will be in touch!

@@ -10,12 +10,12 @@ authors:
 superuser: true
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: UC Berkeley
+role:
 
 # Organizations/Affiliations
 organizations:
 - name: UC Berkeley
-  url: "https://berkeley.edu"
+  url: "https://history.berkeley.edu/cathryn-carson"
 
 # Short bio (displayed in user profile at end of posts)
 bio: Cathryn Bio
