@@ -10,13 +10,15 @@ authors:
 superuser: true
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: PIMS, Syzygy
+role:
 
 # Organizations/Affiliations
-organizations: []
+organizations:
+  - name: The Pacific Institute for Mathematical Sciences
+    url: https://www.pims.math.ca/pims-glance/scientific-review-panel
 
 # Short bio (displayed in user profile at end of posts)
-bio: Jim's Bio
+bio:
 
 # List each interest with a dash
 interests: []

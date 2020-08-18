@@ -10,17 +10,17 @@ authors:
 superuser: true
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: UC Berkeley
+role:
 
 # Organizations/Affiliations
 organizations:
 - name: UC Berkeley
-  url: "https://berkeley.edu"
+  url: "https://statistics.berkeley.edu/people/fernando-perez"
 - name: Project Jupyter
   url: "https://jupyter.org"
 
 # Short bio (displayed in user profile at end of posts)
-bio: Fernando Bio
+bio:
 
 # List each interest with a dash
 interests: []

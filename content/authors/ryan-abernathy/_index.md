@@ -10,13 +10,15 @@ authors:
 superuser: true
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: Columbia University, Pangeo
+role:
 
 # Organizations/Affiliations
-organizations: []
+organizations:
+  - name: Columbia University
+    url: https://ocean-transport.github.io/
 
 # Short bio (displayed in user profile at end of posts)
-bio: Ryan Bio
+bio:
 
 # List each interest with a dash
 interests: []

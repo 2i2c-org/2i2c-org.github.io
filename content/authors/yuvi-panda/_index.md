@@ -10,13 +10,15 @@ authors:
 superuser: true
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: UC Berkeley, Project Jupyter
+role:
 
 # Organizations/Affiliations
-organizations: []
+organizations:
+  - name: UC Berkeley
+    url: https://data.berkeley.edu/people/yuvi-panda
 
 # Short bio (displayed in user profile at end of posts)
-bio: Yuvi bio...
+bio:
 
 # List each interest with a dash
 interests: []
