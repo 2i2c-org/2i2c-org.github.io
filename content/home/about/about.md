@@ -13,14 +13,16 @@ title = "What is 2i2c?"
 # See https://sourcethemes.com/academic/docs/get-started/#introduce-yourself
 +++
 
-2i2c is a non-profit organization with a mission to facilitate interactive
-computing in science and education. It has the following core goals:
+2i2c is a non-profit organization with a dual mission:
 
-* provide hosted cloud services for interactive computing with Jupyter and the data
-  science software ecosystem.
-* collaborate with researchers and educators using expertise in infrastructure and tools
-  in interactive computing.
-* build and support open source tools and communities in this ecosystem.
+- Support data workflows in research and education through infrastructure for interactive computing.
+- Support open tools and communities that underlie this infrastructure.
+
+It accomplishes this mission by providing hosted cloud services for interactive
+computing with Jupyter and the data science software ecosystem, by collaborating
+with researchers and educators to leverage and tailor this infrastructure for specific use-cases,
+and by providing support for open source tools and communities in this
+ecosystem.
 
 [2i2c's founding team](/about) has years of experience in
 [infrastructure for interactive computing](/infrastructure) in research and education,
