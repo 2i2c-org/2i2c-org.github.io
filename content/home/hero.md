@@ -43,8 +43,8 @@ hero_media = "logo.png"
   icon = "envelope"
 
 # Note. An optional note to show underneath the links.
-[cta_note]
-  label = '2i2c provides open-source infrastructure for interactive computing at institutions of research and education.'
+# [cta_note]
+#  label = '2i2c provides open-source infrastructure for interactive computing at institutions of research and education.'
 +++
 
-infrastructure for interactive computing in science and education.
+Supporting open infrastructure for interactive computing in research and education.

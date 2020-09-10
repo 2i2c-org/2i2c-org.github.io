@@ -47,5 +47,4 @@ subtitle = ""
 
 +++
 
-2i2c provides hosted infrastructure and consulting for interactive computing environments
-that power a number of workflows in research and education.
+2i2c provides hosted infrastructure and development for interactive computing workflows in research and education.
