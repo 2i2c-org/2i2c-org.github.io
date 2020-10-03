@@ -14,7 +14,19 @@ title = "The 2i2c Hubs"
 <p class="highlight">2i2c believes that transformational science and education should be built on open-source, community-driven, vendor-agnostic tools.
 </p>
 
-**Want a hub for your usecase?** If you're in research and education and you'd like a 2i2c hub for your use-case, we will soon be launching pilot projects to support people like you. Check out [our contact page](https://2i2c.org/#contact) to stay in touch.
+{{% callout note %}}
+Want a hub for your usecase? If you're in research and education and you'd like a 2i2c hub for your use-case, we will soon be launching pilot projects to support people like you. Check out [our contact page](https://2i2c.org/#contact) to stay in touch.
+{{% /callout %}}
+
+## 2i2c Hubs are controlled by their community
+
+2i2c's goal is to serve research and educational communities with their own interactive computing infrastructure running in the cloud. This means that all 2i2c Hubs...
+
+- Can be run on a variety of cloud infrastructure - even on your own cloud accounts.
+- Run entirely open source tools and standards - you can take your workflows wherever you wish.
+- Are customizable for your community - provide the libraries, datasets, cloud connections, and resources that fit your need.
+- Are scalable and robust - the technology behind our hubs has been served for communities as small as 2 and as large as 10,000 over the years.
+- Are yours to control - manage your hub yourself or even move it to another provider - you control your infrastructure.
 
 ## What is in a 2i2c Hub?
 
@@ -38,7 +50,7 @@ Below is a diagram showing off some of the major components of a 2i2c Hub.
   width="70%"
 >}}
 
-### What about other languages or interfaces?
+## 2i2c Hubs support other languages and interfaces too
 
 2i2c Hubs are flexible and can provide a variety of interfaces and languages. Jupyter is a language-agnostic platform, and can supports [kernels in a variety of languages](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels). 2i2c Hubs can be customized for one or more open source languages and environments.
 
