@@ -50,7 +50,7 @@ Below is a diagram showing off some of the major components of a 2i2c Hub.
   width="70%"
 >}}
 
-### What about other languages or interfaces?
+## 2i2c Hubs support other languages and interfaces too
 
 2i2c Hubs are flexible and can provide a variety of interfaces and languages. Jupyter is a language-agnostic platform, and can supports [kernels in a variety of languages](https://github.com/jupyter/jupyter/wiki/Jupyter-kernels). 2i2c Hubs can be customized for one or more open source languages and environments.
 
