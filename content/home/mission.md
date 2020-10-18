@@ -32,7 +32,7 @@ title = "What we do"
             </p>
         </div>
         <div class="card-footer text-center">
-            <button type="button" class="btn btn-light text-white"><a class="card-link" href="infrastructure#osprojects">Learn More</a></button>
+            <button type="button" class="btn btn-light text-white"><a class="card-link" href="open-source">Learn More</a></button>
         </div>
     </div>
 </div>
