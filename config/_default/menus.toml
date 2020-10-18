@@ -4,9 +4,19 @@
 #   The weight parameter defines the order that the links will appear in.
 
 [[main]]
+  name = "2i2c Hubs"
+  url = "infrastructure/"
+  weight = 10
+
+[[main]]
+  name = "Open Source"
+  url = "open-source/"
+  weight = 20
+
+[[main]]
   name = "About Us"
   identifier = "about"
-  weight = 10
+  weight = 30
 
   [[main]]
   parent = "about"
@@ -24,11 +34,6 @@
   parent = "about"
   name = "Get Involved"
   url = "about#getinvolved"
-  weight = 10
-
-[[main]]
-  name = "2i2c Hubs"
-  url = "infrastructure/"
   weight = 10
 
 [[main]]

@@ -1,13 +1,18 @@
 +++
-weight = 75  # Order that this section will appear in.
+# Homepage
+type = "blank"
+headless = true  # Homepage is headless, other widget pages are not.
+weight = 30
+title = "Open tools that we use and support"
 
 [design]
   columns = "1"
+
+[background]
+  color = "white"
 +++
 
-# Open tools that we use and support
-
-2i2c believes that open source infrastructure and tools are the best choice for researchers and educators. It also believes in giving back to these tools and their communities to ensure that they continue to thrive. 2i2c provides support, maintenance, and development for the following set of tools. It is always looking for more opportunities to contribute back to the open source community.
+2i2c provides support, maintenance, and development for the following set of tools. It is always looking for more opportunities to contribute back to the open source community.
 
 <div class="project-figures">
 {{< figure

@@ -11,5 +11,4 @@ title = "Our Experience"
 +++
 
 2i2c has worked on projects in interactive computing infrastructure for several
-years now. Its team members are core contributors or project leads on the following
-services and tools:
+years now. Its team members are core contributors or project leads on the following services and tools:
