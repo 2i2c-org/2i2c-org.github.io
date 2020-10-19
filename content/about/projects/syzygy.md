@@ -11,7 +11,7 @@ title = "Syzygy"
 
 {{< figure src="https://pims.syzygy.ca/img/portfolio/PIMS-circle-with-wordmark-CAPS.png" class="projects-image" >}}
 
-The [Syzygy service](https://syzygy.ca/) provides interactive computing environments to over 18 institutions
+The [Syzygy service](https://syzygy.ca/) provides interactive computing environments to more than 30 institutions
 across Canada. It is based out of the Pacific Institute for Mathematical Sciences (PIMS).
 Syzygy runs JupyterHubs for thousands of users across a variety of research and education
 use-cases.
