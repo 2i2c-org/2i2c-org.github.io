@@ -1,7 +1,7 @@
 +++
 widget = "people"  # Use the People widget
 headless = true  # This file represents a page section.
-title = "Our founding team"
+title = ""
 weight = 20
 
 [content]
@@ -16,9 +16,3 @@ weight = 20
   # Show user's interests? (true/false)
   show_interests = false
 +++
-
-2i2c was created by members from the research, education, and open source community
-with years of experience in deploying infrastructure for interactive computing, as
-well as integrating that infrastructure into institutional pedagogy and research
-efforts. In addition, we are core contributors to many large open source projects
-in the Jupyter community.
