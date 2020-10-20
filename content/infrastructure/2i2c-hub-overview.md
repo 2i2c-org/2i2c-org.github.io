@@ -9,10 +9,4 @@ A 2i2c Hub is a collection of open source tools that provide interactive computi
 
 Every 2i2c Hub is tailored for the community that uses it. 2i2c Hubs can run on almost any kind of cloud infrastructure (or even your own local hardware), provide a customizable environment for your needs, and they are built with 100% open source and community-driven software.
 
-{{<
-  figure src="/media/2i2c-hub-overview.png"
-  title="2i2c Hubs build on open source tools for infrastructure and datascience"
-  width="70%"
->}}
-
 For more information about the 2i2c Hubs, see [the 2i2c Hubs Pilot documentation](https://2i2c.org/pilot/infrastructure.html).

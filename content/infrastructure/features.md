@@ -9,7 +9,7 @@ weight = 10
 # Add/remove as many `[[feature]]` blocks below as you like.
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons
 [[feature]]
-  icon = "project-diagram"
+  icon = "boxes"
   icon_pack = "fas"
   name = "An environment for your community"
   description = "2i2c Hubs provide data environments that have been designed for research and education, and can be customized for your community."
@@ -33,7 +33,7 @@ weight = 10
   description = "2i2c Hubs can provide tools for high-performance data analysis, along with cloud resources to scale your computation."
 
 [[feature]]
-  icon = "box-open"
+  icon = "project-diagram"
   icon_pack = "fas"
   name = "Streamline access to your community's data"
   description = "Use an online hub to provide access to large, complex, or otherwise inaccessible data in the cloud."
