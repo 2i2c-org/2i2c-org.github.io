@@ -23,6 +23,35 @@ It is built from the [academic hugo theme].
   ```
 * Push your changes to the repository and Netlify will automatically update the website.
 
+## Check the spelling of any pages
+
+This repository is configured with [the pyspelling package](https://facelessuser.github.io/pyspelling/). It will analyze all of the markdown files in `content/` and tell you if there are any un-recognized words.
+
+To use `pyspelling`, first install it:
+
+```
+pip install pyspelling
+```
+
+Then install the `aspell` package:
+
+```
+sudo apt-get install aspell
+```
+
+Finally, you can run `pyspelling` on the repository like so:
+
+```
+pyspelling
+```
+
+Note that pyspelling may find some errors that are simply un-recognized, but correct, words. For example, HTML elements. To make these errors pass, you can add them to the list of custom spelling words here:
+
+`.custom-dictionary.txt`.
+
+For more information, see [the `pyspelling` documentation](https://facelessuser.github.io/pyspelling/).
+
+
 ## This website's theme
 
 We are using the latest version of the [Wowchemy theme](https://wowchemy.com/docs/) (used to be the "Academic Theme"). See its documentation for information about customization and usage.
