@@ -41,7 +41,7 @@ As a non-profit, 2i2c is dedicated to supporting an ecosystem of tools and stake
 
 ## What are we going to do?
 
-With all of that in mind, what is 2i2c actually going to do? We are still working out the details here, but here's a rough picture:
+With all of that in mind, what is 2i2c actually going to do? We are still working out the details, but here's a rough picture:
 
 Offer **hosted interactive computing environments on cloud infrastructure**. These will be entirely open source, and customizable for the communities that are using them. We wish to build upon the success of JupyterHub as a gateway to computational resources and environments, learning environments, and communities of users. We will offers these environments as a service for those in research and education, running on entirely open-source, vendor-agnostic, and community-driven infrastructure.
 
