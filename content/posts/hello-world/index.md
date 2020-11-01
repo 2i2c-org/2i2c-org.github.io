@@ -14,7 +14,7 @@ draft: false
 
 We'd like to announce the creation of a new non-profit organization that we call **2i2c**.
 
-2i2c stands for **The International Interactive Computing Collaboration**. It is a non-profit dedicated to making open tools for interactive computing more accessible and more powerful for the research and education community.
+2i2c stands for **The International Interactive Computing Collaboration**. It is a non-profit dedicated to making open tools for interactive computing more accessible and more powerful for the research and education communities.
 
 This is a short post about why we created 2i2c, what we hope that it will do, and what we are up to next. If you'd prefer to watch a video instead of read a blog post, check out this talk about 2i2c at JupyterCon 2020:
 
