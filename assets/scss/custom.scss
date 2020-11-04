@@ -75,3 +75,14 @@ div.project-figures {
     }
 }
 
+// Right to replicate
+table {
+    tr th:empty {
+        display: none;
+    }    
+    
+    tr td:first-child {
+        text-align: center;
+        font-size: 1.1em;
+    }
+}
