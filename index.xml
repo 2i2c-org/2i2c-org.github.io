@@ -1,1 +1,50 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2i2c</title><link>/</link><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><description>2i2c</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 2i2c.org</copyright><image><url>/images/icon_hu14487c92582497276a18b017b8e20c03_646_512x512_fill_lanczos_center_2.png</url><title>2i2c</title><link>/</link></image><item><title/><link>/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/about/</guid><description/></item><item><title/><link>/founders/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/founders/</guid><description/></item><item><title/><link>/infrastructure/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/infrastructure/</guid><description/></item><item><title/><link>/open-source/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/open-source/</guid><description/></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2i2c</title><link>/</link><atom:link href="/index.xml" rel="self" type="application/rss+xml"/><description>2i2c</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2020 2i2c.org</copyright><image><url>/images/icon_hu14487c92582497276a18b017b8e20c03_646_512x512_fill_lanczos_center_2.png</url><title>2i2c</title><link>/</link></image><item><title>The Customer Right to Replicate</title><link>/right-to-replicate/</link><pubDate>Thu, 28 Jun 2018 00:00:00 +0000</pubDate><guid>/right-to-replicate/</guid><description>&lt;p>The Right to Replicate gives customers the right to &lt;strong>replicate their infrastructure in its entirety elsewhere, with or without 2i2c&lt;/strong>.&lt;/p>
+&lt;p>This document describes 2i2c’s commitment to a customer’s “right to replicate”, and how this translates into specific infrastructure commitments from 2i2c. We make these commitments because we believe that using infrastructure that follows these principles will lead to a more fair, just, equitable world. We also believe they are the right foundation for more productive and impactful research and education.&lt;/p>
+&lt;p>2i2c is committed to running its own infrastructure on open-source tools and vendor-agnostic infrastructure, though it does not &lt;em>force&lt;/em> users to use only open-source tools in their own environments, code, and data. Below is a table describing how the Right to Replicate fits into 2i2c hub technology.&lt;/p>
+&lt;p>(Definitions of ‘MUST’, &lt;code>MUST NOT&lt;/code>, ‘SHOULD’, &lt;code>MAY&lt;/code>, etc are defined in &lt;a href="https://tools.ietf.org/html/rfc2119" target="_blank" rel="noopener">RFC 2119&lt;/a>)&lt;/p>
+&lt;div id="rtr-table">
+&lt;table>
+&lt;thead>
+&lt;tr>
+&lt;th>&lt;/th>
+&lt;th>&lt;/th>
+&lt;th>&lt;/th>
+&lt;/tr>
+&lt;/thead>
+&lt;tbody>
+&lt;tr>
+&lt;td>User Code and Data&lt;/td>
+&lt;td>&lt;strong>May&lt;/strong> be Open Source&lt;/td>
+&lt;td>We encourage adopting and producing open source code and data, but this is up to the user. &lt;br /> e.g., licenses for user content/code&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>User Environment&lt;/td>
+&lt;td>&lt;strong>Should&lt;/strong> be Open Source&lt;/td>
+&lt;td>Strong preference for open source tools only, although in some cases user needs may override this. &lt;br /> e.g., Python, R, PyData stack.&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>2i2c Infrastructure&lt;/td>
+&lt;td>&lt;strong>Must&lt;/strong> be Open Source&lt;/td>
+&lt;td>Strong commitment to using only open source software. &lt;br /> e.g., JupyterHub, Kubernetes, Postgresql&lt;/td>
+&lt;/tr>
+&lt;tr>
+&lt;td>Cloud Provider Infrastructure&lt;/td>
+&lt;td>&lt;strong>Must&lt;/strong> be Portable&lt;/td>
+&lt;td>See &lt;a href="https://words.yuvi.in/post/oss-in-the-cloud/" target="_blank" rel="noopener">this blog post&lt;/a> for more information.&lt;/td>
+&lt;/tr>
+&lt;/tbody>
+&lt;/table>
+&lt;/div>
+&lt;p>Below we describe our commitments in our own infrastructure stack in more detail.&lt;/p>
+&lt;h2 id="how-2i2c-infrastructure-ensures-this-right">How 2i2c infrastructure ensures this right&lt;/h2>
+&lt;p>2i2c infrastructure and documentation for it MUST BE as transparent &amp;amp; accessible as possible, so customers can replicate our configuration without having to extract any ‘secret sauce’ from 2i2c. If they choose to, they can also inspect, audit &amp;amp; modify the infrastructure they are paying for and using.&lt;/p>
+&lt;p>To ensure the Right to Replicate to our customers, 2i2c makes the following commitments to infrastructure we build and operate:&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>We MUST use only open source software to run our infrastructure. By only using software that is available to everyone on the same terms, we can ensure that customers can replicate the infrastructure without having to negotiate licensing terms with proprietary software vendors. In addition, any changes we make to open source software will be made in public and/or contributed upstream, so customers continue to have access to them regardless of where their infrastructure is.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>We MUST NOT directly depend on proprietary cloud vendor specific products or APIs. Instead, we use cloud-managed open source software, or hide the dependency behind a layer of abstraction. This ensures that customers can port their infrastructure to any cloud provider of their choice, or run it on their own hardware with purely open source software.&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>This set of commitments acts as a business continuity plan for our customers, ensuring 2i2c will follow best practices within the open source, open education and open research ecosystems.&lt;/p></description></item><item><title>2i2c Hubs</title><link>/infrastructure/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/infrastructure/</guid><description/></item><item><title>About 2i2c</title><link>/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/about/</guid><description/></item><item><title>Open Source</title><link>/open-source/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/open-source/</guid><description/></item><item><title>Our Founding Team</title><link>/founders/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/founders/</guid><description/></item></channel></rss>
