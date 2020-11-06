@@ -15,7 +15,7 @@ This document describes 2i2c’s commitment to a customer’s “right to replic
 
 2i2c is committed to running its own infrastructure on open-source tools and vendor-agnostic infrastructure, though it does not *force* users to use only open-source tools in their own environments, code, and data. Below is a table describing how the Right to Replicate fits into 2i2c hub technology. 
 
-(Definitions of ‘MUST’, `MUST NOT`, ‘SHOULD’, `MAY`, etc are defined in [RFC 2119](https://tools.ietf.org/html/rfc2119))
+(Definitions of `MUST`, `MUST NOT`, `SHOULD`, `MAY`, etc are defined in [RFC 2119](https://tools.ietf.org/html/rfc2119))
 
 <div id="rtr-table">
 
