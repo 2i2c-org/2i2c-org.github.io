@@ -11,7 +11,11 @@ title = "Open source tools for research and education"
 
 2i2c believes that open source infrastructure and tools are the best choice for researchers and educators. We also believe in giving back to these tools and their communities to ensure that they continue to thrive.
 
-2i2c integrates an entirely open stack with hosted infrastructure that is tailored for research and education, running in the cloud infrastructure of your choice. It also contributes back to the communities that develop and grow these tools, keeping the ecosystem healthy.
+2i2c integrates an entirely open stack with hosted infrastructure that is tailored for
+research and education, running in the cloud infrastructure of your choice. This gives
+you the [right to replicate your infrastructure](../right-to-replicate). It also
+contributes back to the communities that develop and grow these tools, keeping the
+ecosystem healthy.
 
 ## What is open source?
 

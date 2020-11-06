@@ -42,5 +42,5 @@ weight = 10
   icon = "handshake"
   icon_pack = "fas"
   name = "Built by the community, for the community"
-  description = "2i2c Hubs are entirely built on open-source infrastructure. No vendor lock-in, no proprietary tools, yours to control."
+  description = "2i2c Hubs are entirely built on open-source infrastructure. No vendor  lock-in, no proprietary tools. You have the [right to replicate your infrastructure](/right-to-replicate) with or without 2i2c."
 +++
