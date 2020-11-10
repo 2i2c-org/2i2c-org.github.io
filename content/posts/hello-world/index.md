@@ -35,7 +35,8 @@ We created 2i2c so that these organizations can use entirely open-source tools w
 It may sound strange to create a non-profit organization when there are many VC-funded startups and large tech companies offering notebook services these days. However, we think that a non-profit organization is the right approach to balance the interests of all the stakeholders that we wish to serve. We hope that 2i2c will be a partner to:
 
 - **Research and educational communities**, who can rely on 2i2c to provide them cutting-edge infrastructure for interactive computing that is 💯 open source.
-- **Open source communities**, who can count on 2i2c to spend its time supporting and growing the communities that underlie the tools that we deploy.
+- **Researchers and educators who need development**, who can rely on 2i2c as a collaborator that provides development and expertise in open-source infrastructure to push the cutting edge of interactive computing in the cloud.
+- **Open source communities**, who can count on 2i2c support and grow the communities that underlie the tools that we deploy.
 - **Cloud providers**, who wish to help the research and educational community via their infrastructure.
 - **Supporters of open source** who wish to support interactive computing for research and education via a non-profit dedicated to exactly this mission.
 
@@ -45,7 +46,7 @@ As a non-profit, 2i2c is dedicated to supporting an ecosystem of tools and stake
 
 With all of that in mind, what is 2i2c actually going to do? We are still working out the details, but here's a rough picture:
 
-Offer [**hosted interactive computing environments on cloud infrastructure**](/infrastructure). These will [be entirely open source][/right-to-replicate] and vendor-neutral, and customizable for the communities that are using them. They'll be offered either as a fee-for-service model and/or subsidized through grants and donations. We wish to build upon the success of JupyterHub as a gateway to computational resources and environments, learning environments, and communities of users. For more information about the vision and values of our hosted infrastructure, see [the 2i2c **right to fork** document][/right-to-replicate].
+Offer [**hosted interactive computing environments on cloud infrastructure**](/infrastructure). These will [be entirely open source](/right-to-replicate) and vendor-neutral, and customizable for the communities that are using them. They'll be offered either as a fee-for-service model and/or subsidized through grants and donations. We wish to build upon the success of JupyterHub as a gateway to computational resources and environments, learning environments, and communities of users. For more information about the vision and values of our hosted infrastructure, see [the 2i2c **Right to Replicate** document](/right-to-replicate).
 
 Provide [**collaboration and development for interactive computing in research and education**](/infrastructure#research-development-hubs). Beyond providing hub infrastructure, there are many ways in which solving problems in research and education can lead to better tools, infrastructure, and workflows in the open source community. For example - how can we generalize a community's solution to scalable computing so that it can be useful for other use-cases as well? We hope that 2i2c can be an aggregator and integrator of many perspectives in research and education, and build tools that are maximally useful across communities.
 
@@ -67,7 +68,7 @@ We'll also use these pilots to **develop an organizational sustainability model*
 
 ## What do we need?
 
-As a non-profit organization, 2i2c has a long road ahead of it. We cannot (and do not wish to) take venture capital funding, so we have to raise funds the old-fashioned way. This means that:
+As a non-profit organization, 2i2c has a long road ahead of it. We cannot take venture capital funding, so we have to raise funds the old-fashioned way. This means that:
 
 - If you are at an organization interested in purchasing hosted JupyterHub environments from 2i2c, please [send us an email <i class="fas fa-envelope"></i>](mailto:hello@2i2c.org).
 - If you are a funder or are otherwise interested in supporting 2i2c with a donation or grant, please [send us an email <i class="fas fa-envelope"></i>](mailto:hello@2i2c.org).
