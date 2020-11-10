@@ -32,7 +32,7 @@ The culture and practices of 2i2c are drawn from our experience in many large op
 
 ### We support research and education 🔬
 
-All of the work we do at 2i2c supports our mission: to support research and education through interactive computing infrastructure. Being a part of the 2i2c team means that each day you will spend your time building, operating, and supporting the infrastructure that powers data-driven discovery and learning. Oh, you’ll do all of this while working entirely with open source software and communities.
+All of the work we do at 2i2c feeds into our mission: to support research and education through interactive computing infrastructure. Being a part of the 2i2c team means that each day you will spend your time building, operating, and supporting the infrastructure that powers data-driven discovery and learning. And you’ll do all of this while working entirely with open source software and communities.
 
 ### Open source communities are in our DNA 🤝
 
@@ -40,6 +40,6 @@ All of the technical development that we do is open source, usually in partnersh
 
 ## Salaries and benefits
 
-2i2c chooses its salary levels based on job title and discrete levels that correspond to experience. It pays competitive salaries for all of its employees at SF market rates. 2i2c does not pay different amounts based on geographic location or cost-of-living - you will be paid the SF market rate regardless of where you live. 2i2c also offers a generous benefits package, or will provide extra compensation if you are not in a position to take advantage of US-based benefits packages.
+We pay competitive salaries for all of our employees at SF market rates. 2i2c chooses its salary levels based on job title and discrete levels that correspond to experience. These salaries are fixed and consistent across all employees of 2i2c -- we do not pay different amounts based on geographic location or cost-of-living, you will be paid the SF market rate regardless of where you live. 2i2c also offers a generous benefits package, or will provide extra compensation if you are not in a position to take advantage of US-based benefits packages.
 
 Why approach salaries in this way? For a few reasons. First, we don’t believe that people should have to take a large pay-cut just to work at a non-profit organization. We also want to hire competitively for the tech industry. Second, we believe in equal pay for equal work. We don’t believe that your ability to help 2i2c accomplish its mission is impacted by your ability to negotiate a better salary. We also don’t think it is impacted by external factors like your geographical location or cost of living. Third, we believe in transparency and openness when it comes to our salaries, in order to balance the amount of information on both sides of the hiring equation. We think that these practices allow 2i2c to hire competitively, equitably, and successfully.
