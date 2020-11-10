@@ -84,6 +84,8 @@ If you'd like to get involved with the 2i2c team and community, we recommend two
 
 [Join the 2i2c Slack](https://forms.gle/f3rmHZCijK3bYAaA8). We use Slack for team conversation, as well as for real-time conversations about tools, practices, and ideas around interactive computing for research and education.
 
+You can also say hello to us on Twitter at [@2i2c_org](https://twitter.com/2i2c_org).
+
 ## Wrapping up
 
 We are excited about 2i2c, and believe that it is the right kind of organization to create to support research and education, as well as open source communities in interactive computing. The road ahead is a difficult one, but we're confident that we will hit our stride quickly. Stay tuned for more updates to come.
