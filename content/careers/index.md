@@ -25,7 +25,7 @@ Here are a few reasons that we think 2i2c is a fantastic team to work with.
 
 2i2c draws from experience in many large open source communities over the years. Because these communities operate fully remotely and strive to be as inclusive and participatory as possible, they must also strive to be more transparent and systematic in how they communicate, share information, and work. We are building a culture at 2i2c that follows these principles and builds upon them.
 
-### We have great benefits and competitive pay 📊
+### We have competitive pay and great benefits 📊
 
 2i2c believes that it's important for non-profit work to pay competitively with the tech industry. See [more information on our salaries and compensation](#salaries-and-benefits). We are also a remote-first organization with team practices that can be spread across the world.
 
