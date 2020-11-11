@@ -38,6 +38,12 @@
 
   [[main]]
   parent = "about"
+  name = "Careers"
+  url = "careers/"
+  weight = 15
+
+  [[main]]
+  parent = "about"
   name = "Get Involved"
   url = "about#getinvolved"
   weight = 10
