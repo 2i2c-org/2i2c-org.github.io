@@ -1,5 +1,5 @@
 ---
-title: "2i2c receives for support from CZI"
+title: "2i2c receives core support from CZI"
 subtitle: ""
 summary: ""
 authors: ["Chris Holdgraf"]
