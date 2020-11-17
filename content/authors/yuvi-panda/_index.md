@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role:
+role: Director of Technology
 
 # Organizations/Affiliations
 organizations:
@@ -27,7 +27,16 @@ interests: []
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
-social: []
+social:
+- icon: envelope
+  icon_pack: fas
+  link: 'mailto:yuvipanda@2i2c.org'  # For a direct email link, use "mailto:test@example.org".
+- icon: twitter
+  icon_pack: fab
+  link: https://twitter.com/yuvipanda
+- icon: github
+  icon_pack: fab
+  link: https://github.com/yuvipanda
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
@@ -36,4 +45,6 @@ email: ""
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
 - Founders
+- Open Engineering Team
+- Volunteer Staff
 ---
