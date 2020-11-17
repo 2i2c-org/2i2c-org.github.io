@@ -87,4 +87,4 @@ Please send an email to [jobs@2i2c.org](mailto:jobs@2i2c.org) with the following
 
 ## Salary & Benefits
 
-We pay competitively (at San Francisco rates) for all of its positions, regardless of your geographic location or cost of living. Salaries are based entirely on job title along with discrete levels of experience within that job title. We also offer a generous benefits package for US employees and extra compensation for those who are not in a position to accept US benefits.
+We pay competitively (at San Francisco rates) for all of its positions, regardless of your geographic location or cost of living. Salaries are based entirely on job title along with discrete levels of experience within that job title. We also offer a generous benefits package for US-based employees.
