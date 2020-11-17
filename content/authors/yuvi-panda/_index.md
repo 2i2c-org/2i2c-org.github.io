@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: Director of Technology
+role: Director of Infrastructure
 
 # Organizations/Affiliations
 organizations:
