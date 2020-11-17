@@ -9,7 +9,25 @@ comments = false  # Show comments?
 
 ## Open positions
 
-2i2c does not currently have any open positions, but we will soon! To be notified of any open positions, [sign up for our mailing list](/#contact).
+Below is a list of open positions at 2i2c. To be notified of any open positions, [sign up for our mailing list](/#contact).
+
+
+<div class="card-group job-cards">
+    <div class="card col-6 p-0">
+        <div class="card-body text-left p-4 mb-0">
+        <h5 class="card-title mb-3 mt-0">Open Source Infrastructure Engineer: Pangeo Project</h5>
+            <ul>
+                <li>Dev-ops and infrastructure work</li>
+                <li>Open source data workflows, pipelines, and environments</li>
+                <li>Focus on <a href="https://pangeo.io">Pangeo community</a> and geospatial analytics</li>
+            </ul>
+            <p class="salary">Salary: $110,000 - 130,000</p>
+        </div>
+        <div class="card-footer text-center">
+            <button type="button" class="btn btn-primary"><a href="/job/osie-pangeo" class="card-link text-white">Details and Apply</a></button>
+        </div>
+    </div>
+</div>
 
 ## Why 2i2c?
 
