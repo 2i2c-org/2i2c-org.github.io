@@ -21,7 +21,7 @@ Below is a list of open positions at 2i2c. To be notified of any open positions,
                 <li>Open source data workflows, pipelines, and environments</li>
                 <li>Focus on <a href="https://pangeo.io">Pangeo community</a> and geospatial analytics</li>
             </ul>
-            <p class="salary">Salary: $110,000 - 130,000</p>
+            <p class="extra-info">Salary: $110,000 - 130,000<br />Fully remote</p>
         </div>
         <div class="card-footer text-center">
             <button type="button" class="btn btn-primary"><a href="/job/osie-pangeo" class="card-link text-white">Details and Apply</a></button>
