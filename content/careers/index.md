@@ -60,3 +60,16 @@ All of the technical development that we do is open source, usually in partnersh
 We pay competitive salaries for all of our employees at SF market rates. 2i2c chooses its salary levels based on job title and discrete levels that correspond to experience. These salaries are fixed and consistent across all employees of 2i2c -- we do not pay different amounts based on geographic location or cost-of-living, you will be paid the same regardless of where you live. 2i2c also offers a generous benefits package, or will provide extra compensation if you are not in a position to take advantage of US-based benefits packages.
 
 Why approach salaries in this way? For a few reasons. First, we don’t believe that people should have to take a large pay-cut just to work at a non-profit organization, and we want to hire competitively for the tech industry. Second, we believe in equal pay for equal work. We don’t believe that your ability to help 2i2c accomplish its mission is impacted by your ability to negotiate a better salary. We also don’t think it is impacted by external factors like your geographical location or cost of living. Third, we believe in transparency and openness when it comes to our salaries, in order to balance the amount of information on both sides of the hiring equation. We think that these practices allow 2i2c to hire competitively, equitably, and successfully.
+
+### Our benefits
+
+**RETIREMENT**
+We have established a qualified, defined contribution retirement plan. We make monthly plan contributions on behalf of each participant equal to 10% or 3% of the eligible employee’s monthly compensation, depending on the employee's appointment type. Most employee types qualify for the 10% contribution. Contributions are fully vested and are not dependent upon the employee making contributions on their own, ie, this is not an employer "match".
+
+**PAID TIME OFF**: Vacation, Sick, and Holiday leave
+We offer generous vacation and sick leave accrual. We observe 9 holidays throughout the year *plus* Thanksgiving and a 2-week paid Winter Break holiday during the last two weeks of December.
+
+**HEALTH**: Medical, Dental, and Vision
+We offer excellent medical options and coverage. Employees may choose from three medical plans (two HMOs, one PPO). Our dental and vision plans are comprehensive and accepted widely by dental and vision care providers. We full cover the cost of plan premiums.
+
+We also provide Life and Long-Term Disability Insurance, and employees may opt to participate in our Tax-deferred Annuity Plan and Flexible Spending Account as a way to set aside pre-tax dollars to pay for long term savings, medical or dependent care.

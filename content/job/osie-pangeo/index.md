@@ -10,7 +10,7 @@ date = "2020-11-17"
 
 We are looking for an Open Source Infrastructure Engineer who will help shape the future of data-intensive scientific research and make a big impact on important problems shaping society. This engineer will lead the development and operation of cloud-based infrastructure, focusing  on the Pangeo Project - a community platform for big data geoscience.
 
-- **Location**: Anywhere
+- **Location**: Anywhere - this is a fully-remote position.
 - **Position**: Full-time
 - **Salary**: $110,000-130,000 + benefits
 
