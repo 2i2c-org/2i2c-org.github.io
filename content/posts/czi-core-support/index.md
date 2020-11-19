@@ -40,6 +40,6 @@ This is the next step in Georgiana’s journey through the Jupyter ecosystem tha
 
 ## What's next
 
-With this core support, 2i2c turns towards its [JupyterHub pilot deployments](infrastructure/#kinds-of-hubs) to build early prototypes that serve research and education, and to build organizational models that sustain these hubs and their development. If you or your organization think you’d be a good fit for these pilots, please [reach out to 2i2c](mailto:hello@2i2c.org) and let us know!
+With this core support, 2i2c turns towards its [JupyterHub pilot deployments](/infrastructure/#kinds-of-hubs) to build early prototypes that serve research and education, and to build organizational models that sustain these hubs and their development. If you or your organization think you’d be a good fit for these pilots, please [reach out to 2i2c](mailto:hello@2i2c.org) and let us know!
 
 Many thanks again to CZI for this support - we believe that it is an excellent investment in the Jupyter community and in open source communities more generally. We also believe it will lead to major advancements in supporting interactive computing workflows for research and education. We look forward to what the next three years will bring!
