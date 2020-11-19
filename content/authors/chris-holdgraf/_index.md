@@ -32,7 +32,7 @@ interests: []
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:chris@2i2c.org'  # For a direct email link, use "mailto:test@example.org".
+  link: 'mailto:choldgraf@2i2c.org'  # For a direct email link, use "mailto:test@example.org".
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/choldgraf
