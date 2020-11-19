@@ -10,7 +10,7 @@ featured: false
 draft: false
 ---
 
-Last week we [announced the creation of 2i2c](/posts/hello-word), a non-profit dedicated to improving and facilitating access to infrastructure for interactive computing workflows in research and education. Today we are thrilled to announce that 2i2c has received core support from the [Chan Zuckerberg Initiative](https://chanzuckerberg.com/).
+Last week we [announced the creation of 2i2c](/posts/hello-word), a non-profit dedicated to improving and facilitating access to infrastructure for interactive computing workflows in research and education. Today we are thrilled to announce that 2i2c has received core support from the [Chan Zuckerberg Initiative](https://chanzuckerberg.com/). You can find [CZI's announcement here](https://cziscience.medium.com/scaling-open-infrastructure-and-reproducibility-in-biomedicine-69546a399747).
 
 This funding totals around $1.4m over three years. It provides crucial core support for 2i2c as it bootstraps itself into existence. We are so thankful to CZI for this support. 🎉🙏✨
 
