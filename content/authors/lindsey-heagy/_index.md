@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role:
+role: Advisory Board
 
 # Organizations/Affiliations
 organizations:
@@ -36,4 +36,5 @@ email: ""
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
 - Founders
+- Advisory Board
 ---
