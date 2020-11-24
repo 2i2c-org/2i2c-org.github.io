@@ -32,12 +32,13 @@ We believe strongly in communities that are inclusive, transparent, equitable, e
 
 ## What you’ll do
 
-You will define the overall strategy and technical approach to cloud computing usage in Pangeo, and will interface with the Pangeo community on a frequent basis. You will help deploy, customize, and operate cloud infrastructure for research and interactive computing. You will contribute to the general development and maintenance of open source software packages for the advancement of scientific objectives, and develop applications for extracting, transforming, loading, managing, and cataloging scientific data in the cloud. You will engage and interact with open source communities surrounding the tools that you use in serving the Pangeo community, and will represent 2i2c in these engagements. You will also collaborate with scientists to support research projects, and may conduct some education and training around scientific computing.
+You will define the overall strategy and technical approach to cloud computing usage in Pangeo, and will interface with the Pangeo community on a frequent basis. You will help deploy, customize, and operate cloud infrastructure for research and interactive computing - your goal will be to spend _more time developing_ and _less time operating_ as much as possible. You will contribute to the general development and maintenance of open source software packages for the advancement of scientific objectives, and develop applications for extracting, transforming, loading, managing, and cataloging scientific data in the cloud. You will engage and interact with open source communities surrounding the tools that you use in serving the Pangeo community, and will represent 2i2c in these engagements. You will also collaborate with scientists to support research projects, and may conduct some education and training around scientific computing.
 
 
 ## Responsibilities
 
 *   Develops strategy and technical design for cloud computing architecture within the Pangeo project.
+*   Assists with site reliability for Pangeo infrastructure, and uses experience operating this infrastructure to identify new opportunities for development.
 *   Ensures the reliable operation of production cloud-based tools including JupyterHub / JupyterLab and Dask.
 *   Participates in the upstream open source communities we rely on (such as JupyterHub, Dask, etc) by contributing code, documentation, etc as needed.
 *   Develops dashboards and reports to quantify system usage and costs.
