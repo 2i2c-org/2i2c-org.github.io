@@ -1,6 +1,6 @@
 ---
 # Display name
-title: "Ryan Abernathy"
+title: "Ryan Abernathey"
 
 # Username (this should match the folder name and the name on publications)
 authors:
@@ -27,8 +27,17 @@ interests: []
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
-social: []
-
+social:
+- icon: envelope
+  icon_pack: fas
+  link: 'mailto:rpa@ldeo.columbia.edu'  # For a direct email link, use "mailto:test@example.org".
+- icon: twitter
+  icon_pack: fab
+  link: https://twitter.com/rabernat
+- icon: github
+  icon_pack: fab
+  link: https://github.com/rabernat
+  
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
 
