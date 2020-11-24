@@ -30,7 +30,7 @@ interests: []
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:yuvipanda@2i2c.org'  # For a direct email link, use "mailto:test@example.org".
+  link: 'mailto:yuvipanda@gmail.com'  # For a direct email link, use "mailto:test@example.org".
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/yuvipanda
@@ -48,3 +48,5 @@ user_groups:
 - Open Engineering Team
 - Volunteer Staff
 ---
+
+Building participatory open infrastructure for scientific & educational use cases. A Project Jupyter team member working on infrastructure related projects. Ex Wikimedia and ex-GNOME. Let's eliminate accidental complexities wherever we find them.
