@@ -23,7 +23,10 @@ organizations:
 bio:
 
 # List each interest with a dash
-interests: []
+interests:
+- effective altruism
+- climate change mitigation
+- nuclear power
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -49,3 +52,7 @@ user_groups:
 - Open Engineering Team
 - Staff
 ---
+
+Attracted by an inclusive culture and a leverage for a positive world impact,
+Erik has steered towards open source development in the Jupyter ecosystem from
+working as a math and physics teacher in Sweden.
