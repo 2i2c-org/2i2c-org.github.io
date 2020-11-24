@@ -49,3 +49,5 @@ user_groups:
 - Open Engineering Team
 - Staff
 ---
+
+Software Engineer irreversibly in love with open source. A JupyterHub team member, focusing on infrastructure and community growth. Previously JupyterHub Contributor in Residence and Outreachy intern through an internship that supports diversity in open source and free software.
