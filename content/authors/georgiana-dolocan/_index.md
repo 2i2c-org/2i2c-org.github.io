@@ -35,7 +35,7 @@ social:
   link: 'mailto:georgianaelena@2i2c.org'  # For a direct email link, use "mailto:test@example.org".
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/georgianaelena
+  link: https://twitter.com/GeorgianaElenaD
 - icon: github
   icon_pack: fab
   link: https://github.com/georgianaelena
