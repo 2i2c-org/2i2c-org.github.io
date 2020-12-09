@@ -73,3 +73,5 @@ We offer generous vacation and sick leave accrual. We observe 9 holidays through
 We offer excellent medical options and coverage. Employees may choose from three medical plans (two HMOs, one PPO). Our dental and vision plans are comprehensive and accepted widely by dental and vision care providers. We full cover the cost of plan premiums.
 
 We also provide Life and Long-Term Disability Insurance, and employees may opt to participate in our Tax-deferred Annuity Plan and Flexible Spending Account as a way to set aside pre-tax dollars to pay for long term savings, medical or dependent care.
+
+Where applicable, if you are located outside of the United States, we will work with you to get similar benefits according to your geographical context.

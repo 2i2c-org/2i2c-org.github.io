@@ -5,10 +5,10 @@ reading_time = false  # Show estimated reading time?
 share = false  # Show social sharing links?
 profile = false  # Show author profile?
 comments = false  # Show comments?
-date = "2020-11-17"
+date = "2020-12-09"
 +++
 
-We are looking for an Open Source Infrastructure Engineer who will help shape the future of data-intensive scientific research and make a big impact on important problems shaping society. This engineer will lead the development and operation of cloud-based infrastructure, focusing  on the Pangeo Project - a community platform for big data geoscience.
+We are looking for an Open Source Infrastructure Engineer who will help shape the future of data-intensive scientific research and make a big impact on important problems shaping society. This engineer will lead the development and operation of cloud-based infrastructure, focusing  on the [Pangeo Project](https://pangeo.io) - a community platform for big data geoscience.
 
 - **Location**: Anywhere - this is a fully-remote position.
 - **Position**: Full-time
@@ -37,12 +37,12 @@ You will define the overall strategy and technical approach to cloud computing u
 
 ## Responsibilities
 
-*   Develops strategy and technical design for cloud computing architecture within the Pangeo project.
+*   Develops strategy and technical design for cloud computing architecture within the Pangeo project and related projects with 2i2c.
 *   Assists with site reliability for Pangeo infrastructure, and uses experience operating this infrastructure to identify new opportunities for development.
 *   Ensures the reliable operation of production cloud-based tools including JupyterHub / JupyterLab and Dask.
 *   Participates in the upstream open source communities we rely on (such as JupyterHub, Dask, etc) by contributing code, documentation, etc as needed.
 *   Develops dashboards and reports to quantify system usage and costs.
-*   Helps to maintain and operate Pangeo Gallery, an interactive showcase for data science projects based on binder and github workflows.
+*   Helps to maintain and operate [Pangeo Gallery](https://gallery.pangeo.io), an interactive showcase for data science projects based on binder and github workflows.
 *   Conducts education and outreach around cloud computing.
 *   Explores emerging technologies in the cloud / DevOps space.
 *   Travels to conferences and workshops (once COVID-19 restrictions end).
@@ -78,7 +78,7 @@ We are an equal opportunity employer and value diversity. We do not discriminate
 
 ## How to apply
 
-Please send an email to [jobs@2i2c.org](mailto:jobs@2i2c.org) with the following information
+Please send an email to [jobs+OSIE-2020@2i2c.org](mailto:jobs+OSIE-2020@2i2c.org) with the following information.
 
 *   A copy of your resume.
 *   A short statement about why you believe you’re a good fit for 2i2c, and for this position.
