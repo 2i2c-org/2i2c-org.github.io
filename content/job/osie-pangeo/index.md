@@ -14,6 +14,8 @@ We are looking for an Open Source Infrastructure Engineer who will help shape th
 - **Position**: Full-time
 - **Salary**: $110,000-130,000 + benefits
 
+[**click here for instructions to apply**](#how-to-apply)
+
 
 ## Who we are
 
