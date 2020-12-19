@@ -14,5 +14,5 @@ weight = 20
   show_social = false
 
   # Show user's interests? (true/false)
-  show_interests = false
+  show_interests = true
 +++

@@ -26,27 +26,33 @@
 
   [[main]]
   parent = "about"
-  name = "Right to Replicate"
-  url = "right-to-replicate/"
-  weight = 10
+  name = "Collaborators and Funders"
+  url = "collaborators/"
+  weight = 12
 
   [[main]]
   parent = "about"
   name = "Founding Team"
   url = "founders/"
-  weight = 10
+  weight = 14
+
+  [[main]]
+  parent = "about"
+  name = "Right to Replicate"
+  url = "right-to-replicate/"
+  weight = 15
 
   [[main]]
   parent = "about"
   name = "Careers"
   url = "careers/"
-  weight = 15
+  weight = 20
 
   [[main]]
   parent = "about"
   name = "Get Involved"
   url = "about#getinvolved"
-  weight = 10
+  weight = 25
 
 [[main]]
   name = "Blog"

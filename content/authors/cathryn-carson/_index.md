@@ -21,7 +21,7 @@ organizations:
 bio: Cathryn Bio
 
 # List each interest with a dash
-interests: []
+interests: [University of California at Berkeley]
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
