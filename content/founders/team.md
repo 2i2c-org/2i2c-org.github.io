@@ -2,7 +2,7 @@
 widget = "people"  # Use the People widget
 headless = true  # This file represents a page section.
 title = ""
-weight = 20
+weight = 90
 
 [content]
   # Choose which groups/teams of users to display.
