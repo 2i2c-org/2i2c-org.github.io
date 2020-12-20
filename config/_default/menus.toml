@@ -26,12 +26,6 @@
 
   [[main]]
   parent = "about"
-  name = "Collaborators and Funders"
-  url = "collaborators/"
-  weight = 12
-
-  [[main]]
-  parent = "about"
   name = "Founding Team"
   url = "founders/"
   weight = 14
