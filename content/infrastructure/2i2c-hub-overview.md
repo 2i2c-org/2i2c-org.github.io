@@ -16,4 +16,4 @@ community-driven software.
 infrastructure. This means being able to replicate your entire cloud deployment with or
 without 2i2c.
 
-For more information about the 2i2c Hubs, see [the 2i2c Hubs Pilot documentation](https://2i2c.org/pilot/infrastructure.html).
+For more information about the 2i2c Hubs, see [the 2i2c Hubs Pilot documentation](https://2i2c.org/pilot/about/infrastructure.html).
