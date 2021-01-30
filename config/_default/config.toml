@@ -23,6 +23,9 @@ copyright = "&copy; {year} 2i2c.org"
 # Get last modified date for content from Git?
 enableGitInfo = false
 
+# Enable relative URLs to make the site browsable from a local file system
+relativeURLs = true
+
 # Default language to use (if you setup multilingual support)
 defaultContentLanguage = "en"
 hasCJKLanguage = false  # Set `true` for Chinese/Japanese/Korean languages.
