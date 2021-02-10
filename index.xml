@@ -189,7 +189,13 @@
 &lt;/ol>
 &lt;p>This set of commitments acts as a business continuity plan for our customers, ensuring 2i2c will follow best practices within the open source, open education and open research ecosystems.&lt;/p></description></item><item><title>2i2c Hubs</title><link>/infrastructure/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/infrastructure/</guid><description/></item><item><title>About 2i2c</title><link>/about/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/about/</guid><description/></item><item><title>Careers at 2i2c</title><link>/careers/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>/careers/</guid><description>&lt;h2 id="open-positions">Open positions&lt;/h2>
 &lt;p>Below is a list of open positions at 2i2c. To be notified of any open positions, &lt;a href="./#contact">sign up for our mailing list&lt;/a>.&lt;/p>
-&lt;div class="card-group job-cards">
+&lt;div class="alert alert-note">
+&lt;div>
+We are not currently hiring for any positions, but keep an eye here as we are a young organization and hope to expand soon!
+&lt;/div>
+&lt;/div>
+&lt;!-- NOTE: This job is no longer active, but leaving the code here for when we post a new job -->
+&lt;!-- &lt;div class="card-group job-cards">
 &lt;div class="card col-6 p-0">
 &lt;div class="card-body text-left p-4 mb-0">
 &lt;h5 class="card-title mb-3 mt-0">Open Source Infrastructure Engineer: Pangeo Project&lt;/h5>
@@ -204,7 +210,7 @@
 &lt;button type="button" class="btn btn-primary">&lt;a href="./job/osie-pangeo" class="card-link text-white">Details and Apply&lt;/a>&lt;/button>
 &lt;/div>
 &lt;/div>
-&lt;/div>
+&lt;/div> -->
 &lt;h2 id="why-2i2c">Why 2i2c?&lt;/h2>
 &lt;p>2i2c believes that open infrastructure is a crucial part of transforming research and education to be more powerful, more equitable, more inclusive, and more accessible. We are a small and growing team, and recognize that our early employees play a crucial role in setting the right culture and direction for the organization.&lt;/p>
 &lt;p>Here are a few reasons that we think 2i2c is a fantastic team to work with.&lt;/p>
