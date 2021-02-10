@@ -11,8 +11,13 @@ comments = false  # Show comments?
 
 Below is a list of open positions at 2i2c. To be notified of any open positions, [sign up for our mailing list](/#contact).
 
+{{% callout note %}}
+We are not currently hiring for any positions, but keep an eye here as we are a young organization and hope to expand soon!
+{{% /callout %}}
 
-<div class="card-group job-cards">
+
+<!-- NOTE: This job is no longer active, but leaving the code here for when we post a new job -->
+<!-- <div class="card-group job-cards">
     <div class="card col-6 p-0">
         <div class="card-body text-left p-4 mb-0">
         <h5 class="card-title mb-3 mt-0">Open Source Infrastructure Engineer: Pangeo Project</h5>
@@ -27,7 +32,7 @@ Below is a list of open positions at 2i2c. To be notified of any open positions,
             <button type="button" class="btn btn-primary"><a href="/job/osie-pangeo" class="card-link text-white">Details and Apply</a></button>
         </div>
     </div>
-</div>
+</div> -->
 
 ## Why 2i2c?
 
