@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: Volunteer Director of Engineering
+role: Director of Engineering
 
 # Organizations/Affiliations
 organizations:
@@ -46,7 +46,6 @@ email: ""
 user_groups:
 - Founders
 - Open Engineering Team
-- Volunteer Staff
 - Steering Council
 ---
 
