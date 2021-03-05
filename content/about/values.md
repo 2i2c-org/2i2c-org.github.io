@@ -9,7 +9,7 @@ title = "Our values and principles"
   columns = "1"
 +++
 
-As a non-profit organization that is defined and driven by our mission, we believe
+As a non-profit initiative that is defined and driven by our mission, we believe
 that values are crucial to accomplishing our goals in a way that is equitable
 and accessible to all.
 

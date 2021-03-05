@@ -19,7 +19,7 @@ We are looking for an Open Source Infrastructure Engineer who will help shape th
 
 ## Who we are
 
-2i2c is a non-profit organization with a mission to make interactive computing more accessible, scalable, and powerful for research and education. We strive to...
+2i2c is a non-profit initiative with a mission to make interactive computing more accessible, scalable, and powerful for research and education. We strive to...
 
 *   Support data workflows in research and education through infrastructure for interactive computing.
 *   Support open tools and communities that underlie this infrastructure.
