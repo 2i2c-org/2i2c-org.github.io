@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: Director of Engineering
+role: Volunteer Director of Engineering
 
 # Organizations/Affiliations
 organizations:
