@@ -32,7 +32,7 @@ We created 2i2c so that these organizations can use entirely open-source tools w
 
 ## Why a non-profit?
 
-It may sound strange to create a non-profit organization when there are many VC-funded startups and large tech companies offering notebook services these days. However, we think that a non-profit organization is the right approach to balance the interests of all the stakeholders that we wish to serve. We hope that 2i2c will be a partner to:
+It may sound strange to create a non-profit initiative when there are many VC-funded startups and large tech companies offering notebook services these days. However, we think that a non-profit organization is the right approach to balance the interests of all the stakeholders that we wish to serve. We hope that 2i2c will be a partner to:
 
 - **Research and educational communities**, who can rely on 2i2c to provide them cutting-edge infrastructure for interactive computing that is 💯 open source.
 - **Researchers and educators who need development**, who can rely on 2i2c as a collaborator that provides development and expertise in open-source infrastructure to push the cutting edge of interactive computing in the cloud.
@@ -40,7 +40,7 @@ It may sound strange to create a non-profit organization when there are many VC-
 - **Cloud providers**, who wish to help the research and educational community via their infrastructure.
 - **Supporters of open source** who wish to support interactive computing for research and education via a non-profit dedicated to exactly this mission.
 
-As a non-profit, 2i2c is dedicated to supporting an ecosystem of tools and stakeholders across the open source community, and to ensuring that those tools are well-suited for research and education. We believe strongly in mission-driven work, and non-profit status will ensure that the work that we do is always aligned with our mission and values.
+As a non-profit initiative, 2i2c is dedicated to supporting an ecosystem of tools and stakeholders across the open source community, and to ensuring that those tools are well-suited for research and education. We believe strongly in mission-driven work, and non-profit status will ensure that the work that we do is always aligned with our mission and values.
 
 ## What are we going to do?
 
@@ -68,7 +68,7 @@ We'll also use these pilots to **develop an organizational sustainability model*
 
 ## What do we need?
 
-As a non-profit organization, 2i2c has a long road ahead of it. We cannot take venture capital funding, so we have to raise funds the old-fashioned way. This means that:
+As a non-profit initiative, 2i2c has a long road ahead of it. We cannot take venture capital funding, so we have to raise funds the old-fashioned way. This means that:
 
 - If you are at an organization interested in purchasing hosted JupyterHub environments from 2i2c, please [send us an email <i class="fas fa-envelope"></i>](mailto:hello@2i2c.org).
 - If you are a funder or are otherwise interested in supporting 2i2c with a donation or grant, please [send us an email <i class="fas fa-envelope"></i>](mailto:hello@2i2c.org).

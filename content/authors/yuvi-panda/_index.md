@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: Director of Engineering
+role: Volunteer Director of Engineering
 
 # Organizations/Affiliations
 organizations:
@@ -46,7 +46,7 @@ email: ""
 user_groups:
 - Founders
 - Open Engineering Team
-- Volunteer Staff
+- Steering Council
 ---
 
 Building participatory open infrastructure for scientific & educational use cases. A Project Jupyter team member working on infrastructure related projects. Ex Wikimedia and ex-GNOME. Let's eliminate accidental complexities wherever we find them.

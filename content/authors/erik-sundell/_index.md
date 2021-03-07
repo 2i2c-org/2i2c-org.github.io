@@ -50,7 +50,6 @@ social:
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
 - Open Engineering Team
-- Staff
 ---
 
 Attracted by an inclusive culture and a leverage for a positive world impact,

@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: Advisory Board
+role: Co-Founder
 
 # Organizations/Affiliations
 organizations:
@@ -38,5 +38,5 @@ social: []
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
 - Founders
-- Advisory Board
+- Steering Council
 ---
