@@ -2,6 +2,7 @@
 widget = "people"  # Use the People widget
 headless = true  # This file represents a page section.
 title = "Our team"
+subtitle = "Hi there"
 weight = 20
 
 [content]
