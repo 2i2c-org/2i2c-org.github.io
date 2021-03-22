@@ -47,4 +47,4 @@ hero_media = "2i2c-hub-overview.png"
 #  label = '2i2c provides open-source infrastructure for interactive computing at institutions of research and education.'
 +++
 
-2i2c is a non-profit initiative that develops, deploys, customizes, and manages open source tools for interactive computing in research and education.
+2i2c is a non-profit organization that runs and supports customized JupyterHubs for educational & research users.
