@@ -18,7 +18,7 @@ weight = 10
   icon = "desktop"
   icon_pack = "fas"
   name = "Data Science UI"
-  description = "JupyterLab, Jupyter Notebook, RStudio - pick tools that fits your workflow."
+  description = "JupyterLab, Jupyter Notebook, RStudio - pick tools that fit your workflow."
 
 [[feature]]
   icon = "key"
