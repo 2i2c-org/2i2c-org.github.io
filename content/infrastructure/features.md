@@ -11,36 +11,36 @@ weight = 10
 [[feature]]
   icon = "boxes"
   icon_pack = "fas"
-  name = "An environment for your community"
-  description = "2i2c Hubs provide data environments that have been designed for research and education, and can be customized for your community."
+  name = "Custom environments"
+  description = "Python, R, Julia - use whatever custom data science stack you want."
 
 [[feature]]
   icon = "desktop"
   icon_pack = "fas"
-  name = "Provide a variety of open source interfaces"
-  description = "Use a variety of user interfaces, including Jupyter Notebook, Jupyter Lab, RStudio, VSCode. If it can be run in a browser, it can run on a 2i2c Hub."
+  name = "Data Science UI"
+  description = "JupyterLab, Jupyter Notebook, RStudio - pick tools that fit your workflow."
 
 [[feature]]
-  icon = "book"
+  icon = "key"
   icon_pack = "fas"
-  name = "Connect with your own online content"
-  description = "Provide notebooks, text files, and scripts for your hub's community through links that point to online repositories."
+  name = "Frictionless Authentication"
+  description = "Reduce onboarding friction by logging in with your favorite authentication provider."
 
 [[feature]]
   icon = "tachometer-alt"
   icon_pack = "fas"
-  name = "Provide access to scalable computing"
-  description = "2i2c Hubs can provide tools for high-performance data analysis, along with cloud resources to scale your computation."
+  name = "Scalable compute"
+  description = "Data too big to fit in memory? Use <a href='https://dask.org/'>Dask</a> to analyze it at scale."
 
 [[feature]]
   icon = "project-diagram"
   icon_pack = "fas"
-  name = "Streamline access to your community's data"
-  description = "Use an online hub to provide access to large, complex, or otherwise inaccessible data in the cloud."
+  name = "Fast access to your data"
+  description = "Datasets too large to download to your laptop? Just access them from your JupyterHub instead."
 
 [[feature]]
   icon = "handshake"
   icon_pack = "fas"
-  name = "Built by the community, for the community"
-  description = "2i2c Hubs are entirely built on open-source infrastructure. No vendor  lock-in, no proprietary tools. You have the [right to replicate your infrastructure](/right-to-replicate) with or without 2i2c."
+  name = "Community built"
+  description = "No vendor lock-in, no proprietary tools, just community built open source projects. You can [recreate it without us](/right-to-replicate) anytime."
 +++
