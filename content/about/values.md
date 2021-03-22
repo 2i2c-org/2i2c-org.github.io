@@ -27,4 +27,4 @@ It serves these values through a commitment to a few core principles:
 * Build tools that are accessible along a variety of dimensions
 
 These principles help us guarantee our users the [Right to Replicate](/right-to-replicate) 
-the infrastructure we build for them without having rely on us.
+the infrastructure we manage for them without having rely on us.
