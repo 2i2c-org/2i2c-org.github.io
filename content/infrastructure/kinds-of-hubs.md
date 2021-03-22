@@ -4,26 +4,60 @@ weight = 30
   columns = "1"
 +++
 
-# Kinds of hubs
+# Kinds of JupyterHubs that we support
 
-2i2c Hubs are extremely flexible and customizable, and can generally meet most use-cases in research and education. That said, the complexity of a hub will impact how much work it takes to both deploy and maintain.
+JupyterHubs are flexible and customizable, and can generally meet most
+use-cases in research and education. There are 4 kinds of JupyterHub configurations
+we have found to be very common. We put extra emphasis on supporting these
+use-cases, which we'll describe below.
 
-2i2c broadly has two kinds of hubs that it offers for other communities.
+## JupyterHub for your class
 
-## Self-serve 2i2c hubs
+Teaching a class with data science elements? JupyterHub allows
+your students to log-in remotely with a pre-configured environment designed
+to connect to pedagogical materials. Pick from a list of curated data science
+environments, or bring your own with a standard Docker image.
+We will work with you to deploy and manage JupyterHub infrastructure for your
+learning environment.
 
-These hubs provide a base environment with reasonable defaults, and are relatively easy to setup and configure for a straightforward use-case. They are ideal for use-cases where there are not very complex environment, computing, or data needs for a community. They are a great choice for getting familiar with using JupyterHub infrastructure in the cloud, as well as for doing working with a use-case that is very common, such as data science education. They are meant to serve a large collection of communities.
+If you're interested in using a 2i2c managed JupyterHub for your class,
+[send us an email <i class="fas fa-envelope"></i>](mailto:hello@2i2c.org).
 
-The 2i2c [Hubs for All pilot](https://2i2c.org/pilot) is an example of these hubs in action.
+## JupyterHub for your research team
 
-## Bespoke 2i2c hubs
+JupyterHub can provide access to data, collaborators, scalable computing, and
+a variety of other tools that accelerate research and discovery. If you have large
+data sets, want a centralized place for your team to analyze data and collaborate,
+or wish to provide access to powerful cloud infrastructure, JupyterHub is an excellent
+tool to use. We will work with your research team to deploy and manage a JupyterHub
+that is designed for scalable research use-cases.
 
-These hubs are hand-tailored for your community. They start with a basic JupyterHub setup, and 2i2c will work with you to hand-craft the infrastructure, environment, etc to your needs. These are best-suited for larger or more diverse communities with more complex needs in their hub environment. For example, if you require access to authenticated data source in the cloud, scalable computing, or if you require your infrastructure to run on a particular vendor's infrastructure.
+If you're interested in using a 2i2c managed JupyterHub for your research group,
+[send us an email <i class="fas fa-envelope"></i>](mailto:hello@2i2c.org).
 
-If you're interested in working with 2i2c to create a bespoke hub for your community, [send us an email <i class="fas fa-envelope"></i>](mailto:hello@2i2c.org).
+## JupyterHub for your institution
 
-## Research development hubs
+Universities and departments with many classes, instructors, and students
+need more control over their JupyterHubs. You might want single sign-on integration with
+your university's authentication system, deep integration with your learning
+management system, administrative control on what kinda resources different
+classes get, etc. We will deploy and manage JupyterHub infrastructure in partnership
+with your organization - involving your staff as much (or as little) as you want.
+This not only provides a JupyterHub for your community, but also provides you
+opportunity and support to run the infrastructure yourselves one day.
 
-These hubs are designed to drive new open source development in collaboration with a particular research or educational use-case. They tend to be more complex and tailored for a specific use-case, such as a research team with highly-specialized needs. In this case, 2i2c will act as a collaborator with you and your community to drive new development in interactive computing infrastructure in order to better suit your community's needs, as well as those of the broader research and education communities. This often requires collaboratively writing grants or larger work plans.
+If you're interested in using a 2i2c managed JupyterHub for your educational institution,
+[send us an email <i class="fas fa-envelope"></i>](mailto:hello@2i2c.org).
 
-If you're interested in collaborating with 2i2c on a development-focused hub, [send us an email <i class="fas fa-envelope"></i>](mailto:hello@2i2c.org).
+
+## JupyterHubs for your event
+
+Running a data science hackathon or workshop? JupyterHub is a useful way to provide
+your participants a pre-configured environment and a common space to collaborate
+and explore data. You won't lose time setting up everyone's environment, debugging
+issues due to version mis-matches, or slowing down large data downloads due
+to flaky wifi. We will work with your event team to deploy and manage a JupyterHub
+for your event, with dedicated support during your event if needed.
+
+If you're interested in using a 2i2c managed JupyterHub for your event,
+[send us an email <i class="fas fa-envelope"></i>](mailto:hello@2i2c.org).
