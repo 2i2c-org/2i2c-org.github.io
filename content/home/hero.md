@@ -5,7 +5,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 100  # Order that this section will appear.
 
-title = "Interactive computing infrastructure for your <span class='text-success font-weight-bold'>community</span>."
+title = "<span class='text-success font-weight-bold'>Customized JupyterHubs</span> <small>for education & research</small>."
 
 # Hero image (optional). Enter filename of an image in the `static/media/` folder.
 hero_media = "2i2c-hub-overview.png"
@@ -47,4 +47,4 @@ hero_media = "2i2c-hub-overview.png"
 #  label = '2i2c provides open-source infrastructure for interactive computing at institutions of research and education.'
 +++
 
-2i2c is a non-profit organization that runs and supports customized JupyterHubs for educational & research users.
+2i2c is a non-profit organization that develops and runs fully open source interactive computing infrastructure for your community.
