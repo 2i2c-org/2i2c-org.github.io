@@ -9,7 +9,7 @@ title = "Our values and principles"
   columns = "1"
 +++
 
-As a non-profit organization that is defined and driven by our mission, we believe
+As a non-profit initiative that is defined and driven by our mission, we believe
 that values are crucial to accomplishing our goals in a way that is equitable
 and accessible to all.
 
@@ -25,3 +25,6 @@ It serves these values through a commitment to a few core principles:
 * Collaborate with open source and scientific communities
 * Provide community and core support, not just new features
 * Build tools that are accessible along a variety of dimensions
+
+These principles help us guarantee our users the [Right to Replicate](/right-to-replicate) 
+the infrastructure we manage for them without having rely on us.

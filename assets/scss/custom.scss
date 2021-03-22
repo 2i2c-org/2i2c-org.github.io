@@ -85,10 +85,25 @@ div.docs-sidebar {
 table {
     tr th:empty {
         display: none;
-    }    
-    
+    }
+
     tr td:first-child {
         text-align: center;
         font-size: 1.1em;
+    }
+}
+
+
+// Jobs page
+
+.job-cards {
+    font-size: .8em;
+
+    .extra-info {
+        font-style: italic;
+    }
+
+    button {
+        font-size: 1.3em;
     }
 }

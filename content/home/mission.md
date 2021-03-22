@@ -10,7 +10,7 @@ title = "What we do"
   columns = "1"
 +++
 
-2i2c is a non-profit that makes interactive computing more accessible and powerful for research and education. We strive to **accelerate research and discovery**, and to **empower education** to be more accessible, intuitive, and enjoyable. We do this through these primary actions:
+We make interactive computing more accessible and powerful for research and education. We strive to **accelerate research and discovery**, and to **empower education** to be more accessible, intuitive, and enjoyable. We do this through these primary actions:
 
 <div class="card-group mission-cards">
     <div class="card w-50 m-3" style="width: 18rem;">

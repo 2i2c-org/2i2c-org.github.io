@@ -10,7 +10,7 @@ authors:
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role:
+role: Open Source Infrastructure Engineer
 
 # Organizations/Affiliations
 organizations:
@@ -35,7 +35,7 @@ social:
   link: 'mailto:georgianaelena@2i2c.org'  # For a direct email link, use "mailto:test@example.org".
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/georgianaelena
+  link: https://twitter.com/GeorgianaElenaD
 - icon: github
   icon_pack: fab
   link: https://github.com/georgianaelena
@@ -48,3 +48,5 @@ social:
 user_groups:
 - Open Engineering Team
 ---
+
+Software Engineer irreversibly in love with open source. A JupyterHub team member, focusing on infrastructure and community growth. Previously JupyterHub Contributor in Residence and Outreachy intern through an internship that supports diversity in open source and free software.

@@ -1,21 +1,21 @@
 ---
 # Display name
-title: "Yuvi Panda"
+title: "Ryan Abernathey"
 
 # Username (this should match the folder name and the name on publications)
 authors:
-- "yuvi-panda"
+- "ryan-abernathy"
 
 # Is this the primary user of the site?
 superuser: true
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: Volunteer Director of Engineering
+role: Co-Founder
 
 # Organizations/Affiliations
 organizations:
-  - name: UC Berkeley
-    url: https://data.berkeley.edu/people/yuvi-panda
+  - name: Columbia University
+    url: https://ocean-transport.github.io/
 
 # Short bio (displayed in user profile at end of posts)
 bio:
@@ -30,13 +30,13 @@ interests: []
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:yuvipanda@gmail.com'  # For a direct email link, use "mailto:test@example.org".
+  link: 'mailto:rpa@ldeo.columbia.edu'  # For a direct email link, use "mailto:test@example.org".
 - icon: twitter
   icon_pack: fab
-  link: https://twitter.com/yuvipanda
+  link: https://twitter.com/rabernat
 - icon: github
   icon_pack: fab
-  link: https://github.com/yuvipanda
+  link: https://github.com/rabernat
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
@@ -45,8 +45,5 @@ email: ""
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
 - Founders
-- Open Engineering Team
 - Steering Council
 ---
-
-Building participatory open infrastructure for scientific & educational use cases. A Project Jupyter team member working on infrastructure related projects. Ex Wikimedia and ex-GNOME. Let's eliminate accidental complexities wherever we find them.
