@@ -3,7 +3,7 @@
 type = "blank"
 headless = true  # Homepage is headless, other widget pages are not.
 weight = 1
-title = "The 2i2c managed JupyterHubs"
+title = "JupyterHub, managed by 2i2c"
 
 [design]
   columns = "1"
