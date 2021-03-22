@@ -11,7 +11,7 @@ use-cases in research and education. There are 4 kinds of JupyterHub configurati
 we have found to be very common. We put extra emphasis on supporting these
 use-cases, which we'll describe below.
 
-## Teaching and learning with data science
+## JupyterHub for your class
 
 Teaching a class with data science elements? JupyterHub allows
 your students to log-in remotely with a pre-configured environment designed
@@ -23,7 +23,7 @@ learning environment.
 If you're interested in using a 2i2c managed JupyterHub for your class,
 [send us an email <i class="fas fa-envelope"></i>](mailto:hello@2i2c.org).
 
-## Scalable and collaborative research environments
+## JupyterHub for your research team
 
 JupyterHub can provide access to data, collaborators, scalable computing, and
 a variety of other tools that accelerate research and discovery. If you have large
@@ -35,7 +35,7 @@ that is designed for scalable research use-cases.
 If you're interested in using a 2i2c managed JupyterHub for your research group,
 [send us an email <i class="fas fa-envelope"></i>](mailto:hello@2i2c.org).
 
-## Institutional JupyterHub deployments for education
+## JupyterHub for your institution
 
 Universities and departments with many classes, instructors, and students
 need more control over their JupyterHubs. You might want single sign-on integration with
@@ -50,7 +50,7 @@ If you're interested in using a 2i2c managed JupyterHub for your educational ins
 [send us an email <i class="fas fa-envelope"></i>](mailto:hello@2i2c.org).
 
 
-## JupyterHubs for events
+## JupyterHubs for your event
 
 Running a data science hackathon or workshop? JupyterHub is a useful way to provide
 your participants a pre-configured environment and a common space to collaborate
