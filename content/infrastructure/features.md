@@ -12,13 +12,13 @@ weight = 10
   icon = "boxes"
   icon_pack = "fas"
   name = "Custom environments"
-  description = "Python? R? Julia? Use whatever custom data science stack you want."
+  description = "Python, R, Julia - Use whatever custom data science stack you want."
 
 [[feature]]
   icon = "desktop"
   icon_pack = "fas"
   name = "Data Science UI"
-  description = "JupyterLab, Jupyter Notebook, RStuio - pick tools that fits your workflow."
+  description = "JupyterLab, Jupyter Notebook, RStudio - pick tools that fits your workflow."
 
 [[feature]]
   icon = "key"
