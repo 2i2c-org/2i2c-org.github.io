@@ -25,3 +25,6 @@ It serves these values through a commitment to a few core principles:
 * Collaborate with open source and scientific communities
 * Provide community and core support, not just new features
 * Build tools that are accessible along a variety of dimensions
+
+These principles help us guarantee our users the [Right to Replicate](/right-to-replicate) 
+the infrastructure we manage for them without having rely on us.
