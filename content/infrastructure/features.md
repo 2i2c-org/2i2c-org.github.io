@@ -24,7 +24,7 @@ weight = 10
   icon = "key"
   icon_pack = "fas"
   name = "Frictionless Authentication"
-  description = "Reduce onboarding friction by logging in your favorite authentication provider."
+  description = "Reduce onboarding friction by logging in with your favorite authentication provider."
 
 [[feature]]
   icon = "tachometer-alt"
