@@ -2,8 +2,8 @@
 # Homepage
 type = "blank"
 headless = true  # Homepage is headless, other widget pages are not.
-weight = 30
-title = "Open tools that we use and support"
+weight = 109
+title = ""
 
 [design]
   columns = "1"

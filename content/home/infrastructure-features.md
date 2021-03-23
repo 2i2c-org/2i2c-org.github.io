@@ -1,7 +1,7 @@
 +++
 widget = "featurette"
 headless = true  # This file represents a page section.
-weight = 10
+weight = 107
 
 # ... Put Your Section Options Here (title etc.) ...
 
@@ -44,3 +44,6 @@ weight = 10
   name = "Community built"
   description = "No vendor lock-in, no proprietary tools, just community built open source projects. You can [recreate it without us](/right-to-replicate) anytime."
 +++
+
+<h2>Managed JupyterHub features</h2>
+
