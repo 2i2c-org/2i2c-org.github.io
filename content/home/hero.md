@@ -5,10 +5,10 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 100  # Order that this section will appear.
 
-title = "Interactive computing infrastructure for your <span class='text-success font-weight-bold'>community</span>."
+title = "<span class=' font-weight-bold'>Interactive computing infrastructure</span> <small>for your community</small>"
 
 # Hero image (optional). Enter filename of an image in the `static/media/` folder.
-hero_media = "2i2c-hub-overview.png"
+hero_media = ""
 
 [design.background]
   # Apply a background color, gradient, or image.
