@@ -4,12 +4,9 @@ weight = 30
   columns = "1"
 +++
 
-# Kinds of JupyterHubs that we support
+# Our JupyterHub Distributions
 
-JupyterHubs are flexible and customizable, and can generally meet most
-use-cases in research and education. There are 4 kinds of JupyterHub configurations
-we have found to be very common. We put extra emphasis on supporting these
-use-cases, which we'll describe below.
+We design JupyterHub distributions to meet the needs of particular use-cases in research and education. Below are our most common use-cases - each has a JupyterHub distribution that we can deploy and manage for you.
 
 ## JupyterHub for your class
 
@@ -49,8 +46,7 @@ opportunity and support to run the infrastructure yourselves one day.
 If you're interested in using a 2i2c managed JupyterHub for your educational institution,
 [send us an email <i class="fas fa-envelope"></i>](mailto:hello@2i2c.org).
 
-
-## JupyterHubs for your event
+## JupyterHub for your event
 
 Running a data science hackathon or workshop? JupyterHub is a useful way to provide
 your participants a pre-configured environment and a common space to collaborate
