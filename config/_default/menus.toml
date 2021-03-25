@@ -4,7 +4,7 @@
 #   The weight parameter defines the order that the links will appear in.
 
 [[main]]
-  name = "2i2c Hubs"
+  name = "Managed JupyterHubs"
   url = "infrastructure/"
   weight = 10
 

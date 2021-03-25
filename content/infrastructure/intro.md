@@ -3,7 +3,7 @@
 type = "blank"
 headless = true  # Homepage is headless, other widget pages are not.
 weight = 1
-title = "The 2i2c Hubs"
+title = "JupyterHub, managed by 2i2c"
 
 [design]
   columns = "1"
@@ -12,7 +12,7 @@ title = "The 2i2c Hubs"
 <div class="row">
   <div class="col-6">
 
-2i2c Hubs are hosted interactive computing environments that run in the cloud and are powered by entirely open-source technology. They are designed to accelerate research, enhance education, and promote collaboration. They are flexible, customizable, powerful, open-source, and can run on a variety of cloud infrastructure.
+2i2c managed JupyterHubs are hosted interactive computing environments that run in the cloud and are powered by entirely open-source technology. They are designed to accelerate research, enhance education, and promote collaboration. They are flexible, customizable, powerful, open-source, and can run on a variety of cloud infrastructure.
 
   </div>
   <div class="col-6">

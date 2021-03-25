@@ -38,7 +38,7 @@ hero_media = ""
 #   Remove a link/note by deleting a cta/note block.
 [cta]
   url = "infrastructure"
-  label = "What's a 2i2c Hub?"
+  label = "What's a 2i2c managed JupyterHub?"
   # icon_pack = "fas"
   # icon = "envelope"
 

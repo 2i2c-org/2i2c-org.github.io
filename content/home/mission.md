@@ -17,7 +17,7 @@ We make interactive computing more accessible and powerful for research and educ
         <div class="card-body text-center">
             <h5 class="card-title">Manage interactive computing infrastructure for research and education</h5>
             <p class="card-text">
-            2i2c provides managed hubs for data science in research and engineering communities. They are tailored for the communities they serve and 💯 open source.
+            2i2c provides managed JupyterHubs for data science in research and engineering communities. They are tailored for the communities they serve and 💯 open source.
             </p>
         </div>
         <div class="card-footer text-center">
