@@ -2,7 +2,7 @@
 # Homepage
 type = "blank"
 headless = true  # Homepage is headless, other widget pages are not.
-weight = 1
+weight = 10
 title = "Open source tools for research and education"
 
 [design]

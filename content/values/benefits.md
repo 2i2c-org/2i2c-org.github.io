@@ -2,7 +2,7 @@
 # Homepage
 type = "blank"
 headless = true  # Homepage is headless, other widget pages are not.
-weight = 2
+weight = 30
 title = "Why open source infrastructure?"
 
 [design]

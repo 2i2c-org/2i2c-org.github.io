@@ -39,8 +39,10 @@ hero_media = ""
 [cta]
   url = "infrastructure"
   label = "What's a 2i2c managed JupyterHub?"
-  # icon_pack = "fas"
-  # icon = "envelope"
+
+[cta_alt]
+  url ="projects"
+  label = "Our Projects"
 
 # Note. An optional note to show underneath the links.
 # [cta_note]
