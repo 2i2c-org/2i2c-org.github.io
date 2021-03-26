@@ -9,7 +9,7 @@ title = "Our values and principles"
   columns = "1"
 +++
 
-As a non-profit initiative that is defined and driven by our mission, we believe
+We are defined and driven by our mission, and believe
 that values are crucial to accomplishing our goals in a way that is equitable
 and accessible to all.
 
@@ -19,7 +19,7 @@ Here are some of the core values underlying 2i2c:
 * 2i2c values learning and discovery for all people.
 * 2i2c values collaborating and connecting to foster environments for learning and discovery.
 
-It serves these values through a commitment to a few core principles:
+We serve these values through a commitment to a few core principles:
 
 * Build tools that maximize flexibility and choice
 * Collaborate with open source and scientific communities
