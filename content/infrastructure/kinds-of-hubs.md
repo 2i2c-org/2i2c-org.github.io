@@ -35,7 +35,7 @@ your university's authentication system, deep integration with your learning
 management system, administrative control on what kinda resources different
 classes get, etc. We will deploy and manage JupyterHub infrastructure in partnership
 with your organization - involving your staff as much (or as little) as you want.
-This not only provides a JupyterHub for your community, but also provides you
+This not only provides a JupyterHub for your community, but also gives you
 opportunity and support to run the infrastructure yourselves one day.
 
 ## JupyterHub for your event 📅
