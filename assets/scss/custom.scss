@@ -6,6 +6,14 @@ section.wg-blank {
     }
 }
 
+.section-heading h1 {
+    font-size: 1.8em;
+}
+
+button.btn-primary a {
+    border-bottom: 0;
+}
+
 // Home page
 h1.hero-title {
     max-width: 768px;

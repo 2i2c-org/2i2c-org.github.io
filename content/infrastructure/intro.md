@@ -12,7 +12,7 @@ title = "JupyterHub, managed by 2i2c"
 <div class="row">
   <div class="col-6">
 
-2i2c managed JupyterHubs are hosted interactive computing environments that run in the cloud and are powered by entirely open-source technology. They are designed to accelerate research, enhance education, and promote collaboration. They are flexible, customizable, powerful, open-source, and can run on a variety of cloud infrastructure.
+2i2c **designs** and **manages** distributions of JupyterHub to provide scalable, flexible interactive computing environments in the cloud. They are designed to accelerate research, enhance education, and promote collaboration. They can be run [with or without 2i2c](/content/right-to-replicate).
 
   </div>
   <div class="col-6">

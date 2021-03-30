@@ -2,7 +2,6 @@
 widget = "people"  # Use the People widget
 headless = true  # This file represents a page section.
 title = "Our team"
-subtitle = "Hi there"
 weight = 20
 
 [content]
@@ -17,3 +16,5 @@ weight = 20
   # Show user's interests? (true/false)
   show_interests = false
 +++
+
+2i2c's Open Engineering team focuses on strategy, development, and operations of infrastructure for interactive computing. The Steering Council of 2i2c defines high-level strategy of the organization as well as provides oversight. Here is [more information about 2i2c's structure and governance](https://2i2c.org/team-compass/about/structure/).

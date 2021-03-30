@@ -35,7 +35,7 @@ We created 2i2c so that these organizations can use entirely open-source tools w
 It may sound strange to create a non-profit initiative when there are many VC-funded startups and large tech companies offering notebook services these days. However, we think that a non-profit organization is the right approach to balance the interests of all the stakeholders that we wish to serve. We hope that 2i2c will be a partner to:
 
 - **Research and educational communities**, who can rely on 2i2c to provide them cutting-edge infrastructure for interactive computing that is 💯 open source.
-- **Researchers and educators who need development**, who can rely on 2i2c as a collaborator that provides development and expertise in open-source infrastructure to push the cutting edge of interactive computing in the cloud.
+- **Researchers and educators who need development**, who can rely on 2i2c as a collaborator that offers development and expertise in open-source infrastructure to push the cutting edge of interactive computing in the cloud.
 - **Open source communities**, who can count on 2i2c support and grow the communities that underlie the tools that we deploy.
 - **Cloud providers**, who wish to help the research and educational community via their infrastructure.
 - **Supporters of open source** who wish to support interactive computing for research and education via a non-profit dedicated to exactly this mission.

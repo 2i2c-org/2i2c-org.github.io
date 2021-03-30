@@ -39,12 +39,14 @@ hero_media = ""
 [cta]
   url = "infrastructure"
   label = "What's a 2i2c managed JupyterHub?"
-  # icon_pack = "fas"
-  # icon = "envelope"
+
+[cta_alt]
+  url ="projects"
+  label = "Our Projects"
 
 # Note. An optional note to show underneath the links.
 # [cta_note]
-#  label = '2i2c provides open-source infrastructure for interactive computing at institutions of research and education.'
+#  label = '2i2c offers open-source infrastructure for interactive computing at institutions of research and education.'
 +++
 
-2i2c is a non-profit organization that runs and supports customized JupyterHubs for educational & research users.
+2i2c is a non-profit organization that designs, develops, and manages customized JupyterHubs for communities in education & research.

@@ -15,9 +15,9 @@ We make interactive computing more accessible and powerful for research and educ
 <div class="card-group mission-cards">
     <div class="card w-50 m-3" style="width: 18rem;">
         <div class="card-body text-center">
-            <h5 class="card-title">Manage interactive computing infrastructure for research and education</h5>
+            <h5 class="card-title">Manage and build interactive computing infrastructure for research and education</h5>
             <p class="card-text">
-            2i2c provides managed JupyterHubs for data science in research and engineering communities. They are tailored for the communities they serve and 💯 open source.
+            2i2c offers managed JupyterHubs for data science in research and engineering communities. They are tailored for the communities they serve and 💯 open source.
             </p>
         </div>
         <div class="card-footer text-center">
@@ -26,9 +26,9 @@ We make interactive computing more accessible and powerful for research and educ
     </div>
     <div class="card w-50  m-3" style="width: 18rem;">
         <div class="card-body text-center">
-            <h5 class="card-title">Support open source tools and communities that underlie this infrastructure</h5>
+            <h5 class="card-title">Develop new technology for research and education.</h5>
             <p class="card-text">
-            2i2c develops, supports, leads, and advocates for open source tools in interactive computing that are created, used, and controlled by the community.
+            2i2c leads projects and collaborates with others in research and education, providing experience in interactive computing and the Jupyter ecosystem to build new technology that supports these communities.
             </p>
         </div>
         <div class="card-footer text-center">
@@ -37,6 +37,7 @@ We make interactive computing more accessible and powerful for research and educ
     </div>
 </div>
 
+In all of the work we do, we live [our values](/values) by collaborating with others, using and building open source infrastructure in partnership with communities, and creating technology that makes interactive computing more accessible and powerful for all.
 
 [2i2c's founding team](/about) has years of experience in
 [infrastructure for interactive computing](/infrastructure) in research and education,
