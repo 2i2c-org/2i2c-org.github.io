@@ -30,7 +30,7 @@ We have deep ties to the open source community, and have been leaders and core c
 
 We believe strongly in communities that are inclusive, transparent, equitable, effective, and diverse, especially 2i2c itself. We believe that our values should permeate everything about 2i2c, including the work we do, the communities we serve, and our own organizational culture.
 
-2i2c is a project of the [International Computer Science Institute](https://icsi.berkeley.edu), a 501(c)(3) not-for-profit.
+2i2c's host organization is the [International Computer Science Institute](https://icsi.berkeley.edu), a 501(c)(3) not-for-profit.
 
 ## What you’ll do
 
