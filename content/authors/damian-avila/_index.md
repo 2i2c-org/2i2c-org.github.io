@@ -24,7 +24,6 @@ bio:
 
 # List each interest with a dash
 interests:
-```suggestion
 - Jupyter Ecosystem
 - Finance/Quant
 - Education
