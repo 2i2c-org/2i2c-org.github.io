@@ -47,4 +47,3 @@ social:
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
 - Open Engineering Team
----
