@@ -53,3 +53,11 @@ social:
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
 - Open Engineering Team
+---
+
+Father, Software Developer, Quant, (formerly) Biochemist, and some other things ;-)
+Currently living between Córdoba and Buenos Aires, Argentina.
+I have made some contributions to popular Open Source projects such as Jupyter, Nikola, and Bokeh.
+I have also started several projects being RISE (a "live" slideshow for the Jupyter notebook) the most popular one.
+You can easily find videos of some of my talks and tutorials at multiples national and international conferences.
+How can I help?
