@@ -2,9 +2,9 @@
 title: "Pilot hubs, new collaborations, and new team members - A six month update"
 summary: ""
 authors: ["Chris Holdgraf"]
-tags: [meta]
-categories: []
-date: 2021-05-24
+tags: []
+categories: [update]
+date: 2021-05-25
 featured: false
 draft: false
 ---
@@ -12,22 +12,22 @@ draft: false
 It has been about six months since 2i2c first began operations (after receiving [funding from the Chan Zuckerberg Initiative](../czi-core-support)).
 In that time we've made progress along several directions, and wish to use this blog post to provide updates about the ways in which 2i2c has evolved over the first months of its existence.
 
-Below are a few major updates from the 2i2c community - as always, if you want to learn more about 2i2c, keep an eye [on our blog](https://2i2c.org/posts/) or subscribe to the [2i2c mailing list](https://2i2c.org/#contact).
+Below are a few major updates from the 2i2c community - as always, if you want to learn more about 2i2c, keep an eye [on our blog](/posts/) or subscribe to the [2i2c mailing list](/#contact).
 
 ## Early pilot JupyterHub infrastructure
 
 First off - we have been making progress building out our JupyterHub deployment infrastructure for 2i2c.
-One of our major organizational goals is to build a sustainable service [managing open source cloud infrastructure](https://2i2c.org/infrastructure/) for interactive computing.
+One of our major organizational goals is to build a sustainable service [managing open source cloud infrastructure](infrastructure/) for interactive computing.
 This service will provide hosted, customized JupyterHubs for communities of practice in research and education.
-They'll be built entirely with open source tools that are community-driven, and that [respect the customer's Right to Replicate](https://2i2c.org/right-to-replicate/).
+They'll be built entirely with open source tools that are community-driven, and that [respect the customer's Right to Replicate](right-to-replicate/).
 
-In order to accomplish this, 2i2c is running several pilots with partners and interested organizations, supported by our funding from CZI, as well as from [the JROST rapid response fund](https://investinopen.org/blog/jrost-rapid-response-fund-awardees/).
+In order to accomplish this, 2i2c is running several pilots with partners and interested organizations, supported by our [funding from CZI](../czi-core-support), as well as from [the JROST rapid response fund](https://investinopen.org/blog/jrost-rapid-response-fund-awardees/).
 These pilots are meant to be learning opportunities to understand what kind of infrastructure and service it needs to build moving forward.
 
-In the past several months we have made progress towards our [pilot hubs infrastructure](https://pilot-hubs.2i2c.org/en/latest/).
-This is a centralized location for configuring and deploying a federated network of JupyterHubs.
-Each JupyterHub is independent of one another, and could be spun out from the centralized repository with minimal extra work.
-You can [see all of our deployment infrastructure here](https://github.com/2i2c-org/pilot-hubs) - we will continue refining the code in this repository as we learn more from our hub infrastructure pilots.
+The [documentation for our pilot hubs infrastructure](https://pilot-hubs.2i2c.org/en/latest/) contains information about our deployments and infrastructure.
+It is served from [this `2i2c-org/pilot-hubs` repository](https://github.com/2i2c-org/pilot-hubs), a centralized location for configuring and deploying a federated network of JupyterHubs.
+Each JupyterHub is independent of one another, and could be spun out from the centralized repository with minimal extra work, giving hub users the ability to [replicate their infrastructure, with or without 2i2c](/right-to-replicate).
+We will continue refining the code in this repository as we learn more from our hub infrastructure pilots.
 
 ## JupyterHub for geospatial analytics - A collaboration with Pangeo
 
