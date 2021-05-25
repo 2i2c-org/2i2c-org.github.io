@@ -17,7 +17,7 @@ We will continue refining the code in this repository as we learn more from our 
 This collaboration is funded through a grant from the Moore Foundation (via Pangeo investigator Ryan Abernathey).&lt;/p>
 &lt;p>Over the coming months, 2i2c plans to assume operation of infrastructure underlying the Pangeo project, allowing the Pangeo team to focus their efforts on their core scientific and development missions.
 Because Pangeo&amp;rsquo;s infrastructure is already running on a fully open source stack with JupyterHub, our first step will simply be to shift control over this infrastructure to 2i2c engineers.
-We don&amp;rsquo;t anticipate needing to make major to changes to their infrastructure and deployments (part of the benefits of using open, modular tools).&lt;/p>
+We don&amp;rsquo;t anticipate needing to make major changes to their infrastructure and deployments (part of the benefits of using open, modular tools).&lt;/p>
 &lt;p>Once this is complete, we&amp;rsquo;ll next shift our attention to some new areas of development that support use-cases in the Pangeo community (and in the scientific community more broadly).
 There&amp;rsquo;s a lot of progress that we imagine making - such as &lt;a href="https://gallery.pangeo.io" target="_blank" rel="noopener">supporting publishing pipelines via the Pangeo Gallery&lt;/a> or improving tools for scalable computing with &lt;a href="https://gateway.dask.org/" target="_blank" rel="noopener">Dask Gateway&lt;/a>.
 We&amp;rsquo;ll provide updates as we formally begin this collaboration and hash out a plan for our next steps.&lt;/p>
