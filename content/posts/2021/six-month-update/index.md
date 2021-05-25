@@ -36,7 +36,7 @@ This collaboration is funded through a grant from the Moore Foundation (via Pang
 
 Over the coming months, 2i2c plans to assume operation of infrastructure underlying the Pangeo project, allowing the Pangeo team to focus their efforts on their core scientific and development missions.
 Because Pangeo's infrastructure is already running on a fully open source stack with JupyterHub, our first step will simply be to shift control over this infrastructure to 2i2c engineers.
-We don't anticipate needing to make major to changes to their infrastructure and deployments (part of the benefits of using open, modular tools).
+We don't anticipate needing to make major changes to their infrastructure and deployments (part of the benefits of using open, modular tools).
 
 Once this is complete, we'll next shift our attention to some new areas of development that support use-cases in the Pangeo community (and in the scientific community more broadly).
 There's a lot of progress that we imagine making - such as [supporting publishing pipelines via the Pangeo Gallery](https://gallery.pangeo.io) or improving tools for scalable computing with [Dask Gateway](https://gateway.dask.org/).
