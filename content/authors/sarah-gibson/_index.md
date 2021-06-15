@@ -57,5 +57,5 @@ She holds more than 2 years of experience as a Research Engineer at a national i
 Sarah is passionate about working with domain experts to leverage cloud computing in order to accelerate cutting-edge, data-intensive research and disseminating the results in an open, reproducible and reusable manner.
 
 Sarah holds a Fellowship with the [Software Sustainability Institute](https://software.ac.uk) and advocates for best software practices in research.
-She is a member of the mybinder.org operating team and maintains infrastructure supporting over 150k launches of reproducible computational environments per week.
+She is a member of the [mybinder.org operating team](https://jupyterhub-team-compass.readthedocs.io/en/latest/team.html#jupyterhub-team) and maintains infrastructure supporting over 150k launches of reproducible computational environments per week.
 She has also mentored projects through 2 cohorts of the [Open Life Science](https://openlifesci.org) programme, imparting lived experience of her skills participating and leading in open science projects.
