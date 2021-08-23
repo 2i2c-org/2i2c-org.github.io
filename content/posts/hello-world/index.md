@@ -14,7 +14,8 @@ draft: false
 
 We'd like to announce the creation of a new non-profit organization[^1] that we call **2i2c**.
 
-[^1]: 2i2c's host organization is the [International Computer Science Institute](http://www.icsi.berkeley.edu/), a 501(c)(3) charitable organization. We thank ICSI for its collaboration and leadership in launching 2i2c!
+[^1]: **EDIT 08-2021: We are now a fiscally-sponsored project of [Code for Science and Society](https://codeforscience.org) and ICSI is no longer our host organization. We are leaving this section here for archival purposes, and to give credit to ICSI for their help in launching 2i2c**. 2i2c's host organization is the [International Computer Science Institute](http://www.icsi.berkeley.edu/), a 501(c)(3) charitable organization. We thank ICSI for its collaboration and leadership in launching 2i2c! 
+
 
 2i2c stands for **The International Interactive Computing Collaboration**. It is a non-profit dedicated to making open tools for interactive computing more accessible and more powerful for the research and education communities.
 
