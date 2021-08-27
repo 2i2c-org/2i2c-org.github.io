@@ -51,6 +51,31 @@ Note that pyspelling may find some errors that are simply un-recognized, but cor
 
 For more information, see [the `pyspelling` documentation](https://facelessuser.github.io/pyspelling/).
 
+## Blog post feed
+
+Our blog post feed is at https://2i2c.org/posts/, and contains a feed of posts from 2i2c team members.
+
+This feed contains both **internal** and **external** blog posts.
+In general, when team members do work associated with other open source projects, we should write those posts in other spaces and cross-link them from the 2i2c blog.
+
+### Make an internal blog post
+
+The way to make a regular blog post is by following the standard Hugo documentation for internal blog posts. Check out [the WowChemy theme documentation](https://wowchemy.com/docs/content/blog-posts/) for one way to do this.
+
+### Make an external blog post
+
+To make an external blog post, follow these steps:
+
+- Generate a blog post folder and include a markdown file similarly to how you'd generate an internal blog post.
+- Add an `external_link` metadata parameter at the top of the file. The value of this parameter will be the external link the post should point to.
+- All other metadata can be the same, and will be used to share the post author, published order, etc.
+
+### Featured images in blog posts
+
+Featured images are displayed to the right of each post in our post feed.
+By default, you can add a featured image directly to the blog post's folder by adding an image called `featured*`. For example, `featured.jpg`, `featured-image.png`, etc.
+
+If you'd like to re-use another image on the site, you can create a **symbolic link** from the post folder to the image you'd like to re-use. This helps us save space and load time.
 
 ## This website's theme
 
