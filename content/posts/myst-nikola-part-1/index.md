@@ -2,7 +2,7 @@
 title: "A deep dive into MyST, Part 1: The MyST-Parser Python API usage in Nikola"
 subtitle: ""
 summary: ""
-authors: ["Damian Avila"]
+authors: ["Damián Avila"]
 tags: [jupyter, executablebooks]
 categories: []
 date: 2021-08-23
