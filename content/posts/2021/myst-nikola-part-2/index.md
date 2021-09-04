@@ -1,5 +1,5 @@
 ---
-title: "A deep dive into MyST, Part 1: The MyST-Parser Python API usage in Nikola"
+title: "A deep dive into MyST, Part 2: The MyST-Parser, Docutils and Sphinx"
 subtitle: ""
 summary: ""
 authors: ["Damián Avila"]
