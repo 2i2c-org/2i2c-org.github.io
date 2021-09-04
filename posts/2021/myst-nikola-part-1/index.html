@@ -5,8 +5,8 @@
 <meta http-equiv=x-ua-compatible content="IE=edge">
 <meta name=generator content="Wowchemy 5.3.0 for Hugo">
 <meta name=author content="Chris Holdgraf">
-<meta name=description content="The International Interactive Computing Collaboration">
-<link rel=alternate hreflang=en-us href=./>
+<meta name=description content>
+<link rel=alternate hreflang=en-us href=../../../posts/2021/myst-nikola-part-1/>
 <link rel=preconnect href=https://fonts.gstatic.com crossorigin>
 <meta name=theme-color content="#1565c0">
 <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin=anonymous media=print onload="this.media='all'">
@@ -14,71 +14,68 @@
 <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css crossorigin=anonymous title=hl-dark media=print onload="this.media='all'" disabled>
 <link rel=preload as=style href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
 <link rel=stylesheet href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media=print onload="this.media='all'">
-<link rel=stylesheet href=./css/wowchemy.aeac4eeaf2fda5cf04c1eb11096195e5.css>
+<link rel=stylesheet href=../../../css/wowchemy.aeac4eeaf2fda5cf04c1eb11096195e5.css>
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-170352908-1"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}function trackOutboundLink(a,b){gtag('event','click',{event_category:'outbound',event_label:a,transport_type:'beacon',event_callback:function(){b!=='_blank'&&(document.location=a)}}),console.debug("Outbound link clicked: "+a)}function onClickCallback(a){if(a.target.tagName!=='A'||a.target.host===window.location.host)return;trackOutboundLink(a.target,a.target.getAttribute('target'))}gtag('js',new Date),gtag('config','UA-170352908-1',{anonymize_ip:!0}),gtag('set',{cookie_flags:'SameSite=None;Secure'}),document.addEventListener('click',onClickCallback,!1)</script>
-<script src=https://identity.netlify.com/v1/netlify-identity-widget.js></script>
-<link rel=alternate href=./index.xml type=application/rss+xml title=2i2c>
-<link rel=manifest href=./manifest.webmanifest>
-<link rel=icon type=image/png href=./media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_32x32_fill_lanczos_center_3.png>
-<link rel=apple-touch-icon type=image/png href=./media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_180x180_fill_lanczos_center_3.png>
-<link rel=canonical href=./>
-<meta property="twitter:card" content="summary">
+<link rel=manifest href=../../../manifest.webmanifest>
+<link rel=icon type=image/png href=../../../media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_32x32_fill_lanczos_center_3.png>
+<link rel=apple-touch-icon type=image/png href=../../../media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_180x180_fill_lanczos_center_3.png>
+<link rel=canonical href=../../../posts/2021/myst-nikola-part-1/>
+<meta property="twitter:card" content="summary_large_image">
 <meta property="twitter:site" content="@2i2c_org">
 <meta property="twitter:creator" content="@2i2c_org">
 <meta property="og:site_name" content="2i2c">
-<meta property="og:url" content="/">
-<meta property="og:title" content="2i2c">
-<meta property="og:description" content="The International Interactive Computing Collaboration"><meta property="og:image" content="/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png">
-<meta property="twitter:image" content="/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_512x512_fill_lanczos_center_3.png"><meta property="og:locale" content="en-us">
-<meta property="og:updated_time" content="2021-09-04T00:00:00+00:00">
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"WebSite","url":"/"}</script>
-<script type=application/ld+json>{"@context":"https://schema.org","@type":"Project","@id":"/","name":"2i2c","logo":"/media/icon_hua2ec155b4296a9c9791d015323e16eb5_11927_192x192_fill_lanczos_center_3.png","url":"/"}</script>
+<meta property="og:url" content="/posts/2021/myst-nikola-part-1/">
+<meta property="og:title" content="A deep dive into MyST, Part 1: The MyST-Parser Python API usage in Nikola | 2i2c">
+<meta property="og:description" content><meta property="og:image" content="/posts/2021/myst-nikola-part-1/featured.png">
+<meta property="twitter:image" content="/posts/2021/myst-nikola-part-1/featured.png"><meta property="og:locale" content="en-us">
+<meta property="article:published_time" content="2021-08-23T00:00:00+00:00">
+<meta property="article:modified_time" content="2021-08-23T00:00:00+00:00">
 <script src=https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.js integrity="sha256-5VhCqFam2Cn+yjw61zbBNrbHVJ6SRydPeKopYlngbiQ=" crossorigin=anonymous></script>
 <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.css integrity="sha256-zQ0LblD/Af8vOppw18+2anxsuaz3pWYyVWi+bTvTH8Q=" crossorigin=anonymous>
 <script>window.addEventListener("load",function(){window.cookieconsent.initialise({palette:{popup:{background:"#1565c0",text:"rgb(255, 255, 255)"},button:{background:"rgb(255, 255, 255)",text:"#1565c0"}},theme:"classic",content:{message:"This website uses cookies to ensure you get the best experience on our website.",dismiss:"Got it!",link:"Learn more",href:"https://www.cookiesandyou.com"}})})</script>
-<title>2i2c</title>
+<title>A deep dive into MyST, Part 1: The MyST-Parser Python API usage in Nikola | 2i2c</title>
 </head>
-<body id=top data-spy=scroll data-offset=70 data-target=#navbar-main class=page-wrapper>
-<script src=./js/wowchemy-init.min.7f3e7639f4c7f2a2cf83b68ea7de7f08.js></script>
+<body id=top data-spy=scroll data-offset=70 data-target=#TableOfContents class=page-wrapper data-wc-page-id=20993712705d326847182341cb894429>
+<script src=../../../js/wowchemy-init.min.7f3e7639f4c7f2a2cf83b68ea7de7f08.js></script>
 <div class=page-header>
 <nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id=navbar-main>
 <div class=container-xl>
 <div class="d-none d-lg-inline-flex">
-<a class=navbar-brand href=./>2i2c</a>
+<a class=navbar-brand href=../../../>2i2c</a>
 </div>
 <button type=button class=navbar-toggler data-toggle=collapse data-target=#navbar-content aria-controls=navbar-content aria-expanded=false aria-label="Toggle navigation">
 <span><i class="fas fa-bars"></i></span>
 </button>
 <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
-<a class=navbar-brand href=./>2i2c</a>
+<a class=navbar-brand href=../../../>2i2c</a>
 </div>
 <div class="navbar-collapse main-menu-item collapse justify-content-start" id=navbar-content>
 <ul class="navbar-nav d-md-inline-flex">
 <li class=nav-item>
-<a class=nav-link href=./infrastructure/><span>Managed JupyterHubs</span></a>
+<a class=nav-link href=../../../infrastructure/><span>Managed JupyterHubs</span></a>
 </li>
 <li class=nav-item>
-<a class=nav-link href=./projects/><span>Projects</span></a>
+<a class=nav-link href=../../../projects/><span>Projects</span></a>
 </li>
 <li class=nav-item>
-<a class=nav-link href=./values/><span>Values</span></a>
+<a class=nav-link href=../../../values/><span>Values</span></a>
 </li>
 <li class="nav-item dropdown">
 <a href=# class="nav-link dropdown-toggle" data-toggle=dropdown aria-haspopup=true><span>About Us</span><span class=caret></span>
 </a>
 <div class=dropdown-menu>
-<a class=dropdown-item href=./about/ data-target=about/><span>About 2i2c</span></a>
-<a class=dropdown-item href=./founders/ data-target=founders/><span>Founding Team</span></a>
-<a class=dropdown-item href=./right-to-replicate/ data-target=right-to-replicate/><span>Right to Replicate</span></a>
-<a class=dropdown-item href=./careers/ data-target=careers/><span>Careers</span></a>
+<a class=dropdown-item href=../../../about/><span>About 2i2c</span></a>
+<a class=dropdown-item href=../../../founders/><span>Founding Team</span></a>
+<a class=dropdown-item href=../../../right-to-replicate/><span>Right to Replicate</span></a>
+<a class=dropdown-item href=../../../careers/><span>Careers</span></a>
 </div>
 </li>
 <li class=nav-item>
-<a class=nav-link href=./posts/><span>Blog</span></a>
+<a class="nav-link active" href=../../../posts/><span>Blog</span></a>
 </li>
 <li class=nav-item>
-<a class=nav-link href=./#contact data-target=#contact><span>Contact</span></a>
+<a class=nav-link href=../../../#contact><span>Contact</span></a>
 </li>
 <li class=nav-item>
 <a class=nav-link href=https://twitter.com/2i2c_org target=_blank rel=noopener><i class="fab fa-twitter"></i><span></span></a>
@@ -91,74 +88,63 @@
 </nav>
 </div>
 <div class=page-body>
-<span class="js-widget-page d-none"></span>
-<section id=hero class="home-section wg-hero light">
-<div class=home-section-bg></div>
-<div class=container>
-<h1 class=hero-title><span class=font-weight-bold>Interactive computing infrastructure</span> <small>for your community</small></h1>
-<div class=hero-lead><p>2i2c is a non-profit organization that designs, develops, and manages customized JupyterHubs for communities in education & research.</p>
+<article class=article>
+<div class="article-container pt-3">
+<h1>A deep dive into MyST, Part 1: The MyST-Parser Python API usage in Nikola</h1>
+<div class=article-metadata>
+<div>
+<span>
+<a href=../../../author/damian-avila/>Damián Avila</a></span>
 </div>
-<p class=cta-btns>
-<a href=./infrastructure class="btn btn-primary btn-lg mb-3 mb-md-1">What&rsquo;s a 2i2c managed JupyterHub?</a>
-<a href=./projects class="hero-cta-alt btn-lg pl-md-4">Our Projects <i class="fas fa-angle-right"></i></a>
-</p>
+<span class=article-date>
+Aug 23, 2021
+</span>
+<span class=middot-divider></span>
+<span class=article-categories>
+<i class="fas fa-folder mr-1"></i><a href=../../../category/development/>development</a></span>
 </div>
-</section>
-<section id=mission class="home-section wg-blank">
-<div class=home-section-bg></div>
-<div class=container>
-<div class="row justify-content-center">
-<div class="section-heading col-12 mb-3 text-center">
-<h1 class=mb-0>What we do</h1>
-</div>
-<div class=col-12>
-<p>We make interactive computing more accessible and powerful for research and education. We strive to <strong>accelerate research and discovery</strong>, and to <strong>empower education</strong> to be more accessible, intuitive, and enjoyable. We do this through these primary actions:</p>
-<div class="card-group mission-cards">
-<div class="card w-50 m-3" style=width:18rem>
-<div class="card-body text-center">
-<h5 class=card-title>Manage and build interactive computing infrastructure for research and education</h5>
-<p class=card-text>
-2i2c offers managed JupyterHubs for data science in research and engineering communities. They are tailored for the communities they serve and 💯 open source.
-</p>
-</div>
-<div class="card-footer text-center">
-<button type=button class="btn btn-light"><a href=infrastructure class=card-link>Learn More</a></button>
+<div class="btn-links mb-3">
+<a class="btn btn-outline-primary my-1" href=http://damianavila.github.io/blog/posts/a-deep-dive-into-myst-part-1-the-myst-parser-python-api-usage-in-nikola.html target=_blank rel=noopener>Go to Project Site</a>
 </div>
 </div>
-<div class="card w-50 m-3" style=width:18rem>
-<div class="card-body text-center">
-<h5 class=card-title>Develop new technology for research and education.</h5>
-<p class=card-text>
-2i2c leads projects and collaborates with others in research and education, providing experience in interactive computing and the Jupyter ecosystem to build new technology that supports these communities.
-</p>
-</div>
-<div class="card-footer text-center">
-<button type=button class="btn btn-light text-white"><a class=card-link href=open-source>Learn More</a></button>
+<div class="article-header article-container featured-image-wrapper mt-4 mb-4" style=max-width:329px;max-height:176px>
+<div style=position:relative>
+<img src=../../../posts/2021/myst-nikola-part-1/featured.png alt class=featured-image>
 </div>
 </div>
+<div class=article-container>
+<div class=article-style>
 </div>
-<p>In all of the work we do, we live <a href=./values>our values</a> by collaborating with others, using and building open source infrastructure in partnership with communities, and creating technology that makes interactive computing more accessible and powerful for all.</p>
-<p><a href=./about>2i2c&rsquo;s founding team</a> has years of experience in
-<a href=./infrastructure>infrastructure for interactive computing</a> in research and education,
-and are core members of many large open source projects.</p>
+<div class=article-tags>
+<a class="badge badge-light" href=../../../tag/jupyter/>jupyter</a>
+<a class="badge badge-light" href=../../../tag/executablebooks/>executablebooks</a>
 </div>
-</div>
-</div>
-</section>
-<section id=contact class="home-section wg-blank">
-<div class=home-section-bg></div>
-<div class=container>
-<div class="row justify-content-center">
-<div class="section-heading col-12 mb-3 text-center">
-<h1 class=mb-0>Contact</h1>
-</div>
-<div class=col-12>
-<p>If you&rsquo;ve got a question about 2i2c or would like to inquire about 2i2c managed JupyterHubs, <a href=mailto:hello@2i2c.org>send us an email <i class="fas fa-envelope"></i></a>. If you&rsquo;d like to be updated as 2i2c grows and evolves, fill out the form below.</p>
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdW_bhVrXfgRYa9Ct6w399KQPILbU_3nKUF_tgnGZJbs91SXg/viewform?embedded=true" width=640 height=1200 frameborder=0 marginheight=0 marginwidth=0 class=embed-responsive>Loading…</iframe>
+<div class="media author-card content-widget-hr">
+<a href=../../../author/damian-avila/><img class="avatar mr-3 avatar-circle" src=../../../author/damian-avila/avatar_hu87e47a4aaee2ffd9c30ab4d358c80b6f_20305_270x270_fill_q90_lanczos_center.jpg alt="Damián Avila"></a>
+<div class=media-body>
+<h5 class=card-title><a href=../../../author/damian-avila/>Damián Avila</a></h5>
+<h6 class=card-subtitle>Open Source Infrastructure Engineer</h6>
+<ul class=network-icon aria-hidden=true>
+<li>
+<a href=mailto:damianavila@2i2c.org>
+<i class="fas fa-envelope"></i>
+</a>
+</li>
+<li>
+<a href=https://twitter.com/damian_avila target=_blank rel=noopener>
+<i class="fab fa-twitter"></i>
+</a>
+</li>
+<li>
+<a href=https://github.com/damianavila target=_blank rel=noopener>
+<i class="fab fa-github"></i>
+</a>
+</li>
+</ul>
 </div>
 </div>
 </div>
-</section>
+</article>
 </div>
 <div class=page-footer>
 <div class=container>
@@ -218,7 +204,7 @@ This work is licensed under <a href=https://creativecommons.org/licenses/by/4.0 
 <script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin=anonymous></script>
 <script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/r.min.js crossorigin=anonymous></script>
 <script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/python.min.js crossorigin=anonymous></script>
-<script src=./js/bootstrap.bundle.min.6aed84840afc03ab4d5750157f69c120.js></script>
-<script src=./en/js/wowchemy.min.99ddacf76b31e04b589f8ff7e550cbb8.js></script>
+<script src=../../../js/bootstrap.bundle.min.6aed84840afc03ab4d5750157f69c120.js></script>
+<script src=../../../en/js/wowchemy.min.99ddacf76b31e04b589f8ff7e550cbb8.js></script>
 </body>
 </html>
