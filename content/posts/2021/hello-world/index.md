@@ -4,10 +4,12 @@ subtitle: ""
 summary: ""
 authors: ["Chris Holdgraf"]
 tags: [meta]
-categories: []
+categories: [organization]
 date: 2020-11-10
 featured: false
 draft: false
+aliases:
+ - /posts/hello-world
 ---
 
 👋 hey everyone!

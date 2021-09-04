@@ -3,10 +3,12 @@ title: "Pilot hubs, new collaborations, and new team members - A six month updat
 summary: ""
 authors: ["Chris Holdgraf"]
 tags: []
-categories: [update]
+categories: [organization]
 date: 2021-05-25
 featured: false
 draft: false
+aliases:
+ - /posts/six-month-update
 ---
 
 It has been about six months since 2i2c first began operations (after receiving [funding from the Chan Zuckerberg Initiative](../czi-core-support)).

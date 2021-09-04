@@ -4,10 +4,12 @@ subtitle: ""
 summary: ""
 authors: ["Chris Holdgraf"]
 tags: [meta]
-categories: []
+categories: [organization]
 date: 2020-11-19
 featured: false
 draft: false
+aliases:
+ - /posts/czi-core-support
 ---
 
 Last week we [announced the creation of 2i2c](/posts/hello-word), a non-profit initiative dedicated to improving and facilitating access to infrastructure for interactive computing workflows in research and education. Today we are thrilled to announce that 2i2c has received core support from the [Chan Zuckerberg Initiative](https://chanzuckerberg.com/). You can find [CZI's announcement here](https://cziscience.medium.com/scaling-open-infrastructure-and-reproducibility-in-biomedicine-69546a399747).
