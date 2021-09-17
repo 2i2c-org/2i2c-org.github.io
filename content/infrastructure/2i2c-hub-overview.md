@@ -14,4 +14,4 @@ A 2i2c Managed [JupyterHub](https://jupyterhub.readthedocs.io/) is a distributio
 2i2c believes in each user's [Right to Replicate](/right-to-replicate) their
 infrastructure. All 2i2c infrastructure is community-supported and open source, and we follow community-vetted best practices in deploying the infrastructure. 
 
-For more information about the 2i2c Hubs, see [the 2i2c Hubs Pilot documentation](https://2i2c.org/pilot/about/infrastructure.html).
+For more information about the 2i2c Hubs, see [the 2i2c Hubs Pilot documentation](https://pilot.2i2c.org/en/latest/).
