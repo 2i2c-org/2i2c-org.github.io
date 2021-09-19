@@ -4,17 +4,17 @@
 #   The weight parameter defines the order that the links will appear in.
 
 [[main]]
-  name = "Managed JupyterHubs"
+  name = "Cloud Service"
   url = "infrastructure/"
   weight = 10
 
 [[main]]
-  name = "Projects"
+  name = "Our Projects"
   url = "projects/"
   weight = 20
 
 [[main]]
-  name = "Values"
+  name = "Our Values"
   url = "values/"
   weight = 20
 
@@ -53,7 +53,7 @@
   weight = 50
 
 [[main]]
-  name = "Contact"
+  name = "Contact Us"
   url = "#contact"
   weight = 60
 

@@ -14,6 +14,14 @@ button.btn-primary a {
     border-bottom: 0;
 }
 
+// Logo
+a.navbar-brand {
+    font-family: "Fira Sans";
+    color: #4e4e4e !important;
+    font-size: 2.2em;
+}
+
+
 // Home page
 h1.hero-title {
     max-width: 768px;
