@@ -6,12 +6,12 @@ name = "2i2c"
 light = true
 
 # Primary
-primary = "#7eade0"
+primary = "rgb(87, 154, 202)"  # Binder blue
 
 # Menu
 menu_primary = "#fff"
 menu_text = "#34495e"
-menu_text_active = "#7eade0"
+menu_text_active = "rgb(87, 154, 202)"
 menu_title = "#2b2b2b"
 
 # Home sections
