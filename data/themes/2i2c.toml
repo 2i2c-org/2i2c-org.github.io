@@ -1,0 +1,23 @@
+# This is just the Minimal theme with primary / menu_text_active updated to a lighter shade of blue.
+# Theme metadata
+name = "2i2c"
+
+# Is theme light or dark?
+light = true
+
+# Primary
+primary = "rgb(87, 154, 202)"  # Binder blue
+
+# Menu
+menu_primary = "#fff"
+menu_text = "#34495e"
+menu_text_active = "rgb(87, 154, 202)"
+menu_title = "#2b2b2b"
+
+# Home sections
+home_section_odd = "rgb(255, 255, 255)"
+home_section_even = "rgb(247, 247, 247)"
+
+[dark]
+  link = "#bbdefb"
+  link_hover = "#bbdefb"
