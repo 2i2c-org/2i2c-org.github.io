@@ -7,6 +7,12 @@ title = "Pangeo Hub Infrastructure"
 
 [design]
   columns = "2"
+
+  [design.background]
+    color = "white"
+
+[advanced]
+  css_class = "project-list-item"
 +++
 
 {{< figure src="https://pangeo.io/_images/pangeo_simple_logo.svg" class="projects-image" >}}

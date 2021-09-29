@@ -1,0 +1,24 @@
+// Home page
+.home-section {
+    padding: 50px 0 50px 0;
+}
+
+div.hero-lead {
+    max-width: 1000px;
+    p {
+        font-size: 0.9em;
+    }
+}
+
+#service, #projects {
+    padding-bottom: 0;
+}
+
+#service-features, #projects-features {
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+ul.cta-group {
+    justify-content: center;
+}

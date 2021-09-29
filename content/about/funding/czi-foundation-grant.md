@@ -7,6 +7,12 @@ title = "CZI EOSS Capacity Building Grant"
 
 [design]
   columns = "2"
+
+  [design.background]
+    color = "white"
+
+[advanced]
+  css_class = "funding-source"
 +++
 
 {{< figure src="https://chanzuckerberg.com/wp-content/themes/czi/img/logo.svg" class="projects-image" >}}

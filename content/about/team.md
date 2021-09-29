@@ -1,20 +1,19 @@
 +++
-widget = "people"  # Use the People widget
-headless = true  # This file represents a page section.
+# Homepage
+type = "blank"
+headless = true  # Homepage is headless, other widget pages are not.
+weight = 3
 title = "Our team"
-weight = 20
-
-[content]
-  # Choose which groups/teams of users to display.
-  #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
-  user_groups = ["Open Engineering Team", "Steering Council"]
 
 [design]
-  # Show user's social networking links? (true/false)
-  show_social = true
+  columns = "2"
 
-  # Show user's interests? (true/false)
-  show_interests = false
+  [design.background]
+    color = "#f7f7f7"
 +++
 
-2i2c's Open Engineering team focuses on strategy, development, and operations of infrastructure for interactive computing. The Steering Council of 2i2c defines high-level strategy of the organization as well as provides oversight. Here is [more information about 2i2c's structure and governance](https://2i2c.org/team-compass/about/structure/).
+2i2c stands for **The International Interactive Computing Collaboration**. 2i2c is made up of individuals from around the world who are dedicated to this mission. We are a fiscally-sponsored project of [Code for Science and Society](https://codeforscience.org), a US 501(c)(3) public charity.
+
+Our **Open Engineering Team** is responsible for developing, operating, and supporting cloud infrastructure and open source tools for communities in research and education.
+
+Our **Steering Council** provides strategic support and guides 2i2c in order to best-accomplish its mission.

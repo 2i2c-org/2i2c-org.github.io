@@ -7,6 +7,12 @@ title = "JROST and IOI rapid response fund"
 
 [design]
   columns = "2"
+
+  [design.background]
+    color = "white"
+
+[advanced]
+  css_class = "funding-source"
 +++
 
 {{< figure src="https://investinopen.org/content/images/2020/09/ioi-logo-sq-1.png" class="projects-image" >}}

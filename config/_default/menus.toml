@@ -9,17 +9,12 @@
   weight = 10
 
 [[main]]
-  name = "Our Projects"
+  name = "Projects"
   url = "projects/"
   weight = 20
 
 [[main]]
-  name = "Our Values"
-  url = "values/"
-  weight = 20
-
-[[main]]
-  name = "About Us"
+  name = "About"
   identifier = "about"
   weight = 30
 
@@ -27,6 +22,12 @@
   parent = "about"
   name = "About 2i2c"
   url = "about/"
+  weight = 10
+
+  [[main]]
+  parent = "about"
+  name = "Values"
+  url = "values/"
   weight = 10
 
   [[main]]
@@ -39,7 +40,7 @@
   parent = "about"
   name = "Founding Team"
   url = "founders/"
-  weight = 10
+  weight = 11
 
   [[main]]
   parent = "about"
