@@ -20,16 +20,34 @@ button.btn-primary a {
 }
 
 .alert-note {
-    color: $color-2i2c-primary;
+    color: $color-primary;
 
     > div:before {
-        color: $color-2i2c-primary !important;
+        color: $color-primary !important;
     }
 }
 
-// CTA buttons should be bigger
-ul.cta-group a {
-    font-size: 1.1em;
+// CTA buttons
+ul.cta-group { 
+    padding-left: 1em;
+
+    a {
+        font-size: 1.1em;
+    }
+}
+
+div.color-secondary {
+    // This is the secondary button, it has no class in the theme
+    a {
+        color: $color-secondary;
+    }
+
+    // This will be used for primary buttons
+    a.btn-primary {
+        color: white;
+        background-color: $color-secondary;
+        border-color: $color-secondary;
+    }
 }
 
 // Logo
@@ -40,7 +58,7 @@ a.navbar-brand {
     padding-top: 12px;
 
     &:hover {
-        color: $color-2i2c-primary !important;
+        color: $color-primary !important;
     }
 }
 

@@ -3,6 +3,8 @@ widget = "featurette"
 headless = true  # This file represents a page section.
 weight = 11
 
+design.background.color = "#f7f7f7"
+
 # ... Put Your Section Options Here (title etc.) ...
 
 # Showcase personal skills or business features.

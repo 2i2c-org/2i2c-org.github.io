@@ -33,8 +33,10 @@ We design, develop, and operate JupyterHubs in the cloud for your community in r
 
 </div>
 
-<div class="button-left">
+<div class="button-left cta-group">
 
-  {{< cta cta_text="Learn more about our service" cta_link="https://docs.2i2c.org/en/latest/about/index.html" cta_new_tab="true" class="hi" >}}
+  {{< cta cta_text="Get a hub for your community" cta_link="#getahub" >}}
+  
+  {{< cta cta_alt_text="Service documentation" cta_alt_link="https://docs.2i2c.org/en/latest/about/index.html" cta_alt_new_tab="true" >}}
 
 </div>
