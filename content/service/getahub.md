@@ -16,7 +16,6 @@ title = "Get a hub for your community"
   css_class = ["pt-0", "pb-0"]
 +++
 
-
 The Managed JupyterHubs service is currently in a **private alpha** phase. We are running JupyterHub infrastructure for a select group of communities in order to learn more about how the service could best-support the communities we wish to serve. For more information, [see our strategy and goals documentation](https://docs.2i2c.org/en/latest/about/strategy.html).
 
 We are prioritizing running infrastructure for a diverse group of organizations for both research and educational use-cases. In particular, we wish to serve institutions with limited resources or those from under-represented institutions.

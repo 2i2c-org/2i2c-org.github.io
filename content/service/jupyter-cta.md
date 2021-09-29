@@ -15,6 +15,11 @@ We build on Jupyter and tools built by open communities for a few key reasons.
 - **Align with your values**. Open source tools are controlled and owned by a broad and diverse community that is dedicated to the public good.
 - **Accessible to all**. Open tools are free to use and deploy, making research and education more accessible to people around the world.
 
+{{% callout note %}}
+While Jupyter is at the core of 2i2c's infrastructure, Jupyter is flexible enough to serve many other environments as well. For example, you can access RStudio, VSCode, even a fully remote desktop environment from a JupyterHub.
+{{% /callout %}}
+
+
 <div class="cta-group">
 
 {{< cta cta_text="Learn about our infrastructure" cta_link="https://docs.2i2c.org/en/latest/admin/index.html" cta_new_tab="true" >}}
