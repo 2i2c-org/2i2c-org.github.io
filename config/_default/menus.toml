@@ -5,21 +5,16 @@
 
 [[main]]
   name = "Cloud Service"
-  url = "infrastructure/"
+  url = "service/"
   weight = 10
 
 [[main]]
-  name = "Our Projects"
+  name = "Projects"
   url = "projects/"
   weight = 20
 
 [[main]]
-  name = "Our Values"
-  url = "values/"
-  weight = 20
-
-[[main]]
-  name = "About Us"
+  name = "About"
   identifier = "about"
   weight = 30
 
@@ -39,7 +34,7 @@
   parent = "about"
   name = "Founding Team"
   url = "founders/"
-  weight = 10
+  weight = 11
 
   [[main]]
   parent = "about"
@@ -57,8 +52,12 @@
   url = "#contact"
   weight = 60
 
-[[main]]
-  name = ""
-  pre = "<i class='fab fa-twitter'></i>"
-  url = "https://twitter.com/2i2c_org"
-  weight = 999
+[[main_right]]
+  name = 'docs'
+  url = "https://docs.2i2c.org"
+  weight = 100
+
+[[main_right]]
+  name = 'support'
+  url = "https://docs.2i2c.org/en/latest/admin/howto/support.html"
+  weight = 100

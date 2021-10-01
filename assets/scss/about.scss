@@ -1,0 +1,30 @@
+#mission p {
+    font-size: 1.6em;
+    width: 90%;
+    margin: auto;
+    strong {
+        color: $color-primary
+    }
+}
+
+#faces {
+    div.people-widget > div.people-person {
+        padding-top: 1em;
+        padding-bottom: 1em;
+        flex-basis: 25%;
+    }
+}
+
+section.funding-source .section-heading > h1 {
+    font-size: 1.4em;
+}
+
+section#team .people-person {
+    width: 30%;
+}
+
+figure.projects-image img {
+    margin-left: 0;
+    max-height: 4em;
+    max-width: 35%;
+}

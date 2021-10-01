@@ -9,7 +9,7 @@ title = "Syzygy"
   columns = "2"
 +++
 
-{{< figure src="https://pims.syzygy.ca/img/portfolio/PIMS-circle-with-wordmark-CAPS.png" class="projects-image" >}}
+{{< figure src="https://media.pims.math.ca/logos/webhorizlcaselarge.png" class="projects-image" >}}
 
 The [Syzygy service](https://syzygy.ca/) provides interactive computing environments to more than 30 institutions
 across Canada. It is based out of the Pacific Institute for Mathematical Sciences (PIMS).

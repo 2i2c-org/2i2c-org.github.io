@@ -1,0 +1,25 @@
+nav.navbar {
+
+  a:hover {
+    color: $color-primary !important;
+  }
+  li.nav-item a {
+    font-size: 1.1em;
+  }
+
+  ul.ml-md-auto {
+      font-size: .9em;
+  }
+
+    // Logo
+    a.navbar-brand {
+        font-family: "Fira Sans";
+        color: #4e4e4e !important;
+        font-size: 2.8em;
+        padding-top: 12px;
+
+        &:hover {
+            color: $color-primary !important;
+        }
+    }
+}

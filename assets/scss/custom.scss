@@ -1,6 +1,12 @@
-// General
+@import "variables";
+@import "about";
+@import "home";
+@import "projects";
+@import "service";
+@import "navbar";
 
-section.wg-blank {
+// General
+section {
     .container {
         max-width: 900px;
     }
@@ -14,82 +20,37 @@ button.btn-primary a {
     border-bottom: 0;
 }
 
-// Logo
-a.navbar-brand {
-    font-family: "Fira Sans";
-    color: #4e4e4e !important;
-    font-size: 2.2em;
-}
+.alert-note {
+    color: $color-primary;
 
-
-// Home page
-h1.hero-title {
-    max-width: 768px;
-}
-
-.wg-hero {
-    padding: 1em 0;
-}
-
-.home-section {
-    padding: 50px 0 50px 0;
-}
-
-div.hero-lead p {
-    font-size: 0.8em;
-}
-
-// Cards
-div.mission-cards a.card-link {
-    font-size: 1.4em;
-}
-
-// About page
-section#team .people-person {
-    width: 30%;
-}
-
-figure.projects-image img {
-    margin-left: 0;
-    max-height: 4em;
-    max-width: 35%;
-}
-
-
-// Infrastructure page
-p.highlight {
-    width: 80%;
-    text-align: center;
-    margin: 1em auto;
-    font-size: 1.1em;
-    font-style: italic;
-}
-
-div.project-figures {
-    margin-top: 4em;
-
-    figure.project-highlight {
-        width: 33%;
-        float: left;
-        height: 11em;
-        text-align: center;
-
-        img {
-            margin: 0 auto;
-            height: 3em;
-        }
-
-        p.project-title {
-            font-size: 1.3em;
-            margin-bottom: .2em;
-        }
-
-        p.project-caption {
-            max-width: 80%;
-            margin: 0 auto;
-        }
+    > div:before {
+        color: $color-primary !important;
     }
 }
+
+// CTA buttons
+ul.cta-group { 
+    padding-left: 1em;
+
+    a {
+        font-size: 1.1em;
+    }
+}
+
+div.color-secondary {
+    // This is the secondary button, it has no class in the theme
+    a {
+        color: $color-secondary;
+    }
+
+    // This will be used for primary buttons
+    a.btn-primary {
+        color: white;
+        background-color: $color-secondary;
+        border-color: $color-secondary;
+    }
+}
+
 
 // Book-styled pages
 
@@ -122,4 +83,10 @@ table {
     button {
         font-size: 1.3em;
     }
+}
+
+
+// General buttons control
+.button-left ul.cta-group {
+    justify-content: left;
 }

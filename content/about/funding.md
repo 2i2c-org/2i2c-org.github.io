@@ -7,13 +7,14 @@ title = "How we're funded"
 
 [design]
   columns = "1"
+  background.color = "#f7f7f7"
+
 +++
 
-_2i2c is supported through a mix of philanthropic support, grants from foundations and federal agencies, and revenue generated through its Managed JupyterHubs service._
+In order to sustain itself and grow to better-accomplish its mission, 2i2c receives funding from the following sources:
 
-
-2i2c is lucky to receive support from several organizations. This support makes it possible for 2i2c to accomplish its mission, and have impact across research and education.
-
-As a sustainability focused non-profit, 2i2c aims to generate funding from a variety of sources, and towards different ends. It aims to have a balance between "research and development" funding, such as grants and foundation awards, as well as "fee for service" revenue generated from managing JupyterHub infrastructure and performing development for other projects. We continue to explore business models that both grow our capacity to support research and education through interactive computing, and that assist us in supporting open source communities.
-
-2i2c receives direct support from the following institutions.
+- **Revenue from managed services**. We build self-sustaining cloud services that generate revenue through management and support contracts. See [our services page](/services) for more information.
+- **Project-focused grants**. We lead and collaborate on several projects that involve developing and supporting infrastructure for research and education. See [our projects page](/projects) for more information.
+- **Donations and core support**. We raise central funding that provides crucial core support for 2i2c's operations, and supports our time in supporting open source communities.
+ 
+2i2c receives resources from the following sources:

@@ -5,7 +5,7 @@ headless = true  # This file represents a page section.
 active = true  # Activate this widget? true/false
 weight = 100  # Order that this section will appear.
 
-title = "<span class=' font-weight-bold'>Interactive computing infrastructure</span> <small>for your community</small>"
+title = "Interactive computing for your community"
 
 # Hero image (optional). Enter filename of an image in the `static/media/` folder.
 hero_media = ""
@@ -37,16 +37,16 @@ hero_media = ""
 #   Display link(s) by specifying a URL and label below. Icon is optional for `[cta]`.
 #   Remove a link/note by deleting a cta/note block.
 [cta]
-  url = "infrastructure"
-  label = "What's a 2i2c managed JupyterHub?"
+  url = "service"
+  label = "Learn about our cloud service"
 
 [cta_alt]
-  url ="projects"
-  label = "Our Projects"
+  url ="about"
+  label = "Our Mission"
 
 # Note. An optional note to show underneath the links.
 # [cta_note]
 #  label = '2i2c offers open-source infrastructure for interactive computing at institutions of research and education.'
 +++
 
-2i2c is a non-profit organization that designs, develops, and manages customized JupyterHubs for communities in education & research.
+2i2c designs, develops, and operates JupyterHubs in the cloud for communities of practice in research & education. It builds and supports open source infrastructure that serves these communities.

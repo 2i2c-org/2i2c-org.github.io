@@ -2,14 +2,15 @@
 # Homepage
 type = "blank"
 headless = true  # Homepage is headless, other widget pages are not.
-weight = 30
+weight = 101
 title = "Open tools that we use and support"
 
 [design]
   columns = "1"
 
-[background]
-  color = "white"
+  [design.background]
+    color = "#f7f7f7"
+  
 +++
 
 All of the tools that 2i2c uses in its hubs are open-source and community-owned. A core mission of 2i2c is to give back to these communities by providing support, maintenance, and development. Below are a few tools and projects that we are particularly involved with, though the list of open source projects to which we contribute is much larger.
@@ -45,7 +46,7 @@ All of the tools that 2i2c uses in its hubs are open-source and community-owned.
 
 {{< figure
     target="https://jupyterbook.org/intro.html"
-    src="https://jupyterbook.org/_static/logo.png"
+    src="https://jupyterbook.org/_static/logo-wide.svg"
     title="<p class='project-title'>Jupyter Book</p><p class='project-caption'>Interactive, beautiful books with Jupyter</p>"
     class="project-highlight"
 >}}

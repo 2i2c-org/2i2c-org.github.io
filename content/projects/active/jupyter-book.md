@@ -7,9 +7,15 @@ title = "Executable Books"
 
 [design]
   columns = "2"
+
+  [design.background]
+    color = "white"
+
+[advanced]
+  css_class = "project-list-item"
 +++
 
-{{< figure src="https://jupyterbook.org/_static/logo.png" class="projects-image" >}}
+{{< figure src="https://jupyterbook.org/_static/logo-wide.svg" class="projects-image" >}}
 
 The [Executable Books Project](https://executablebooks.org) is an international collaboration to build open source tools that facilitate publishing computational narratives using the Jupyter ecosystem.
 
