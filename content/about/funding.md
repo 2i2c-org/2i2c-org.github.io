@@ -7,6 +7,8 @@ title = "How we're funded"
 
 [design]
   columns = "1"
+  background.color = "#f7f7f7"
+
 +++
 
 In order to sustain itself and grow to better-accomplish its mission, 2i2c receives funding from the following sources:

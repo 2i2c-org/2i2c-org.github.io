@@ -2,14 +2,14 @@
 # Homepage
 type = "blank"
 headless = true  # Homepage is headless, other widget pages are not.
-weight = 42
+weight = 41
 title = "CZI EOSS Capacity Building Grant"
 
 [design]
   columns = "2"
 
   [design.background]
-    color = "white"
+    color = "#f7f7f7"
 
 [advanced]
   css_class = "funding-source"

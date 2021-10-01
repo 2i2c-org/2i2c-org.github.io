@@ -26,12 +26,6 @@
 
   [[main]]
   parent = "about"
-  name = "Values"
-  url = "values/"
-  weight = 10
-
-  [[main]]
-  parent = "about"
   name = "Right to Replicate"
   url = "right-to-replicate/"
   weight = 10
