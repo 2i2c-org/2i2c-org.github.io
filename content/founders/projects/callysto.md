@@ -9,7 +9,7 @@ title = "Callysto"
   columns = "2"
 +++
 
-{{< figure src="https://callysto.ca/wp-content/uploads/2018/05/Callysto-Logos_Screen_Hor_Colour.png" class="projects-image" >}}
+{{< figure src="https://repository-images.githubusercontent.com/127894850/30eec780-cc26-11ea-819a-b4caa6129522" class="projects-image" >}}
 
 [Callysto](https://callysto.ca/) is a free, interactive, curriculum-based learning and skills development tool —
 think “interactive textbook” — that can be accessed from any device with an internet

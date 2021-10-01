@@ -11,5 +11,5 @@ This helps [give our communities the Right to Replicate their infrastructure](/r
 
 - [**Our service documentation**](https://docs.2i2c.org/en/latest/about/index.html) has more information about the service, its goals and strategy, and the latest information on features, pricing, and use-cases.
 - [**The hub administrator's guide**](https://docs.2i2c.org/en/latest/admin/index.html) is a hands-on guide for community leaders that administer JupyterHubs managed by 2i2c.
-- [**Our DevOps Guide**](https://pilot-hubs.2i2c.org/) is the guide that _2i2c Engineers_ use to manage your cloud infrastructure. It describes all the details of our cloud infrastructure.
+- [**Our DevOps Guide**](https://devops.2i2c.org/) is the guide that _2i2c Engineers_ use to manage your cloud infrastructure. It describes all the details of our cloud infrastructure.
 - [**Our Team Compass**](https://team-compass.2i2c.org/) has everything you might want to know about 2i2c - our structure, strategy, team practices and policies, major projects, and how to get involved.

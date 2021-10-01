@@ -58,8 +58,12 @@
   url = "#contact"
   weight = 60
 
-[[main]]
-  name = ""
-  pre = "<i class='fab fa-twitter'></i>"
-  url = "https://twitter.com/2i2c_org"
-  weight = 999
+[[main_right]]
+  name = 'docs'
+  url = "https://docs.2i2c.org"
+  weight = 100
+
+[[main_right]]
+  name = 'support'
+  url = "https://docs.2i2c.org/en/latest/admin/howto/support.html"
+  weight = 100

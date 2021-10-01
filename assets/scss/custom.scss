@@ -3,6 +3,7 @@
 @import "home";
 @import "projects";
 @import "service";
+@import "navbar";
 
 // General
 section.wg-blank {
@@ -47,18 +48,6 @@ div.color-secondary {
         color: white;
         background-color: $color-secondary;
         border-color: $color-secondary;
-    }
-}
-
-// Logo
-a.navbar-brand {
-    font-family: "Fira Sans";
-    color: #4e4e4e !important;
-    font-size: 2.2em;
-    padding-top: 12px;
-
-    &:hover {
-        color: $color-primary !important;
     }
 }
 
