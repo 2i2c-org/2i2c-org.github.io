@@ -20,6 +20,6 @@ title = ""
 
 {{< cta cta_text="Get a hub for your community" cta_link="#getahub" >}}
 
-{{< cta cta_alt_text="Cloud service documentation" cta_alt_link="https://docs.2i2c.org/en/latest/about/index.html" cta_alt_new_tab="true" >}}
+{{< cta cta_alt_text="Cloud service documentation" cta_alt_link="https://docs.2i2c.org/en/latest/" cta_alt_new_tab="true" >}}
 
 </div>
