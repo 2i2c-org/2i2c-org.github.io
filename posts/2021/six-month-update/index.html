@@ -14,7 +14,7 @@
 <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css crossorigin=anonymous title=hl-dark media=print onload="this.media='all'" disabled>
 <link rel=preload as=style href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
 <link rel=stylesheet href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media=print onload="this.media='all'">
-<link rel=stylesheet href=../../../css/wowchemy.c5cf842c5e63441b70f2cb2bd4f29723.css>
+<link rel=stylesheet href=../../../css/wowchemy.a66a912cd9660096fb25a0c7e7553e73.css>
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-170352908-1"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}function trackOutboundLink(a,b){gtag('event','click',{event_category:'outbound',event_label:a,transport_type:'beacon',event_callback:function(){b!=='_blank'&&(document.location=a)}}),console.debug("Outbound link clicked: "+a)}function onClickCallback(a){if(a.target.tagName!=='A'||a.target.host===window.location.host)return;trackOutboundLink(a.target,a.target.getAttribute('target'))}gtag('js',new Date),gtag('config','UA-170352908-1',{anonymize_ip:!0}),gtag('set',{cookie_flags:'SameSite=None;Secure'}),document.addEventListener('click',onClickCallback,!1)</script>
 <link rel=manifest href=../../../manifest.webmanifest>
@@ -54,21 +54,18 @@
 <div class="navbar-collapse main-menu-item collapse justify-content-start" id=navbar-content>
 <ul class="navbar-nav d-md-inline-flex">
 <li class=nav-item>
-<a class=nav-link href=../../../infrastructure/><span>Cloud Service</span></a>
+<a class=nav-link href=../../../service/><span>Cloud Service</span></a>
 </li>
 <li class=nav-item>
-<a class=nav-link href=../../../projects/><span>Our Projects</span></a>
-</li>
-<li class=nav-item>
-<a class=nav-link href=../../../values/><span>Our Values</span></a>
+<a class=nav-link href=../../../projects/><span>Projects</span></a>
 </li>
 <li class="nav-item dropdown">
-<a href=# class="nav-link dropdown-toggle" data-toggle=dropdown aria-haspopup=true><span>About Us</span><span class=caret></span>
+<a href=# class="nav-link dropdown-toggle" data-toggle=dropdown aria-haspopup=true><span>About</span><span class=caret></span>
 </a>
 <div class=dropdown-menu>
 <a class=dropdown-item href=../../../about/><span>About 2i2c</span></a>
-<a class=dropdown-item href=../../../founders/><span>Founding Team</span></a>
 <a class=dropdown-item href=../../../right-to-replicate/><span>Right to Replicate</span></a>
+<a class=dropdown-item href=../../../founders/><span>Founding Team</span></a>
 <a class=dropdown-item href=../../../careers/><span>Careers</span></a>
 </div>
 </li>
@@ -78,8 +75,13 @@
 <li class=nav-item>
 <a class=nav-link href=../../../#contact><span>Contact Us</span></a>
 </li>
+</ul>
+<ul class="navbar-nav ml-md-auto">
 <li class=nav-item>
-<a class=nav-link href=https://twitter.com/2i2c_org target=_blank rel=noopener><i class="fab fa-twitter"></i><span></span></a>
+<a class=nav-link href=https://docs.2i2c.org target=_blank rel=noopener><span>docs</span></a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=https://docs.2i2c.org/en/latest/admin/howto/support.html target=_blank rel=noopener><span>support</span></a>
 </li>
 </ul>
 </div>
@@ -122,7 +124,7 @@ This service will provide hosted, customized JupyterHubs for communities of prac
 They&rsquo;ll be built entirely with open source tools that are community-driven, and that <a href=../../../right-to-replicate>respect the customer&rsquo;s Right to Replicate</a>.</p>
 <p>In order to accomplish this, 2i2c is running several pilots with partners and interested organizations, supported by our <a href=../../../posts/czi-core-support>funding from CZI</a>, as well as from <a href=https://investinopen.org/blog/jrost-rapid-response-fund-awardees/ target=_blank rel=noopener>the JROST rapid response fund</a>.
 These pilots are meant to be learning opportunities to understand what kind of infrastructure and service it needs to build moving forward.</p>
-<p>The <a href=https://pilot-hubs.2i2c.org/en/latest/ target=_blank rel=noopener>documentation for our pilot hubs infrastructure</a> contains information about our deployments and infrastructure.
+<p>The <a href=https://devops.2i2c.org/en/latest/ target=_blank rel=noopener>documentation for our pilot hubs infrastructure</a> contains information about our deployments and infrastructure.
 It is served from <a href=https://github.com/2i2c-org/pilot-hubs target=_blank rel=noopener>this <code>2i2c-org/pilot-hubs</code> repository</a>, a centralized location for configuring and deploying a federated network of JupyterHubs.
 Each JupyterHub is independent of one another, and could be spun out from the centralized repository with minimal extra work, giving hub users the ability to <a href=../../../right-to-replicate>replicate their infrastructure, with or without 2i2c</a>.
 We will continue refining the code in this repository as we learn more from our hub infrastructure pilots.</p>

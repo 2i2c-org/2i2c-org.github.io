@@ -14,7 +14,7 @@
 <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css crossorigin=anonymous title=hl-dark media=print onload="this.media='all'" disabled>
 <link rel=preload as=style href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
 <link rel=stylesheet href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media=print onload="this.media='all'">
-<link rel=stylesheet href=../css/wowchemy.c5cf842c5e63441b70f2cb2bd4f29723.css>
+<link rel=stylesheet href=../css/wowchemy.a66a912cd9660096fb25a0c7e7553e73.css>
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-170352908-1"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}function trackOutboundLink(a,b){gtag('event','click',{event_category:'outbound',event_label:a,transport_type:'beacon',event_callback:function(){b!=='_blank'&&(document.location=a)}}),console.debug("Outbound link clicked: "+a)}function onClickCallback(a){if(a.target.tagName!=='A'||a.target.host===window.location.host)return;trackOutboundLink(a.target,a.target.getAttribute('target'))}gtag('js',new Date),gtag('config','UA-170352908-1',{anonymize_ip:!0}),gtag('set',{cookie_flags:'SameSite=None;Secure'}),document.addEventListener('click',onClickCallback,!1)</script>
 <link rel=manifest href=../manifest.webmanifest>
@@ -52,21 +52,18 @@
 <div class="navbar-collapse main-menu-item collapse justify-content-start" id=navbar-content>
 <ul class="navbar-nav d-md-inline-flex">
 <li class=nav-item>
-<a class=nav-link href=../infrastructure/><span>Cloud Service</span></a>
+<a class=nav-link href=../service/><span>Cloud Service</span></a>
 </li>
 <li class=nav-item>
-<a class=nav-link href=../projects/><span>Our Projects</span></a>
-</li>
-<li class=nav-item>
-<a class=nav-link href=../values/><span>Our Values</span></a>
+<a class=nav-link href=../projects/><span>Projects</span></a>
 </li>
 <li class="nav-item dropdown">
-<a href=# class="nav-link dropdown-toggle" data-toggle=dropdown aria-haspopup=true><span>About Us</span><span class=caret></span>
+<a href=# class="nav-link dropdown-toggle" data-toggle=dropdown aria-haspopup=true><span>About</span><span class=caret></span>
 </a>
 <div class=dropdown-menu>
 <a class=dropdown-item href=../about/><span>About 2i2c</span></a>
-<a class=dropdown-item href=../founders/><span>Founding Team</span></a>
 <a class=dropdown-item href=../right-to-replicate/><span>Right to Replicate</span></a>
+<a class=dropdown-item href=../founders/><span>Founding Team</span></a>
 <a class=dropdown-item href=../careers/><span>Careers</span></a>
 </div>
 </li>
@@ -76,8 +73,13 @@
 <li class=nav-item>
 <a class=nav-link href=../#contact><span>Contact Us</span></a>
 </li>
+</ul>
+<ul class="navbar-nav ml-md-auto">
 <li class=nav-item>
-<a class=nav-link href=https://twitter.com/2i2c_org target=_blank rel=noopener><i class="fab fa-twitter"></i><span></span></a>
+<a class=nav-link href=https://docs.2i2c.org target=_blank rel=noopener><span>docs</span></a>
+</li>
+<li class=nav-item>
+<a class=nav-link href=https://docs.2i2c.org/en/latest/admin/howto/support.html target=_blank rel=noopener><span>support</span></a>
 </li>
 </ul>
 </div>
@@ -88,7 +90,7 @@
 </div>
 <div class=page-body>
 <span class="js-widget-page d-none"></span>
-<section id=intro class="home-section wg-blank">
+<section id=mission class="home-section wg-blank">
 <div class=home-section-bg></div>
 <div class=container>
 <div class="row justify-content-center">
@@ -96,22 +98,56 @@
 <h1 class=mb-0>About 2i2c</h1>
 </div>
 <div class=col-12>
-<p>2i2c stands for <strong>The International Interactive Computing Collaboration</strong>. Our mission is to transform research and education through interactive computing, and to support the open source ecosystem around it.</p>
-<p>2i2c is made up of individuals from around the world who are dedicated to this mission. We are a fiscally-sponsored project of <a href=https://codeforscience.org target=_blank rel=noopener>Code for Science and Society</a>, a US 501(c)(3) public charity.</p>
+<p>Our mission is to make research and education more <strong>impactful</strong>, <strong>accessible</strong>, and <strong>delightful</strong> by developing, operating, and supporting infrastructure for interactive computing.</p>
 </div>
 </div>
 </div>
 </section>
-<section id=team class="home-section wg-people">
+<section id=whatwedo class="home-section wg-blank">
+<div class=home-section-bg style=background-color:#fff></div>
+<div class=container>
+<div class=row>
+<div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
+<h1 class=mb-0>We do this by</h1>
+</div>
+<div class="col-12 col-lg-8">
+<p><strong>Designing</strong> JupyterHub distributions that run on cloud infrastructure, are tailored for research and education, and <a href=../right-to-replicate>respect a community&rsquo;s Right to Replicate their infrastructure</a>. See <a href=../service>our cloud service</a> for more information.</p>
+<p><strong>Managing</strong> a federation of JupyterHubs that serves communities of practice in research and education, so that they can focus on their work without needing skills in DevOps. See <a href=../service>our cloud service</a> for more information.</p>
+<p><strong>Developing</strong> open source infrastructure that is tailored for use-cases in research and education, so that our ecosystem of tools continues to improve. See <a href=../projects>our projects</a> for more information.</p>
+<p><strong>Supporting</strong> open source communities that underlie infrastructure in this space, so that these communities may thrive and have positive impact on the world. See <a href=../values>our values</a> for more information.</p>
+</div>
+</div>
+</div>
+</section>
+<section id=compass class="home-section wg-blank">
 <div class=home-section-bg></div>
 <div class=container>
+<div class="row justify-content-center">
+<div class=col-12>
+<p>2i2c is an open, transparent, and participatory organization. To learn more about 2i2c, <a href=https://team-compass.2i2c.org target=_blank rel=noopener>check our Team Compass</a>. To learn the details about our infrastructure, <a href=https://devops.2i2c.org target=_blank rel=noopener>see the 2i2c DevOps guide</a>.</p>
+</div>
+</div>
+</div>
+</section>
+<section id=team class="home-section wg-blank">
+<div class=home-section-bg style=background-color:#f7f7f7></div>
+<div class=container>
+<div class=row>
+<div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
+<h1 class=mb-0>Our team</h1>
+</div>
+<div class="col-12 col-lg-8">
+<p>2i2c stands for <strong>The International Interactive Computing Collaboration</strong>. 2i2c is made up of individuals from around the world who are dedicated to this mission. We are a fiscally-sponsored project of <a href=https://codeforscience.org target=_blank rel=noopener>Code for Science and Society</a>, a US 501(c)(3) public charity.</p>
+<p>Our <strong>Open Engineering Team</strong> is responsible for developing, operating, and supporting cloud infrastructure and open source tools for communities in research and education.</p>
+<p>Our <strong>Steering Council</strong> provides strategic support and guides 2i2c in order to best-accomplish its mission.</p>
+</div>
+</div>
+</div>
+</section>
+<section id=faces class="home-section wg-people">
+<div class=home-section-bg style=background-color:#f7f7f7></div>
+<div class=container>
 <div class="row justify-content-center people-widget">
-<div class="col-md-12 section-heading">
-<h1>Our team</h1>
-</div>
-<div class=col-md-12>
-<p>2i2c&rsquo;s Open Engineering team focuses on strategy, development, and operations of infrastructure for interactive computing. The Steering Council of 2i2c defines high-level strategy of the organization as well as provides oversight. Here is <a href=https://2i2c.org/team-compass/about/structure/ target=_blank rel=noopener>more information about 2i2c&rsquo;s structure and governance</a>.</p>
-</div>
 <div class=col-md-12>
 <h2 class=mb-4>Open Engineering Team</h2>
 </div>
@@ -383,24 +419,78 @@
 </div>
 </div>
 </section>
-<section id=funding class="home-section wg-blank">
+<section id=fiscalsponsor class="home-section wg-blank" style="padding:0 0 2em">
+<div class=home-section-bg style=background-color:#f7f7f7></div>
+<div class=container>
+<div class="row justify-content-center">
+<div class="section-heading col-12 mb-3 text-center">
+<h1 class=mb-0>Fiscal Sponsorship</h1>
+</div>
+<div class=col-12>
+<p>Fiscal sponsorship for 2i2c is provided by <a href=https://codeforsociety.org target=_blank rel=noopener>Code for Science and Society</a>, which provides strategic and administrative support for 2i2c.</p>
+<center>
+<p><a href=https://codeforsociety.org target=_blank rel=noopener>
+<figure>
+<div class="d-flex justify-content-center">
+<div class=w-100><img src=https://codeforscience.org/img/Blue-logo-black-text-stacked.png alt loading=lazy data-zoomable></div>
+</div></figure>
+</a></p>
+</center>
+</div>
+</div>
+</div>
+</section>
+<section id=values class="home-section wg-blank">
 <div class=home-section-bg></div>
+<div class=container>
+<div class="row justify-content-center">
+<div class="section-heading col-12 mb-3 text-center">
+<h1 class=mb-0>Our values and principles</h1>
+</div>
+<div class=col-12>
+<p>We are defined and driven by our mission, and believe
+that values are crucial to accomplishing our goals in a way that is equitable
+and accessible to all.</p>
+<p>Here are some of the core values underlying 2i2c:</p>
+<ul>
+<li>2i2c values fairness and justice as requirements for successful communities.</li>
+<li>2i2c values learning and discovery for all people.</li>
+<li>2i2c values collaborating and connecting to foster environments for learning and discovery.</li>
+</ul>
+<p>We serve these values through a commitment to a few core principles:</p>
+<ul>
+<li>Build tools that maximize flexibility and choice</li>
+<li>Collaborate with open source and scientific communities</li>
+<li>Provide community and core support, not just new features</li>
+<li>Build tools that are accessible along a variety of dimensions</li>
+</ul>
+<p>These principles help us guarantee our users the <a href=../right-to-replicate>Right to Replicate</a>
+the infrastructure we manage for them without having to rely on us.</p>
+</div>
+</div>
+</div>
+</section>
+<section id=funding class="home-section wg-blank">
+<div class=home-section-bg style=background-color:#f7f7f7></div>
 <div class=container>
 <div class="row justify-content-center">
 <div class="section-heading col-12 mb-3 text-center">
 <h1 class=mb-0>How we&rsquo;re funded</h1>
 </div>
 <div class=col-12>
-<p><em>2i2c is supported through a mix of philanthropic support, grants from foundations and federal agencies, and revenue generated through its Managed JupyterHubs service.</em></p>
-<p>2i2c is lucky to receive support from several organizations. This support makes it possible for 2i2c to accomplish its mission, and have impact across research and education.</p>
-<p>As a sustainability focused non-profit, 2i2c aims to generate funding from a variety of sources, and towards different ends. It aims to have a balance between &ldquo;research and development&rdquo; funding, such as grants and foundation awards, as well as &ldquo;fee for service&rdquo; revenue generated from managing JupyterHub infrastructure and performing development for other projects. We continue to explore business models that both grow our capacity to support research and education through interactive computing, and that assist us in supporting open source communities.</p>
-<p>2i2c receives direct support from the following institutions.</p>
+<p>In order to sustain itself and grow to better-accomplish its mission, 2i2c receives funding from the following sources:</p>
+<ul>
+<li><strong>Revenue from managed services</strong>. We build self-sustaining cloud services that generate revenue through management and support contracts. See <a href=../services>our services page</a> for more information.</li>
+<li><strong>Project-focused grants</strong>. We lead and collaborate on several projects that involve developing and supporting infrastructure for research and education. See <a href=../projects>our projects page</a> for more information.</li>
+<li><strong>Donations and core support</strong>. We raise central funding that provides crucial core support for 2i2c&rsquo;s operations, and supports our time in supporting open source communities.</li>
+</ul>
+<p>2i2c receives resources from the following sources:</p>
 </div>
 </div>
 </div>
 </section>
-<section id=czi-foundation-grant class="home-section wg-blank">
-<div class=home-section-bg></div>
+<section id=czi-foundation-grant class="home-section wg-blank funding-source">
+<div class=home-section-bg style=background-color:#f7f7f7></div>
 <div class=container>
 <div class=row>
 <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
@@ -416,8 +506,25 @@
 </div>
 </div>
 </section>
-<section id=jrost-rapid-response class="home-section wg-blank">
-<div class=home-section-bg></div>
+<section id=pangeo class="home-section wg-blank funding-source">
+<div class=home-section-bg style=background-color:#f7f7f7></div>
+<div class=container>
+<div class=row>
+<div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
+<h1 class=mb-0>The Pangeo Project</h1>
+</div>
+<div class="col-12 col-lg-8">
+<figure class=projects-image>
+<div class="d-flex justify-content-center">
+<div class=w-100><img src=https://repository-images.githubusercontent.com/101820659/4fcdfc00-6c25-11e9-9e30-33a31a285450 alt loading=lazy data-zoomable></div>
+</div></figure>
+<p>2i2c receives support from <a href=https://medium.com/pangeo/announcing-the-climate-data-science-lab-funded-by-the-moore-foundation-4bc4314ac02d target=_blank rel=noopener>the Climate Data Lab</a> at Columbia University (~$500,000 over 2 years), for managing and developing cloud infrastructure for <a href=https://pangeo.io target=_blank rel=noopener>the Pangeo Project</a>.</p>
+</div>
+</div>
+</div>
+</section>
+<section id=jrost-rapid-response class="home-section wg-blank funding-source">
+<div class=home-section-bg style=background-color:#f7f7f7></div>
 <div class=container>
 <div class=row>
 <div class="section-heading col-12 col-lg-4 mb-3 mb-lg-0 d-flex flex-column align-items-center align-items-lg-start">
@@ -428,33 +535,28 @@
 <div class="d-flex justify-content-center">
 <div class=w-100><img src=https://investinopen.org/content/images/2020/09/ioi-logo-sq-1.png alt loading=lazy data-zoomable></div>
 </div></figure>
-<p><a href=https://investinopen.org target=_blank rel=noopener>Invest in Open Infrastructure</a> along with <a href=https://jrost.org target=_blank rel=noopener>Joint Roadmap for Open Science Tools</a> awarded 2i2c <a href=https://investinopen.org/blog/jrost-rapid-response-fund-awardees/ target=_blank rel=noopener>a $5,000 grant</a>) to fund JupyterHub cloud infrastructure for projects that did not have their own cloud funding.</p>
+<p><a href=https://investinopen.org target=_blank rel=noopener>Invest in Open Infrastructure</a> along with <a href=https://jrost.org target=_blank rel=noopener>Joint Roadmap for Open Science Tools</a> awarded 2i2c <a href=https://investinopen.org/blog/jrost-rapid-response-fund-awardees/ target=_blank rel=noopener>a $5,000 grant</a> to fund JupyterHub cloud infrastructure for projects that did not have their own cloud funding.</p>
 </div>
 </div>
 </div>
 </section>
 <section id=getinvolved class="home-section wg-blank">
-<div class=home-section-bg></div>
+<div class=home-section-bg style=background-color:#f7f7f7></div>
 <div class=container>
 <div class="row justify-content-center">
 <div class="section-heading col-12 mb-3 text-center">
 <h1 class=mb-0>Get Involved</h1>
 </div>
 <div class=col-12>
-<p>2i2c is a young organization, and we are actively looking to grow our capacity
-to offer cloud services as well as collaborate in research and development.
-We also seek to employ technologists with expertise in cloud infrastructure,
-dev-ops, and data science, as well as experience in the open source stack of
-tools for science and education.</p>
+<p>2i2c is a transparent and inclusive organization. We welcome participation and collaboration from others.</p>
 <ul>
-<li>If you are a funder interested in supporting 2i2c, <a href="mailto:hello@2i2c.org?subject=Inquiry%20from%20funder">get in touch</a>.</li>
+<li>To be added to our mailing list, <a href=../#contact>fill fill out this contact form</a></li>
 <li>If your organization is interested in hosted Jupyter environments on
 cloud infrastructure, <a href="mailto:hello@2i2c.org?subject=Inquiry%20about%20hosted%20jupyter">get in touch</a></li>
 <li>If you are a researcher or educator who would like to collaborate on projects, <a href="mailto:hello@2i2c.org?subject=Inquiry%20about%20collaboration">get in touch</a></li>
 <li>If you are interested in working for 2i2c, <a href=../careers>check out our careers page</a>.</li>
+<li>If you are a funder interested in supporting open source communities and infrastructure via 2i2c, <a href="mailto:hello@2i2c.org?subject=Inquiry%20from%20funder">get in touch</a>.</li>
 </ul>
-<p>If you&rsquo;d like updates about 2i2c as it grows and evolves, fill out the form
-below to add yourself to our mailing list, and we will be in touch!</p>
 </div>
 </div>
 </div>
