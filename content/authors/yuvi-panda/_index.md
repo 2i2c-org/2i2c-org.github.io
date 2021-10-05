@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: Volunteer Director of Engineering
+role: Senior Open Source Infrastructure Engineer (Volunteer)
 
 # Organizations/Affiliations
 organizations:
