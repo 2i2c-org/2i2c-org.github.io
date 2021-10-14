@@ -44,7 +44,7 @@ social:
   link: https://github.com/consideRatio
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-email: "erik@2i2c.org"
+# email: ""
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
