@@ -35,7 +35,7 @@ interests:
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:eriksundell@2i2c.org'  # For a direct email link, use "mailto:test@example.org".
+  link: 'mailto:erik@2i2c.org'  # For a direct email link, use "mailto:test@example.org".
 - icon: twitter
   icon_pack: fab
   link: https://twitter.com/e_Sundell
@@ -44,7 +44,7 @@ social:
   link: https://github.com/consideRatio
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
-# email: ""
+email: "erik@2i2c.org"
 
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
