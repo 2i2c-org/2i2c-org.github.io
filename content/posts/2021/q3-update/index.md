@@ -10,11 +10,11 @@ featured: false
 draft: false
 ---
 
-> This is a (roughly) quarterly update for the 2i2c community, with the goal of providing transparency about what we've been up to, sharing what we are working on and where we have struggled, and discussing what we're up to next. In addition, almost all of the work we do is public and discoverable across [our GitHub repositories](https://github.com/2i2c-org/), and is tracked by GitHub issues. [Here's a list of issues we've closed in ~Q3](https://github.com/search?q=org%3A2i2c-org+type%3Aissue+is%3Aclosed+closed%3A%3E2021-06-01+-label%3A%22type%3A+team-sync%22+is%3Aissue&type=issues).
+> This is a (roughly) quarterly update for the 2i2c community, with the goal of providing transparency about what we've been up to, sharing what we are working on and where we have struggled, and discussing what we're up to next. In addition, almost all of the work we do is public and discoverable across [our GitHub repositories](https://github.com/2i2c-org/), and is tracked by GitHub issues. [Here's a list of issues we've closed in ~Q3](https://github.com/search?q=org:2i2c-org+type:issue+is:closed+closed:2021-06-01..2021-10-01+-label:%22type:+team-sync%22+is:issue&type=issues).
 
 It is amazing how quickly 4 months goes by when you're building an organization from scratch! It seems like only a few weeks ago that we were recapping the beginning of the year in [our last community update](../six-month-update). Since then, we have been hard at work to make 2i2c's organizational and infrastructure more robust and sustainable.
 
-There are four major strategic areas where 2i2c aims to have impact, and we've split this community update along each of these major areas below. We'll cover major highlights, challenges we've faced, and where we're going next.
+There are several major strategic areas where 2i2c aims to have impact, and we've split this community update along each of these major areas below. We'll cover major highlights, challenges we've faced, and where we're going next.
 
 ## Highlights
 
@@ -24,14 +24,14 @@ Our Managed JupyterHub Service will be a sustainable, scalable, and participator
 
 We focused on a few major areas for work, outlined below:
 
-- **Automation across cloud providers**. We wish to serve communities that run on any of the major commercial cloud providers. We can standardize some of our infrastructure through abstractions like Kubernetes, but must still create cloud-specific deployment infrastructure as well (that Kubernetes cluster has to come from somewhere first!). In the last four months we've worked on automating Kubernetes and JupyterHub deployments on [AWS](https://github.com/2i2c-org/pilot-hubs/issues/627) as well as [Azure](https://github.com/2i2c-org/pilot-hubs/issues/512). We would soon like to run more hubs on this infrastructure to test how well it scales.
-- **Monitoring and reporting infrastructure**. We have worked to improve the JupyterHub [`grafana-dashboards` project](https://github.com/jupyterhub/grafana-dashboards) to improve dashboarding around JupyterHub deployments in general, and will soon automatically deploy Grafana dashboards for our hubs so that communities have insight into what is going on in their hubs. 
+- **Automation across cloud providers**. We wish to serve communities that run on any of the major commercial cloud providers. We can standardize some of our infrastructure through abstractions like Kubernetes, but must still create cloud-specific deployment infrastructure as well (that Kubernetes cluster has to come from somewhere first!). In the last four months we've worked on automating Kubernetes and JupyterHub deployments on [AWS](https://github.com/2i2c-org/pilot-hubs/issues/627) as well as [Azure](https://github.com/2i2c-org/pilot-hubs/issues/512) to complement our Google Cloud deployments. We would soon like to run more hubs on this infrastructure to test how well it scales.
+- **Monitoring and reporting infrastructure**. We have worked on the JupyterHub [`grafana-dashboards` project](https://github.com/jupyterhub/grafana-dashboards) to improve dashboarding around JupyterHub deployments in general, and will soon automatically deploy Grafana dashboards for our hubs so that communities have insight into what is going on in their hubs. 
 - **User environment management**. We want communities to have control over the environments that are available on their hubs. We also want to encourage that our communities follow community standards for reproducible environments that can be re-used elsewhere. For this reason, we've improved the [repo2docker GitHub action](https://github.com/jupyterhub/repo2docker-action) to work with more image registries, and created a [2i2c user image template repository](https://github.com/2i2c-org/hub-user-image-template) for users to re-use for their hubs. See [the User Environment docs](https://docs.2i2c.org/en/latest/admin/howto/environment.html#bring-your-own-docker-image) for more information.
 - **Support and collaboration roles**. In addition to technology changes, we have developed an alpha-level support and collaboration model for the communities we serve. Most relevant for our communities is the **community representative** role, who acts as the main point of contact with 2i2c engineers, and leads administrators on the hub to guide its customization for the community it serves. See [the user roles documentation](https://docs.2i2c.org/en/latest/about/roles.html) for more information. We have also begun prototyping a [FreshDesk support model](https://docs.2i2c.org/en/latest/admin/howto/support.html) and team processes around monitoring our support channels and responding to requests and incidents.
 
 ### Pangeo
 
-We are working with **the Pangeo Community** to migrate the Pangeo JupyterHub deployments to utilize 2i2c's centralized infrastructure, with the goal of 2i2c taking over the development and operation of Pangeo hubs moving forward. We have spent the last few months re-creating the Pangeo hub environment from scratch on a new cloud project managed by Columbia University, and are nearly ready to begin migration from the "old" Pangeo hub to the new one. After this, we will focus our attention on re-creating the Pangeo BinderHub and AWS hub. Follow along with this work [in this GitHub Project](https://github.com/orgs/2i2c-org/projects/16).
+We are working with **the Pangeo Community** to migrate the Pangeo JupyterHub deployments to utilize 2i2c's centralized infrastructure, with the goal of 2i2c taking over the development and operation of Pangeo hubs moving forward. We have spent the last few months re-creating the Pangeo hub environment from scratch on a new cloud project controlled by Columbia University, and are nearly ready to begin migration from the "old" Pangeo hub to the new one. After this, we will focus our attention on re-creating the Pangeo BinderHub and AWS hub. Follow along with this work [in this GitHub Project](https://github.com/orgs/2i2c-org/projects/16).
 
 ### Executable Books / Jupyter Book
 
@@ -50,14 +50,6 @@ We **began [a fiscal sponsorship with Code for Science and Society](https://2i2c
 The 2i2c team has also been **improving our team planning and coordination processes**, so that we can more effectively execute on our mission. As a distributed team, we have the challenge of building processes for team communication, coordination, and planning that are distributed and asynchronous. If you're curious, you can learn more about our coordination processes in [our Team Compass](https://team-compass.2i2c.org/en/latest/practices/development.html).
 
 We have **improved our organization-wide documentation** in order to make it easier to navigate between 2i2c's various sources of information. We hope that this provides more transparency into what 2i2c is up to and how it is structured, and that it allows us to build more connections between our projects and the broader community. Check out the new documentation landing site at [docs.2i2c.org](https://docs.2i2c.org).
-
-### Open source support
-
-Much of the work above was done in collaboration with upstream open source communities. Three key open source communities that we interact with are the Jupyter, JupyterHub, and Executable Books ecosystems. Over the last quarter, in these communities, 2i2c team members have:
-
-- Opened XXX pull-requests
-- Merged XXX pull-requests
-- Made XXX comments
 
 ## What's next
 
