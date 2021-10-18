@@ -2,7 +2,7 @@
 title = "Donate to 2i2c"
 +++
 
-While 2i2c charges fees for its services, much of the work we do is also supported by grants and donations from stakeholders in our community. These resources go towards things like **new development of open source technology**, **maintenance for open source projects**, **community development efforts**, **sponsoring hubs for under-resourced communities**, and **general support for 2i2c in its mission**.
+Much of the work we do is supported by grants and donations from stakeholders in our community. These resources go towards things like **new development of open source technology**, **maintenance for open source projects**, **community development efforts**, **sponsoring hubs for under-resourced communities**, and **general support for 2i2c in its mission**.
 
 Fill our the form below to make a donation to 2i2c via its fiscal sponsor, [Code for Science and Society](https://codeforscience.org). If you'd rather have a conversation with us first about your donation, please [send us an email](mailto:hello@2i2c.org?subject=Donation%20inquiry).
 
