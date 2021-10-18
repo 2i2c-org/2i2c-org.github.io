@@ -23,7 +23,7 @@ We are prioritizing running infrastructure for a diverse group of organizations 
 {{% callout note %}}
 **Would your community benefit from a managed JupyterHub?**
 
-Send us an email and we'd be happy to discuss your community's needs to understand if it is a good fit for the pilot.
+Send us an email and we'd be happy to discuss your community's needs to understand if it is a good fit for our JupyterHub service.
 
 {{< cta cta_text="Send us an email" cta_link="mailto:hello@2i2c.org?subject=Interested in a 2i2c JupyterHub" cta_new_tab="true" >}}
 
