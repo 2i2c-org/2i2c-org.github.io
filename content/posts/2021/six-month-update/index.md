@@ -26,8 +26,8 @@ They'll be built entirely with open source tools that are community-driven, and 
 In order to accomplish this, 2i2c is running several pilots with partners and interested organizations, supported by our [funding from CZI](/posts/czi-core-support), as well as from [the JROST rapid response fund](https://investinopen.org/blog/jrost-rapid-response-fund-awardees/).
 These pilots are meant to be learning opportunities to understand what kind of infrastructure and service it needs to build moving forward.
 
-The [documentation for our pilot hubs infrastructure](https://devops.2i2c.org/en/latest/) contains information about our deployments and infrastructure.
-It is served from [this `2i2c-org/pilot-hubs` repository](https://github.com/2i2c-org/pilot-hubs), a centralized location for configuring and deploying a federated network of JupyterHubs.
+The [documentation for our pilot hubs infrastructure](https://infrastructure.2i2c.org/en/latest/) contains information about our deployments and infrastructure.
+It is served from [this `2i2c-org/infrastructure` repository](https://github.com/2i2c-org/infrastructure), a centralized location for configuring and deploying a federated network of JupyterHubs.
 Each JupyterHub is independent of one another, and could be spun out from the centralized repository with minimal extra work, giving hub users the ability to [replicate their infrastructure, with or without 2i2c](/right-to-replicate).
 We will continue refining the code in this repository as we learn more from our hub infrastructure pilots.
 
