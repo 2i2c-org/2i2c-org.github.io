@@ -18,4 +18,4 @@ title = "We do this by"
 
 **Developing** open source infrastructure that is tailored for use-cases in research and education, so that our ecosystem of tools continues to improve. See [our projects](/projects) for more information.
 
-**Supporting** open source communities that underlie infrastructure in this space, so that these communities may thrive and have positive impact on the world. See [our values](/values) for more information. 
+**Supporting** open source communities that underlie infrastructure in this space, so that these communities may thrive and have positive impact on the world. See [our values](/about/#values) for more information.

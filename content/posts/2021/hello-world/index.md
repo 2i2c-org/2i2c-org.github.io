@@ -53,7 +53,7 @@ Offer [**hosted interactive computing environments on cloud infrastructure**](/i
 
 Provide [**collaboration and development for interactive computing in research and education**](/infrastructure#research-development-hubs). Beyond providing hub infrastructure, there are many ways in which solving problems in research and education can lead to better tools, infrastructure, and workflows in the open source community. For example - how can we generalize a community's solution to scalable computing so that it can be useful for other use-cases as well? We hope that 2i2c can be an aggregator and integrator of many perspectives in research and education, and build tools that are maximally useful across communities.
 
-Provide [**core development and community support**](/open-source) for open source projects that we use. While many organizations *use* Jupyter technology in their projects, it is also crucial that they *give back* to those tools in order to keep the ecosystem healthy. As a mission-driven non-profit, 2i2c has a core goal in not only deploying and customizing open source tools, but also providing core support for them.
+Provide [**core development and community support**](/service/#jupyter) for open source projects that we use. While many organizations *use* Jupyter technology in their projects, it is also crucial that they *give back* to those tools in order to keep the ecosystem healthy. As a mission-driven non-profit, 2i2c has a core goal in not only deploying and customizing open source tools, but also providing core support for them.
 
 ## Next steps
 
