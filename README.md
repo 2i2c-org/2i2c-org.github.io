@@ -3,6 +3,10 @@
 This is a brochure website for the International Interactive Computing Collaboration (2i2c).
 It is built from the [academic hugo theme].
 
+## Where the website is hosted
+
+This website is **hosted** by GitHub Pages, and we use use Netlify to display previews of the website from PRs.
+
 ## Building this website locally
 
 * Install the Hugo extended version from [the latest releases page](https://github.com/gohugoio/hugo/releases)
