@@ -1,9 +1,11 @@
 name: github pages
 
 on:
+  pull_request:
   push:
     branches:
-      - main  # Set a branch to deploy
+      - main
+  workflow_dispatch:
 
 jobs:
   deploy:
@@ -23,7 +25,16 @@ jobs:
       - name: Build
         run: hugo --minify
 
-      - name: Deploy
+      - name: Link Checker
+        uses: lycheeverse/lychee-action@v1.0.9
+        with:
+          args: --exclude https://fonts.gstatic.com --verbose --no-progress public/**/*.html  # fonts.gstatic.com is an expected fail
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
+      # Only deploy to gh-pages if we are pushed to `main` branch
+      - if: ${{ github.ref == 'refs/heads/main' }}
+        name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
