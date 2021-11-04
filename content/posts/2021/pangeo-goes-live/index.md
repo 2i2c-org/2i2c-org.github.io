@@ -21,7 +21,7 @@ Development and operations on this hub will all be done in the open, and [we inv
 On **15th November 2021**, the old Pangeo GCP JupyterHub will be shut down, and the project will move forward on the new 2i2c Pangeo Hub.
 Moving forward, we plan to collaborate together in order to find new pathways for development in the Jupyter ecosystem - we will share more ideas of things we will work on soon!
 
-## What is the Pangeo community?
+## History of Pangeo Cloud Hubs
 
 Pangeo has pioneered a new model in using open source and cloud-agnostic infrastructure to support scientific research in the cloud.
 
