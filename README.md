@@ -5,7 +5,7 @@ It is built from the [academic hugo theme].
 
 ## Where the website is hosted
 
-This website is **hosted** by GitHub Pages, and we use use Netlify to display previews of the website from PRs.
+This website is **hosted** by GitHub Pages, and we use Netlify to display previews of the website from PRs.
 
 ## Building this website locally
 
