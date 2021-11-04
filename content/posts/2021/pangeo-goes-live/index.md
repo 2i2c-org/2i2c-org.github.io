@@ -37,7 +37,7 @@ Modern scalable cloud infrastructure is one example of this. Maintaining a compl
 
 [2i2c](https://2i2c.org) is a non-profit team that develops and operates cloud infrastructure for interactive computing workflows.
 We have extensive experience in Jupyter workflows in the cloud and a long history of contributions to projects in this ecosystem.
-We have built a cloud deployment management system that allows us to centralize ad configure the deployment of many independent JupyterHubs, empowering communities to leverage the same infrastructure (and team!) for JupyterHubs running in the cloud.
+We have built a cloud deployment management system that allows us to centralise and configure the deployment of many independent JupyterHubs, empowering communities to leverage the same infrastructure (and team!) for JupyterHubs running in the cloud.
 
 Similarly to Pangeo, all of 2i2c's core infrastructure is cloud- and vendor-agnostic, and follows a model of building open source tools and giving back to those communities.
 Our partnership with Pangeo began through 2i2c's core competency in these areas and the similarity between the two project's technical stacks.
