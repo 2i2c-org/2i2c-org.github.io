@@ -16,7 +16,7 @@ This is a huge milestone in our partnership with Pangeo to provide expertise and
 For users of Pangeo's infrastructure, the switch should be a smooth one!
 The new hub should behave nearly identically to the old one, and will be managed by 2i2c engineers moving forward, in partnership with the Pangeo community.
 It will be available at the same URL (https://us-central1-b.gcp.pangeo.io) and your home directories were synced to the new hub only a few days before the migration took place.
-Development and operations on this hub will all be done in the open, and [we invite participation and feedback from others]() in our infrastructure work.
+Development and operations on this hub will all be done in the open, and [we invite participation and feedback from others](https://discourse.pangeo.io/t/migration-of-us-central1-b-gcp-pangeo-io-to-2i2c-infrastructure/1890) in our infrastructure work.
 
 On **15th November 2021**, the old Pangeo GCP JupyterHub will be shut down, and the project will move forward on the new 2i2c Pangeo Hub.
 Moving forward, we plan to collaborate together in order to find new pathways for development in the Jupyter ecosystem - we will share more ideas of things we will work on soon!
