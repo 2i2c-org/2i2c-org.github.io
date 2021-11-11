@@ -43,6 +43,7 @@ Similarly to Pangeo, all of 2i2c's core infrastructure is cloud- and vendor-agno
 Our partnership with Pangeo began through 2i2c's core competency in these areas and the similarity between the two project's technical stacks.
 
 We've begun a partnership whereby 2i2c will manage Pangeo's cloud infrastructure and lead efforts to develop new features, in partnership with open source communities.
+We sketched out a few ideas to focus on in this [kick-off thread on Discourse](https://discourse.pangeo.io/t/notes-from-the-pangeo-2i2c-kick-off-meeting/1587).
 This approach allows each community to focus on it's core strengths: Pangeo will continue to grow an open community and scientific software ecosystem around geospatial analytics, and 2i2c will oversee the development and operations of the core cloud infrastructure stack that powers Pangeo's workflows.
 
 We are extremely grateful to the Pangeo project for giving us the opportunity to serve their community, and we look forward to a long partnership ahead! :rocket:
