@@ -16,7 +16,8 @@ This is a huge milestone in our partnership with Pangeo to provide expertise and
 For users of Pangeo's infrastructure, the switch should have been a smooth one!
 The new hub should behave nearly identically to the old one, and will be managed by 2i2c engineers moving forward, in partnership with the Pangeo community.
 It will be available at the same URL (https://us-central1-b.gcp.pangeo.io) and there's no need to worry about your home directories, they were synced to the new hub only a few days before the migration took place.
-Development and operations on this hub will all be done in the open, and [we invite participation and feedback from others](https://discourse.pangeo.io/t/migration-of-us-central1-b-gcp-pangeo-io-to-2i2c-infrastructure/1890) in our infrastructure work.
+Development and operations on this hub will all be done in the open and we invite participation and feedback from others in our infrastructure work.
+Please see [this Discourse thread](https://discourse.pangeo.io/t/migration-of-us-central1-b-gcp-pangeo-io-to-2i2c-infrastructure/1890) as an initial place to provide feedback.
 
 On **15th November 2021**, the old Pangeo GCP JupyterHub will be shut down, and the project will move forward on the new 2i2c Pangeo Hub.
 Moving forward, we plan to collaborate together in order to find new pathways for development in the Jupyter ecosystem - we will share more ideas of things we will work on soon!
@@ -45,6 +46,8 @@ Our partnership with Pangeo began through 2i2c's core competency in these areas 
 We've begun a partnership whereby 2i2c will manage Pangeo's cloud infrastructure and lead efforts to develop new features, in partnership with open source communities.
 We sketched out a few ideas to focus on in this [kick-off thread on Discourse](https://discourse.pangeo.io/t/notes-from-the-pangeo-2i2c-kick-off-meeting/1587).
 This approach allows each community to focus on it's core strengths: Pangeo will continue to grow an open community and scientific software ecosystem around geospatial analytics, and 2i2c will oversee the development and operations of the core cloud infrastructure stack that powers Pangeo's workflows.
-In some areas we are still experiment with different collaboration models to ensure that the needs of the Pangeo community are met in a way that is also sustainable for 2i2c. Over the coming weeks, you may see some conversations (and threads for feedback!) about different support and operations models that work best for the community. We are excited to use this as an opportunity to learn more about how to serve more complex and diverse communities like Pangeo.
+In some areas we are still experimenting with different collaboration models to ensure that the needs of the Pangeo community are met in a way that is also sustainable for 2i2c.
+Over the coming weeks, you may see some conversations (and threads for feedback!) about different support and operations models that work best for the community.
+We are excited to use this as an opportunity to learn more about how to serve more complex and diverse communities like Pangeo.
 
 We are extremely grateful to the Pangeo project for giving us the opportunity to serve their community, and we look forward to a long partnership ahead! :rocket:
