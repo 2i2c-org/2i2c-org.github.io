@@ -1,5 +1,5 @@
 ---
-title: "Pangeo goes live on 2i2c!"
+title: "Pangeo Cloud goes live on 2i2c!"
 subtitle: ""
 summary: "2i2c are pleased to announce that the first Pangeo JupyterHub is now live on 2i2c-operated infrastructure! :tada: "
 authors: ["Sarah Gibson"]
