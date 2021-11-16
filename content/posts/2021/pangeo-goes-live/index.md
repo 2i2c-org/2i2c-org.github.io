@@ -5,7 +5,7 @@ summary: "2i2c are pleased to announce that the first Pangeo JupyterHub is now l
 authors: ["Sarah Gibson"]
 tags: [2i2c, pangeo]
 categories: [updates]
-date: 2021-11-08
+date: 2021-11-16
 featured: false
 image:
   preview_only: true
