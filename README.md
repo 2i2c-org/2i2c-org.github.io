@@ -7,7 +7,7 @@ It is built from the [academic hugo theme].
 
 This website is **hosted** by GitHub Pages, and we use Netlify to display previews of the website from PRs.
 
-## Building this website locally
+## Build this website locally
 
 * Install the Hugo extended version from [the latest releases page](https://github.com/gohugoio/hugo/releases)
   - Ensure that you have the *extended version*
@@ -80,6 +80,27 @@ Featured images are displayed to the right of each post in our post feed.
 By default, you can add a featured image directly to the blog post's folder by adding an image called `featured*`. For example, `featured.jpg`, `featured-image.png`, etc.
 
 If you'd like to re-use another image on the site, you can create a **symbolic link** from the post folder to the image you'd like to re-use. This helps us save space and load time.
+
+### Social media preview images
+
+The Featured Image will also be used to generate previews in social media.
+You can generate an image designed specifically for social media (similar to GitHub social media link previes).
+To do so, follow these steps:
+
+1. Go to [this Figma project for a template](https://www.figma.com/file/EYFRCag2gfYGdEZGFrXgzv/2i2c-Logos?node-id=117%3A67).
+2. Find the "Twitter Summary Community Update" frame.
+3. Update the text to match the title of what you'd like to post.
+4. Export the frame to PNG (at `1x` size).
+5. Place the PNG in the same folder as the relevant website page.
+6. Rename the image so that it is "featured" for that page (see above)
+7. Prevent the image from showing up on the page by adding the following to that page's YAML metadata:
+
+   ```yaml
+   image:
+     preview_only: true
+   ```
+
+The image will now be used to generate a social media preview!
 
 ## This website's theme
 
