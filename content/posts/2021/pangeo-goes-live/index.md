@@ -12,7 +12,7 @@ image:
 draft: false
 ---
 
-We have recently finished re-creating the Pangeo community JupyterHub hosted on GCP in the [2i2c-org/infrastructure](https://github.com/2i2c-org/infrastructure) repository.
+We have recently finished re-creating the [Pangeo](http://pangeo.io/) community JupyterHub hosted on GCP in the [2i2c-org/infrastructure](https://github.com/2i2c-org/infrastructure) repository.
 This is a huge milestone in our partnership with Pangeo to provide expertise and operations of cloud-based, vendor-agnostic Jupyter infrastructure and workflows.
 
 For users of Pangeo's infrastructure, the switch should have been a smooth one!
