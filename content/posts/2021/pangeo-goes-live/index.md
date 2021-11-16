@@ -15,7 +15,7 @@ draft: false
 We have recently finished re-creating the [Pangeo](http://pangeo.io/) community JupyterHub hosted on GCP in the [2i2c-org/infrastructure](https://github.com/2i2c-org/infrastructure) repository.
 This is a huge milestone in our partnership with Pangeo to provide expertise and operations of cloud-based, vendor-agnostic Jupyter infrastructure and workflows.
 
-For users of Pangeo's infrastructure, the switch should have been a smooth one!
+For users of Pangeo Cloud, the switch should have been a smooth one!
 The new hub should behave nearly identically to the old one, and will be managed by 2i2c engineers moving forward, in partnership with the Pangeo community.
 It will be available at the same URL (https://us-central1-b.gcp.pangeo.io) and there's no need to worry about your home directories, they were synced to the new hub only a few days before the migration took place.
 Development and operations on this hub will all be done in the open and we invite participation and feedback from others in our infrastructure work.
