@@ -22,7 +22,7 @@ It will be available at the same URL (https://us-central1-b.gcp.pangeo.io) and t
 Development and operations on this hub will all be done in the open and we invite participation and feedback from others in our infrastructure work.
 Please see [this Discourse thread](https://discourse.pangeo.io/t/migration-of-us-central1-b-gcp-pangeo-io-to-2i2c-infrastructure/1890) as an initial place to provide feedback.
 
-On **15th November 2021**, the old Pangeo GCP JupyterHub will be shut down, and the project will move forward on the new 2i2c Pangeo Hub.
+On **22nd November 2021**, the old Pangeo GCP JupyterHub will be shut down, and the project will move forward on the new 2i2c Pangeo Hub.
 Moving forward, we plan to collaborate together in order to find new pathways for development in the Jupyter ecosystem - we will share more ideas of things we will work on soon!
 
 ## History of Pangeo Cloud Hubs
