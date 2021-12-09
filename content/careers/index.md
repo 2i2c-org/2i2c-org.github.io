@@ -60,23 +60,26 @@ All of the work we do at 2i2c feeds into our mission: to support research and ed
 
 All of the technical development that we do is open source, usually in partnership with other open source communities rather than controlled entirely by 2i2c. This means that the work you do with 2i2c will benefit a much broader community, and you’ll be encouraged to connect with other open source communities as you do your work.
 
-## Salaries and benefits
+## Salary philosophy
 
 We pay competitive salaries for all of our employees at SF market rates. 2i2c chooses its salary levels based on job title and discrete levels that correspond to experience. These salaries are fixed and consistent across all employees of 2i2c -- we do not pay different amounts based on geographic location or cost-of-living, you will be paid the same regardless of where you live. 2i2c also offers a generous benefits package, or will provide extra compensation if you are not in a position to take advantage of US-based benefits packages.
 
 Why approach salaries in this way? For a few reasons. First, we don’t believe that people should have to take a large pay-cut just to work at a non-profit organization, and we want to hire competitively for the tech industry. Second, we believe in equal pay for equal work. We don’t believe that your ability to help 2i2c accomplish its mission is impacted by your ability to negotiate a better salary. We also don’t think it is impacted by external factors like your geographical location or cost of living. Third, we believe in transparency and openness when it comes to our salaries, in order to balance the amount of information on both sides of the hiring equation. We think that these practices allow 2i2c to hire competitively, equitably, and successfully.
 
-### Our benefits
+## Benefits
 
-**RETIREMENT**
-We have established a qualified, defined contribution retirement plan. We make monthly plan contributions on behalf of each participant equal to 10% or 3% of the eligible employee’s monthly compensation, depending on the employee's appointment type. Most employee types qualify for the 10% contribution. Contributions are fully vested and are not dependent upon the employee making contributions on their own, ie, this is not an employer "match".
+For employees based in the US, 2i2c provides health benefits via its fiscal sponsor, Code for Science and Society (CSS).
+These are administered by [TriNet](https://www.trinet.com)
 
-**PAID TIME OFF**: Vacation, Sick, and Holiday leave
-We offer generous vacation and sick leave accrual. We observe 9 holidays throughout the year *plus* Thanksgiving and a 2-week paid Winter Break holiday during the last two weeks of December.
+For employees who are not based in the US, we will compensate you for similar benefits that apply to your country of residence. This is country-specific and generally entails a discussion about compensation that is fair and equitable compared with others at the same job level.
 
-**HEALTH**: Medical, Dental, and Vision
-We offer excellent medical options and coverage. Employees may choose from three medical plans (two HMOs, one PPO). Our dental and vision plans are comprehensive and accepted widely by dental and vision care providers. We full cover the cost of plan premiums.
+## Time off
 
-We also provide Life and Long-Term Disability Insurance, and employees may opt to participate in our Tax-deferred Annuity Plan and Flexible Spending Account as a way to set aside pre-tax dollars to pay for long term savings, medical or dependent care.
+The 2i2c team follows a "Don't ask, do tell" policy when it comes to taking time off.
+We do not define strict restrictions about when people can take time off, and do not have a strict limit to the number of days that team members are away.
+Instead, we ask team members to communicate their intentions early with one another, and discuss with the team if anybody has concerns that a person's absense will harm our ability to meet our goals.
 
-Where applicable, if you are located outside of the United States, we will work with you to get similar benefits according to your geographical context.
+As we are a distributed team across many countries, we do not differentiate national holidays from personal time off.
+Instead, we recommend that everybody takes at least 40 days of time off each year, without a strict cap on the number of days.
+
+More information about our time off policies can be found in the [Taking Time Off section of the team compass](https://team-compass.2i2c.org/en/latest/hr/time-off.html).
