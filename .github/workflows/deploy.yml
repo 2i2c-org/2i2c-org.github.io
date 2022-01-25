@@ -28,7 +28,7 @@ jobs:
       - name: Link Checker
         uses: lycheeverse/lychee-action@v1.0.9
         with:
-          args: --exclude https://fonts.gstatic.com --verbose --no-progress public/**/*.html  # fonts.gstatic.com is an expected fail
+          args: --exclude https://fonts.gstatic.com --exclude twitter.com --verbose --no-progress public/**/*.html  # fonts.gstatic.com is an expected fail and twitter returns "too many requests" errors
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
           fail: true  # Fail if we find broken links
