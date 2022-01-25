@@ -12,10 +12,10 @@ draft: false
 
 Now that 2021 has come to an end, this marks the end of 2i2c’s first year of operations. In this year we have grown, experimented, and accomplished a lot - we have also faced challenges and learned as a team. Our primary goal in 2021 was to build a strong foundation for 2i2c.
 
-To reflect on our work thus far, we're putting together three blog posts that describe our progress in major areas of work in building this foundation for 2i2c.
+To reflect on our work thus far, we're writing three blog posts that describe progress in major areas of work towards this foundation for 2i2c.
 These three areas are:
 
-- **Creating services for specific use-cases** - these are our first managed infrastructure offerings for communities in research and education.
+- **Creating services for use-cases** - these are our first managed infrastructure offerings for communities in research and education.
 - **Developing cloud infrastructure and tools** - this is the technical backbone that makes these services possible, built entirely on open source tools.
 - **Building an organizational foundation** - this is the creation of our team structures, processes, and culture that help us carry out our mission.
 
