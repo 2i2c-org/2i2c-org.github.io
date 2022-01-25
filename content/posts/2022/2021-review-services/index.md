@@ -29,7 +29,7 @@ A primary use-case that 2i2c seeks to enable is **collaborative, distributed edu
 
 **A university-wide hub for the University of Toronto.** This hub is used in a variety of classes throughout the university, and is made freely available to anyone with a UofT account. We hope to repeat this model for other university-wide communities, and have learned a lot about the challenges of working with particularly large educational communities.
 
-**Several hubs for community colleges across California.** In partnership with UC Berkeley and CloudBank, we've run a hub for nearly a dozen small community colleges teaching the [Data 8 curriculum](https://data8.org) for their students. These hubs are lightweight and offer standardized environments for their students to use, in order to lower the cost of deploying and maintaining the hubs over time.
+**Several hubs for community colleges across California.** In partnership with UC Berkeley and CloudBank, we've run several hubs for nearly a dozen small community colleges teaching the [Data 8 curriculum](http://data8.org) for their students. These hubs are lightweight and offer standardized environments for their students to use, in order to lower the cost of deploying and maintaining the hubs over time.
 
 ### What we learned
 
@@ -43,13 +43,13 @@ In addition to educational use-cases, we ran several pilots for research communi
 
 **We migrated Pangeo’s cloud infrastructure to be run via 2i2c.** The [Pangeo Community](https://pangeo.io) had been operating and developing their own JupyterHub for several years, but were looking for another organization to provide more reliable/sustained operations and support for their Pangeo Cloud Service. This year we migrated the service [to run off of 2i2c’s deployment infrastructure](/posts/2021/pangeo-goes-live/).
 
-**A scalable cloud hub for a SWOT satellite team**. The [MEOM research group at Grenoble](https://meom-group.github.io/projects/swot-st/) is doing work with the [NASA SWOT project](https://swot.jpl.nasa.gov/). However, the datasets generated from this project are huge, and only storable via the cloud. We've set up a JupyterHub to provide cloud-based access to this data, running a Pangeo-like environment.
+**A scalable cloud hub for a SWOT satellite team**. The [MEOM research group at Grenoble](https://meom-group.github.io/projects/swot-st/) is doing work with the [NASA SWOT satellite project](https://swot.jpl.nasa.gov/). However, the datasets generated from this project are huge, and only storable via the cloud. We've set up a JupyterHub to provide cloud-based access to this data, running a Pangeo-like environment.
 
 ### What we learned
 
 Research communities tend to have more usecase-specific needs than educational ones. While introductory courses in data science tend to be similar across institutions, research needs are much more unique to the problem and team at hand. Moreover, they tend to want infrastructure that runs via institutional cloud accounts. This is possible due to the flexible nature of Jupyter and JupyterHub, but brings extra challenges in bureacracy and access permissions, given that 2i2c engineers usually are not members of these organizations already.  
 
-Additionally, many research use-cases are based around the **location of the data**. This is because data is the hardest thing to move from cloud to cloud. For this reason, it's important to **bring interactive sessions to the data**. Jupyter's ecosystem makes this possible, but we'd like to do more to make this even easier. For example, users should be able to launch interactive sessions across many clusters or datacenters, regardless of their hub's location. They should also have more customized control over their environments.
+Additionally, many research use-cases are based around the **location of the data**. This is because data is the hardest thing to move from cloud to cloud. For this reason, it's important to **bring interactive sessions to the data**. Jupyter's ecosystem makes this possible, but we'd like to do more to make this easier. For example, users should be able to launch interactive sessions across many clusters or datacenters, regardless of their hub's location. They should also have more customized control over their environments.
 
 ## Distributed events and hackweeks
 

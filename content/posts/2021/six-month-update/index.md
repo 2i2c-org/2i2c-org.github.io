@@ -50,9 +50,9 @@ In addition, we've begun a partnership with the UC Berkeley [Data Science in Und
 This collaboration aims to provide hosted JupyterHub infrastructure for community colleges across the state of California.
 It is an attempt at providing vendor-agnostic and open-source infrastructure to several institutions who would otherwise not be able to deploy this infrastructure on their own.
 
-2i2c will provide the deployment and configuration architecture for this collaboration, working with [Sean Morris](https://its.berkeley.edu/people/sean-morris) in operating this educational infrastructure.
+2i2c will provide the deployment and configuration architecture for this collaboration, working with [Sean Morris](https://www.linkedin.com/in/sean-morris-5847aa2b) in operating this educational infrastructure.
 All of the cloud infrastructure for this pilot will be funded via CloudBank.
-We will begin by offering environments that are modeled after [the Data 8 course at UC Berkeley](https://data8.org).
+We will begin by offering environments that are modeled after [the Data 8 course at UC Berkeley](http://data8.org).
 This is part of an effort to build a community of practice around Data Science education using open source tools.
 
 ## New team members

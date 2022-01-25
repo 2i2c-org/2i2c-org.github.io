@@ -9,7 +9,7 @@ title = "Jupyter at Berkeley"
   columns = "2"
 +++
 
-{{< figure src="https://jupyter.org/assets/nav_logo.svg" class="projects-image" >}}
+{{< figure src="https://jupyter.org/assets/logos/rectanglelogo-greytext-orangebody-greymoons.svg" class="projects-image" >}}
 
 [The DataHubs at UC Berkeley](https://ucbds-infra.github.io/ds-course-infra-guide/intro.html)
 are a collection of JupyterHubs used across the

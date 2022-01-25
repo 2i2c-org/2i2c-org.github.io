@@ -31,6 +31,7 @@ jobs:
           args: --exclude https://fonts.gstatic.com --verbose --no-progress public/**/*.html  # fonts.gstatic.com is an expected fail
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+          fail: true  # Fail if we find broken links
 
       # Only deploy to gh-pages if we are pushed to `main` branch
       - if: ${{ github.ref == 'refs/heads/main' }}

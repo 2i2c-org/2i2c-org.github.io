@@ -9,7 +9,7 @@ title = "Project Jupyter"
   columns = "2"
 +++
 
-{{< figure src="https://jupyter.org/assets/nav_logo.svg" class="projects-image" >}}
+{{< figure src="https://jupyter.org/assets/logos/rectanglelogo-greytext-orangebody-greymoons.svg" class="projects-image" >}}
 
 In addition to the services above, many 2i2c members have spent several years as
 core [Jupyter Project](https://jupyter.org) maintainers. They have used their experiences in research and
