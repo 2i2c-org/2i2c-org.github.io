@@ -18,7 +18,7 @@ All of the tools that 2i2c uses in its hubs are open-source and community-owned.
 <div class="project-figures">
 {{< figure
     target="https://jupyter.org"
-    src="https://jupyter.org/assets/nav_logo.svg"
+    src="https://jupyter.org/assets/logos/rectanglelogo-greytext-orangebody-greymoons.svg"
     title="<p class='project-title'>Jupyter Notebooks</p><p class='project-caption'>Interactive documents for research and education.</p>"
     class="project-highlight"
 >}}
@@ -32,7 +32,7 @@ All of the tools that 2i2c uses in its hubs are open-source and community-owned.
 
 {{< figure
     target="https://jupyter.org/hub"
-    src="https://jupyter.org/assets/hublogo.svg"
+    src="https://jupyter.org/assets/homepage/hublogo.svg"
     title="<p class='project-title'>JupyterHub</p><p class='project-caption'> Cloud-based computing environments for groups</p>"
     class="project-highlight"
 >}}
