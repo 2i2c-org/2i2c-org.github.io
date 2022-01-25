@@ -28,7 +28,7 @@ There is a lot more in our team compass, and we invite you to give it a read to 
 
 **Iterating in the face of uncertainty**. The biggest challenge in creating a new organization is accepting the fact that there is not a single “right” way to do things. You can investigate similar organizations from which you can draw inspiration, but there’s nobody there to tell you what is “right” or “wrong”. However, you need to start somewhere, and so we have tried to adopt a process of continual reflection and improvement rather than trying to get things perfect the first time.
 
-**Working as a fully distributed team**.  2i2c's team is split across more than 6 time zones, and there are no times of the way when we're all in standard "working hours". This adds extra complexity in team communications, coordination, and meetings.  We have had to learn how to coordinate and plan asynchronously, usually via GitHub issues, Slack, and [our Team Compass](http://team-compass.2i2c.org). We have steadily gotten better at executing as a group, and we continue to improve and iterate!
+**Working as a fully distributed team**.  2i2c's team is split across more than 6 time zones, and there are no times of the day when we're all in standard "working hours". This adds extra complexity in team communications, coordination, and meetings.  We have had to learn how to coordinate and plan asynchronously, usually via GitHub issues, Slack, and [our Team Compass](http://team-compass.2i2c.org). We have steadily gotten better at executing as a group, and we continue to improve and iterate!
 
 ### Where we’re heading next
 
