@@ -1,0 +1,8 @@
+
+.alert-note {
+  color: $color-primary;
+
+  > div:before {
+      color: $color-primary !important;
+  }
+}

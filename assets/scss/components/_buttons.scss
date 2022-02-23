@@ -1,0 +1,31 @@
+button.btn-primary a {
+  border-bottom: 0;
+}
+
+// CTA buttons
+ul.cta-group { 
+  padding-left: 1em;
+
+  a {
+      font-size: 1.1em;
+  }
+}
+
+div.color-secondary {
+  // This is the secondary button, it has no class in the theme
+  a {
+      color: $color-secondary;
+  }
+
+  // This will be used for primary buttons
+  a.btn-primary {
+      color: white;
+      background-color: $color-secondary;
+      border-color: $color-secondary;
+  }
+}
+
+// General buttons control
+.button-left ul.cta-group {
+  justify-content: left;
+}
