@@ -6,10 +6,6 @@ share = false  # Show social sharing links?
 profile = false  # Show author profile?
 comments = false  # Show comments?
 aliases = ["/careers"]
-[[open_jobs]]
-title = "yo"
-work = ["hi", "there"]
-salary_range = "$100-200k"
 
 # Note: this uses `layouts/shortcodes/open_jobs.html`.
 # Each [[open_jobs]] entry is a job posting and should have the following form:
