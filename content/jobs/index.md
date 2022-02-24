@@ -1,38 +1,26 @@
 +++
-title = "Careers at 2i2c"
+title = "Jobs at 2i2c"
 
 reading_time = false  # Show estimated reading time?
 share = false  # Show social sharing links?
 profile = false  # Show author profile?
 comments = false  # Show comments?
+aliases = ["/careers"]
+
+# Note: this uses `layouts/shortcodes/open_jobs.html`.
+# Each [[open_jobs]] entry is a job posting and should have the following form:
+#
+# [[open_jobs]]
+# title = "Job Title"
+# work_description = ["Work description 1", "Work description 2", "Work description 3"]
+# salary_range = "$XXX,XXX - $XXX,XXX"
 +++
 
 ## Open positions
 
 Below is a list of open positions at 2i2c. To be notified of any open positions, [sign up for our mailing list](/#contact).
 
-{{% callout note %}}
-We are not currently hiring for any positions, but keep an eye here as we are a young organization and hope to expand soon!
-{{% /callout %}}
-
-
-<!-- NOTE: This job is no longer active, but leaving the code here for when we post a new job -->
-<!-- <div class="card-group job-cards">
-    <div class="card col-6 p-0">
-        <div class="card-body text-left p-4 mb-0">
-        <h5 class="card-title mb-3 mt-0">Open Source Infrastructure Engineer: Pangeo Project</h5>
-            <ul>
-                <li>Dev-ops and infrastructure work</li>
-                <li>Open source data workflows, pipelines, and environments</li>
-                <li>Focus on <a href="https://pangeo.io">Pangeo community</a> and geospatial analytics</li>
-            </ul>
-            <p class="extra-info">Salary: $110,000 - 130,000<br />Fully remote</p>
-        </div>
-        <div class="card-footer text-center">
-            <button type="button" class="btn btn-primary"><a href="/job/osie-pangeo" class="card-link text-white">Details and Apply</a></button>
-        </div>
-    </div>
-</div> -->
+{{% open_jobs %}}
 
 ## Why 2i2c?
 

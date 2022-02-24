@@ -1,92 +1,20 @@
-@import "variables";
-@import "about";
-@import "home";
-@import "projects";
-@import "service";
-@import "navbar";
+// Basic structure and style for all pages
+@import "base/skeleton";
+@import "base/typography";
+@import "base/variables";
 
-// General
-section {
-    .container {
-        max-width: 900px;
-    }
-}
+// Re-usable components across pages
+@import "components/alerts.scss";
+@import "components/buttons.scss";
 
-.section-heading h1 {
-    font-size: 1.8em;
-}
+// Sections of the whole site
+@import "sections/navbar";
 
-button.btn-primary a {
-    border-bottom: 0;
-}
+// Page-specific SCSS
+@import "pages/about";
+@import "pages/home";
+@import "pages/jobs";
+@import "pages/projects";
+@import "pages/right-to-replicate";
+@import "pages/service";
 
-.alert-note {
-    color: $color-primary;
-
-    > div:before {
-        color: $color-primary !important;
-    }
-}
-
-// CTA buttons
-ul.cta-group { 
-    padding-left: 1em;
-
-    a {
-        font-size: 1.1em;
-    }
-}
-
-div.color-secondary {
-    // This is the secondary button, it has no class in the theme
-    a {
-        color: $color-secondary;
-    }
-
-    // This will be used for primary buttons
-    a.btn-primary {
-        color: white;
-        background-color: $color-secondary;
-        border-color: $color-secondary;
-    }
-}
-
-
-// Book-styled pages
-
-div.docs-sidebar {
-    visibility: hidden;
-}
-
-// Right to replicate
-table {
-    tr th:empty {
-        display: none;
-    }
-
-    tr td:first-child {
-        text-align: center;
-        font-size: 1.1em;
-    }
-}
-
-
-// Jobs page
-
-.job-cards {
-    font-size: .8em;
-
-    .extra-info {
-        font-style: italic;
-    }
-
-    button {
-        font-size: 1.3em;
-    }
-}
-
-
-// General buttons control
-.button-left ul.cta-group {
-    justify-content: left;
-}

@@ -1,0 +1,38 @@
+{{/* do not indent the HTML elements in-between loops, it will make them render as code blocks */}}
+{{ if $.Page.Params.open_jobs }}
+
+<div class="card-group job-cards">
+
+{{ range $.Page.Params.open_jobs }}
+
+<div class="card mx-3 col-6 p-0">
+  <div class="card-body text-left p-4 mb-0">
+    <h5 class="card-title mb-3 mt-0">{{ .title }}</h5>
+
+<ul>
+
+{{ range .work_descriptions }}
+
+<li>{{ . }}</li>
+
+{{ end }}
+
+</ul>
+      <p class="extra-info">Salary: {{ .salary_range }}<br />Fully remote</p>
+      </div>
+      <div class="card-footer text-center">
+      <button type="button" class="btn btn-primary">
+        <a href="{{ .url }}" class="card-link text-white">Learn more and Apply</a>
+      </button>
+    </div>
+</div>
+
+{{ end }}
+
+</div>
+
+{{ else }}
+
+**⚠️We are not currently hiring for any positions, but keep an eye here as we are a young organization and hope to expand soon!⚠️**
+
+{{ end }}

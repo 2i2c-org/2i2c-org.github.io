@@ -38,8 +38,8 @@
 
   [[main]]
   parent = "about"
-  name = "Careers"
-  url = "careers/"
+  name = "Jobs"
+  url = "jobs/"
   weight = 15
 
   [[main]]
@@ -50,7 +50,7 @@
 
 [[main]]
   name = "Blog"
-  url = "posts/"
+  url = "blog/"
   weight = 50
 
 [[main]]
