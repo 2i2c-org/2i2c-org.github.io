@@ -62,7 +62,16 @@ Salaries are fixed for a given job title, and do not distinguish between geograp
 For employees based in the US, 2i2c provides health benefits via its fiscal sponsor, [Code for Science and Society](https://codeforscience.org/).
 For employees who are not based in the US, we will compensate you for similar benefits that apply to your country of residence.
 
-### Time off
+## Working hours and time zones
+
+2i2c is a distributed team, and works across a variety of time zones and schedules. For this reason the majority of our communication and coordination is asynchronous. 
+We do not have strict working hours, but we do expect team members to be accountable for the work they do, and to be intentional about reaching out to other team members for support, guidance, and feedback.
+
+Most of the 2i2c team works from `US/Pacific` and `Eastern European` time zones. We do not have a strict rule about which time zone a person works from, but we aim to have at least 2-3 hours of working-day overlap between team members. This might shift around a bit depending on the role and who else you'll work closely with. 
+
+We try to keep synchronous meetings to a minumum, and try to find times that are fair and equitable across our team. However there is a chance that you may need to take an occasional meeting earlier or later than normal, depending on your time zone.
+
+## Time off
 
 We follow a "Don't ask, do tell" policy when it comes to taking time off.
 We recommend that everybody takes at least 40 days of time off each year, without a strict cap on the number of days.
