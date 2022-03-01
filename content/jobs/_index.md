@@ -1,19 +1,6 @@
 +++
 title = "Jobs at 2i2c"
-
-reading_time = false  # Show estimated reading time?
-share = false  # Show social sharing links?
-profile = false  # Show author profile?
-comments = false  # Show comments?
 aliases = ["/careers"]
-
-# Note: this uses `layouts/shortcodes/open_jobs.html`.
-# Each [[open_jobs]] entry is a job posting and should have the following form:
-#
-# [[open_jobs]]
-# title = "Job Title"
-# work_description = ["Work description 1", "Work description 2", "Work description 3"]
-# salary_range = "$XXX,XXX - $XXX,XXX"
 +++
 
 ## Open positions
