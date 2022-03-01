@@ -1,11 +1,11 @@
 {{/* Grab a list of all files in the open jobs folder */}}
 {{ $jobs := .Page.GetPage "jobs/open" }}
 {{ if $jobs.Pages }}
-<div class="card-group job-cards">
+<div class="card-group job-cards mb-5">
 
   {{/* If we find any files, there are open jobs. Loop through them. */}}
   {{ range $jobs.Pages }}
-  <div class="card mx-3 col-6 col-xl-4 p-0">
+  <div class="card mx-3 col-11 col-lg-6 p-0">
     <div class="card-body text-left p-4 mb-0">
       <h5 class="card-title mb-3 mt-0">{{ .Name }}</h5>
         <ul>

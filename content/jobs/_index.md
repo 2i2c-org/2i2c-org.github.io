@@ -5,9 +5,21 @@ aliases = ["/careers"]
 
 ## Open positions
 
-Below is a list of open positions at 2i2c. To be notified of any open positions, [sign up for our mailing list](/#contact).
+We grow our team on a rolling basis as funds and projects are available.
+This page has general information about working at 2i2c, as well as a list of open positions for which we're accepting applications.
+To be notified of any open positions, [sign up for our mailing list](/#contact).
 
 {{< open_jobs >}}
+
+## Skills and requirements for anybody working at 2i2c
+
+There are a few qualities that are required for working in any position at 2i2c.
+We are a distributed organization that is strongly defined by its mission and values. We believe in communities that are inclusive, transparent, equitable, effective, and diverse, especially 2i2c itself. Here are a few qualities we seek in candidates that help ensure they will thrive with our team.
+
+* **Be an excellent written communicator**. 2i2c is a distributed team and organization. We must coordinate across many different time-zones, and conduct most of our conversations asynchronously. You should be comfortable collaborating and communicating via text, and in an asynchronous fashion.
+* **Be collaborative and team-focused.** 2i2c believes in working as a team to solve problems, and we leverage one another for guidance, support, and decisions. While we value and respect an individual’s time to dive into topics on their own, it is crucial that you enjoy working in a highly collaborative and positive team environment.
+* **Be self-driven and creative.** As a distributed organization, it is crucial that our team members are comfortable working without a lot of supervision. While we highly value teamwork and collaboration, we also give team members a great deal of autonomy and expect them to be self-driven.
+* **Commit to follow [our Code of Conduct](https://team-compass.2i2c.org/en/latest/code-of-conduct/index.html) and embody [our organizational values](https://2i2c.org/about/#values).** 2i2c values its open, collaborative, and inclusive culture, and we want a team that is excited to embody and grow this culture within 2i2c and in the outside world.
 
 ## Why 2i2c?
 
@@ -25,7 +37,7 @@ Here are a few reasons that we think 2i2c is a fantastic team to work with.
 
 ### We have competitive pay and great benefits 📊
 
-2i2c believes that it's important for non-profit work to pay competitively with the tech industry. See [more information on our salaries and compensation](#salaries-and-benefits). We are also a remote-first organization with team practices that can be spread across the world.
+2i2c believes that it's important for non-profit work to pay competitively with the tech industry. See below for more information on our salaries and compensation philosophy. We are also a distributed organization with team practices that can be spread across the world.
 
 ### We support research and education 🔬
 
@@ -33,28 +45,29 @@ All of the work we do at 2i2c feeds into our mission: to support research and ed
 
 ### Open source communities are in our DNA 🤝
 
-All of the technical development that we do is open source, usually in partnership with other open source communities rather than controlled entirely by 2i2c. This means that the work you do with 2i2c will benefit a much broader community, and you’ll be encouraged to connect with other open source communities as you do your work.
+All of the technical development that we do is open source, usually in partnership with other open source communities that we co-lead and collaborate with. This means that the work you do with 2i2c will benefit a much broader community, and you’ll be encouraged to connect with other open source communities as you do your work.
 
-## Salary philosophy
+## Our compensation philosophy
 
-We pay competitive salaries for all of our employees at SF market rates. 2i2c chooses its salary levels based on job title and discrete levels that correspond to experience. These salaries are fixed and consistent across all employees of 2i2c -- we do not pay different amounts based on geographic location or cost-of-living, you will be paid the same regardless of where you live. 2i2c also offers a generous benefits package, or will provide extra compensation if you are not in a position to take advantage of US-based benefits packages.
+Here are a few highlights about our compensation philosophy.
+See [the human resources section of our team compass](https://team-compass.2i2c.org/en/latest/hr/index.html) for more information.
 
-Why approach salaries in this way? For a few reasons. First, we don’t believe that people should have to take a large pay-cut just to work at a non-profit organization, and we want to hire competitively for the tech industry. Second, we believe in equal pay for equal work. We don’t believe that your ability to help 2i2c accomplish its mission is impacted by your ability to negotiate a better salary. We also don’t think it is impacted by external factors like your geographical location or cost of living. Third, we believe in transparency and openness when it comes to our salaries, in order to balance the amount of information on both sides of the hiring equation. We think that these practices allow 2i2c to hire competitively, equitably, and successfully.
+### Salaries
 
-## Benefits
+Our goal is to pay competitive wages for tech-focused non-profits that are based in the United States (even though our team is distributed globally).
+Salaries are fixed for a given job title, and do not distinguish between geographic location or cost of living.
 
-For employees based in the US, 2i2c provides health benefits via its fiscal sponsor, Code for Science and Society (CSS).
-These are administered by [TriNet](https://www.trinet.com)
+### Benefits
 
-For employees who are not based in the US, we will compensate you for similar benefits that apply to your country of residence. This is country-specific and generally entails a discussion about compensation that is fair and equitable compared with others at the same job level.
+For employees based in the US, 2i2c provides health benefits via its fiscal sponsor, [Code for Science and Society](https://codeforscience.org/).
+For employees who are not based in the US, we will compensate you for similar benefits that apply to your country of residence.
 
-## Time off
+### Time off
 
-The 2i2c team follows a "Don't ask, do tell" policy when it comes to taking time off.
-We do not define strict restrictions about when people can take time off, and do not have a strict limit to the number of days that team members are away.
+We follow a "Don't ask, do tell" policy when it comes to taking time off.
+We recommend that everybody takes at least 40 days of time off each year, without a strict cap on the number of days.
 Instead, we ask team members to communicate their intentions early with one another, and discuss with the team if anybody has concerns that a person's absense will harm our ability to meet our goals.
 
-As we are a distributed team across many countries, we do not differentiate national holidays from personal time off.
-Instead, we recommend that everybody takes at least 40 days of time off each year, without a strict cap on the number of days.
+## Our commitment to equal opportunity
 
-More information about our time off policies can be found in the [Taking Time Off section of the team compass](https://team-compass.2i2c.org/en/latest/hr/time-off.html).
+We are an equal opportunity employer and value diversity. We do not discriminate on the basis of race (including hairstyle and texture), religion (including religious grooming and dress practices), gender, gender identity, gender expression, color, national origin, pregnancy, ancestry, domestic partner status, disability, sexual orientation, age, genetic predisposition, medical condition, marital status, citizenship status, military or veteran status, or any other basis covered by applicable laws. We will provide reasonable accommodation to an employee or job applicant with a disability.
