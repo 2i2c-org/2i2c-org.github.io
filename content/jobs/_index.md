@@ -7,7 +7,7 @@ aliases = ["/careers"]
 
 Below is a list of open positions at 2i2c. To be notified of any open positions, [sign up for our mailing list](/#contact).
 
-{{% open_jobs %}}
+{{< open_jobs >}}
 
 ## Why 2i2c?
 

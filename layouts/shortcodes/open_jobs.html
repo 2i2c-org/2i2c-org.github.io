@@ -1,43 +1,28 @@
-{{/* do not indent the HTML elements in-between loops, it will make them render as code blocks */}}
-
 {{/* Grab a list of all files in the open jobs folder */}}
 {{ $jobs := .Page.GetPage "jobs/open" }}
-
 {{ if $jobs.Pages }}
-
 <div class="card-group job-cards">
 
-{{/* If we find any files, there are open jobs. Loop through them. */}}
-{{ range $jobs.Pages }}
-
-<div class="card mx-3 col-6 p-0">
-  <div class="card-body text-left p-4 mb-0">
-    <h5 class="card-title mb-3 mt-0">{{ .Name }}</h5>
-
-<ul>
-
-{{ range .Params.work_description }}
-
-<li>{{ . }}</li>
-
-{{ end }}
-
-</ul>
-      <p class="extra-info">Salary: {{ .Params.salary_range }}<br />Fully remote</p>
+  {{/* If we find any files, there are open jobs. Loop through them. */}}
+  {{ range $jobs.Pages }}
+  <div class="card mx-3 col-6 col-xl-4 p-0">
+    <div class="card-body text-left p-4 mb-0">
+      <h5 class="card-title mb-3 mt-0">{{ .Name }}</h5>
+        <ul>
+          {{ range .Params.work_description }}
+          <li>{{ . }}</li>
+          {{ end }}
+        </ul>
+        <p class="extra-info">Salary: {{ .Params.salary_range }}<br />Fully remote</p>
+        </div>
+        <div class="card-footer text-center">
+        <button type="button" class="btn btn-primary">
+          <a href="{{ .Permalink }}" class="card-link text-white">Learn more and Apply</a>
+        </button>
       </div>
-      <div class="card-footer text-center">
-      <button type="button" class="btn btn-primary">
-        <a href="{{ .Permalink }}" class="card-link text-white">Learn more and Apply</a>
-      </button>
-    </div>
+  </div>
+  {{ end }}
 </div>
-
-{{ end }}
-
-</div>
-
 {{ else }}
-
-**⚠️We are not currently hiring for any positions, but keep an eye here as we are a young organization and hope to expand soon!⚠️**
-
+<strong>⚠️We are not currently hiring for any positions, but keep an eye here as we are a young organization and hope to expand soon!⚠️</strong>
 {{ end }}
