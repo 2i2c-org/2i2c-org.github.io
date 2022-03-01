@@ -7,6 +7,12 @@ date = "2022-02-28"
 
 We are looking for a Product and Community Lead to ensure that the communities that 2i2c serves are empowered to have the most impact with our infrastructure.
 
+{{< cta
+    cta_text="Click here to apply"
+    cta_link="https://airtable.com/shrbSTcFNAhKqyy6d?prefill_Applying%20for=Product%20and%20Community%20Lead"
+    cta_new_tab="true"
+>}}
+
 ## Position summary
 
 This role will guide and empower the communities that we serve, learn from them, and bring their perspective to help guide our service and product development. It is similar to a mixture of product management and community and developer advocacy in a tech firm, but adjusted for research, education, and open source contexts.
@@ -14,16 +20,6 @@ This role will guide and empower the communities that we serve, learn from them,
 The skills required are a combination of communication, teaching, learning, service design and delivery, and technical acumen. The person that fills this role should feel comfortable learning and sharing ideas, empowering and guiding others, and communicating clearly and collaboratively with a variety of stakeholders including end-users and engineers.
 
 This is a leadership role for a strategy-minded practitioner. 2i2c is a young organization, and this role will have a large degree of autonomy and flexibility. We have defined the starting point, but we seek someone who can bring a strategic eye to this position. Over time we hope that the role will grow to define and lead this style of work within 2i2c more broadly.
-
-### How to apply
-
-Apply by filling in the information requested at the link below.
-
-{{< cta
-    cta_text="Click here to apply"
-    cta_link="https://airtable.com/shrbSTcFNAhKqyy6d?prefill_Applying%20for=Product%20and%20Community%20Lead"
-    cta_new_tab="true"
->}}
 
 ## What you’ll do
 
