@@ -38,7 +38,7 @@ Our users are often not power-users with Jupyter, open source workflows, or clou
 * **Develop user-facing materials** (documentation, workshops, talks, etc) that demonstrate the basic use-cases that we support, and the best ways that the infrastructure can be used to accomplish community goals. For example “Teaching with Jupyter” or “An Introduction to Scalable Computing with Dask.”
 * **Provide one-on-one or group guidance to our user communities** (particularly leaders in those communities) with the goal of transferring knowledge that they can then share within their peers.
 
-**Foster deeper external relationships and engagements** with key communities of practice and partners that are important for 2i2c’s strategy, such as the [Pangeo Project](pangeo.io) (which is a key stakeholder for this role).
+**Foster deeper external relationships and engagements** with key communities of practice and partners that are important for 2i2c’s strategy, such as the [Pangeo Project](https://pangeo.io) (which is a key stakeholder for this role).
 
 * **Engage with potential communities and stakeholders**, with a focus on demonstrating the use-cases we hope to support and leading to new service contracts with these communities.
 * **Communicate externally to demonstrate impact.** For example, by participating in meetings, conferences, and other events where we have an opportunity to highlight the work that 2i2c does.
@@ -60,7 +60,7 @@ This role should understand the perspectives of our users and the use-cases we w
 
 ### Strategic leadership
 
-This is the first position of its kind within 2i2c, and it will have freedom to shape its strategy and role with the organization. It should oversee the evolution and growth of this _kind _of work within 2i2c, and develop organizational strategy for how to maximize our impact. Below are a few ways that this might occur (both independently and in partnership with others at 2i2c):
+This is the first position of its kind within 2i2c, and it will have freedom to shape its strategy and role with the organization. It should oversee the evolution and growth of this _kind_ of work within 2i2c, and develop organizational strategy for how to maximize our impact. Below are a few ways that this might occur (both independently and in partnership with others at 2i2c):
 
 * **Develop a product and service culture** that balances intuition, community research, and data to create delightful experiences and maximize our impact.
 * **Define key goals and evaluation criteria for the success of our communities**, and work with others at 2i2c to measure and refine these goals, communicate our impact internally, and use this experience to refine our team processes and strategy.
@@ -81,4 +81,4 @@ Below are several skills that will make somebody well-suited for this role. Ther
 * Experience using an open source language in a research/education setting. 
 * An interest in learning about workflows with the open source language Python, and open source workflows around it for research and education.
 * Experience or strong interest in cloud infrastructure and data workflows for research or education, and how this can lead to more collaboration, openness, and productivity (for example, via managed services and [Analysis Ready, Cloud Optimized datasets](https://eartharxiv.org/repository/view/2726/)).
-* Experience with distributed and complex open source communities and ability to communicate and collaborate effectively with these communities.About us page
+* Experience with distributed and complex open source communities and ability to communicate and collaborate effectively with these communities.

@@ -35,13 +35,13 @@ We hope that this role will combine these two aspects to create a culture of lea
 
 We tried to find similar roles in the private and non-profit sector, but couldn't find anything that was a perfect fit. However, there were a few close matches.
 
-This role is kind-of like a **product manager** - their job is to understand the communities that we work with, and to use this to help us make decisions about what to build, how to present it, and how to engage with stakeholders.
+This role is kind-of like a **product manager** - their job is to understand the communities that we work with, and to use this to help us make decisions about what to build, how to present it, and how to engage with stakeholders. They will need to help us prioritize the work that is most impactful for our mission, and help us navigate trade-offs in the evolution of our services.
 
 This role is also kind-of like a **customer success manager** or a **developer advocate** - they will guide and teach those in the communities we serve - particularly community leaders that go on to teach others - how to use our infrastructure most-effectively.
 
 In fact, the closest role we could find is a relatively new one: the [**Research Applications Manager**](https://the-turing-way.netlify.app/collaboration/research-infrastructure-roles/ram.html). This is a role that has been pioneered by the Turing Institute, and is similarly described as a connector that brings together many perspectives and encourages a participatory, team-based approach to research.
 
-However, the reality is that this role will ultimately get to shape the nature of this work within 2i2c themselves. As a young organization, there is a lot of flexibility for creativity and experimentation in bringing new skillsets into our organization. We hope that the person who fills this role will be excited about growing a culture of team-based approaches to our engineering and collaborations, and to share this culture with the communities that we serve.
+However, the reality is that the person in this role will ultimately get to shape the nature of their work within 2i2c. As a young organization, there is a lot of flexibility for creativity and experimentation in bringing new skillsets into our organization. We hope that the person who fills this role will be excited about growing a culture of team-based approaches to our engineering and collaborations, and to share this culture with the communities that we serve.
 
 ## What's next?
 

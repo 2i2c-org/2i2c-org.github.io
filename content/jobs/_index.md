@@ -75,7 +75,7 @@ We try to keep synchronous meetings to a minumum, and try to find times that are
 
 We follow a "Don't ask, do tell" policy when it comes to taking time off.
 We recommend that everybody takes at least 40 days of time off each year, without a strict cap on the number of days.
-Instead, we ask team members to communicate their intentions early with one another, and discuss with the team if anybody has concerns that a person's absense will harm our ability to meet our goals.
+Instead, we ask team members to communicate their intentions early with one another, and discuss with the team if anybody has concerns that a person's absence will harm our ability to meet our goals.
 
 ## Our commitment to equal opportunity
 
