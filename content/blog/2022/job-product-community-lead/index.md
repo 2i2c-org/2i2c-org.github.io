@@ -19,15 +19,15 @@ This role will work alongside our engineering team as a partner, and will serve 
 
 You can find a link to the full job posting below, the rest of this post is a short rationale for this role, and how we hope it will fit within 2i2c's team and strategy.
 
-{{< cta cta_text="Learn more and apply" cta_link="/jobs/product-community-lead-2022/" cta_new_tab="true" >}}
+{{< cta cta_text="Learn more and apply" cta_link="/jobs/2022/product-community-lead/" cta_new_tab="true" >}}
 
 ## Why a new role?
 
-When 2i2c began a year ago, we hired a team of engineers that had experience in cloud infrastructure, Jupyter, and open source ecosystems. In that time, we've built out the foundation of an infrastructure platform to offer community infrastructure for interactive computing that respects the [Right to Replicate](/content/right-to-replicate/).
+When 2i2c began a year ago, we hired a team of engineers that had experience in cloud infrastructure, Jupyter, and open source ecosystems. In that time, we've built out the infrastructure foundation for scalable interactive computing environments that are customizable for the community, and respects their [Right to Replicate](/content/right-to-replicate/).
 
 However, solely providing infrastructure is not enough. Working with the modern open source stack, using the cloud to its advantage, and bringing these tools into specific domains requires a lot of extra experience and expertise. We believe that 2i2c is in a good position to **provide guidance and support to leaders in the communities that we serve**, allowing them to get up-to-speed with the infrastructure more effectively so that they can have an impact.
 
-Moreover, we've also learned that it's crucial to **develop infrastructure in collaboration with the communities that you're serving**. A team of engineers tends to focus on code and infrastructure, and having a role that focuses their efforts on connecting with communities will give them an excellent perspective on what those communities need.
+Moreover, we've also learned that it's crucial to **develop infrastructure in collaboration with the communities that we're serving**. A team of engineers tends to focus on code and infrastructure, and having a role that focuses on connecting with communities will give them an excellent perspective on what those communities need.
 
 We hope that this role will combine these two aspects to create a culture of learning, sharing, and guiding between 2i2c's team and the communities that we work with.
 
@@ -47,4 +47,4 @@ However, the reality is that the person in this role will ultimately get to shap
 
 Effective today we are opening up applications for this position, and will begin reviewing them in 2 weeks on a rolling basis until the position is filled. For a more formal job posting, and instructions to apply, click the link below!
 
-{{< cta cta_text="Learn more and apply" cta_link="/jobs/product-community-lead-2022/" cta_new_tab="true" >}}
+{{< cta cta_text="Learn more and apply" cta_link="/jobs/2022/product-community-lead/" cta_new_tab="true" >}}

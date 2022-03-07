@@ -15,7 +15,7 @@ We are looking for a Product and Community Lead to ensure that the communities t
 
 ## Position summary
 
-This role will guide and empower the communities that we serve, learn from them, and bring their perspective to help guide our service and product development. It is similar to a mixture of product management and community and developer advocacy in a tech firm, but adjusted for research, education, and open source contexts.
+This role will guide and empower the communities that we serve, learn from them, and bring their perspective to guide our service and product development. It is similar to a mixture of product management and community and developer advocacy in a tech firm, but adjusted for research, education, and open source contexts. It is also similar to a [**Research Applications Manager**](https://the-turing-way.netlify.app/collaboration/research-infrastructure-roles/ram.html), but with a focus on using and developing infrastructure.
 
 The skills required are a combination of communication, teaching, learning, service design and delivery, and technical acumen. The person that fills this role should feel comfortable learning and sharing ideas, empowering and guiding others, and communicating clearly and collaboratively with a variety of stakeholders including end-users and engineers.
 
@@ -27,7 +27,7 @@ This role is a combination of connecting, guiding, leading, learning, communicat
 
 ### Guiding and learning from communities we serve
 
-Our users are often not power-users with Jupyter, open source workflows, or cloud-native workflows. This role should work with users of these communities to guide them in using our infrastructure for maximal impact. Below are a few example responsibilities:
+Our users are often not "power-users" with Jupyter, open source workflows, or cloud-native workflows. This role should work with users of these communities to guide them in using our infrastructure for maximal impact. Below are a few example responsibilities:
 
 **Understand the goals and needs of the communities we serve**, as well as the major pain points and problems that they have. This understanding may not be directly communicated and will be gained through active observation. For example:
 
@@ -41,13 +41,13 @@ Our users are often not power-users with Jupyter, open source workflows, or clou
 
 **Foster deeper external relationships and engagements** with key communities of practice and partners that are important for 2i2c’s strategy, such as the [Pangeo Project](https://pangeo.io) (which is a key stakeholder for this role).
 
-* **Engage with potential communities and stakeholders**, with a focus on demonstrating the use-cases we hope to support and leading to new service contracts with these communities.
+* **Engage with potential communities and stakeholders**, with a focus on demonstrating the use-cases we hope to support and generating new service contracts with these communities.
 * **Communicate externally to demonstrate impact.** For example, by participating in meetings, conferences, and other events where we have an opportunity to highlight the work that 2i2c does.
 * **Interact extensively with open source communities** that underlie our infrastructure, potentially serving in leadership roles and doing significant work to support these communities. There will be a particular focus on the Jupyter and PyData ecosystems.
 
-### Guide product design and implementation
+### Guide product and service design and implementation
 
-This role should understand the perspectives of our users and the use-cases we wish to enable, and bring this perspective to help guide the evolution of our services and infrastructure. Below are a few example responsibilities:
+This role should understand the perspectives of our users and the use-cases we wish to enable, and bring this perspective to guide the evolution of our services and infrastructure. Below are a few example responsibilities:
 
 **Represent user communities and communicate their needs** to the engineering team, leadership team, and other stakeholders. For example:
 
@@ -65,7 +65,7 @@ This is the first position of its kind within 2i2c, and it will have freedom to 
 
 * **Develop a product and service culture** that balances intuition, community research, and data to create delightful experiences and maximize our impact.
 * **Define key goals and evaluation criteria for the success of our communities**, and work with others at 2i2c to measure and refine these goals, communicate our impact internally, and use this experience to refine our team processes and strategy.
-* **Develop an organizational strategy** for how 2i2c should grow its product and community success operations over time, including making new hires, defining new roles, and defining interconnections between these roles and the broader 2i2c team.
+* **Develop an organizational strategy** for how 2i2c should grow its service and community engagement operations over time, including making new hires, defining new roles, and defining interconnections between these roles and the broader 2i2c team.
 * **Develop a communications plan** that communicates 2i2c’c impact and positions 2i2c as a leading advocate for community-owned interactive computing infrastructure.
 * **Collaborate around sustainability and stakeholder engagement**. 2i2c aims to sustain itself through a combination of paid services, grants, and stakeholder partnerships. This role will collaborate with others at 2i2c in defining and carrying out these efforts.
 
@@ -74,12 +74,12 @@ This is the first position of its kind within 2i2c, and it will have freedom to 
 
 Below are several skills that will make somebody well-suited for this role. There is significant scope to develop new skills and grow in the role, and some flexibility in emphasizing different aspects of the role based on the applicant’s skill sets and interests.
 
-* Experience with community management and engagement, with a focus on teaching and sharing knowledge with others.
-* Experience with product management and guidance, with a focus on collaboration with engineering teams at both a design and an implementation level.
-* Experience with technical communication and documentation skills.
+* Experience with **community management and engagement**, with a focus on teaching and sharing knowledge with others.
+* Experience with **product management and guidance**, with a focus on collaboration with engineering teams at both a design and an implementation level.
+* Experience with **technical communication and documentation skills**.
 * Experience at strategic development and building organizations or teams (particularly distributed or technology-focused ones).
-* Experience with data science workflows in research, education, and scholarship, with a focus on open workflows and [FAIR principles](https://www.go-fair.org/fair-principles/).
-* Experience using an open source language in a research/education setting. 
-* An interest in learning about workflows with the open source language Python, and open source workflows around it for research and education.
-* Experience or strong interest in cloud infrastructure and data workflows for research or education, and how this can lead to more collaboration, openness, and productivity (for example, via managed services and [Analysis Ready, Cloud Optimized datasets](https://eartharxiv.org/repository/view/2726/)).
-* Experience with distributed and complex open source communities and ability to communicate and collaborate effectively with these communities.
+* Experience with **data science workflows** in research, education, and scholarship, with a focus on open workflows and [FAIR principles](https://www.go-fair.org/fair-principles/).
+* Experience **using an open source language** in a research/education setting. 
+* An interest in learning about **workflows with the open source language Python**, and open source workflows around it for research and education.
+* Experience or strong interest in **cloud infrastructure and data workflows** for research or education, and how this can lead to more collaboration, openness, and productivity (for example, via managed services and [Analysis Ready, Cloud Optimized datasets](https://eartharxiv.org/repository/view/2726/)).
+* Experience with **distributed and complex open source communities** and ability to communicate and collaborate effectively with these communities.
