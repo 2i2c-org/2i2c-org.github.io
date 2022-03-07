@@ -19,7 +19,7 @@ This role will work alongside our engineering team as a partner, and will serve 
 
 You can find a link to the full job posting below, the rest of this post is a short rationale for this role, and how we hope it will fit within 2i2c's team and strategy.
 
-{{< cta cta_text="Learn more and apply" cta_link="/jobs/2022-product-community-lead" cta_new_tab="true" >}}
+{{< cta cta_text="Learn more and apply" cta_link="/jobs/product-community-lead-2022/" cta_new_tab="true" >}}
 
 ## Why a new role?
 
@@ -47,4 +47,4 @@ However, the reality is that the person in this role will ultimately get to shap
 
 Effective today we are opening up applications for this position, and will begin reviewing them in 2 weeks on a rolling basis until the position is filled. For a more formal job posting, and instructions to apply, click the link below!
 
-{{< cta cta_text="Learn more and apply" cta_link="/jobs/open/product-community-lead-2022" cta_new_tab="true" >}}
+{{< cta cta_text="Learn more and apply" cta_link="/jobs/product-community-lead-2022/" cta_new_tab="true" >}}

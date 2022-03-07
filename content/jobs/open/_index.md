@@ -1,1 +1,0 @@
-This is an index page for our open jobs, but it shouldn't be displayed publicly. If you managed to get here, you should instead go to [the Jobs page](/jobs).

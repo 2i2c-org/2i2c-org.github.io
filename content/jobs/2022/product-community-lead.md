@@ -5,6 +5,7 @@ salary_range = "$120,000 - $130,000"
 location = "anywhere (prefer a time zone between US/Pacific and Central European)"
 date = "2022-02-28"
 url_apply = "https://airtable.com/shrbSTcFNAhKqyy6d?prefill_Applying%20for=Product%20and%20Community%20Lead"
+open = "true"
 +++
 
 We are looking for a Product and Community Lead to ensure that the communities that 2i2c serves are empowered to have the most impact with our infrastructure.
