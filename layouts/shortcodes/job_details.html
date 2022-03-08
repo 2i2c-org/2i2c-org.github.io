@@ -1,0 +1,24 @@
+{{/* This inserts page metadata about a job into an info card on the page */}}
+<div class="job-info">
+
+{{ if ne .Page.Params.open "true" }}
+❌❌❌<br>
+This posting is closed to new applications.<br>
+See <a href="/jobs">the jobs page</a> for our open positions.<br>
+❌❌❌
+{{ end }}
+
+<i class="fa fa-info-circle"></i> **About the position**
+
+- **Salary**: {{ .Page.Params.salary_range }}
+- **Location**: {{ .Page.Params.location }}
+
+For more general information about working at 2i2c, benefits, and expectations of team members, [see our Jobs page](/jobs).
+For a comprehensive guide to 2i2c's team practices and strategy, see [our Team Compass](https://team-compass.2i2c.org).
+
+<ul class="cta-group">
+  <li>
+    <a href="{{ .Page.Params.url_apply }}" class="btn btn-primary px-3 py-3">Click here to Apply</a>
+  </li>
+</ul>
+</div>
