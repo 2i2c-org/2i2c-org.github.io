@@ -89,4 +89,4 @@ Below are several skills that will make somebody well-suited for this role. Ther
 
 We know that this role is very broad in scope, and that there is a lot of room for interpretation of the specific responsibilities and duties. This is somewhat intentional, and somewhat unavoidable, given that this is the first role of its kind within 2i2c.
 
-We recognize that one risk in these situations is to have unrealistic expectations, or an unsustainable amount of work for the person involved. We'll do everything we can to set these expectations intentionally, and to refine them as we learn more, to ensure that this role is sustainable.
+We recognize that one risk in these situations is to have unrealistic expectations, or an unsustainable amount of work for the person involved. We'll do everything we can to set these expectations intentionally, and to refine them as we learn more, to ensure that this role is sustainable. The person in this role will need to be comfortable with a larger-than-normal amount of ambiguity and flexibility, though part of their job will be to _reduce_ this ambiguity for themselves and for others in the future.
