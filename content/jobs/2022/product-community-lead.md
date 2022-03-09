@@ -5,12 +5,13 @@ salary_range = "$120,000 - $130,000"
 location = "anywhere (prefer a time zone between US/Pacific and Central European)"
 date = "2022-02-28"
 url_apply = "https://airtable.com/shrbSTcFNAhKqyy6d?prefill_Applying%20for=Product%20and%20Community%20Lead"
+deadline = "We will begin reviewing applications around **March 21st**, and will accept them on a rolling basis until the position is filled."
 open = "true"
 +++
 
 We are looking for a Product and Community Lead to ensure that the communities that 2i2c serves are empowered to have the most impact with our infrastructure.
 
-<!-- Defined in `layouts/shortcodes/job_details.html -->
+<!-- Defined in layouts/shortcodes/job_details.html -->
 {{% job_details %}}
 
 ## Position summary
@@ -83,3 +84,7 @@ Below are several skills that will make somebody well-suited for this role. Ther
 * An interest in learning about **workflows with the open source language Python**, and open source workflows around it for research and education.
 * Experience or strong interest in **cloud infrastructure and data workflows** for research or education, and how this can lead to more collaboration, openness, and productivity (for example, via managed services and [Analysis Ready, Cloud Optimized datasets](https://eartharxiv.org/repository/view/2726/)).
 * Experience with **distributed and complex open source communities** and ability to communicate and collaborate effectively with these communities.
+
+## A note on scope and expectations
+
+We know that this role is very broad in scope, and that there is a lot of room for interpretation of the specific responsibilities and duties. This is somewhat intentional, and somewhat unavoidable, given that this is the first role of its kind within 2i2c. We will do everything we can to set these expectations intentionally, and to refine them as we learn more, in order to reduce this ambiguity and ensure that this role is sustainable.
