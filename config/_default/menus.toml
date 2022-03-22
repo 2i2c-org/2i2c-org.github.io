@@ -38,8 +38,14 @@
 
   [[main]]
   parent = "about"
-  name = "Jobs"
+  name = "Work at 2i2c"
   url = "jobs/"
+  weight = 15
+
+  [[main]]
+  parent = "about"
+  name = "Collaborate with us"
+  url = "collaborate/"
   weight = 15
 
   [[main]]
