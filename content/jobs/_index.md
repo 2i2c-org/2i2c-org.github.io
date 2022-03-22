@@ -1,6 +1,10 @@
 +++
-title = "Jobs at 2i2c"
+title = "Work at 2i2c"
 aliases = ["/careers"]
+
+[design]
+  # Prevent the list of job postings from showing up at the bottom
+  css_class = "hide-page-stream"
 +++
 
 ## Open positions
@@ -21,7 +25,39 @@ We are a distributed organization that is strongly defined by its mission and va
 * **Be self-driven and creative.** As a distributed organization, it is crucial that our team members are comfortable working without a lot of supervision. While we highly value teamwork and collaboration, we also give team members a great deal of autonomy and expect them to be self-driven.
 * **Commit to follow [our Code of Conduct](https://team-compass.2i2c.org/en/latest/code-of-conduct/index.html) and embody [our organizational values](https://2i2c.org/about/#values).** 2i2c values its open, collaborative, and inclusive culture, and we want a team that is excited to embody and grow this culture within 2i2c and in the outside world.
 
-## Why 2i2c?
+## What it's like to work at 2i2c
+
+Here are some important aspects of working at 2i2c to help you understand how you could fit in with our practices.
+
+### Our team compass
+
+The "source of truth" for all of 2i2c's practices and policies can be found [in our Team Compass](https://team-compass.2i2c.org/en/latest/).
+This is a living document that helps us coordinate our expectations and plans.
+
+### A distributed team
+
+2i2c's team is entirely distributed around the globe.
+It presently has team members in more than 4 time zones, and over an 8 hour time difference.
+This means that we do much of our work **asynchronously**, and coordinate in a collection of GitHub issues, Slack channels, etc.
+We try to make intentional space for synchronous conversation and meetings, and recognize that doing so likely inconveniences at least one team member due to time zone differences.
+Team members have a great degree of autonomy and flexibility in where, when, and how they work.
+However, it can also be challenging to work in a fully distributed fashion!
+We are constantly improving our team practices, but you should decide for yourself whether distributed work matches your preferences and working style.
+
+See [our Team Practices section in the Team Compass](https://team-compass.2i2c.org/en/latest/practices/index.html) for more information about how we coordinate.
+
+### Common team time zones
+
+Most of the 2i2c team works from `US/Pacific` and `Eastern European` time zones. We do not have a strict rule about which time zone a person works from, but we aim to have at least 2-3 hours of working-day overlap between team members. This might shift around a bit depending on the role and who else you'll work closely with.
+
+### Time off
+
+We follow a "Don't ask, do tell" policy when it comes to taking time off.
+We recommend that everybody takes at least 40 days of time off each year, without a strict cap on the number of days.
+Instead, we ask team members to communicate their intentions early with one another, and discuss with the team if anybody has concerns that a person's absence will harm our ability to meet our goals.
+
+
+## Why work at 2i2c?
 
 2i2c believes that open infrastructure is a crucial part of transforming research and education to be more powerful, more equitable, more inclusive, and more accessible. We are a small and growing team, and recognize that our early employees play a crucial role in setting the right culture and direction for the organization.
 
@@ -61,21 +97,6 @@ Salaries are fixed for a given job title, and do not distinguish between geograp
 
 For employees based in the US, 2i2c provides health benefits via its fiscal sponsor, [Code for Science and Society](https://codeforscience.org/).
 For employees who are not based in the US, we will compensate you for similar benefits that apply to your country of residence.
-
-## Working hours and time zones
-
-2i2c is a distributed team, and works across a variety of time zones and schedules. For this reason the majority of our communication and coordination is asynchronous. 
-We do not have strict working hours, but we do expect team members to be accountable for the work they do, and to be intentional about reaching out to other team members for support, guidance, and feedback.
-
-Most of the 2i2c team works from `US/Pacific` and `Eastern European` time zones. We do not have a strict rule about which time zone a person works from, but we aim to have at least 2-3 hours of working-day overlap between team members. This might shift around a bit depending on the role and who else you'll work closely with. 
-
-We try to keep synchronous meetings to a minumum, and try to find times that are fair and equitable across our team. However there is a chance that you may need to take an occasional meeting earlier or later than normal, depending on your time zone.
-
-## Time off
-
-We follow a "Don't ask, do tell" policy when it comes to taking time off.
-We recommend that everybody takes at least 40 days of time off each year, without a strict cap on the number of days.
-Instead, we ask team members to communicate their intentions early with one another, and discuss with the team if anybody has concerns that a person's absence will harm our ability to meet our goals.
 
 ## Our commitment to equal opportunity
 

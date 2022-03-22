@@ -1,0 +1,8 @@
+/**
+ * Utility classes
+ */
+// This prevents the page's stream from showing up at all.
+// Should be applied to a parent div of the page.
+.hide-page-stream div.media.stream-item {
+  display: none;
+}
