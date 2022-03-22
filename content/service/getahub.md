@@ -7,13 +7,9 @@ title = "Get a hub for your community"
 
 [design]
   columns = "1"
-  spacing.padding = ["0", "0", "0", "0"]
-
-  [design.background]
-    color = "white"
   
 [advanced]
-  css_class = ["pt-0", "pb-0"]
+  css_class = "mt-3 pt-4"
 +++
 
 The Managed JupyterHubs service is currently in a **private alpha** phase. We are running JupyterHub infrastructure for a select group of communities in order to learn more about how the service could best-support the communities we wish to serve. For more information, [see our strategy and goals documentation](https://docs.2i2c.org/en/latest/about/strategy.html).
