@@ -14,7 +14,7 @@
 <link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css crossorigin=anonymous title=hl-dark media=print onload="this.media='all'" disabled>
 <link rel=preload as=style href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
 <link rel=stylesheet href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media=print onload="this.media='all'">
-<link rel=stylesheet href=../css/wowchemy.370c533c1e5d83043e60287dc345579f.css>
+<link rel=stylesheet href=../css/wowchemy.31b4b7b6bdeabb5f22c4b80c0711968b.css>
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-170352908-1"></script>
 <script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}function trackOutboundLink(a,b){gtag('event','click',{event_category:'outbound',event_label:a,transport_type:'beacon',event_callback:function(){b!=='_blank'&&(document.location=a)}}),console.debug("Outbound link clicked: "+a)}function onClickCallback(a){if(a.target.tagName!=='A'||a.target.host===window.location.host)return;trackOutboundLink(a.target,a.target.getAttribute('target'))}gtag('js',new Date),gtag('config','UA-170352908-1',{anonymize_ip:!0}),gtag('set',{cookie_flags:'SameSite=None;Secure'}),document.addEventListener('click',onClickCallback,!1)</script>
 <link rel=manifest href=../manifest.webmanifest>
@@ -191,6 +191,7 @@ Service documentation <i class="fas fa-angle-right"></i>
 This helps <a href=../right-to-replicate>give our communities the Right to Replicate their infrastructure</a>, and makes it easier for others to collaborate with and learn from us.</p>
 <ul>
 <li><a href=https://docs.2i2c.org/en/latest/about/overview.html target=_blank rel=noopener><strong>Our service overview</strong></a> has more information about the service, its goals and strategy, and the latest information on features, pricing, and use-cases.</li>
+<li><a href=https://docs.2i2c.org/en/latest/about/strategy.html target=_blank rel=noopener><strong>Our service strategy</strong></a> has information about our goals and plans for execution in growing and sustaining this service.</li>
 <li><a href=https://docs.2i2c.org/en/latest/ target=_blank rel=noopener><strong>The hub administrator&rsquo;s guide</strong></a> is a hands-on guide for community leaders that administer JupyterHubs managed by 2i2c.</li>
 <li><a href=https://infrastructure.2i2c.org/ target=_blank rel=noopener><strong>Our Infrastructure Guide</strong></a> is the guide that <em>2i2c Engineers</em> use to manage your cloud infrastructure. It describes all the details of our cloud infrastructure.</li>
 <li><a href=https://team-compass.2i2c.org/ target=_blank rel=noopener><strong>Our Team Compass</strong></a> has everything you might want to know about 2i2c - our structure, strategy, team practices and policies, major projects, and how to get involved.</li>
@@ -222,35 +223,28 @@ Cloud service documentation <i class="fas fa-angle-right"></i>
 </div>
 </div>
 </section>
-<section id=jupyter class="home-section wg-blank">
-<div class=home-section-bg style=background-color:#fff></div>
-<div class=container>
-<div class="row justify-content-center">
-<div class="section-heading col-12 mb-3 text-center">
-<h1 class=mb-0>Built on Jupyter, powered by open source</h1>
-</div>
-<div class=col-12>
-<p>At the core of 2i2c&rsquo;s infrastructure are tools in <a href=https://jupyter.org target=_blank rel=noopener>the Jupyter ecosystem</a>. Jupyter is an open community that builds tools that support interactive computing workflows with data. 2i2c&rsquo;s team members are core contributors in the Jupyter ecosystem, and leaders of several of its sub-projects. Jupyter&rsquo;s infrastructure is flexible, and can be used in partnership with a variety of open source tools.</p>
-</div>
-</div>
-</div>
-</section>
-<section id=jupyter-features class="home-section wg-featurette" style=padding:0>
+<section id=jupyter-features class="home-section wg-featurette pt-t pb-0">
 <div class=home-section-bg style=background-color:#fff></div>
 <div class=container>
 <div class="row featurette">
+<div class="col-md-12 section-heading">
+<h1>Built on Jupyter and community-led infrastructure.</h1>
+</div>
+<div class=col-md-12>
+<p>At the core of 2i2c&rsquo;s infrastructure are tools in <a href=https://jupyter.org target=_blank rel=noopener>the Jupyter ecosystem</a>. Jupyter is an open community that builds tools that support interactive computing workflows with data. 2i2c&rsquo;s team members are core contributors in the Jupyter ecosystem, and leaders of several of its sub-projects. Jupyter&rsquo;s infrastructure is flexible, and can be used in partnership with a variety of open source tools.</p>
+</div>
 <div class="col-12 col-sm-4">
-<div class=featurette-icon><i class="fas fa-network-wired"></i></div>
+<div class=featurette-icon><img src=../media/icons/jupyterhub.svg alt=jupyterhub class="svg-icon svg-baseline"></div>
 <div class=section-subheading>Jupyter Hub</div>
 <p>Configures and controls the cloud infrastructure for your user&rsquo;s environments. <a href=https://jupyter.org/hub>Learn more</a>.</p>
 </div>
 <div class="col-12 col-sm-4">
-<div class=featurette-icon><i class="fas fa-flask"></i></div>
+<div class=featurette-icon><img src=../media/icons/jupyter.svg alt=jupyter class="svg-icon svg-baseline"></div>
 <div class=section-subheading>Jupyter Lab and Notebooks</div>
 <p>UIs for exploring data and authoring interactive documents for research and learning. <a href=https://jupyterlab.readthedocs.io/en/latest/>Learn more</a>.</p>
 </div>
 <div class="col-12 col-sm-4">
-<div class=featurette-icon><i class="fas fa-book-open"></i></div>
+<div class=featurette-icon><img src=../media/icons/jupyterbook.svg alt=jupyterbook class="svg-icon svg-baseline"></div>
 <div class=section-subheading>Jupyter Book</div>
 <p>Communicate and publish computational narratives that connect with hub infrastructure. <a href=https://jupyterbook.org>Learn more</a>.</p>
 </div>
@@ -286,8 +280,36 @@ While Jupyter is at the core of 2i2c&rsquo;s infrastructure, Jupyter is flexible
 </div>
 </div>
 </section>
-<section id=getahub class="home-section wg-blank [pt-0 pb-0]" style=padding:0>
+<section id=cloud-providers class="home-section wg-featurette" style=padding:0>
 <div class=home-section-bg style=background-color:#fff></div>
+<div class=container>
+<div class="row featurette">
+<div class="col-md-12 section-heading">
+<h1>Supported Cloud Providers</h1>
+</div>
+<div class=col-md-12>
+<p>2i2c aims to support JupyterHubs on any cloud provider that offers a managed Kubernetes service.
+To start, we are focusing on the major commercial cloud providers listed below.
+If you would like a hub hosted on a different cloud provider, please <a href=mailto:hello@2i2c.org>give us your feedback</a>.
+See <a href=https://docs.2i2c.org/en/latest/about/strategy.html target=_blank rel=noopener>our Managed Service Strategy and Goals</a> to learn more about our plans.</p>
+</div>
+<div class="col-12 col-sm-4">
+<div class=featurette-icon><img src=../media/icons/google-cloud.svg alt=google-cloud class="svg-icon svg-baseline"></div>
+<div class=section-subheading>Google Cloud</div>
+</div>
+<div class="col-12 col-sm-4">
+<div class=featurette-icon><img src=../media/icons/azure.svg alt=azure class="svg-icon svg-baseline"></div>
+<div class=section-subheading>Microsoft Azure</div>
+</div>
+<div class="col-12 col-sm-4">
+<div class=featurette-icon><img src=../media/icons/aws.svg alt=aws class="svg-icon svg-baseline"></div>
+<div class=section-subheading>Amazon Web Services</div>
+</div>
+</div>
+</div>
+</section>
+<section id=getahub class="home-section wg-blank mt-3 pt-4">
+<div class=home-section-bg></div>
 <div class=container>
 <div class="row justify-content-center">
 <div class="section-heading col-12 mb-3 text-center">
