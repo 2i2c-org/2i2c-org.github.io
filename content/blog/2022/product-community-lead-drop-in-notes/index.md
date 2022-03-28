@@ -15,8 +15,7 @@ We spent the hour discussing a number of questions that others had about the pos
 Below is a short overview of the questions and some responses, for those who were not able to attend.
 These responses are a bit rough, since they are mostly off-the-cuff based on the questions asked.
 
-> ⚠️ We'll have a second drop-in office hours on **Thursday**. See the tweet below for details.
-> {{< tweet 1506018716084887557 >}}
+> **Update 2022-03-24**: We've added extra questions and answers below from our latest drop-in meeting.
 
 ## What does success look like in the short and long term?
 
@@ -96,3 +95,69 @@ This position is not an engineer, and won't be expected to understand the inner-
 However, it will be crucial that this role understand what is possible with JupyterHub, Notebooks, Jupyter Book, etc, and develop and teach best-practices in applying these tools for research and education.
 They'll need to have a deep *intuition* for how to use Jupyter tools, how they should be improved, and how they can be integrated together for new services (along with other tools in the open source community).
 More important than anything is a deep interest in this ecosystem, and a desire to learn, but having prior experience with the Jupyter stack and similar workflows will be a big benefit.
+
+## What level of technical expertise is needed for this position?
+
+Ideally, they should have the expertise of a "power user" of the infrastructure and usecases that we work with.
+We don't expect this role to have software development or cloud infrastructure engineering expertise, but they should understand what it is like to **use** these tools from a user's perspective, and have an intuition about how to improve the workflows.
+They should be able to communicate with and collaborate with engineers effectively, so understanding development workflows will be helpful, but they do not need core expertise in software development.
+
+## Is it kind of like a scientific / technical writer?
+
+The skills of a scientific or technical writer would certainly be relevant for this position.
+For example, somebody that enjoyed technical documentation or scientific communication likely has one relevant skillset for this role.
+However, the role will do much more than _just_ technical writing - they will also create and execute on organizational strategy, collaborate with our team around designing and planning our work, etc.
+
+## Is scientific knowledge in a specific domain important?
+
+We don't expect this person to have deep knowledge in any particular scientific field, though experience with scientific and educational workflows in general will be very beneficial.
+2i2c's goal is to build expertise in the aspects of interactive computing workflows that overlap between many research / educational communities.
+We hope to work with leaders from these communities to leverage their domain expertise, and to empower them to lead others.
+Similar to having technical expertise, the important thing is having an intuition for what it's like to use the infrastructure, what _kinds of problems_ our target communities are trying to solve, and how to learn more about their perspectives.
+
+## Does the role involve writing grants for the sustainability of the project?
+
+This role isn't tasked specifically with identifying and writing grants, though it is likely that they will collaborate with others at 2i2c in crafting grant language or pursuing similar opportunities.
+2i2c is a small organization and so we all tend to wear many hats, though we try to keep each person's efforts focused on their core responsibilities.
+In this case, those responsibilities are community guidance and engagement, as well as service / product design in collaboration with our team.
+
+## What kinds of communications would this role oversee?
+
+This is hard to know right now and may evolve over time, but we expect this role will primarily communicate with pre-existing communities that we serve.
+They will also foster communication between leaders within these communities.
+They may interface with communities that 2i2c seeks to serve in the future (for example, in collaboration with sales and partnerships), but their focus will be on cultivating and guiding the communities we already work with.
+
+## Term for this position
+
+We hire all team members on one-year contracts with an annual review and the expectation to renew the contract for another year (unless we explicitly say otherwise).
+
+## Where are the communities you work with?
+
+Here are a few characteristics of the communities we _currently_ work with, though we aspire to broaden this group significantly (for example, we wish to expand our focus outside of North American and Europe):
+
+- They tend to be focused in North America and in Europe (this is likely due to our pre-existing connections)
+- They cover a broad range of use-cases, from small- and large-scale education in single institutions, to small- and large-scale research communities that are distributed across the globe.
+- A common pattern is to work with "community champions" that are interested in our technology and serve as leaders to bring these workflows to their respective communities. We seek to build more connections with people like this, and cultivate our relationship with them.
+
+Aspirationally, we hope to grow our reach to more communities outside of these countries, in order to achieve our mission of reaching a global audience.
+Doing so will require more sophistication in our coordination and pricing, in order to match our services and support model with communities outside of North America and Europe.
+
+## 2i2c is young and without much structure. How do you plan to add more structure over time? What support will this role have?
+
+This is the first role of its kind, and so you'll need to be comfortable with a relatively fluid environment.
+We all believe strongly in building good organizational support structures, but we are a young organization that is still developing this capacity internally.
+Your immediate primary support system will be the other strategic leadership of 2i2c - the Executive Director, Steering Council members (on an ad-hoc basis), and other team members.
+Over time, we look forward to building more formal support networks between divisions of 2i2c and our team members. 
+
+## Does this person need to be on an America/Europe time zone?
+
+The team is currently distributed between US/Pacific and Eastern European time zones, and this also matches the majority of communities we currently work with, so it will be important for this person to have several hours overlap with at least one of those two (the more the better).
+In the short run, it is likely that a person within these time zones will have the least barriers to team and community collaboration.
+However, we do not have any strict rules about this.
+
+In the longer term, we are committed to building distributed team practices that do not cause team members to pay large penalties for being in a particular time zone, and we look forward to finding creative solutions to this challenge.
+
+## How are you going to proceed now with the applications you’ve received?
+
+We will soon begin reviewing applications on a rolling basis, and will aim for a multi-step interview process that is respectful of the time of each applicant.
+More details to come about this, and we'll start sending out communications about applications soon.
