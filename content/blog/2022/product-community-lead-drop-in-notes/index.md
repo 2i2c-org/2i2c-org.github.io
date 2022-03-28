@@ -106,12 +106,12 @@ They should be able to communicate with and collaborate with engineers effective
 
 The skills of a scientific or technical writer would certainly be relevant for this position.
 For example, somebody that enjoyed technical documentation or scientific communication likely has one relevant skillset for this role.
-However, the rolle will do much more than _just_ technical writing - they will also create and execute on organizational strategy, collabate with our team around designing and planning our work, etc.
+However, the role will do much more than _just_ technical writing - they will also create and execute on organizational strategy, collaborate with our team around designing and planning our work, etc.
 
-## Is the scientific knowledge important?
+## Is scientific knowledge in a specific domain important?
 
 We don't expect this person to have deep knowledge in any particular scientific field, though experience with scientific and educational workflows in general will be very beneficial.
-2i2c's goal is to biuld expertise in the aspects of interactive computing workflows that overlap between many rearch / educational communities.
+2i2c's goal is to build expertise in the aspects of interactive computing workflows that overlap between many research / educational communities.
 We hope to work with leaders from these communities to leverage their domain expertise, and to empower them to lead others.
 Similar to having technical expertise, the important thing is having an intuition for what it's like to use the infrastructure, what _kinds of problems_ our target communities are trying to solve, and how to learn more about their perspectives.
 
@@ -119,9 +119,9 @@ Similar to having technical expertise, the important thing is having an intuitio
 
 This role isn't tasked specifically with identifying and writing grants, though it is likely that they will collaborate with others at 2i2c in crafting grant language or pursuing similar opportunities.
 2i2c is a small organization and so we all tend to wear many hats, though we try to keep each person's efforts focused on their core responsibilities.
-In this case, those responsibilities are community guidance and engagement, as well as service and product guidance and design in collaboration with our team.
+In this case, those responsibilities are community guidance and engagement, as well as service / product design in collaboration with our team.
 
-## Community Role - what kinds of communications should it oversee?
+## What kinds of communications would this role oversee?
 
 This is hard to know right now and may evolve over time, but we expect this role will primarily communicate with pre-existing communities that we serve.
 They will also foster communication between leaders within these communities.
@@ -131,9 +131,9 @@ They may interface with communities that 2i2c seeks to serve in the future (for 
 
 We hire all team members on one-year contracts with an annual review and the expectation to renew the contract for another year (unless we explicitly say otherwise).
 
-## Where are the communities you work with? All ove the world? What kinds of people?
+## Where are the communities you work with?
 
-Here are a few characteristics of the communities we work with:
+Here are a few characteristics of the communities we _currently_ work with, though we aspire to broaden this group significantly (for example, we wish to expand our focus outside of North American and Europe):
 
 - They tend to be focused in North America and in Europe (this is likely due to our pre-existing connections)
 - They cover a broad range of use-cases, from small- and large-scale education in single institutions, to small- and large-scale research communities that are distributed across the globe.
@@ -142,7 +142,7 @@ Here are a few characteristics of the communities we work with:
 Aspirationally, we hope to grow our reach to more communities outside of these countries, in order to achieve our mission of reaching a global audience.
 Doing so will require more sophistication in our coordination and pricing, in order to match our services and support model with communities outside of North America and Europe.
 
-## Not much structure right now. How do you plan to add more structure over time? What support will this role have?
+## 2i2c is young and without much structure. How do you plan to add more structure over time? What support will this role have?
 
 This is the first role of its kind, and so you'll need to be comfortable with a relatively fluid environment.
 We all believe strongly in building good organizational support structures, but we are a young organization that is still developing this capacity internally.
