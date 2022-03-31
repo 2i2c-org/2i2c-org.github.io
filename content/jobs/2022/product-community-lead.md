@@ -33,7 +33,7 @@ Our users are often not "power-users" with Jupyter, open source workflows, or cl
 **Understand the goals and needs of the communities we serve**, as well as the major pain points and problems that they have. This understanding may not be directly communicated and will be gained through active observation. For example:
 
 * **Create and engage in spaces for sharing information with users.** For example, online forums and live community discussions.
-* **Engage in community-specific spaces.** This role may monitor and participate in community spaces in either research or education (e.g., [the Pangeo forum](https://discourse.pangeo.io/), [the Jupyter forum](discourse.jupyter.org), or forums for education communities) to track relevant conversation and provide guidance as-needed.
+* **Engage in community-specific spaces.** This role may monitor and participate in community spaces in either research or education (e.g., [the Pangeo forum](https://discourse.pangeo.io/), [the Jupyter forum](https://discourse.jupyter.org), or forums for education communities) to track relevant conversation and provide guidance as-needed.
 
 **Guide communities and their leaders for the use-cases that 2i2c wishes to enable**, and how our infrastructure (Jupyter, JupyterHub, open source tools, etc) can be used to have the most impact. For example:
 
