@@ -13,8 +13,7 @@
 #   Latest themes (may require updating): https://sourcethemes.com/academic/themes/
 #   Browse built-in themes in `themes/academic/data/themes/`
 #   Browse user installed themes in `data/themes/`
-[appearance]
-theme_day = "2i2c"
+theme = "2i2c"
 
 # Enable users to switch between day and night mode?
 day_night = false
