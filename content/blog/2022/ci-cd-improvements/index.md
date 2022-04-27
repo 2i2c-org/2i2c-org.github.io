@@ -1,5 +1,5 @@
 ---
-title: "Multiple JupyterHubs, multiple clusters, one repository."
+title: "Tech update: Multiple JupyterHubs, multiple clusters, one repository."
 subtitle: "How we optimised and parallelised deployments of multiple JupyterHubs across multiple clusters in GitHub."
 summary: ""
 authors: ["Sarah Gibson"]
@@ -21,12 +21,12 @@ We hope that it helps other organizations make similar improvements to their own
 ## Our problem
 
 2i2c's problem is similar to that of many large organizations that have independent sub-communities within them.
-We must centralize the operation and configuration of JupyterHubs in order to boost our efficiency in developing and operating them, but must also treat these hubs _independently_ because their user communities are not necessarily related.
+We must centralize the operation and configuration of JupyterHubs in order to boost our efficiency in developing and operating them, but must also treat these hubs _independently_ because their user communities are not necessarily related, and because we want communities to [be able to replicate their infrastructure on their own](/right-to-replicate).
 
 A year ago, we built the first version of our deployment infrastructure at [github.com/2i2c-org/infrastructure](https://github.com/2i2c-org/infrastructure).
 Over the last year of operation, we identified a number of major shortcomings:
 
-- Within a Kubernetes cluster, we deployed hubs sequentially, not in parallel. This grew out of a common practice of [Canary deployments](https://sre.google/workbook/canarying-releases/) that allow us to test changes on a **staging hub** before rolling them out to a **production hub**.
+- Within a Kubernetes cluster, we deployed hubs sequentially, not in parallel. This grew out of a common practice of [Canary deployments](https://sre.google/workbook/canarying-releases/) that allowed us to test changes on a **staging hub** before rolling them out to a **production hub**.
 - We used a single configuration file for all hubs within a cluster, which led to confusion and difficulty in identifying a hub-specific configuration.
 - Moreover, any change to a hub within a cluster caused a re-deploy of _all hubs on that cluster_. This is because we did not know whether a given change touched cluster-wide configuration or hub-specific configuration.
 
@@ -48,12 +48,12 @@ This took a lot of discussion and iteration on design, and so we share it below 
 We made a few major changes to [the infrastructure repository](https://github.com/2i2c-org/infrastructure) to facilitate the deployment logic described above.
 Here are the major changes we implemented:
 
-- We separated out each hub's configuration into its own file, or set of files. For example, [here is 2i2c's `staging` hub configuration](https://github.com/2i2c-org/infrastructure/blob/master/config/clusters/2i2c/staging.values.yaml).
+- We separated each hub's configuration into its own file, or set of files. For example, [here is 2i2c's `staging` hub configuration](https://github.com/2i2c-org/infrastructure/blob/master/config/clusters/2i2c/staging.values.yaml).
 - We created a separate `cluster.yaml` file that holds the canonical list of hubs deployed to that cluster and the configuration file(s) associated with each one. For example, [here is 2i2c's GKE cluster configuration](https://github.com/2i2c-org/infrastructure/blob/master/config/clusters/2i2c/cluster.yaml), which contains a reference to the previously mentioned [staging hub](https://github.com/2i2c-org/infrastructure/blob/master/config/clusters/2i2c/cluster.yaml#L14-L26).
 - We updated [our deployer module](https://github.com/2i2c-org/infrastructure/tree/master/deployer) to do the following things:
   - Inspect the list of files modified in a Pull Request.
   - From this list, calculate the name of a hub that required an upgrade, and the name of its respective cluster.
-  - Trigger a GitHub Actions workflow that would deploy changes in parallel for each cluster/hub pair.
+  - Trigger a GitHub Actions workflow that deploys changes in parallel for each cluster/hub pair.
 
 In addition to these structural and code changes, we also developed new GitHub Actions workflows that control the entire process.
 
@@ -75,16 +75,19 @@ Here are the major jobs in this workflow, and what each does:
    - A **human-readable table** including information on _why_ a given deployment requires an upgrade (using the excellent [Rich library](https://github.com/Textualize/rich)).
    - **JSON outputs** that can be interpreted by GitHub Actions as sets of matrix jobs to run.
 
-   % TODO: Can we add an image of this nice table in the post?
-
+   {{< figure src="images/staging-hub-matrix.png" title="Our staging and support hub job matrix tells GitHub Actions to deploy staging and support upgrades that act as canaries and stop production deploys if they fail.">}}
 2. `upgrade-support-and-staging`: Update the support and staging Helm charts on each cluster. These are "shared infrastructure" Helm charts that control services that are shared across all hubs.
    - Accepts the JSON list described above to determine what to do next
    - Parallelises over clusters
    - Upgrades the support chart of each if required
    - Upgrades a staging hub for the cluster if required (for canary deployments, this is always required if at least one production hub is to be upgraded on the cluster)
+
 3. `filter-generate-jobs`: Allows us to treat the support / staging hubs as canary deployments for all the production hubs on a cluster.
    - If a staging/support hub deploy fails, removes any jobs for the corresponding cluster.
    - Allows production deploys to continue on _other clusters_.
+
+   {{< figure src="images/prod-hub-matrix.png" title="Our production hub job matrix tells GitHub Actions which hubs to update with new changes. These are triggered if a cluster's staging/support job does not fail." >}}
+
 4. `upgrade-prod-hubs`: Deploy updates to each production hub.
    - Accepts the JSON list described above to determine what to do next
    - Parallelises over each production hub that requires an upgrade
@@ -93,7 +96,7 @@ Here are the major jobs in this workflow, and what each does:
 ## Concluding Remarks
 
 We think that this is a nice balance of infrastructure complexity and flexibility.
-It allows us to separate the configuration of each hub and cluster, which makes each more maintainable.
+It allows us to separate the configuration of each hub and cluster, which makes each more maintainable by us, and is more aligned with a community's [Right to Replicate](/right-to-replicate) their infrastructure.
 It allows us to remove the interdependence of deploy jobs that do not _need_ to be dependent, which makes our deploys more efficient.
 Finally, it allows us to make _targeted deploys_ more effectively, which reduces the amount of toil and unnecessary waiting associated with each change. (It also [reduces our carbon footprint by reducing unnecessary GitHub Action time](https://github.blog/2021-04-22-environmental-sustainability-github/)).
 
