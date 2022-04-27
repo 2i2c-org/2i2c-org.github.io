@@ -49,19 +49,19 @@ We made a few major changes to [the infrastructure repository](https://github.co
 Here are the major changes we implemented:
 
 - We separated out each hub's configuration into its own file, or set of files. For example, [here is 2i2c's `staging` hub configuration](https://github.com/2i2c-org/infrastructure/blob/master/config/clusters/2i2c/staging.values.yaml).
-- We created a separate `cluster.yaml` file that holds the canonical list of hubs deployed to that cluster and the configuration file(s) associated with each one. For example, [here is 2i2c's GKE cluster configuration](https://github.com/2i2c-org/infrastructure/blob/master/config/clusters/2i2c/cluster.yaml).
+- We created a separate `cluster.yaml` file that holds the canonical list of hubs deployed to that cluster and the configuration file(s) associated with each one. For example, [here is 2i2c's GKE cluster configuration](https://github.com/2i2c-org/infrastructure/blob/master/config/clusters/2i2c/cluster.yaml), which contains a reference to the previously mentioned [staging hub](https://github.com/2i2c-org/infrastructure/blob/master/config/clusters/2i2c/cluster.yaml#L14-L26).
 - We updated [our deployer module](https://github.com/2i2c-org/infrastructure/tree/master/deployer) to do the following things:
   - Inspect the list of files modified in a Pull Request.
   - From this list, calculate the name of a hub that required an upgrade, and the name of its respective cluster.
-  - Trigger a GitHub action that would deploy changes in-parallel for each cluster/hub pair.
+  - Trigger a GitHub Actions workflow that would deploy changes in parallel for each cluster/hub pair.
 
-In addition to these structural and code changes, we also developed new GitHub Actions that control the entire process.
+In addition to these structural and code changes, we also developed new GitHub Actions workflows that control the entire process.
 
 ### A GitHub Actions workflow for upgrading our JupyterHubs
 
-We defined a new GitHub Action that carries out the logic described above.
+We defined a new GitHub Actions workflow that carries out the logic described above.
 These are all defined in [this `deploy-hubs.yaml` configuration file](https://github.com/2i2c-org/infrastructure/blob/master/.github/workflows/deploy-hubs.yaml).
-Here are the major steps in this action, and what each does:
+Here are the major jobs in this workflow, and what each does:
 
 1. `generate-jobs`: Generate a list of clusters/hubs that must be upgraded, given the files that are changed in a Pull Request.
    - Evaluate an input list of added/modified files in a PR
@@ -73,7 +73,7 @@ Here are the major steps in this action, and what each does:
    This produced two outputs to be used in subsequent steps:
 
    - A **human-readable table** including information on _why_ a given deployment requires an upgrade (using the excellent [Rich library](https://github.com/Textualize/rich)).
-   - A **JSON output** that can be interpreted by GitHub Actions as a set of matrix jobs to run.
+   - **JSON outputs** that can be interpreted by GitHub Actions as sets of matrix jobs to run.
 
    % TODO: Can we add an image of this nice table in the post?
 
@@ -92,10 +92,10 @@ Here are the major steps in this action, and what each does:
 
 ## Concluding Remarks
 
-We think that this is a nicely balance of infrastructure complexity and flexibility.
+We think that this is a nice balance of infrastructure complexity and flexibility.
 It allows us to separate the configuration of each hub and cluster, which makes each more maintainable.
 It allows us to remove the interdependence of deploy jobs that do not _need_ to be dependent, which makes our deploys more efficient.
-Finally, it allows us to make _targeted deploys_ more effectively, which reduces the amount of toil and unnecessary waiting associated with each change. (it also [reduces our carbon footprint by reducing unnecessary GitHub Action time](https://github.blog/2021-04-22-environmental-sustainability-github/)).
+Finally, it allows us to make _targeted deploys_ more effectively, which reduces the amount of toil and unnecessary waiting associated with each change. (It also [reduces our carbon footprint by reducing unnecessary GitHub Action time](https://github.blog/2021-04-22-environmental-sustainability-github/)).
 
 We hope that this is a useful resource for others to follow if they also maintain JupyterHubs for multiple communities.
 If you have any ideas of how we could further improve this infrastructure, please reach out on GitHub!
