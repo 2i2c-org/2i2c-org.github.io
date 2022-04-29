@@ -19,7 +19,8 @@ jobs:
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:
-          hugo-version: '0.87.0'
+          # This should be the same version that we use in .netlify.toml
+          hugo-version: '0.88.1'
           extended: true
 
       - name: Build

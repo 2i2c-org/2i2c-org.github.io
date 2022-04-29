@@ -6,6 +6,8 @@ Much of the work we do is supported by grants and donations from stakeholders in
 
 Fill our the form below to make a donation to 2i2c via its fiscal sponsor, [Code for Science and Society](https://codeforscience.org). If you'd rather have a conversation with us first about your donation, please [send us an email](mailto:hello@2i2c.org?subject=Donation%20inquiry).
 
-<script src="https://donorbox.org/widget.js" paypalExpress="true"></script>
-<iframe src="https://donorbox.org/embed/2i2c" name="donorbox" allowpaymentrequest="allowpaymentrequest" seamless="seamless" frameborder="0" scrolling="no" height="900px" width="100%" style="max-width: 500px; min-width: 250px; max-height:none!important">
-</iframe>
+<div class="d-flex justify-content-center donation-box">
+  <script src="https://donorbox.org/widget.js" paypalExpress="true"></script>
+  <iframe src="https://donorbox.org/embed/2i2c" name="donorbox" allowpaymentrequest="allowpaymentrequest" seamless="seamless" frameborder="0" scrolling="no" height="900px" width="100%" style="max-width: 500px; min-width: 250px; max-height:none!important">
+  </iframe>
+</div>
