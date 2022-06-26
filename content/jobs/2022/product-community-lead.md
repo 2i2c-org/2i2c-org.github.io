@@ -6,7 +6,7 @@ location = "anywhere (prefer a time zone between US/Pacific and Central European
 date = "2022-02-28"
 url_apply = "https://airtable.com/shrbSTcFNAhKqyy6d?prefill_Applying%20for=Product%20and%20Community%20Lead"
 deadline = "We will begin reviewing applications around **March 21st**, and will accept them on a rolling basis until the position is filled."
-open = "true"
+open = "false"
 +++
 
 We are looking for a Product and Community Lead to ensure that the communities that 2i2c serves are empowered to have the most impact with our infrastructure.

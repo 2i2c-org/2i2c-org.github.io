@@ -9,11 +9,13 @@ aliases = ["/careers"]
 
 ## Open positions
 
-We grow our team on a rolling basis as funds and projects are available.
+We grow our team on a rolling basis as funds and projects are available.[^archive]
 This page has general information about working at 2i2c, as well as a list of open positions for which we're accepting applications.
 To be notified of any open positions, [sign up for our mailing list](/#contact).
 
 {{< open_jobs >}}
+
+[^archive]: For an archive of old job postings, see [our GitHub repository for source files](https://github.com/2i2c-org/2i2c-org.github.io/tree/main/content/jobs).
 
 ## Skills and requirements for anybody working at 2i2c
 
