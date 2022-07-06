@@ -6,7 +6,7 @@ weight = 3
 title = "Our team"
 
 [design]
-  columns = "2"
+  columns = "1"
 
   [design.background]
     color = "#f7f7f7"
