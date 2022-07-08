@@ -26,6 +26,12 @@
 
   [[main]]
   parent = "about"
+  name = "Our team"
+  url = "team/"
+  weight = 10
+
+  [[main]]
+  parent = "about"
   name = "Right to Replicate"
   url = "right-to-replicate/"
   weight = 10

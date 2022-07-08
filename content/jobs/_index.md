@@ -1,5 +1,5 @@
 +++
-title = "Work at 2i2c"
+title = "Jobs at 2i2c"
 aliases = ["/careers"]
 
 [design]
