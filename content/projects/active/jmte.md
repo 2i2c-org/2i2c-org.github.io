@@ -7,10 +7,6 @@ title = "Jupyter Meets the Earth"
 
 [design]
   columns = "2"
-
-  [design.background]
-    color = "white"
-
 [advanced]
   css_class = "project-list-item"
 +++

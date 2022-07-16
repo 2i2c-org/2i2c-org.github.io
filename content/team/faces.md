@@ -16,6 +16,4 @@ weight = 20
   # Show user's interests? (true/false)
   show_interests = false
 
-  [design.background]
-    color = "#f7f7f7"
 +++

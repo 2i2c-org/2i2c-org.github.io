@@ -7,7 +7,6 @@ title = "How we're funded"
 
 [design]
   columns = "1"
-  background.color = "#f7f7f7"
 
 +++
 

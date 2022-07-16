@@ -7,9 +7,6 @@ title = "We do this by"
 
 [design]
   columns = "2"
-
-  [design.background]
-    color = "white"
 +++
 
 **Designing** JupyterHub distributions that run on cloud infrastructure, are tailored for research and education, and [respect a community's Right to Replicate their infrastructure](/right-to-replicate). See [our cloud service](/service) for more information.

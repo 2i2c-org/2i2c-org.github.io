@@ -4,13 +4,6 @@ headless = true  # This file represents a page section.
 weight = 31
 title = "Built on Jupyter and community-led infrastructure."
 
-[design]
-  background.color = "white"
-
-[advanced]
-  css_class = "pt-t pb-0"
-
-
 # ... Put Your Section Options Here (title etc.) ...
 
 # Showcase personal skills or business features.

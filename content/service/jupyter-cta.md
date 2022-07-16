@@ -3,8 +3,6 @@ title = ""
 weight = 36
 [design]
   columns = "1"
-
-background.color = "white"
 +++
 
 We build on Jupyter and tools built by open communities for a few key reasons.
