@@ -17,6 +17,24 @@ This document describes 2i2c’s commitment to a customer’s “right to replic
 
 (Definitions of `MUST`, `MUST NOT`, `SHOULD`, `MAY`, etc are defined in [RFC 2119](https://tools.ietf.org/html/rfc2119))
 
+
+<style>
+
+/* Copy over the styling from the old Wowchemy theme so it looks nice */
+table tr:nth-child(odd) > td, table tr:nth-child(odd) > th {
+    background-color: #f9f9f9;
+}
+
+table th, table td {
+  border-top: 1px solid #ddd;
+}
+
+table tr:hover > td, table tr:hover > th {
+    background-color: #e5e5e5;
+}
+
+</style>
+
 <div id="rtr-table">
 
 |                               |                           |                                                                                                                                          |

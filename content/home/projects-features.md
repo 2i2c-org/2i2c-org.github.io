@@ -2,9 +2,6 @@
 widget = "featurette"
 headless = true  # This file represents a page section.
 weight = 113
-[design]
-  [design.background]
-    color = "white"
 
 # Showcase personal skills or business features.
 # Add/remove as many `[[feature]]` blocks below as you like.

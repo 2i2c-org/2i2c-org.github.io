@@ -7,9 +7,6 @@ title = ""
 
 [design]
   columns = "1"
-
-[advanced]
-  css_style = "padding-top: 0;"
 +++
 
 2i2c is an open, transparent, and participatory organization. To learn more about 2i2c, [check our Team Compass](https://team-compass.2i2c.org). To learn the details about our infrastructure, [see the 2i2c infrastructure guide](https://infrastructure.2i2c.org).

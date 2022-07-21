@@ -7,7 +7,6 @@ title = "JROST and IOI rapid response fund"
 
 [design]
   columns = "2"
-  background.color = "#f7f7f7"
 
 [advanced]
   css_class = "funding-source"

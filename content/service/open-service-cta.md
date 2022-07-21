@@ -7,13 +7,6 @@ title = ""
 
 [design]
   columns = "1"
-  spacing.padding = ["0", "0", "0", "0"]
-
-  [design.background]
-    color = "#f7f7f7"
-  
-[advanced]
-  css_class = ["pt-0", "pb-0"]
 +++
 
 <div class="cta-group color-secondary">

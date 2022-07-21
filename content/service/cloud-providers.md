@@ -4,10 +4,6 @@ headless = true  # This file represents a page section.
 title = "Supported Cloud Providers"
 weight = 90
 
-[design]
-  background.color = "white"
-  spacing.padding = ["0", "0", "0", "0"]
-
 # Showcase personal skills or business features.
 # Add/remove as many `[[feature]]` blocks below as you like.
 # For available icons, see: https://sourcethemes.com/academic/docs/widgets/#icons

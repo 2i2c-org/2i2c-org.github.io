@@ -8,9 +8,6 @@ title = "The Pangeo Project"
 [design]
   columns = "2"
 
-  [design.background]
-    color = "#f7f7f7"
-
 [advanced]
   css_class = "funding-source"
 +++

@@ -1,23 +1,24 @@
-# This is just the Minimal theme with primary / menu_text_active updated to a lighter shade of blue.
-# Theme metadata
+# Copied from the Wowchemy Minimal Theme
+# ref: https://github.com/wowchemy/wowchemy-hugo-themes/blob/a042ab6e603ebaf275ed03271ffb6ec7333281f7/modules/wowchemy/data/themes/minimal.toml
 name = "2i2c"
 
-# Is theme light or dark?
-light = true
+[light]
+  # Primary
+  primary = "rgb(87, 154, 202)"
 
-# Primary
-primary = "rgb(87, 154, 202)"  # Binder blue
+  # Menu
+  menu_primary = "#fff"
+  menu_text = "#34495e"
+  menu_text_active = "rgb(87, 154, 202)"
+  menu_title = "#2b2b2b"
 
-# Menu
-menu_primary = "#fff"
-menu_text = "#34495e"
-menu_text_active = "rgb(87, 154, 202)"
-menu_title = "#2b2b2b"
-
-# Home sections
-home_section_odd = "rgb(255, 255, 255)"
-home_section_even = "rgb(247, 247, 247)"
+  # Home sections
+  home_section_odd = "rgb(255, 255, 255)"
+  home_section_even = "rgb(247, 247, 247)"
 
 [dark]
-  link = "#bbdefb"
+  # Primary
+  primary = "rgb(87, 154, 202)"
+
+  link = "rgb(87, 154, 202)"
   link_hover = "#bbdefb"

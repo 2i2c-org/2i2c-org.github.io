@@ -7,10 +7,6 @@ title = "Open tools that we use and support"
 
 [design]
   columns = "1"
-
-  [design.background]
-    color = "#f7f7f7"
-  
 +++
 
 All of the tools that 2i2c uses in its hubs are open-source and community-owned. A core mission of 2i2c is to give back to these communities by providing support, maintenance, and development. Below are a few tools and projects that we are particularly involved with, though the list of open source projects to which we contribute is much larger.

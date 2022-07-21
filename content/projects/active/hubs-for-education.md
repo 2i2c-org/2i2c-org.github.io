@@ -7,10 +7,6 @@ title = "JupyterHubs for Education"
 
 [design]
   columns = "2"
-
-  [design.background]
-    color = "white"
-
 [advanced]
   css_class = "project-list-item"
 +++
