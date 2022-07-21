@@ -1,222 +1,28 @@
-<!doctype html><html lang=en-us>
-<head>
-<meta charset=utf-8>
-<meta name=viewport content="width=device-width,initial-scale=1">
-<meta http-equiv=x-ua-compatible content="IE=edge">
-<meta name=generator content="Wowchemy 5.3.0 for Hugo">
-<meta name=author content="Chris Holdgraf">
-<meta name=description content="The Right to Replicate gives customers the right to replicate their infrastructure in its entirety elsewhere, with or without 2i2c.
-This document describes 2i2c’s commitment to a customer’s “right to replicate”, and how this translates into specific infrastructure commitments from 2i2c.">
-<link rel=alternate hreflang=en-us href=https://2i2c.org/right-to-replicate/>
-<link rel=preconnect href=https://fonts.gstatic.com crossorigin>
-<meta name=theme-color content="rgb(87, 154, 202)">
-<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css integrity="sha256-FMvZuGapsJLjouA6k7Eo2lusoAX9i0ShlWFG6qt7SLc=" crossorigin=anonymous media=print onload="this.media='all'">
-<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css crossorigin=anonymous title=hl-light media=print onload="this.media='all'">
-<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/styles/github.min.css crossorigin=anonymous title=hl-dark media=print onload="this.media='all'" disabled>
-<link rel=preload as=style href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap">
-<link rel=stylesheet href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media=print onload="this.media='all'">
-<link rel=stylesheet href=../css/wowchemy.31b4b7b6bdeabb5f22c4b80c0711968b.css>
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-170352908-1"></script>
-<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}function trackOutboundLink(a,b){gtag('event','click',{event_category:'outbound',event_label:a,transport_type:'beacon',event_callback:function(){b!=='_blank'&&(document.location=a)}}),console.debug("Outbound link clicked: "+a)}function onClickCallback(a){if(a.target.tagName!=='A'||a.target.host===window.location.host)return;trackOutboundLink(a.target,a.target.getAttribute('target'))}gtag('js',new Date),gtag('config','UA-170352908-1',{anonymize_ip:!0}),gtag('set',{cookie_flags:'SameSite=None;Secure'}),document.addEventListener('click',onClickCallback,!1)</script>
-<link rel=manifest href=../manifest.webmanifest>
-<link rel=icon type=image/png href=../media/icon_hu69b3bd656bbf684c276c750a6ad39b47_728_32x32_fill_lanczos_center_3.png>
-<link rel=apple-touch-icon type=image/png href=../media/icon_hu69b3bd656bbf684c276c750a6ad39b47_728_180x180_fill_lanczos_center_3.png>
-<link rel=canonical href=https://2i2c.org/right-to-replicate/>
-<meta property="twitter:card" content="summary_large_image">
-<meta property="twitter:site" content="@2i2c_org">
-<meta property="twitter:creator" content="@2i2c_org">
-<meta property="og:site_name" content="2i2c">
-<meta property="og:url" content="https://2i2c.org/right-to-replicate/">
-<meta property="og:title" content="The Customer Right to Replicate | 2i2c">
-<meta property="og:description" content="The Right to Replicate gives customers the right to replicate their infrastructure in its entirety elsewhere, with or without 2i2c.
-This document describes 2i2c’s commitment to a customer’s “right to replicate”, and how this translates into specific infrastructure commitments from 2i2c."><meta property="og:image" content="https://2i2c.org/media/sharing.png">
-<meta property="twitter:image" content="https://2i2c.org/media/sharing.png"><meta property="og:locale" content="en-us">
-<meta property="article:published_time" content="2018-06-28T00:00:00+00:00">
-<meta property="article:modified_time" content="2018-06-28T00:00:00+00:00">
-<script src=https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.js integrity="sha256-5VhCqFam2Cn+yjw61zbBNrbHVJ6SRydPeKopYlngbiQ=" crossorigin=anonymous></script>
-<link rel=stylesheet href=https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.1/cookieconsent.min.css integrity="sha256-zQ0LblD/Af8vOppw18+2anxsuaz3pWYyVWi+bTvTH8Q=" crossorigin=anonymous>
-<script>window.addEventListener("load",function(){window.cookieconsent.initialise({palette:{popup:{background:"rgb(87, 154, 202)",text:"rgb(255, 255, 255)"},button:{background:"rgb(255, 255, 255)",text:"rgb(87, 154, 202)"}},theme:"classic",content:{message:"This website uses cookies to ensure you get the best experience on our website.",dismiss:"Got it!",link:"Learn more",href:"https://www.cookiesandyou.com"}})})</script>
-<link rel=stylesheet href=https://code.cdn.mozilla.net/fonts/fira.css>
-<title>The Customer Right to Replicate | 2i2c</title>
-</head>
-<body id=top data-spy=scroll data-offset=70 data-target=#TableOfContents class=page-wrapper data-wc-page-id=f9d84027023bd7709772a71806b3aca9>
-<script src=../js/wowchemy-init.min.7f3e7639f4c7f2a2cf83b68ea7de7f08.js></script>
-<div class=page-header>
-<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id=navbar-main>
-<div class=container-xl>
-<div class="d-none d-lg-inline-flex">
-<a class=navbar-brand href=../>2i2c</a>
-</div>
-<button type=button class=navbar-toggler data-toggle=collapse data-target=#navbar-content aria-controls=navbar-content aria-expanded=false aria-label="Toggle navigation">
-<span><i class="fas fa-bars"></i></span>
-</button>
-<div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
-<a class=navbar-brand href=../>2i2c</a>
-</div>
-<div class="navbar-collapse main-menu-item collapse justify-content-start" id=navbar-content>
-<ul class="navbar-nav d-md-inline-flex">
-<li class=nav-item>
-<a class=nav-link href=../service/><span>Cloud Service</span></a>
-</li>
-<li class=nav-item>
-<a class=nav-link href=../projects/><span>Projects</span></a>
-</li>
-<li class="nav-item dropdown">
-<a href=# class="nav-link dropdown-toggle" data-toggle=dropdown aria-haspopup=true><span>About</span><span class=caret></span>
-</a>
-<div class=dropdown-menu>
-<a class=dropdown-item href=../about/><span>About 2i2c</span></a>
-<a class=dropdown-item href=../team/><span>Our team</span></a>
-<a class=dropdown-item href=../right-to-replicate/><span>Right to Replicate</span></a>
-<a class=dropdown-item href=../founders/><span>Founding Team</span></a>
-<a class=dropdown-item href=../collaborate/><span>Collaborate with us</span></a>
-<a class=dropdown-item href=../jobs/><span>Work at 2i2c</span></a>
-<a class=dropdown-item href=../#donate><span>Donate to 2i2c</span></a>
-</div>
-</li>
-<li class=nav-item>
-<a class=nav-link href=../blog/><span>Blog</span></a>
-</li>
-<li class=nav-item>
-<a class=nav-link href=../#contact><span>Contact Us</span></a>
-</li>
-</ul>
-<ul class="navbar-nav ml-md-auto">
-<li class=nav-item>
-<a class=nav-link href=https://docs.2i2c.org target=_blank rel=noopener><span>docs</span></a>
-</li>
-<li class=nav-item>
-<a class=nav-link href=https://docs.2i2c.org/en/latest/support.html target=_blank rel=noopener><span>support</span></a>
-</li>
-</ul>
-</div>
-<ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
-</ul>
-</div>
-</nav>
-</div>
-<div class=page-body>
-<article class=article>
-<div class="article-container pt-3">
-<h1>The Customer Right to Replicate</h1>
-<div class=article-metadata>
-</div>
-</div>
-<div class=article-container>
-<div class=article-style>
-<p>The Right to Replicate gives customers the right to <strong>replicate their infrastructure in its entirety elsewhere, with or without 2i2c</strong>.</p>
-<p>This document describes 2i2c’s commitment to a customer’s “right to replicate”, and how this translates into specific infrastructure commitments from 2i2c. We make these commitments because we believe that using infrastructure that follows these principles will lead to a more fair, just, equitable world. We also believe they are the right foundation for more productive and impactful research and education.</p>
-<p>2i2c is committed to running its own infrastructure on open-source tools and vendor-agnostic infrastructure, though it does not <em>force</em> users to use only open-source tools in their own environments, code, and data. Below is a table describing how the Right to Replicate fits into 2i2c hub technology.</p>
-<p>(Definitions of <code>MUST</code>, <code>MUST NOT</code>, <code>SHOULD</code>, <code>MAY</code>, etc are defined in <a href=https://tools.ietf.org/html/rfc2119 target=_blank rel=noopener>RFC 2119</a>)</p>
-<div id=rtr-table>
-<table>
-<thead>
-<tr>
-<th></th>
-<th></th>
-<th></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>User Code and Data</td>
-<td><strong>May</strong> be Open Source</td>
-<td>We encourage adopting and producing open source code and data, but this is up to the user. <br> e.g., licenses for user content/code</td>
-</tr>
-<tr>
-<td>User Environment</td>
-<td><strong>Should</strong> be Open Source</td>
-<td>Strong preference for open source tools only, although in some cases user needs may override this. <br> e.g., Python, R, PyData stack.</td>
-</tr>
-<tr>
-<td>2i2c Infrastructure</td>
-<td><strong>Must</strong> be Open Source</td>
-<td>Strong commitment to using only open source software. <br> e.g., JupyterHub, Kubernetes, Postgresql</td>
-</tr>
-<tr>
-<td>Cloud Provider Infrastructure</td>
-<td><strong>Must</strong> be Portable</td>
-<td>See <a href=https://words.yuvi.in/post/oss-in-the-cloud/ target=_blank rel=noopener>this blog post</a> for more information.</td>
-</tr>
-</tbody>
-</table>
-</div>
-<p>Below we describe our commitments in our own infrastructure stack in more detail.</p>
-<h2 id=how-2i2c-infrastructure-ensures-this-right>How 2i2c infrastructure ensures this right</h2>
-<p>2i2c infrastructure and documentation for it MUST BE as transparent & accessible as possible, so customers can replicate our configuration without having to extract any ‘secret sauce’ from 2i2c. If they choose to, they can also inspect, audit & modify the infrastructure they are paying for and using.</p>
-<p>To ensure the Right to Replicate to our customers, 2i2c makes the following commitments to infrastructure we build and operate:</p>
-<ol>
-<li>
-<p>We MUST use only open source software to run our infrastructure. By only using software that is available to everyone on the same terms, we can ensure that customers can replicate the infrastructure without having to negotiate licensing terms with proprietary software vendors. In addition, any changes we make to open source software will be made in public and/or contributed upstream, so customers continue to have access to them regardless of where their infrastructure is.</p>
-</li>
-<li>
-<p>We MUST NOT directly depend on proprietary cloud vendor specific products or APIs. Instead, we use cloud-managed open source software, or hide the dependency behind a layer of abstraction. This ensures that customers can port their infrastructure to any cloud provider of their choice, or run it on their own hardware with purely open source software.</p>
-</li>
-</ol>
-<p>This set of commitments acts as a business continuity plan for our customers, ensuring 2i2c will follow best practices within the open source, open education and open research ecosystems.</p>
-</div>
-</div>
-</article>
-</div>
-<div class=page-footer>
-<div class=container>
-<footer class=site-footer>
-<p class=powered-by>
-© 2022 2i2c.org
-</p>
-<p class="powered-by copyright-license-text">
-This work is licensed under <a href=https://creativecommons.org/licenses/by/4.0 rel="noopener noreferrer" target=_blank>CC BY 4.0</a>
-</p>
-<p class="powered-by footer-license-icons">
-<a href=https://creativecommons.org/licenses/by/4.0 rel="noopener noreferrer" target=_blank aria-label="Creative Commons">
-<i class="fab fa-creative-commons fa-2x" aria-hidden=true></i>
-<i class="fab fa-creative-commons-by fa-2x" aria-hidden=true></i>
-</a>
-</p>
-<p class=powered-by>
-<span class=float-right aria-hidden=true>
-<a href=# class=back-to-top>
-<span class=button_icon>
-<i class="fas fa-chevron-up fa-2x"></i>
-</span>
-</a>
-</span>
-</p>
-</footer>
-</div>
-</div>
-<div id=modal class="modal fade" role=dialog>
-<div class=modal-dialog>
-<div class=modal-content>
-<div class=modal-header>
-<h5 class=modal-title>Cite</h5>
-<button type=button class=close data-dismiss=modal aria-label=Close>
-<span aria-hidden=true>&#215;</span>
-</button>
-</div>
-<div class=modal-body>
-<pre><code class="tex hljs"></code></pre>
-</div>
-<div class=modal-footer>
-<a class="btn btn-outline-primary my-1 js-copy-cite" href=# target=_blank>
-<i class="fas fa-copy"></i> Copy
-</a>
-<a class="btn btn-outline-primary my-1 js-download-cite" href=# target=_blank>
-<i class="fas fa-download"></i> Download
-</a>
-<div id=modal-error></div>
-</div>
-</div>
-</div>
-</div>
-<script src=https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin=anonymous></script>
-<script src=https://cdnjs.cloudflare.com/ajax/libs/instant.page/5.1.0/instantpage.min.js integrity="sha512-1+qUtKoh9XZW7j+6LhRMAyOrgSQKenQ4mluTR+cvxXjP1Z54RxZuzstR/H9kgPXQsVB8IW7DMDFUJpzLjvhGSQ==" crossorigin=anonymous></script>
-<script src=https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin=anonymous></script>
-<script src=https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin=anonymous></script>
-<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/highlight.min.js integrity="sha512-TDKKr+IvoqZnPzc3l35hdjpHD0m+b2EC2SrLEgKDRWpxf2rFCxemkgvJ5kfU48ip+Y+m2XVKyOCD85ybtlZDmw==" crossorigin=anonymous></script>
-<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/r.min.js crossorigin=anonymous></script>
-<script src=https://cdnjs.cloudflare.com/ajax/libs/highlight.js/10.2.0/languages/python.min.js crossorigin=anonymous></script>
-<script src=../js/bootstrap.bundle.min.6aed84840afc03ab4d5750157f69c120.js></script>
-<script src=../en/js/wowchemy.min.99ddacf76b31e04b589f8ff7e550cbb8.js></script>
-</body>
-</html>
+<!doctype html><html lang=en-us><head><meta charset=utf-8><meta name=viewport content="width=device-width,initial-scale=1"><meta http-equiv=x-ua-compatible content="IE=edge"><meta name=generator content="Wowchemy 5.6.0 for Hugo"><link rel=preconnect href=https://fonts.gstatic.com crossorigin><link rel=preload as=style href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap"><link rel=stylesheet href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&family=Roboto+Mono&family=Roboto:wght@400;700&display=swap" media=print onload='this.media="all"'><meta name=author content="Chris Holdgraf"><meta name=description content="The Right to Replicate gives customers the right to replicate their infrastructure in its entirety elsewhere, with or without 2i2c.
+This document describes 2i2c’s commitment to a customer’s “right to replicate”, and how this translates into specific infrastructure commitments from 2i2c."><link rel=alternate hreflang=en-us href=https://2i2c.org/right-to-replicate/><meta name=theme-color content="rgb(87, 154, 202)"><link rel=stylesheet href=/css/vendor-bundle.min.c7b8d9abd591ba2253ea42747e3ac3f5.css media=print onload='this.media="all"'><link rel=stylesheet href=https://cdn.jsdelivr.net/npm/academicons@1.9.1/css/academicons.min.css integrity="sha512-W0xM4mr6dEP9nREo7Z9z+9X70wytKvMGeDsj7ps2+xg5QPrEBXC8tAW1IFnzjR6eoJ90JmCnFzerQJTLzIEHjA==" crossorigin=anonymous media=print onload='this.media="all"'><link rel=stylesheet href=/css/wowchemy.f75efcbe55f31cc954947c577db3c079.css><link rel=stylesheet href=/css/libs/chroma/github-light.min.css title=hl-light media=print onload='this.media="all"'><link rel=stylesheet href=/css/libs/chroma/dracula.min.css title=hl-dark media=print onload='this.media="all"' disabled><script async src="https://www.googletagmanager.com/gtag/js?id=UA-170352908-1"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments)}function trackOutboundLink(e,t){gtag("event","click",{event_category:"outbound",event_label:e,transport_type:"beacon",event_callback:function(){t!=="_blank"&&(document.location=e)}}),console.debug("Outbound link clicked: "+e)}function onClickCallback(e){if(e.target.tagName!=="A"||e.target.host===window.location.host)return;trackOutboundLink(e.target,e.target.getAttribute("target"))}gtag("js",new Date),gtag("config","UA-170352908-1",{}),gtag("set",{cookie_flags:"SameSite=None;Secure"}),document.addEventListener("click",onClickCallback,!1)</script><link rel=manifest href=/manifest.webmanifest><link rel=icon type=image/png href=/media/icon_hu69b3bd656bbf684c276c750a6ad39b47_728_32x32_fill_lanczos_center_3.png><link rel=apple-touch-icon type=image/png href=/media/icon_hu69b3bd656bbf684c276c750a6ad39b47_728_180x180_fill_lanczos_center_3.png><link rel=canonical href=https://2i2c.org/right-to-replicate/><meta property="twitter:card" content="summary_large_image"><meta property="twitter:site" content="@2i2c_org"><meta property="twitter:creator" content="@2i2c_org"><meta property="og:site_name" content="2i2c"><meta property="og:url" content="https://2i2c.org/right-to-replicate/"><meta property="og:title" content="The Customer Right to Replicate | 2i2c"><meta property="og:description" content="The Right to Replicate gives customers the right to replicate their infrastructure in its entirety elsewhere, with or without 2i2c.
+This document describes 2i2c’s commitment to a customer’s “right to replicate”, and how this translates into specific infrastructure commitments from 2i2c."><meta property="og:image" content="https://2i2c.org/media/sharing.png"><meta property="twitter:image" content="https://2i2c.org/media/sharing.png"><meta property="og:locale" content="en-us"><meta property="article:published_time" content="2018-06-28T00:00:00+00:00"><meta property="article:modified_time" content="2018-06-28T00:00:00+00:00"><title>The Customer Right to Replicate | 2i2c</title><link rel=stylesheet href=https://code.cdn.mozilla.net/fonts/fira.css></head><body id=top data-spy=scroll data-offset=70 data-target=#TableOfContents class=page-wrapper data-wc-page-id=f9d84027023bd7709772a71806b3aca9><script src=/js/wowchemy-init.min.3dd36640768f3b424bf106740e295d41.js></script><aside class=search-modal id=search><div class=container><section class=search-header><div class="row no-gutters justify-content-between mb-3"><div class=col-6><h1>Search</h1></div><div class="col-6 col-search-close"><a class=js-search href=# aria-label=Close><i class="fas fa-times-circle text-muted" aria-hidden=true></i></a></div></div><div id=search-box><input name=q id=search-query placeholder=Search... autocapitalize=off autocomplete=off autocorrect=off spellcheck=false type=search class=form-control aria-label=Search...></div></section><section class=section-search-results><div id=search-hits></div></section></div></aside><div class=page-header><header class=header--fixed><nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id=navbar-main><div class=container-xl><div class="d-none d-lg-inline-flex"><a class=navbar-brand href=/>2i2c</a></div><button type=button class=navbar-toggler data-toggle=collapse data-target=#navbar-content aria-controls=navbar-content aria-expanded=false aria-label="Toggle navigation">
+<span><i class="fas fa-bars"></i></span></button><div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none"><a class=navbar-brand href=/>2i2c</a></div><div class="navbar-collapse main-menu-item collapse justify-content-start" id=navbar-content><ul class="navbar-nav d-md-inline-flex"><li class=nav-item><a class=nav-link href=/service/><span>Cloud Service</span></a></li><li class=nav-item><a class=nav-link href=/projects/><span>Projects</span></a></li><li class="nav-item dropdown"><a href=# class="nav-link dropdown-toggle" data-toggle=dropdown aria-haspopup=true><span>About</span><span class=caret></span></a><div class=dropdown-menu><a class=dropdown-item href=/about/><span>About 2i2c</span></a>
+<a class=dropdown-item href=/team/><span>Our team</span></a>
+<a class=dropdown-item href=/right-to-replicate/><span>Right to Replicate</span></a>
+<a class=dropdown-item href=/founders/><span>Founding Team</span></a>
+<a class=dropdown-item href=/collaborate/><span>Collaborate with us</span></a>
+<a class=dropdown-item href=/jobs/><span>Jobs at 2i2c</span></a>
+<a class=dropdown-item href=/#donate><span>Donate to 2i2c</span></a></div></li><li class=nav-item><a class=nav-link href=/blog/><span>Blog</span></a></li><li class=nav-item><a class=nav-link href=/#contact><span>Contact Us</span></a></li></ul><ul class="navbar-nav ml-md-auto"><li class=nav-item><a class=nav-link href=https://docs.2i2c.org target=_blank rel=noopener><span>docs</span></a></li><li class=nav-item><a class=nav-link href=https://docs.2i2c.org/en/latest/support.html target=_blank rel=noopener><span>support</span></a></li></ul></div><ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2"><li class=nav-item><a class="nav-link js-search" href=# aria-label=Search><i class="fas fa-search" aria-hidden=true></i></a></li><li class="nav-item dropdown theme-dropdown"><a href=# class=nav-link data-toggle=dropdown aria-haspopup=true aria-label="Display preferences"><i class="fas fa-moon" aria-hidden=true></i></a><div class=dropdown-menu><a href=# class="dropdown-item js-set-theme-light"><span>Light</span></a>
+<a href=# class="dropdown-item js-set-theme-dark"><span>Dark</span></a>
+<a href=# class="dropdown-item js-set-theme-auto"><span>Automatic</span></a></div></li></ul></div></nav></header></div><div class=page-body><article class=article><div class="article-container pt-3"><h1>The Customer Right to Replicate</h1><div class=article-metadata></div></div><div class=article-container><div class=article-style><p>The Right to Replicate gives customers the right to <strong>replicate their infrastructure in its entirety elsewhere, with or without 2i2c</strong>.</p><p>This document describes 2i2c’s commitment to a customer’s “right to replicate”, and how this translates into specific infrastructure commitments from 2i2c. We make these commitments because we believe that using infrastructure that follows these principles will lead to a more fair, just, equitable world. We also believe they are the right foundation for more productive and impactful research and education.</p><p>2i2c is committed to running its own infrastructure on open-source tools and vendor-agnostic infrastructure, though it does not <em>force</em> users to use only open-source tools in their own environments, code, and data. Below is a table describing how the Right to Replicate fits into 2i2c hub technology.</p><p>(Definitions of <code>MUST</code>, <code>MUST NOT</code>, <code>SHOULD</code>, <code>MAY</code>, etc are defined in <a href=https://tools.ietf.org/html/rfc2119 target=_blank rel=noopener>RFC 2119</a>)</p><style>table tr:nth-child(odd)>td,table tr:nth-child(odd)>th{background-color:#f9f9f9}table th,table td{border-top:1px solid #ddd}table tr:hover>td,table tr:hover>th{background-color:#e5e5e5}</style><div id=rtr-table><table><thead><tr><th></th><th></th><th></th></tr></thead><tbody><tr><td>User Code and Data</td><td><strong>May</strong> be Open Source</td><td>We encourage adopting and producing open source code and data, but this is up to the user.<br>e.g., licenses for user content/code</td></tr><tr><td>User Environment</td><td><strong>Should</strong> be Open Source</td><td>Strong preference for open source tools only, although in some cases user needs may override this.<br>e.g., Python, R, PyData stack.</td></tr><tr><td>2i2c Infrastructure</td><td><strong>Must</strong> be Open Source</td><td>Strong commitment to using only open source software.<br>e.g., JupyterHub, Kubernetes, Postgresql</td></tr><tr><td>Cloud Provider Infrastructure</td><td><strong>Must</strong> be Portable</td><td>See <a href=https://words.yuvi.in/post/oss-in-the-cloud/ target=_blank rel=noopener>this blog post</a> for more information.</td></tr></tbody></table></div><p>Below we describe our commitments in our own infrastructure stack in more detail.</p><h2 id=how-2i2c-infrastructure-ensures-this-right>How 2i2c infrastructure ensures this right</h2><p>2i2c infrastructure and documentation for it MUST BE as transparent & accessible as possible, so customers can replicate our configuration without having to extract any ‘secret sauce’ from 2i2c. If they choose to, they can also inspect, audit & modify the infrastructure they are paying for and using.</p><p>To ensure the Right to Replicate to our customers, 2i2c makes the following commitments to infrastructure we build and operate:</p><ol><li><p>We MUST use only open source software to run our infrastructure. By only using software that is available to everyone on the same terms, we can ensure that customers can replicate the infrastructure without having to negotiate licensing terms with proprietary software vendors. In addition, any changes we make to open source software will be made in public and/or contributed upstream, so customers continue to have access to them regardless of where their infrastructure is.</p></li><li><p>We MUST NOT directly depend on proprietary cloud vendor specific products or APIs. Instead, we use cloud-managed open source software, or hide the dependency behind a layer of abstraction. This ensures that customers can port their infrastructure to any cloud provider of their choice, or run it on their own hardware with purely open source software.</p></li></ol><p>This set of commitments acts as a business continuity plan for our customers, ensuring 2i2c will follow best practices within the open source, open education and open research ecosystems.</p></div></div></article></div><div class=page-footer><div class=container><footer class=site-footer><p class="powered-by copyright-license-text">© 2022 2i2c. This work is licensed under <a href=https://creativecommons.org/licenses/by/4.0 rel="noopener noreferrer" target=_blank>CC BY 4.0</a></p><p class="powered-by footer-license-icons"><a href=https://creativecommons.org/licenses/by/4.0 rel="noopener noreferrer" target=_blank aria-label="Creative Commons"><i class="fab fa-creative-commons fa-2x" aria-hidden=true></i>
+<i class="fab fa-creative-commons-by fa-2x" aria-hidden=true></i></a></p><p class=powered-by>Published with <a href="https://wowchemy.com/?utm_campaign=poweredby" target=_blank rel=noopener>Wowchemy</a> — the free, <a href=https://github.com/wowchemy/wowchemy-hugo-themes target=_blank rel=noopener>open source</a> website builder that empowers creators.</p></footer></div></div><script src=/js/vendor-bundle.min.92d2024afaa4dce0cad42ba360879ce9.js></script>
+<script id=search-hit-fuse-template type=text/x-template>
+    <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+    </div>
+  </script><script src=https://cdn.jsdelivr.net/gh/krisk/Fuse@v3.2.1/dist/fuse.min.js integrity="sha512-o38bmzBGX+hD3JHWUFCDA09btWaqrNmoJ3RXLlrysA7PP01Kgs4UlE4MhelE1v5dJR3+cxlR4qQlotsW7jKsnw==" crossorigin=anonymous></script>
+<script src=https://cdn.jsdelivr.net/gh/julmot/mark.js@8.11.1/dist/jquery.mark.min.js integrity="sha512-mhbv5DqBMgrWL+32MmsDOt/OAvqr/cHimk6B8y/bx/xS88MVkYGPiVv2ixKVrkywF2qHplNRUvFsAHUdxZ3Krg==" crossorigin=anonymous></script>
+<script id=page-data type=application/json>{"use_headroom":true}</script><script src=/js/wowchemy-headroom.e8fd2d733eef6a8bbbe0539398fc0547.js type=module></script>
+<script src=/en/js/wowchemy.min.809391fddfcbaebc2442a11cac4effa8.js></script></body></html>

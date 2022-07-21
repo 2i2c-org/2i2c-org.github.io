@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>updates | 2i2c</title><link>https://2i2c.org/category/updates/</link><atom:link href="https://2i2c.org/category/updates/index.xml" rel="self" type="application/rss+xml"/><description>updates</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 2i2c.org</copyright><lastBuildDate>Thu, 14 Jul 2022 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>updates</title><link>https://2i2c.org/category/updates/</link></image><item><title>Reflections on the Jack Eddy Symposium</title><link>https://2i2c.org/blog/2022/eddy-symposium-report/</link><pubDate>Thu, 14 Jul 2022 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2022/eddy-symposium-report/</guid><description>&lt;h1 id="reflections-on-the-jack-eddy-symposium">Reflections on the Jack Eddy Symposium&lt;/h1>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>updates | 2i2c</title><link>https://2i2c.org/category/updates/</link><atom:link href="https://2i2c.org/category/updates/index.xml" rel="self" type="application/rss+xml"/><description>updates</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 14 Jul 2022 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>updates</title><link>https://2i2c.org/category/updates/</link></image><item><title>Reflections on the Jack Eddy Symposium</title><link>https://2i2c.org/blog/2022/eddy-symposium-report/</link><pubDate>Thu, 14 Jul 2022 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2022/eddy-symposium-report/</guid><description>&lt;h1 id="reflections-on-the-jack-eddy-symposium">Reflections on the Jack Eddy Symposium&lt;/h1>
 &lt;p>
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Eddy Symposium Hero Image" srcset="
-/blog/2022/eddy-symposium-report/images/EddySymposium_900x400_hu65774d245d7022e22422f407a342fc61_85909_d5972b08e26ee9fa6e85dc7be134ec4c.jpg 400w,
-/blog/2022/eddy-symposium-report/images/EddySymposium_900x400_hu65774d245d7022e22422f407a342fc61_85909_24a2d3d4370573b0685d458b2f3f47dc.jpg 760w,
-/blog/2022/eddy-symposium-report/images/EddySymposium_900x400_hu65774d245d7022e22422f407a342fc61_85909_1200x1200_fit_q90_lanczos.jpg 1200w"
-src="../../blog/2022/eddy-symposium-report/images/EddySymposium_900x400_hu65774d245d7022e22422f407a342fc61_85909_d5972b08e26ee9fa6e85dc7be134ec4c.jpg"
+/blog/2022/eddy-symposium-report/images/EddySymposium_900x400_hu65774d245d7022e22422f407a342fc61_85909_bfb83f376cfe54c69c38882679e90ec2.webp 400w,
+/blog/2022/eddy-symposium-report/images/EddySymposium_900x400_hu65774d245d7022e22422f407a342fc61_85909_7928579f39a04844dac7959f45afda8f.webp 760w,
+/blog/2022/eddy-symposium-report/images/EddySymposium_900x400_hu65774d245d7022e22422f407a342fc61_85909_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+src="https://2i2c.org/blog/2022/eddy-symposium-report/images/EddySymposium_900x400_hu65774d245d7022e22422f407a342fc61_85909_bfb83f376cfe54c69c38882679e90ec2.webp"
 width="760"
 height="338"
 loading="lazy" data-zoomable />&lt;/div>
@@ -33,7 +33,7 @@ It covers the technical details and provides links to more information about our
 We hope that it helps other organizations make similar improvements to their own infrastructure.&lt;/p>
 &lt;h2 id="our-problem">Our problem&lt;/h2>
 &lt;p>2i2c&amp;rsquo;s problem is similar to that of many large organizations that have independent sub-communities within them.
-We must centralize the operation and configuration of JupyterHubs in order to boost our efficiency in developing and operating them, but must also treat these hubs &lt;em>independently&lt;/em> because their user communities are not necessarily related, and because we want communities to &lt;a href="../../right-to-replicate">be able to replicate their infrastructure on their own&lt;/a>.&lt;/p>
+We must centralize the operation and configuration of JupyterHubs in order to boost our efficiency in developing and operating them, but must also treat these hubs &lt;em>independently&lt;/em> because their user communities are not necessarily related, and because we want communities to &lt;a href="https://2i2c.org/right-to-replicate">be able to replicate their infrastructure on their own&lt;/a>.&lt;/p>
 &lt;p>A year ago, we built the first version of our deployment infrastructure at &lt;a href="https://github.com/2i2c-org/infrastructure" target="_blank" rel="noopener">github.com/2i2c-org/infrastructure&lt;/a>.
 Over the last year of operation, we identified a number of major shortcomings:&lt;/p>
 &lt;ul>
@@ -91,10 +91,10 @@ Here are the major jobs in this workflow, and what each does:&lt;/p>
 &lt;figure id="figure-our-staging-and-support-hub-job-matrix-tells-github-actions-to-deploy-staging-and-support-upgrades-that-act-as-canaries-and-stop-production-deploys-if-they-fail">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Our staging and support hub job matrix tells GitHub Actions to deploy staging and support upgrades that act as canaries and stop production deploys if they fail." srcset="
-/blog/2022/ci-cd-improvements/images/staging-hub-matrix_hu4dc31894a518c4ea2dae50ecb1e07af1_324961_729719f02e0c1b2474b736099cf579fa.png 400w,
-/blog/2022/ci-cd-improvements/images/staging-hub-matrix_hu4dc31894a518c4ea2dae50ecb1e07af1_324961_72c2fdf6381567545844cff873602e3d.png 760w,
-/blog/2022/ci-cd-improvements/images/staging-hub-matrix_hu4dc31894a518c4ea2dae50ecb1e07af1_324961_1200x1200_fit_lanczos_3.png 1200w"
-src="../../blog/2022/ci-cd-improvements/images/staging-hub-matrix_hu4dc31894a518c4ea2dae50ecb1e07af1_324961_729719f02e0c1b2474b736099cf579fa.png"
+/blog/2022/ci-cd-improvements/images/staging-hub-matrix_hu4dc31894a518c4ea2dae50ecb1e07af1_324961_89a60b28ea5d340ace50284f5dafd4e7.webp 400w,
+/blog/2022/ci-cd-improvements/images/staging-hub-matrix_hu4dc31894a518c4ea2dae50ecb1e07af1_324961_4ce081208c29fc5bbeb51ae7adb06942.webp 760w,
+/blog/2022/ci-cd-improvements/images/staging-hub-matrix_hu4dc31894a518c4ea2dae50ecb1e07af1_324961_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2022/ci-cd-improvements/images/staging-hub-matrix_hu4dc31894a518c4ea2dae50ecb1e07af1_324961_89a60b28ea5d340ace50284f5dafd4e7.webp"
 width="760"
 height="529"
 loading="lazy" data-zoomable />&lt;/div>
@@ -120,10 +120,10 @@ Our staging and support hub job matrix tells GitHub Actions to deploy staging an
 &lt;figure id="figure-our-production-hub-job-matrix-tells-github-actions-which-hubs-to-update-with-new-changes-these-are-triggered-if-a-clusters-stagingsupport-job-does-not-fail">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Our production hub job matrix tells GitHub Actions which hubs to update with new changes. These are triggered if a cluster&amp;#39;s staging/support job does not fail." srcset="
-/blog/2022/ci-cd-improvements/images/prod-hub-matrix_huc0588a8559e954f04dc74eb98419e619_250512_24b0af01e367c14fca6236cfbac92573.png 400w,
-/blog/2022/ci-cd-improvements/images/prod-hub-matrix_huc0588a8559e954f04dc74eb98419e619_250512_e6d65bdf46181c3adcf011d755a705d3.png 760w,
-/blog/2022/ci-cd-improvements/images/prod-hub-matrix_huc0588a8559e954f04dc74eb98419e619_250512_1200x1200_fit_lanczos_3.png 1200w"
-src="../../blog/2022/ci-cd-improvements/images/prod-hub-matrix_huc0588a8559e954f04dc74eb98419e619_250512_24b0af01e367c14fca6236cfbac92573.png"
+/blog/2022/ci-cd-improvements/images/prod-hub-matrix_huc0588a8559e954f04dc74eb98419e619_250512_ffea44807e76572dfda0eae326b06d90.webp 400w,
+/blog/2022/ci-cd-improvements/images/prod-hub-matrix_huc0588a8559e954f04dc74eb98419e619_250512_6b179a8ac184f3c929d01d08a8eb56af.webp 760w,
+/blog/2022/ci-cd-improvements/images/prod-hub-matrix_huc0588a8559e954f04dc74eb98419e619_250512_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2022/ci-cd-improvements/images/prod-hub-matrix_huc0588a8559e954f04dc74eb98419e619_250512_ffea44807e76572dfda0eae326b06d90.webp"
 width="760"
 height="515"
 loading="lazy" data-zoomable />&lt;/div>
@@ -142,13 +142,13 @@ Our production hub job matrix tells GitHub Actions which hubs to update with new
 &lt;/ol>
 &lt;h2 id="concluding-remarks">Concluding Remarks&lt;/h2>
 &lt;p>We think that this is a nice balance of infrastructure complexity and flexibility.
-It allows us to separate the configuration of each hub and cluster, which makes each more maintainable by us, and is more aligned with a community&amp;rsquo;s &lt;a href="../../right-to-replicate">Right to Replicate&lt;/a> their infrastructure.
+It allows us to separate the configuration of each hub and cluster, which makes each more maintainable by us, and is more aligned with a community&amp;rsquo;s &lt;a href="https://2i2c.org/right-to-replicate">Right to Replicate&lt;/a> their infrastructure.
 It allows us to remove the interdependence of deploy jobs that do not &lt;em>need&lt;/em> to be dependent, which makes our deploys more efficient.
 Finally, it allows us to make &lt;em>targeted deploys&lt;/em> more effectively, which reduces the amount of toil and unnecessary waiting associated with each change. (It also &lt;a href="https://github.blog/2021-04-22-environmental-sustainability-github/" target="_blank" rel="noopener">reduces our carbon footprint by reducing unnecessary GitHub Action time&lt;/a>).&lt;/p>
 &lt;p>We hope that this is a useful resource for others to follow if they also maintain JupyterHubs for multiple communities.
 If you have any ideas of how we could further improve this infrastructure, please reach out on GitHub!
 If you know of a community that would like 2i2c to &lt;a href="https://2i2c.org/service/" target="_blank" rel="noopener">manage a hub for your community&lt;/a>, please &lt;a href="mailto:hello@2i2c.org">send us an email&lt;/a>.&lt;/p>
-&lt;p>&lt;em>&lt;strong>Acknowledgements&lt;/strong>: The infrastructure described in this post was developed by &lt;a href="../../about/team.md">the 2i2c engineering team&lt;/a>, and this post was edited by &lt;a href="../../author/chris-holdgraf">Chris Holdgraf&lt;/a>.&lt;/em>&lt;/p></description></item><item><title>Celebrating our progress in Q1 2022</title><link>https://2i2c.org/blog/2022/q1-update/</link><pubDate>Mon, 04 Apr 2022 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2022/q1-update/</guid><description>&lt;p>Quarter 1 of 2022 just wrapped up, and the 2i2c team has been busy making improvements across our infrastructure, organization, and operations.
+&lt;p>&lt;em>&lt;strong>Acknowledgements&lt;/strong>: The infrastructure described in this post was developed by &lt;a href="https://2i2c.org/about/team.md">the 2i2c engineering team&lt;/a>, and this post was edited by &lt;a href="https://2i2c.org/author/chris-holdgraf">Chris Holdgraf&lt;/a>.&lt;/em>&lt;/p></description></item><item><title>Celebrating our progress in Q1 2022</title><link>https://2i2c.org/blog/2022/q1-update/</link><pubDate>Mon, 04 Apr 2022 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2022/q1-update/</guid><description>&lt;p>Quarter 1 of 2022 just wrapped up, and the 2i2c team has been busy making improvements across our infrastructure, organization, and operations.
 This is a quick post to celebrate the work we&amp;rsquo;ve done over the past three months, and to briefly share what we&amp;rsquo;re working on next.&lt;/p>
 &lt;p>These are the main highlights from this quarter - if you&amp;rsquo;d like to check out more of the work that we&amp;rsquo;ve done, see:&lt;/p>
 &lt;ul>
@@ -188,7 +188,7 @@ Here are a few major examples:&lt;/p>
 &lt;li>&lt;strong>Improving our reporting and monitoring infrastructure&lt;/strong>. We&amp;rsquo;d like to boost our ability to &lt;a href="https://github.com/2i2c-org/infrastructure/issues/328" target="_blank" rel="noopener">monitor activity on each of our hubs&lt;/a> in order to identify when something abnormal is happening and get ahead of any potential problems (e.g., to avoid unintentionally large cloud bills). We&amp;rsquo;d also like to improve our usage reporting to more create more accurate cloud bills for hubs running on multi-tenant clusters.&lt;/li>
 &lt;/ul>
 &lt;p>There is a lot more planned for 2i2c, and if you&amp;rsquo;re curious to see what we&amp;rsquo;re up to, we invite you to &lt;a href="https://team-compass.2i2c.org" target="_blank" rel="noopener">check out our team compass&lt;/a> to learn about our practices, and &lt;a href="https://github.com/2i2c-org/" target="_blank" rel="noopener">watch our activity on GitHub&lt;/a> to see our work.&lt;/p>
-&lt;p>Many thanks to the amazing 2i2c team, and the multiple open source and scholarly communities that we collaborate with to make all of this possible. In addition, we are grateful to &lt;a href="../../about/funding.md">our funders&lt;/a> for making this possible. We are looking forward to Q2! 🎉&lt;/p></description></item><item><title>Notes from our drop-in meeting about the Product and Community Lead role</title><link>https://2i2c.org/blog/2022/product-community-lead-drop-in-notes/</link><pubDate>Tue, 22 Mar 2022 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2022/product-community-lead-drop-in-notes/</guid><description>&lt;p>Yesterday we had a quick &amp;ldquo;drop-in&amp;rdquo; session to take questions about 2i2c&amp;rsquo;s &lt;a href="../../blog/2022/job-product-community-lead">job posting for a Product and Community Lead&lt;/a>.
+&lt;p>Many thanks to the amazing 2i2c team, and the multiple open source and scholarly communities that we collaborate with to make all of this possible. In addition, we are grateful to &lt;a href="https://2i2c.org/about/funding.md">our funders&lt;/a> for making this possible. We are looking forward to Q2! 🎉&lt;/p></description></item><item><title>Notes from our drop-in meeting about the Product and Community Lead role</title><link>https://2i2c.org/blog/2022/product-community-lead-drop-in-notes/</link><pubDate>Tue, 22 Mar 2022 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2022/product-community-lead-drop-in-notes/</guid><description>&lt;p>Yesterday we had a quick &amp;ldquo;drop-in&amp;rdquo; session to take questions about 2i2c&amp;rsquo;s &lt;a href="https://2i2c.org/blog/2022/job-product-community-lead">job posting for a Product and Community Lead&lt;/a>.
 We spent the hour discussing a number of questions that others had about the position.
 Below is a short overview of the questions and some responses, for those who were not able to attend.
 These responses are a bit rough, since they are mostly off-the-cuff based on the questions asked.&lt;/p>
@@ -312,11 +312,11 @@ More details to come about this, and we&amp;rsquo;ll start sending out communica
 &lt;p>You can find a link to the full job posting below, the rest of this post is a short rationale for this role, and how we hope it will fit within 2i2c&amp;rsquo;s team and strategy.&lt;/p>
 &lt;ul class="cta-group">
 &lt;li>
-&lt;a href="../../jobs/2022/product-community-lead/" target="_blank" rel="noopener" class="btn btn-primary px-3 py-3">Learn more and apply&lt;/a>
+&lt;a href="https://2i2c.org/jobs/2022/product-community-lead/" target="_blank" rel="noopener" class="btn btn-primary px-3 py-3">Learn more and apply&lt;/a>
 &lt;/li>
 &lt;/ul>
 &lt;h2 id="why-a-new-role">Why a new role?&lt;/h2>
-&lt;p>When 2i2c began a year ago, we hired a team of engineers that had experience in cloud infrastructure, Jupyter, and open source ecosystems. In that time, we&amp;rsquo;ve built out the infrastructure foundation for scalable interactive computing environments that are customizable for the community, and respects their &lt;a href="../../content/right-to-replicate/">Right to Replicate&lt;/a>.&lt;/p>
+&lt;p>When 2i2c began a year ago, we hired a team of engineers that had experience in cloud infrastructure, Jupyter, and open source ecosystems. In that time, we&amp;rsquo;ve built out the infrastructure foundation for scalable interactive computing environments that are customizable for the community, and respects their &lt;a href="https://2i2c.org/content/right-to-replicate/">Right to Replicate&lt;/a>.&lt;/p>
 &lt;p>However, solely providing infrastructure is not enough. Working with the modern open source stack, using the cloud to its advantage, and bringing these tools into specific domains requires a lot of extra experience and expertise. We believe that 2i2c is in a good position to &lt;strong>provide guidance and support to leaders in the communities that we serve&lt;/strong>, allowing them to get up-to-speed with the infrastructure more effectively so that they can have an impact.&lt;/p>
 &lt;p>Moreover, we&amp;rsquo;ve also learned that it&amp;rsquo;s crucial to &lt;strong>develop infrastructure in collaboration with the communities that we&amp;rsquo;re serving&lt;/strong>. A team of engineers tends to focus on code and infrastructure, and having a role that focuses on connecting with communities will give them an excellent perspective on what those communities need.&lt;/p>
 &lt;p>We hope that this role will combine these two aspects to create a culture of learning, sharing, and guiding between 2i2c&amp;rsquo;s team and the communities that we work with.&lt;/p>
@@ -330,7 +330,7 @@ More details to come about this, and we&amp;rsquo;ll start sending out communica
 &lt;p>Effective today we are opening up applications for this position, and will begin reviewing them in 2 weeks on a rolling basis until the position is filled. For a more formal job posting, and instructions to apply, click the link below!&lt;/p>
 &lt;ul class="cta-group">
 &lt;li>
-&lt;a href="../../jobs/2022/product-community-lead/" target="_blank" rel="noopener" class="btn btn-primary px-3 py-3">Learn more and apply&lt;/a>
+&lt;a href="https://2i2c.org/jobs/2022/product-community-lead/" target="_blank" rel="noopener" class="btn btn-primary px-3 py-3">Learn more and apply&lt;/a>
 &lt;/li>
 &lt;/ul></description></item><item><title>2i2c’s first year, part 1: exploring Jupyter services.</title><link>https://2i2c.org/blog/2022/2021-review-services/</link><pubDate>Tue, 25 Jan 2022 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2022/2021-review-services/</guid><description>&lt;p>Now that 2021 has come to an end, this marks the end of 2i2c’s first year of operations. In this year we have grown, experimented, and accomplished a lot - we have also faced challenges and learned as a team. Our primary goal in 2021 was to build a strong foundation for 2i2c.&lt;/p>
 &lt;p>To reflect on our work thus far, we&amp;rsquo;re writing three blog posts that describe progress in major areas of work towards this foundation for 2i2c.
@@ -351,7 +351,7 @@ These three areas are:&lt;/p>
 &lt;p>Moreover, we&amp;rsquo;ve learned that for these communities, navigating all of the open source tools that are available for pedagogy is confusing! Everybody wants auto-grading but it&amp;rsquo;s unclear what is the &amp;ldquo;right tool for the job&amp;rdquo;. Tools like &lt;a href="https://jupyterhub.github.io/nbgitpuller/" target="_blank" rel="noopener">nbgitpuller&lt;/a> have heavy use at &amp;ldquo;power universities&amp;rdquo; like UC Berkeley, but many others don&amp;rsquo;t know that it exists! We will need to invest more time into building guides and documentation that help others leverage these tools.&lt;/p>
 &lt;h2 id="research-in-the-cloud">Research in the cloud&lt;/h2>
 &lt;p>In addition to educational use-cases, we ran several pilots for research communities in order to leverage cloud infrastructure for scaling their work or collaborating more effectively.&lt;/p>
-&lt;p>&lt;strong>We migrated Pangeo’s cloud infrastructure to be run via 2i2c.&lt;/strong> The &lt;a href="https://pangeo.io" target="_blank" rel="noopener">Pangeo Community&lt;/a> had been operating and developing their own JupyterHub for several years, but were looking for another organization to provide more reliable/sustained operations and support for their Pangeo Cloud Service. This year we migrated the service &lt;a href="../../posts/2021/pangeo-goes-live/">to run off of 2i2c’s deployment infrastructure&lt;/a>.&lt;/p>
+&lt;p>&lt;strong>We migrated Pangeo’s cloud infrastructure to be run via 2i2c.&lt;/strong> The &lt;a href="https://pangeo.io" target="_blank" rel="noopener">Pangeo Community&lt;/a> had been operating and developing their own JupyterHub for several years, but were looking for another organization to provide more reliable/sustained operations and support for their Pangeo Cloud Service. This year we migrated the service &lt;a href="https://2i2c.org/posts/2021/pangeo-goes-live/">to run off of 2i2c’s deployment infrastructure&lt;/a>.&lt;/p>
 &lt;p>&lt;strong>A scalable cloud hub for a SWOT satellite team&lt;/strong>. The &lt;a href="https://meom-group.github.io/projects/swot-st/" target="_blank" rel="noopener">MEOM research group at Grenoble&lt;/a> is doing work with the &lt;a href="https://swot.jpl.nasa.gov/" target="_blank" rel="noopener">NASA SWOT satellite project&lt;/a>. However, the datasets generated from this project are huge, and only storable via the cloud. We&amp;rsquo;ve set up a JupyterHub to provide cloud-based access to this data, running a Pangeo-like environment.&lt;/p>
 &lt;h3 id="what-we-learned-1">What we learned&lt;/h3>
 &lt;p>Research communities tend to have more usecase-specific needs than educational ones. While introductory courses in data science tend to be similar across institutions, research needs are much more unique to the problem and team at hand. Moreover, they tend to want infrastructure that runs via institutional cloud accounts. This is possible due to the flexible nature of Jupyter and JupyterHub, but brings extra challenges in bureacracy and access permissions, given that 2i2c engineers usually are not members of these organizations already.&lt;/p>

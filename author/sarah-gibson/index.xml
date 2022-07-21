@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sarah Gibson | 2i2c</title><link>https://2i2c.org/author/sarah-gibson/</link><atom:link href="https://2i2c.org/author/sarah-gibson/index.xml" rel="self" type="application/rss+xml"/><description>Sarah Gibson</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><copyright>© 2022 2i2c.org</copyright><lastBuildDate>Tue, 19 Apr 2022 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/author/sarah-gibson/avatar_hud607d19f6019cca31bcb5ec96cdcf8c5_22612_270x270_fill_q90_lanczos_center.jpg</url><title>Sarah Gibson</title><link>https://2i2c.org/author/sarah-gibson/</link></image><item><title>Tech update: Multiple JupyterHubs, multiple clusters, one repository.</title><link>https://2i2c.org/blog/2022/ci-cd-improvements/</link><pubDate>Tue, 19 Apr 2022 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2022/ci-cd-improvements/</guid><description>&lt;p>2i2c manages the configuration and deployment of multiple Kubernetes clusters and JupyterHubs from &lt;a href="https://github.com/2i2c-org/infrastructure" target="_blank" rel="noopener">a single open infrastructure repository&lt;/a>.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sarah Gibson | 2i2c</title><link>https://2i2c.org/author/sarah-gibson/</link><atom:link href="https://2i2c.org/author/sarah-gibson/index.xml" rel="self" type="application/rss+xml"/><description>Sarah Gibson</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 19 Apr 2022 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/author/sarah-gibson/avatar_hud607d19f6019cca31bcb5ec96cdcf8c5_22612_270x270_fill_q75_lanczos_center.jpg</url><title>Sarah Gibson</title><link>https://2i2c.org/author/sarah-gibson/</link></image><item><title>Tech update: Multiple JupyterHubs, multiple clusters, one repository.</title><link>https://2i2c.org/blog/2022/ci-cd-improvements/</link><pubDate>Tue, 19 Apr 2022 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2022/ci-cd-improvements/</guid><description>&lt;p>2i2c manages the configuration and deployment of multiple Kubernetes clusters and JupyterHubs from &lt;a href="https://github.com/2i2c-org/infrastructure" target="_blank" rel="noopener">a single open infrastructure repository&lt;/a>.
 This is a challenging problem, as it requires us to centralize information about a number of &lt;em>independent&lt;/em> cloud services, and deploy them in an efficient and reliable manner.
 Our initial attempt at this had a number of inefficiencies, and we recently completed an overhaul of its configuration and deployment infrastructure.&lt;/p>
 &lt;p>This post is a short description of what we did and the benefit that it had.
@@ -6,7 +6,7 @@ It covers the technical details and provides links to more information about our
 We hope that it helps other organizations make similar improvements to their own infrastructure.&lt;/p>
 &lt;h2 id="our-problem">Our problem&lt;/h2>
 &lt;p>2i2c&amp;rsquo;s problem is similar to that of many large organizations that have independent sub-communities within them.
-We must centralize the operation and configuration of JupyterHubs in order to boost our efficiency in developing and operating them, but must also treat these hubs &lt;em>independently&lt;/em> because their user communities are not necessarily related, and because we want communities to &lt;a href="../../right-to-replicate">be able to replicate their infrastructure on their own&lt;/a>.&lt;/p>
+We must centralize the operation and configuration of JupyterHubs in order to boost our efficiency in developing and operating them, but must also treat these hubs &lt;em>independently&lt;/em> because their user communities are not necessarily related, and because we want communities to &lt;a href="https://2i2c.org/right-to-replicate">be able to replicate their infrastructure on their own&lt;/a>.&lt;/p>
 &lt;p>A year ago, we built the first version of our deployment infrastructure at &lt;a href="https://github.com/2i2c-org/infrastructure" target="_blank" rel="noopener">github.com/2i2c-org/infrastructure&lt;/a>.
 Over the last year of operation, we identified a number of major shortcomings:&lt;/p>
 &lt;ul>
@@ -64,10 +64,10 @@ Here are the major jobs in this workflow, and what each does:&lt;/p>
 &lt;figure id="figure-our-staging-and-support-hub-job-matrix-tells-github-actions-to-deploy-staging-and-support-upgrades-that-act-as-canaries-and-stop-production-deploys-if-they-fail">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Our staging and support hub job matrix tells GitHub Actions to deploy staging and support upgrades that act as canaries and stop production deploys if they fail." srcset="
-/blog/2022/ci-cd-improvements/images/staging-hub-matrix_hu4dc31894a518c4ea2dae50ecb1e07af1_324961_729719f02e0c1b2474b736099cf579fa.png 400w,
-/blog/2022/ci-cd-improvements/images/staging-hub-matrix_hu4dc31894a518c4ea2dae50ecb1e07af1_324961_72c2fdf6381567545844cff873602e3d.png 760w,
-/blog/2022/ci-cd-improvements/images/staging-hub-matrix_hu4dc31894a518c4ea2dae50ecb1e07af1_324961_1200x1200_fit_lanczos_3.png 1200w"
-src="../../blog/2022/ci-cd-improvements/images/staging-hub-matrix_hu4dc31894a518c4ea2dae50ecb1e07af1_324961_729719f02e0c1b2474b736099cf579fa.png"
+/blog/2022/ci-cd-improvements/images/staging-hub-matrix_hu4dc31894a518c4ea2dae50ecb1e07af1_324961_89a60b28ea5d340ace50284f5dafd4e7.webp 400w,
+/blog/2022/ci-cd-improvements/images/staging-hub-matrix_hu4dc31894a518c4ea2dae50ecb1e07af1_324961_4ce081208c29fc5bbeb51ae7adb06942.webp 760w,
+/blog/2022/ci-cd-improvements/images/staging-hub-matrix_hu4dc31894a518c4ea2dae50ecb1e07af1_324961_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2022/ci-cd-improvements/images/staging-hub-matrix_hu4dc31894a518c4ea2dae50ecb1e07af1_324961_89a60b28ea5d340ace50284f5dafd4e7.webp"
 width="760"
 height="529"
 loading="lazy" data-zoomable />&lt;/div>
@@ -93,10 +93,10 @@ Our staging and support hub job matrix tells GitHub Actions to deploy staging an
 &lt;figure id="figure-our-production-hub-job-matrix-tells-github-actions-which-hubs-to-update-with-new-changes-these-are-triggered-if-a-clusters-stagingsupport-job-does-not-fail">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Our production hub job matrix tells GitHub Actions which hubs to update with new changes. These are triggered if a cluster&amp;#39;s staging/support job does not fail." srcset="
-/blog/2022/ci-cd-improvements/images/prod-hub-matrix_huc0588a8559e954f04dc74eb98419e619_250512_24b0af01e367c14fca6236cfbac92573.png 400w,
-/blog/2022/ci-cd-improvements/images/prod-hub-matrix_huc0588a8559e954f04dc74eb98419e619_250512_e6d65bdf46181c3adcf011d755a705d3.png 760w,
-/blog/2022/ci-cd-improvements/images/prod-hub-matrix_huc0588a8559e954f04dc74eb98419e619_250512_1200x1200_fit_lanczos_3.png 1200w"
-src="../../blog/2022/ci-cd-improvements/images/prod-hub-matrix_huc0588a8559e954f04dc74eb98419e619_250512_24b0af01e367c14fca6236cfbac92573.png"
+/blog/2022/ci-cd-improvements/images/prod-hub-matrix_huc0588a8559e954f04dc74eb98419e619_250512_ffea44807e76572dfda0eae326b06d90.webp 400w,
+/blog/2022/ci-cd-improvements/images/prod-hub-matrix_huc0588a8559e954f04dc74eb98419e619_250512_6b179a8ac184f3c929d01d08a8eb56af.webp 760w,
+/blog/2022/ci-cd-improvements/images/prod-hub-matrix_huc0588a8559e954f04dc74eb98419e619_250512_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2022/ci-cd-improvements/images/prod-hub-matrix_huc0588a8559e954f04dc74eb98419e619_250512_ffea44807e76572dfda0eae326b06d90.webp"
 width="760"
 height="515"
 loading="lazy" data-zoomable />&lt;/div>
@@ -115,13 +115,13 @@ Our production hub job matrix tells GitHub Actions which hubs to update with new
 &lt;/ol>
 &lt;h2 id="concluding-remarks">Concluding Remarks&lt;/h2>
 &lt;p>We think that this is a nice balance of infrastructure complexity and flexibility.
-It allows us to separate the configuration of each hub and cluster, which makes each more maintainable by us, and is more aligned with a community&amp;rsquo;s &lt;a href="../../right-to-replicate">Right to Replicate&lt;/a> their infrastructure.
+It allows us to separate the configuration of each hub and cluster, which makes each more maintainable by us, and is more aligned with a community&amp;rsquo;s &lt;a href="https://2i2c.org/right-to-replicate">Right to Replicate&lt;/a> their infrastructure.
 It allows us to remove the interdependence of deploy jobs that do not &lt;em>need&lt;/em> to be dependent, which makes our deploys more efficient.
 Finally, it allows us to make &lt;em>targeted deploys&lt;/em> more effectively, which reduces the amount of toil and unnecessary waiting associated with each change. (It also &lt;a href="https://github.blog/2021-04-22-environmental-sustainability-github/" target="_blank" rel="noopener">reduces our carbon footprint by reducing unnecessary GitHub Action time&lt;/a>).&lt;/p>
 &lt;p>We hope that this is a useful resource for others to follow if they also maintain JupyterHubs for multiple communities.
 If you have any ideas of how we could further improve this infrastructure, please reach out on GitHub!
 If you know of a community that would like 2i2c to &lt;a href="https://2i2c.org/service/" target="_blank" rel="noopener">manage a hub for your community&lt;/a>, please &lt;a href="mailto:hello@2i2c.org">send us an email&lt;/a>.&lt;/p>
-&lt;p>&lt;em>&lt;strong>Acknowledgements&lt;/strong>: The infrastructure described in this post was developed by &lt;a href="../../about/team.md">the 2i2c engineering team&lt;/a>, and this post was edited by &lt;a href="../../author/chris-holdgraf">Chris Holdgraf&lt;/a>.&lt;/em>&lt;/p></description></item><item><title>Pangeo Cloud goes live on 2i2c!</title><link>https://2i2c.org/blog/2021/pangeo-goes-live/</link><pubDate>Tue, 16 Nov 2021 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2021/pangeo-goes-live/</guid><description>&lt;p>&lt;a href="https://pangeo.io/cloud.html" target="_blank" rel="noopener">Pangeo Cloud&lt;/a> is an experimental service providing public cloud-based data-science environments for data-intensive geoscience research.
+&lt;p>&lt;em>&lt;strong>Acknowledgements&lt;/strong>: The infrastructure described in this post was developed by &lt;a href="https://2i2c.org/about/team.md">the 2i2c engineering team&lt;/a>, and this post was edited by &lt;a href="https://2i2c.org/author/chris-holdgraf">Chris Holdgraf&lt;/a>.&lt;/em>&lt;/p></description></item><item><title>Pangeo Cloud goes live on 2i2c!</title><link>https://2i2c.org/blog/2021/pangeo-goes-live/</link><pubDate>Tue, 16 Nov 2021 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2021/pangeo-goes-live/</guid><description>&lt;p>&lt;a href="https://pangeo.io/cloud.html" target="_blank" rel="noopener">Pangeo Cloud&lt;/a> is an experimental service providing public cloud-based data-science environments for data-intensive geoscience research.
 We have recently finished re-creating the &lt;a href="http://pangeo.io/" target="_blank" rel="noopener">Pangeo&lt;/a> community JupyterHub hosted on GCP in the &lt;a href="https://github.com/2i2c-org/infrastructure" target="_blank" rel="noopener">2i2c-org/infrastructure&lt;/a> repository.
 This is a huge milestone in our partnership with Pangeo to provide expertise and operations of cloud-based, vendor-agnostic Jupyter infrastructure and workflows.&lt;/p>
 &lt;p>For users of Pangeo Cloud, the switch should have been a smooth one!
