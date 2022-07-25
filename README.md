@@ -7,6 +7,10 @@ It is built from the [academic hugo theme].
 
 This website is **hosted** by GitHub Pages, and we use Netlify to display previews of the website from PRs.
 
+## Features for writing content
+
+- **Automatic GitHub link shortening**. This theme will automatically shorten GitHub links and add a little GitHub icon to the front. For example, see the [Jack Eddy Symposium blog post](https://2i2c.org/blog/2022/eddy-symposium-report/).
+
 ## Build this website locally
 
 We currently build this site with [**Wowchemy v5.5.0**](https://github.com/wowchemy/wowchemy-hugo-themes/releases/tag/v5.5.0).
