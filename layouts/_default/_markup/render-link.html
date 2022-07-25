@@ -1,1 +1,8 @@
-<a href="{{ .Destination | safeURL }}"{{ with .Title}} title="{{ . }}"{{ end }}{{ if strings.HasPrefix .Destination "http" }} target="_blank" rel="noopener"{{ end }}>{{ replace (replace (replace .Text "https://github.com/" "") "/issues/" "#") "/pull/" "#" | safeHTML }}</a>
+{{ $title := .Text }}
+{{ if (in $title "github.com") }}
+  {{ $title = (delimit (slice "<i class='fa-brands fa-github'></i>" $title) " ") }}
+{{ end }}
+{{ $title = replace $title "https://github.com/" "" }}
+{{ $title = replace $title "/issues/" "#" }}
+{{ $title = replace $title "/pull/" "#" }}
+<a href="{{ .Destination | safeURL }}"{{ with .Title}} title="{{ . }}"{{ end }}{{ if strings.HasPrefix .Destination "http" }} target="_blank" rel="noopener"{{ end }}>{{ $title | safeHTML }}</a>
