@@ -5,9 +5,9 @@ $color-grey: #4e4e4e;
 // Make icons behave properly in light and dark mode
 :root {
   body {
-    --color-icon: #24292f;
+    --color-icon: #4e4e4e;
   }
   body.dark {
-    --color-icon: #f0f0f0;
+    --color-icon: #afafaf;
   }
 }

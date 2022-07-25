@@ -6,3 +6,8 @@
 a i.fa-github {
   color: var(--color-icon);
 }
+
+// Faster transitions
+a {
+  transition: color .2s ease-out;
+}
