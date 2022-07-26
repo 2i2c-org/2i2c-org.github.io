@@ -43,7 +43,27 @@ header:
 
 footer:
   copyright:
-    notice: '© {year} 2i2c. This work is licensed under {license}'
+    notice: |
+      © {year} 2i2c. This work is licensed under {license}.
+      <style>
+      .footer__brand-icons {
+        font-size: 1.3em;
+        justify-content: center;
+        display: flex;
+        gap: .5rem;
+      }
+      </style>
+      <div class="footer__brand-icons">
+        <a href="https://github.com/2i2c-org/2i2c-org.github.io">
+          <i class="fa-brands fa-github"></i>
+        </a>
+        <a href="https://twitter.com/2i2c_org">
+          <i class="fa-brands fa-twitter"></i>
+        </a>
+        <a href="http://eepurl.com/hjHbff">
+          <i class="fa-solid fa-envelope"></i>
+        </a>
+      </div>
     license:
       enable: true
       allow_derivatives: true

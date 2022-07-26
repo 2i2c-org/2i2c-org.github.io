@@ -14,7 +14,7 @@ nav.navbar {
     // Logo
     a.navbar-brand {
         font-family: "Fira Sans";
-        color: $color-grey !important;
+        color: var(--color-icon) !important;
         font-size: 2.8em;
         padding-top: 12px;
 
