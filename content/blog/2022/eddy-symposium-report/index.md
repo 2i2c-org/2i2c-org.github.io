@@ -4,7 +4,7 @@ subtitle: ""
 summary: ""
 authors: ["James Colliander"]
 tags: []
-categories: [updates]
+categories: [community]
 date: 2022-07-14
 featured: false
 draft: false
