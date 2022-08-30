@@ -38,7 +38,7 @@ However, it is also inaccessible to many for a variety of reasons:
 - Running infrastructure in the cloud takes dedicated time and expertise that many communities lack.
 - Many communities do not have organized communities of practice around cloud infrastructure.
 
-These issues are true for most scientific communities, but they are exacerbated in countries that are historically under-represented in the global scientific community.
+These issues are true for most scientific communities, but they are exacerbated in countries that are often marginalized in the global scientific community.
 
 ## Our proposed work
 
@@ -51,7 +51,7 @@ It defines four major areas of collaboration:
 - **Training for trainers** - to provide community leaders with skills to share these workflows with others in their communities.
 - **Community leadership and management** - to provide community leaders with skills to sustain and grow healthy communities of practice.
 
-Over the course of two years, the team will provide a combination of the services described above for communities in Latin America and Africa, with the goal of understanding how such services can be most useful for these communities, how we can structure them to provide community representation in the direction of these services, and how we can sustain and scale this model of community-focused services for a global community.
+If this proposal is funded, over the course of two years the team will provide a combination of the services described above for communities in Latin America and Africa, with the goal of understanding how such services can be most useful for these communities, how we can structure them to provide community representation in the direction of these services, and how we can sustain and scale this model of community-focused services for a global community.
 
 Importantly, we wish to do this work in a way that centers the communities we work with as co-leaders and collaborators in these services.
 We will explore ways to run these services and workshops so that they are transparent, inclusive, and give agency to the communities they support.
