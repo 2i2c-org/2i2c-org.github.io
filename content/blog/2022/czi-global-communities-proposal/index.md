@@ -47,14 +47,14 @@ For this reason, our goal in this grant is to **provide human and technical serv
 It defines four major areas of collaboration:
 
 - **Cloud infrastructure management** - to facilitate access to cloud resources via managed cloud services that integrate open source tools.
-- **Application guidance and training** - to provide community leaders with the skills to utilize this infrastructure for the needs. This includes language-localized content and training materials.
+- **Application guidance and training** - to provide community leaders with the skills to utilize this infrastructure for their needs. This includes language-localized content and training materials.
 - **Training for trainers** - to provide community leaders with skills to share these workflows with others in their communities.
 - **Community leadership and management** - to provide community leaders with skills to sustain and grow healthy communities of practice.
 
 Over the course of two years, the team will provide a combination of the services described above for communities in Latin America and Africa, with the goal of understanding how such services can be most useful for these communities, how we can structure them to provide community representation in the direction of these services, and how we can sustain and scale this model of community-focused services for a global community.
 
 Importantly, we wish to do this work in a way that centers the communities we work with as co-leaders and collaborators in these services.
-We will explore ways to run these services and workshops in a way that is transparent, inclusive, and gives agency to these communities.
+We will explore ways to run these services and workshops so that they are transparent, inclusive, and give agency to the communities they support.
 Ultimately, we hope that this can be an extensible model for many more communities in the future.
 
 > If you're interested in this work, would like to discuss its ideas, or think something similar might be useful for your community, please reach out!
