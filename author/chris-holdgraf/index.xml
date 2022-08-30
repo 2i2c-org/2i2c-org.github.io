@@ -1,4 +1,65 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Chris Holdgraf | 2i2c</title><link>https://2i2c.org/author/chris-holdgraf/</link><atom:link href="https://2i2c.org/author/chris-holdgraf/index.xml" rel="self" type="application/rss+xml"/><description>Chris Holdgraf</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 04 Apr 2022 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/author/chris-holdgraf/avatar_hu239570f3b0123c4756b7a8f15caec1a2_32796_270x270_fill_q75_lanczos_center.jpg</url><title>Chris Holdgraf</title><link>https://2i2c.org/author/chris-holdgraf/</link></image><item><title>Celebrating our progress in Q1 2022</title><link>https://2i2c.org/blog/2022/q1-update/</link><pubDate>Mon, 04 Apr 2022 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2022/q1-update/</guid><description>&lt;p>Quarter 1 of 2022 just wrapped up, and the 2i2c team has been busy making improvements across our infrastructure, organization, and operations.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Chris Holdgraf | 2i2c</title><link>https://2i2c.org/author/chris-holdgraf/</link><atom:link href="https://2i2c.org/author/chris-holdgraf/index.xml" rel="self" type="application/rss+xml"/><description>Chris Holdgraf</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 28 Aug 2022 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/author/chris-holdgraf/avatar_hu239570f3b0123c4756b7a8f15caec1a2_32796_270x270_fill_q75_lanczos_center.jpg</url><title>Chris Holdgraf</title><link>https://2i2c.org/author/chris-holdgraf/</link></image><item><title>Open grant narrative: A Collaborative Interactive Computing Service Model for Global Communities</title><link>https://2i2c.org/blog/2022/czi-global-communities-proposal/</link><pubDate>Sun, 28 Aug 2022 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2022/czi-global-communities-proposal/</guid><description>&lt;p>We recently submitted a grant to
+&lt;a href="https://chanzuckerberg.com/" target="_blank" rel="noopener">Chan Zuckerberg Initiative&lt;/a>
+and wish to share some details about it as well as the grant narrative for others to read and re-use.&lt;/p>
+&lt;ul class="cta-group">
+&lt;li>
+&lt;a href="https://zenodo.org/record/7025288" target="_blank" rel="noopener" class="btn btn-primary px-3 py-3">Go to Zenodo record&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;p>Read on for a quick overview of the proposal.&lt;/p>
+&lt;h2 id="collaborators">Collaborators&lt;/h2>
+&lt;p>This grant is a collaboration between several leading organizations in open infrastructure, community, and global leadership:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="https://2i2c.org" target="_blank" rel="noopener">2i2c&lt;/a>
+&lt;/li>
+&lt;li>
+&lt;a href="https://carpentries.org/about/" target="_blank" rel="noopener">The Carpentries&lt;/a>
+&lt;/li>
+&lt;li>
+&lt;a href="https://www.cscce.org/" target="_blank" rel="noopener">Center for Scientific Collaboration and Community Engagement&lt;/a>
+&lt;/li>
+&lt;li>
+&lt;a href="https://investinopen.org/" target="_blank" rel="noopener">Invest in Open Infrastructure&lt;/a>
+&lt;/li>
+&lt;li>
+&lt;a href="https://www.metadocencia.org/" target="_blank" rel="noopener">MetaDocencia&lt;/a>
+&lt;/li>
+&lt;li>
+&lt;a href="https://openlifesci.org/" target="_blank" rel="noopener">Open Life Science&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;h2 id="problem-statement">Problem statement&lt;/h2>
+&lt;p>Cloud infrastructure is a powerful way to broaden access to workflows and infrastructure across the globe.
+However, it is also inaccessible to many for a variety of reasons:&lt;/p>
+&lt;ul>
+&lt;li>There is a large, diverse, and messy ecosystem of open source tools to facilitate cloud infrastructure.&lt;/li>
+&lt;li>Most communities don&amp;rsquo;t already have skills in utilizing cloud workflows.&lt;/li>
+&lt;li>Running infrastructure in the cloud takes dedicated time and expertise that many communities lack.&lt;/li>
+&lt;li>Many communities do not have organized communities of practice around cloud infrastructure.&lt;/li>
+&lt;/ul>
+&lt;p>These issues are true for most scientific communities, but they are exacerbated in countries that are often marginalized in the global scientific community.&lt;/p>
+&lt;h2 id="our-proposed-work">Our proposed work&lt;/h2>
+&lt;p>For this reason, our goal in this grant is to &lt;strong>provide human and technical services to facilitate learning and knowledge transfer of cloud workflows for communities in Latin America and Africa&lt;/strong>.&lt;/p>
+&lt;p>It defines four major areas of collaboration:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Cloud infrastructure management&lt;/strong> - to facilitate access to cloud resources via managed cloud services that integrate open source tools.&lt;/li>
+&lt;li>&lt;strong>Application guidance and training&lt;/strong> - to provide community leaders with the skills to utilize this infrastructure for their needs. This includes language-localized content and training materials.&lt;/li>
+&lt;li>&lt;strong>Training for trainers&lt;/strong> - to provide community leaders with skills to share these workflows with others in their communities.&lt;/li>
+&lt;li>&lt;strong>Community leadership and management&lt;/strong> - to provide community leaders with skills to sustain and grow healthy communities of practice.&lt;/li>
+&lt;/ul>
+&lt;p>If this proposal is funded, over the course of two years the team will provide a combination of the services described above for communities in Latin America and Africa, with the goal of understanding how such services can be most useful for these communities, how we can structure them to provide community representation in the direction of these services, and how we can sustain and scale this model of community-focused services for a global community.&lt;/p>
+&lt;p>Importantly, we wish to do this work in a way that centers the communities we work with as co-leaders and collaborators in these services.
+We will explore ways to run these services and workshops so that they are transparent, inclusive, and give agency to the communities they support.
+Ultimately, we hope that this can be an extensible model for many more communities in the future.&lt;/p>
+&lt;blockquote>
+&lt;p>If you&amp;rsquo;re interested in this work, would like to discuss its ideas, or think something similar might be useful for your community, please reach out!&lt;/p>
+&lt;ul class="cta-group">
+&lt;li>
+&lt;a href="mailto:hello@2i2c.org" target="_blank" rel="noopener" class="btn btn-primary px-3 py-3">Send us an email&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;/blockquote></description></item><item><title>Celebrating our progress in Q1 2022</title><link>https://2i2c.org/blog/2022/q1-update/</link><pubDate>Mon, 04 Apr 2022 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2022/q1-update/</guid><description>&lt;p>Quarter 1 of 2022 just wrapped up, and the 2i2c team has been busy making improvements across our infrastructure, organization, and operations.
 This is a quick post to celebrate the work we&amp;rsquo;ve done over the past three months, and to briefly share what we&amp;rsquo;re working on next.&lt;/p>
 &lt;p>These are the main highlights from this quarter - if you&amp;rsquo;d like to check out more of the work that we&amp;rsquo;ve done, see:&lt;/p>
 &lt;ul>
