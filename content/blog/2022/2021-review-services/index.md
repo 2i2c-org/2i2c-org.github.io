@@ -4,7 +4,7 @@ subtitle: ""
 summary: ""
 authors: ["Chris Holdgraf"]
 tags: []
-categories: [updates]
+categories: [organization]
 date: 2022-01-25
 featured: false
 draft: false
