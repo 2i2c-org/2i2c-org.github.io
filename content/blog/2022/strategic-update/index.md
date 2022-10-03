@@ -10,9 +10,38 @@ featured: false
 draft: false
 ---
 
-Around a year ago [we began our pilot JupyterHubs project](http://localhost:1313/blog/2021/six-month-update/) to learn more about our biggest challenges and opportunities in making interactive computing more accessible and useful for research and education. Since then we have served more than 35 communities with community-centric infrastructure via the cloud.
+_This post is an exploration of 2i2c's current strategy and direction, and how it has evolved over time._
 
-One goal of this process was to identify a strategy that should guide the service and 2i2c's actions moving forward. This blog post is a short brainstorm and summary of what our strategy currently looks like. It is a combination of reflecting on our current actions and priorities, as well as anticipating what these will look like in the near future. Its goal is to sharpen these ideas, and generate some discussion from our team and the broader community.
+When we founded 2i2c, we largely did so from the "bottom up" - we identified several patterns around hosted infrastructure that were useful at UC Berkeley, Pangeo, etc, and we wished to generalize these patterns and make them more accessible and scalable.
+We defined our mission as the following:
+
+> Our mission is to make research and education more impactful, accessible, and delightful by developing, operating, and supporting infrastructure for interactive computing.
+
+And a description about our immediate activities to make things a bit more concrete:
+
+> 2i2c designs, develops, and operates JupyterHubs in the cloud for communities of practice in research & education. It builds and supports open source infrastructure that serves these communities.
+
+Around a year ago [we began our pilot JupyterHubs project](http://localhost:1313/blog/2021/six-month-update/) to learn more about our biggest challenges and opportunities in making interactive computing more accessible and useful for research and education.
+While both of these statements are still accurate, we've also learned more about the value that 2i2c is providing over the past year. This post is an exploration of how these statements and our strategy may evolve in the near future.
+
+## What did we miss with our original strategy?
+
+In short: it is too-focused on simply _managing infrastructure_.
+As we ran infrastructure for many communities, we learned that it was not enough to simply provide a hub running in the cloud, the value came from two other places as well:
+
+- **Reducing decision complexity and risk in the cloud** by making reasonable decisions about which tools and services to bring together in a way that is aligned with open principles.
+  There are literally hundreds of cloud services, and academics are justifiably confused about which ones are "the right ones for their community".
+- **Reducing the risk of cloud infrastructure** by running a service model that avoids many of the biggest concerns researchers have when using cloud.
+  Are we going to lock ourselves into a cloud provider?
+  What are the drawbacks of using a proprietary service or API?
+  What tools can I use to maximize my ability to move my workflows elsewhere, or collaborate across institutional or national boundaries?
+  These are questions every cloud-curious researcher asks themselves, and 2i2c's services provide a values-aligned answer that takes the same considerations into account.
+- **Reducing the time and cost of learning** by focusing attention on a subset of workflows that have been vetted and standardized by communities of practice.community-specific infrastructure
+- Making the right decisions about which tools to integrate "out of the box" in a community's hub. This reduced the decision anxiety and fatigue that groups feel when navigating the open source and cloud ecosystem.
+  Something that Pangeo did well was to standardize a set of community practices around a subset of tools.
+  By aligning everybody's workflow on the "XArray, Zarr, Dask stack", it made it much easier for communities to share ideas, collaborate, and learn quickly.
+
+With this in mind, if I had to re-state 2i2c's mission and value proposition, it would look something like this:
 
 ## The problem we wish to solve
 
