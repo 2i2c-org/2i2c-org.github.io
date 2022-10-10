@@ -4,7 +4,7 @@ subtitle: ""
 summary: ""
 authors: ["Chris Holdgraf"]
 tags: []
-categories: [organization]
+categories: [brainstorm]
 date: 2022-10-09
 featured: false
 draft: false
