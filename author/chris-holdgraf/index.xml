@@ -1,4 +1,182 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Chris Holdgraf | 2i2c</title><link>https://2i2c.org/author/chris-holdgraf/</link><atom:link href="https://2i2c.org/author/chris-holdgraf/index.xml" rel="self" type="application/rss+xml"/><description>Chris Holdgraf</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 28 Aug 2022 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/author/chris-holdgraf/avatar_hu239570f3b0123c4756b7a8f15caec1a2_32796_270x270_fill_q75_lanczos_center.jpg</url><title>Chris Holdgraf</title><link>https://2i2c.org/author/chris-holdgraf/</link></image><item><title>Open grant narrative: A Collaborative Interactive Computing Service Model for Global Communities</title><link>https://2i2c.org/blog/2022/czi-global-communities-proposal/</link><pubDate>Sun, 28 Aug 2022 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2022/czi-global-communities-proposal/</guid><description>&lt;p>We recently submitted a grant to
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Chris Holdgraf | 2i2c</title><link>https://2i2c.org/author/chris-holdgraf/</link><atom:link href="https://2i2c.org/author/chris-holdgraf/index.xml" rel="self" type="application/rss+xml"/><description>Chris Holdgraf</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 09 Oct 2022 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/author/chris-holdgraf/avatar_hu239570f3b0123c4756b7a8f15caec1a2_32796_270x270_fill_q75_lanczos_center.jpg</url><title>Chris Holdgraf</title><link>https://2i2c.org/author/chris-holdgraf/</link></image><item><title>One year later: an update of 2i2c's mission, strategy, and operations</title><link>https://2i2c.org/blog/2022/strategic-update/</link><pubDate>Sun, 09 Oct 2022 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2022/strategic-update/</guid><description>&lt;p>&lt;em>This post is an exploration of 2i2c&amp;rsquo;s current strategy and direction after a year of major operations. It is a brainstorm from the Executive Director, shared as a blog post to invite feedback and provide transparency into our current thinking. Its goal is to explore the context of 2i2c&amp;rsquo;s stakeholders and their needs, and identify an opportunity and plan for having a positive impact with these communities. It is not a concrete proposal but a snapshot of thinking in time meant to trigger reflection. Over time we will incorporate some of these ideas
+&lt;a href="https://team-compass.2i2c.org/" target="_blank" rel="noopener">into our Team Compass&lt;/a>
+.&lt;/em>&lt;/p>
+&lt;p>When we founded 2i2c, we largely did so from the &amp;ldquo;bottom up&amp;rdquo; - we identified several patterns around hosted infrastructure that were useful at
+&lt;a href="https://datahub.berkeley.edu" target="_blank" rel="noopener">UC Berkeley&lt;/a>
+,
+&lt;a href="https://pangeo.io" target="_blank" rel="noopener">Pangeo&lt;/a>
+, and similar communities, and we wished to make them more generalized, accessible, and scalable.&lt;/p>
+&lt;p>We defined our mission as the following:&lt;/p>
+&lt;blockquote>
+&lt;p>Our mission is to make research and education more impactful, accessible, and delightful by developing, operating, and supporting infrastructure for interactive computing.&lt;/p>
+&lt;/blockquote>
+&lt;p>And a description about our immediate activities to make things a bit more concrete:&lt;/p>
+&lt;blockquote>
+&lt;p>2i2c designs, develops, and operates JupyterHubs in the cloud for communities of practice in research &amp;amp; education. It builds and supports open source infrastructure that serves these communities.&lt;/p>
+&lt;/blockquote>
+&lt;p>Around a year ago
+&lt;a href="http://2i2c.org/blog/2021/six-month-update/" target="_blank" rel="noopener">we began our pilot JupyterHubs project&lt;/a>
+to learn more about our biggest challenges and opportunities in making interactive computing more accessible and useful for research and education.
+While both of these statements are still accurate, over the past year we&amp;rsquo;ve also learned more about the value that 2i2c provides. This post is an exploration of how these statements and our strategy may evolve in the near future.&lt;/p>
+&lt;h2 id="what-did-we-miss-with-our-original-strategy">What did we miss with our original strategy?&lt;/h2>
+&lt;p>In short: it is too-focused on &lt;strong>actions&lt;/strong> rather than &lt;strong>impact&lt;/strong>.&lt;/p>
+&lt;p>While running JupyterHubs is a key part of what 2i2c does, it is a means to an end rather than our end-goal.
+Infrastructure is only useful if it changes workflows in a way that aligns with the goals and values that we wish to achieve.
+We&amp;rsquo;ve historically defined these in a few scattered places. For example, here are the values listed on our website:&lt;/p>
+&lt;blockquote>
+&lt;ul>
+&lt;li>2i2c values fairness and justice as requirements for successful communities.&lt;/li>
+&lt;li>2i2c values learning and discovery for all people.&lt;/li>
+&lt;li>2i2c values collaborating and connecting to foster environments for learning and discovery.&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;p>However, it is difficult to tie our operations directly to values and goals without making them concrete, and without defining a plan that ties them to our work.&lt;/p>
+&lt;p>Through our JupyterHubs pilot, we&amp;rsquo;ve learned how our actions-focused approach was missing some important aspects of these broader goals.
+For example, we came to understand that a big part of 2i2c&amp;rsquo;s value isn&amp;rsquo;t just providing a JupyterHub, it is &lt;em>de-risking cloud native workflows&lt;/em> for communities that are inherently skeptical of what cloud infrastructure offers.
+Doing this entails many things: teaching, making decisions on behalf of others, supporting and answering questions, building trust, and yes, managing infrastructure.&lt;/p>
+&lt;h3 id="refining-our-strategy">Refining our strategy&lt;/h3>
+&lt;p>With this in mind, we&amp;rsquo;d like to &lt;strong>make our strategy more clearly-defined and tied to our operational choices&lt;/strong>. Here are a few ways we&amp;rsquo;d like to do this:&lt;/p>
+&lt;ul>
+&lt;li>Define our organization&amp;rsquo;s &lt;strong>values and vision&lt;/strong> for the impact we wish to have.&lt;/li>
+&lt;li>Define the key &lt;strong>stakeholder communities&lt;/strong> that we wish to serve, the context of tools and services that are relevant to these stakeholders, and the assumptions we&amp;rsquo;re making.&lt;/li>
+&lt;li>Define the &lt;strong>problems these stakeholders have&lt;/strong>, the ways in which their current workflow could be improved, and the opportunity to help them.&lt;/li>
+&lt;li>Describe our &lt;strong>strategy&lt;/strong> to positively impact these stakeholders with our work.&lt;/li>
+&lt;li>Define a collection of &lt;strong>goals and objectives&lt;/strong> to carry out this strategy in the near-term.&lt;/li>
+&lt;/ul>
+&lt;p>The rest of this post will take a crack at answering a few of these questions. It is intentionally messy, and meant both as a public snapshot of my thinking at this moment, and fodder for discussion and more specific proposals in the future.&lt;/p>
+&lt;h2 id="context-our-key-stakeholders-and-the-impact-we-wish-to-have">Context: Our key stakeholders and the impact we wish to have&lt;/h2>
+&lt;p>2i2c&amp;rsquo;s key stakeholders are communities of practice that are dedicated to creating and sharing public knowledge.
+These are primarily made up of &lt;strong>researchers&lt;/strong> and &lt;strong>educators&lt;/strong> in the global community.&lt;/p>
+&lt;p>For these stakeholders, we wish to catalyze and support a transformation in their data workflows that allows them to be more collaborative, inclusive, efficient, and powerful in the impact they wish to have.&lt;/p>
+&lt;h3 id="assumptions-we-make-about-our-stakeholders">Assumptions we make about our stakeholders&lt;/h3>
+&lt;p>There are a few unique things about these communities that are important for us:&lt;/p>
+&lt;ul>
+&lt;li>Researchers and educators see their job as &lt;strong>creating and sharing knowledge with a heterogeneous and global community&lt;/strong>. They can&amp;rsquo;t make many assumptions about the organizational context or resources of this community, or their work will become inaccessible to others.&lt;/li>
+&lt;li>They &lt;strong>work at vertically-oriented institutions&lt;/strong> (e.g., a university with an in-house IT department), but their communities are &lt;strong>organized horizontally across institutions&lt;/strong> (a researcher may identify more with colleagues in their field than with their co-workers at the university).&lt;/li>
+&lt;li>As a result, these communities &lt;strong>value workflows that are maximally accessible, portable, modular, simple, and long-lasting&lt;/strong>. This allows them to define a shared set of practices across their institutional boundaries without requiring a lot of vertical decision-making.&lt;/li>
+&lt;/ul>
+&lt;p>Historically, this means that scientists must choose between workflows that are underpowered but accessible (e.g., collapsed into a PDF describing the work), or powerful but inaccessible to many (e.g., they rely on extensive training or resources only accessible to some institutions).&lt;/p>
+&lt;h3 id="open-source-tools-have-boosted-standardization-and-collaboration-across-communities">Open source tools have boosted standardization and collaboration across communities&lt;/h3>
+&lt;p>Over the past ten years, the proliferation of open source tools has vastly expanded our potential to create public knowledge in a more accessible, modular, inclusive, and productive way.&lt;/p>
+&lt;p>For example, core numerical computing infrastructure like
+&lt;a href="https://numpy.org" target="_blank" rel="noopener">NumPy&lt;/a>
+provides a foundation for more domain specific numerical libraries to build on. Tools like
+&lt;a href="https://pandas.pydata.org/" target="_blank" rel="noopener">Pandas&lt;/a>
+and
+&lt;a href="https://xarray.dev/" target="_blank" rel="noopener">XArray&lt;/a>
+allow for more sophisticated data structures that match the complex and heterogeneous data in the research community.&lt;/p>
+&lt;p>This has led to many domain-specific communities of practice building upon the same APIs and infrastructure to solve their specific needs. By largely sharing the same stack, we have reduced duplication of effort and make it easier to speak the same language across data-rich fields.&lt;/p>
+&lt;h3 id="but-a-local-workflow-with-open-source-tools-is-inaccessible-or-underpowered-for-many-people">&amp;hellip;but a local workflow with open source tools is inaccessible or underpowered for many people&lt;/h3>
+&lt;p>However, this has also led to a few key problems:&lt;/p>
+&lt;p>&lt;strong>Problem 1: The ecosystem of open source tools is huge and complex, and hard to tailor for specific domain workflows&lt;/strong>. It is hard to decide which tools to use for a workflow, and we do not have efficient community processes for creating and standardizing workflows.&lt;/p>
+&lt;p>&lt;strong>Problem 2: For many users, it is still too difficult to set up a local environment&lt;/strong>. Installing the right libraries and their dependencies is complex and domain-specific. This leads to wasted time and confusion, especially for newcomers or learners in an educational context.&lt;/p>
+&lt;p>Finally, there is another workflow-related problem that arises even when you do set up a proper environment:&lt;/p>
+&lt;p>&lt;strong>Problem 3: Local workflows are not scalable enough for many communities&lt;/strong>. Working with 10GB of data can be challenging in a local context, working with 10TB of data quickly becomes impossible. This leads to communities that &amp;ldquo;share data&amp;rdquo; by making lots of local copies that are distributed to individual users. This harms data provenance and makes our work less reproducible and accessible. It limits the scope of questions we can ask with data and increases the friction for sharing our work with others. As our workflows require more computation and data, a &amp;ldquo;local, fixed hardware&amp;rdquo; approach will become more and more underpowered.&lt;/p>
+&lt;h2 id="managed-cloud-services-can-solve-the-accessibility-problem-for-many-workflows-and-tools">Managed cloud services can solve the accessibility problem for many workflows and tools&lt;/h2>
+&lt;p>One way to resolve these problems is to rely on &lt;strong>managed infrastructure services&lt;/strong> to provide the environments needed for data analysis. A systems administrator can set up computing and data resources, and then expose these resources to many users as a service. This makes these complex and powerful environments more accessible, standardizes the workflows of users to make it easier for them to collaborate, and potentially serves as a gateway to more complex data and computing infrastructure.&lt;/p>
+&lt;p>Historically, this work was done in-house by internal teams at research institutions. This led to many unique infrastructure setups with slight differences across institutions. It also led to data and workflows being institution-centric, even though many communities are organized &lt;em>across&lt;/em> institutions.&lt;/p>
+&lt;p>&lt;strong>Cloud infrastructure can solve this problem&lt;/strong>. It provides a layer of infrastructure that can be used to standardize access and worfklows across communities of practice. It can be more accessible than on-prem infrastructure, as the cloud is already globally distributed in a way that local hardware can never be. Moreover, cloud infrastructure is also much more scalable, and can be used to access more sophisticated data and computing resources in a fluid manner.&lt;/p>
+&lt;h3 id="but-the-cloud-services-landscape-is-not-designed-for-research-and-education-communities">But the cloud services landscape is not designed for research and education communities&lt;/h3>
+&lt;p>Over the last 10 years, a huge ecosystem of cloud-native tools and services have grown to solve this problem in industry. These are often called the
+&lt;a href="https://future.com/emerging-architectures-modern-data-infrastructure/" target="_blank" rel="noopener">Modern Data Stack&lt;/a>
+. However, &lt;strong>modern cloud services are largely unused by research and education&lt;/strong>. Why is this?&lt;/p>
+&lt;p>We believe it is because most cloud services do not meet many needs of research and educational communities:&lt;/p>
+&lt;ul>
+&lt;li>They tend to be offered by a single vendor, which results in a fear of lock-in or vendor-specific workflows that result in high-costs.&lt;/li>
+&lt;li>They require users to learn non-standard workflows that are attached to the cloud service.&lt;/li>
+&lt;li>They often require extensive knowledge of data and cloud resources to configure properly. They may require an internal dev-ops team to integrate cloud services and expose them for internal teams.&lt;/li>
+&lt;li>They are often still institution-centric because cloud services are geared towards enterprise contracts within vertically-integrated organizations. Many research organizations are more like collections of little fiefdoms rather than a single kingdom.&lt;/li>
+&lt;/ul>
+&lt;p>In short, &lt;strong>many cloud services ask researchers and educators to give up too much agency and choice, and make them reliant on organizations they do not inherently trust&lt;/strong>. They are perceived as a risky alternative to the &amp;ldquo;we have control and have visibility into everything&amp;rdquo; nature of on-prem hardware.&lt;/p>
+&lt;h3 id="examples-of-a-potential-model-for-community-centric-cloud-services">Examples of a potential model for community-centric cloud services&lt;/h3>
+&lt;p>Over the past several years we have seen several communities strike a balance that made cloud infrastructure more accessible while still retaining agency for the communities of practice that used and managed the infrastructure.
+For example:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>The Pangeo Project&lt;/strong> is a
+&lt;a href="https://pangeo.io" target="_blank" rel="noopener">cloud-native geospatial analytics platform&lt;/a>
+that builds on the Dask, Zarr, and XArray stack to enable distributed and collaborative access to large-scale geospatial datasets.&lt;/li>
+&lt;li>&lt;strong>The UC Berkeley DataHub&lt;/strong> is a
+&lt;a href="https://docs.datahub.berkeley.edu/en/latest/" target="_blank" rel="noopener">cloud-native educational community&lt;/a>
+that uses a managed service to provide interactive learning environments to thousands of students via the cloud.&lt;/li>
+&lt;li>&lt;strong>The Syzygy service&lt;/strong> is a
+&lt;a href="https://syzygy.ca/" target="_blank" rel="noopener">federated network of educational hubs&lt;/a>
+that run entirely on open source infrastructure in the cloud, managed for universities in Canada.&lt;/li>
+&lt;/ul>
+&lt;p>Each of these communities roughly followed the same model:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Integrate&lt;/strong> a collection of open source tools and cloud services into a standardized cloud environment for a community.&lt;/li>
+&lt;li>&lt;strong>Customize&lt;/strong> the environment and cloud resources via open source tools that provide remote interactive computing sessions. This is usually done with
+&lt;a href="https://jupyterhub.readthedocs.io" target="_blank" rel="noopener">JupyterHub&lt;/a>
+.&lt;/li>
+&lt;li>&lt;strong>Contribute&lt;/strong> to upstream tools and redeploy improvements to a community&amp;rsquo;s shared infrastucture in order to enhance the service.&lt;/li>
+&lt;/ul>
+&lt;p>Moreover, they use nearly identical technical stacks: some combination of Jupyter infrastructure to manage cloud infrastructure and provide interactive computing environments, a Scientific Python or R-based stack for the libraries users access, and a collection of online services to facilitate collaboration and workflows.&lt;/p>
+&lt;p>These services required a combination of &lt;strong>dev-ops and cloud engineering&lt;/strong> skills to integrate the tools and manage the infrastructure, as well as &lt;strong>community guidance and teaching&lt;/strong> to standardize and share workflows across a community.&lt;/p>
+&lt;p>So why couldn&amp;rsquo;t this model just be repeated across many other communities as well?&lt;/p>
+&lt;h3 id="however-running-your-own-cloud-infrastructure-is-a-lot-of-work">However, running your own cloud infrastructure is a lot of work&lt;/h3>
+&lt;p>These initiatives demonstrate the potential of building community-centric cloud services on top of open source tools, but they were also unscalable to other communities. Observing these success stories also reveals a few more problems that we must resolve in order to make these services more generalizable and accessible to new communities:&lt;/p>
+&lt;p>&lt;strong>Problem 4: Running your own cloud requires skills and resources that most organizations do not have&lt;/strong>. In order to make the most of the cloud and to provide it as a resource reliable-enough for important workflows, it is important to have a knowledgeable team with best-practices in distributed cloud management. However, hiring engineers in this space is very difficult, and the team structure and culture needed for these services is often at-odds with the way universities are structured.&lt;/p>
+&lt;p>&lt;strong>Problem 5: Contributing to open source communities requires dedicated time and skills&lt;/strong>. When building services on top of open source tools, you will invariably need to improve the tools in order to fix bugs or to enhance your service. Doing this is very different from a contract with a traditional vendor, and requires building skills in how to communicate and interact with open source communities. For key open source infrastructure, it also requires an ongoing investment of time into upstream community work that is hard for many institutions to justify.&lt;/p>
+&lt;p>&lt;strong>Problem 6: When institutions run their own clouds, they tend to re-invent institution-centric anti-patterns.&lt;/strong> For example, an institution might expose a cloud-based service but make it available only to individuals with an institutional account.
+They might staff it with an under-resourced team (or just a single person). They might make small decisions that differ from institution to institution. All of this limits the effectiveness of the cloud for facilitating collaboration and sharing within communities of practice.&lt;/p>
+&lt;p>Finally, while vendor-specific cloud services often come with a lot of training material, self-managed cloud services require institutions to build their own practices and guidance for how to use the infrastructure. This results in another major problem:&lt;/p>
+&lt;p>&lt;strong>Problem 7: Communities need assistance in understanding what is possible with cloud-native workflows, and adapting these workflows to their domains.&lt;/strong> There is enormous value in integrating tools together and exposing them as a highly-accessible managed service via the cloud. However, most communities of practice are still new to cloud-native workflows, and they need considerable guidance to begin sharing their practices within a community.&lt;/p>
+&lt;p>These are several major problems that we must overcome in order to make cloud infrastructure more accessible and useful to research and education communities while living up to our values of community agency and open workflows.&lt;/p>
+&lt;h2 id="our-opportunity-for-impact">Our opportunity for impact&lt;/h2>
+&lt;p>To summarize, we believe that there is the following opportunity for impact:&lt;/p>
+&lt;ul>
+&lt;li>Make communities in research and education do work that is more collaborative, reproducible, and impactful&amp;hellip;&lt;/li>
+&lt;li>In a way that gives them agency and flexibility to do their work as they wish&amp;hellip;&lt;/li>
+&lt;li>By integrating open tools and standards, managing them as a service with scalable cloud infrastructure, and guiding communities in deciding how to use these tools for their domain-specific problems&amp;hellip;&lt;/li>
+&lt;/ul>
+&lt;p>We believe that the best way to do this is via a mission-aligned non-profit service that is based on values of trust, shared responsibility, and transparency. This will allow us to treat our relationships with communities as &lt;strong>collaborators, not customers&lt;/strong> and share responsibility and agency with them. In this way we can act as a vehicle for &lt;strong>sharing resources and ideas across communities&lt;/strong> via our infrastructure and services.&lt;/p>
+&lt;p>We can make such a service both &lt;strong>sustainable&lt;/strong> and &lt;strong>scalable&lt;/strong> because we are delivering direct value to communities with resources. There are many
+&lt;a href="https://www.ffwd.org/playbook/choose-a-business-model/" target="_blank" rel="noopener">potential business models&lt;/a>
+that are already in existence (for example, &lt;em>Software as a Service&lt;/em> or shared research infrastructure services like supercomputing centers). By generating resources in exchange for these services, we can &lt;strong>centralize cloud infrastructure services for many communities into a single, scalable team&lt;/strong>. By committing ourselves to an &lt;em>upstream-first service model&lt;/em>, we can &lt;strong>drive resources towards open source communities&lt;/strong> and make these tools more useful for our key stakeholders.&lt;/p>
+&lt;p>A model like this naturally sets up a two-directional virtuous cycle where open source communities and public knowledge communities derive value from one another&amp;rsquo;s work.&lt;/p>
+&lt;div class="mermaid">flowchart TD
+RE[Communities in &lt;br /> Research and Education]
+OS[Open Source Communities]
+OS -- Builds open tools and &lt;br /> standards used by --> 2i2c
+2i2c -- Integrates tools into &lt;br /> managed services for --> RE
+2i2c -- Integrates feedback and &lt;br /> upstreams improvements to --> OS
+RE -- Provides feedback &lt;br /> and resources for --> 2i2c
+&lt;/div>
+&lt;h3 id="how-should-2i2c-try-to-achieve-this-impact">How should 2i2c try to achieve this impact&lt;/h3>
+&lt;p>With this in mind, we hope to focus our organizational efforts around building services that focus on the following actions.&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Integrate&lt;/strong> open source tools and services into a cloud-native service that is optimized for scientific workflows and communities. The end-product should not feel like &amp;ldquo;a 2i2c product&amp;rdquo; but a service anybody with enough skills could build themselves.&lt;/li>
+&lt;li>&lt;strong>Manage&lt;/strong> cloud infrastructure with an &amp;ldquo;upstream first&amp;rdquo; mentality to provide a high-quality and accessible service for global communities. This will allow communities to focus on their work instead of the infrastructure.&lt;/li>
+&lt;li>&lt;strong>Support&lt;/strong> the communities that use this infrastructure so that questions and problems are dealt with quickly. This will de-risk the service (and the cloud more generally) with the knowledge that help is available.&lt;/li>
+&lt;li>&lt;strong>Guide&lt;/strong> communities in using these tools to do their work more effectively and collaboratively. This will speed up the learning and sharing process so that communities are able to make the most of the cloud.&lt;/li>
+&lt;li>&lt;strong>Collaborate&lt;/strong> with these communities and embody the values we want to see in the research community to build trust and lead others. This will build trust and strengthen relationships between our communities.&lt;/li>
+&lt;/ul>
+&lt;p>Over time, we may add new verbs (such as &lt;strong>develop&lt;/strong> open source software and &lt;strong>lead&lt;/strong> open source communities), but the ones above define our initial organizational focus.&lt;/p>
+&lt;h3 id="our-most-important-actions-to-take">Our most important actions to take&lt;/h3>
+&lt;p>Accomplishing this requires blending aspects of cloud infrastructure management, domain and workflow expertise, and collaborative service design. As we move forward, these are the biggest challenges to overcome in developing this service further:&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>Build a top-notch global Site Reliability Engineering Team&lt;/strong>. First and foremost, the infrastructure that we manage must be reliable and scalable. If you ask communities to do their work in the cloud, they must be confident that it will be stable and highly available. If you wish to serve a global community, then you must build systems management capacity on a global level. This means investing heavily in our asynchronous coordination and communication processes, and building team skills in the modern cloud infrastructure stack and dev-ops practices.&lt;/li>
+&lt;li>&lt;strong>Build centralized cloud deployment infrastructure for community-first services&lt;/strong>. We need the ability to centrally manage infrastructure that is delivered in a community-specific manner to many different communities of practice. This will allow us to achieve economies of scale in managing and running the infrastructure, while allowing communities to have agency over their tools to customize them for their needs. To do this we&amp;rsquo;ll need to use open source tools and cloud services that are designed for flexibility and modularity, create out-of-the-box infrastructure that gets communities 80% of the way there, and gives them the power to define the last 20% in a way that is sustainable for both them and our team.&lt;/li>
+&lt;li>&lt;strong>Define two or three scientific workflows to focus on, and integrate the right tools and services into a distribution for each&lt;/strong>. We must identify a few scientific workflows to focus on, as well as the infrastructure stack that will be most-useful to the communities that require these workflows. We must integrate this infrastructure into a distribution that any community could pick up, but that has enough flexibility for each to solve their &amp;ldquo;last-mile problem&amp;rdquo; with customizations.&lt;/li>
+&lt;li>&lt;strong>Define a support and guidance model for community-first services&lt;/strong>. Our support and guidance similarly needs to be generic enough to be scalable to many kinds of communities, but with the ability for communities to make their own customizations and have agency over their training and content. In this way we can be a centralized resource that communities can use to grow their own practice of cloud-native workflows.&lt;/li>
+&lt;li>&lt;strong>Identify a collaborative service delivery model that doesn&amp;rsquo;t create too much overhead&lt;/strong>. We believe that community-centric infrastructure should be transparent and participatory, and provide agency to communities in shaping their service. On the other hand, we wish to serve many different communities, and thus we must minimize the amount of labor associated with serving any particular community. As a result we must build a collaborative model of roles and expectations around our services that balances participation from community representatives against our ability to act quickly to ensure the best service possible.&lt;/li>
+&lt;li>&lt;strong>Identify a cost-recovery model that is globally accessible and scalable&lt;/strong>. We wish to serve a large and global collection of communities with our services, and so we must identify a way to recover our costs such that we are not restricted to serving only the wealthiest communities in the world, and such that &amp;ldquo;cost vs. resources generated&amp;rdquo; gives us the flexibility to grow to serve a large global community.&lt;/li>
+&lt;li>&lt;strong>Create an upstream-first culture&lt;/strong>. If we wish to leverage open source tools in our work, we need to build team expertise in interacting with open source communities, deploying their technology in our services, and making improvements to our service by upstream contributions to open source tools.&lt;/li>
+&lt;li>&lt;strong>Create an organizational culture that embodies the values we want to support&lt;/strong>. In order to build a better, more collaborative, more inclusive network of communities of practice, we need to embody the principles we wish to help grow in other communities. This will help us build trust with organizations that are inherently skeptical of &amp;ldquo;outsourcing&amp;rdquo; responsibilities to other organizations, and will make us more effective advocates for the same kinds of practices in other communities.&lt;/li>
+&lt;/ol>
+&lt;p>There are many other issues we must tackle, but we&amp;rsquo;ve identified these as being crucial to 2i2c accomplishing its mission. Over the coming months we will continue to refine our practices and service model. As we learn more, we&amp;rsquo;ll update our understanding of 2i2c&amp;rsquo;s situation and potential for impact, and our strategy for accomplishing our mission.&lt;/p>
+&lt;p>We hope that this framing helps others understand our position relative to the communities we wish to serve, and the impact we wish to have. We welcome any feedback or suggestions about how we can refine these ideas to better-serve our communities.&lt;/p>
+&lt;h2 id="appendix-future-growth">Appendix: Future growth&lt;/h2>
+&lt;p>Many people also ask what the growth model looks like for 2i2c.
+Our pricing strategy above should include our goal of &lt;strong>building a financial buffer&lt;/strong> in order to boost the financial resiliency of the organization, and to provide us room to grow if there is an opportunity to expand our service.&lt;/p>
+&lt;p>While we want to focus our efforts on the strategic goals described above, here is how I think 2i2c could grow its operations and expand its impact as a next step.
+These are initiatives for which we might seek grant funding to experiment with sustainable and scalable models.&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Create a software development team&lt;/strong>. Right now our technical efforts are focused on &lt;em>integrating&lt;/em> pre-existing tools and services, and &lt;em>managing&lt;/em> these services in the cloud. However there are many opportunities to &lt;em>create&lt;/em> and &lt;em>enhance&lt;/em> the ecosystem of tools that is out there. Doing dedicated software development is very different from Site Reliability Engineering, and we will need to build our financial and staffing capacity to dedicate team members to this work.&lt;/li>
+&lt;li>&lt;strong>Expand the kinds of cloud services we offer&lt;/strong>. Currently we focus our efforts around providing &lt;em>research and analysis platforms&lt;/em> in the cloud. These are often connected to other cloud resources (like datasets) but we do not manage them ourselves. We believe there&amp;rsquo;s an opportunity to strategically grow the services we provide - most notably in the area of cloud data management and migration. However, this is beyond our current capacity and we will need to grow more before moving in this direction.&lt;/li>
+&lt;li>&lt;strong>Create an open source support operation&lt;/strong>. There are many things that open source communities need beyond technical improvements. Providing community, operational, and strategic support is another way that 2i2c could use its resources and experience to benefit open source communities that we work with. However, we need to better-understand how to do this in a way that is sustainable for us, and that respects open source communities as independent organizations with their own mission, strategy, and expectations.&lt;/li>
+&lt;li>&lt;strong>Create a cloud infrastructure training operation&lt;/strong>. Many communities we work with &lt;em>aspire to run their own cloud infrastructure&lt;/em>. They wish to work with a trusted partner like 2i2c in the short-term, but in the long term they want to build their own capacity in running similar services. 2i2c&amp;rsquo;s cloud services are a unique opportunity for others to get hands-on training to grow their skills. Perhaps there is a way for us to share this experience with members from other communities in a way that they can then bring back with them to other organizations. There will be an inherent tension between this and our sustainability model from ongoing services, but we believe it is an important opportunity to explore since it aligns with our values of community agency and choice.&lt;/li>
+&lt;/ul></description></item><item><title>Open grant narrative: A Collaborative Interactive Computing Service Model for Global Communities</title><link>https://2i2c.org/blog/2022/czi-global-communities-proposal/</link><pubDate>Sun, 28 Aug 2022 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2022/czi-global-communities-proposal/</guid><description>&lt;p>We recently submitted a grant to
 &lt;a href="https://chanzuckerberg.com/" target="_blank" rel="noopener">Chan Zuckerberg Initiative&lt;/a>
 and wish to share some details about it as well as the grant narrative for others to read and re-use.&lt;/p>
 &lt;ul class="cta-group">
