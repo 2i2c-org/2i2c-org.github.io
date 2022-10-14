@@ -1,4 +1,5 @@
 +++
+authors =  ["Damián Avila"]
 title = "Open Source Infrastructure Engineer"
 work_description = ["Cloud infrastructure management and operations.", "Development of open source infrastructure for hosted JupyterHub service"]
 salary_range = "$100,000 - $120,000"
@@ -16,7 +17,7 @@ We are looking for an experienced Open Source Infrastructure Engineer who will h
 
 ## Who we are
 
-2i2c is a non-profit organization with a mission to make interactive computing more accessible, scalable, and powerful for research and education: [https://2i2c.org/about/](https://2i2c.org/about/).
+2i2c is a non-profit organization with a mission to make interactive computing more accessible, scalable, and powerful for research and education: [https://2i2c.org/about/](/about).
 
 We accomplish this mission by providing managed cloud services for interactive computing, by providing development and technical leadership to researchers and educators that utilize this infrastructure for specific communities, and by providing support for open source tools and communities in this ecosystem.
 
@@ -58,7 +59,7 @@ We believe strongly in communities that are inclusive, transparent, equitable, e
 
 ## What it is like to work at 2i2c and why you’ll like working with us
 
-2i2c is a remote-first team that believes strongly in our organizational values and mission. We recommend that you visit our [jobs page](2i2c.org/jobs), to learn about what it’s like to work at 2i2c and why you should work with us. You will also find relevant information about our compensation philosophy and our commitment to equal opportunity. For an even deeper look into how 2i2c works, check out our [Team Compass](https://team-compass.2i2c.org/en/latest/).
+2i2c is a remote-first team that believes strongly in our organizational values and mission. We recommend that you visit our [jobs page](/careers), to learn about what it’s like to work at 2i2c and why you should work with us. You will also find relevant information about our compensation philosophy and our commitment to equal opportunity. For an even deeper look into how 2i2c works, check out our [Team Compass](https://team-compass.2i2c.org/en/latest/).
 
 ## How to apply
 
