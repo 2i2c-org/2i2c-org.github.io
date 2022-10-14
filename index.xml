@@ -1,4 +1,74 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2i2c</title><link>https://2i2c.org/</link><atom:link href="https://2i2c.org/index.xml" rel="self" type="application/rss+xml"/><description>2i2c</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 09 Oct 2022 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>2i2c</title><link>https://2i2c.org/</link></image><item><title>One year later: an update of 2i2c's mission, strategy, and impact</title><link>https://2i2c.org/blog/2022/strategic-update/</link><pubDate>Sun, 09 Oct 2022 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2022/strategic-update/</guid><description>&lt;p>&lt;em>This post is an exploration of 2i2c&amp;rsquo;s current strategy and direction after a year of major operations. It is a brainstorm from the Executive Director, shared as a blog post to invite feedback and provide transparency into our current thinking. Its goal is to explore the context of 2i2c&amp;rsquo;s stakeholders and their needs, and identify an opportunity and plan for having a positive impact with these communities. It is not a concrete proposal but a snapshot of thinking in time meant to trigger reflection. Over time we will incorporate some of these ideas
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2i2c</title><link>https://2i2c.org/</link><atom:link href="https://2i2c.org/index.xml" rel="self" type="application/rss+xml"/><description>2i2c</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 14 Oct 2022 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>2i2c</title><link>https://2i2c.org/</link></image><item><title>Open Source Infrastructure Engineer</title><link>https://2i2c.org/jobs/2022/open-source-infrastructure-engineer/</link><pubDate>Fri, 14 Oct 2022 00:00:00 +0000</pubDate><guid>https://2i2c.org/jobs/2022/open-source-infrastructure-engineer/</guid><description>&lt;p>We are looking for an experienced Open Source Infrastructure Engineer who will help shape the future of data-intensive scientific research and make a big impact on democratising the design and access to cloud-based resources for research and education purposes. This engineer will be part of an awesome engineering team pushing forward the development and operations of our cloud-based infrastructure.&lt;/p>
+&lt;!-- Defined in layouts/shortcodes/job_details.html -->
+&lt;div class="job-info">
+&lt;p>&lt;i class="fa fa-info-circle">&lt;/i> &lt;strong>About the position&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Salary&lt;/strong>: $100,000 - $120,000&lt;/li>
+&lt;li>&lt;strong>Location&lt;/strong>: preferred at the US/Pacific time zone&lt;/li>
+&lt;li>&lt;strong>Deadline&lt;/strong>: We will begin reviewing applications around &lt;strong>Oct 17th&lt;/strong>, and will accept them on a rolling basis until the position is filled.&lt;/li>
+&lt;/ul>
+&lt;p>For more general information about working at 2i2c, benefits, and expectations of team members,
+&lt;a href="https://2i2c.org/jobs">see our Jobs page&lt;/a>
+.
+For a comprehensive guide to 2i2c&amp;rsquo;s team practices and strategy, see
+&lt;a href="https://team-compass.2i2c.org" target="_blank" rel="noopener">our Team Compass&lt;/a>
+.&lt;/p>
+&lt;ul class="cta-group">
+&lt;li>
+&lt;a href="https://forms.gle/RPqWHoweDnvUVp4d8" class="btn btn-primary px-3 py-3">Click here to Apply&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;/div>
+&lt;h2 id="who-we-are">Who we are&lt;/h2>
+&lt;p>2i2c is a non-profit organization with a mission to make interactive computing more accessible, scalable, and powerful for research and education:
+&lt;a href="https://2i2c.org/about/" target="_blank" rel="noopener">https://2i2c.org/about/&lt;/a>
+.&lt;/p>
+&lt;p>We accomplish this mission by providing managed cloud services for interactive computing, by providing development and technical leadership to researchers and educators that utilize this infrastructure for specific communities, and by providing support for open source tools and communities in this ecosystem.&lt;/p>
+&lt;p>We have deep ties to the open source community, and have been leaders and core contributors across dozens of projects - in particular in the Jupyter ecosystem. We also have deep ties to research and education - our team has spent years deploying infrastructure for universities, community colleges, and research teams, and now we’re bringing this experience to a wider audience with 2i2c.&lt;/p>
+&lt;p>We believe strongly in communities that are inclusive, transparent, equitable, effective, and diverse, especially 2i2c itself. We believe that our values should permeate everything about 2i2c, including the work we do, the communities we serve, and our own organizational culture.&lt;/p>
+&lt;p>2i2c is a 501(c)(3) not-for-profit project fiscally sponsored by Code for Science and Society.&lt;/p>
+&lt;h2 id="what-youll-do">What you’ll do&lt;/h2>
+&lt;ul>
+&lt;li>Ensures the reliable operation of the 2i2c infrastructure (leveraging production-ready cloud-based tools such as JupyterHub, BinderHub and Dask).&lt;/li>
+&lt;li>Attends support-facing tickets&lt;/li>
+&lt;li>Explores emerging technologies in the Cloud / DevOps space, design and implement cloud computing architecture in partnership with our team.&lt;/li>
+&lt;li>Participates in upstream open source communities we rely on (such as JupyterHub, BinderHub, Dask, etc) in partnership with the established leaders of those communities and collaborate with the Community Lead in the education and outreach around cloud computing.&lt;/li>
+&lt;li>Work with a distributed and global team - team members are given a lot of autonomy, and expected to be proactive at communicating with one another and working with others to allocate effort that will maximize our impact.&lt;/li>
+&lt;/ul>
+&lt;h2 id="essential-requirements">Essential requirements&lt;/h2>
+&lt;ul>
+&lt;li>Experience with deploying applications on cloud infrastructure.&lt;/li>
+&lt;li>Experience deploying and developing with Linux container-based technologies, such as Docker and Kubernetes.&lt;/li>
+&lt;li>Experience with continuous integration services (e.g. Circle CI, GitHub workflows).&lt;/li>
+&lt;li>Experience developing tools in a general purpose programming language (eg. Python).&lt;/li>
+&lt;li>Experience collaborating and coordinating work via online platforms, such as GitHub, GitLab, or BitBucket, and distributed revision control.&lt;/li>
+&lt;li>Experience working with distributed service teams that use asynchronous methods of communication&lt;/li>
+&lt;/ul>
+&lt;h2 id="desirable-requirements">Desirable requirements&lt;/h2>
+&lt;ul>
+&lt;li>Experience with major cloud providers.&lt;/li>
+&lt;li>Experience in programming and software engineering with a track record of leadership in open, collaborative projects with broad community adoption.&lt;/li>
+&lt;li>Experience working on geographically distributed open-source projects.&lt;/li>
+&lt;li>Experience with the Jupyter ecosystem and other tools for interactive computing.&lt;/li>
+&lt;li>Evidence of existing connections and relationships in the worldwide ecosystem of open source software for data-intensive research and ability to establish new ones.&lt;/li>
+&lt;li>Experience with common data science methods, platforms, workflows, and infrastructures; with data management systems, practices, and standards; and the capacity to gain familiarity with new related topics.&lt;/li>
+&lt;li>Experience engaging with highly technical researchers across a variety of methodological fields, research domains, and computational platforms.&lt;/li>
+&lt;li>Experience building and maintaining continuous deployment pipelines.&lt;/li>
+&lt;li>Interpersonal skills to work with researchers and students. Include having skills to communicate complex information in a clear and concise manner both verbally and in writing&lt;/li>
+&lt;/ul>
+&lt;h2 id="what-it-is-like-to-work-at-2i2c-and-why-youll-like-working-with-us">What it is like to work at 2i2c and why you’ll like working with us&lt;/h2>
+&lt;p>2i2c is a remote-first team that believes strongly in our organizational values and mission. We recommend that you visit our
+&lt;a href="2i2c.org/jobs">jobs page&lt;/a>
+, to learn about what it’s like to work at 2i2c and why you should work with us. You will also find relevant information about our compensation philosophy and our commitment to equal opportunity. For an even deeper look into how 2i2c works, check out our
+&lt;a href="https://team-compass.2i2c.org/en/latest/" target="_blank" rel="noopener">Team Compass&lt;/a>
+.&lt;/p>
+&lt;h2 id="how-to-apply">How to apply&lt;/h2>
+&lt;p>Please fill out the following
+&lt;a href="https://forms.gle/RPqWHoweDnvUVp4d8" target="_blank" rel="noopener">application form&lt;/a>
+.
+Final note
+Keep in mind we will begin reviewing applications around Oct 17th, and will accept them on a rolling basis until the position is filled.&lt;/p>
+&lt;p>We are eager to receive your application!&lt;/p></description></item><item><title>One year later: an update of 2i2c's mission, strategy, and impact</title><link>https://2i2c.org/blog/2022/strategic-update/</link><pubDate>Sun, 09 Oct 2022 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2022/strategic-update/</guid><description>&lt;p>&lt;em>This post is an exploration of 2i2c&amp;rsquo;s current strategy and direction after a year of major operations. It is a brainstorm from the Executive Director, shared as a blog post to invite feedback and provide transparency into our current thinking. Its goal is to explore the context of 2i2c&amp;rsquo;s stakeholders and their needs, and identify an opportunity and plan for having a positive impact with these communities. It is not a concrete proposal but a snapshot of thinking in time meant to trigger reflection. Over time we will incorporate some of these ideas
 &lt;a href="https://team-compass.2i2c.org/" target="_blank" rel="noopener">into our Team Compass&lt;/a>
 .&lt;/em>&lt;/p>
 &lt;p>When we founded 2i2c, we largely did so from the &amp;ldquo;bottom up&amp;rdquo; - we identified several patterns around hosted infrastructure that were useful at
