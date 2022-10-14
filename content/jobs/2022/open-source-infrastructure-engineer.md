@@ -59,7 +59,7 @@ We believe strongly in communities that are inclusive, transparent, equitable, e
 
 ## What it is like to work at 2i2c and why you’ll like working with us
 
-2i2c is a remote-first team that believes strongly in our organizational values and mission. We recommend that you visit our [jobs page](/careers), to learn about what it’s like to work at 2i2c and why you should work with us. You will also find relevant information about our compensation philosophy and our commitment to equal opportunity. For an even deeper look into how 2i2c works, check out our [Team Compass](https://team-compass.2i2c.org/en/latest/).
+2i2c is a remote-first team that believes strongly in our organizational values and mission. We recommend that you visit our [jobs page](/jobs), to learn about what it’s like to work at 2i2c and why you should work with us. You will also find relevant information about our compensation philosophy and our commitment to equal opportunity. For an even deeper look into how 2i2c works, check out our [Team Compass](https://team-compass.2i2c.org/en/latest/).
 
 ## How to apply
 
