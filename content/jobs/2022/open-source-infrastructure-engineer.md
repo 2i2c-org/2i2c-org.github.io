@@ -10,7 +10,7 @@ deadline = "We will begin reviewing applications around **Oct 17th**, and will a
 open = "true"
 +++
 
-We are looking for an experienced Open Source Infrastructure Engineer who will help shape the future of data-intensive scientific research and make a big impact on democratising the design and access to cloud-based resources for research and education purposes. This engineer will be part of an awesome engineering team pushing forward the development and operations of our cloud-based infrastructure.
+We are looking for an experienced Open Source Infrastructure Engineer who will help shape the future of data-intensive scientific research and make a big impact on democratizing the design and access to cloud-based resources for research and education purposes. This engineer will be part of an awesome engineering team pushing forward the development and operations of our cloud-based infrastructure.
 
 <!-- Defined in layouts/shortcodes/job_details.html -->
 {{% job_details %}}
@@ -25,20 +25,20 @@ We have deep ties to the open source community, and have been leaders and core c
 
 We believe strongly in communities that are inclusive, transparent, equitable, effective, and diverse, especially 2i2c itself. We believe that our values should permeate everything about 2i2c, including the work we do, the communities we serve, and our own organizational culture.
 
-2i2c is a 501(c)(3) not-for-profit project fiscally sponsored by Code for Science and Society.
+2i2c is a fiscally sponsored project of [Code for Science and Society](http://www.codeforsociety.org/), a registered US 501(c)(3) nonprofit corporation.
 
 ## What you’ll do
 
-* Ensures the reliable operation of the 2i2c infrastructure (leveraging production-ready cloud-based tools such as JupyterHub, BinderHub and Dask).
-* Attends support-facing tickets
-* Explores emerging technologies in the Cloud / DevOps space, design and implement cloud computing architecture in partnership with our team.
-* Participates in upstream open source communities we rely on (such as JupyterHub, BinderHub, Dask, etc) in partnership with the established leaders of those communities and collaborate with the Community Lead in the education and outreach around cloud computing.
+* Ensure the reliable operation of the 2i2c infrastructure (leveraging production-ready cloud-based tools such as JupyterHub, BinderHub and Dask).
+* Address support issues
+* Explore emerging technologies in the Cloud / DevOps space, design and implement cloud computing architecture in partnership with our team.
+* Participate in upstream open source communities we rely on (such as JupyterHub, BinderHub, Dask, etc) in partnership with the established leaders of those communities and collaborate with the Community Lead in the education and outreach around cloud computing.
 * Work with a distributed and global team - team members are given a lot of autonomy, and expected to be proactive at communicating with one another and working with others to allocate effort that will maximize our impact.
 
 
 ## Essential requirements
 
-* Experience with deploying applications on cloud infrastructure.
+* Experience deploying applications on cloud infrastructure.
 * Experience deploying and developing with Linux container-based technologies, such as Docker and Kubernetes.
 * Experience with continuous integration services (e.g. Circle CI, GitHub workflows).
 * Experience developing tools in a general purpose programming language (eg. Python).
@@ -55,7 +55,7 @@ We believe strongly in communities that are inclusive, transparent, equitable, e
 * Experience with common data science methods, platforms, workflows, and infrastructures; with data management systems, practices, and standards; and the capacity to gain familiarity with new related topics.
 * Experience engaging with highly technical researchers across a variety of methodological fields, research domains, and computational platforms.
 * Experience building and maintaining continuous deployment pipelines.
-* Interpersonal skills to work with researchers and students. Include having skills to communicate complex information in a clear and concise manner both verbally and in writing
+* Interpersonal skills to work with researchers and students, including skills to communicate complex information in a clear and concise manner both verbally and in writing.
 
 ## What it is like to work at 2i2c and why you’ll like working with us
 
@@ -64,7 +64,6 @@ We believe strongly in communities that are inclusive, transparent, equitable, e
 ## How to apply
 
 Please fill out the following [application form](https://forms.gle/RPqWHoweDnvUVp4d8).
-Final note
-Keep in mind we will begin reviewing applications around Oct 17th, and will accept them on a rolling basis until the position is filled.
+We will begin reviewing applications on Oct 17th, and will accept them on a rolling basis until the position is filled.
 
 We are eager to receive your application!
