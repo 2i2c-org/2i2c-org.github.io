@@ -85,6 +85,19 @@ Here's a brief breakdown:
 
 **We improved our cloud usage monitoring infrastructure**. We've deployed [a centralized Grafana Dashboard](https://github.com/2i2c-org/infrastructure/issues/328) that aggregates cloud usage across all of our partner communities, and allows us to keep track of any unexpected behavior or outages across them all. We're also looking into setting up automatic budgets and alerts for our infrastructure.
 
+## Where we're focusing next
+
+In the final quarter of this year, we've decided to focus our efforts on **growing capacity** across all of the aspects of our team.
+Now that we have brought on several more partner communities into our Managed JupyterHub Service, it has shown us where we have bottlenecks in our technology, process, and structure.
+Next year we hope to significantly grow the number of communities we work with, and so we must grow our capacity to be able to take on more partnerships.
+
+We aim to accomplish this in a few ways:
+
+- **Make technical improvements** to our cloud infrastructure that reduces the amount of human labor associated with regular actions. This will make our cloud infrastructure more scalable and reliable.
+- **Improve our invoicing and partnership leads pipeline** so that we can reduce the amount of administrative toil for ourselves and for the communities we work with in billing and cloud cost pass-through.
+- **Refine our organizational strategy and structure** so that we are better-able to agree on our most important objectives, and to execute on them efficiently as a distributed team.
+- **Hire people!**. While improving our efficiency will certainly grow our capacity, we also hope to grow our capacity the old fashioned way: by hiring more team members. We're identifying the biggest needs on our team now and will hope to have postings soon. Stay tuned!
+
 ## Thanks
 
 Many thanks to the 2i2c team, our partner communities, our funders, and the many others that have provided us support and guidance. We hope that this update provides a helpful idea of our priorities and major efforts, and we look forward to giving you a new update in Q4!
