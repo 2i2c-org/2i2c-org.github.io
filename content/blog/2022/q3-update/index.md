@@ -79,11 +79,11 @@ TODO: Only post this if we get our engineering salary bands questions resolved b
 We made a number of improvements to our cloud infrastructure and the processes around our service.
 Here's a brief breakdown:
 
-**We expanded our shared clusters to new cloud providers and regions**. We now have a shared clusters already deployed on Google Cloud Platform on `us-central1-b` and `europe-west2` and we will soon deploy a shared cluster on Amazon Web Services on `us-west-2`.
+**We expanded our shared clusters to new cloud providers and regions**. We now have shared clusters already deployed on Google Cloud Platform on `us-central1-b` and `europe-west2`.
 
 **We defined an incident commander process**. This will allow us to coordinate and respond to major outages in our cloud infrastructure more efficiently. See [our incident response documentation](https://team-compass.2i2c.org/en/latest/projects/managed-hubs/incidents.html) for more information.
 
-**We improved our cloud usage monitoring infrastructure**. We've deployed [a centralized Grafana Dashboard](https://github.com/2i2c-org/infrastructure/issues/328) that aggregates cloud usage across all of our partner communities, and allows us to keep track of any unexpected behavior or outages across them all. We're also looking into setting up automatic budgets and alerts for our infrastructure.
+**We improved our cloud usage monitoring infrastructure**. We've deployed [a centralized Grafana Dashboard](https://github.com/2i2c-org/infrastructure/issues/328) that aggregates cloud usage across all of our partner communities, and allows us to keep track of any unexpected behavior or outages across them all.
 
 ## Where we're focusing next
 
