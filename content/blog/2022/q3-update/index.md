@@ -27,11 +27,6 @@ These are the main highlights from this quarter - if you'd like to check out mor
 
 These are a few ways in which we've collaborated with communities and demonstrated impact over the last few months.
 
-{{% callout note %}}
-If you are interested in partnering with 2i2c to have your own managed JupyterHub, please contact us at `partnerships@2i2c.org`.
-We have a shared cluster on Google Cloud, with plans to deploy one on AWS soon, and dedicated clusters can be run on any major cloud provider. Please see [our service documentation](https://docs.2i2c.org/en/latest/about/service/index.html) for more details.
-{{% /callout %}}
-
 **New JupyterHubs for communities**. We've deployed JupyterHubs for several new partner communities. Here's a quick list:
 
 - PaleoCube and PaleoHack Hubs [infrastructure#1418](https://github.com/2i2c-org/infrastructure/issues/1418)
@@ -52,6 +47,11 @@ We also ran hubs for several **community events**:
 - Allen Institute Summer Workshop on the Dynamic Brain [infrastructure#1621](https://github.com/2i2c-org/infrastructure/issues/1621)
 
 For a recap of one of these events, see our recent [blog post on the Jack Eddy symposium](https://2i2c.org/blog/2022/eddy-symposium-report).
+
+{{% callout note %}}
+If you are interested in partnering with 2i2c to have your own managed JupyterHub, please contact us at `partnerships@2i2c.org`.
+We have a shared cluster on Google Cloud, with plans to deploy one on AWS soon, and dedicated clusters can be run on any major cloud provider. Please see [our service documentation](https://docs.2i2c.org/en/latest/about/service/index.html) for more details.
+{{% /callout %}}
 
 ## Organization wide updates
 
@@ -89,14 +89,14 @@ Here's a brief breakdown:
 
 In the final quarter of this year, we've decided to focus our efforts on **growing capacity** across all of the aspects of our team.
 Now that we have brought on several more partner communities into our Managed JupyterHub Service, it has shown us where we have bottlenecks in our technology, process, and structure.
-Next year we hope to significantly grow the number of communities we work with, and so we must grow our capacity to be able to take on more partnerships.
+In 2023 we hope to significantly grow the number of communities we work with, and so we must grow our capacity to be able to take on these new partnerships.
 
 We aim to accomplish this in a few ways:
 
 - **Make technical improvements** to our cloud infrastructure that reduces the amount of human labor associated with regular actions. This will make our cloud infrastructure more scalable and reliable.
 - **Improve our invoicing and partnership leads pipeline** so that we can reduce the amount of administrative toil for ourselves and for the communities we work with in billing and cloud cost pass-through.
 - **Refine our organizational strategy and structure** so that we are better-able to agree on our most important objectives, and to execute on them efficiently as a distributed team.
-- **Hire people!**. While improving our efficiency will certainly grow our capacity, we also hope to grow our capacity the old fashioned way: by hiring more team members. We're identifying the biggest needs on our team now and will hope to have postings soon. Stay tuned!
+- **Hire people!** While improving our efficiency will certainly grow our capacity, we also hope to grow our capacity the old fashioned way: by hiring more team members. We're identifying the biggest needs on our team now and will hope to have postings soon. Stay tuned!
 
 ## Thanks
 
