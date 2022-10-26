@@ -1,8 +1,8 @@
 # Netlify redirects
 # Automatically generated
 # Documentation: https://docs.netlify.com/routing/redirects/
-/careers /jobs/
 /posts /blog/
+/careers /jobs/
 /posts/myst-nikola-part-1 /blog/2021/myst-nikola-part-1/
 /posts/six-month-update /blog/2021/six-month-update/
 /posts/czi-core-support /blog/2021/czi-core-support/

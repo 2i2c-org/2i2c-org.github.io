@@ -1,4 +1,135 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>updates | 2i2c</title><link>https://2i2c.org/category/updates/</link><atom:link href="https://2i2c.org/category/updates/index.xml" rel="self" type="application/rss+xml"/><description>updates</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 04 Apr 2022 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>updates</title><link>https://2i2c.org/category/updates/</link></image><item><title>Celebrating our progress in Q1 2022</title><link>https://2i2c.org/blog/2022/q1-update/</link><pubDate>Mon, 04 Apr 2022 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2022/q1-update/</guid><description>&lt;p>Quarter 1 of 2022 just wrapped up, and the 2i2c team has been busy making improvements across our infrastructure, organization, and operations.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>updates | 2i2c</title><link>https://2i2c.org/category/updates/</link><atom:link href="https://2i2c.org/category/updates/index.xml" rel="self" type="application/rss+xml"/><description>updates</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 16 Oct 2022 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>updates</title><link>https://2i2c.org/category/updates/</link></image><item><title>Celebrating our progress in Q3 2022</title><link>https://2i2c.org/blog/2022/q3-update/</link><pubDate>Sun, 16 Oct 2022 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2022/q3-update/</guid><description>&lt;p>Quarter 3 of 2022 has wrapped up, and the 2i2c team has been busy making improvements across our infrastructure, organization, and operations.
+This is a quick post to celebrate the work we&amp;rsquo;ve done over the past three months, and to briefly share what we&amp;rsquo;re working on next.&lt;/p>
+&lt;p>Below we&amp;rsquo;ll provide a brief update about major developments this quarter, broken down by functional areas of 2i2c.&lt;/p>
+&lt;div class="alert alert-">
+&lt;div>
+&lt;p>These are the main highlights from this quarter - if you&amp;rsquo;d like to check out more of the work that we&amp;rsquo;ve done, see:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://github.com/pulls?q=is%3Apr&amp;#43;merged%3A2022-07-01..2022-10-01&amp;#43;org%3A2i2c-org&amp;#43;archived%3Afalse&amp;#43;sort%3Aupdated-desc&amp;#43;" target="_blank" rel="noopener">All the PRs we’ve merged in Q3&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://github.com/issues?page=4&amp;amp;q=is%3Aissue&amp;#43;closed%3A2022-07-01..2022-10-01&amp;#43;org%3A2i2c-org&amp;#43;sort%3Aupdated-desc" target="_blank" rel="noopener">All closed issues in Q3&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;/div>
+&lt;/div>
+&lt;h2 id="community-impact">Community impact&lt;/h2>
+&lt;p>These are a few ways in which we&amp;rsquo;ve collaborated with communities and demonstrated impact over the last few months.&lt;/p>
+&lt;p>&lt;strong>New JupyterHubs for communities&lt;/strong>. We&amp;rsquo;ve deployed JupyterHubs for several new partner communities. Here&amp;rsquo;s a quick list:&lt;/p>
+&lt;ul>
+&lt;li>PaleoCube and PaleoHack Hubs
+&lt;a href="https://github.com/2i2c-org/infrastructure/issues/1418" target="_blank" rel="noopener">infrastructure#1418&lt;/a>
+&lt;/li>
+&lt;li>NeuroHackademy 2022
+&lt;a href="https://github.com/2i2c-org/infrastructure/issues/1505" target="_blank" rel="noopener">infrastructure#1505&lt;/a>
+&lt;/li>
+&lt;li>Alabama Water Institute CIROH hub
+&lt;a href="https://github.com/2i2c-org/infrastructure/issues/1444" target="_blank" rel="noopener">infrastructure#1444&lt;/a>
+&lt;/li>
+&lt;li>OceanHackWeek 2022
+&lt;a href="https://github.com/2i2c-org/infrastructure/issues/1515" target="_blank" rel="noopener">infrastructure#1515&lt;/a>
+&lt;/li>
+&lt;li>COESSING Pangeo-Style Hub
+&lt;a href="https://github.com/2i2c-org/infrastructure/issues/1516" target="_blank" rel="noopener">infrastructure#1516&lt;/a>
+&lt;/li>
+&lt;li>Temple University Education Hub
+&lt;a href="https://github.com/2i2c-org/infrastructure/issues/1648" target="_blank" rel="noopener">infrastructure#1648&lt;/a>
+&lt;/li>
+&lt;li>Callysto Hub
+&lt;a href="https://github.com/2i2c-org/infrastructure/issues/" target="_blank" rel="noopener">infrastructure#1439&lt;/a>
+&lt;/li>
+&lt;li>London Interdisciplinary School
+&lt;a href="https://github.com/2i2c-org/infrastructure/issues/1485" target="_blank" rel="noopener">infrastructure#1485&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;p>We also ran hubs for several &lt;strong>community events&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>NeuroHackademy:
+&lt;a href="https://github.com/2i2c-org/infrastructure/issues/1300" target="_blank" rel="noopener">infrastructure#1300&lt;/a>
+&lt;/li>
+&lt;li>OceanHackWeek 2022
+&lt;a href="https://github.com/2i2c-org/infrastructure/issues/1576" target="_blank" rel="noopener">infrastructure#1576&lt;/a>
+&lt;/li>
+&lt;li>COESSING workshop:
+&lt;a href="https://github.com/2i2c-org/infrastructure/issues/1516" target="_blank" rel="noopener">infrastructure#1516&lt;/a>
+&lt;/li>
+&lt;li>Eddy Symposium:
+&lt;a href="https://github.com/2i2c-org/team-compass/issues/467" target="_blank" rel="noopener">infrastructure#467&lt;/a>
+&lt;/li>
+&lt;li>Allen Institute Summer Workshop on the Dynamic Brain
+&lt;a href="https://github.com/2i2c-org/infrastructure/issues/1621" target="_blank" rel="noopener">infrastructure#1621&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;p>For a recap of one of these events, see our recent
+&lt;a href="https://2i2c.org/blog/2022/eddy-symposium-report" target="_blank" rel="noopener">blog post on the Jack Eddy symposium&lt;/a>
+.&lt;/p>
+&lt;div class="alert alert-note">
+&lt;div>
+If you are interested in partnering with 2i2c to have your own managed JupyterHub, please contact us at &lt;code>partnerships@2i2c.org&lt;/code>.
+We have a shared cluster on Google Cloud, with plans to deploy one on AWS soon, and dedicated clusters can be run on any major cloud provider. Please see
+&lt;p>&lt;a href="https://docs.2i2c.org/en/latest/about/service/index.html" target="_blank" rel="noopener">our service documentation&lt;/a>
+for more details.&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;h2 id="organization-wide-updates">Organization wide updates&lt;/h2>
+&lt;p>These are large-scale organizational and strategic efforts that impact all of 2i2c.&lt;/p>
+&lt;p>&lt;strong>We applied for a CZI Grant&lt;/strong>: In partership with The Carpentries, CSCCE, MetaDocencia, Invest in Open Infrastructure, and OpenLifeScience, we
+&lt;a href="../czi-global-communities-proposal/index.md">applied for a CZI grant to provide cloud infrastructure services to global communities&lt;/a>
+.&lt;/p>
+&lt;p>&lt;strong>We grew our team&lt;/strong>: We&amp;rsquo;ve hired two new team members to lead new major efforts with 2i2c.
+&lt;a href="https://2i2c.org/author/james-munroe/" target="_blank" rel="noopener">&lt;strong>James Munroe&lt;/strong>&lt;/a>
+will lead efforts around &lt;em>community guidance and product design&lt;/em>, and
+&lt;a href="https://2i2c.org/author/jim-colliander/" target="_blank" rel="noopener">&lt;strong>Jim Colliander&lt;/strong>&lt;/a>
+will lead efforts around &lt;em>partnerships and sustainability&lt;/em>. We also
+&lt;a href="https://github.com/2i2c-org/team-compass/issues/436" target="_blank" rel="noopener">updated our Hiring and Candidate Search documentation&lt;/a>
+in the process.&lt;/p>
+&lt;p>&lt;strong>We&amp;rsquo;re refining our strategy&lt;/strong>: We&amp;rsquo;ve begun a process of revisiting and refining our strategy after a year of major operations, see
+&lt;a href="../strategic-update/index.md">our strategic update blog post for more information&lt;/a>
+.&lt;/p>
+&lt;p>&lt;strong>We completed the
+&lt;a href="https://cscce.org" target="_blank" rel="noopener">CSCCE&lt;/a>
+community management training&lt;/strong>. Two of our team members (James and Sarah) both completed a several-week community management course that was offered in partnership with
+&lt;a href="chanzuckerberg.org">CZI&lt;/a>
+.&lt;/p>
+&lt;p>&lt;strong>Our team member Sarah began a part-time role as the JupyterHub Community Strategic Lead&lt;/strong>. Sarah will be leading community strategy efforts within JupyterHub for the next two years thanks to a grant to the JupyterHub team from CZI.
+&lt;a href="https://github.com/jupyterhub/team-compass/issues/536" target="_blank" rel="noopener">Check out this issue to follow our progress&lt;/a>
+.&lt;/p>
+&lt;!--
+TODO: Only post this if we get our engineering salary bands questions resolved before this post goes live.
+**We are hiring an engineer**: Do you know an open source cloud engineer with experience in Kubernetes and has desire make research and education more impactful, accessible, and delightful? Check out our job ad [at ].
+-->
+&lt;h2 id="service-improvements">Service improvements&lt;/h2>
+&lt;p>We made a number of improvements to our cloud infrastructure and the processes around our service.
+Here&amp;rsquo;s a brief breakdown:&lt;/p>
+&lt;p>&lt;strong>We expanded our shared clusters to new cloud providers and regions&lt;/strong>. We now have shared clusters already deployed on Google Cloud Platform on &lt;code>us-central1-b&lt;/code> and &lt;code>europe-west2&lt;/code>.&lt;/p>
+&lt;p>&lt;strong>We defined an incident commander process&lt;/strong>. This will allow us to coordinate and respond to major outages in our cloud infrastructure more efficiently. See
+&lt;a href="https://team-compass.2i2c.org/en/latest/projects/managed-hubs/incidents.html" target="_blank" rel="noopener">our incident response documentation&lt;/a>
+for more information.&lt;/p>
+&lt;p>&lt;strong>We improved our cloud usage monitoring infrastructure&lt;/strong>. We&amp;rsquo;ve deployed
+&lt;a href="https://github.com/2i2c-org/infrastructure/issues/328" target="_blank" rel="noopener">a centralized Grafana Dashboard&lt;/a>
+that aggregates cloud usage across all of our partner communities, and allows us to keep track of any unexpected behavior or outages across them all.&lt;/p>
+&lt;h2 id="where-were-focusing-next">Where we&amp;rsquo;re focusing next&lt;/h2>
+&lt;p>In the final quarter of this year, we&amp;rsquo;ve decided to focus our efforts on &lt;strong>growing capacity&lt;/strong> across all of the aspects of our team.
+Now that we have brought on several more partner communities into our Managed JupyterHub Service, it has shown us where we have bottlenecks in our technology, process, and structure.
+In 2023 we hope to significantly grow the number of communities we work with, and so we must grow our capacity to be able to take on these new partnerships.&lt;/p>
+&lt;p>We aim to accomplish this in a few ways:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Make technical improvements&lt;/strong> to our cloud infrastructure that reduces the amount of human labor associated with regular actions. This will make our cloud infrastructure more scalable and reliable.&lt;/li>
+&lt;li>&lt;strong>Improve our invoicing and partnership leads pipeline&lt;/strong> so that we can reduce the amount of administrative toil for ourselves and for the communities we work with in billing and cloud cost pass-through.&lt;/li>
+&lt;li>&lt;strong>Refine our organizational strategy and structure&lt;/strong> so that we are better-able to agree on our most important objectives, and to execute on them efficiently as a distributed team.&lt;/li>
+&lt;li>&lt;strong>Hire people!&lt;/strong> While improving our efficiency will certainly grow our capacity, we also hope to grow our capacity the old fashioned way: by hiring more team members. We&amp;rsquo;re identifying the biggest needs on our team now and will hope to have postings soon. Stay tuned!&lt;/li>
+&lt;/ul>
+&lt;h2 id="thanks">Thanks&lt;/h2>
+&lt;p>Many thanks to the 2i2c team, our partner communities, our funders, and the many others that have provided us support and guidance. We hope that this update provides a helpful idea of our priorities and major efforts, and we look forward to giving you a new update in Q4!&lt;/p>
+&lt;div class="alert alert-note">
+&lt;div>
+If you are interested in partnering with 2i2c to have your own managed JupyterHub, please contact us at &lt;code>partnerships@2i2c.org&lt;/code>.
+We have a shared cluster on Google Cloud, with plans to deploy one on AWS soon, and dedicated clusters can be run on any major cloud provider. Please see
+&lt;p>&lt;a href="https://docs.2i2c.org/en/latest/about/service/index.html" target="_blank" rel="noopener">our service documentation&lt;/a>
+for more details.&lt;/p>
+&lt;/div>
+&lt;/div></description></item><item><title>Celebrating our progress in Q1 2022</title><link>https://2i2c.org/blog/2022/q1-update/</link><pubDate>Mon, 04 Apr 2022 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2022/q1-update/</guid><description>&lt;p>Quarter 1 of 2022 just wrapped up, and the 2i2c team has been busy making improvements across our infrastructure, organization, and operations.
 This is a quick post to celebrate the work we&amp;rsquo;ve done over the past three months, and to briefly share what we&amp;rsquo;re working on next.&lt;/p>
 &lt;p>These are the main highlights from this quarter - if you&amp;rsquo;d like to check out more of the work that we&amp;rsquo;ve done, see:&lt;/p>
 &lt;ul>
