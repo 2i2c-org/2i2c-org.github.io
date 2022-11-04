@@ -2,7 +2,7 @@
 authors =  ["Damián Avila"]
 title = "Open Source Infrastructure Engineer"
 work_description = ["Cloud infrastructure management and operations.", "Development of open source infrastructure for hosted JupyterHub service"]
-salary_range = "$100,000 - $120,000"
+salary_range = "$120,000 - $135,000"
 location = "preferred at the US/Pacific time zone"
 date = "2022-10-14"
 url_apply = "https://forms.gle/RPqWHoweDnvUVp4d8"
