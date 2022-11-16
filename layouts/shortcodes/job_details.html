@@ -14,8 +14,18 @@ See <a href="/jobs">the jobs page</a> for our open positions.<br>
 - **Location**: {{ .Page.Params.location }}
 - **Deadline**: {{ .Page.Params.deadline }}
 
-For more general information about working at 2i2c, benefits, and expectations of team members, [see our Jobs page](/jobs).
-For a comprehensive guide to 2i2c's team practices and strategy, see [our Team Compass](https://team-compass.2i2c.org).
+**Major duties**
+
+{{ range .Page.Params.work_description }}
+- {{ . }}
+{{ end }}
+
+For more general information about 2i2c, see the links below:
+
+* [Our Team Compass](https://compass.2i2c.org/en/latest/)
+* [Our Code of Conduct](https://compass.2i2c.org/en/latest/code-of-conduct/index.html)
+* [Our Mission and Values](https://compass.2i2c.org/en/latest/organization/mission.html)
+* [What it's like to work at 2i2c](https://2i2c.org/jobs/#what-its-like-to-work-at-2i2c)
 
 <ul class="cta-group">
   <li>

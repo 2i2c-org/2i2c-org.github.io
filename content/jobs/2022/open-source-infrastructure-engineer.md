@@ -1,16 +1,24 @@
 +++
 authors =  ["Damián Avila"]
-title = "Open Source Infrastructure Engineer"
-work_description = ["Cloud infrastructure management and operations.", "Development of open source infrastructure for hosted JupyterHub service"]
+title = "Open Source Infrastructure Engineer: Site Reliability Engineering and Cloud Infrastructure"
+work_description = [
+  "Site Reliability Engineering",
+  "Cloud infrastructure management, operations, and support.",
+  "Development of open source infrastructure for hosted JupyterHub service"
+]
 salary_range = "$120,000 - $135,000"
 location = "preferred at the US/Pacific time zone"
 date = "2022-10-14"
 url_apply = "https://forms.gle/RPqWHoweDnvUVp4d8"
-deadline = "We will begin reviewing applications around **Oct 17th**, and will accept them on a rolling basis until the position is filled."
+deadline = "We will begin reviewing applications around **November 17th**, and will accept them on a rolling basis until the position is filled."
 open = "true"
 +++
 
-We are looking for an experienced Open Source Infrastructure Engineer who will help shape the future of data-intensive scientific research and make a big impact on democratizing the design and access to cloud-based resources for research and education purposes. This engineer will be part of an awesome engineering team pushing forward the development and operations of our cloud-based infrastructure.
+2i2c manages, supports, and builds community-centric infrastructure for interactive computing in the cloud with partner communities in research and education.
+
+We’re looking for an Open Source Infrastructure Engineer that will join our **Site Reliability Engineering team and make our cloud infrastructure more reliable, scalable, and efficient**. It will help build a future of data-intensive scientific research and democratize the design and access to cloud-based resources for research and education purposes.
+
+If you're interested, learn more about 2i2c at the links below, and more about this job posting on the rest of this page.
 
 <!-- Defined in layouts/shortcodes/job_details.html -->
 {{% job_details %}}
@@ -64,6 +72,6 @@ We believe strongly in communities that are inclusive, transparent, equitable, e
 ## How to apply
 
 Please fill out the following [application form](https://forms.gle/RPqWHoweDnvUVp4d8).
-We will begin reviewing applications on Oct 17th, and will accept them on a rolling basis until the position is filled.
+We will begin reviewing applications on November 17th, and will accept them on a rolling basis until the position is filled.
 
 We are eager to receive your application!
