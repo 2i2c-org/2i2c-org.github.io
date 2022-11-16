@@ -134,21 +134,44 @@ We have a shared cluster on Google Cloud, with plans to deploy one on AWS soon, 
 &lt;p>&lt;a href="https://docs.2i2c.org/en/latest/about/service/index.html" target="_blank" rel="noopener">our service documentation&lt;/a>
 for more details.&lt;/p>
 &lt;/div>
-&lt;/div></description></item><item><title>Open Source Infrastructure Engineer</title><link>https://2i2c.org/jobs/2022/open-source-infrastructure-engineer/</link><pubDate>Fri, 14 Oct 2022 00:00:00 +0000</pubDate><guid>https://2i2c.org/jobs/2022/open-source-infrastructure-engineer/</guid><description>&lt;p>We are looking for an experienced Open Source Infrastructure Engineer who will help shape the future of data-intensive scientific research and make a big impact on democratizing the design and access to cloud-based resources for research and education purposes. This engineer will be part of an awesome engineering team pushing forward the development and operations of our cloud-based infrastructure.&lt;/p>
+&lt;/div></description></item><item><title>Open Source Infrastructure Engineer: Site Reliability Engineering and Cloud Infrastructure</title><link>https://2i2c.org/jobs/2022/open-source-infrastructure-engineer/</link><pubDate>Fri, 14 Oct 2022 00:00:00 +0000</pubDate><guid>https://2i2c.org/jobs/2022/open-source-infrastructure-engineer/</guid><description>&lt;p>2i2c manages, supports, and builds community-centric infrastructure for interactive computing in the cloud with partner communities in research and education.&lt;/p>
+&lt;p>We’re looking for an Open Source Infrastructure Engineer that will join our &lt;strong>Site Reliability Engineering team and make our cloud infrastructure more reliable, scalable, and efficient&lt;/strong>. It will help build a future of data-intensive scientific research and democratize the design and access to cloud-based resources for research and education purposes.&lt;/p>
+&lt;p>If you&amp;rsquo;re interested, learn more about 2i2c at the links below, and more about this job posting on the rest of this page.&lt;/p>
 &lt;!-- Defined in layouts/shortcodes/job_details.html -->
 &lt;div class="job-info">
 &lt;p>&lt;i class="fa fa-info-circle">&lt;/i> &lt;strong>About the position&lt;/strong>&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>Salary&lt;/strong>: $120,000 - $135,000&lt;/li>
 &lt;li>&lt;strong>Location&lt;/strong>: preferred at the US/Pacific time zone&lt;/li>
-&lt;li>&lt;strong>Deadline&lt;/strong>: We will begin reviewing applications around &lt;strong>Oct 17th&lt;/strong>, and will accept them on a rolling basis until the position is filled.&lt;/li>
+&lt;li>&lt;strong>Deadline&lt;/strong>: We will begin reviewing applications around &lt;strong>November 17th&lt;/strong>, and will accept them on a rolling basis until the position is filled.&lt;/li>
 &lt;/ul>
-&lt;p>For more general information about working at 2i2c, benefits, and expectations of team members,
-&lt;a href="https://2i2c.org/jobs">see our Jobs page&lt;/a>
-.
-For a comprehensive guide to 2i2c&amp;rsquo;s team practices and strategy, see
-&lt;a href="https://team-compass.2i2c.org" target="_blank" rel="noopener">our Team Compass&lt;/a>
-.&lt;/p>
+&lt;p>&lt;strong>Major duties&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Site Reliability Engineering&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Cloud infrastructure management, operations, and support.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Development of open source infrastructure for hosted JupyterHub service&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>For more general information about 2i2c, see the links below:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="https://compass.2i2c.org/en/latest/" target="_blank" rel="noopener">Our Team Compass&lt;/a>
+&lt;/li>
+&lt;li>
+&lt;a href="https://compass.2i2c.org/en/latest/code-of-conduct/index.html" target="_blank" rel="noopener">Our Code of Conduct&lt;/a>
+&lt;/li>
+&lt;li>
+&lt;a href="https://compass.2i2c.org/en/latest/organization/mission.html" target="_blank" rel="noopener">Our Mission and Values&lt;/a>
+&lt;/li>
+&lt;li>
+&lt;a href="https://2i2c.org/jobs/#what-its-like-to-work-at-2i2c" target="_blank" rel="noopener">What it&amp;rsquo;s like to work at 2i2c&lt;/a>
+&lt;/li>
+&lt;/ul>
 &lt;ul class="cta-group">
 &lt;li>
 &lt;a href="https://forms.gle/RPqWHoweDnvUVp4d8" class="btn btn-primary px-3 py-3">Click here to Apply&lt;/a>
@@ -204,7 +227,7 @@ For a comprehensive guide to 2i2c&amp;rsquo;s team practices and strategy, see
 &lt;p>Please fill out the following
 &lt;a href="https://forms.gle/RPqWHoweDnvUVp4d8" target="_blank" rel="noopener">application form&lt;/a>
 .
-We will begin reviewing applications on Oct 17th, and will accept them on a rolling basis until the position is filled.&lt;/p>
+We will begin reviewing applications on November 17th, and will accept them on a rolling basis until the position is filled.&lt;/p>
 &lt;p>We are eager to receive your application!&lt;/p></description></item><item><title>One year later: an update of 2i2c's mission, strategy, and impact</title><link>https://2i2c.org/blog/2022/strategic-update/</link><pubDate>Sun, 09 Oct 2022 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2022/strategic-update/</guid><description>&lt;p>&lt;em>This post is an exploration of 2i2c&amp;rsquo;s current strategy and direction after a year of major operations. It is a brainstorm from the Executive Director, shared as a blog post to invite feedback and provide transparency into our current thinking. Its goal is to explore the context of 2i2c&amp;rsquo;s stakeholders and their needs, and identify an opportunity and plan for having a positive impact with these communities. It is not a concrete proposal but a snapshot of thinking in time meant to trigger reflection. Over time we will incorporate some of these ideas
 &lt;a href="https://team-compass.2i2c.org/" target="_blank" rel="noopener">into our Team Compass&lt;/a>
 .&lt;/em>&lt;/p>
@@ -894,12 +917,33 @@ See &lt;a href="https://2i2c.org/jobs">the jobs page&lt;/a> for our open positio
 &lt;li>&lt;strong>Location&lt;/strong>: anywhere (prefer a time zone between US/Pacific and Central European)&lt;/li>
 &lt;li>&lt;strong>Deadline&lt;/strong>: We will begin reviewing applications around &lt;strong>March 21st&lt;/strong>, and will accept them on a rolling basis until the position is filled.&lt;/li>
 &lt;/ul>
-&lt;p>For more general information about working at 2i2c, benefits, and expectations of team members,
-&lt;a href="https://2i2c.org/jobs">see our Jobs page&lt;/a>
-.
-For a comprehensive guide to 2i2c&amp;rsquo;s team practices and strategy, see
-&lt;a href="https://team-compass.2i2c.org" target="_blank" rel="noopener">our Team Compass&lt;/a>
-.&lt;/p>
+&lt;p>&lt;strong>Major duties&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Guide and learn from our user communities.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Guide our team to build services and infrastructure for these communities&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Lead strategic efforts to grow this work within 2i2c.&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>For more general information about 2i2c, see the links below:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="https://compass.2i2c.org/en/latest/" target="_blank" rel="noopener">Our Team Compass&lt;/a>
+&lt;/li>
+&lt;li>
+&lt;a href="https://compass.2i2c.org/en/latest/code-of-conduct/index.html" target="_blank" rel="noopener">Our Code of Conduct&lt;/a>
+&lt;/li>
+&lt;li>
+&lt;a href="https://compass.2i2c.org/en/latest/organization/mission.html" target="_blank" rel="noopener">Our Mission and Values&lt;/a>
+&lt;/li>
+&lt;li>
+&lt;a href="https://2i2c.org/jobs/#what-its-like-to-work-at-2i2c" target="_blank" rel="noopener">What it&amp;rsquo;s like to work at 2i2c&lt;/a>
+&lt;/li>
+&lt;/ul>
 &lt;ul class="cta-group">
 &lt;li>
 &lt;a href="https://airtable.com/shrbSTcFNAhKqyy6d?prefill_Applying%20for=Product%20and%20Community%20Lead" class="btn btn-primary px-3 py-3">Click here to Apply&lt;/a>
@@ -1358,12 +1402,30 @@ See &lt;a href="https://2i2c.org/jobs">the jobs page&lt;/a> for our open positio
 &lt;li>&lt;strong>Location&lt;/strong>: anywhere (prefer a time zone between US/Pacific and Central European)&lt;/li>
 &lt;li>&lt;strong>Deadline&lt;/strong>:&lt;/li>
 &lt;/ul>
-&lt;p>For more general information about working at 2i2c, benefits, and expectations of team members,
-&lt;a href="https://2i2c.org/jobs">see our Jobs page&lt;/a>
-.
-For a comprehensive guide to 2i2c&amp;rsquo;s team practices and strategy, see
-&lt;a href="https://team-compass.2i2c.org" target="_blank" rel="noopener">our Team Compass&lt;/a>
-.&lt;/p>
+&lt;p>&lt;strong>Major duties&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>Cloud infrastructure management and operations.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Development of open source infrastructure for hosted JupyterHub service&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;p>For more general information about 2i2c, see the links below:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="https://compass.2i2c.org/en/latest/" target="_blank" rel="noopener">Our Team Compass&lt;/a>
+&lt;/li>
+&lt;li>
+&lt;a href="https://compass.2i2c.org/en/latest/code-of-conduct/index.html" target="_blank" rel="noopener">Our Code of Conduct&lt;/a>
+&lt;/li>
+&lt;li>
+&lt;a href="https://compass.2i2c.org/en/latest/organization/mission.html" target="_blank" rel="noopener">Our Mission and Values&lt;/a>
+&lt;/li>
+&lt;li>
+&lt;a href="https://2i2c.org/jobs/#what-its-like-to-work-at-2i2c" target="_blank" rel="noopener">What it&amp;rsquo;s like to work at 2i2c&lt;/a>
+&lt;/li>
+&lt;/ul>
 &lt;ul class="cta-group">
 &lt;li>
 &lt;a href="" class="btn btn-primary px-3 py-3">Click here to Apply&lt;/a>
