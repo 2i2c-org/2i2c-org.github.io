@@ -1,4 +1,110 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>partnerships | 2i2c</title><link>https://2i2c.org/category/partnerships/</link><atom:link href="https://2i2c.org/category/partnerships/index.xml" rel="self" type="application/rss+xml"/><description>partnerships</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 28 Aug 2022 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>partnerships</title><link>https://2i2c.org/category/partnerships/</link></image><item><title>Open grant narrative: A Collaborative Interactive Computing Service Model for Global Communities</title><link>https://2i2c.org/blog/2022/czi-global-communities-proposal/</link><pubDate>Sun, 28 Aug 2022 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2022/czi-global-communities-proposal/</guid><description>&lt;p>We recently submitted a grant to
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>partnerships | 2i2c</title><link>https://2i2c.org/category/partnerships/</link><atom:link href="https://2i2c.org/category/partnerships/index.xml" rel="self" type="application/rss+xml"/><description>partnerships</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Mon, 28 Nov 2022 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>partnerships</title><link>https://2i2c.org/category/partnerships/</link></image><item><title>GESIS - 2i2c collaborate to build a persistent BinderHub experience</title><link>https://2i2c.org/blog/2022/gesis-2i2c-collaboration-update/</link><pubDate>Mon, 28 Nov 2022 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2022/gesis-2i2c-collaboration-update/</guid><description>&lt;h1 id="introduction">Introduction&lt;/h1>
+&lt;p>
+&lt;a href="mybinder.org">Mybinder.org&lt;/a>
+enables researchers across the world to replicate computational environments in the cloud. It allows researchers to turn static code into interactive literate coding environments with a click of a button within seconds. The
+&lt;a href="mybinder.org">mybinder.org&lt;/a>
+service is powered by
+&lt;a href="binderhub.readthedocs.io">BinderHub&lt;/a>
+, an open-source tool developed by
+&lt;a href="jupyter.org">the Jupyter Project&lt;/a>
+that many organizations have deployed for their own communities. It does this by _dynamically building _the software environment needed to reproduce a computation (using a tool called
+&lt;a href="repo2docker.readthedocs.io">repo2docker&lt;/a>
+), and making this environment available to users.&lt;/p>
+&lt;p>BinderHub was developed for use-cases that are &lt;em>temporary&lt;/em> and _fully open _by design. BinderHub sessions are destroyed after a fixed amount of time and there is no persistent storage or authentication. However, many research institutions also need more “standard” service features like authentication and persistent storage.&lt;/p>
+&lt;p>Over the past several years, the
+&lt;a href="http://notebooks.gesis.org" target="_blank" rel="noopener">GESIS Notebooks&lt;/a>
+team made the first steps towards bridging this gap through their
+&lt;a href="https://github.com/gesiscss/persistent_binderhub" target="_blank" rel="noopener">Persistent BinderHub&lt;/a>
+implementation. This was a modified and authenticated BinderHub that &lt;em>included&lt;/em> persistent storage across sessions. The Persistent BinderHub service was very successful at GESIS and with its partner communities, and the team wishes to build this functionality into the JupyterHub community’s core technology so that these features can be enjoyed for more use-cases and by many communities.&lt;/p>
+&lt;p>To enable this vision, we have partnered with GESIS in cooperation with
+&lt;a href="https://www.nfdi4datascience.de/" target="_blank" rel="noopener">NFDI4DS&lt;/a>
+,
+&lt;a href="https://www.cessda.eu/" target="_blank" rel="noopener">CESSDA&lt;/a>
+, and members of the
+&lt;a href="https://jupytearth.org/" target="_blank" rel="noopener">JMTE&lt;/a>
+project. This collaboration has three primary goals:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Generalize the Persistent BinderHub functionality/experience to run on cloud-agnostic infrastructure&lt;/strong>, so that other stakeholders in NFDI, CESSDA, and the broader scientific community may benefit from this functionality and experience.&lt;/li>
+&lt;li>&lt;strong>Upstream this functionality by making contributions into Jupyter community projects&lt;/strong>, so that it will be maintained and improved by a community moving forward, thus improving its reliability and sustainability.&lt;/li>
+&lt;li>&lt;strong>Improve the implementation and user experience around Persistent BinderHub&lt;/strong>, in order to make it more reliable, scalable, productive, and enjoyable to use.&lt;/li>
+&lt;/ul>
+&lt;p>We began this collaboration several months ago, and have focused our efforts on exploring potential implementation pathways for this functionality. We believe that we now have a path forward for this functionality, and this blog post is a brief report of our efforts and future plans as we undertake this effort. See
+&lt;a href="https://github.com/orgs/2i2c-org/projects/33" target="_blank" rel="noopener">this GitHub Projects Board for issues that implement this effort&lt;/a>
+.&lt;/p>
+&lt;h3 id="exploration-1-adding-persistent-storage-directly-into-binderhub">Exploration 1: Adding persistent storage directly into BinderHub&lt;/h3>
+&lt;p>Our initial intention was to incorporate persistent storage and authentication from the GESIS Persistent BinderHub into the
+&lt;a href="http://binderhub.readthedocs.io/" target="_blank" rel="noopener">BinderHub codebase&lt;/a>
+. We began by holding a series of meetings to discuss technical requirements from our experience in the JupyterHub/BinderHub ecosystem, and also conducted an audit of the
+&lt;a href="https://www.google.com/url?q=https://github.com/gesiscss/persistent_binderhub/blob/9936fc2251abafd00921b3b53954fb60c8640347/persistent_binderhub/values.yaml" target="_blank" rel="noopener">Persistent BinderHub codebase&lt;/a>
+. The Persistent BinderHub implementation is a
+&lt;a href="https://github.com/gesiscss/persistent_binderhub/blob/9936fc2251abafd00921b3b53954fb60c8640347/persistent_binderhub/values.yaml" target="_blank" rel="noopener">modified Helm Chart&lt;/a>
+that configures a JupyterHub to expose its authentication and persistent storage functionality, overriding the BinderHub default behavior. We were concerned that building this functionality &lt;em>natively&lt;/em> into BinderHub would be challenging given that the BinderHub codebase was designed for ephemeral user sessions.&lt;/p>
+&lt;p>So, we decided to take another approach:&lt;/p>
+&lt;h3 id="exploration-2-add-dynamic-image-building-to-jupyterhub">Exploration 2: Add dynamic image building to JupyterHub&lt;/h3>
+&lt;p>We realized that there is a way to make this functionality more broadly useful and more maintainable, while still achieving the end-user experience that the GESIS team needed. Instead of modifying BinderHub to incorporate JupyterHub’s storage and authentication features, &lt;strong>we would give JupyterHub the ability do dynamically generate user environments using
+&lt;a href="http://repo2docker.readthedocs.io/" target="_blank" rel="noopener">repo2docker&lt;/a>
+&lt;/strong>.&lt;/p>
+&lt;p>This would give JupyterHub users more flexibility over the environments served by their hub, and expose Binder-style workflows to the “typical” JupyterHub workflow. BinderHub could then be simplified to re-use JupyterHub’s image building functionality as a part of its own service. We also identified a prototype of this functionality in the
+&lt;a href="https://github.com/plasmabio/tljh-repo2docker" target="_blank" rel="noopener">tljh-repo2docker&lt;/a>
+project that
+&lt;a href="https://quantstack.net/" target="_blank" rel="noopener">QuantStack&lt;/a>
+had built for the
+&lt;a href="https://plasmabio.org/" target="_blank" rel="noopener">PlasmaBio project&lt;/a>
+. This implementation was seen as successful, and something others in the community had wanted to generalize for some time.&lt;/p>
+&lt;h1 id="our-implementation-plan">Our implementation plan&lt;/h1>
+&lt;h2 id="two-phases-of-implementation">Two phases of implementation&lt;/h2>
+&lt;p>With this alternative implementation route in place, we identified two major steps to accomplish this project:&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>Build a back-end for dynamic environment building&lt;/strong>. JupyterHub needs to understand how to call repo2docker’s image generation from a Docker-based environment. It needs to expose this ability via APIs that others can build interfaces on top of.&lt;/li>
+&lt;li>**Build a front-end that is user-friendly and accessible. **Once the back-end is functional, we must build a front-end experience that feels familiar to BinderHub users and is easy and intuitive to use.&lt;/li>
+&lt;/ol>
+&lt;p>Here are a few tasks that we’re carrying out next to make progress on the above two items.&lt;/p>
+&lt;ul>
+&lt;li>Build a working prototype for image generation via a &lt;em>JupyterHub Service&lt;/em> (see below for current status)&lt;/li>
+&lt;li>Research the &lt;code>tljh-repo2docker&lt;/code> code base to understand how we could build upon its UX and functionality.&lt;/li>
+&lt;li>Understand the typical process that GESIS and NFDI users follow in their BinderHub workflows, to ensure that it can be replicated via this new implementation.&lt;/li>
+&lt;li>Perform UI/UX research validation to inform the implementation from a user’s perspective.&lt;/li>
+&lt;/ul>
+&lt;p>As a follow-up, we’ll likely re-work the BinderHub codebase to utilize JupyterHub’s new repo2docker service, rather than defining its own custom repo2docker functionality.&lt;/p>
+&lt;h2 id="back-end-implementation-as-a-jupyterhub-service">Back-end implementation as a JupyterHub Service&lt;/h2>
+&lt;p>We’re planning to use
+&lt;a href="https://jupyterhub.readthedocs.io/en/stable/reference/services.html" target="_blank" rel="noopener">JupyterHub Services&lt;/a>
+to add the back-end functionality for dynamic image building to a JupyterHub. Services are a way to expose functionality via a JupyterHub REST API, and would allow us to expose basic image generation on-the-fly with
+&lt;a href="https://repo2docker.readthedocs.io/" target="_blank" rel="noopener">repo2docker&lt;/a>
+. We aim for basic functionality to be as close as possible to repo2docker’s default behavior, but to make this functionality _composable and customizable _if a JupyterHub administrator wants to provide different out-of-the-box functionality.&lt;/p>
+&lt;p>While details may still change, we believe that the major architectural plan has now been settled. We have
+&lt;a href="https://github.com/consideratio/repo2docker-service" target="_blank" rel="noopener">an experimental codebase&lt;/a>
+with a basic implementation of the repo2docker service described above. As part of this effort, this team has also made a number of improvements to repo2docker’s codebase and project infrastructure. We hope that this effort will continue to push resources and attention to repo2docker by growing the number of users and stakeholders that rely on the project for their success.&lt;/p>
+&lt;h2 id="front-end-implementation-that-uses-this-service">Front-end implementation that uses this service&lt;/h2>
+&lt;p>Once the back-end setup exists, we can use it to begin prototyping user interactions that can trigger and use repo2docker’s image generation. Bringing dynamic environment image building into JupyterHub is a significant improvement in its functionality, and may introduce new kinds of workflows that we hadn’t initially imagined. Understanding, interpreting, and extending the original “Persistent BinderHub” workflow will require a more thorough understanding of user stories and needs in order to identify new workflows that feel natural not only in a JupyterHub scenario but also in a Binder-like scenario.&lt;/p>
+&lt;p>For example, here are a few major UI/UX questions we must answer:&lt;/p>
+&lt;ul>
+&lt;li>When a user builds an image, should it also become available to &lt;em>other users&lt;/em> as well?&lt;/li>
+&lt;li>How can a user store, find, and delete old images that they’ve built?&lt;/li>
+&lt;li>What about new versions of the same image?&lt;/li>
+&lt;li>Should we simply mimic the mybinder.org UX, or should this be improved as well?&lt;/li>
+&lt;/ul>
+&lt;p>We must answer these and several other questions next. With that vision in place, we’d like to &lt;strong>expand our efforts in UI/UX and user research&lt;/strong>. This will help inform the technical implementation of this work as we expand on our prototype, and help us choose the right way to expose this functionality to users. We welcome collaboration around this work - if you know of an organization that is interested in collaboration, please reach out.&lt;/p>
+&lt;h1 id="collaborate-and-follow-along">Collaborate and follow along&lt;/h1>
+&lt;p>Below you’ll find a rough project plan to give an idea for the major actions needed and a timeline for when we hope they’ll be completed. We’ll track further updates and progress on this project in this
+&lt;a href="https://github.com/2i2c-org/infrastructure/issues/1382" target="_blank" rel="noopener">dedicated GitHub issue&lt;/a>
+and this
+&lt;a href="https://github.com/orgs/2i2c-org/projects/33/views/1" target="_blank" rel="noopener">dedicated GitHub project board&lt;/a>
+.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Timeline" srcset="
+/blog/2022/gesis-2i2c-collaboration-update/timeline_hu89a4b788ac4c9f06d50fcec03a7f33ab_122159_9c433c6f9ccb74c57bf3f6576bbb8b5e.webp 400w,
+/blog/2022/gesis-2i2c-collaboration-update/timeline_hu89a4b788ac4c9f06d50fcec03a7f33ab_122159_b4a2fab0390cb72940d9bdd1580115cf.webp 760w,
+/blog/2022/gesis-2i2c-collaboration-update/timeline_hu89a4b788ac4c9f06d50fcec03a7f33ab_122159_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2022/gesis-2i2c-collaboration-update/timeline_hu89a4b788ac4c9f06d50fcec03a7f33ab_122159_9c433c6f9ccb74c57bf3f6576bbb8b5e.webp"
+width="760"
+height="555"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>After a few months working on this project, we are even more excited about the potential for dynamically building environments in a JupyterHub. We believe that it adds a new class of workflows to JupyterHubs that were not possible before, and will be immediately useful to the hundreds of communities that deploy JupyterHub for their communities.&lt;/p></description></item><item><title>Open grant narrative: A Collaborative Interactive Computing Service Model for Global Communities</title><link>https://2i2c.org/blog/2022/czi-global-communities-proposal/</link><pubDate>Sun, 28 Aug 2022 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2022/czi-global-communities-proposal/</guid><description>&lt;p>We recently submitted a grant to
 &lt;a href="https://chanzuckerberg.com/" target="_blank" rel="noopener">Chan Zuckerberg Initiative&lt;/a>
 and wish to share some details about it as well as the grant narrative for others to read and re-use.&lt;/p>
 &lt;ul class="cta-group">
