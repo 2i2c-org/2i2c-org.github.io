@@ -1,0 +1,38 @@
+name: Check for broken links
+
+on:
+  repository_dispatch:
+  workflow_dispatch:
+  schedule:
+    # https://crontab.guru/#00_18_*_*_1
+    - cron: "00 18 * * 1"
+
+jobs:
+  linkChecker:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          # This should be the same version that we use in .netlify.toml
+          hugo-version: '0.95.0'
+          extended: true
+
+      - name: Build
+        run: hugo --minify
+
+      - name: Link Checker
+        uses: lycheeverse/lychee-action@v1.5.4
+        with:
+          args: --exclude https://fonts.gstatic.com --exclude twitter.com --verbose --no-progress public/**/*.html  # fonts.gstatic.com is an expected fail and twitter returns "too many requests" errors
+        env:
+          GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
+
+      - name: Create Issue From File
+        if: env.lychee_exit_code != 0
+        uses: peter-evans/create-issue-from-file@v4
+        with:
+          title: Link Checker Report
+          content-filepath: ./lychee/out.md
+          labels: report, automated issue
