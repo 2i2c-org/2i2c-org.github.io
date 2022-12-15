@@ -5,5 +5,10 @@ weight = 10
   columns = "2"
 +++
 
-The 2i2c Managed JupyterHubs service provides communities of practice in research and education with a JupyterHub running on cloud infrastructure. 2i2c manages the infrastructure behind the hub, and provides support for hub operations and debugging problems. Your JupyterHub is designed to be customizable for your use-case, and runs entirely on open source infrastructure.
+Our Managed JupyterHub service is a collaborative cloud service for communities in research and education.
+2i2c manages the infrastructure behind the hub, and provides support for hub operations and debugging problems.
 
+Your JupyterHub is designed to be customizable for your use-case, and runs entirely on open source infrastructure.
+This helps [give communities the Right to Replicate their infrastructure](/right-to-replicate), and makes it easier for others to collaborate with and learn from us.
+
+{{% about-hubs %}}
