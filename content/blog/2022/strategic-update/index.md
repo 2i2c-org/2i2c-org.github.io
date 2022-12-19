@@ -10,7 +10,7 @@ featured: false
 draft: false
 ---
 
-_This post is an exploration of 2i2c's current strategy and direction after a year of major operations. It is a brainstorm from the Executive Director, shared as a blog post to invite feedback and provide transparency into our current thinking. Its goal is to explore the context of 2i2c's stakeholders and their needs, and identify an opportunity and plan for having a positive impact with these communities. It is not a concrete proposal but a snapshot of thinking in time meant to trigger reflection. Over time we will incorporate some of these ideas [into our Team Compass](https://team-compass.2i2c.org/)._
+_This post is an exploration of 2i2c's current strategy and direction after a year of major operations. It is a brainstorm from the Executive Director, shared as a blog post to invite feedback and provide transparency into our current thinking. Its goal is to explore the context of 2i2c's stakeholders and their needs, and identify an opportunity and plan for having a positive impact with these communities. It is not a concrete proposal but a snapshot of thinking in time meant to trigger reflection. Over time we will incorporate some of these ideas [into our Team Compass](https://compass.2i2c.org/)._
 
 When we founded 2i2c, we largely did so from the "bottom up" - we identified several patterns around hosted infrastructure that were useful at [UC Berkeley](https://datahub.berkeley.edu), [Pangeo](https://pangeo.io), and similar communities, and we wished to make them more generalized, accessible, and scalable.
 

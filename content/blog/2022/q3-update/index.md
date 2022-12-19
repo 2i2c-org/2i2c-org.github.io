@@ -81,7 +81,7 @@ Here's a brief breakdown:
 
 **We expanded our shared clusters to new cloud providers and regions**. We now have shared clusters already deployed on Google Cloud Platform on `us-central1-b` and `europe-west2`.
 
-**We defined an incident commander process**. This will allow us to coordinate and respond to major outages in our cloud infrastructure more efficiently. See [our incident response documentation](https://team-compass.2i2c.org/en/latest/projects/managed-hubs/incidents.html) for more information.
+**We defined an incident commander process**. This will allow us to coordinate and respond to major outages in our cloud infrastructure more efficiently. See [our incident response documentation](https://compass.2i2c.org/en/latest/projects/managed-hubs/incidents.html) for more information.
 
 **We improved our cloud usage monitoring infrastructure**. We've deployed [a centralized Grafana Dashboard](https://github.com/2i2c-org/infrastructure/issues/328) that aggregates cloud usage across all of our partner communities, and allows us to keep track of any unexpected behavior or outages across them all.
 
