@@ -10,8 +10,8 @@ title = "Fiscal Sponsorship"
 
 Fiscal sponsorship for 2i2c is provided by [Code for Science and Society](https://codeforsociety.org), which provides strategic and administrative support for 2i2c.
 
-<center>
+<div style="max-width: 400px; margin-left: auto; margin-right: auto">
 
-[![](https://codeforscience.org/img/Blue-logo-black-text-stacked.png)](https://codeforsociety.org)
+[![](https://www.codeforsociety.org/assets/images/css.jpg)](https://codeforsociety.org)
 
-</center>
+</div>

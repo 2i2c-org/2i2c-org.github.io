@@ -34,6 +34,13 @@ This version recommends [**Hugo v0.95.0**](https://github.com/gohugoio/hugo/rele
   ```
 * Push your changes to the repository and Netlify will automatically update the website.
 
+## Check for broken links
+
+We have [a GitHub workflow to check for broken links](.github/workflows/linkcheck.yml).
+This runs each week and will open an issue if it finds any broken links.
+
+To manually run it, [trigger a `workflow dispatch` here](https://github.com/2i2c-org/2i2c-org.github.io/actions/workflows/linkcheck.yml).
+
 ## Check the spelling of any pages
 
 This repository is configured with [the pyspelling package](https://facelessuser.github.io/pyspelling/). It will analyze all of the markdown files in `content/` and tell you if there are any un-recognized words.

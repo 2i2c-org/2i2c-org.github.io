@@ -43,7 +43,7 @@ social:
   link: https://github.com/choldgraf
 - icon: globe
   icon_pack: fas
-  link: https://predictablynoisy.com/
+  link: https://chrisholdgraf.com/
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: "choldgraf@berkeley.edu"

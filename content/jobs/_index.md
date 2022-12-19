@@ -46,7 +46,7 @@ Team members have a great degree of autonomy and flexibility in where, when, and
 However, it can also be challenging to work in a fully distributed fashion!
 We are constantly improving our team practices, but you should decide for yourself whether distributed work matches your preferences and working style.
 
-See [our Team Practices section in the Team Compass](https://team-compass.2i2c.org/en/latest/practices/index.html) for more information about how we coordinate.
+See [our Team Operations section in the Team Compass](https://compass.2i2c.org/en/latest/operations/index.html) for more information about how we coordinate and how we're structured.
 
 ### Common team time zones
 
@@ -88,7 +88,7 @@ All of the technical development that we do is open source, usually in partnersh
 ## Our compensation philosophy
 
 Here are a few highlights about our compensation philosophy.
-See [the human resources section of our team compass](https://team-compass.2i2c.org/en/latest/hr/index.html) for more information.
+See [the human resources section of our team compass](https://compass.2i2c.org/en/latest/people/compensation.html) for more information.
 
 ### Salaries
 
