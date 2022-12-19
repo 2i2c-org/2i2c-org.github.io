@@ -109,7 +109,7 @@ TODO: Only post this if we get our engineering salary bands questions resolved b
 Here&amp;rsquo;s a brief breakdown:&lt;/p>
 &lt;p>&lt;strong>We expanded our shared clusters to new cloud providers and regions&lt;/strong>. We now have shared clusters already deployed on Google Cloud Platform on &lt;code>us-central1-b&lt;/code> and &lt;code>europe-west2&lt;/code>.&lt;/p>
 &lt;p>&lt;strong>We defined an incident commander process&lt;/strong>. This will allow us to coordinate and respond to major outages in our cloud infrastructure more efficiently. See
-&lt;a href="https://team-compass.2i2c.org/en/latest/projects/managed-hubs/incidents.html" target="_blank" rel="noopener">our incident response documentation&lt;/a>
+&lt;a href="https://compass.2i2c.org/en/latest/projects/managed-hubs/incidents.html" target="_blank" rel="noopener">our incident response documentation&lt;/a>
 for more information.&lt;/p>
 &lt;p>&lt;strong>We improved our cloud usage monitoring infrastructure&lt;/strong>. We&amp;rsquo;ve deployed
 &lt;a href="https://github.com/2i2c-org/infrastructure/issues/328" target="_blank" rel="noopener">a centralized Grafana Dashboard&lt;/a>
@@ -163,7 +163,7 @@ is a non-profit organization that provides &amp;ldquo;single-sign on&amp;rdquo; 
 &lt;/ul>
 &lt;h2 id="communities-weve-served-and-lessons-learned">Communities we&amp;rsquo;ve served and lessons learned&lt;/h2>
 &lt;p>As described in
-&lt;a href="https://docs.2i2c.org/en/latest/about/strategy.html" target="_blank" rel="noopener">our Managed Hub Services strategy&lt;/a>
+&lt;a href="https://compass.2i2c.org/en/latest/organization/strategy.html" target="_blank" rel="noopener">our Managed Hub Services strategy&lt;/a>
 , our goals for this phase of our organization are to balance &lt;em>serving communities of practice&lt;/em> and &lt;em>learning where we can improve our infrastructure and practices&lt;/em>.
 With that in mind, here are a few highlights of communities we&amp;rsquo;ve served, and what we&amp;rsquo;ve learned from it:&lt;/p>
 &lt;ul>
@@ -212,7 +212,7 @@ in order to make this practice more reliable and efficient, along with our fisca
 in order to identify when something abnormal is happening and get ahead of any potential problems (e.g., to avoid unintentionally large cloud bills). We&amp;rsquo;d also like to improve our usage reporting to more create more accurate cloud bills for hubs running on multi-tenant clusters.&lt;/li>
 &lt;/ul>
 &lt;p>There is a lot more planned for 2i2c, and if you&amp;rsquo;re curious to see what we&amp;rsquo;re up to, we invite you to
-&lt;a href="https://team-compass.2i2c.org" target="_blank" rel="noopener">check out our team compass&lt;/a>
+&lt;a href="https://compass.2i2c.org" target="_blank" rel="noopener">check out our team compass&lt;/a>
 to learn about our practices, and
 &lt;a href="https://github.com/2i2c-org/" target="_blank" rel="noopener">watch our activity on GitHub&lt;/a>
 to see our work.&lt;/p>
@@ -327,7 +327,7 @@ from our previous host,
 &lt;a href="https://www.icsi.berkeley.edu" target="_blank" rel="noopener">ICSI&lt;/a>
 . We are excited to work with CS&amp;amp;S to create the business infrastructure that will power our managed JupyterHubs service.&lt;/p>
 &lt;p>The 2i2c team has also been &lt;strong>improving our team planning and coordination processes&lt;/strong>, so that we can more effectively execute on our mission. As a distributed team, we have the challenge of building processes for team communication, coordination, and planning that are distributed and asynchronous. If you&amp;rsquo;re curious, you can learn more about our coordination processes in
-&lt;a href="https://team-compass.2i2c.org/en/latest/practices/development.html" target="_blank" rel="noopener">our Team Compass&lt;/a>
+&lt;a href="https://compass.2i2c.org/en/latest/practices/development.html" target="_blank" rel="noopener">our Team Compass&lt;/a>
 .&lt;/p>
 &lt;p>We have &lt;strong>improved our organization-wide documentation&lt;/strong> in order to make it easier to navigate between 2i2c&amp;rsquo;s various sources of information. We hope that this provides more transparency into what 2i2c is up to and how it is structured, and that it allows us to build more connections between our projects and the broader community. Check out the new documentation landing site at
 &lt;a href="https://docs.2i2c.org" target="_blank" rel="noopener">docs.2i2c.org&lt;/a>
@@ -342,7 +342,7 @@ from our previous host,
 &lt;p>Finally, we want to recognize that there are plenty of challenges along with successes when it comes to having impact! Here are a few of the unexpected challenges that we&amp;rsquo;ve faced along the way.&lt;/p>
 &lt;p>&lt;strong>Developing and operating multi-cloud infrastructure is a complex process&lt;/strong>. Automating the creation and operation of Kubernetes clusters across each of the major cloud providers has proven to be a lot of work! While it has been necessary to use our pre-existing hubs to provide the opportunity to build this infrastructure, it is a challenge to both &lt;em>build&lt;/em> and &lt;em>operate&lt;/em> infrastructure at the same time. This has lengthened our timelines for when we expect the alpha version of the service to be ready.&lt;/p>
 &lt;p>&lt;strong>Coordinating among a distributed team takes time&lt;/strong>. Each of our team members has been used to working asynchronously with open source communities for many years, and we under-estimated how complex it would be to port this workflow to a distributed team that must coordinate with each other much more closely on a daily basis. Deciding what to work on, how to work on it, and how to help one another take a lot of work when you only share a few hours awake at the same time. For this reason, we have spent a lot of extra energy in our first months as a team to work out
-&lt;a href="https://team-compass.2i2c.org/en/latest/practices/development.html" target="_blank" rel="noopener">team processes for coordination and collaboration&lt;/a>
+&lt;a href="https://compass.2i2c.org/en/latest/practices/development.html" target="_blank" rel="noopener">team processes for coordination and collaboration&lt;/a>
 .&lt;/p>
 &lt;p>&lt;strong>How to design cloud services as a non-profit?&lt;/strong> Finally, we&amp;rsquo;ve learned that there is no clear roadmap for how to build a sustainable cloud service like the one we describe here. 2i2c is somewhere in-between a traditional SaaS company (which tends to provide access to proprietary technology) and a bespoke consultancy (which is more hands-on and custom than we are). Our best explanation for what 2i2c wishes to do is &amp;ldquo;Open source operations/dev-ops as a service&amp;rdquo;, which doesn&amp;rsquo;t quite fit into either category. This means that we have more &amp;ldquo;unknown unknowns&amp;rdquo; about what kind of service and pricing model we should develop. We hope to begin answering some of these questions in our alpha-level service launch. Stay tuned for more to come!&lt;/p>
 &lt;h2 id="get-involved">Get involved&lt;/h2>
