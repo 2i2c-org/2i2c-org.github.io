@@ -1819,6 +1819,20 @@ for more information.&lt;/td>
 &lt;p>2i2c has expertise in cloud infrastructure and managed services for interactive computing in research and education workflows.
 We focus on the Jupyter ecosystem and adjacent open source communities (e.g., the PyData ecosystem), with a particular emphasis on JupyterHub.
 We are also a collaborative team that works across many communities and organizations.&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="https://docs.2i2c.org/en/latest/about/service/index.html" target="_blank" rel="noopener">Our Shared Responsibility Model&lt;/a>
+describes how we collaborate with communities in this hub service.&lt;/li>
+&lt;li>
+&lt;a href="https://docs.2i2c.org/en/latest/about/service/service-objectives.html" target="_blank" rel="noopener">Our Service Level Objectives&lt;/a>
+describes our day-to-day goals running the service.&lt;/li>
+&lt;li>
+&lt;a href="https://infrastructure.2i2c.org/" target="_blank" rel="noopener">Our Infrastructure Guide&lt;/a>
+describes all of our cloud infrastructure and engineering practices, with links to our codebase.&lt;/li>
+&lt;li>
+&lt;a href="https://compass.2i2c.org/en/latest/organization/strategy.html" target="_blank" rel="noopener">Our Organizational Strategy&lt;/a>
+describes our overall vision and plan as an organization.&lt;/li>
+&lt;/ul>
 &lt;p>Here are a few ways that you can connect with and collaborate with 2i2c.&lt;/p>
 &lt;h2 id="use-and-support-our-managed-jupyterhub-services">Use and support our managed JupyterHub services&lt;/h2>
 &lt;p>2i2c aims to provide Managed JupyterHubs in the cloud that are customized for communities in research and education.
