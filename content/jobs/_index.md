@@ -25,7 +25,7 @@ We are a distributed organization that is strongly defined by its mission and va
 * **Be an excellent written communicator**. 2i2c is a distributed team and organization. We must coordinate across many different time-zones, and conduct most of our conversations asynchronously. You should be comfortable collaborating and communicating via text, and in an asynchronous fashion.
 * **Be collaborative and team-focused.** 2i2c believes in working as a team to solve problems, and we leverage one another for guidance, support, and decisions. While we value and respect an individual’s time to dive into topics on their own, it is crucial that you enjoy working in a highly collaborative and positive team environment.
 * **Be self-driven and creative.** As a distributed organization, it is crucial that our team members are comfortable working without a lot of supervision. While we highly value teamwork and collaboration, we also give team members a great deal of autonomy and expect them to be self-driven.
-* **Commit to follow [our Code of Conduct](https://team-compass.2i2c.org/en/latest/code-of-conduct/index.html) and embody [our organizational values](https://2i2c.org/about/#values).** 2i2c values its open, collaborative, and inclusive culture, and we want a team that is excited to embody and grow this culture within 2i2c and in the outside world.
+* **Commit to follow [our Code of Conduct](https://compass.2i2c.org/en/latest/code-of-conduct/index.html) and embody [our organizational values](https://2i2c.org/about/#values).** 2i2c values its open, collaborative, and inclusive culture, and we want a team that is excited to embody and grow this culture within 2i2c and in the outside world.
 
 ## What it's like to work at 2i2c
 
@@ -33,7 +33,7 @@ Here are some important aspects of working at 2i2c to help you understand how yo
 
 ### Our team compass
 
-The "source of truth" for all of 2i2c's practices and policies can be found [in our Team Compass](https://team-compass.2i2c.org/en/latest/).
+The "source of truth" for all of 2i2c's practices and policies can be found [in our Team Compass](https://compass.2i2c.org/en/latest/).
 This is a living document that helps us coordinate our expectations and plans.
 
 ### A distributed team

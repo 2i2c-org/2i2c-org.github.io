@@ -30,7 +30,7 @@ Here are a few highlights:
 
 ## Communities we've served and lessons learned
 
-As described in [our Managed Hub Services strategy](https://docs.2i2c.org/en/latest/about/strategy.html), our goals for this phase of our organization are to balance _serving communities of practice_ and _learning where we can improve our infrastructure and practices_.
+As described in [our Managed Hub Services strategy](https://compass.2i2c.org/en/latest/organization/strategy.html), our goals for this phase of our organization are to balance _serving communities of practice_ and _learning where we can improve our infrastructure and practices_.
 With that in mind, here are a few highlights of communities we've served, and what we've learned from it:
 
 - **We grew a hub for [the University of Toronto](https://jupyter.utoronto.ca/) to around 4000 monthly users**. This has taught us a lot about where our support and operations can and cannot scale, and where we have gaps in our sustainability / pricing model.
@@ -55,6 +55,6 @@ Here are a few major examples:
 - **Improve our invoicing and contracting process**. We are [discussing how to reduce toil associated with invoicing](https://github.com/2i2c-org/team-compass/issues/355) in order to make this practice more reliable and efficient, along with our fiscal sponsor [Code for Science and Society](https://codeforscience.org).
 - **Improving our reporting and monitoring infrastructure**. We'd like to boost our ability to [monitor activity on each of our hubs](https://github.com/2i2c-org/infrastructure/issues/328) in order to identify when something abnormal is happening and get ahead of any potential problems (e.g., to avoid unintentionally large cloud bills). We'd also like to improve our usage reporting to more create more accurate cloud bills for hubs running on multi-tenant clusters.
 
-There is a lot more planned for 2i2c, and if you're curious to see what we're up to, we invite you to [check out our team compass](https://team-compass.2i2c.org) to learn about our practices, and [watch our activity on GitHub](https://github.com/2i2c-org/) to see our work.
+There is a lot more planned for 2i2c, and if you're curious to see what we're up to, we invite you to [check out our team compass](https://compass.2i2c.org) to learn about our practices, and [watch our activity on GitHub](https://github.com/2i2c-org/) to see our work.
 
 Many thanks to the amazing 2i2c team, and the multiple open source and scholarly communities that we collaborate with to make all of this possible. In addition, we are grateful to [our funders](/about/funding.md) for making this possible. We are looking forward to Q2! 🎉

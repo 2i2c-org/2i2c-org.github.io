@@ -43,7 +43,7 @@ With that in mind, here are a few ideas we have in mind for goals that will driv
 
 ## How does 2i2c provide mentorship/onboarding?
 
-You can find [our onboarding process in our Team Compass](https://team-compass.2i2c.org/en/latest/get-started.html).
+You can find [our onboarding process in our Team Compass](https://compass.2i2c.org/en/latest/get-started.html).
 This roughly comes down to choosing an "Onboarding Champion" for the new team member, to help walk them through our team processes and get them access to the right information and accounts.
 However, 2i2c is quite young, so has only had a few iterations in onboarding new team members.
 We look forward to improving this process further via this new hire.
@@ -86,7 +86,7 @@ In this meeting, we discussed two major challenges we continue to iterate on:
 2. **Building a distributed organization from scratch**. The other major challenge we've faced is simply the act of creating an organization from the ground up.
    We have worked together for many years in open source communities, but there's a new degree of complexity when you're all working on the _same_ service and development efforts.
    Throw in a largely asynchronous team split across many time zones, and there are a lot of coordination and planning challenges to overcome.
-   We have tried many things over the past year (see [our latest team practices in the team compass](https://team-compass.2i2c.org/en/latest/practices/index.html), but there is still a lot of improvement to make.
+   We have tried many things over the past year (see [our latest team practices in the team compass](https://compass.2i2c.org/en/latest/practices/index.html), but there is still a lot of improvement to make.
 
 ## How crucial is a deep-seated knowledge of Jupyter for this role?
 

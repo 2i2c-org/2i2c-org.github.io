@@ -68,10 +68,10 @@ Here's a bit about each new team member.
 ## Governance and a code of conduct
 
 Finally, while it's easy to get lost in technology and collaborations, 2i2c has also made important steps towards defining a stable and transparent organizational model moving forward.
-2i2c now [has a Steering Council](https://team-compass.2i2c.org/en/latest/about/structure.html#steering-council) and an [early organizational structure](https://team-compass.2i2c.org/en/latest/about/structure.html).
-In addition, [we've defined a one-year bootstrap strategy](https://team-compass.2i2c.org/en/latest/about/strategy.html) that we'll use to guide our path in the first year of 2i2c's existence.
+2i2c now [has a Steering Council](https://compass.2i2c.org/en/latest/about/structure.html#steering-council) and an [early organizational structure](https://compass.2i2c.org/en/latest/about/structure.html).
+In addition, [we've defined a one-year bootstrap strategy](https://compass.2i2c.org/en/latest/organization/strategy.html) that we'll use to guide our path in the first year of 2i2c's existence.
 
-Finally, one of the first acts of the Steering Council has been to [adopt a Code of Conduct](https://team-compass.2i2c.org/en/latest/code-of-conduct/index.html).
+Finally, one of the first acts of the Steering Council has been to [adopt a Code of Conduct](https://compass.2i2c.org/en/latest/code-of-conduct/index.html).
 This is a set of guidelines, and a process for resolving incidents, that makes our community more inclusive, equitable, and enjoyable for all.
 Creating a Code of Conduct is a crucial part of defining our organizational and community culture, and we're excited to have some explicit guidelines to support our interactions in the future!
 
