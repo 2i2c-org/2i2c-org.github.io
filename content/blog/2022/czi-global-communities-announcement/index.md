@@ -5,9 +5,9 @@ summary: ""
 authors: ["Chris Holdgraf"]
 tags: []
 categories: [partnerships]
-date: "2023-12-20"
+date: "2022-12-20"
 featured: false
-draft: true
+draft: false
 ---
 
 
