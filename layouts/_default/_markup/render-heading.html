@@ -1,0 +1,5 @@
+{{/* This adds an anchor after each of our headers. */}}
+<h{{ .Level }} id="{{ .Anchor | safeURL }}">
+  {{ .Text | safeHTML }} 
+  <a class="header-anchor" href="#{{ .Anchor | safeURL }}">#</a>
+</h{{ .Level }}>
