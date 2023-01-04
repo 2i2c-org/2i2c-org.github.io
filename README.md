@@ -72,6 +72,10 @@ For more information, see [the `pyspelling` documentation](https://facelessuser.
 
 ## Social media preview images
 
+For text-based pages, we generate social media previews by automatically adding page title text to an image template.
+The template is defined [in this Figma board](https://www.figma.com/file/EYFRCag2gfYGdEZGFrXgzv/2i2c-Logos?node-id=1101%3A2&t=KjO3JB6Jx4dRnGfa-0) and we use Hugo image filters to add text to it.
+See [the hugo partial template we use](layouts/partials/ogimage.html) for details and links.
+
 The Featured Image will also be used to generate previews in social media.
 You can generate an image designed specifically for social media (similar to GitHub social media link previes).
 To do so, follow these steps:
