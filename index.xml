@@ -137,10 +137,10 @@ and this
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Timeline" srcset="
-/blog/2022/gesis-2i2c-collaboration-update/timeline_hu89a4b788ac4c9f06d50fcec03a7f33ab_122159_9c433c6f9ccb74c57bf3f6576bbb8b5e.webp 400w,
-/blog/2022/gesis-2i2c-collaboration-update/timeline_hu89a4b788ac4c9f06d50fcec03a7f33ab_122159_b4a2fab0390cb72940d9bdd1580115cf.webp 760w,
-/blog/2022/gesis-2i2c-collaboration-update/timeline_hu89a4b788ac4c9f06d50fcec03a7f33ab_122159_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2022/gesis-2i2c-collaboration-update/timeline_hu89a4b788ac4c9f06d50fcec03a7f33ab_122159_9c433c6f9ccb74c57bf3f6576bbb8b5e.webp"
+/blog/2022/gesis-2i2c-collaboration-update/timeline_huf349230eacdca331b5924cfc1e190900_44466_4a589a8f6a8820fe798f80e3344efa26.webp 400w,
+/blog/2022/gesis-2i2c-collaboration-update/timeline_huf349230eacdca331b5924cfc1e190900_44466_01ee42ea3d744254e0efb955fb71e51e.webp 760w,
+/blog/2022/gesis-2i2c-collaboration-update/timeline_huf349230eacdca331b5924cfc1e190900_44466_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2022/gesis-2i2c-collaboration-update/timeline_huf349230eacdca331b5924cfc1e190900_44466_4a589a8f6a8820fe798f80e3344efa26.webp"
 width="760"
 height="555"
 loading="lazy" data-zoomable />&lt;/div>
@@ -774,10 +774,10 @@ Here are the major jobs in this workflow, and what each does:&lt;/p>
 &lt;figure id="figure-our-staging-and-support-hub-job-matrix-tells-github-actions-to-deploy-staging-and-support-upgrades-that-act-as-canaries-and-stop-production-deploys-if-they-fail">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Our staging and support hub job matrix tells GitHub Actions to deploy staging and support upgrades that act as canaries and stop production deploys if they fail." srcset="
-/blog/2022/ci-cd-improvements/images/staging-hub-matrix_hu4dc31894a518c4ea2dae50ecb1e07af1_324961_89a60b28ea5d340ace50284f5dafd4e7.webp 400w,
-/blog/2022/ci-cd-improvements/images/staging-hub-matrix_hu4dc31894a518c4ea2dae50ecb1e07af1_324961_4ce081208c29fc5bbeb51ae7adb06942.webp 760w,
-/blog/2022/ci-cd-improvements/images/staging-hub-matrix_hu4dc31894a518c4ea2dae50ecb1e07af1_324961_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2022/ci-cd-improvements/images/staging-hub-matrix_hu4dc31894a518c4ea2dae50ecb1e07af1_324961_89a60b28ea5d340ace50284f5dafd4e7.webp"
+/blog/2022/ci-cd-improvements/images/staging-hub-matrix_hud4cf8f8cf4a6c8d8d79a9996348202b9_131909_d9a4e6bc16b2e2b445261d73e9c301b7.webp 400w,
+/blog/2022/ci-cd-improvements/images/staging-hub-matrix_hud4cf8f8cf4a6c8d8d79a9996348202b9_131909_0df0ec91484c3abf7475d91ac41c3f2b.webp 760w,
+/blog/2022/ci-cd-improvements/images/staging-hub-matrix_hud4cf8f8cf4a6c8d8d79a9996348202b9_131909_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2022/ci-cd-improvements/images/staging-hub-matrix_hud4cf8f8cf4a6c8d8d79a9996348202b9_131909_d9a4e6bc16b2e2b445261d73e9c301b7.webp"
 width="760"
 height="529"
 loading="lazy" data-zoomable />&lt;/div>
@@ -803,10 +803,10 @@ Our staging and support hub job matrix tells GitHub Actions to deploy staging an
 &lt;figure id="figure-our-production-hub-job-matrix-tells-github-actions-which-hubs-to-update-with-new-changes-these-are-triggered-if-a-clusters-stagingsupport-job-does-not-fail">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Our production hub job matrix tells GitHub Actions which hubs to update with new changes. These are triggered if a cluster&amp;#39;s staging/support job does not fail." srcset="
-/blog/2022/ci-cd-improvements/images/prod-hub-matrix_huc0588a8559e954f04dc74eb98419e619_250512_ffea44807e76572dfda0eae326b06d90.webp 400w,
-/blog/2022/ci-cd-improvements/images/prod-hub-matrix_huc0588a8559e954f04dc74eb98419e619_250512_6b179a8ac184f3c929d01d08a8eb56af.webp 760w,
-/blog/2022/ci-cd-improvements/images/prod-hub-matrix_huc0588a8559e954f04dc74eb98419e619_250512_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2022/ci-cd-improvements/images/prod-hub-matrix_huc0588a8559e954f04dc74eb98419e619_250512_ffea44807e76572dfda0eae326b06d90.webp"
+/blog/2022/ci-cd-improvements/images/prod-hub-matrix_huaad8abc632f1aab6f15ac18c742ef022_37705_06aae9508934f7b72fad6d052d255cd1.webp 400w,
+/blog/2022/ci-cd-improvements/images/prod-hub-matrix_huaad8abc632f1aab6f15ac18c742ef022_37705_2a7d08ae1d0384ffdb745227486bb327.webp 760w,
+/blog/2022/ci-cd-improvements/images/prod-hub-matrix_huaad8abc632f1aab6f15ac18c742ef022_37705_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2022/ci-cd-improvements/images/prod-hub-matrix_huaad8abc632f1aab6f15ac18c742ef022_37705_06aae9508934f7b72fad6d052d255cd1.webp"
 width="760"
 height="515"
 loading="lazy" data-zoomable />&lt;/div>
