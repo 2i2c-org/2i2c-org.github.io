@@ -161,3 +161,4 @@ It is written in Rust, so you'll need to install `cargo`, install `oxipng`, and 
    oxipng -o 4 -i 1 --strip safe --recursive content *.png
    ```
 
+Once the images are optimized, re-commit them to the repository and push the changes.
