@@ -19,15 +19,17 @@ div.article-container {
   h1, h2, h3, h4, h5, h6 {
     // Make anchors show on hover
     a.header-anchor {
-      opacity: .25;
+      opacity: 0;
+      transition: all .2s ease-out;
       text-decoration: none;
       font-weight: 500;
     }
     
     &:hover a.header-anchor {
-      opacity: 1;
+      opacity: .5;
 
       &:hover {
+        opacity: 1;
         text-decoration: underline;
       }
     }
