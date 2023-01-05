@@ -11,17 +11,17 @@ draft: false
 ---
 
 2022 was a busy year for 2i2c - we not only grew our operations as well as our organization, but also grew our understanding of our mission and where we can have impact.
-This is a brief reflection on this experience, and where are our opportunities for impact and growth in 2023.
+This is a brief reflection on this experience, and an attempt to identify our opportunities for impact and growth in 2023.
 
 ## Our major goals in 2022
 
 We wrapped up 2021 with two major new changes.
-We had just finished [moving fiscal sponsors](https://2i2c.org/blog/2021/q3-update/) and had just finished a prototype of [alpha service offerings](https://docs.2i2c.org/en/latest/).
+We had just finished [moving fiscal sponsors](https://2i2c.org/blog/2021/q3-update/) and had just finished a prototype of our [alpha service offerings](https://docs.2i2c.org/en/latest/).
 
 {{< figure
   src="service-offerings.png"
   width="75%"
-  caption="Our 2x2 matrix of service offerings and prices created at the end of 2021."
+  caption="Our 2x2 matrix of service offerings and prices created at the end of 2021. See [the documentation](https://docs.2i2c.org/en/latest/) for more details."
 >}}
 
 Our biggest challenge in 2022 was to **identify the bottlenecks in this service model**, and to begin **building the infrastructure to operate and scale it**.
@@ -38,7 +38,7 @@ Here are a few highlights.
 ### We grew the number of our partner communities
 
 As noted above, we needed to grow the number and diversity of communities we worked with to understand where our model needed to change.
-At the end of 2022, we now have **43 community partner hubs across 17 clusters**.
+At the end of 2022, we now have **43 community partner hubs across 17 clusters** (and at least one on AWS, Azure, and Google Cloud).
 This amounts to roughly **~2,500 active users** each week.
 We also ran more dedicated infrasturcture for more than **11 workshops and events**.
 
@@ -67,18 +67,18 @@ We centralized and standardized configuration and operations of many community h
 This allowed us to more easily grow the number of communities we served from one repository.
 You can [read a write-up about these improvements in this blog post](https://2i2c.org/blog/2022/ci-cd-improvements/).
 
-### We defined a shared responsibility model
+### We defined a Shared Responsibility Model
 
-This laid a framework for defining the responsibility breakdown with our partner communities.
 Our goal is to frame each community hub as a partnership with a clear breakdown of responsibility to give communities more agency over the infrastructure and service.
+The Shared Responsibility Model provides a framework for assigning responsibility for various tasks with our partner communities.
 See [our Shared Responsibility Model docs here](https://docs.2i2c.org/en/latest/about/service/shared-responsibility.html).
 
 ### We defined a formal Incident Response process
 
-This let us more quickly identify and respond to major incidents in the infrastructure.
-This includes formal roles and alerting mechanisms that are served by [PagerDuty](https://www.pagerduty.com/).
+Cloud infrastructure inevitably degrades over time, and running ongoing services is largely about quickly responding to issues and resolving them quickly.
+To do so, we need clear processes to follow in order to quickly identify and respond to major incidents in the infrastructure.
+Our Incident Response process defines formal team roles and alerting mechanisms that are served by [PagerDuty](https://www.pagerduty.com/), following best-practices in industry.
 This will make our service more reliable and make our processes more transparent for our partner communities.
-It also ensures that we equitably divide our service responsibilities across team members.
 [Here's our current incident response process](https://compass.2i2c.org/en/latest/projects/managed-hubs/incidents.html).
 
 ### We expanded our service offerings to include community and workflow guidance
@@ -91,7 +91,7 @@ We're exploring a new range of roles that we could fill, starting with hiring a 
 
 This marks our first efforts into _development-focused work_ as opposed to operating cloud infrastructure.
 We will use this experience to learn how to pair focused development with cloud operations (more on that below).
-It will also help us make much-requested improvements to the JupyterHub / BinderHub ecosystems.
+It will also make it more likely that we can implement often-requested improvements to the JupyterHub / BinderHub ecosystems.
 [Here's a blog post about this collaboration](https://2i2c.org/blog/2022/gesis-2i2c-collaboration-update/).
 
 ### We helped maintain several upstream open source projects
@@ -111,7 +111,7 @@ As a brief summary, here is a plot of the issues in key open source repositories
 
 ### We refined our organizational strategy
 
-Finally, all of the experience from this year gave us a lot to think about regarding our role in the research and education ecosystem, and our potential for impact.
+Finally, the experience from this year gave us a lot to think about regarding our role and potential for impact in the research and education ecosystem and the open source community.
 We [updated our strategy](https://2i2c.org/blog/2022/strategic-update/) in order to focus on a more holistic and collaborative approach to the work with our partner communities.
 We'll continue to refine this strategy moving forward.
 
@@ -148,21 +148,10 @@ In 2022 we learned that our position in _running_ infrastructure in the cloud gi
 In some cases our partner organizations are also willing to contribute resources to help make this happen, or we can identify third parties to fund development work.
 
 Thus far we have focused our efforts on _deploying and managing_ cloud infrastructure.
-We do make improvements to software as a part of this, but there's a big difference between running a cloud service and doing significant enhancements to software.
+We do make improvements to software as a part of this, but there's a big difference between running a cloud service and making significant _enhancements_ to software.
 
-We'd like to be able to use our position to help funnel more resources into open source development, but there are a few tricky things to figure out:
-
-1. **How can we accept resources to do work in open source in an equitable way?**.
-   While 2i2c is a non-profit that aligns its mission with open communities, it is still a standalone organization with its own strategy and team.
-   We must be able to accept resources to contribute to open source in a way that aligns with the values of open source communities, and centers those communities as leading decision-making and design for any improvements that are made.
-   If we aren't careful about this, we run the risk of over-powering community development and planning cycles because we have dedicated engineers and time.
-2. **How can we help projects find funding in a way that is equitable to project maintainers**.
-   When there is dedicated funding for open source projects (e.g., CZI Essential Open Source Software grants), how can we help bring in this funding in a way that doesn't make ourselves a gatekeeper for others in these projects?
-   Can we build coalitions of open source maintainers so that 2i2c is a net-positive of resources across the whole maintainer community?
-3. **How to pair software engineering with cloud infrastructure management?**.
-   Thus far, we have focused our efforts on customizing, managing, and supporting cloud infrastructure.
-   We make many upstream improvements along the way, but this is very different from doing focused software development.
-   We'll need to grow a dedicated software team, and understand how it interacts with our cloud infrastructure team.
+We'd like to use our position to help funnel more resources into open source development, but there are a few tricky things to figure out.
+For example: How can we accept funding to do open source work in a way that doesn't effectively make us sole decision-makers or gatekeepers for doing development? How can we incorporate software development team practices into a team that has thus-far focused on operating cloud infrastructure?
 
 Thanks for reading this update about our work in 2022.
 We're excited about what we've accomplished thus far, as well how we hope to expand our impact in the near future.
