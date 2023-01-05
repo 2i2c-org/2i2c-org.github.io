@@ -144,21 +144,42 @@ The [`oxipng` tool](https://github.com/shssoichiro/oxipng) is one that we've use
 These are brief instructions to get it working based [on the `oxipng` instructions](https://github.com/shssoichiro/oxipng#installing).
 
 It is written in Rust, so you'll need to install `cargo`, install `oxipng`, and then run it.
+**To Install Cargo**, follow [the Cargo installation steps](https://doc.rust-lang.org/cargo/getting-started/installation.html).
 
-1. **Install Cargo**. Follow [the Cargo installation steps](https://doc.rust-lang.org/cargo/getting-started/installation.html).
-   This will install both Rust and Cargo.
+This will install both Rust and Cargo.
 
-   On Windows and Mac, it should be something like:
+On Windows and Mac, it should be something like:
 
-   ```
-   curl https://sh.rustup.rs -sSf | sh
-   ```
-2. **Install `oxipng`**. Use `cargo` to install `oxipng`.
+```
+curl https://sh.rustup.rs -sSf | sh
+```
+
+One you have done this, you can either run `oxipng` manually or via `pre-commit`.
+Both are described below.
+
+### Run `oxipng` with pre-commit
+
+If you have pre-commit installed in this repository, it will run `oxipng` on any `.png` files that have been added automatically.
+
+Simply `cd` into this repository root, then run:
+
+```
+$ pip install pre-commit
+$ pre-commit install
+```
+
+Now when you commit a `.png` file, `oxipng` will be run.
+
+### Run `oxipng` manually
+
+To run `oxipng` manually, follow these steps:
+
+1. **Install `oxipng`**. Use `cargo` to install `oxipng`.
 
    ```
    cargo install oxipng
    ```
-3. **Run the optimization on our images**.
+2. **Run the optimization on our images**.
    This one uses several sensible options and will optimize any image in the repository.
 
    ```
