@@ -136,3 +136,33 @@ We have some custom Hugo templates created for posting new jobs and a summary of
 ## This website's theme
 
 We are using the latest version of the [Wowchemy theme](https://wowchemy.com/docs/) (used to be the "Academic Theme"). See its documentation for information about customization and usage.
+
+## Optimize images
+
+Optimizing images saves space in our repository and in traffic load times.
+The [`oxipng` tool](https://github.com/shssoichiro/oxipng) is one that we've used here.
+These are brief instructions to get it working based [on the `oxipng` instructions](https://github.com/shssoichiro/oxipng#installing).
+
+It is written in Rust, so you'll need to install `cargo`, install `oxipng`, and then run it.
+
+1. **Install Cargo**. Follow [the Cargo installation steps](https://doc.rust-lang.org/cargo/getting-started/installation.html).
+   This will install both Rust and Cargo.
+
+   On Windows and Mac, it should be something like:
+
+   ```
+   curl https://sh.rustup.rs -sSf | sh
+   ```
+2. **Install `oxipng`**. Use `cargo` to install `oxipng`.
+
+   ```
+   cargo install oxipng
+   ```
+3. **Run the optimization on our images**.
+   This one uses several sensible options and will optimize any image in the repository.
+
+   ```
+   oxipng -o 4 -i 1 --strip safe --recursive content *.png
+   ```
+
+Once the images are optimized, re-commit them to the repository and push the changes.
