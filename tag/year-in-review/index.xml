@@ -1,0 +1,200 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>year-in-review | 2i2c</title><link>https://2i2c.org/tag/year-in-review/</link><atom:link href="https://2i2c.org/tag/year-in-review/index.xml" rel="self" type="application/rss+xml"/><description>year-in-review</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 04 Jan 2023 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>year-in-review</title><link>https://2i2c.org/tag/year-in-review/</link></image><item><title>2022 in review: growing our partner communities and expanding our operations</title><link>https://2i2c.org/blog/2023/2022-year-in-review/</link><pubDate>Wed, 04 Jan 2023 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2023/2022-year-in-review/</guid><description>&lt;p>2022 was a busy year for 2i2c - we not only grew our operations as well as our organization, but also grew our understanding of our mission and where we can have impact.
+This is a brief reflection on this experience, and an attempt to identify our opportunities for impact and growth in 2023.&lt;/p>
+&lt;h2 id="our-major-goals-in-2022">
+Our major goals in 2022
+&lt;a class="header-anchor" href="#our-major-goals-in-2022">#&lt;/a>
+&lt;/h2>&lt;p>We wrapped up 2021 with two major new changes.
+We had just finished
+&lt;a href="https://2i2c.org/blog/2021/q3-update/" target="_blank" rel="noopener">moving fiscal sponsors&lt;/a>
+and had just finished a prototype of our
+&lt;a href="https://docs.2i2c.org/en/latest/" target="_blank" rel="noopener">alpha service offerings&lt;/a>
+.&lt;/p>
+&lt;figure id="figure-our-2x2-matrix-of-service-offerings-and-prices-created-at-the-end-of-2021-see-the-documentationhttpsdocs2i2corgenlatest-for-more-details">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Our 2x2 matrix of service offerings and prices created at the end of 2021. See [the documentation](https://docs.2i2c.org/en/latest/) for more details." srcset="
+/blog/2023/2022-year-in-review/service-offerings_hu380975a03d55e12f00562505784a580e_91526_df3cdc0a2fb3fa7b3a5f25766db1b375.webp 400w,
+/blog/2023/2022-year-in-review/service-offerings_hu380975a03d55e12f00562505784a580e_91526_276547040d3c2dcf148220224955aaa9.webp 760w,
+/blog/2023/2022-year-in-review/service-offerings_hu380975a03d55e12f00562505784a580e_91526_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2023/2022-year-in-review/service-offerings_hu380975a03d55e12f00562505784a580e_91526_df3cdc0a2fb3fa7b3a5f25766db1b375.webp"
+width="75%"
+height="379"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+Our 2x2 matrix of service offerings and prices created at the end of 2021. See
+&lt;a href="https://docs.2i2c.org/en/latest/" target="_blank" rel="noopener">the documentation&lt;/a>
+for more details.
+&lt;/figcaption>&lt;/figure>
+&lt;p>Our biggest challenge in 2022 was to &lt;strong>identify the bottlenecks in this service model&lt;/strong>, and to begin &lt;strong>building the infrastructure to operate and scale it&lt;/strong>.
+This included team infrastructure, technical infrastructure, and administrative infrastructure.&lt;/p>
+&lt;p>Let&amp;rsquo;s see what we did to accomplish this goal.&lt;/p>
+&lt;h2 id="highlights-from-2022">
+Highlights from 2022
+&lt;a class="header-anchor" href="#highlights-from-2022">#&lt;/a>
+&lt;/h2>&lt;p>In 2022, we &lt;strong>thoughtfully grew the number of communities we worked with&lt;/strong>, and used this to make iterative improvements in our model.
+As a result, we learned some important things and made significant improvements to our service model and infrastructure.
+Here are a few highlights.&lt;/p>
+&lt;h3 id="we-grew-the-number-of-our-partner-communities">
+We grew the number of our partner communities
+&lt;a class="header-anchor" href="#we-grew-the-number-of-our-partner-communities">#&lt;/a>
+&lt;/h3>&lt;p>As noted above, we needed to grow the number and diversity of communities we worked with to understand where our model needed to change.
+At the end of 2022, we now have &lt;strong>43 community partner hubs across 17 clusters&lt;/strong> (and at least one on AWS, Azure, and Google Cloud).
+This amounts to roughly &lt;strong>~2,500 active users&lt;/strong> each week.
+We also ran more dedicated infrasturcture for more than &lt;strong>11 workshops and events&lt;/strong>.&lt;/p>
+&lt;h3 id="we-grew-our-revenue-from-community-partnerships">
+We grew our revenue from community partnerships
+&lt;a class="header-anchor" href="#we-grew-our-revenue-from-community-partnerships">#&lt;/a>
+&lt;/h3>&lt;p>One of our goals is to reach self-sustainability without requiring grant funding for most of the communities we serve.
+In 2022 we built administrative infrastructure to more efficiently recover monthly costs, and were able to bring in funding for our team from community partnerships.
+Here&amp;rsquo;s a plot of our monthly non-grant revenue over the last several months:&lt;/p>
+&lt;figure id="figure-our-monthly-non-grant-revenue-over-the-last-several-months-june-is-much-larger-because-we-filled-a-backlog-of-invoices-from-previous-months-that-werent-billed-yet">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Our monthly non-grant revenue over the last several months. June is much larger because we filled a backlog of invoices from previous months that weren&amp;#39;t billed yet." srcset="
+/blog/2023/2022-year-in-review/monthly-revenue_hu54bb69a72de8f8f00991bf5f8446c367_14564_400019ec2bbabaceaaa0eb48453f6c93.webp 400w,
+/blog/2023/2022-year-in-review/monthly-revenue_hu54bb69a72de8f8f00991bf5f8446c367_14564_816a9d6535853484eb04d6fb59290eb3.webp 760w,
+/blog/2023/2022-year-in-review/monthly-revenue_hu54bb69a72de8f8f00991bf5f8446c367_14564_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2023/2022-year-in-review/monthly-revenue_hu54bb69a72de8f8f00991bf5f8446c367_14564_400019ec2bbabaceaaa0eb48453f6c93.webp"
+width="75%"
+height="336"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+Our monthly non-grant revenue over the last several months. June is much larger because we filled a backlog of invoices from previous months that weren&amp;rsquo;t billed yet.
+&lt;/figcaption>&lt;/figure>
+&lt;h3 id="we-got-grant-funding-to-serve-communities-in-latin-america-and-africa">
+We got grant funding to serve communities in Latin America and Africa
+&lt;a class="header-anchor" href="#we-got-grant-funding-to-serve-communities-in-latin-america-and-africa">#&lt;/a>
+&lt;/h3>&lt;p>We also learned that some partnerships may &lt;em>require&lt;/em> subsidization from a third party, such as historically marginalized communities and those without dedicated resources.
+To explore sustainable ways to serve these communities, we applied for and received a new grant to serve communities in Latin America and Africa!
+Here&amp;rsquo;s the
+&lt;a href="http://localhost:1313/blog/2022/czi-global-communities-announcement/" target="_blank" rel="noopener">blog post announcing this grant&lt;/a>
+and our
+&lt;a href="https://2i2c.org/blog/2022/czi-global-communities-proposal/" target="_blank" rel="noopener">open grant narrative from the proposal&lt;/a>
+.&lt;/p>
+&lt;h3 id="we-improved-our-continuous-integration-and-deployment-system">
+We improved our continuous integration and deployment system
+&lt;a class="header-anchor" href="#we-improved-our-continuous-integration-and-deployment-system">#&lt;/a>
+&lt;/h3>&lt;p>Our ability to sustainably grow our service requires being able to &lt;em>technically&lt;/em> serve many communities from a relatively small team.
+We centralized and standardized configuration and operations of many community hubs in one transparent space for all of our partner communities.
+This allowed us to more easily grow the number of communities we served from one repository.
+You can
+&lt;a href="https://2i2c.org/blog/2022/ci-cd-improvements/" target="_blank" rel="noopener">read a write-up about these improvements in this blog post&lt;/a>
+.&lt;/p>
+&lt;h3 id="we-defined-a-shared-responsibility-model">
+We defined a Shared Responsibility Model
+&lt;a class="header-anchor" href="#we-defined-a-shared-responsibility-model">#&lt;/a>
+&lt;/h3>&lt;p>Our goal is to frame each community hub as a partnership with a clear breakdown of responsibility to give communities more agency over the infrastructure and service.
+The Shared Responsibility Model provides a framework for assigning responsibility for various tasks with our partner communities.
+See
+&lt;a href="https://docs.2i2c.org/en/latest/about/service/shared-responsibility.html" target="_blank" rel="noopener">our Shared Responsibility Model docs here&lt;/a>
+.&lt;/p>
+&lt;h3 id="we-defined-a-formal-incident-response-process">
+We defined a formal Incident Response process
+&lt;a class="header-anchor" href="#we-defined-a-formal-incident-response-process">#&lt;/a>
+&lt;/h3>&lt;p>Cloud infrastructure inevitably degrades over time, and running ongoing services is largely about quickly responding to issues and resolving them quickly.
+To do so, we need clear processes to follow in order to quickly identify and respond to major incidents in the infrastructure.
+Our Incident Response process defines formal team roles and alerting mechanisms that are served by
+&lt;a href="https://www.pagerduty.com/" target="_blank" rel="noopener">PagerDuty&lt;/a>
+, following best-practices in industry.
+This will make our service more reliable and make our processes more transparent for our partner communities.
+&lt;a href="https://compass.2i2c.org/en/latest/projects/managed-hubs/incidents.html" target="_blank" rel="noopener">Here&amp;rsquo;s our current incident response process&lt;/a>
+.&lt;/p>
+&lt;h3 id="we-expanded-our-service-offerings-to-include-community-and-workflow-guidance">
+We expanded our service offerings to include community and workflow guidance
+&lt;a class="header-anchor" href="#we-expanded-our-service-offerings-to-include-community-and-workflow-guidance">#&lt;/a>
+&lt;/h3>&lt;p>We recognized that many communities need more than just infrastructure running in the cloud - they will also benefit from usecase and community guidance.
+We&amp;rsquo;re exploring a new range of roles that we could fill, starting with hiring a new team member to help us lead these efforts.
+&lt;a href="https://2i2c.org/blog/2022/job-product-community-lead/" target="_blank" rel="noopener">Here&amp;rsquo;s a blog post about the Product and Community Lead&lt;/a>
+.&lt;/p>
+&lt;h3 id="we-began-a-collaboration-with-gesis-to-develop-environment-building-in-jupyterhub">
+We began a collaboration with GESIS to develop environment building in JupyterHub
+&lt;a class="header-anchor" href="#we-began-a-collaboration-with-gesis-to-develop-environment-building-in-jupyterhub">#&lt;/a>
+&lt;/h3>&lt;p>This marks our first efforts into &lt;em>development-focused work&lt;/em> as opposed to operating cloud infrastructure.
+We will use this experience to learn how to pair focused development with cloud operations (more on that below).
+It will also make it more likely that we can implement often-requested improvements to the JupyterHub / BinderHub ecosystems.
+&lt;a href="https://2i2c.org/blog/2022/gesis-2i2c-collaboration-update/" target="_blank" rel="noopener">Here&amp;rsquo;s a blog post about this collaboration&lt;/a>
+.&lt;/p>
+&lt;h3 id="we-helped-maintain-several-upstream-open-source-projects">
+We helped maintain several upstream open source projects
+&lt;a class="header-anchor" href="#we-helped-maintain-several-upstream-open-source-projects">#&lt;/a>
+&lt;/h3>&lt;p>We made a number of contributions to key open source communities as part of our organizational mission.
+These spanned technical improvements as well as organizational and community efforts.
+One highlight is that several team members have participated in
+&lt;a href="https://blog.jupyter.org/introducing-jupyterhubs-outreachy-interns-december-2022-cohort-23aaf4613556" target="_blank" rel="noopener">JupyterHub&amp;rsquo;s latest round of Outreachy interns&lt;/a>
+.&lt;br>
+See
+&lt;a href="https://jupyterhub-team-compass.readthedocs.io/en/latest/resources/community-strategy.html" target="_blank" rel="noopener">the JupyterHub community strategy&lt;/a>
+page for more information.&lt;/p>
+&lt;p>As a brief summary, here is a plot of the issues in key open source repositories that were closed in 2022 that were authored by a 2i2c team member.&lt;/p>
+&lt;figure id="figure-upstream-issues-opened-by-a-team-member-that-were-closed-in-2022">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Upstream issues opened by a team member that were closed in 2022." srcset="
+/blog/2023/2022-year-in-review/upstream-contributions_hu0ced2fe85e9629baf091260e1d1ea161_15760_fe8779ee5f44fe423358cee0aca2444c.webp 400w,
+/blog/2023/2022-year-in-review/upstream-contributions_hu0ced2fe85e9629baf091260e1d1ea161_15760_5e2b53c98d558cdb5e361816d687c538.webp 760w,
+/blog/2023/2022-year-in-review/upstream-contributions_hu0ced2fe85e9629baf091260e1d1ea161_15760_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2023/2022-year-in-review/upstream-contributions_hu0ced2fe85e9629baf091260e1d1ea161_15760_fe8779ee5f44fe423358cee0aca2444c.webp"
+width="75%"
+height="272"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+Upstream issues opened by a team member that were closed in 2022.
+&lt;/figcaption>&lt;/figure>
+&lt;h3 id="we-refined-our-organizational-strategy">
+We refined our organizational strategy
+&lt;a class="header-anchor" href="#we-refined-our-organizational-strategy">#&lt;/a>
+&lt;/h3>&lt;p>Finally, the experience from this year gave us a lot to think about regarding our role and potential for impact in the research and education ecosystem and the open source community.
+We
+&lt;a href="https://2i2c.org/blog/2022/strategic-update/" target="_blank" rel="noopener">updated our strategy&lt;/a>
+in order to focus on a more holistic and collaborative approach to the work with our partner communities.
+We&amp;rsquo;ll continue to refine this strategy moving forward.&lt;/p>
+&lt;h2 id="things-to-accomplish-in-2023">
+Things to accomplish in 2023
+&lt;a class="header-anchor" href="#things-to-accomplish-in-2023">#&lt;/a>
+&lt;/h2>&lt;p>We&amp;rsquo;re excited about all of the progress we made in 2022, and to continue that progress in 2023.
+Here are a few areas where we wish to focus our efforts as we begin the new year to keep this momentum going.&lt;/p>
+&lt;h3 id="sharpen-our-shared-responsibility-model">
+Sharpen our Shared Responsibility Model
+&lt;a class="header-anchor" href="#sharpen-our-shared-responsibility-model">#&lt;/a>
+&lt;/h3>&lt;p>Our Shared Responsibility Model is in a kind of &amp;ldquo;alpha&amp;rdquo; phase right now. We have some of the high-level skeleton there, but there&amp;rsquo;s a lot of detail to fill in. Thus far, communities have really liked the idea but we need to make it clearer how we break-down specific jobs and how to decide when to give more or less responsibility to another community.
+We&amp;rsquo;d also like to define more intersection points with our partner communities at the level of strategic and service planning so that our communities have a say in our vision and strategic plan.&lt;/p>
+&lt;h3 id="grow-our-community-support-operations">
+Grow our community support operations
+&lt;a class="header-anchor" href="#grow-our-community-support-operations">#&lt;/a>
+&lt;/h3>&lt;p>We&amp;rsquo;ve begun exploring how to support communities in their &lt;em>usage&lt;/em> of cloud infrastructure, but still have a long way to go to understand what role we should play here.
+For example, how can we assist communities in cloud workflows without becoming domain experts ourselves?
+How can we guide communities in a sustainable and scalable way?
+How can we recover the costs of doing this work?
+We hope to use our experiences in
+&lt;a href="../../2022/czi-global-communities-announcement/index.md">our upcoming project to serve communities in Latin America and Africa&lt;/a>
+to explore these questions.&lt;/p>
+&lt;h3 id="define-a-cost-recovery-model-that-balances-sustainability-and-accessibility">
+Define a cost recovery model that balances sustainability and accessibility
+&lt;a class="header-anchor" href="#define-a-cost-recovery-model-that-balances-sustainability-and-accessibility">#&lt;/a>
+&lt;/h3>&lt;p>Our current cost recovery model is intentionally very simple - we charge a fixed monthly cost for human time, and pass-through cloud costs directly.
+We charge a bit more for more complex deployments and use-cases.&lt;/p>
+&lt;p>However, we&amp;rsquo;ve learned that this is both too expensive for simple deployments, and too cheap for really complex deployments.
+It&amp;rsquo;s also inaccessible to organizations that do not have the resources to pay, which correlates heavily with historically marginalized communities.
+We&amp;rsquo;ll need to refine this model to be both scalable and sustainable, but also accessible to the variety of communities we want to serve.&lt;/p>
+&lt;h3 id="incorporate-a-dedicated-software-development-practice-that-aligns-with-open-values">
+Incorporate a dedicated software development practice that aligns with open values
+&lt;a class="header-anchor" href="#incorporate-a-dedicated-software-development-practice-that-aligns-with-open-values">#&lt;/a>
+&lt;/h3>&lt;p>In 2022 we learned that our position in &lt;em>running&lt;/em> infrastructure in the cloud gives us visibility into the ways that researchers and educators want open source tools to be &lt;em>improved&lt;/em>.
+In some cases our partner organizations are also willing to contribute resources to help make this happen, or we can identify third parties to fund development work.&lt;/p>
+&lt;p>Thus far we have focused our efforts on &lt;em>deploying and managing&lt;/em> cloud infrastructure.
+We do make improvements to software as a part of this, but there&amp;rsquo;s a big difference between running a cloud service and making significant &lt;em>enhancements&lt;/em> to software.&lt;/p>
+&lt;p>We&amp;rsquo;d like to use our position to help funnel more resources into open source development, but there are a few tricky things to figure out.
+For example: How can we accept funding to do open source work in a way that doesn&amp;rsquo;t effectively make us sole decision-makers or gatekeepers for doing development? How can we incorporate software development team practices into a team that has thus-far focused on operating cloud infrastructure?&lt;/p>
+&lt;p>Thanks for reading this update about our work in 2022.
+We&amp;rsquo;re excited about what we&amp;rsquo;ve accomplished thus far, as well how we hope to expand our impact in the near future.&lt;/p>
+&lt;div class="about-us">
+&lt;blockquote>
+&lt;p>💡
+&lt;a href="http://eepurl.com/hjHbff" target="_blank" rel="noopener">Sign up for our mailing list&lt;/a>
+for updates about 2i2c.
+&lt;a href="mailto:hello@2i2c.org">Send us an e-mail about collaborating or partnering&lt;/a>
+on a project.
+See our
+&lt;a href="https://docs.2i2c.org" target="_blank" rel="noopener">Service Documentation&lt;/a>
+or our
+&lt;a href="https://compass.2i2c.org" target="_blank" rel="noopener">Team Compass&lt;/a>
+to learn about our service and organization.&lt;/p>
+&lt;/blockquote>
+&lt;/div></description></item></channel></rss>

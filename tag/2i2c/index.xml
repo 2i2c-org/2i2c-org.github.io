@@ -18,8 +18,10 @@ Please see
 as an initial place to provide feedback.&lt;/p>
 &lt;p>On &lt;strong>22nd November 2021&lt;/strong>, the old Pangeo GCP JupyterHub will be shut down, and the project will move forward on the new 2i2c Pangeo Hub.
 Moving forward, we plan to collaborate together in order to find new pathways for development in the Jupyter ecosystem - we will share more ideas of things we will work on soon!&lt;/p>
-&lt;h2 id="history-of-pangeo-cloud-hubs">History of Pangeo Cloud Hubs&lt;/h2>
-&lt;p>Pangeo has pioneered a new model in using open source and cloud-agnostic infrastructure to support scientific research in the cloud.&lt;/p>
+&lt;h2 id="history-of-pangeo-cloud-hubs">
+History of Pangeo Cloud Hubs
+&lt;a class="header-anchor" href="#history-of-pangeo-cloud-hubs">#&lt;/a>
+&lt;/h2>&lt;p>Pangeo has pioneered a new model in using open source and cloud-agnostic infrastructure to support scientific research in the cloud.&lt;/p>
 &lt;p>The first Pangeo cloud JupyterHub (pangeo.pydata.org; now defuct) was deployed for the
 &lt;a href="https://annual.ametsoc.org/2017/" target="_blank" rel="noopener">2017 American Meteoroligical Society Meeting&lt;/a>
 ; since then, the Pangeo community has iterated through several different versions of prototype cloud-based hubs.
@@ -28,8 +30,10 @@ Pangeo achieved this by working in partnership with open source communities and 
 &lt;p>In the last several years, Pangeo have built a thriving community of practice around this infrastructure.
 However as the community has grown, so has the need for more reliable and dedicated operational and developmental support since parts of the Pangeo stack require dedicated expertise and attention to managed.
 Modern scalable cloud infrastructure is one example of this. Maintaining a complex JupyterHub with many users is a difficult task, and has required significant resources from the Pangeo Project up to this point.&lt;/p>
-&lt;h2 id="the-pangeo-2i2c-partnership">The Pangeo-2i2c Partnership&lt;/h2>
-&lt;p>
+&lt;h2 id="the-pangeo-2i2c-partnership">
+The Pangeo-2i2c Partnership
+&lt;a class="header-anchor" href="#the-pangeo-2i2c-partnership">#&lt;/a>
+&lt;/h2>&lt;p>
 &lt;a href="https://2i2c.org" target="_blank" rel="noopener">2i2c&lt;/a>
 is a non-profit team that develops and operates cloud infrastructure for interactive computing workflows.
 We have extensive experience in Jupyter workflows in the cloud and a long history of contributions to projects in this ecosystem.

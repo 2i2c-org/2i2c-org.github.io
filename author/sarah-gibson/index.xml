@@ -6,8 +6,10 @@ Our initial attempt at this had a number of inefficiencies, and we recently comp
 &lt;p>This post is a short description of what we did and the benefit that it had.
 It covers the technical details and provides links to more information about our deployment setup.
 We hope that it helps other organizations make similar improvements to their own infrastructure.&lt;/p>
-&lt;h2 id="our-problem">Our problem&lt;/h2>
-&lt;p>2i2c&amp;rsquo;s problem is similar to that of many large organizations that have independent sub-communities within them.
+&lt;h2 id="our-problem">
+Our problem
+&lt;a class="header-anchor" href="#our-problem">#&lt;/a>
+&lt;/h2>&lt;p>2i2c&amp;rsquo;s problem is similar to that of many large organizations that have independent sub-communities within them.
 We must centralize the operation and configuration of JupyterHubs in order to boost our efficiency in developing and operating them, but must also treat these hubs &lt;em>independently&lt;/em> because their user communities are not necessarily related, and because we want communities to
 &lt;a href="https://2i2c.org/right-to-replicate">be able to replicate their infrastructure on their own&lt;/a>
 .&lt;/p>
@@ -22,18 +24,24 @@ that allowed us to test changes on a &lt;strong>staging hub&lt;/strong> before r
 &lt;li>We used a single configuration file for all hubs within a cluster, which led to confusion and difficulty in identifying a hub-specific configuration.&lt;/li>
 &lt;li>Moreover, any change to a hub within a cluster caused a re-deploy of &lt;em>all hubs on that cluster&lt;/em>. This is because we did not know whether a given change touched cluster-wide configuration or hub-specific configuration.&lt;/li>
 &lt;/ul>
-&lt;h2 id="our-goal">Our goal&lt;/h2>
-&lt;p>So, we spent several weeks discussing a plan to resolve these major problems - here were our goals:&lt;/p>
+&lt;h2 id="our-goal">
+Our goal
+&lt;a class="header-anchor" href="#our-goal">#&lt;/a>
+&lt;/h2>&lt;p>So, we spent several weeks discussing a plan to resolve these major problems - here were our goals:&lt;/p>
 &lt;ul>
 &lt;li>We should be able to &lt;strong>upgrade a specific hub&lt;/strong> alone, by inspecting which configuration files have been added or modified.&lt;/li>
 &lt;li>&lt;strong>Production hubs should be upgraded in parallel&lt;/strong> when they are effectively run independently.&lt;/li>
 &lt;li>We should &lt;strong>use staging hubs as &amp;ldquo;canary&amp;rdquo; deployments&lt;/strong> and not continue upgrading production hubs if the staging hub fails.&lt;/li>
 &lt;/ul>
-&lt;h2 id="an-overview-of-our-changes">An overview of our changes&lt;/h2>
-&lt;p>To accomplish this, we needed to identify which hub required an upgrade based on file additions/modifications.
+&lt;h2 id="an-overview-of-our-changes">
+An overview of our changes
+&lt;a class="header-anchor" href="#an-overview-of-our-changes">#&lt;/a>
+&lt;/h2>&lt;p>To accomplish this, we needed to identify which hub required an upgrade based on file additions/modifications.
 This took a lot of discussion and iteration on design, and so we share it below in the hopes that it is helpful to others!&lt;/p>
-&lt;h3 id="improvements-to-our-code-and-structure">Improvements to our code and structure&lt;/h3>
-&lt;p>We made a few major changes to
+&lt;h3 id="improvements-to-our-code-and-structure">
+Improvements to our code and structure
+&lt;a class="header-anchor" href="#improvements-to-our-code-and-structure">#&lt;/a>
+&lt;/h3>&lt;p>We made a few major changes to
 &lt;a href="https://github.com/2i2c-org/infrastructure" target="_blank" rel="noopener">the infrastructure repository&lt;/a>
 to facilitate the deployment logic described above.
 Here are the major changes we implemented:&lt;/p>
@@ -57,8 +65,10 @@ to do the following things:
 &lt;/li>
 &lt;/ul>
 &lt;p>In addition to these structural and code changes, we also developed new GitHub Actions workflows that control the entire process.&lt;/p>
-&lt;h3 id="a-github-actions-workflow-for-upgrading-our-jupyterhubs">A GitHub Actions workflow for upgrading our JupyterHubs&lt;/h3>
-&lt;p>We defined a new GitHub Actions workflow that carries out the logic described above.
+&lt;h3 id="a-github-actions-workflow-for-upgrading-our-jupyterhubs">
+A GitHub Actions workflow for upgrading our JupyterHubs
+&lt;a class="header-anchor" href="#a-github-actions-workflow-for-upgrading-our-jupyterhubs">#&lt;/a>
+&lt;/h3>&lt;p>We defined a new GitHub Actions workflow that carries out the logic described above.
 These are all defined in
 &lt;a href="https://github.com/2i2c-org/infrastructure/blob/master/.github/workflows/deploy-hubs.yaml" target="_blank" rel="noopener">this &lt;code>deploy-hubs.yaml&lt;/code> configuration file&lt;/a>
 .
@@ -135,8 +145,10 @@ Our production hub job matrix tells GitHub Actions which hubs to update with new
 &lt;/ul>
 &lt;/li>
 &lt;/ol>
-&lt;h2 id="concluding-remarks">Concluding Remarks&lt;/h2>
-&lt;p>We think that this is a nice balance of infrastructure complexity and flexibility.
+&lt;h2 id="concluding-remarks">
+Concluding Remarks
+&lt;a class="header-anchor" href="#concluding-remarks">#&lt;/a>
+&lt;/h2>&lt;p>We think that this is a nice balance of infrastructure complexity and flexibility.
 It allows us to separate the configuration of each hub and cluster, which makes each more maintainable by us, and is more aligned with a community&amp;rsquo;s
 &lt;a href="https://2i2c.org/right-to-replicate">Right to Replicate&lt;/a>
 their infrastructure.
@@ -175,8 +187,10 @@ Please see
 as an initial place to provide feedback.&lt;/p>
 &lt;p>On &lt;strong>22nd November 2021&lt;/strong>, the old Pangeo GCP JupyterHub will be shut down, and the project will move forward on the new 2i2c Pangeo Hub.
 Moving forward, we plan to collaborate together in order to find new pathways for development in the Jupyter ecosystem - we will share more ideas of things we will work on soon!&lt;/p>
-&lt;h2 id="history-of-pangeo-cloud-hubs">History of Pangeo Cloud Hubs&lt;/h2>
-&lt;p>Pangeo has pioneered a new model in using open source and cloud-agnostic infrastructure to support scientific research in the cloud.&lt;/p>
+&lt;h2 id="history-of-pangeo-cloud-hubs">
+History of Pangeo Cloud Hubs
+&lt;a class="header-anchor" href="#history-of-pangeo-cloud-hubs">#&lt;/a>
+&lt;/h2>&lt;p>Pangeo has pioneered a new model in using open source and cloud-agnostic infrastructure to support scientific research in the cloud.&lt;/p>
 &lt;p>The first Pangeo cloud JupyterHub (pangeo.pydata.org; now defuct) was deployed for the
 &lt;a href="https://annual.ametsoc.org/2017/" target="_blank" rel="noopener">2017 American Meteoroligical Society Meeting&lt;/a>
 ; since then, the Pangeo community has iterated through several different versions of prototype cloud-based hubs.
@@ -185,8 +199,10 @@ Pangeo achieved this by working in partnership with open source communities and 
 &lt;p>In the last several years, Pangeo have built a thriving community of practice around this infrastructure.
 However as the community has grown, so has the need for more reliable and dedicated operational and developmental support since parts of the Pangeo stack require dedicated expertise and attention to managed.
 Modern scalable cloud infrastructure is one example of this. Maintaining a complex JupyterHub with many users is a difficult task, and has required significant resources from the Pangeo Project up to this point.&lt;/p>
-&lt;h2 id="the-pangeo-2i2c-partnership">The Pangeo-2i2c Partnership&lt;/h2>
-&lt;p>
+&lt;h2 id="the-pangeo-2i2c-partnership">
+The Pangeo-2i2c Partnership
+&lt;a class="header-anchor" href="#the-pangeo-2i2c-partnership">#&lt;/a>
+&lt;/h2>&lt;p>
 &lt;a href="https://2i2c.org" target="_blank" rel="noopener">2i2c&lt;/a>
 is a non-profit team that develops and operates cloud infrastructure for interactive computing workflows.
 We have extensive experience in Jupyter workflows in the cloud and a long history of contributions to projects in this ecosystem.

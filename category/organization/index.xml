@@ -8,19 +8,25 @@ These three areas are:&lt;/p>
 &lt;/ul>
 &lt;p>This first post will focus on &lt;strong>services that we&amp;rsquo;ve created in our first year&lt;/strong>.&lt;/p>
 &lt;p>Ultimately, 2i2c&amp;rsquo;s mission is to facilitate use-cases in research and education via open source development and services. Throughout 2021 we ran several pilots to learn more about the needs of communities in research and education, and how we could build sustainable services that meet these needs. Here are some highlights for each major use-case we have targeted thus far:&lt;/p>
-&lt;h2 id="educational-community-hubs">Educational community hubs&lt;/h2>
-&lt;p>A primary use-case that 2i2c seeks to enable is &lt;strong>collaborative, distributed educational spaces for learning with data&lt;/strong>. In 2021 we ran several pilots with educational communities:&lt;/p>
+&lt;h2 id="educational-community-hubs">
+Educational community hubs
+&lt;a class="header-anchor" href="#educational-community-hubs">#&lt;/a>
+&lt;/h2>&lt;p>A primary use-case that 2i2c seeks to enable is &lt;strong>collaborative, distributed educational spaces for learning with data&lt;/strong>. In 2021 we ran several pilots with educational communities:&lt;/p>
 &lt;p>&lt;strong>A university-wide hub for the University of Toronto.&lt;/strong> This hub is used in a variety of classes throughout the university, and is made freely available to anyone with a UofT account. We hope to repeat this model for other university-wide communities, and have learned a lot about the challenges of working with particularly large educational communities.&lt;/p>
 &lt;p>&lt;strong>Several hubs for community colleges across California.&lt;/strong> In partnership with UC Berkeley and CloudBank, we&amp;rsquo;ve run several hubs for nearly a dozen small community colleges teaching the
 &lt;a href="http://data8.org" target="_blank" rel="noopener">Data 8 curriculum&lt;/a>
 for their students. These hubs are lightweight and offer standardized environments for their students to use, in order to lower the cost of deploying and maintaining the hubs over time.&lt;/p>
-&lt;h3 id="what-we-learned">What we learned&lt;/h3>
-&lt;p>The organizational context around educational use-cases is different from research communities. Compared with research groups, educucational groups have more variance in their size (classes as small as 10 people and as large as 500) and think about cost &lt;strong>by the student&lt;/strong>, not as a lump sum. This means that our initial hub-based pricing model may not map cleanly onto educational contexts, and we need to improve the match of scalability and price to these communities.&lt;/p>
+&lt;h3 id="what-we-learned">
+What we learned
+&lt;a class="header-anchor" href="#what-we-learned">#&lt;/a>
+&lt;/h3>&lt;p>The organizational context around educational use-cases is different from research communities. Compared with research groups, educucational groups have more variance in their size (classes as small as 10 people and as large as 500) and think about cost &lt;strong>by the student&lt;/strong>, not as a lump sum. This means that our initial hub-based pricing model may not map cleanly onto educational contexts, and we need to improve the match of scalability and price to these communities.&lt;/p>
 &lt;p>Moreover, we&amp;rsquo;ve learned that for these communities, navigating all of the open source tools that are available for pedagogy is confusing! Everybody wants auto-grading but it&amp;rsquo;s unclear what is the &amp;ldquo;right tool for the job&amp;rdquo;. Tools like
 &lt;a href="https://jupyterhub.github.io/nbgitpuller/" target="_blank" rel="noopener">nbgitpuller&lt;/a>
 have heavy use at &amp;ldquo;power universities&amp;rdquo; like UC Berkeley, but many others don&amp;rsquo;t know that it exists! We will need to invest more time into building guides and documentation that help others leverage these tools.&lt;/p>
-&lt;h2 id="research-in-the-cloud">Research in the cloud&lt;/h2>
-&lt;p>In addition to educational use-cases, we ran several pilots for research communities in order to leverage cloud infrastructure for scaling their work or collaborating more effectively.&lt;/p>
+&lt;h2 id="research-in-the-cloud">
+Research in the cloud
+&lt;a class="header-anchor" href="#research-in-the-cloud">#&lt;/a>
+&lt;/h2>&lt;p>In addition to educational use-cases, we ran several pilots for research communities in order to leverage cloud infrastructure for scaling their work or collaborating more effectively.&lt;/p>
 &lt;p>&lt;strong>We migrated Pangeo’s cloud infrastructure to be run via 2i2c.&lt;/strong> The
 &lt;a href="https://pangeo.io" target="_blank" rel="noopener">Pangeo Community&lt;/a>
 had been operating and developing their own JupyterHub for several years, but were looking for another organization to provide more reliable/sustained operations and support for their Pangeo Cloud Service. This year we migrated the service
@@ -31,11 +37,15 @@ had been operating and developing their own JupyterHub for several years, but we
 is doing work with the
 &lt;a href="https://swot.jpl.nasa.gov/" target="_blank" rel="noopener">NASA SWOT satellite project&lt;/a>
 . However, the datasets generated from this project are huge, and only storable via the cloud. We&amp;rsquo;ve set up a JupyterHub to provide cloud-based access to this data, running a Pangeo-like environment.&lt;/p>
-&lt;h3 id="what-we-learned-1">What we learned&lt;/h3>
-&lt;p>Research communities tend to have more usecase-specific needs than educational ones. While introductory courses in data science tend to be similar across institutions, research needs are much more unique to the problem and team at hand. Moreover, they tend to want infrastructure that runs via institutional cloud accounts. This is possible due to the flexible nature of Jupyter and JupyterHub, but brings extra challenges in bureacracy and access permissions, given that 2i2c engineers usually are not members of these organizations already.&lt;/p>
+&lt;h3 id="what-we-learned-1">
+What we learned
+&lt;a class="header-anchor" href="#what-we-learned-1">#&lt;/a>
+&lt;/h3>&lt;p>Research communities tend to have more usecase-specific needs than educational ones. While introductory courses in data science tend to be similar across institutions, research needs are much more unique to the problem and team at hand. Moreover, they tend to want infrastructure that runs via institutional cloud accounts. This is possible due to the flexible nature of Jupyter and JupyterHub, but brings extra challenges in bureacracy and access permissions, given that 2i2c engineers usually are not members of these organizations already.&lt;/p>
 &lt;p>Additionally, many research use-cases are based around the &lt;strong>location of the data&lt;/strong>. This is because data is the hardest thing to move from cloud to cloud. For this reason, it&amp;rsquo;s important to &lt;strong>bring interactive sessions to the data&lt;/strong>. Jupyter&amp;rsquo;s ecosystem makes this possible, but we&amp;rsquo;d like to do more to make this easier. For example, users should be able to launch interactive sessions across many clusters or datacenters, regardless of their hub&amp;rsquo;s location. They should also have more customized control over their environments.&lt;/p>
-&lt;h2 id="distributed-events-and-hackweeks">Distributed events and hackweeks&lt;/h2>
-&lt;p>Finally, we had a special use-case that is a hybrid of the previous two examples. Events and hackweeks are &lt;em>time-bounded&lt;/em>, &lt;em>focused on learning and doing&lt;/em>, but often &lt;em>with research workflows and communities&lt;/em>. They also tend to be more globally-distributed than a traditional research or education community.
+&lt;h2 id="distributed-events-and-hackweeks">
+Distributed events and hackweeks
+&lt;a class="header-anchor" href="#distributed-events-and-hackweeks">#&lt;/a>
+&lt;/h2>&lt;p>Finally, we had a special use-case that is a hybrid of the previous two examples. Events and hackweeks are &lt;em>time-bounded&lt;/em>, &lt;em>focused on learning and doing&lt;/em>, but often &lt;em>with research workflows and communities&lt;/em>. They also tend to be more globally-distributed than a traditional research or education community.
 See below for a few examples:&lt;/p>
 &lt;p>The
 &lt;a href="https://coessing.org/" target="_blank" rel="noopener">&lt;strong>Coastal Ocean Environment Summer School in Ghana&lt;/strong>&lt;/a>
@@ -48,14 +58,20 @@ throughout the hackweek.&lt;/p>
 &lt;p>
 &lt;a href="https://www.openscapes.org/" target="_blank" rel="noopener">&lt;strong>OpenScapes&lt;/strong>&lt;/a>
 champions open practices in environmental science to help uncover data-driven solutions faster. They have several cohorts of scientific trainees learning more about adopting open and collaborative workflows, and use a hub managed by 2i2c to provide remote learning environments for their workshops.&lt;/p>
-&lt;h3 id="what-we-learned-2">What we learned&lt;/h3>
-&lt;p>Initially we assumed that event-based hubs would be similar to educational use-cases. However, in practice they are more complex. First, event organizers have ever-changing communities of users on their hubs. They often want to provide access to many new users in each event, and expect only a small subset to continue using the infrastructure after an event. Finally, one-off events also generate spikes in activity that are more intense than educational use-cases, and warrant more dedicated attention from our engineers.&lt;/p>
-&lt;h2 id="challenges-that-we-faced">Challenges that we faced&lt;/h2>
-&lt;p>As we piloted these use-cases, we also ran into a few challenges in designing services around our infrastructure.&lt;/p>
+&lt;h3 id="what-we-learned-2">
+What we learned
+&lt;a class="header-anchor" href="#what-we-learned-2">#&lt;/a>
+&lt;/h3>&lt;p>Initially we assumed that event-based hubs would be similar to educational use-cases. However, in practice they are more complex. First, event organizers have ever-changing communities of users on their hubs. They often want to provide access to many new users in each event, and expect only a small subset to continue using the infrastructure after an event. Finally, one-off events also generate spikes in activity that are more intense than educational use-cases, and warrant more dedicated attention from our engineers.&lt;/p>
+&lt;h2 id="challenges-that-we-faced">
+Challenges that we faced
+&lt;a class="header-anchor" href="#challenges-that-we-faced">#&lt;/a>
+&lt;/h2>&lt;p>As we piloted these use-cases, we also ran into a few challenges in designing services around our infrastructure.&lt;/p>
 &lt;p>&lt;strong>Balancing standard deployments, custom deployments, and scalability&lt;/strong>. Our goal is to centralize our deployment and operations infrastructure in order to reduce the maintenance burden for each community hub. This will allow us to gain economies of scale and lower costs. However, there’s an inherent tension between scalability and customizability - in order to scale we must standardize the infrastructure we offer, but communities often want environments that are unique to their use-case.&lt;/p>
 &lt;p>&lt;strong>Turning services into sustainability&lt;/strong>. We’ve learned that charging money for things does not come naturally to us. We’ve spent many years building technology and services that were offered freely to the public. This was easy to provide, but difficult to sustain. 2i2c’s goal is to offer similar services, but with a sustainability model that allows us to employ team members to do this work, and to grow in the future. Understanding how to pair the right technology, use-case, and service with a particular pricing model is an area where we must learn more.&lt;/p>
-&lt;h2 id="whats-next">What’s next&lt;/h2>
-&lt;p>Piloting all of these services taught us a lot about the similarities and differences between each use case. Towards the end of 2021, this led to 2i2c&amp;rsquo;s first collection of &amp;ldquo;service offerings&amp;rdquo; for a Managed Jupyter Service. This includes a 2-by-2 matrix of service options, and a specific price point for each. We have begun offering this service to communities, in order to learn more about the model, the pricing, and any changes that should be made. In early 2022, we hope to expand this group to more communities so that we can test this model’s ability to scale.&lt;/p>
+&lt;h2 id="whats-next">
+What’s next
+&lt;a class="header-anchor" href="#whats-next">#&lt;/a>
+&lt;/h2>&lt;p>Piloting all of these services taught us a lot about the similarities and differences between each use case. Towards the end of 2021, this led to 2i2c&amp;rsquo;s first collection of &amp;ldquo;service offerings&amp;rdquo; for a Managed Jupyter Service. This includes a 2-by-2 matrix of service options, and a specific price point for each. We have begun offering this service to communities, in order to learn more about the model, the pricing, and any changes that should be made. In early 2022, we hope to expand this group to more communities so that we can test this model’s ability to scale.&lt;/p>
 &lt;p>Our next post in this series will focus on the underlying technology that powers the services described above, stay tuned for more!&lt;/p></description></item><item><title>Pilot hubs, new collaborations, and new team members - A six month update</title><link>https://2i2c.org/blog/2021/six-month-update/</link><pubDate>Tue, 25 May 2021 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2021/six-month-update/</guid><description>&lt;p>It has been about six months since 2i2c first began operations (after receiving
 &lt;a href="../czi-core-support">funding from the Chan Zuckerberg Initiative&lt;/a>
 ).
@@ -65,8 +81,10 @@ In that time we&amp;rsquo;ve made progress along several directions, and wish to
 or subscribe to the
 &lt;a href="https://2i2c.org/#contact">2i2c mailing list&lt;/a>
 .&lt;/p>
-&lt;h2 id="early-pilot-jupyterhub-infrastructure">Early pilot JupyterHub infrastructure&lt;/h2>
-&lt;p>First off - we have been making progress building out our JupyterHub deployment infrastructure for 2i2c.
+&lt;h2 id="early-pilot-jupyterhub-infrastructure">
+Early pilot JupyterHub infrastructure
+&lt;a class="header-anchor" href="#early-pilot-jupyterhub-infrastructure">#&lt;/a>
+&lt;/h2>&lt;p>First off - we have been making progress building out our JupyterHub deployment infrastructure for 2i2c.
 One of our major organizational goals is to build a sustainable service
 &lt;a href="https://2i2c.org/infrastructure">managing open source cloud infrastructure&lt;/a>
 for interactive computing.
@@ -90,8 +108,10 @@ Each JupyterHub is independent of one another, and could be spun out from the ce
 &lt;a href="https://2i2c.org/right-to-replicate">replicate their infrastructure, with or without 2i2c&lt;/a>
 .
 We will continue refining the code in this repository as we learn more from our hub infrastructure pilots.&lt;/p>
-&lt;h2 id="jupyterhub-for-geospatial-analytics---a-collaboration-with-pangeo">JupyterHub for geospatial analytics - A collaboration with Pangeo&lt;/h2>
-&lt;p>As
+&lt;h2 id="jupyterhub-for-geospatial-analytics---a-collaboration-with-pangeo">
+JupyterHub for geospatial analytics - A collaboration with Pangeo
+&lt;a class="header-anchor" href="#jupyterhub-for-geospatial-analytics---a-collaboration-with-pangeo">#&lt;/a>
+&lt;/h2>&lt;p>As
 &lt;a href="https://medium.com/pangeo/pangeo-2-0-2bedf099582d" target="_blank" rel="noopener">originally announced on the Pangeo blog&lt;/a>
 , 2i2c is forging a collaboration with
 &lt;a href="https://pangeo.io" target="_blank" rel="noopener">the Pangeo project&lt;/a>
@@ -107,8 +127,10 @@ or improving tools for scalable computing with
 &lt;a href="https://gateway.dask.org/" target="_blank" rel="noopener">Dask Gateway&lt;/a>
 .
 We&amp;rsquo;ll provide updates as we formally begin this collaboration and hash out a plan for our next steps.&lt;/p>
-&lt;h2 id="jupyterhub-for-education---a-collaboration-with-cloudbank-and-uc-berkeley">JupyterHub for education - A collaboration with CloudBank and UC Berkeley&lt;/h2>
-&lt;p>In addition, we&amp;rsquo;ve begun a partnership with the UC Berkeley
+&lt;h2 id="jupyterhub-for-education---a-collaboration-with-cloudbank-and-uc-berkeley">
+JupyterHub for education - A collaboration with CloudBank and UC Berkeley
+&lt;a class="header-anchor" href="#jupyterhub-for-education---a-collaboration-with-cloudbank-and-uc-berkeley">#&lt;/a>
+&lt;/h2>&lt;p>In addition, we&amp;rsquo;ve begun a partnership with the UC Berkeley
 &lt;a href="https://data.berkeley.edu/academics/undergraduate-programs" target="_blank" rel="noopener">Data Science in Undergraduate Studies program&lt;/a>
 , as well as
 &lt;a href="http://cloudbank.org/" target="_blank" rel="noopener">CloudBank&lt;/a>
@@ -123,8 +145,10 @@ We will begin by offering environments that are modeled after
 &lt;a href="http://data8.org" target="_blank" rel="noopener">the Data 8 course at UC Berkeley&lt;/a>
 .
 This is part of an effort to build a community of practice around Data Science education using open source tools.&lt;/p>
-&lt;h2 id="new-team-members">New team members&lt;/h2>
-&lt;p>We&amp;rsquo;ve also welcomed two new members to the 2i2c core team! 🎉&lt;/p>
+&lt;h2 id="new-team-members">
+New team members
+&lt;a class="header-anchor" href="#new-team-members">#&lt;/a>
+&lt;/h2>&lt;p>We&amp;rsquo;ve also welcomed two new members to the 2i2c core team! 🎉&lt;/p>
 &lt;p>These individuals will both work towards
 &lt;a href="https://2i2c.org/projects">2i2c&amp;rsquo;s major projects&lt;/a>
 , and collaborate together on running our 2i2c Pilot Hub infrastructure.
@@ -153,8 +177,10 @@ Here&amp;rsquo;s a bit about each new team member.&lt;/p>
 &lt;a href="https://the-turing-way.netlify.app/welcome" target="_blank" rel="noopener">the Turing Way&lt;/a>
 for many years. Sarah will focus her efforts on JupyterHub development and operations for the Pangeo community.&lt;/li>
 &lt;/ul>
-&lt;h2 id="governance-and-a-code-of-conduct">Governance and a code of conduct&lt;/h2>
-&lt;p>Finally, while it&amp;rsquo;s easy to get lost in technology and collaborations, 2i2c has also made important steps towards defining a stable and transparent organizational model moving forward.
+&lt;h2 id="governance-and-a-code-of-conduct">
+Governance and a code of conduct
+&lt;a class="header-anchor" href="#governance-and-a-code-of-conduct">#&lt;/a>
+&lt;/h2>&lt;p>Finally, while it&amp;rsquo;s easy to get lost in technology and collaborations, 2i2c has also made important steps towards defining a stable and transparent organizational model moving forward.
 2i2c now
 &lt;a href="https://compass.2i2c.org/en/latest/about/structure.html#steering-council" target="_blank" rel="noopener">has a Steering Council&lt;/a>
 and an
@@ -168,8 +194,10 @@ that we&amp;rsquo;ll use to guide our path in the first year of 2i2c&amp;rsquo;s
 .
 This is a set of guidelines, and a process for resolving incidents, that makes our community more inclusive, equitable, and enjoyable for all.
 Creating a Code of Conduct is a crucial part of defining our organizational and community culture, and we&amp;rsquo;re excited to have some explicit guidelines to support our interactions in the future!&lt;/p>
-&lt;h2 id="keep-in-touch">Keep in touch&lt;/h2>
-&lt;p>Now that we are improving our organizational foundation, we will try to post more frequent updates and discussions about what we are up to.
+&lt;h2 id="keep-in-touch">
+Keep in touch
+&lt;a class="header-anchor" href="#keep-in-touch">#&lt;/a>
+&lt;/h2>&lt;p>Now that we are improving our organizational foundation, we will try to post more frequent updates and discussions about what we are up to.
 We hope for 2i2c to be a model organization in participatory, collaborative, transparent operations, and we look forward to working with you all in the future on this journey.&lt;/p></description></item><item><title>2i2c receives core support from CZI</title><link>https://2i2c.org/blog/2021/czi-core-support/</link><pubDate>Thu, 19 Nov 2020 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2021/czi-core-support/</guid><description>&lt;p>Last week we
 &lt;a href="https://2i2c.org/posts/2021/hello-world/">announced the creation of 2i2c&lt;/a>
 , a non-profit initiative dedicated to improving and facilitating access to infrastructure for interactive computing workflows in research and education. Today we are thrilled to announce that 2i2c has received core support from the
@@ -179,8 +207,10 @@ We hope for 2i2c to be a model organization in participatory, collaborative, tra
 .&lt;/p>
 &lt;p>This funding totals around $1.4m over three years. It provides crucial core support for 2i2c as it bootstraps itself into existence. We are so thankful to CZI for this support. 🎉🙏✨&lt;/p>
 &lt;p>The rest of this post is a short run-down of what we&amp;rsquo;ll use this funding for, and what we hope to accomplish.&lt;/p>
-&lt;h2 id="the-big-picture">The big picture&lt;/h2>
-&lt;p>In recent years, several projects including
+&lt;h2 id="the-big-picture">
+The big picture
+&lt;a class="header-anchor" href="#the-big-picture">#&lt;/a>
+&lt;/h2>&lt;p>In recent years, several projects including
 &lt;a href="https://mybinder.org" target="_blank" rel="noopener">Binder&lt;/a>
 ,
 &lt;a href="https://pangeo.io" target="_blank" rel="noopener">Pangeo&lt;/a>
@@ -191,13 +221,17 @@ We hope for 2i2c to be a model organization in participatory, collaborative, tra
 have built atop the Jupyter architecture to support cloud-based infrastructure for reproducible research, large-scale scientific data analysis, national-scale infrastructure for researchers, and broad-impact educational programs based on freely available computational materials. These projects illustrate the transformative potential of the open Jupyter architecture, but they have also shown that unlocking this potential in service of scientists and educators requires continued development and resources beyond those of open source volunteers.&lt;/p>
 &lt;p>In order to deploy these resources at scale, manage and maintain them for large communities, and to continue developing the underlying technologies for scientific use cases, we need models to sustainably deploy and improve Jupyter technology. We also need capacity for thinking strategically and forging new partnerships to accomplish this goal. This funding will support 2i2c’s early strategic planning and partnership efforts, as well as technical development and operation of Jupyter infrastructure for research and education.&lt;/p>
 &lt;p>Below are two keys goals for this grant:&lt;/p>
-&lt;h2 id="goal-1-build-capacity-for-jupyter-in-research-and-education">Goal 1: Build capacity for Jupyter in research and education&lt;/h2>
-&lt;p>The primary goal of this funding is to build more capacity for Jupyter&amp;rsquo;s engagement in research and education. This funding will primarily support
+&lt;h2 id="goal-1-build-capacity-for-jupyter-in-research-and-education">
+Goal 1: Build capacity for Jupyter in research and education
+&lt;a class="header-anchor" href="#goal-1-build-capacity-for-jupyter-in-research-and-education">#&lt;/a>
+&lt;/h2>&lt;p>The primary goal of this funding is to build more capacity for Jupyter&amp;rsquo;s engagement in research and education. This funding will primarily support
 &lt;a href="https://2i2c.org/author/chris-holdgraf">Chris Holdgraf&lt;/a>
 to build strategic partnerships and collaborations, find opportunities for Jupyter infrastructure to benefit research and education, coordinate activity in the Jupyter project that benefits these communities, and secure more funding for development, maintenance, and support for Jupyter technology.&lt;/p>
 &lt;p>We are grateful to CZI for this funding because strategy, leadership, and community support are often difficult to fund from grants that are focused on technical deliverables. By funding strategic growth and capacity building, CZI is helping 2i2c lay a strong foundation from which it can have a greater impact.&lt;/p>
-&lt;h2 id="goal-2-support-hosted-jupyter-infrastructure-for-research-and-education">Goal 2: Support hosted Jupyter infrastructure for research and education&lt;/h2>
-&lt;p>2i2c will offer hosted
+&lt;h2 id="goal-2-support-hosted-jupyter-infrastructure-for-research-and-education">
+Goal 2: Support hosted Jupyter infrastructure for research and education
+&lt;a class="header-anchor" href="#goal-2-support-hosted-jupyter-infrastructure-for-research-and-education">#&lt;/a>
+&lt;/h2>&lt;p>2i2c will offer hosted
 &lt;a href="https://2i2c.org/infrastructure">interactive computing infrastructure&lt;/a>
 utilizing the Jupyter ecosystem. It will both deploy and operate this infrastructure for researchers and educators, as well as perform core development to ensure that it serves these communities well. Funding from this grant will support 2i2c&amp;rsquo;s first hire -
 &lt;a href="https://2i2c.org/author/georgiana-dolocan">Georgiana Dolocan&lt;/a>
@@ -216,8 +250,10 @@ and
 for their original support of our Outreachy interns and the
 &lt;a href="https://chanzuckerberg.com/eoss/" target="_blank" rel="noopener">CZI EOSS grant series&lt;/a>
 for funding the original Contributor in Residence.&lt;/p>
-&lt;h2 id="whats-next">What&amp;rsquo;s next&lt;/h2>
-&lt;p>With this core support, 2i2c turns towards its
+&lt;h2 id="whats-next">
+What&amp;rsquo;s next
+&lt;a class="header-anchor" href="#whats-next">#&lt;/a>
+&lt;/h2>&lt;p>With this core support, 2i2c turns towards its
 &lt;a href="https://2i2c.org/infrastructure/#kinds-of-hubs">JupyterHub pilot deployments&lt;/a>
 to build early prototypes that serve research and education, and to build organizational models that sustain these hubs and their development. If you or your organization think you’d be a good fit for these pilots, please
 &lt;a href="mailto:hello@2i2c.org">reach out to 2i2c&lt;/a>
@@ -231,8 +267,10 @@ at JupyterCon 2020:&lt;/p>
 &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
 &lt;iframe src="https://www.youtube.com/embed/YjonPLxDiwM" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" allowfullscreen title="YouTube Video">&lt;/iframe>
 &lt;/div>
-&lt;h2 id="why-create-2i2c">Why create 2i2c?&lt;/h2>
-&lt;p>The founding team of 2i2c has spent the last several years running projects that use interactive computing for research and education, including
+&lt;h2 id="why-create-2i2c">
+Why create 2i2c?
+&lt;a class="header-anchor" href="#why-create-2i2c">#&lt;/a>
+&lt;/h2>&lt;p>The founding team of 2i2c has spent the last several years running projects that use interactive computing for research and education, including
 &lt;a href="https://2i2c.org/founders#datahub">bringing data science education to thousands of students&lt;/a>
 , connecting
 &lt;a href="https://2i2c.org/founders#pangeo">geospatial researchers with large datasets and computational resources in the cloud&lt;/a>
@@ -241,8 +279,10 @@ at JupyterCon 2020:&lt;/p>
 , to name a few.&lt;/p>
 &lt;p>Over time we realized that, while infrastructure for interactive computing could be a huge benefit to research and education, it also required a fair amount of expertise to configure, deploy, and develop. We wished for other organizations to enjoy the same success that we had found, but learned that for many, deploying their own infrastructure was a non-starter to adoption. Instead, many were turning to proprietary or vendor-specific tooling.&lt;/p>
 &lt;p>We created 2i2c so that these organizations can use entirely open-source tools without hiring and training their own dev-ops and infrastructure talent, and so that &lt;em>development&lt;/em> and &lt;em>support&lt;/em> of open tools for interactive computing continues to represent the interests of research and education.&lt;/p>
-&lt;h2 id="why-a-non-profit">Why a non-profit?&lt;/h2>
-&lt;p>It may sound strange to create a non-profit initiative when there are many VC-funded startups and large tech companies offering notebook services these days. However, we think that a non-profit organization is the right approach to balance the interests of all the stakeholders that we wish to serve. We hope that 2i2c will be a partner to:&lt;/p>
+&lt;h2 id="why-a-non-profit">
+Why a non-profit?
+&lt;a class="header-anchor" href="#why-a-non-profit">#&lt;/a>
+&lt;/h2>&lt;p>It may sound strange to create a non-profit initiative when there are many VC-funded startups and large tech companies offering notebook services these days. However, we think that a non-profit organization is the right approach to balance the interests of all the stakeholders that we wish to serve. We hope that 2i2c will be a partner to:&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>Research and educational communities&lt;/strong>, who can rely on 2i2c to provide them cutting-edge infrastructure for interactive computing that is 💯 open source.&lt;/li>
 &lt;li>&lt;strong>Researchers and educators who need development&lt;/strong>, who can rely on 2i2c as a collaborator that offers development and expertise in open-source infrastructure to push the cutting edge of interactive computing in the cloud.&lt;/li>
@@ -251,8 +291,10 @@ at JupyterCon 2020:&lt;/p>
 &lt;li>&lt;strong>Supporters of open source&lt;/strong> who wish to support interactive computing for research and education via a non-profit dedicated to exactly this mission.&lt;/li>
 &lt;/ul>
 &lt;p>As a non-profit initiative, 2i2c is dedicated to supporting an ecosystem of tools and stakeholders across the open source community, and to ensuring that those tools are well-suited for research and education. We believe strongly in mission-driven work, and non-profit status will ensure that the work that we do is always aligned with our mission and values.&lt;/p>
-&lt;h2 id="what-are-we-going-to-do">What are we going to do?&lt;/h2>
-&lt;p>With all of that in mind, what is 2i2c actually going to do? We are still working out the details, but here&amp;rsquo;s a rough picture:&lt;/p>
+&lt;h2 id="what-are-we-going-to-do">
+What are we going to do?
+&lt;a class="header-anchor" href="#what-are-we-going-to-do">#&lt;/a>
+&lt;/h2>&lt;p>With all of that in mind, what is 2i2c actually going to do? We are still working out the details, but here&amp;rsquo;s a rough picture:&lt;/p>
 &lt;p>Offer
 &lt;a href="https://2i2c.org/infrastructure">&lt;strong>hosted interactive computing environments on cloud infrastructure&lt;/strong>&lt;/a>
 . These will
@@ -266,8 +308,10 @@ and vendor-neutral, and customizable for the communities that are using them. Th
 &lt;p>Provide
 &lt;a href="https://2i2c.org/service/#jupyter">&lt;strong>core development and community support&lt;/strong>&lt;/a>
 for open source projects that we use. While many organizations &lt;em>use&lt;/em> Jupyter technology in their projects, it is also crucial that they &lt;em>give back&lt;/em> to those tools in order to keep the ecosystem healthy. As a mission-driven non-profit, 2i2c has a core goal in not only deploying and customizing open source tools, but also providing core support for them.&lt;/p>
-&lt;h2 id="next-steps">Next steps&lt;/h2>
-&lt;p>2i2c is a young organization, but we already have a few exciting ideas to work towards in the coming months. Here&amp;rsquo;s an idea of what we&amp;rsquo;ll be up to next.&lt;/p>
+&lt;h2 id="next-steps">
+Next steps
+&lt;a class="header-anchor" href="#next-steps">#&lt;/a>
+&lt;/h2>&lt;p>2i2c is a young organization, but we already have a few exciting ideas to work towards in the coming months. Here&amp;rsquo;s an idea of what we&amp;rsquo;ll be up to next.&lt;/p>
 &lt;p>Our first step is to &lt;strong>understand how interactive computing can best-serve the research and education communities&lt;/strong>. We know that interactive computing tools work in our specific use-cases, but how do these generalize to other domains or types of organizations? Moreover, how can we improve the open source tools to make them even more customizable for each community?&lt;/p>
 &lt;p>We&amp;rsquo;ll begin answering this question through several focused JupyterHub pilots aimed at different use-cases across research and education:&lt;/p>
 &lt;ol>
@@ -276,8 +320,10 @@ for open source projects that we use. While many organizations &lt;em>use&lt;/em
 &lt;li>&lt;strong>JupyterHub development for the Pangeo Project&lt;/strong>. Pangeo has been a collaborator of 2i2c since day one, and we love its vision for large-scale earth analytics via cloud infrastructure. We plan to work closely with Pangeo leadership to work on early development of tools aimed at facilitating scalable computing for research on Pangeo infrastructure. More information about this to come soon.&lt;/li>
 &lt;/ol>
 &lt;p>We&amp;rsquo;ll also use these pilots to &lt;strong>develop an organizational sustainability model&lt;/strong> around this infrastructure. It takes expertise to manage and develop cloud infrastructure, and 2i2c wishes to pay market rates for its engineers. How can 2i2c offer services and development in a way that is sustainable both for itself and for other institutions? We&amp;rsquo;ll use these pilots to create a plan for both sustaining and scaling 2i2c&amp;rsquo;s ability to serve institutions and teams.&lt;/p>
-&lt;h2 id="what-do-we-need">What do we need?&lt;/h2>
-&lt;p>As a non-profit initiative, 2i2c has a long road ahead of it. We cannot take venture capital funding, so we have to raise funds the old-fashioned way. This means that:&lt;/p>
+&lt;h2 id="what-do-we-need">
+What do we need?
+&lt;a class="header-anchor" href="#what-do-we-need">#&lt;/a>
+&lt;/h2>&lt;p>As a non-profit initiative, 2i2c has a long road ahead of it. We cannot take venture capital funding, so we have to raise funds the old-fashioned way. This means that:&lt;/p>
 &lt;ul>
 &lt;li>If you are at an organization interested in purchasing hosted JupyterHub environments from 2i2c, please
 &lt;a href="mailto:hello@2i2c.org">send us an email &lt;i class="fas fa-envelope">&lt;/i>&lt;/a>
@@ -292,8 +338,10 @@ for open source projects that we use. While many organizations &lt;em>use&lt;/em
 &lt;p>Moreover, we&amp;rsquo;ll likely be hiring in the coming months for open source engineers, with a focus on data science, interactive computing, and the cloud. If you&amp;rsquo;re interested in working for an organization like 2i2c, please
 &lt;a href="mailto:hello@2i2c.org">send us an email &lt;i class="fas fa-envelope">&lt;/i>&lt;/a>
 , and keep an eye on this space as we will post more information soon.&lt;/p>
-&lt;h2 id="get-involved">Get involved&lt;/h2>
-&lt;p>If you&amp;rsquo;d like to get involved with the 2i2c team and community, we recommend two pathways for doing so.&lt;/p>
+&lt;h2 id="get-involved">
+Get involved
+&lt;a class="header-anchor" href="#get-involved">#&lt;/a>
+&lt;/h2>&lt;p>If you&amp;rsquo;d like to get involved with the 2i2c team and community, we recommend two pathways for doing so.&lt;/p>
 &lt;p>
 &lt;a href="https://docs.google.com/forms/d/e/1FAIpQLSdW_bhVrXfgRYa9Ct6w399KQPILbU_3nKUF_tgnGZJbs91SXg/viewform?usp=sf_link" target="_blank" rel="noopener">Subscribe to our mailing list&lt;/a>
 . We&amp;rsquo;ll use this to periodically send updates about what 2i2c is up to.&lt;/p>
@@ -303,8 +351,10 @@ for open source projects that we use. While many organizations &lt;em>use&lt;/em
 &lt;p>You can also say hello to us on Twitter at
 &lt;a href="https://twitter.com/2i2c_org" target="_blank" rel="noopener">@2i2c_org&lt;/a>
 .&lt;/p>
-&lt;h2 id="wrapping-up">Wrapping up&lt;/h2>
-&lt;p>We are excited about 2i2c, and believe that it is the right kind of organization to create to support research and education, as well as open source communities in interactive computing. The road ahead is a difficult one, but we&amp;rsquo;re confident that we will hit our stride quickly. Stay tuned for more updates to come.&lt;/p>
+&lt;h2 id="wrapping-up">
+Wrapping up
+&lt;a class="header-anchor" href="#wrapping-up">#&lt;/a>
+&lt;/h2>&lt;p>We are excited about 2i2c, and believe that it is the right kind of organization to create to support research and education, as well as open source communities in interactive computing. The road ahead is a difficult one, but we&amp;rsquo;re confident that we will hit our stride quickly. Stay tuned for more updates to come.&lt;/p>
 &lt;section class="footnotes" role="doc-endnotes">
 &lt;hr>
 &lt;ol>

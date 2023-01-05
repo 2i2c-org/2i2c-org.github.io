@@ -1,5 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>community | 2i2c</title><link>https://2i2c.org/category/community/</link><atom:link href="https://2i2c.org/category/community/index.xml" rel="self" type="application/rss+xml"/><description>community</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 14 Jul 2022 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>community</title><link>https://2i2c.org/category/community/</link></image><item><title>Reflections on the Jack Eddy Symposium</title><link>https://2i2c.org/blog/2022/eddy-symposium-report/</link><pubDate>Thu, 14 Jul 2022 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2022/eddy-symposium-report/</guid><description>&lt;h1 id="reflections-on-the-jack-eddy-symposium">Reflections on the Jack Eddy Symposium&lt;/h1>
-&lt;p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>community | 2i2c</title><link>https://2i2c.org/category/community/</link><atom:link href="https://2i2c.org/category/community/index.xml" rel="self" type="application/rss+xml"/><description>community</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Thu, 14 Jul 2022 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>community</title><link>https://2i2c.org/category/community/</link></image><item><title>Reflections on the Jack Eddy Symposium</title><link>https://2i2c.org/blog/2022/eddy-symposium-report/</link><pubDate>Thu, 14 Jul 2022 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2022/eddy-symposium-report/</guid><description>
+&lt;h1 id="reflections-on-the-jack-eddy-symposium">
+Reflections on the Jack Eddy Symposium
+&lt;a class="header-anchor" href="#reflections-on-the-jack-eddy-symposium">#&lt;/a>
+&lt;/h1>&lt;p>
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Eddy Symposium Hero Image" srcset="
@@ -19,8 +22,10 @@ held recently in Vail Colorado. The event was hosted by the Cooperative Programs
 ) team at the University Corporation for Atmospheric Research (
 &lt;a href="https://www.ucar.edu/" target="_blank" rel="noopener">UCAR&lt;/a>
 ) with support from NASA.&lt;/p>
-&lt;h2 id="context">Context&lt;/h2>
-&lt;p>The Symposium was framed by the interesting and interdisciplinary scientific career of the late
+&lt;h2 id="context">
+Context
+&lt;a class="header-anchor" href="#context">#&lt;/a>
+&lt;/h2>&lt;p>The Symposium was framed by the interesting and interdisciplinary scientific career of the late
 &lt;a href="https://en.wikipedia.org/wiki/John_A._Eddy" target="_blank" rel="noopener">Jack Eddy&lt;/a>
 . Eddy&amp;rsquo;s legacy was highlighted and his influence has been extended by dynamic leadership from NASA Program Officer
 &lt;a href="https://science.nasa.gov/about-us/organization-and-leadership/lead-program-scientist-for-lws" target="_blank" rel="noopener">Madhulika Guhathakurta (Lika)&lt;/a>
@@ -32,8 +37,10 @@ program over the past two decades. Prior to LWS, NASA had a variety of siloed ef
 . Symposium attendees listened to talks surveying the four areas in the morning and participated in hackathon-style breakout projects during the afternoons. Work on the projects launched at the Eddy Symposium
 &lt;a href="https://github.com/jack-eddy-symposium" target="_blank" rel="noopener">continues&lt;/a>
 . The space weather group is investigating ways to make the power grid more resilient. The Sun-climate group is exploring plans to establish an institute focused on Sun-climate interactions and improve connections between climate and heliophysics research communities. The exoplanets team is developing tools to programmatically compare Sun-Earth and star-exoplanet interactions.&lt;/p>
-&lt;h2 id="2i2cs-role">2i2c&amp;rsquo;s role&lt;/h2>
-&lt;p>2i2c, with input from Symposium CoChair&amp;rsquo;s
+&lt;h2 id="2i2cs-role">
+2i2c&amp;rsquo;s role
+&lt;a class="header-anchor" href="#2i2cs-role">#&lt;/a>
+&lt;/h2>&lt;p>2i2c, with input from Symposium CoChair&amp;rsquo;s
 &lt;a href="https://staff.ucar.edu/users/marsh" target="_blank" rel="noopener">Dan Marsh&lt;/a>
 and
 &lt;a href="http://www.ryanmcgranaghan.com/about.html" target="_blank" rel="noopener">Ryan McGranaghan&lt;/a>
@@ -60,8 +67,10 @@ were highlighted. The talk showcased how these tools have been integrated to sup
 ,
 &lt;a href="https://unesdoc.unesco.org/ark:/48223/pf0000379949/PDF/379949eng.pdf.multi.page=1" target="_blank" rel="noopener">UNESCO&lt;/a>
 ) in open science is an inflection point for global change. The talk ended with a call to action for the diverse communities represented at the Symposium to improve the ways we do science.&lt;/p>
-&lt;h2 id="things-we-learned">Things we learned&lt;/h2>
-&lt;p>Our experience with the Symposium taught 2i2c a few things.&lt;/p>
+&lt;h2 id="things-we-learned">
+Things we learned
+&lt;a class="header-anchor" href="#things-we-learned">#&lt;/a>
+&lt;/h2>&lt;p>Our experience with the Symposium taught 2i2c a few things.&lt;/p>
 &lt;p>We learned that our engineering team can rapidly deploy interactive computing resources to support a research and education community. Along the way, we confirmed what we&amp;rsquo;ve been learning from Pangeo and the neuroscience communities: flexible methods to customize the software environment are necessary. We confirmed that our developing
 &lt;a href="https://docs.2i2c.org/en/latest/about/service/shared-responsibility.html?highlight=shared%20responsibility" target="_blank" rel="noopener">shared responsibility model&lt;/a>
 , enabling domain-specific experts to provide curated toolchains for their communities while leveraging 2i2c&amp;rsquo;s infrastructure expertise, is the right approach.&lt;/p>

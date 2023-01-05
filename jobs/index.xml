@@ -42,8 +42,10 @@
 &lt;/li>
 &lt;/ul>
 &lt;/div>
-&lt;h2 id="who-we-are">Who we are&lt;/h2>
-&lt;p>2i2c is a non-profit organization with a mission to make interactive computing more accessible, scalable, and powerful for research and education:
+&lt;h2 id="who-we-are">
+Who we are
+&lt;a class="header-anchor" href="#who-we-are">#&lt;/a>
+&lt;/h2>&lt;p>2i2c is a non-profit organization with a mission to make interactive computing more accessible, scalable, and powerful for research and education:
 &lt;a href="https://2i2c.org/about">https://2i2c.org/about/&lt;/a>
 .&lt;/p>
 &lt;p>We accomplish this mission by providing managed cloud services for interactive computing, by providing development and technical leadership to researchers and educators that utilize this infrastructure for specific communities, and by providing support for open source tools and communities in this ecosystem.&lt;/p>
@@ -52,16 +54,20 @@
 &lt;p>2i2c is a fiscally sponsored project of
 &lt;a href="http://www.codeforsociety.org/" target="_blank" rel="noopener">Code for Science and Society&lt;/a>
 , a registered US 501(c)(3) nonprofit corporation.&lt;/p>
-&lt;h2 id="what-youll-do">What you’ll do&lt;/h2>
-&lt;ul>
+&lt;h2 id="what-youll-do">
+What you’ll do
+&lt;a class="header-anchor" href="#what-youll-do">#&lt;/a>
+&lt;/h2>&lt;ul>
 &lt;li>Ensure the reliable operation of the 2i2c infrastructure (leveraging production-ready cloud-based tools such as JupyterHub, BinderHub and Dask).&lt;/li>
 &lt;li>Address support issues&lt;/li>
 &lt;li>Explore emerging technologies in the Cloud / DevOps space, design and implement cloud computing architecture in partnership with our team.&lt;/li>
 &lt;li>Participate in upstream open source communities we rely on (such as JupyterHub, BinderHub, Dask, etc) in partnership with the established leaders of those communities and collaborate with the Community Lead in the education and outreach around cloud computing.&lt;/li>
 &lt;li>Work with a distributed and global team - team members are given a lot of autonomy, and expected to be proactive at communicating with one another and working with others to allocate effort that will maximize our impact.&lt;/li>
 &lt;/ul>
-&lt;h2 id="essential-requirements">Essential requirements&lt;/h2>
-&lt;ul>
+&lt;h2 id="essential-requirements">
+Essential requirements
+&lt;a class="header-anchor" href="#essential-requirements">#&lt;/a>
+&lt;/h2>&lt;ul>
 &lt;li>Experience deploying applications on cloud infrastructure.&lt;/li>
 &lt;li>Experience deploying and developing with Linux container-based technologies, such as Docker and Kubernetes.&lt;/li>
 &lt;li>Experience with continuous integration services (e.g. Circle CI, GitHub workflows).&lt;/li>
@@ -69,8 +75,10 @@
 &lt;li>Experience collaborating and coordinating work via online platforms, such as GitHub, GitLab, or BitBucket, and distributed revision control.&lt;/li>
 &lt;li>Experience working with distributed service teams that use asynchronous methods of communication&lt;/li>
 &lt;/ul>
-&lt;h2 id="desirable-requirements">Desirable requirements&lt;/h2>
-&lt;ul>
+&lt;h2 id="desirable-requirements">
+Desirable requirements
+&lt;a class="header-anchor" href="#desirable-requirements">#&lt;/a>
+&lt;/h2>&lt;ul>
 &lt;li>Experience with major cloud providers.&lt;/li>
 &lt;li>Experience in programming and software engineering with a track record of leadership in open, collaborative projects with broad community adoption.&lt;/li>
 &lt;li>Experience working on geographically distributed open-source projects.&lt;/li>
@@ -81,14 +89,18 @@
 &lt;li>Experience building and maintaining continuous deployment pipelines.&lt;/li>
 &lt;li>Interpersonal skills to work with researchers and students, including skills to communicate complex information in a clear and concise manner both verbally and in writing.&lt;/li>
 &lt;/ul>
-&lt;h2 id="what-it-is-like-to-work-at-2i2c-and-why-youll-like-working-with-us">What it is like to work at 2i2c and why you’ll like working with us&lt;/h2>
-&lt;p>2i2c is a remote-first team that believes strongly in our organizational values and mission. We recommend that you visit our
+&lt;h2 id="what-it-is-like-to-work-at-2i2c-and-why-youll-like-working-with-us">
+What it is like to work at 2i2c and why you’ll like working with us
+&lt;a class="header-anchor" href="#what-it-is-like-to-work-at-2i2c-and-why-youll-like-working-with-us">#&lt;/a>
+&lt;/h2>&lt;p>2i2c is a remote-first team that believes strongly in our organizational values and mission. We recommend that you visit our
 &lt;a href="https://2i2c.org/jobs">jobs page&lt;/a>
 , to learn about what it’s like to work at 2i2c and why you should work with us. You will also find relevant information about our compensation philosophy and our commitment to equal opportunity. For an even deeper look into how 2i2c works, check out our
 &lt;a href="https://compass.2i2c.org/en/latest/" target="_blank" rel="noopener">Team Compass&lt;/a>
 .&lt;/p>
-&lt;h2 id="how-to-apply">How to apply&lt;/h2>
-&lt;p>Please fill out the following
+&lt;h2 id="how-to-apply">
+How to apply
+&lt;a class="header-anchor" href="#how-to-apply">#&lt;/a>
+&lt;/h2>&lt;p>Please fill out the following
 &lt;a href="https://forms.gle/RPqWHoweDnvUVp4d8" target="_blank" rel="noopener">application form&lt;/a>
 .
 We will begin reviewing applications on November 17th, and will accept them on a rolling basis until the position is filled.&lt;/p>
@@ -138,16 +150,22 @@ See &lt;a href="https://2i2c.org/jobs">the jobs page&lt;/a> for our open positio
 &lt;/li>
 &lt;/ul>
 &lt;/div>
-&lt;h2 id="position-summary">Position summary&lt;/h2>
-&lt;p>This role will guide and empower the communities that we serve, learn from them, and bring their perspective to guide our service and product development. It is similar to a mixture of product management and community and developer advocacy in a tech firm, but adjusted for research, education, and open source contexts. It is also similar to a
+&lt;h2 id="position-summary">
+Position summary
+&lt;a class="header-anchor" href="#position-summary">#&lt;/a>
+&lt;/h2>&lt;p>This role will guide and empower the communities that we serve, learn from them, and bring their perspective to guide our service and product development. It is similar to a mixture of product management and community and developer advocacy in a tech firm, but adjusted for research, education, and open source contexts. It is also similar to a
 &lt;a href="https://the-turing-way.netlify.app/collaboration/research-infrastructure-roles/ram.html" target="_blank" rel="noopener">&lt;strong>Research Applications Manager&lt;/strong>&lt;/a>
 , but with a focus on using and developing infrastructure.&lt;/p>
 &lt;p>The skills required are a combination of communication, teaching, learning, service design and delivery, and technical acumen. The person that fills this role should feel comfortable learning and sharing ideas, empowering and guiding others, and communicating clearly and collaboratively with a variety of stakeholders including end-users and engineers.&lt;/p>
 &lt;p>This is a leadership role for a strategy-minded practitioner. 2i2c is a young organization, and this role will have a large degree of autonomy and flexibility. We have defined the starting point, but we seek someone who can bring a strategic eye to this position. Over time we hope that the role will grow to define and lead this style of work within 2i2c more broadly.&lt;/p>
-&lt;h2 id="what-youll-do">What you’ll do&lt;/h2>
-&lt;p>This role is a combination of connecting, guiding, leading, learning, communicating, and empowering stakeholders in the communities we serve, as well as the 2i2c engineering team. Here are some key focus areas with core responsibilities under each:&lt;/p>
-&lt;h3 id="guiding-and-learning-from-communities-we-serve">Guiding and learning from communities we serve&lt;/h3>
-&lt;p>Our users are often not &amp;ldquo;power-users&amp;rdquo; with Jupyter, open source workflows, or cloud-native workflows. This role should work with users of these communities to guide them in using our infrastructure for maximal impact. Below are a few example responsibilities:&lt;/p>
+&lt;h2 id="what-youll-do">
+What you’ll do
+&lt;a class="header-anchor" href="#what-youll-do">#&lt;/a>
+&lt;/h2>&lt;p>This role is a combination of connecting, guiding, leading, learning, communicating, and empowering stakeholders in the communities we serve, as well as the 2i2c engineering team. Here are some key focus areas with core responsibilities under each:&lt;/p>
+&lt;h3 id="guiding-and-learning-from-communities-we-serve">
+Guiding and learning from communities we serve
+&lt;a class="header-anchor" href="#guiding-and-learning-from-communities-we-serve">#&lt;/a>
+&lt;/h3>&lt;p>Our users are often not &amp;ldquo;power-users&amp;rdquo; with Jupyter, open source workflows, or cloud-native workflows. This role should work with users of these communities to guide them in using our infrastructure for maximal impact. Below are a few example responsibilities:&lt;/p>
 &lt;p>&lt;strong>Understand the goals and needs of the communities we serve&lt;/strong>, as well as the major pain points and problems that they have. This understanding may not be directly communicated and will be gained through active observation. For example:&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>Create and engage in spaces for sharing information with users.&lt;/strong> For example, online forums and live community discussions.&lt;/li>
@@ -170,8 +188,10 @@ See &lt;a href="https://2i2c.org/jobs">the jobs page&lt;/a> for our open positio
 &lt;li>&lt;strong>Communicate externally to demonstrate impact.&lt;/strong> For example, by participating in meetings, conferences, and other events where we have an opportunity to highlight the work that 2i2c does.&lt;/li>
 &lt;li>&lt;strong>Interact extensively with open source communities&lt;/strong> that underlie our infrastructure, potentially serving in leadership roles and doing significant work to support these communities. There will be a particular focus on the Jupyter and PyData ecosystems.&lt;/li>
 &lt;/ul>
-&lt;h3 id="guide-product-and-service-design-and-implementation">Guide product and service design and implementation&lt;/h3>
-&lt;p>This role should understand the perspectives of our users and the use-cases we wish to enable, and bring this perspective to guide the evolution of our services and infrastructure. Below are a few example responsibilities:&lt;/p>
+&lt;h3 id="guide-product-and-service-design-and-implementation">
+Guide product and service design and implementation
+&lt;a class="header-anchor" href="#guide-product-and-service-design-and-implementation">#&lt;/a>
+&lt;/h3>&lt;p>This role should understand the perspectives of our users and the use-cases we wish to enable, and bring this perspective to guide the evolution of our services and infrastructure. Below are a few example responsibilities:&lt;/p>
 &lt;p>&lt;strong>Represent user communities and communicate their needs&lt;/strong> to the engineering team, leadership team, and other stakeholders. For example:&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>Discuss and shape ideas for development&lt;/strong> in collaboration with the engineering and sustainability teams within 2i2c. This may entail writing design documents and participating in GitHub issues and Pull Requests.&lt;/li>
@@ -182,8 +202,10 @@ See &lt;a href="https://2i2c.org/jobs">the jobs page&lt;/a> for our open positio
 &lt;li>&lt;strong>Participate in team planning meetings and practices.&lt;/strong> For example, prioritization and planning in GitHub Issues, or in synchronous team meetings.&lt;/li>
 &lt;li>&lt;strong>Collaborate with engineers throughout the implementation of enhancements to our infrastructure&lt;/strong>. For example, providing ongoing check-ins, guidance, and feedback via GitHub issues.&lt;/li>
 &lt;/ul>
-&lt;h3 id="strategic-leadership">Strategic leadership&lt;/h3>
-&lt;p>This is the first position of its kind within 2i2c, and it will have freedom to shape its strategy and role with the organization. It should oversee the evolution and growth of this &lt;em>kind&lt;/em> of work within 2i2c, and develop organizational strategy for how to maximize our impact. Below are a few ways that this might occur (both independently and in partnership with others at 2i2c):&lt;/p>
+&lt;h3 id="strategic-leadership">
+Strategic leadership
+&lt;a class="header-anchor" href="#strategic-leadership">#&lt;/a>
+&lt;/h3>&lt;p>This is the first position of its kind within 2i2c, and it will have freedom to shape its strategy and role with the organization. It should oversee the evolution and growth of this &lt;em>kind&lt;/em> of work within 2i2c, and develop organizational strategy for how to maximize our impact. Below are a few ways that this might occur (both independently and in partnership with others at 2i2c):&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>Develop a product and service culture&lt;/strong> that balances intuition, community research, and data to create delightful experiences and maximize our impact.&lt;/li>
 &lt;li>&lt;strong>Define key goals and evaluation criteria for the success of our communities&lt;/strong>, and work with others at 2i2c to measure and refine these goals, communicate our impact internally, and use this experience to refine our team processes and strategy.&lt;/li>
@@ -191,8 +213,10 @@ See &lt;a href="https://2i2c.org/jobs">the jobs page&lt;/a> for our open positio
 &lt;li>&lt;strong>Develop a communications plan&lt;/strong> that communicates 2i2c’c impact and positions 2i2c as a leading advocate for community-owned interactive computing infrastructure.&lt;/li>
 &lt;li>&lt;strong>Collaborate around sustainability and stakeholder engagement&lt;/strong>. 2i2c aims to sustain itself through a combination of paid services, grants, and stakeholder partnerships. This role will collaborate with others at 2i2c in defining and carrying out these efforts.&lt;/li>
 &lt;/ul>
-&lt;h2 id="relevant-skills--career-goals">Relevant Skills &amp;amp; Career Goals&lt;/h2>
-&lt;p>Below are several skills that will make somebody well-suited for this role. There is significant scope to develop new skills and grow in the role, and some flexibility in emphasizing different aspects of the role based on the applicant’s skill sets and interests.&lt;/p>
+&lt;h2 id="relevant-skills--career-goals">
+Relevant Skills &amp;amp; Career Goals
+&lt;a class="header-anchor" href="#relevant-skills--career-goals">#&lt;/a>
+&lt;/h2>&lt;p>Below are several skills that will make somebody well-suited for this role. There is significant scope to develop new skills and grow in the role, and some flexibility in emphasizing different aspects of the role based on the applicant’s skill sets and interests.&lt;/p>
 &lt;ul>
 &lt;li>Experience with &lt;strong>community management and engagement&lt;/strong>, with a focus on teaching and sharing knowledge with others.&lt;/li>
 &lt;li>Experience with &lt;strong>product management and guidance&lt;/strong>, with a focus on collaboration with engineering teams at both a design and an implementation level.&lt;/li>
@@ -208,8 +232,10 @@ See &lt;a href="https://2i2c.org/jobs">the jobs page&lt;/a> for our open positio
 ).&lt;/li>
 &lt;li>Experience with &lt;strong>distributed and complex open source communities&lt;/strong> and ability to communicate and collaborate effectively with these communities.&lt;/li>
 &lt;/ul>
-&lt;h2 id="a-note-on-scope-and-expectations">A note on scope and expectations&lt;/h2>
-&lt;p>We know that this role is very broad in scope, and that there is a lot of room for interpretation of the specific responsibilities and duties. This is somewhat intentional, and somewhat unavoidable, given that this is the first role of its kind within 2i2c. We will do everything we can to set these expectations intentionally, and to refine them as we learn more, in order to reduce this ambiguity and ensure that this role is sustainable.&lt;/p></description></item><item><title>Open Source Infrastructure Engineer: Pangeo Project</title><link>https://2i2c.org/jobs/2021/osie-pangeo/</link><pubDate>Wed, 09 Dec 2020 00:00:00 +0000</pubDate><guid>https://2i2c.org/jobs/2021/osie-pangeo/</guid><description>&lt;p>We are looking for an Open Source Infrastructure Engineer who will help shape the future of data-intensive scientific research and make a big impact on important problems shaping society. This engineer will lead the development and operation of cloud-based infrastructure, focusing on the
+&lt;h2 id="a-note-on-scope-and-expectations">
+A note on scope and expectations
+&lt;a class="header-anchor" href="#a-note-on-scope-and-expectations">#&lt;/a>
+&lt;/h2>&lt;p>We know that this role is very broad in scope, and that there is a lot of room for interpretation of the specific responsibilities and duties. This is somewhat intentional, and somewhat unavoidable, given that this is the first role of its kind within 2i2c. We will do everything we can to set these expectations intentionally, and to refine them as we learn more, in order to reduce this ambiguity and ensure that this role is sustainable.&lt;/p></description></item><item><title>Open Source Infrastructure Engineer: Pangeo Project</title><link>https://2i2c.org/jobs/2021/osie-pangeo/</link><pubDate>Wed, 09 Dec 2020 00:00:00 +0000</pubDate><guid>https://2i2c.org/jobs/2021/osie-pangeo/</guid><description>&lt;p>We are looking for an Open Source Infrastructure Engineer who will help shape the future of data-intensive scientific research and make a big impact on important problems shaping society. This engineer will lead the development and operation of cloud-based infrastructure, focusing on the
 &lt;a href="https://pangeo.io" target="_blank" rel="noopener">Pangeo Project&lt;/a>
 - a community platform for big data geoscience.&lt;/p>
 &lt;div class="job-info">
@@ -253,8 +279,10 @@ See &lt;a href="https://2i2c.org/jobs">the jobs page&lt;/a> for our open positio
 &lt;/li>
 &lt;/ul>
 &lt;/div>
-&lt;h2 id="who-we-are">Who we are&lt;/h2>
-&lt;p>2i2c is a non-profit organization with a mission to make interactive computing more accessible, scalable, and powerful for research and education. We strive to&amp;hellip;&lt;/p>
+&lt;h2 id="who-we-are">
+Who we are
+&lt;a class="header-anchor" href="#who-we-are">#&lt;/a>
+&lt;/h2>&lt;p>2i2c is a non-profit organization with a mission to make interactive computing more accessible, scalable, and powerful for research and education. We strive to&amp;hellip;&lt;/p>
 &lt;ul>
 &lt;li>Support data workflows in research and education through infrastructure for interactive computing.&lt;/li>
 &lt;li>Support open tools and communities that underlie this infrastructure.&lt;/li>
@@ -265,10 +293,14 @@ See &lt;a href="https://2i2c.org/jobs">the jobs page&lt;/a> for our open positio
 &lt;p>2i2c is a project of the
 &lt;a href="https://icsi.berkeley.edu" target="_blank" rel="noopener">International Computer Science Institute&lt;/a>
 , a 501(c)(3) not-for-profit.&lt;/p>
-&lt;h2 id="what-youll-do">What you’ll do&lt;/h2>
-&lt;p>You will define the overall strategy and technical approach to cloud computing usage in Pangeo, and will interface with the Pangeo community on a frequent basis. You will help deploy, customize, and operate cloud infrastructure for research and interactive computing. You&amp;rsquo;ll use the experience operating this infrastructure to identify development opportunities, with the goal of minimizing maintenance time and toil - your goal will be to spend &lt;em>more time developing&lt;/em> and &lt;em>less time operating&lt;/em>. You will contribute to the general development and maintenance of open source software packages for the advancement of scientific objectives, and develop applications for extracting, transforming, loading, managing, and cataloging scientific data in the cloud. You will engage and interact with open source communities surrounding the tools that you use in serving the Pangeo community, and will represent 2i2c in these engagements. You will also collaborate with scientists to support research projects, and may conduct some education and training around scientific computing.&lt;/p>
-&lt;h2 id="responsibilities">Responsibilities&lt;/h2>
-&lt;ul>
+&lt;h2 id="what-youll-do">
+What you’ll do
+&lt;a class="header-anchor" href="#what-youll-do">#&lt;/a>
+&lt;/h2>&lt;p>You will define the overall strategy and technical approach to cloud computing usage in Pangeo, and will interface with the Pangeo community on a frequent basis. You will help deploy, customize, and operate cloud infrastructure for research and interactive computing. You&amp;rsquo;ll use the experience operating this infrastructure to identify development opportunities, with the goal of minimizing maintenance time and toil - your goal will be to spend &lt;em>more time developing&lt;/em> and &lt;em>less time operating&lt;/em>. You will contribute to the general development and maintenance of open source software packages for the advancement of scientific objectives, and develop applications for extracting, transforming, loading, managing, and cataloging scientific data in the cloud. You will engage and interact with open source communities surrounding the tools that you use in serving the Pangeo community, and will represent 2i2c in these engagements. You will also collaborate with scientists to support research projects, and may conduct some education and training around scientific computing.&lt;/p>
+&lt;h2 id="responsibilities">
+Responsibilities
+&lt;a class="header-anchor" href="#responsibilities">#&lt;/a>
+&lt;/h2>&lt;ul>
 &lt;li>Develops strategy and technical design for cloud computing architecture within the Pangeo project and related projects with 2i2c.&lt;/li>
 &lt;li>Assists with site reliability for Pangeo infrastructure, and uses experience operating this infrastructure to identify new opportunities for development.&lt;/li>
 &lt;li>Ensures the reliable operation of production cloud-based tools including JupyterHub / JupyterLab and Dask.&lt;/li>
@@ -282,8 +314,10 @@ See &lt;a href="https://2i2c.org/jobs">the jobs page&lt;/a> for our open positio
 &lt;li>Travels to conferences and workshops (once COVID-19 restrictions end).&lt;/li>
 &lt;li>Will work with minimal supervision from leadership at 2i2c in partnership with collaborators at Columbia and the Pangeo project. Will work independently and make their own decisions about where to best allocate effort.&lt;/li>
 &lt;/ul>
-&lt;h2 id="requirements">Requirements&lt;/h2>
-&lt;ul>
+&lt;h2 id="requirements">
+Requirements
+&lt;a class="header-anchor" href="#requirements">#&lt;/a>
+&lt;/h2>&lt;ul>
 &lt;li>Familiarity with deploying applications on cloud infrastructure.&lt;/li>
 &lt;li>Experience developing tools in a general purpose programming language (eg. Python)&lt;/li>
 &lt;li>Experience deploying and developing with Linux container technologies, such as Docker and Kubernetes&lt;/li>
@@ -292,8 +326,10 @@ See &lt;a href="https://2i2c.org/jobs">the jobs page&lt;/a> for our open positio
 &lt;li>Experience collaborating and coordinating work via online platforms, such as GitHub, GitLab, or BitBucket, and distributed revision control.&lt;/li>
 &lt;li>Experience working on geographically distributed open-source projects&lt;/li>
 &lt;/ul>
-&lt;h2 id="good-to-haves">Good-to-haves&lt;/h2>
-&lt;ul>
+&lt;h2 id="good-to-haves">
+Good-to-haves
+&lt;a class="header-anchor" href="#good-to-haves">#&lt;/a>
+&lt;/h2>&lt;ul>
 &lt;li>Experience in programming and software engineering with a track record of leadership in open, collaborative projects with broad community adoption&lt;/li>
 &lt;li>Experience with cloud infrastructure for data-driven workflows.&lt;/li>
 &lt;li>Experience with the Jupyter ecosystem of tools for interactive computing&lt;/li>
@@ -303,10 +339,14 @@ See &lt;a href="https://2i2c.org/jobs">the jobs page&lt;/a> for our open positio
 &lt;li>Experience building and maintaining continuous deployment pipelines&lt;/li>
 &lt;li>Interpersonal skills to work with researchers and students. Include having skills to communicate complex information in a clear and concise manner both verbally and in writing&lt;/li>
 &lt;/ul>
-&lt;h2 id="our-commitment-to-equal-opportunity">Our commitment to equal opportunity&lt;/h2>
-&lt;p>We are an equal opportunity employer and value diversity. We do not discriminate on the basis of race (including hairstyle and texture), religion (including religious grooming and dress practices), gender, gender identity, gender expression, color, national origin, pregnancy, ancestry, domestic partner status, disability, sexual orientation, age, genetic predisposition, medical condition, marital status, citizenship status, military or veteran status, or any other basis covered by applicable laws. We will provide reasonable accommodation to an employee or job applicant with a disability.&lt;/p>
-&lt;h2 id="how-to-apply">How to apply&lt;/h2>
-&lt;p>Please send an email to
+&lt;h2 id="our-commitment-to-equal-opportunity">
+Our commitment to equal opportunity
+&lt;a class="header-anchor" href="#our-commitment-to-equal-opportunity">#&lt;/a>
+&lt;/h2>&lt;p>We are an equal opportunity employer and value diversity. We do not discriminate on the basis of race (including hairstyle and texture), religion (including religious grooming and dress practices), gender, gender identity, gender expression, color, national origin, pregnancy, ancestry, domestic partner status, disability, sexual orientation, age, genetic predisposition, medical condition, marital status, citizenship status, military or veteran status, or any other basis covered by applicable laws. We will provide reasonable accommodation to an employee or job applicant with a disability.&lt;/p>
+&lt;h2 id="how-to-apply">
+How to apply
+&lt;a class="header-anchor" href="#how-to-apply">#&lt;/a>
+&lt;/h2>&lt;p>Please send an email to
 &lt;a href="mailto:jobs&amp;#43;OSIE-2020@2i2c.org">jobs+OSIE-2020@2i2c.org&lt;/a>
 with the following information.&lt;/p>
 &lt;ul>
@@ -315,8 +355,10 @@ with the following information.&lt;/p>
 &lt;li>Examples of your work (either public or private) that you believe shows that you are a good fit.&lt;/li>
 &lt;li>Your preferred work location.&lt;/li>
 &lt;/ul>
-&lt;h2 id="salary--benefits">Salary &amp;amp; Benefits&lt;/h2>
-&lt;p>We pay competitively (at San Francisco rates) for all of its positions, regardless of your geographic location or cost of living. Salaries are based entirely on job title along with discrete levels of experience within that job title. We also offer a generous benefits package for US-based employees.&lt;/p>
+&lt;h2 id="salary--benefits">
+Salary &amp;amp; Benefits
+&lt;a class="header-anchor" href="#salary--benefits">#&lt;/a>
+&lt;/h2>&lt;p>We pay competitively (at San Francisco rates) for all of its positions, regardless of your geographic location or cost of living. Salaries are based entirely on job title along with discrete levels of experience within that job title. We also offer a generous benefits package for US-based employees.&lt;/p>
 &lt;p>See
 &lt;a href="https://2i2c.org/careers/#salaries-and-benefits">our Salary and Benefits page&lt;/a>
 for more information.&lt;/p></description></item></channel></rss>

@@ -24,8 +24,10 @@ We will also assist with creating content to teach cloud-native workflows and as
 . For more detailed information, see
 &lt;a href="https://2i2c.org/blog/2022/czi-global-communities-proposal/" target="_blank" rel="noopener">the blog post with our full grant narrative&lt;/a>
 .&lt;/p>
-&lt;h2 id="we-are-hiring">We are hiring&lt;/h2>
-&lt;p>As a part of this effort, we will also hire several new team members! There are currently two job postings open. Here are links for more information in case you are interested:&lt;/p>
+&lt;h2 id="we-are-hiring">
+We are hiring
+&lt;a class="header-anchor" href="#we-are-hiring">#&lt;/a>
+&lt;/h2>&lt;p>As a part of this effort, we will also hire several new team members! There are currently two job postings open. Here are links for more information in case you are interested:&lt;/p>
 &lt;ul>
 &lt;li>
 &lt;a href="https://2i2c.org/jobs/2022/open-source-infrastructure-engineer/" target="_blank" rel="noopener">Cloud infrastructure engineer&lt;/a>
@@ -37,11 +39,30 @@ to join &lt;strong>Open Life Science&lt;/strong> and support this project via pr
 &lt;p>We may be hiring other positions related to this effort, so
 &lt;a href="https://forms.gle/5boZswKNUn2NcTUv9" target="_blank" rel="noopener">please stay tuned for more information&lt;/a>
 if you are interested.&lt;/p>
-&lt;h2 id="where-to-follow-along">Where to follow along&lt;/h2>
-&lt;p>If you’d like to follow along with this work, please
+&lt;h2 id="where-to-follow-along">
+Where to follow along
+&lt;a class="header-anchor" href="#where-to-follow-along">#&lt;/a>
+&lt;/h2>&lt;p>If you’d like to follow along with this work, please
 &lt;a href="https://forms.gle/5boZswKNUn2NcTUv9" target="_blank" rel="noopener">share your e-mail address in this short form&lt;/a>
-. We’ll send updates as we work out longer-term spaces for communication or documentation.&lt;/p></description></item><item><title>GESIS - 2i2c collaborate to build a persistent BinderHub experience</title><link>https://2i2c.org/blog/2022/gesis-2i2c-collaboration-update/</link><pubDate>Mon, 28 Nov 2022 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2022/gesis-2i2c-collaboration-update/</guid><description>&lt;h1 id="introduction">Introduction&lt;/h1>
-&lt;p>
+. We’ll send updates as we work out longer-term spaces for communication or documentation.&lt;/p>
+&lt;div class="about-us">
+&lt;blockquote>
+&lt;p>💡
+&lt;a href="http://eepurl.com/hjHbff" target="_blank" rel="noopener">Sign up for our mailing list&lt;/a>
+for updates about 2i2c.
+&lt;a href="mailto:hello@2i2c.org">Send us an e-mail about collaborating or partnering&lt;/a>
+on a project.
+See our
+&lt;a href="https://docs.2i2c.org" target="_blank" rel="noopener">Service Documentation&lt;/a>
+or our
+&lt;a href="https://compass.2i2c.org" target="_blank" rel="noopener">Team Compass&lt;/a>
+to learn about our service and organization.&lt;/p>
+&lt;/blockquote>
+&lt;/div></description></item><item><title>GESIS - 2i2c collaborate to build a persistent BinderHub experience</title><link>https://2i2c.org/blog/2022/gesis-2i2c-collaboration-update/</link><pubDate>Mon, 28 Nov 2022 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2022/gesis-2i2c-collaboration-update/</guid><description>
+&lt;h1 id="introduction">
+Introduction
+&lt;a class="header-anchor" href="#introduction">#&lt;/a>
+&lt;/h1>&lt;p>
 &lt;a href="mybinder.org">Mybinder.org&lt;/a>
 enables researchers across the world to replicate computational environments in the cloud. It allows researchers to turn static code into interactive literate coding environments with a click of a button within seconds. The
 &lt;a href="mybinder.org">mybinder.org&lt;/a>
@@ -73,8 +94,10 @@ project. This collaboration has three primary goals:&lt;/p>
 &lt;p>We began this collaboration several months ago, and have focused our efforts on exploring potential implementation pathways for this functionality. We believe that we now have a path forward for this functionality, and this blog post is a brief report of our efforts and future plans as we undertake this effort. See
 &lt;a href="https://github.com/orgs/2i2c-org/projects/33" target="_blank" rel="noopener">this GitHub Projects Board for issues that implement this effort&lt;/a>
 .&lt;/p>
-&lt;h3 id="exploration-1-adding-persistent-storage-directly-into-binderhub">Exploration 1: Adding persistent storage directly into BinderHub&lt;/h3>
-&lt;p>Our initial intention was to incorporate persistent storage and authentication from the GESIS Persistent BinderHub into the
+&lt;h3 id="exploration-1-adding-persistent-storage-directly-into-binderhub">
+Exploration 1: Adding persistent storage directly into BinderHub
+&lt;a class="header-anchor" href="#exploration-1-adding-persistent-storage-directly-into-binderhub">#&lt;/a>
+&lt;/h3>&lt;p>Our initial intention was to incorporate persistent storage and authentication from the GESIS Persistent BinderHub into the
 &lt;a href="http://binderhub.readthedocs.io/" target="_blank" rel="noopener">BinderHub codebase&lt;/a>
 . We began by holding a series of meetings to discuss technical requirements from our experience in the JupyterHub/BinderHub ecosystem, and also conducted an audit of the
 &lt;a href="https://www.google.com/url?q=https://github.com/gesiscss/persistent_binderhub/blob/9936fc2251abafd00921b3b53954fb60c8640347/persistent_binderhub/values.yaml" target="_blank" rel="noopener">Persistent BinderHub codebase&lt;/a>
@@ -82,8 +105,10 @@ project. This collaboration has three primary goals:&lt;/p>
 &lt;a href="https://github.com/gesiscss/persistent_binderhub/blob/9936fc2251abafd00921b3b53954fb60c8640347/persistent_binderhub/values.yaml" target="_blank" rel="noopener">modified Helm Chart&lt;/a>
 that configures a JupyterHub to expose its authentication and persistent storage functionality, overriding the BinderHub default behavior. We were concerned that building this functionality &lt;em>natively&lt;/em> into BinderHub would be challenging given that the BinderHub codebase was designed for ephemeral user sessions.&lt;/p>
 &lt;p>So, we decided to take another approach:&lt;/p>
-&lt;h3 id="exploration-2-add-dynamic-image-building-to-jupyterhub">Exploration 2: Add dynamic image building to JupyterHub&lt;/h3>
-&lt;p>We realized that there is a way to make this functionality more broadly useful and more maintainable, while still achieving the end-user experience that the GESIS team needed. Instead of modifying BinderHub to incorporate JupyterHub’s storage and authentication features, &lt;strong>we would give JupyterHub the ability do dynamically generate user environments using
+&lt;h3 id="exploration-2-add-dynamic-image-building-to-jupyterhub">
+Exploration 2: Add dynamic image building to JupyterHub
+&lt;a class="header-anchor" href="#exploration-2-add-dynamic-image-building-to-jupyterhub">#&lt;/a>
+&lt;/h3>&lt;p>We realized that there is a way to make this functionality more broadly useful and more maintainable, while still achieving the end-user experience that the GESIS team needed. Instead of modifying BinderHub to incorporate JupyterHub’s storage and authentication features, &lt;strong>we would give JupyterHub the ability do dynamically generate user environments using
 &lt;a href="http://repo2docker.readthedocs.io/" target="_blank" rel="noopener">repo2docker&lt;/a>
 &lt;/strong>.&lt;/p>
 &lt;p>This would give JupyterHub users more flexibility over the environments served by their hub, and expose Binder-style workflows to the “typical” JupyterHub workflow. BinderHub could then be simplified to re-use JupyterHub’s image building functionality as a part of its own service. We also identified a prototype of this functionality in the
@@ -93,9 +118,14 @@ project that
 had built for the
 &lt;a href="https://plasmabio.org/" target="_blank" rel="noopener">PlasmaBio project&lt;/a>
 . This implementation was seen as successful, and something others in the community had wanted to generalize for some time.&lt;/p>
-&lt;h1 id="our-implementation-plan">Our implementation plan&lt;/h1>
-&lt;h2 id="two-phases-of-implementation">Two phases of implementation&lt;/h2>
-&lt;p>With this alternative implementation route in place, we identified two major steps to accomplish this project:&lt;/p>
+&lt;h1 id="our-implementation-plan">
+Our implementation plan
+&lt;a class="header-anchor" href="#our-implementation-plan">#&lt;/a>
+&lt;/h1>
+&lt;h2 id="two-phases-of-implementation">
+Two phases of implementation
+&lt;a class="header-anchor" href="#two-phases-of-implementation">#&lt;/a>
+&lt;/h2>&lt;p>With this alternative implementation route in place, we identified two major steps to accomplish this project:&lt;/p>
 &lt;ol>
 &lt;li>&lt;strong>Build a back-end for dynamic environment building&lt;/strong>. JupyterHub needs to understand how to call repo2docker’s image generation from a Docker-based environment. It needs to expose this ability via APIs that others can build interfaces on top of.&lt;/li>
 &lt;li>**Build a front-end that is user-friendly and accessible. **Once the back-end is functional, we must build a front-end experience that feels familiar to BinderHub users and is easy and intuitive to use.&lt;/li>
@@ -108,8 +138,10 @@ had built for the
 &lt;li>Perform UI/UX research validation to inform the implementation from a user’s perspective.&lt;/li>
 &lt;/ul>
 &lt;p>As a follow-up, we’ll likely re-work the BinderHub codebase to utilize JupyterHub’s new repo2docker service, rather than defining its own custom repo2docker functionality.&lt;/p>
-&lt;h2 id="back-end-implementation-as-a-jupyterhub-service">Back-end implementation as a JupyterHub Service&lt;/h2>
-&lt;p>We’re planning to use
+&lt;h2 id="back-end-implementation-as-a-jupyterhub-service">
+Back-end implementation as a JupyterHub Service
+&lt;a class="header-anchor" href="#back-end-implementation-as-a-jupyterhub-service">#&lt;/a>
+&lt;/h2>&lt;p>We’re planning to use
 &lt;a href="https://jupyterhub.readthedocs.io/en/stable/reference/services.html" target="_blank" rel="noopener">JupyterHub Services&lt;/a>
 to add the back-end functionality for dynamic image building to a JupyterHub. Services are a way to expose functionality via a JupyterHub REST API, and would allow us to expose basic image generation on-the-fly with
 &lt;a href="https://repo2docker.readthedocs.io/" target="_blank" rel="noopener">repo2docker&lt;/a>
@@ -117,8 +149,10 @@ to add the back-end functionality for dynamic image building to a JupyterHub. Se
 &lt;p>While details may still change, we believe that the major architectural plan has now been settled. We have
 &lt;a href="https://github.com/consideratio/repo2docker-service" target="_blank" rel="noopener">an experimental codebase&lt;/a>
 with a basic implementation of the repo2docker service described above. As part of this effort, this team has also made a number of improvements to repo2docker’s codebase and project infrastructure. We hope that this effort will continue to push resources and attention to repo2docker by growing the number of users and stakeholders that rely on the project for their success.&lt;/p>
-&lt;h2 id="front-end-implementation-that-uses-this-service">Front-end implementation that uses this service&lt;/h2>
-&lt;p>Once the back-end setup exists, we can use it to begin prototyping user interactions that can trigger and use repo2docker’s image generation. Bringing dynamic environment image building into JupyterHub is a significant improvement in its functionality, and may introduce new kinds of workflows that we hadn’t initially imagined. Understanding, interpreting, and extending the original “Persistent BinderHub” workflow will require a more thorough understanding of user stories and needs in order to identify new workflows that feel natural not only in a JupyterHub scenario but also in a Binder-like scenario.&lt;/p>
+&lt;h2 id="front-end-implementation-that-uses-this-service">
+Front-end implementation that uses this service
+&lt;a class="header-anchor" href="#front-end-implementation-that-uses-this-service">#&lt;/a>
+&lt;/h2>&lt;p>Once the back-end setup exists, we can use it to begin prototyping user interactions that can trigger and use repo2docker’s image generation. Bringing dynamic environment image building into JupyterHub is a significant improvement in its functionality, and may introduce new kinds of workflows that we hadn’t initially imagined. Understanding, interpreting, and extending the original “Persistent BinderHub” workflow will require a more thorough understanding of user stories and needs in order to identify new workflows that feel natural not only in a JupyterHub scenario but also in a Binder-like scenario.&lt;/p>
 &lt;p>For example, here are a few major UI/UX questions we must answer:&lt;/p>
 &lt;ul>
 &lt;li>When a user builds an image, should it also become available to &lt;em>other users&lt;/em> as well?&lt;/li>
@@ -127,8 +161,10 @@ with a basic implementation of the repo2docker service described above. As part 
 &lt;li>Should we simply mimic the mybinder.org UX, or should this be improved as well?&lt;/li>
 &lt;/ul>
 &lt;p>We must answer these and several other questions next. With that vision in place, we’d like to &lt;strong>expand our efforts in UI/UX and user research&lt;/strong>. This will help inform the technical implementation of this work as we expand on our prototype, and help us choose the right way to expose this functionality to users. We welcome collaboration around this work - if you know of an organization that is interested in collaboration, please reach out.&lt;/p>
-&lt;h1 id="collaborate-and-follow-along">Collaborate and follow along&lt;/h1>
-&lt;p>Below you’ll find a rough project plan to give an idea for the major actions needed and a timeline for when we hope they’ll be completed. We’ll track further updates and progress on this project in this
+&lt;h1 id="collaborate-and-follow-along">
+Collaborate and follow along
+&lt;a class="header-anchor" href="#collaborate-and-follow-along">#&lt;/a>
+&lt;/h1>&lt;p>Below you’ll find a rough project plan to give an idea for the major actions needed and a timeline for when we hope they’ll be completed. We’ll track further updates and progress on this project in this
 &lt;a href="https://github.com/2i2c-org/infrastructure/issues/1382" target="_blank" rel="noopener">dedicated GitHub issue&lt;/a>
 and this
 &lt;a href="https://github.com/orgs/2i2c-org/projects/33/views/1" target="_blank" rel="noopener">dedicated GitHub project board&lt;/a>
@@ -155,8 +191,10 @@ and wish to share some details about it as well as the grant narrative for other
 &lt;/li>
 &lt;/ul>
 &lt;p>Read on for a quick overview of the proposal.&lt;/p>
-&lt;h2 id="collaborators">Collaborators&lt;/h2>
-&lt;p>This grant is a collaboration between several leading organizations in open infrastructure, community, and global leadership:&lt;/p>
+&lt;h2 id="collaborators">
+Collaborators
+&lt;a class="header-anchor" href="#collaborators">#&lt;/a>
+&lt;/h2>&lt;p>This grant is a collaboration between several leading organizations in open infrastructure, community, and global leadership:&lt;/p>
 &lt;ul>
 &lt;li>
 &lt;a href="https://2i2c.org" target="_blank" rel="noopener">2i2c&lt;/a>
@@ -177,8 +215,10 @@ and wish to share some details about it as well as the grant narrative for other
 &lt;a href="https://openlifesci.org/" target="_blank" rel="noopener">Open Life Science&lt;/a>
 &lt;/li>
 &lt;/ul>
-&lt;h2 id="problem-statement">Problem statement&lt;/h2>
-&lt;p>Cloud infrastructure is a powerful way to broaden access to workflows and infrastructure across the globe.
+&lt;h2 id="problem-statement">
+Problem statement
+&lt;a class="header-anchor" href="#problem-statement">#&lt;/a>
+&lt;/h2>&lt;p>Cloud infrastructure is a powerful way to broaden access to workflows and infrastructure across the globe.
 However, it is also inaccessible to many for a variety of reasons:&lt;/p>
 &lt;ul>
 &lt;li>There is a large, diverse, and messy ecosystem of open source tools to facilitate cloud infrastructure.&lt;/li>
@@ -187,8 +227,10 @@ However, it is also inaccessible to many for a variety of reasons:&lt;/p>
 &lt;li>Many communities do not have organized communities of practice around cloud infrastructure.&lt;/li>
 &lt;/ul>
 &lt;p>These issues are true for most scientific communities, but they are exacerbated in countries that are often marginalized in the global scientific community.&lt;/p>
-&lt;h2 id="our-proposed-work">Our proposed work&lt;/h2>
-&lt;p>For this reason, our goal in this grant is to &lt;strong>provide human and technical services to facilitate learning and knowledge transfer of cloud workflows for communities in Latin America and Africa&lt;/strong>.&lt;/p>
+&lt;h2 id="our-proposed-work">
+Our proposed work
+&lt;a class="header-anchor" href="#our-proposed-work">#&lt;/a>
+&lt;/h2>&lt;p>For this reason, our goal in this grant is to &lt;strong>provide human and technical services to facilitate learning and knowledge transfer of cloud workflows for communities in Latin America and Africa&lt;/strong>.&lt;/p>
 &lt;p>It defines four major areas of collaboration:&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>Cloud infrastructure management&lt;/strong> - to facilitate access to cloud resources via managed cloud services that integrate open source tools.&lt;/li>
