@@ -98,7 +98,7 @@ It will also make it more likely that we can implement often-requested improveme
 
 We made a number of contributions to key open source communities as part of our organizational mission.
 These spanned technical improvements as well as organizational and community efforts.
-One highlight is that several team members have participated in [JupyterHub's latest round of Outreachy interns](https://blog.jupyter.org/introducing-jupyterhubs-outreachy-interns-december-2022-cohort-23aaf4613556?source=collection_home---6------4-----------------------).  
+One highlight is that several team members have participated in [JupyterHub's latest round of Outreachy interns](https://blog.jupyter.org/introducing-jupyterhubs-outreachy-interns-december-2022-cohort-23aaf4613556).  
 See [the JupyterHub community strategy](https://jupyterhub-team-compass.readthedocs.io/en/latest/resources/community-strategy.html) page for more information.
 
 As a brief summary, here is a plot of the issues in key open source repositories that were closed in 2022 that were authored by a 2i2c team member.
