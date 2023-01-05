@@ -1,0 +1,15 @@
+<link rel="stylesheet" href="https://code.cdn.mozilla.net/fonts/fira.css">
+
+{{/*
+  Social media image linking.
+  This will add the image links to the *start* of the <head>, which means they'll
+  over-ride the Hugo linked ones at the end of head.  
+  
+  It is hacky but it works!
+  See ../ogimage.html for explanation */}}
+{{- if .IsPage }}
+{{- with partial "ogimage.html" . -}}
+<meta property="og:image" content="{{ .Permalink }}" />
+<meta property="twitter:image" content="{{ .Permalink }}" />
+{{ end -}}
+{{ end -}}

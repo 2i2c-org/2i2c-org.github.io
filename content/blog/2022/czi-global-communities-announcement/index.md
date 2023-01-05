@@ -34,3 +34,5 @@ We may be hiring other positions related to this effort, so [please stay tuned f
 ## Where to follow along
 
 If you’d like to follow along with this work, please [share your e-mail address in this short form](https://forms.gle/5boZswKNUn2NcTUv9). We’ll send updates as we work out longer-term spaces for communication or documentation.
+
+{{% about-us %}}
