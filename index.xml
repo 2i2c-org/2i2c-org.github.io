@@ -2256,10 +2256,10 @@ Get involved
 Wrapping up
 &lt;a class="header-anchor" href="#wrapping-up">#&lt;/a>
 &lt;/h2>&lt;p>We are excited about 2i2c, and believe that it is the right kind of organization to create to support research and education, as well as open source communities in interactive computing. The road ahead is a difficult one, but we&amp;rsquo;re confident that we will hit our stride quickly. Stay tuned for more updates to come.&lt;/p>
-&lt;section class="footnotes" role="doc-endnotes">
+&lt;div class="footnotes" role="doc-endnotes">
 &lt;hr>
 &lt;ol>
-&lt;li id="fn:1" role="doc-endnote">
+&lt;li id="fn:1">
 &lt;p>&lt;strong>EDIT 08-2021: We are now a fiscally-sponsored project of
 &lt;a href="https://codeforscience.org" target="_blank" rel="noopener">Code for Science and Society&lt;/a>
 and ICSI is no longer our host organization. We are leaving this section here for archival purposes, and to give credit to ICSI for their help in launching 2i2c&lt;/strong>. 2i2c&amp;rsquo;s host organization is the
@@ -2267,7 +2267,7 @@ and ICSI is no longer our host organization. We are leaving this section here fo
 , a 501(c)(3) charitable organization. We thank ICSI for its collaboration and leadership in launching 2i2c!&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/section></description></item><item><title>The Customer Right to Replicate</title><link>https://2i2c.org/right-to-replicate/</link><pubDate>Thu, 28 Jun 2018 00:00:00 +0000</pubDate><guid>https://2i2c.org/right-to-replicate/</guid><description>&lt;p>The Right to Replicate gives customers the right to &lt;strong>replicate their infrastructure in its entirety elsewhere, with or without 2i2c&lt;/strong>.&lt;/p>
+&lt;/div></description></item><item><title>The Customer Right to Replicate</title><link>https://2i2c.org/right-to-replicate/</link><pubDate>Thu, 28 Jun 2018 00:00:00 +0000</pubDate><guid>https://2i2c.org/right-to-replicate/</guid><description>&lt;p>The Right to Replicate gives customers the right to &lt;strong>replicate their infrastructure in its entirety elsewhere, with or without 2i2c&lt;/strong>.&lt;/p>
 &lt;p>This document describes 2i2c’s commitment to a customer’s “right to replicate”, and how this translates into specific infrastructure commitments from 2i2c. We make these commitments because we believe that using infrastructure that follows these principles will lead to a more fair, just, equitable world. We also believe they are the right foundation for more productive and impactful research and education.&lt;/p>
 &lt;p>2i2c is committed to running its own infrastructure on open-source tools and vendor-agnostic infrastructure, though it does not &lt;em>force&lt;/em> users to use only open-source tools in their own environments, code, and data. Below is a table describing how the Right to Replicate fits into 2i2c hub technology.&lt;/p>
 &lt;p>(Definitions of &lt;code>MUST&lt;/code>, &lt;code>MUST NOT&lt;/code>, &lt;code>SHOULD&lt;/code>, &lt;code>MAY&lt;/code>, etc are defined in
