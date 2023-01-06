@@ -13,8 +13,8 @@ This website is **hosted** by GitHub Pages, and we use Netlify to display previe
 
 ## Build this website locally
 
-We currently build this site with [**Wowchemy v5.5.0**](https://github.com/wowchemy/wowchemy-hugo-themes/releases/tag/v5.5.0).
-This version recommends [**Hugo v0.95.0**](https://github.com/gohugoio/hugo/releases/v0.95.0/).
+We currently build this site with [**Wowchemy v5.7.0**](https://github.com/wowchemy/wowchemy-hugo-themes/releases/tag/v5.7.0).
+This version recommends [**Hugo v0.109.0**](https://github.com/gohugoio/hugo/releases/v0.109.0/).
 
 * Install the Hugo extended listed above from [the latest releases page](https://github.com/gohugoio/hugo/releases)
   - Ensure that you have the *extended version*
