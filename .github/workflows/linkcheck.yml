@@ -16,7 +16,7 @@ jobs:
         uses: peaceiris/actions-hugo@v2
         with:
           # This should be the same version that we use in .netlify.toml
-          hugo-version: '0.95.0'
+          hugo-version: '0.109.0'
           extended: true
 
       - name: Build
