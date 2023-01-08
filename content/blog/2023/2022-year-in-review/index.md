@@ -40,7 +40,7 @@ Here are a few highlights.
 As noted above, we needed to grow the number and diversity of communities we worked with to understand where our model needed to change.
 At the end of 2022, we now have **43 community partner hubs across 17 clusters** (and at least one on AWS, Azure, and Google Cloud).
 This amounts to roughly **~2,500 active users** each week.
-We also ran more dedicated infrasturcture for more than **11 workshops and events**.
+We also ran more dedicated infrastructure for more than **11 workshops and events**.
 
 ### We grew our revenue from community partnerships
 
