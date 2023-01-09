@@ -131,7 +131,7 @@ We've begun exploring how to support communities in their _usage_ of cloud infra
 For example, how can we assist communities in cloud workflows without becoming domain experts ourselves?
 How can we guide communities in a sustainable and scalable way?
 How can we recover the costs of doing this work?
-We hope to use our experiences in [our upcoming project to serve communities in Latin America and Africa](../../2022/czi-global-communities-announcement/index.md) to explore these questions.
+We hope to use our experiences in [our upcoming project to serve communities in Latin America and Africa](../../2022/czi-global-communities-announcement/) to explore these questions.
 
 ### Define a cost recovery model that balances sustainability and accessibility
 
