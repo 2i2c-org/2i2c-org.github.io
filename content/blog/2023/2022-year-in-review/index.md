@@ -58,7 +58,7 @@ Here's a plot of our monthly non-grant revenue over the last several months:
 
 We also learned that some partnerships may _require_ subsidization from a third party, such as historically marginalized communities and those without dedicated resources.
 To explore sustainable ways to serve these communities, we applied for and received a new grant to serve communities in Latin America and Africa!
-Here's the [blog post announcing this grant](http://localhost:1313/blog/2022/czi-global-communities-announcement/) and our [open grant narrative from the proposal](https://2i2c.org/blog/2022/czi-global-communities-proposal/).
+Here's the [blog post announcing this grant](../../2022/czi-global-communities-announcement/) and our [open grant narrative from the proposal](../../2022/czi-global-communities-proposal/).
 
 ### We improved our continuous integration and deployment system
 
