@@ -111,3 +111,13 @@ Here are a few tips to follow:
 The ideas in this post are principles and goals to strive for. They also touch on very complex subjects, and following them all perfectly is unrealistic given the state of most organizations. The point is not to define a specific roadmap of actions that must be followed, but to note a few major anti-patterns and ways to avoid them. Fundamentally, your goal should be to **build trust with a community** and to **live up to the community's mission and values**. Do what you can, and be honest and open with others in your efforts. A little bit of transparency and effort goes a long way.
 
 As for 2i2c, we hope to use the ideas in this post to define a strategy and set of policies for how to engage with directed funding for open source. We'll share new ideas in the coming weeks.
+
+## References and more reading
+
+There are many resources that discuss how to equitably and inclusively seek funding as part of collaborations. Here are a few that I found useful in writing this blog post:
+
+- [AWID - Towards a feminist funding ecosystem guide](https://awid.org/sites/default/files/2022-02/AWID_Funding_Ecosystem_2019_FINAL_Eng.pdf)
+- [The Astraea Foundation - Feminist Funding Principles](http://astraeafoundation.org/microsites/feminist-funding-principles/)
+- [OpenGlobalRights - What we can learn from feminists who fund themselves](https://www.openglobalrights.org/what-we-can-learn-from-feminists-who-fund-themselves/)
+- [Candid Learning for Funders - Deciding Together](https://learningforfunders.candid.org/content/guides/deciding-together/)
+- [Open Research Funders Group - Open and Equitable Model Funding Program](https://www.openandequitable.org/participate)
