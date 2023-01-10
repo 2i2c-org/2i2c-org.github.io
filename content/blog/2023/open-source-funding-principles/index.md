@@ -114,10 +114,12 @@ As for 2i2c, we hope to use the ideas in this post to define a strategy and set 
 
 ## References and more reading
 
-There are many resources that discuss how to equitably and inclusively seek funding as part of collaborations. Here are a few that I found useful in writing this blog post:
+There are many resources that discuss how to equitably and inclusively seek funding as part of collaborations[^slack]. Here are a few that I found useful in writing this blog post:
 
 - [AWID - Towards a feminist funding ecosystem guide](https://awid.org/sites/default/files/2022-02/AWID_Funding_Ecosystem_2019_FINAL_Eng.pdf)
 - [The Astraea Foundation - Feminist Funding Principles](http://astraeafoundation.org/microsites/feminist-funding-principles/)
 - [OpenGlobalRights - What we can learn from feminists who fund themselves](https://www.openglobalrights.org/what-we-can-learn-from-feminists-who-fund-themselves/)
 - [Candid Learning for Funders - Deciding Together](https://learningforfunders.candid.org/content/guides/deciding-together/)
 - [Open Research Funders Group - Open and Equitable Model Funding Program](https://www.openandequitable.org/participate)
+
+[^slack]: And many thanks to several people in the [Invest in Open Infrastructure](https://investinopen.org), [The Turing Way](https://the-turing-way.netlify.app), [the Chan Zuckerberg Initiative](https://chanzuckerberg.com/), and [Code for Science and Society](https://codeforsociety.org) Slacks that helped me brainstorm these ideas.
