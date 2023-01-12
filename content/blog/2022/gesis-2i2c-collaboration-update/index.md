@@ -12,22 +12,19 @@ draft: false
 
 # Introduction
 
-[Mybinder.org](mybinder.org) enables researchers across the world to replicate computational environments in the cloud. It allows researchers to turn static code into interactive literate coding environments with a click of a button within seconds. The [mybinder.org](mybinder.org) service is powered by [BinderHub](binderhub.readthedocs.io), an open-source tool developed by [the Jupyter Project](jupyter.org) that many organizations have deployed for their own communities. It does this by _dynamically building _the software environment needed to reproduce a computation (using a tool called [repo2docker](repo2docker.readthedocs.io)), and making this environment available to users.
+[Mybinder.org](https://mybinder.org) enables researchers across the world to replicate computational environments in the cloud. It allows researchers to turn static code into interactive literate coding environments with a click of a button within seconds. The [mybinder.org](https://mybinder.org) service is powered by [BinderHub](https://binderhub.readthedocs.io), an open-source tool developed by [the Jupyter Project](https://jupyter.org) that many organizations have deployed for their own communities. It does this by _dynamically building _the software environment needed to reproduce a computation (using a tool called [repo2docker](https://repo2docker.readthedocs.io)), and making this environment available to users.
 
-BinderHub was developed for use-cases that are _temporary_ and _fully open _by design. BinderHub sessions are destroyed after a fixed amount of time and there is no persistent storage or authentication. However, many research institutions also need more “standard” service features like authentication and persistent storage.
+BinderHub was developed for use-cases that are _temporary_ and _fully open_ by design. BinderHub sessions are destroyed after a fixed amount of time and there is no persistent storage or authentication. However, many research institutions also need more “standard” service features like authentication and persistent storage.
 
 Over the past several years, the [GESIS Notebooks](http://notebooks.gesis.org) team made the first steps towards bridging this gap through their [Persistent BinderHub](https://github.com/gesiscss/persistent_binderhub) implementation. This was a modified and authenticated BinderHub that _included_ persistent storage across sessions. The Persistent BinderHub service was very successful at GESIS and with its partner communities, and the team wishes to build this functionality into the JupyterHub community’s core technology so that these features can be enjoyed for more use-cases and by many communities.
 
 To enable this vision, we have partnered with GESIS in cooperation with [NFDI4DS](https://www.nfdi4datascience.de/), [CESSDA](https://www.cessda.eu/), and members of the [JMTE](https://jupytearth.org/) project. This collaboration has three primary goals:
-
-
 
 * **Generalize the Persistent BinderHub functionality/experience to run on cloud-agnostic infrastructure**, so that other stakeholders in NFDI, CESSDA, and the broader scientific community may benefit from this functionality and experience.
 * **Upstream this functionality by making contributions into Jupyter community projects**, so that it will be maintained and improved by a community moving forward, thus improving its reliability and sustainability.
 * **Improve the implementation and user experience around Persistent BinderHub**, in order to make it more reliable, scalable, productive, and enjoyable to use.
 
 We began this collaboration several months ago, and have focused our efforts on exploring potential implementation pathways for this functionality. We believe that we now have a path forward for this functionality, and this blog post is a brief report of our efforts and future plans as we undertake this effort. See [this GitHub Projects Board for issues that implement this effort](https://github.com/orgs/2i2c-org/projects/33).
-
 
 ### Exploration 1: Adding persistent storage directly into BinderHub
 
@@ -80,15 +77,12 @@ Once the back-end setup exists, we can use it to begin prototyping user interact
 
 For example, here are a few major UI/UX questions we must answer:
 
-
-
 * When a user builds an image, should it also become available to _other users_ as well?
 * How can a user store, find, and delete old images that they’ve built?
 * What about new versions of the same image?
 * Should we simply mimic the mybinder.org UX, or should this be improved as well?
 
 We must answer these and several other questions next. With that vision in place, we’d like to **expand our efforts in UI/UX and user research**. This will help inform the technical implementation of this work as we expand on our prototype, and help us choose the right way to expose this functionality to users. We welcome collaboration around this work - if you know of an organization that is interested in collaboration, please reach out.
-
 
 # Collaborate and follow along
 
