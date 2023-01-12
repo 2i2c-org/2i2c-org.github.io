@@ -63,17 +63,17 @@ to learn about our service and organization.&lt;/p>
 Introduction
 &lt;a class="header-anchor" href="#introduction">#&lt;/a>
 &lt;/h1>&lt;p>
-&lt;a href="mybinder.org">Mybinder.org&lt;/a>
+&lt;a href="https://mybinder.org" target="_blank" rel="noopener">Mybinder.org&lt;/a>
 enables researchers across the world to replicate computational environments in the cloud. It allows researchers to turn static code into interactive literate coding environments with a click of a button within seconds. The
-&lt;a href="mybinder.org">mybinder.org&lt;/a>
+&lt;a href="https://mybinder.org" target="_blank" rel="noopener">mybinder.org&lt;/a>
 service is powered by
-&lt;a href="binderhub.readthedocs.io">BinderHub&lt;/a>
+&lt;a href="https://binderhub.readthedocs.io" target="_blank" rel="noopener">BinderHub&lt;/a>
 , an open-source tool developed by
-&lt;a href="jupyter.org">the Jupyter Project&lt;/a>
+&lt;a href="https://jupyter.org" target="_blank" rel="noopener">the Jupyter Project&lt;/a>
 that many organizations have deployed for their own communities. It does this by _dynamically building _the software environment needed to reproduce a computation (using a tool called
-&lt;a href="repo2docker.readthedocs.io">repo2docker&lt;/a>
+&lt;a href="https://repo2docker.readthedocs.io" target="_blank" rel="noopener">repo2docker&lt;/a>
 ), and making this environment available to users.&lt;/p>
-&lt;p>BinderHub was developed for use-cases that are &lt;em>temporary&lt;/em> and _fully open _by design. BinderHub sessions are destroyed after a fixed amount of time and there is no persistent storage or authentication. However, many research institutions also need more “standard” service features like authentication and persistent storage.&lt;/p>
+&lt;p>BinderHub was developed for use-cases that are &lt;em>temporary&lt;/em> and &lt;em>fully open&lt;/em> by design. BinderHub sessions are destroyed after a fixed amount of time and there is no persistent storage or authentication. However, many research institutions also need more “standard” service features like authentication and persistent storage.&lt;/p>
 &lt;p>Over the past several years, the
 &lt;a href="http://notebooks.gesis.org" target="_blank" rel="noopener">GESIS Notebooks&lt;/a>
 team made the first steps towards bridging this gap through their
