@@ -12,11 +12,9 @@ div.alert {
   border-color: #ccc;
 
   // Make links behave like any other link
-  p, ul {
-    a {
-      border-bottom: 0;
-      color: $color-primary;
-    }
+  div > a, p > a, ul > a {
+    border-bottom: 0;
+    color: $color-primary;
   }
 
   // Make it equidistant between text and border
