@@ -3,11 +3,17 @@ $color-secondary: rgb(230, 101, 129);
 $color-grey: #4e4e4e;
 
 // Make icons behave properly in light and dark mode
+// Variable names are roughly copied from the PyData theme
+// ref: https://pydata-sphinx-theme.readthedocs.io/en/stable/user_guide/styling.html
 :root {
   body {
     --color-icon: #4e4e4e;
+    --color-surface: rgb(245, 245, 245);
+    --color-on-surface: rgb(225, 225, 225);
   }
   body.dark {
     --color-icon: #afafaf;
+    --color-surface: rgb(33, 33, 33);
+    --color-on-surface: rgb(55, 55, 55);
   }
 }

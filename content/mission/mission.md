@@ -3,7 +3,7 @@
 type = "blank"
 headless = true  # Homepage is headless, other widget pages are not.
 weight = 1
-title = "About 2i2c"
+title = "Our mission and strategy"
 
 [design]
   columns = "1"

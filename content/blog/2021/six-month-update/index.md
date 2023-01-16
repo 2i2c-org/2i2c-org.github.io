@@ -21,7 +21,7 @@ Below are a few major updates from the 2i2c community - as always, if you want t
 First off - we have been making progress building out our JupyterHub deployment infrastructure for 2i2c.
 One of our major organizational goals is to build a sustainable service [managing open source cloud infrastructure](/infrastructure) for interactive computing.
 This service will provide hosted, customized JupyterHubs for communities of practice in research and education.
-They'll be built entirely with open source tools that are community-driven, and that [respect the customer's Right to Replicate](/right-to-replicate).
+They'll be built entirely with open source tools that are community-driven, and that [respect the community's Right to Replicate](/right-to-replicate).
 
 In order to accomplish this, 2i2c is running several pilots with partners and interested organizations, supported by our [funding from CZI](/posts/czi-core-support), as well as from [the JROST rapid response fund](https://investinopen.org/blog/jrost-rapid-response-fund-awardees/).
 These pilots are meant to be learning opportunities to understand what kind of infrastructure and service it needs to build moving forward.

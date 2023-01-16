@@ -4,3 +4,12 @@
   border: 1px solid $color-grey;
   border-radius: 0.5em;
 }
+
+// Turn off the page header for any pages other than blog posts.
+// This is because it's hard to tell how to change this with page metadata
+// So we just hard-code the CSS rule for non-blogpost pages
+.page-body {
+  .featured-image-wrapper {
+    display: none;
+  }
+}
