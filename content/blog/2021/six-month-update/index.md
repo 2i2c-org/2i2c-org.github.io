@@ -23,7 +23,7 @@ One of our major organizational goals is to build a sustainable service [managin
 This service will provide hosted, customized JupyterHubs for communities of practice in research and education.
 They'll be built entirely with open source tools that are community-driven, and that [respect the community's Right to Replicate](/right-to-replicate).
 
-In order to accomplish this, 2i2c is running several pilots with partners and interested organizations, supported by our [funding from CZI](/posts/czi-core-support), as well as from [the JROST rapid response fund](https://investinopen.org/blog/jrost-rapid-response-fund-awardees/).
+In order to accomplish this, 2i2c is running several pilots with partners and interested organizations, supported by our [funding from CZI](/blog/czi-core-support), as well as from [the JROST rapid response fund](https://investinopen.org/blog/jrost-rapid-response-fund-awardees/).
 These pilots are meant to be learning opportunities to understand what kind of infrastructure and service it needs to build moving forward.
 
 The [documentation for our pilot hubs infrastructure](https://infrastructure.2i2c.org/en/latest/) contains information about our deployments and infrastructure.

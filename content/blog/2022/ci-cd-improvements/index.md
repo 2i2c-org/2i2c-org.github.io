@@ -104,4 +104,4 @@ We hope that this is a useful resource for others to follow if they also maintai
 If you have any ideas of how we could further improve this infrastructure, please reach out on GitHub!
 If you know of a community that would like 2i2c to [manage a hub for your community](https://2i2c.org/service/), please [send us an email](mailto:hello@2i2c.org).
 
-_**Acknowledgements**: The infrastructure described in this post was developed by [the 2i2c engineering team](/about/team.md), and this post was edited by [Chris Holdgraf](/author/chris-holdgraf)._
+_**Acknowledgements**: The infrastructure described in this post was developed by [the 2i2c engineering team](/organization/team.md), and this post was edited by [Chris Holdgraf](/author/chris-holdgraf)._
