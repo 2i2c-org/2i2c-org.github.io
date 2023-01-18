@@ -5,6 +5,7 @@ work_description = ["Cloud infrastructure management and operations.", "Developm
 salary_range = "$110,000 - $130,000"
 location = "anywhere (prefer a time zone between US/Pacific and Central European)"
 open = "false"
+show_date = false
 +++
 
 We are looking for an Open Source Infrastructure Engineer who will help shape the future of data-intensive scientific research and make a big impact on important problems shaping society. This engineer will lead the development and operation of cloud-based infrastructure, focusing  on the [Pangeo Project](https://pangeo.io) - a community platform for big data geoscience.

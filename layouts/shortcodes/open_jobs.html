@@ -1,6 +1,6 @@
 {{/* Grab a list of all files in the jobs folder that are open */}}
 {{ $jobs := .Page.GetPage "jobs/" }}
-{{ $jobs := where $jobs.Pages "Params.open" "true" }}
+{{ $jobs := where $jobs.Pages "Params.open" true }}
 
 {{ if $jobs }}
 <div class="card-group job-cards mb-5">
