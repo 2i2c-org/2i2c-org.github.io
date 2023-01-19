@@ -14,7 +14,7 @@ title = "Get Involved"
 
 2i2c is a transparent and inclusive organization. We welcome participation and collaboration from others.
 
-- To be added to our mailing list, [fill fill out this contact form](/#contact)
+- To be added to our mailing list, [fill out this contact form](/#contact)
 - If your organization is interested in hosted Jupyter environments on
   cloud infrastructure, [get in touch](mailto:hello@2i2c.org?subject=Inquiry%20about%20hosted%20jupyter)
 - If you are a researcher or educator who would like to collaborate on projects, [get in touch](mailto:hello@2i2c.org?subject=Inquiry%20about%20collaboration)

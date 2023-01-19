@@ -5,3 +5,23 @@ div.about-us blockquote {
   padding-left: 1.9em;
   text-indent: -1.6em;
 }
+
+// Make admonitions look like PyData ones
+div.alert {
+  // All admonitions should have border colors
+  border-color: #ccc;
+
+  // Make links behave like any other link
+  p, ul {
+    a {
+      border-bottom: 0;
+      color: $color-primary;
+    }
+  }
+
+  // Make it equidistant between text and border
+  > div:first-child:before {
+    left: -2.25rem;
+    color: $color-primary !important;
+  }
+}

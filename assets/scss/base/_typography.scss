@@ -3,19 +3,22 @@
   font-size: 1.8em;
 }
 
-a i.fa-github {
-  color: var(--color-icon);
-}
-
 // Faster transitions
 a {
   transition: color .2s ease-out;
+  
+  // For GitHub image inline links
+  i.fa-github {
+    color: var(--color-icon);
+  }
 }
 
 /**
- * Main article container area
+ * Main article container area.
+ * article-container is for blog posts
+ * We don't put them on non-blog pages because it messes up button links
  */
-div.article-container {
+div.article-container, div.page-body {
   h1, h2, h3, h4, h5, h6 {
     // Make anchors show on hover
     a.header-anchor {
@@ -35,12 +38,26 @@ div.article-container {
     }
   }
   // More accessible-friendly links
-  a {
+  p a, ul a, div.alert a {
     text-decoration: underline;
-    text-decoration-color: rgba(1, 1, 1, .2);
+    text-decoration-color: rgba(1, 1, 1, .4);
 
     &:hover {
       text-decoration-color: inherit;
     }
   }
+
+  // Buttons shouldn't have underline
+  a.btn, a.btn-lg, button a {
+    text-decoration: none;
+  }
+}
+
+// In line code
+// Copied from PyData Sphinx Theme style
+code {
+    background: var(--color-surface);
+    border: 1px solid var(--color-on-surface);
+    border-radius: 0.25rem;
+    padding: .1rem 0.25rem;
 }

@@ -1,0 +1,20 @@
+<style>
+  .funding-sources img {
+    border-radius: .25rem;
+  }
+</style>
+
+<div class="funding-sources">
+{{ range $.Page.Params.funders }}
+<div class="row py-3">
+<div class="col-2">
+  <img src="{{ .image }}" />
+</div>
+<div class="col-10">
+
+{{ .description }}
+
+</div>
+</div>
+{{ end }}
+</div>

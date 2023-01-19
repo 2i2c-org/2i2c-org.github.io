@@ -20,45 +20,45 @@
 
   [[main]]
   parent = "about"
-  name = "About 2i2c"
-  url = "about/"
+  name = "Organization and team"
+  url = "organization/"
   weight = 10
 
   [[main]]
   parent = "about"
-  name = "Our team"
-  url = "team/"
-  weight = 10
+  name = "Mission, values, and strategy"
+  url = "mission/"
+  weight = 20
 
   [[main]]
   parent = "about"
   name = "Right to Replicate"
   url = "right-to-replicate/"
-  weight = 10
+  weight = 40
 
   [[main]]
   parent = "about"
-  name = "Founding Team"
+  name = "Origin story"
   url = "founders/"
-  weight = 11
+  weight = 50
 
   [[main]]
   parent = "about"
   name = "Jobs at 2i2c"
   url = "jobs/"
-  weight = 15
+  weight = 60
 
   [[main]]
   parent = "about"
   name = "Collaborate with us"
   url = "collaborate/"
-  weight = 15
+  weight = 70
 
   [[main]]
-    parent = "about"
-    name = "Donate to 2i2c"
-    url = "#donate"
-    weight = 20
+  parent = "about"
+  name = "Donate to 2i2c"
+  url = "#donate"
+  weight = 80
 
 [[main]]
   name = "Blog"
