@@ -26,7 +26,7 @@ If you're interested, learn more about 2i2c at the links below, and more about t
 
 ## Who we are
 
-2i2c is a non-profit organization with a mission to make interactive computing more accessible, scalable, and powerful for research and education: [https://2i2c.org/about/](/about).
+2i2c is a non-profit organization with a mission to make interactive computing more accessible, scalable, and powerful for research and education: [https://2i2c.org/organization/](/organization).
 
 We accomplish this mission by providing managed cloud services for interactive computing, by providing development and technical leadership to researchers and educators that utilize this infrastructure for specific communities, and by providing support for open source tools and communities in this ecosystem.
 

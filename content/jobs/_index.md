@@ -25,7 +25,7 @@ We are a distributed organization that is strongly defined by its mission and va
 * **Be an excellent written communicator**. 2i2c is a distributed team and organization. We must coordinate across many different time-zones, and conduct most of our conversations asynchronously. You should be comfortable collaborating and communicating via text, and in an asynchronous fashion.
 * **Be collaborative and team-focused.** 2i2c believes in working as a team to solve problems, and we leverage one another for guidance, support, and decisions. While we value and respect an individual’s time to dive into topics on their own, it is crucial that you enjoy working in a highly collaborative and positive team environment.
 * **Be self-driven and creative.** As a distributed organization, it is crucial that our team members are comfortable working without a lot of supervision. While we highly value teamwork and collaboration, we also give team members a great deal of autonomy and expect them to be self-driven.
-* **Commit to follow [our Code of Conduct](https://compass.2i2c.org/en/latest/code-of-conduct/index.html) and embody [our organizational values](https://2i2c.org/about/#values).** 2i2c values its open, collaborative, and inclusive culture, and we want a team that is excited to embody and grow this culture within 2i2c and in the outside world.
+* **Commit to follow [our Code of Conduct](https://compass.2i2c.org/en/latest/code-of-conduct/index.html) and embody [our organizational values](https://2i2c.org/mission/).** 2i2c values its open, collaborative, and inclusive culture, and we want a team that is excited to embody and grow this culture within 2i2c and in the outside world.
 
 ## What it's like to work at 2i2c
 
@@ -67,7 +67,7 @@ Here are a few reasons that we think 2i2c is a fantastic team to work with.
 
 ### Our values and our mission drive our actions 🧭
 
-2i2c believes in weaving our set of core values into everything that we do, and that this will guide 2i2c in being as impactful as possible. As a member of 2i2c’s team, you’ll have an opportunity to participate in [a community that believes in these values](/about), and tries to make the world a better place through living them every day.
+2i2c believes in weaving our set of core values into everything that we do, and that this will guide 2i2c in being as impactful as possible. As a member of 2i2c’s team, you’ll have an opportunity to participate in [a community that believes in these values](/mission), and tries to make the world a better place through living them every day.
 
 ### We have great team culture 🙌
 
