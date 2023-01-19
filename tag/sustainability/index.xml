@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>sustainability | 2i2c</title><link>https://2i2c.org/tag/sustainability/</link><atom:link href="https://2i2c.org/tag/sustainability/index.xml" rel="self" type="application/rss+xml"/><description>sustainability</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 08 Jan 2023 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>sustainability</title><link>https://2i2c.org/tag/sustainability/</link></image><item><title>Principles and considerations for ethically accepting funding for open source</title><link>https://2i2c.org/blog/2023/open-source-funding-principles/</link><pubDate>Sun, 08 Jan 2023 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2023/open-source-funding-principles/</guid><description>&lt;p>&lt;em>This is a brainstorm to consider the principles and guidelines that 2i2c should follow in defining its strategy towards open source communities.
+See
+&lt;a href="https://compass.2i2c.org/en/open-source/index.html" target="_blank" rel="noopener">our open source policy documentation&lt;/a>
+for the product of this brainstorm.&lt;/em>&lt;/p>
+&lt;p>Over the past year the 2i2c team has focused its efforts on deploying, configuring, running, and managing cloud infrastructure that supports open source workflows in research and education. We&amp;rsquo;ve also done a lot of &lt;em>upstream contribution&lt;/em> as a part of our work.&lt;/p>
+&lt;p>However, we have shied away from taking direct funding for direct development work in open source projects. This is for two primary reasons:&lt;/p>
+&lt;ol>
+&lt;li>Our focus has been on managing cloud infrastructure, not developing it. We want to facilitate access to open workflows in interactive computing, which is a different skillset and kind of work than &lt;em>creating&lt;/em> those tools.&lt;/li>
+&lt;li>While 2i2c is aligned with the interests of open communities, we are still a distinct organization with our own mission and strategy. We want to be conscious that 2i2c team members have &lt;em>more than one hat&lt;/em>, and that their 2i2c hat is necessarily not the same thing as their open source hat. As such, we don&amp;rsquo;t want to leverage our &amp;ldquo;other hats&amp;rdquo; to drive resources to 2i2c without being thoughtful about it.&lt;/li>
+&lt;/ol>
+&lt;p>In the last year we&amp;rsquo;ve found that running infrastructure for research and education gives us great visibility into the kinds of things that these communities want to do, and ways to improve the infrastructure. It also means we can potentially be a conduit of &lt;em>resources&lt;/em> from those communities into open source development workflows. For example, we recently
+&lt;a href="../../2022/gesis-2i2c-collaboration-update/">partnered with GESIS to make improvements in Binder and JupyterHub&lt;/a>
+.&lt;/p>
+&lt;p>So, this post is a brainstorm to identify some of the major considerations that we should take before agreeing to this kind of work. Its goals is to drive policy that streamlines our ability to seek and accept funding for open source work. It tries to answer this question:&lt;/p>
+&lt;blockquote>
+&lt;p>How can a stakeholder accept funding on behalf of an open source community in a way that is inclusive, equitable, and effective.&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="some-assumptions">
+Some assumptions
+&lt;a class="header-anchor" href="#some-assumptions">#&lt;/a>
+&lt;/h2>&lt;p>First off I want to note that this only applies to open source projects that I&amp;rsquo;d call &amp;ldquo;Open communities&amp;rdquo;. For example, those that follow
+&lt;a href="https://openscholarlyinfrastructure.org/" target="_blank" rel="noopener">the principles of open scholarly infrastructure&lt;/a>
+. The ideas here don&amp;rsquo;t apply to open source projects that are run by single organizations or people. You can assume I&amp;rsquo;m talking about projects that:&lt;/p>
+&lt;ul>
+&lt;li>Have inclusive multi-stakeholder governance and operations.&lt;/li>
+&lt;li>Care about having a broad contributor and leadership base, and want to follow best-practices in inclusive and equitable operations.&lt;/li>
+&lt;li>Need funding to drive major new efforts, or to sustain pre-existing maintenance and community management work.&lt;/li>
+&lt;/ul>
+&lt;p>Why is this important? In short, because open projects should care about good governance, and about building sustainable and diverse multi-stakeholder communities around their operations and strategy. While it&amp;rsquo;s easy to ignore these considerations and just bring in money however you can (open source is perpetually under-funded, after all), it&amp;rsquo;s crucial that we think about how to do so in a way that aligns with the values of open communities, and that doesn&amp;rsquo;t simply propagate a &amp;ldquo;rich get richer&amp;rdquo; dynamic. Ultimately, the unique value of open communities is not in the technology they create, but in the &lt;em>way that they create it&lt;/em>.&lt;/p>
+&lt;h2 id="tldr-an-overview-of-major-considerations">
+&lt;code>tl;dr&lt;/code>: An overview of major considerations
+&lt;a class="header-anchor" href="#tldr-an-overview-of-major-considerations">#&lt;/a>
+&lt;/h2>&lt;p>After working with several open source projects over the years, there are a few issues that I&amp;rsquo;ve seen come up again and again. Here&amp;rsquo;s a quick summary and I&amp;rsquo;ll note each in more detail below.&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Governance&lt;/strong>: funding should &lt;em>follow&lt;/em> major decisions, not make them. It should represent the interests of the project rather than those of a single stakeholder or payer.&lt;/li>
+&lt;li>&lt;strong>Transparency&lt;/strong>: stakeholders that accept funding should be transparent in their &lt;em>accounting&lt;/em> (the sources of funding, deliverables attached with it, and operational costs), their &lt;em>plans&lt;/em> (the work they plan to do and how they want to do it) and in their &lt;em>strategy&lt;/em> (the reason they&amp;rsquo;re applying for funding in the first place, and how the work fits in with their other operations).&lt;/li>
+&lt;li>&lt;strong>Accountability&lt;/strong>: stakeholders that accept funding should be accountable to the open communities that they are supporting. There should be mechanisms for open communities to provide feedback about and influence their operations, ideally in a powerful position like a board seat.&lt;/li>
+&lt;li>&lt;strong>Equity&lt;/strong>: funding should be shared with others in the project, particularly those that need it or that couldn&amp;rsquo;t get funding on their own. Moreover, people should be paid for their time - if funding requires work from others, they should be compensated somehow.&lt;/li>
+&lt;li>&lt;strong>Inclusion&lt;/strong>: funding &lt;em>opportunities&lt;/em> should be shared with others in a project, particularly those from historically disadvantaged communities. Stakeholders with funding &amp;ldquo;connections&amp;rdquo; should use them to boost others in the community as &lt;em>partners&lt;/em>, not just as contractors&lt;/li>
+&lt;/ul>
+&lt;p>Here is a more in-depth discussion of each below.&lt;/p>
+&lt;h2 id="governance-funding-should-follow-decisions">
+Governance: funding should follow decisions
+&lt;a class="header-anchor" href="#governance-funding-should-follow-decisions">#&lt;/a>
+&lt;/h2>&lt;p>As a general rule, &lt;strong>funding should not be a decision&lt;/strong>, it should only be fuel that helps &lt;strong>execute a decision that has already been made&lt;/strong> by the community. Moreover, responsibilities attached to funding should only be given to people with the power to actually carry them out.&lt;/p>
+&lt;p>The most common mistake that I&amp;rsquo;ve seen in open communities is when funding &lt;em>creates&lt;/em> an unintended decision on behalf of many others.&lt;/p>
+&lt;p>For example, a new funder shows up with an agenda and offers it to a subset of maintainers. Those maintainers accept, implicitly making a decision to do the bidding of the funder (this could be a grant, a contract, etc). They begin doing the work, and run into resistance from &lt;em>other&lt;/em> maintainers who weren&amp;rsquo;t on-board with these changes in the first place. This creates a stressful situation where one party has legally committed to doing some work, but they may not have the buy-in from others in the community to let it happen. This is particularly problematic when the funding commitment was not advertised publicly to others in the project early on.&lt;/p>
+&lt;p>Here are a few tips to ensure that funding is aligned with good governance principles:&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>Make it clear who is allowed to accept money for a project&lt;/strong>. First and foremost, projects should be explicit about who is allowed to accept money that involves doing open source work for them (e.g., only steering council members can approve new funding). Moreover, they should define basic policies about how that money can be used (e.g. does the project have a cap on the amount that can be paid to individuals).&lt;/li>
+&lt;li>&lt;strong>Tell others about your funding opportunity and get buy-in.&lt;/strong> If a stakeholder wants to take advantage of a funding opportunity, they should first tell others on the team about the opportunity and what they hope to do. This is the bare minimum - give others an opportunity to object to your plan and/or ask for clarifications or modifications.&lt;/li>
+&lt;li>&lt;strong>Make decisions before funding opportunities arise&lt;/strong>. If the community has already agreed that something is a good idea, then it is much simpler if funding simply helps &lt;em>implement&lt;/em> something rather than &lt;em>propose&lt;/em> something new.&lt;/li>
+&lt;/ol>
+&lt;h2 id="transparency--make-it-easy-for-others-to-see-your-interests-and-operations">
+Transparency: make it easy for others to see your interests and operations
+&lt;a class="header-anchor" href="#transparency--make-it-easy-for-others-to-see-your-interests-and-operations">#&lt;/a>
+&lt;/h2>&lt;p>Most open projects are community-led, while funding tends to be awarded to one or more stakeholders &lt;em>within&lt;/em> that community. At a minimum, communities should ask stakeholders to provide transparency about why they&amp;rsquo;re looking for funding, what they&amp;rsquo;re agreeing to do, and how they spend the money.&lt;/p>
+&lt;p>Transparency is a way of building trust with other stakeholders by being clear about what you&amp;rsquo;re up to. It makes it easier for others to hold you accountable, and makes it easier for others to understand whether your actions are in line with the goals and values of the community.&lt;/p>
+&lt;p>Here are a few tips to follow:&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>Share your budget with the community&lt;/strong>. Money is always a sensitive subject, but communities have a right to know if funding is being spent towards roles and operations that align with their interests. Some communities may also have policies about how much funding can be awarded to an individual person, and making this clear (even if it is in aggregate) helps others understand what you&amp;rsquo;re doing with funds.&lt;/li>
+&lt;li>&lt;strong>Declare conflicts of interest&lt;/strong>. We all have multiple hats when working with an open source project (unless we&amp;rsquo;re paid full-time by the project itself). Any participating organization has their own mission, strategy, and interests. Some of these may be aligned with a community, and some may be aligned with a funding opportunity. It&amp;rsquo;s important to declare how these interests align and where they differ, especially as it pertains to power dynamics and how funding is used.&lt;/li>
+&lt;li>&lt;strong>Carry out project planning and execution in public&lt;/strong>. Dedicated staff have more time than normal to decide and act quickly. If they don&amp;rsquo;t leave a paper trail for their work, it becomes difficult for those with less time to remain engaged and follow along. Make sure that you make your intentions, and the results of your actions, easily discoverable by those who do not have the same amount of time as you do to engage.&lt;/li>
+&lt;/ol>
+&lt;h2 id="accountability-allow-others-to-decide-if-youve-done-a-good-job">
+Accountability: allow others to decide if you&amp;rsquo;ve done a good job
+&lt;a class="header-anchor" href="#accountability-allow-others-to-decide-if-youve-done-a-good-job">#&lt;/a>
+&lt;/h2>&lt;p>Accountability is a complement to transparency - you need to show others what you&amp;rsquo;re up to, and let them tell you if you&amp;rsquo;re doing a good job. At a minimum this should happen at the level of the specific funding opportunity, but ideally you should give key community members visibility and agency into your organization&amp;rsquo;s broader strategy.&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>Ask for feedback about your strategic plan and how this funding fits into it&lt;/strong>. Tell a community about what you&amp;rsquo;re up to, and why you think this funding is in both of your interests to receive. Let them know how it fits in with the big picture.&lt;/li>
+&lt;li>&lt;strong>Give strategic oversight to community members that work for a different stakeholder&lt;/strong>. Give special attention to at least one community member that does not work for the same organization (for example, by creating an advisory board and briefing them on your progress and planning). This will help a more neutral perspective represent the interests of the community and avoid potential conflicts of interest.&lt;/li>
+&lt;li>&lt;strong>Perform an audit of your work and share it with others&lt;/strong>. Do your best to objectively assess your own progress towards your goals, and whether you believe you&amp;rsquo;ve represented the community&amp;rsquo;s interests in working towards them. Other community members may not have the resources to do this on their own, and you should use your dedicated funding to perform this yourself (while understandably declaring a conflict of interest in assessing your own work).&lt;/li>
+&lt;/ol>
+&lt;h2 id="equity-share-resources-and-knowledge-with-others">
+Equity: share resources and knowledge with others
+&lt;a class="header-anchor" href="#equity-share-resources-and-knowledge-with-others">#&lt;/a>
+&lt;/h2>&lt;p>Open communities are a vehicle for building collaborations that span countries, economic situations, and use-cases. They are powerful because of their diverse and multi-stakeholder nature. However, they also exist in a society that is deeply inequitable and that perpetuates centers of wealth and power. This means that most open communities will have a subset of stakeholders with connections and resources that are unavailable to others. To ensure that we follow the principles of open culture, it is crucial that we find ways to push against this inequitable system by sharing resources with one another wherever possible.&lt;/p>
+&lt;p>Moreover, getting funding often means &lt;em>centralizing the ability to act in a small subset of people&lt;/em>. This runs the risk that decision-making (see above) and organizational knowledge become centralized with those individuals. If you&amp;rsquo;re paid full-time to work on an open source project, there&amp;rsquo;s a good chance you will personally come to understand the codebase better than anybody else just because you have the time to learn it. This can turn into an anti-pattern where those with access to resources have an unfair power advantage in their perspective over the project.&lt;/p>
+&lt;p>Finally, running open source projects requires work on &lt;em>both&lt;/em> the creating and the receiving end. You can pay somebody to write a bunch of code, but somebody else still has to review it, lead discussions, and ultimately decide to merge.&lt;/p>
+&lt;p>Here are a few tips to follow:&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>Share funding with others.&lt;/strong> If your work is going to require reviews and input from others, find a way to compensate them for their time (if they wish). Prioritize sharing resources with orgs from historically marginalized or disadvantaged communities. When dedicated resources are available, use them for these kinds of groups.&lt;/li>
+&lt;li>&lt;strong>Prioritize documentation and knowledge sharing.&lt;/strong> It can be attractive to work on shiny new things, but it is &lt;em>crucial&lt;/em> that you put in the work to share knowledge with others in a community so that your funding doesn&amp;rsquo;t become a source of knowledge and power centralization. Document your planning and work, and use that funding to make extra efforts to share your experience with others.&lt;/li>
+&lt;li>&lt;strong>Define practices for making changes that require at least two stakeholders&lt;/strong>. This helps ensure that those funded to work on open source cannot overpower others in the community just because of their dedicated time. It also encourages healthier collaboration and communication between stakeholders.&lt;/li>
+&lt;/ol>
+&lt;h2 id="inclusion-bring-others-along-with-you">
+Inclusion: bring others along with you
+&lt;a class="header-anchor" href="#inclusion-bring-others-along-with-you">#&lt;/a>
+&lt;/h2>&lt;p>A differentiating aspect of open communities is the way in which they &lt;em>share power among stakeholders&lt;/em>. Funding is inherently tied to power, as it gives you the ability to pay people to do things. Moreover, a stakeholder that &lt;em>controls&lt;/em> funding also controls what it is used for. As a result, it&amp;rsquo;s not enough to simply share funding with others in a project, &lt;em>if that funding comes with strings attached&lt;/em>. It is also important to share opportunities for funding with others, and to build coalitions of equals when pursuing new funding.&lt;/p>
+&lt;p>Collaborators should be given agency over what they want to do with funding. They should be part of grant planning, project planning, etc. They should be seen as co-leads in discussion and announcements. Obviously any funding opportunity will come with obligations, but the important thing is who gets to decide what the team commits to in the first place, and how they plan to accomplish their goals.&lt;/p>
+&lt;p>Here are a few tips to follow:&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>Invite others to participate in funding opportunities, especially if they need it&lt;/strong>. If you identify a funding opportunity, tell others about it. Invite them to collaborate with you on a proposal, or encourage them to write their own proposal.&lt;/li>
+&lt;li>&lt;strong>Treat other stakeholders as partners, not contractors&lt;/strong>. Treat collaborators as co-equals that have a say in leadership, strategy, and planning. Funding shouldn&amp;rsquo;t solely come in the form of &amp;ldquo;strings attached&amp;rdquo; and contract work. It should center others as collaborators and leads that bring their own ideas to the table.&lt;/li>
+&lt;li>&lt;strong>Find ways to give power to those who historically do not have it&lt;/strong>. Consider the power dynamics of who applies for funding and actively invite participation from those that need it or that wouldn&amp;rsquo;t have access to these resources on their own. If you have a personal connection, use it to bring others to the table. If you&amp;rsquo;re at a well-known organization, use it to boost the profile of others.&lt;/li>
+&lt;/ol>
+&lt;h2 id="how-do-i-actually-implement-any-of-this">
+How do I actually implement any of this?
+&lt;a class="header-anchor" href="#how-do-i-actually-implement-any-of-this">#&lt;/a>
+&lt;/h2>&lt;p>The ideas in this post are principles and goals to strive for. They also touch on very complex subjects, and following them all perfectly is unrealistic given the state of most organizations. The point is not to define a specific roadmap of actions that must be followed, but to note a few major anti-patterns and ways to avoid them. Fundamentally, your goal should be to &lt;strong>build trust with a community&lt;/strong> and to &lt;strong>live up to the community&amp;rsquo;s mission and values&lt;/strong>. Do what you can, and be honest and open with others in your efforts. A little bit of transparency and effort goes a long way.&lt;/p>
+&lt;p>As for 2i2c, we hope to use the ideas in this post to define a strategy and set of policies for how to engage with directed funding for open source. We&amp;rsquo;ll share new ideas in the coming weeks.&lt;/p>
+&lt;h2 id="references-and-more-reading">
+References and more reading
+&lt;a class="header-anchor" href="#references-and-more-reading">#&lt;/a>
+&lt;/h2>&lt;p>There are many resources that discuss how to equitably and inclusively seek funding as part of collaborations&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>. Here are a few that I found useful in writing this blog post:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="https://awid.org/sites/default/files/2022-02/AWID_Funding_Ecosystem_2019_FINAL_Eng.pdf" target="_blank" rel="noopener">AWID - Towards a feminist funding ecosystem guide&lt;/a>
+&lt;/li>
+&lt;li>
+&lt;a href="http://astraeafoundation.org/microsites/feminist-funding-principles/" target="_blank" rel="noopener">The Astraea Foundation - Feminist Funding Principles&lt;/a>
+&lt;/li>
+&lt;li>
+&lt;a href="https://www.openglobalrights.org/what-we-can-learn-from-feminists-who-fund-themselves/" target="_blank" rel="noopener">OpenGlobalRights - What we can learn from feminists who fund themselves&lt;/a>
+&lt;/li>
+&lt;li>
+&lt;a href="https://learningforfunders.candid.org/content/guides/deciding-together/" target="_blank" rel="noopener">Candid Learning for Funders - Deciding Together&lt;/a>
+&lt;/li>
+&lt;li>
+&lt;a href="https://www.openandequitable.org/participate" target="_blank" rel="noopener">Open Research Funders Group - Open and Equitable Model Funding Program&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>And many thanks to several people in the
+&lt;a href="https://investinopen.org" target="_blank" rel="noopener">Invest in Open Infrastructure&lt;/a>
+,
+&lt;a href="https://the-turing-way.netlify.app" target="_blank" rel="noopener">The Turing Way&lt;/a>
+,
+&lt;a href="https://chanzuckerberg.com/" target="_blank" rel="noopener">the Chan Zuckerberg Initiative&lt;/a>
+, and
+&lt;a href="https://codeforsociety.org" target="_blank" rel="noopener">Code for Science and Society&lt;/a>
+Slacks that helped me brainstorm these ideas.&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></description></item></channel></rss>
