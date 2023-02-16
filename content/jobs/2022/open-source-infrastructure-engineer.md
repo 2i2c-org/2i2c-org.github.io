@@ -11,7 +11,7 @@ location = "preferred at the US/Pacific time zone"
 date = "2022-10-14"
 url_apply = "https://forms.gle/RPqWHoweDnvUVp4d8"
 deadline = "We will begin reviewing applications around **November 17th**, and will accept them on a rolling basis until the position is filled."
-open = true
+open = false
 show_date = false
 +++
 
