@@ -10,7 +10,7 @@ authors:
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: Open Source Infrastructure Engineer
+role: Engineering Manager
 
 # Organizations/Affiliations
 organizations:

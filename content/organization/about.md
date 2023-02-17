@@ -14,7 +14,7 @@ We are a distributed team spread across South America, Western and Eastern Europ
 
 {{% callout %}}
 
-[Our Team Compass](https://compass.2i2c.org/en/latest/organization/structure.html) has a lot more information about our organizational structure, goals, and policy.
+[The organizational structure section of our team compass](https://compass.2i2c.org/en/latest/organization/structure.html) has a lot more information about our organizational structure and roles.
 
 {{% /callout %}}
 
