@@ -44,5 +44,4 @@ Thanks to CILogon's trial offer of their administrative client API, during this 
 
 We are now happy to announce that the 2i2c - CILogon partnership has been expanded to another year!
 
-**Acknowledgements**: The infrastructure described in this post was developed by [the 2i2c engineering team](/organization/team.md), and this post was edited by [Chris Holdgraf](/author/chris-holdgraf)._
-
+**Acknowledgements**: The upstream [`jupyterhub-oauthenticator`](https://oauthenticator.readthedocs.io/en/latest) project mentioned in this post as being used at 2i2c is a JupyterHub package, kindly developed and maintained by the [JupyterHub community](https://discourse.jupyter.org/c/jupyterhub/) and the 2i2c integration described was developed by [the 2i2c engineering team](/organization/team.md).
