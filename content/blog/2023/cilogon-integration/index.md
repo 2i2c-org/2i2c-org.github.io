@@ -4,7 +4,7 @@ subtitle: ""
 summary: "The following is a summary of how CILogon is used at 2i2c, how the integration works and a celebration of the partnership."
 authors: ["Georgiana Dolocan"]
 tags: []
-categories: [engineering]
+categories: [engineering, partnerships]
 date: "2023-02-23"
 featured: false
 draft: false
