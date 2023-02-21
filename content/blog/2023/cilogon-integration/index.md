@@ -32,7 +32,7 @@ The setup that 2i2c uses, is based on two important tools, the CILogon administr
 
 The [2i2c administrative client](https://cilogon.github.io/oa4mp/server/manuals/dynamic-client-registration.html) provided by CILogon allowed us to automatically manage the CILogon OAuth applications needed for authenticating into the hub.
 
-For each hub that uses CILogon, we dynamically create an OAuth [client application](https://cilogon.github.io/oa4mp/server/manuals/dynamic-client-registration.html) in CILogon and store the credentials safely, using the script at [cilogon_app.py](https://github.com/2i2c-org/infrastructure/blob/HEAD/deployer/cilogon_app.py). The script can also used for `updating` the callback URLs of an existing OAuth application, `deleting` a CILogon OAuth application when a hub is removed or changes authentication methods, `getting` details about an existing OAuth application, `getting all` existing 2i2c CILogon OAuth applications.
+For each hub that uses CILogon, we dynamically create an OAuth [client application](https://cilogon.github.io/oa4mp/server/manuals/dynamic-client-registration.html) in CILogon and store the credentials safely, using the script at [cilogon_app.py](https://github.com/2i2c-org/infrastructure/blob/3312f373f0aa59fbc98dc1c8161aa9623b68726b/deployer/cilogon_app.py). The script can also used for `updating` the callback URLs of an existing OAuth application, `deleting` a CILogon OAuth application when a hub is removed or changes authentication methods, `getting` details about an existing OAuth application, `getting all` existing 2i2c CILogon OAuth applications.
 
 ### The JupyterHub CILogonOAuthenticator
 
