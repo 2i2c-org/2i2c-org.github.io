@@ -1,4 +1,66 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2i2c</title><link>https://2i2c.org/</link><atom:link href="https://2i2c.org/index.xml" rel="self" type="application/rss+xml"/><description>2i2c</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 08 Jan 2023 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>2i2c</title><link>https://2i2c.org/</link></image><item><title>Principles and considerations for ethically accepting funding for open source</title><link>https://2i2c.org/blog/2023/open-source-funding-principles/</link><pubDate>Sun, 08 Jan 2023 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2023/open-source-funding-principles/</guid><description>&lt;p>&lt;em>This is a brainstorm to consider the principles and guidelines that 2i2c should follow in defining its strategy towards open source communities.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2i2c</title><link>https://2i2c.org/</link><atom:link href="https://2i2c.org/index.xml" rel="self" type="application/rss+xml"/><description>2i2c</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 24 Feb 2023 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>2i2c</title><link>https://2i2c.org/</link></image><item><title>CILogon usage at 2i2c</title><link>https://2i2c.org/blog/2023/cilogon-integration/</link><pubDate>Fri, 24 Feb 2023 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2023/cilogon-integration/</guid><description>
+&lt;h2 id="about-cilogon">
+About CILogon
+&lt;a class="header-anchor" href="#about-cilogon">#&lt;/a>
+&lt;/h2>&lt;p>
+&lt;a href="https://www.cilogon.org" target="_blank" rel="noopener">CILogon&lt;/a>
+is an open source service provider that allows users to log in against over 4000 various identity providers, including campus identity providers. The available identity providers are members of
+&lt;a href="https://incommon.org/federation/" target="_blank" rel="noopener">InCommon&lt;/a>
+, a federation of universities and other organizations that provide single sign-on access to various resources.&lt;/p>
+&lt;h2 id="cilogon-and-2i2c">
+CILogon and 2i2c
+&lt;a class="header-anchor" href="#cilogon-and-2i2c">#&lt;/a>
+&lt;/h2>&lt;p>For the past year, 2i2c has been successfully using CILogon for more than fifteen of the hubs it manages.&lt;/p>
+&lt;p>Currently, most of the hubs that use it are hubs for communities in education that want to manage their hub access through their own institutional providers.&lt;/p>
+&lt;p>With using a tool like CILogon, we allow hub access to be managed both through the communities&amp;rsquo; institutional providers, but also through social providers like GitHub and Google. Because both authentication mechanisms can coexist, there&amp;rsquo;s no need to provide specific credentials for 2i2c staff in order to have access to the hub. This reduces both the burden on institution&amp;rsquo;s IT departments, but also the complexity of a hub deployment.&lt;/p>
+&lt;p>Moreover, as we migrate away from our current Auth0 setup, the number of hubs using CILogon will further increase in the following year.&lt;/p>
+&lt;h2 id="the-setup">
+The setup
+&lt;a class="header-anchor" href="#the-setup">#&lt;/a>
+&lt;/h2>&lt;p>The setup that 2i2c uses, is based on two important tools, the CILogon administrative client and the JupyterHub CILogonOAuthenticator.&lt;/p>
+&lt;h3 id="the-cilogon-administrative-client">
+The CILogon administrative client
+&lt;a class="header-anchor" href="#the-cilogon-administrative-client">#&lt;/a>
+&lt;/h3>&lt;p>The
+&lt;a href="https://cilogon.github.io/oa4mp/server/manuals/dynamic-client-registration.html" target="_blank" rel="noopener">2i2c administrative client&lt;/a>
+provided by CILogon allowed us to automatically manage the CILogon OAuth applications needed for authenticating into the hub.&lt;/p>
+&lt;p>For each hub that uses CILogon, we dynamically create an OAuth
+&lt;a href="https://cilogon.github.io/oa4mp/server/manuals/dynamic-client-registration.html" target="_blank" rel="noopener">client application&lt;/a>
+in CILogon and store the credentials safely, using the script at
+&lt;a href="https://github.com/2i2c-org/infrastructure/blob/3312f373f0aa59fbc98dc1c8161aa9623b68726b/deployer/cilogon_app.py" target="_blank" rel="noopener">cilogon_app.py&lt;/a>
+. The script can also used for &lt;code>updating&lt;/code> the callback URLs of an existing OAuth application, &lt;code>deleting&lt;/code> a CILogon OAuth application when a hub is removed or changes authentication methods, &lt;code>getting&lt;/code> details about an existing OAuth application, &lt;code>getting all&lt;/code> existing 2i2c CILogon OAuth applications.&lt;/p>
+&lt;h3 id="the-jupyterhub-cilogonoauthenticator">
+The JupyterHub CILogonOAuthenticator
+&lt;a class="header-anchor" href="#the-jupyterhub-cilogonoauthenticator">#&lt;/a>
+&lt;/h3>&lt;p>For CILogon&amp;rsquo;s integration with JupyterHub&amp;rsquo;s authentication workflow, we&amp;rsquo;re using the
+&lt;a href="https://github.com/jupyterhub/oauthenticator/blob/main/oauthenticator/cilogon.py" target="_blank" rel="noopener">&lt;strong>CILogonOAuthenticator&lt;/strong>&lt;/a>
+, which is part of the
+&lt;a href="https://oauthenticator.readthedocs.io/en/latest/" target="_blank" rel="noopener">JupyterHub OAuthenticator project&lt;/a>
+. This is what allows JupyterHub to use common OAuth providers for authentication, and it&amp;rsquo;s also a base for writing other Authenticators with any OAuth 2.0 provider.&lt;/p>
+&lt;p>As part of this 2i2c integration with the JupyterHub CILogonOAuthenticator some important upstream fixes and enhancements to the
+&lt;a href="https://github.com/jupyterhub/oauthenticator" target="_blank" rel="noopener">&lt;code>oauthenticator&lt;/code>&lt;/a>
+were identified and performed. For example, the
+&lt;a href="https://github.com/jupyterhub/oauthenticator/security/advisories/GHSA-r7v4-jwx9-wx43" target="_blank" rel="noopener">GHSA-r7v4-jwx9-wx43&lt;/a>
+vulnerability was reported and fixed, and a
+&lt;a href="https://oauthenticator.readthedocs.io/en/latest/how-to/migrations/upgrade-to-15.html" target="_blank" rel="noopener">migration guide&lt;/a>
+containing a description of the breaking changes that were made, together with a step by step guide for the users on how to update their usage of JupyterHub CILogonOAuthenticator was provided.&lt;/p>
+&lt;p>Read more about how CILogon is setup for use at 2i2c from
+&lt;a href="https://infrastructure.2i2c.org/en/latest/hub-deployment-guide/configure-auth/cilogon.html" target="_blank" rel="noopener">the docs&lt;/a>
+.&lt;/p>
+&lt;h2 id="celebration">
+Celebration
+&lt;a class="header-anchor" href="#celebration">#&lt;/a>
+&lt;/h2>&lt;p>Thanks to the 2i2c - CILogon partnership, during this past year we were able to integrate CILogon into 2i2c&amp;rsquo;s infrastructure and to observe its importance, usefulness and great support for 2i2c and the communities we server.&lt;/p>
+&lt;p>We are now happy to announce that the 2i2c - CILogon partnership has been expanded to another year!&lt;/p>
+&lt;p>&lt;strong>Acknowledgements&lt;/strong>: The upstream
+&lt;a href="https://oauthenticator.readthedocs.io/en/latest" target="_blank" rel="noopener">&lt;code>jupyterhub-oauthenticator&lt;/code>&lt;/a>
+project mentioned in this post as being used at 2i2c is a JupyterHub package, kindly developed and maintained by the
+&lt;a href="https://discourse.jupyter.org/c/jupyterhub/" target="_blank" rel="noopener">JupyterHub community&lt;/a>
+and the 2i2c integration described was developed by
+&lt;a href="https://2i2c.org/organization/team.md">the 2i2c engineering team&lt;/a>
+. Also, this post was edited by
+&lt;a href="https://jbasney.net/" target="_blank" rel="noopener">Jim Basney&lt;/a>
+.&lt;/p></description></item><item><title>Principles and considerations for ethically accepting funding for open source</title><link>https://2i2c.org/blog/2023/open-source-funding-principles/</link><pubDate>Sun, 08 Jan 2023 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2023/open-source-funding-principles/</guid><description>&lt;p>&lt;em>This is a brainstorm to consider the principles and guidelines that 2i2c should follow in defining its strategy towards open source communities.
 See
 &lt;a href="https://compass.2i2c.org/en/latest/open-source/index.html" target="_blank" rel="noopener">our open source policy documentation&lt;/a>
 for the product of this brainstorm.&lt;/em>&lt;/p>
