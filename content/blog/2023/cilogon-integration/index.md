@@ -5,7 +5,7 @@ summary: "The following is a summary of how CILogon is used at 2i2c, how the int
 authors: ["Georgiana Dolocan"]
 tags: []
 categories: [engineering, partnerships]
-date: "2023-02-23"
+date: "2023-02-24"
 featured: false
 draft: false
 ---
