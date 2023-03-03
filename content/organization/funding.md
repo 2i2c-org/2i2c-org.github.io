@@ -11,7 +11,7 @@ title = "How we are funded"
 [[funders]]
   image = "https://chanzuckerberg.com/wp-content/themes/czi/img/logo.svg"
   
-  description = "The [Chan Zuckerberg Initiative ](https://chanzuckerberg.com/eoss/) awarded 2i2c [$1.4m over 3 years](/blog/czi-core-support) for capacity building in the Jupyter ecosystem for research and education."
+  description = "The [Chan Zuckerberg Initiative ](https://chanzuckerberg.com/eoss/) awarded 2i2c [$1.4m over 3 years](/blog/2021/czi-core-support) for capacity building in the Jupyter ecosystem for research and education."
 
 [[funders]]
   image = "https://investinopen.org/content/images/2020/09/ioi-logo-sq-1.png"
