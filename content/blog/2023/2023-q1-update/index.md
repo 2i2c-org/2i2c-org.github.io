@@ -36,7 +36,7 @@ Below are a few highlights for ways in which we improved our [Managed Cloud Serv
 ### We simplified our authentication workflow with CILogon
 
 Authentication services allow us to identify a user when they log onto a hub, which determines their ability to access hub resources.
-Previously we had used a combination of [Auth0](https://auth0.com/) and [CILogon](https://www.cilogon.org/) for authentication.
+Previously we had used a combination of [Auth0](https://auth0.com/), [CILogon](https://www.cilogon.org/), or [GitHub](https://infrastructure.2i2c.org/hub-deployment-guide/configure-auth/github-orgs.html) for authentication.
 
 However, over the past year we've been happy with our use of CILogon so far, especially because of its non-profit status and alignment with many research and education institutions that we work with.
 This quarter, we decided to streamline our authentication process by dropping the use of Auth0 and grow our partnership with CILogon.
