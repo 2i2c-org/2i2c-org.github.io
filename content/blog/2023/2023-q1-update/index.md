@@ -81,7 +81,7 @@ Here's our support button and widget in action:
 We use either a shared or a dedicated Kubernetes cluster for each of our community partners, and it is the foundation upon which all of their Jupyter infrastructure rests.
 
 One of the biggest challenges with managing an ongoing cloud service is keeping the underlying infrastructure upgraded.
-This brings in new stability and functionality, but also often involves manual steps and toil
+This brings in new stability and functionality, but also often involves manual steps and toil.
 This quarter, we upgraded each of our AWS JupyterHubs to [Kubernetes 1.24](https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.24.md) and will continue this effort with other providers in the coming quarters.
 
 ### We streamlined our hub uptime checks to be more efficient
