@@ -7,6 +7,9 @@ on:
     # https://crontab.guru/#00_18_*_*_1
     - cron: "00 18 * * 1"
 
+permissions:
+  issues: write
+
 jobs:
   linkChecker:
     runs-on: ubuntu-latest
