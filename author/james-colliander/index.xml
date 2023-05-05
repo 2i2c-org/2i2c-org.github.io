@@ -72,7 +72,7 @@ Things we learned
 &lt;a class="header-anchor" href="#things-we-learned">#&lt;/a>
 &lt;/h2>&lt;p>Our experience with the Symposium taught 2i2c a few things.&lt;/p>
 &lt;p>We learned that our engineering team can rapidly deploy interactive computing resources to support a research and education community. Along the way, we confirmed what we&amp;rsquo;ve been learning from Pangeo and the neuroscience communities: flexible methods to customize the software environment are necessary. We confirmed that our developing
-&lt;a href="https://docs.2i2c.org/en/latest/about/service/shared-responsibility.html?highlight=shared%20responsibility" target="_blank" rel="noopener">shared responsibility model&lt;/a>
+&lt;a href="https://docs.2i2c.org/about/service/shared-responsibility.html?highlight=shared%20responsibility" target="_blank" rel="noopener">shared responsibility model&lt;/a>
 , enabling domain-specific experts to provide curated toolchains for their communities while leveraging 2i2c&amp;rsquo;s infrastructure expertise, is the right approach.&lt;/p>
 &lt;p>We learned that managing access to the hub using members in a GitHub organization works but involves some toil since organizers had to work through the GitHub invitation process for each participant. We are exploring others ways to systematically grant event participants access to a hub.&lt;/p>
 &lt;p>The Eddy Symposium experience reminded us that some skill at using &lt;code>git&lt;/code> is vital for collaboration. Fernando&amp;rsquo;s brief introduction to &lt;code>git&lt;/code> provided

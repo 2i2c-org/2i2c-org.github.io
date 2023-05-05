@@ -45,7 +45,7 @@ vulnerability was reported and fixed, and a
 &lt;a href="https://oauthenticator.readthedocs.io/en/latest/how-to/migrations/upgrade-to-15.html" target="_blank" rel="noopener">migration guide&lt;/a>
 containing a description of the breaking changes that were made, together with a step by step guide for the users on how to update their usage of JupyterHub CILogonOAuthenticator was provided.&lt;/p>
 &lt;p>Read more about how CILogon is setup for use at 2i2c from
-&lt;a href="https://infrastructure.2i2c.org/en/latest/hub-deployment-guide/configure-auth/cilogon.html" target="_blank" rel="noopener">the docs&lt;/a>
+&lt;a href="https://infrastructure.2i2c.org/hub-deployment-guide/configure-auth/cilogon.html" target="_blank" rel="noopener">the docs&lt;/a>
 .&lt;/p>
 &lt;h2 id="celebration">
 Celebration
