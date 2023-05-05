@@ -8,7 +8,7 @@ on:
 
 jobs:
   deploy:
-    name: Check links and deploy on main 
+    name: Build and deploy to GitHub pages if on main
     runs-on: ubuntu-latest
     permissions:
       contents: write
