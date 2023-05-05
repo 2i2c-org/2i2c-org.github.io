@@ -37,7 +37,7 @@ The Symposium focused on three disciplinary areas (**Exoplanets**; **Sun-Climate
 
 Our experience with the Symposium taught 2i2c a few things. 
 
-We learned that our engineering team can rapidly deploy interactive computing resources to support a research and education community. Along the way, we confirmed what we've been learning from Pangeo and the neuroscience communities: flexible methods to customize the software environment are necessary. We confirmed that our developing [shared responsibility model](https://docs.2i2c.org/en/latest/about/service/shared-responsibility.html?highlight=shared%20responsibility), enabling domain-specific experts to provide curated toolchains for their communities while leveraging 2i2c's infrastructure expertise, is the right approach.
+We learned that our engineering team can rapidly deploy interactive computing resources to support a research and education community. Along the way, we confirmed what we've been learning from Pangeo and the neuroscience communities: flexible methods to customize the software environment are necessary. We confirmed that our developing [shared responsibility model](https://docs.2i2c.org/about/service/shared-responsibility.html?highlight=shared%20responsibility), enabling domain-specific experts to provide curated toolchains for their communities while leveraging 2i2c's infrastructure expertise, is the right approach.
 
 We learned that managing access to the hub using members in a GitHub organization works but involves some toil since organizers had to work through the GitHub invitation process for each participant. We are exploring others ways to systematically grant event participants access to a hub.
 

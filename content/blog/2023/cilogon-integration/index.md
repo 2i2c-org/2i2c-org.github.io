@@ -40,7 +40,7 @@ For CILogon's integration with JupyterHub's authentication workflow, we're using
 
 As part of this 2i2c integration with the JupyterHub CILogonOAuthenticator some important upstream fixes and enhancements to the [`oauthenticator`](https://github.com/jupyterhub/oauthenticator) were identified and performed. For example, the [GHSA-r7v4-jwx9-wx43](https://github.com/jupyterhub/oauthenticator/security/advisories/GHSA-r7v4-jwx9-wx43) vulnerability was reported and fixed, and a [migration guide](https://oauthenticator.readthedocs.io/en/latest/how-to/migrations/upgrade-to-15.html) containing a description of the breaking changes that were made, together with a step by step guide for the users on how to update their usage of JupyterHub CILogonOAuthenticator was provided.
 
-Read more about how CILogon is setup for use at 2i2c from [the docs](https://infrastructure.2i2c.org/en/latest/hub-deployment-guide/configure-auth/cilogon.html). 
+Read more about how CILogon is setup for use at 2i2c from [the docs](https://infrastructure.2i2c.org/hub-deployment-guide/configure-auth/cilogon.html). 
 
 
 ## Celebration

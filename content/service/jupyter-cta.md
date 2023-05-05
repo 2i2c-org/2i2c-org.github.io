@@ -20,6 +20,6 @@ While Jupyter is at the core of 2i2c's infrastructure, Jupyter is flexible enoug
 
 <div class="cta-group">
 
-{{< cta cta_text="Learn about our infrastructure" cta_link="https://docs.2i2c.org/en/latest/" cta_new_tab="true" >}}
+{{< cta cta_text="Learn about our infrastructure" cta_link="https://docs.2i2c.org/" cta_new_tab="true" >}}
 
 </div>

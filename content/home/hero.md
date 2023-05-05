@@ -16,7 +16,7 @@ hero_media = ""
   label = "Learn about our cloud service"
 
 [cta_alt]
-  url ="about"
+  url ="mission"
   label = "Our Mission"
 
 # Note. An optional note to show underneath the links.

@@ -26,7 +26,7 @@ They'll be built entirely with open source tools that are community-driven, and 
 In order to accomplish this, 2i2c is running several pilots with partners and interested organizations, supported by our [funding from CZI](/blog/czi-core-support), as well as from [the JROST rapid response fund](https://investinopen.org/blog/jrost-rapid-response-fund-awardees/).
 These pilots are meant to be learning opportunities to understand what kind of infrastructure and service it needs to build moving forward.
 
-The [documentation for our pilot hubs infrastructure](https://infrastructure.2i2c.org/en/latest/) contains information about our deployments and infrastructure.
+The [documentation for our pilot hubs infrastructure](https://infrastructure.2i2c.org/) contains information about our deployments and infrastructure.
 It is served from [this `2i2c-org/infrastructure` repository](https://github.com/2i2c-org/infrastructure), a centralized location for configuring and deploying a federated network of JupyterHubs.
 Each JupyterHub is independent of one another, and could be spun out from the centralized repository with minimal extra work, giving hub users the ability to [replicate their infrastructure, with or without 2i2c](/right-to-replicate).
 We will continue refining the code in this repository as we learn more from our hub infrastructure pilots.
@@ -68,10 +68,10 @@ Here's a bit about each new team member.
 ## Governance and a code of conduct
 
 Finally, while it's easy to get lost in technology and collaborations, 2i2c has also made important steps towards defining a stable and transparent organizational model moving forward.
-2i2c now [has a Steering Council](https://compass.2i2c.org/en/latest/about/structure.html#steering-council) and an [early organizational structure](https://compass.2i2c.org/en/latest/about/structure.html).
-In addition, [we've defined a one-year bootstrap strategy](https://compass.2i2c.org/en/latest/organization/strategy.html) that we'll use to guide our path in the first year of 2i2c's existence.
+2i2c now [has a Steering Council](https://compass.2i2c.org/about/structure.html#steering-council) and an [early organizational structure](https://compass.2i2c.org/about/structure.html).
+In addition, [we've defined a one-year bootstrap strategy](https://compass.2i2c.org/organization/strategy.html) that we'll use to guide our path in the first year of 2i2c's existence.
 
-Finally, one of the first acts of the Steering Council has been to [adopt a Code of Conduct](https://compass.2i2c.org/en/latest/code-of-conduct/index.html).
+Finally, one of the first acts of the Steering Council has been to [adopt a Code of Conduct](https://compass.2i2c.org/code-of-conduct/index.html).
 This is a set of guidelines, and a process for resolving incidents, that makes our community more inclusive, equitable, and enjoyable for all.
 Creating a Code of Conduct is a crucial part of defining our organizational and community culture, and we're excited to have some explicit guidelines to support our interactions in the future!
 

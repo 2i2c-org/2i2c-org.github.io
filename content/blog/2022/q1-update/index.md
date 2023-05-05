@@ -30,7 +30,7 @@ Here are a few highlights:
 
 ## Communities we've served and lessons learned
 
-As described in [our Managed Hub Services strategy](https://compass.2i2c.org/en/latest/organization/strategy.html), our goals for this phase of our organization are to balance _serving communities of practice_ and _learning where we can improve our infrastructure and practices_.
+As described in [our Managed Hub Services strategy](https://compass.2i2c.org/organization/strategy.html), our goals for this phase of our organization are to balance _serving communities of practice_ and _learning where we can improve our infrastructure and practices_.
 With that in mind, here are a few highlights of communities we've served, and what we've learned from it:
 
 - **We grew a hub for [the University of Toronto](https://jupyter.utoronto.ca/) to around 4000 monthly users**. This has taught us a lot about where our support and operations can and cannot scale, and where we have gaps in our sustainability / pricing model.

@@ -16,12 +16,12 @@ This is a brief reflection on this experience, and an attempt to identify our op
 ## Our major goals in 2022
 
 We wrapped up 2021 with two major new changes.
-We had just finished [moving fiscal sponsors](https://2i2c.org/blog/2021/q3-update/) and had just finished a prototype of our [alpha service offerings](https://docs.2i2c.org/en/latest/).
+We had just finished [moving fiscal sponsors](https://2i2c.org/blog/2021/q3-update/) and had just finished a prototype of our [alpha service offerings](https://docs.2i2c.org/).
 
 {{< figure
   src="service-offerings.png"
   width="75%"
-  caption="Our 2x2 matrix of service offerings and prices created at the end of 2021. See [the documentation](https://docs.2i2c.org/en/latest/) for more details."
+  caption="Our 2x2 matrix of service offerings and prices created at the end of 2021. See [the documentation](https://docs.2i2c.org/) for more details."
 >}}
 
 Our biggest challenge in 2022 was to **identify the bottlenecks in this service model**, and to begin **building the infrastructure to operate and scale it**.
@@ -71,7 +71,7 @@ You can [read a write-up about these improvements in this blog post](https://2i2
 
 Our goal is to frame each community hub as a partnership with a clear breakdown of responsibility to give communities more agency over the infrastructure and service.
 The Shared Responsibility Model provides a framework for assigning responsibility for various tasks with our partner communities.
-See [our Shared Responsibility Model docs here](https://docs.2i2c.org/en/latest/about/service/shared-responsibility.html).
+See [our Shared Responsibility Model docs here](https://docs.2i2c.org/about/service/shared-responsibility.html).
 
 ### We defined a formal Incident Response process
 
@@ -79,7 +79,7 @@ Cloud infrastructure inevitably degrades over time, and running ongoing services
 To do so, we need clear processes to follow in order to quickly identify and respond to major incidents in the infrastructure.
 Our Incident Response process defines formal team roles and alerting mechanisms that are served by [PagerDuty](https://www.pagerduty.com/), following best-practices in industry.
 This will make our service more reliable and make our processes more transparent for our partner communities.
-[Here's our current incident response process](https://compass.2i2c.org/en/latest/projects/managed-hubs/incidents.html).
+[Here's our current incident response process](https://compass.2i2c.org/projects/managed-hubs/incidents.html).
 
 ### We expanded our service offerings to include community and workflow guidance
 
