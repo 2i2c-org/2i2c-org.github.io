@@ -1,4 +1,199 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2i2c</title><link>https://2i2c.org/</link><atom:link href="https://2i2c.org/index.xml" rel="self" type="application/rss+xml"/><description>2i2c</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 24 Feb 2023 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>2i2c</title><link>https://2i2c.org/</link></image><item><title>CILogon usage at 2i2c</title><link>https://2i2c.org/blog/2023/cilogon-integration/</link><pubDate>Fri, 24 Feb 2023 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2023/cilogon-integration/</guid><description>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2i2c</title><link>https://2i2c.org/</link><atom:link href="https://2i2c.org/index.xml" rel="self" type="application/rss+xml"/><description>2i2c</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 28 Apr 2023 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>2i2c</title><link>https://2i2c.org/</link></image><item><title>Community update Q1 2023: Growing our community partner network and our team</title><link>https://2i2c.org/blog/2023/2023-q1-update/</link><pubDate>Fri, 28 Apr 2023 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2023/2023-q1-update/</guid><description>&lt;p>It&amp;rsquo;s a month after the end of Q1 2023, and we&amp;rsquo;d like to share a belated update about what we were up to in the first quarter of this year (we have good excuses for being late, including new tiny humans, I promise).&lt;/p>
+&lt;p>This quarter we grew our engineering team significantly, and started to refine our team processes and structures to accommodate this extra complexity.
+We expanded our managed cloud service with new community partners, and made a number of improvements to our technical infrastructure and organizational processes for managing this service.&lt;/p>
+&lt;p>Read on below to learn more about what we&amp;rsquo;ve been up to!&lt;/p>
+&lt;h2 id="new-community-partnerships">
+New community partnerships
+&lt;a class="header-anchor" href="#new-community-partnerships">#&lt;/a>
+&lt;/h2>&lt;p>We added several new community partnerships to our managed hub service.
+We&amp;rsquo;ve deployed new hub infrastructure for each of the following groups:&lt;/p>
+&lt;ul>
+&lt;li>Our
+&lt;a href="https://act.utoronto.ca/jupyterhub-support/" target="_blank" rel="noopener">University of Toronto Jupyter service&lt;/a>
+now has a dedicated R hub.&lt;/li>
+&lt;li>We ran an event hub for the
+&lt;a href="https://www.drakkar-ocean.eu/" target="_blank" rel="noopener">Drakkar Ocean project&lt;/a>
+&lt;/li>
+&lt;li>We deployed a hub for the
+&lt;a href="https://www.earthdata.nasa.gov/esds/veda" target="_blank" rel="noopener">NASA Visuaslization Exploration and Data Analysis (VEDA) project&lt;/a>
+.&lt;/li>
+&lt;li>We deployed a hub for the
+&lt;a href="https://www.linkedin.com/company/quantifiedcarbon/about/" target="_blank" rel="noopener">QuantifiedCarbon&lt;/a>
+organization.&lt;/li>
+&lt;li>We ran an event hub for
+&lt;a href="https://oceanhackweek.org/" target="_blank" rel="noopener">OceanHackWeek 2023&lt;/a>
+.&lt;/li>
+&lt;li>We onboarded several new community colleges to our &amp;ldquo;JupyterHubs Education in Community Colleges&amp;rdquo; collaboration with
+&lt;a href="https://www.cloudbank.org/welcome-cloudbank" target="_blank" rel="noopener">CloudBank&lt;/a>
+and
+&lt;a href="https://data.berkeley.edu/" target="_blank" rel="noopener">UC Berkeley CDSS&lt;/a>
+.&lt;/li>
+&lt;/ul>
+&lt;h2 id="service-improvements">
+Service improvements
+&lt;a class="header-anchor" href="#service-improvements">#&lt;/a>
+&lt;/h2>&lt;p>Below are a few highlights for ways in which we improved our
+&lt;a href="https://docs.2i2c.org" target="_blank" rel="noopener">Managed Cloud Service&lt;/a>
+for our partner communities.&lt;/p>
+&lt;h3 id="we-simplified-our-authentication-workflow-with-cilogon">
+We simplified our authentication workflow with CILogon
+&lt;a class="header-anchor" href="#we-simplified-our-authentication-workflow-with-cilogon">#&lt;/a>
+&lt;/h3>&lt;p>Authentication services allow us to identify a user when they log onto a hub, which determines their ability to access hub resources.
+Previously we had used a combination of
+&lt;a href="https://auth0.com/" target="_blank" rel="noopener">Auth0&lt;/a>
+,
+&lt;a href="https://www.cilogon.org/" target="_blank" rel="noopener">CILogon&lt;/a>
+, or
+&lt;a href="https://infrastructure.2i2c.org/hub-deployment-guide/configure-auth/github-orgs.html" target="_blank" rel="noopener">GitHub&lt;/a>
+for authentication.&lt;/p>
+&lt;p>However, over the past year we&amp;rsquo;ve been happy with our use of CILogon so far, especially because of its non-profit status and alignment with many research and education institutions that we work with.
+This quarter, we decided to streamline our authentication process by dropping the use of Auth0 and grow our partnership with CILogon.&lt;/p>
+&lt;p>💡 &lt;em>Learn more&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>See
+&lt;a href="https://www.ncsa.illinois.edu/security-made-simple-with-ncsas-cilogon/" target="_blank" rel="noopener">CILogon&amp;rsquo;s write up about it&amp;rsquo;s partnership with 2i2c&lt;/a>
+&lt;/li>
+&lt;li>See
+&lt;a href="https://2i2c.org/blog/2023/cilogon-integration/" target="_blank" rel="noopener">our blog post about our use of CILogon&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="we-exposed-user-activity-dashboards-in-jupyterhub-so-communities-know-how-many-people-are-using-the-service">
+We exposed user activity dashboards in JupyterHub so communities know how many people are using the service
+&lt;a class="header-anchor" href="#we-exposed-user-activity-dashboards-in-jupyterhub-so-communities-know-how-many-people-are-using-the-service">#&lt;/a>
+&lt;/h3>&lt;p>We tend to work with &lt;em>leaders&lt;/em> of communities that utilize our service and infrastructure for many others in their network.
+For example, a teacher with a classroom of students, or a researcher with a global network of collaborators.&lt;/p>
+&lt;p>In these cases, it&amp;rsquo;s useful to track how many users are actively using a platform over various metrics of time.
+This can tell you whether your community finds a service useful, and whether this is growing or shrinking.&lt;/p>
+&lt;p>We use
+&lt;a href="https://grafana.com/" target="_blank" rel="noopener">Grafana&lt;/a>
+to automatically generate dashboards of activity for all of our community hubs and clusters.
+However, tracking &lt;strong>daily, weekly, and monthly active users&lt;/strong> was not part of JupyterHub&amp;rsquo;s core functionality.&lt;/p>
+&lt;p>So, we decided to upstream this functionality into JupyterHub and expose it via
+&lt;a href="https://github.com/jupyterhub/grafana-dashboards" target="_blank" rel="noopener">the JupyterHub Grafana project&lt;/a>
+.
+All 2i2c hubs now track daily, weekly, and monthly unique active users.
+And importantly, anybody else deploying the
+&lt;a href="https://z2jh.jupyter.org" target="_blank" rel="noopener">Zero to JupyterHub for Kubernetes&lt;/a>
+can use this feature now too.&lt;/p>
+&lt;p>💡 &lt;em>Learn more&lt;/em>&lt;/p>
+&lt;p>See
+&lt;a href="https://blog.jupyter.org/accurately-counting-daily-weekly-monthly-active-users-on-jupyterhub-6fbec6c6ce2f" target="_blank" rel="noopener">Yuvi&amp;rsquo;s blog post about this feature&lt;/a>
+.&lt;/p>
+&lt;h3 id="we-made-our-support-process-more-structured-with-a-new-support-widget">
+We made our support process more structured with a new support widget
+&lt;a class="header-anchor" href="#we-made-our-support-process-more-structured-with-a-new-support-widget">#&lt;/a>
+&lt;/h3>&lt;p>We&amp;rsquo;ve added a support widget to our
+&lt;a href="https://docs.2i2c.org" target="_blank" rel="noopener">service documentation site&lt;/a>
+.
+This will allow users to provide structured support requests directly to our team, allowing us to triage and respond more quickly.&lt;/p>
+&lt;p>Here&amp;rsquo;s our support button and widget in action:&lt;/p>
+&lt;figure id="figure-our-fancy-new-support-button">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Our fancy new support button!" srcset="
+/blog/2023/2023-q1-update/support-button_hu3af886a5aee4620b217234a080986c9b_77578_b7df963678a03e66dcd5f869446a4aae.webp 400w,
+/blog/2023/2023-q1-update/support-button_hu3af886a5aee4620b217234a080986c9b_77578_219e5934964e4e57afd753de94f89bcb.webp 760w,
+/blog/2023/2023-q1-update/support-button_hu3af886a5aee4620b217234a080986c9b_77578_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2023/2023-q1-update/support-button_hu3af886a5aee4620b217234a080986c9b_77578_b7df963678a03e66dcd5f869446a4aae.webp"
+width="500"
+height="736"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+Our fancy new support button!
+&lt;/figcaption>&lt;/figure>
+&lt;h3 id="we-upgraded-kubernetes-across-all-of-our-aws-clusters">
+We upgraded Kubernetes across all of our AWS clusters
+&lt;a class="header-anchor" href="#we-upgraded-kubernetes-across-all-of-our-aws-clusters">#&lt;/a>
+&lt;/h3>&lt;p>
+&lt;a href="https://kubernetes.org" target="_blank" rel="noopener">Kubernetes&lt;/a>
+is at the core of our cloud infrastructure and scalability.
+We use either a shared or a dedicated Kubernetes cluster for each of our community partners, and it is the foundation upon which all of their Jupyter infrastructure rests.&lt;/p>
+&lt;p>One of the biggest challenges with managing an ongoing cloud service is keeping the underlying infrastructure upgraded.
+This brings in new stability and functionality, but also often involves manual steps and toil.
+This quarter, we upgraded each of our AWS JupyterHubs to
+&lt;a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.24.md" target="_blank" rel="noopener">Kubernetes 1.24&lt;/a>
+and will continue this effort with other providers in the coming quarters.&lt;/p>
+&lt;h3 id="we-streamlined-our-hub-uptime-checks-to-be-more-efficient">
+We streamlined our hub uptime checks to be more efficient
+&lt;a class="header-anchor" href="#we-streamlined-our-hub-uptime-checks-to-be-more-efficient">#&lt;/a>
+&lt;/h3>&lt;p>The best kinds of failures are ones that your operations team recognizes and solves before any users run into the problem themselves.
+We use the
+&lt;a href="https://cloud.google.com/monitoring/uptime-checks" target="_blank" rel="noopener">Google Cloud Platform HTTP uptime checker&lt;/a>
+to
+&lt;a href="https://infrastructure.2i2c.org/topic/monitoring-alerting/uptime-checks.html#simple-https-uptime-checks" target="_blank" rel="noopener">run regular uptime checks for each of the community hubs that we use&lt;/a>
+.
+This allows us to get quick alerts if any of our community hubs is down for some reason.&lt;/p>
+&lt;p>We made several optimizations to this process so that we can more efficiently monitor hub uptime and trigger alerts to our engineering team if action is needed.&lt;/p>
+&lt;h2 id="organizational-updates">
+Organizational updates
+&lt;a class="header-anchor" href="#organizational-updates">#&lt;/a>
+&lt;/h2>&lt;p>We made a number of broader improvements to our team processes and policies, and even got a shout-out from a few community partners!&lt;/p>
+&lt;h3 id="we-defined-organizational-principles-around-engaging-in-healthy-ways-with-open-source-communities">
+We defined organizational principles around engaging in healthy ways with open source communities
+&lt;a class="header-anchor" href="#we-defined-organizational-principles-around-engaging-in-healthy-ways-with-open-source-communities">#&lt;/a>
+&lt;/h3>&lt;p>2i2c interacts with many open source communities throughout its work, due to the fact that the majority of the improvements we make are done via &lt;strong>upstream contributions&lt;/strong>.
+We define
+&lt;a href="https://compass.2i2c.org/organization/mission/#key-stakeholders" target="_blank" rel="noopener">several key open source communities&lt;/a>
+that we interact with, and we needed a philosophy and set of practices to ensure that our relationship with them remains healthy and supportive.&lt;/p>
+&lt;p>💡 &lt;em>Learn more&lt;/em>&lt;/p>
+&lt;p>Check out &lt;em>
+&lt;a href="https://2i2c.org/blog/2023/open-source-funding-principles/" target="_blank" rel="noopener">Principles and considerations for ethically accepting funding for open source&lt;/a>
+&lt;/em> for our first take on this, and
+&lt;a href="https://compass.2i2c.org/open-source/strategy/" target="_blank" rel="noopener">our Open Source Strategy&lt;/a>
+page for our current team policies around this.&lt;/p>
+&lt;h3 id="we-responded-to-a-nasa-rfi-on-scientific-data-and-computing-architecture-to-support-open-science">
+We responded to a NASA RFI on &amp;ldquo;Scientific Data and Computing Architecture to Support Open Science&amp;rdquo;
+&lt;a class="header-anchor" href="#we-responded-to-a-nasa-rfi-on-scientific-data-and-computing-architecture-to-support-open-science">#&lt;/a>
+&lt;/h3>&lt;p>NASA recently put out a Request for Information around open science and open source infrastructure:
+&lt;a href="https://nspires.nasaprs.com/external/solicitations/summary.do?solId=%7B78AA81B6-A7B9-D934-20F8-7B3151DA59A2%7D&amp;amp;path=&amp;amp;method=init" target="_blank" rel="noopener">NASA RFI NNH23ZDA005L: Scientific Data and Computing Architecture to Support Open Science&lt;/a>
+.
+We responded with some of our ideas around how to build more open, inclusive, collaborative scientific communities with cloud infrastructure and open source tools.&lt;/p>
+&lt;p>💡 &lt;em>Learn more&lt;/em>&lt;/p>
+&lt;p>
+&lt;a href="https://zenodo.org/record/7662828#.ZFEROBXMKrN" target="_blank" rel="noopener">Check out our submission, &amp;ldquo;Building the open source stack&amp;rdquo;&lt;/a>
+.&lt;/p>
+&lt;h3 id="we-added-two-new-team-members-and-a-new-team-role">
+We added two new team members and a new team role
+&lt;a class="header-anchor" href="#we-added-two-new-team-members-and-a-new-team-role">#&lt;/a>
+&lt;/h3>&lt;p>Our
+&lt;a href="https://2i2c.org/organization/#faces" target="_blank" rel="noopener">Open Engineering Team&lt;/a>
+continues to grow!
+We added two new team members to help improve and manage our cloud infrastructure service:
+&lt;a href="https://2i2c.org/author/erik-sundell/" target="_blank" rel="noopener">Erik Sundell&lt;/a>
+and
+&lt;a href="https://2i2c.org/author/pris-nasrat/" target="_blank" rel="noopener">Pris Nasrat&lt;/a>
+.&lt;/p>
+&lt;p>As our team has grown, we have also had to manage more complexity in communicating and coordinating across a globally-distributed team of engineers.
+To help us manage this system, we&amp;rsquo;ve
+&lt;a href="https://compass.2i2c.org/engineering/roles/engineering-manager/" target="_blank" rel="noopener">created a new Engineering Manager Role&lt;/a>
+and promoted
+&lt;a href="https://2i2c.org/author/damian-avila/" target="_blank" rel="noopener">Damian Avila&lt;/a>
+as our team&amp;rsquo;s first engineering manager.&lt;/p>
+&lt;h3 id="openscapes-wrote-up-a-blog-post-about-our-cloud-service-collaboration">
+OpenScapes wrote up a blog post about our cloud service collaboration
+&lt;a class="header-anchor" href="#openscapes-wrote-up-a-blog-post-about-our-cloud-service-collaboration">#&lt;/a>
+&lt;/h3>&lt;p>We got a nice shout-out from Luis Lopez at the OpenScapes project, describing the benefits of the cloud service that we run for their communities.
+Check out his blog post:
+&lt;a href="https://www.openscapes.org/blog/2022/11/17/nasa-earthdata-cloud-infrastructure/#cloud-optimized-data-formats" target="_blank" rel="noopener">The why, what, and how of our NASA Openscapes cloud infrastructure: 2i2c JupyterHub and corn environment&lt;/a>
+.&lt;/p>
+&lt;h2 id="onward-to-q2">
+Onward to Q2
+&lt;a class="header-anchor" href="#onward-to-q2">#&lt;/a>
+&lt;/h2>&lt;p>Many thanks to the 2i2c team, our partner communities, our funders, and the many others that have provided us support and guidance.
+We hope that this update provides a helpful idea of our priorities and major efforts, and we look forward to giving you a new update in Q2!&lt;/p>
+&lt;div class="about-us">
+&lt;blockquote>
+&lt;p>💡 Follow our work!
+&lt;a href="http://eepurl.com/hjHbff" target="_blank" rel="noopener">Sign up for our mailing list&lt;/a>
+for updates about 2i2c.
+&lt;a href="mailto:hello@2i2c.org">Send us an e-mail about collaborating or partnering&lt;/a>
+on a project.
+See our
+&lt;a href="https://docs.2i2c.org" target="_blank" rel="noopener">Service Documentation&lt;/a>
+or our
+&lt;a href="https://compass.2i2c.org" target="_blank" rel="noopener">Team Compass&lt;/a>
+to learn about our service and organization.&lt;/p>
+&lt;/blockquote>
+&lt;/div></description></item><item><title>CILogon usage at 2i2c</title><link>https://2i2c.org/blog/2023/cilogon-integration/</link><pubDate>Fri, 24 Feb 2023 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2023/cilogon-integration/</guid><description>
 &lt;h2 id="about-cilogon">
 About CILogon
 &lt;a class="header-anchor" href="#about-cilogon">#&lt;/a>
@@ -385,7 +580,7 @@ For example: How can we accept funding to do open source work in a way that does
 We&amp;rsquo;re excited about what we&amp;rsquo;ve accomplished thus far, as well how we hope to expand our impact in the near future.&lt;/p>
 &lt;div class="about-us">
 &lt;blockquote>
-&lt;p>💡
+&lt;p>💡 Follow our work!
 &lt;a href="http://eepurl.com/hjHbff" target="_blank" rel="noopener">Sign up for our mailing list&lt;/a>
 for updates about 2i2c.
 &lt;a href="mailto:hello@2i2c.org">Send us an e-mail about collaborating or partnering&lt;/a>
@@ -445,7 +640,7 @@ Where to follow along
 . We’ll send updates as we work out longer-term spaces for communication or documentation.&lt;/p>
 &lt;div class="about-us">
 &lt;blockquote>
-&lt;p>💡
+&lt;p>💡 Follow our work!
 &lt;a href="http://eepurl.com/hjHbff" target="_blank" rel="noopener">Sign up for our mailing list&lt;/a>
 for updates about 2i2c.
 &lt;a href="mailto:hello@2i2c.org">Send us an e-mail about collaborating or partnering&lt;/a>
@@ -1045,7 +1240,7 @@ These are initiatives for which we might seek grant funding to experiment with s
 &lt;/ul>
 &lt;div class="about-us">
 &lt;blockquote>
-&lt;p>💡
+&lt;p>💡 Follow our work!
 &lt;a href="http://eepurl.com/hjHbff" target="_blank" rel="noopener">Sign up for our mailing list&lt;/a>
 for updates about 2i2c.
 &lt;a href="mailto:hello@2i2c.org">Send us an e-mail about collaborating or partnering&lt;/a>
