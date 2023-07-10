@@ -1,24 +1,15 @@
-
 +++
 authors =  ["James Munroe"]
-
 title = "Technical Content Specialist"
-
 work_description = [
   “Create documentation on cloud-based interactive computing.”,
   “Curate documentation and resources from open source and open science projects.”
 ]
-
 salary_range = "$75,000 - $85,000"
-
 location = "Preferred within the UTC-7 to UTC+3 time zones"
-
 url_apply = "https://forms.gle/H43CsVUoF7e2C2Nm8"
-
 deadline = "We will begin reviewing applications around **Aug 2th**, and will accept them on a rolling basis until the position is filled."
-
 date = "2023-07-12"  # This is the date we _post_ this job.
-
 open = "true"  SET TO FALSE IF THE JOB IS NO LONGER OPEN
 +++
 
@@ -26,7 +17,6 @@ open = "true"  SET TO FALSE IF THE JOB IS NO LONGER OPEN
 
 We’re looking for a Technical Content Specialist** **that will create and curate documentation that supports interactive computing and cloud based open science. It intersects job titles such as “technical writer” and “content creator” while emphasizing previous experience working with open source science and related tools and a desire to share that knowledge.
 
-&lt;!-- Insert metadata for this job -->
 &lt;!-- defined in layouts/shortcodes/job_details.html -->
 {{% job_details %}}
 
