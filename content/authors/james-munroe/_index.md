@@ -10,7 +10,7 @@ authors:
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: Product and Community Lead
+role: Community Success Manager
 
 # Organizations/Affiliations
 organizations:
