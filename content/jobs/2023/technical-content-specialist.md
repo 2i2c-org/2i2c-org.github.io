@@ -6,7 +6,7 @@ work_description = [
 "Curate documentation and resources from open source and open science projects."
 ]
 salary_range = "$75,000 - $85,000"
-location = "Preferred within the UTC-7 to UTC+3 time zones"
+location = "Fully remote"
 url_apply = "https://forms.gle/H43CsVUoF7e2C2Nm8"
 deadline = "We will begin reviewing applications around **August 2, 2023**, and will accept them on a rolling basis until the position is filled."
 date = "2023-07-12"  # This is the date we _post_ this job.
@@ -25,7 +25,7 @@ We’re looking for a Technical Content Specialist that will create and curate d
 If you’re interested in advancing your career at an impact-driven non-profit that is dedicated to open communities and public knowledge, then read on…
 
 ## About you…
-Below are several skills that will make somebody well-suited for this role. **You should apply even if you do not have all of these skills**. We expect any new hires to learn and grow into this role over time. If you aren’t sure whether you have the right skills for this job, you should just apply!
+Below are several skills that will make somebody well-suited for this role. **You should apply even if you do not have all of these skills**. We expect any new hires to learn and grow into this role over time. If you aren’t sure whether you have the right skills for this job, you should just apply! This is a fully remote role with a preference for working hours that overlap timezones with the existing team (currently distributed from UTC-7 through UTC+3).
 
 ### Necessary qualities
 * Demonstrated excellence in communicating complex technical information to learners with a different levels of background and experience
