@@ -119,6 +119,8 @@ We responded with some of our ideas around how to build more open, inclusive, co
 Our [Open Engineering Team](https://2i2c.org/organization/#faces) continues to grow!
 We added two new team members to help improve and manage our cloud infrastructure service: [Erik Sundell](https://2i2c.org/author/erik-sundell/) and [Pris Nasrat](https://2i2c.org/author/pris-nasrat/).
 
+> **Note**: Pris left our team in July of 2023. We appreciate the work that she did with us and wish her the best in her next endeavors.
+
 As our team has grown, we have also had to manage more complexity in communicating and coordinating across a globally-distributed team of engineers.
 To help us manage this system, we've [created a new Engineering Manager Role](https://compass.2i2c.org/engineering/roles/engineering-manager/) and promoted [Damian Avila](https://2i2c.org/author/damian-avila/) as our team's first engineering manager.
 
