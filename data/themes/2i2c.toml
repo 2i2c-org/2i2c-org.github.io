@@ -4,12 +4,12 @@ name = "2i2c"
 
 [light]
   # Primary
-  primary = "rgb(87, 154, 202)"
+  primary = "rgb(29, 78, 245)"
 
   # Menu
   menu_primary = "#fff"
   menu_text = "#34495e"
-  menu_text_active = "rgb(87, 154, 202)"
+  menu_text_active = "rgb(29, 78, 245)"
   menu_title = "#2b2b2b"
 
   # Home sections
@@ -18,7 +18,9 @@ name = "2i2c"
 
 [dark]
   # Primary
-  primary = "rgb(87, 154, 202)"
+  primary = "rgb(242, 245, 252)"
 
-  link = "rgb(87, 154, 202)"
-  link_hover = "#bbdefb"
+  menu_text = "white"
+
+  link = "rgb(160, 175, 226)"
+  link_hover = "rgb(242, 245, 252)"
