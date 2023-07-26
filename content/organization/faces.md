@@ -7,7 +7,7 @@ weight = 20
 [content]
   # Choose which groups/teams of users to display.
   #   Edit `user_groups` in each user's profile to add them to one or more of these groups.
-  user_groups = ["Open Engineering Team", "Community Guidance and Partnerships Team", "Executive Director", "Steering Council"]
+  user_groups = ["Open Engineering Team", "Partnerships Team", "Executive Director", "Steering Council"]
 
 [design]
   # Show user's social networking links? (true/false)
