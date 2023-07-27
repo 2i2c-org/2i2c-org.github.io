@@ -8,10 +8,10 @@
 {{ $featured := resources.Get "media/opengraph-image-template.png" }}
 
 {{ $featured = $featured.Filter (images.Text $.LinkTitle (dict
-"color" "#4e4e4e"
+"color" "#F2F5FC"
 "size" 70
 "lineSpacing" 10
-"x" 84 "y" 185
+"x" 84 "y" 250
 "font" (resources.GetRemote $font_roboto_medium))) }}
 
 {{ return $featured }}
