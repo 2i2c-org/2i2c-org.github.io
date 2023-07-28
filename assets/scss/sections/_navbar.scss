@@ -11,15 +11,8 @@ nav.navbar {
       font-size: .9em;
   }
 
-    // Logo
-    a.navbar-brand {
-        font-family: "Fira Sans";
-        color: var(--color-icon) !important;
-        font-size: 2.8em;
-        padding-top: 12px;
-
-        &:hover {
-            color: $color-primary !important;
-        }
-    }
+  .navbar-brand img {
+    padding-top: .1rem;
+    padding-bottom: .1rem;
+  }
 }

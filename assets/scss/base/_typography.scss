@@ -1,4 +1,3 @@
-
 .section-heading h1 {
   font-size: 1.8em;
 }
@@ -19,7 +18,13 @@ a {
  * We don't put them on non-blog pages because it messes up button links
  */
 div.article-container, div.page-body {
+  // Default font for everything is work sans
+  font-family: "Work Sans", sans-serif;
+
   h1, h2, h3, h4, h5, h6 {
+    font-family: "Poppins", sans-serif;
+    font-weight: bolder;
+
     // Make anchors show on hover
     a.header-anchor {
       opacity: 0;
@@ -60,4 +65,14 @@ code {
     border: 1px solid var(--color-on-surface);
     border-radius: 0.25rem;
     padding: .1rem 0.25rem;
+}
+
+/**
+ * Dark mode styles
+ */
+body.dark {
+  .page-body p:not(.cta-btns) a, .article-style a:not(.btn) {
+    text-decoration: underline;
+    text-decoration-color: white;
+  }
 }
