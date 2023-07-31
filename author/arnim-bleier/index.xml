@@ -21,7 +21,7 @@ team made the first steps towards bridging this gap through their
 implementation. This was a modified and authenticated BinderHub that &lt;em>included&lt;/em> persistent storage across sessions. The Persistent BinderHub service was very successful at GESIS and with its partner communities, and the team wishes to build this functionality into the JupyterHub community’s core technology so that these features can be enjoyed for more use-cases and by many communities.&lt;/p>
 &lt;p>To enable this vision, we have partnered with GESIS in cooperation with
 &lt;a href="https://www.nfdi4datascience.de/" target="_blank" rel="noopener">NFDI4DS&lt;/a>
-,
+(GAN: 460234259),
 &lt;a href="https://www.cessda.eu/" target="_blank" rel="noopener">CESSDA&lt;/a>
 , and members of the
 &lt;a href="https://jupytearth.org/" target="_blank" rel="noopener">JMTE&lt;/a>
