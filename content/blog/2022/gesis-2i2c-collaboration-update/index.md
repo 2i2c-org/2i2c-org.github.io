@@ -18,7 +18,7 @@ BinderHub was developed for use-cases that are _temporary_ and _fully open_ by d
 
 Over the past several years, the [GESIS Notebooks](http://notebooks.gesis.org) team made the first steps towards bridging this gap through their [Persistent BinderHub](https://github.com/gesiscss/persistent_binderhub) implementation. This was a modified and authenticated BinderHub that _included_ persistent storage across sessions. The Persistent BinderHub service was very successful at GESIS and with its partner communities, and the team wishes to build this functionality into the JupyterHub community’s core technology so that these features can be enjoyed for more use-cases and by many communities.
 
-To enable this vision, we have partnered with GESIS in cooperation with [NFDI4DS](https://www.nfdi4datascience.de/), [CESSDA](https://www.cessda.eu/), and members of the [JMTE](https://jupytearth.org/) project. This collaboration has three primary goals:
+To enable this vision, we have partnered with GESIS in cooperation with [NFDI4DS](https://www.nfdi4datascience.de/) (GAN: 460234259), [CESSDA](https://www.cessda.eu/), and members of the [JMTE](https://jupytearth.org/) project. This collaboration has three primary goals:
 
 * **Generalize the Persistent BinderHub functionality/experience to run on cloud-agnostic infrastructure**, so that other stakeholders in NFDI, CESSDA, and the broader scientific community may benefit from this functionality and experience.
 * **Upstream this functionality by making contributions into Jupyter community projects**, so that it will be maintained and improved by a community moving forward, thus improving its reliability and sustainability.
