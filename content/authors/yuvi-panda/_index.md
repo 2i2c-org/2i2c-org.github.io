@@ -9,8 +9,7 @@ authors:
 # Is this the primary user of the site?
 superuser: true
 
-# Role/position (e.g., Professor of Artificial Intelligence)
-role: Senior Open Source Infrastructure Engineer (Volunteer)
+role: Senior Open Source Infrastructure Engineer
 
 # Organizations/Affiliations
 organizations:
