@@ -5,14 +5,17 @@ summary: ""
 authors: ["Chris Holdgraf", "Zack Adell"]
 tags: []
 categories: ["updates"]
-date: 2023-09-01
+date: 2023-09-07
 featured: false
 draft: false
 ---
 
-We are thrilled to announce a revitalized visual brand for 2i2c. As we continue to grow and evolve, it's essential that our branding is capable of communicating who we are, what we stand for, and how we envision our future. We hope that this new design will let us unify our visual style across the many places where 2i2c operates.
+We are thrilled to announce a revitalized visual brand for 2i2c.
+As we continue to grow and evolve, it's essential that our branding communicates who we are, what we stand for, and how we envision our future.
+We hope that this new design will unify our visual style across the many places where 2i2c operates.
 
-In pursuit of these objectives, we teamed up with [Zack Adell](https://www.behance.net/iamzackadell), a designer based in Nairobi that has worked with several similar projects over the years (having most-recently overhauled the [Invest in Open Infrastructure design](https://investinopen.org/blog/introducing-our-new-logo-and-visual-identity/)). After several rounds of brainstorming, design reviews, and fine-tuning, we've landed on a visual identity that resonates with our organization.
+In pursuit of these objectives, we teamed up with [Zack Adell](https://www.linkedin.com/in/zacharia-adell-230a3399), a designer based in Nairobi who has worked with several similar projects over the years (having most-recently overhauled the [Invest in Open Infrastructure brand design](https://investinopen.org/blog/introducing-our-new-logo-and-visual-identity/)).
+After several rounds of brainstorming, design reviews, and fine-tuning, we've landed on a visual identity that resonates with our organization.
 
 ## Meet Our New Logo and design system
 
@@ -58,4 +61,6 @@ We believe our new visual identity is more than just a fresh coat of paint.
 It's a reaffirmation of our commitment to our stakeholders and an exciting milestone in our ongoing journey.
 We can't wait for you to see it in action, and are excited to hear what you think about it!
 
-**TODO**: Add a call-to-action for folks that want to get in touch with Zack about design.
+> ❗ **Note**
+>
+> If you'd like to get in touch with Zack Adell, please reach out on [his LinkedIn profile](https://www.linkedin.com/in/zacharia-adell-230a3399/), or [his Instagram account](https://www.instagram.com/iamzackadell/).
