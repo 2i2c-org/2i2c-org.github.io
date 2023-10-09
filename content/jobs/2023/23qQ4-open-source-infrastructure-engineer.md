@@ -110,7 +110,7 @@ This is an essential requirement to resolve an existing imbalance in the team (m
 are located in European timezones). At this time, we will only review applications compatible with
 that essential requirement.
 
-Keep in mind we will begin reviewing applications around Oct 17th, and will accept them on
+Keep in mind we will begin reviewing applications around Oct 16th, and will accept them on
 a rolling basis until the position is filled.
 
 We are eager to receive your application!
