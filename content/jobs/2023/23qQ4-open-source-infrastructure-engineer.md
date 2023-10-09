@@ -26,7 +26,7 @@ engineering team pushing forward the development and reliable operations of our 
 ## Who we are
 
 2i2c is a non-profit organization with a mission to make interactive computing more accessible,
-scalable, and powerful for research and education: [https://2i2c.org/about/](https://2i2c.org/about/).
+scalable, and powerful for research and education: [https://2i2c.org/mission/](https://2i2c.org/mission/).
 
 We accomplish this mission by providing managed cloud services for interactive computing, by providing
 development and technical leadership to researchers and educators that utilize this infrastructure for
