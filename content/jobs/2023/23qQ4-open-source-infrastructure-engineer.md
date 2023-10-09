@@ -2,12 +2,12 @@
 authors =  ["Damián Avila"]
 title = "Open Source Infrastructure Engineer"
 work_description = [
-  "Site Reliability Engineering",
   "Cloud infrastructure management and operations",
+  "Site Reliability Engineering",
   "Development of open source infrastructure for hosted JupyterHub service"
 ]
 salary_range = "$121,600 - $130,500"
-location = "Remote, required overlapping US Central and US Pacific timezones"
+location = "Remote, required overlapping for US Central and US Pacific timezones"
 date = "2022-10-09"
 url_apply = "https://forms.gle/k75VmYUosxuyPWfi7"
 deadline = "We will begin reviewing applications around **October 16th**, and will accept them on a rolling basis until the position is filled."
@@ -108,7 +108,7 @@ This is an essential requirement to resolve an existing imbalance in the team (m
 are located in European timezones). At this time, we will only review applications compatible with
 that essential requirement.
 
-Keep in mind we will begin reviewing applications around Oct 16th, and will accept them on
+Keep in mind we will begin reviewing applications around Oct 17th, and will accept them on
 a rolling basis until the position is filled.
 
 We are eager to receive your application!
