@@ -68,7 +68,7 @@ work we do, the communities we serve, and our own organizational culture.
 - Experience collaborating and coordinating work via online platforms, such as GitHub, GitLab, or BitBucket,
   and distributed revision control.
 - Experience working with distributed service teams that use asynchronous methods of communication
-- Working hours that overlap with US Central and US Pacific time zones
+- Working hours that overlap with US Pacific time zones
 
 
 ## Desirable requirements
