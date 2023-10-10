@@ -7,7 +7,7 @@ work_description = [
   "Development of open source infrastructure for hosted JupyterHub service"
 ]
 salary_range = "$121,600 - $130,500"
-location = "Remote, required overlapping for US Central and US Pacific timezones"
+location = "Remote, required overlapping for US Pacific timezones"
 date = "2022-10-10"
 url_apply = "https://forms.gle/k75VmYUosxuyPWfi7"
 deadline = "We will begin reviewing applications around **October 16th**, and will accept them on a rolling basis until the position is filled."
