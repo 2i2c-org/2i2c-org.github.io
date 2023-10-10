@@ -10,7 +10,7 @@ location = "Fully remote"
 url_apply = "https://forms.gle/H43CsVUoF7e2C2Nm8"
 deadline = "We will begin reviewing applications around **August 2, 2023**, and will accept them on a rolling basis until the position is filled."
 date = "2023-07-12"  # This is the date we _post_ this job.
-open = true  # SET TO FALSE IF THE JOB IS NO LONGER OPEN
+open = false  # SET TO FALSE IF THE JOB IS NO LONGER OPEN
 show_date = true
 +++
 
