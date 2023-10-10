@@ -55,7 +55,7 @@ work we do, the communities we serve, and our own organizational culture.
   in partnership with the established leaders of those communities and collaborate with the Community Lead
   in the education and outreach around cloud computing.
 - Work with a distributed and global team - team members are given a lot of autonomy, and expected to be
-  proactive at communicating with one another and working with others to allocate effort that will maximize
+  proactive (we do not expect people to carry a pager) at communicating with one another and working with others to allocate effort that will maximize
   our impact.
 
 
