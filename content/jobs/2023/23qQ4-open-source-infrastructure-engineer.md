@@ -48,7 +48,7 @@ work we do, the communities we serve, and our own organizational culture.
 
 - Ensures the reliable operation of the 2i2c infrastructure (leveraging production-ready cloud-based
   tools such as JupyterHub, BinderHub, and Dask).
-- Attends support-facing tickets
+- Attends support-facing tickets as part of a support rotation process/group (this is not your _primary_ task, although it is currently a shared load among engineers).
 - Explores emerging technologies in the Cloud / DevOps space, design and implement cloud computing
   architecture in partnership with our team.
 - Participates in upstream open source communities we rely on (such as JupyterHub, BinderHub, Dask, etc)
