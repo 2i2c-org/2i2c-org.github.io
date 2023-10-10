@@ -105,7 +105,7 @@ Please fill out the [following form](https://forms.gle/k75VmYUosxuyPWfi7).
 
 ## Final note
 
-We are looking for engineers with working hours overlapping US Central and US Pacific timezones.
+We are looking for engineers with working hours overlapping US Pacific timezones.
 This is an essential requirement to resolve an existing imbalance in the team (most of our engineers
 are located in European timezones). At this time, we will only review applications compatible with
 that essential requirement.
