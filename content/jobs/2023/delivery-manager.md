@@ -2,7 +2,7 @@
 authors =  ["Chris Holdgraf"]
 title = "Delivery Manager / Chief of Staff"
 work_description = [
-  "Ensure the successful and efficient delivery of [our product.](https://2i2c.org/service/)",
+  "Ensure the successful and efficient delivery of [our product](https://2i2c.org/service/).",
   "Organize and oversee cross-functional work across the team",
   "Detailed planning and day-to-day management of engineering tasks"
 ]
@@ -15,7 +15,7 @@ open = true
 show_date = true
 +++
 
-We’re looking for a **Delivery Manager** who will serve as a key facilitator in ensuring the successful and efficient delivery of [our product.](https://2i2c.org/service/) Acting as a servant leader, you’ll guide our engineering team, promote collaboration, and eliminate obstacles to deliver high-quality results that are aligned with our mission and goals.
+We’re looking for a **Delivery Manager** who will serve as a key facilitator in ensuring the successful and efficient delivery of [our product](https://2i2c.org/service/). Acting as a servant leader, you’ll guide our engineering team, promote collaboration, and eliminate obstacles to deliver high-quality results that are aligned with our mission and goals.
 
 <!-- Defined in layouts/shortcodes/job_details.html -->
 {{% job_details %}}
@@ -23,7 +23,7 @@ We’re looking for a **Delivery Manager** who will serve as a key facilitator i
 [2i2c is a non-profit organization](https://2i2c.org/about/) with a mission to make open infrastructure for interactive computing more accessible, scalable, and powerful for research and education.
 
 We accomplish this mission by providing managed cloud services for interactive computing, by providing development and technical leadership to communities of researchers and educators that utilize this infrastructure, and by providing support for open source tools and communities in this ecosystem.
-Learn more, from [this talk from our Executive Director](https://www.youtube.com/watch?v=coKoUoUzLPk&t=1938s&pp=ygUEMmkyYw%3D%3D) as well as [this talk from our Partnerships Lead](https://www.youtube.com/watch?v=SHUSoXgRAho).
+Learn more, from [this talk from our Executive Director](https://www.youtube.com/watch?v=coKoUoUzLPk) as well as [this talk from our Partnerships Lead](https://www.youtube.com/watch?v=SHUSoXgRAho).
 
 If you’re interested in advancing your career at an impact-driven non-profit that is dedicated to open communities and public knowledge, then read on…
 
@@ -34,7 +34,7 @@ In addition to your role as a Delivery Manager, we’re keen to have this person
 
 We’re ideally looking for someone who has experience of leading or facilitating globally distributed and remote-first teams, asynchronous working and coaching teams in agile best practices.
 
-To apply, send your resume and a cover letter briefly describing why you’re interested in 2i2c and in this role to [jobs@2i2c.org](mailto:jobs@2i2c.org?subject=Application for delivery manager position").
+To apply, send your resume and a cover letter briefly describing why you’re interested in 2i2c and in this role to [jobs@2i2c.org](mailto:jobs@2i2c.org?subject=Application%20for%20delivery%20manager%20position).
 
 ## What you’ll do
 
@@ -44,7 +44,7 @@ Reporting into the Engineering Manager, you’ll work closely with them on runni
 
 You’ll collaborate with others, in particular the Product Manager, to design a process for balancing Sprint Goal work, support tasks, reactive tasks, and upstream work that is driven by open source community needs.
 
-In addition to this primary role, you’ll take on responsibilities as the **Chief of Staff,** working** closely with the Executive Director. **In this role you’ll be responsible for** **organizing cross-functional work, enabling transparency in decision-making, and fostering a cohesive work environment.
+In addition to this primary role, you’ll take on responsibilities as the **Chief of Staff,** working closely with the Executive Director. **In this role you’ll be responsible for** **organizing cross-functional work, enabling transparency in decision-making, and fostering a cohesive work environment.
 
 
 ## About you
@@ -83,5 +83,5 @@ See [our compensation philosophy page](https://2i2c.org/jobs/#our-compensation-p
 2i2c is committed to hiring processes that are inclusive of people with many lived experiences and qualities.
 We try to structure our hiring process so that it is predictable, doesn’t take too long, and doesn’t take too much effort.
 
-If you’d like to apply for this position, **send your resume and a cover letter briefly describing why you’re interested in 2i2c and in this role to [jobs@2i2c.org](mailto:jobs@2i2c.org?subject=Application for delivery manager position)**.
+If you’d like to apply for this position, **send your resume and a cover letter briefly describing why you’re interested in 2i2c and in this role to [jobs@2i2c.org](mailto:jobs@2i2c.org?subject=Application%20for%20delivery%20manager%20position)**.
 We will begin reviewing applications after October 20, 2023 and will fill this position on a rolling basis once we find a candidate with the right fit for the job.
