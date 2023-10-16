@@ -2,14 +2,14 @@
 authors =  ["Chris Holdgraf"]
 title = "Delivery Manager / Chief of Staff"
 work_description = [
-  "Ensure the successful and efficient delivery of [our product](https://2i2c.org/service/).",
+  "Ensure the successful and efficient delivery of our product (https://2i2c.org/service/)",
   "Organize and oversee cross-functional work across the team",
   "Detailed planning and day-to-day management of engineering tasks"
 ]
-salary_range = "$85,000 - $100,000"
+salary_range = "$85,000 - $107,000"
 location = "Remote, preference for working hours that maximizes overlap in time zones with the existing team (currently distributed from UTC-7 through UTC+3)"
 date = "2023-10-13"
-url_apply = "mailto:jobs@2i2c.org?subject=Application for delivery manager position"
+url_apply = "https://airtable.com/appsLf5t2EY8Awrd3/shrPRZvYF9HhVNAoj"
 deadline = "We will begin reviewing applications around **October 23rd**, and will accept them on a rolling basis until the position is filled."
 open = true
 show_date = true
@@ -34,7 +34,7 @@ In addition to your role as a Delivery Manager, we’re keen to have this person
 
 We’re ideally looking for someone who has experience of leading or facilitating globally distributed and remote-first teams, asynchronous working and coaching teams in agile best practices.
 
-To apply, send your resume and a cover letter briefly describing why you’re interested in 2i2c and in this role to [jobs@2i2c.org](mailto:jobs@2i2c.org?subject=Application%20for%20delivery%20manager%20position).
+To apply, fill out [the application at this link](https://airtable.com/appsLf5t2EY8Awrd3/shrPRZvYF9HhVNAoj).
 
 ## What you’ll do
 
@@ -83,5 +83,5 @@ See [our compensation philosophy page](https://2i2c.org/jobs/#our-compensation-p
 2i2c is committed to hiring processes that are inclusive of people with many lived experiences and qualities.
 We try to structure our hiring process so that it is predictable, doesn’t take too long, and doesn’t take too much effort.
 
-If you’d like to apply for this position, **send your resume and a cover letter briefly describing why you’re interested in 2i2c and in this role to [jobs@2i2c.org](mailto:jobs@2i2c.org?subject=Application%20for%20delivery%20manager%20position)**.
+If you’d like to apply for this position, **fill out [the application at this link](https://airtable.com/appsLf5t2EY8Awrd3/shrPRZvYF9HhVNAoj)**.
 We will begin reviewing applications after October 20, 2023 and will fill this position on a rolling basis once we find a candidate with the right fit for the job.
