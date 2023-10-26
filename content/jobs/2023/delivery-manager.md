@@ -9,7 +9,7 @@ work_description = [
 salary_range = "$85,000 - $107,000"
 location = "Remote, preference for working hours that maximizes overlap in time zones with the existing team (currently distributed from UTC-7 through UTC+3)"
 date = "2023-10-13"
-url_apply = "https://airtable.com/appsLf5t2EY8Awrd3/shrPRZvYF9HhVNAoj"
+url_apply = "https://boards.greenhouse.io/codeforsciencesociety/jobs/4119969007?gh_jid=4119969007"
 deadline = "We will begin reviewing applications around **October 23rd**, and will accept them on a rolling basis until the position is filled."
 open = true
 show_date = true
@@ -83,5 +83,5 @@ See [our compensation philosophy page](https://2i2c.org/jobs/#our-compensation-p
 2i2c is committed to hiring processes that are inclusive of people with many lived experiences and qualities.
 We try to structure our hiring process so that it is predictable, doesn’t take too long, and doesn’t take too much effort.
 
-If you’d like to apply for this position, **fill out [the application at this link](https://airtable.com/appsLf5t2EY8Awrd3/shrPRZvYF9HhVNAoj)**.
+If you’d like to apply for this position, **fill out [the application at this link](https://boards.greenhouse.io/codeforsciencesociety/jobs/4119969007?gh_jid=4119969007)**.
 We will begin reviewing applications after October 20, 2023 and will fill this position on a rolling basis once we find a candidate with the right fit for the job.
