@@ -34,7 +34,7 @@ In addition to your role as a Delivery Manager, we’re keen to have this person
 
 We’re ideally looking for someone who has experience of leading or facilitating globally distributed and remote-first teams, asynchronous working and coaching teams in agile best practices.
 
-To apply, fill out [the application at this link](https://airtable.com/appsLf5t2EY8Awrd3/shrPRZvYF9HhVNAoj).
+To apply, fill out [the application at this link](https://boards.greenhouse.io/codeforsciencesociety/jobs/4119969007?gh_jid=4119969007).
 
 ## What you’ll do
 
