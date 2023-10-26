@@ -9,7 +9,7 @@ work_description = [
 salary_range = "$121,600 - $130,500"
 location = "Remote, required overlapping for US Pacific timezones"
 date = "2023-10-10"
-url_apply = "https://forms.gle/k75VmYUosxuyPWfi7"
+url_apply = "https://boards.greenhouse.io/codeforsciencesociety/jobs/4120089007?gh_jid=4120089007"
 deadline = "We will begin reviewing applications around **October 16th**, and will accept them on a rolling basis until the position is filled."
 open = true
 show_date = true
@@ -101,7 +101,7 @@ opportunity. For an even deeper look into how 2i2c works, check out our [Team Co
 
 ## How to apply
 
-Please fill out the [following form](https://forms.gle/k75VmYUosxuyPWfi7).
+Please fill out the [following form](https://boards.greenhouse.io/codeforsciencesociety/jobs/4120089007?gh_jid=4120089007).
 
 ## Final note
 
