@@ -101,7 +101,7 @@ opportunity. For an even deeper look into how 2i2c works, check out our [Team Co
 
 ## How to apply
 
-Please fill out the [following form](https://boards.greenhouse.io/codeforsciencesociety/jobs/4120089007?gh_jid=4120089007#app).
+Please fill out the [following form](https://boards.greenhouse.io/codeforsciencesociety/jobs/4120089007?gh_jid=4120089007).
 
 ## Final note
 
