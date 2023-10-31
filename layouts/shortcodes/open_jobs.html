@@ -3,11 +3,16 @@
 {{ $jobs := where $jobs.Pages "Params.open" true }}
 
 {{ if $jobs }}
-<div class="card-group job-cards mb-5">
+<style>
+.card-title + ul {
+  padding-left: .5em;
+}
+</style>
+<div class="card-group job-cards mb-5 flex-wrap">
 
   {{/* Create a card for each job. */}}
   {{ range $jobs }}
-  <div class="card mx-3 col-11 col-lg-6 p-0">
+  <div class="card mx-2 col-11 col-lg-11 p-0">
     <div class="card-body text-left p-4 mb-0">
       <h5 class="card-title mb-3 mt-0">{{ .Name }}</h5>
         <ul>
