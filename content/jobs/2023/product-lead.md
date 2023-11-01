@@ -13,7 +13,9 @@ url_apply = "https://boards.greenhouse.io/codeforsciencesociety/jobs/4122980007?
 deadline = "We will begin reviewing applications around **November 5th**, and will accept them on a rolling basis until the position is filled."
 open = true
 show_date = true
-aliases = ["./product-operations-lead"]
+aliases = [
+  "/jobs/2023/product-operations-lead/"
+]
 +++
 
 We’re looking for a Product Lead who will be instrumental in shaping 2i2c’s product vision, strategy, and execution.
