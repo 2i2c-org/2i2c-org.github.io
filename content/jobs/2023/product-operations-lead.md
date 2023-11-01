@@ -18,6 +18,6 @@ show_date = true
 We’re looking for a Product Operations Lead who will be instrumental in shaping 2i2c’s product vision, strategy, and execution.
 You’ll own the product vision, align it with user needs, and translate it into a clear product roadmap which defines cross-functional priorities and guides our partnerships and engineering teams, enabling efficient product delivery and continuous improvement.
 
-**For more information and to apply, see [our Greenhouse application page for this job](https://boards.greenhouse.io/codeforsciencesociety/jobs/4119969007?gh_jid=4119969007)**.
+**For more information and to apply, see [our Greenhouse application page for this job](https://boards.greenhouse.io/codeforsciencesociety/jobs/4122980007?gh_jid=4122980007)**.
 
 {{% job_details %}}
