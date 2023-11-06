@@ -31,9 +31,15 @@ social:
 - icon: envelope
   icon_pack: fas
   link: 'mailto:jwong@2i2c.org'
+- icon: twitter
+  icon_pack: fab
+  link: https://twitter.com/_jennywong_
 - icon: github
   icon_pack: fab
   link: https://github.com/jnywong
+- icon: globe
+  icon_pack: fas
+  link: https://jnywong.github.io
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 # email: ""
@@ -44,3 +50,8 @@ user_groups:
 - Partnerships Team
 ---
 
+Jenny is the Technical Content Developer for 2i2c. She is also a Senior Research Software Engineer and her work is underpinned by open science principles and focused towards democratising access to compute.
+
+She regularly engages and supports researchers with writing documentation, creating video tutorials, and designing and delivering training. Jenny is also a qualified Software Carpentries Instructor.
+
+Jenny's background is in mathematics, with a special interest in geophysical fluid dynamics. She obtained a PhD in the subject with her thesis titled "A slurry model of the F-layer in the Earth's core".
