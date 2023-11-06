@@ -1,4 +1,144 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Chris Holdgraf | 2i2c</title><link>https://2i2c.org/author/chris-holdgraf/</link><atom:link href="https://2i2c.org/author/chris-holdgraf/index.xml" rel="self" type="application/rss+xml"/><description>Chris Holdgraf</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Sun, 29 Oct 2023 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/author/chris-holdgraf/avatar_hu239570f3b0123c4756b7a8f15caec1a2_32796_270x270_fill_q75_lanczos_center.jpg</url><title>Chris Holdgraf</title><link>https://2i2c.org/author/chris-holdgraf/</link></image><item><title>Product Lead</title><link>https://2i2c.org/jobs/2023/product-lead/</link><pubDate>Sun, 29 Oct 2023 00:00:00 +0000</pubDate><guid>https://2i2c.org/jobs/2023/product-lead/</guid><description>&lt;p>We’re looking for a Product Lead who will be instrumental in shaping 2i2c’s product vision, strategy, and execution.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Chris Holdgraf | 2i2c</title><link>https://2i2c.org/author/chris-holdgraf/</link><atom:link href="https://2i2c.org/author/chris-holdgraf/index.xml" rel="self" type="application/rss+xml"/><description>Chris Holdgraf</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 31 Oct 2023 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/author/chris-holdgraf/avatar_hu239570f3b0123c4756b7a8f15caec1a2_32796_270x270_fill_q75_lanczos_center.jpg</url><title>Chris Holdgraf</title><link>https://2i2c.org/author/chris-holdgraf/</link></image><item><title>Community update Q3 2023: Service growth and growing pains</title><link>https://2i2c.org/blog/2023/2023-q3-update/</link><pubDate>Tue, 31 Oct 2023 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2023/2023-q3-update/</guid><description>&lt;p>It&amp;rsquo;s been two quarters since our last major update - this isn&amp;rsquo;t quite as frequent as we&amp;rsquo;re hoping to post updates from our team, but we&amp;rsquo;re making adjustments to have more regular communication for reasons that will hopefully be a bit clearer below!
+In that time, we&amp;rsquo;ve been hard at work serving and growing our interactive computing service, as well as doing some introspection as a team and identifying major next steps moving forward.
+More on that in the following sections, but first a short service update.&lt;/p>
+&lt;h2 id="how-has-our-service-evolved-over-the-past-few-months">
+How has our service evolved over the past few months?
+&lt;a class="header-anchor" href="#how-has-our-service-evolved-over-the-past-few-months">#&lt;/a>
+&lt;/h2>
+&lt;h3 id="new-partnerships-and-service-growth">
+New partnerships and service growth
+&lt;a class="header-anchor" href="#new-partnerships-and-service-growth">#&lt;/a>
+&lt;/h3>&lt;p>Our service has grown several new partner communities over the last two quarters. A few notable communities are
+&lt;a href="https://nasa-veda.2i2c.cloud/" target="_blank" rel="noopener">the NASA VEDA project&lt;/a>
+, a
+&lt;a href="https://smithsonian.2i2c.cloud/" target="_blank" rel="noopener">team at the Smithsonian&lt;/a>
+,
+&lt;a href="https://ncar-cisl.2i2c.cloud/" target="_blank" rel="noopener">a team at NCAR&lt;/a>
+, and the
+&lt;a href="https://hub.ghg.center/" target="_blank" rel="noopener">U.S. Greenhouse Gases Center&lt;/a>
+. We are running about &lt;strong>71 hubs across 24 clusters, with about 4000 weekly users&lt;/strong> (
+&lt;a href="https://2i2c.org/kpis/cloud/" target="_blank" rel="noopener">more usage stats here&lt;/a>
+).&lt;/p>
+&lt;p>We also began operations on a major collaboration to serve communities in Latin America and Africa, called
+&lt;a href="https://zenodo.org/records/7025288" target="_blank" rel="noopener">the Catalyst Project&lt;/a>
+.
+This team met together for the first time in April, and we&amp;rsquo;ve been laying a foundation for service growth in the first several months.
+We are just onboarding our first communities and hope to grow that service in the coming year.&lt;/p>
+&lt;p>Finally, we&amp;rsquo;ve been fortunate to receive some grants around creating content and designing workflows that utilize cloud infrastructure. For example, a
+&lt;a href="https://nasa.github.io/Transform-to-Open-Science/open-science-101/" target="_blank" rel="noopener">NASA TOPS grant&lt;/a>
+and an upcoming collaboration with
+&lt;a href="https://projectpythia.org/" target="_blank" rel="noopener">Project Pythia&lt;/a>
+around geospatial workflows.&lt;/p>
+&lt;h3 id="financial-picture">
+Financial picture
+&lt;a class="header-anchor" href="#financial-picture">#&lt;/a>
+&lt;/h3>&lt;p>At this point, we&amp;rsquo;re &lt;strong>recovering roughly 40% of our operating costs&lt;/strong> through recurring fees of our managed hub service (making up the remainder in development contracts and grants), and &lt;strong>we&amp;rsquo;ve currently got around 2 years of runway&lt;/strong>.&lt;/p>
+&lt;p>However, both of these will be lowered soon because we are about to hire for several more positions.
+Improvements to our product model will allow us to estimate and recover our service costs more effectively, but we also intend to raise some funds next year to support our efforts in making our service more robust, sustainable, and valuable to communities.&lt;/p>
+&lt;p>It&amp;rsquo;s always difficult to strike a proper balance of team (and cost) growth against the financial buffer needed to assure your partners you&amp;rsquo;ll stick around, but we&amp;rsquo;re confident that the new hires described below will serve critical needs for our team and mission.&lt;/p>
+&lt;p>For more context on why and how we&amp;rsquo;re trying to make up that capacity, read on&amp;hellip;&lt;/p>
+&lt;h2 id="how-service-growth-can-lead-to-team-stress">
+How service growth can lead to team stress
+&lt;a class="header-anchor" href="#how-service-growth-can-lead-to-team-stress">#&lt;/a>
+&lt;/h2>&lt;p>Over the past year we&amp;rsquo;ve had a slow-but-steady stream of new communities interested in working with 2i2c for managing cloud infrastructure for interactive computing.
+We&amp;rsquo;ve taken a &amp;ldquo;let&amp;rsquo;s make it work somehow&amp;rdquo; approach to all of our community partnerships thus far, with the idea that we must use these partnerships to learn what communities want and identify common patterns.&lt;/p>
+&lt;p>This is exciting, and we&amp;rsquo;re fortunate to see the interest and growth in our service.
+It suggests to us that something about our model is fundamentally right.
+Communities really love the
+&lt;a href="https://2i2c.org/right-to-replicate" target="_blank" rel="noopener">Right to Replicate&lt;/a>
+, and our participatory service model based around upstream contributions, transparency, and shared responsibility is attractive to many in research and education.&lt;/p>
+&lt;p>However, each new community is also a new set of stresses on the technical and social infrastructure of our team.
+Without the capacity to manage the demands of the service, you run the risk of over-extending &amp;ndash; and in a worst case scenario, burning out &amp;ndash; your team.&lt;/p>
+&lt;p>This became clear in our first in-person team meeting last May.
+At that meeting, we realized that many on the team were spending too much of their time &amp;ldquo;reacting&amp;rdquo; to demands from the service.
+We also learned that the scope and complexity of our various workstreams had gotten to a size where our informal team structures of work prioritization were no longer adequate.&lt;/p>
+&lt;h2 id="growing-the-complexity-of-our-team-to-match-the-complexity-of-our-service">
+Growing the complexity of our team to match the complexity of our service
+&lt;a class="header-anchor" href="#growing-the-complexity-of-our-team-to-match-the-complexity-of-our-service">#&lt;/a>
+&lt;/h2>&lt;p>So, for the past several months we&amp;rsquo;ve been working on a plan to evolve 2i2c&amp;rsquo;s team structure in order to more effectively manage the complexity of our service, and balance long- and short-term thinking.&lt;/p>
+&lt;p>This began with an organizational audit carried out by
+&lt;a href="https://www.makeadifference.digital/" target="_blank" rel="noopener">makeadifference.digital&lt;/a>
+, a consulting group that focuses on tech-for-good and non-profit products and services.
+They conducted interviews with everybody on the team, and concluded that we have a few key functions missing that were creating or compounding the stresses people felt.&lt;/p>
+&lt;p>We hope to make some of their key findings public soon, and in the meantime here is an overview of some highlights:&lt;/p>
+&lt;h3 id="we-need-a-dedicated-product-functionality">
+We need a dedicated product functionality
+&lt;a class="header-anchor" href="#we-need-a-dedicated-product-functionality">#&lt;/a>
+&lt;/h3>&lt;p>First, we realized that we have a number of new &amp;ldquo;signals&amp;rdquo; pushing our service in many different directions.
+Some are external - from communities we work with or from funders. Some are internal - from different team member visions of where work is needed.
+After growing our service and our team, there are now too many perspectives and voices to balance in an unstructured and purely organic way.&lt;/p>
+&lt;p>So we&amp;rsquo;re creating a &lt;strong>dedicated &amp;ldquo;product function&amp;rdquo; within 2i2c&lt;/strong>.
+Its goal will be to serve as an integrator across the many stakeholders that are interested in 2i2c&amp;rsquo;s service, and synthesize a collective product strategy and system of prioritization to move the organization forward.
+They&amp;rsquo;ll help 2i2c grow a culture of iteration and decisions that are driven by the needs of our community partners and users.&lt;/p>
+&lt;p>We&amp;rsquo;re
+&lt;a href="https://2i2c.org/jobs/2023/product-lead/" target="_blank" rel="noopener">hiring a Product Lead&lt;/a>
+to kick off this effort.
+If you think you&amp;rsquo;d be interested in this role, please consider applying!&lt;/p>
+&lt;h3 id="we-need-a-more-structured-system-of-work-and-execution">
+We need a more structured system of work and execution
+&lt;a class="header-anchor" href="#we-need-a-more-structured-system-of-work-and-execution">#&lt;/a>
+&lt;/h3>&lt;p>Next, we realized that there are many different workstreams we must balance simultaneously.
+There are new communities to be onboarded, infrastructure bugs to be fixed, questions to be answered, and strategic priorities to improve the service.
+Expecting each team member to individually find the right balance between all of these is increasingly unrealistic.
+We need capacity to oversee this system of work and bring some structure to it.&lt;/p>
+&lt;p>So, we&amp;rsquo;re creating a &lt;strong>Delivery Manager role&lt;/strong> to oversee the system of work that our engineering team uses for its planning and execution.
+In addition, this role will serve at an organization-wide capacity as an &lt;strong>interim Chief of Staff&lt;/strong>.
+This will allow them to improve and standardize practices organization-wide, and coordinate major projects that span our team.&lt;/p>
+&lt;p>You can find a
+&lt;a href="https://2i2c.org/jobs/2023/delivery-manager/" target="_blank" rel="noopener">job posting for a Delivery Manager / interrim Chief of Staff&lt;/a>
+role.
+If you think you&amp;rsquo;d be interested, please apply!&lt;/p>
+&lt;h3 id="we-need-more-capacity-to-support-our-team-and-its-individuals">
+We need more capacity to support our team and its individuals
+&lt;a class="header-anchor" href="#we-need-more-capacity-to-support-our-team-and-its-individuals">#&lt;/a>
+&lt;/h3>&lt;p>In addition to moving forward our workstreams, we also have a unique challenge in team support and dynamics.
+2i2c is a small team, it is also distributed across 10 time zones!
+This adds a lot of extra challenge in getting the team to communicate with one another, support one another as individuals, and learn and grow as a team.
+We believe that it&amp;rsquo;s critical to support one another, and to have systems in 2i2c that recognize these challenges in distributed collaboration to design around them.&lt;/p>
+&lt;p>So, we&amp;rsquo;re exploring how to create a &lt;strong>&amp;ldquo;People Operations&amp;rdquo; function within 2i2c&lt;/strong> that can dedicate their time to supporting 2i2c&amp;rsquo;s team as a group as individuals.
+This might mean defining creative ways for team-building, creating mechanisms to surface where team members are struggling or need support, and growing best-practices in inclusive asynchronous team culture.&lt;/p>
+&lt;p>We&amp;rsquo;re in the process of designing this role, and hope to have it out in the coming months!&lt;/p>
+&lt;h3 id="we-need-more-engineering-capacity">
+We need more engineering capacity
+&lt;a class="header-anchor" href="#we-need-more-engineering-capacity">#&lt;/a>
+&lt;/h3>&lt;p>Finally, we also realized we need more cloud engineering capacity on our team, particularly in a timezone that overlaps with the American continents.
+This will give our team a bit more breathing room to balance reactive and project-based work, and have more capacity to focus on personal growth and learning.&lt;/p>
+&lt;p>You can find our
+&lt;a href="https://2i2c.org/jobs/2023/23qq4-open-source-infrastructure-engineer/" target="_blank" rel="noopener">Open Source Infrastructure Engineer&lt;/a>
+job post here if you&amp;rsquo;re interested.&lt;/p>
+&lt;h2 id="whats-up-next-for-our-team">
+What&amp;rsquo;s up next for our team?
+&lt;a class="header-anchor" href="#whats-up-next-for-our-team">#&lt;/a>
+&lt;/h2>&lt;p>Finally, we&amp;rsquo;ve also adopted a new quarterly planning system to align our team around key goals that deserve focused attention in each quarter.
+This will let us be more intentional about considering our work in the context of 2i2c&amp;rsquo;s broader opportunities and challenges.&lt;/p>
+&lt;p>For the final quarter of 2023, we&amp;rsquo;re focusing on these key goals:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Begin to standardize and refine our product offering&lt;/strong>.
+In advance of our Product Lead role, we are doing a bit of work to more precisely describe and structure our &lt;em>current&lt;/em> service offering.
+Our goal is to lay a foundation that our upcoming Product Lead can then use to learn about 2i2c&amp;rsquo;s product and make progress more quickly.&lt;/li>
+&lt;li>&lt;strong>Pay down technical debt&lt;/strong>.
+Our engineering team is going to focus on streamlining their operations and reducing toil, in order to reduce the number of &amp;ldquo;unexpected distractions&amp;rdquo; that come with inefficient infrastructure and processes.
+It will also make the service more reliable and transparent for our communities.&lt;/li>
+&lt;li>&lt;strong>Build foundational resources for hub champions to support their community.&lt;/strong>
+Our Partnerships team will lead an effort to build basic infrastructure and content that communities can use to create their own knowledge bases around hubs. This will be ongoing work so the goal here is to create a foundation to build upon in the future.&lt;/li>
+&lt;/ul>
+&lt;p>We hope that this has been an informative update from our team, and we appreciate everybody&amp;rsquo;s input and collaboration over the past few months.
+We think that the tensions described in this post are healthy - they&amp;rsquo;re reflective of an organization that is growing and reaching organizational milestones.
+We&amp;rsquo;re excited to tackle them and to continue growing our impact and partnerships.&lt;/p>
+&lt;div class="about-us">
+&lt;blockquote>
+&lt;p>💡 Follow our work!
+&lt;a href="http://eepurl.com/hjHbff" target="_blank" rel="noopener">Sign up for our mailing list&lt;/a>
+for updates about 2i2c.
+&lt;a href="mailto:hello@2i2c.org">Send us an e-mail about collaborating or partnering&lt;/a>
+on a project.
+See our
+&lt;a href="https://docs.2i2c.org" target="_blank" rel="noopener">Service Documentation&lt;/a>
+or our
+&lt;a href="https://compass.2i2c.org" target="_blank" rel="noopener">Team Compass&lt;/a>
+to learn about our service and organization.&lt;/p>
+&lt;/blockquote>
+&lt;/div></description></item><item><title>Product Lead</title><link>https://2i2c.org/jobs/2023/product-lead/</link><pubDate>Sun, 29 Oct 2023 00:00:00 +0000</pubDate><guid>https://2i2c.org/jobs/2023/product-lead/</guid><description>&lt;p>We’re looking for a Product Lead who will be instrumental in shaping 2i2c’s product vision, strategy, and execution.
 You’ll own the product vision, align it with user needs, and translate it into a clear product roadmap which defines cross-functional priorities and guides our partnerships and engineering teams, enabling efficient product delivery and continuous improvement.&lt;/p>
 &lt;p>&lt;strong>For more information and to apply, see
 &lt;a href="https://boards.greenhouse.io/codeforsciencesociety/jobs/4122980007?gh_jid=4122980007" target="_blank" rel="noopener">our Greenhouse application page for this job&lt;/a>
