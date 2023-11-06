@@ -18,7 +18,7 @@ More on that in the following sections, but first a short service update.
 
 ### New partnerships and service growth
 
-Our service has grown several new partner communities over the last two quarters. A few notable communities are [the NASA VEDA project](https://nasa-veda.2i2c.cloud/), a [team at the Smithsonian](https://smithsonian.2i2c.cloud/), [a team at NCAR](https://ncar-cisl.2i2c.cloud/), and the [U.S. Greenhouse Gases Center](https://hub.ghg.center/). We are running about **71 hubs across 24 clusters, with about 4000 weekly users **([more usage stats here](https://2i2c.org/kpis/cloud/)).
+Our service has grown several new partner communities over the last two quarters. A few notable communities are [the NASA VEDA project](https://nasa-veda.2i2c.cloud/), a [team at the Smithsonian](https://smithsonian.2i2c.cloud/), [a team at NCAR](https://ncar-cisl.2i2c.cloud/), and the [U.S. Greenhouse Gases Center](https://hub.ghg.center/). We are running about **71 hubs across 24 clusters, with about 4000 weekly users** ([more usage stats here](https://2i2c.org/kpis/cloud/)).
 
 We also began operations on a major collaboration to serve communities in Latin America and Africa, called [the Catalyst Project](https://zenodo.org/records/7025288).
 This team met together for the first time in April, and we've been laying a foundation for service growth in the first several months.
@@ -30,7 +30,7 @@ Finally, we've been fortunate to receive some grants around creating content and
 
 At this point, we're **recovering roughly 40% of our operating costs** through recurring fees of our managed hub service (making up the remainder in development contracts and grants), and **we've currently got around 2 years of runway**.
 
-Both of these will be lowered soon, however, because we've about to hire for several more positions.
+However, both of these will be lowered soon because we are about to hire for several more positions.
 Improvements to our product model will allow us to estimate and recover our service costs more effectively, but we also intend to raise some funds next year to support our efforts in making our service more robust, sustainable, and valuable to communities.
 
 It's always difficult to strike a proper balance of team (and cost) growth against the financial buffer needed to assure your partners you'll stick around, but we're confident that the new hires described below will serve critical needs for our team and mission.
@@ -47,7 +47,7 @@ It suggests to us that something about our model is fundamentally right.
 Communities really love the [Right to Replicate](https://2i2c.org/right-to-replicate), and our participatory service model based around upstream contributions, transparency, and shared responsibility is attractive to many in research and education.
 
 However, each new community is also a new set of stresses on the technical and social infrastructure of our team.
-Without the capacity to manage the demands of the service, you run the risk of over-extending, and in a worst case scenario, burning out, your team.
+Without the capacity to manage the demands of the service, you run the risk of over-extending -- and in a worst case scenario, burning out -- your team.
 
 This became clear in our first in-person team meeting last May.
 At that meeting, we realized that many on the team were spending too much of their time "reacting" to demands from the service.
@@ -60,13 +60,13 @@ So, for the past several months we've been working on a plan to evolve 2i2c's te
 This began with an organizational audit carried out by [makeadifference.digital](https://www.makeadifference.digital/), a consulting group that focuses on tech-for-good and non-profit products and services.
 They conducted interviews with everybody on the team, and concluded that we have a few key functions missing that were creating or compounding the stresses people felt.
 
-We're looking into ways that we can make more of this work public, but in the meantime here is an overview of some highlights:
+We hope to make some of their key findings public soon, and in the meantime here is an overview of some highlights:
 
 ### We need a dedicated product functionality
 
 First, we realized that we have a number of new "signals" pushing our service in many different directions.
 Some are external - from communities we work with or from funders. Some are internal - from different team member visions of where work is needed.
-After growing our service and our team, there are now too many perspectives and voices to balance in a purely unstructured and organic way.
+After growing our service and our team, there are now too many perspectives and voices to balance in an unstructured and purely organic way.
 
 So we're creating a **dedicated "product function" within 2i2c**.
 Its goal will be to serve as an integrator across the many stakeholders that are interested in 2i2c's service, and synthesize a collective product strategy and system of prioritization to move the organization forward.
