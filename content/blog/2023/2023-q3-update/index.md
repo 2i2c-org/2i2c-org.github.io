@@ -31,7 +31,7 @@ Finally, we've been fortunate to receive some grants around creating content and
 At this point, we're **recovering roughly 40% of our operating costs** through recurring fees of our managed hub service (making up the remainder in development contracts and grants), and **we've currently got around 2 years of runway**.
 
 Both of these will be lowered soon, however, because we've about to hire for several more positions.
-Improvements to our product model will allow us to estimate and recovery our service costs more effectively, but we also intend to raise some funds next year to support our efforts in making our service more robust, sustainable, and valuable to communities.
+Improvements to our product model will allow us to estimate and recover our service costs more effectively, but we also intend to raise some funds next year to support our efforts in making our service more robust, sustainable, and valuable to communities.
 
 It's always difficult to strike a proper balance of team (and cost) growth against the financial buffer needed to assure your partners you'll stick around, but we're confident that the new hires described below will serve critical needs for our team and mission.
 
@@ -57,7 +57,7 @@ We also learned that the scope and complexity of our various workstreams had got
 
 So, for the past several months we've been working on a plan to evolve 2i2c's team structure in order to more effectively manage the complexity of our service, and balance long- and short-term thinking.
 
-This began with an organizational audit carried out by [makeadifference.digital](https://www.makeadifference.digital/), a consulting group that focusese on tech-for-good and non-profit products and services.
+This began with an organizational audit carried out by [makeadifference.digital](https://www.makeadifference.digital/), a consulting group that focuses on tech-for-good and non-profit products and services.
 They conducted interviews with everybody on the team, and concluded that we have a few key functions missing that were creating or compounding the stresses people felt.
 
 We're looking into ways that we can make more of this work public, but in the meantime here is an overview of some highlights:
@@ -82,8 +82,8 @@ There are new communities to be onboarded, infrastructure bugs to be fixed, ques
 Expecting each team member to individually find the right balance between all of these is increasingly unrealistic.
 We need capacity to oversee this system of work and bring some structure to it.
 
-So, we're creating a **Deliver Manager role** to oversee the system of work that our engineering team uses for its planning and execution.
-In addition, this role will serve at an organization-wide capacity as an **interrim Chief of Staff**.
+So, we're creating a **Delivery Manager role** to oversee the system of work that our engineering team uses for its planning and execution.
+In addition, this role will serve at an organization-wide capacity as an **interim Chief of Staff**.
 This will allow them to improve and standardize practices organization-wide, and coordinate major projects that span our team.
 
 You can find a [job posting for a Delivery Manager / interrim Chief of Staff](https://2i2c.org/jobs/2023/delivery-manager/) role.
