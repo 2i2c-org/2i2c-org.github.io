@@ -60,7 +60,7 @@ So, for the past several months we've been working on a plan to evolve 2i2c's te
 This began with an organizational audit carried out by [makeadifference.digital](https://www.makeadifference.digital/), a consulting group that focuses on tech-for-good and non-profit products and services.
 They conducted interviews with everybody on the team, and concluded that we have a few key functions missing that were creating or compounding the stresses people felt.
 
-We hope to make some of their key findings public soon, and in the meantime here is an overview of some highlights:
+We hope to make some of their key findings public soon (Update: this is now available at [this blog post about the organizational report](/blog/2023/organizational-report/)), and in the meantime here is an overview of some highlights:
 
 ### We need a dedicated product functionality
 
