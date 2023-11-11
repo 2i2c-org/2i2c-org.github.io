@@ -84,7 +84,7 @@ The [US Greenhouse Gas Center](https://us-ghg-center.github.io/ghgc-docs/) provi
 
 In addition, we've celebrated considerable growth in one of our partner communities: [CryoCloud](https://cryointhecloud.com/).
 This community focuses its work around studying the Cryosphere using satellite imagery data.
-They've grown their community hub to roughl 300 users in a year, and have piloted several novel interfaces for data analysis in a JupyterHub context., such as using [QGIS](https://qgis.org/) via a Linux desktop browser.
+They've grown their community hub to roughly 300 users in a year, and have piloted several novel interfaces for data analysis in a JupyterHub context., such as using [QGIS](https://qgis.org/) via a Linux desktop browser.
 
 2i2c team members also gave several talks in October, and you can find links to each of these below:
 
