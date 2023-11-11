@@ -66,9 +66,9 @@ In Q3, our team took stock of the many different kinds of services and technolog
 Richard will join us for several months in order to take these outputs and help us craft them into a model for where 2i2c is delivering value that we can build upon for the coming years.
 We'll provide more updates for the community as this work continues.
 
-### Began onboarding communities in our Catalyst Project collaboration
+### Continued onboarding communities in our Catalyst Project collaboration
 
-We began onboarding communities onto infrastructure managed by 2i2c as part of a [CZI-funded project to serve communities in Latin America and Africa](../../2022/czi-global-communities-announcement/).
+We continued onboarding communities onto infrastructure managed by 2i2c as part of a [CZI-funded project to serve communities in Latin America and Africa](../../2022/czi-global-communities-announcement/).
 The grant team began its operations last April, and spent the first several months creating an onboarding pipeline and rubric for identifying and connecting with communities.
 As of October we've onboarded our first few communities - there is still a lot of content, training material, and documentation to create, and we will begin iterating on this in collaboration with our early-adopted communities in Q42023 and Q12024.
 
