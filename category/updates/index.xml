@@ -1,4 +1,124 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>updates | 2i2c</title><link>https://2i2c.org/category/updates/</link><atom:link href="https://2i2c.org/category/updates/index.xml" rel="self" type="application/rss+xml"/><description>updates</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 08 Nov 2023 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>updates</title><link>https://2i2c.org/category/updates/</link></image><item><title>Open organizational report: Strengths and challenges for 2i2c's team</title><link>https://2i2c.org/blog/2023/organizational-report/</link><pubDate>Wed, 08 Nov 2023 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2023/organizational-report/</guid><description>&lt;p>Over the last several months 2i2c has been working with an organizational consulting group called
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>updates | 2i2c</title><link>https://2i2c.org/category/updates/</link><atom:link href="https://2i2c.org/category/updates/index.xml" rel="self" type="application/rss+xml"/><description>updates</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Fri, 10 Nov 2023 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>updates</title><link>https://2i2c.org/category/updates/</link></image><item><title>Community Update: October 2023</title><link>https://2i2c.org/blog/2023/update-october/</link><pubDate>Fri, 10 Nov 2023 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2023/update-october/</guid><description>&lt;p>Over the past few months, we&amp;rsquo;ve been investigating ways to improve our reporting both internally and externally.
+We&amp;rsquo;ve decided to experiment with a &lt;strong>monthly community update&lt;/strong> to create a regular cadence of transparency and highlights from 2i2c for our broader community.
+This is the first such update, so bear with us as we work out the kinks!&lt;/p>
+&lt;p>Our goal with these updates is to share what stands out at 2i2c - what we&amp;rsquo;ve learned, what we&amp;rsquo;re proud of, where we&amp;rsquo;ve struggled, and where we&amp;rsquo;ve had an impact.
+We hope this can be a historical record of &amp;ldquo;what stands out&amp;rdquo; to our team and that it is useful for our broader community to see.
+We also want this to be relatively short and to the point to make it sustainable to both write and read.&lt;/p>
+&lt;p>&lt;strong>We&amp;rsquo;d love feedback&lt;/strong> on what else you&amp;rsquo;d like to see.
+If you have any ideas, please send an email to &lt;code>hello@2i2c.org&lt;/code>.&lt;/p>
+&lt;h2 id="rough-numbers">
+Rough Numbers
+&lt;a class="header-anchor" href="#rough-numbers">#&lt;/a>
+&lt;/h2>&lt;p>First off, a few numbers on the scale and status of our interactive computing hub service:&lt;/p>
+&lt;p>We are currently running around &lt;strong>73 JupyterHubs&lt;/strong> that are collectively averaging more than &lt;strong>4000 average monthly users&lt;/strong>.
+We have several communities in the educational sector, so October was a peak in the Fall semester of activity.&lt;/p>
+&lt;p>We&amp;rsquo;re recovering roughly &lt;strong>40% of our monthly staffing costs through recurring service revenue&lt;/strong>.
+The remainder we&amp;rsquo;re making up with a combination of grants and more focused development contracts.&lt;/p>
+&lt;p>Assuming minimal growth in our service and fundraising, our &lt;strong>runway is roughly until August 2025&lt;/strong> - however, we anticipate this to shrink in the short-term once we make critical new hires in the coming months.&lt;/p>
+&lt;h2 id="organization-updates">
+Organization Updates
+&lt;a class="header-anchor" href="#organization-updates">#&lt;/a>
+&lt;/h2>&lt;p>&lt;em>This section describes some major organization-wide efforts we&amp;rsquo;ve started or progressed over the last month.&lt;/em>&lt;/p>
+&lt;h3 id="improving-our-quarterly-sprints-and-goals">
+Improving Our Quarterly Sprints and Goals
+&lt;a class="header-anchor" href="#improving-our-quarterly-sprints-and-goals">#&lt;/a>
+&lt;/h3>&lt;p>This month our team kicked off the second round of our new quarterly sprints and goals process.
+This is an attempt to focus our team around a few goals and sub-teams dedicated to them throughout each quarter.
+Our hope is that this allows us to make strategic &amp;ldquo;pushes&amp;rdquo; in directions that feel important for 2i2c&amp;rsquo;s operations and the communities we serve.&lt;/p>
+&lt;p>This quarter, we incorporated a lot of learning that took place after our first iteration in Q3 2023.
+We are hoping to sharpen up the timing of events throughout the process, including communicating internally and externally about our status (thus, this blog post series).&lt;/p>
+&lt;p>In the next quarter, we aim to build off of this work, and to identify where our future new hires of
+&lt;a href="https://2i2c.org/jobs/2023/delivery-manager.md">Delivery Manager / Interim Chief of Staff&lt;/a>
+and our
+&lt;a href="https://2i2c.org/jobs/2023/product-lead.md">Product Lead&lt;/a>
+will fit in.&lt;/p>
+&lt;h3 id="three-new-jobs-posted">
+Three New Jobs Posted
+&lt;a class="header-anchor" href="#three-new-jobs-posted">#&lt;/a>
+&lt;/h3>&lt;p>In October, we began a short hiring push to address many of the organizational challenges noted in
+&lt;a href="../organizational-report/">our organizational structure and strategy audit&lt;/a>
+.
+We aim to have each of these positions filled by the end of the year and begin incorporating new team members into our organization.
+Here&amp;rsquo;s a list of the three job postings:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="https://2i2c.org/jobs/2023/delivery-manager.md">Delivery Manager / Interim Chief of Staff&lt;/a>
+&lt;/li>
+&lt;li>
+&lt;a href="https://2i2c.org/jobs/2023/product-lead.md">Product Lead&lt;/a>
+&lt;/li>
+&lt;li>
+&lt;a href="https://2i2c.org/jobs/2023/23qq4-open-source-infrastructure-engineer/" target="_blank" rel="noopener">Open Source Infrastructure Engineer: Cloud Engineering&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="product-strategy-work">
+Product Strategy Work
+&lt;a class="header-anchor" href="#product-strategy-work">#&lt;/a>
+&lt;/h3>&lt;p>We kicked off a collaboration with
+&lt;a href="https://richardpope.org/" target="_blank" rel="noopener">Richard Pope&lt;/a>
+to provide us with some short-term product strategy work.
+In Q3, our team took stock of the many different kinds of services and technology that we deploy, aiming to refine this into a long-term product model.&lt;/p>
+&lt;p>Richard will join us for several months to take these outputs and help us craft them into a model for where 2i2c is delivering value that we can build upon for the coming years.
+We&amp;rsquo;ll provide more updates for the community as this work continues.&lt;/p>
+&lt;h3 id="continued-onboarding-of-communities-in-our-catalyst-project-collaboration">
+Continued Onboarding of Communities in Our Catalyst Project Collaboration
+&lt;a class="header-anchor" href="#continued-onboarding-of-communities-in-our-catalyst-project-collaboration">#&lt;/a>
+&lt;/h3>&lt;p>We continued onboarding communities onto infrastructure managed by 2i2c as part of a
+&lt;a href="../../2022/czi-global-communities-announcement/">CZI-funded project to serve communities in Latin America and Africa&lt;/a>
+.
+The grant team began its operations last April and spent the first several months creating an onboarding pipeline and rubric for identifying and connecting with communities.
+As of October, we&amp;rsquo;ve onboarded our first few communities - there is still a lot of content, training material, and documentation to create, and we will begin iterating on this in collaboration with our early-adopted communities in Q4 2023 and Q1 2024.&lt;/p>
+&lt;h2 id="partnerships-and-impact">
+Partnerships and Impact
+&lt;a class="header-anchor" href="#partnerships-and-impact">#&lt;/a>
+&lt;/h2>&lt;p>&lt;em>This section describes notable new partnerships and developments with communities in our interactive computing hub service.&lt;/em>&lt;/p>
+&lt;p>We began several new partnerships with communities in the research space this month.&lt;/p>
+&lt;p>The
+&lt;a href="https://www.earthdata.nasa.gov/esds/veda" target="_blank" rel="noopener">NASA Visualization, Exploration, and Data Analysis (VEDA)&lt;/a>
+project is an open-source science cyberinfrastructure for data processing, visualization, exploration, and geographic information systems (GIS) capabilities.&lt;/p>
+&lt;p>The
+&lt;a href="https://us-ghg-center.github.io/ghgc-docs/" target="_blank" rel="noopener">US Greenhouse Gas Center&lt;/a>
+provides a cloud-based system for exploring and analyzing U.S. government and other curated greenhouse gas datasets.&lt;/p>
+&lt;p>In addition, we&amp;rsquo;ve celebrated considerable growth in one of our partner communities:
+&lt;a href="https://cryointhecloud.com/" target="_blank" rel="noopener">CryoCloud&lt;/a>
+.
+This community focuses its work around studying the Cryosphere using satellite imagery data.
+They&amp;rsquo;ve grown their community hub to roughly 300 users in a year and have piloted several novel interfaces for data analysis in a JupyterHub context, such as using
+&lt;a href="https://qgis.org/" target="_blank" rel="noopener">QGIS&lt;/a>
+via a Linux desktop browser.&lt;/p>
+&lt;p>2i2c team members also gave several talks in October, and you can find links to each of these below:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="https://www.youtube.com/watch?v=coKoUoUzLPk" target="_blank" rel="noopener">Chris Holdgraf on 2i2c&amp;rsquo;s overall purpose and operations thus far&lt;/a>
+, delivered at the
+&lt;a href="https://pslmodels.org/index.html" target="_blank" rel="noopener">Policy Simulation Library demo day&lt;/a>
+.&lt;/li>
+&lt;li>
+&lt;a href="https://www.youtube.com/watch?v=SHUSoXgRAho" target="_blank" rel="noopener">Jim Colliander on the impact 2i2c wishes to have and what it means for open science&lt;/a>
+, delivered to
+&lt;a href="https://wiki.esipfed.org/Main_Page" target="_blank" rel="noopener">the ESIP community&lt;/a>
+.&lt;/li>
+&lt;/ul>
+&lt;h2 id="what-weve-learned-and-what-stood-out">
+What We&amp;rsquo;ve Learned and What Stood Out
+&lt;a class="header-anchor" href="#what-weve-learned-and-what-stood-out">#&lt;/a>
+&lt;/h2>&lt;p>&lt;em>These are things that we&amp;rsquo;ve learned in the past month that we&amp;rsquo;re using to improve our service moving forward&lt;/em>.&lt;/p>
+&lt;p>&lt;strong>Communities like to define and select their own environments&lt;/strong>.
+We began rolling out new functionality to allow communities to &lt;strong>define their user environments on-the-fly&lt;/strong>.
+This brings mybinder.org-style environment creation into a JupyterHub, and gives both more control and more visibility into the environments that communities use.
+We noticed that this also begins to blur the line between different workflows and types of communities that can be served on a single hub.
+It means that a hub is no longer strictly tied to a small number of user environments created for it.
+We&amp;rsquo;ll explore the implications of this in the coming months.&lt;/p>
+&lt;p>&lt;strong>We need to improve our billing and invoicing infrastructure&lt;/strong>.
+This month we began going through another backlog of cloud infrastructure invoices to send out to communities.
+For many communities, 2i2c pays a cloud bill on their behalf and passes through costs directly to them.
+This allows them to know exactly what they&amp;rsquo;re paying for.
+However, it is also starting to generate a lot of work!
+We aim to explore ways to automate and standardize this process in the future.&lt;/p>
+&lt;p>&lt;strong>Digital Public Goods is a concept that resonates with many community leaders&lt;/strong>.
+Jim and Chris both gave talks that leaned heavily into the notion of open tools and services as &amp;ldquo;Digital Public Goods&amp;rdquo;.
+As public goods, it is important that they remain &amp;ldquo;driven by the public&amp;rdquo; and that they have sustainable and scalable models to grow the value that these goods provide.
+We&amp;rsquo;ve noted that this topic resonates heavily with people across the research and education spectrum, and we&amp;rsquo;re considering how to lean into these values more heavily in 2i2c.&lt;/p></description></item><item><title>Open organizational report: Strengths and challenges for 2i2c's team</title><link>https://2i2c.org/blog/2023/organizational-report/</link><pubDate>Wed, 08 Nov 2023 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2023/organizational-report/</guid><description>&lt;p>Over the last several months 2i2c has been working with an organizational consulting group called
 &lt;a href="https://www.makeadifference.digital/" target="_blank" rel="noopener">Difference Digital&lt;/a>
 to help us identify the major opportunities and challenges in our organizational structure and strategy.
 The result of this work is a report that describes in detail the major strengths, weaknesses, challenges, and opportunities that 2i2c faces. It also recommends major actions to take as an organization.&lt;/p>
