@@ -19,9 +19,9 @@ Our [Brand Guidelines document](https://docs.google.com/presentation/d/1O36_yjTS
 
 ![](logo.png)
 
-**Logo white**
+**Logo light**
 
-![](logo-white.png)
+![](logo-light.png)
 
 **Logo black**
 
@@ -33,9 +33,9 @@ Our [Brand Guidelines document](https://docs.google.com/presentation/d/1O36_yjTS
 
 ![](logo-wide.png)
 
-**Wide logo white**
+**Wide logo light**
 
-![](logo-wide-white.png)
+![](logo-wide-light.png)
 
 ## Colors
 
