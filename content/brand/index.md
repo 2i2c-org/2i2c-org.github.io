@@ -19,6 +19,8 @@ Our [Brand Guidelines document](https://docs.google.com/presentation/d/1O36_yjTS
 
 ![](logo.png)
 
+[Download SVG](logo.svg) | [Download PDF](logo.pdf)
+
 **Logo light**
 
 ![](logo-light.png)
@@ -32,6 +34,8 @@ Our [Brand Guidelines document](https://docs.google.com/presentation/d/1O36_yjTS
 **Wide logo**
 
 ![](logo-wide.png)
+
+[Download SVG](logo-wide.svg) | [Download PDF](logo-wide.pdf)
 
 **Wide logo light**
 
