@@ -46,7 +46,7 @@ Our hope is that this allows us to make strategic "pushes" in directions that fe
 This quarter, we incorporated a lot of learning that took place after our first iteration in Q3 2023.
 We are hoping to sharpen up the timing of events throughout the process, including communicating internally and externally about our status (thus, this blog post series).
 
-In the next quarter, we aim to build off of this work, and to identify where our future new hires of [Delivery Manager / Interim Chief of Staff](/jobs/2023/delivery-manager.md) and our [Product Lead](/jobs/2023/product-lead.md) will fit in.
+In the next quarter, we aim to build off of this work, and to identify where our future new hires of [Delivery Manager / Interim Chief of Staff](/jobs/2023/delivery-manager) and our [Product Lead](/jobs/2023/product-lead) will fit in.
 
 ### Three New Jobs Posted
 
@@ -54,9 +54,9 @@ In October, we began a short hiring push to address many of the organizational c
 We aim to have each of these positions filled by the end of the year and begin incorporating new team members into our organization.
 Here's a list of the three job postings:
 
-- [Delivery Manager / Interim Chief of Staff](/jobs/2023/delivery-manager.md)
-- [Product Lead](/jobs/2023/product-lead.md)
-- [Open Source Infrastructure Engineer: Cloud Engineering](https://2i2c.org/jobs/2023/23qq4-open-source-infrastructure-engineer/)
+- [Delivery Manager / Interim Chief of Staff](/jobs/2023/delivery-manager)
+- [Product Lead](/jobs/2023/product-lead)
+- [Open Source Infrastructure Engineer: Cloud Engineering](/jobs/2023/23qq4-open-source-infrastructure-engineer)
 
 ### Product Strategy Work
 
