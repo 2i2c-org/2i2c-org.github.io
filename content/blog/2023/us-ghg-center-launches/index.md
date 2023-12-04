@@ -20,7 +20,7 @@ It was controversial in 1827 when Joseph Fourier (the discoverer of the [law of 
 
 The science is clear. The up-to-date consensus view of the global scientific community is expressed in the [Sixth Assessment Report](https://www.ipcc.ch/assessment-report/ar6/) of the Intergovernmental Panel on Climate Change (IPCC): 
 
-![[image-10-x33-y350.png]]
+![image-10-x33-y350.png](./image-10-x33-y350.png)
 
 ## International Context
 
