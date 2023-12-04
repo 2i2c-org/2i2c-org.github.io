@@ -9,7 +9,6 @@ date: "2023-12-05"
 featured: false
 draft: false
 ---
-# Digital public goods for Earth system management: U.S. Greenhouse Gas Center launches
 
 ```ad-abstract
 The International Interactive Computing Collaboration ([2i2c.org](https://2i2c.org)), working with [NASA VEDA](https://www.earthdata.nasa.gov/dashboard/), [Development Seed](https://developmentseed.org/) and other partners, operates an interactive computing platform for The U.S. Greenhouse Gas Center. The U.S. GHG Center is an interagency collaboration of the [Environmental Protection Agency (EPA)](https://www.epa.gov/), the [National Aeronautics and Space Administration (NASA)](https://www.nasa.gov/), the [National Institute of Standards and Technology (NIST)](https://www.nist.gov/), and the [National Ocean and Atmospheric Administration (NOAA)](https://www.nist.gov/). This note places the [recent launch of the U.S. GHG Center](https://www.nasa.gov/news-release/nasa-partners-launch-us-greenhouse-gas-center-to-share-climate-data/) in a scientific and international context and forecast future scenarios for the role of open science, open data, and open infrastructure in managing the Earth system. 
