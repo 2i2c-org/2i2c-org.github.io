@@ -123,3 +123,19 @@ The U.S. GHG Center's interactive computing platform is **open source science in
  Research, data and recommendations developed by scientists and engineers that influence policies set by democratic governments should be accessible by voters. No entity should own the ways humans communicate and learn about the Earth system. The U.S. Greenhouse Gas Center's generous approach to digital infrastructure -- an open toolchain adjacent to open data -- is vital for democracy and should be replicated across government agencies worldwide.
 
 ## References
+
+1. Mémoire sur les températures du globe terrestre et des espaces planétaires. in _Oeuvres de Fourier: Publiées par les soins de Gaston Darboux_ (eds. Fourier, J. B. J. & Darboux, J. G.) vol. 2 95–126 (Cambridge University Press, 2013).
+
+2. World Climate Conference. _World Climate Conference - Declaration and supporting documents_. [https://library.wmo.int/records/item/54699-world-climate-conference-declaration-and-supporting-documents](https://library.wmo.int/records/item/54699-world-climate-conference-declaration-and-supporting-documents) (1979).
+
+3. Gupta, J. A history of international climate change policy. _WIREs Climate Change_ **1**, 636–653 (2010).
+
+4. Zillman, J. A history of climate activities. _WMO Bulletin_ **58**, (2009).
+
+5. _Valuing Climate Changes: Updating Estimation of the Social Cost of Carbon Dioxide_. (National Academies Press, 2017). doi:[10.17226/24651](https://doi.org/10.17226/24651).
+
+6. _Greenhouse Gas Emissions Information for Decision Making: A Framework Going Forward_. (National Academies Press, 2022). doi:[10.17226/26641](https://doi.org/10.17226/26641).
+
+7. CEQguidance. National Environmental Policy Act Guidance on Consideration of Greenhouse Gas Emissions and Climate Change. _Federal Register_ [https://www.federalregister.gov/documents/2023/01/09/2023-00158/national-environmental-policy-act-guidance-on-consideration-of-greenhouse-gas-emissions-and-climate](https://www.federalregister.gov/documents/2023/01/09/2023-00158/national-environmental-policy-act-guidance-on-consideration-of-greenhouse-gas-emissions-and-climate) (2023).
+
+8. Abernathey, R. P. _et al._ Cloud-Native Repositories for Big Scientific Data. _Computing in Science & Engineering_ **23**, 26–35 (2021).
