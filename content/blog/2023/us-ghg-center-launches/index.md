@@ -65,7 +65,7 @@ gantt
 ```
 
 
-The table above describes a subset (for a more systematic review see [^gupta2010], [^zillman2009]) of key milestones in global efforts to understand and address climate change. This _info_ box provides a glossary of acronyms and additional context.  
+The table above describes a subset (for a more systematic review see [^gupta2010], [^zillman2009]) of key milestones in global efforts to understand and address climate change. The list below provides a glossary of acronyms and additional background:
  
 1. The First World Climate Conference (**WCC-1**) [^worldclimateconference1979] was held in 1979.
 2. The World Climate Programme ([WCP](https://public.wmo.int/en/programmes/world-climate-programme)), an activity overseen by the [World Meteorological Organization](https://public.wmo.int/en) was established after WCC-1. WCP, in partnership with other organizations, operates programs (e.g. the [World Climate Research Program (WCRP)](https://wcrp-cmip.org/)) that organize and integrate international scientific efforts to understand the climate. The WMO also operates the [Integrated Global Greenhouse Gas Information System (IG3IS)](https://ig3is.wmo.int/en/who-we-are), a natural partner for the emerging work described below.
