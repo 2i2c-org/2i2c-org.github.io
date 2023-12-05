@@ -24,7 +24,7 @@ The science is clear. The up-to-date consensus view of the global scientific com
 
 ## International Context
 
-The international community officially recognized human-influenced climate change at the World Climate Conference (WCC-1) [^worldclimateconference1979] in 1979. The [1979 declaration](https://library.wmo.int/viewer/54699/download?file=1979_wcc1-declaration.pdf&type=pdf&navigator=1)is remarkably prescient and detailed. A complex and interconnected collection of of scientific and diplomatic activities were catalyzed by WCC-1. Some important milestones from this history are captured in the chart and information box below. 
+The international community officially recognized human-influenced climate change at the World Climate Conference (WCC-1) [^worldclimateconference1979] in 1979. The [1979 declaration](https://library.wmo.int/viewer/54699/download?file=1979_wcc1-declaration.pdf&type=pdf&navigator=1)is remarkably prescient and detailed. A complex and interconnected collection of scientific and diplomatic activities were catalyzed by WCC-1. Some important milestones from this history are captured in the chart and numbered list below. 
 
 ```mermaid
 gantt
@@ -64,19 +64,18 @@ gantt
     ETF :crit, adminU, 2024-01-01, 2025-12-31
 ```
 
-> **Note**
-> 
-> The table above describes a subset (for a more systematic review see [^gupta2010], [^zillman2009]) of key milestones in global efforts to understand and address climate change. This _info_ box provides a glossary of acronyms and additional context.  
-> 
-> 1. The First World Climate Conference (**WCC-1**) [^worldclimateconference1979] was held in 1979.
-> 2. The World Climate Programme ([WCP](https://public.wmo.int/en/programmes/world-climate-programme)), an activity overseen by the [World Meteorological Organization](https://public.wmo.int/en) was established after WCC-1. WCP, in partnership with other organizations, operates programs (e.g. the [World Climate Research Program (WCRP)](https://wcrp-cmip.org/)) that organize and integrate international scientific efforts to understand the climate. The WMO also operates the [Integrated Global Greenhouse Gas Information System (IG3IS)](https://ig3is.wmo.int/en/who-we-are), a natural partner for the emerging work described below.
-> 3. WCRP manages the [Common Model Intercomparison Project (CMIP)](https://wcrp-cmip.org/). CMIP serves as a kind of **league for intercomparing models** of the Earth's climate system developed by teams who approach the problems with different methods and designs. Intercomparison, an approach that enables finding the consensus views of teams with divergent approaches to problems, is used in other modeling scenarios.
-> 4. Research papers on the climate are rapidly produced by scholars from essentially all knowledge disciplines. This overwhelming stream of content, like snowflakes in a blizzard, is coalesced into coherent and carefully scrutinized **[IPCC Assessment Reports](https://www.ipcc.ch/reports/)** by the [Intergovernmental Panel on Climate Change (IPCC)](https://www.ipcc.ch/). 
-> 5. The [Earth Summit](https://en.wikipedia.org/wiki/Earth_Summit) held in Rio de Janeiro in 1992 led to the [United Nations Framework Convention on Climate Change (UNFCC)](https://unfccc.int/). The UNFCCC is an international treaty that recognizes the dangers to the climate system caused by human activity, calls for ongoing study, and establishes recurring [Conference of the Parties (COP)](https://unfccc.int/process/bodies/supreme-bodies/conference-of-the-parties-cop) meetings. 
-> 6. [COP-3 (Kyoto)](https://unfccc.int/event/cop-3) led to the [Kyoto Protocol Treaty](https://unfccc.int/kyoto_protocol). 
-> 7. The [Byrd-Hagel Resolution](https://en.wikipedia.org/wiki/Byrd%E2%80%93Hagel_Resolution) was a unanimous United States Senate Resolution that stipulated the United States would not sign treaties promising greenhouse gas reductions by developed countries that did not mandate similar reductions from developing countries. This killed USA participation in the Kyoto Protocol Treaty. 
-> 8. The [Paris Agreement](https://unfccc.int/process-and-meetings/the-paris-agreement), established at [COP-21 (Paris)](https://unfccc.int/event/cop-21), effectively replaces the Kyoto Protocol, includes specifications by participant countries on greenhouse gas reductions called National Determined Contributions (NDCs). The United States entered the Paris Agreement under President Obama, exited under President Trump and rejoined under President Biden. 
-> 9. [COP-26 (Glasgow)](https://www.un.org/en/climatechange/cop26)established an accountability system for the Paris Agreement called the [Enhanced Transparency Framework (ETF)](https://unfccc.int/FAQ-moving-towards-the-ETF). Participant countries to the Paris Agreement will [submit their first Biennial Transparency Reports (BTR1) under the ETF](https://unfccc.int/process-and-meetings/transparency-and-reporting/preparing-for-the-ETF) in 2024. 
+
+The table above describes a subset (for a more systematic review see [^gupta2010], [^zillman2009]) of key milestones in global efforts to understand and address climate change. This _info_ box provides a glossary of acronyms and additional context.  
+ 
+1. The First World Climate Conference (**WCC-1**) [^worldclimateconference1979] was held in 1979.
+2. The World Climate Programme ([WCP](https://public.wmo.int/en/programmes/world-climate-programme)), an activity overseen by the [World Meteorological Organization](https://public.wmo.int/en) was established after WCC-1. WCP, in partnership with other organizations, operates programs (e.g. the [World Climate Research Program (WCRP)](https://wcrp-cmip.org/)) that organize and integrate international scientific efforts to understand the climate. The WMO also operates the [Integrated Global Greenhouse Gas Information System (IG3IS)](https://ig3is.wmo.int/en/who-we-are), a natural partner for the emerging work described below.
+3. WCRP manages the [Common Model Intercomparison Project (CMIP)](https://wcrp-cmip.org/). CMIP serves as a kind of **league for intercomparing models** of the Earth's climate system developed by teams who approach the problems with different methods and designs. Intercomparison, an approach that enables finding the consensus views of teams with divergent approaches to problems, is used in other modeling scenarios.
+4. Research papers on the climate are rapidly produced by scholars from essentially all knowledge disciplines. This overwhelming stream of content, like snowflakes in a blizzard, is coalesced into coherent and carefully scrutinized **[IPCC Assessment Reports](https://www.ipcc.ch/reports/)** by the [Intergovernmental Panel on Climate Change (IPCC)](https://www.ipcc.ch/). 
+5. The [Earth Summit](https://en.wikipedia.org/wiki/Earth_Summit) held in Rio de Janeiro in 1992 led to the [United Nations Framework Convention on Climate Change (UNFCC)](https://unfccc.int/). The UNFCCC is an international treaty that recognizes the dangers to the climate system caused by human activity, calls for ongoing study, and establishes recurring [Conference of the Parties (COP)](https://unfccc.int/process/bodies/supreme-bodies/conference-of-the-parties-cop) meetings. 
+6. [COP-3 (Kyoto)](https://unfccc.int/event/cop-3) led to the [Kyoto Protocol Treaty](https://unfccc.int/kyoto_protocol). 
+7. The [Byrd-Hagel Resolution](https://en.wikipedia.org/wiki/Byrd%E2%80%93Hagel_Resolution) was a unanimous United States Senate Resolution that stipulated the United States would not sign treaties promising greenhouse gas reductions by developed countries that did not mandate similar reductions from developing countries. This killed USA participation in the Kyoto Protocol Treaty. 
+8. The [Paris Agreement](https://unfccc.int/process-and-meetings/the-paris-agreement), established at [COP-21 (Paris)](https://unfccc.int/event/cop-21), effectively replaces the Kyoto Protocol, includes specifications by participant countries on greenhouse gas reductions called National Determined Contributions (NDCs). The United States entered the Paris Agreement under President Obama, exited under President Trump and rejoined under President Biden. 
+9. [COP-26 (Glasgow)](https://www.un.org/en/climatechange/cop26)established an accountability system for the Paris Agreement called the [Enhanced Transparency Framework (ETF)](https://unfccc.int/FAQ-moving-towards-the-ETF). Participant countries to the Paris Agreement will [submit their first Biennial Transparency Reports (BTR1) under the ETF](https://unfccc.int/process-and-meetings/transparency-and-reporting/preparing-for-the-ETF) in 2024. 
 
 ## 🇺🇸 U.S.A. Context
 
@@ -88,19 +87,17 @@ Other federal agencies have developed expertise, data, and analyses that give in
 
 Some important insights from the NASEM consensus report, the draft federal strategy, and the IWG reports:
 
-> **Note**
-> 
-> 1. Data streams on greenhouse gas emissions can be sorted into two broad categories:
+1. Data streams on greenhouse gas emissions can be sorted into two broad categories:
 	+ **Activity-based:** Activity-based data, sometimes called "bottom-up" data, quantify GHG emissions by measuring activities that generate GHG emissions. Economic or business activity data (gallons of diesel sold in a county on Tuesday; miles flown by a 747 in October) can be converted into quantified GHG emissions information. 
 	+ **Atmospheric-based:** Atmosphere-based data, sometimes called "top-down" data, quantify GHG emissions by performing atmospheric measurements. For example, the [Orbiting Carbon Observatory (OCO2)](https://ocov2.jpl.nasa.gov/) remotely senses $CO_2$ from space.
 	+ A hybrid approach that blends activity-based and atmospheric-based GHG data has the potential to provide new insights. 
-> 2. Interoperable and easily accessed tools and data products for analyzing GHG emissions information and assigning costs should be made available across the Federal government. 
-> 3. GHG emissions information is needed in scenarios outside the international context of participating nations reporting for UNFCCC and Paris Agreement ETF compliance:
+2. Interoperable and easily accessed tools and data products for analyzing GHG emissions information and assigning costs should be made available across the Federal government. 
+3. GHG emissions information is needed in scenarios outside the international context of participating nations reporting for UNFCCC and Paris Agreement ETF compliance:
 	+ **Subnational governments** -- cities, states, provinces, counties -- want GHG data products to measure their progress on emission reduction programs.
 	+ **Facilities** -- harbours, toll roads, power plants, factories, universities -- similarly want GHG data products. 
 	+ **Companies** -- airlines, trucking, construction -- want GHG data products.
-> 4. Reliable and transparent GHG emissions information is required to enable effective environmental-social-governance (ESG) investment without “greenwashing”.
-> 5. An accurate and improving quantification of the social costs associated to GHG emissions requires ongoing research. 
+4. Reliable and transparent GHG emissions information is required to enable effective environmental-social-governance (ESG) investment without “greenwashing”.
+5. An accurate and improving quantification of the social costs associated to GHG emissions requires ongoing research. 
 
 ## The U.S. Greenhouse Gas Center
 
@@ -111,13 +108,11 @@ How much GHG emission is generated through oil and gas production? How much GHG 
 ## Openness: Amplified Knowledge Sharing
 
 The U.S. Greenhouse Gas Center builds on [EPA's leadership to openly share the data and tools for the _Inventory_](https://www.epa.gov/ghgemissions/greenhouse-gas-inventory-tools)and the [2023 Year of Open Science](https://www.whitehouse.gov/ostp/news-updates/2023/01/11/fact-sheet-biden-harris-administration-announces-new-actions-to-advance-open-and-equitable-research/). Instead of building an walled garden with proprietary technology from a vendor  selected through RFP, the Center launched a prototype platform using curated open source tools integrated with public federal data. This approach **open toolchain approach** amplifies the open data efforts developed over the past two decades.
-
-> **Note**
-> 
-> The U.S. GHG Center's interactive computing platform is **open source science infrastructure**. The platform is: 
-> + [transparently operated](https://github.com/2i2c-org/infrastructure) by [2i2c](https://2i2c.org) on a cloud data center under a [right to replicate that ensures zero vendor lock-in](https://2i2c.org/right-to-replicate/) with data integrations and visualizations built with using software from a [vibrant open source ecosystem](https://jupyter.org/) by [Development Seed](https://developmentseed.org/), [NASA VEDA](https://www.earthdata.nasa.gov/dashboard/), and collaborators;
-> + proximate to and optimized [^abernathey2021] for analyzing geospatial data (e.g. [NASA](https://registry.opendata.aws/collab/nasa/), [NOAA](https://repository.library.noaa.gov/view/noaa/37529));
-> + designed to be a _digital public good._
+ 
+The U.S. GHG Center's interactive computing platform is **open source science infrastructure**. The platform is: 
+1. [transparently operated](https://github.com/2i2c-org/infrastructure) by [2i2c](https://2i2c.org) on a cloud data center under a [right to replicate that ensures zero vendor lock-in](https://2i2c.org/right-to-replicate/) with data integrations and visualizations built with using software from a [vibrant open source ecosystem](https://jupyter.org/) by [Development Seed](https://developmentseed.org/), [NASA VEDA](https://www.earthdata.nasa.gov/dashboard/), and collaborators;
+2. proximate to and optimized [^abernathey2021] for analyzing geospatial data (e.g. [NASA](https://registry.opendata.aws/collab/nasa/), [NOAA](https://repository.library.noaa.gov/view/noaa/37529));
+3. designed to be a _digital public good._
 
 Research, data and recommendations developed by scientists and engineers that influence policies set by democratic governments should be accessible by voters. No entity should own the ways humans communicate and learn about the Earth system. The U.S. Greenhouse Gas Center's generous approach to digital infrastructure -- an open toolchain adjacent to open data -- is vital for democracy and should be replicated across government agencies worldwide.
 
