@@ -1,4 +1,3 @@
-$color-primary: rgb(29, 78, 245);
 $color-secondary: rgb(225, 78, 79);
 $color-grey: #4e4e4e;
 
@@ -7,11 +6,13 @@ $color-grey: #4e4e4e;
 // ref: https://pydata-sphinx-theme.readthedocs.io/en/stable/user_guide/styling.html
 :root {
   body {
+    --color-primary: rgb(29, 78, 245);
     --color-icon: #4e4e4e;
     --color-surface: rgb(245, 245, 245);
     --color-on-surface: rgb(225, 225, 225);
   }
   body.dark {
+    --color-primary: #5077FC;
     --color-icon: #afafaf;
     --color-surface: rgb(33, 33, 33);
     --color-on-surface: rgb(55, 55, 55);

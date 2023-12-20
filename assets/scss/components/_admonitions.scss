@@ -14,12 +14,12 @@ div.alert {
   // Make links behave like any other link
   div > a, p > a, ul > a {
     border-bottom: 0;
-    color: $color-primary;
+    color: --color-primary;
   }
 
   // Make it equidistant between text and border
   > div:first-child:before {
     left: -2.25rem;
-    color: $color-primary !important;
+    color: --color-primary !important;
   }
 }
