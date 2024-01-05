@@ -50,8 +50,8 @@ user_groups:
 - Partnerships Team
 ---
 
-Jenny is the Technical Content Developer for 2i2c. She is also a Senior Research Software Engineer and her work is underpinned by open science principles and focused towards democratising access to compute.
+Jenny is the Technical Content Developer for 2i2c. Her work is mainly focused on the CZI-funded Catalyst Project, an initiative aiming to provide research communities in Latin America and Africa with access to large-scale scientific infrastructure. As part of this effort, she will help develop community-based training materials for interactive cloud-native workflows.
 
-She regularly engages and supports researchers with writing documentation, creating video tutorials, and designing and delivering training. Jenny is also a qualified Software Carpentries Instructor.
+As a former research software engineer, Jenny has considerable experience supporting researchers with writing documentation, creating video tutorials, and designing and delivering training for advanced research computing. Jenny is also a qualified Software Carpentries Instructor.
 
 Jenny's background is in mathematics, with a special interest in geophysical fluid dynamics. She obtained a PhD in the subject with her thesis titled "A slurry model of the F-layer in the Earth's core".
