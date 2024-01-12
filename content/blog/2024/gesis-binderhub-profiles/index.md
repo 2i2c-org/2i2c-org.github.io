@@ -114,8 +114,8 @@ This is not complete of course, and there is a lot of future work to be done.
 All this work would not be possible without a large group of collaborators!
 
 - From 2i2c: [Erik Sundell](https://github.com/consideRatio), [Georgiana Elena](https://github.com/GeorgianaElena), [Yuvi](https://words.yuvi.in/), [James Monroe](https://github.com/jmunroe), and [Damián Avila](https://github.com/damianavila).
-- [Arnim Bleier](https://www.gesis.org/en/institute/staff/person/arnim.bleier) from GESIS was *instrumental* in making this project happen
 - The [persistent BinderHub](https://github.com/gesiscss/persistent_BinderHub/) project was the direct inspiration for all this work, with particular thanks to [Kenan Erdogan](https://github.com/bitnik)
 - The [tljh-repo2docker](https://github.com/plasmabio/tljh-repo2docker) project, which explores similar ideas in the context of running only on a single node.
 - The broad JupyterHub and MyBinder.org community, particularly [Simon Li](https://github.com/manics) and [MinRK](https://github.com/minrk/)
 - Funding generously provided by [GESIS](http://notebooks.gesis.org) in cooperation with NFDI4DS [460234259](https://gepris.dfg.de/gepris/projekt/460234259?context=projekt&task=showDetail&id=460234259&) and [CESSDA](https://www.cessda.eu).
+- [Arnim Bleier](https://www.gesis.org/en/institute/staff/person/arnim.bleier) from GESIS was *instrumental* in making this project happen
