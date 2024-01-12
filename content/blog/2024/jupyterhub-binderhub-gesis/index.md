@@ -4,7 +4,7 @@
 title: "Integrating BinderHub with JupyterHub: Empowering users to manage their own environments"
 subtitle: ""
 summary: ""
-authors: []
+authors: ["Yuvi Panda"]
 tags: []
 categories: []
 date: 2024-01-03T16:56:14-08:00
