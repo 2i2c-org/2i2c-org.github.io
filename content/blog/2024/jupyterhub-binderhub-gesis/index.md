@@ -103,7 +103,7 @@ While these did slow down the implementation of the project, it has allowed us t
 
 We have a demo of this running at [imagebuilding-demo.2i2c.cloud](https://imagebuilding-demo.2i2c.cloud), but unfortunately as we are still fine-tuning `cryptnono` config, at this moment it is not open to the public. Please [contact me](mailto:yuvipanda@2i2c.org) with your GitHub account if you want access, and promise to not be a cryptominer and you shall be granted access.
 
-Want to set this up on your own JupyterHub? There is some [work in progress](https://github.com/2i2c-org/2i2c-org.github.io/pull/205) documentation and more is being worked on. Drop a line in the linked pull request and we'll be happy to help. The eventual goal is for *anyone* to be able to simply follow documentation and set this up for themselves.
+Want to set this up on your own JupyterHub? There is some [work in progress](https://github.com/2i2c-org/binderhub-service/pull/72) documentation and more is being worked on. Drop a line in the linked pull request and we'll be happy to help. The eventual goal is for *anyone* to be able to simply follow documentation and set this up for themselves.
 
 ## Future work
 
