@@ -1,8 +1,7 @@
 ---
 # Documentation: https://wowchemy.com/docs/managing-content/
 
-# TODO: Pick a better title, and update the file name to match
-title: "All the upstream work from the GESIS grant"
+title: "Integrating BinderHub with JupyterHub: Empowering users to manage their own environments"
 subtitle: ""
 summary: ""
 authors: []
