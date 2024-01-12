@@ -104,9 +104,10 @@ While these did slow down the implementation of the project, it has allowed us t
 
 This is not complete of course, and there is a lot of future work to be done.
 
-1. Better UX for specifying images, including figuring out how to 'save' them for future reuse.
-2. Better compatibility with mybinder.org, particularly in allowing other sources of environments (not just GitHub, but zenodo, raw git repositories, etc) and URL compatibility
-3. More thorough documentation for how you can set this up yourself on your JupyterHub installation.
+1. mybinder.org also helps you distribute your *content*, not just the environment for your code to run in. Since JupyterHub usually comes with a persistent home directory for the user, [nbgitpuller](https://github.com/jupyterhub/nbgitpuller/) is commonly used for this purpose instead. We should explore ways to integrate nbgitpuller (and other ways to distribute content) in the future.
+2. More thorough documentation for how you can recreate what is in the demo for yourself in your own JupyterHub installation.
+3. Better UX for specifying images, including figuring out how to 'save' them for future reuse.
+4. Better compatibility with mybinder.org, particularly in allowing other sources of environments (not just GitHub, but zenodo, raw git repositories, etc) and URL compatibility
 
 ## Credit
 
