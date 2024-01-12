@@ -49,7 +49,7 @@ This is very much a work in progress, but the basic flow can be seen clearly. Us
 
 So what all did we need to do to accomplish this, in a way that's very upstream friendly and usable by everyone (and not just 2i2c)?
 
-## Standalone `binderhub-service` helm chart
+## A Standalone `binderhub-service` helm chart
 
 The default upstream [BinderHub helm-chart](https://github.com/jupyterhub/binderhub/tree/main/helm-chart) *includes* a JupyterHub as a dependency, and configures itself to be used primarily in a manner similar to [mybinder.org](https://mybinder.org). As the person who helped make that choice early on, I can tell you why it was made - for convenience! And it *was* very convenient, as it allowed us to get mybinder.org going fast. However, it makes it difficult to install a BinderHub service *alongside* an existing JupyterHub. To this end, we have created a standalone [BinderHub helm chart](https://github.com/2i2c-org/binderhub-service/), designed to be installed *alongside* an existing JupyterHub, so we can use it *purely* to build images. This allows the BinderHub instance to be used as a [JupyterHub Service](https://jupyterhub.readthedocs.io/en/stable/reference/services.html), which is what we want.
 
@@ -85,7 +85,7 @@ While building `jupyterhub-fancy-profiles`, we wanted to use the *same* javascri
 
 This had to be done in such a way that current BinderHub installations (such as mybinder.org) do not break. That took quite a few pull requests: [1](https://github.com/jupyterhub/binderhub/pull/1689), [2](https://github.com/jupyterhub/binderhub/pull/1693), [3](https://github.com/jupyterhub/binderhub/pull/1694), [4](https://github.com/jupyterhub/binderhub/pull/1741), [5](https://github.com/jupyterhub/binderhub/pull/1742), [6](https://github.com/jupyterhub/binderhub/pull/1758), [7](https://github.com/jupyterhub/binderhub/pull/1761), [8](https://github.com/jupyterhub/binderhub/pull/1771), [9](https://github.com/jupyterhub/binderhub/pull/1773), [10](https://github.com/jupyterhub/binderhub/pull/1775), [11](https://github.com/jupyterhub/binderhub/pull/1778), [12](https://github.com/jupyterhub/binderhub/pull/1779), [13](https://github.com/jupyterhub/binderhub/pull/1781), [14](https://github.com/jupyterhub/binderhub/pull/1782), [15](https://github.com/jupyterhub/binderhub/pull/1783)
 
-## `cryptnono` anti-abuse features
+## Defending against cryptojacking with `cryptnono`
 
 For Open Science to flourish, we need to allow access to resources without login / paywalls wherever possible. A new menace against this has been [cryptojacking](https://www.interpol.int/en/Crimes/Cybercrime/Cryptojacking) - where attackers use up any and all available free compute to mine cryptocurrencies. This has affected *many* folks on the internet, including [GitHub Actions](https://www.bleepingcomputer.com/news/security/github-actions-being-actively-abused-to-mine-cryptocurrency-on-github-servers/) and mybinder.org, the primary public BinderHub installation. mybinder.org has some extra protections against cryptojacking that aren't easily usable elsewhere, and this has unfortunately meant that the demo JupyterHubs we have with these features enabled have been behind a login wall. I personally believe login walls are long term antithetical to open science, and so this was an important problem to solve.
 
