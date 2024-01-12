@@ -1,6 +1,4 @@
 ---
-# Documentation: https://wowchemy.com/docs/managing-content/
-
 title: "Integrating BinderHub with JupyterHub: Empowering users to manage their own environments"
 subtitle: ""
 summary: ""
