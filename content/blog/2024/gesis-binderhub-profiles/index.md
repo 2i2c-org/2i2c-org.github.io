@@ -17,14 +17,16 @@ draft: true
 
 [mybinder.org](https://mybinder.org) is a very popular service that allows end users to build the environment (languages, packages, etc) needed for their notebooks to run correctly, and share that with others with just a simple link. While not without its own set of challenges, this is extremely powerful because it puts control of the *environment* in the hands of the people who write the code that has to run in the environment. They can customize the environment to fit the needs of their code, instead of having to fit their code into the environment that admins have made available.
 
-But, mybinder.org (and the binderhub software that powers it) are built for *sharing* your work after you have published it. Our [collaboration](https://2i2c.org/blog/2022/gesis-2i2c-collaboration-update/) with [GESIS](http://gesis.org), [NFDI4DS](https://www.nfdi4datascience.de), and [CESSDA](https://www.cessda.eu), aims to bring this flexibility to JupyterHub directly. We aim to empower users to decide for themselves which applications and dependencies are installed on a per-project basis. Our work enables communities with heterogeneous requirements to share a single Hub. Our approach work frees administrators from being overwhelmed by installation requests and transforms the JupyterHub platform into a platform for computational reproducibility, a role previously reserved for BinderHub. In this update, we report on our progress and upcoming steps in this project.
+But, mybinder.org (and the [binderhub](https://github.com/jupyterhub/binderhub/) software that powers it) is built for *sharing* your work after you are done with it, *not* for actively doing work. [JupyterHub](https://jupyter.org/hub) is more commonly used for this, but doesn't currently posess the ability for users to easily build their own environments. Admins who are *running* the JupyterHub can make [multiple environments](https://z2jh.jupyter.org/en/stable/jupyterhub/customizing/user-environment.html#using-multiple-profiles-to-let-users-select-their-environment) available for users to choose from, but this still puts admins in the critical path for environment customization.
+
+Our [collaboration](https://2i2c.org/blog/2022/gesis-2i2c-collaboration-update/) with [GESIS](http://gesis.org), [NFDI4DS](https://www.nfdi4datascience.de), and [CESSDA](https://www.cessda.eu), aims to bring this flexibility to JupyterHub directly. We aim to empower users to decide for themselves which applications and dependencies are installed on a per-project basis. Our work enables communities with heterogeneous requirements to share a single Hub. Our approach work frees administrators from being overwhelmed by installation requests and transforms the JupyterHub platform into a platform for computational reproducibility, a role previously reserved for BinderHub. In this update, we report on our progress and upcoming steps in this project.
 
 ## What does a BinderHub do, exactly?
 
 It is helpful to understand that BinderHub primarily has 3 responsibilities:
 
 1. Present a UI to the end user for them to provide details on what to build (this is what you see when you go to mybinder.org)
-2. Call out to [repo2docker](https://github.com/jupyterhub/repo2docker) in a scalable way to actually *build and push* a docker image for the given repository, and show the user logs as this build process happens.
+2. Call out to [repo2docker](https://github.com/jupyterhub/repo2docker) in a scalable way to actually *build and push* a docker image with the environment for the given repository, and show the user logs as this build process happens. This also allows users to debug issues with their build more easily.
 3. Talk to a JupyterHub instance to launch a user server with the built docker image, and redirect the user to this.
 
 (2) is really the *core* feature of BinderHub, and we settled on figuring out how to make that available to JupyterHub users using pre-existing UI, in a way that fits into the traditional JupyterHub workflow. This blog post discusses the various changes to the broad ecosystem of projects required to do get this done.
@@ -51,16 +53,13 @@ So what all did we need to do to accomplish this, in a way that's very upstream 
 
 The default upstream [binderhub helm-chart](https://github.com/jupyterhub/binderhub/tree/main/helm-chart) *includes* a JupyterHub as a dependency, and configures itself to be used primarily in a manner similar to [mybinder.org](https://mybinder.org). As the person who helped make that choice early on, I can tell you why it was made - for convenience! And it *was* very convenient, as it allowed us to get mybinder.org going fast. However, it makes it difficult to install a binderhub service *alongside* an existing JupyterHub, which we would need for our dynamic image building integration. To this end, we have created a standalone [binderhub helm chart](https://github.com/2i2c-org/binderhub-service/), designed to be installed *alongside* an existing JupyterHub! This allows the BinderHub instance to be used as a [JupyterHub Service](https://jupyterhub.readthedocs.io/en/stable/reference/services.html), which is what we want.
 
-While this helm chart is currently under the 2i2c GitHub org, the hope is that it can eventually migrate to a [jupyterhub-contrib](https://github.com/jupyterhub/team-compass/issues/519) organization (once it is created), or it can become the upstream helm chart for binderhub if enough work can be put in to allow it to serve use cases like mybinder.org. Ongoing work is to be continued here.
+While this helm chart is currently under the 2i2c GitHub org, the hope is that it can eventually migrate to a [jupyterhub-contrib](https://github.com/jupyterhub/team-compass/issues/519) organization (once it is created), or it can become the upstream helm chart for binderhub if enough work can be done in binderhub to allow it to serve use cases like mybinder.org.
 
-## Allowing extending KubeSpawner's `profileList`
+## Sustainably extending KubeSpawner's `profileList`
 
-![A KubeSpawner profileList, allowing users to choose between various images as well as resource requirements](https://hackmd.io/_uploads/r1XKdJKmT.png)
-*A KubeSpawner profileList, allowing users to choose between various images as well as resource requirements*
+We identified KubeSpawner's `profileList` feature as the ideal location for implementing dynamic image building UI, making it just another 'image choice' people can choose, along with choosing the amount of resources their server needed. From an end user perspective, it was the logical place for them to specify a repository to build into an image, as they could already choose some pre-built images from here. They can also select other arbitrary resources they want (such as memory, GPU, etc) from here as well. From a maintainer perspective, it helps with long term maintenance of the JupyterHub projects.
 
-We identified KubeSpawner's `profileList` feature as the ideal location for implementing dynamic image building UI, making it just another 'image choice' people can choose, along with choosing the amount of resources their server needed. From an end user perspective, it was the logical place for them to specify a repository to build into an image, as they could already choose some pre-built images from here. They can also select other arbitrary resources they want (such as memory, GPU, etc) from here as well. From a developer perspective, it helped with long term maintenance too!
-
-The implementation of `profileList` however, was not easy to extend at this point. So [this PR](https://github.com/jupyterhub/kubespawner/pull/724) was done to improve how easy it was to extend it in more complex ways, without making the implementation in KubeSpawner itself complicated. This had no visible effects for end users, but allowed us to move on to our next step!
+The implementation of `profileList` however, was not easy to extend at this point. So [this PR](https://github.com/jupyterhub/kubespawner/pull/724) improved how easy it was to extend it in more complex ways, without making the implementation in KubeSpawner itself complicated. Even though this had *no* visible end user effects, it was an extremely important step in allowing us to experiment with UI in a *sustainable* way without having to rely on upstream. These kind of changes can sometimes be hard to sell to stakeholders, but are extremely important in ensuring a continuous and sustainable relationship with upstream.
 
 ## Implementing `unlisted_choice` feature in KubeSpawner
 
@@ -69,7 +68,6 @@ The profileList feature was built to allow JupyterHub *admins* to specify an exp
 [NASA VEDA](https://www.earthdata.nasa.gov/esds/veda) was one such community, so we partnered with [Sanjay Bhangar](https://github.com/batpad/) from [Development Seed](https://developmentseed.org/) (an organization that helps run NASA VEDA) to implement this feature. Engineers from 2i2c contributed heavily to this feature as well, and after *several* PRs ([1](https://github.com/jupyterhub/kubespawner/pull/735), [2](https://github.com/jupyterhub/kubespawner/pull/766), [3](https://github.com/jupyterhub/kubespawner/pull/773), [4](https://github.com/jupyterhub/kubespawner/pull/774) and [5](https://github.com/jupyterhub/kubespawner/pull/777)), this feature is now available for everyone to use!
 
 ![Screenshot of Kubernetes Profiles with Unlisted Choice](./screenshot.png)
-
 
 A key component of doing *sustainable* upstream work is that every addition needs to be useful by itself for a broad group of people. This change was very helpful for many communities that wanted to allow their users the freedom to pick whatever image they want to use, regardless of wether they wanted to use dynamic image building or not. The broad interest allowed us to build a coalition with other interested parties, and get the change accepted upstream more easily!
 
@@ -106,6 +104,7 @@ This is not complete of course, and there is a lot of future work to be done.
 
 1. Better UX for specifying images, including figuring out how to 'save' them for future reuse.
 2. Better compatibility with mybinder.org, particularly in allowing other sources of environments (not just GitHub, but zenodo, raw git repositories, etc) and URL compatibility
+3. More thorough documentation for how you can set this up yourself on your JupyterHub installation.
 
 ## Credit
 
@@ -113,5 +112,6 @@ All this work would not be possible without a large group of collaborators!
 
 - From 2i2c: Erik Sundell, Georgiana Elena, Yuvi, James Monroe, and Damian Avila.
 - The [persistent binderhub](https://github.com/gesiscss/persistent_binderhub/) project was the direct inspiration for all this work, with particular thanks to [Kenan Erdogan](https://github.com/gesiscss/persistent_binderhub/)
+- The [tljh-repo2docker](https://github.com/plasmabio/tljh-repo2docker) project, which explores similar ideas in the context of running only on a single node.
 - The broad JupyterHub and MyBinder.org community, particularly [Simon Li](https://github.com/manics) and [MinRK](https://github.com/minrk/)
 - Funding generously provided by [GESIS](http://notebooks.gesis.org) in cooperation with NFDI4DS [460234259](https://gepris.dfg.de/gepris/projekt/460234259?context=projekt&task=showDetail&id=460234259&) and [CESSDA](https://www.cessda.eu).
