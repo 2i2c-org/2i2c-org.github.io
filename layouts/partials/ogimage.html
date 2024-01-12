@@ -3,7 +3,6 @@
   - https://github.com/jacobtomlinson/website/blob/6028b0d95a09f82de84b8c7f0e8b568be0bf879f/themes/working/layouts/partials/head.html#L34-L53
   - https://github.com/jacobtomlinson/website/blob/6028b0d95a09f82de84b8c7f0e8b568be0bf879f/themes/working/layouts/partials/ogimage.html
 */}}
-{{ $font_roboto_medium := "https://github.com/google/fonts/raw/main/apache/roboto/static/Roboto-Medium.ttf" }}
 
 {{ $featured := resources.Get "media/opengraph-image-template.png" }}
 
@@ -12,6 +11,6 @@
 "size" 70
 "lineSpacing" 10
 "x" 84 "y" 250
-"font" (resources.GetRemote $font_roboto_medium))) }}
+"font" (resources.Get "fonts/Roboto-Medium.ttf"))) }}
 
 {{ return $featured }}
