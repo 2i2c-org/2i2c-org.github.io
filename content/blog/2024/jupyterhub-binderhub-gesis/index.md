@@ -52,9 +52,9 @@ So what did we need to do to accomplish this, in a way that's very upstream frie
 
 The default upstream [BinderHub helm chart](https://github.com/jupyterhub/binderhub/tree/main/helm-chart) *includes* a JupyterHub as a dependency, and configures itself to be used primarily in a manner similar to [mybinder.org](https://mybinder.org). As the person who helped make that choice early on, I can tell you why it was made - for convenience! And it *was* very convenient, as it allowed us to get mybinder.org going fast. However, it makes it difficult to install a BinderHub service *alongside* an existing JupyterHub. To this end, we have created a standalone [BinderHub helm chart](https://github.com/2i2c-org/binderhub-service/), designed to be installed *alongside* an existing JupyterHub, so we can use it *purely* to build images. This allows the BinderHub instance to be used as a [JupyterHub Service](https://jupyterhub.readthedocs.io/en/stable/reference/services.html), which is what we want.
 
-As part of this, we also added a way for BinderHub to run in [API only mode](https://github.com/jupyterhub/binderhub/pull/1647), so we can fully turn off the UI *and* launching ability of BinderHub, and use it purely for its building API.
-
 While this helm chart is currently under the 2i2c GitHub org, the hope is that it can eventually migrate to a [jupyterhub-contrib](https://github.com/jupyterhub/team-compass/issues/519) organization (once it is created), or it can become the upstream helm chart for BinderHub if enough work can be done in BinderHub to allow it to serve use cases like mybinder.org.
+
+As part of this work, we also added a way for BinderHub to run in [API only mode](https://github.com/jupyterhub/binderhub/pull/1647), so we can fully turn off the UI *and* launching ability of BinderHub. This change decoupled the [three responsibilities of BinderHub](#what-does-a-binderhub-do-exactly) we discussed previously, allowing us to bring our own UI and JupyterHub. BinderHub could now be used *purely* for its scalable image building features, which is exactly what we want!
 
 ## Sustainably extending KubeSpawner's `profileList`
 
