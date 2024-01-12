@@ -36,7 +36,7 @@ It is helpful to understand that BinderHub primarily has 3 responsibilities:
 But first, a very quick demo of how this looks like right now now!
 
 <!-- generated from original .mov screen recording with `ffmpeg -i screencast.mov -c:v libx264 screencast.mp4` -->
-<video src="./screencast.mp4" />
+<video src="./screencast.mp4"></video>
 
 This is very much a work in progress, but the basic flow can be seen clearly. Users see this after they login to the JupyterHub. They can specify the two primary things that determine the server they start:
 
