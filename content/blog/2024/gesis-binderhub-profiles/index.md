@@ -53,6 +53,8 @@ So what all did we need to do to accomplish this, in a way that's very upstream 
 
 The default upstream [binderhub helm-chart](https://github.com/jupyterhub/binderhub/tree/main/helm-chart) *includes* a JupyterHub as a dependency, and configures itself to be used primarily in a manner similar to [mybinder.org](https://mybinder.org). As the person who helped make that choice early on, I can tell you why it was made - for convenience! And it *was* very convenient, as it allowed us to get mybinder.org going fast. However, it makes it difficult to install a binderhub service *alongside* an existing JupyterHub, which we would need for our dynamic image building integration. To this end, we have created a standalone [binderhub helm chart](https://github.com/2i2c-org/binderhub-service/), designed to be installed *alongside* an existing JupyterHub! This allows the BinderHub instance to be used as a [JupyterHub Service](https://jupyterhub.readthedocs.io/en/stable/reference/services.html), which is what we want.
 
+As part of this, we also added a way for BinderHub to run in [API only mode](https://github.com/jupyterhub/binderhub/pull/1647), so we can fully turn off the UI *and* launching ability of binderhub, and use it purely for its building API.
+
 While this helm chart is currently under the 2i2c GitHub org, the hope is that it can eventually migrate to a [jupyterhub-contrib](https://github.com/jupyterhub/team-compass/issues/519) organization (once it is created), or it can become the upstream helm chart for binderhub if enough work can be done in binderhub to allow it to serve use cases like mybinder.org.
 
 ## Sustainably extending KubeSpawner's `profileList`
