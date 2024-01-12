@@ -4,7 +4,7 @@ subtitle: ""
 summary: ""
 authors: ["Yuvi Panda"]
 tags: []
-categories: []
+categories: [engineering, partnerships, updates]
 date: 2024-01-03T16:56:14-08:00
 lastmod: 2024-01-03T16:56:14-08:00
 featured: false
