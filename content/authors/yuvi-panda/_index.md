@@ -12,9 +12,7 @@ superuser: true
 role: Senior Open Source Infrastructure Engineer
 
 # Organizations/Affiliations
-organizations:
-  - name: UC Berkeley
-    url: https://data.berkeley.edu/people/yuvi-panda
+organizations: []
 
 # Short bio (displayed in user profile at end of posts)
 bio:
@@ -30,9 +28,6 @@ social:
 - icon: envelope
   icon_pack: fas
   link: 'mailto:yuvipanda@gmail.com'  # For a direct email link, use "mailto:test@example.org".
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/yuvipanda
 - icon: github
   icon_pack: fab
   link: https://github.com/yuvipanda
