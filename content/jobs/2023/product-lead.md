@@ -11,7 +11,7 @@ location = "Remote, preference for working hours that maximizes overlap in time 
 date = "2023-10-29"
 url_apply = "https://boards.greenhouse.io/codeforsciencesociety/jobs/4122980007?gh_jid=4122980007"
 deadline = "We will begin reviewing applications around **November 5th**, and will accept them on a rolling basis until the position is filled."
-open = true
+open = false
 show_date = true
 aliases = [
   "/jobs/2023/product-operations-lead/"
