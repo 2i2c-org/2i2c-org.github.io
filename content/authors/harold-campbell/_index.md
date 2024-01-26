@@ -55,4 +55,4 @@ user_groups:
     - Open Engineering Team
 ---
 
-I enjoy building and supporting communities of practice. I have build a small JS visualization library and dabbled in delivery management systems. Recently, I have strong interests in music (programming VST, etc.), AI and data science.
+I enjoy building and supporting communities of practice. I have built a small JS visualization library and dabbled in delivery management systems. Recently, I have strong interests in music (programming VST, etc.), AI and data science.
