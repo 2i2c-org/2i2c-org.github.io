@@ -21,18 +21,30 @@ organizations:
 bio:
 
 # List each interest with a dash
-interests: 
-  # TODO: Add as you wish as a bulleted list
+interests:
+- Art (Digital, Mix Media)
+- Data Science
+- Visualisation
+- Physics/Math/Statistics
+- Music
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
 #   For an email link, use "fas" icon pack, "envelope" icon, and a link in the
 #   form "mailto:your-email@example.com" or "#contact" for contact widget.
 social:
-# TODO: Harold add social links as you wish
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:hcampbell@2i2c.org'
+  link: "mailto:hcampbell@2i2c.org"
+- icon: twitter
+  icon_pack: fab
+  link: https://twitter.com/haroldcampbell
+- icon: github
+  icon_pack: fab
+  link: https://github.com/haroldcampbell
+- icon: linkedin
+  icon_pack: fab
+  link: https://linkedIn.com/in/haroldcampbell
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 # email: ""
@@ -40,7 +52,7 @@ social:
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Open Engineering Team
+    - Open Engineering Team
 ---
 
-TODO: Harold add a bio as you wish.
+I enjoy building and supporting communities of practice. I have build a small JS visualization library and dabbled in delivery management systems. Recently, I have strong interests in music (programming VST, etc.), AI and data science.
