@@ -1,4 +1,39 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2i2c</title><link>https://2i2c.org/</link><atom:link href="https://2i2c.org/index.xml" rel="self" type="application/rss+xml"/><description>2i2c</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Wed, 03 Jan 2024 16:56:14 -0800</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>2i2c</title><link>https://2i2c.org/</link></image><item><title>Integrating BinderHub with JupyterHub: Empowering users to manage their own environments</title><link>https://2i2c.org/blog/2024/jupyterhub-binderhub-gesis/</link><pubDate>Wed, 03 Jan 2024 16:56:14 -0800</pubDate><guid>https://2i2c.org/blog/2024/jupyterhub-binderhub-gesis/</guid><description>&lt;p>&lt;em>Thanks to
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2i2c</title><link>https://2i2c.org/</link><atom:link href="https://2i2c.org/index.xml" rel="self" type="application/rss+xml"/><description>2i2c</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 19 Mar 2024 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>2i2c</title><link>https://2i2c.org/</link></image><item><title>Security report for jupyter-server-proxy: CVE-2024-28179</title><link>https://2i2c.org/blog/2024/cve-jupyter-server-proxy/</link><pubDate>Tue, 19 Mar 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/cve-jupyter-server-proxy/</guid><description>
+&lt;h2 id="what-happened">
+What happened?
+&lt;a class="header-anchor" href="#what-happened">#&lt;/a>
+&lt;/h2>&lt;p>A few weeks ago, the JupyterHub team discovered a security vulnerability in
+&lt;a href="https://jupyter-server-proxy.readthedocs.io/en/latest/" target="_blank" rel="noopener">the &lt;code>jupyter-server-proxy&lt;/code> package&lt;/a>
+that would allow potential unauthenticated access to a JupyterHub via WebSockets, allowing unauthenticated users to run arbitrary code on the JupyterHub.
+&lt;code>jupyter-server-proxy&lt;/code> is used by many communities to provide alternative user interfaces like RStudio and remote desktops.&lt;/p>
+&lt;p>This vulnerability was detected by the JupyterHub team, with leadership from 2i2c&amp;rsquo;s engineers. It was resolved through upstream contributions to the JupyterHub project, and we have deployed a fix that mitigates this vulnerability for all the hubs 2i2c manages.&lt;/p>
+&lt;h2 id="does-this-impact-my-2i2c-community-hub">
+Does this impact my 2i2c community hub?
+&lt;a class="header-anchor" href="#does-this-impact-my-2i2c-community-hub">#&lt;/a>
+&lt;/h2>&lt;p>We do not believe that any of 2i2c&amp;rsquo;s communities were impacted by this vulnerability, and
+&lt;a href="https://github.com/2i2c-org/infrastructure/blob/f86d128a0d045163e72802f6df287a6f46d4b738/helm-charts/basehub/values.yaml#L296" target="_blank" rel="noopener">a patch&lt;/a>
+has now been pushed to all community hubs to resolve this issue.&lt;/p>
+&lt;p>If your community was vulnerable to this problem, you might experience slightly slower startup latency while we work out a long-term solution.&lt;/p>
+&lt;p>Since this is a vulnerability in the docker image used by our communities, we will be reaching out over the next few weeks to put a more permanent fix in place.&lt;/p>
+&lt;h2 id="where-can-i-learn-more">
+Where can I learn more?
+&lt;a class="header-anchor" href="#where-can-i-learn-more">#&lt;/a>
+&lt;/h2>&lt;p>See
+&lt;a href="https://github.com/jupyterhub/jupyter-server-proxy/security/advisories/GHSA-w3vc-fx9p-wp4v" target="_blank" rel="noopener">the JupyterHub security advisory for CVE-2024-28179&lt;/a>
+for more information about the security vulnerability, including details on the mitigation we have put in place to protect our communities.&lt;/p>
+&lt;h2 id="conclusion">
+Conclusion
+&lt;a class="header-anchor" href="#conclusion">#&lt;/a>
+&lt;/h2>&lt;p>We&amp;rsquo;re grateful that the JupyterHub community was quick to acknowledge, respond, and resolve this security vulnerability after it was brought to their attention.
+We&amp;rsquo;re also proud that 2i2c&amp;rsquo;s engineers helped the JupyterHub team throughout the process.&lt;/p>
+&lt;p>This allowed our team to resolve the problem before it impacted any of 2i2c&amp;rsquo;s communities.
+Because 2i2c community infrastructure is managed in a central location, we were able to resolve this for over 80 communities with a single team rather than expecting each community to learn about and fix this problem on their own.&lt;/p>
+&lt;p>We also believe this reflects the healthy upstream relationships that we hope to encourage with our team&amp;rsquo;s
+&lt;a href="https://compass.2i2c.org/open-source/" target="_blank" rel="noopener">Open Source strategy and practices&lt;/a>
+.
+By working with the JupyterHub community and pushing changes upstream, we&amp;rsquo;ve resolved this issue for &lt;em>any&lt;/em> user of &lt;code>jupyter-server-proxy&lt;/code>, not just 2i2c&amp;rsquo;s own ecosystem.
+In particular, because of 2i2c&amp;rsquo;s position running hubs for many communities via Kubernetes, we were able to identify a solution that did not require every user image to be updated (as described in section &lt;strong>For JupyterHub admins of Z2JH installations&lt;/strong>).&lt;/p>
+&lt;p>We believe that all of these lead to a healthier, safer ecosystem of open source tools ❤️.&lt;/p></description></item><item><title>Integrating BinderHub with JupyterHub: Empowering users to manage their own environments</title><link>https://2i2c.org/blog/2024/jupyterhub-binderhub-gesis/</link><pubDate>Wed, 03 Jan 2024 16:56:14 -0800</pubDate><guid>https://2i2c.org/blog/2024/jupyterhub-binderhub-gesis/</guid><description>&lt;p>&lt;em>Thanks to
 &lt;a href="https://www.gesis.org/en/institute/staff/person/arnim.bleier" target="_blank" rel="noopener">Arnim Bleier&lt;/a>
 ,
 &lt;a href="https://jnywong.github.io/" target="_blank" rel="noopener">Jenny Wong&lt;/a>
