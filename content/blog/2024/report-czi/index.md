@@ -1,5 +1,5 @@
 ---
-title: "A three year retrospective report for CZI"
+title: "A three year retrospective report of 2i2c's impact"
 subtitle: ""
 summary: ""
 authors: ["Chris Holdgraf"]
