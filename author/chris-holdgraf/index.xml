@@ -33,7 +33,7 @@ Because 2i2c community infrastructure is managed in a central location, we were 
 .
 By working with the JupyterHub community and pushing changes upstream, we&amp;rsquo;ve resolved this issue for &lt;em>any&lt;/em> user of &lt;code>jupyter-server-proxy&lt;/code>, not just 2i2c&amp;rsquo;s own ecosystem.
 In particular, because of 2i2c&amp;rsquo;s position running hubs for many communities via Kubernetes, we were able to identify a solution that did not require every user image to be updated (as described in section &lt;strong>For JupyterHub admins of Z2JH installations&lt;/strong>).&lt;/p>
-&lt;p>We believe that all of these lead to a healthier, safer ecosystem of open source tools ❤️.&lt;/p></description></item><item><title>A three year retrospective report for CZI</title><link>https://2i2c.org/blog/2024/report-czi/</link><pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/report-czi/</guid><description>&lt;p>We&amp;rsquo;re pleased to share a three-year retrospective report that was created to close-out 2i2c&amp;rsquo;s original
+&lt;p>We believe that all of these lead to a healthier, safer ecosystem of open source tools ❤️.&lt;/p></description></item><item><title>A three year retrospective report of 2i2c's impact</title><link>https://2i2c.org/blog/2024/report-czi/</link><pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/report-czi/</guid><description>&lt;p>We&amp;rsquo;re pleased to share a three-year retrospective report that was created to close-out 2i2c&amp;rsquo;s original
 &lt;a href="../../2021/czi-core-support/">seed funding grant provided by the Chan Zuckerberg Initiative&lt;/a>
 .&lt;/p>
 &lt;style>
