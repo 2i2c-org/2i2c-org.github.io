@@ -84,10 +84,10 @@ It's much harder to solve a problem or get help when responses come with long ga
 As a result, we've defined several practices that will help our team members grow their autonomy and independence, while still moving towards the same targets and goals.
 This is ongoing work that we aim to continue developing over the next few months.
 
-**Personal growth**. 
+**Professional growth**. 
 First, we've started an audit of 2i2c's organizational roles and the responsibilities and the pathways for growth with each of them.
 This began with our engineering team, but will continue with other areas of the organization as well.
-We believe that defining personal growth trajectories will help identify the gaps in our team's skills that make it more difficult to act efficiently and independently.
+We believe that defining professional growth trajectories will help identify the gaps in our team's skills that make it more difficult to act efficiently and independently.
 
 **Giving and receiving feedback**.
 We've defined team practices around giving feedback, and are encouraging a team culture of regular and constructive feedback to one another.
