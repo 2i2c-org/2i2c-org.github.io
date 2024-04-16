@@ -107,7 +107,7 @@ Coupled with our growing practices around team feedback, we aim to build a cultu
 
 
 {{% callout %}}
-This work was done in partnership with [April Johnson, a Transformation Consultant and Coach](https://www.linkedin.com/in/apriljohnson/).
+This work was done in partnership with [April Johnson, a Transformation Consultant and Coach](http://www.apriljohnson.io/).
 If you're interested in working with April around any of this work we highly recommend doing so!
 {{% /callout %}}
 
