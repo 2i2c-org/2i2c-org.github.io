@@ -9,8 +9,6 @@ featured: false
 draft: false
 ---
 
----
-
 _This is a follow-up to [our 2023 report of organizational strengths and weaknesses](../../2023/organizational-report/index.md), describing some improvements we've made on our team's coordination and delivery_.
 
 In 2023, we [released a report describing our organizational strengths and weaknesses](../../2023/organizational-report/index.md).
