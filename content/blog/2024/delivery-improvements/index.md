@@ -21,7 +21,7 @@ For example, a [collaboration with GESIS to bring image building functionality t
 
 ## Steps we've taken to improve delivery
 
-At the beginning of 2024, we hired [our first Delivery Manager and Chief of Staff role](../../../jobs/2023/delivery-manager.md) as well as [our first Product Lead role](../../../jobs/2023/product-lead.md).
+At the beginning of 2024, we hired [our first Delivery Manager and Chief of Staff role](../../../jobs/2023/delivery-manager) as well as [our first Product Lead role](../../../jobs/2023/product-lead).
 Both of these roles are meant to develop systems and team practices that improve our planning and delivery.
 
 In Quarter 1 of 2024, we designed and initiated an organizational transformation with the following goals:
