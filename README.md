@@ -13,8 +13,8 @@ This website is **hosted** by GitHub Pages, and we use Netlify to display previe
 
 ## Build this website locally
 
-We currently build this site with [**Wowchemy v5.7.0**](https://github.com/wowchemy/wowchemy-hugo-themes/releases/tag/v5.7.0).
-This version recommends [**Hugo v0.109.0**](https://github.com/gohugoio/hugo/releases/v0.109.0/).
+We currently build this site with [**Hugo Blox-Bootstrap v5.9.6**](https://github.com/HugoBlox/hugo-blox-builder/releases/tag/modules%2Fblox-bootstrap%2Fv5.9.6).
+This version recommends [**Hugo v0.125.3**](https://github.com/gohugoio/hugo/releases/v0.125.3/).
 
 * Install the Hugo extended listed above from [the latest releases page](https://github.com/gohugoio/hugo/releases)
   - Ensure that you have the *extended version*
@@ -104,7 +104,7 @@ In general, when team members do work associated with other open source projects
 
 ### Make an internal blog post
 
-The way to make a regular blog post is by following the standard Hugo documentation for internal blog posts. Check out [the WowChemy theme documentation](https://wowchemy.com/docs/content/blog-posts/) for one way to do this.
+The way to make a regular blog post is by following the standard Hugo documentation for internal blog posts. Check out [the Hug Blox theme documentation](https://hugoblox.com/docs/content/blog-posts/) for one way to do this.
 
 ### Make an external blog post
 
@@ -135,7 +135,7 @@ We have some custom Hugo templates created for posting new jobs and a summary of
 
 ## This website's theme
 
-We are using the latest version of the [Wowchemy theme](https://wowchemy.com/docs/) (used to be the "Academic Theme"). See its documentation for information about customization and usage.
+We are using the latest version of the [Hugo Blox theme](https://hugoblox.com/docs/) (used to be the "Wowchemy Academic Theme"). See its documentation for information about customization and usage.
 
 ## Optimize images
 
