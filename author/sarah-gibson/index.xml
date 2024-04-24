@@ -1,4 +1,21 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sarah Gibson | 2i2c</title><link>https://2i2c.org/author/sarah-gibson/</link><atom:link href="https://2i2c.org/author/sarah-gibson/index.xml" rel="self" type="application/rss+xml"/><description>Sarah Gibson</description><generator>Wowchemy (https://wowchemy.com)</generator><language>en-us</language><lastBuildDate>Tue, 19 Apr 2022 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/author/sarah-gibson/avatar_hud607d19f6019cca31bcb5ec96cdcf8c5_22612_270x270_fill_q75_lanczos_center.jpg</url><title>Sarah Gibson</title><link>https://2i2c.org/author/sarah-gibson/</link></image><item><title>Tech update: Multiple JupyterHubs, multiple clusters, one repository.</title><link>https://2i2c.org/blog/2022/ci-cd-improvements/</link><pubDate>Tue, 19 Apr 2022 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2022/ci-cd-improvements/</guid><description>&lt;p>2i2c manages the configuration and deployment of multiple Kubernetes clusters and JupyterHubs from
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sarah Gibson | 2i2c</title><link>https://2i2c.org/author/sarah-gibson/</link><atom:link href="https://2i2c.org/author/sarah-gibson/index.xml" rel="self" type="application/rss+xml"/><description>Sarah Gibson</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 19 Apr 2022 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/author/sarah-gibson/avatar_hud607d19f6019cca31bcb5ec96cdcf8c5_22612_270x270_fill_q75_lanczos_center.jpg</url><title>Sarah Gibson</title><link>https://2i2c.org/author/sarah-gibson/</link></image><item><title>Sarah Gibson</title><link>https://2i2c.org/author/sarah-gibson/</link><pubDate>Tue, 19 Apr 2022 00:00:00 +0000</pubDate><guid>https://2i2c.org/author/sarah-gibson/</guid><description>&lt;p>Sarah Gibson is an Open Source Infrastructure Engineer at 2i2c, an open source contributor and advocate.
+She holds more than two years of experience as a Research Engineer at a national institute for data science and artificial intelligence, as well as holding a core contributor role in the open source projects
+&lt;a href="https://jupyter.org/binder" target="_blank" rel="noopener">Binder&lt;/a>
+,
+&lt;a href="https://jupyter.org/hub" target="_blank" rel="noopener">JupyterHub&lt;/a>
+, and
+&lt;a href="https://the-turing-way.netlify.app/" target="_blank" rel="noopener">&lt;em>The Turing Way&lt;/em>&lt;/a>
+.
+Sarah is passionate about working with domain experts to leverage cloud computing in order to accelerate cutting-edge, data-intensive research and disseminating the results in an open, reproducible and reusable manner.&lt;/p>
+&lt;p>Sarah holds a Fellowship with the
+&lt;a href="https://software.ac.uk" target="_blank" rel="noopener">Software Sustainability Institute&lt;/a>
+and advocates for best software practices in research.
+She is a member of the
+&lt;a href="https://jupyterhub-team-compass.readthedocs.io/en/latest/team/index.html" target="_blank" rel="noopener">mybinder.org operating team&lt;/a>
+and maintains infrastructure supporting over 150k launches of reproducible computational environments per week.
+She has also mentored projects through two cohorts of the
+&lt;a href="https://openlifesci.org" target="_blank" rel="noopener">Open Life Science&lt;/a>
+programme, imparting lived experience of her skills participating and leading in open science projects.&lt;/p></description></item><item><title>Tech update: Multiple JupyterHubs, multiple clusters, one repository.</title><link>https://2i2c.org/blog/2022/ci-cd-improvements/</link><pubDate>Tue, 19 Apr 2022 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2022/ci-cd-improvements/</guid><description>&lt;p>2i2c manages the configuration and deployment of multiple Kubernetes clusters and JupyterHubs from
 &lt;a href="https://github.com/2i2c-org/infrastructure" target="_blank" rel="noopener">a single open infrastructure repository&lt;/a>
 .
 This is a challenging problem, as it requires us to centralize information about a number of &lt;em>independent&lt;/em> cloud services, and deploy them in an efficient and reliable manner.
@@ -217,4 +234,4 @@ This approach allows each community to focus on it&amp;rsquo;s core strengths: P
 In some areas we are still experimenting with different collaboration models to ensure that the needs of the Pangeo community are met in a way that is also sustainable for 2i2c.
 Over the coming weeks, you may see some conversations (and threads for feedback!) about different support and operations models that work best for the community.
 We are excited to use this as an opportunity to learn more about how to serve more complex and diverse communities like Pangeo.&lt;/p>
-&lt;p>We are extremely grateful to the Pangeo project for giving us the opportunity to serve their community, and we look forward to a long partnership ahead! 🚀&lt;/p></description></item></channel></rss>
+&lt;p>We are extremely grateful to the Pangeo project for giving us the opportunity to serve their community, and we look forward to a long partnership ahead! &amp;#x1f680;&lt;/p></description></item></channel></rss>
