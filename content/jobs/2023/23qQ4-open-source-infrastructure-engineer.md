@@ -11,7 +11,7 @@ location = "Remote, required overlapping for US Pacific timezones"
 date = "2023-10-10"
 url_apply = "https://boards.greenhouse.io/codeforsciencesociety/jobs/4120089007?gh_jid=4120089007"
 deadline = "We will begin reviewing applications around **October 16th**, and will accept them on a rolling basis until the position is filled."
-open = true
+open = false
 show_date = true
 +++
 
