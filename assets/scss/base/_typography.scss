@@ -68,6 +68,16 @@ code {
 }
 
 /**
+ * Add nice rounded borders to figures
+ */
+figure img, video {
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid black;
+  border-radius: .5em;
+}
+
+/**
  * Dark mode styles
  */
 body.dark {

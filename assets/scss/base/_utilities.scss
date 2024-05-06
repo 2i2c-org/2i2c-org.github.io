@@ -6,3 +6,9 @@
 .hide-page-stream div.media.stream-item {
   display: none;
 }
+
+// Will reverse the title and body of a markdown block on wide screens.
+// This lets you do alternating left/right layouts
+.reverse-markdown-row div.row {
+  flex-direction: row-reverse;
+}

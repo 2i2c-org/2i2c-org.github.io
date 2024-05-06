@@ -3,13 +3,21 @@ reading_time = false  # Show estimated reading time?
 share = false  # Show social sharing links?
 profile = false  # Show author profile?
 comments = false  # Show comments?
-title = "Collaborate with 2i2c"
+title = "Contact us to collaborate"
 banner.image = false
 +++
 
 2i2c has expertise in cloud infrastructure and managed services for interactive computing in research and education workflows.
 We focus on the Jupyter ecosystem and adjacent open source communities (e.g., the PyData ecosystem), with a particular emphasis on JupyterHub.
-We are also a collaborative team that works across many communities and organizations.
+
+
+<div class="d-flex justify-content-center">
+
+  {{< cta cta_text="Join our mailing list 📰" cta_link="http://eepurl.com/hjHbff" cta_new_tab="true" >}}
+
+  {{< cta cta_text="Send us an email ✉️" cta_link="mailto:hello@2i2c.org" cta_new_tab="true" >}}
+
+</div>
 
 {{% about-hubs %}}
 
