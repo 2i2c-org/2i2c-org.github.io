@@ -125,6 +125,17 @@ sections:
 
         [Spyglass project page](https://lorenfranklab.github.io/spyglass/latest/) | [Biorxiv article](https://www.biorxiv.org/content/10.1101/2024.01.25.577295v1)
 
+  - block: markdown
+    id: learnmore-org
+    design:
+        columns: 2
+    content:
+      title: Learn more about our organization.
+      subtitle: 
+      text: |
+
+        {{% about-hubs %}}
+
 
   - block: markdown
     id: join

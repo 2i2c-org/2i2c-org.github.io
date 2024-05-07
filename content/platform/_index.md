@@ -19,7 +19,7 @@ sections:
 
         {{< figure src="/images/service/shared-infrastructure.png" alt="Serving multiple communities with the same infrastructure.">}}
 
-        {{< cta cta_text="Join our community network" cta_link="/join" cta_new_tab="false" >}}
+        {{< cta cta_text="Learn about our community network" cta_link="/communities" cta_new_tab="false" >}}
         
   - block: markdown
     id: numbers
@@ -114,17 +114,25 @@ sections:
           name: Amazon Web Services
           description: ""
 
-
   - block: markdown
     id: learnmore
     design:
         columns: 2
     content:
-      title: Learn more about the service.
+      title: Learn more about our organization.
       subtitle: 
       text: |
 
         {{% about-hubs %}}
+
+  - block: markdown
+    id: learncommunities
+    content:
+      title: Learn more about our community network.
+      subtitle: 
+      text: |
+
+        {{< cta cta_text="Learn about our community network" cta_link="/communities" cta_new_tab="false" >}}
 
 
 

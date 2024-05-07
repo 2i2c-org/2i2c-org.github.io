@@ -23,8 +23,8 @@ sections:
       #   label: Our mission
       #   url: mission
       # Optionally, add a note under the Call-To-Action button
-      cta_note:
-        label: >-
+      # cta_note:
+      #   label: >-
                   
       # Add your Hero text here
       text: |-
@@ -151,14 +151,24 @@ sections:
           icon_pack: fas
 
   - block: markdown
-    id: cta
+    id: learnmore
+    design:
+        columns: 2
     content:
-      title: Learn more about our service
+      title: Learn more about our organization.
       subtitle: 
       text: |
 
-        {{< cta cta_text="Learn about our interactive computing platform" cta_link="/service" cta_new_tab="false" >}}
+        {{% about-hubs %}}
 
+  - block: markdown
+    id: learnplatform
+    content:
+      title: Learn more about our platform.
+      subtitle: 
+      text: |
+
+        {{< cta cta_text="Learn about our interactive computing platform" cta_link="/platform" cta_new_tab="false" >}}
 
 ---
 
