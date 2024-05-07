@@ -3,13 +3,21 @@ reading_time = false  # Show estimated reading time?
 share = false  # Show social sharing links?
 profile = false  # Show author profile?
 comments = false  # Show comments?
-title = "Collaborate with 2i2c"
+title = "Contact us to collaborate"
 banner.image = false
 +++
 
 2i2c has expertise in cloud infrastructure and managed services for interactive computing in research and education workflows.
 We focus on the Jupyter ecosystem and adjacent open source communities (e.g., the PyData ecosystem), with a particular emphasis on JupyterHub.
-We are also a collaborative team that works across many communities and organizations.
+
+
+<div class="d-flex justify-content-center">
+
+  {{< cta cta_text="Join our mailing list 📰" cta_link="http://eepurl.com/hjHbff" cta_new_tab="true" >}}
+
+  {{< cta cta_text="Send us an email ✉️" cta_link="mailto:hello@2i2c.org" cta_new_tab="true" >}}
+
+</div>
 
 {{% about-hubs %}}
 
@@ -20,7 +28,7 @@ Here are a few ways that you can connect with and collaborate with 2i2c.
 2i2c aims to provide Managed JupyterHubs in the cloud that are customized for communities in research and education.
 We are exploring sustainability and services models around this goal, and invite feedback and ideas for ways that we can improve this service.
 We are running JupyterHubs for many communities already, and are accepting new communities in batches as our capacity grows.
-If you are interested in having a managed JupyterHub for your community, [check out our cloud service page](/service) for more information or send an email to [`partnerships@2i2c.org`](mailto:partnerships@2i2c.org) to discuss.
+If you are interested in having a managed JupyterHub for your community, [check out our cloud service page](/platform) for more information or send an email to [`partnerships@2i2c.org`](mailto:partnerships@2i2c.org) to discuss.
 
 ## Pitch a project or grant
 

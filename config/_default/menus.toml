@@ -4,14 +4,20 @@
 #   The weight parameter defines the order that the links will appear in.
 
 [[main]]
-  name = "Cloud Service"
-  url = "service/"
+  name = "Cloud platform"
+  url = "platform/"
   weight = 10
 
 [[main]]
-  name = "Projects"
-  url = "projects/"
-  weight = 20
+  name = "Community network"
+  url = "communities/"
+  weight = 10
+
+[[main]]
+  name = "Right to Replicate"
+  url = "right-to-replicate/"
+  weight = 11
+
 
 [[main]]
   name = "About"
@@ -30,11 +36,12 @@
   url = "mission/"
   weight = 20
 
+
   [[main]]
-  parent = "about"
-  name = "Right to Replicate"
-  url = "right-to-replicate/"
-  weight = 40
+    parent = "about"
+    name = "Projects we support"
+    url = "projects/"
+    weight = 20
 
   [[main]]
   parent = "about"
@@ -50,25 +57,20 @@
 
   [[main]]
   parent = "about"
-  name = "Collaborate with us"
+  name = "Contact us to collaborate"
   url = "collaborate/"
   weight = 70
 
   [[main]]
   parent = "about"
   name = "Donate to 2i2c"
-  url = "#donate"
+  url = "donate/"
   weight = 80
 
-[[main]]
-  name = "Blog"
-  url = "blog/"
-  weight = 50
-
-[[main]]
-  name = "Contact Us"
-  url = "#contact"
-  weight = 60
+[[main_right]]
+  name = 'blog'
+  url = "/blog"
+  weight = 100
 
 [[main_right]]
   name = 'docs'

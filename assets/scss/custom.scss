@@ -10,6 +10,7 @@
 
 // Sections of the whole site
 @import "sections/navbar";
+@import "sections/footer";
 
 // Page-specific SCSS
 @import "pages/about";
@@ -18,5 +19,5 @@
 @import "pages/jobs";
 @import "pages/projects";
 @import "pages/right-to-replicate";
-@import "pages/service";
+@import "pages/platform";
 

@@ -10,7 +10,14 @@ div.hero-lead {
     }
 }
 
+// Custom CSS for the hero above to improve button spacing
+p.cta-btns {
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
 
 ul.cta-group {
     justify-content: center;
+    color: white;
 }

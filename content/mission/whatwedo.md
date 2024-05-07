@@ -9,9 +9,9 @@ title = "We do this by"
   columns = "2"
 +++
 
-**Designing** JupyterHub distributions that run on cloud infrastructure, are tailored for research and education, and [respect a community's Right to Replicate their infrastructure](/right-to-replicate). See [our cloud service](/service) for more information.
+**Designing** JupyterHub distributions that run on cloud infrastructure, are tailored for research and education, and [respect a community's Right to Replicate their infrastructure](/right-to-replicate). See [our cloud service](/platform) for more information.
 
-**Managing** a federation of JupyterHubs that serves communities of practice in research and education, so that they can focus on their work without needing skills in DevOps. See [our cloud service](/service) for more information.
+**Managing** a federation of JupyterHubs that serves communities of practice in research and education, so that they can focus on their work without needing skills in DevOps. See [our cloud service](/platform) for more information.
 
 **Developing** open source infrastructure that is tailored for use-cases in research and education, so that our ecosystem of tools continues to improve. See [our projects](/projects) for more information.
 
