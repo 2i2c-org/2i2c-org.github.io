@@ -1,4 +1,44 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2i2c</title><link>https://2i2c.org/</link><atom:link href="https://2i2c.org/index.xml" rel="self" type="application/rss+xml"/><description>2i2c</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 15 Apr 2024 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>2i2c</title><link>https://2i2c.org/</link></image><item><title>Improvements to our team's planning and delivery</title><link>https://2i2c.org/blog/2024/delivery-improvements/</link><pubDate>Mon, 15 Apr 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/delivery-improvements/</guid><description>&lt;p>&lt;em>This is a follow-up to
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2i2c</title><link>https://2i2c.org/</link><atom:link href="https://2i2c.org/index.xml" rel="self" type="application/rss+xml"/><description>2i2c</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 06 May 2024 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>2i2c</title><link>https://2i2c.org/</link></image><item><title>An update to 2i2c's value proposition</title><link>https://2i2c.org/blog/2024/value-proposition/</link><pubDate>Mon, 06 May 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/value-proposition/</guid><description>&lt;p>2i2c recently finished
+&lt;a href="https://2i2c.org/report-czi-2021" target="_blank" rel="noopener">it&amp;rsquo;s three year retrospective&lt;/a>
+after closing out its original seed grant.
+As part of this process, we&amp;rsquo;re revisiting our organizational strategy, structure, and overall plan, in order to incorporate the learning that we&amp;rsquo;ve done over our first three years.&lt;/p>
+&lt;p>Our &lt;strong>value proposition&lt;/strong> is a key framing for 2i2c&amp;rsquo;s intended impact, key stakeholders, and platform strategy.
+We recently completed a team exercise to refine this statement for 2i2c, and are excited to share it with you below:&lt;/p>
+&lt;style>
+.pull-quote {
+padding-left: 1rem;
+border-left: .25rem solid #1d4ef5;
+margin-bottom: 1rem;
+}
+.pull-title {
+font-size: 1.5rem;
+margin-bottom: .5rem;
+font-weight: bold;
+}
+.pull-subtitle {
+font-size: 1rem;
+font-style: italic;
+}
+&lt;/style>
+&lt;div class="pull-quote">
+&lt;p class="pull-title">
+A global network of community hubs for interactive learning and discovery
+&lt;/p>
+&lt;p class="pull-subtitle">
+Our interactive computing platform gives your community a digital home to create and share knowledge, and a global network of communities to learn from.
+&lt;/p>
+&lt;/div>
+&lt;p>This is an exciting direction that leans into and builds upon the way we&amp;rsquo;ve described our service so far.
+It recognizes that the value in our service doesn&amp;rsquo;t end with simple access to an interactive computing environment, but lies in how that environment&amp;rsquo;s tools empower a community to create and share knowledge with one another.&lt;/p>
+&lt;p>We believe that this is an exciting direction to build towards, because it is based in the value of the collection of communities we serve, and the way that this network can be greater than the sum of its parts.
+We&amp;rsquo;re excited to lean into this direction in how we shape our platform, what open source contributions we make, and where we aim to have impact in the coming years.&lt;/p>
+&lt;p>To begin, we&amp;rsquo;ve interwoven some ideas from this value proposition into 2i2c.org, and the way that we describe our service.
+We&amp;rsquo;d love feedback from anyone who has an idea, a critique, or &amp;ldquo;yes, and&amp;rdquo; to share.
+You can also find
+&lt;a href="https://docs.google.com/presentation/d/1C-TNSI2h0181y6-z5tL9AWSRsWp9IfZqCDtcIZEs1MM/edit?usp=sharing" target="_blank" rel="noopener">a version of our value proposition in google slides&lt;/a>
+made for a recent talk with the
+&lt;a href="https://incentivizingopen.org/" target="_blank" rel="noopener">Incentivizing Collaborative and Open Research&lt;/a>
+community.&lt;/p></description></item><item><title>Improvements to our team's planning and delivery</title><link>https://2i2c.org/blog/2024/delivery-improvements/</link><pubDate>Mon, 15 Apr 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/delivery-improvements/</guid><description>&lt;p>&lt;em>This is a follow-up to
 &lt;a href="../../2023/organizational-report/index.md">our 2023 report of organizational strengths and weaknesses&lt;/a>
 , describing some improvements we&amp;rsquo;ve made on our team&amp;rsquo;s coordination and delivery&lt;/em>.&lt;/p>
 &lt;p>In 2023, we
@@ -4122,22 +4162,36 @@ How 2i2c infrastructure ensures this right
 &lt;p>We MUST NOT directly depend on proprietary cloud vendor specific products or APIs. Instead, we use cloud-managed open source software, or hide the dependency behind a layer of abstraction. This ensures that communities can port their infrastructure to any cloud provider of their choice, or run it on their own hardware with purely open source software.&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;p>This set of commitments acts as a business continuity plan for our partner communities, ensuring 2i2c will follow best practices within the open source, open education and open research ecosystems.&lt;/p></description></item><item><title/><link>https://2i2c.org/pilot-hubs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://2i2c.org/pilot-hubs/</guid><description>&lt;meta http-equiv="refresh" content="0; URL='http://infrastructure.2i2c.org'" /></description></item><item><title/><link>https://2i2c.org/pilot/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://2i2c.org/pilot/</guid><description>&lt;meta http-equiv="refresh" content="0; URL='http://docs.2i2c.org'" /></description></item><item><title/><link>https://2i2c.org/team-compass/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://2i2c.org/team-compass/</guid><description>&lt;meta http-equiv="refresh" content="0; URL='http://team-compass.2i2c.org'" /></description></item><item><title>2i2c managed JupyterHubs</title><link>https://2i2c.org/service/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://2i2c.org/service/</guid><description/></item><item><title>Collaborate with 2i2c</title><link>https://2i2c.org/collaborate/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://2i2c.org/collaborate/</guid><description>&lt;p>2i2c has expertise in cloud infrastructure and managed services for interactive computing in research and education workflows.
-We focus on the Jupyter ecosystem and adjacent open source communities (e.g., the PyData ecosystem), with a particular emphasis on JupyterHub.
-We are also a collaborative team that works across many communities and organizations.&lt;/p>
+&lt;p>This set of commitments acts as a business continuity plan for our partner communities, ensuring 2i2c will follow best practices within the open source, open education and open research ecosystems.&lt;/p></description></item><item><title/><link>https://2i2c.org/pilot-hubs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://2i2c.org/pilot-hubs/</guid><description>&lt;meta http-equiv="refresh" content="0; URL='http://infrastructure.2i2c.org'" /></description></item><item><title/><link>https://2i2c.org/pilot/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://2i2c.org/pilot/</guid><description>&lt;meta http-equiv="refresh" content="0; URL='http://docs.2i2c.org'" /></description></item><item><title/><link>https://2i2c.org/team-compass/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://2i2c.org/team-compass/</guid><description>&lt;meta http-equiv="refresh" content="0; URL='http://team-compass.2i2c.org'" /></description></item><item><title>Contact us to collaborate</title><link>https://2i2c.org/collaborate/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://2i2c.org/collaborate/</guid><description>&lt;p>2i2c has expertise in cloud infrastructure and managed services for interactive computing in research and education workflows.
+We focus on the Jupyter ecosystem and adjacent open source communities (e.g., the PyData ecosystem), with a particular emphasis on JupyterHub.&lt;/p>
+&lt;div class="d-flex justify-content-center">
+&lt;ul class="cta-group">
+&lt;li>
+&lt;a href="http://eepurl.com/hjHbff" target="_blank" rel="noopener" class="btn btn-primary px-3 py-3">Join our mailing list 📰&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;ul class="cta-group">
+&lt;li>
+&lt;a href="mailto:hello@2i2c.org" target="_blank" rel="noopener" class="btn btn-primary px-3 py-3">Send us an email ✉️&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;/div>
 &lt;ul>
 &lt;li>
-&lt;a href="https://docs.2i2c.org/about/service/index.html" target="_blank" rel="noopener">Our Shared Responsibility Model&lt;/a>
-describes how we collaborate with communities in this hub service.&lt;/li>
+&lt;a href="https://compass.2i2c.org" target="_blank" rel="noopener">Our Team Compass&lt;/a>
+contains all of 2i2c&amp;rsquo;s organizational strategy, policy, and team practices.&lt;/li>
+&lt;li>
+&lt;a href="https://2i2c.org/category/updates">Our updates blog series&lt;/a>
+provides all major organizational updates for our community.&lt;/li>
 &lt;li>
 &lt;a href="https://docs.2i2c.org/about/service/service-objectives.html" target="_blank" rel="noopener">Our Service Level Objectives&lt;/a>
 describes our day-to-day goals running the service.&lt;/li>
 &lt;li>
+&lt;a href="https://docs.2i2c.org/about/service/index.html" target="_blank" rel="noopener">Our Shared Responsibility Model&lt;/a>
+describes how we collaborate with communities in this hub service.&lt;/li>
+&lt;li>
 &lt;a href="https://infrastructure.2i2c.org/" target="_blank" rel="noopener">Our Infrastructure Guide&lt;/a>
 describes all of our cloud infrastructure and engineering practices, with links to our codebase.&lt;/li>
-&lt;li>
-&lt;a href="https://compass.2i2c.org/organization/strategy.html" target="_blank" rel="noopener">Our Organizational Strategy&lt;/a>
-describes our overall vision and plan as an organization.&lt;/li>
 &lt;/ul>
 &lt;p>Here are a few ways that you can connect with and collaborate with 2i2c.&lt;/p>
 &lt;h2 id="use-and-support-our-managed-jupyterhub-services">
@@ -4147,7 +4201,7 @@ Use and support our managed JupyterHub services
 We are exploring sustainability and services models around this goal, and invite feedback and ideas for ways that we can improve this service.
 We are running JupyterHubs for many communities already, and are accepting new communities in batches as our capacity grows.
 If you are interested in having a managed JupyterHub for your community,
-&lt;a href="https://2i2c.org/service">check out our cloud service page&lt;/a>
+&lt;a href="https://2i2c.org/platform">check out our cloud service page&lt;/a>
 for more information or send an email to
 &lt;a href="mailto:partnerships@2i2c.org">&lt;code>partnerships@2i2c.org&lt;/code>&lt;/a>
 to discuss.&lt;/p>
@@ -4331,4 +4385,14 @@ height: 5rem;
 width: auto;
 float: left;
 }
-&lt;/style></description></item><item><title>Mission and strategy</title><link>https://2i2c.org/mission/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://2i2c.org/mission/</guid><description/></item><item><title>Open Source</title><link>https://2i2c.org/projects/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://2i2c.org/projects/</guid><description/></item><item><title>Our Founding Team</title><link>https://2i2c.org/founders/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://2i2c.org/founders/</guid><description/></item><item><title>Our organization</title><link>https://2i2c.org/organization/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://2i2c.org/organization/</guid><description/></item></channel></rss>
+&lt;/style></description></item><item><title>Donate to 2i2c</title><link>https://2i2c.org/donate/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://2i2c.org/donate/</guid><description>&lt;p>Much of the work we do is supported by grants and donations from stakeholders in our community. These resources go towards things like &lt;strong>new development of open source technology&lt;/strong>, &lt;strong>maintenance for open source projects&lt;/strong>, &lt;strong>community development efforts&lt;/strong>, &lt;strong>sponsoring hubs for under-resourced communities&lt;/strong>, and &lt;strong>general support for 2i2c in its mission&lt;/strong>.&lt;/p>
+&lt;p>Fill our the form below to make a donation to 2i2c via its fiscal sponsor,
+&lt;a href="https://codeforscience.org" target="_blank" rel="noopener">Code for Science and Society&lt;/a>
+. If you&amp;rsquo;d rather have a conversation with us first about your donation, please
+&lt;a href="mailto:hello@2i2c.org?subject=Donation%20inquiry">send us an email&lt;/a>
+.&lt;/p>
+&lt;div class="d-flex justify-content-center donation-box">
+&lt;script src="https://donorbox.org/widget.js" paypalExpress="true">&lt;/script>
+&lt;iframe src="https://donorbox.org/embed/2i2c" name="donorbox" allowpaymentrequest="allowpaymentrequest" seamless="seamless" frameborder="0" scrolling="no" height="900px" width="100%" style="max-width: 500px; min-width: 250px; max-height:none!important">
+&lt;/iframe>
+&lt;/div></description></item><item><title>Mission and strategy</title><link>https://2i2c.org/mission/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://2i2c.org/mission/</guid><description/></item><item><title>Open Source</title><link>https://2i2c.org/projects/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://2i2c.org/projects/</guid><description/></item><item><title>Our Founding Team</title><link>https://2i2c.org/founders/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://2i2c.org/founders/</guid><description/></item><item><title>Our organization</title><link>https://2i2c.org/organization/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://2i2c.org/organization/</guid><description/></item></channel></rss>
