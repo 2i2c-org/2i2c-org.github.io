@@ -57,7 +57,7 @@ sections:
           }
         </style>
 
-        <div class="container">
+        <div class="container logos">
             <div class="row justify-content-center">
                 <div class="section-heading d-flex flex-wrap justify-content-center col-12 mb-3 text-center">
                     <img class="logo col-6 col-md-4" src="/images/logos/project/jupyterlab.svg" alt="Jupyter Lab logo">

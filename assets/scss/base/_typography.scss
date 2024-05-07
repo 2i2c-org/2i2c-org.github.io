@@ -85,4 +85,13 @@ body.dark {
     text-decoration: underline;
     text-decoration-color: white;
   }
+
+  .container.logos, #who-logos {
+    background-color: white;
+    border-radius: .5rem;
+  }
+
+  .btn {
+    color: white;
+  }
 }
