@@ -45,10 +45,7 @@ sections:
       subtitle: 
       text: |
 
-        Our interactive computing platform **empowers communities to design a hub for their unique workflows**. They bring together open source tools, data, and computational resources in a remotely-accessible interactive environment for creating and sharing knowledge.
-
-        {{< figure src="/images/home/hub-diagram.png" width="66%" >}}
-
+        Our interactive computing platform **empowers communities in research and education to design a hub for their unique workflows**. It brings together open source tools, data, and computational resources in a remotely-accessible interactive environment for creating and sharing knowledge.
                 
         <style>
           img.logo {
@@ -56,6 +53,8 @@ sections:
             margin-top: 1em;
           }
         </style>
+
+        {{< figure src="/images/home/hub-diagram.png" >}}
 
         <div class="container logos">
             <div class="row justify-content-center">
@@ -69,9 +68,6 @@ sections:
                 </div>
             </div>
         </div>
-
-        {{< cta cta_text="Learn about our interactive computing platform" cta_link="/service" cta_new_tab="false" >}}
-
 
 
   - block: markdown
@@ -109,7 +105,6 @@ sections:
             <li class="list-inline-item"><a href="https://www.hhmi.org/" target="_blank"><img src="/images/logos/community/howard-hughes-medical-institute.svg" alt="Howard Hughes Medical Institute logo"></a></li>
             <li class="list-inline-item"><a href="https://ncas.ac.uk/" target="_blank"><img src="/images/logos/community/ncas.png" alt="NCAS logo"></a></li>
             <li class="list-inline-item"><a href="https://pangeo.io/" target="_blank"><img src="/images/logos/community/pangeo.svg" alt="Pangeo logo"></a></li>
-            <li class="list-inline-item"><a href="https://www.utoronto.ca/" target="_blank"><img src="/images/logos/community/university-of-toronto.svg" alt="University of toronto logo"></a></li>
             <li class="list-inline-item"><a href="https://www.utoronto.ca/" target="_blank"><img src="/images/logos/community/university-of-toronto.svg" alt="University of toronto logo"></a></li>
             <li class="list-inline-item"><a href="https://columbia.edu/" target="_blank"><img src="/images/logos/community/columbia-university.png" alt="Columbia University logo"></a></li>
         </ul>

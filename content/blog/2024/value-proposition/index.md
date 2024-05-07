@@ -40,7 +40,7 @@ We recently completed a team exercise to refine this statement for 2i2c, and are
   </p>
 </div>
 
-We believe that this leans into and builds upon the way we've described our service so far.
+This is an exciting direction that leans into and builds upon the way we've described our service so far.
 It recognizes that the value in our service doesn't end with simple access to an interactive computing environment, but lies in how that environment's tools empower a community to create and share knowledge with one another.
 
 We believe that this is an exciting direction to build towards, because it is based in the value of the collection of communities we serve, and the way that this network can be greater than the sum of its parts.
@@ -48,4 +48,4 @@ We're excited to lean into this direction in how we shape our platform, what ope
 
 To begin, we've interwoven some ideas from this value proposition into 2i2c.org, and the way that we describe our service.
 We'd love feedback from anyone who has an idea, a critique, or "yes, and" to share.
-You can also find [a version of the value proposition in google slides](https://docs.google.com/presentation/d/1C-TNSI2h0181y6-z5tL9AWSRsWp9IfZqCDtcIZEs1MM/edit?usp=sharing) made for a recent talk with the [Incentivizing Collaborative and Open Research](https://incentivizingopen.org/) community.
+You can also find [a version of our value proposition in google slides](https://docs.google.com/presentation/d/1C-TNSI2h0181y6-z5tL9AWSRsWp9IfZqCDtcIZEs1MM/edit?usp=sharing) made for a recent talk with the [Incentivizing Collaborative and Open Research](https://incentivizingopen.org/) community.
