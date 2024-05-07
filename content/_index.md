@@ -99,7 +99,7 @@ sections:
           }
         </style>
 
-        {{< figure src="/images/home/worldmap.webp" alt="2i2c map of communities" caption="A map of the rough location of communities with currently active hubs. Updated as of April 2024, [see our interactive map](https://2i2c.org/kpis/cloud/#map-of-hubs) for the latest data.">}}
+        {{< figure src="/images/home/worldmap.png" alt="2i2c map of communities" caption="A map of the rough location of communities with currently active hubs. Updated as of April 2024, [see our interactive map](https://2i2c.org/kpis/cloud/#map-of-hubs) for the latest data.">}}
 
         </p>
 
