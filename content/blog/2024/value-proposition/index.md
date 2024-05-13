@@ -48,4 +48,17 @@ We're excited to lean into this direction in how we shape our platform, what ope
 
 To begin, we've interwoven some ideas from this value proposition into 2i2c.org, and the way that we describe our service.
 We'd love feedback from anyone who has an idea, a critique, or "yes, and" to share.
-You can also find [a version of our value proposition in google slides](https://docs.google.com/presentation/d/1C-TNSI2h0181y6-z5tL9AWSRsWp9IfZqCDtcIZEs1MM/edit?usp=sharing) made for a recent talk with the [Incentivizing Collaborative and Open Research](https://incentivizingopen.org/) community.
+
+## A recent talk with this value proposition
+
+As part of this work, 2i2c's Executive Director, [Chris Holdgraf](/content/authors/chris-holdgraf/), gave a talk about 2i2c to the [Incentivizing Open and Collaborative Research](https://incentivizingopen.org) (ICOR) community. Here are some links in case others are interested:
+
+- [Slides for viewing](https://docs.google.com/presentation/d/1C-TNSI2h0181y6-z5tL9AWSRsWp9IfZqCDtcIZEs1MM/edit?usp=sharing)
+- [More information for the talk](https://incentivizingopen.org/2024/05/data-sharing-and-analysis-in-collaborative-open-research-environments/)
+- [Video link](https://vimeo.com/944769875#t=400s)
+
+Here's the video below for quick reference:
+
+<iframe src="https://player.vimeo.com/video/944769875#t=400s?h=e0f92e7926" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+<p><a href="https://vimeo.com/944769875">Data Sharing and Analysis in Collaborative Open Research Environments</a> from <a href="https://vimeo.com/user219434759">Michael Markie</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+
