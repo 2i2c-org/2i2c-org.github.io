@@ -4,7 +4,7 @@ subtitle: ""
 summary: ""
 authors: ["Damián Avila"]
 tags: [jupyter, executablebooks]
-categories: [development]
+categories: [upstream]
 date: 2021-08-23
 featured: false
 draft: false

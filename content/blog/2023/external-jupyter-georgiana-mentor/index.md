@@ -4,7 +4,7 @@ subtitle: ""
 summary: ""
 authors: ["Georgiana Dolocan"]
 tags: []
-categories: ["updates"]
+categories: ["upstream"]
 date: 2023-06-30
 featured: false
 draft: false
