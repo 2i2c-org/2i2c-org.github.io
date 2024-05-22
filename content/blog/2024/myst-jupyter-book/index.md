@@ -4,7 +4,7 @@ date: "2024-05-21"
 lastmod: "2024-05-21"
 authors: ["Angus Hollands", "Chris Holdgraf", "Rowan Cockett"]
 tags: [product]
-categories: [updates]
+categories: [upstream]
 featured: false
 draft: false
 ---
