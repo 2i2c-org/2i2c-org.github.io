@@ -5,4 +5,6 @@
 {{ $title = replace $title "https://github.com/" "" }}
 {{ $title = replace $title "/issues/" "#" }}
 {{ $title = replace $title "/pull/" "#" }}
-<a href="{{ .Destination | safeURL }}"{{ with .Title}} title="{{ . }}"{{ end }}{{ if strings.HasPrefix .Destination "http" }} target="_blank" rel="noopener"{{ end }}>{{ $title | safeHTML }}</a>
+
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+<a {{ if strings.HasPrefix .Destination "http" }}href="{{ .Destination | safeURL }}" target="_blank" rel="noopener" {{ else }} href="{{ (.Page.GetPage .Destination).RelPermalink | safeURL }}" {{ end }} {{ with .Title}} title="{{ . }}"{{ end }}>{{ $title | safeHTML }}</a>
