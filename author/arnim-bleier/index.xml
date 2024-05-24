@@ -3,28 +3,38 @@
 Introduction
 &lt;a class="header-anchor" href="#introduction">#&lt;/a>
 &lt;/h1>&lt;p>
-&lt;a href="https://mybinder.org" target="_blank" rel="noopener">Mybinder.org&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://mybinder.org" target="_blank" rel="noopener" >Mybinder.org&lt;/a>
 enables researchers across the world to replicate computational environments in the cloud. It allows researchers to turn static code into interactive literate coding environments with a click of a button within seconds. The
-&lt;a href="https://mybinder.org" target="_blank" rel="noopener">mybinder.org&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://mybinder.org" target="_blank" rel="noopener" >mybinder.org&lt;/a>
 service is powered by
-&lt;a href="https://binderhub.readthedocs.io" target="_blank" rel="noopener">BinderHub&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://binderhub.readthedocs.io" target="_blank" rel="noopener" >BinderHub&lt;/a>
 , an open-source tool developed by
-&lt;a href="https://jupyter.org" target="_blank" rel="noopener">the Jupyter Project&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://jupyter.org" target="_blank" rel="noopener" >the Jupyter Project&lt;/a>
 that many organizations have deployed for their own communities. It does this by _dynamically building _the software environment needed to reproduce a computation (using a tool called
-&lt;a href="https://repo2docker.readthedocs.io" target="_blank" rel="noopener">repo2docker&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://repo2docker.readthedocs.io" target="_blank" rel="noopener" >repo2docker&lt;/a>
 ), and making this environment available to users.&lt;/p>
 &lt;p>BinderHub was developed for use-cases that are &lt;em>temporary&lt;/em> and &lt;em>fully open&lt;/em> by design. BinderHub sessions are destroyed after a fixed amount of time and there is no persistent storage or authentication. However, many research institutions also need more “standard” service features like authentication and persistent storage.&lt;/p>
 &lt;p>Over the past several years, the
-&lt;a href="http://notebooks.gesis.org" target="_blank" rel="noopener">GESIS Notebooks&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="http://notebooks.gesis.org" target="_blank" rel="noopener" >GESIS Notebooks&lt;/a>
 team made the first steps towards bridging this gap through their
-&lt;a href="https://github.com/gesiscss/persistent_binderhub" target="_blank" rel="noopener">Persistent BinderHub&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://github.com/gesiscss/persistent_binderhub" target="_blank" rel="noopener" >Persistent BinderHub&lt;/a>
 implementation. This was a modified and authenticated BinderHub that &lt;em>included&lt;/em> persistent storage across sessions. The Persistent BinderHub service was very successful at GESIS and with its partner communities, and the team wishes to build this functionality into the JupyterHub community’s core technology so that these features can be enjoyed for more use-cases and by many communities.&lt;/p>
 &lt;p>To enable this vision, we have partnered with GESIS in cooperation with
-&lt;a href="https://www.nfdi4datascience.de/" target="_blank" rel="noopener">NFDI4DS&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://www.nfdi4datascience.de/" target="_blank" rel="noopener" >NFDI4DS&lt;/a>
 (GAN: 460234259),
-&lt;a href="https://www.cessda.eu/" target="_blank" rel="noopener">CESSDA&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://www.cessda.eu/" target="_blank" rel="noopener" >CESSDA&lt;/a>
 , and members of the
-&lt;a href="https://jupytearth.org/" target="_blank" rel="noopener">JMTE&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://jupytearth.org/" target="_blank" rel="noopener" >JMTE&lt;/a>
 project. This collaboration has three primary goals:&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>Generalize the Persistent BinderHub functionality/experience to run on cloud-agnostic infrastructure&lt;/strong>, so that other stakeholders in NFDI, CESSDA, and the broader scientific community may benefit from this functionality and experience.&lt;/li>
@@ -32,31 +42,39 @@ project. This collaboration has three primary goals:&lt;/p>
 &lt;li>&lt;strong>Improve the implementation and user experience around Persistent BinderHub&lt;/strong>, in order to make it more reliable, scalable, productive, and enjoyable to use.&lt;/li>
 &lt;/ul>
 &lt;p>We began this collaboration several months ago, and have focused our efforts on exploring potential implementation pathways for this functionality. We believe that we now have a path forward for this functionality, and this blog post is a brief report of our efforts and future plans as we undertake this effort. See
-&lt;a href="https://github.com/orgs/2i2c-org/projects/33" target="_blank" rel="noopener">this GitHub Projects Board for issues that implement this effort&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://github.com/orgs/2i2c-org/projects/33" target="_blank" rel="noopener" >this GitHub Projects Board for issues that implement this effort&lt;/a>
 .&lt;/p>
 &lt;h3 id="exploration-1-adding-persistent-storage-directly-into-binderhub">
 Exploration 1: Adding persistent storage directly into BinderHub
 &lt;a class="header-anchor" href="#exploration-1-adding-persistent-storage-directly-into-binderhub">#&lt;/a>
 &lt;/h3>&lt;p>Our initial intention was to incorporate persistent storage and authentication from the GESIS Persistent BinderHub into the
-&lt;a href="http://binderhub.readthedocs.io/" target="_blank" rel="noopener">BinderHub codebase&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="http://binderhub.readthedocs.io/" target="_blank" rel="noopener" >BinderHub codebase&lt;/a>
 . We began by holding a series of meetings to discuss technical requirements from our experience in the JupyterHub/BinderHub ecosystem, and also conducted an audit of the
-&lt;a href="https://www.google.com/url?q=https://github.com/gesiscss/persistent_binderhub/blob/9936fc2251abafd00921b3b53954fb60c8640347/persistent_binderhub/values.yaml" target="_blank" rel="noopener">Persistent BinderHub codebase&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://www.google.com/url?q=https://github.com/gesiscss/persistent_binderhub/blob/9936fc2251abafd00921b3b53954fb60c8640347/persistent_binderhub/values.yaml" target="_blank" rel="noopener" >Persistent BinderHub codebase&lt;/a>
 . The Persistent BinderHub implementation is a
-&lt;a href="https://github.com/gesiscss/persistent_binderhub/blob/9936fc2251abafd00921b3b53954fb60c8640347/persistent_binderhub/values.yaml" target="_blank" rel="noopener">modified Helm Chart&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://github.com/gesiscss/persistent_binderhub/blob/9936fc2251abafd00921b3b53954fb60c8640347/persistent_binderhub/values.yaml" target="_blank" rel="noopener" >modified Helm Chart&lt;/a>
 that configures a JupyterHub to expose its authentication and persistent storage functionality, overriding the BinderHub default behavior. We were concerned that building this functionality &lt;em>natively&lt;/em> into BinderHub would be challenging given that the BinderHub codebase was designed for ephemeral user sessions.&lt;/p>
 &lt;p>So, we decided to take another approach:&lt;/p>
 &lt;h3 id="exploration-2-add-dynamic-image-building-to-jupyterhub">
 Exploration 2: Add dynamic image building to JupyterHub
 &lt;a class="header-anchor" href="#exploration-2-add-dynamic-image-building-to-jupyterhub">#&lt;/a>
 &lt;/h3>&lt;p>We realized that there is a way to make this functionality more broadly useful and more maintainable, while still achieving the end-user experience that the GESIS team needed. Instead of modifying BinderHub to incorporate JupyterHub’s storage and authentication features, &lt;strong>we would give JupyterHub the ability do dynamically generate user environments using
-&lt;a href="http://repo2docker.readthedocs.io/" target="_blank" rel="noopener">repo2docker&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="http://repo2docker.readthedocs.io/" target="_blank" rel="noopener" >repo2docker&lt;/a>
 &lt;/strong>.&lt;/p>
 &lt;p>This would give JupyterHub users more flexibility over the environments served by their hub, and expose Binder-style workflows to the “typical” JupyterHub workflow. BinderHub could then be simplified to re-use JupyterHub’s image building functionality as a part of its own service. We also identified a prototype of this functionality in the
-&lt;a href="https://github.com/plasmabio/tljh-repo2docker" target="_blank" rel="noopener">tljh-repo2docker&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://github.com/plasmabio/tljh-repo2docker" target="_blank" rel="noopener" >tljh-repo2docker&lt;/a>
 project that
-&lt;a href="https://quantstack.net/" target="_blank" rel="noopener">QuantStack&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://quantstack.net/" target="_blank" rel="noopener" >QuantStack&lt;/a>
 had built for the
-&lt;a href="https://plasmabio.org/" target="_blank" rel="noopener">PlasmaBio project&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://plasmabio.org/" target="_blank" rel="noopener" >PlasmaBio project&lt;/a>
 . This implementation was seen as successful, and something others in the community had wanted to generalize for some time.&lt;/p>
 &lt;h1 id="our-implementation-plan">
 Our implementation plan
@@ -82,12 +100,15 @@ Two phases of implementation
 Back-end implementation as a JupyterHub Service
 &lt;a class="header-anchor" href="#back-end-implementation-as-a-jupyterhub-service">#&lt;/a>
 &lt;/h2>&lt;p>We’re planning to use
-&lt;a href="https://jupyterhub.readthedocs.io/en/stable/reference/services.html" target="_blank" rel="noopener">JupyterHub Services&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://jupyterhub.readthedocs.io/en/stable/reference/services.html" target="_blank" rel="noopener" >JupyterHub Services&lt;/a>
 to add the back-end functionality for dynamic image building to a JupyterHub. Services are a way to expose functionality via a JupyterHub REST API, and would allow us to expose basic image generation on-the-fly with
-&lt;a href="https://repo2docker.readthedocs.io/" target="_blank" rel="noopener">repo2docker&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://repo2docker.readthedocs.io/" target="_blank" rel="noopener" >repo2docker&lt;/a>
 . We aim for basic functionality to be as close as possible to repo2docker’s default behavior, but to make this functionality _composable and customizable _if a JupyterHub administrator wants to provide different out-of-the-box functionality.&lt;/p>
 &lt;p>While details may still change, we believe that the major architectural plan has now been settled. We have
-&lt;a href="https://github.com/consideratio/repo2docker-service" target="_blank" rel="noopener">an experimental codebase&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://github.com/consideratio/repo2docker-service" target="_blank" rel="noopener" >an experimental codebase&lt;/a>
 with a basic implementation of the repo2docker service described above. As part of this effort, this team has also made a number of improvements to repo2docker’s codebase and project infrastructure. We hope that this effort will continue to push resources and attention to repo2docker by growing the number of users and stakeholders that rely on the project for their success.&lt;/p>
 &lt;h2 id="front-end-implementation-that-uses-this-service">
 Front-end implementation that uses this service
@@ -105,9 +126,11 @@ Front-end implementation that uses this service
 Collaborate and follow along
 &lt;a class="header-anchor" href="#collaborate-and-follow-along">#&lt;/a>
 &lt;/h1>&lt;p>Below you’ll find a rough project plan to give an idea for the major actions needed and a timeline for when we hope they’ll be completed. We’ll track further updates and progress on this project in this
-&lt;a href="https://github.com/2i2c-org/infrastructure/issues/1382" target="_blank" rel="noopener">dedicated GitHub issue&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://github.com/2i2c-org/infrastructure/issues/1382" target="_blank" rel="noopener" >dedicated GitHub issue&lt;/a>
 and this
-&lt;a href="https://github.com/orgs/2i2c-org/projects/33/views/1" target="_blank" rel="noopener">dedicated GitHub project board&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://github.com/orgs/2i2c-org/projects/33/views/1" target="_blank" rel="noopener" >dedicated GitHub project board&lt;/a>
 .&lt;/p>
 &lt;p>
 &lt;figure >

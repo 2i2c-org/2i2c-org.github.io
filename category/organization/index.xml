@@ -14,28 +14,34 @@ Educational community hubs
 &lt;/h2>&lt;p>A primary use-case that 2i2c seeks to enable is &lt;strong>collaborative, distributed educational spaces for learning with data&lt;/strong>. In 2021 we ran several pilots with educational communities:&lt;/p>
 &lt;p>&lt;strong>A university-wide hub for the University of Toronto.&lt;/strong> This hub is used in a variety of classes throughout the university, and is made freely available to anyone with a UofT account. We hope to repeat this model for other university-wide communities, and have learned a lot about the challenges of working with particularly large educational communities.&lt;/p>
 &lt;p>&lt;strong>Several hubs for community colleges across California.&lt;/strong> In partnership with UC Berkeley and CloudBank, we&amp;rsquo;ve run several hubs for nearly a dozen small community colleges teaching the
-&lt;a href="http://data8.org" target="_blank" rel="noopener">Data 8 curriculum&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="http://data8.org" target="_blank" rel="noopener" >Data 8 curriculum&lt;/a>
 for their students. These hubs are lightweight and offer standardized environments for their students to use, in order to lower the cost of deploying and maintaining the hubs over time.&lt;/p>
 &lt;h3 id="what-we-learned">
 What we learned
 &lt;a class="header-anchor" href="#what-we-learned">#&lt;/a>
 &lt;/h3>&lt;p>The organizational context around educational use-cases is different from research communities. Compared with research groups, educucational groups have more variance in their size (classes as small as 10 people and as large as 500) and think about cost &lt;strong>by the student&lt;/strong>, not as a lump sum. This means that our initial hub-based pricing model may not map cleanly onto educational contexts, and we need to improve the match of scalability and price to these communities.&lt;/p>
 &lt;p>Moreover, we&amp;rsquo;ve learned that for these communities, navigating all of the open source tools that are available for pedagogy is confusing! Everybody wants auto-grading but it&amp;rsquo;s unclear what is the &amp;ldquo;right tool for the job&amp;rdquo;. Tools like
-&lt;a href="https://jupyterhub.github.io/nbgitpuller/" target="_blank" rel="noopener">nbgitpuller&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://jupyterhub.github.io/nbgitpuller/" target="_blank" rel="noopener" >nbgitpuller&lt;/a>
 have heavy use at &amp;ldquo;power universities&amp;rdquo; like UC Berkeley, but many others don&amp;rsquo;t know that it exists! We will need to invest more time into building guides and documentation that help others leverage these tools.&lt;/p>
 &lt;h2 id="research-in-the-cloud">
 Research in the cloud
 &lt;a class="header-anchor" href="#research-in-the-cloud">#&lt;/a>
 &lt;/h2>&lt;p>In addition to educational use-cases, we ran several pilots for research communities in order to leverage cloud infrastructure for scaling their work or collaborating more effectively.&lt;/p>
 &lt;p>&lt;strong>We migrated Pangeo’s cloud infrastructure to be run via 2i2c.&lt;/strong> The
-&lt;a href="https://pangeo.io" target="_blank" rel="noopener">Pangeo Community&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://pangeo.io" target="_blank" rel="noopener" >Pangeo Community&lt;/a>
 had been operating and developing their own JupyterHub for several years, but were looking for another organization to provide more reliable/sustained operations and support for their Pangeo Cloud Service. This year we migrated the service
-&lt;a href="https://2i2c.org/posts/2021/pangeo-goes-live/">to run off of 2i2c’s deployment infrastructure&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="" >to run off of 2i2c’s deployment infrastructure&lt;/a>
 .&lt;/p>
 &lt;p>&lt;strong>A scalable cloud hub for a SWOT satellite team&lt;/strong>. The
-&lt;a href="https://meom-group.github.io/projects/swot-st/" target="_blank" rel="noopener">MEOM research group at Grenoble&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://meom-group.github.io/projects/swot-st/" target="_blank" rel="noopener" >MEOM research group at Grenoble&lt;/a>
 is doing work with the
-&lt;a href="https://swot.jpl.nasa.gov/" target="_blank" rel="noopener">NASA SWOT satellite project&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://swot.jpl.nasa.gov/" target="_blank" rel="noopener" >NASA SWOT satellite project&lt;/a>
 . However, the datasets generated from this project are huge, and only storable via the cloud. We&amp;rsquo;ve set up a JupyterHub to provide cloud-based access to this data, running a Pangeo-like environment.&lt;/p>
 &lt;h3 id="what-we-learned-1">
 What we learned
@@ -48,15 +54,19 @@ Distributed events and hackweeks
 &lt;/h2>&lt;p>Finally, we had a special use-case that is a hybrid of the previous two examples. Events and hackweeks are &lt;em>time-bounded&lt;/em>, &lt;em>focused on learning and doing&lt;/em>, but often &lt;em>with research workflows and communities&lt;/em>. They also tend to be more globally-distributed than a traditional research or education community.
 See below for a few examples:&lt;/p>
 &lt;p>The
-&lt;a href="https://coessing.org/" target="_blank" rel="noopener">&lt;strong>Coastal Ocean Environment Summer School in Ghana&lt;/strong>&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://coessing.org/" target="_blank" rel="noopener" >&lt;strong>Coastal Ocean Environment Summer School in Ghana&lt;/strong>&lt;/a>
 workshop is a summer school run in Ghana to share skills and workflows with researchers across Africa. It builds on workflows in the Pangeo ecosystem, and teaches attendees how to work with cloud-native data. By using a cloud-based JupyterHub for their workshop, attendees had direct access to data and compute in a way that would have been much more difficult to set up on local infrastructure.&lt;/p>
 &lt;p>The
-&lt;a href="http://linked.earth/paleoHackathon/" target="_blank" rel="noopener">&lt;strong>PaleoHackWeek hackathons&lt;/strong>&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="http://linked.earth/paleoHackathon/" target="_blank" rel="noopener" >&lt;strong>PaleoHackWeek hackathons&lt;/strong>&lt;/a>
 were two hackathons around paleo/climate data workflows. They brought together a distributed community and use the 2i2c hub to facilitate the use of the
-&lt;a href="https://pyleoclim-util.readthedocs.io/en/master/" target="_blank" rel="noopener">paleoclim package&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://pyleoclim-util.readthedocs.io/en/master/" target="_blank" rel="noopener" >paleoclim package&lt;/a>
 throughout the hackweek.&lt;/p>
 &lt;p>
-&lt;a href="https://www.openscapes.org/" target="_blank" rel="noopener">&lt;strong>OpenScapes&lt;/strong>&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://www.openscapes.org/" target="_blank" rel="noopener" >&lt;strong>OpenScapes&lt;/strong>&lt;/a>
 champions open practices in environmental science to help uncover data-driven solutions faster. They have several cohorts of scientific trainees learning more about adopting open and collaborative workflows, and use a hub managed by 2i2c to provide remote learning environments for their workshops.&lt;/p>
 &lt;h3 id="what-we-learned-2">
 What we learned
@@ -73,48 +83,60 @@ What’s next
 &lt;a class="header-anchor" href="#whats-next">#&lt;/a>
 &lt;/h2>&lt;p>Piloting all of these services taught us a lot about the similarities and differences between each use case. Towards the end of 2021, this led to 2i2c&amp;rsquo;s first collection of &amp;ldquo;service offerings&amp;rdquo; for a Managed Jupyter Service. This includes a 2-by-2 matrix of service options, and a specific price point for each. We have begun offering this service to communities, in order to learn more about the model, the pricing, and any changes that should be made. In early 2022, we hope to expand this group to more communities so that we can test this model’s ability to scale.&lt;/p>
 &lt;p>Our next post in this series will focus on the underlying technology that powers the services described above, stay tuned for more!&lt;/p></description></item><item><title>Pilot hubs, new collaborations, and new team members - A six month update</title><link>https://2i2c.org/blog/2021/six-month-update/</link><pubDate>Tue, 25 May 2021 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2021/six-month-update/</guid><description>&lt;p>It has been about six months since 2i2c first began operations (after receiving
-&lt;a href="../czi-core-support">funding from the Chan Zuckerberg Initiative&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="" >funding from the Chan Zuckerberg Initiative&lt;/a>
 ).
 In that time we&amp;rsquo;ve made progress along several directions, and wish to use this blog post to provide updates about the ways in which 2i2c has evolved over the first months of its existence.&lt;/p>
 &lt;p>Below are a few major updates from the 2i2c community - as always, if you want to learn more about 2i2c, keep an eye
-&lt;a href="https://2i2c.org/posts">on our blog&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="" >on our blog&lt;/a>
 or subscribe to the
-&lt;a href="https://2i2c.org/#contact">2i2c mailing list&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="" >2i2c mailing list&lt;/a>
 .&lt;/p>
 &lt;h2 id="early-pilot-jupyterhub-infrastructure">
 Early pilot JupyterHub infrastructure
 &lt;a class="header-anchor" href="#early-pilot-jupyterhub-infrastructure">#&lt;/a>
 &lt;/h2>&lt;p>First off - we have been making progress building out our JupyterHub deployment infrastructure for 2i2c.
 One of our major organizational goals is to build a sustainable service
-&lt;a href="https://2i2c.org/infrastructure">managing open source cloud infrastructure&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="" >managing open source cloud infrastructure&lt;/a>
 for interactive computing.
 This service will provide hosted, customized JupyterHubs for communities of practice in research and education.
 They&amp;rsquo;ll be built entirely with open source tools that are community-driven, and that
-&lt;a href="https://2i2c.org/right-to-replicate">respect the community&amp;rsquo;s Right to Replicate&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://2i2c.org/right-to-replicate/" >respect the community&amp;rsquo;s Right to Replicate&lt;/a>
 .&lt;/p>
 &lt;p>In order to accomplish this, 2i2c is running several pilots with partners and interested organizations, supported by our
-&lt;a href="https://2i2c.org/blog/czi-core-support">funding from CZI&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="" >funding from CZI&lt;/a>
 , as well as from
-&lt;a href="https://investinopen.org/blog/jrost-rapid-response-fund-awardees/" target="_blank" rel="noopener">the JROST rapid response fund&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://investinopen.org/blog/jrost-rapid-response-fund-awardees/" target="_blank" rel="noopener" >the JROST rapid response fund&lt;/a>
 .
 These pilots are meant to be learning opportunities to understand what kind of infrastructure and service it needs to build moving forward.&lt;/p>
 &lt;p>The
-&lt;a href="https://infrastructure.2i2c.org/" target="_blank" rel="noopener">documentation for our pilot hubs infrastructure&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://infrastructure.2i2c.org/" target="_blank" rel="noopener" >documentation for our pilot hubs infrastructure&lt;/a>
 contains information about our deployments and infrastructure.
 It is served from
-&lt;a href="https://github.com/2i2c-org/infrastructure" target="_blank" rel="noopener">this &lt;code>2i2c-org/infrastructure&lt;/code> repository&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://github.com/2i2c-org/infrastructure" target="_blank" rel="noopener" >this &lt;code>2i2c-org/infrastructure&lt;/code> repository&lt;/a>
 , a centralized location for configuring and deploying a federated network of JupyterHubs.
 Each JupyterHub is independent of one another, and could be spun out from the centralized repository with minimal extra work, giving hub users the ability to
-&lt;a href="https://2i2c.org/right-to-replicate">replicate their infrastructure, with or without 2i2c&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://2i2c.org/right-to-replicate/" >replicate their infrastructure, with or without 2i2c&lt;/a>
 .
 We will continue refining the code in this repository as we learn more from our hub infrastructure pilots.&lt;/p>
 &lt;h2 id="jupyterhub-for-geospatial-analytics---a-collaboration-with-pangeo">
 JupyterHub for geospatial analytics - A collaboration with Pangeo
 &lt;a class="header-anchor" href="#jupyterhub-for-geospatial-analytics---a-collaboration-with-pangeo">#&lt;/a>
 &lt;/h2>&lt;p>As
-&lt;a href="https://medium.com/pangeo/pangeo-2-0-2bedf099582d" target="_blank" rel="noopener">originally announced on the Pangeo blog&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://medium.com/pangeo/pangeo-2-0-2bedf099582d" target="_blank" rel="noopener" >originally announced on the Pangeo blog&lt;/a>
 , 2i2c is forging a collaboration with
-&lt;a href="https://pangeo.io" target="_blank" rel="noopener">the Pangeo project&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://pangeo.io" target="_blank" rel="noopener" >the Pangeo project&lt;/a>
 around operating and developing cloud infrastructure for large-scale geospatial analytics!
 This collaboration is funded through a grant from the Moore Foundation (via Pangeo investigator Ryan Abernathey).&lt;/p>
 &lt;p>Over the coming months, 2i2c plans to assume operation of infrastructure underlying the Pangeo project, allowing the Pangeo team to focus their efforts on their core scientific and development missions.
@@ -122,27 +144,33 @@ Because Pangeo&amp;rsquo;s infrastructure is already running on a fully open sou
 We don&amp;rsquo;t anticipate needing to make major changes to their infrastructure and deployments (part of the benefits of using open, modular tools).&lt;/p>
 &lt;p>Once this is complete, we&amp;rsquo;ll next shift our attention to some new areas of development that support use-cases in the Pangeo community (and in the scientific community more broadly).
 There&amp;rsquo;s a lot of progress that we imagine making - such as
-&lt;a href="https://gallery.pangeo.io" target="_blank" rel="noopener">supporting publishing pipelines via the Pangeo Gallery&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://gallery.pangeo.io" target="_blank" rel="noopener" >supporting publishing pipelines via the Pangeo Gallery&lt;/a>
 or improving tools for scalable computing with
-&lt;a href="https://gateway.dask.org/" target="_blank" rel="noopener">Dask Gateway&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://gateway.dask.org/" target="_blank" rel="noopener" >Dask Gateway&lt;/a>
 .
 We&amp;rsquo;ll provide updates as we formally begin this collaboration and hash out a plan for our next steps.&lt;/p>
 &lt;h2 id="jupyterhub-for-education---a-collaboration-with-cloudbank-and-uc-berkeley">
 JupyterHub for education - A collaboration with CloudBank and UC Berkeley
 &lt;a class="header-anchor" href="#jupyterhub-for-education---a-collaboration-with-cloudbank-and-uc-berkeley">#&lt;/a>
 &lt;/h2>&lt;p>In addition, we&amp;rsquo;ve begun a partnership with the UC Berkeley
-&lt;a href="https://data.berkeley.edu/academics/undergraduate-programs" target="_blank" rel="noopener">Data Science in Undergraduate Studies program&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://data.berkeley.edu/academics/undergraduate-programs" target="_blank" rel="noopener" >Data Science in Undergraduate Studies program&lt;/a>
 , as well as
-&lt;a href="http://cloudbank.org/" target="_blank" rel="noopener">CloudBank&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="http://cloudbank.org/" target="_blank" rel="noopener" >CloudBank&lt;/a>
 .
 This collaboration aims to provide hosted JupyterHub infrastructure for community colleges across the state of California.
 It is an attempt at providing vendor-agnostic and open-source infrastructure to several institutions who would otherwise not be able to deploy this infrastructure on their own.&lt;/p>
 &lt;p>2i2c will provide the deployment and configuration architecture for this collaboration, working with
-&lt;a href="https://www.linkedin.com/in/sean-morris-5847aa2b" target="_blank" rel="noopener">Sean Morris&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://www.linkedin.com/in/sean-morris-5847aa2b" target="_blank" rel="noopener" >Sean Morris&lt;/a>
 in operating this educational infrastructure.
 All of the cloud infrastructure for this pilot will be funded via CloudBank.
 We will begin by offering environments that are modeled after
-&lt;a href="http://data8.org" target="_blank" rel="noopener">the Data 8 course at UC Berkeley&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="http://data8.org" target="_blank" rel="noopener" >the Data 8 course at UC Berkeley&lt;/a>
 .
 This is part of an effort to build a community of practice around Data Science education using open source tools.&lt;/p>
 &lt;h2 id="new-team-members">
@@ -150,31 +178,42 @@ New team members
 &lt;a class="header-anchor" href="#new-team-members">#&lt;/a>
 &lt;/h2>&lt;p>We&amp;rsquo;ve also welcomed two new members to the 2i2c core team! 🎉&lt;/p>
 &lt;p>These individuals will both work towards
-&lt;a href="https://2i2c.org/projects">2i2c&amp;rsquo;s major projects&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://2i2c.org/projects/" >2i2c&amp;rsquo;s major projects&lt;/a>
 , and collaborate together on running our 2i2c Pilot Hub infrastructure.
 Here&amp;rsquo;s a bit about each new team member.&lt;/p>
 &lt;ul>
 &lt;li>
-&lt;a href="https://github.com/damianavila" target="_blank" rel="noopener">Damián Avila&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://github.com/damianavila" target="_blank" rel="noopener" >Damián Avila&lt;/a>
 . Damián has been a Jupyter core team member for many years now, and has done work across many different parts of the PyData stack (in particular,
-&lt;a href="https://jupyter.org" target="_blank" rel="noopener">Jupyter&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://jupyter.org" target="_blank" rel="noopener" >Jupyter&lt;/a>
 ,
-&lt;a href="http://bokeh.org/" target="_blank" rel="noopener">Bokeh&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="http://bokeh.org/" target="_blank" rel="noopener" >Bokeh&lt;/a>
 ,
-&lt;a href="https://rise.readthedocs.io/" target="_blank" rel="noopener">RISE&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://rise.readthedocs.io/" target="_blank" rel="noopener" >RISE&lt;/a>
 , and
-&lt;a href="https://getnikola.com/" target="_blank" rel="noopener">Nikola&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://getnikola.com/" target="_blank" rel="noopener" >Nikola&lt;/a>
 ). Damián will focus his efforts on supporting JupyterHub infrastructure for the
-&lt;a href="https://pangeo.io" target="_blank" rel="noopener">Pangeo project&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://pangeo.io" target="_blank" rel="noopener" >Pangeo project&lt;/a>
 , as well as development across the
-&lt;a href="https://executablebooks.org" target="_blank" rel="noopener">Executable Books Project&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://executablebooks.org" target="_blank" rel="noopener" >Executable Books Project&lt;/a>
 &lt;/li>
 &lt;li>
-&lt;a href="https://github.com/sgibson91" target="_blank" rel="noopener">Sarah Gibson&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://github.com/sgibson91" target="_blank" rel="noopener" >Sarah Gibson&lt;/a>
 . Sarah will join 2i2c in June, after spending several years as a Research Software Engineer at
-&lt;a href="https://www.turing.ac.uk/" target="_blank" rel="noopener">the Turing Institute&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://www.turing.ac.uk/" target="_blank" rel="noopener" >the Turing Institute&lt;/a>
 . She has also been involved with
-&lt;a href="https://the-turing-way.netlify.app/welcome" target="_blank" rel="noopener">the Turing Way&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://the-turing-way.netlify.app/welcome" target="_blank" rel="noopener" >the Turing Way&lt;/a>
 for many years. Sarah will focus her efforts on JupyterHub development and operations for the Pangeo community.&lt;/li>
 &lt;/ul>
 &lt;h2 id="governance-and-a-code-of-conduct">
@@ -182,15 +221,19 @@ Governance and a code of conduct
 &lt;a class="header-anchor" href="#governance-and-a-code-of-conduct">#&lt;/a>
 &lt;/h2>&lt;p>Finally, while it&amp;rsquo;s easy to get lost in technology and collaborations, 2i2c has also made important steps towards defining a stable and transparent organizational model moving forward.
 2i2c now
-&lt;a href="https://compass.2i2c.org/about/structure.html#steering-council" target="_blank" rel="noopener">has a Steering Council&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://compass.2i2c.org/about/structure.html#steering-council" target="_blank" rel="noopener" >has a Steering Council&lt;/a>
 and an
-&lt;a href="https://compass.2i2c.org/about/structure.html" target="_blank" rel="noopener">early organizational structure&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://compass.2i2c.org/about/structure.html" target="_blank" rel="noopener" >early organizational structure&lt;/a>
 .
 In addition,
-&lt;a href="https://compass.2i2c.org/organization/strategy.html" target="_blank" rel="noopener">we&amp;rsquo;ve defined a one-year bootstrap strategy&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://compass.2i2c.org/organization/strategy.html" target="_blank" rel="noopener" >we&amp;rsquo;ve defined a one-year bootstrap strategy&lt;/a>
 that we&amp;rsquo;ll use to guide our path in the first year of 2i2c&amp;rsquo;s existence.&lt;/p>
 &lt;p>Finally, one of the first acts of the Steering Council has been to
-&lt;a href="https://compass.2i2c.org/code-of-conduct/index.html" target="_blank" rel="noopener">adopt a Code of Conduct&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://compass.2i2c.org/code-of-conduct/index.html" target="_blank" rel="noopener" >adopt a Code of Conduct&lt;/a>
 .
 This is a set of guidelines, and a process for resolving incidents, that makes our community more inclusive, equitable, and enjoyable for all.
 Creating a Code of Conduct is a crucial part of defining our organizational and community culture, and we&amp;rsquo;re excited to have some explicit guidelines to support our interactions in the future!&lt;/p>
@@ -199,11 +242,14 @@ Keep in touch
 &lt;a class="header-anchor" href="#keep-in-touch">#&lt;/a>
 &lt;/h2>&lt;p>Now that we are improving our organizational foundation, we will try to post more frequent updates and discussions about what we are up to.
 We hope for 2i2c to be a model organization in participatory, collaborative, transparent operations, and we look forward to working with you all in the future on this journey.&lt;/p></description></item><item><title>2i2c receives core support from CZI</title><link>https://2i2c.org/blog/2021/czi-core-support/</link><pubDate>Thu, 19 Nov 2020 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2021/czi-core-support/</guid><description>&lt;p>Last week we
-&lt;a href="https://2i2c.org/posts/2021/hello-world/">announced the creation of 2i2c&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="" >announced the creation of 2i2c&lt;/a>
 , a non-profit initiative dedicated to improving and facilitating access to infrastructure for interactive computing workflows in research and education. Today we are thrilled to announce that 2i2c has received core support from the
-&lt;a href="https://chanzuckerberg.com/" target="_blank" rel="noopener">Chan Zuckerberg Initiative&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://chanzuckerberg.com/" target="_blank" rel="noopener" >Chan Zuckerberg Initiative&lt;/a>
 . You can find
-&lt;a href="https://cziscience.medium.com/scaling-open-infrastructure-and-reproducibility-in-biomedicine-69546a399747" target="_blank" rel="noopener">CZI&amp;rsquo;s announcement here&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://cziscience.medium.com/scaling-open-infrastructure-and-reproducibility-in-biomedicine-69546a399747" target="_blank" rel="noopener" >CZI&amp;rsquo;s announcement here&lt;/a>
 .&lt;/p>
 &lt;p>This funding totals around $1.4m over three years. It provides crucial core support for 2i2c as it bootstraps itself into existence. We are so thankful to CZI for this support. 🎉🙏✨&lt;/p>
 &lt;p>The rest of this post is a short run-down of what we&amp;rsquo;ll use this funding for, and what we hope to accomplish.&lt;/p>
@@ -211,13 +257,17 @@ We hope for 2i2c to be a model organization in participatory, collaborative, tra
 The big picture
 &lt;a class="header-anchor" href="#the-big-picture">#&lt;/a>
 &lt;/h2>&lt;p>In recent years, several projects including
-&lt;a href="https://mybinder.org" target="_blank" rel="noopener">Binder&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://mybinder.org" target="_blank" rel="noopener" >Binder&lt;/a>
 ,
-&lt;a href="https://pangeo.io" target="_blank" rel="noopener">Pangeo&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://pangeo.io" target="_blank" rel="noopener" >Pangeo&lt;/a>
 ,
-&lt;a href="https://syzygy.ca" target="_blank" rel="noopener">Syzygy&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://syzygy.ca" target="_blank" rel="noopener" >Syzygy&lt;/a>
 , and
-&lt;a href="https://data.berkeley.edu/academics/resources/berkeley-data-stack" target="_blank" rel="noopener">the Berkeley DataHubs&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://data.berkeley.edu/academics/resources/berkeley-data-stack" target="_blank" rel="noopener" >the Berkeley DataHubs&lt;/a>
 have built atop the Jupyter architecture to support cloud-based infrastructure for reproducible research, large-scale scientific data analysis, national-scale infrastructure for researchers, and broad-impact educational programs based on freely available computational materials. These projects illustrate the transformative potential of the open Jupyter architecture, but they have also shown that unlocking this potential in service of scientists and educators requires continued development and resources beyond those of open source volunteers.&lt;/p>
 &lt;p>In order to deploy these resources at scale, manage and maintain them for large communities, and to continue developing the underlying technologies for scientific use cases, we need models to sustainably deploy and improve Jupyter technology. We also need capacity for thinking strategically and forging new partnerships to accomplish this goal. This funding will support 2i2c’s early strategic planning and partnership efforts, as well as technical development and operation of Jupyter infrastructure for research and education.&lt;/p>
 &lt;p>Below are two keys goals for this grant:&lt;/p>
@@ -225,44 +275,56 @@ have built atop the Jupyter architecture to support cloud-based infrastructure f
 Goal 1: Build capacity for Jupyter in research and education
 &lt;a class="header-anchor" href="#goal-1-build-capacity-for-jupyter-in-research-and-education">#&lt;/a>
 &lt;/h2>&lt;p>The primary goal of this funding is to build more capacity for Jupyter&amp;rsquo;s engagement in research and education. This funding will primarily support
-&lt;a href="https://2i2c.org/author/chris-holdgraf">Chris Holdgraf&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="" >Chris Holdgraf&lt;/a>
 to build strategic partnerships and collaborations, find opportunities for Jupyter infrastructure to benefit research and education, coordinate activity in the Jupyter project that benefits these communities, and secure more funding for development, maintenance, and support for Jupyter technology.&lt;/p>
 &lt;p>We are grateful to CZI for this funding because strategy, leadership, and community support are often difficult to fund from grants that are focused on technical deliverables. By funding strategic growth and capacity building, CZI is helping 2i2c lay a strong foundation from which it can have a greater impact.&lt;/p>
 &lt;h2 id="goal-2-support-hosted-jupyter-infrastructure-for-research-and-education">
 Goal 2: Support hosted Jupyter infrastructure for research and education
 &lt;a class="header-anchor" href="#goal-2-support-hosted-jupyter-infrastructure-for-research-and-education">#&lt;/a>
 &lt;/h2>&lt;p>2i2c will offer hosted
-&lt;a href="https://2i2c.org/infrastructure">interactive computing infrastructure&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="" >interactive computing infrastructure&lt;/a>
 utilizing the Jupyter ecosystem. It will both deploy and operate this infrastructure for researchers and educators, as well as perform core development to ensure that it serves these communities well. Funding from this grant will support 2i2c&amp;rsquo;s first hire -
-&lt;a href="https://2i2c.org/author/georgiana-dolocan">Georgiana Dolocan&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="" >Georgiana Dolocan&lt;/a>
 as an &lt;strong>Open Source Infrastructure Engineer&lt;/strong>. Georgiana has been the
-&lt;a href="https://blog.jupyter.org/the-jupyterhub-and-binder-contributor-in-residence-56708d1e3069" target="_blank" rel="noopener">JupyterHub Contributor in Residence&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://blog.jupyter.org/the-jupyterhub-and-binder-contributor-in-residence-56708d1e3069" target="_blank" rel="noopener" >JupyterHub Contributor in Residence&lt;/a>
 for the past year, and we are so excited for her to join 2i2c!&lt;/p>
 &lt;p>Georgiana will begin by supporting several pilot hubs that are run by 2i2c for community colleges, universities, and research institutions. She will help these organizations accomplish their mission through 2i2c infrastructure, and will develop these technologies so they are stable, scalable, and serve a diverse set of needs in research and education. This will hopefully set the foundation for 2i2c to sustainably offer this hub infrastructure to a wider audience in the future.&lt;/p>
 &lt;p>This is the next step in Georgiana’s journey through the Jupyter ecosystem that began with
-&lt;a href="https://blog.jupyter.org/outreachy-jupyter-supporting-diversity-in-open-communities-dfa78db4b0bd" target="_blank" rel="noopener">an outreachy internship&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://blog.jupyter.org/outreachy-jupyter-supporting-diversity-in-open-communities-dfa78db4b0bd" target="_blank" rel="noopener" >an outreachy internship&lt;/a>
 followed by
-&lt;a href="https://blog.jupyter.org/cir-report-i-1ca418c230cd" target="_blank" rel="noopener">a term as Contributor in Residence&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://blog.jupyter.org/cir-report-i-1ca418c230cd" target="_blank" rel="noopener" >a term as Contributor in Residence&lt;/a>
 . Both of these steps were made possible thanks to Jupyter stakeholders who invest their resources, time, and mentorship to grow Jupyter’s community beyond the people that have traditionally been involved in the project. It’s also possible because of funders committing resources to broaden participation and inclusion - in particular, the
-&lt;a href="https://bids.berkeley.edu/" target="_blank" rel="noopener">Berkeley Institute for Data Science&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://bids.berkeley.edu/" target="_blank" rel="noopener" >Berkeley Institute for Data Science&lt;/a>
 and
-&lt;a href="https://numfocus.org" target="_blank" rel="noopener">NumFOCUS&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://numfocus.org" target="_blank" rel="noopener" >NumFOCUS&lt;/a>
 for their original support of our Outreachy interns and the
-&lt;a href="https://chanzuckerberg.com/eoss/" target="_blank" rel="noopener">CZI EOSS grant series&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://chanzuckerberg.com/eoss/" target="_blank" rel="noopener" >CZI EOSS grant series&lt;/a>
 for funding the original Contributor in Residence.&lt;/p>
 &lt;h2 id="whats-next">
 What&amp;rsquo;s next
 &lt;a class="header-anchor" href="#whats-next">#&lt;/a>
 &lt;/h2>&lt;p>With this core support, 2i2c turns towards its
-&lt;a href="https://2i2c.org/infrastructure/#kinds-of-hubs">JupyterHub pilot deployments&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="" >JupyterHub pilot deployments&lt;/a>
 to build early prototypes that serve research and education, and to build organizational models that sustain these hubs and their development. If you or your organization think you’d be a good fit for these pilots, please
-&lt;a href="mailto:hello@2i2c.org">reach out to 2i2c&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="" >reach out to 2i2c&lt;/a>
 and let us know!&lt;/p>
 &lt;p>Many thanks again to CZI for this support - we believe that it is an excellent investment in the Jupyter community and in open source communities more generally. We also believe it will lead to major advancements in supporting interactive computing workflows for research and education. We look forward to what the next three years will bring!&lt;/p></description></item><item><title>Hello World</title><link>https://2i2c.org/blog/2021/hello-world/</link><pubDate>Tue, 10 Nov 2020 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2021/hello-world/</guid><description>&lt;p>👋 hey everyone!&lt;/p>
 &lt;p>We&amp;rsquo;d like to announce the creation of a new non-profit organization&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup> that we call &lt;strong>2i2c&lt;/strong>.&lt;/p>
 &lt;p>2i2c stands for &lt;strong>The International Interactive Computing Collaboration&lt;/strong>. It is a non-profit dedicated to making open tools for interactive computing more accessible and more powerful for the research and education communities.&lt;/p>
 &lt;p>This is a short post about why we created 2i2c, what we hope that it will do, and what we are up to next. If you&amp;rsquo;d prefer to watch a video instead of read a blog post, check out
-&lt;a href="https://cfp.jupytercon.com/2020/schedule/presentation/209/2i2c-sustaining-open-source-through-hosted-jupyter-infrastructure-for-research-and-education/" target="_blank" rel="noopener">this talk about 2i2c&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://cfp.jupytercon.com/2020/schedule/presentation/209/2i2c-sustaining-open-source-through-hosted-jupyter-infrastructure-for-research-and-education/" target="_blank" rel="noopener" >this talk about 2i2c&lt;/a>
 at JupyterCon 2020:&lt;/p>
 &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
 &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/YjonPLxDiwM?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
@@ -272,11 +334,14 @@ at JupyterCon 2020:&lt;/p>
 Why create 2i2c?
 &lt;a class="header-anchor" href="#why-create-2i2c">#&lt;/a>
 &lt;/h2>&lt;p>The founding team of 2i2c has spent the last several years running projects that use interactive computing for research and education, including
-&lt;a href="https://2i2c.org/founders#datahub">bringing data science education to thousands of students&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="" >bringing data science education to thousands of students&lt;/a>
 , connecting
-&lt;a href="https://2i2c.org/founders#pangeo">geospatial researchers with large datasets and computational resources in the cloud&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="" >geospatial researchers with large datasets and computational resources in the cloud&lt;/a>
 , and providing
-&lt;a href="https://2i2c.org/founders#syzygy">federated online environment hubs to schools across Canada&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="" >federated online environment hubs to schools across Canada&lt;/a>
 , to name a few.&lt;/p>
 &lt;p>Over time we realized that, while infrastructure for interactive computing could be a huge benefit to research and education, it also required a fair amount of expertise to configure, deploy, and develop. We wished for other organizations to enjoy the same success that we had found, but learned that for many, deploying their own infrastructure was a non-starter to adoption. Instead, many were turning to proprietary or vendor-specific tooling.&lt;/p>
 &lt;p>We created 2i2c so that these organizations can use entirely open-source tools without hiring and training their own dev-ops and infrastructure talent, and so that &lt;em>development&lt;/em> and &lt;em>support&lt;/em> of open tools for interactive computing continues to represent the interests of research and education.&lt;/p>
@@ -297,17 +362,22 @@ What are we going to do?
 &lt;a class="header-anchor" href="#what-are-we-going-to-do">#&lt;/a>
 &lt;/h2>&lt;p>With all of that in mind, what is 2i2c actually going to do? We are still working out the details, but here&amp;rsquo;s a rough picture:&lt;/p>
 &lt;p>Offer
-&lt;a href="https://2i2c.org/infrastructure">&lt;strong>hosted interactive computing environments on cloud infrastructure&lt;/strong>&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="" >&lt;strong>hosted interactive computing environments on cloud infrastructure&lt;/strong>&lt;/a>
 . These will
-&lt;a href="https://2i2c.org/right-to-replicate">be entirely open source&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://2i2c.org/right-to-replicate/" >be entirely open source&lt;/a>
 and vendor-neutral, and customizable for the communities that are using them. They&amp;rsquo;ll be offered either as a fee-for-service model and/or subsidized through grants and donations. We wish to build upon the success of JupyterHub as a gateway to computational resources and environments, learning environments, and communities of users. For more information about the vision and values of our hosted infrastructure, see
-&lt;a href="https://2i2c.org/right-to-replicate">the 2i2c &lt;strong>Right to Replicate&lt;/strong> document&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://2i2c.org/right-to-replicate/" >the 2i2c &lt;strong>Right to Replicate&lt;/strong> document&lt;/a>
 .&lt;/p>
 &lt;p>Provide
-&lt;a href="https://2i2c.org/infrastructure#research-development-hubs">&lt;strong>collaboration and development for interactive computing in research and education&lt;/strong>&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="" >&lt;strong>collaboration and development for interactive computing in research and education&lt;/strong>&lt;/a>
 . Beyond providing hub infrastructure, there are many ways in which solving problems in research and education can lead to better tools, infrastructure, and workflows in the open source community. For example - how can we generalize a community&amp;rsquo;s solution to scalable computing so that it can be useful for other use-cases as well? We hope that 2i2c can be an aggregator and integrator of many perspectives in research and education, and build tools that are maximally useful across communities.&lt;/p>
 &lt;p>Provide
-&lt;a href="https://2i2c.org/service/#jupyter">&lt;strong>core development and community support&lt;/strong>&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="" >&lt;strong>core development and community support&lt;/strong>&lt;/a>
 for open source projects that we use. While many organizations &lt;em>use&lt;/em> Jupyter technology in their projects, it is also crucial that they &lt;em>give back&lt;/em> to those tools in order to keep the ecosystem healthy. As a mission-driven non-profit, 2i2c has a core goal in not only deploying and customizing open source tools, but also providing core support for them.&lt;/p>
 &lt;h2 id="next-steps">
 Next steps
@@ -327,30 +397,37 @@ What do we need?
 &lt;/h2>&lt;p>As a non-profit initiative, 2i2c has a long road ahead of it. We cannot take venture capital funding, so we have to raise funds the old-fashioned way. This means that:&lt;/p>
 &lt;ul>
 &lt;li>If you are at an organization interested in purchasing hosted JupyterHub environments from 2i2c, please
-&lt;a href="mailto:hello@2i2c.org">send us an email &lt;i class="fas fa-envelope">&lt;/i>&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="" >send us an email &lt;i class="fas fa-envelope">&lt;/i>&lt;/a>
 .&lt;/li>
 &lt;li>If you are a funder or are otherwise interested in supporting 2i2c with a donation or grant, please
-&lt;a href="mailto:hello@2i2c.org">send us an email &lt;i class="fas fa-envelope">&lt;/i>&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="" >send us an email &lt;i class="fas fa-envelope">&lt;/i>&lt;/a>
 .&lt;/li>
 &lt;li>If you have experience in sustaining service-based organizations such as 2i2c, and wish to offer your expertise or guidance, please
-&lt;a href="mailto:hello@2i2c.org">send us an email &lt;i class="fas fa-envelope">&lt;/i>&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="" >send us an email &lt;i class="fas fa-envelope">&lt;/i>&lt;/a>
 .&lt;/li>
 &lt;/ul>
 &lt;p>Moreover, we&amp;rsquo;ll likely be hiring in the coming months for open source engineers, with a focus on data science, interactive computing, and the cloud. If you&amp;rsquo;re interested in working for an organization like 2i2c, please
-&lt;a href="mailto:hello@2i2c.org">send us an email &lt;i class="fas fa-envelope">&lt;/i>&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="" >send us an email &lt;i class="fas fa-envelope">&lt;/i>&lt;/a>
 , and keep an eye on this space as we will post more information soon.&lt;/p>
 &lt;h2 id="get-involved">
 Get involved
 &lt;a class="header-anchor" href="#get-involved">#&lt;/a>
 &lt;/h2>&lt;p>If you&amp;rsquo;d like to get involved with the 2i2c team and community, we recommend two pathways for doing so.&lt;/p>
 &lt;p>
-&lt;a href="https://docs.google.com/forms/d/e/1FAIpQLSdW_bhVrXfgRYa9Ct6w399KQPILbU_3nKUF_tgnGZJbs91SXg/viewform?usp=sf_link" target="_blank" rel="noopener">Subscribe to our mailing list&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://docs.google.com/forms/d/e/1FAIpQLSdW_bhVrXfgRYa9Ct6w399KQPILbU_3nKUF_tgnGZJbs91SXg/viewform?usp=sf_link" target="_blank" rel="noopener" >Subscribe to our mailing list&lt;/a>
 . We&amp;rsquo;ll use this to periodically send updates about what 2i2c is up to.&lt;/p>
 &lt;p>
-&lt;a href="https://forms.gle/f3rmHZCijK3bYAaA8" target="_blank" rel="noopener">Join the 2i2c Slack&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://forms.gle/f3rmHZCijK3bYAaA8" target="_blank" rel="noopener" >Join the 2i2c Slack&lt;/a>
 . We use Slack for team conversation, as well as for real-time conversations about tools, practices, and ideas around interactive computing for research and education.&lt;/p>
 &lt;p>You can also say hello to us on Twitter at
-&lt;a href="https://twitter.com/2i2c_org" target="_blank" rel="noopener">@2i2c_org&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://twitter.com/2i2c_org" target="_blank" rel="noopener" >@2i2c_org&lt;/a>
 .&lt;/p>
 &lt;h2 id="wrapping-up">
 Wrapping up
@@ -361,9 +438,11 @@ Wrapping up
 &lt;ol>
 &lt;li id="fn:1">
 &lt;p>&lt;strong>EDIT 08-2021: We are now a fiscally-sponsored project of
-&lt;a href="https://codeforscience.org" target="_blank" rel="noopener">Code for Science and Society&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://codeforscience.org" target="_blank" rel="noopener" >Code for Science and Society&lt;/a>
 and ICSI is no longer our host organization. We are leaving this section here for archival purposes, and to give credit to ICSI for their help in launching 2i2c&lt;/strong>. 2i2c&amp;rsquo;s host organization is the
-&lt;a href="http://www.icsi.berkeley.edu/" target="_blank" rel="noopener">International Computer Science Institute&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="http://www.icsi.berkeley.edu/" target="_blank" rel="noopener" >International Computer Science Institute&lt;/a>
 , a 501(c)(3) charitable organization. We thank ICSI for its collaboration and leadership in launching 2i2c!&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>

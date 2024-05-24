@@ -16,66 +16,88 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;/figure>
 &lt;/p>
 &lt;p>2i2c supported and participated in the
-&lt;a href="https://cpaess.ucar.edu/meetings/eddy-symposium-2022" target="_blank" rel="noopener">3rd Eddy Cross Disciplinary Symposium&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://cpaess.ucar.edu/meetings/eddy-symposium-2022" target="_blank" rel="noopener" >3rd Eddy Cross Disciplinary Symposium&lt;/a>
 held recently in Vail Colorado. The event was hosted by the Cooperative Programs for the Advancement of Earth System Science (
-&lt;a href="https://cpaess.ucar.edu/" target="_blank" rel="noopener">CPAESS&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://cpaess.ucar.edu/" target="_blank" rel="noopener" >CPAESS&lt;/a>
 ) team at the University Corporation for Atmospheric Research (
-&lt;a href="https://www.ucar.edu/" target="_blank" rel="noopener">UCAR&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://www.ucar.edu/" target="_blank" rel="noopener" >UCAR&lt;/a>
 ) with support from NASA.&lt;/p>
 &lt;h2 id="context">
 Context
 &lt;a class="header-anchor" href="#context">#&lt;/a>
 &lt;/h2>&lt;p>The Symposium was framed by the interesting and interdisciplinary scientific career of the late
-&lt;a href="https://en.wikipedia.org/wiki/John_A._Eddy" target="_blank" rel="noopener">Jack Eddy&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://en.wikipedia.org/wiki/John_A._Eddy" target="_blank" rel="noopener" >Jack Eddy&lt;/a>
 . Eddy&amp;rsquo;s legacy was highlighted and his influence has been extended by dynamic leadership from NASA Program Officer
-&lt;a href="https://science.nasa.gov/about-us/organization-and-leadership/lead-program-scientist-for-lws" target="_blank" rel="noopener">Madhulika Guhathakurta (Lika)&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://science.nasa.gov/about-us/organization-and-leadership/lead-program-scientist-for-lws" target="_blank" rel="noopener" >Madhulika Guhathakurta (Lika)&lt;/a>
 . Lika helped launch and has sustained NASA&amp;rsquo;s
-&lt;a href="https://science.nasa.gov/heliophysics/programs/living-with-a-star" target="_blank" rel="noopener">Living with a Star (LWS)&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://science.nasa.gov/heliophysics/programs/living-with-a-star" target="_blank" rel="noopener" >Living with a Star (LWS)&lt;/a>
 program over the past two decades. Prior to LWS, NASA had a variety of siloed efforts focused on near-Sun and near-Earth behavior. The LWS program led to an integration of these efforts under &amp;ldquo;system science&amp;rdquo; or &amp;ldquo;systems engineering&amp;rdquo; approaches and an expressed desired to connect LWS research activities with impacts on Earth (society, biology, culture, etc.). The program has expanded to include explorations of similar questions arising around other planets in our solar system and the recently discovered collection of exoplanets. Scientists from diverse disciplines (plasma physics, stellar evolution, atmospheric chemistry, space weather, planetary science,&amp;hellip;) work together on &amp;ldquo;cross disciplinary&amp;rdquo; research that helps us understand our lives near our star.&lt;/p>
 &lt;p>The Symposium focused on three disciplinary areas (&lt;strong>Exoplanets&lt;/strong>; &lt;strong>Sun-Climate and Star-Climate interactions&lt;/strong>; &lt;strong>Risk and resilience of space weather&lt;/strong>) unified under the cross-cutting thread of &lt;strong>open science&lt;/strong>. Frequent references were made to the upcoming 2023 Year of Open Science and
-&lt;a href="https://science.nasa.gov/open-science/transform-to-open-science" target="_blank" rel="noopener">NASA&amp;rsquo;s Transform to Open Science (TOPS) mission&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://science.nasa.gov/open-science/transform-to-open-science" target="_blank" rel="noopener" >NASA&amp;rsquo;s Transform to Open Science (TOPS) mission&lt;/a>
 . Symposium attendees listened to talks surveying the four areas in the morning and participated in hackathon-style breakout projects during the afternoons. Work on the projects launched at the Eddy Symposium
-&lt;a href="https://github.com/jack-eddy-symposium" target="_blank" rel="noopener">continues&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://github.com/jack-eddy-symposium" target="_blank" rel="noopener" >continues&lt;/a>
 . The space weather group is investigating ways to make the power grid more resilient. The Sun-climate group is exploring plans to establish an institute focused on Sun-climate interactions and improve connections between climate and heliophysics research communities. The exoplanets team is developing tools to programmatically compare Sun-Earth and star-exoplanet interactions.&lt;/p>
 &lt;h2 id="2i2cs-role">
 2i2c&amp;rsquo;s role
 &lt;a class="header-anchor" href="#2i2cs-role">#&lt;/a>
 &lt;/h2>&lt;p>2i2c, with input from Symposium CoChair&amp;rsquo;s
-&lt;a href="https://staff.ucar.edu/users/marsh" target="_blank" rel="noopener">Dan Marsh&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://staff.ucar.edu/users/marsh" target="_blank" rel="noopener" >Dan Marsh&lt;/a>
 and
-&lt;a href="http://www.ryanmcgranaghan.com/about.html" target="_blank" rel="noopener">Ryan McGranaghan&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="http://www.ryanmcgranaghan.com/about.html" target="_blank" rel="noopener" >Ryan McGranaghan&lt;/a>
 , rapidly deployed a cloud-hosted JupyterHub for use during the event. The hub provided a shared space for participants to explore data, run analyses, and collaborate with one another using modern tools including Zarr, Xarray and Dask Gateway. Access to the interactive computing platform was granted to any member of the
-&lt;a href="https://github.com/jack-eddy-symposium/" target="_blank" rel="noopener">Symposium&amp;rsquo;s GitHub organization&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://github.com/jack-eddy-symposium/" target="_blank" rel="noopener" >Symposium&amp;rsquo;s GitHub organization&lt;/a>
 . The work to set up that hub, openly chronicled in this GitHub issue (
-&lt;a href="https://github.com/2i2c-org/infrastructure/issues/1329" target="_blank" rel="noopener">&lt;i class='fa-brands fa-github'>&lt;/i> 2i2c-org/infrastructure#1329&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://github.com/2i2c-org/infrastructure/issues/1329" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> 2i2c-org/infrastructure#1329&lt;/a>
 ), included swapping out a Pangeo-style software environment for a heliophysics-specific resource developed by
-&lt;a href="http://heliocloud.org/" target="_blank" rel="noopener">HelioCloud&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="http://heliocloud.org/" target="_blank" rel="noopener" >HelioCloud&lt;/a>
 with special thanks to
-&lt;a href="https://www.nasa.gov/offices/oce/bios/mwm/Thomas-Brian-bio.html" target="_blank" rel="noopener">Brian Thomas&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://www.nasa.gov/offices/oce/bios/mwm/Thomas-Brian-bio.html" target="_blank" rel="noopener" >Brian Thomas&lt;/a>
 !&lt;/p>
 &lt;p>2i2c co-founder Fernando Pérez gave a talk on how he is
-&lt;a href="https://docs.google.com/presentation/d/1i99eQqOVCSQyxoyscUo0dl3Ybgdex5qKo_KEO9YGxQg/edit?usp=drivesdk" target="_blank" rel="noopener">&amp;ldquo;living la vida nube&amp;rdquo;&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://docs.google.com/presentation/d/1i99eQqOVCSQyxoyscUo0dl3Ybgdex5qKo_KEO9YGxQg/edit?usp=drivesdk" target="_blank" rel="noopener" >&amp;ldquo;living la vida nube&amp;rdquo;&lt;/a>
 . Fernando described the ways he, research collaborators, and students are using the Jupyter ecosystem. Diverse and curated tools in Jupyter hubs for the
-&lt;a href="https://jupytearth.org/" target="_blank" rel="noopener">Jupyter Meets the Earth Project&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://jupytearth.org/" target="_blank" rel="noopener" >Jupyter Meets the Earth Project&lt;/a>
 and
-&lt;a href="https://data.berkeley.edu/" target="_blank" rel="noopener">Berkeley&amp;rsquo;s data science programs&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://data.berkeley.edu/" target="_blank" rel="noopener" >Berkeley&amp;rsquo;s data science programs&lt;/a>
 were highlighted. The talk showcased how these tools have been integrated to support individuals and communities of practice in data-driven research. In response to requests from the organizers and participants, Fernando gave a demonstration on how to use the hub 2i2c set up for the Symposium and an introduction to version control using &lt;code>git&lt;/code>.&lt;/p>
 &lt;p>2i2c co-founder Jim Colliander gave a talk titled
-&lt;a href="https://bit.ly/eddy-science-commons" target="_blank" rel="noopener">Governing the Science Commons&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://bit.ly/eddy-science-commons" target="_blank" rel="noopener" >Governing the Science Commons&lt;/a>
 . Three key points from Jim&amp;rsquo;s talk were: the virtue that should guide the improvements to the scientific enterprise is intellectual generosity; implementation of intellectual generosity into science requires commons-based governance; the convergence of open source tools that support data-intensive collaborative research and learning (as showcased by Fernando) and agency interest (
-&lt;a href="https://science.nasa.gov/open-science/transform-to-open-science" target="_blank" rel="noopener">NASA TOPS&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://science.nasa.gov/open-science/transform-to-open-science" target="_blank" rel="noopener" >NASA TOPS&lt;/a>
 ,
-&lt;a href="https://unesdoc.unesco.org/ark:/48223/pf0000379949/PDF/379949eng.pdf.multi.page=1" target="_blank" rel="noopener">UNESCO&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://unesdoc.unesco.org/ark:/48223/pf0000379949/PDF/379949eng.pdf.multi.page=1" target="_blank" rel="noopener" >UNESCO&lt;/a>
 ) in open science is an inflection point for global change. The talk ended with a call to action for the diverse communities represented at the Symposium to improve the ways we do science.&lt;/p>
 &lt;h2 id="things-we-learned">
 Things we learned
 &lt;a class="header-anchor" href="#things-we-learned">#&lt;/a>
 &lt;/h2>&lt;p>Our experience with the Symposium taught 2i2c a few things.&lt;/p>
 &lt;p>We learned that our engineering team can rapidly deploy interactive computing resources to support a research and education community. Along the way, we confirmed what we&amp;rsquo;ve been learning from Pangeo and the neuroscience communities: flexible methods to customize the software environment are necessary. We confirmed that our developing
-&lt;a href="https://docs.2i2c.org/about/service/shared-responsibility.html?highlight=shared%20responsibility" target="_blank" rel="noopener">shared responsibility model&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://docs.2i2c.org/about/service/shared-responsibility.html?highlight=shared%20responsibility" target="_blank" rel="noopener" >shared responsibility model&lt;/a>
 , enabling domain-specific experts to provide curated toolchains for their communities while leveraging 2i2c&amp;rsquo;s infrastructure expertise, is the right approach.&lt;/p>
 &lt;p>We learned that managing access to the hub using members in a GitHub organization works but involves some toil since organizers had to work through the GitHub invitation process for each participant. We are exploring others ways to systematically grant event participants access to a hub.&lt;/p>
 &lt;p>The Eddy Symposium experience reminded us that some skill at using &lt;code>git&lt;/code> is vital for collaboration. Fernando&amp;rsquo;s brief introduction to &lt;code>git&lt;/code> provided
-&lt;a href="https://jack-eddy-symposium.github.io/intro-git-jupyter/intro-git/git-visuals.html" target="_blank" rel="noopener">the mental model of working on a directed acyclyic graph&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://jack-eddy-symposium.github.io/intro-git-jupyter/intro-git/git-visuals.html" target="_blank" rel="noopener" >the mental model of working on a directed acyclyic graph&lt;/a>
 . Roving support from Jim and Fernando during the afternoon hackathon sessions normalized the skill level across the groups but not without a few merge conflicts and frustration. Near the beginning of future workshops, we will follow an improved approach aimed at establishing good &lt;code>git&lt;/code> hygeine and familiarity with the collaboration workflow using a simple pull request.&lt;/p>
 &lt;p>We are honored to have had the opportunity to collaborate with the Eddy Symposium team by managing infrastructure and participating in the workshop. We learned a lot about how to support the Helio and adjacent communities, and are proud of the ways in which our infrastructure helped them do their work more openly and effectively. We hope to build on these successes with these and other communities in the future!&lt;/p></description></item></channel></rss>

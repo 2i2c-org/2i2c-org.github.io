@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Rowan Cockett | 2i2c</title><link>https://2i2c.org/author/rowan-cockett/</link><atom:link href="https://2i2c.org/author/rowan-cockett/index.xml" rel="self" type="application/rss+xml"/><description>Rowan Cockett</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 21 May 2024 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Rowan Cockett</title><link>https://2i2c.org/author/rowan-cockett/</link></image><item><title>Jupyter Book 2.0 will use MyST</title><link>https://2i2c.org/blog/2024/myst-jupyter-book/</link><pubDate>Tue, 21 May 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/myst-jupyter-book/</guid><description>&lt;p>See
-&lt;a href="https://executablebooks.org/en/latest/blog/2024-05-20-jupyter-book-myst/" target="_blank" rel="noopener">the Executable Books blog&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://executablebooks.org/en/latest/blog/2024-05-20-jupyter-book-myst/" target="_blank" rel="noopener" >the Executable Books blog&lt;/a>
 for a post on the future directions of the Jupyter Book project, which will be built on top of the
-&lt;a href="https://mystmd.org" target="_blank" rel="noopener">MyST Markdown engine&lt;/a>
+// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
+&lt;a href="https://mystmd.org" target="_blank" rel="noopener" >MyST Markdown engine&lt;/a>
 .&lt;/p></description></item></channel></rss>
