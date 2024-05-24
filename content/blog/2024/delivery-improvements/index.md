@@ -9,15 +9,15 @@ featured: false
 draft: false
 ---
 
-_This is a follow-up to [our 2023 report of organizational strengths and weaknesses](../../2023/organizational-report/index.md), describing some improvements we've made on our team's coordination and delivery_.
+_This is a follow-up to [our 2023 report of organizational strengths and weaknesses](../../2023/organizational-report), describing some improvements we've made on our team's coordination and delivery_.
 
-In 2023, we [released a report describing our organizational strengths and weaknesses](../../2023/organizational-report/index.md).
+In 2023, we [released a report describing our organizational strengths and weaknesses](../../2023/organizational-report).
 This uncovered a key challenge for our team: **improving our coordination and delivery**.
 Over the previous two years, our service had grown significantly in its scope and complexity.
 We were working on more than 7 active grants and were serving more than 70 active communities with around 7,000 monthly active users.
 
 This was taxing our small team, and we found ourselves struggling to efficiently deliver on our work.
-For example, a [collaboration with GESIS to bring image building functionality to JupyterHub](../../2024/jupyterhub-binderhub-gesis/index.md) took longer than we wished, and we felt that our planning and execution was not transparent enough to their team. In addition, in [a collaboration to serve communities in Latin America and Africa](https://catalystproject.cloud) we felt that 2i2c was not responsive enough to onboarding and deploying infrastructure for new communities.
+For example, a [collaboration with GESIS to bring image building functionality to JupyterHub](../../2024/jupyterhub-binderhub-gesis) took longer than we wished, and we felt that our planning and execution was not transparent enough to their team. In addition, in [a collaboration to serve communities in Latin America and Africa](https://catalystproject.cloud) we felt that 2i2c was not responsive enough to onboarding and deploying infrastructure for new communities.
 
 ## Steps we've taken to improve delivery
 
