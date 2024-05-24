@@ -354,7 +354,7 @@ Celebration
 project mentioned in this post as being used at 2i2c is a JupyterHub package, kindly developed and maintained by the
 &lt;a href="https://discourse.jupyter.org/c/jupyterhub/" target="_blank" rel="noopener">JupyterHub community&lt;/a>
 and the 2i2c integration described was developed by
-&lt;a href="https://2i2c.org/organization/team.md">the 2i2c engineering team&lt;/a>
+&lt;a href="../../../organization/">the 2i2c engineering team&lt;/a>
 . Also, this post was edited by
 &lt;a href="https://jbasney.net/" target="_blank" rel="noopener">Jim Basney&lt;/a>
 .&lt;/p></description></item><item><title>Tech update: Multiple JupyterHubs, multiple clusters, one repository.</title><link>https://2i2c.org/blog/2022/ci-cd-improvements/</link><pubDate>Tue, 19 Apr 2022 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2022/ci-cd-improvements/</guid><description>&lt;p>2i2c manages the configuration and deployment of multiple Kubernetes clusters and JupyterHubs from
