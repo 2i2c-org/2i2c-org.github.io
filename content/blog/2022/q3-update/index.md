@@ -61,7 +61,7 @@ These are large-scale organizational and strategic efforts that impact all of 2i
 
 **We grew our team**: We've hired two new team members to lead new major efforts with 2i2c. [**James Munroe**](https://2i2c.org/author/james-munroe/) will lead efforts around _community guidance and product design_, and [**Jim Colliander**](https://2i2c.org/author/jim-colliander/) will lead efforts around _partnerships and sustainability_. We also [updated our Hiring and Candidate Search documentation](https://github.com/2i2c-org/team-compass/issues/436) in the process.
 
-**We're refining our strategy**: We've begun a process of revisiting and refining our strategy after a year of major operations, see [our strategic update blog post for more information](../strategic-update/index.md).
+**We're refining our strategy**: We've begun a process of revisiting and refining our strategy after a year of major operations, see [our strategic update blog post for more information](../strategic-update/).
 
 **We completed the [CSCCE](https://cscce.org) community management training**. Two of our team members (James and Sarah) both completed a several-week community management course that was offered in partnership with [CZI](https://chanzuckerberg.org).
 

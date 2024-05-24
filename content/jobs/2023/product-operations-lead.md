@@ -11,7 +11,7 @@ open = false
 show_date = true
 +++
 
-Please see the [Product Lead page](./product-lead.md).
+Please see the [Product Lead page](./product-lead).
 
 <meta http-equiv="refresh" content="0; url=../product-lead/" />
 

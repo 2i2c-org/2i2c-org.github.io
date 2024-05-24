@@ -49,4 +49,4 @@ Thanks to the 2i2c - CILogon partnership, during this past year we were able to 
 
 We are now happy to announce that the 2i2c - CILogon partnership has been expanded to another year!
 
-**Acknowledgements**: The upstream [`jupyterhub-oauthenticator`](https://oauthenticator.readthedocs.io/en/latest) project mentioned in this post as being used at 2i2c is a JupyterHub package, kindly developed and maintained by the [JupyterHub community](https://discourse.jupyter.org/c/jupyterhub/) and the 2i2c integration described was developed by [the 2i2c engineering team](/organization/team.md). Also, this post was edited by [Jim Basney](https://jbasney.net/).
+**Acknowledgements**: The upstream [`jupyterhub-oauthenticator`](https://oauthenticator.readthedocs.io/en/latest) project mentioned in this post as being used at 2i2c is a JupyterHub package, kindly developed and maintained by the [JupyterHub community](https://discourse.jupyter.org/c/jupyterhub/) and the 2i2c integration described was developed by [the 2i2c engineering team](../../../organization/). Also, this post was edited by [Jim Basney](https://jbasney.net/).
