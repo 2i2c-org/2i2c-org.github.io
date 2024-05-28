@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Updates | 2i2c</title><link>https://2i2c.org/category/updates/</link><atom:link href="https://2i2c.org/category/updates/index.xml" rel="self" type="application/rss+xml"/><description>Updates</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 06 May 2024 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Updates</title><link>https://2i2c.org/category/updates/</link></image><item><title>An update to 2i2c's value proposition</title><link>https://2i2c.org/blog/2024/value-proposition/</link><pubDate>Mon, 06 May 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/value-proposition/</guid><description>&lt;p>2i2c recently finished
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://2i2c.org/report-czi-2021" target="_blank" rel="noopener" >it&amp;rsquo;s three year retrospective&lt;/a>
 after closing out its original seed grant.
 As part of this process, we&amp;rsquo;re revisiting our organizational strategy, structure, and overall plan, in order to incorporate the learning that we&amp;rsquo;ve done over our first three years.&lt;/p>
@@ -39,34 +38,27 @@ We&amp;rsquo;d love feedback from anyone who has an idea, a critique, or &amp;ld
 A recent talk with this value proposition
 &lt;a class="header-anchor" href="#a-recent-talk-with-this-value-proposition">#&lt;/a>
 &lt;/h2>&lt;p>As part of this work, 2i2c&amp;rsquo;s Executive Director,
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="" >Chris Holdgraf&lt;/a>
 , gave a talk about 2i2c to the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://incentivizingopen.org" target="_blank" rel="noopener" >Incentivizing Open and Collaborative Research&lt;/a>
 (ICOR) community. Here are some links in case others are interested:&lt;/p>
 &lt;ul>
 &lt;li>
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://docs.google.com/presentation/d/1C-TNSI2h0181y6-z5tL9AWSRsWp9IfZqCDtcIZEs1MM/edit?usp=sharing" target="_blank" rel="noopener" >Slides for viewing&lt;/a>
 &lt;/li>
 &lt;li>
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://incentivizingopen.org/2024/05/data-sharing-and-analysis-in-collaborative-open-research-environments/" target="_blank" rel="noopener" >More information for the talk&lt;/a>
 &lt;/li>
 &lt;li>
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://vimeo.com/944769875#t=400s" target="_blank" rel="noopener" >Video link&lt;/a>
 &lt;/li>
 &lt;/ul>
 &lt;p>Here&amp;rsquo;s the video below for quick reference:&lt;/p>
 &lt;iframe src="https://player.vimeo.com/video/944769875#t=400s?h=e0f92e7926" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen>&lt;/iframe>
 &lt;p>&lt;a href="https://vimeo.com/944769875">Data Sharing and Analysis in Collaborative Open Research Environments&lt;/a> from &lt;a href="https://vimeo.com/user219434759">Michael Markie&lt;/a> on &lt;a href="https://vimeo.com">Vimeo&lt;/a>.&lt;/p></description></item><item><title>Improvements to our team's planning and delivery</title><link>https://2i2c.org/blog/2024/delivery-improvements/</link><pubDate>Mon, 15 Apr 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/delivery-improvements/</guid><description>&lt;p>&lt;em>This is a follow-up to
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="" >our 2023 report of organizational strengths and weaknesses&lt;/a>
 , describing some improvements we&amp;rsquo;ve made on our team&amp;rsquo;s coordination and delivery&lt;/em>.&lt;/p>
 &lt;p>In 2023, we
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="" >released a report describing our organizational strengths and weaknesses&lt;/a>
 .
 This uncovered a key challenge for our team: &lt;strong>improving our coordination and delivery&lt;/strong>.
@@ -74,20 +66,16 @@ Over the previous two years, our service had grown significantly in its scope an
 We were working on more than 7 active grants and were serving more than 70 active communities with around 7,000 monthly active users.&lt;/p>
 &lt;p>This was taxing our small team, and we found ourselves struggling to efficiently deliver on our work.
 For example, a
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="" >collaboration with GESIS to bring image building functionality to JupyterHub&lt;/a>
 took longer than we wished, and we felt that our planning and execution was not transparent enough to their team. In addition, in
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://catalystproject.cloud" target="_blank" rel="noopener" >a collaboration to serve communities in Latin America and Africa&lt;/a>
 we felt that 2i2c was not responsive enough to onboarding and deploying infrastructure for new communities.&lt;/p>
 &lt;h2 id="steps-weve-taken-to-improve-delivery">
 Steps we&amp;rsquo;ve taken to improve delivery
 &lt;a class="header-anchor" href="#steps-weve-taken-to-improve-delivery">#&lt;/a>
 &lt;/h2>&lt;p>At the beginning of 2024, we hired
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://2i2c.org/jobs/2023/delivery-manager/" >our first Delivery Manager and Chief of Staff role&lt;/a>
 as well as
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://2i2c.org/jobs/2023/product-lead/" >our first Product Lead role&lt;/a>
 .
 Both of these roles are meant to develop systems and team practices that improve our planning and delivery.&lt;/p>
@@ -106,7 +94,6 @@ Our system of work
 &lt;a class="header-anchor" href="#our-system-of-work">#&lt;/a>
 &lt;/h3>&lt;p>Our team-wide system of work can be found in the Team Compass at the link below:&lt;/p>
 &lt;p>
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://compass.2i2c.org/cross-functional/workflow/" target="_blank" rel="noopener" >https://compass.2i2c.org/cross-functional/workflow/&lt;/a>
 &lt;/p>
 &lt;p>This system of work attempts to link our strategic goals with concrete chunks of work to deliver.
@@ -155,12 +142,10 @@ We believe that defining professional growth trajectories will help identify the
 We&amp;rsquo;ve defined team practices around giving feedback, and are encouraging a team culture of regular and constructive feedback to one another.
 We know that this will be a long-term investment in team practices, and we believe that any team (especially a distributed one) must be able to rely on its team members to help one another grow.
 We&amp;rsquo;ve begun this effort by
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://compass.2i2c.org/operations/team-practices/feedback/" target="_blank" rel="noopener" >creating a guide to giving feedback for 2i2c&lt;/a>
 which we hope will be useful for others as well.&lt;/p>
 &lt;p>&lt;strong>Decision making&lt;/strong>.
 We&amp;rsquo;ve defined a
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://compass.2i2c.org/operations/governance/" target="_blank" rel="noopener" >set of principles around decision making at 2i2c&lt;/a>
 that encourage more autonomy and creativity.
 In a knowledge-driven field such as ours, it is important that team members have the freedom to be creative and take risks, and that we design systems that are resilient to mistakes.
@@ -168,13 +153,10 @@ We aim to make mistakes &lt;em>Safe to Fail&lt;/em> to encourage creativity and 
 This document is a first step towards improving our team-wide practices at taking more initiative and action.&lt;/p>
 &lt;p>&lt;strong>Iterative delivery and process improvement&lt;/strong>.
 Across each level of the organisation, we have been experimenting more deliberately with Agile delivery practices. These experiments shape our approach to planning (at both the team and organization-level), visualizing and managing our work streams, and improving our internal product delivery processes. We are agnostic to a specific Agile framework, and have found the most value in blending elements of
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://asana.com/resources/what-is-kanban" target="_blank" rel="noopener" >Kanban&lt;/a>
 ,
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://www.agilealliance.org/glossary/scrum/" target="_blank" rel="noopener" >Scrum&lt;/a>
 and
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://flightlevels.io" target="_blank" rel="noopener" >Flight levels&lt;/a>
 . We will continue to experiment with these practices, seeking to find a happy medium for 2i2c. We&amp;rsquo;ll share more on this soon :)&lt;/p>
 &lt;p>&lt;strong>Coaching&lt;/strong>.
@@ -183,8 +165,7 @@ Coupled with our growing practices around team feedback, we aim to build a cultu
 &lt;div class="alert alert-">
 &lt;div>
 This work was done in partnership with
-&lt;p>// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
-&lt;a href="http://www.apriljohnson.io/" target="_blank" rel="noopener" >April Johnson, a Transformation Consultant and Coach&lt;/a>
+&lt;p>&lt;a href="http://www.apriljohnson.io/" target="_blank" rel="noopener" >April Johnson, a Transformation Consultant and Coach&lt;/a>
 .
 If you’re interested in working with April around any of this work we highly recommend doing so!&lt;/p>
 &lt;/div>
@@ -197,7 +178,6 @@ A continuous process of improvement
 What happened?
 &lt;a class="header-anchor" href="#what-happened">#&lt;/a>
 &lt;/h2>&lt;p>A few weeks ago, the JupyterHub team discovered a security vulnerability in
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://jupyter-server-proxy.readthedocs.io/en/latest/" target="_blank" rel="noopener" >the &lt;code>jupyter-server-proxy&lt;/code> package&lt;/a>
 that would allow potential unauthenticated access to a JupyterHub via WebSockets, allowing unauthenticated users to run arbitrary code on the JupyterHub.
 &lt;code>jupyter-server-proxy&lt;/code> is used by many communities to provide alternative user interfaces like RStudio and remote desktops.&lt;/p>
@@ -206,7 +186,6 @@ that would allow potential unauthenticated access to a JupyterHub via WebSockets
 Does this impact my 2i2c community hub?
 &lt;a class="header-anchor" href="#does-this-impact-my-2i2c-community-hub">#&lt;/a>
 &lt;/h2>&lt;p>We do not believe that any of 2i2c&amp;rsquo;s communities were impacted by this vulnerability, and
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/2i2c-org/infrastructure/blob/f86d128a0d045163e72802f6df287a6f46d4b738/helm-charts/basehub/values.yaml#L296" target="_blank" rel="noopener" >a patch&lt;/a>
 has now been pushed to all community hubs to resolve this issue.&lt;/p>
 &lt;p>If your community was vulnerable to this problem, you might experience slightly slower startup latency while we work out a long-term solution.&lt;/p>
@@ -215,7 +194,6 @@ has now been pushed to all community hubs to resolve this issue.&lt;/p>
 Where can I learn more?
 &lt;a class="header-anchor" href="#where-can-i-learn-more">#&lt;/a>
 &lt;/h2>&lt;p>See
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/jupyterhub/jupyter-server-proxy/security/advisories/GHSA-w3vc-fx9p-wp4v" target="_blank" rel="noopener" >the JupyterHub security advisory for CVE-2024-28179&lt;/a>
 for more information about the security vulnerability, including details on the mitigation we have put in place to protect our communities.&lt;/p>
 &lt;h2 id="conclusion">
@@ -226,13 +204,11 @@ We&amp;rsquo;re also proud that 2i2c&amp;rsquo;s engineers helped the JupyterHub
 &lt;p>This allowed our team to resolve the problem before it impacted any of 2i2c&amp;rsquo;s communities.
 Because 2i2c community infrastructure is managed in a central location, we were able to resolve this for over 80 communities with a single team rather than expecting each community to learn about and fix this problem on their own.&lt;/p>
 &lt;p>We also believe this reflects the healthy upstream relationships that we hope to encourage with our team&amp;rsquo;s
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://compass.2i2c.org/open-source/" target="_blank" rel="noopener" >Open Source strategy and practices&lt;/a>
 .
 By working with the JupyterHub community and pushing changes upstream, we&amp;rsquo;ve resolved this issue for &lt;em>any&lt;/em> user of &lt;code>jupyter-server-proxy&lt;/code>, not just 2i2c&amp;rsquo;s own ecosystem.
 In particular, because of 2i2c&amp;rsquo;s position running hubs for many communities via Kubernetes, we were able to identify a solution that did not require every user image to be updated (as described in section &lt;strong>For JupyterHub admins of Z2JH installations&lt;/strong>).&lt;/p>
 &lt;p>We believe that all of these lead to a healthier, safer ecosystem of open source tools ❤️.&lt;/p></description></item><item><title>A three year retrospective report of 2i2c's impact</title><link>https://2i2c.org/blog/2024/report-czi/</link><pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/report-czi/</guid><description>&lt;p>We&amp;rsquo;re pleased to share a three-year retrospective report that was created to close-out 2i2c&amp;rsquo;s original
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="" >seed funding grant provided by the Chan Zuckerberg Initiative&lt;/a>
 .&lt;/p>
 &lt;style>
@@ -243,7 +219,6 @@ display: inline-flex;
 &lt;/style>
 &lt;ul>
 &lt;li>See the Zenodo entry here:
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://doi.org/10.5281/zenodo.10790818" target="_blank" rel="noopener" >
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
@@ -252,65 +227,47 @@ display: inline-flex;
 &lt;/a>
 &lt;/li>
 &lt;li>
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://2i2c.org/report-czi-2021" target="_blank" rel="noopener" >See the MyST website for the report at &lt;code>2i2c.org/report-czi-2021&lt;/code>&lt;/a>
 .&lt;/li>
 &lt;li>
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://2i2c.org/report-czi-2021/build/report-c7e3595ff6c09f5cc22cc52b8177cd4c.pdf" target="_blank" rel="noopener" >Download a PDF version generated by MyST here&lt;/a>
 .&lt;/li>
 &lt;/ul>
 &lt;p>This report was written with the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://mystmd.org" target="_blank" rel="noopener" >new MyST Markdown document engine&lt;/a>
 and shows off some of the functionality that we&amp;rsquo;ve been working on in collaboration with the MyST team.&lt;/p>
 &lt;p>We&amp;rsquo;re incredibly grateful for the seed funding that CZI provided to kickstart 2i2c&amp;rsquo;s mission and operations, and excited about more impact to come!&lt;/p></description></item><item><title>Integrating BinderHub with JupyterHub: Empowering users to manage their own environments</title><link>https://2i2c.org/blog/2024/jupyterhub-binderhub-gesis/</link><pubDate>Wed, 03 Jan 2024 16:56:14 -0800</pubDate><guid>https://2i2c.org/blog/2024/jupyterhub-binderhub-gesis/</guid><description>&lt;p>&lt;em>Thanks to
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://www.gesis.org/en/institute/staff/person/arnim.bleier" target="_blank" rel="noopener" >Arnim Bleier&lt;/a>
 ,
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://jnywong.github.io/" target="_blank" rel="noopener" >Jenny Wong&lt;/a>
 ,
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/GeorgianaElena" target="_blank" rel="noopener" >Georgiana Elena&lt;/a>
 ,
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/damianavila" target="_blank" rel="noopener" >Damián Avila&lt;/a>
 ,
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://colliand.com/" target="_blank" rel="noopener" >Jim Colliander&lt;/a>
 and
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/jmunroe" target="_blank" rel="noopener" >James Munroe&lt;/a>
 for contributing to this blog post&lt;/em>&lt;/p>
 &lt;p>
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://mybinder.org" target="_blank" rel="noopener" >mybinder.org&lt;/a>
 is a very popular service that allows end users to specify and share the environment (languages, packages, etc) required for their notebooks to run correctly by placing
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://repo2docker.readthedocs.io/en/latest/config_files.html#config-files" target="_blank" rel="noopener" >configuration files&lt;/a>
 they are already familiar with (like &lt;code>requirements.txt&lt;/code> or &lt;code>environment.yml&lt;/code>) along with their notebooks. While not without its own set of challenges, this is extremely powerful because it puts control of the &lt;em>environment&lt;/em> in the hands of the people who write the code. They can customize the environment to fit the needs of their code, instead of having to fit their code into the environment that admins have made available.&lt;/p>
 &lt;p>But, mybinder.org (and the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/jupyterhub/binderhub/" target="_blank" rel="noopener" >BinderHub&lt;/a>
 software that powers it) is built for &lt;em>sharing&lt;/em> your work after you are done with it, &lt;em>not&lt;/em> for actively doing work. BinderHubs often do not have persistent storage nor persistent user identity, and UX is centered around &lt;em>ephemeral&lt;/em> interactivity that can be shared with others (via a link), rather than &lt;em>persistent&lt;/em> interactivity that a single user repeatedly comes back to.
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://jupyter.org/hub" target="_blank" rel="noopener" >JupyterHub&lt;/a>
 is more commonly used for this kinda workflow, but doesn&amp;rsquo;t currently have the ability for users to easily build their own environments. Admins who are &lt;em>running&lt;/em> the JupyterHub can make
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://z2jh.jupyter.org/en/stable/jupyterhub/customizing/user-environment.html#using-multiple-profiles-to-let-users-select-their-environment" target="_blank" rel="noopener" >multiple environments&lt;/a>
 available for users to choose from, but this still puts admins in the critical path for environment customization.&lt;/p>
 &lt;p>Our
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://2i2c.org/blog/2022/gesis-2i2c-collaboration-update/" target="_blank" rel="noopener" >collaboration&lt;/a>
 with
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="http://notebooks.gesis.org" target="_blank" rel="noopener" >GESIS&lt;/a>
 ,
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://www.nfdi4datascience.de" target="_blank" rel="noopener" >NFDI4DS&lt;/a>
 , and
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://www.cessda.eu" target="_blank" rel="noopener" >CESSDA&lt;/a>
 , aims to bring this flexibility to JupyterHub directly. We aim to empower users to decide for themselves which applications and dependencies are installed on a per-project basis. Our work enables communities with heterogeneous requirements to share a single Hub. Our approach frees administrators from being overwhelmed by installation requests and transforms the JupyterHub platform into a platform for collaborative computational reproducibility. In this update, we report on our progress and upcoming steps in this project.&lt;/p>
 &lt;h2 id="what-does-a-binderhub-do-exactly">
@@ -320,7 +277,6 @@ What does a BinderHub do, exactly?
 &lt;ol>
 &lt;li>Present a UI to the end user for them to provide details on what to build (this is what you see when you go to mybinder.org)&lt;/li>
 &lt;li>Call out to
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/jupyterhub/repo2docker" target="_blank" rel="noopener" >repo2docker&lt;/a>
 in a scalable way to actually &lt;em>build and push&lt;/em> an image containing the environment for the given repository, and show the user logs as this build process happens. This also allows users to debug issues with their build more easily.&lt;/li>
 &lt;li>Talk to a JupyterHub instance to launch a user server with the built docker image, and redirect the user to this.&lt;/li>
@@ -349,27 +305,20 @@ c. A mybinder.org style way to specify a GitHub repository, which will be then d
 A Standalone &lt;code>binderhub-service&lt;/code> helm chart
 &lt;a class="header-anchor" href="#a-standalone-binderhub-service-helm-chart">#&lt;/a>
 &lt;/h2>&lt;p>The default upstream
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/jupyterhub/binderhub/tree/main/helm-chart" target="_blank" rel="noopener" >BinderHub helm chart&lt;/a>
 &lt;em>includes&lt;/em> a JupyterHub as a dependency, and configures itself to be used primarily in a manner similar to
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://mybinder.org" target="_blank" rel="noopener" >mybinder.org&lt;/a>
 . As the person who helped make that choice early on, I can tell you why it was made - for convenience! And it &lt;em>was&lt;/em> very convenient, as it allowed us to get mybinder.org going fast. However, it makes it difficult to install a BinderHub service &lt;em>alongside&lt;/em> an existing JupyterHub. To this end, we have created a standalone
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/2i2c-org/binderhub-service/" target="_blank" rel="noopener" >BinderHub helm chart&lt;/a>
 , designed to be installed &lt;em>alongside&lt;/em> an existing JupyterHub, so we can use it &lt;em>purely&lt;/em> to build images. This allows the BinderHub instance to be used as a
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://jupyterhub.readthedocs.io/en/stable/reference/services.html" target="_blank" rel="noopener" >JupyterHub Service&lt;/a>
 , which is what we want.&lt;/p>
 &lt;p>While this helm chart is currently under the 2i2c GitHub org, the hope is that it can eventually migrate to a
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/jupyterhub/team-compass/issues/519" target="_blank" rel="noopener" >jupyterhub-contrib&lt;/a>
 organization (once it is created), or it can become the upstream helm chart for BinderHub if enough work can be done in BinderHub to allow it to serve use cases like mybinder.org.&lt;/p>
 &lt;p>As part of this work, we also added a way for BinderHub to run in
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/jupyterhub/binderhub/pull/1647" target="_blank" rel="noopener" >API only mode&lt;/a>
 , so we can fully turn off the UI &lt;em>and&lt;/em> launching ability of BinderHub. This change decoupled the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="" >three responsibilities of BinderHub&lt;/a>
 we discussed previously, allowing us to bring our own UI and JupyterHub. BinderHub could now be used &lt;em>purely&lt;/em> for its scalable image building features, which is exactly what we want!&lt;/p>
 &lt;h2 id="sustainably-extending-kubespawners-profilelist">
@@ -377,7 +326,6 @@ Sustainably extending KubeSpawner&amp;rsquo;s &lt;code>profileList&lt;/code>
 &lt;a class="header-anchor" href="#sustainably-extending-kubespawners-profilelist">#&lt;/a>
 &lt;/h2>&lt;p>We identified KubeSpawner&amp;rsquo;s &lt;code>profileList&lt;/code> feature as the ideal location for UI to dynamically build environments (container images), making it just another &amp;rsquo;environment choice&amp;rsquo; people can choose, along with picking the resources their server needs. From an end-user perspective, it was also the logical place for them to specify a repository to build into an environment, as they could already choose some pre-built environments from here. They can also select other arbitrary resources they want (such as memory, GPU, etc) from here as well. From a maintainer perspective, it helps with long-term maintenance of the JupyterHub projects.&lt;/p>
 &lt;p>The implementation of &lt;code>profileList&lt;/code> however, was not easy to extend at this point. So
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/jupyterhub/kubespawner/pull/724" target="_blank" rel="noopener" >this PR&lt;/a>
 improved how easy it was to extend it in more complex ways, without making the implementation in KubeSpawner itself complicated. Even though this had &lt;em>no&lt;/em> visible end-user effects, it was an extremely important step in allowing us to experiment with UI in a &lt;em>sustainable&lt;/em> way without having to rely on upstream. These kinds of changes can sometimes be hard to sell to stakeholders but are extremely important in ensuring a continuous and sustainable relationship with upstream.&lt;/p>
 &lt;h2 id="implementing-unlisted_choice-feature-in-kubespawner">
@@ -385,28 +333,20 @@ Implementing &lt;code>unlisted_choice&lt;/code> feature in KubeSpawner
 &lt;a class="header-anchor" href="#implementing-unlisted_choice-feature-in-kubespawner">#&lt;/a>
 &lt;/h2>&lt;p>The profileList feature was built to allow JupyterHub &lt;em>admins&lt;/em> to specify an explicit list of container images the end-user can choose from. It did not have a way for any choice that was &lt;em>not&lt;/em> pre-approved by the admin to be used. We needed this feature since the BinderHub API will build a new docker image for each environment the user wants, and so this can not be chosen from a pre-approved list. We had to safely add this feature to KubeSpawner in such a way that it was generally useful to everyone. Many other communities had been asking for such a feature anyway - the ability to simply &amp;rsquo;type in&amp;rsquo; an image and have that be used.&lt;/p>
 &lt;p>
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://www.earthdata.nasa.gov/esds/veda" target="_blank" rel="noopener" >NASA VEDA&lt;/a>
 was one such community, so we partnered with
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/batpad/" target="_blank" rel="noopener" >Sanjay Bhangar&lt;/a>
 from
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://developmentseed.org/" target="_blank" rel="noopener" >Development Seed&lt;/a>
 (an organization that helps run NASA VEDA) to implement this feature. Engineers from 2i2c contributed heavily to this feature as well, and after &lt;em>several&lt;/em> PRs (
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/jupyterhub/kubespawner/pull/735" target="_blank" rel="noopener" >1&lt;/a>
 ,
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/jupyterhub/kubespawner/pull/766" target="_blank" rel="noopener" >2&lt;/a>
 ,
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/jupyterhub/kubespawner/pull/773" target="_blank" rel="noopener" >3&lt;/a>
 ,
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/jupyterhub/kubespawner/pull/774" target="_blank" rel="noopener" >4&lt;/a>
 and
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/jupyterhub/kubespawner/pull/777" target="_blank" rel="noopener" >5&lt;/a>
 ), this feature is now available for everyone to use!&lt;/p>
 &lt;p>
@@ -421,91 +361,65 @@ and
 &lt;a class="header-anchor" href="#jupyterhub-fancy-profiles">#&lt;/a>
 &lt;/h2>&lt;p>Once we had all these pieces in place, it was time to actually work on the frontend UI that would allow users to build images dynamically and launch them. Since this will replace the &amp;lsquo;profileList&amp;rsquo; feature, it should also allow them to select different resources (RAM, CPU, etc) as needed, as well as type in an existing image if they desire. So it was a full re-implementation of the &lt;code>profileList&lt;/code> frontend.&lt;/p>
 &lt;p>This is ongoing now at the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/yuvipanda/jupyterhub-fancy-profiles" target="_blank" rel="noopener" >jupyterhub-fancy-profiles&lt;/a>
 project. It is a pure frontend web application, using modern frontend tooling (
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://react.dev/" target="_blank" rel="noopener" >React&lt;/a>
 ,
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://webpack.js.org/" target="_blank" rel="noopener" >webpack&lt;/a>
 ,
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://babeljs.io/" target="_blank" rel="noopener" >Babel&lt;/a>
 , etc) and written in JavaScript. It&amp;rsquo;s gone through a few revisions, but the demo provided earlier in the blog post is in its current state. Because the default profileList implementation is pure HTML / CSS with very &lt;em>minimal&lt;/em> JS, it is limited in what kind of UX it could have. &lt;code>jupyterhub-fancy-profiles&lt;/code> aims to be very helpful &lt;em>even&lt;/em> when dynamic image-building features are not enabled on a JupyterHub. We hope to roll this out to a few JupyterHubs and improve it over time based on feedback.&lt;/p>
 &lt;h2 id="jupyterhubbinderhub-clienthttpswwwnpmjscompackagejupyterhubbinderhub-client-npm-package">
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://www.npmjs.com/package/@jupyterhub/binderhub-client" target="_blank" rel="noopener" >&lt;code>jupyterhub/@binderhub-client&lt;/code>&lt;/a>
 npm package
 &lt;a class="header-anchor" href="#jupyterhubbinderhub-clienthttpswwwnpmjscompackagejupyterhubbinderhub-client-npm-package">#&lt;/a>
 &lt;/h2>&lt;p>While building &lt;code>jupyterhub-fancy-profiles&lt;/code>, we wanted to use the &lt;em>same&lt;/em> javascript code used by BinderHub frontend to interact with the BinderHub API, instead of re-implementing it. However, the existing BinderHub JavaScript code was not easily consumable by external projects. We refactored the code, added tests, migrated to use modern JS practices and published the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://www.npmjs.com/package/@jupyterhub/binderhub-client" target="_blank" rel="noopener" >&lt;code>jupyterhub/@binderhub-client&lt;/code> NPM package&lt;/a>
 that can be used not just by &lt;code>jupyerhub-fancy-profiles&lt;/code> but any external project for talking to the BinderHub API.&lt;/p>
 &lt;p>This had to be done in such a way that current BinderHub installations (such as mybinder.org) do not break. That took quite a few pull requests:
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/jupyterhub/binderhub/pull/1689" target="_blank" rel="noopener" >1&lt;/a>
 ,
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/jupyterhub/binderhub/pull/1693" target="_blank" rel="noopener" >2&lt;/a>
 ,
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/jupyterhub/binderhub/pull/1694" target="_blank" rel="noopener" >3&lt;/a>
 ,
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/jupyterhub/binderhub/pull/1741" target="_blank" rel="noopener" >4&lt;/a>
 ,
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/jupyterhub/binderhub/pull/1742" target="_blank" rel="noopener" >5&lt;/a>
 ,
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/jupyterhub/binderhub/pull/1758" target="_blank" rel="noopener" >6&lt;/a>
 ,
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/jupyterhub/binderhub/pull/1761" target="_blank" rel="noopener" >7&lt;/a>
 ,
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/jupyterhub/binderhub/pull/1771" target="_blank" rel="noopener" >8&lt;/a>
 ,
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/jupyterhub/binderhub/pull/1773" target="_blank" rel="noopener" >9&lt;/a>
 ,
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/jupyterhub/binderhub/pull/1775" target="_blank" rel="noopener" >10&lt;/a>
 ,
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/jupyterhub/binderhub/pull/1778" target="_blank" rel="noopener" >11&lt;/a>
 ,
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/jupyterhub/binderhub/pull/1779" target="_blank" rel="noopener" >12&lt;/a>
 ,
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/jupyterhub/binderhub/pull/1781" target="_blank" rel="noopener" >13&lt;/a>
 ,
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/jupyterhub/binderhub/pull/1782" target="_blank" rel="noopener" >14&lt;/a>
 ,
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/jupyterhub/binderhub/pull/1783" target="_blank" rel="noopener" >15&lt;/a>
 . This refactoring work was very helpful to us, and also appreciated by the broader community.&lt;/p>
 &lt;h2 id="defending-against-cryptojacking-with-cryptnono">
 Defending against cryptojacking with &lt;code>cryptnono&lt;/code>
 &lt;a class="header-anchor" href="#defending-against-cryptojacking-with-cryptnono">#&lt;/a>
 &lt;/h2>&lt;p>For Open Science to flourish, we need to allow access to resources without login / paywalls wherever possible. A new menace against this has been
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://www.interpol.int/en/Crimes/Cybercrime/Cryptojacking" target="_blank" rel="noopener" >cryptojacking&lt;/a>
 - where attackers use up any and all available free compute to mine cryptocurrencies. This has affected &lt;em>many&lt;/em> folks on the internet, including
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://www.bleepingcomputer.com/news/security/github-actions-being-actively-abused-to-mine-cryptocurrency-on-github-servers/" target="_blank" rel="noopener" >GitHub Actions&lt;/a>
 and mybinder.org, the primary public BinderHub installation. mybinder.org has some extra protections against cryptojacking that aren&amp;rsquo;t easily usable elsewhere, and this has unfortunately meant that the demo JupyterHubs we have with these features enabled have been behind a login wall. I personally believe login walls are long term antithetical to open science, and so this was an important problem to solve.&lt;/p>
 &lt;p>
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/cryptnono/cryptnono" target="_blank" rel="noopener" >cryptnono&lt;/a>
 is an open source project designed to help fight cryptojacking, and as part of this grant we ported some of this functionality out of mybinder.org specific code into cryptnono, so other deployments may also benefit from it! We also migrated to using the super efficient
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://ebpf.io/" target="_blank" rel="noopener" >ebpf&lt;/a>
 Linux Kernel subsystem, allowing for more complex heuristics to catch a much broader range of cryptomining activity. We have been slowly tweaking the config on mybinder.org, and it has proven to be very effective! This will be very helpful for &lt;em>anyone&lt;/em> who wants to provide a JupyterHub (or any other computational service) without a login wall. If you are interested in using cryptnono in this fashion, please
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/cryptnono/cryptnono/issues" target="_blank" rel="noopener" >reach out to us&lt;/a>
 so we can work together!&lt;/p>
 &lt;h2 id="explored-pathways-that-were-then-discarded">
@@ -514,11 +428,9 @@ Explored pathways that were then discarded
 &lt;/h2>&lt;p>List of things that were tried and then decided as not good pathways:&lt;/p>
 &lt;ul>
 &lt;li>
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/consideRatio/repo2docker-service" target="_blank" rel="noopener" >repo2docker-service&lt;/a>
 , a separate JupyterHub service that could &lt;em>only&lt;/em> build images. As we worked on it, we realized that it was replicating a lot of features that BinderHub already has, so we pivoted to working on BinderHub directly instead.&lt;/li>
 &lt;li>Building off of
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/plasmabio/tljh-repo2docker" target="_blank" rel="noopener" >tljh-repo2docker&lt;/a>
 . While this already had a nice UI, it would be hard to port it to run on a distributed Kubernetes environment without it becoming a &amp;lsquo;hard fork&amp;rsquo;.&lt;/li>
 &lt;/ul>
@@ -527,14 +439,11 @@ Explored pathways that were then discarded
 Want to try this out?
 &lt;a class="header-anchor" href="#want-to-try-this-out">#&lt;/a>
 &lt;/h2>&lt;p>We have a demo of this running at
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://imagebuilding-demo.2i2c.cloud" target="_blank" rel="noopener" >imagebuilding-demo.2i2c.cloud&lt;/a>
 , but unfortunately as we are still fine-tuning &lt;code>cryptnono&lt;/code> config, at this moment it is not open to the public. Please
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="" >contact me&lt;/a>
 with your GitHub account if you want access, and promise to not be a cryptominer and you shall be granted access.&lt;/p>
 &lt;p>Want to set this up on your own JupyterHub? There is some
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/2i2c-org/binderhub-service/pull/72" target="_blank" rel="noopener" >work in progress&lt;/a>
 documentation and more is being worked on. Drop a line in the linked pull request and we&amp;rsquo;ll be happy to help. The eventual goal is for &lt;em>anyone&lt;/em> to be able to simply follow documentation and set this up for themselves.&lt;/p>
 &lt;h2 id="future-work">
@@ -543,7 +452,6 @@ Future work
 &lt;/h2>&lt;p>This is not complete of course, and there is a lot of future work to be done.&lt;/p>
 &lt;ol>
 &lt;li>mybinder.org also helps you distribute your &lt;em>content&lt;/em>, not just the environment for your code to run in. Since JupyterHub usually comes with a persistent home directory for the user,
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/jupyterhub/nbgitpuller/" target="_blank" rel="noopener" >nbgitpuller&lt;/a>
 is commonly used for this purpose instead. We should explore ways to integrate nbgitpuller (and other ways to distribute content) in the future.&lt;/li>
 &lt;li>More thorough documentation for how you can recreate what is in the demo for yourself in your own JupyterHub installation.&lt;/li>
@@ -557,51 +465,37 @@ Credit
 &lt;/h2>&lt;p>All this work would not be possible without a large group of collaborators!&lt;/p>
 &lt;ul>
 &lt;li>From 2i2c:
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/consideRatio" target="_blank" rel="noopener" >Erik Sundell&lt;/a>
 ,
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/GeorgianaElena" target="_blank" rel="noopener" >Georgiana Elena&lt;/a>
 ,
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://words.yuvi.in/" target="_blank" rel="noopener" >Yuvi&lt;/a>
 ,
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/jmunroe" target="_blank" rel="noopener" >James Munroe&lt;/a>
 , and
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/damianavila" target="_blank" rel="noopener" >Damián Avila&lt;/a>
 .&lt;/li>
 &lt;li>The
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/gesiscss/persistent_BinderHub/" target="_blank" rel="noopener" >persistent BinderHub&lt;/a>
 project was the direct inspiration for all this work, with particular thanks to
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/bitnik" target="_blank" rel="noopener" >Kenan Erdogan&lt;/a>
 .&lt;/li>
 &lt;li>The
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/plasmabio/tljh-repo2docker" target="_blank" rel="noopener" >tljh-repo2docker&lt;/a>
 project, which explores similar ideas in the context of running only on a single node.&lt;/li>
 &lt;li>The broad JupyterHub and MyBinder.org community, particularly
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/manics" target="_blank" rel="noopener" >Simon Li&lt;/a>
 and
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/minrk/" target="_blank" rel="noopener" >MinRK&lt;/a>
 .&lt;/li>
 &lt;li>Funding generously provided by
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="http://gesis.org" target="_blank" rel="noopener" >GESIS&lt;/a>
 in cooperation with NFDI4DS (project number:
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://gepris.dfg.de/gepris/projekt/460234259?context=projekt&amp;amp;task=showDetail&amp;amp;id=460234259&amp;amp;" target="_blank" rel="noopener" >460234259&lt;/a>
 ) and
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://www.cessda.eu" target="_blank" rel="noopener" >CESSDA&lt;/a>
 .&lt;/li>
 &lt;li>
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://www.gesis.org/en/institute/staff/person/arnim.bleier" target="_blank" rel="noopener" >Arnim Bleier&lt;/a>
 from GESIS was &lt;em>instrumental&lt;/em> in making this project happen.&lt;/li>
 &lt;/ul></description></item><item><title>Community Update: October 2023</title><link>https://2i2c.org/blog/2023/update-october/</link><pubDate>Fri, 10 Nov 2023 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2023/update-october/</guid><description>&lt;p>Over the past few months, we&amp;rsquo;ve been investigating ways to improve our reporting both internally and externally.
@@ -634,32 +528,26 @@ Our hope is that this allows us to make strategic &amp;ldquo;pushes&amp;rdquo; i
 &lt;p>This quarter, we incorporated a lot of learning that took place after our first iteration in Q3 2023.
 We are hoping to sharpen up the timing of events throughout the process, including communicating internally and externally about our status (thus, this blog post series).&lt;/p>
 &lt;p>In the next quarter, we aim to build off of this work, and to identify where our future new hires of
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://2i2c.org/jobs/2023/delivery-manager/" >Delivery Manager / Interim Chief of Staff&lt;/a>
 and our
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://2i2c.org/jobs/2023/product-lead/" >Product Lead&lt;/a>
 will fit in.&lt;/p>
 &lt;h3 id="three-new-jobs-posted">
 Three New Jobs Posted
 &lt;a class="header-anchor" href="#three-new-jobs-posted">#&lt;/a>
 &lt;/h3>&lt;p>In October, we began a short hiring push to address many of the organizational challenges noted in
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="" >our organizational structure and strategy audit&lt;/a>
 .
 We aim to have each of these positions filled by the end of the year and begin incorporating new team members into our organization.
 Here&amp;rsquo;s a list of the three job postings:&lt;/p>
 &lt;ul>
 &lt;li>
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://2i2c.org/jobs/2023/delivery-manager/" >Delivery Manager / Interim Chief of Staff&lt;/a>
 &lt;/li>
 &lt;li>
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://2i2c.org/jobs/2023/product-lead/" >Product Lead&lt;/a>
 &lt;/li>
 &lt;li>
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://2i2c.org/jobs/2023/23qq4-open-source-infrastructure-engineer/" >Open Source Infrastructure Engineer: Cloud Engineering&lt;/a>
 &lt;/li>
 &lt;/ul>
@@ -667,7 +555,6 @@ Here&amp;rsquo;s a list of the three job postings:&lt;/p>
 Product Strategy Work
 &lt;a class="header-anchor" href="#product-strategy-work">#&lt;/a>
 &lt;/h3>&lt;p>We kicked off a collaboration with
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://richardpope.org/" target="_blank" rel="noopener" >Richard Pope&lt;/a>
 to provide us with some short-term product strategy work.
 In Q3, our team took stock of the many different kinds of services and technology that we deploy, aiming to refine this into a long-term product model.&lt;/p>
@@ -677,7 +564,6 @@ We&amp;rsquo;ll provide more updates for the community as this work continues.&l
 Continued Onboarding of Communities in Our Catalyst Project Collaboration
 &lt;a class="header-anchor" href="#continued-onboarding-of-communities-in-our-catalyst-project-collaboration">#&lt;/a>
 &lt;/h3>&lt;p>We continued onboarding communities onto infrastructure managed by 2i2c as part of a
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="" >CZI-funded project to serve communities in Latin America and Africa&lt;/a>
 .
 The grant team began its operations last April and spent the first several months creating an onboarding pipeline and rubric for identifying and connecting with communities.
@@ -688,36 +574,28 @@ Partnerships and Impact
 &lt;/h2>&lt;p>&lt;em>This section describes notable new partnerships and developments with communities in our interactive computing hub service.&lt;/em>&lt;/p>
 &lt;p>We began several new partnerships with communities in the research space this month.&lt;/p>
 &lt;p>The
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://www.earthdata.nasa.gov/esds/veda" target="_blank" rel="noopener" >NASA Visualization, Exploration, and Data Analysis (VEDA)&lt;/a>
 project is an open-source science cyberinfrastructure for data processing, visualization, exploration, and geographic information systems (GIS) capabilities.&lt;/p>
 &lt;p>The
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://us-ghg-center.github.io/ghgc-docs/" target="_blank" rel="noopener" >US Greenhouse Gas Center&lt;/a>
 provides a cloud-based system for exploring and analyzing U.S. government and other curated greenhouse gas datasets.&lt;/p>
 &lt;p>In addition, we&amp;rsquo;ve celebrated considerable growth in one of our partner communities:
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://cryointhecloud.com/" target="_blank" rel="noopener" >CryoCloud&lt;/a>
 .
 This community focuses its work around studying the Cryosphere using satellite imagery data.
 They&amp;rsquo;ve grown their community hub to roughly 300 users in a year and have piloted several novel interfaces for data analysis in a JupyterHub context, such as using
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://qgis.org/" target="_blank" rel="noopener" >QGIS&lt;/a>
 via a Linux desktop browser.&lt;/p>
 &lt;p>2i2c team members also gave several talks in October, and you can find links to each of these below:&lt;/p>
 &lt;ul>
 &lt;li>
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://www.youtube.com/watch?v=coKoUoUzLPk" target="_blank" rel="noopener" >Chris Holdgraf on 2i2c&amp;rsquo;s overall purpose and operations thus far&lt;/a>
 , delivered at the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://pslmodels.org/index.html" target="_blank" rel="noopener" >Policy Simulation Library demo day&lt;/a>
 .&lt;/li>
 &lt;li>
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://www.youtube.com/watch?v=SHUSoXgRAho" target="_blank" rel="noopener" >Jim Colliander on the impact 2i2c wishes to have and what it means for open science&lt;/a>
 , delivered to
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://wiki.esipfed.org/Main_Page" target="_blank" rel="noopener" >the ESIP community&lt;/a>
 .&lt;/li>
 &lt;/ul>
@@ -741,7 +619,6 @@ We aim to explore ways to automate and standardize this process in the future.&l
 Jim and Chris both gave talks that leaned heavily into the notion of open tools and services as &amp;ldquo;Digital Public Goods&amp;rdquo;.
 As public goods, it is important that they remain &amp;ldquo;driven by the public&amp;rdquo; and that they have sustainable and scalable models to grow the value that these goods provide.
 We&amp;rsquo;ve noted that this topic resonates heavily with people across the research and education spectrum, and we&amp;rsquo;re considering how to lean into these values more heavily in 2i2c.&lt;/p></description></item><item><title>Open organizational report: Strengths and challenges for 2i2c's team</title><link>https://2i2c.org/blog/2023/organizational-report/</link><pubDate>Wed, 08 Nov 2023 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2023/organizational-report/</guid><description>&lt;p>Over the last several months 2i2c has been working with an organizational consulting group called
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://www.makeadifference.digital/" target="_blank" rel="noopener" >Difference Digital&lt;/a>
 to help us identify the major opportunities and challenges in our organizational structure and strategy.
 The result of this work is a report that describes in detail the major strengths, weaknesses, challenges, and opportunities that 2i2c faces. It also recommends major actions to take as an organization.&lt;/p>
@@ -752,7 +629,6 @@ We wouldn&amp;rsquo;t be where we are without building on the backs of others wh
 &lt;p>So, we are making this organizational audit and report public for anyone to see.
 We hope that it provides transparency into 2i2c&amp;rsquo;s current status, and that it serves as a useful resource for other non-profits that are growing and facing similar challenges.&lt;/p>
 &lt;p>
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://zenodo.org/records/10081003" target="_blank" rel="noopener" >Here&amp;rsquo;s a link to the report on Zenodo&lt;/a>
 .&lt;/p>
 &lt;p>For more background on this report, check out the short description below.&lt;/p>
@@ -762,57 +638,45 @@ We were excited and grateful to have the opportunity to speak to each other face
 We also learned that many people on our team were stressed out!
 Our service had grown slow-but-steadily over the previous year, and we were feeling the tension that comes with growing your partnerships without significantly changing your team&amp;rsquo;s capacity or structure.&lt;/p>
 &lt;p>So, we decided to work with an organizational consulting group called
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://www.makeadifference.digital/" target="_blank" rel="noopener" >makeadifference.digital&lt;/a>
 to help us identify where we need to make improvements.
 They spent several weeks having one-on-one conversations with each member of the team, as well as doing a broader organizational analysis and comparison to other technical organizations at a similar stage of their lifecycle.&lt;/p>
 &lt;p>The result of this work was a report that outlines the major opportunities and strengths, as well as challenges and gaps in capacity, that our team currently faces.
 It makes a number of recommendations for how we should shift our practices, and importantly it also notes that the only way to gain that capacity is by hiring for new people and skills.&lt;/p>
 &lt;p>
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://zenodo.org/records/10081003" target="_blank" rel="noopener" >Here&amp;rsquo;s a link to the report on Zenodo&lt;/a>
 .&lt;/p>
 &lt;p>The immediate result of this work is that we currently have three jobs posted:&lt;/p>
 &lt;ul>
 &lt;li>
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://2i2c.org/jobs/2023/product-lead/" >A Product Lead role&lt;/a>
 to help us build a &amp;ldquo;product function&amp;rdquo; within 2i2c&amp;rsquo;s team.&lt;/li>
 &lt;li>
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://2i2c.org/jobs/2023/delivery-manager/" >A Delivery Manager / Chief of Staff role&lt;/a>
 to oversee and manage 2i2c&amp;rsquo;s system of work.&lt;/li>
 &lt;li>
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://2i2c.org/jobs/2023/23qq4-open-source-infrastructure-engineer/" >A cloud and operations engineering role&lt;/a>
 to grow our cloud engineering team&amp;rsquo;s capacity in serving communities.&lt;/li>
 &lt;/ul>
 &lt;p>Our next steps are to fill these positions, and to then begin the work of implementing many of the recommendations that are contained in the report.
 We&amp;rsquo;re confident that this is a natural part of being a small and growing organization, and we are grateful for the expertise of
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://www.makeadifference.digital" target="_blank" rel="noopener" >makeadifference.digital&lt;/a>
 in guiding us through this work.&lt;/p>
 &lt;p>&lt;em>Note: if you&amp;rsquo;d like to work with
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://www.makeadifference.digital" target="_blank" rel="noopener" >makeadifference.digital&lt;/a>
 , you can reach out to them at
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="" >&lt;code>hello@makeadifference.digital&lt;/code>&lt;/a>
 &lt;/em>.&lt;/p>
 &lt;div class="about-us">
 &lt;blockquote>
 &lt;p>💡 Follow our work!
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="http://eepurl.com/hjHbff" target="_blank" rel="noopener" >Sign up for our mailing list&lt;/a>
 for updates about 2i2c.
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="" >Send us an e-mail about collaborating or partnering&lt;/a>
 on a project.
 See our
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://docs.2i2c.org" target="_blank" rel="noopener" >Service Documentation&lt;/a>
 or our
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://compass.2i2c.org" target="_blank" rel="noopener" >Team Compass&lt;/a>
 to learn about our service and organization.&lt;/p>
 &lt;/blockquote>
@@ -827,32 +691,24 @@ How has our service evolved over the past few months?
 New partnerships and service growth
 &lt;a class="header-anchor" href="#new-partnerships-and-service-growth">#&lt;/a>
 &lt;/h3>&lt;p>Our service has grown several new partner communities over the last two quarters. A few notable communities are
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://nasa-veda.2i2c.cloud/" target="_blank" rel="noopener" >the NASA VEDA project&lt;/a>
 , a
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://smithsonian.2i2c.cloud/" target="_blank" rel="noopener" >team at the Smithsonian&lt;/a>
 ,
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://ncar-cisl.2i2c.cloud/" target="_blank" rel="noopener" >a team at NCAR&lt;/a>
 , and the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://hub.ghg.center/" target="_blank" rel="noopener" >U.S. Greenhouse Gases Center&lt;/a>
 . We are running about &lt;strong>71 hubs across 24 clusters, with about 4000 weekly users&lt;/strong> (
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://2i2c.org/kpis/cloud/" target="_blank" rel="noopener" >more usage stats here&lt;/a>
 ).&lt;/p>
 &lt;p>We also began operations on a major collaboration to serve communities in Latin America and Africa, called
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://zenodo.org/records/7025288" target="_blank" rel="noopener" >the Catalyst Project&lt;/a>
 .
 This team met together for the first time in April, and we&amp;rsquo;ve been laying a foundation for service growth in the first several months.
 We are just onboarding our first communities and hope to grow that service in the coming year.&lt;/p>
 &lt;p>Finally, we&amp;rsquo;ve been fortunate to receive some grants around creating content and designing workflows that utilize cloud infrastructure. For example, a
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://nasa.github.io/Transform-to-Open-Science/open-science-101/" target="_blank" rel="noopener" >NASA TOPS grant&lt;/a>
 and an upcoming collaboration with
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://projectpythia.org/" target="_blank" rel="noopener" >Project Pythia&lt;/a>
 around geospatial workflows.&lt;/p>
 &lt;h3 id="financial-picture">
@@ -871,7 +727,6 @@ We&amp;rsquo;ve taken a &amp;ldquo;let&amp;rsquo;s make it work somehow&amp;rdqu
 &lt;p>This is exciting, and we&amp;rsquo;re fortunate to see the interest and growth in our service.
 It suggests to us that something about our model is fundamentally right.
 Communities really love the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://2i2c.org/right-to-replicate" target="_blank" rel="noopener" >Right to Replicate&lt;/a>
 , and our participatory service model based around upstream contributions, transparency, and shared responsibility is attractive to many in research and education.&lt;/p>
 &lt;p>However, each new community is also a new set of stresses on the technical and social infrastructure of our team.
@@ -884,12 +739,10 @@ Growing the complexity of our team to match the complexity of our service
 &lt;a class="header-anchor" href="#growing-the-complexity-of-our-team-to-match-the-complexity-of-our-service">#&lt;/a>
 &lt;/h2>&lt;p>So, for the past several months we&amp;rsquo;ve been working on a plan to evolve 2i2c&amp;rsquo;s team structure in order to more effectively manage the complexity of our service, and balance long- and short-term thinking.&lt;/p>
 &lt;p>This began with an organizational audit carried out by
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://www.makeadifference.digital/" target="_blank" rel="noopener" >makeadifference.digital&lt;/a>
 , a consulting group that focuses on tech-for-good and non-profit products and services.
 They conducted interviews with everybody on the team, and concluded that we have a few key functions missing that were creating or compounding the stresses people felt.&lt;/p>
 &lt;p>We hope to make some of their key findings public soon (Update: this is now available at
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://2i2c.org/blog/2023/organizational-report/" >this blog post about the organizational report&lt;/a>
 ), and in the meantime here is an overview of some highlights:&lt;/p>
 &lt;h3 id="we-need-a-dedicated-product-functionality">
@@ -902,7 +755,6 @@ After growing our service and our team, there are now too many perspectives and 
 Its goal will be to serve as an integrator across the many stakeholders that are interested in 2i2c&amp;rsquo;s service, and synthesize a collective product strategy and system of prioritization to move the organization forward.
 They&amp;rsquo;ll help 2i2c grow a culture of iteration and decisions that are driven by the needs of our community partners and users.&lt;/p>
 &lt;p>We&amp;rsquo;re
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://2i2c.org/jobs/2023/product-lead/" target="_blank" rel="noopener" >hiring a Product Lead&lt;/a>
 to kick off this effort.
 If you think you&amp;rsquo;d be interested in this role, please consider applying!&lt;/p>
@@ -917,7 +769,6 @@ We need capacity to oversee this system of work and bring some structure to it.&
 In addition, this role will serve at an organization-wide capacity as an &lt;strong>interim Chief of Staff&lt;/strong>.
 This will allow them to improve and standardize practices organization-wide, and coordinate major projects that span our team.&lt;/p>
 &lt;p>You can find a
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://2i2c.org/jobs/2023/delivery-manager/" target="_blank" rel="noopener" >job posting for a Delivery Manager / interrim Chief of Staff&lt;/a>
 role.
 If you think you&amp;rsquo;d be interested, please apply!&lt;/p>
@@ -937,7 +788,6 @@ We need more engineering capacity
 &lt;/h3>&lt;p>Finally, we also realized we need more cloud engineering capacity on our team, particularly in a timezone that overlaps with the American continents.
 This will give our team a bit more breathing room to balance reactive and project-based work, and have more capacity to focus on personal growth and learning.&lt;/p>
 &lt;p>You can find our
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://2i2c.org/jobs/2023/23qq4-open-source-infrastructure-engineer/" target="_blank" rel="noopener" >Open Source Infrastructure Engineer&lt;/a>
 job post here if you&amp;rsquo;re interested.&lt;/p>
 &lt;h2 id="whats-up-next-for-our-team">
@@ -962,17 +812,13 @@ We&amp;rsquo;re excited to tackle them and to continue growing our impact and pa
 &lt;div class="about-us">
 &lt;blockquote>
 &lt;p>💡 Follow our work!
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="http://eepurl.com/hjHbff" target="_blank" rel="noopener" >Sign up for our mailing list&lt;/a>
 for updates about 2i2c.
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="" >Send us an e-mail about collaborating or partnering&lt;/a>
 on a project.
 See our
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://docs.2i2c.org" target="_blank" rel="noopener" >Service Documentation&lt;/a>
 or our
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://compass.2i2c.org" target="_blank" rel="noopener" >Team Compass&lt;/a>
 to learn about our service and organization.&lt;/p>
 &lt;/blockquote>
@@ -980,10 +826,8 @@ to learn about our service and organization.&lt;/p>
 As we continue to grow and evolve, it&amp;rsquo;s essential that our branding communicates who we are, what we stand for, and how we envision our future.
 We hope that this new design will unify our visual style across the many places where 2i2c operates.&lt;/p>
 &lt;p>In pursuit of these objectives, we teamed up with
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://www.linkedin.com/in/zacharia-adell-230a3399" target="_blank" rel="noopener" >Zack Adell&lt;/a>
 , a designer based in Nairobi who has worked with several similar projects over the years (having most-recently overhauled the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://investinopen.org/blog/introducing-our-new-logo-and-visual-identity/" target="_blank" rel="noopener" >Invest in Open Infrastructure brand design&lt;/a>
 ).
 After several rounds of brainstorming, design reviews, and fine-tuning, we&amp;rsquo;ve landed on a visual identity that resonates with our organization.&lt;/p>
@@ -991,7 +835,6 @@ After several rounds of brainstorming, design reviews, and fine-tuning, we&amp;r
 Meet Our New Logo and design system
 &lt;a class="header-anchor" href="#meet-our-new-logo-and-design-system">#&lt;/a>
 &lt;/h2>&lt;p>Zack has created
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://docs.google.com/presentation/d/1O36_yjTSKiXB9_yAnj4QnF_sob1z_GQmcfIVrZ_ymeY/edit?usp=sharing" target="_blank" rel="noopener" >a set of Brand Guidelines&lt;/a>
 that will guide our use of color and visual style in 2i2c&amp;rsquo;s materials.&lt;/p>
 &lt;p>Below is our new logo in square and wide form:&lt;/p>
@@ -1095,10 +938,8 @@ We can&amp;rsquo;t wait for you to see it in action, and are excited to hear wha
 &lt;blockquote>
 &lt;p>❗ &lt;strong>Note&lt;/strong>&lt;/p>
 &lt;p>If you&amp;rsquo;d like to get in touch with Zack Adell, please reach out on
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://www.linkedin.com/in/zacharia-adell-230a3399/" target="_blank" rel="noopener" >his LinkedIn profile&lt;/a>
 , or
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://www.instagram.com/iamzackadell/" target="_blank" rel="noopener" >his Instagram account&lt;/a>
 .&lt;/p>
 &lt;/blockquote></description></item><item><title>Community update Q1 2023: Growing our community partner network and our team</title><link>https://2i2c.org/blog/2023/2023-q1-update/</link><pubDate>Fri, 28 Apr 2023 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2023/2023-q1-update/</guid><description>&lt;p>It&amp;rsquo;s a month after the end of Q1 2023, and we&amp;rsquo;d like to share a belated update about what we were up to in the first quarter of this year (we have good excuses for being late, including new tiny humans, I promise).&lt;/p>
@@ -1112,30 +953,23 @@ New community partnerships
 We&amp;rsquo;ve deployed new hub infrastructure for each of the following groups:&lt;/p>
 &lt;ul>
 &lt;li>Our
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://act.utoronto.ca/jupyterhub-support/" target="_blank" rel="noopener" >University of Toronto Jupyter service&lt;/a>
 now has a dedicated R hub.&lt;/li>
 &lt;li>We ran an event hub for the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://www.drakkar-ocean.eu/" target="_blank" rel="noopener" >Drakkar Ocean project&lt;/a>
 &lt;/li>
 &lt;li>We deployed a hub for the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://www.earthdata.nasa.gov/esds/veda" target="_blank" rel="noopener" >NASA Visuaslization Exploration and Data Analysis (VEDA) project&lt;/a>
 .&lt;/li>
 &lt;li>We deployed a hub for the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://www.linkedin.com/company/quantifiedcarbon/about/" target="_blank" rel="noopener" >QuantifiedCarbon&lt;/a>
 organization.&lt;/li>
 &lt;li>We ran an event hub for
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://oceanhackweek.org/" target="_blank" rel="noopener" >OceanHackWeek 2023&lt;/a>
 .&lt;/li>
 &lt;li>We onboarded several new community colleges to our &amp;ldquo;JupyterHubs Education in Community Colleges&amp;rdquo; collaboration with
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://www.cloudbank.org/welcome-cloudbank" target="_blank" rel="noopener" >CloudBank&lt;/a>
 and
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://data.berkeley.edu/" target="_blank" rel="noopener" >UC Berkeley CDSS&lt;/a>
 .&lt;/li>
 &lt;/ul>
@@ -1143,7 +977,6 @@ and
 Service improvements
 &lt;a class="header-anchor" href="#service-improvements">#&lt;/a>
 &lt;/h2>&lt;p>Below are a few highlights for ways in which we improved our
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://docs.2i2c.org" target="_blank" rel="noopener" >Managed Cloud Service&lt;/a>
 for our partner communities.&lt;/p>
 &lt;h3 id="we-simplified-our-authentication-workflow-with-cilogon">
@@ -1151,13 +984,10 @@ We simplified our authentication workflow with CILogon
 &lt;a class="header-anchor" href="#we-simplified-our-authentication-workflow-with-cilogon">#&lt;/a>
 &lt;/h3>&lt;p>Authentication services allow us to identify a user when they log onto a hub, which determines their ability to access hub resources.
 Previously we had used a combination of
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://auth0.com/" target="_blank" rel="noopener" >Auth0&lt;/a>
 ,
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://www.cilogon.org/" target="_blank" rel="noopener" >CILogon&lt;/a>
 , or
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://infrastructure.2i2c.org/hub-deployment-guide/configure-auth/github-orgs.html" target="_blank" rel="noopener" >GitHub&lt;/a>
 for authentication.&lt;/p>
 &lt;p>However, over the past year we&amp;rsquo;ve been happy with our use of CILogon so far, especially because of its non-profit status and alignment with many research and education institutions that we work with.
@@ -1165,11 +995,9 @@ This quarter, we decided to streamline our authentication process by dropping th
 &lt;p>💡 &lt;em>Learn more&lt;/em>&lt;/p>
 &lt;ul>
 &lt;li>See
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://www.ncsa.illinois.edu/security-made-simple-with-ncsas-cilogon/" target="_blank" rel="noopener" >CILogon&amp;rsquo;s write up about it&amp;rsquo;s partnership with 2i2c&lt;/a>
 &lt;/li>
 &lt;li>See
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://2i2c.org/blog/2023/cilogon-integration/" target="_blank" rel="noopener" >our blog post about our use of CILogon&lt;/a>
 &lt;/li>
 &lt;/ul>
@@ -1181,29 +1009,24 @@ For example, a teacher with a classroom of students, or a researcher with a glob
 &lt;p>In these cases, it&amp;rsquo;s useful to track how many users are actively using a platform over various metrics of time.
 This can tell you whether your community finds a service useful, and whether this is growing or shrinking.&lt;/p>
 &lt;p>We use
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://grafana.com/" target="_blank" rel="noopener" >Grafana&lt;/a>
 to automatically generate dashboards of activity for all of our community hubs and clusters.
 However, tracking &lt;strong>daily, weekly, and monthly active users&lt;/strong> was not part of JupyterHub&amp;rsquo;s core functionality.&lt;/p>
 &lt;p>So, we decided to upstream this functionality into JupyterHub and expose it via
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/jupyterhub/grafana-dashboards" target="_blank" rel="noopener" >the JupyterHub Grafana project&lt;/a>
 .
 All 2i2c hubs now track daily, weekly, and monthly unique active users.
 And importantly, anybody else deploying the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://z2jh.jupyter.org" target="_blank" rel="noopener" >Zero to JupyterHub for Kubernetes&lt;/a>
 can use this feature now too.&lt;/p>
 &lt;p>💡 &lt;em>Learn more&lt;/em>&lt;/p>
 &lt;p>See
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://blog.jupyter.org/accurately-counting-daily-weekly-monthly-active-users-on-jupyterhub-6fbec6c6ce2f" target="_blank" rel="noopener" >Yuvi&amp;rsquo;s blog post about this feature&lt;/a>
 .&lt;/p>
 &lt;h3 id="we-made-our-support-process-more-structured-with-a-new-support-widget">
 We made our support process more structured with a new support widget
 &lt;a class="header-anchor" href="#we-made-our-support-process-more-structured-with-a-new-support-widget">#&lt;/a>
 &lt;/h3>&lt;p>We&amp;rsquo;ve added a support widget to our
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://docs.2i2c.org" target="_blank" rel="noopener" >service documentation site&lt;/a>
 .
 This will allow users to provide structured support requests directly to our team, allowing us to triage and respond more quickly.&lt;/p>
@@ -1225,14 +1048,12 @@ Our fancy new support button!
 We upgraded Kubernetes across all of our AWS clusters
 &lt;a class="header-anchor" href="#we-upgraded-kubernetes-across-all-of-our-aws-clusters">#&lt;/a>
 &lt;/h3>&lt;p>
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://kubernetes.org" target="_blank" rel="noopener" >Kubernetes&lt;/a>
 is at the core of our cloud infrastructure and scalability.
 We use either a shared or a dedicated Kubernetes cluster for each of our community partners, and it is the foundation upon which all of their Jupyter infrastructure rests.&lt;/p>
 &lt;p>One of the biggest challenges with managing an ongoing cloud service is keeping the underlying infrastructure upgraded.
 This brings in new stability and functionality, but also often involves manual steps and toil.
 This quarter, we upgraded each of our AWS JupyterHubs to
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.24.md" target="_blank" rel="noopener" >Kubernetes 1.24&lt;/a>
 and will continue this effort with other providers in the coming quarters.&lt;/p>
 &lt;h3 id="we-streamlined-our-hub-uptime-checks-to-be-more-efficient">
@@ -1240,10 +1061,8 @@ We streamlined our hub uptime checks to be more efficient
 &lt;a class="header-anchor" href="#we-streamlined-our-hub-uptime-checks-to-be-more-efficient">#&lt;/a>
 &lt;/h3>&lt;p>The best kinds of failures are ones that your operations team recognizes and solves before any users run into the problem themselves.
 We use the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://cloud.google.com/monitoring/uptime-checks" target="_blank" rel="noopener" >Google Cloud Platform HTTP uptime checker&lt;/a>
 to
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://infrastructure.2i2c.org/topic/monitoring-alerting/uptime-checks.html#simple-https-uptime-checks" target="_blank" rel="noopener" >run regular uptime checks for each of the community hubs that we use&lt;/a>
 .
 This allows us to get quick alerts if any of our community hubs is down for some reason.&lt;/p>
@@ -1257,47 +1076,38 @@ We defined organizational principles around engaging in healthy ways with open s
 &lt;a class="header-anchor" href="#we-defined-organizational-principles-around-engaging-in-healthy-ways-with-open-source-communities">#&lt;/a>
 &lt;/h3>&lt;p>2i2c interacts with many open source communities throughout its work, due to the fact that the majority of the improvements we make are done via &lt;strong>upstream contributions&lt;/strong>.
 We define
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://compass.2i2c.org/organization/mission/#key-stakeholders" target="_blank" rel="noopener" >several key open source communities&lt;/a>
 that we interact with, and we needed a philosophy and set of practices to ensure that our relationship with them remains healthy and supportive.&lt;/p>
 &lt;p>💡 &lt;em>Learn more&lt;/em>&lt;/p>
 &lt;p>Check out &lt;em>
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://2i2c.org/blog/2023/open-source-funding-principles/" target="_blank" rel="noopener" >Principles and considerations for ethically accepting funding for open source&lt;/a>
 &lt;/em> for our first take on this, and
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://compass.2i2c.org/open-source/strategy/" target="_blank" rel="noopener" >our Open Source Strategy&lt;/a>
 page for our current team policies around this.&lt;/p>
 &lt;h3 id="we-responded-to-a-nasa-rfi-on-scientific-data-and-computing-architecture-to-support-open-science">
 We responded to a NASA RFI on &amp;ldquo;Scientific Data and Computing Architecture to Support Open Science&amp;rdquo;
 &lt;a class="header-anchor" href="#we-responded-to-a-nasa-rfi-on-scientific-data-and-computing-architecture-to-support-open-science">#&lt;/a>
 &lt;/h3>&lt;p>NASA recently put out a Request for Information around open science and open source infrastructure:
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://nspires.nasaprs.com/external/solicitations/summary.do?solId=%7B78AA81B6-A7B9-D934-20F8-7B3151DA59A2%7D&amp;amp;path=&amp;amp;method=init" target="_blank" rel="noopener" >NASA RFI NNH23ZDA005L: Scientific Data and Computing Architecture to Support Open Science&lt;/a>
 .
 We responded with some of our ideas around how to build more open, inclusive, collaborative scientific communities with cloud infrastructure and open source tools.&lt;/p>
 &lt;p>💡 &lt;em>Learn more&lt;/em>&lt;/p>
 &lt;p>
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://zenodo.org/record/7662828#.ZFEROBXMKrN" target="_blank" rel="noopener" >Check out our submission, &amp;ldquo;Building the open source stack&amp;rdquo;&lt;/a>
 .&lt;/p>
 &lt;h3 id="we-added-two-new-team-members-and-a-new-team-role">
 We added two new team members and a new team role
 &lt;a class="header-anchor" href="#we-added-two-new-team-members-and-a-new-team-role">#&lt;/a>
 &lt;/h3>&lt;p>Our
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://2i2c.org/organization/#faces" target="_blank" rel="noopener" >Open Engineering Team&lt;/a>
 continues to grow!
 We added a new team member to improve and manage our cloud infrastructure service:
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://2i2c.org/author/erik-sundell/" target="_blank" rel="noopener" >Erik Sundell&lt;/a>
 .
 As our team has grown, we have also had to manage more complexity in communicating and coordinating across a globally-distributed team of engineers.
 To help us manage this system, we&amp;rsquo;ve
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://compass.2i2c.org/engineering/roles/engineering-manager/" target="_blank" rel="noopener" >created a new Engineering Manager Role&lt;/a>
 and promoted
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://2i2c.org/author/damian-avila/" target="_blank" rel="noopener" >Damian Avila&lt;/a>
 as our team&amp;rsquo;s first engineering manager.&lt;/p>
 &lt;h3 id="openscapes-wrote-up-a-blog-post-about-our-cloud-service-collaboration">
@@ -1305,7 +1115,6 @@ OpenScapes wrote up a blog post about our cloud service collaboration
 &lt;a class="header-anchor" href="#openscapes-wrote-up-a-blog-post-about-our-cloud-service-collaboration">#&lt;/a>
 &lt;/h3>&lt;p>We got a nice shout-out from Luis Lopez at the OpenScapes project, describing the benefits of the cloud service that we run for their communities.
 Check out his blog post:
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://www.openscapes.org/blog/2022/11/17/nasa-earthdata-cloud-infrastructure/#cloud-optimized-data-formats" target="_blank" rel="noopener" >The why, what, and how of our NASA Openscapes cloud infrastructure: 2i2c JupyterHub and corn environment&lt;/a>
 .&lt;/p>
 &lt;h2 id="onward-to-q2">
@@ -1316,17 +1125,13 @@ We hope that this update provides a helpful idea of our priorities and major eff
 &lt;div class="about-us">
 &lt;blockquote>
 &lt;p>💡 Follow our work!
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="http://eepurl.com/hjHbff" target="_blank" rel="noopener" >Sign up for our mailing list&lt;/a>
 for updates about 2i2c.
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="" >Send us an e-mail about collaborating or partnering&lt;/a>
 on a project.
 See our
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://docs.2i2c.org" target="_blank" rel="noopener" >Service Documentation&lt;/a>
 or our
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://compass.2i2c.org" target="_blank" rel="noopener" >Team Compass&lt;/a>
 to learn about our service and organization.&lt;/p>
 &lt;/blockquote>
@@ -1334,7 +1139,6 @@ to learn about our service and organization.&lt;/p>
 This funding covers some core operations of 2i2c as well as engineering capacity to run our cloud infrastructure for JupyterHubs.&lt;/p>
 &lt;p>Below is a link to the 3-page grant narrative that summarizes some of our major progress and milestones from year two:&lt;/p>
 &lt;p>
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://zenodo.org/record/7319289" target="_blank" rel="noopener" >https://zenodo.org/record/7319289&lt;/a>
 &lt;/p></description></item><item><title>Celebrating our progress in Q3 2022</title><link>https://2i2c.org/blog/2022/q3-update/</link><pubDate>Sun, 16 Oct 2022 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2022/q3-update/</guid><description>&lt;p>Quarter 3 of 2022 has wrapped up, and the 2i2c team has been busy making improvements across our infrastructure, organization, and operations.
 This is a quick post to celebrate the work we&amp;rsquo;ve done over the past three months, and to briefly share what we&amp;rsquo;re working on next.&lt;/p>
@@ -1344,12 +1148,10 @@ This is a quick post to celebrate the work we&amp;rsquo;ve done over the past th
 &lt;p>These are the main highlights from this quarter - if you&amp;rsquo;d like to check out more of the work that we&amp;rsquo;ve done, see:&lt;/p>
 &lt;ul>
 &lt;li>
-&lt;p>// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
-&lt;a href="https://github.com/pulls?q=is%3Apr&amp;#43;merged%3A2022-07-01..2022-10-01&amp;#43;org%3A2i2c-org&amp;#43;archived%3Afalse&amp;#43;sort%3Aupdated-desc&amp;#43;" target="_blank" rel="noopener" >All the PRs we’ve merged in Q3&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://github.com/pulls?q=is%3Apr&amp;#43;merged%3A2022-07-01..2022-10-01&amp;#43;org%3A2i2c-org&amp;#43;archived%3Afalse&amp;#43;sort%3Aupdated-desc&amp;#43;" target="_blank" rel="noopener" >All the PRs we’ve merged in Q3&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
-&lt;a href="https://github.com/issues?page=4&amp;amp;q=is%3Aissue&amp;#43;closed%3A2022-07-01..2022-10-01&amp;#43;org%3A2i2c-org&amp;#43;sort%3Aupdated-desc" target="_blank" rel="noopener" >All closed issues in Q3&lt;/a>&lt;/p>
+&lt;p>&lt;a href="https://github.com/issues?page=4&amp;amp;q=is%3Aissue&amp;#43;closed%3A2022-07-01..2022-10-01&amp;#43;org%3A2i2c-org&amp;#43;sort%3Aupdated-desc" target="_blank" rel="noopener" >All closed issues in Q3&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ul>
 &lt;/div>
@@ -1361,71 +1163,56 @@ Community impact
 &lt;p>&lt;strong>New JupyterHubs for communities&lt;/strong>. We&amp;rsquo;ve deployed JupyterHubs for several new partner communities. Here&amp;rsquo;s a quick list:&lt;/p>
 &lt;ul>
 &lt;li>PaleoCube and PaleoHack Hubs
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/2i2c-org/infrastructure/issues/1418" target="_blank" rel="noopener" >infrastructure#1418&lt;/a>
 &lt;/li>
 &lt;li>NeuroHackademy 2022
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/2i2c-org/infrastructure/issues/1505" target="_blank" rel="noopener" >infrastructure#1505&lt;/a>
 &lt;/li>
 &lt;li>Alabama Water Institute CIROH hub
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/2i2c-org/infrastructure/issues/1444" target="_blank" rel="noopener" >infrastructure#1444&lt;/a>
 &lt;/li>
 &lt;li>OceanHackWeek 2022
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/2i2c-org/infrastructure/issues/1515" target="_blank" rel="noopener" >infrastructure#1515&lt;/a>
 &lt;/li>
 &lt;li>COESSING Pangeo-Style Hub
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/2i2c-org/infrastructure/issues/1516" target="_blank" rel="noopener" >infrastructure#1516&lt;/a>
 &lt;/li>
 &lt;li>Temple University Education Hub
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/2i2c-org/infrastructure/issues/1648" target="_blank" rel="noopener" >infrastructure#1648&lt;/a>
 &lt;/li>
 &lt;li>Callysto Hub
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/2i2c-org/infrastructure/issues/" target="_blank" rel="noopener" >infrastructure#1439&lt;/a>
 &lt;/li>
 &lt;li>London Interdisciplinary School
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/2i2c-org/infrastructure/issues/1485" target="_blank" rel="noopener" >infrastructure#1485&lt;/a>
 &lt;/li>
 &lt;/ul>
 &lt;p>We also ran hubs for several &lt;strong>community events&lt;/strong>:&lt;/p>
 &lt;ul>
 &lt;li>NeuroHackademy:
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/2i2c-org/infrastructure/issues/1300" target="_blank" rel="noopener" >infrastructure#1300&lt;/a>
 &lt;/li>
 &lt;li>OceanHackWeek 2022
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/2i2c-org/infrastructure/issues/1576" target="_blank" rel="noopener" >infrastructure#1576&lt;/a>
 &lt;/li>
 &lt;li>COESSING workshop:
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/2i2c-org/infrastructure/issues/1516" target="_blank" rel="noopener" >infrastructure#1516&lt;/a>
 &lt;/li>
 &lt;li>Eddy Symposium:
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/2i2c-org/team-compass/issues/467" target="_blank" rel="noopener" >infrastructure#467&lt;/a>
 &lt;/li>
 &lt;li>Allen Institute Summer Workshop on the Dynamic Brain
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/2i2c-org/infrastructure/issues/1621" target="_blank" rel="noopener" >infrastructure#1621&lt;/a>
 &lt;/li>
 &lt;/ul>
 &lt;p>For a recap of one of these events, see our recent
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://2i2c.org/blog/2022/eddy-symposium-report" target="_blank" rel="noopener" >blog post on the Jack Eddy symposium&lt;/a>
 .&lt;/p>
 &lt;div class="alert alert-note">
 &lt;div>
 If you are interested in partnering with 2i2c to have your own managed JupyterHub, please contact us at &lt;code>partnerships@2i2c.org&lt;/code>.
 We have a shared cluster on Google Cloud, with plans to deploy one on AWS soon, and dedicated clusters can be run on any major cloud provider. Please see
-&lt;p>// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
-&lt;a href="https://docs.2i2c.org/about/service/index.html" target="_blank" rel="noopener" >our service documentation&lt;/a>
+&lt;p>&lt;a href="https://docs.2i2c.org/about/service/index.html" target="_blank" rel="noopener" >our service documentation&lt;/a>
 for more details.&lt;/p>
 &lt;/div>
 &lt;/div>
@@ -1434,32 +1221,24 @@ Organization wide updates
 &lt;a class="header-anchor" href="#organization-wide-updates">#&lt;/a>
 &lt;/h2>&lt;p>These are large-scale organizational and strategic efforts that impact all of 2i2c.&lt;/p>
 &lt;p>&lt;strong>We applied for a CZI Grant&lt;/strong>: In partership with The Carpentries, CSCCE, MetaDocencia, Invest in Open Infrastructure, and OpenLifeScience, we
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://2i2c.org/blog/2022/czi-global-communities-proposal/" >applied for a CZI grant to provide cloud infrastructure services to global communities&lt;/a>
 .&lt;/p>
 &lt;p>&lt;strong>We grew our team&lt;/strong>: We&amp;rsquo;ve hired two new team members to lead new major efforts with 2i2c.
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://2i2c.org/author/james-munroe/" target="_blank" rel="noopener" >&lt;strong>James Munroe&lt;/strong>&lt;/a>
 will lead efforts around &lt;em>community guidance and product design&lt;/em>, and
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://2i2c.org/author/jim-colliander/" target="_blank" rel="noopener" >&lt;strong>Jim Colliander&lt;/strong>&lt;/a>
 will lead efforts around &lt;em>partnerships and sustainability&lt;/em>. We also
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/2i2c-org/team-compass/issues/436" target="_blank" rel="noopener" >updated our Hiring and Candidate Search documentation&lt;/a>
 in the process.&lt;/p>
 &lt;p>&lt;strong>We&amp;rsquo;re refining our strategy&lt;/strong>: We&amp;rsquo;ve begun a process of revisiting and refining our strategy after a year of major operations, see
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="" >our strategic update blog post for more information&lt;/a>
 .&lt;/p>
 &lt;p>&lt;strong>We completed the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://cscce.org" target="_blank" rel="noopener" >CSCCE&lt;/a>
 community management training&lt;/strong>. Two of our team members (James and Sarah) both completed a several-week community management course that was offered in partnership with
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://chanzuckerberg.org" target="_blank" rel="noopener" >CZI&lt;/a>
 .&lt;/p>
 &lt;p>&lt;strong>Our team member Sarah began a part-time role as the JupyterHub Community Strategic Lead&lt;/strong>. Sarah will be leading community strategy efforts within JupyterHub for the next two years thanks to a grant to the JupyterHub team from CZI.
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/jupyterhub/team-compass/issues/536" target="_blank" rel="noopener" >Check out this issue to follow our progress&lt;/a>
 .&lt;/p>
 &lt;!--
@@ -1473,11 +1252,9 @@ Service improvements
 Here&amp;rsquo;s a brief breakdown:&lt;/p>
 &lt;p>&lt;strong>We expanded our shared clusters to new cloud providers and regions&lt;/strong>. We now have shared clusters already deployed on Google Cloud Platform on &lt;code>us-central1-b&lt;/code> and &lt;code>europe-west2&lt;/code>.&lt;/p>
 &lt;p>&lt;strong>We defined an incident commander process&lt;/strong>. This will allow us to coordinate and respond to major outages in our cloud infrastructure more efficiently. See
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://compass.2i2c.org/projects/managed-hubs/incidents.html" target="_blank" rel="noopener" >our incident response documentation&lt;/a>
 for more information.&lt;/p>
 &lt;p>&lt;strong>We improved our cloud usage monitoring infrastructure&lt;/strong>. We&amp;rsquo;ve deployed
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/2i2c-org/infrastructure/issues/328" target="_blank" rel="noopener" >a centralized Grafana Dashboard&lt;/a>
 that aggregates cloud usage across all of our partner communities, and allows us to keep track of any unexpected behavior or outages across them all.&lt;/p>
 &lt;h2 id="where-were-focusing-next">
@@ -1501,8 +1278,7 @@ Thanks
 &lt;div>
 If you are interested in partnering with 2i2c to have your own managed JupyterHub, please contact us at &lt;code>partnerships@2i2c.org&lt;/code>.
 We have a shared cluster on Google Cloud, with plans to deploy one on AWS soon, and dedicated clusters can be run on any major cloud provider. Please see
-&lt;p>// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
-&lt;a href="https://docs.2i2c.org/about/service/index.html" target="_blank" rel="noopener" >our service documentation&lt;/a>
+&lt;p>&lt;a href="https://docs.2i2c.org/about/service/index.html" target="_blank" rel="noopener" >our service documentation&lt;/a>
 for more details.&lt;/p>
 &lt;/div>
 &lt;/div></description></item><item><title>Celebrating our progress in Q1 2022</title><link>https://2i2c.org/blog/2022/q1-update/</link><pubDate>Mon, 04 Apr 2022 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2022/q1-update/</guid><description>&lt;p>Quarter 1 of 2022 just wrapped up, and the 2i2c team has been busy making improvements across our infrastructure, organization, and operations.
@@ -1510,11 +1286,9 @@ This is a quick post to celebrate the work we&amp;rsquo;ve done over the past th
 &lt;p>These are the main highlights from this quarter - if you&amp;rsquo;d like to check out more of the work that we&amp;rsquo;ve done, see:&lt;/p>
 &lt;ul>
 &lt;li>
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/pulls?q=is%3Apr&amp;#43;merged%3A%3E2022-01-01&amp;#43;org%3A2i2c-org&amp;#43;archived%3Afalse&amp;#43;sort%3Aupdated-desc&amp;#43;" target="_blank" rel="noopener" >All the PRs we&amp;rsquo;ve merged in Q1&lt;/a>
 &lt;/li>
 &lt;li>
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/issues?page=4&amp;amp;q=is%3Aissue&amp;#43;closed%3A%3E2022-01-01&amp;#43;org%3A2i2c-org&amp;#43;sort%3Aupdated-desc" target="_blank" rel="noopener" >All closed issues in Q1&lt;/a>
 &lt;/li>
 &lt;/ul>
@@ -1522,21 +1296,17 @@ This is a quick post to celebrate the work we&amp;rsquo;ve done over the past th
 Infrastructure improvements
 &lt;a class="header-anchor" href="#infrastructure-improvements">#&lt;/a>
 &lt;/h2>&lt;p>This quarter we did a deep dive into a number of core infrastructure improvements for our
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://2i2c.org/service/" target="_blank" rel="noopener" >Managed JupyterHubs Service&lt;/a>
 .
 Here are a few highlights:&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>Infrastructure reliability and efficiency&lt;/strong>. We
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/2i2c-org/infrastructure/issues/879" target="_blank" rel="noopener" >improved the resiliency, reliability, and efficiency of our deployment infrastructure&lt;/a>
 . For example, we refactored our hub configuration so that each community is better-able to track it, we implemented validation steps to ensure that we don&amp;rsquo;t accidentally push incorrect config to the hubs, and we&amp;rsquo;ve significantly improved our CI/CD pipeline to push deployments out to our hubs more efficiently.&lt;/li>
 &lt;li>&lt;strong>Automatic deployments to commercial cloud&lt;/strong>. With the ICESat hackweek as a test-case for AWS, we&amp;rsquo;ve finished automating the deployment of clusters and hubs to each major commercial cloud. (there&amp;rsquo;s not a specific issue for this as it has been a multi-month effort over many PRs and issues!)&lt;/li>
 &lt;li>&lt;strong>CILogon authentication&lt;/strong>.
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://cilogon.org/" target="_blank" rel="noopener" >CILogon&lt;/a>
 is a non-profit organization that provides &amp;ldquo;single-sign on&amp;rdquo; authentication services for the same communities that 2i2c serves. We&amp;rsquo;ve partnered with them to
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/2i2c-org/infrastructure/pull/1089" target="_blank" rel="noopener" >prototype using CILogon for 2i2c&amp;rsquo;s hubs&lt;/a>
 , which should make it much easier for communities to user their own institutional sign-ons.&lt;/li>
 &lt;/ul>
@@ -1544,32 +1314,25 @@ is a non-profit organization that provides &amp;ldquo;single-sign on&amp;rdquo; 
 Communities we&amp;rsquo;ve served and lessons learned
 &lt;a class="header-anchor" href="#communities-weve-served-and-lessons-learned">#&lt;/a>
 &lt;/h2>&lt;p>As described in
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://compass.2i2c.org/organization/strategy.html" target="_blank" rel="noopener" >our Managed Hub Services strategy&lt;/a>
 , our goals for this phase of our organization are to balance &lt;em>serving communities of practice&lt;/em> and &lt;em>learning where we can improve our infrastructure and practices&lt;/em>.
 With that in mind, here are a few highlights of communities we&amp;rsquo;ve served, and what we&amp;rsquo;ve learned from it:&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>We grew a hub for
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://jupyter.utoronto.ca/" target="_blank" rel="noopener" >the University of Toronto&lt;/a>
 to around 4000 monthly users&lt;/strong>. This has taught us a lot about where our support and operations can and cannot scale, and where we have gaps in our sustainability / pricing model.&lt;/li>
 &lt;li>&lt;strong>We deployed CILogon on a hub for
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://anu.pilot.2i2c.cloud/" target="_blank" rel="noopener" >a class at Australian National University&lt;/a>
 &lt;/strong>. This gives us an opportunity to work out any UX issues and improvements to be made before a deeper CILogon integration.&lt;/li>
 &lt;li>&lt;strong>We deployed a dedicated database per user for
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://utexas.pilot.2i2c.cloud/" target="_blank" rel="noopener" >a databases course at UT Austin&lt;/a>
 &lt;/strong>. This is helping us learn more about how to pair slightly more customized per-user infrastructure with our standard hub setups, as well as how our
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://2i2c.org/right-to-replicate" target="_blank" rel="noopener" >Right to Replicate model&lt;/a>
 could be followed for more complex setups like a database.&lt;/li>
 &lt;li>&lt;strong>We ran an event hub for
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://twitter.com/scotty_h_q/status/1508557909751320577" target="_blank" rel="noopener" >the ICESat2 HackWeek&lt;/a>
 at the University of Washington&lt;/strong>. This helped refine our infrastructure and expertise with AWS, as well as improved our event &amp;ldquo;ready mode&amp;rdquo; practices.&lt;/li>
 &lt;li>&lt;strong>We deployed a new hub for
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://leap-stc.github.io/intro.html" target="_blank" rel="noopener" >the LEAP project&lt;/a>
 &lt;/strong>. This has given us an opportunity to prototype new processes for pass-through cloud costs to simplify our deployments.&lt;/li>
 &lt;/ul>
@@ -1577,11 +1340,9 @@ at the University of Washington&lt;/strong>. This helped refine our infrastructu
 &lt;p>Beyond our technical and community impact work, we&amp;rsquo;ve made a lot of significant organizational improvements as well.&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>We designed a
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://2i2c.org/blog/2022/job-product-community-lead/" target="_blank" rel="noopener" >new role in Product and Community Management&lt;/a>
 &lt;/strong>. We&amp;rsquo;re excited for this new hire to spearhead efforts in guiding and developing relationships with the communities we serve, as well as guiding and collaborating with our engineering team in developing our services.&lt;/li>
 &lt;li>&lt;strong>We designed
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/2i2c-org/team-compass/issues/382" target="_blank" rel="noopener" >a new Project Manager role&lt;/a>
 &lt;/strong>. Our engineering team had been operating as a largely autonomous and independent group, but we&amp;rsquo;ve realized that we would benefit from someone to help coordinate our actions and plans, especially as we balance more operations/support issues in addition to new development. This new role is an experiment at growing this capacity within our team, in the hopes that we can dedicate a team member to it in the future.&lt;/li>
 &lt;/ul>
@@ -1592,52 +1353,40 @@ What&amp;rsquo;s next
 Here are a few major examples:&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>Improve our process and operations around supporting our users&lt;/strong>. We are
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/2i2c-org/infrastructure/issues/1068" target="_blank" rel="noopener" >discussing first- and second-line support processes&lt;/a>
 to make our team more responsive and effective at resolving incidents.&lt;/li>
 &lt;li>&lt;strong>Improve our invoicing and contracting process&lt;/strong>. We are
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/2i2c-org/team-compass/issues/355" target="_blank" rel="noopener" >discussing how to reduce toil associated with invoicing&lt;/a>
 in order to make this practice more reliable and efficient, along with our fiscal sponsor
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://codeforscience.org" target="_blank" rel="noopener" >Code for Science and Society&lt;/a>
 .&lt;/li>
 &lt;li>&lt;strong>Improving our reporting and monitoring infrastructure&lt;/strong>. We&amp;rsquo;d like to boost our ability to
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/2i2c-org/infrastructure/issues/328" target="_blank" rel="noopener" >monitor activity on each of our hubs&lt;/a>
 in order to identify when something abnormal is happening and get ahead of any potential problems (e.g., to avoid unintentionally large cloud bills). We&amp;rsquo;d also like to improve our usage reporting to more create more accurate cloud bills for hubs running on multi-tenant clusters.&lt;/li>
 &lt;/ul>
 &lt;p>There is a lot more planned for 2i2c, and if you&amp;rsquo;re curious to see what we&amp;rsquo;re up to, we invite you to
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://compass.2i2c.org" target="_blank" rel="noopener" >check out our team compass&lt;/a>
 to learn about our practices, and
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/2i2c-org/" target="_blank" rel="noopener" >watch our activity on GitHub&lt;/a>
 to see our work.&lt;/p>
 &lt;p>Many thanks to the amazing 2i2c team, and the multiple open source and scholarly communities that we collaborate with to make all of this possible. In addition, we are grateful to
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="" >our funders&lt;/a>
 for making this possible. We are looking forward to Q2! 🎉&lt;/p></description></item><item><title>Pangeo Cloud goes live on 2i2c!</title><link>https://2i2c.org/blog/2021/pangeo-goes-live/</link><pubDate>Tue, 16 Nov 2021 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2021/pangeo-goes-live/</guid><description>&lt;p>
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://pangeo.io/cloud.html" target="_blank" rel="noopener" >Pangeo Cloud&lt;/a>
 is an experimental service providing public cloud-based data-science environments for data-intensive geoscience research.
 We have recently finished re-creating the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="http://pangeo.io/" target="_blank" rel="noopener" >Pangeo&lt;/a>
 community JupyterHub hosted on GCP in the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/2i2c-org/infrastructure" target="_blank" rel="noopener" >2i2c-org/infrastructure&lt;/a>
 repository.
 This is a huge milestone in our partnership with Pangeo to provide expertise and operations of cloud-based, vendor-agnostic Jupyter infrastructure and workflows.&lt;/p>
 &lt;p>For users of Pangeo Cloud, the switch should have been a smooth one!
 The new hub should behave nearly identically to the old one, and will be managed by 2i2c engineers moving forward, in partnership with the Pangeo community.
 It will be available at the same URL (
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://us-central1-b.gcp.pangeo.io" target="_blank" rel="noopener" >https://us-central1-b.gcp.pangeo.io&lt;/a>
 ) and there&amp;rsquo;s no need to worry about your home directories, they were synced to the new hub only a few days before the migration took place.
 Development and operations on this hub will all be done in the open and we invite participation and feedback from others in our infrastructure work.
 Please see
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://discourse.pangeo.io/t/migration-of-us-central1-b-gcp-pangeo-io-to-2i2c-infrastructure/1890" target="_blank" rel="noopener" >this Discourse thread&lt;/a>
 as an initial place to provide feedback.&lt;/p>
 &lt;p>On &lt;strong>22nd November 2021&lt;/strong>, the old Pangeo GCP JupyterHub will be shut down, and the project will move forward on the new 2i2c Pangeo Hub.
@@ -1647,7 +1396,6 @@ History of Pangeo Cloud Hubs
 &lt;a class="header-anchor" href="#history-of-pangeo-cloud-hubs">#&lt;/a>
 &lt;/h2>&lt;p>Pangeo has pioneered a new model in using open source and cloud-agnostic infrastructure to support scientific research in the cloud.&lt;/p>
 &lt;p>The first Pangeo cloud JupyterHub (pangeo.pydata.org; now defuct) was deployed for the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://annual.ametsoc.org/2017/" target="_blank" rel="noopener" >2017 American Meteoroligical Society Meeting&lt;/a>
 ; since then, the Pangeo community has iterated through several different versions of prototype cloud-based hubs.
 This allowed for many new workflows that enabled a more open and collaborative pathway to doing world class research, and included access to datasets and computational resources that were previously unattainable.
@@ -1659,7 +1407,6 @@ Modern scalable cloud infrastructure is one example of this. Maintaining a compl
 The Pangeo-2i2c Partnership
 &lt;a class="header-anchor" href="#the-pangeo-2i2c-partnership">#&lt;/a>
 &lt;/h2>&lt;p>
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://2i2c.org" target="_blank" rel="noopener" >2i2c&lt;/a>
 is a non-profit team that develops and operates cloud infrastructure for interactive computing workflows.
 We have extensive experience in Jupyter workflows in the cloud and a long history of contributions to projects in this ecosystem.
@@ -1668,7 +1415,6 @@ We have built a cloud deployment management system that allows us to centralise 
 Our partnership with Pangeo began through 2i2c&amp;rsquo;s core competency in these areas and the similarity between the two project&amp;rsquo;s technical stacks.&lt;/p>
 &lt;p>We&amp;rsquo;ve begun a partnership whereby 2i2c will manage Pangeo&amp;rsquo;s cloud infrastructure and lead efforts to develop new features, in partnership with open source communities.
 We sketched out a few ideas to focus on in this
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://discourse.pangeo.io/t/notes-from-the-pangeo-2i2c-kick-off-meeting/1587" target="_blank" rel="noopener" >kick-off thread on Discourse&lt;/a>
 .
 This approach allows each community to focus on it&amp;rsquo;s core strengths: Pangeo will continue to grow an open community and scientific software ecosystem around geospatial analytics, and 2i2c will oversee the development and operations of the core cloud infrastructure stack that powers Pangeo&amp;rsquo;s workflows.
@@ -1677,15 +1423,12 @@ Over the coming weeks, you may see some conversations (and threads for feedback!
 We are excited to use this as an opportunity to learn more about how to serve more complex and diverse communities like Pangeo.&lt;/p>
 &lt;p>We are extremely grateful to the Pangeo project for giving us the opportunity to serve their community, and we look forward to a long partnership ahead! &amp;#x1f680;&lt;/p></description></item><item><title>Community update Q3 2021: A new fiscal sponsor, improving our infrastructure, nearing an alpha launch.</title><link>https://2i2c.org/blog/2021/q3-update/</link><pubDate>Sun, 10 Oct 2021 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2021/q3-update/</guid><description>&lt;blockquote>
 &lt;p>This is a (roughly) quarterly update for the 2i2c community, with the goal of providing transparency about what we&amp;rsquo;ve been up to, sharing what we are working on and where we have struggled, and discussing what we&amp;rsquo;re up to next. In addition, almost all of the work we do is public and discoverable across
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/2i2c-org/" target="_blank" rel="noopener" >our GitHub repositories&lt;/a>
 , and is tracked by GitHub issues.
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/search?q=org:2i2c-org&amp;#43;type:issue&amp;#43;is:closed&amp;#43;closed:2021-06-01..2021-10-01&amp;#43;-label:%22type:&amp;#43;team-sync%22&amp;#43;is:issue&amp;amp;type=issues" target="_blank" rel="noopener" >Here&amp;rsquo;s a list of issues we&amp;rsquo;ve closed in ~Q3&lt;/a>
 .&lt;/p>
 &lt;/blockquote>
 &lt;p>It is amazing how quickly 4 months goes by when you&amp;rsquo;re building an organization from scratch! It seems like only a few weeks ago that we were recapping the beginning of the year in
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="" >our last community update&lt;/a>
 . Since then, we have been hard at work to make 2i2c&amp;rsquo;s organizational and infrastructure more robust and sustainable.&lt;/p>
 &lt;p>There are several major strategic areas where 2i2c aims to have impact, and we&amp;rsquo;ve split this community update along each of these major areas below. We&amp;rsquo;ll cover major highlights, challenges we&amp;rsquo;ve faced, and where we&amp;rsquo;re going next.&lt;/p>
@@ -1700,31 +1443,23 @@ Managed JupyterHub Service
 &lt;p>We focused on a few major areas for work, outlined below:&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>Automation across cloud providers&lt;/strong>. We wish to serve communities that run on any of the major commercial cloud providers. We can standardize some of our infrastructure through abstractions like Kubernetes, but must still create cloud-specific deployment infrastructure as well (that Kubernetes cluster has to come from somewhere first!). In the last four months we&amp;rsquo;ve worked on automating Kubernetes and JupyterHub deployments on
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/2i2c-org/infrastructure/issues/627" target="_blank" rel="noopener" >AWS&lt;/a>
 as well as
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/2i2c-org/infrastructure/issues/512" target="_blank" rel="noopener" >Azure&lt;/a>
 to complement our Google Cloud deployments. We would soon like to run more hubs on this infrastructure to test how well it scales.&lt;/li>
 &lt;li>&lt;strong>Monitoring and reporting infrastructure&lt;/strong>. We have worked on the JupyterHub
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/jupyterhub/grafana-dashboards" target="_blank" rel="noopener" >&lt;code>grafana-dashboards&lt;/code> project&lt;/a>
 to improve dashboarding around JupyterHub deployments in general, and will soon automatically deploy Grafana dashboards for our hubs so that communities have insight into what is going on in their hubs.&lt;/li>
 &lt;li>&lt;strong>User environment management&lt;/strong>. We want communities to have control over the environments that are available on their hubs. We also want to encourage that our communities follow community standards for reproducible environments that can be re-used elsewhere. For this reason, we&amp;rsquo;ve improved the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/jupyterhub/repo2docker-action" target="_blank" rel="noopener" >repo2docker GitHub action&lt;/a>
 to work with more image registries, and created a
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/2i2c-org/hub-user-image-template" target="_blank" rel="noopener" >2i2c user image template repository&lt;/a>
 for users to re-use for their hubs. See
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://docs.2i2c.org/admin/howto/environment.html#bring-your-own-docker-image" target="_blank" rel="noopener" >the User Environment docs&lt;/a>
 for more information.&lt;/li>
 &lt;li>&lt;strong>Support and collaboration roles&lt;/strong>. In addition to technology changes, we have developed an alpha-level support and collaboration model for the communities we serve. Most relevant for our communities is the &lt;strong>community representative&lt;/strong> role, who acts as the main point of contact with 2i2c engineers, and leads administrators on the hub to guide its customization for the community it serves. See
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://docs.2i2c.org/about/roles.html" target="_blank" rel="noopener" >the user roles documentation&lt;/a>
 for more information. We have also begun prototyping a
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://docs.2i2c.org/support.html" target="_blank" rel="noopener" >FreshDesk support model&lt;/a>
 and team processes around monitoring our support channels and responding to requests and incidents.&lt;/li>
 &lt;/ul>
@@ -1732,27 +1467,22 @@ and team processes around monitoring our support channels and responding to requ
 Pangeo
 &lt;a class="header-anchor" href="#pangeo">#&lt;/a>
 &lt;/h3>&lt;p>We are working with &lt;strong>the Pangeo Community&lt;/strong> to migrate the Pangeo JupyterHub deployments to utilize 2i2c&amp;rsquo;s centralized infrastructure, with the goal of 2i2c taking over the development and operation of Pangeo hubs moving forward. We have spent the last few months re-creating the Pangeo hub environment from scratch on a new cloud project controlled by Columbia University, and are nearly ready to begin migration from the &amp;ldquo;old&amp;rdquo; Pangeo hub to the new one. After this, we will focus our attention on re-creating the Pangeo BinderHub and AWS hub. Follow along with this work
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/orgs/2i2c-org/projects/16" target="_blank" rel="noopener" >in this GitHub Project&lt;/a>
 .&lt;/p>
 &lt;h3 id="executable-books--jupyter-book">
 Executable Books / Jupyter Book
 &lt;a class="header-anchor" href="#executable-books--jupyter-book">#&lt;/a>
 &lt;/h3>&lt;p>We are nearing the final year of a grant from the Sloan Foundation to support development on the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://executablebooks.org" target="_blank" rel="noopener" >Executable Books Project&lt;/a>
 . As such, we have begun shifting our attention to
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/executablebooks/meta/issues/493" target="_blank" rel="noopener" >create a strategy for sustaining the project&amp;rsquo;s community beyond this grant&lt;/a>
 . In the coming months we plan on prioritizing improving our documentation (both for users and developers), as well as improving the general maintainability and quality of our codebases.&lt;/p>
 &lt;h3 id="jupyterhub-community-support">
 JupyterHub community support
 &lt;a class="header-anchor" href="#jupyterhub-community-support">#&lt;/a>
 &lt;/h3>&lt;p>We recently collaborated with the JupyterHub community to
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/jupyterhub/team-compass/issues/380" target="_blank" rel="noopener" >apply for two CZI EOSS awards&lt;/a>
 . Last month, we were notified that
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://chanzuckerberg.com/eoss/proposals/jupyterhub-community-strategic-lead/" target="_blank" rel="noopener" >our application to support a Community Strategic Lead&lt;/a>
 was funded! This role will fund Sarah Gibson&amp;rsquo;s time to focus some of her thinking on building community structures and dynamics that are inclusive and sustainable. We&amp;rsquo;ll update with more information as this project starts moving.&lt;/p>
 &lt;h3 id="organizational-foundations">
@@ -1760,21 +1490,16 @@ Organizational foundations
 &lt;a class="header-anchor" href="#organizational-foundations">#&lt;/a>
 &lt;/h3>&lt;p>Finally, in addition to our major development and projects, we have also made a lot of progress at an organizational level.&lt;/p>
 &lt;p>We &lt;strong>began
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://2i2c.org/posts/2021/css-announce/" target="_blank" rel="noopener" >a fiscal sponsorship with Code for Science and Society&lt;/a>
 &lt;/strong>. This provides a new organizational and legal home for 2i2c after spending nearly a year receiving
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://www.icsi.berkeley.edu/icsi/news/2021/08/2i2c-new-chapter" target="_blank" rel="noopener" >critical strategic and start-up support&lt;/a>
 from our previous host,
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://www.icsi.berkeley.edu" target="_blank" rel="noopener" >ICSI&lt;/a>
 . We are excited to work with CS&amp;amp;S to create the business infrastructure that will power our managed JupyterHubs service.&lt;/p>
 &lt;p>The 2i2c team has also been &lt;strong>improving our team planning and coordination processes&lt;/strong>, so that we can more effectively execute on our mission. As a distributed team, we have the challenge of building processes for team communication, coordination, and planning that are distributed and asynchronous. If you&amp;rsquo;re curious, you can learn more about our coordination processes in
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://compass.2i2c.org/practices/development.html" target="_blank" rel="noopener" >our Team Compass&lt;/a>
 .&lt;/p>
 &lt;p>We have &lt;strong>improved our organization-wide documentation&lt;/strong> in order to make it easier to navigate between 2i2c&amp;rsquo;s various sources of information. We hope that this provides more transparency into what 2i2c is up to and how it is structured, and that it allows us to build more connections between our projects and the broader community. Check out the new documentation landing site at
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://docs.2i2c.org" target="_blank" rel="noopener" >docs.2i2c.org&lt;/a>
 .&lt;/p>
 &lt;h2 id="whats-next">
@@ -1791,7 +1516,6 @@ Challenges we&amp;rsquo;ve faced
 &lt;/h2>&lt;p>Finally, we want to recognize that there are plenty of challenges along with successes when it comes to having impact! Here are a few of the unexpected challenges that we&amp;rsquo;ve faced along the way.&lt;/p>
 &lt;p>&lt;strong>Developing and operating multi-cloud infrastructure is a complex process&lt;/strong>. Automating the creation and operation of Kubernetes clusters across each of the major cloud providers has proven to be a lot of work! While it has been necessary to use our pre-existing hubs to provide the opportunity to build this infrastructure, it is a challenge to both &lt;em>build&lt;/em> and &lt;em>operate&lt;/em> infrastructure at the same time. This has lengthened our timelines for when we expect the alpha version of the service to be ready.&lt;/p>
 &lt;p>&lt;strong>Coordinating among a distributed team takes time&lt;/strong>. Each of our team members has been used to working asynchronously with open source communities for many years, and we under-estimated how complex it would be to port this workflow to a distributed team that must coordinate with each other much more closely on a daily basis. Deciding what to work on, how to work on it, and how to help one another take a lot of work when you only share a few hours awake at the same time. For this reason, we have spent a lot of extra energy in our first months as a team to work out
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://compass.2i2c.org/practices/development.html" target="_blank" rel="noopener" >team processes for coordination and collaboration&lt;/a>
 .&lt;/p>
 &lt;p>&lt;strong>How to design cloud services as a non-profit?&lt;/strong> Finally, we&amp;rsquo;ve learned that there is no clear roadmap for how to build a sustainable cloud service like the one we describe here. 2i2c is somewhere in-between a traditional SaaS company (which tends to provide access to proprietary technology) and a bespoke consultancy (which is more hands-on and custom than we are). Our best explanation for what 2i2c wishes to do is &amp;ldquo;Open source operations/dev-ops as a service&amp;rdquo;, which doesn&amp;rsquo;t quite fit into either category. This means that we have more &amp;ldquo;unknown unknowns&amp;rdquo; about what kind of service and pricing model we should develop. We hope to begin answering some of these questions in our alpha-level service launch. Stay tuned for more to come!&lt;/p>
@@ -1800,50 +1524,36 @@ Get involved
 &lt;a class="header-anchor" href="#get-involved">#&lt;/a>
 &lt;/h2>&lt;p>Thanks for your interest in 2i2c and the mission that it hopes to accomplish.
 We hope that this update has been informative and interesting, and we welcome feedback about any of the information provided. If you&amp;rsquo;d like to help with any of the challenges or efforts described above, we welcome all forms of collaboration, and are happy to chat. Please drop us a line at
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="" >&lt;code>hello@2i2c.org&lt;/code>&lt;/a>
 or
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://2i2c.org/#contact" target="_blank" rel="noopener" >contact us about joining our Slack community&lt;/a>
 . Thanks for reading!&lt;/p></description></item><item><title>2i2c launches next phase in partnership with CS&amp;S</title><link>https://2i2c.org/blog/2021/css-announce/</link><pubDate>Thu, 30 Sep 2021 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2021/css-announce/</guid><description>&lt;p>&lt;em>This post was originally written for the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://blog.codeforscience.org/" target="_blank" rel="noopener" >&lt;strong>CS&amp;amp;S blog&lt;/strong>&lt;/a>
 .&lt;/em>&lt;/p>
 &lt;p>Code for Science &amp;amp; Society is thrilled to welcome the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://2i2c.org" target="_blank" rel="noopener" >International Interactive Computing Collaboration&lt;/a>
 (2i2c, for short) as a fiscally sponsored project! After spending a year incubating in the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://www.icsi.berkeley.edu/icsi/" target="_blank" rel="noopener" >International Computer Science Institute&lt;/a>
 , where 2i2c
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://www.icsi.berkeley.edu/icsi/news/2021/08/2i2c-new-chapter" target="_blank" rel="noopener" >received critical startup support&lt;/a>
 , 2i2c now joins our fiscally sponsored project program to launch their next phase. 2i2c develops and operates cloud infrastructure for interactive computing, with a focus on the Jupyter ecosystem and cloud-native workflows in research and education. They will build a cloud services model that respects a community’s
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://2i2c.org/right-to-replicate/" target="_blank" rel="noopener" >Right to Replicate their infrastructure&lt;/a>
 by providing transparent and customizable JupyterHub deployments on cloud infrastructure that utilize community-driven open source tools. They aim to use the resources generated from this service in order to support the communities that underlie this infrastructure. Read on for more about 2i2c’s mission and how CS&amp;amp;S will support their team and vision.&lt;/p>
 &lt;p>2i2c’s organizational mission is to develop and operate sustainable cloud services that provide interactive computing infrastructure with JupyterHub and an ecosystem of tools that support research and education. This model has been pioneered in the organizations that 2i2c’s co-founders have co-led for many years, including
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://pangeo.io/" target="_blank" rel="noopener" >the Pangeo Project&lt;/a>
 , the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://syzygy.ca/" target="_blank" rel="noopener" >Syzygy Project&lt;/a>
 , the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://mybinder.org/" target="_blank" rel="noopener" >Binder Project&lt;/a>
 , and the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://data.berkeley.edu/academics/resources/berkeley-data-stack" target="_blank" rel="noopener" >UC Berkeley DataHub&lt;/a>
 . These projects follow an “integrate, customize, and upstream” model. They integrate pre-existing open source tools, make necessary customizations to support their specific use-case, and make upstream contributions to extend the infrastructure beyond its current capabilities. This creates a virtuous cycle where tangible needs are met in research and education, while improvements are made to open source projects that benefit the broader community. 2i2c hopes to scale this model, and provide these JupyterHub-based cloud services available to the broader research and education community.&lt;/p>
 &lt;p>CS&amp;amp;S is particularly interested in pursuing the opportunity to work closely with 2i2c as their team explores how to build sustainable, ethical services that support open scholarship as well as open source communities. The model that 2i2c will develop is different in many ways from traditional grant-based development, or service-based business, because it depends on running community-led infrastructure that 2i2c contributes to, but does not control or own. Both CS&amp;amp;S and 2i2c believe that this model is an opportunity to build more distributed, community-led infrastructure and services, as well aligning a sustainability model with both open source communities and the scholarly community. We hope that this work will also provide experience that helps improve CS&amp;amp;S’s other initiatives in this space, including CS&amp;amp;S’s other fiscally sponsored projects and participants in the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://blog.codeforscience.org/cs-s-launches-digital-infrastructure-incubator/" target="_blank" rel="noopener" >Digital Infrastructure Incubator program&lt;/a>
 .&lt;/p>
 &lt;p>Achieving this mission will involve innovation at an infrastructure level, a business model level, and an open source community strategy level, and will be carried out over the coming years. 2i2c’s next steps are to run pilot JupyterHub infrastructure for select communities of practice in research and education, in order to better understand their needs and how these needs fit in with 2i2c’s developing sustainability model. They will also build infrastructure to deploy and customize a federation of JupyterHubs that are community-specific, and that run entirely on open source infrastructure.&lt;/p>
 &lt;p>If you believe that your community would benefit from a hub like this, please
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="" >reach out to the 2i2c team&lt;/a>
 , or
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://2i2c.org/#contact" target="_blank" rel="noopener" >join their mailing list&lt;/a>
 . Stay tuned as 2i2c builds its sustainable, scalable, and community-driven platform for interactive computing in the cloud.&lt;/p></description></item></channel></rss>

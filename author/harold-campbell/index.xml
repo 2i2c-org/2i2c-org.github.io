@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Harold Campbell | 2i2c</title><link>https://2i2c.org/author/harold-campbell/</link><atom:link href="https://2i2c.org/author/harold-campbell/index.xml" rel="self" type="application/rss+xml"/><description>Harold Campbell</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 15 Apr 2024 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/author/harold-campbell/avatar_hu8b9227e64005b61e1584c426bbb0573c_291322_270x270_fill_lanczos_center_3.png</url><title>Harold Campbell</title><link>https://2i2c.org/author/harold-campbell/</link></image><item><title>Harold Campbell</title><link>https://2i2c.org/author/harold-campbell/</link><pubDate>Mon, 15 Apr 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/author/harold-campbell/</guid><description>&lt;p>I enjoy building and supporting communities of practice. I have built a small JS visualization library and dabbled in delivery management systems. Recently, I have strong interests in music (programming VST, etc.), AI and data science.&lt;/p></description></item><item><title>Improvements to our team's planning and delivery</title><link>https://2i2c.org/blog/2024/delivery-improvements/</link><pubDate>Mon, 15 Apr 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/delivery-improvements/</guid><description>&lt;p>&lt;em>This is a follow-up to
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="" >our 2023 report of organizational strengths and weaknesses&lt;/a>
 , describing some improvements we&amp;rsquo;ve made on our team&amp;rsquo;s coordination and delivery&lt;/em>.&lt;/p>
 &lt;p>In 2023, we
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="" >released a report describing our organizational strengths and weaknesses&lt;/a>
 .
 This uncovered a key challenge for our team: &lt;strong>improving our coordination and delivery&lt;/strong>.
@@ -11,20 +9,16 @@ Over the previous two years, our service had grown significantly in its scope an
 We were working on more than 7 active grants and were serving more than 70 active communities with around 7,000 monthly active users.&lt;/p>
 &lt;p>This was taxing our small team, and we found ourselves struggling to efficiently deliver on our work.
 For example, a
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="" >collaboration with GESIS to bring image building functionality to JupyterHub&lt;/a>
 took longer than we wished, and we felt that our planning and execution was not transparent enough to their team. In addition, in
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://catalystproject.cloud" target="_blank" rel="noopener" >a collaboration to serve communities in Latin America and Africa&lt;/a>
 we felt that 2i2c was not responsive enough to onboarding and deploying infrastructure for new communities.&lt;/p>
 &lt;h2 id="steps-weve-taken-to-improve-delivery">
 Steps we&amp;rsquo;ve taken to improve delivery
 &lt;a class="header-anchor" href="#steps-weve-taken-to-improve-delivery">#&lt;/a>
 &lt;/h2>&lt;p>At the beginning of 2024, we hired
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://2i2c.org/jobs/2023/delivery-manager/" >our first Delivery Manager and Chief of Staff role&lt;/a>
 as well as
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://2i2c.org/jobs/2023/product-lead/" >our first Product Lead role&lt;/a>
 .
 Both of these roles are meant to develop systems and team practices that improve our planning and delivery.&lt;/p>
@@ -43,7 +37,6 @@ Our system of work
 &lt;a class="header-anchor" href="#our-system-of-work">#&lt;/a>
 &lt;/h3>&lt;p>Our team-wide system of work can be found in the Team Compass at the link below:&lt;/p>
 &lt;p>
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://compass.2i2c.org/cross-functional/workflow/" target="_blank" rel="noopener" >https://compass.2i2c.org/cross-functional/workflow/&lt;/a>
 &lt;/p>
 &lt;p>This system of work attempts to link our strategic goals with concrete chunks of work to deliver.
@@ -92,12 +85,10 @@ We believe that defining professional growth trajectories will help identify the
 We&amp;rsquo;ve defined team practices around giving feedback, and are encouraging a team culture of regular and constructive feedback to one another.
 We know that this will be a long-term investment in team practices, and we believe that any team (especially a distributed one) must be able to rely on its team members to help one another grow.
 We&amp;rsquo;ve begun this effort by
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://compass.2i2c.org/operations/team-practices/feedback/" target="_blank" rel="noopener" >creating a guide to giving feedback for 2i2c&lt;/a>
 which we hope will be useful for others as well.&lt;/p>
 &lt;p>&lt;strong>Decision making&lt;/strong>.
 We&amp;rsquo;ve defined a
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://compass.2i2c.org/operations/governance/" target="_blank" rel="noopener" >set of principles around decision making at 2i2c&lt;/a>
 that encourage more autonomy and creativity.
 In a knowledge-driven field such as ours, it is important that team members have the freedom to be creative and take risks, and that we design systems that are resilient to mistakes.
@@ -105,13 +96,10 @@ We aim to make mistakes &lt;em>Safe to Fail&lt;/em> to encourage creativity and 
 This document is a first step towards improving our team-wide practices at taking more initiative and action.&lt;/p>
 &lt;p>&lt;strong>Iterative delivery and process improvement&lt;/strong>.
 Across each level of the organisation, we have been experimenting more deliberately with Agile delivery practices. These experiments shape our approach to planning (at both the team and organization-level), visualizing and managing our work streams, and improving our internal product delivery processes. We are agnostic to a specific Agile framework, and have found the most value in blending elements of
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://asana.com/resources/what-is-kanban" target="_blank" rel="noopener" >Kanban&lt;/a>
 ,
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://www.agilealliance.org/glossary/scrum/" target="_blank" rel="noopener" >Scrum&lt;/a>
 and
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://flightlevels.io" target="_blank" rel="noopener" >Flight levels&lt;/a>
 . We will continue to experiment with these practices, seeking to find a happy medium for 2i2c. We&amp;rsquo;ll share more on this soon :)&lt;/p>
 &lt;p>&lt;strong>Coaching&lt;/strong>.
@@ -120,8 +108,7 @@ Coupled with our growing practices around team feedback, we aim to build a cultu
 &lt;div class="alert alert-">
 &lt;div>
 This work was done in partnership with
-&lt;p>// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
-&lt;a href="http://www.apriljohnson.io/" target="_blank" rel="noopener" >April Johnson, a Transformation Consultant and Coach&lt;/a>
+&lt;p>&lt;a href="http://www.apriljohnson.io/" target="_blank" rel="noopener" >April Johnson, a Transformation Consultant and Coach&lt;/a>
 .
 If you’re interested in working with April around any of this work we highly recommend doing so!&lt;/p>
 &lt;/div>

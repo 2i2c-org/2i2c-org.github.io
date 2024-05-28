@@ -1,24 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2i2c</title><link>https://2i2c.org/tag/2i2c/</link><atom:link href="https://2i2c.org/tag/2i2c/index.xml" rel="self" type="application/rss+xml"/><description>2i2c</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 16 Nov 2021 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>2i2c</title><link>https://2i2c.org/tag/2i2c/</link></image><item><title>Pangeo Cloud goes live on 2i2c!</title><link>https://2i2c.org/blog/2021/pangeo-goes-live/</link><pubDate>Tue, 16 Nov 2021 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2021/pangeo-goes-live/</guid><description>&lt;p>
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://pangeo.io/cloud.html" target="_blank" rel="noopener" >Pangeo Cloud&lt;/a>
 is an experimental service providing public cloud-based data-science environments for data-intensive geoscience research.
 We have recently finished re-creating the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="http://pangeo.io/" target="_blank" rel="noopener" >Pangeo&lt;/a>
 community JupyterHub hosted on GCP in the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/2i2c-org/infrastructure" target="_blank" rel="noopener" >2i2c-org/infrastructure&lt;/a>
 repository.
 This is a huge milestone in our partnership with Pangeo to provide expertise and operations of cloud-based, vendor-agnostic Jupyter infrastructure and workflows.&lt;/p>
 &lt;p>For users of Pangeo Cloud, the switch should have been a smooth one!
 The new hub should behave nearly identically to the old one, and will be managed by 2i2c engineers moving forward, in partnership with the Pangeo community.
 It will be available at the same URL (
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://us-central1-b.gcp.pangeo.io" target="_blank" rel="noopener" >https://us-central1-b.gcp.pangeo.io&lt;/a>
 ) and there&amp;rsquo;s no need to worry about your home directories, they were synced to the new hub only a few days before the migration took place.
 Development and operations on this hub will all be done in the open and we invite participation and feedback from others in our infrastructure work.
 Please see
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://discourse.pangeo.io/t/migration-of-us-central1-b-gcp-pangeo-io-to-2i2c-infrastructure/1890" target="_blank" rel="noopener" >this Discourse thread&lt;/a>
 as an initial place to provide feedback.&lt;/p>
 &lt;p>On &lt;strong>22nd November 2021&lt;/strong>, the old Pangeo GCP JupyterHub will be shut down, and the project will move forward on the new 2i2c Pangeo Hub.
@@ -28,7 +23,6 @@ History of Pangeo Cloud Hubs
 &lt;a class="header-anchor" href="#history-of-pangeo-cloud-hubs">#&lt;/a>
 &lt;/h2>&lt;p>Pangeo has pioneered a new model in using open source and cloud-agnostic infrastructure to support scientific research in the cloud.&lt;/p>
 &lt;p>The first Pangeo cloud JupyterHub (pangeo.pydata.org; now defuct) was deployed for the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://annual.ametsoc.org/2017/" target="_blank" rel="noopener" >2017 American Meteoroligical Society Meeting&lt;/a>
 ; since then, the Pangeo community has iterated through several different versions of prototype cloud-based hubs.
 This allowed for many new workflows that enabled a more open and collaborative pathway to doing world class research, and included access to datasets and computational resources that were previously unattainable.
@@ -40,7 +34,6 @@ Modern scalable cloud infrastructure is one example of this. Maintaining a compl
 The Pangeo-2i2c Partnership
 &lt;a class="header-anchor" href="#the-pangeo-2i2c-partnership">#&lt;/a>
 &lt;/h2>&lt;p>
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://2i2c.org" target="_blank" rel="noopener" >2i2c&lt;/a>
 is a non-profit team that develops and operates cloud infrastructure for interactive computing workflows.
 We have extensive experience in Jupyter workflows in the cloud and a long history of contributions to projects in this ecosystem.
@@ -49,7 +42,6 @@ We have built a cloud deployment management system that allows us to centralise 
 Our partnership with Pangeo began through 2i2c&amp;rsquo;s core competency in these areas and the similarity between the two project&amp;rsquo;s technical stacks.&lt;/p>
 &lt;p>We&amp;rsquo;ve begun a partnership whereby 2i2c will manage Pangeo&amp;rsquo;s cloud infrastructure and lead efforts to develop new features, in partnership with open source communities.
 We sketched out a few ideas to focus on in this
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://discourse.pangeo.io/t/notes-from-the-pangeo-2i2c-kick-off-meeting/1587" target="_blank" rel="noopener" >kick-off thread on Discourse&lt;/a>
 .
 This approach allows each community to focus on it&amp;rsquo;s core strengths: Pangeo will continue to grow an open community and scientific software ecosystem around geospatial analytics, and 2i2c will oversee the development and operations of the core cloud infrastructure stack that powers Pangeo&amp;rsquo;s workflows.
@@ -57,44 +49,32 @@ In some areas we are still experimenting with different collaboration models to 
 Over the coming weeks, you may see some conversations (and threads for feedback!) about different support and operations models that work best for the community.
 We are excited to use this as an opportunity to learn more about how to serve more complex and diverse communities like Pangeo.&lt;/p>
 &lt;p>We are extremely grateful to the Pangeo project for giving us the opportunity to serve their community, and we look forward to a long partnership ahead! &amp;#x1f680;&lt;/p></description></item><item><title>2i2c launches next phase in partnership with CS&amp;S</title><link>https://2i2c.org/blog/2021/css-announce/</link><pubDate>Thu, 30 Sep 2021 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2021/css-announce/</guid><description>&lt;p>&lt;em>This post was originally written for the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://blog.codeforscience.org/" target="_blank" rel="noopener" >&lt;strong>CS&amp;amp;S blog&lt;/strong>&lt;/a>
 .&lt;/em>&lt;/p>
 &lt;p>Code for Science &amp;amp; Society is thrilled to welcome the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://2i2c.org" target="_blank" rel="noopener" >International Interactive Computing Collaboration&lt;/a>
 (2i2c, for short) as a fiscally sponsored project! After spending a year incubating in the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://www.icsi.berkeley.edu/icsi/" target="_blank" rel="noopener" >International Computer Science Institute&lt;/a>
 , where 2i2c
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://www.icsi.berkeley.edu/icsi/news/2021/08/2i2c-new-chapter" target="_blank" rel="noopener" >received critical startup support&lt;/a>
 , 2i2c now joins our fiscally sponsored project program to launch their next phase. 2i2c develops and operates cloud infrastructure for interactive computing, with a focus on the Jupyter ecosystem and cloud-native workflows in research and education. They will build a cloud services model that respects a community’s
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://2i2c.org/right-to-replicate/" target="_blank" rel="noopener" >Right to Replicate their infrastructure&lt;/a>
 by providing transparent and customizable JupyterHub deployments on cloud infrastructure that utilize community-driven open source tools. They aim to use the resources generated from this service in order to support the communities that underlie this infrastructure. Read on for more about 2i2c’s mission and how CS&amp;amp;S will support their team and vision.&lt;/p>
 &lt;p>2i2c’s organizational mission is to develop and operate sustainable cloud services that provide interactive computing infrastructure with JupyterHub and an ecosystem of tools that support research and education. This model has been pioneered in the organizations that 2i2c’s co-founders have co-led for many years, including
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://pangeo.io/" target="_blank" rel="noopener" >the Pangeo Project&lt;/a>
 , the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://syzygy.ca/" target="_blank" rel="noopener" >Syzygy Project&lt;/a>
 , the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://mybinder.org/" target="_blank" rel="noopener" >Binder Project&lt;/a>
 , and the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://data.berkeley.edu/academics/resources/berkeley-data-stack" target="_blank" rel="noopener" >UC Berkeley DataHub&lt;/a>
 . These projects follow an “integrate, customize, and upstream” model. They integrate pre-existing open source tools, make necessary customizations to support their specific use-case, and make upstream contributions to extend the infrastructure beyond its current capabilities. This creates a virtuous cycle where tangible needs are met in research and education, while improvements are made to open source projects that benefit the broader community. 2i2c hopes to scale this model, and provide these JupyterHub-based cloud services available to the broader research and education community.&lt;/p>
 &lt;p>CS&amp;amp;S is particularly interested in pursuing the opportunity to work closely with 2i2c as their team explores how to build sustainable, ethical services that support open scholarship as well as open source communities. The model that 2i2c will develop is different in many ways from traditional grant-based development, or service-based business, because it depends on running community-led infrastructure that 2i2c contributes to, but does not control or own. Both CS&amp;amp;S and 2i2c believe that this model is an opportunity to build more distributed, community-led infrastructure and services, as well aligning a sustainability model with both open source communities and the scholarly community. We hope that this work will also provide experience that helps improve CS&amp;amp;S’s other initiatives in this space, including CS&amp;amp;S’s other fiscally sponsored projects and participants in the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://blog.codeforscience.org/cs-s-launches-digital-infrastructure-incubator/" target="_blank" rel="noopener" >Digital Infrastructure Incubator program&lt;/a>
 .&lt;/p>
 &lt;p>Achieving this mission will involve innovation at an infrastructure level, a business model level, and an open source community strategy level, and will be carried out over the coming years. 2i2c’s next steps are to run pilot JupyterHub infrastructure for select communities of practice in research and education, in order to better understand their needs and how these needs fit in with 2i2c’s developing sustainability model. They will also build infrastructure to deploy and customize a federation of JupyterHubs that are community-specific, and that run entirely on open source infrastructure.&lt;/p>
 &lt;p>If you believe that your community would benefit from a hub like this, please
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="" >reach out to the 2i2c team&lt;/a>
 , or
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://2i2c.org/#contact" target="_blank" rel="noopener" >join their mailing list&lt;/a>
 . Stay tuned as 2i2c builds its sustainable, scalable, and community-driven platform for interactive computing in the cloud.&lt;/p></description></item></channel></rss>

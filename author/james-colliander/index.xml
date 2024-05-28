@@ -1,28 +1,20 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>James Colliander | 2i2c</title><link>https://2i2c.org/author/james-colliander/</link><atom:link href="https://2i2c.org/author/james-colliander/index.xml" rel="self" type="application/rss+xml"/><description>James Colliander</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 05 Dec 2023 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>James Colliander</title><link>https://2i2c.org/author/james-colliander/</link></image><item><title>Digital public goods for Earth system management: U.S. Greenhouse Gas Center launches</title><link>https://2i2c.org/blog/2023/us-ghg-center-launches/</link><pubDate>Tue, 05 Dec 2023 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2023/us-ghg-center-launches/</guid><description>&lt;blockquote>
 &lt;p>&lt;strong>Abstract&lt;/strong>&lt;/p>
 &lt;p>The International Interactive Computing Collaboration (
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://2i2c.org" target="_blank" rel="noopener" >2i2c.org&lt;/a>
 ), working with
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://www.earthdata.nasa.gov/dashboard/" target="_blank" rel="noopener" >NASA VEDA&lt;/a>
 ,
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://developmentseed.org/" target="_blank" rel="noopener" >Development Seed&lt;/a>
 and other partners, operates an interactive computing platform for The U.S. Greenhouse Gas Center. The U.S. GHG Center,
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://www.nasa.gov/news-release/nasa-partners-launch-us-greenhouse-gas-center-to-share-climate-data/" target="_blank" rel="noopener" >announced yesterday&lt;/a>
 at the 28th annual United Nations Climate Conference (COP-28) in Dubai, is an interagency collaboration of the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://www.epa.gov/" target="_blank" rel="noopener" >Environmental Protection Agency (EPA)&lt;/a>
 , the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://www.nasa.gov/" target="_blank" rel="noopener" >National Aeronautics and Space Administration (NASA)&lt;/a>
 , the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://www.nist.gov/" target="_blank" rel="noopener" >National Institute of Standards and Technology (NIST)&lt;/a>
 , and the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://www.nist.gov/" target="_blank" rel="noopener" >National Ocean and Atmospheric Administration (NOAA)&lt;/a>
 . This note places the launch of the U.S. GHG Center in a scientific, international, and national context and argues that similar digital public goods are needed for humanity to understand and manage the Earth system.&lt;/p>
 &lt;/blockquote>
@@ -30,11 +22,9 @@ at the 28th annual United Nations Climate Conference (COP-28) in Dubai, is an in
 Scientific Context
 &lt;a class="header-anchor" href="#scientific-context">#&lt;/a>
 &lt;/h2>&lt;p>It was controversial in 1827 when Joseph Fourier (the discoverer of the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://en.wikipedia.org/wiki/Thermal_conduction#Fourier%27s_law" target="_blank" rel="noopener" >law of heat conduction&lt;/a>
 ) argued &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup> that the atmosphere keeps the Earth warm, like a puffy down comforter, but it&amp;rsquo;s not now. Gases in the atmosphere trap heat near Earth. How much heat is trapped depends on the gas mixture. Putting more heat-trapping gases in is like putting a wool blanket on top of the down comforter. Human activity since industrialization is injecting lots more heat-trapping gas into the atmosphere and changing the Earth&amp;rsquo;s climate.&lt;/p>
 &lt;p>The science is clear. The up-to-date consensus view of the global scientific community is expressed in the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://www.ipcc.ch/assessment-report/ar6/" target="_blank" rel="noopener" >Sixth Assessment Report&lt;/a>
 of the Intergovernmental Panel on Climate Change (IPCC):&lt;/p>
 &lt;p>
@@ -47,7 +37,6 @@ of the Intergovernmental Panel on Climate Change (IPCC):&lt;/p>
 International Context
 &lt;a class="header-anchor" href="#international-context">#&lt;/a>
 &lt;/h2>&lt;p>The international community officially recognized human-influenced climate change at the World Climate Conference (WCC-1) &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup> in 1979. The
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://library.wmo.int/viewer/54699/download?file=1979_wcc1-declaration.pdf&amp;amp;type=pdf&amp;amp;navigator=1" target="_blank" rel="noopener" >1979 declaration&lt;/a>
 is remarkably prescient and detailed. A complex and interconnected collection of scientific and diplomatic activities were catalyzed by WCC-1. Some important milestones from this history are captured in the chart and numbered list below.&lt;/p>
 &lt;div class="mermaid">gantt
@@ -87,65 +76,47 @@ ETF :crit, adminU, 2024-01-01, 2025-12-31
 &lt;ol>
 &lt;li>The First World Climate Conference (&lt;strong>WCC-1&lt;/strong>) &lt;sup id="fnref1:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup> was held in 1979.&lt;/li>
 &lt;li>The World Climate Programme (
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://public.wmo.int/en/programmes/world-climate-programme" target="_blank" rel="noopener" >WCP&lt;/a>
 ), an activity overseen by the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://public.wmo.int/en" target="_blank" rel="noopener" >World Meteorological Organization&lt;/a>
 was established after WCC-1. WCP, in partnership with other organizations, operates programs (e.g. the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://wcrp-cmip.org/" target="_blank" rel="noopener" >World Climate Research Program (WCRP)&lt;/a>
 ) that organize and integrate international scientific efforts to understand the climate. The WMO also operates the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://ig3is.wmo.int/en/who-we-are" target="_blank" rel="noopener" >Integrated Global Greenhouse Gas Information System (IG3IS)&lt;/a>
 , a natural partner for the emerging work described below.&lt;/li>
 &lt;li>WCRP manages the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://wcrp-cmip.org/" target="_blank" rel="noopener" >Common Model Intercomparison Project (CMIP)&lt;/a>
 . CMIP serves as a kind of &lt;strong>league for intercomparing models&lt;/strong> of the Earth&amp;rsquo;s climate system developed by teams who approach the problems with different methods and designs. Intercomparison, an approach that enables finding the consensus views of teams with divergent approaches to problems, is used in other modeling scenarios.&lt;/li>
 &lt;li>Research papers on the climate are rapidly produced by scholars from essentially all knowledge disciplines. This overwhelming stream of content, like snowflakes in a blizzard, is coalesced into coherent and carefully scrutinized &lt;strong>
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://www.ipcc.ch/reports/" target="_blank" rel="noopener" >IPCC Assessment Reports&lt;/a>
 &lt;/strong> by the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://www.ipcc.ch/" target="_blank" rel="noopener" >Intergovernmental Panel on Climate Change (IPCC)&lt;/a>
 .&lt;/li>
 &lt;li>The
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://en.wikipedia.org/wiki/Earth_Summit" target="_blank" rel="noopener" >Earth Summit&lt;/a>
 held in Rio de Janeiro in 1992 led to the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://unfccc.int/" target="_blank" rel="noopener" >United Nations Framework Convention on Climate Change (UNFCC)&lt;/a>
 . The UNFCCC is an international treaty that recognizes the dangers to the climate system caused by human activity, calls for ongoing study, and establishes recurring
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://unfccc.int/process/bodies/supreme-bodies/conference-of-the-parties-cop" target="_blank" rel="noopener" >Conference of the Parties (COP)&lt;/a>
 meetings.&lt;/li>
 &lt;li>
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://unfccc.int/event/cop-3" target="_blank" rel="noopener" >COP-3 (Kyoto)&lt;/a>
 led to the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://unfccc.int/kyoto_protocol" target="_blank" rel="noopener" >Kyoto Protocol Treaty&lt;/a>
 .&lt;/li>
 &lt;li>The
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://en.wikipedia.org/wiki/Byrd%E2%80%93Hagel_Resolution" target="_blank" rel="noopener" >Byrd-Hagel Resolution&lt;/a>
 was a unanimous United States Senate Resolution that stipulated the United States would not sign treaties promising greenhouse gas reductions by developed countries that did not mandate similar reductions from developing countries. This killed USA participation in the Kyoto Protocol Treaty.&lt;/li>
 &lt;li>The
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://unfccc.int/process-and-meetings/the-paris-agreement" target="_blank" rel="noopener" >Paris Agreement&lt;/a>
 , established at
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://unfccc.int/event/cop-21" target="_blank" rel="noopener" >COP-21 (Paris)&lt;/a>
 , effectively replaces the Kyoto Protocol, includes specifications by participant countries on greenhouse gas reductions called &lt;em>National Determined Contributions&lt;/em> (NDCs). The United States entered the Paris Agreement under President Obama, exited under President Trump and rejoined under President Biden.&lt;/li>
 &lt;li>
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://www.un.org/en/climatechange/cop26" target="_blank" rel="noopener" >COP-26 (Glasgow)&lt;/a>
 established an accountability system for the Paris Agreement called the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://unfccc.int/FAQ-moving-towards-the-ETF" target="_blank" rel="noopener" >Enhanced Transparency Framework (ETF)&lt;/a>
 . Participant countries to the Paris Agreement will
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://unfccc.int/process-and-meetings/transparency-and-reporting/preparing-for-the-ETF" target="_blank" rel="noopener" >submit their first Biennial Transparency Reports (BTR1) under the ETF&lt;/a>
 in 2024.&lt;/li>
 &lt;/ol>
@@ -153,33 +124,24 @@ in 2024.&lt;/li>
 🇺🇸 U.S.A. Context
 &lt;a class="header-anchor" href="#-usa-context">#&lt;/a>
 &lt;/h2>&lt;p>The
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://www.epa.gov/ghgemissions/inventory-us-greenhouse-gas-emissions-and-sinks" target="_blank" rel="noopener" >United States Environmental Protection Agency (EPA) annually releases&lt;/a>
 the &lt;em>Inventory of U.S. Greenhouse Gas Emissions and Sinks&lt;/em> reports. These reports are submitted to the United Nations in accordance with the UNFCCC. The EPA
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://www.epa.gov/ghgemissions/greenhouse-gas-inventory-tools" target="_blank" rel="noopener" >openly shares&lt;/a>
 software, tools, data, and
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://www.epa.gov/ghgemissions/capacity-building-national-greenhouse-gas-inventories" target="_blank" rel="noopener" >builds capacity&lt;/a>
 to assist other nations to assemble their own greenhouse gas inventories.&lt;/p>
 &lt;p>An
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://obamawhitehouse.archives.gov/sites/default/files/omb/inforeg/for-agencies/Social-Cost-of-Carbon-for-RIA.pdf" target="_blank" rel="noopener" >Interagency Working Group (IWG) on the Social Cost of Carbon&lt;/a>
 was set up by the Obama Administration in 2010. The IWG, renamed as the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://www.epa.gov/sites/default/files/2016-12/documents/sc_co2_tsd_august_2016.pdf" target="_blank" rel="noopener" >Interagency Working Group on Social Cost of Greenhouse Gases in 2016&lt;/a>
 , synthesizes research on
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://en.wikipedia.org/wiki/Integrated_assessment_modelling" target="_blank" rel="noopener" >integrated assessment modelling&lt;/a>
 to quantify the dollar costs associated to damage caused by an incremental increase in GHG emissions in a given year. Quantifying the impacts of GHG emissions in monetary terms is vital to effective rulemaking across the Federal Government. This
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://www.epa.gov/sites/default/files/2016-12/documents/social_cost_of_carbon_fact_sheet.pdf" target="_blank" rel="noopener" >EPA fact sheet on the social costs of carbon&lt;/a>
 provides further background. A 2017 consensus report &lt;sup id="fnref:5">&lt;a href="#fn:5" class="footnote-ref" role="doc-noteref">5&lt;/a>&lt;/sup> of the National Academies of Science Engineering and Medicine (NASEM) offered recommendations for ongoing research to improve the assignment of social costs to GHG emissions.&lt;/p>
 &lt;p>Other federal agencies have developed expertise, data, and analyses that give insights into GHG emissions that compliment and potentially extend the &lt;em>Inventory&lt;/em> reports developed annually by the EPA. How should the United States integrate federal agency efforts to monitor and measure greenhouse gas emissions? A 2022 NASEM consensus report &lt;sup id="fnref:6">&lt;a href="#fn:6" class="footnote-ref" role="doc-noteref">6&lt;/a>&lt;/sup> investigated this question. In January of this year, the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://www.whitehouse.gov/ceq/news-updates/2023/01/06/biden-harris-administration-releases-new-guidance-to-disclose-climate-impacts-in-environmental-reviews/" target="_blank" rel="noopener" >Biden Administration&lt;/a>
 released guidance&lt;sup id="fnref:7">&lt;a href="#fn:7" class="footnote-ref" role="doc-noteref">7&lt;/a>&lt;/sup> for federal agencies on incorporating GHG emissions information in policies and reports. Shortly thereafter, a draft federal strategy to advance an integrated greenhouse gas monitoring system was
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://nspires.nasaprs.com/external/solicitations/summary.do?solId=%7bDDD1BC85-9276-8FB7-C362-A00E3E427E0D%7d&amp;amp;path=&amp;amp;method=init" target="_blank" rel="noopener" >released by NASA with a request for public input&lt;/a>
 .&lt;/p>
 &lt;p>Some important insights from the NASEM consensus report, the draft federal strategy, and the IWG reports:&lt;/p>
@@ -188,7 +150,6 @@ released guidance&lt;sup id="fnref:7">&lt;a href="#fn:7" class="footnote-ref" ro
 &lt;ul>
 &lt;li>&lt;strong>Activity-based:&lt;/strong> Activity-based data, sometimes called &amp;ldquo;bottom-up&amp;rdquo; data, quantify GHG emissions by measuring activities that generate GHG emissions. Economic or business activity data (gallons of diesel sold in a county on Tuesday; miles flown by a 747 in October) can be converted into quantified GHG emissions information.&lt;/li>
 &lt;li>&lt;strong>Atmospheric-based:&lt;/strong> Atmosphere-based data, sometimes called &amp;ldquo;top-down&amp;rdquo; data, quantify GHG emissions by performing atmospheric measurements. For example, the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://ocov2.jpl.nasa.gov/" target="_blank" rel="noopener" >Orbiting Carbon Observatory (OCO2)&lt;/a>
 remotely senses $CO_2$ from space.&lt;/li>
 &lt;li>A hybrid approach that blends activity-based and atmospheric-based GHG data has the potential to provide new insights.&lt;/li>
@@ -209,19 +170,14 @@ remotely senses $CO_2$ from space.&lt;/li>
 The U.S. Greenhouse Gas Center
 &lt;a class="header-anchor" href="#the-us-greenhouse-gas-center">#&lt;/a>
 &lt;/h2>&lt;p>The launch of U.S. GHG Center, an interagency collaboration of the 
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://www.epa.gov/" target="_blank" rel="noopener" >Environmental Protection Agency (EPA)&lt;/a>
 , the 
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://www.nasa.gov/" target="_blank" rel="noopener" >National Aeronautics and Space Administration (NASA)&lt;/a>
 , the 
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://www.nist.gov/" target="_blank" rel="noopener" >National Institute of Standards and Technology (NIST)&lt;/a>
 , and the 
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://www.nist.gov/" target="_blank" rel="noopener" >National Ocean and Atmospheric Administration (NOAA)&lt;/a>
 , was
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://www.nasa.gov/news-release/nasa-partners-launch-us-greenhouse-gas-center-to-share-climate-data/" target="_blank" rel="noopener" >announced on 2023-12-04&lt;/a>
 at COP-28 (Dubai)&lt;/p>
 &lt;p>How much GHG emission is generated through oil and gas production? How much GHG emission is generated by urban centers? Do landfills contribute significant GHG emissions? How do human-generated GHG emissions compare to natural sources of GHG emissions? The U.S. GHG Center is designed to assemble the data, tools, and people to scientifically address these kinds of questions.&lt;/p>
@@ -229,38 +185,28 @@ at COP-28 (Dubai)&lt;/p>
 Openness: Amplified Knowledge Sharing
 &lt;a class="header-anchor" href="#openness-amplified-knowledge-sharing">#&lt;/a>
 &lt;/h2>&lt;p>The U.S. Greenhouse Gas Center builds on
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://www.epa.gov/ghgemissions/greenhouse-gas-inventory-tools" target="_blank" rel="noopener" >EPA&amp;rsquo;s leadership to openly share the data and tools for the &lt;em>Inventory&lt;/em>&lt;/a>
 and the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://www.whitehouse.gov/ostp/news-updates/2023/01/11/fact-sheet-biden-harris-administration-announces-new-actions-to-advance-open-and-equitable-research/" target="_blank" rel="noopener" >2023 Year of Open Science&lt;/a>
 . Instead of building a walled garden with proprietary technology from a vendor selected through RFP, the Center launched a prototype platform using curated open source tools integrated with public federal data. This &lt;strong>open toolchain approach&lt;/strong> amplifies the open data efforts developed over the past two decades.&lt;/p>
 &lt;p>The U.S. GHG Center&amp;rsquo;s interactive computing platform is &lt;strong>open source science infrastructure&lt;/strong>. The platform is:&lt;/p>
 &lt;ol>
 &lt;li>
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/2i2c-org/infrastructure" target="_blank" rel="noopener" >transparently operated&lt;/a>
 by
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://2i2c.org" target="_blank" rel="noopener" >2i2c&lt;/a>
 on a cloud data center under a
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://2i2c.org/right-to-replicate/" target="_blank" rel="noopener" >right to replicate that ensures zero vendor lock-in&lt;/a>
 with data integrations and visualizations built with using software from a
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://jupyter.org/" target="_blank" rel="noopener" >vibrant open source ecosystem&lt;/a>
 by
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://developmentseed.org/" target="_blank" rel="noopener" >Development Seed&lt;/a>
 ,
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://www.earthdata.nasa.gov/dashboard/" target="_blank" rel="noopener" >NASA VEDA&lt;/a>
 , and collaborators;&lt;/li>
 &lt;li>proximate to and optimized &lt;sup id="fnref:8">&lt;a href="#fn:8" class="footnote-ref" role="doc-noteref">8&lt;/a>&lt;/sup> for analyzing geospatial data (e.g.
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://registry.opendata.aws/collab/nasa/" target="_blank" rel="noopener" >NASA&lt;/a>
 ,
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://repository.library.noaa.gov/view/noaa/37529" target="_blank" rel="noopener" >NOAA&lt;/a>
 );&lt;/li>
 &lt;li>designed to be a &lt;em>digital public good.&lt;/em>&lt;/li>
@@ -277,7 +223,6 @@ References
 &lt;/li>
 &lt;li id="fn:2">
 &lt;p>World Climate Conference. &lt;em>World Climate Conference - Declaration and supporting documents&lt;/em>.
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://library.wmo.int/records/item/54699-world-climate-conference-declaration-and-supporting-documents" target="_blank" rel="noopener" >https://library.wmo.int/records/item/54699-world-climate-conference-declaration-and-supporting-documents&lt;/a>
 (1979).&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref1:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
@@ -289,19 +234,16 @@ References
 &lt;/li>
 &lt;li id="fn:5">
 &lt;p>&lt;em>Valuing Climate Changes: Updating Estimation of the Social Cost of Carbon Dioxide&lt;/em>. (National Academies Press, 2017). doi:
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://doi.org/10.17226/24651" target="_blank" rel="noopener" >10.17226/24651&lt;/a>
 .&amp;#160;&lt;a href="#fnref:5" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li id="fn:6">
 &lt;p>&lt;em>Greenhouse Gas Emissions Information for Decision Making: A Framework Going Forward&lt;/em>. (National Academies Press, 2022). doi:
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://doi.org/10.17226/26641" target="_blank" rel="noopener" >10.17226/26641&lt;/a>
 .&amp;#160;&lt;a href="#fnref:6" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li id="fn:7">
 &lt;p>CEQguidance. National Environmental Policy Act Guidance on Consideration of Greenhouse Gas Emissions and Climate Change. &lt;em>Federal Register&lt;/em>
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://www.federalregister.gov/documents/2023/01/09/2023-00158/national-environmental-policy-act-guidance-on-consideration-of-greenhouse-gas-emissions-and-climate" target="_blank" rel="noopener" >https://www.federalregister.gov/documents/2023/01/09/2023-00158/national-environmental-policy-act-guidance-on-consideration-of-greenhouse-gas-emissions-and-climate&lt;/a>
 (2023).&amp;#160;&lt;a href="#fnref:7" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
@@ -327,75 +269,55 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;/figure>
 &lt;/p>
 &lt;p>2i2c supported and participated in the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://cpaess.ucar.edu/meetings/eddy-symposium-2022" target="_blank" rel="noopener" >3rd Eddy Cross Disciplinary Symposium&lt;/a>
 held recently in Vail Colorado. The event was hosted by the Cooperative Programs for the Advancement of Earth System Science (
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://cpaess.ucar.edu/" target="_blank" rel="noopener" >CPAESS&lt;/a>
 ) team at the University Corporation for Atmospheric Research (
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://www.ucar.edu/" target="_blank" rel="noopener" >UCAR&lt;/a>
 ) with support from NASA.&lt;/p>
 &lt;h2 id="context">
 Context
 &lt;a class="header-anchor" href="#context">#&lt;/a>
 &lt;/h2>&lt;p>The Symposium was framed by the interesting and interdisciplinary scientific career of the late
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://en.wikipedia.org/wiki/John_A._Eddy" target="_blank" rel="noopener" >Jack Eddy&lt;/a>
 . Eddy&amp;rsquo;s legacy was highlighted and his influence has been extended by dynamic leadership from NASA Program Officer
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://science.nasa.gov/about-us/organization-and-leadership/lead-program-scientist-for-lws" target="_blank" rel="noopener" >Madhulika Guhathakurta (Lika)&lt;/a>
 . Lika helped launch and has sustained NASA&amp;rsquo;s
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://science.nasa.gov/heliophysics/programs/living-with-a-star" target="_blank" rel="noopener" >Living with a Star (LWS)&lt;/a>
 program over the past two decades. Prior to LWS, NASA had a variety of siloed efforts focused on near-Sun and near-Earth behavior. The LWS program led to an integration of these efforts under &amp;ldquo;system science&amp;rdquo; or &amp;ldquo;systems engineering&amp;rdquo; approaches and an expressed desired to connect LWS research activities with impacts on Earth (society, biology, culture, etc.). The program has expanded to include explorations of similar questions arising around other planets in our solar system and the recently discovered collection of exoplanets. Scientists from diverse disciplines (plasma physics, stellar evolution, atmospheric chemistry, space weather, planetary science,&amp;hellip;) work together on &amp;ldquo;cross disciplinary&amp;rdquo; research that helps us understand our lives near our star.&lt;/p>
 &lt;p>The Symposium focused on three disciplinary areas (&lt;strong>Exoplanets&lt;/strong>; &lt;strong>Sun-Climate and Star-Climate interactions&lt;/strong>; &lt;strong>Risk and resilience of space weather&lt;/strong>) unified under the cross-cutting thread of &lt;strong>open science&lt;/strong>. Frequent references were made to the upcoming 2023 Year of Open Science and
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://science.nasa.gov/open-science/transform-to-open-science" target="_blank" rel="noopener" >NASA&amp;rsquo;s Transform to Open Science (TOPS) mission&lt;/a>
 . Symposium attendees listened to talks surveying the four areas in the morning and participated in hackathon-style breakout projects during the afternoons. Work on the projects launched at the Eddy Symposium
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/jack-eddy-symposium" target="_blank" rel="noopener" >continues&lt;/a>
 . The space weather group is investigating ways to make the power grid more resilient. The Sun-climate group is exploring plans to establish an institute focused on Sun-climate interactions and improve connections between climate and heliophysics research communities. The exoplanets team is developing tools to programmatically compare Sun-Earth and star-exoplanet interactions.&lt;/p>
 &lt;h2 id="2i2cs-role">
 2i2c&amp;rsquo;s role
 &lt;a class="header-anchor" href="#2i2cs-role">#&lt;/a>
 &lt;/h2>&lt;p>2i2c, with input from Symposium CoChair&amp;rsquo;s
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://staff.ucar.edu/users/marsh" target="_blank" rel="noopener" >Dan Marsh&lt;/a>
 and
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="http://www.ryanmcgranaghan.com/about.html" target="_blank" rel="noopener" >Ryan McGranaghan&lt;/a>
 , rapidly deployed a cloud-hosted JupyterHub for use during the event. The hub provided a shared space for participants to explore data, run analyses, and collaborate with one another using modern tools including Zarr, Xarray and Dask Gateway. Access to the interactive computing platform was granted to any member of the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/jack-eddy-symposium/" target="_blank" rel="noopener" >Symposium&amp;rsquo;s GitHub organization&lt;/a>
 . The work to set up that hub, openly chronicled in this GitHub issue (
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/2i2c-org/infrastructure/issues/1329" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> 2i2c-org/infrastructure#1329&lt;/a>
 ), included swapping out a Pangeo-style software environment for a heliophysics-specific resource developed by
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="http://heliocloud.org/" target="_blank" rel="noopener" >HelioCloud&lt;/a>
 with special thanks to
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://www.nasa.gov/offices/oce/bios/mwm/Thomas-Brian-bio.html" target="_blank" rel="noopener" >Brian Thomas&lt;/a>
 !&lt;/p>
 &lt;p>2i2c co-founder Fernando Pérez gave a talk on how he is
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://docs.google.com/presentation/d/1i99eQqOVCSQyxoyscUo0dl3Ybgdex5qKo_KEO9YGxQg/edit?usp=drivesdk" target="_blank" rel="noopener" >&amp;ldquo;living la vida nube&amp;rdquo;&lt;/a>
 . Fernando described the ways he, research collaborators, and students are using the Jupyter ecosystem. Diverse and curated tools in Jupyter hubs for the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://jupytearth.org/" target="_blank" rel="noopener" >Jupyter Meets the Earth Project&lt;/a>
 and
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://data.berkeley.edu/" target="_blank" rel="noopener" >Berkeley&amp;rsquo;s data science programs&lt;/a>
 were highlighted. The talk showcased how these tools have been integrated to support individuals and communities of practice in data-driven research. In response to requests from the organizers and participants, Fernando gave a demonstration on how to use the hub 2i2c set up for the Symposium and an introduction to version control using &lt;code>git&lt;/code>.&lt;/p>
 &lt;p>2i2c co-founder Jim Colliander gave a talk titled
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://bit.ly/eddy-science-commons" target="_blank" rel="noopener" >Governing the Science Commons&lt;/a>
 . Three key points from Jim&amp;rsquo;s talk were: the virtue that should guide the improvements to the scientific enterprise is intellectual generosity; implementation of intellectual generosity into science requires commons-based governance; the convergence of open source tools that support data-intensive collaborative research and learning (as showcased by Fernando) and agency interest (
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://science.nasa.gov/open-science/transform-to-open-science" target="_blank" rel="noopener" >NASA TOPS&lt;/a>
 ,
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://unesdoc.unesco.org/ark:/48223/pf0000379949/PDF/379949eng.pdf.multi.page=1" target="_blank" rel="noopener" >UNESCO&lt;/a>
 ) in open science is an inflection point for global change. The talk ended with a call to action for the diverse communities represented at the Symposium to improve the ways we do science.&lt;/p>
 &lt;h2 id="things-we-learned">
@@ -403,12 +325,10 @@ Things we learned
 &lt;a class="header-anchor" href="#things-we-learned">#&lt;/a>
 &lt;/h2>&lt;p>Our experience with the Symposium taught 2i2c a few things.&lt;/p>
 &lt;p>We learned that our engineering team can rapidly deploy interactive computing resources to support a research and education community. Along the way, we confirmed what we&amp;rsquo;ve been learning from Pangeo and the neuroscience communities: flexible methods to customize the software environment are necessary. We confirmed that our developing
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://docs.2i2c.org/about/service/shared-responsibility.html?highlight=shared%20responsibility" target="_blank" rel="noopener" >shared responsibility model&lt;/a>
 , enabling domain-specific experts to provide curated toolchains for their communities while leveraging 2i2c&amp;rsquo;s infrastructure expertise, is the right approach.&lt;/p>
 &lt;p>We learned that managing access to the hub using members in a GitHub organization works but involves some toil since organizers had to work through the GitHub invitation process for each participant. We are exploring others ways to systematically grant event participants access to a hub.&lt;/p>
 &lt;p>The Eddy Symposium experience reminded us that some skill at using &lt;code>git&lt;/code> is vital for collaboration. Fernando&amp;rsquo;s brief introduction to &lt;code>git&lt;/code> provided
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://jack-eddy-symposium.github.io/intro-git-jupyter/intro-git/git-visuals.html" target="_blank" rel="noopener" >the mental model of working on a directed acyclyic graph&lt;/a>
 . Roving support from Jim and Fernando during the afternoon hackathon sessions normalized the skill level across the groups but not without a few merge conflicts and frustration. Near the beginning of future workshops, we will follow an improved approach aimed at establishing good &lt;code>git&lt;/code> hygeine and familiarity with the collaboration workflow using a simple pull request.&lt;/p>
 &lt;p>We are honored to have had the opportunity to collaborate with the Eddy Symposium team by managing infrastructure and participating in the workshop. We learned a lot about how to support the Helio and adjacent communities, and are proud of the ways in which our infrastructure helped them do their work more openly and effectively. We hope to build on these successes with these and other communities in the future!&lt;/p></description></item></channel></rss>

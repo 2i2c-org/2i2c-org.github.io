@@ -1,5 +1,4 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>People | 2i2c</title><link>https://2i2c.org/category/people/</link><atom:link href="https://2i2c.org/category/people/index.xml" rel="self" type="application/rss+xml"/><description>People</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 22 Mar 2022 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>People</title><link>https://2i2c.org/category/people/</link></image><item><title>Notes from our drop-in meeting about the Product and Community Lead role</title><link>https://2i2c.org/blog/2022/product-community-lead-drop-in-notes/</link><pubDate>Tue, 22 Mar 2022 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2022/product-community-lead-drop-in-notes/</guid><description>&lt;p>Yesterday we had a quick &amp;ldquo;drop-in&amp;rdquo; session to take questions about 2i2c&amp;rsquo;s
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://2i2c.org/blog/2022/job-product-community-lead/" >job posting for a Product and Community Lead&lt;/a>
 .
 We spent the hour discussing a number of questions that others had about the position.
@@ -34,7 +33,6 @@ This will also mean defining goals and a strategy to meet these goals over time.
 How does 2i2c provide mentorship/onboarding?
 &lt;a class="header-anchor" href="#how-does-2i2c-provide-mentorshiponboarding">#&lt;/a>
 &lt;/h2>&lt;p>You can find
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://compass.2i2c.org/get-started.html" target="_blank" rel="noopener" >our onboarding process in our Team Compass&lt;/a>
 .
 This roughly comes down to choosing an &amp;ldquo;Onboarding Champion&amp;rdquo; for the new team member, to help walk them through our team processes and get them access to the right information and accounts.
@@ -52,7 +50,6 @@ However, we don&amp;rsquo;t want to be overly-prescriptive in this role, because
 How do you hope to protect the &amp;ldquo;business&amp;rdquo; aspects of 2i2c, if all the tech is open source?
 &lt;a class="header-anchor" href="#how-do-you-hope-to-protect-the-business-aspects-of-2i2c-if-all-the-tech-is-open-source">#&lt;/a>
 &lt;/h2>&lt;p>2i2c is to some extent committing to a limiting business model: by respecting the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://2i2c.org/right-to-replicate" target="_blank" rel="noopener" >Right to Replicate&lt;/a>
 , we &lt;em>encourage&lt;/em> other organizations to perform the exact same kinds of services that 2i2c offers.
 However, we believe this is in-line with 2i2c&amp;rsquo;s mission, and would consider this to be a measure of impact rather than a sustainability problem.
@@ -63,7 +60,6 @@ We also hope that our mission-driven nature and focus on research and education 
 How would applying the &amp;ldquo;1000 true fans&amp;rdquo; approach work in terms of advocacy?
 &lt;a class="header-anchor" href="#how-would-applying-the-1000-true-fans-approach-work-in-terms-of-advocacy">#&lt;/a>
 &lt;/h2>&lt;p>The
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://kk.org/thetechnium/1000-true-fans/" target="_blank" rel="noopener" >1000 true fans&lt;/a>
 approach suggests that it is enough to leverage the support of &amp;ldquo;1000 true fans&amp;rdquo; to sustain a product or service.
 We hadn&amp;rsquo;t considered 2i2c in this light before, but believe it aligns well with our strategy.
@@ -86,7 +82,6 @@ For example, many universities require a &lt;em>university email&lt;/em> in orde
 We have worked together for many years in open source communities, but there&amp;rsquo;s a new degree of complexity when you&amp;rsquo;re all working on the &lt;em>same&lt;/em> service and development efforts.
 Throw in a largely asynchronous team split across many time zones, and there are a lot of coordination and planning challenges to overcome.
 We have tried many things over the past year (see
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://compass.2i2c.org/practices/index.html" target="_blank" rel="noopener" >our latest team practices in the team compass&lt;/a>
 , but there is still a lot of improvement to make.&lt;/li>
 &lt;/ol>
@@ -178,7 +173,6 @@ More details to come about this, and we&amp;rsquo;ll start sending out communica
 Why a new role?
 &lt;a class="header-anchor" href="#why-a-new-role">#&lt;/a>
 &lt;/h2>&lt;p>When 2i2c began a year ago, we hired a team of engineers that had experience in cloud infrastructure, Jupyter, and open source ecosystems. In that time, we&amp;rsquo;ve built out the infrastructure foundation for scalable interactive computing environments that are customizable for the community, and respects their
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="" >Right to Replicate&lt;/a>
 .&lt;/p>
 &lt;p>However, solely providing infrastructure is not enough. Working with the modern open source stack, using the cloud to its advantage, and bringing these tools into specific domains requires a lot of extra experience and expertise. We believe that 2i2c is in a good position to &lt;strong>provide guidance and support to leaders in the communities that we serve&lt;/strong>, allowing them to get up-to-speed with the infrastructure more effectively so that they can have an impact.&lt;/p>
@@ -191,7 +185,6 @@ What are similar roles?
 &lt;p>This role is kind-of like a &lt;strong>product manager&lt;/strong> - their job is to understand the communities that we work with, and to use this to help us make decisions about what to build, how to present it, and how to engage with stakeholders. They will need to help us prioritize the work that is most impactful for our mission, and help us navigate trade-offs in the evolution of our services.&lt;/p>
 &lt;p>This role is also kind-of like a &lt;strong>customer success manager&lt;/strong> or a &lt;strong>developer advocate&lt;/strong> - they will guide and teach those in the communities we serve - particularly community leaders that go on to teach others - how to use our infrastructure most-effectively.&lt;/p>
 &lt;p>In fact, the closest role we could find is a relatively new one: the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://the-turing-way.netlify.app/collaboration/research-infrastructure-roles/ram.html" target="_blank" rel="noopener" >&lt;strong>Research Applications Manager&lt;/strong>&lt;/a>
 . This is a role that has been pioneered by the Turing Institute, and is similarly described as a connector that brings together many perspectives and encourages a participatory, team-based approach to research.&lt;/p>
 &lt;p>However, the reality is that the person in this role will ultimately get to shape the nature of their work within 2i2c. As a young organization, there is a lot of flexibility for creativity and experimentation in bringing new skillsets into our organization. We hope that the person who fills this role will be excited about growing a culture of team-based approaches to our engineering and collaborations, and to share this culture with the communities that we serve.&lt;/p>

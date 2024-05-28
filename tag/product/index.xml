@@ -1,11 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Product | 2i2c</title><link>https://2i2c.org/tag/product/</link><atom:link href="https://2i2c.org/tag/product/index.xml" rel="self" type="application/rss+xml"/><description>Product</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 21 May 2024 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Product</title><link>https://2i2c.org/tag/product/</link></image><item><title>Jupyter Book 2.0 will use MyST</title><link>https://2i2c.org/blog/2024/myst-jupyter-book/</link><pubDate>Tue, 21 May 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/myst-jupyter-book/</guid><description>&lt;p>See
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://executablebooks.org/en/latest/blog/2024-05-20-jupyter-book-myst/" target="_blank" rel="noopener" >the Executable Books blog&lt;/a>
 for a post on the future directions of the Jupyter Book project, which will be built on top of the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://mystmd.org" target="_blank" rel="noopener" >MyST Markdown engine&lt;/a>
 .&lt;/p></description></item><item><title>An update to 2i2c's value proposition</title><link>https://2i2c.org/blog/2024/value-proposition/</link><pubDate>Mon, 06 May 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/value-proposition/</guid><description>&lt;p>2i2c recently finished
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://2i2c.org/report-czi-2021" target="_blank" rel="noopener" >it&amp;rsquo;s three year retrospective&lt;/a>
 after closing out its original seed grant.
 As part of this process, we&amp;rsquo;re revisiting our organizational strategy, structure, and overall plan, in order to incorporate the learning that we&amp;rsquo;ve done over our first three years.&lt;/p>
@@ -45,23 +42,18 @@ We&amp;rsquo;d love feedback from anyone who has an idea, a critique, or &amp;ld
 A recent talk with this value proposition
 &lt;a class="header-anchor" href="#a-recent-talk-with-this-value-proposition">#&lt;/a>
 &lt;/h2>&lt;p>As part of this work, 2i2c&amp;rsquo;s Executive Director,
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="" >Chris Holdgraf&lt;/a>
 , gave a talk about 2i2c to the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://incentivizingopen.org" target="_blank" rel="noopener" >Incentivizing Open and Collaborative Research&lt;/a>
 (ICOR) community. Here are some links in case others are interested:&lt;/p>
 &lt;ul>
 &lt;li>
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://docs.google.com/presentation/d/1C-TNSI2h0181y6-z5tL9AWSRsWp9IfZqCDtcIZEs1MM/edit?usp=sharing" target="_blank" rel="noopener" >Slides for viewing&lt;/a>
 &lt;/li>
 &lt;li>
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://incentivizingopen.org/2024/05/data-sharing-and-analysis-in-collaborative-open-research-environments/" target="_blank" rel="noopener" >More information for the talk&lt;/a>
 &lt;/li>
 &lt;li>
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://vimeo.com/944769875#t=400s" target="_blank" rel="noopener" >Video link&lt;/a>
 &lt;/li>
 &lt;/ul>

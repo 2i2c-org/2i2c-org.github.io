@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Brainstorm | 2i2c</title><link>https://2i2c.org/category/brainstorm/</link><atom:link href="https://2i2c.org/category/brainstorm/index.xml" rel="self" type="application/rss+xml"/><description>Brainstorm</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 08 Jan 2023 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Brainstorm</title><link>https://2i2c.org/category/brainstorm/</link></image><item><title>Principles and considerations for ethically accepting funding for open source</title><link>https://2i2c.org/blog/2023/open-source-funding-principles/</link><pubDate>Sun, 08 Jan 2023 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2023/open-source-funding-principles/</guid><description>&lt;p>&lt;em>This is a brainstorm to consider the principles and guidelines that 2i2c should follow in defining its strategy towards open source communities.
 See
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://compass.2i2c.org/open-source/index.html" target="_blank" rel="noopener" >our open source policy documentation&lt;/a>
 for the product of this brainstorm.&lt;/em>&lt;/p>
 &lt;p>Over the past year the 2i2c team has focused its efforts on deploying, configuring, running, and managing cloud infrastructure that supports open source workflows in research and education. We&amp;rsquo;ve also done a lot of &lt;em>upstream contribution&lt;/em> as a part of our work.&lt;/p>
@@ -10,7 +9,6 @@ for the product of this brainstorm.&lt;/em>&lt;/p>
 &lt;li>While 2i2c is aligned with the interests of open communities, we are still a distinct organization with our own mission and strategy. We want to be conscious that 2i2c team members have &lt;em>more than one hat&lt;/em>, and that their 2i2c hat is necessarily not the same thing as their open source hat. As such, we don&amp;rsquo;t want to leverage our &amp;ldquo;other hats&amp;rdquo; to drive resources to 2i2c without being thoughtful about it.&lt;/li>
 &lt;/ol>
 &lt;p>In the last year we&amp;rsquo;ve found that running infrastructure for research and education gives us great visibility into the kinds of things that these communities want to do, and ways to improve the infrastructure. It also means we can potentially be a conduit of &lt;em>resources&lt;/em> from those communities into open source development workflows. For example, we recently
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="" >partnered with GESIS to make improvements in Binder and JupyterHub&lt;/a>
 .&lt;/p>
 &lt;p>So, this post is a brainstorm to identify some of the major considerations that we should take before agreeing to this kind of work. Its goals is to drive policy that streamlines our ability to seek and accept funding for open source work. It tries to answer this question:&lt;/p>
@@ -21,7 +19,6 @@ for the product of this brainstorm.&lt;/em>&lt;/p>
 Some assumptions
 &lt;a class="header-anchor" href="#some-assumptions">#&lt;/a>
 &lt;/h2>&lt;p>First off I want to note that this only applies to open source projects that I&amp;rsquo;d call &amp;ldquo;Open communities&amp;rdquo;. For example, those that follow
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://openscholarlyinfrastructure.org/" target="_blank" rel="noopener" >the principles of open scholarly infrastructure&lt;/a>
 . The ideas here don&amp;rsquo;t apply to open source projects that are run by single organizations or people. You can assume I&amp;rsquo;m talking about projects that:&lt;/p>
 &lt;ul>
@@ -108,23 +105,18 @@ References and more reading
 &lt;/h2>&lt;p>There are many resources that discuss how to equitably and inclusively seek funding as part of collaborations&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>. Here are a few that I found useful in writing this blog post:&lt;/p>
 &lt;ul>
 &lt;li>
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://awid.org/sites/default/files/2022-02/AWID_Funding_Ecosystem_2019_FINAL_Eng.pdf" target="_blank" rel="noopener" >AWID - Towards a feminist funding ecosystem guide&lt;/a>
 &lt;/li>
 &lt;li>
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="http://astraeafoundation.org/microsites/feminist-funding-principles/" target="_blank" rel="noopener" >The Astraea Foundation - Feminist Funding Principles&lt;/a>
 &lt;/li>
 &lt;li>
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://www.openglobalrights.org/what-we-can-learn-from-feminists-who-fund-themselves/" target="_blank" rel="noopener" >OpenGlobalRights - What we can learn from feminists who fund themselves&lt;/a>
 &lt;/li>
 &lt;li>
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://learningforfunders.candid.org/content/guides/deciding-together/" target="_blank" rel="noopener" >Candid Learning for Funders - Deciding Together&lt;/a>
 &lt;/li>
 &lt;li>
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://www.openandequitable.org/participate" target="_blank" rel="noopener" >Open Research Funders Group - Open and Equitable Model Funding Program&lt;/a>
 &lt;/li>
 &lt;/ul>
@@ -133,16 +125,12 @@ References and more reading
 &lt;ol>
 &lt;li id="fn:1">
 &lt;p>And many thanks to several people in the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://investinopen.org" target="_blank" rel="noopener" >Invest in Open Infrastructure&lt;/a>
 ,
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://the-turing-way.netlify.app" target="_blank" rel="noopener" >The Turing Way&lt;/a>
 ,
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://chanzuckerberg.com/" target="_blank" rel="noopener" >the Chan Zuckerberg Initiative&lt;/a>
 , and
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://codeforsociety.org" target="_blank" rel="noopener" >Code for Science and Society&lt;/a>
 Slacks that helped me brainstorm these ideas.&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
@@ -154,10 +142,8 @@ Our major goals in 2022
 &lt;a class="header-anchor" href="#our-major-goals-in-2022">#&lt;/a>
 &lt;/h2>&lt;p>We wrapped up 2021 with two major new changes.
 We had just finished
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://2i2c.org/blog/2021/q3-update/" target="_blank" rel="noopener" >moving fiscal sponsors&lt;/a>
 and had just finished a prototype of our
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://docs.2i2c.org/" target="_blank" rel="noopener" >alpha service offerings&lt;/a>
 .&lt;/p>
 &lt;figure id="figure-our-2x2-matrix-of-service-offerings-and-prices-created-at-the-end-of-2021-see-the-documentationhttpsdocs2i2corg-for-more-details">
@@ -172,7 +158,6 @@ height="379"
 loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;figcaption>
 Our 2x2 matrix of service offerings and prices created at the end of 2021. See
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://docs.2i2c.org/" target="_blank" rel="noopener" >the documentation&lt;/a>
 for more details.
 &lt;/figcaption>&lt;/figure>
@@ -217,10 +202,8 @@ We got grant funding to serve communities in Latin America and Africa
 &lt;/h3>&lt;p>We also learned that some partnerships may &lt;em>require&lt;/em> subsidization from a third party, such as historically marginalized communities and those without dedicated resources.
 To explore sustainable ways to serve these communities, we applied for and received a new grant to serve communities in Latin America and Africa!
 Here&amp;rsquo;s the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="" >blog post announcing this grant&lt;/a>
 and our
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="" >open grant narrative from the proposal&lt;/a>
 .&lt;/p>
 &lt;h3 id="we-improved-our-continuous-integration-and-deployment-system">
@@ -230,7 +213,6 @@ We improved our continuous integration and deployment system
 We centralized and standardized configuration and operations of many community hubs in one transparent space for all of our partner communities.
 This allowed us to more easily grow the number of communities we served from one repository.
 You can
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://2i2c.org/blog/2022/ci-cd-improvements/" target="_blank" rel="noopener" >read a write-up about these improvements in this blog post&lt;/a>
 .&lt;/p>
 &lt;h3 id="we-defined-a-shared-responsibility-model">
@@ -239,7 +221,6 @@ We defined a Shared Responsibility Model
 &lt;/h3>&lt;p>Our goal is to frame each community hub as a partnership with a clear breakdown of responsibility to give communities more agency over the infrastructure and service.
 The Shared Responsibility Model provides a framework for assigning responsibility for various tasks with our partner communities.
 See
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://docs.2i2c.org/about/service/shared-responsibility.html" target="_blank" rel="noopener" >our Shared Responsibility Model docs here&lt;/a>
 .&lt;/p>
 &lt;h3 id="we-defined-a-formal-incident-response-process">
@@ -248,11 +229,9 @@ We defined a formal Incident Response process
 &lt;/h3>&lt;p>Cloud infrastructure inevitably degrades over time, and running ongoing services is largely about quickly responding to issues and resolving them quickly.
 To do so, we need clear processes to follow in order to quickly identify and respond to major incidents in the infrastructure.
 Our Incident Response process defines formal team roles and alerting mechanisms that are served by
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://www.pagerduty.com/" target="_blank" rel="noopener" >PagerDuty&lt;/a>
 , following best-practices in industry.
 This will make our service more reliable and make our processes more transparent for our partner communities.
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://compass.2i2c.org/projects/managed-hubs/incidents.html" target="_blank" rel="noopener" >Here&amp;rsquo;s our current incident response process&lt;/a>
 .&lt;/p>
 &lt;h3 id="we-expanded-our-service-offerings-to-include-community-and-workflow-guidance">
@@ -260,7 +239,6 @@ We expanded our service offerings to include community and workflow guidance
 &lt;a class="header-anchor" href="#we-expanded-our-service-offerings-to-include-community-and-workflow-guidance">#&lt;/a>
 &lt;/h3>&lt;p>We recognized that many communities need more than just infrastructure running in the cloud - they will also benefit from usecase and community guidance.
 We&amp;rsquo;re exploring a new range of roles that we could fill, starting with hiring a new team member to help us lead these efforts.
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://2i2c.org/blog/2022/job-product-community-lead/" target="_blank" rel="noopener" >Here&amp;rsquo;s a blog post about the Product and Community Lead&lt;/a>
 .&lt;/p>
 &lt;h3 id="we-began-a-collaboration-with-gesis-to-develop-environment-building-in-jupyterhub">
@@ -269,7 +247,6 @@ We began a collaboration with GESIS to develop environment building in JupyterHu
 &lt;/h3>&lt;p>This marks our first efforts into &lt;em>development-focused work&lt;/em> as opposed to operating cloud infrastructure.
 We will use this experience to learn how to pair focused development with cloud operations (more on that below).
 It will also make it more likely that we can implement often-requested improvements to the JupyterHub / BinderHub ecosystems.
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://2i2c.org/blog/2022/gesis-2i2c-collaboration-update/" target="_blank" rel="noopener" >Here&amp;rsquo;s a blog post about this collaboration&lt;/a>
 .&lt;/p>
 &lt;h3 id="we-helped-maintain-several-upstream-open-source-projects">
@@ -278,11 +255,9 @@ We helped maintain several upstream open source projects
 &lt;/h3>&lt;p>We made a number of contributions to key open source communities as part of our organizational mission.
 These spanned technical improvements as well as organizational and community efforts.
 One highlight is that several team members have participated in
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://blog.jupyter.org/introducing-jupyterhubs-outreachy-interns-december-2022-cohort-23aaf4613556" target="_blank" rel="noopener" >JupyterHub&amp;rsquo;s latest round of Outreachy interns&lt;/a>
 .&lt;br>
 See
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://jupyterhub-team-compass.readthedocs.io/en/latest/resources/community-strategy.html" target="_blank" rel="noopener" >the JupyterHub community strategy&lt;/a>
 page for more information.&lt;/p>
 &lt;p>As a brief summary, here is a plot of the issues in key open source repositories that were closed in 2022 that were authored by a 2i2c team member.&lt;/p>
@@ -304,7 +279,6 @@ We refined our organizational strategy
 &lt;a class="header-anchor" href="#we-refined-our-organizational-strategy">#&lt;/a>
 &lt;/h3>&lt;p>Finally, the experience from this year gave us a lot to think about regarding our role and potential for impact in the research and education ecosystem and the open source community.
 We
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://2i2c.org/blog/2022/strategic-update/" target="_blank" rel="noopener" >updated our strategy&lt;/a>
 in order to focus on a more holistic and collaborative approach to the work with our partner communities.
 We&amp;rsquo;ll continue to refine this strategy moving forward.&lt;/p>
@@ -326,7 +300,6 @@ For example, how can we assist communities in cloud workflows without becoming d
 How can we guide communities in a sustainable and scalable way?
 How can we recover the costs of doing this work?
 We hope to use our experiences in
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="" >our upcoming project to serve communities in Latin America and Africa&lt;/a>
 to explore these questions.&lt;/p>
 &lt;h3 id="define-a-cost-recovery-model-that-balances-sustainability-and-accessibility">
@@ -351,29 +324,22 @@ We&amp;rsquo;re excited about what we&amp;rsquo;ve accomplished thus far, as wel
 &lt;div class="about-us">
 &lt;blockquote>
 &lt;p>💡 Follow our work!
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="http://eepurl.com/hjHbff" target="_blank" rel="noopener" >Sign up for our mailing list&lt;/a>
 for updates about 2i2c.
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="" >Send us an e-mail about collaborating or partnering&lt;/a>
 on a project.
 See our
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://docs.2i2c.org" target="_blank" rel="noopener" >Service Documentation&lt;/a>
 or our
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://compass.2i2c.org" target="_blank" rel="noopener" >Team Compass&lt;/a>
 to learn about our service and organization.&lt;/p>
 &lt;/blockquote>
 &lt;/div></description></item><item><title>One year later: an update of 2i2c's mission, strategy, and impact</title><link>https://2i2c.org/blog/2022/strategic-update/</link><pubDate>Sun, 09 Oct 2022 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2022/strategic-update/</guid><description>&lt;p>&lt;em>This post is an exploration of 2i2c&amp;rsquo;s current strategy and direction after a year of major operations. It is a brainstorm from the Executive Director, shared as a blog post to invite feedback and provide transparency into our current thinking. Its goal is to explore the context of 2i2c&amp;rsquo;s stakeholders and their needs, and identify an opportunity and plan for having a positive impact with these communities. It is not a concrete proposal but a snapshot of thinking in time meant to trigger reflection. Over time we will incorporate some of these ideas
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://compass.2i2c.org/" target="_blank" rel="noopener" >into our Team Compass&lt;/a>
 .&lt;/em>&lt;/p>
 &lt;p>When we founded 2i2c, we largely did so from the &amp;ldquo;bottom up&amp;rdquo; - we identified several patterns around hosted infrastructure that were useful at
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://datahub.berkeley.edu" target="_blank" rel="noopener" >UC Berkeley&lt;/a>
 ,
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://pangeo.io" target="_blank" rel="noopener" >Pangeo&lt;/a>
 , and similar communities, and we wished to make them more generalized, accessible, and scalable.&lt;/p>
 &lt;p>We defined our mission as the following:&lt;/p>
@@ -385,7 +351,6 @@ to learn about our service and organization.&lt;/p>
 &lt;p>2i2c designs, develops, and operates JupyterHubs in the cloud for communities of practice in research &amp;amp; education. It builds and supports open source infrastructure that serves these communities.&lt;/p>
 &lt;/blockquote>
 &lt;p>Around a year ago
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="http://2i2c.org/blog/2021/six-month-update/" target="_blank" rel="noopener" >we began our pilot JupyterHubs project&lt;/a>
 to learn more about our biggest challenges and opportunities in making interactive computing more accessible and useful for research and education.
 While both of these statements are still accurate, over the past year we&amp;rsquo;ve also learned more about the value that 2i2c provides. This post is an exploration of how these statements and our strategy may evolve in the near future.&lt;/p>
@@ -440,13 +405,10 @@ Open source tools have boosted standardization and collaboration across communit
 &lt;a class="header-anchor" href="#open-source-tools-have-boosted-standardization-and-collaboration-across-communities">#&lt;/a>
 &lt;/h3>&lt;p>Over the past ten years, the proliferation of open source tools has vastly expanded our potential to create public knowledge in a more accessible, modular, inclusive, and productive way.&lt;/p>
 &lt;p>For example, core numerical computing infrastructure like
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://numpy.org" target="_blank" rel="noopener" >NumPy&lt;/a>
 provides a foundation for more domain specific numerical libraries to build on. Tools like
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://pandas.pydata.org/" target="_blank" rel="noopener" >Pandas&lt;/a>
 and
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://xarray.dev/" target="_blank" rel="noopener" >XArray&lt;/a>
 allow for more sophisticated data structures that match the complex and heterogeneous data in the research community.&lt;/p>
 &lt;p>This has led to many domain-specific communities of practice building upon the same APIs and infrastructure to solve their specific needs. By largely sharing the same stack, we have reduced duplication of effort and make it easier to speak the same language across data-rich fields.&lt;/p>
@@ -468,7 +430,6 @@ Managed cloud services can solve the accessibility problem for many workflows an
 But the cloud services landscape is not designed for research and education communities
 &lt;a class="header-anchor" href="#but-the-cloud-services-landscape-is-not-designed-for-research-and-education-communities">#&lt;/a>
 &lt;/h3>&lt;p>Over the last 10 years, a huge ecosystem of cloud-native tools and services have grown to solve this problem in industry. These are often called the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://future.com/emerging-architectures-modern-data-infrastructure/" target="_blank" rel="noopener" >Modern Data Stack&lt;/a>
 . However, &lt;strong>modern cloud services are largely unused by research and education&lt;/strong>. Why is this?&lt;/p>
 &lt;p>We believe it is because most cloud services do not meet many needs of research and educational communities:&lt;/p>
@@ -486,15 +447,12 @@ Examples of a potential model for community-centric cloud services
 For example:&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>The Pangeo Project&lt;/strong> is a
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://pangeo.io" target="_blank" rel="noopener" >cloud-native geospatial analytics platform&lt;/a>
 that builds on the Dask, Zarr, and XArray stack to enable distributed and collaborative access to large-scale geospatial datasets.&lt;/li>
 &lt;li>&lt;strong>The UC Berkeley DataHub&lt;/strong> is a
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://docs.datahub.berkeley.edu/en/latest/" target="_blank" rel="noopener" >cloud-native educational community&lt;/a>
 that uses a managed service to provide interactive learning environments to thousands of students via the cloud.&lt;/li>
 &lt;li>&lt;strong>The Syzygy service&lt;/strong> is a
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://syzygy.ca/" target="_blank" rel="noopener" >federated network of educational hubs&lt;/a>
 that run entirely on open source infrastructure in the cloud, managed for universities in Canada.&lt;/li>
 &lt;/ul>
@@ -502,7 +460,6 @@ that run entirely on open source infrastructure in the cloud, managed for univer
 &lt;ul>
 &lt;li>&lt;strong>Integrate&lt;/strong> a collection of open source tools and cloud services into a standardized cloud environment for a community.&lt;/li>
 &lt;li>&lt;strong>Customize&lt;/strong> the environment and cloud resources via open source tools that provide remote interactive computing sessions. This is usually done with
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://jupyterhub.readthedocs.io" target="_blank" rel="noopener" >JupyterHub&lt;/a>
 .&lt;/li>
 &lt;li>&lt;strong>Contribute&lt;/strong> to upstream tools and redeploy improvements to a community&amp;rsquo;s shared infrastucture in order to enhance the service.&lt;/li>
@@ -532,7 +489,6 @@ Our opportunity for impact
 &lt;/ul>
 &lt;p>We believe that the best way to do this is via a mission-aligned non-profit service that is based on values of trust, shared responsibility, and transparency. This will allow us to treat our relationships with communities as &lt;strong>collaborators, not customers&lt;/strong> and share responsibility and agency with them. In this way we can act as a vehicle for &lt;strong>sharing resources and ideas across communities&lt;/strong> via our infrastructure and services.&lt;/p>
 &lt;p>We can make such a service both &lt;strong>sustainable&lt;/strong> and &lt;strong>scalable&lt;/strong> because we are delivering direct value to communities with resources. There are many
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://www.ffwd.org/playbook/choose-a-business-model/" target="_blank" rel="noopener" >potential business models&lt;/a>
 that are already in existence (for example, &lt;em>Software as a Service&lt;/em> or shared research infrastructure services like supercomputing centers). By generating resources in exchange for these services, we can &lt;strong>centralize cloud infrastructure services for many communities into a single, scalable team&lt;/strong>. By committing ourselves to an &lt;em>upstream-first service model&lt;/em>, we can &lt;strong>drive resources towards open source communities&lt;/strong> and make these tools more useful for our key stakeholders.&lt;/p>
 &lt;p>A model like this naturally sets up a two-directional virtuous cycle where open source communities and public knowledge communities derive value from one another&amp;rsquo;s work.&lt;/p>
@@ -588,17 +544,13 @@ These are initiatives for which we might seek grant funding to experiment with s
 &lt;div class="about-us">
 &lt;blockquote>
 &lt;p>💡 Follow our work!
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="http://eepurl.com/hjHbff" target="_blank" rel="noopener" >Sign up for our mailing list&lt;/a>
 for updates about 2i2c.
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="" >Send us an e-mail about collaborating or partnering&lt;/a>
 on a project.
 See our
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://docs.2i2c.org" target="_blank" rel="noopener" >Service Documentation&lt;/a>
 or our
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://compass.2i2c.org" target="_blank" rel="noopener" >Team Compass&lt;/a>
 to learn about our service and organization.&lt;/p>
 &lt;/blockquote>

@@ -3,7 +3,6 @@
 What happened?
 &lt;a class="header-anchor" href="#what-happened">#&lt;/a>
 &lt;/h2>&lt;p>A few weeks ago, the JupyterHub team discovered a security vulnerability in
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://jupyter-server-proxy.readthedocs.io/en/latest/" target="_blank" rel="noopener" >the &lt;code>jupyter-server-proxy&lt;/code> package&lt;/a>
 that would allow potential unauthenticated access to a JupyterHub via WebSockets, allowing unauthenticated users to run arbitrary code on the JupyterHub.
 &lt;code>jupyter-server-proxy&lt;/code> is used by many communities to provide alternative user interfaces like RStudio and remote desktops.&lt;/p>
@@ -12,7 +11,6 @@ that would allow potential unauthenticated access to a JupyterHub via WebSockets
 Does this impact my 2i2c community hub?
 &lt;a class="header-anchor" href="#does-this-impact-my-2i2c-community-hub">#&lt;/a>
 &lt;/h2>&lt;p>We do not believe that any of 2i2c&amp;rsquo;s communities were impacted by this vulnerability, and
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/2i2c-org/infrastructure/blob/f86d128a0d045163e72802f6df287a6f46d4b738/helm-charts/basehub/values.yaml#L296" target="_blank" rel="noopener" >a patch&lt;/a>
 has now been pushed to all community hubs to resolve this issue.&lt;/p>
 &lt;p>If your community was vulnerable to this problem, you might experience slightly slower startup latency while we work out a long-term solution.&lt;/p>
@@ -21,7 +19,6 @@ has now been pushed to all community hubs to resolve this issue.&lt;/p>
 Where can I learn more?
 &lt;a class="header-anchor" href="#where-can-i-learn-more">#&lt;/a>
 &lt;/h2>&lt;p>See
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/jupyterhub/jupyter-server-proxy/security/advisories/GHSA-w3vc-fx9p-wp4v" target="_blank" rel="noopener" >the JupyterHub security advisory for CVE-2024-28179&lt;/a>
 for more information about the security vulnerability, including details on the mitigation we have put in place to protect our communities.&lt;/p>
 &lt;h2 id="conclusion">
@@ -32,58 +29,42 @@ We&amp;rsquo;re also proud that 2i2c&amp;rsquo;s engineers helped the JupyterHub
 &lt;p>This allowed our team to resolve the problem before it impacted any of 2i2c&amp;rsquo;s communities.
 Because 2i2c community infrastructure is managed in a central location, we were able to resolve this for over 80 communities with a single team rather than expecting each community to learn about and fix this problem on their own.&lt;/p>
 &lt;p>We also believe this reflects the healthy upstream relationships that we hope to encourage with our team&amp;rsquo;s
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://compass.2i2c.org/open-source/" target="_blank" rel="noopener" >Open Source strategy and practices&lt;/a>
 .
 By working with the JupyterHub community and pushing changes upstream, we&amp;rsquo;ve resolved this issue for &lt;em>any&lt;/em> user of &lt;code>jupyter-server-proxy&lt;/code>, not just 2i2c&amp;rsquo;s own ecosystem.
 In particular, because of 2i2c&amp;rsquo;s position running hubs for many communities via Kubernetes, we were able to identify a solution that did not require every user image to be updated (as described in section &lt;strong>For JupyterHub admins of Z2JH installations&lt;/strong>).&lt;/p>
 &lt;p>We believe that all of these lead to a healthier, safer ecosystem of open source tools ❤️.&lt;/p></description></item><item><title>Integrating BinderHub with JupyterHub: Empowering users to manage their own environments</title><link>https://2i2c.org/blog/2024/jupyterhub-binderhub-gesis/</link><pubDate>Wed, 03 Jan 2024 16:56:14 -0800</pubDate><guid>https://2i2c.org/blog/2024/jupyterhub-binderhub-gesis/</guid><description>&lt;p>&lt;em>Thanks to
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://www.gesis.org/en/institute/staff/person/arnim.bleier" target="_blank" rel="noopener" >Arnim Bleier&lt;/a>
 ,
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://jnywong.github.io/" target="_blank" rel="noopener" >Jenny Wong&lt;/a>
 ,
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/GeorgianaElena" target="_blank" rel="noopener" >Georgiana Elena&lt;/a>
 ,
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/damianavila" target="_blank" rel="noopener" >Damián Avila&lt;/a>
 ,
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://colliand.com/" target="_blank" rel="noopener" >Jim Colliander&lt;/a>
 and
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/jmunroe" target="_blank" rel="noopener" >James Munroe&lt;/a>
 for contributing to this blog post&lt;/em>&lt;/p>
 &lt;p>
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://mybinder.org" target="_blank" rel="noopener" >mybinder.org&lt;/a>
 is a very popular service that allows end users to specify and share the environment (languages, packages, etc) required for their notebooks to run correctly by placing
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://repo2docker.readthedocs.io/en/latest/config_files.html#config-files" target="_blank" rel="noopener" >configuration files&lt;/a>
 they are already familiar with (like &lt;code>requirements.txt&lt;/code> or &lt;code>environment.yml&lt;/code>) along with their notebooks. While not without its own set of challenges, this is extremely powerful because it puts control of the &lt;em>environment&lt;/em> in the hands of the people who write the code. They can customize the environment to fit the needs of their code, instead of having to fit their code into the environment that admins have made available.&lt;/p>
 &lt;p>But, mybinder.org (and the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/jupyterhub/binderhub/" target="_blank" rel="noopener" >BinderHub&lt;/a>
 software that powers it) is built for &lt;em>sharing&lt;/em> your work after you are done with it, &lt;em>not&lt;/em> for actively doing work. BinderHubs often do not have persistent storage nor persistent user identity, and UX is centered around &lt;em>ephemeral&lt;/em> interactivity that can be shared with others (via a link), rather than &lt;em>persistent&lt;/em> interactivity that a single user repeatedly comes back to.
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://jupyter.org/hub" target="_blank" rel="noopener" >JupyterHub&lt;/a>
 is more commonly used for this kinda workflow, but doesn&amp;rsquo;t currently have the ability for users to easily build their own environments. Admins who are &lt;em>running&lt;/em> the JupyterHub can make
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://z2jh.jupyter.org/en/stable/jupyterhub/customizing/user-environment.html#using-multiple-profiles-to-let-users-select-their-environment" target="_blank" rel="noopener" >multiple environments&lt;/a>
 available for users to choose from, but this still puts admins in the critical path for environment customization.&lt;/p>
 &lt;p>Our
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://2i2c.org/blog/2022/gesis-2i2c-collaboration-update/" target="_blank" rel="noopener" >collaboration&lt;/a>
 with
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="http://notebooks.gesis.org" target="_blank" rel="noopener" >GESIS&lt;/a>
 ,
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://www.nfdi4datascience.de" target="_blank" rel="noopener" >NFDI4DS&lt;/a>
 , and
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://www.cessda.eu" target="_blank" rel="noopener" >CESSDA&lt;/a>
 , aims to bring this flexibility to JupyterHub directly. We aim to empower users to decide for themselves which applications and dependencies are installed on a per-project basis. Our work enables communities with heterogeneous requirements to share a single Hub. Our approach frees administrators from being overwhelmed by installation requests and transforms the JupyterHub platform into a platform for collaborative computational reproducibility. In this update, we report on our progress and upcoming steps in this project.&lt;/p>
 &lt;h2 id="what-does-a-binderhub-do-exactly">
@@ -93,7 +74,6 @@ What does a BinderHub do, exactly?
 &lt;ol>
 &lt;li>Present a UI to the end user for them to provide details on what to build (this is what you see when you go to mybinder.org)&lt;/li>
 &lt;li>Call out to
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/jupyterhub/repo2docker" target="_blank" rel="noopener" >repo2docker&lt;/a>
 in a scalable way to actually &lt;em>build and push&lt;/em> an image containing the environment for the given repository, and show the user logs as this build process happens. This also allows users to debug issues with their build more easily.&lt;/li>
 &lt;li>Talk to a JupyterHub instance to launch a user server with the built docker image, and redirect the user to this.&lt;/li>
@@ -122,27 +102,20 @@ c. A mybinder.org style way to specify a GitHub repository, which will be then d
 A Standalone &lt;code>binderhub-service&lt;/code> helm chart
 &lt;a class="header-anchor" href="#a-standalone-binderhub-service-helm-chart">#&lt;/a>
 &lt;/h2>&lt;p>The default upstream
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/jupyterhub/binderhub/tree/main/helm-chart" target="_blank" rel="noopener" >BinderHub helm chart&lt;/a>
 &lt;em>includes&lt;/em> a JupyterHub as a dependency, and configures itself to be used primarily in a manner similar to
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://mybinder.org" target="_blank" rel="noopener" >mybinder.org&lt;/a>
 . As the person who helped make that choice early on, I can tell you why it was made - for convenience! And it &lt;em>was&lt;/em> very convenient, as it allowed us to get mybinder.org going fast. However, it makes it difficult to install a BinderHub service &lt;em>alongside&lt;/em> an existing JupyterHub. To this end, we have created a standalone
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/2i2c-org/binderhub-service/" target="_blank" rel="noopener" >BinderHub helm chart&lt;/a>
 , designed to be installed &lt;em>alongside&lt;/em> an existing JupyterHub, so we can use it &lt;em>purely&lt;/em> to build images. This allows the BinderHub instance to be used as a
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://jupyterhub.readthedocs.io/en/stable/reference/services.html" target="_blank" rel="noopener" >JupyterHub Service&lt;/a>
 , which is what we want.&lt;/p>
 &lt;p>While this helm chart is currently under the 2i2c GitHub org, the hope is that it can eventually migrate to a
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/jupyterhub/team-compass/issues/519" target="_blank" rel="noopener" >jupyterhub-contrib&lt;/a>
 organization (once it is created), or it can become the upstream helm chart for BinderHub if enough work can be done in BinderHub to allow it to serve use cases like mybinder.org.&lt;/p>
 &lt;p>As part of this work, we also added a way for BinderHub to run in
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/jupyterhub/binderhub/pull/1647" target="_blank" rel="noopener" >API only mode&lt;/a>
 , so we can fully turn off the UI &lt;em>and&lt;/em> launching ability of BinderHub. This change decoupled the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="" >three responsibilities of BinderHub&lt;/a>
 we discussed previously, allowing us to bring our own UI and JupyterHub. BinderHub could now be used &lt;em>purely&lt;/em> for its scalable image building features, which is exactly what we want!&lt;/p>
 &lt;h2 id="sustainably-extending-kubespawners-profilelist">
@@ -150,7 +123,6 @@ Sustainably extending KubeSpawner&amp;rsquo;s &lt;code>profileList&lt;/code>
 &lt;a class="header-anchor" href="#sustainably-extending-kubespawners-profilelist">#&lt;/a>
 &lt;/h2>&lt;p>We identified KubeSpawner&amp;rsquo;s &lt;code>profileList&lt;/code> feature as the ideal location for UI to dynamically build environments (container images), making it just another &amp;rsquo;environment choice&amp;rsquo; people can choose, along with picking the resources their server needs. From an end-user perspective, it was also the logical place for them to specify a repository to build into an environment, as they could already choose some pre-built environments from here. They can also select other arbitrary resources they want (such as memory, GPU, etc) from here as well. From a maintainer perspective, it helps with long-term maintenance of the JupyterHub projects.&lt;/p>
 &lt;p>The implementation of &lt;code>profileList&lt;/code> however, was not easy to extend at this point. So
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/jupyterhub/kubespawner/pull/724" target="_blank" rel="noopener" >this PR&lt;/a>
 improved how easy it was to extend it in more complex ways, without making the implementation in KubeSpawner itself complicated. Even though this had &lt;em>no&lt;/em> visible end-user effects, it was an extremely important step in allowing us to experiment with UI in a &lt;em>sustainable&lt;/em> way without having to rely on upstream. These kinds of changes can sometimes be hard to sell to stakeholders but are extremely important in ensuring a continuous and sustainable relationship with upstream.&lt;/p>
 &lt;h2 id="implementing-unlisted_choice-feature-in-kubespawner">
@@ -158,28 +130,20 @@ Implementing &lt;code>unlisted_choice&lt;/code> feature in KubeSpawner
 &lt;a class="header-anchor" href="#implementing-unlisted_choice-feature-in-kubespawner">#&lt;/a>
 &lt;/h2>&lt;p>The profileList feature was built to allow JupyterHub &lt;em>admins&lt;/em> to specify an explicit list of container images the end-user can choose from. It did not have a way for any choice that was &lt;em>not&lt;/em> pre-approved by the admin to be used. We needed this feature since the BinderHub API will build a new docker image for each environment the user wants, and so this can not be chosen from a pre-approved list. We had to safely add this feature to KubeSpawner in such a way that it was generally useful to everyone. Many other communities had been asking for such a feature anyway - the ability to simply &amp;rsquo;type in&amp;rsquo; an image and have that be used.&lt;/p>
 &lt;p>
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://www.earthdata.nasa.gov/esds/veda" target="_blank" rel="noopener" >NASA VEDA&lt;/a>
 was one such community, so we partnered with
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/batpad/" target="_blank" rel="noopener" >Sanjay Bhangar&lt;/a>
 from
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://developmentseed.org/" target="_blank" rel="noopener" >Development Seed&lt;/a>
 (an organization that helps run NASA VEDA) to implement this feature. Engineers from 2i2c contributed heavily to this feature as well, and after &lt;em>several&lt;/em> PRs (
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/jupyterhub/kubespawner/pull/735" target="_blank" rel="noopener" >1&lt;/a>
 ,
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/jupyterhub/kubespawner/pull/766" target="_blank" rel="noopener" >2&lt;/a>
 ,
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/jupyterhub/kubespawner/pull/773" target="_blank" rel="noopener" >3&lt;/a>
 ,
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/jupyterhub/kubespawner/pull/774" target="_blank" rel="noopener" >4&lt;/a>
 and
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/jupyterhub/kubespawner/pull/777" target="_blank" rel="noopener" >5&lt;/a>
 ), this feature is now available for everyone to use!&lt;/p>
 &lt;p>
@@ -194,91 +158,65 @@ and
 &lt;a class="header-anchor" href="#jupyterhub-fancy-profiles">#&lt;/a>
 &lt;/h2>&lt;p>Once we had all these pieces in place, it was time to actually work on the frontend UI that would allow users to build images dynamically and launch them. Since this will replace the &amp;lsquo;profileList&amp;rsquo; feature, it should also allow them to select different resources (RAM, CPU, etc) as needed, as well as type in an existing image if they desire. So it was a full re-implementation of the &lt;code>profileList&lt;/code> frontend.&lt;/p>
 &lt;p>This is ongoing now at the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/yuvipanda/jupyterhub-fancy-profiles" target="_blank" rel="noopener" >jupyterhub-fancy-profiles&lt;/a>
 project. It is a pure frontend web application, using modern frontend tooling (
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://react.dev/" target="_blank" rel="noopener" >React&lt;/a>
 ,
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://webpack.js.org/" target="_blank" rel="noopener" >webpack&lt;/a>
 ,
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://babeljs.io/" target="_blank" rel="noopener" >Babel&lt;/a>
 , etc) and written in JavaScript. It&amp;rsquo;s gone through a few revisions, but the demo provided earlier in the blog post is in its current state. Because the default profileList implementation is pure HTML / CSS with very &lt;em>minimal&lt;/em> JS, it is limited in what kind of UX it could have. &lt;code>jupyterhub-fancy-profiles&lt;/code> aims to be very helpful &lt;em>even&lt;/em> when dynamic image-building features are not enabled on a JupyterHub. We hope to roll this out to a few JupyterHubs and improve it over time based on feedback.&lt;/p>
 &lt;h2 id="jupyterhubbinderhub-clienthttpswwwnpmjscompackagejupyterhubbinderhub-client-npm-package">
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://www.npmjs.com/package/@jupyterhub/binderhub-client" target="_blank" rel="noopener" >&lt;code>jupyterhub/@binderhub-client&lt;/code>&lt;/a>
 npm package
 &lt;a class="header-anchor" href="#jupyterhubbinderhub-clienthttpswwwnpmjscompackagejupyterhubbinderhub-client-npm-package">#&lt;/a>
 &lt;/h2>&lt;p>While building &lt;code>jupyterhub-fancy-profiles&lt;/code>, we wanted to use the &lt;em>same&lt;/em> javascript code used by BinderHub frontend to interact with the BinderHub API, instead of re-implementing it. However, the existing BinderHub JavaScript code was not easily consumable by external projects. We refactored the code, added tests, migrated to use modern JS practices and published the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://www.npmjs.com/package/@jupyterhub/binderhub-client" target="_blank" rel="noopener" >&lt;code>jupyterhub/@binderhub-client&lt;/code> NPM package&lt;/a>
 that can be used not just by &lt;code>jupyerhub-fancy-profiles&lt;/code> but any external project for talking to the BinderHub API.&lt;/p>
 &lt;p>This had to be done in such a way that current BinderHub installations (such as mybinder.org) do not break. That took quite a few pull requests:
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/jupyterhub/binderhub/pull/1689" target="_blank" rel="noopener" >1&lt;/a>
 ,
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/jupyterhub/binderhub/pull/1693" target="_blank" rel="noopener" >2&lt;/a>
 ,
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/jupyterhub/binderhub/pull/1694" target="_blank" rel="noopener" >3&lt;/a>
 ,
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/jupyterhub/binderhub/pull/1741" target="_blank" rel="noopener" >4&lt;/a>
 ,
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/jupyterhub/binderhub/pull/1742" target="_blank" rel="noopener" >5&lt;/a>
 ,
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/jupyterhub/binderhub/pull/1758" target="_blank" rel="noopener" >6&lt;/a>
 ,
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/jupyterhub/binderhub/pull/1761" target="_blank" rel="noopener" >7&lt;/a>
 ,
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/jupyterhub/binderhub/pull/1771" target="_blank" rel="noopener" >8&lt;/a>
 ,
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/jupyterhub/binderhub/pull/1773" target="_blank" rel="noopener" >9&lt;/a>
 ,
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/jupyterhub/binderhub/pull/1775" target="_blank" rel="noopener" >10&lt;/a>
 ,
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/jupyterhub/binderhub/pull/1778" target="_blank" rel="noopener" >11&lt;/a>
 ,
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/jupyterhub/binderhub/pull/1779" target="_blank" rel="noopener" >12&lt;/a>
 ,
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/jupyterhub/binderhub/pull/1781" target="_blank" rel="noopener" >13&lt;/a>
 ,
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/jupyterhub/binderhub/pull/1782" target="_blank" rel="noopener" >14&lt;/a>
 ,
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/jupyterhub/binderhub/pull/1783" target="_blank" rel="noopener" >15&lt;/a>
 . This refactoring work was very helpful to us, and also appreciated by the broader community.&lt;/p>
 &lt;h2 id="defending-against-cryptojacking-with-cryptnono">
 Defending against cryptojacking with &lt;code>cryptnono&lt;/code>
 &lt;a class="header-anchor" href="#defending-against-cryptojacking-with-cryptnono">#&lt;/a>
 &lt;/h2>&lt;p>For Open Science to flourish, we need to allow access to resources without login / paywalls wherever possible. A new menace against this has been
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://www.interpol.int/en/Crimes/Cybercrime/Cryptojacking" target="_blank" rel="noopener" >cryptojacking&lt;/a>
 - where attackers use up any and all available free compute to mine cryptocurrencies. This has affected &lt;em>many&lt;/em> folks on the internet, including
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://www.bleepingcomputer.com/news/security/github-actions-being-actively-abused-to-mine-cryptocurrency-on-github-servers/" target="_blank" rel="noopener" >GitHub Actions&lt;/a>
 and mybinder.org, the primary public BinderHub installation. mybinder.org has some extra protections against cryptojacking that aren&amp;rsquo;t easily usable elsewhere, and this has unfortunately meant that the demo JupyterHubs we have with these features enabled have been behind a login wall. I personally believe login walls are long term antithetical to open science, and so this was an important problem to solve.&lt;/p>
 &lt;p>
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/cryptnono/cryptnono" target="_blank" rel="noopener" >cryptnono&lt;/a>
 is an open source project designed to help fight cryptojacking, and as part of this grant we ported some of this functionality out of mybinder.org specific code into cryptnono, so other deployments may also benefit from it! We also migrated to using the super efficient
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://ebpf.io/" target="_blank" rel="noopener" >ebpf&lt;/a>
 Linux Kernel subsystem, allowing for more complex heuristics to catch a much broader range of cryptomining activity. We have been slowly tweaking the config on mybinder.org, and it has proven to be very effective! This will be very helpful for &lt;em>anyone&lt;/em> who wants to provide a JupyterHub (or any other computational service) without a login wall. If you are interested in using cryptnono in this fashion, please
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/cryptnono/cryptnono/issues" target="_blank" rel="noopener" >reach out to us&lt;/a>
 so we can work together!&lt;/p>
 &lt;h2 id="explored-pathways-that-were-then-discarded">
@@ -287,11 +225,9 @@ Explored pathways that were then discarded
 &lt;/h2>&lt;p>List of things that were tried and then decided as not good pathways:&lt;/p>
 &lt;ul>
 &lt;li>
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/consideRatio/repo2docker-service" target="_blank" rel="noopener" >repo2docker-service&lt;/a>
 , a separate JupyterHub service that could &lt;em>only&lt;/em> build images. As we worked on it, we realized that it was replicating a lot of features that BinderHub already has, so we pivoted to working on BinderHub directly instead.&lt;/li>
 &lt;li>Building off of
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/plasmabio/tljh-repo2docker" target="_blank" rel="noopener" >tljh-repo2docker&lt;/a>
 . While this already had a nice UI, it would be hard to port it to run on a distributed Kubernetes environment without it becoming a &amp;lsquo;hard fork&amp;rsquo;.&lt;/li>
 &lt;/ul>
@@ -300,14 +236,11 @@ Explored pathways that were then discarded
 Want to try this out?
 &lt;a class="header-anchor" href="#want-to-try-this-out">#&lt;/a>
 &lt;/h2>&lt;p>We have a demo of this running at
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://imagebuilding-demo.2i2c.cloud" target="_blank" rel="noopener" >imagebuilding-demo.2i2c.cloud&lt;/a>
 , but unfortunately as we are still fine-tuning &lt;code>cryptnono&lt;/code> config, at this moment it is not open to the public. Please
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="" >contact me&lt;/a>
 with your GitHub account if you want access, and promise to not be a cryptominer and you shall be granted access.&lt;/p>
 &lt;p>Want to set this up on your own JupyterHub? There is some
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/2i2c-org/binderhub-service/pull/72" target="_blank" rel="noopener" >work in progress&lt;/a>
 documentation and more is being worked on. Drop a line in the linked pull request and we&amp;rsquo;ll be happy to help. The eventual goal is for &lt;em>anyone&lt;/em> to be able to simply follow documentation and set this up for themselves.&lt;/p>
 &lt;h2 id="future-work">
@@ -316,7 +249,6 @@ Future work
 &lt;/h2>&lt;p>This is not complete of course, and there is a lot of future work to be done.&lt;/p>
 &lt;ol>
 &lt;li>mybinder.org also helps you distribute your &lt;em>content&lt;/em>, not just the environment for your code to run in. Since JupyterHub usually comes with a persistent home directory for the user,
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/jupyterhub/nbgitpuller/" target="_blank" rel="noopener" >nbgitpuller&lt;/a>
 is commonly used for this purpose instead. We should explore ways to integrate nbgitpuller (and other ways to distribute content) in the future.&lt;/li>
 &lt;li>More thorough documentation for how you can recreate what is in the demo for yourself in your own JupyterHub installation.&lt;/li>
@@ -330,51 +262,37 @@ Credit
 &lt;/h2>&lt;p>All this work would not be possible without a large group of collaborators!&lt;/p>
 &lt;ul>
 &lt;li>From 2i2c:
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/consideRatio" target="_blank" rel="noopener" >Erik Sundell&lt;/a>
 ,
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/GeorgianaElena" target="_blank" rel="noopener" >Georgiana Elena&lt;/a>
 ,
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://words.yuvi.in/" target="_blank" rel="noopener" >Yuvi&lt;/a>
 ,
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/jmunroe" target="_blank" rel="noopener" >James Munroe&lt;/a>
 , and
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/damianavila" target="_blank" rel="noopener" >Damián Avila&lt;/a>
 .&lt;/li>
 &lt;li>The
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/gesiscss/persistent_BinderHub/" target="_blank" rel="noopener" >persistent BinderHub&lt;/a>
 project was the direct inspiration for all this work, with particular thanks to
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/bitnik" target="_blank" rel="noopener" >Kenan Erdogan&lt;/a>
 .&lt;/li>
 &lt;li>The
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/plasmabio/tljh-repo2docker" target="_blank" rel="noopener" >tljh-repo2docker&lt;/a>
 project, which explores similar ideas in the context of running only on a single node.&lt;/li>
 &lt;li>The broad JupyterHub and MyBinder.org community, particularly
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/manics" target="_blank" rel="noopener" >Simon Li&lt;/a>
 and
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/minrk/" target="_blank" rel="noopener" >MinRK&lt;/a>
 .&lt;/li>
 &lt;li>Funding generously provided by
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="http://gesis.org" target="_blank" rel="noopener" >GESIS&lt;/a>
 in cooperation with NFDI4DS (project number:
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://gepris.dfg.de/gepris/projekt/460234259?context=projekt&amp;amp;task=showDetail&amp;amp;id=460234259&amp;amp;" target="_blank" rel="noopener" >460234259&lt;/a>
 ) and
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://www.cessda.eu" target="_blank" rel="noopener" >CESSDA&lt;/a>
 .&lt;/li>
 &lt;li>
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://www.gesis.org/en/institute/staff/person/arnim.bleier" target="_blank" rel="noopener" >Arnim Bleier&lt;/a>
 from GESIS was &lt;em>instrumental&lt;/em> in making this project happen.&lt;/li>
 &lt;/ul></description></item><item><title>CILogon usage at 2i2c</title><link>https://2i2c.org/blog/2023/cilogon-integration/</link><pubDate>Fri, 24 Feb 2023 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2023/cilogon-integration/</guid><description>
@@ -382,10 +300,8 @@ from GESIS was &lt;em>instrumental&lt;/em> in making this project happen.&lt;/li
 About CILogon
 &lt;a class="header-anchor" href="#about-cilogon">#&lt;/a>
 &lt;/h2>&lt;p>
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://www.cilogon.org" target="_blank" rel="noopener" >CILogon&lt;/a>
 is an open source service provider that allows users to log in against over 4000 various identity providers, including campus identity providers. The available identity providers are members of
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://incommon.org/federation/" target="_blank" rel="noopener" >InCommon&lt;/a>
 , a federation of universities and other organizations that provide single sign-on access to various resources.&lt;/p>
 &lt;h2 id="cilogon-and-2i2c">
@@ -403,38 +319,29 @@ The setup
 The CILogon administrative client
 &lt;a class="header-anchor" href="#the-cilogon-administrative-client">#&lt;/a>
 &lt;/h3>&lt;p>The
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://cilogon.github.io/oa4mp/server/manuals/dynamic-client-registration.html" target="_blank" rel="noopener" >2i2c administrative client&lt;/a>
 provided by CILogon allowed us to automatically manage the CILogon OAuth applications needed for authenticating into the hub.&lt;/p>
 &lt;p>For each hub that uses CILogon, we dynamically create an OAuth
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://cilogon.github.io/oa4mp/server/manuals/dynamic-client-registration.html" target="_blank" rel="noopener" >client application&lt;/a>
 in CILogon and store the credentials safely, using the script at
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/2i2c-org/infrastructure/blob/3312f373f0aa59fbc98dc1c8161aa9623b68726b/deployer/cilogon_app.py" target="_blank" rel="noopener" >cilogon_app.py&lt;/a>
 . The script can also used for &lt;code>updating&lt;/code> the callback URLs of an existing OAuth application, &lt;code>deleting&lt;/code> a CILogon OAuth application when a hub is removed or changes authentication methods, &lt;code>getting&lt;/code> details about an existing OAuth application, &lt;code>getting all&lt;/code> existing 2i2c CILogon OAuth applications.&lt;/p>
 &lt;h3 id="the-jupyterhub-cilogonoauthenticator">
 The JupyterHub CILogonOAuthenticator
 &lt;a class="header-anchor" href="#the-jupyterhub-cilogonoauthenticator">#&lt;/a>
 &lt;/h3>&lt;p>For CILogon&amp;rsquo;s integration with JupyterHub&amp;rsquo;s authentication workflow, we&amp;rsquo;re using the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/jupyterhub/oauthenticator/blob/main/oauthenticator/cilogon.py" target="_blank" rel="noopener" >&lt;strong>CILogonOAuthenticator&lt;/strong>&lt;/a>
 , which is part of the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://oauthenticator.readthedocs.io/en/latest/" target="_blank" rel="noopener" >JupyterHub OAuthenticator project&lt;/a>
 . This is what allows JupyterHub to use common OAuth providers for authentication, and it&amp;rsquo;s also a base for writing other Authenticators with any OAuth 2.0 provider.&lt;/p>
 &lt;p>As part of this 2i2c integration with the JupyterHub CILogonOAuthenticator some important upstream fixes and enhancements to the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/jupyterhub/oauthenticator" target="_blank" rel="noopener" >&lt;code>oauthenticator&lt;/code>&lt;/a>
 were identified and performed. For example, the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/jupyterhub/oauthenticator/security/advisories/GHSA-r7v4-jwx9-wx43" target="_blank" rel="noopener" >GHSA-r7v4-jwx9-wx43&lt;/a>
 vulnerability was reported and fixed, and a
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://oauthenticator.readthedocs.io/en/latest/how-to/migrations/upgrade-to-15.html" target="_blank" rel="noopener" >migration guide&lt;/a>
 containing a description of the breaking changes that were made, together with a step by step guide for the users on how to update their usage of JupyterHub CILogonOAuthenticator was provided.&lt;/p>
 &lt;p>Read more about how CILogon is setup for use at 2i2c from
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://infrastructure.2i2c.org/hub-deployment-guide/configure-auth/cilogon.html" target="_blank" rel="noopener" >the docs&lt;/a>
 .&lt;/p>
 &lt;h2 id="celebration">
@@ -443,51 +350,37 @@ Celebration
 &lt;/h2>&lt;p>Thanks to the 2i2c - CILogon partnership, during this past year we were able to integrate CILogon into 2i2c&amp;rsquo;s infrastructure and to observe its importance, usefulness and great support for 2i2c and the communities we server.&lt;/p>
 &lt;p>We are now happy to announce that the 2i2c - CILogon partnership has been expanded to another year!&lt;/p>
 &lt;p>&lt;strong>Acknowledgements&lt;/strong>: The upstream
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://oauthenticator.readthedocs.io/en/latest" target="_blank" rel="noopener" >&lt;code>jupyterhub-oauthenticator&lt;/code>&lt;/a>
 project mentioned in this post as being used at 2i2c is a JupyterHub package, kindly developed and maintained by the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://discourse.jupyter.org/c/jupyterhub/" target="_blank" rel="noopener" >JupyterHub community&lt;/a>
 and the 2i2c integration described was developed by
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://2i2c.org/organization/" >the 2i2c engineering team&lt;/a>
 . Also, this post was edited by
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://jbasney.net/" target="_blank" rel="noopener" >Jim Basney&lt;/a>
 .&lt;/p></description></item><item><title>New project: Open science cloud infrastructure and training for communities in Latin America and Africa</title><link>https://2i2c.org/blog/2022/czi-global-communities-announcement/</link><pubDate>Tue, 20 Dec 2022 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2022/czi-global-communities-announcement/</guid><description>&lt;p>We are excited to announce that the team and proposal
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://2i2c.org/blog/2022/czi-global-communities-proposal/" target="_blank" rel="noopener" >described in this blog post&lt;/a>
 has been awarded funding by the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://chanzuckerberg.com/" target="_blank" rel="noopener" >Chan Zuckerberg Initiative&lt;/a>
 !&lt;/p>
 &lt;p>&lt;em>This announcement may be cross-posted on the websites of several collaborating organizations of this grant. &lt;strong>Para leer este post en español,
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://www.metadocencia.org/post/infraestructura-nube/" target="_blank" rel="noopener" >vea el blog de MetaDocencia&lt;/a>
 &lt;/strong>.&lt;/em>&lt;/p>
 &lt;p>Our goal is to create a collaborative cloud infrastructure service that enables community-based cloud-native workflows in the biosciences. We will promote values of open and inclusive community practices, infrastructure that enables these practices, and a “train the trainers” approach that empowers community leaders to share expertise in cloud infrastructure with others in their communities. Our focus will be on communities in Latin America and Africa, and we hope to learn how this model could be extended to other global communities that are historically marginalized from large-scale scientific infrastructure projects.&lt;/p>
 &lt;p>2i2c will be providing cloud infrastructure operation and support for the communities that we partner with in this effort.
 We will also assist with creating content to teach cloud-native workflows and assist community leaders in learning this content so that they can share these skills with others.&lt;/p>
 &lt;p>This is a collaborative effort between
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="http://2i2c.org" target="_blank" rel="noopener" >2i2c&lt;/a>
 ,
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="http://carpentries.org" target="_blank" rel="noopener" >The Carpentries&lt;/a>
 ,
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="http://cscce.org" target="_blank" rel="noopener" >CSCCE&lt;/a>
 ,
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="http://investinopen.org" target="_blank" rel="noopener" >Invest in Open Infrastructure&lt;/a>
 ,
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="http://metadocencia.org" target="_blank" rel="noopener" >MetaDocencia&lt;/a>
 , and
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="http://openlifesci.org" target="_blank" rel="noopener" >Open Life Science&lt;/a>
 . For more detailed information, see
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://2i2c.org/blog/2022/czi-global-communities-proposal/" target="_blank" rel="noopener" >the blog post with our full grant narrative&lt;/a>
 .&lt;/p>
 &lt;h2 id="we-are-hiring">
@@ -496,39 +389,31 @@ We are hiring
 &lt;/h2>&lt;p>As a part of this effort, we will also hire several new team members! There are currently two job postings open. Here are links for more information in case you are interested:&lt;/p>
 &lt;ul>
 &lt;li>
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://2i2c.org/jobs/2022/open-source-infrastructure-engineer/" target="_blank" rel="noopener" >Cloud infrastructure engineer&lt;/a>
 to join &lt;strong>2i2c’s Site Reliability Engineering team&lt;/strong> that will operate and support the cloud infrastructure in this project.&lt;/li>
 &lt;li>
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://openlifesci.org/posts/2022/12/19/ECB-PM-job-description/" target="_blank" rel="noopener" >Programme manager role&lt;/a>
 to join &lt;strong>Open Life Science&lt;/strong> and support this project via project management and operational support.&lt;/li>
 &lt;/ul>
 &lt;p>We may be hiring other positions related to this effort, so
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://forms.gle/5boZswKNUn2NcTUv9" target="_blank" rel="noopener" >please stay tuned for more information&lt;/a>
 if you are interested.&lt;/p>
 &lt;h2 id="where-to-follow-along">
 Where to follow along
 &lt;a class="header-anchor" href="#where-to-follow-along">#&lt;/a>
 &lt;/h2>&lt;p>If you’d like to follow along with this work, please
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://forms.gle/5boZswKNUn2NcTUv9" target="_blank" rel="noopener" >share your e-mail address in this short form&lt;/a>
 . We’ll send updates as we work out longer-term spaces for communication or documentation.&lt;/p>
 &lt;div class="about-us">
 &lt;blockquote>
 &lt;p>💡 Follow our work!
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="http://eepurl.com/hjHbff" target="_blank" rel="noopener" >Sign up for our mailing list&lt;/a>
 for updates about 2i2c.
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="" >Send us an e-mail about collaborating or partnering&lt;/a>
 on a project.
 See our
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://docs.2i2c.org" target="_blank" rel="noopener" >Service Documentation&lt;/a>
 or our
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://compass.2i2c.org" target="_blank" rel="noopener" >Team Compass&lt;/a>
 to learn about our service and organization.&lt;/p>
 &lt;/blockquote>
@@ -537,37 +422,27 @@ to learn about our service and organization.&lt;/p>
 Introduction
 &lt;a class="header-anchor" href="#introduction">#&lt;/a>
 &lt;/h1>&lt;p>
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://mybinder.org" target="_blank" rel="noopener" >Mybinder.org&lt;/a>
 enables researchers across the world to replicate computational environments in the cloud. It allows researchers to turn static code into interactive literate coding environments with a click of a button within seconds. The
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://mybinder.org" target="_blank" rel="noopener" >mybinder.org&lt;/a>
 service is powered by
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://binderhub.readthedocs.io" target="_blank" rel="noopener" >BinderHub&lt;/a>
 , an open-source tool developed by
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://jupyter.org" target="_blank" rel="noopener" >the Jupyter Project&lt;/a>
 that many organizations have deployed for their own communities. It does this by _dynamically building _the software environment needed to reproduce a computation (using a tool called
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://repo2docker.readthedocs.io" target="_blank" rel="noopener" >repo2docker&lt;/a>
 ), and making this environment available to users.&lt;/p>
 &lt;p>BinderHub was developed for use-cases that are &lt;em>temporary&lt;/em> and &lt;em>fully open&lt;/em> by design. BinderHub sessions are destroyed after a fixed amount of time and there is no persistent storage or authentication. However, many research institutions also need more “standard” service features like authentication and persistent storage.&lt;/p>
 &lt;p>Over the past several years, the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="http://notebooks.gesis.org" target="_blank" rel="noopener" >GESIS Notebooks&lt;/a>
 team made the first steps towards bridging this gap through their
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/gesiscss/persistent_binderhub" target="_blank" rel="noopener" >Persistent BinderHub&lt;/a>
 implementation. This was a modified and authenticated BinderHub that &lt;em>included&lt;/em> persistent storage across sessions. The Persistent BinderHub service was very successful at GESIS and with its partner communities, and the team wishes to build this functionality into the JupyterHub community’s core technology so that these features can be enjoyed for more use-cases and by many communities.&lt;/p>
 &lt;p>To enable this vision, we have partnered with GESIS in cooperation with
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://www.nfdi4datascience.de/" target="_blank" rel="noopener" >NFDI4DS&lt;/a>
 (GAN: 460234259),
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://www.cessda.eu/" target="_blank" rel="noopener" >CESSDA&lt;/a>
 , and members of the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://jupytearth.org/" target="_blank" rel="noopener" >JMTE&lt;/a>
 project. This collaboration has three primary goals:&lt;/p>
 &lt;ul>
@@ -576,20 +451,16 @@ project. This collaboration has three primary goals:&lt;/p>
 &lt;li>&lt;strong>Improve the implementation and user experience around Persistent BinderHub&lt;/strong>, in order to make it more reliable, scalable, productive, and enjoyable to use.&lt;/li>
 &lt;/ul>
 &lt;p>We began this collaboration several months ago, and have focused our efforts on exploring potential implementation pathways for this functionality. We believe that we now have a path forward for this functionality, and this blog post is a brief report of our efforts and future plans as we undertake this effort. See
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/orgs/2i2c-org/projects/33" target="_blank" rel="noopener" >this GitHub Projects Board for issues that implement this effort&lt;/a>
 .&lt;/p>
 &lt;h3 id="exploration-1-adding-persistent-storage-directly-into-binderhub">
 Exploration 1: Adding persistent storage directly into BinderHub
 &lt;a class="header-anchor" href="#exploration-1-adding-persistent-storage-directly-into-binderhub">#&lt;/a>
 &lt;/h3>&lt;p>Our initial intention was to incorporate persistent storage and authentication from the GESIS Persistent BinderHub into the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="http://binderhub.readthedocs.io/" target="_blank" rel="noopener" >BinderHub codebase&lt;/a>
 . We began by holding a series of meetings to discuss technical requirements from our experience in the JupyterHub/BinderHub ecosystem, and also conducted an audit of the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://www.google.com/url?q=https://github.com/gesiscss/persistent_binderhub/blob/9936fc2251abafd00921b3b53954fb60c8640347/persistent_binderhub/values.yaml" target="_blank" rel="noopener" >Persistent BinderHub codebase&lt;/a>
 . The Persistent BinderHub implementation is a
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/gesiscss/persistent_binderhub/blob/9936fc2251abafd00921b3b53954fb60c8640347/persistent_binderhub/values.yaml" target="_blank" rel="noopener" >modified Helm Chart&lt;/a>
 that configures a JupyterHub to expose its authentication and persistent storage functionality, overriding the BinderHub default behavior. We were concerned that building this functionality &lt;em>natively&lt;/em> into BinderHub would be challenging given that the BinderHub codebase was designed for ephemeral user sessions.&lt;/p>
 &lt;p>So, we decided to take another approach:&lt;/p>
@@ -597,17 +468,13 @@ that configures a JupyterHub to expose its authentication and persistent storage
 Exploration 2: Add dynamic image building to JupyterHub
 &lt;a class="header-anchor" href="#exploration-2-add-dynamic-image-building-to-jupyterhub">#&lt;/a>
 &lt;/h3>&lt;p>We realized that there is a way to make this functionality more broadly useful and more maintainable, while still achieving the end-user experience that the GESIS team needed. Instead of modifying BinderHub to incorporate JupyterHub’s storage and authentication features, &lt;strong>we would give JupyterHub the ability do dynamically generate user environments using
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="http://repo2docker.readthedocs.io/" target="_blank" rel="noopener" >repo2docker&lt;/a>
 &lt;/strong>.&lt;/p>
 &lt;p>This would give JupyterHub users more flexibility over the environments served by their hub, and expose Binder-style workflows to the “typical” JupyterHub workflow. BinderHub could then be simplified to re-use JupyterHub’s image building functionality as a part of its own service. We also identified a prototype of this functionality in the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/plasmabio/tljh-repo2docker" target="_blank" rel="noopener" >tljh-repo2docker&lt;/a>
 project that
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://quantstack.net/" target="_blank" rel="noopener" >QuantStack&lt;/a>
 had built for the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://plasmabio.org/" target="_blank" rel="noopener" >PlasmaBio project&lt;/a>
 . This implementation was seen as successful, and something others in the community had wanted to generalize for some time.&lt;/p>
 &lt;h1 id="our-implementation-plan">
@@ -634,14 +501,11 @@ Two phases of implementation
 Back-end implementation as a JupyterHub Service
 &lt;a class="header-anchor" href="#back-end-implementation-as-a-jupyterhub-service">#&lt;/a>
 &lt;/h2>&lt;p>We’re planning to use
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://jupyterhub.readthedocs.io/en/stable/reference/services.html" target="_blank" rel="noopener" >JupyterHub Services&lt;/a>
 to add the back-end functionality for dynamic image building to a JupyterHub. Services are a way to expose functionality via a JupyterHub REST API, and would allow us to expose basic image generation on-the-fly with
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://repo2docker.readthedocs.io/" target="_blank" rel="noopener" >repo2docker&lt;/a>
 . We aim for basic functionality to be as close as possible to repo2docker’s default behavior, but to make this functionality _composable and customizable _if a JupyterHub administrator wants to provide different out-of-the-box functionality.&lt;/p>
 &lt;p>While details may still change, we believe that the major architectural plan has now been settled. We have
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/consideratio/repo2docker-service" target="_blank" rel="noopener" >an experimental codebase&lt;/a>
 with a basic implementation of the repo2docker service described above. As part of this effort, this team has also made a number of improvements to repo2docker’s codebase and project infrastructure. We hope that this effort will continue to push resources and attention to repo2docker by growing the number of users and stakeholders that rely on the project for their success.&lt;/p>
 &lt;h2 id="front-end-implementation-that-uses-this-service">
@@ -660,10 +524,8 @@ Front-end implementation that uses this service
 Collaborate and follow along
 &lt;a class="header-anchor" href="#collaborate-and-follow-along">#&lt;/a>
 &lt;/h1>&lt;p>Below you’ll find a rough project plan to give an idea for the major actions needed and a timeline for when we hope they’ll be completed. We’ll track further updates and progress on this project in this
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/2i2c-org/infrastructure/issues/1382" target="_blank" rel="noopener" >dedicated GitHub issue&lt;/a>
 and this
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/orgs/2i2c-org/projects/33/views/1" target="_blank" rel="noopener" >dedicated GitHub project board&lt;/a>
 .&lt;/p>
 &lt;p>
@@ -680,7 +542,6 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;/figure>
 &lt;/p>
 &lt;p>After a few months working on this project, we are even more excited about the potential for dynamically building environments in a JupyterHub. We believe that it adds a new class of workflows to JupyterHubs that were not possible before, and will be immediately useful to the hundreds of communities that deploy JupyterHub for their communities.&lt;/p></description></item><item><title>Open grant narrative: A Collaborative Interactive Computing Service Model for Global Communities</title><link>https://2i2c.org/blog/2022/czi-global-communities-proposal/</link><pubDate>Sun, 28 Aug 2022 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2022/czi-global-communities-proposal/</guid><description>&lt;p>We recently submitted a grant to
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://chanzuckerberg.com/" target="_blank" rel="noopener" >Chan Zuckerberg Initiative&lt;/a>
 and wish to share some details about it as well as the grant narrative for others to read and re-use.&lt;/p>
 &lt;ul class="cta-group">
@@ -695,27 +556,21 @@ Collaborators
 &lt;/h2>&lt;p>This grant is a collaboration between several leading organizations in open infrastructure, community, and global leadership:&lt;/p>
 &lt;ul>
 &lt;li>
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://2i2c.org" target="_blank" rel="noopener" >2i2c&lt;/a>
 &lt;/li>
 &lt;li>
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://carpentries.org/about/" target="_blank" rel="noopener" >The Carpentries&lt;/a>
 &lt;/li>
 &lt;li>
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://www.cscce.org/" target="_blank" rel="noopener" >Center for Scientific Collaboration and Community Engagement&lt;/a>
 &lt;/li>
 &lt;li>
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://investinopen.org/" target="_blank" rel="noopener" >Invest in Open Infrastructure&lt;/a>
 &lt;/li>
 &lt;li>
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://www.metadocencia.org/" target="_blank" rel="noopener" >MetaDocencia&lt;/a>
 &lt;/li>
 &lt;li>
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://openlifesci.org/" target="_blank" rel="noopener" >Open Life Science&lt;/a>
 &lt;/li>
 &lt;/ul>

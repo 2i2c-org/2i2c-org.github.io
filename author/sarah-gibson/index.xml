@@ -1,28 +1,21 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sarah Gibson | 2i2c</title><link>https://2i2c.org/author/sarah-gibson/</link><atom:link href="https://2i2c.org/author/sarah-gibson/index.xml" rel="self" type="application/rss+xml"/><description>Sarah Gibson</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 19 Apr 2022 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/author/sarah-gibson/avatar_hud607d19f6019cca31bcb5ec96cdcf8c5_22612_270x270_fill_q75_lanczos_center.jpg</url><title>Sarah Gibson</title><link>https://2i2c.org/author/sarah-gibson/</link></image><item><title>Sarah Gibson</title><link>https://2i2c.org/author/sarah-gibson/</link><pubDate>Tue, 19 Apr 2022 00:00:00 +0000</pubDate><guid>https://2i2c.org/author/sarah-gibson/</guid><description>&lt;p>Sarah Gibson is an Open Source Infrastructure Engineer at 2i2c, an open source contributor and advocate.
 She holds more than two years of experience as a Research Engineer at a national institute for data science and artificial intelligence, as well as holding a core contributor role in the open source projects
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://jupyter.org/binder" target="_blank" rel="noopener" >Binder&lt;/a>
 ,
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://jupyter.org/hub" target="_blank" rel="noopener" >JupyterHub&lt;/a>
 , and
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://the-turing-way.netlify.app/" target="_blank" rel="noopener" >&lt;em>The Turing Way&lt;/em>&lt;/a>
 .
 Sarah is passionate about working with domain experts to leverage cloud computing in order to accelerate cutting-edge, data-intensive research and disseminating the results in an open, reproducible and reusable manner.&lt;/p>
 &lt;p>Sarah holds a Fellowship with the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://software.ac.uk" target="_blank" rel="noopener" >Software Sustainability Institute&lt;/a>
 and advocates for best software practices in research.
 She is a member of the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://jupyterhub-team-compass.readthedocs.io/en/latest/team/index.html" target="_blank" rel="noopener" >mybinder.org operating team&lt;/a>
 and maintains infrastructure supporting over 150k launches of reproducible computational environments per week.
 She has also mentored projects through two cohorts of the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://openlifesci.org" target="_blank" rel="noopener" >Open Life Science&lt;/a>
 programme, imparting lived experience of her skills participating and leading in open science projects.&lt;/p></description></item><item><title>Tech update: Multiple JupyterHubs, multiple clusters, one repository.</title><link>https://2i2c.org/blog/2022/ci-cd-improvements/</link><pubDate>Tue, 19 Apr 2022 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2022/ci-cd-improvements/</guid><description>&lt;p>2i2c manages the configuration and deployment of multiple Kubernetes clusters and JupyterHubs from
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/2i2c-org/infrastructure" target="_blank" rel="noopener" >a single open infrastructure repository&lt;/a>
 .
 This is a challenging problem, as it requires us to centralize information about a number of &lt;em>independent&lt;/em> cloud services, and deploy them in an efficient and reliable manner.
@@ -35,17 +28,14 @@ Our problem
 &lt;a class="header-anchor" href="#our-problem">#&lt;/a>
 &lt;/h2>&lt;p>2i2c&amp;rsquo;s problem is similar to that of many large organizations that have independent sub-communities within them.
 We must centralize the operation and configuration of JupyterHubs in order to boost our efficiency in developing and operating them, but must also treat these hubs &lt;em>independently&lt;/em> because their user communities are not necessarily related, and because we want communities to
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://2i2c.org/right-to-replicate/" >be able to replicate their infrastructure on their own&lt;/a>
 .&lt;/p>
 &lt;p>A year ago, we built the first version of our deployment infrastructure at
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/2i2c-org/infrastructure" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> github.com/2i2c-org/infrastructure&lt;/a>
 .
 Over the last year of operation, we identified a number of major shortcomings:&lt;/p>
 &lt;ul>
 &lt;li>Within a Kubernetes cluster, we deployed hubs sequentially, not in parallel. This grew out of a common practice of
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://sre.google/workbook/canarying-releases/" target="_blank" rel="noopener" >Canary deployments&lt;/a>
 that allowed us to test changes on a &lt;strong>staging hub&lt;/strong> before rolling them out to a &lt;strong>production hub&lt;/strong>.&lt;/li>
 &lt;li>We used a single configuration file for all hubs within a cluster, which led to confusion and difficulty in identifying a hub-specific configuration.&lt;/li>
@@ -69,24 +59,19 @@ This took a lot of discussion and iteration on design, and so we share it below 
 Improvements to our code and structure
 &lt;a class="header-anchor" href="#improvements-to-our-code-and-structure">#&lt;/a>
 &lt;/h3>&lt;p>We made a few major changes to
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/2i2c-org/infrastructure" target="_blank" rel="noopener" >the infrastructure repository&lt;/a>
 to facilitate the deployment logic described above.
 Here are the major changes we implemented:&lt;/p>
 &lt;ul>
 &lt;li>We separated each hub&amp;rsquo;s configuration into its own file, or set of files. For example,
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/2i2c-org/infrastructure/blob/master/config/clusters/2i2c/staging.values.yaml" target="_blank" rel="noopener" >here is 2i2c&amp;rsquo;s &lt;code>staging&lt;/code> hub configuration&lt;/a>
 .&lt;/li>
 &lt;li>We created a separate &lt;code>cluster.yaml&lt;/code> file that holds the canonical list of hubs deployed to that cluster and the configuration file(s) associated with each one. For example,
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/2i2c-org/infrastructure/blob/master/config/clusters/2i2c/cluster.yaml" target="_blank" rel="noopener" >here is 2i2c&amp;rsquo;s GKE cluster configuration&lt;/a>
 , which contains a reference to the previously mentioned
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/2i2c-org/infrastructure/blob/master/config/clusters/2i2c/cluster.yaml#L14-L26" target="_blank" rel="noopener" >staging hub&lt;/a>
 .&lt;/li>
 &lt;li>We updated
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/2i2c-org/infrastructure/tree/master/deployer" target="_blank" rel="noopener" >our deployer module&lt;/a>
 to do the following things:
 &lt;ul>
@@ -102,7 +87,6 @@ A GitHub Actions workflow for upgrading our JupyterHubs
 &lt;a class="header-anchor" href="#a-github-actions-workflow-for-upgrading-our-jupyterhubs">#&lt;/a>
 &lt;/h3>&lt;p>We defined a new GitHub Actions workflow that carries out the logic described above.
 These are all defined in
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/2i2c-org/infrastructure/blob/master/.github/workflows/deploy-hubs.yaml" target="_blank" rel="noopener" >this &lt;code>deploy-hubs.yaml&lt;/code> configuration file&lt;/a>
 .
 Here are the major jobs in this workflow, and what each does:&lt;/p>
@@ -122,7 +106,6 @@ Here are the major jobs in this workflow, and what each does:&lt;/p>
 &lt;p>This produced two outputs to be used in subsequent steps:&lt;/p>
 &lt;ul>
 &lt;li>A &lt;strong>human-readable table&lt;/strong> including information on &lt;em>why&lt;/em> a given deployment requires an upgrade (using the excellent
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/Textualize/rich" target="_blank" rel="noopener" >Rich library&lt;/a>
 ).&lt;/li>
 &lt;li>&lt;strong>JSON outputs&lt;/strong> that can be interpreted by GitHub Actions as sets of matrix jobs to run.&lt;/li>
@@ -184,50 +167,39 @@ Concluding Remarks
 &lt;a class="header-anchor" href="#concluding-remarks">#&lt;/a>
 &lt;/h2>&lt;p>We think that this is a nice balance of infrastructure complexity and flexibility.
 It allows us to separate the configuration of each hub and cluster, which makes each more maintainable by us, and is more aligned with a community&amp;rsquo;s
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://2i2c.org/right-to-replicate/" >Right to Replicate&lt;/a>
 their infrastructure.
 It allows us to remove the interdependence of deploy jobs that do not &lt;em>need&lt;/em> to be dependent, which makes our deploys more efficient.
 Finally, it allows us to make &lt;em>targeted deploys&lt;/em> more effectively, which reduces the amount of toil and unnecessary waiting associated with each change. (It also
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.blog/2021-04-22-environmental-sustainability-github/" target="_blank" rel="noopener" >reduces our carbon footprint by reducing unnecessary GitHub Action time&lt;/a>
 ).&lt;/p>
 &lt;p>We hope that this is a useful resource for others to follow if they also maintain JupyterHubs for multiple communities.
 If you have any ideas of how we could further improve this infrastructure, please reach out on GitHub!
 If you know of a community that would like 2i2c to
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://2i2c.org/service/" target="_blank" rel="noopener" >manage a hub for your community&lt;/a>
 , please
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="" >send us an email&lt;/a>
 .&lt;/p>
 &lt;p>&lt;em>&lt;strong>Acknowledgements&lt;/strong>: The infrastructure described in this post was developed by
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="" >the 2i2c engineering team&lt;/a>
 , and this post was edited by
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="" >Chris Holdgraf&lt;/a>
 .&lt;/em>&lt;/p></description></item><item><title>Pangeo Cloud goes live on 2i2c!</title><link>https://2i2c.org/blog/2021/pangeo-goes-live/</link><pubDate>Tue, 16 Nov 2021 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2021/pangeo-goes-live/</guid><description>&lt;p>
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://pangeo.io/cloud.html" target="_blank" rel="noopener" >Pangeo Cloud&lt;/a>
 is an experimental service providing public cloud-based data-science environments for data-intensive geoscience research.
 We have recently finished re-creating the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="http://pangeo.io/" target="_blank" rel="noopener" >Pangeo&lt;/a>
 community JupyterHub hosted on GCP in the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/2i2c-org/infrastructure" target="_blank" rel="noopener" >2i2c-org/infrastructure&lt;/a>
 repository.
 This is a huge milestone in our partnership with Pangeo to provide expertise and operations of cloud-based, vendor-agnostic Jupyter infrastructure and workflows.&lt;/p>
 &lt;p>For users of Pangeo Cloud, the switch should have been a smooth one!
 The new hub should behave nearly identically to the old one, and will be managed by 2i2c engineers moving forward, in partnership with the Pangeo community.
 It will be available at the same URL (
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://us-central1-b.gcp.pangeo.io" target="_blank" rel="noopener" >https://us-central1-b.gcp.pangeo.io&lt;/a>
 ) and there&amp;rsquo;s no need to worry about your home directories, they were synced to the new hub only a few days before the migration took place.
 Development and operations on this hub will all be done in the open and we invite participation and feedback from others in our infrastructure work.
 Please see
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://discourse.pangeo.io/t/migration-of-us-central1-b-gcp-pangeo-io-to-2i2c-infrastructure/1890" target="_blank" rel="noopener" >this Discourse thread&lt;/a>
 as an initial place to provide feedback.&lt;/p>
 &lt;p>On &lt;strong>22nd November 2021&lt;/strong>, the old Pangeo GCP JupyterHub will be shut down, and the project will move forward on the new 2i2c Pangeo Hub.
@@ -237,7 +209,6 @@ History of Pangeo Cloud Hubs
 &lt;a class="header-anchor" href="#history-of-pangeo-cloud-hubs">#&lt;/a>
 &lt;/h2>&lt;p>Pangeo has pioneered a new model in using open source and cloud-agnostic infrastructure to support scientific research in the cloud.&lt;/p>
 &lt;p>The first Pangeo cloud JupyterHub (pangeo.pydata.org; now defuct) was deployed for the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://annual.ametsoc.org/2017/" target="_blank" rel="noopener" >2017 American Meteoroligical Society Meeting&lt;/a>
 ; since then, the Pangeo community has iterated through several different versions of prototype cloud-based hubs.
 This allowed for many new workflows that enabled a more open and collaborative pathway to doing world class research, and included access to datasets and computational resources that were previously unattainable.
@@ -249,7 +220,6 @@ Modern scalable cloud infrastructure is one example of this. Maintaining a compl
 The Pangeo-2i2c Partnership
 &lt;a class="header-anchor" href="#the-pangeo-2i2c-partnership">#&lt;/a>
 &lt;/h2>&lt;p>
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://2i2c.org" target="_blank" rel="noopener" >2i2c&lt;/a>
 is a non-profit team that develops and operates cloud infrastructure for interactive computing workflows.
 We have extensive experience in Jupyter workflows in the cloud and a long history of contributions to projects in this ecosystem.
@@ -258,7 +228,6 @@ We have built a cloud deployment management system that allows us to centralise 
 Our partnership with Pangeo began through 2i2c&amp;rsquo;s core competency in these areas and the similarity between the two project&amp;rsquo;s technical stacks.&lt;/p>
 &lt;p>We&amp;rsquo;ve begun a partnership whereby 2i2c will manage Pangeo&amp;rsquo;s cloud infrastructure and lead efforts to develop new features, in partnership with open source communities.
 We sketched out a few ideas to focus on in this
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://discourse.pangeo.io/t/notes-from-the-pangeo-2i2c-kick-off-meeting/1587" target="_blank" rel="noopener" >kick-off thread on Discourse&lt;/a>
 .
 This approach allows each community to focus on it&amp;rsquo;s core strengths: Pangeo will continue to grow an open community and scientific software ecosystem around geospatial analytics, and 2i2c will oversee the development and operations of the core cloud infrastructure stack that powers Pangeo&amp;rsquo;s workflows.

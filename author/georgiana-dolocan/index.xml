@@ -3,10 +3,8 @@
 About CILogon
 &lt;a class="header-anchor" href="#about-cilogon">#&lt;/a>
 &lt;/h2>&lt;p>
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://www.cilogon.org" target="_blank" rel="noopener" >CILogon&lt;/a>
 is an open source service provider that allows users to log in against over 4000 various identity providers, including campus identity providers. The available identity providers are members of
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://incommon.org/federation/" target="_blank" rel="noopener" >InCommon&lt;/a>
 , a federation of universities and other organizations that provide single sign-on access to various resources.&lt;/p>
 &lt;h2 id="cilogon-and-2i2c">
@@ -24,38 +22,29 @@ The setup
 The CILogon administrative client
 &lt;a class="header-anchor" href="#the-cilogon-administrative-client">#&lt;/a>
 &lt;/h3>&lt;p>The
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://cilogon.github.io/oa4mp/server/manuals/dynamic-client-registration.html" target="_blank" rel="noopener" >2i2c administrative client&lt;/a>
 provided by CILogon allowed us to automatically manage the CILogon OAuth applications needed for authenticating into the hub.&lt;/p>
 &lt;p>For each hub that uses CILogon, we dynamically create an OAuth
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://cilogon.github.io/oa4mp/server/manuals/dynamic-client-registration.html" target="_blank" rel="noopener" >client application&lt;/a>
 in CILogon and store the credentials safely, using the script at
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/2i2c-org/infrastructure/blob/3312f373f0aa59fbc98dc1c8161aa9623b68726b/deployer/cilogon_app.py" target="_blank" rel="noopener" >cilogon_app.py&lt;/a>
 . The script can also used for &lt;code>updating&lt;/code> the callback URLs of an existing OAuth application, &lt;code>deleting&lt;/code> a CILogon OAuth application when a hub is removed or changes authentication methods, &lt;code>getting&lt;/code> details about an existing OAuth application, &lt;code>getting all&lt;/code> existing 2i2c CILogon OAuth applications.&lt;/p>
 &lt;h3 id="the-jupyterhub-cilogonoauthenticator">
 The JupyterHub CILogonOAuthenticator
 &lt;a class="header-anchor" href="#the-jupyterhub-cilogonoauthenticator">#&lt;/a>
 &lt;/h3>&lt;p>For CILogon&amp;rsquo;s integration with JupyterHub&amp;rsquo;s authentication workflow, we&amp;rsquo;re using the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/jupyterhub/oauthenticator/blob/main/oauthenticator/cilogon.py" target="_blank" rel="noopener" >&lt;strong>CILogonOAuthenticator&lt;/strong>&lt;/a>
 , which is part of the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://oauthenticator.readthedocs.io/en/latest/" target="_blank" rel="noopener" >JupyterHub OAuthenticator project&lt;/a>
 . This is what allows JupyterHub to use common OAuth providers for authentication, and it&amp;rsquo;s also a base for writing other Authenticators with any OAuth 2.0 provider.&lt;/p>
 &lt;p>As part of this 2i2c integration with the JupyterHub CILogonOAuthenticator some important upstream fixes and enhancements to the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/jupyterhub/oauthenticator" target="_blank" rel="noopener" >&lt;code>oauthenticator&lt;/code>&lt;/a>
 were identified and performed. For example, the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://github.com/jupyterhub/oauthenticator/security/advisories/GHSA-r7v4-jwx9-wx43" target="_blank" rel="noopener" >GHSA-r7v4-jwx9-wx43&lt;/a>
 vulnerability was reported and fixed, and a
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://oauthenticator.readthedocs.io/en/latest/how-to/migrations/upgrade-to-15.html" target="_blank" rel="noopener" >migration guide&lt;/a>
 containing a description of the breaking changes that were made, together with a step by step guide for the users on how to update their usage of JupyterHub CILogonOAuthenticator was provided.&lt;/p>
 &lt;p>Read more about how CILogon is setup for use at 2i2c from
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://infrastructure.2i2c.org/hub-deployment-guide/configure-auth/cilogon.html" target="_blank" rel="noopener" >the docs&lt;/a>
 .&lt;/p>
 &lt;h2 id="celebration">
@@ -64,15 +53,11 @@ Celebration
 &lt;/h2>&lt;p>Thanks to the 2i2c - CILogon partnership, during this past year we were able to integrate CILogon into 2i2c&amp;rsquo;s infrastructure and to observe its importance, usefulness and great support for 2i2c and the communities we server.&lt;/p>
 &lt;p>We are now happy to announce that the 2i2c - CILogon partnership has been expanded to another year!&lt;/p>
 &lt;p>&lt;strong>Acknowledgements&lt;/strong>: The upstream
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://oauthenticator.readthedocs.io/en/latest" target="_blank" rel="noopener" >&lt;code>jupyterhub-oauthenticator&lt;/code>&lt;/a>
 project mentioned in this post as being used at 2i2c is a JupyterHub package, kindly developed and maintained by the
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://discourse.jupyter.org/c/jupyterhub/" target="_blank" rel="noopener" >JupyterHub community&lt;/a>
 and the 2i2c integration described was developed by
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://2i2c.org/organization/" >the 2i2c engineering team&lt;/a>
 . Also, this post was edited by
-// This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix.
 &lt;a href="https://jbasney.net/" target="_blank" rel="noopener" >Jim Basney&lt;/a>
 .&lt;/p></description></item></channel></rss>
