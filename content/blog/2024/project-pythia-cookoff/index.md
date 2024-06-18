@@ -27,7 +27,7 @@ Jenny, James and Angus from the 2i2c team participated in the annual [Project Py
 
 ![Screenshot of Project Pythia BinderHub service](binder.png)
 
-<!-- TBC: number of participants, how many used the JupyterHub, cost $$$ to run the service -->
+
 
 ## Day 2
 
@@ -70,7 +70,7 @@ We spent this day tackling support for managing a gallery of Project Pythia cook
 
 Looking to the future, we spent time reflecting on our experiences and discussing the potential, transformative impact MyST MD tooling could have in the hands of the scientific community at large, including the communities served by 2i2c. Knowledge-sharing based on static figures and PDFs would fall obsolete and give way to a dynamic, web-first approach to interactive communication and publishing backed by compute from a Jupyter server.
 
-Throughout the course of the hackathon, the rate of iterated development for both end users of the community cookbook and the developers of the open-source tooling was astounding. For example, we were able to quickly expose small bugs ([e.g. support for HTML video tags](https://github.com/executablebooks/mystmd/issues/1297)) in the MyST MD tooling, which were immediately fixed upstream and released within minutes. The feedback loop that connected the user experience with the software tooling was incredibly synergistic, with immediate impact both upstream and downstream.
+Throughout the course of the hackathon, the rate of iterated development for both end users of the community cookbook and the developers of the open-source tooling was astounding. For example, we were able to quickly expose small bugs ([e.g. support for HTML video tags](https://github.com/executablebooks/mystmd/issues/1297)) in the MyST MD tooling, which were immediately fixed upstream and released within minutes. The feedback loop that connected the user experience with the software tooling was incredibly synergistic, with immediate impact both upstream and downstream that 2i2c hopes to continue replicating across many facets of their operations.
 
 Beyond the Project Pythia Cook-off, the breakout group will continue conversations around strengthening their community of practice and hopefully advocating for wider adoption of MyST MD amongst the scientific community (say hello to some of our group members at [SciPy 2024](https://www.scipy2024.scipy.org/) in July!).
 
