@@ -57,7 +57,7 @@ This moment was palpably exciting! It was evident that MyST MD supported backwar
 
 ## Day 3
 
-We spent this day tackling support for managing a gallery of Project Pythia cookbooks at scale. See the Executable Books project blog post for technical details on how we
+We spent this day tackling support for managing a gallery of Project Pythia cookbooks at scale. See the [Executable Books blog post](https://executablebooks.org/en/latest/blog/2024-06-14-project-pythia-mystmd/) for technical details on how we
 
 - [Centralized configuration](https://github.com/projectpythia-mystmd/pythia-config)
 - Prototyped a [gallery](https://projectpythia-mystmd.github.io/) plugin in Python
