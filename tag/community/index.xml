@@ -1,4 +1,137 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Community | 2i2c</title><link>https://2i2c.org/tag/community/</link><atom:link href="https://2i2c.org/tag/community/index.xml" rel="self" type="application/rss+xml"/><description>Community</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 08 Jan 2023 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Community</title><link>https://2i2c.org/tag/community/</link></image><item><title>Principles and considerations for ethically accepting funding for open source</title><link>https://2i2c.org/blog/2023/open-source-funding-principles/</link><pubDate>Sun, 08 Jan 2023 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2023/open-source-funding-principles/</guid><description>&lt;p>&lt;em>This is a brainstorm to consider the principles and guidelines that 2i2c should follow in defining its strategy towards open source communities.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Community | 2i2c</title><link>https://2i2c.org/tag/community/</link><atom:link href="https://2i2c.org/tag/community/index.xml" rel="self" type="application/rss+xml"/><description>Community</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 18 Jun 2024 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Community</title><link>https://2i2c.org/tag/community/</link></image><item><title>Hacking the Project Pythia Cook-off with MyST Markdown</title><link>https://2i2c.org/blog/2024/project-pythia-cookoff/</link><pubDate>Tue, 18 Jun 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/project-pythia-cookoff/</guid><description>&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./cover.png" alt="Group selfie of Project Pythia Cook-off participants." loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;h2 id="what-is-project-pythia">
+What is Project Pythia?
+&lt;a class="header-anchor" href="#what-is-project-pythia">#&lt;/a>
+&lt;/h2>&lt;p>
+&lt;a href="https://projectpythia.org/" target="_blank" rel="noopener" >Project Pythia&lt;/a>
+is the education working group for
+&lt;a href="https://pangeo.io/index.html" target="_blank" rel="noopener" >Pangeo&lt;/a>
+, a community platform for Big Data geoscience in which 2i2c operates a cloud hub. The core aim of Project Pythia is to spearhead the creation and curation of community-driven, open-source documentation, in the form of &amp;ldquo;cookbooks&amp;rdquo;, to enable the adoption of &lt;em>open&lt;/em>, &lt;em>scalable&lt;/em> and &lt;em>reproducible&lt;/em> workflows for geoscientists.&lt;/p>
+&lt;h2 id="what-did-2i2c-do">
+What did 2i2c do?
+&lt;a class="header-anchor" href="#what-did-2i2c-do">#&lt;/a>
+&lt;/h2>&lt;p>Jenny, James and Angus from the 2i2c team participated in the annual
+&lt;a href="https://projectpythia.org/pythia-cookoff-2024/" target="_blank" rel="noopener" >Project Pythia Cook-off 2024&lt;/a>
+, a hackathon where cookbook authors and collaborators can spend dedicated time on creating and maintaining their content using
+&lt;a href="https://jupyterbook.org/en/stable/intro.html" target="_blank" rel="noopener" >Jupyter Book&lt;/a>
+and publishing their cookbooks with GitHub actions.&lt;/p>
+&lt;p>2i2c teamed up with the infrastructure breakout group during the hackathon, led by Katelyn FitzGerald (UCAR) and Kevin Tyle (University at Albany), and members of the
+&lt;a href="https://curvenote.com/" target="_blank" rel="noopener" >Curvenote&lt;/a>
+team also joined the group.&lt;/p>
+&lt;h2 id="day-1">
+Day 1
+&lt;a class="header-anchor" href="#day-1">#&lt;/a>
+&lt;/h2>&lt;p>2i2c deployed and demonstrated a dedicated BinderHub service for Project Pythia that allowed hackathon participants to &amp;ldquo;self-serve&amp;rdquo; images of their software environment, which were specified by including a list of packages in an &lt;code>environment.yml&lt;/code> file placed in their GitHub cookbook repository. Participants could then pull the image from a container registry into their 2i2c hub (or indeed, any other JupyterHub server) to share and reproduce their computational environments with ease.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Screenshot of Project Pythia BinderHub service" srcset="
+/blog/2024/project-pythia-cookoff/binder_hu0f1435943be205bfe089bc611745838d_730215_52ded526fc23a12194465dad7e2d8892.webp 400w,
+/blog/2024/project-pythia-cookoff/binder_hu0f1435943be205bfe089bc611745838d_730215_f7d8b74175bf50d99da39ad808ada1ac.webp 760w,
+/blog/2024/project-pythia-cookoff/binder_hu0f1435943be205bfe089bc611745838d_730215_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2024/project-pythia-cookoff/binder_hu0f1435943be205bfe089bc611745838d_730215_52ded526fc23a12194465dad7e2d8892.webp"
+width="760"
+height="498"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;h2 id="day-2">
+Day 2
+&lt;a class="header-anchor" href="#day-2">#&lt;/a>
+&lt;/h2>&lt;p>During the first half of the day, we quickly identified a number of issues that were proving to be a maintenance headache for the Project Pythia infrastructure group:&lt;/p>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Configuration files for each cookbook were difficult to update at scale. Project Pythia currently have a gallery of over 30 cookbooks!&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Changes to Sphinx-based themes inherited from upstream were prone to breaking custom Project Pythia branding downstream.&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Executable content was not able to run on the Project Pythia&amp;rsquo;s dedicated BinderHub hosted on
+&lt;a href="https://jetstream-cloud.org/index.html" target="_blank" rel="noopener" >JetStream2&lt;/a>
+(operated by NSF).&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Cookbooks frequently cross-referenced materials from other cookbooks to build upon pre-existing knowledge, but this was not easy to author and the reader experience was not as smooth as it could be.&lt;/li>
+&lt;/ul>
+&lt;p>Following the announcement that
+&lt;a href="" >Jupyter Book 2.0 will use MyST&lt;/a>
+last month, Rowan (Curvenote) and Angus (2i2c) delivered a compelling demonstration of the
+&lt;a href="https://mystmd.org/" target="_blank" rel="noopener" >MyST&lt;/a>
+ecosystem centered around modern web-first technologies (JavaScript/TypeScript) that offers improved interactivity and accessibility.&lt;/p>
+&lt;p>In the second half of the day, we decided to use the hackathon to explore migrating the Pythia cookbooks from using a Sphinx-based to a MyST-based document structure and engine. Within one afternoon, the group migrated four cookbooks to use MyST MD&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;a href="https://projectpythia-mystmd.github.io/pythia-foundations/" target="_blank" rel="noopener" >Pythia Foundations&lt;/a>
+&lt;/li>
+&lt;li>
+&lt;a href="https://projectpythia-mystmd.github.io/HRRR-AWS-cookbook/" target="_blank" rel="noopener" >High Resolution Rapid Refresh on AWS&lt;/a>
+&lt;/li>
+&lt;li>
+&lt;a href="https://projectpythia-mystmd.github.io/radar-cookbook/" target="_blank" rel="noopener" >Radar Cookbook&lt;/a>
+&lt;/li>
+&lt;li>
+&lt;a href="https://projectpythia-mystmd.github.io/advanced-viz-cookbook/" target="_blank" rel="noopener" >Advanced Visualization&lt;/a>
+.&lt;/li>
+&lt;/ol>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Screenshot of a side by side comparison of the Sphinx (left) and MyST (right) based cookbook." srcset="
+/blog/2024/project-pythia-cookoff/side-by-side_hu5546c2f3ef976b2376f1ff0dd4286970_2114038_4ff29c0c89df290ccb64b4b6e0f07f5d.webp 400w,
+/blog/2024/project-pythia-cookoff/side-by-side_hu5546c2f3ef976b2376f1ff0dd4286970_2114038_70463a97ed842099d3fae5acba3aede2.webp 760w,
+/blog/2024/project-pythia-cookoff/side-by-side_hu5546c2f3ef976b2376f1ff0dd4286970_2114038_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2024/project-pythia-cookoff/side-by-side_hu5546c2f3ef976b2376f1ff0dd4286970_2114038_4ff29c0c89df290ccb64b4b6e0f07f5d.webp"
+width="760"
+height="438"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>This moment was palpably exciting! It was evident that MyST MD supported backwards compatible content out of the box, which alleviated fears of sunk cost into existing Sphinx-based cookbooks. The migration workflow was as simple as executing the following commands&lt;/p>
+&lt;p>&lt;code>conda install mystmd&lt;/code>&lt;/p>
+&lt;p>&lt;code>myst&lt;/code>.&lt;/p>
+&lt;h2 id="day-3">
+Day 3
+&lt;a class="header-anchor" href="#day-3">#&lt;/a>
+&lt;/h2>&lt;p>We spent this day tackling support for managing a gallery of Project Pythia cookbooks at scale. See the upcoming
+&lt;a href="https://executablebooks.org/en/latest/blog/2024-06-14-project-pythia-mystmd/" target="_blank" rel="noopener" >Executable Books blog post&lt;/a>
+for technical details on how we&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="https://github.com/projectpythia-mystmd/pythia-config" target="_blank" rel="noopener" >Centralized configuration&lt;/a>
+&lt;/li>
+&lt;li>Prototyped a
+&lt;a href="https://projectpythia-mystmd.github.io/" target="_blank" rel="noopener" >gallery&lt;/a>
+plugin in Python&lt;/li>
+&lt;li>Fixed a number of bugs related to integrated computation with
+&lt;a href="https://mystmd.org/guide/integrating-jupyter#connecting-to-a-binder" target="_blank" rel="noopener" >Binder&lt;/a>
+and
+&lt;a href="https://mystmd.org/guide/integrating-jupyter#jupyterlite" target="_blank" rel="noopener" >JupyterLite&lt;/a>
+&lt;/li>
+&lt;li>Embraced the referencing and reuse of content with
+&lt;a href="https://mystmd.org/guide/external-references#tbl-syntax-xref" target="_blank" rel="noopener" >simple markdown syntax for hover-references&lt;/a>
+.&lt;/li>
+&lt;/ul>
+&lt;video autoplay loop >
+&lt;source src="https://2i2c.org/blog/2024/project-pythia-cookoff/hover-ref.mp4" type="video/mp4">
+&lt;/video>
+&lt;h2 id="day-4">
+Day 4
+&lt;a class="header-anchor" href="#day-4">#&lt;/a>
+&lt;/h2>&lt;p>Looking to the future, we spent time reflecting on our experiences and discussing the potential, transformative impact MyST MD tooling could have in the hands of the scientific community at large, including the communities served by 2i2c. Knowledge-sharing based on static figures and PDFs would fall obsolete and give way to a dynamic, web-first approach to interactive communication and publishing backed by compute from a Jupyter server.&lt;/p>
+&lt;p>Throughout the course of the hackathon, the rate of iterated development for both end users of the community cookbook and the developers of the open-source tooling was astounding. For example, we were able to quickly expose small bugs (
+&lt;a href="https://github.com/executablebooks/mystmd/issues/1297" target="_blank" rel="noopener" >e.g. support for HTML video tags&lt;/a>
+) in the MyST MD tooling, which were immediately fixed upstream and released within minutes. The feedback loop that connected the user experience with the software tooling was incredibly synergistic, with immediate impact both upstream and downstream that 2i2c hopes to continue replicating across many facets of their operations.&lt;/p>
+&lt;p>Beyond the Project Pythia Cook-off, the breakout group will continue conversations around strengthening their community of practice and hopefully advocating for wider adoption of MyST MD amongst the scientific community (say hello to some of our group members at
+&lt;a href="https://www.scipy2024.scipy.org/" target="_blank" rel="noopener" >SciPy 2024&lt;/a>
+in July!).&lt;/p>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>University at Albany (NSF award 2324302): Led the funding acquisition, helped organize and facilitate the event&lt;/li>
+&lt;li>UCAR (NSF award 2324303): Led the planning and logistics for the event&lt;/li>
+&lt;li>2i2c / Code for Science and Society (NSF award 2324304): Provided tailored compute services and on-site support&lt;/li>
+&lt;li>Curvenote: Contributed engineering cycles to MyST MD development.&lt;/li>
+&lt;/ul></description></item><item><title>Principles and considerations for ethically accepting funding for open source</title><link>https://2i2c.org/blog/2023/open-source-funding-principles/</link><pubDate>Sun, 08 Jan 2023 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2023/open-source-funding-principles/</guid><description>&lt;p>&lt;em>This is a brainstorm to consider the principles and guidelines that 2i2c should follow in defining its strategy towards open source communities.
 See
 &lt;a href="https://compass.2i2c.org/open-source/index.html" target="_blank" rel="noopener" >our open source policy documentation&lt;/a>
 for the product of this brainstorm.&lt;/em>&lt;/p>
