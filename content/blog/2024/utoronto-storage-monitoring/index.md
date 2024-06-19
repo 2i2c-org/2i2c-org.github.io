@@ -5,7 +5,7 @@ banner:
   image: "cover.png"
 authors: ["Jenny Wong"]
 tags: [community]
-categories: [updates, engineering]
+categories: [updates, engineering, partnerships]
 featured: false
 draft: false
 ---
