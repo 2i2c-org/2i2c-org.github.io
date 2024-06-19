@@ -1,7 +1,6 @@
 ---
 title: Hacking the Project Pythia Cook-off with MyST Markdown 
 date: "2024-06-18"
-lastmod: "2024-06-21"
 authors: ["Jenny Wong", "James Munroe", "Angus Hollands"]
 tags: [community]
 categories: [updates]
