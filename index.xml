@@ -1,4 +1,37 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2i2c</title><link>https://2i2c.org/</link><atom:link href="https://2i2c.org/index.xml" rel="self" type="application/rss+xml"/><description>2i2c</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 18 Jun 2024 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>2i2c</title><link>https://2i2c.org/</link></image><item><title>Hacking the Project Pythia Cook-off with MyST Markdown</title><link>https://2i2c.org/blog/2024/project-pythia-cookoff/</link><pubDate>Tue, 18 Jun 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/project-pythia-cookoff/</guid><description>&lt;p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2i2c</title><link>https://2i2c.org/</link><atom:link href="https://2i2c.org/index.xml" rel="self" type="application/rss+xml"/><description>2i2c</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 19 Jun 2024 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>2i2c</title><link>https://2i2c.org/</link></image><item><title>Researchers at LEAP-Pangeo investigate overlooked sub-grid air-sea heat flux in climate models</title><link>https://2i2c.org/blog/2024/leap-pangeo-paper/</link><pubDate>Wed, 19 Jun 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/leap-pangeo-paper/</guid><description>&lt;p>
+&lt;figure id="figure-figure-from-the-preprinthttpsdoiorg1031223x5wq47-showing-large-and-small-scale-air-sea-fluxes-are-separated-by-julius-busecke-et-al-licensed-under-cc-by-40httpcreativecommonsorglicensesby40">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Figure from the preprint showing large and small scale air-sea fluxes are separated" srcset="
+/blog/2024/leap-pangeo-paper/cover_hua0243e6bd1fe2054cd61479880c769bd_451540_b3e442655af77f60d1a7c9e0c995ff0a.webp 400w,
+/blog/2024/leap-pangeo-paper/cover_hua0243e6bd1fe2054cd61479880c769bd_451540_e5bd5c35ce68896b7320981f7e75ad6b.webp 760w,
+/blog/2024/leap-pangeo-paper/cover_hua0243e6bd1fe2054cd61479880c769bd_451540_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2024/leap-pangeo-paper/cover_hua0243e6bd1fe2054cd61479880c769bd_451540_b3e442655af77f60d1a7c9e0c995ff0a.webp"
+width="760"
+height="328"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+Figure from the
+&lt;a href="https://doi.org/10.31223/X5WQ47" target="_blank" rel="noopener" >preprint&lt;/a>
+showing large and small scale air-sea fluxes are separated. By Julius Busecke &lt;em>et al.&lt;/em>, licensed under
+&lt;a href="http://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener" >CC BY 4.0&lt;/a>
+&lt;/figcaption>&lt;/figure>
+&lt;/p>
+&lt;p>Julius Busecke &lt;em>et al.&lt;/em> of the
+&lt;a href="https://leap-stc.github.io/intro.html" target="_blank" rel="noopener" >LEAP-Pangeo&lt;/a>
+&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup> hub, have recently published a preprint&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup> that investigates &amp;ldquo;The Overlooked Sub-Grid Air-Sea Flux in Climate Models&amp;rdquo; using 2i2c infrastructure. Well done all! 🎉&lt;/p>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>NSF Science and Technology Center (STC) Learning the Earth with Artificial intelligence and Physics (LEAP) (Award # 2019625)&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2">
+&lt;p>
+&lt;a href="https://doi.org/10.31223/X5WQ47" target="_blank" rel="noopener" >https://doi.org/10.31223/X5WQ47&lt;/a>
+&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></description></item><item><title>Hacking the Project Pythia Cook-off with MyST Markdown</title><link>https://2i2c.org/blog/2024/project-pythia-cookoff/</link><pubDate>Tue, 18 Jun 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/project-pythia-cookoff/</guid><description>&lt;p>
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img src="./cover.png" alt="Group selfie of Project Pythia Cook-off participants." loading="lazy" data-zoomable />&lt;/div>
