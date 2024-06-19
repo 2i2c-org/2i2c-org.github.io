@@ -6,7 +6,7 @@ authors: ["Jenny Wong", "James Munroe", "Angus Hollands"]
 tags: [community]
 categories: [updates]
 featured: false
-draft: true
+draft: false
 ---
 
 ![Group selfie of Project Pythia Cook-off participants.](./cover.png)
