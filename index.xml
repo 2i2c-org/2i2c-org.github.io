@@ -169,7 +169,34 @@ Learn more
 &lt;a class="header-anchor" href="#learn-more">#&lt;/a>
 &lt;/h2>&lt;p>You can find more information about this fundraising and service strategy in
 &lt;a href="https://compass.2i2c.org/partnerships/fundraising/" target="_blank" rel="noopener" >our Team Compass documentation&lt;/a>
-.&lt;/p></description></item><item><title>Jupyter Book 2.0 will use MyST</title><link>https://2i2c.org/blog/2024/myst-jupyter-book/</link><pubDate>Tue, 21 May 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/myst-jupyter-book/</guid><description>&lt;p>See
+.&lt;/p></description></item><item><title>Low storage alerting for the UToronto cluster</title><link>https://2i2c.org/blog/2024/utoronto-storage-monitoring/</link><pubDate>Fri, 14 Jun 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/utoronto-storage-monitoring/</guid><description>&lt;p>
+&lt;figure id="figure-the-utoronto-hub-landing-page">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./cover.png" alt="The UToronto hub landing page" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+The UToronto hub landing page
+&lt;/figcaption>&lt;/figure>
+&lt;/p>
+&lt;p>2i2c has operated The University of Toronto hub since 2021 and this hub supports over 6000 educators and learners in a day! With a community of this size, file storage can quickly grow out of control and cause issues.&lt;/p>
+&lt;p>The 2i2c engineering team have implemented a
+&lt;a href="https://github.com/2i2c-org/infrastructure/issues/3320" target="_blank" rel="noopener" >low storage alerting system&lt;/a>
+for Microsoft Azure, so that they can pre-emptively take remedial action before the filesystem is about to run out of diskspace.&lt;/p>
+&lt;p>Great job team 🚀&lt;/p>
+&lt;p>
+&lt;figure id="figure-utoronto-hub-usage">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="UToronto hub usage" srcset="
+/blog/2024/utoronto-storage-monitoring/usage_hub24b49e3dbbe87302b910464ba062032_42243_5e8673339a5b869bf960a52cc5ba289c.webp 400w,
+/blog/2024/utoronto-storage-monitoring/usage_hub24b49e3dbbe87302b910464ba062032_42243_972cdbbef94b1186805f39afef856de1.webp 760w,
+/blog/2024/utoronto-storage-monitoring/usage_hub24b49e3dbbe87302b910464ba062032_42243_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2024/utoronto-storage-monitoring/usage_hub24b49e3dbbe87302b910464ba062032_42243_5e8673339a5b869bf960a52cc5ba289c.webp"
+width="756"
+height="500"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+UToronto hub usage
+&lt;/figcaption>&lt;/figure>
+&lt;/p></description></item><item><title>Jupyter Book 2.0 will use MyST</title><link>https://2i2c.org/blog/2024/myst-jupyter-book/</link><pubDate>Tue, 21 May 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/myst-jupyter-book/</guid><description>&lt;p>See
 &lt;a href="https://executablebooks.org/en/latest/blog/2024-05-20-jupyter-book-myst/" target="_blank" rel="noopener" >the Executable Books blog&lt;/a>
 for a post on the future directions of the Jupyter Book project, which will be built on top of the
 &lt;a href="https://mystmd.org" target="_blank" rel="noopener" >MyST Markdown engine&lt;/a>
