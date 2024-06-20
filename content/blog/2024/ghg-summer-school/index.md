@@ -17,3 +17,10 @@ The Cooperative Institute for Research in the Atmosphere ([CIRA](https://www.cir
 Hub administrators have [built a customized software environment](https://github.com/NASA-IMPACT/ssim-ghg-workshop-2024-python-image) with container technology for use at the workshop. In doing so, this bypasses the need for participants to individually install software on their own machines and the online hub provides a *consistent* and *reproducible* interactive computing environment that is easily *accessible* and *scalable*.
 
 ![Login screen of the GHG hub showing the custom built SSIM-GHG image option.](ghg-hub.png "Login screen of the GHG hub showing the custom built SSIM-GHG image option.")
+
+## Acknowledgements
+
+2i2c would like to credit the following individuals for their great efforts supporting this workshop:
+
+- Sanjay Bhangar (Development seed)
+- Slesa Adhikari (NASA IMPACT)
