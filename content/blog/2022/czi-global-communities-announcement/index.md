@@ -3,8 +3,8 @@ title: "New project: Open science cloud infrastructure and training for communit
 subtitle: ""
 summary: ""
 authors: ["Chris Holdgraf"]
-tags: []
-categories: [partnerships]
+tags: ["bioscience"]
+categories: [impact]
 date: "2022-12-20"
 featured: false
 draft: false

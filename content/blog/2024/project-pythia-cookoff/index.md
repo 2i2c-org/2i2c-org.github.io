@@ -2,13 +2,13 @@
 title: Hacking the Project Pythia Cook-off with MyST Markdown 
 date: "2024-06-18"
 authors: ["Jenny Wong", "James Munroe", "Angus Hollands"]
-tags: [community]
-categories: [updates]
+tags: [open source, Jupyter Book, geospatial]
+categories: [impact]
 featured: false
 draft: false
 ---
 
-![Group selfie of Project Pythia Cook-off participants.](./cover.png)
+![Group selfie of Project Pythia Cook-off participants.](./cover-featured.png)
 
 ## What is Project Pythia?
 

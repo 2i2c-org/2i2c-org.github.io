@@ -4,7 +4,7 @@ date: "2024-06-18"
 lastmod: "2024-06-18"
 authors: ["Chris Holdgraf"]
 tags: [sustainability]
-categories: [updates]
+categories: [organization, service]
 featured: false
 draft: false
 ---

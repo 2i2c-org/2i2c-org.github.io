@@ -4,7 +4,7 @@ date: "2024-04-15"
 lastmod: "2024-04-15"
 authors: ["Chris Holdgraf", "Harold Campbell"]
 tags: [culture]
-categories: [updates]
+categories: [organization]
 featured: false
 draft: false
 ---

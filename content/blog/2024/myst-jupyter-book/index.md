@@ -3,8 +3,8 @@ title: Jupyter Book 2.0 will use MyST
 date: "2024-05-21"
 lastmod: "2024-05-21"
 authors: ["Angus Hollands", "Chris Holdgraf", "Rowan Cockett"]
-tags: [product]
-categories: [upstream]
+tags: [open source, Jupyter Book]
+categories: [impact]
 featured: false
 draft: false
 ---

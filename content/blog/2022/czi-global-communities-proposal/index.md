@@ -3,8 +3,8 @@ title: "Open grant narrative: A Collaborative Interactive Computing Service Mode
 subtitle: ""
 summary: ""
 authors: ["Chris Holdgraf"]
-tags: []
-categories: [partnerships]
+tags: [bioscience]
+categories: [organization]
 date: "2022-08-28"
 featured: false
 draft: false

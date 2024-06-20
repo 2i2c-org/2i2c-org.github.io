@@ -3,8 +3,8 @@ title: "GESIS - 2i2c collaborate to build a persistent BinderHub experience"
 subtitle: ""
 summary: ""
 authors: ["Damián avila", "Arnim Bleier", "Chris Holdgraf"]
-tags: []
-categories: [partnerships]
+tags: ["open source"]
+categories: [impact]
 date: "2022-11-28"
 featured: false
 draft: false

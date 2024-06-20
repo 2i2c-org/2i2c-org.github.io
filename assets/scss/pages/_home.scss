@@ -21,3 +21,9 @@ ul.cta-group {
     justify-content: center;
     color: white;
 }
+
+// Home stories gallery - this limits the height so that it doesn't get super long.
+.home-stories .projects-container {
+    max-height: 80vh;
+    overflow-y: auto;
+}

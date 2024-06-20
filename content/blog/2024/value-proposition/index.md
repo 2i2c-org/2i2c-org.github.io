@@ -4,7 +4,7 @@ date: "2024-05-06"
 lastmod: "2024-05-06"
 authors: ["Chris Holdgraf"]
 tags: [product]
-categories: [updates]
+categories: [organization, service]
 featured: false
 draft: false
 ---
