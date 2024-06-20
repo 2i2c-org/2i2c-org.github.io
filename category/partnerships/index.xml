@@ -39,7 +39,15 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;figcaption>
 Login screen of the GHG hub showing the custom built SSIM-GHG image option.
 &lt;/figcaption>&lt;/figure>
-&lt;/p></description></item><item><title>Low storage alerting for the UToronto cluster</title><link>https://2i2c.org/blog/2024/utoronto-storage-monitoring/</link><pubDate>Fri, 14 Jun 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/utoronto-storage-monitoring/</guid><description>&lt;p>
+&lt;/p>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;p>2i2c would like to credit the following individuals for their great efforts supporting this workshop:&lt;/p>
+&lt;ul>
+&lt;li>Sanjay Bhangar (Development seed)&lt;/li>
+&lt;li>Slesa Adhikari (NASA IMPACT)&lt;/li>
+&lt;/ul></description></item><item><title>Low storage alerting for the UToronto cluster</title><link>https://2i2c.org/blog/2024/utoronto-storage-monitoring/</link><pubDate>Fri, 14 Jun 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/utoronto-storage-monitoring/</guid><description>&lt;p>
 &lt;figure id="figure-the-utoronto-hub-landing-page">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img src="./cover.png" alt="The UToronto hub landing page" loading="lazy" data-zoomable />&lt;/div>
