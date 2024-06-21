@@ -16,6 +16,8 @@ Following the success of our collaboration in previous years, this year’s cour
 
 ## Acknowledgements
 
+Funded by grant [R25MH112480](https://pubmed.ncbi.nlm.nih.gov/38763989/) from the US National Institute of Mental Health awarded to Ariel Rokem and Noah Benson.
+
 The Neurohackademy Summer School is sponsored by
 
 - [University of Washington eScience Institute](http://escience.washington.edu/)
