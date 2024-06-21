@@ -28,7 +28,14 @@ UToronto hub usage
 &lt;/p></description></item><item><title>2i2c partners with UC Berkeley and CloudBank to provide data science education hubs for community colleges in California</title><link>https://2i2c.org/blog/2021/data8-class/</link><pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2021/data8-class/</guid><description>&lt;p>
 &lt;figure id="figure-data8httpsgithubcomdata-8-mit-licensed">
 &lt;div class="d-flex justify-content-center">
-&lt;div class="w-100" >&lt;img src="cover-featured.png" alt="Data8 logo" loading="lazy" data-zoomable />&lt;/div>
+&lt;div class="w-100" >&lt;img alt="Data8 logo" srcset="
+/blog/2021/data8-class/cover-featured_hu1b2e083e162f9420793549aab093ee23_52179_4db30259dba166703e9804753299f66c.webp 400w,
+/blog/2021/data8-class/cover-featured_hu1b2e083e162f9420793549aab093ee23_52179_f466ff7c154d1d91060c36acf8d28929.webp 760w,
+/blog/2021/data8-class/cover-featured_hu1b2e083e162f9420793549aab093ee23_52179_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2021/data8-class/cover-featured_hu1b2e083e162f9420793549aab093ee23_52179_4db30259dba166703e9804753299f66c.webp"
+width="280"
+height="280"
+loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;figcaption>
 &lt;a href="https://github.com/data-8" target="_blank" rel="noopener" >Data8&lt;/a>
 . MIT licensed.
