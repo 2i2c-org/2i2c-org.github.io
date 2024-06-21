@@ -4,13 +4,13 @@ date: "2024-06-20"
 banner:
   image: "cover.png"
 authors: ["Jenny Wong"]
-tags: [community]
-categories: [updates, partnerships]
+tags: [geoscience, education]
+categories: [impact, updates, partnerships]
 featured: false
 draft: false
 ---
 
-![Summer school for inverse modeling of greenhouse gases 2024](cover.png "Summer school for inverse modeling of greenhouse gases 2024")
+![Summer school for inverse modeling of greenhouse gases 2024](featured.png "Summer school for inverse modeling of greenhouse gases 2024")
 
 The Cooperative Institute for Research in the Atmosphere ([CIRA](https://www.cira.colostate.edu/)) is an interdisciplinary cooperation between NOAA research scientists and Colorado State University. CIRA is hosting a [summer school](https://www.cira.colostate.edu/conferences/rmtgw/) for inverse modeling of greenhouse gases using atmospheric data assimilation techniques. The [US Greenhouse Gas Center](https://earth.gov/ghgcenter) is supporting the workshop by providing 40+ attendees access to their interactive computing hub operated by 2i2c (see [our blog post about their launch](/blog/2023/us-ghg-center-launches/index)).
 
