@@ -8,7 +8,7 @@ featured: false
 draft: false
 ---
 
-![Group selfie of Project Pythia Cook-off participants.](./cover-featured.png)
+![Group selfie of Project Pythia Cook-off participants.](./cover-featured.png "Photo courtesy of Dr Debanjana Das")
 
 ## What is Project Pythia?
 
