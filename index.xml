@@ -247,7 +247,33 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;figcaption>
 UToronto hub usage
 &lt;/figcaption>&lt;/figure>
-&lt;/p></description></item><item><title>Jupyter Book 2.0 will use MyST</title><link>https://2i2c.org/blog/2024/myst-jupyter-book/</link><pubDate>Tue, 21 May 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/myst-jupyter-book/</guid><description>&lt;p>See
+&lt;/p></description></item><item><title>Howard Hughes Medical Institute publishes preprint on Spyglass, a framework for reproducible and shareable neuroscience research</title><link>https://2i2c.org/blog/2024/hhmi-spyglass/</link><pubDate>Tue, 21 May 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/hhmi-spyglass/</guid><description>&lt;p>
+&lt;figure id="figure-spyglasshttpsgithubcomlorenfranklabspyglass-landing-page">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Spyglass landing page" srcset="
+/blog/2024/hhmi-spyglass/featured_hu9c3ac8dd66696e2fc7b5ba85686aeacd_508120_884e2b7ca35f46667c67370bbadbfb9e.webp 400w,
+/blog/2024/hhmi-spyglass/featured_hu9c3ac8dd66696e2fc7b5ba85686aeacd_508120_33475d6bd5d4e305a820c451e7cfed51.webp 760w,
+/blog/2024/hhmi-spyglass/featured_hu9c3ac8dd66696e2fc7b5ba85686aeacd_508120_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2024/hhmi-spyglass/featured_hu9c3ac8dd66696e2fc7b5ba85686aeacd_508120_884e2b7ca35f46667c67370bbadbfb9e.webp"
+width="760"
+height="423"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+&lt;a href="https://github.com/LorenFrankLab/spyglass" target="_blank" rel="noopener" >Spyglass&lt;/a>
+landing page
+&lt;/figcaption>&lt;/figure>
+&lt;/p>
+&lt;p>
+&lt;a href="https://github.com/LorenFrankLab/spyglass" target="_blank" rel="noopener" >Spyglass&lt;/a>
+is a framework for reproducible and shareable neuroscience research produced by
+&lt;a href="https://github.com/LorenFrankLab" target="_blank" rel="noopener" >Loren Frank’s lab&lt;/a>
+at the University of California, San Francisco. They recently released a
+&lt;a href="https://www.biorxiv.org/content/10.1101/2024.01.25.577295v3.full.pdf&amp;#43;html" target="_blank" rel="noopener" >preprint&lt;/a>
+about their toolbox, and are using a 2i2c hub to provide accessible interactive cloud environments that demonstrate its functionality and helps researchers get started.&lt;/p>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;p>This work was supported by National Institute of Mental Health (NIMH), grant number RF1MH130623.&lt;/p></description></item><item><title>Jupyter Book 2.0 will use MyST</title><link>https://2i2c.org/blog/2024/myst-jupyter-book/</link><pubDate>Tue, 21 May 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/myst-jupyter-book/</guid><description>&lt;p>See
 &lt;a href="https://executablebooks.org/en/latest/blog/2024-05-20-jupyter-book-myst/" target="_blank" rel="noopener" >the Executable Books blog&lt;/a>
 for a post on the future directions of the Jupyter Book project, which will be built on top of the
 &lt;a href="https://mystmd.org" target="_blank" rel="noopener" >MyST Markdown engine&lt;/a>
