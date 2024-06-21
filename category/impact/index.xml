@@ -1128,4 +1128,30 @@ This approach allows each community to focus on it&amp;rsquo;s core strengths: P
 In some areas we are still experimenting with different collaboration models to ensure that the needs of the Pangeo community are met in a way that is also sustainable for 2i2c.
 Over the coming weeks, you may see some conversations (and threads for feedback!) about different support and operations models that work best for the community.
 We are excited to use this as an opportunity to learn more about how to serve more complex and diverse communities like Pangeo.&lt;/p>
-&lt;p>We are extremely grateful to the Pangeo project for giving us the opportunity to serve their community, and we look forward to a long partnership ahead! &amp;#x1f680;&lt;/p></description></item><item><title>A deep dive into MyST, Part 2: The MyST-Parser, Docutils and Sphinx</title><link>https://2i2c.org/blog/2021/myst-nikola-part-2/</link><pubDate>Sat, 04 Sep 2021 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2021/myst-nikola-part-2/</guid><description/></item><item><title>A deep dive into MyST, Part 1: The MyST-Parser Python API usage in Nikola</title><link>https://2i2c.org/blog/2021/myst-nikola-part-1/</link><pubDate>Mon, 23 Aug 2021 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2021/myst-nikola-part-1/</guid><description/></item></channel></rss>
+&lt;p>We are extremely grateful to the Pangeo project for giving us the opportunity to serve their community, and we look forward to a long partnership ahead! &amp;#x1f680;&lt;/p></description></item><item><title>A deep dive into MyST, Part 2: The MyST-Parser, Docutils and Sphinx</title><link>https://2i2c.org/blog/2021/myst-nikola-part-2/</link><pubDate>Sat, 04 Sep 2021 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2021/myst-nikola-part-2/</guid><description/></item><item><title>A deep dive into MyST, Part 1: The MyST-Parser Python API usage in Nikola</title><link>https://2i2c.org/blog/2021/myst-nikola-part-1/</link><pubDate>Mon, 23 Aug 2021 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2021/myst-nikola-part-1/</guid><description/></item><item><title>Enabling data science education at scale – Data 8 and Inferential Thinking</title><link>https://2i2c.org/blog/2021/data8-class/</link><pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2021/data8-class/</guid><description>&lt;p>
+&lt;figure id="figure-data8httpsgithubcomdata-8-mit-licensed">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Data8 logo" srcset="
+/blog/2021/data8-class/cover-feature_hu1b2e083e162f9420793549aab093ee23_52179_7bfc158061412ac8147331692768fa5b.webp 400w,
+/blog/2021/data8-class/cover-feature_hu1b2e083e162f9420793549aab093ee23_52179_3805e6e351886940cd2cc5a0f6cc364b.webp 760w,
+/blog/2021/data8-class/cover-feature_hu1b2e083e162f9420793549aab093ee23_52179_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2021/data8-class/cover-feature_hu1b2e083e162f9420793549aab093ee23_52179_7bfc158061412ac8147331692768fa5b.webp"
+width="280"
+height="280"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+&lt;a href="https://github.com/data-8" target="_blank" rel="noopener" >Data8&lt;/a>
+. MIT licensed.
+&lt;/figcaption>&lt;/figure>
+&lt;/p>
+&lt;p>
+&lt;a href="https://github.com/data-8" target="_blank" rel="noopener" >Data8&lt;/a>
+began as a large introductory data science class at UC Berkeley. It uses a Jupyter Book for all course materials, and uses JupyterHub magic links to distribute course content from the textbook.&lt;/p>
+&lt;p>2i2c is working with the Data 8 team to deploy JupyterHubs for community colleges in California that run the Data8 course, to make the infrastructure and content broadly accessible.&lt;/p>
+&lt;p>Giving people curricula, content, and infrastructure goes a long way to adoption. Communities want to remix content for their specific needs.&lt;/p>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;p>This effort is funded by 2i2c together with
+&lt;a href="https://www.cloudbank.org/about" target="_blank" rel="noopener" >CloudBank&lt;/a>
+.&lt;/p></description></item></channel></rss>
