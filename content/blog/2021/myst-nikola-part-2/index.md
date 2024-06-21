@@ -3,8 +3,8 @@ title: "A deep dive into MyST, Part 2: The MyST-Parser, Docutils and Sphinx"
 subtitle: ""
 summary: ""
 authors: ["Damián Avila"]
-tags: [jupyter, executablebooks]
-categories: [upstream]
+tags: ["open source", "jupyter", "myst"]
+categories: [impact]
 date: 2021-09-04
 featured: false
 draft: false

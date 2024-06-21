@@ -3,8 +3,8 @@ title: "Reflections on the Jack Eddy Symposium"
 subtitle: ""
 summary: ""
 authors: ["James Colliander"]
-tags: []
-categories: [community]
+tags: ["geoscience"]
+categories: [impact]
 date: 2022-07-14
 featured: false
 draft: false
@@ -13,7 +13,7 @@ draft: false
 
 # Reflections on the Jack Eddy Symposium
 
-![Eddy Symposium Hero Image](images/EddySymposium_900x400.jpg)
+![Eddy Symposium Hero Image](cover-featured.jpg)
 
 2i2c supported and participated in the [3rd Eddy Cross Disciplinary Symposium](https://cpaess.ucar.edu/meetings/eddy-symposium-2022) held recently in Vail Colorado. The event was hosted by the Cooperative Programs for the Advancement of Earth System Science ([CPAESS](https://cpaess.ucar.edu/)) team at the University Corporation for Atmospheric Research ([UCAR](https://www.ucar.edu/)) with support from NASA.
 

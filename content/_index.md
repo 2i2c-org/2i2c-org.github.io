@@ -110,6 +110,51 @@ sections:
         </ul>
 
 
+  - block: portfolio
+    id: posts
+    content:
+      title: Community impact stories
+      subtitle: ''
+      text: ''
+      # Choose how many pages you would like to display (0 = all pages)
+      count: 5
+      # Filter on criteria
+      filters:
+        # The folders to display content from
+        folders:
+          - blog
+        # These are the tags that will show up in the list
+        tags: ["open source", "geoscience", "bioscience", "education"]
+        author: ""
+        publication_type: ""
+        featured_only: false
+        exclude_featured: false
+        exclude_future: false
+        exclude_past: false
+      # Choose how many pages you would like to offset by
+      # Useful if you wish to show the first item in the Featured widget
+      offset: 0
+      # Field to sort by, such as Date or Title
+      sort_by: 'Date'
+      sort_ascending: false
+      buttons:
+        - name: All
+          tag: '*'
+        - name: Open Source
+          tag: open source
+        - name: Geoscience
+          tag: geoscience
+        - name: Bioscience
+          tag: bioscience
+        - name: Education
+          tag: education
+    design:
+      # Choose a listing view
+      view: masonry
+      # Choose single or dual column layout
+      columns: '1'
+      css_class: "home-stories"
+
   - block: markdown
     id: numbers
     content:

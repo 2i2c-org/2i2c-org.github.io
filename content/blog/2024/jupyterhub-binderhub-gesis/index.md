@@ -3,8 +3,8 @@ title: "Integrating BinderHub with JupyterHub: Empowering users to manage their 
 subtitle: ""
 summary: ""
 authors: ["Yuvi Panda"]
-tags: []
-categories: [engineering, partnerships, updates]
+tags: [jupyterhub, open source]
+categories: [impact]
 date: 2024-01-03T16:56:14-08:00
 lastmod: 2024-01-12T12:11:55-08:00
 featured: false
@@ -68,7 +68,7 @@ The profileList feature was built to allow JupyterHub *admins* to specify an exp
 
 [NASA VEDA](https://www.earthdata.nasa.gov/esds/veda) was one such community, so we partnered with [Sanjay Bhangar](https://github.com/batpad/) from [Development Seed](https://developmentseed.org/) (an organization that helps run NASA VEDA) to implement this feature. Engineers from 2i2c contributed heavily to this feature as well, and after *several* PRs ([1](https://github.com/jupyterhub/kubespawner/pull/735), [2](https://github.com/jupyterhub/kubespawner/pull/766), [3](https://github.com/jupyterhub/kubespawner/pull/773), [4](https://github.com/jupyterhub/kubespawner/pull/774) and [5](https://github.com/jupyterhub/kubespawner/pull/777)), this feature is now available for everyone to use!
 
-![Screenshot of Kubernetes Profiles with Unlisted Choice](./screenshot.png)
+![Screenshot of Kubernetes Profiles with Unlisted Choice](./screenshot-featured.png)
 
 A key component of doing *sustainable* upstream work is that every addition needs to be useful by itself for a broad group of people. This change was very helpful for many communities that wanted to allow their users the freedom to pick whatever image they want to use, regardless of wether they wanted to use dynamic image building or not. The broad interest allowed us to build a coalition with other interested parties, and get the change accepted upstream more easily!
 

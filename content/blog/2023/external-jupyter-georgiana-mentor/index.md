@@ -3,8 +3,8 @@ title: "On the Jupyter Blog: From intern to mentor."
 subtitle: ""
 summary: ""
 authors: ["Georgiana Dolocan"]
-tags: []
-categories: ["upstream"]
+tags: ["open source"]
+categories: ["impact"]
 date: 2023-06-30
 featured: false
 draft: false
