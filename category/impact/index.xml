@@ -45,6 +45,55 @@ Acknowledgements
 &lt;li>
 &lt;a href="https://www.nsf.gov/" target="_blank" rel="noopener" >National Science Foundation&lt;/a>
 &lt;/li>
+&lt;/ul></description></item><item><title>US Greenhouse Gas Center supports summer school at CIRA</title><link>https://2i2c.org/blog/2024/ghg-summer-school/</link><pubDate>Thu, 20 Jun 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/ghg-summer-school/</guid><description>&lt;p>
+&lt;figure id="figure-summer-school-for-inverse-modeling-of-greenhouse-gases-2024">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Summer school for inverse modeling of greenhouse gases 2024" srcset="
+/blog/2024/ghg-summer-school/featured_hucc6d206bd9c4b574a76ee294818a2270_1273006_88232d99a917afbd821b1b1d76236066.webp 400w,
+/blog/2024/ghg-summer-school/featured_hucc6d206bd9c4b574a76ee294818a2270_1273006_7e9f0b319404f4278f46165e9bd365af.webp 760w,
+/blog/2024/ghg-summer-school/featured_hucc6d206bd9c4b574a76ee294818a2270_1273006_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2024/ghg-summer-school/featured_hucc6d206bd9c4b574a76ee294818a2270_1273006_88232d99a917afbd821b1b1d76236066.webp"
+width="760"
+height="484"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+Summer school for inverse modeling of greenhouse gases 2024
+&lt;/figcaption>&lt;/figure>
+&lt;/p>
+&lt;p>The Cooperative Institute for Research in the Atmosphere (
+&lt;a href="https://www.cira.colostate.edu/" target="_blank" rel="noopener" >CIRA&lt;/a>
+) is an interdisciplinary cooperation between NOAA research scientists and Colorado State University. CIRA is hosting a
+&lt;a href="https://www.cira.colostate.edu/conferences/rmtgw/" target="_blank" rel="noopener" >summer school&lt;/a>
+for inverse modeling of greenhouse gases using atmospheric data assimilation techniques. The
+&lt;a href="https://earth.gov/ghgcenter" target="_blank" rel="noopener" >US Greenhouse Gas Center&lt;/a>
+is supporting the workshop by providing 40+ attendees access to their interactive computing hub operated by 2i2c (see
+&lt;a href="https://2i2c.org/blog/2023/us-ghg-center-launches/" >our blog post about their launch&lt;/a>
+).&lt;/p>
+&lt;p>Hub administrators have
+&lt;a href="https://github.com/NASA-IMPACT/ssim-ghg-workshop-2024-python-image" target="_blank" rel="noopener" >built a customized software environment&lt;/a>
+with container technology for use at the workshop. In doing so, this bypasses the need for participants to individually install software on their own machines and the online hub provides a &lt;em>consistent&lt;/em> and &lt;em>reproducible&lt;/em> interactive computing environment that is easily &lt;em>accessible&lt;/em> and &lt;em>scalable&lt;/em>.&lt;/p>
+&lt;p>
+&lt;figure id="figure-login-screen-of-the-ghg-hub-showing-the-custom-built-ssim-ghg-image-option">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Login screen of the GHG hub showing the custom built SSIM-GHG image option." srcset="
+/blog/2024/ghg-summer-school/ghg-hub_hu49ab8e9d23f0127273503033b8b48398_331096_ad9e3e76b81da251fc5541ef6f155271.webp 400w,
+/blog/2024/ghg-summer-school/ghg-hub_hu49ab8e9d23f0127273503033b8b48398_331096_44627a312f86c0adc583a43e55994817.webp 760w,
+/blog/2024/ghg-summer-school/ghg-hub_hu49ab8e9d23f0127273503033b8b48398_331096_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2024/ghg-summer-school/ghg-hub_hu49ab8e9d23f0127273503033b8b48398_331096_ad9e3e76b81da251fc5541ef6f155271.webp"
+width="760"
+height="469"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+Login screen of the GHG hub showing the custom built SSIM-GHG image option.
+&lt;/figcaption>&lt;/figure>
+&lt;/p>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;p>2i2c would like to credit the following individuals for their great efforts supporting this workshop:&lt;/p>
+&lt;ul>
+&lt;li>Sanjay Bhangar (Development seed)&lt;/li>
+&lt;li>Slesa Adhikari (NASA IMPACT)&lt;/li>
 &lt;/ul></description></item><item><title>Hacking the Project Pythia Cook-off with MyST Markdown</title><link>https://2i2c.org/blog/2024/project-pythia-cookoff/</link><pubDate>Tue, 18 Jun 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/project-pythia-cookoff/</guid><description>&lt;p>
 &lt;figure id="figure-photo-courtesy-of-dr-debanjana-das">
 &lt;div class="d-flex justify-content-center">
