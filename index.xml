@@ -48,10 +48,12 @@ Acknowledgements
 &lt;li>Sanjay Bhangar (Development seed)&lt;/li>
 &lt;li>Slesa Adhikari (NASA IMPACT)&lt;/li>
 &lt;/ul></description></item><item><title>Hacking the Project Pythia Cook-off with MyST Markdown</title><link>https://2i2c.org/blog/2024/project-pythia-cookoff/</link><pubDate>Tue, 18 Jun 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/project-pythia-cookoff/</guid><description>&lt;p>
-&lt;figure >
+&lt;figure id="figure-photo-courtesy-of-dr-debanjana-das">
 &lt;div class="d-flex justify-content-center">
-&lt;div class="w-100" >&lt;img src="./cover.png" alt="Group selfie of Project Pythia Cook-off participants." loading="lazy" data-zoomable />&lt;/div>
-&lt;/div>&lt;/figure>
+&lt;div class="w-100" >&lt;img src="./cover-featured.png" alt="Group selfie of Project Pythia Cook-off participants." loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+Photo courtesy of Dr Debanjana Das
+&lt;/figcaption>&lt;/figure>
 &lt;/p>
 &lt;h2 id="what-is-project-pythia">
 What is Project Pythia?
@@ -221,7 +223,7 @@ Learn more
 .&lt;/p></description></item><item><title>Low storage alerting for the UToronto cluster</title><link>https://2i2c.org/blog/2024/utoronto-storage-monitoring/</link><pubDate>Fri, 14 Jun 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/utoronto-storage-monitoring/</guid><description>&lt;p>
 &lt;figure id="figure-the-utoronto-hub-landing-page">
 &lt;div class="d-flex justify-content-center">
-&lt;div class="w-100" >&lt;img src="./cover.png" alt="The UToronto hub landing page" loading="lazy" data-zoomable />&lt;/div>
+&lt;div class="w-100" >&lt;img src="./cover-featured.png" alt="The UToronto hub landing page" loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;figcaption>
 The UToronto hub landing page
 &lt;/figcaption>&lt;/figure>
@@ -253,10 +255,10 @@ for a post on the future directions of the Jupyter Book project, which will be b
 &lt;figure id="figure-figure-from-the-preprinthttpsdoiorg1031223x5wq47-showing-large-and-small-scale-air-sea-fluxes-are-separated-by-julius-busecke-et-al-licensed-under-cc-by-40httpcreativecommonsorglicensesby40">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Figure from the preprint showing large and small scale air-sea fluxes are separated" srcset="
-/blog/2024/leap-pangeo-paper/cover_hua0243e6bd1fe2054cd61479880c769bd_451540_b3e442655af77f60d1a7c9e0c995ff0a.webp 400w,
-/blog/2024/leap-pangeo-paper/cover_hua0243e6bd1fe2054cd61479880c769bd_451540_e5bd5c35ce68896b7320981f7e75ad6b.webp 760w,
-/blog/2024/leap-pangeo-paper/cover_hua0243e6bd1fe2054cd61479880c769bd_451540_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2024/leap-pangeo-paper/cover_hua0243e6bd1fe2054cd61479880c769bd_451540_b3e442655af77f60d1a7c9e0c995ff0a.webp"
+/blog/2024/leap-pangeo-paper/cover-featured_hua0243e6bd1fe2054cd61479880c769bd_451540_4174657df9177b08dac7487bf2fd4cd3.webp 400w,
+/blog/2024/leap-pangeo-paper/cover-featured_hua0243e6bd1fe2054cd61479880c769bd_451540_91c464b8946d8a1dabf12781d4cdf872.webp 760w,
+/blog/2024/leap-pangeo-paper/cover-featured_hua0243e6bd1fe2054cd61479880c769bd_451540_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2024/leap-pangeo-paper/cover-featured_hua0243e6bd1fe2054cd61479880c769bd_451540_4174657df9177b08dac7487bf2fd4cd3.webp"
 width="760"
 height="328"
 loading="lazy" data-zoomable />&lt;/div>
@@ -636,7 +638,7 @@ and
 &lt;p>
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
-&lt;div class="w-100" >&lt;img src="./screenshot.png" alt="Screenshot of Kubernetes Profiles with Unlisted Choice" loading="lazy" data-zoomable />&lt;/div>
+&lt;div class="w-100" >&lt;img src="./screenshot-featured.png" alt="Screenshot of Kubernetes Profiles with Unlisted Choice" loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;/figure>
 &lt;/p>
 &lt;p>A key component of doing &lt;em>sustainable&lt;/em> upstream work is that every addition needs to be useful by itself for a broad group of people. This change was very helpful for many communities that wanted to allow their users the freedom to pick whatever image they want to use, regardless of wether they wanted to use dynamic image building or not. The broad interest allowed us to build a coalition with other interested parties, and get the change accepted upstream more easily!&lt;/p>
@@ -814,7 +816,7 @@ of the Intergovernmental Panel on Climate Change (IPCC):&lt;/p>
 &lt;p>
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
-&lt;div class="w-100" >&lt;img src="./image-10-x33-y350.png" alt="image-10-x33-y350.png" loading="lazy" data-zoomable />&lt;/div>
+&lt;div class="w-100" >&lt;img src="./featured-image.png" alt="image-10-x33-y350.png" loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;/figure>
 &lt;/p>
 &lt;h2 id="international-context">
@@ -3056,10 +3058,10 @@ Reflections on the Jack Eddy Symposium
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Eddy Symposium Hero Image" srcset="
-/blog/2022/eddy-symposium-report/images/EddySymposium_900x400_hu65774d245d7022e22422f407a342fc61_85909_bfb83f376cfe54c69c38882679e90ec2.webp 400w,
-/blog/2022/eddy-symposium-report/images/EddySymposium_900x400_hu65774d245d7022e22422f407a342fc61_85909_7928579f39a04844dac7959f45afda8f.webp 760w,
-/blog/2022/eddy-symposium-report/images/EddySymposium_900x400_hu65774d245d7022e22422f407a342fc61_85909_1200x1200_fit_q75_h2_lanczos.webp 1200w"
-src="https://2i2c.org/blog/2022/eddy-symposium-report/images/EddySymposium_900x400_hu65774d245d7022e22422f407a342fc61_85909_bfb83f376cfe54c69c38882679e90ec2.webp"
+/blog/2022/eddy-symposium-report/cover-featured_hu65774d245d7022e22422f407a342fc61_85909_9ccc1a7885d2ffa87872e038c5a20b37.webp 400w,
+/blog/2022/eddy-symposium-report/cover-featured_hu65774d245d7022e22422f407a342fc61_85909_611be7acd5ceece2ca1898c4ce5b28ee.webp 760w,
+/blog/2022/eddy-symposium-report/cover-featured_hu65774d245d7022e22422f407a342fc61_85909_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+src="https://2i2c.org/blog/2022/eddy-symposium-report/cover-featured_hu65774d245d7022e22422f407a342fc61_85909_9ccc1a7885d2ffa87872e038c5a20b37.webp"
 width="760"
 height="338"
 loading="lazy" data-zoomable />&lt;/div>

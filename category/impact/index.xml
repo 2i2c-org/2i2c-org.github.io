@@ -1,0 +1,1131 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Impact | 2i2c</title><link>https://2i2c.org/category/impact/</link><atom:link href="https://2i2c.org/category/impact/index.xml" rel="self" type="application/rss+xml"/><description>Impact</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 18 Jun 2024 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Impact</title><link>https://2i2c.org/category/impact/</link></image><item><title>Hacking the Project Pythia Cook-off with MyST Markdown</title><link>https://2i2c.org/blog/2024/project-pythia-cookoff/</link><pubDate>Tue, 18 Jun 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/project-pythia-cookoff/</guid><description>&lt;p>
+&lt;figure id="figure-photo-courtesy-of-dr-debanjana-das">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./cover-featured.png" alt="Group selfie of Project Pythia Cook-off participants." loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+Photo courtesy of Dr Debanjana Das
+&lt;/figcaption>&lt;/figure>
+&lt;/p>
+&lt;h2 id="what-is-project-pythia">
+What is Project Pythia?
+&lt;a class="header-anchor" href="#what-is-project-pythia">#&lt;/a>
+&lt;/h2>&lt;p>
+&lt;a href="https://projectpythia.org/" target="_blank" rel="noopener" >Project Pythia&lt;/a>
+is the education working group for
+&lt;a href="https://pangeo.io/index.html" target="_blank" rel="noopener" >Pangeo&lt;/a>
+, a community platform for Big Data geoscience in which 2i2c operates a cloud hub. The core aim of Project Pythia is to spearhead the creation and curation of community-driven, open-source documentation, in the form of &amp;ldquo;cookbooks&amp;rdquo;, to enable the adoption of &lt;em>open&lt;/em>, &lt;em>scalable&lt;/em> and &lt;em>reproducible&lt;/em> workflows for geoscientists.&lt;/p>
+&lt;h2 id="what-did-2i2c-do">
+What did 2i2c do?
+&lt;a class="header-anchor" href="#what-did-2i2c-do">#&lt;/a>
+&lt;/h2>&lt;p>Jenny, James and Angus from the 2i2c team participated in the annual
+&lt;a href="https://projectpythia.org/pythia-cookoff-2024/" target="_blank" rel="noopener" >Project Pythia Cook-off 2024&lt;/a>
+, a hackathon where cookbook authors and collaborators can spend dedicated time on creating and maintaining their content using
+&lt;a href="https://jupyterbook.org/en/stable/intro.html" target="_blank" rel="noopener" >Jupyter Book&lt;/a>
+and publishing their cookbooks with GitHub actions.&lt;/p>
+&lt;p>2i2c teamed up with the infrastructure breakout group during the hackathon, led by Katelyn FitzGerald (UCAR) and Kevin Tyle (University at Albany), and members of the
+&lt;a href="https://curvenote.com/" target="_blank" rel="noopener" >Curvenote&lt;/a>
+team also joined the group.&lt;/p>
+&lt;h2 id="day-1">
+Day 1
+&lt;a class="header-anchor" href="#day-1">#&lt;/a>
+&lt;/h2>&lt;p>2i2c deployed and demonstrated a dedicated BinderHub service for Project Pythia that allowed hackathon participants to &amp;ldquo;self-serve&amp;rdquo; images of their software environment, which were specified by including a list of packages in an &lt;code>environment.yml&lt;/code> file placed in their GitHub cookbook repository. Participants could then pull the image from a container registry into their 2i2c hub (or indeed, any other JupyterHub server) to share and reproduce their computational environments with ease.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Screenshot of Project Pythia BinderHub service" srcset="
+/blog/2024/project-pythia-cookoff/binder_hu0f1435943be205bfe089bc611745838d_730215_52ded526fc23a12194465dad7e2d8892.webp 400w,
+/blog/2024/project-pythia-cookoff/binder_hu0f1435943be205bfe089bc611745838d_730215_f7d8b74175bf50d99da39ad808ada1ac.webp 760w,
+/blog/2024/project-pythia-cookoff/binder_hu0f1435943be205bfe089bc611745838d_730215_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2024/project-pythia-cookoff/binder_hu0f1435943be205bfe089bc611745838d_730215_52ded526fc23a12194465dad7e2d8892.webp"
+width="760"
+height="498"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;h2 id="day-2">
+Day 2
+&lt;a class="header-anchor" href="#day-2">#&lt;/a>
+&lt;/h2>&lt;p>During the first half of the day, we quickly identified a number of issues that were proving to be a maintenance headache for the Project Pythia infrastructure group:&lt;/p>
+&lt;ul>
+&lt;li>&lt;input disabled="" type="checkbox"> Configuration files for each cookbook were difficult to update at scale. Project Pythia currently have a gallery of over 30 cookbooks!&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Changes to Sphinx-based themes inherited from upstream were prone to breaking custom Project Pythia branding downstream.&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Executable content was not able to run on the Project Pythia&amp;rsquo;s dedicated BinderHub hosted on
+&lt;a href="https://jetstream-cloud.org/index.html" target="_blank" rel="noopener" >JetStream2&lt;/a>
+(operated by NSF).&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Cookbooks frequently cross-referenced materials from other cookbooks to build upon pre-existing knowledge, but this was not easy to author and the reader experience was not as smooth as it could be.&lt;/li>
+&lt;/ul>
+&lt;p>Following the announcement that
+&lt;a href="" >Jupyter Book 2.0 will use MyST&lt;/a>
+last month, Rowan (Curvenote) and Angus (2i2c) delivered a compelling demonstration of the
+&lt;a href="https://mystmd.org/" target="_blank" rel="noopener" >MyST&lt;/a>
+ecosystem centered around modern web-first technologies (JavaScript/TypeScript) that offers improved interactivity and accessibility.&lt;/p>
+&lt;p>In the second half of the day, we decided to use the hackathon to explore migrating the Pythia cookbooks from using a Sphinx-based to a MyST-based document structure and engine. Within one afternoon, the group migrated four cookbooks to use MyST MD&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;a href="https://projectpythia-mystmd.github.io/pythia-foundations/" target="_blank" rel="noopener" >Pythia Foundations&lt;/a>
+&lt;/li>
+&lt;li>
+&lt;a href="https://projectpythia-mystmd.github.io/HRRR-AWS-cookbook/" target="_blank" rel="noopener" >High Resolution Rapid Refresh on AWS&lt;/a>
+&lt;/li>
+&lt;li>
+&lt;a href="https://projectpythia-mystmd.github.io/radar-cookbook/" target="_blank" rel="noopener" >Radar Cookbook&lt;/a>
+&lt;/li>
+&lt;li>
+&lt;a href="https://projectpythia-mystmd.github.io/advanced-viz-cookbook/" target="_blank" rel="noopener" >Advanced Visualization&lt;/a>
+.&lt;/li>
+&lt;/ol>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Screenshot of a side by side comparison of the Sphinx (left) and MyST (right) based cookbook." srcset="
+/blog/2024/project-pythia-cookoff/side-by-side_hu5546c2f3ef976b2376f1ff0dd4286970_2114038_4ff29c0c89df290ccb64b4b6e0f07f5d.webp 400w,
+/blog/2024/project-pythia-cookoff/side-by-side_hu5546c2f3ef976b2376f1ff0dd4286970_2114038_70463a97ed842099d3fae5acba3aede2.webp 760w,
+/blog/2024/project-pythia-cookoff/side-by-side_hu5546c2f3ef976b2376f1ff0dd4286970_2114038_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2024/project-pythia-cookoff/side-by-side_hu5546c2f3ef976b2376f1ff0dd4286970_2114038_4ff29c0c89df290ccb64b4b6e0f07f5d.webp"
+width="760"
+height="438"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>This moment was palpably exciting! It was evident that MyST MD supported backwards compatible content out of the box, which alleviated fears of sunk cost into existing Sphinx-based cookbooks. The migration workflow was as simple as executing the following commands&lt;/p>
+&lt;p>&lt;code>conda install mystmd&lt;/code>&lt;/p>
+&lt;p>&lt;code>myst&lt;/code>.&lt;/p>
+&lt;h2 id="day-3">
+Day 3
+&lt;a class="header-anchor" href="#day-3">#&lt;/a>
+&lt;/h2>&lt;p>We spent this day tackling support for managing a gallery of Project Pythia cookbooks at scale. See the
+&lt;a href="https://executablebooks.org/en/latest/blog/2024-06-14-project-pythia-mystmd/" target="_blank" rel="noopener" >Executable Books blog post&lt;/a>
+for technical details on how we&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="https://github.com/projectpythia-mystmd/pythia-config" target="_blank" rel="noopener" >Centralized configuration&lt;/a>
+&lt;/li>
+&lt;li>Prototyped a
+&lt;a href="https://projectpythia-mystmd.github.io/" target="_blank" rel="noopener" >gallery&lt;/a>
+plugin in Python&lt;/li>
+&lt;li>Fixed a number of bugs related to integrated computation with
+&lt;a href="https://mystmd.org/guide/integrating-jupyter#connecting-to-a-binder" target="_blank" rel="noopener" >Binder&lt;/a>
+and
+&lt;a href="https://mystmd.org/guide/integrating-jupyter#jupyterlite" target="_blank" rel="noopener" >JupyterLite&lt;/a>
+&lt;/li>
+&lt;li>Embraced the referencing and reuse of content with
+&lt;a href="https://mystmd.org/guide/external-references#tbl-syntax-xref" target="_blank" rel="noopener" >simple markdown syntax for hover-references&lt;/a>
+.&lt;/li>
+&lt;/ul>
+&lt;video autoplay loop >
+&lt;source src="https://2i2c.org/blog/2024/project-pythia-cookoff/hover-ref.mp4" type="video/mp4">
+&lt;/video>
+&lt;h2 id="day-4">
+Day 4
+&lt;a class="header-anchor" href="#day-4">#&lt;/a>
+&lt;/h2>&lt;p>Looking to the future, we spent time reflecting on our experiences and discussing the potential, transformative impact MyST MD tooling could have in the hands of the scientific community at large, including the communities served by 2i2c. Knowledge-sharing based on static figures and PDFs would fall obsolete and give way to a dynamic, web-first approach to interactive communication and publishing backed by compute from a Jupyter server.&lt;/p>
+&lt;p>Throughout the course of the hackathon, the rate of iterated development for both end users of the community cookbook and the developers of the open-source tooling was astounding. For example, we were able to quickly expose small bugs (
+&lt;a href="https://github.com/executablebooks/mystmd/issues/1297" target="_blank" rel="noopener" >e.g. support for HTML video tags&lt;/a>
+) in the MyST MD tooling, which were immediately fixed upstream and released within minutes. The feedback loop that connected the user experience with the software tooling was incredibly synergistic, with immediate impact both upstream and downstream that 2i2c hopes to continue replicating across many facets of their operations.&lt;/p>
+&lt;p>Beyond the Project Pythia Cook-off, the breakout group will continue conversations around strengthening their community of practice and hopefully advocating for wider adoption of MyST MD amongst the scientific community (say hello to some of our group members at
+&lt;a href="https://www.scipy2024.scipy.org/" target="_blank" rel="noopener" >SciPy 2024&lt;/a>
+in July!).&lt;/p>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>University at Albany (NSF award 2324302): Led the funding acquisition, helped organize and facilitate the event&lt;/li>
+&lt;li>UCAR (NSF award 2324303): Led the planning and logistics for the event&lt;/li>
+&lt;li>2i2c / Code for Science and Society (NSF award 2324304): Provided tailored compute services and on-site support&lt;/li>
+&lt;li>Curvenote: Contributed engineering cycles to MyST MD development.&lt;/li>
+&lt;/ul></description></item><item><title>Low storage alerting for the UToronto cluster</title><link>https://2i2c.org/blog/2024/utoronto-storage-monitoring/</link><pubDate>Fri, 14 Jun 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/utoronto-storage-monitoring/</guid><description>&lt;p>
+&lt;figure id="figure-the-utoronto-hub-landing-page">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./cover-featured.png" alt="The UToronto hub landing page" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+The UToronto hub landing page
+&lt;/figcaption>&lt;/figure>
+&lt;/p>
+&lt;p>2i2c has operated The University of Toronto hub since 2021 and this hub supports over 6000 educators and learners in a day! With a community of this size, file storage can quickly grow out of control and cause issues.&lt;/p>
+&lt;p>The 2i2c engineering team have implemented a
+&lt;a href="https://github.com/2i2c-org/infrastructure/issues/3320" target="_blank" rel="noopener" >low storage alerting system&lt;/a>
+for Microsoft Azure, so that they can pre-emptively take remedial action before the filesystem is about to run out of diskspace.&lt;/p>
+&lt;p>Great job team 🚀&lt;/p>
+&lt;p>
+&lt;figure id="figure-utoronto-hub-usage">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="UToronto hub usage" srcset="
+/blog/2024/utoronto-storage-monitoring/usage_hub24b49e3dbbe87302b910464ba062032_42243_5e8673339a5b869bf960a52cc5ba289c.webp 400w,
+/blog/2024/utoronto-storage-monitoring/usage_hub24b49e3dbbe87302b910464ba062032_42243_972cdbbef94b1186805f39afef856de1.webp 760w,
+/blog/2024/utoronto-storage-monitoring/usage_hub24b49e3dbbe87302b910464ba062032_42243_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2024/utoronto-storage-monitoring/usage_hub24b49e3dbbe87302b910464ba062032_42243_5e8673339a5b869bf960a52cc5ba289c.webp"
+width="756"
+height="500"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+UToronto hub usage
+&lt;/figcaption>&lt;/figure>
+&lt;/p></description></item><item><title>Jupyter Book 2.0 will use MyST</title><link>https://2i2c.org/blog/2024/myst-jupyter-book/</link><pubDate>Tue, 21 May 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/myst-jupyter-book/</guid><description>&lt;p>See
+&lt;a href="https://executablebooks.org/en/latest/blog/2024-05-20-jupyter-book-myst/" target="_blank" rel="noopener" >the Executable Books blog&lt;/a>
+for a post on the future directions of the Jupyter Book project, which will be built on top of the
+&lt;a href="https://mystmd.org" target="_blank" rel="noopener" >MyST Markdown engine&lt;/a>
+.&lt;/p></description></item><item><title>Researchers at LEAP-Pangeo investigate overlooked sub-grid air-sea heat flux in climate models</title><link>https://2i2c.org/blog/2024/leap-pangeo-paper/</link><pubDate>Tue, 21 May 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/leap-pangeo-paper/</guid><description>&lt;p>
+&lt;figure id="figure-figure-from-the-preprinthttpsdoiorg1031223x5wq47-showing-large-and-small-scale-air-sea-fluxes-are-separated-by-julius-busecke-et-al-licensed-under-cc-by-40httpcreativecommonsorglicensesby40">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Figure from the preprint showing large and small scale air-sea fluxes are separated" srcset="
+/blog/2024/leap-pangeo-paper/cover-featured_hua0243e6bd1fe2054cd61479880c769bd_451540_4174657df9177b08dac7487bf2fd4cd3.webp 400w,
+/blog/2024/leap-pangeo-paper/cover-featured_hua0243e6bd1fe2054cd61479880c769bd_451540_91c464b8946d8a1dabf12781d4cdf872.webp 760w,
+/blog/2024/leap-pangeo-paper/cover-featured_hua0243e6bd1fe2054cd61479880c769bd_451540_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2024/leap-pangeo-paper/cover-featured_hua0243e6bd1fe2054cd61479880c769bd_451540_4174657df9177b08dac7487bf2fd4cd3.webp"
+width="760"
+height="328"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+Figure from the
+&lt;a href="https://doi.org/10.31223/X5WQ47" target="_blank" rel="noopener" >preprint&lt;/a>
+showing large and small scale air-sea fluxes are separated. By Julius Busecke &lt;em>et al.&lt;/em>, licensed under
+&lt;a href="http://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener" >CC BY 4.0&lt;/a>
+&lt;/figcaption>&lt;/figure>
+&lt;/p>
+&lt;p>Julius Busecke &lt;em>et al.&lt;/em> of the
+&lt;a href="https://leap-stc.github.io/intro.html" target="_blank" rel="noopener" >LEAP-Pangeo&lt;/a>
+&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup> hub, have recently published a preprint&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup> that investigates &amp;ldquo;The Overlooked Sub-Grid Air-Sea Flux in Climate Models&amp;rdquo; using 2i2c infrastructure. Well done all! 🎉&lt;/p>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>NSF Science and Technology Center (STC) Learning the Earth with Artificial intelligence and Physics (LEAP) (Award # 2019625)&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2">
+&lt;p>
+&lt;a href="https://doi.org/10.31223/X5WQ47" target="_blank" rel="noopener" >https://doi.org/10.31223/X5WQ47&lt;/a>
+&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></description></item><item><title>Security report for jupyter-server-proxy: CVE-2024-28179</title><link>https://2i2c.org/blog/2024/cve-jupyter-server-proxy/</link><pubDate>Tue, 19 Mar 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/cve-jupyter-server-proxy/</guid><description>
+&lt;h2 id="what-happened">
+What happened?
+&lt;a class="header-anchor" href="#what-happened">#&lt;/a>
+&lt;/h2>&lt;p>A few weeks ago, the JupyterHub team discovered a security vulnerability in
+&lt;a href="https://jupyter-server-proxy.readthedocs.io/en/latest/" target="_blank" rel="noopener" >the &lt;code>jupyter-server-proxy&lt;/code> package&lt;/a>
+that would allow potential unauthenticated access to a JupyterHub via WebSockets, allowing unauthenticated users to run arbitrary code on the JupyterHub.
+&lt;code>jupyter-server-proxy&lt;/code> is used by many communities to provide alternative user interfaces like RStudio and remote desktops.&lt;/p>
+&lt;p>This vulnerability was detected by the JupyterHub team, with leadership from 2i2c&amp;rsquo;s engineers. It was resolved through upstream contributions to the JupyterHub project, and we have deployed a fix that mitigates this vulnerability for all the hubs 2i2c manages.&lt;/p>
+&lt;h2 id="does-this-impact-my-2i2c-community-hub">
+Does this impact my 2i2c community hub?
+&lt;a class="header-anchor" href="#does-this-impact-my-2i2c-community-hub">#&lt;/a>
+&lt;/h2>&lt;p>We do not believe that any of 2i2c&amp;rsquo;s communities were impacted by this vulnerability, and
+&lt;a href="https://github.com/2i2c-org/infrastructure/blob/f86d128a0d045163e72802f6df287a6f46d4b738/helm-charts/basehub/values.yaml#L296" target="_blank" rel="noopener" >a patch&lt;/a>
+has now been pushed to all community hubs to resolve this issue.&lt;/p>
+&lt;p>If your community was vulnerable to this problem, you might experience slightly slower startup latency while we work out a long-term solution.&lt;/p>
+&lt;p>Since this is a vulnerability in the docker image used by our communities, we will be reaching out over the next few weeks to put a more permanent fix in place.&lt;/p>
+&lt;h2 id="where-can-i-learn-more">
+Where can I learn more?
+&lt;a class="header-anchor" href="#where-can-i-learn-more">#&lt;/a>
+&lt;/h2>&lt;p>See
+&lt;a href="https://github.com/jupyterhub/jupyter-server-proxy/security/advisories/GHSA-w3vc-fx9p-wp4v" target="_blank" rel="noopener" >the JupyterHub security advisory for CVE-2024-28179&lt;/a>
+for more information about the security vulnerability, including details on the mitigation we have put in place to protect our communities.&lt;/p>
+&lt;h2 id="conclusion">
+Conclusion
+&lt;a class="header-anchor" href="#conclusion">#&lt;/a>
+&lt;/h2>&lt;p>We&amp;rsquo;re grateful that the JupyterHub community was quick to acknowledge, respond, and resolve this security vulnerability after it was brought to their attention.
+We&amp;rsquo;re also proud that 2i2c&amp;rsquo;s engineers helped the JupyterHub team throughout the process.&lt;/p>
+&lt;p>This allowed our team to resolve the problem before it impacted any of 2i2c&amp;rsquo;s communities.
+Because 2i2c community infrastructure is managed in a central location, we were able to resolve this for over 80 communities with a single team rather than expecting each community to learn about and fix this problem on their own.&lt;/p>
+&lt;p>We also believe this reflects the healthy upstream relationships that we hope to encourage with our team&amp;rsquo;s
+&lt;a href="https://compass.2i2c.org/open-source/" target="_blank" rel="noopener" >Open Source strategy and practices&lt;/a>
+.
+By working with the JupyterHub community and pushing changes upstream, we&amp;rsquo;ve resolved this issue for &lt;em>any&lt;/em> user of &lt;code>jupyter-server-proxy&lt;/code>, not just 2i2c&amp;rsquo;s own ecosystem.
+In particular, because of 2i2c&amp;rsquo;s position running hubs for many communities via Kubernetes, we were able to identify a solution that did not require every user image to be updated (as described in section &lt;strong>For JupyterHub admins of Z2JH installations&lt;/strong>).&lt;/p>
+&lt;p>We believe that all of these lead to a healthier, safer ecosystem of open source tools ❤️.&lt;/p></description></item><item><title>Integrating BinderHub with JupyterHub: Empowering users to manage their own environments</title><link>https://2i2c.org/blog/2024/jupyterhub-binderhub-gesis/</link><pubDate>Wed, 03 Jan 2024 16:56:14 -0800</pubDate><guid>https://2i2c.org/blog/2024/jupyterhub-binderhub-gesis/</guid><description>&lt;p>&lt;em>Thanks to
+&lt;a href="https://www.gesis.org/en/institute/staff/person/arnim.bleier" target="_blank" rel="noopener" >Arnim Bleier&lt;/a>
+,
+&lt;a href="https://jnywong.github.io/" target="_blank" rel="noopener" >Jenny Wong&lt;/a>
+,
+&lt;a href="https://github.com/GeorgianaElena" target="_blank" rel="noopener" >Georgiana Elena&lt;/a>
+,
+&lt;a href="https://github.com/damianavila" target="_blank" rel="noopener" >Damián Avila&lt;/a>
+,
+&lt;a href="https://colliand.com/" target="_blank" rel="noopener" >Jim Colliander&lt;/a>
+and
+&lt;a href="https://github.com/jmunroe" target="_blank" rel="noopener" >James Munroe&lt;/a>
+for contributing to this blog post&lt;/em>&lt;/p>
+&lt;p>
+&lt;a href="https://mybinder.org" target="_blank" rel="noopener" >mybinder.org&lt;/a>
+is a very popular service that allows end users to specify and share the environment (languages, packages, etc) required for their notebooks to run correctly by placing
+&lt;a href="https://repo2docker.readthedocs.io/en/latest/config_files.html#config-files" target="_blank" rel="noopener" >configuration files&lt;/a>
+they are already familiar with (like &lt;code>requirements.txt&lt;/code> or &lt;code>environment.yml&lt;/code>) along with their notebooks. While not without its own set of challenges, this is extremely powerful because it puts control of the &lt;em>environment&lt;/em> in the hands of the people who write the code. They can customize the environment to fit the needs of their code, instead of having to fit their code into the environment that admins have made available.&lt;/p>
+&lt;p>But, mybinder.org (and the
+&lt;a href="https://github.com/jupyterhub/binderhub/" target="_blank" rel="noopener" >BinderHub&lt;/a>
+software that powers it) is built for &lt;em>sharing&lt;/em> your work after you are done with it, &lt;em>not&lt;/em> for actively doing work. BinderHubs often do not have persistent storage nor persistent user identity, and UX is centered around &lt;em>ephemeral&lt;/em> interactivity that can be shared with others (via a link), rather than &lt;em>persistent&lt;/em> interactivity that a single user repeatedly comes back to.
+&lt;a href="https://jupyter.org/hub" target="_blank" rel="noopener" >JupyterHub&lt;/a>
+is more commonly used for this kinda workflow, but doesn&amp;rsquo;t currently have the ability for users to easily build their own environments. Admins who are &lt;em>running&lt;/em> the JupyterHub can make
+&lt;a href="https://z2jh.jupyter.org/en/stable/jupyterhub/customizing/user-environment.html#using-multiple-profiles-to-let-users-select-their-environment" target="_blank" rel="noopener" >multiple environments&lt;/a>
+available for users to choose from, but this still puts admins in the critical path for environment customization.&lt;/p>
+&lt;p>Our
+&lt;a href="https://2i2c.org/blog/2022/gesis-2i2c-collaboration-update/" target="_blank" rel="noopener" >collaboration&lt;/a>
+with
+&lt;a href="http://notebooks.gesis.org" target="_blank" rel="noopener" >GESIS&lt;/a>
+,
+&lt;a href="https://www.nfdi4datascience.de" target="_blank" rel="noopener" >NFDI4DS&lt;/a>
+, and
+&lt;a href="https://www.cessda.eu" target="_blank" rel="noopener" >CESSDA&lt;/a>
+, aims to bring this flexibility to JupyterHub directly. We aim to empower users to decide for themselves which applications and dependencies are installed on a per-project basis. Our work enables communities with heterogeneous requirements to share a single Hub. Our approach frees administrators from being overwhelmed by installation requests and transforms the JupyterHub platform into a platform for collaborative computational reproducibility. In this update, we report on our progress and upcoming steps in this project.&lt;/p>
+&lt;h2 id="what-does-a-binderhub-do-exactly">
+What does a BinderHub do, exactly?
+&lt;a class="header-anchor" href="#what-does-a-binderhub-do-exactly">#&lt;/a>
+&lt;/h2>&lt;p>It is helpful to understand that BinderHub primarily has 3 responsibilities:&lt;/p>
+&lt;ol>
+&lt;li>Present a UI to the end user for them to provide details on what to build (this is what you see when you go to mybinder.org)&lt;/li>
+&lt;li>Call out to
+&lt;a href="https://github.com/jupyterhub/repo2docker" target="_blank" rel="noopener" >repo2docker&lt;/a>
+in a scalable way to actually &lt;em>build and push&lt;/em> an image containing the environment for the given repository, and show the user logs as this build process happens. This also allows users to debug issues with their build more easily.&lt;/li>
+&lt;li>Talk to a JupyterHub instance to launch a user server with the built docker image, and redirect the user to this.&lt;/li>
+&lt;/ol>
+&lt;p>(2) is really the &lt;em>core&lt;/em> feature of BinderHub, and we settled on figuring out how to make that available to JupyterHub users. It was really important to us that this was also done in a way that can be sustainably used by &lt;em>everyone&lt;/em>, not just 2i2c. This blog post discusses the various improvements to the broad ecosystem of projects in the Jupyter ecosystem to get this done.&lt;/p>
+&lt;h2 id="demo">
+Demo
+&lt;a class="header-anchor" href="#demo">#&lt;/a>
+&lt;/h2>&lt;p>But first, a very quick demo of how this looks like right now now!&lt;/p>
+&lt;!-- generated from original .mov screen recording with `ffmpeg -i screencast.mov -c:v libx264 screencast.mp4` -->
+&lt;p>&lt;video src="./screencast.mp4" autoplay muted controls>&lt;/video>&lt;/p>
+&lt;p>This is very much a work in progress, but the basic flow can be seen clearly. Users see a Server Options menu after they log into JupyterHub. They can specify the two primary things that determine the server configuration:&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>The resources allocated (RAM, CPU and maybe GPU)&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>The environment (container image) used, which can be specified in one of 3 ways:&lt;/p>
+&lt;p>a. A pre-selected list of environments (container images), provided by the administrators who set up this JupyterHub
+b. A blank text box where you can enter any publicly available docker image they want
+c. A mybinder.org style way to specify a GitHub repository, which will be then dynamically built into a docker image for the user!&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>So what did we need to do to accomplish this, in a way that&amp;rsquo;s very upstream friendly and usable by everyone (and not just 2i2c)?&lt;/p>
+&lt;h2 id="a-standalone-binderhub-service-helm-chart">
+A Standalone &lt;code>binderhub-service&lt;/code> helm chart
+&lt;a class="header-anchor" href="#a-standalone-binderhub-service-helm-chart">#&lt;/a>
+&lt;/h2>&lt;p>The default upstream
+&lt;a href="https://github.com/jupyterhub/binderhub/tree/main/helm-chart" target="_blank" rel="noopener" >BinderHub helm chart&lt;/a>
+&lt;em>includes&lt;/em> a JupyterHub as a dependency, and configures itself to be used primarily in a manner similar to
+&lt;a href="https://mybinder.org" target="_blank" rel="noopener" >mybinder.org&lt;/a>
+. As the person who helped make that choice early on, I can tell you why it was made - for convenience! And it &lt;em>was&lt;/em> very convenient, as it allowed us to get mybinder.org going fast. However, it makes it difficult to install a BinderHub service &lt;em>alongside&lt;/em> an existing JupyterHub. To this end, we have created a standalone
+&lt;a href="https://github.com/2i2c-org/binderhub-service/" target="_blank" rel="noopener" >BinderHub helm chart&lt;/a>
+, designed to be installed &lt;em>alongside&lt;/em> an existing JupyterHub, so we can use it &lt;em>purely&lt;/em> to build images. This allows the BinderHub instance to be used as a
+&lt;a href="https://jupyterhub.readthedocs.io/en/stable/reference/services.html" target="_blank" rel="noopener" >JupyterHub Service&lt;/a>
+, which is what we want.&lt;/p>
+&lt;p>While this helm chart is currently under the 2i2c GitHub org, the hope is that it can eventually migrate to a
+&lt;a href="https://github.com/jupyterhub/team-compass/issues/519" target="_blank" rel="noopener" >jupyterhub-contrib&lt;/a>
+organization (once it is created), or it can become the upstream helm chart for BinderHub if enough work can be done in BinderHub to allow it to serve use cases like mybinder.org.&lt;/p>
+&lt;p>As part of this work, we also added a way for BinderHub to run in
+&lt;a href="https://github.com/jupyterhub/binderhub/pull/1647" target="_blank" rel="noopener" >API only mode&lt;/a>
+, so we can fully turn off the UI &lt;em>and&lt;/em> launching ability of BinderHub. This change decoupled the
+&lt;a href="" >three responsibilities of BinderHub&lt;/a>
+we discussed previously, allowing us to bring our own UI and JupyterHub. BinderHub could now be used &lt;em>purely&lt;/em> for its scalable image building features, which is exactly what we want!&lt;/p>
+&lt;h2 id="sustainably-extending-kubespawners-profilelist">
+Sustainably extending KubeSpawner&amp;rsquo;s &lt;code>profileList&lt;/code>
+&lt;a class="header-anchor" href="#sustainably-extending-kubespawners-profilelist">#&lt;/a>
+&lt;/h2>&lt;p>We identified KubeSpawner&amp;rsquo;s &lt;code>profileList&lt;/code> feature as the ideal location for UI to dynamically build environments (container images), making it just another &amp;rsquo;environment choice&amp;rsquo; people can choose, along with picking the resources their server needs. From an end-user perspective, it was also the logical place for them to specify a repository to build into an environment, as they could already choose some pre-built environments from here. They can also select other arbitrary resources they want (such as memory, GPU, etc) from here as well. From a maintainer perspective, it helps with long-term maintenance of the JupyterHub projects.&lt;/p>
+&lt;p>The implementation of &lt;code>profileList&lt;/code> however, was not easy to extend at this point. So
+&lt;a href="https://github.com/jupyterhub/kubespawner/pull/724" target="_blank" rel="noopener" >this PR&lt;/a>
+improved how easy it was to extend it in more complex ways, without making the implementation in KubeSpawner itself complicated. Even though this had &lt;em>no&lt;/em> visible end-user effects, it was an extremely important step in allowing us to experiment with UI in a &lt;em>sustainable&lt;/em> way without having to rely on upstream. These kinds of changes can sometimes be hard to sell to stakeholders but are extremely important in ensuring a continuous and sustainable relationship with upstream.&lt;/p>
+&lt;h2 id="implementing-unlisted_choice-feature-in-kubespawner">
+Implementing &lt;code>unlisted_choice&lt;/code> feature in KubeSpawner
+&lt;a class="header-anchor" href="#implementing-unlisted_choice-feature-in-kubespawner">#&lt;/a>
+&lt;/h2>&lt;p>The profileList feature was built to allow JupyterHub &lt;em>admins&lt;/em> to specify an explicit list of container images the end-user can choose from. It did not have a way for any choice that was &lt;em>not&lt;/em> pre-approved by the admin to be used. We needed this feature since the BinderHub API will build a new docker image for each environment the user wants, and so this can not be chosen from a pre-approved list. We had to safely add this feature to KubeSpawner in such a way that it was generally useful to everyone. Many other communities had been asking for such a feature anyway - the ability to simply &amp;rsquo;type in&amp;rsquo; an image and have that be used.&lt;/p>
+&lt;p>
+&lt;a href="https://www.earthdata.nasa.gov/esds/veda" target="_blank" rel="noopener" >NASA VEDA&lt;/a>
+was one such community, so we partnered with
+&lt;a href="https://github.com/batpad/" target="_blank" rel="noopener" >Sanjay Bhangar&lt;/a>
+from
+&lt;a href="https://developmentseed.org/" target="_blank" rel="noopener" >Development Seed&lt;/a>
+(an organization that helps run NASA VEDA) to implement this feature. Engineers from 2i2c contributed heavily to this feature as well, and after &lt;em>several&lt;/em> PRs (
+&lt;a href="https://github.com/jupyterhub/kubespawner/pull/735" target="_blank" rel="noopener" >1&lt;/a>
+,
+&lt;a href="https://github.com/jupyterhub/kubespawner/pull/766" target="_blank" rel="noopener" >2&lt;/a>
+,
+&lt;a href="https://github.com/jupyterhub/kubespawner/pull/773" target="_blank" rel="noopener" >3&lt;/a>
+,
+&lt;a href="https://github.com/jupyterhub/kubespawner/pull/774" target="_blank" rel="noopener" >4&lt;/a>
+and
+&lt;a href="https://github.com/jupyterhub/kubespawner/pull/777" target="_blank" rel="noopener" >5&lt;/a>
+), this feature is now available for everyone to use!&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./screenshot-featured.png" alt="Screenshot of Kubernetes Profiles with Unlisted Choice" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>A key component of doing &lt;em>sustainable&lt;/em> upstream work is that every addition needs to be useful by itself for a broad group of people. This change was very helpful for many communities that wanted to allow their users the freedom to pick whatever image they want to use, regardless of wether they wanted to use dynamic image building or not. The broad interest allowed us to build a coalition with other interested parties, and get the change accepted upstream more easily!&lt;/p>
+&lt;h2 id="jupyterhub-fancy-profiles">
+&lt;code>jupyterhub-fancy-profiles&lt;/code>
+&lt;a class="header-anchor" href="#jupyterhub-fancy-profiles">#&lt;/a>
+&lt;/h2>&lt;p>Once we had all these pieces in place, it was time to actually work on the frontend UI that would allow users to build images dynamically and launch them. Since this will replace the &amp;lsquo;profileList&amp;rsquo; feature, it should also allow them to select different resources (RAM, CPU, etc) as needed, as well as type in an existing image if they desire. So it was a full re-implementation of the &lt;code>profileList&lt;/code> frontend.&lt;/p>
+&lt;p>This is ongoing now at the
+&lt;a href="https://github.com/yuvipanda/jupyterhub-fancy-profiles" target="_blank" rel="noopener" >jupyterhub-fancy-profiles&lt;/a>
+project. It is a pure frontend web application, using modern frontend tooling (
+&lt;a href="https://react.dev/" target="_blank" rel="noopener" >React&lt;/a>
+,
+&lt;a href="https://webpack.js.org/" target="_blank" rel="noopener" >webpack&lt;/a>
+,
+&lt;a href="https://babeljs.io/" target="_blank" rel="noopener" >Babel&lt;/a>
+, etc) and written in JavaScript. It&amp;rsquo;s gone through a few revisions, but the demo provided earlier in the blog post is in its current state. Because the default profileList implementation is pure HTML / CSS with very &lt;em>minimal&lt;/em> JS, it is limited in what kind of UX it could have. &lt;code>jupyterhub-fancy-profiles&lt;/code> aims to be very helpful &lt;em>even&lt;/em> when dynamic image-building features are not enabled on a JupyterHub. We hope to roll this out to a few JupyterHubs and improve it over time based on feedback.&lt;/p>
+&lt;h2 id="jupyterhubbinderhub-clienthttpswwwnpmjscompackagejupyterhubbinderhub-client-npm-package">
+&lt;a href="https://www.npmjs.com/package/@jupyterhub/binderhub-client" target="_blank" rel="noopener" >&lt;code>jupyterhub/@binderhub-client&lt;/code>&lt;/a>
+npm package
+&lt;a class="header-anchor" href="#jupyterhubbinderhub-clienthttpswwwnpmjscompackagejupyterhubbinderhub-client-npm-package">#&lt;/a>
+&lt;/h2>&lt;p>While building &lt;code>jupyterhub-fancy-profiles&lt;/code>, we wanted to use the &lt;em>same&lt;/em> javascript code used by BinderHub frontend to interact with the BinderHub API, instead of re-implementing it. However, the existing BinderHub JavaScript code was not easily consumable by external projects. We refactored the code, added tests, migrated to use modern JS practices and published the
+&lt;a href="https://www.npmjs.com/package/@jupyterhub/binderhub-client" target="_blank" rel="noopener" >&lt;code>jupyterhub/@binderhub-client&lt;/code> NPM package&lt;/a>
+that can be used not just by &lt;code>jupyerhub-fancy-profiles&lt;/code> but any external project for talking to the BinderHub API.&lt;/p>
+&lt;p>This had to be done in such a way that current BinderHub installations (such as mybinder.org) do not break. That took quite a few pull requests:
+&lt;a href="https://github.com/jupyterhub/binderhub/pull/1689" target="_blank" rel="noopener" >1&lt;/a>
+,
+&lt;a href="https://github.com/jupyterhub/binderhub/pull/1693" target="_blank" rel="noopener" >2&lt;/a>
+,
+&lt;a href="https://github.com/jupyterhub/binderhub/pull/1694" target="_blank" rel="noopener" >3&lt;/a>
+,
+&lt;a href="https://github.com/jupyterhub/binderhub/pull/1741" target="_blank" rel="noopener" >4&lt;/a>
+,
+&lt;a href="https://github.com/jupyterhub/binderhub/pull/1742" target="_blank" rel="noopener" >5&lt;/a>
+,
+&lt;a href="https://github.com/jupyterhub/binderhub/pull/1758" target="_blank" rel="noopener" >6&lt;/a>
+,
+&lt;a href="https://github.com/jupyterhub/binderhub/pull/1761" target="_blank" rel="noopener" >7&lt;/a>
+,
+&lt;a href="https://github.com/jupyterhub/binderhub/pull/1771" target="_blank" rel="noopener" >8&lt;/a>
+,
+&lt;a href="https://github.com/jupyterhub/binderhub/pull/1773" target="_blank" rel="noopener" >9&lt;/a>
+,
+&lt;a href="https://github.com/jupyterhub/binderhub/pull/1775" target="_blank" rel="noopener" >10&lt;/a>
+,
+&lt;a href="https://github.com/jupyterhub/binderhub/pull/1778" target="_blank" rel="noopener" >11&lt;/a>
+,
+&lt;a href="https://github.com/jupyterhub/binderhub/pull/1779" target="_blank" rel="noopener" >12&lt;/a>
+,
+&lt;a href="https://github.com/jupyterhub/binderhub/pull/1781" target="_blank" rel="noopener" >13&lt;/a>
+,
+&lt;a href="https://github.com/jupyterhub/binderhub/pull/1782" target="_blank" rel="noopener" >14&lt;/a>
+,
+&lt;a href="https://github.com/jupyterhub/binderhub/pull/1783" target="_blank" rel="noopener" >15&lt;/a>
+. This refactoring work was very helpful to us, and also appreciated by the broader community.&lt;/p>
+&lt;h2 id="defending-against-cryptojacking-with-cryptnono">
+Defending against cryptojacking with &lt;code>cryptnono&lt;/code>
+&lt;a class="header-anchor" href="#defending-against-cryptojacking-with-cryptnono">#&lt;/a>
+&lt;/h2>&lt;p>For Open Science to flourish, we need to allow access to resources without login / paywalls wherever possible. A new menace against this has been
+&lt;a href="https://www.interpol.int/en/Crimes/Cybercrime/Cryptojacking" target="_blank" rel="noopener" >cryptojacking&lt;/a>
+- where attackers use up any and all available free compute to mine cryptocurrencies. This has affected &lt;em>many&lt;/em> folks on the internet, including
+&lt;a href="https://www.bleepingcomputer.com/news/security/github-actions-being-actively-abused-to-mine-cryptocurrency-on-github-servers/" target="_blank" rel="noopener" >GitHub Actions&lt;/a>
+and mybinder.org, the primary public BinderHub installation. mybinder.org has some extra protections against cryptojacking that aren&amp;rsquo;t easily usable elsewhere, and this has unfortunately meant that the demo JupyterHubs we have with these features enabled have been behind a login wall. I personally believe login walls are long term antithetical to open science, and so this was an important problem to solve.&lt;/p>
+&lt;p>
+&lt;a href="https://github.com/cryptnono/cryptnono" target="_blank" rel="noopener" >cryptnono&lt;/a>
+is an open source project designed to help fight cryptojacking, and as part of this grant we ported some of this functionality out of mybinder.org specific code into cryptnono, so other deployments may also benefit from it! We also migrated to using the super efficient
+&lt;a href="https://ebpf.io/" target="_blank" rel="noopener" >ebpf&lt;/a>
+Linux Kernel subsystem, allowing for more complex heuristics to catch a much broader range of cryptomining activity. We have been slowly tweaking the config on mybinder.org, and it has proven to be very effective! This will be very helpful for &lt;em>anyone&lt;/em> who wants to provide a JupyterHub (or any other computational service) without a login wall. If you are interested in using cryptnono in this fashion, please
+&lt;a href="https://github.com/cryptnono/cryptnono/issues" target="_blank" rel="noopener" >reach out to us&lt;/a>
+so we can work together!&lt;/p>
+&lt;h2 id="explored-pathways-that-were-then-discarded">
+Explored pathways that were then discarded
+&lt;a class="header-anchor" href="#explored-pathways-that-were-then-discarded">#&lt;/a>
+&lt;/h2>&lt;p>List of things that were tried and then decided as not good pathways:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="https://github.com/consideRatio/repo2docker-service" target="_blank" rel="noopener" >repo2docker-service&lt;/a>
+, a separate JupyterHub service that could &lt;em>only&lt;/em> build images. As we worked on it, we realized that it was replicating a lot of features that BinderHub already has, so we pivoted to working on BinderHub directly instead.&lt;/li>
+&lt;li>Building off of
+&lt;a href="https://github.com/plasmabio/tljh-repo2docker" target="_blank" rel="noopener" >tljh-repo2docker&lt;/a>
+. While this already had a nice UI, it would be hard to port it to run on a distributed Kubernetes environment without it becoming a &amp;lsquo;hard fork&amp;rsquo;.&lt;/li>
+&lt;/ul>
+&lt;p>While these did slow down the implementation of the project, it has allowed us to be very confident that the methods we have chosen are long-term sustainable.&lt;/p>
+&lt;h2 id="want-to-try-this-out">
+Want to try this out?
+&lt;a class="header-anchor" href="#want-to-try-this-out">#&lt;/a>
+&lt;/h2>&lt;p>We have a demo of this running at
+&lt;a href="https://imagebuilding-demo.2i2c.cloud" target="_blank" rel="noopener" >imagebuilding-demo.2i2c.cloud&lt;/a>
+, but unfortunately as we are still fine-tuning &lt;code>cryptnono&lt;/code> config, at this moment it is not open to the public. Please
+&lt;a href="" >contact me&lt;/a>
+with your GitHub account if you want access, and promise to not be a cryptominer and you shall be granted access.&lt;/p>
+&lt;p>Want to set this up on your own JupyterHub? There is some
+&lt;a href="https://github.com/2i2c-org/binderhub-service/pull/72" target="_blank" rel="noopener" >work in progress&lt;/a>
+documentation and more is being worked on. Drop a line in the linked pull request and we&amp;rsquo;ll be happy to help. The eventual goal is for &lt;em>anyone&lt;/em> to be able to simply follow documentation and set this up for themselves.&lt;/p>
+&lt;h2 id="future-work">
+Future work
+&lt;a class="header-anchor" href="#future-work">#&lt;/a>
+&lt;/h2>&lt;p>This is not complete of course, and there is a lot of future work to be done.&lt;/p>
+&lt;ol>
+&lt;li>mybinder.org also helps you distribute your &lt;em>content&lt;/em>, not just the environment for your code to run in. Since JupyterHub usually comes with a persistent home directory for the user,
+&lt;a href="https://github.com/jupyterhub/nbgitpuller/" target="_blank" rel="noopener" >nbgitpuller&lt;/a>
+is commonly used for this purpose instead. We should explore ways to integrate nbgitpuller (and other ways to distribute content) in the future.&lt;/li>
+&lt;li>More thorough documentation for how you can recreate what is in the demo for yourself in your own JupyterHub installation.&lt;/li>
+&lt;li>Better UX for specifying images, including figuring out how to &amp;lsquo;save&amp;rsquo; them for future reuse.&lt;/li>
+&lt;li>Better compatibility with mybinder.org, particularly in allowing other sources of environments (not just GitHub, but Zenodo, raw git repositories, etc) and URL compatibility.&lt;/li>
+&lt;li>Better authentication workflow between the frontend and the BinderHub API.&lt;/li>
+&lt;/ol>
+&lt;h2 id="credit">
+Credit
+&lt;a class="header-anchor" href="#credit">#&lt;/a>
+&lt;/h2>&lt;p>All this work would not be possible without a large group of collaborators!&lt;/p>
+&lt;ul>
+&lt;li>From 2i2c:
+&lt;a href="https://github.com/consideRatio" target="_blank" rel="noopener" >Erik Sundell&lt;/a>
+,
+&lt;a href="https://github.com/GeorgianaElena" target="_blank" rel="noopener" >Georgiana Elena&lt;/a>
+,
+&lt;a href="https://words.yuvi.in/" target="_blank" rel="noopener" >Yuvi&lt;/a>
+,
+&lt;a href="https://github.com/jmunroe" target="_blank" rel="noopener" >James Munroe&lt;/a>
+, and
+&lt;a href="https://github.com/damianavila" target="_blank" rel="noopener" >Damián Avila&lt;/a>
+.&lt;/li>
+&lt;li>The
+&lt;a href="https://github.com/gesiscss/persistent_BinderHub/" target="_blank" rel="noopener" >persistent BinderHub&lt;/a>
+project was the direct inspiration for all this work, with particular thanks to
+&lt;a href="https://github.com/bitnik" target="_blank" rel="noopener" >Kenan Erdogan&lt;/a>
+.&lt;/li>
+&lt;li>The
+&lt;a href="https://github.com/plasmabio/tljh-repo2docker" target="_blank" rel="noopener" >tljh-repo2docker&lt;/a>
+project, which explores similar ideas in the context of running only on a single node.&lt;/li>
+&lt;li>The broad JupyterHub and MyBinder.org community, particularly
+&lt;a href="https://github.com/manics" target="_blank" rel="noopener" >Simon Li&lt;/a>
+and
+&lt;a href="https://github.com/minrk/" target="_blank" rel="noopener" >MinRK&lt;/a>
+.&lt;/li>
+&lt;li>Funding generously provided by
+&lt;a href="http://gesis.org" target="_blank" rel="noopener" >GESIS&lt;/a>
+in cooperation with NFDI4DS (project number:
+&lt;a href="https://gepris.dfg.de/gepris/projekt/460234259?context=projekt&amp;amp;task=showDetail&amp;amp;id=460234259&amp;amp;" target="_blank" rel="noopener" >460234259&lt;/a>
+) and
+&lt;a href="https://www.cessda.eu" target="_blank" rel="noopener" >CESSDA&lt;/a>
+.&lt;/li>
+&lt;li>
+&lt;a href="https://www.gesis.org/en/institute/staff/person/arnim.bleier" target="_blank" rel="noopener" >Arnim Bleier&lt;/a>
+from GESIS was &lt;em>instrumental&lt;/em> in making this project happen.&lt;/li>
+&lt;/ul></description></item><item><title>Digital public goods for Earth system management: U.S. Greenhouse Gas Center launches</title><link>https://2i2c.org/blog/2023/us-ghg-center-launches/</link><pubDate>Tue, 05 Dec 2023 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2023/us-ghg-center-launches/</guid><description>&lt;blockquote>
+&lt;p>&lt;strong>Abstract&lt;/strong>&lt;/p>
+&lt;p>The International Interactive Computing Collaboration (
+&lt;a href="https://2i2c.org" target="_blank" rel="noopener" >2i2c.org&lt;/a>
+), working with
+&lt;a href="https://www.earthdata.nasa.gov/dashboard/" target="_blank" rel="noopener" >NASA VEDA&lt;/a>
+,
+&lt;a href="https://developmentseed.org/" target="_blank" rel="noopener" >Development Seed&lt;/a>
+and other partners, operates an interactive computing platform for The U.S. Greenhouse Gas Center. The U.S. GHG Center,
+&lt;a href="https://www.nasa.gov/news-release/nasa-partners-launch-us-greenhouse-gas-center-to-share-climate-data/" target="_blank" rel="noopener" >announced yesterday&lt;/a>
+at the 28th annual United Nations Climate Conference (COP-28) in Dubai, is an interagency collaboration of the
+&lt;a href="https://www.epa.gov/" target="_blank" rel="noopener" >Environmental Protection Agency (EPA)&lt;/a>
+, the
+&lt;a href="https://www.nasa.gov/" target="_blank" rel="noopener" >National Aeronautics and Space Administration (NASA)&lt;/a>
+, the
+&lt;a href="https://www.nist.gov/" target="_blank" rel="noopener" >National Institute of Standards and Technology (NIST)&lt;/a>
+, and the
+&lt;a href="https://www.nist.gov/" target="_blank" rel="noopener" >National Ocean and Atmospheric Administration (NOAA)&lt;/a>
+. This note places the launch of the U.S. GHG Center in a scientific, international, and national context and argues that similar digital public goods are needed for humanity to understand and manage the Earth system.&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="scientific-context">
+Scientific Context
+&lt;a class="header-anchor" href="#scientific-context">#&lt;/a>
+&lt;/h2>&lt;p>It was controversial in 1827 when Joseph Fourier (the discoverer of the
+&lt;a href="https://en.wikipedia.org/wiki/Thermal_conduction#Fourier%27s_law" target="_blank" rel="noopener" >law of heat conduction&lt;/a>
+) argued &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup> that the atmosphere keeps the Earth warm, like a puffy down comforter, but it&amp;rsquo;s not now. Gases in the atmosphere trap heat near Earth. How much heat is trapped depends on the gas mixture. Putting more heat-trapping gases in is like putting a wool blanket on top of the down comforter. Human activity since industrialization is injecting lots more heat-trapping gas into the atmosphere and changing the Earth&amp;rsquo;s climate.&lt;/p>
+&lt;p>The science is clear. The up-to-date consensus view of the global scientific community is expressed in the
+&lt;a href="https://www.ipcc.ch/assessment-report/ar6/" target="_blank" rel="noopener" >Sixth Assessment Report&lt;/a>
+of the Intergovernmental Panel on Climate Change (IPCC):&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./featured-image.png" alt="image-10-x33-y350.png" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;h2 id="international-context">
+International Context
+&lt;a class="header-anchor" href="#international-context">#&lt;/a>
+&lt;/h2>&lt;p>The international community officially recognized human-influenced climate change at the World Climate Conference (WCC-1) &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup> in 1979. The
+&lt;a href="https://library.wmo.int/viewer/54699/download?file=1979_wcc1-declaration.pdf&amp;amp;type=pdf&amp;amp;navigator=1" target="_blank" rel="noopener" >1979 declaration&lt;/a>
+is remarkably prescient and detailed. A complex and interconnected collection of scientific and diplomatic activities were catalyzed by WCC-1. Some important milestones from this history are captured in the chart and numbered list below.&lt;/p>
+&lt;div class="mermaid">gantt
+dateFormat YYYY-MM-DD
+title International Climate Change Milestones
+section Study
+WCC-1 (1979) :crit, done, admin0, 1979-02-12, 1979-02-23
+WCP :crit, adminA, 1979-06-01, 2025-12-31
+CMIP1: crit, done, adminT, 1995-01-01,1995-12-31
+CMIP2: crit, done, adminR, 1997-01-01, 1998-12-31
+CMIP2+: crit,done,adminS, 2000-05-09, 2001-12-31
+CMIP3 :crit, done, adminP, 2004-10-01, 2006-12-31
+CMIP5 :crit, done, adminO, 2008-09-01, 2013-03-15
+CMIP6 :crit, done, adminQ, 2014-02-01, 2024-12-31
+IPCC :crit, admin1, 1988-12-06, 2025-12-31
+IPCC-AR1 :crit, done, adminH, 1990-08-01, 1992-06-30
+IPCC-AR2 :crit, done, adminI, 1995-01-01,1995-12-31
+IPCC-AR3 :crit,done, adminJ, 2001-01-01, 2001-12-31
+IPCC-AR4 :crit, done,adminK, 2007-01-01,2007-12-31
+IPCC awarded Nobel Prize :crit, done, adminN, 2007-10-12, 2007-11-12
+IPCC-AR5 :crit,done,adminL, 2014-01-01,2014-12-31
+IPCC-AR6 :crit,done,adminM,2023-01-01,2023-12-31
+section Treaties
+Rio Earth Summit (1992) :crit, done, adminC, 1992-06-03, 1992-06-14
+UNFCC :crit, admin2, 1994-03-21, 2025-12-31
+Berlin (COP-1) :crit, done, adminE, 1995-03-28, 1995-04-07
+Byrd-Hagel Resolution :crit, done, adminX, 1997-07-25, 1997-07-30
+Kyoto (COP-3) :crit, done, adminD, 1997-12-01, 1997-12-10
+Kyoto Protocol :crit, done, admin3, 1997-12-11, 2020-12-31
+Paris (COP-21) :crit, done, adminF, 2015-11-30, 2015-12-12
+Paris Agreement :crit, adminG, 2016-11-04, 2025-12-31
+Glasgow (COP-26) :crit, done, adminV, 2021-10-31, 2021-11-12
+Dubai (COP-28) :crit, adminW, 2023-11-20, 2023-12-12
+ETF :crit, adminU, 2024-01-01, 2025-12-31
+&lt;/div>
+&lt;p>The table above describes a subset (for a more systematic review see &lt;sup id="fnref:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>, &lt;sup id="fnref:4">&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref">4&lt;/a>&lt;/sup>) of key milestones in global efforts to understand and address climate change. A glossary of acronyms and additional background:&lt;/p>
+&lt;ol>
+&lt;li>The First World Climate Conference (&lt;strong>WCC-1&lt;/strong>) &lt;sup id="fnref1:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup> was held in 1979.&lt;/li>
+&lt;li>The World Climate Programme (
+&lt;a href="https://public.wmo.int/en/programmes/world-climate-programme" target="_blank" rel="noopener" >WCP&lt;/a>
+), an activity overseen by the
+&lt;a href="https://public.wmo.int/en" target="_blank" rel="noopener" >World Meteorological Organization&lt;/a>
+was established after WCC-1. WCP, in partnership with other organizations, operates programs (e.g. the
+&lt;a href="https://wcrp-cmip.org/" target="_blank" rel="noopener" >World Climate Research Program (WCRP)&lt;/a>
+) that organize and integrate international scientific efforts to understand the climate. The WMO also operates the
+&lt;a href="https://ig3is.wmo.int/en/who-we-are" target="_blank" rel="noopener" >Integrated Global Greenhouse Gas Information System (IG3IS)&lt;/a>
+, a natural partner for the emerging work described below.&lt;/li>
+&lt;li>WCRP manages the
+&lt;a href="https://wcrp-cmip.org/" target="_blank" rel="noopener" >Common Model Intercomparison Project (CMIP)&lt;/a>
+. CMIP serves as a kind of &lt;strong>league for intercomparing models&lt;/strong> of the Earth&amp;rsquo;s climate system developed by teams who approach the problems with different methods and designs. Intercomparison, an approach that enables finding the consensus views of teams with divergent approaches to problems, is used in other modeling scenarios.&lt;/li>
+&lt;li>Research papers on the climate are rapidly produced by scholars from essentially all knowledge disciplines. This overwhelming stream of content, like snowflakes in a blizzard, is coalesced into coherent and carefully scrutinized &lt;strong>
+&lt;a href="https://www.ipcc.ch/reports/" target="_blank" rel="noopener" >IPCC Assessment Reports&lt;/a>
+&lt;/strong> by the
+&lt;a href="https://www.ipcc.ch/" target="_blank" rel="noopener" >Intergovernmental Panel on Climate Change (IPCC)&lt;/a>
+.&lt;/li>
+&lt;li>The
+&lt;a href="https://en.wikipedia.org/wiki/Earth_Summit" target="_blank" rel="noopener" >Earth Summit&lt;/a>
+held in Rio de Janeiro in 1992 led to the
+&lt;a href="https://unfccc.int/" target="_blank" rel="noopener" >United Nations Framework Convention on Climate Change (UNFCC)&lt;/a>
+. The UNFCCC is an international treaty that recognizes the dangers to the climate system caused by human activity, calls for ongoing study, and establishes recurring
+&lt;a href="https://unfccc.int/process/bodies/supreme-bodies/conference-of-the-parties-cop" target="_blank" rel="noopener" >Conference of the Parties (COP)&lt;/a>
+meetings.&lt;/li>
+&lt;li>
+&lt;a href="https://unfccc.int/event/cop-3" target="_blank" rel="noopener" >COP-3 (Kyoto)&lt;/a>
+led to the
+&lt;a href="https://unfccc.int/kyoto_protocol" target="_blank" rel="noopener" >Kyoto Protocol Treaty&lt;/a>
+.&lt;/li>
+&lt;li>The
+&lt;a href="https://en.wikipedia.org/wiki/Byrd%E2%80%93Hagel_Resolution" target="_blank" rel="noopener" >Byrd-Hagel Resolution&lt;/a>
+was a unanimous United States Senate Resolution that stipulated the United States would not sign treaties promising greenhouse gas reductions by developed countries that did not mandate similar reductions from developing countries. This killed USA participation in the Kyoto Protocol Treaty.&lt;/li>
+&lt;li>The
+&lt;a href="https://unfccc.int/process-and-meetings/the-paris-agreement" target="_blank" rel="noopener" >Paris Agreement&lt;/a>
+, established at
+&lt;a href="https://unfccc.int/event/cop-21" target="_blank" rel="noopener" >COP-21 (Paris)&lt;/a>
+, effectively replaces the Kyoto Protocol, includes specifications by participant countries on greenhouse gas reductions called &lt;em>National Determined Contributions&lt;/em> (NDCs). The United States entered the Paris Agreement under President Obama, exited under President Trump and rejoined under President Biden.&lt;/li>
+&lt;li>
+&lt;a href="https://www.un.org/en/climatechange/cop26" target="_blank" rel="noopener" >COP-26 (Glasgow)&lt;/a>
+established an accountability system for the Paris Agreement called the
+&lt;a href="https://unfccc.int/FAQ-moving-towards-the-ETF" target="_blank" rel="noopener" >Enhanced Transparency Framework (ETF)&lt;/a>
+. Participant countries to the Paris Agreement will
+&lt;a href="https://unfccc.int/process-and-meetings/transparency-and-reporting/preparing-for-the-ETF" target="_blank" rel="noopener" >submit their first Biennial Transparency Reports (BTR1) under the ETF&lt;/a>
+in 2024.&lt;/li>
+&lt;/ol>
+&lt;h2 id="-usa-context">
+🇺🇸 U.S.A. Context
+&lt;a class="header-anchor" href="#-usa-context">#&lt;/a>
+&lt;/h2>&lt;p>The
+&lt;a href="https://www.epa.gov/ghgemissions/inventory-us-greenhouse-gas-emissions-and-sinks" target="_blank" rel="noopener" >United States Environmental Protection Agency (EPA) annually releases&lt;/a>
+the &lt;em>Inventory of U.S. Greenhouse Gas Emissions and Sinks&lt;/em> reports. These reports are submitted to the United Nations in accordance with the UNFCCC. The EPA
+&lt;a href="https://www.epa.gov/ghgemissions/greenhouse-gas-inventory-tools" target="_blank" rel="noopener" >openly shares&lt;/a>
+software, tools, data, and
+&lt;a href="https://www.epa.gov/ghgemissions/capacity-building-national-greenhouse-gas-inventories" target="_blank" rel="noopener" >builds capacity&lt;/a>
+to assist other nations to assemble their own greenhouse gas inventories.&lt;/p>
+&lt;p>An
+&lt;a href="https://obamawhitehouse.archives.gov/sites/default/files/omb/inforeg/for-agencies/Social-Cost-of-Carbon-for-RIA.pdf" target="_blank" rel="noopener" >Interagency Working Group (IWG) on the Social Cost of Carbon&lt;/a>
+was set up by the Obama Administration in 2010. The IWG, renamed as the
+&lt;a href="https://www.epa.gov/sites/default/files/2016-12/documents/sc_co2_tsd_august_2016.pdf" target="_blank" rel="noopener" >Interagency Working Group on Social Cost of Greenhouse Gases in 2016&lt;/a>
+, synthesizes research on
+&lt;a href="https://en.wikipedia.org/wiki/Integrated_assessment_modelling" target="_blank" rel="noopener" >integrated assessment modelling&lt;/a>
+to quantify the dollar costs associated to damage caused by an incremental increase in GHG emissions in a given year. Quantifying the impacts of GHG emissions in monetary terms is vital to effective rulemaking across the Federal Government. This
+&lt;a href="https://www.epa.gov/sites/default/files/2016-12/documents/social_cost_of_carbon_fact_sheet.pdf" target="_blank" rel="noopener" >EPA fact sheet on the social costs of carbon&lt;/a>
+provides further background. A 2017 consensus report &lt;sup id="fnref:5">&lt;a href="#fn:5" class="footnote-ref" role="doc-noteref">5&lt;/a>&lt;/sup> of the National Academies of Science Engineering and Medicine (NASEM) offered recommendations for ongoing research to improve the assignment of social costs to GHG emissions.&lt;/p>
+&lt;p>Other federal agencies have developed expertise, data, and analyses that give insights into GHG emissions that compliment and potentially extend the &lt;em>Inventory&lt;/em> reports developed annually by the EPA. How should the United States integrate federal agency efforts to monitor and measure greenhouse gas emissions? A 2022 NASEM consensus report &lt;sup id="fnref:6">&lt;a href="#fn:6" class="footnote-ref" role="doc-noteref">6&lt;/a>&lt;/sup> investigated this question. In January of this year, the
+&lt;a href="https://www.whitehouse.gov/ceq/news-updates/2023/01/06/biden-harris-administration-releases-new-guidance-to-disclose-climate-impacts-in-environmental-reviews/" target="_blank" rel="noopener" >Biden Administration&lt;/a>
+released guidance&lt;sup id="fnref:7">&lt;a href="#fn:7" class="footnote-ref" role="doc-noteref">7&lt;/a>&lt;/sup> for federal agencies on incorporating GHG emissions information in policies and reports. Shortly thereafter, a draft federal strategy to advance an integrated greenhouse gas monitoring system was
+&lt;a href="https://nspires.nasaprs.com/external/solicitations/summary.do?solId=%7bDDD1BC85-9276-8FB7-C362-A00E3E427E0D%7d&amp;amp;path=&amp;amp;method=init" target="_blank" rel="noopener" >released by NASA with a request for public input&lt;/a>
+.&lt;/p>
+&lt;p>Some important insights from the NASEM consensus report, the draft federal strategy, and the IWG reports:&lt;/p>
+&lt;ol>
+&lt;li>Data streams on greenhouse gas emissions can be sorted into two broad categories:
+&lt;ul>
+&lt;li>&lt;strong>Activity-based:&lt;/strong> Activity-based data, sometimes called &amp;ldquo;bottom-up&amp;rdquo; data, quantify GHG emissions by measuring activities that generate GHG emissions. Economic or business activity data (gallons of diesel sold in a county on Tuesday; miles flown by a 747 in October) can be converted into quantified GHG emissions information.&lt;/li>
+&lt;li>&lt;strong>Atmospheric-based:&lt;/strong> Atmosphere-based data, sometimes called &amp;ldquo;top-down&amp;rdquo; data, quantify GHG emissions by performing atmospheric measurements. For example, the
+&lt;a href="https://ocov2.jpl.nasa.gov/" target="_blank" rel="noopener" >Orbiting Carbon Observatory (OCO2)&lt;/a>
+remotely senses $CO_2$ from space.&lt;/li>
+&lt;li>A hybrid approach that blends activity-based and atmospheric-based GHG data has the potential to provide new insights.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Interoperable and easily accessed tools and data products for analyzing GHG emissions information and assigning costs should be made available across the Federal government.&lt;/li>
+&lt;li>GHG emissions information is needed in scenarios outside the international context of participating nations reporting for UNFCCC and Paris Agreement ETF compliance:
+&lt;ul>
+&lt;li>&lt;strong>Subnational governments&lt;/strong> &amp;ndash; cities, states, provinces, counties &amp;ndash; want GHG data products to measure their progress on emission reduction programs.&lt;/li>
+&lt;li>&lt;strong>Facilities&lt;/strong> &amp;ndash; harbours, toll roads, power plants, factories, universities &amp;ndash; similarly want GHG data products.&lt;/li>
+&lt;li>&lt;strong>Companies&lt;/strong> &amp;ndash; airlines, trucking, construction &amp;ndash; want GHG data products.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;li>Reliable and transparent GHG emissions information is required to enable effective environmental-social-governance (ESG) investment without “greenwashing”.&lt;/li>
+&lt;li>Accurate and improving quantifications of the social costs associated to GHG emissions require ongoing research.&lt;/li>
+&lt;/ol>
+&lt;h2 id="the-us-greenhouse-gas-center">
+The U.S. Greenhouse Gas Center
+&lt;a class="header-anchor" href="#the-us-greenhouse-gas-center">#&lt;/a>
+&lt;/h2>&lt;p>The launch of U.S. GHG Center, an interagency collaboration of the 
+&lt;a href="https://www.epa.gov/" target="_blank" rel="noopener" >Environmental Protection Agency (EPA)&lt;/a>
+, the 
+&lt;a href="https://www.nasa.gov/" target="_blank" rel="noopener" >National Aeronautics and Space Administration (NASA)&lt;/a>
+, the 
+&lt;a href="https://www.nist.gov/" target="_blank" rel="noopener" >National Institute of Standards and Technology (NIST)&lt;/a>
+, and the 
+&lt;a href="https://www.nist.gov/" target="_blank" rel="noopener" >National Ocean and Atmospheric Administration (NOAA)&lt;/a>
+, was
+&lt;a href="https://www.nasa.gov/news-release/nasa-partners-launch-us-greenhouse-gas-center-to-share-climate-data/" target="_blank" rel="noopener" >announced on 2023-12-04&lt;/a>
+at COP-28 (Dubai)&lt;/p>
+&lt;p>How much GHG emission is generated through oil and gas production? How much GHG emission is generated by urban centers? Do landfills contribute significant GHG emissions? How do human-generated GHG emissions compare to natural sources of GHG emissions? The U.S. GHG Center is designed to assemble the data, tools, and people to scientifically address these kinds of questions.&lt;/p>
+&lt;h2 id="openness-amplified-knowledge-sharing">
+Openness: Amplified Knowledge Sharing
+&lt;a class="header-anchor" href="#openness-amplified-knowledge-sharing">#&lt;/a>
+&lt;/h2>&lt;p>The U.S. Greenhouse Gas Center builds on
+&lt;a href="https://www.epa.gov/ghgemissions/greenhouse-gas-inventory-tools" target="_blank" rel="noopener" >EPA&amp;rsquo;s leadership to openly share the data and tools for the &lt;em>Inventory&lt;/em>&lt;/a>
+and the
+&lt;a href="https://www.whitehouse.gov/ostp/news-updates/2023/01/11/fact-sheet-biden-harris-administration-announces-new-actions-to-advance-open-and-equitable-research/" target="_blank" rel="noopener" >2023 Year of Open Science&lt;/a>
+. Instead of building a walled garden with proprietary technology from a vendor selected through RFP, the Center launched a prototype platform using curated open source tools integrated with public federal data. This &lt;strong>open toolchain approach&lt;/strong> amplifies the open data efforts developed over the past two decades.&lt;/p>
+&lt;p>The U.S. GHG Center&amp;rsquo;s interactive computing platform is &lt;strong>open source science infrastructure&lt;/strong>. The platform is:&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;a href="https://github.com/2i2c-org/infrastructure" target="_blank" rel="noopener" >transparently operated&lt;/a>
+by
+&lt;a href="https://2i2c.org" target="_blank" rel="noopener" >2i2c&lt;/a>
+on a cloud data center under a
+&lt;a href="https://2i2c.org/right-to-replicate/" target="_blank" rel="noopener" >right to replicate that ensures zero vendor lock-in&lt;/a>
+with data integrations and visualizations built with using software from a
+&lt;a href="https://jupyter.org/" target="_blank" rel="noopener" >vibrant open source ecosystem&lt;/a>
+by
+&lt;a href="https://developmentseed.org/" target="_blank" rel="noopener" >Development Seed&lt;/a>
+,
+&lt;a href="https://www.earthdata.nasa.gov/dashboard/" target="_blank" rel="noopener" >NASA VEDA&lt;/a>
+, and collaborators;&lt;/li>
+&lt;li>proximate to and optimized &lt;sup id="fnref:8">&lt;a href="#fn:8" class="footnote-ref" role="doc-noteref">8&lt;/a>&lt;/sup> for analyzing geospatial data (e.g.
+&lt;a href="https://registry.opendata.aws/collab/nasa/" target="_blank" rel="noopener" >NASA&lt;/a>
+,
+&lt;a href="https://repository.library.noaa.gov/view/noaa/37529" target="_blank" rel="noopener" >NOAA&lt;/a>
+);&lt;/li>
+&lt;li>designed to be a &lt;em>digital public good.&lt;/em>&lt;/li>
+&lt;/ol>
+&lt;p>Research, data and recommendations developed by scientists and engineers that influence policies set by democratic governments should be accessible by voters. No entity should own the ways humans communicate and learn about the Earth system. The U.S. Greenhouse Gas Center&amp;rsquo;s generous approach to digital infrastructure &amp;ndash; an open toolchain adjacent to open data &amp;ndash; is vital for democracy and should be replicated across government agencies worldwide.&lt;/p>
+&lt;h2 id="references">
+References
+&lt;a class="header-anchor" href="#references">#&lt;/a>
+&lt;/h2>&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>Mémoire sur les températures du globe terrestre et des espaces planétaires. in &lt;em>Oeuvres de Fourier: Publiées par les soins de Gaston Darboux&lt;/em> (eds. Fourier, J. B. J. &amp;amp; Darboux, J. G.) vol. 2 95–126 (Cambridge University Press, 2013).&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2">
+&lt;p>World Climate Conference. &lt;em>World Climate Conference - Declaration and supporting documents&lt;/em>.
+&lt;a href="https://library.wmo.int/records/item/54699-world-climate-conference-declaration-and-supporting-documents" target="_blank" rel="noopener" >https://library.wmo.int/records/item/54699-world-climate-conference-declaration-and-supporting-documents&lt;/a>
+(1979).&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref1:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:3">
+&lt;p>Gupta, J. A history of international climate change policy. &lt;em>WIREs Climate Change&lt;/em> &lt;strong>1&lt;/strong>, 636–653 (2010).&amp;#160;&lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:4">
+&lt;p>Zillman, J. A history of climate activities. &lt;em>WMO Bulletin&lt;/em> &lt;strong>58&lt;/strong>, (2009).&amp;#160;&lt;a href="#fnref:4" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:5">
+&lt;p>&lt;em>Valuing Climate Changes: Updating Estimation of the Social Cost of Carbon Dioxide&lt;/em>. (National Academies Press, 2017). doi:
+&lt;a href="https://doi.org/10.17226/24651" target="_blank" rel="noopener" >10.17226/24651&lt;/a>
+.&amp;#160;&lt;a href="#fnref:5" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:6">
+&lt;p>&lt;em>Greenhouse Gas Emissions Information for Decision Making: A Framework Going Forward&lt;/em>. (National Academies Press, 2022). doi:
+&lt;a href="https://doi.org/10.17226/26641" target="_blank" rel="noopener" >10.17226/26641&lt;/a>
+.&amp;#160;&lt;a href="#fnref:6" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:7">
+&lt;p>CEQguidance. National Environmental Policy Act Guidance on Consideration of Greenhouse Gas Emissions and Climate Change. &lt;em>Federal Register&lt;/em>
+&lt;a href="https://www.federalregister.gov/documents/2023/01/09/2023-00158/national-environmental-policy-act-guidance-on-consideration-of-greenhouse-gas-emissions-and-climate" target="_blank" rel="noopener" >https://www.federalregister.gov/documents/2023/01/09/2023-00158/national-environmental-policy-act-guidance-on-consideration-of-greenhouse-gas-emissions-and-climate&lt;/a>
+(2023).&amp;#160;&lt;a href="#fnref:7" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:8">
+&lt;p>Abernathey, R. P. &lt;em>et al.&lt;/em> Cloud-Native Repositories for Big Scientific Data. &lt;em>Computing in Science &amp;amp; Engineering&lt;/em> &lt;strong>23&lt;/strong>, 26–35 (2021).&amp;#160;&lt;a href="#fnref:8" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></description></item><item><title>On the Jupyter Blog: From intern to mentor.</title><link>https://2i2c.org/blog/2023/external-jupyter-georgiana-mentor/</link><pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2023/external-jupyter-georgiana-mentor/</guid><description/></item><item><title>CILogon usage at 2i2c</title><link>https://2i2c.org/blog/2023/cilogon-integration/</link><pubDate>Fri, 24 Feb 2023 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2023/cilogon-integration/</guid><description>
+&lt;h2 id="about-cilogon">
+About CILogon
+&lt;a class="header-anchor" href="#about-cilogon">#&lt;/a>
+&lt;/h2>&lt;p>
+&lt;a href="https://www.cilogon.org" target="_blank" rel="noopener" >CILogon&lt;/a>
+is an open source service provider that allows users to log in against over 4000 various identity providers, including campus identity providers. The available identity providers are members of
+&lt;a href="https://incommon.org/federation/" target="_blank" rel="noopener" >InCommon&lt;/a>
+, a federation of universities and other organizations that provide single sign-on access to various resources.&lt;/p>
+&lt;h2 id="cilogon-and-2i2c">
+CILogon and 2i2c
+&lt;a class="header-anchor" href="#cilogon-and-2i2c">#&lt;/a>
+&lt;/h2>&lt;p>For the past year, 2i2c has been successfully using CILogon for more than fifteen of the hubs it manages.&lt;/p>
+&lt;p>Currently, most of the hubs that use it are hubs for communities in education that want to manage their hub access through their own institutional providers.&lt;/p>
+&lt;p>With using a tool like CILogon, we allow hub access to be managed both through the communities&amp;rsquo; institutional providers, but also through social providers like GitHub and Google. Because both authentication mechanisms can coexist, there&amp;rsquo;s no need to provide specific credentials for 2i2c staff in order to have access to the hub. This reduces both the burden on institution&amp;rsquo;s IT departments, but also the complexity of a hub deployment.&lt;/p>
+&lt;p>Moreover, as we migrate away from our current Auth0 setup, the number of hubs using CILogon will further increase in the following year.&lt;/p>
+&lt;h2 id="the-setup">
+The setup
+&lt;a class="header-anchor" href="#the-setup">#&lt;/a>
+&lt;/h2>&lt;p>The setup that 2i2c uses, is based on two important tools, the CILogon administrative client and the JupyterHub CILogonOAuthenticator.&lt;/p>
+&lt;h3 id="the-cilogon-administrative-client">
+The CILogon administrative client
+&lt;a class="header-anchor" href="#the-cilogon-administrative-client">#&lt;/a>
+&lt;/h3>&lt;p>The
+&lt;a href="https://cilogon.github.io/oa4mp/server/manuals/dynamic-client-registration.html" target="_blank" rel="noopener" >2i2c administrative client&lt;/a>
+provided by CILogon allowed us to automatically manage the CILogon OAuth applications needed for authenticating into the hub.&lt;/p>
+&lt;p>For each hub that uses CILogon, we dynamically create an OAuth
+&lt;a href="https://cilogon.github.io/oa4mp/server/manuals/dynamic-client-registration.html" target="_blank" rel="noopener" >client application&lt;/a>
+in CILogon and store the credentials safely, using the script at
+&lt;a href="https://github.com/2i2c-org/infrastructure/blob/3312f373f0aa59fbc98dc1c8161aa9623b68726b/deployer/cilogon_app.py" target="_blank" rel="noopener" >cilogon_app.py&lt;/a>
+. The script can also used for &lt;code>updating&lt;/code> the callback URLs of an existing OAuth application, &lt;code>deleting&lt;/code> a CILogon OAuth application when a hub is removed or changes authentication methods, &lt;code>getting&lt;/code> details about an existing OAuth application, &lt;code>getting all&lt;/code> existing 2i2c CILogon OAuth applications.&lt;/p>
+&lt;h3 id="the-jupyterhub-cilogonoauthenticator">
+The JupyterHub CILogonOAuthenticator
+&lt;a class="header-anchor" href="#the-jupyterhub-cilogonoauthenticator">#&lt;/a>
+&lt;/h3>&lt;p>For CILogon&amp;rsquo;s integration with JupyterHub&amp;rsquo;s authentication workflow, we&amp;rsquo;re using the
+&lt;a href="https://github.com/jupyterhub/oauthenticator/blob/main/oauthenticator/cilogon.py" target="_blank" rel="noopener" >&lt;strong>CILogonOAuthenticator&lt;/strong>&lt;/a>
+, which is part of the
+&lt;a href="https://oauthenticator.readthedocs.io/en/latest/" target="_blank" rel="noopener" >JupyterHub OAuthenticator project&lt;/a>
+. This is what allows JupyterHub to use common OAuth providers for authentication, and it&amp;rsquo;s also a base for writing other Authenticators with any OAuth 2.0 provider.&lt;/p>
+&lt;p>As part of this 2i2c integration with the JupyterHub CILogonOAuthenticator some important upstream fixes and enhancements to the
+&lt;a href="https://github.com/jupyterhub/oauthenticator" target="_blank" rel="noopener" >&lt;code>oauthenticator&lt;/code>&lt;/a>
+were identified and performed. For example, the
+&lt;a href="https://github.com/jupyterhub/oauthenticator/security/advisories/GHSA-r7v4-jwx9-wx43" target="_blank" rel="noopener" >GHSA-r7v4-jwx9-wx43&lt;/a>
+vulnerability was reported and fixed, and a
+&lt;a href="https://oauthenticator.readthedocs.io/en/latest/how-to/migrations/upgrade-to-15.html" target="_blank" rel="noopener" >migration guide&lt;/a>
+containing a description of the breaking changes that were made, together with a step by step guide for the users on how to update their usage of JupyterHub CILogonOAuthenticator was provided.&lt;/p>
+&lt;p>Read more about how CILogon is setup for use at 2i2c from
+&lt;a href="https://infrastructure.2i2c.org/hub-deployment-guide/configure-auth/cilogon.html" target="_blank" rel="noopener" >the docs&lt;/a>
+.&lt;/p>
+&lt;h2 id="celebration">
+Celebration
+&lt;a class="header-anchor" href="#celebration">#&lt;/a>
+&lt;/h2>&lt;p>Thanks to the 2i2c - CILogon partnership, during this past year we were able to integrate CILogon into 2i2c&amp;rsquo;s infrastructure and to observe its importance, usefulness and great support for 2i2c and the communities we server.&lt;/p>
+&lt;p>We are now happy to announce that the 2i2c - CILogon partnership has been expanded to another year!&lt;/p>
+&lt;p>&lt;strong>Acknowledgements&lt;/strong>: The upstream
+&lt;a href="https://oauthenticator.readthedocs.io/en/latest" target="_blank" rel="noopener" >&lt;code>jupyterhub-oauthenticator&lt;/code>&lt;/a>
+project mentioned in this post as being used at 2i2c is a JupyterHub package, kindly developed and maintained by the
+&lt;a href="https://discourse.jupyter.org/c/jupyterhub/" target="_blank" rel="noopener" >JupyterHub community&lt;/a>
+and the 2i2c integration described was developed by
+&lt;a href="https://2i2c.org/organization/" >the 2i2c engineering team&lt;/a>
+. Also, this post was edited by
+&lt;a href="https://jbasney.net/" target="_blank" rel="noopener" >Jim Basney&lt;/a>
+.&lt;/p></description></item><item><title>New project: Open science cloud infrastructure and training for communities in Latin America and Africa</title><link>https://2i2c.org/blog/2022/czi-global-communities-announcement/</link><pubDate>Tue, 20 Dec 2022 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2022/czi-global-communities-announcement/</guid><description>&lt;p>We are excited to announce that the team and proposal
+&lt;a href="https://2i2c.org/blog/2022/czi-global-communities-proposal/" target="_blank" rel="noopener" >described in this blog post&lt;/a>
+has been awarded funding by the
+&lt;a href="https://chanzuckerberg.com/" target="_blank" rel="noopener" >Chan Zuckerberg Initiative&lt;/a>
+!&lt;/p>
+&lt;p>&lt;em>This announcement may be cross-posted on the websites of several collaborating organizations of this grant. &lt;strong>Para leer este post en español,
+&lt;a href="https://www.metadocencia.org/post/infraestructura-nube/" target="_blank" rel="noopener" >vea el blog de MetaDocencia&lt;/a>
+&lt;/strong>.&lt;/em>&lt;/p>
+&lt;p>Our goal is to create a collaborative cloud infrastructure service that enables community-based cloud-native workflows in the biosciences. We will promote values of open and inclusive community practices, infrastructure that enables these practices, and a “train the trainers” approach that empowers community leaders to share expertise in cloud infrastructure with others in their communities. Our focus will be on communities in Latin America and Africa, and we hope to learn how this model could be extended to other global communities that are historically marginalized from large-scale scientific infrastructure projects.&lt;/p>
+&lt;p>2i2c will be providing cloud infrastructure operation and support for the communities that we partner with in this effort.
+We will also assist with creating content to teach cloud-native workflows and assist community leaders in learning this content so that they can share these skills with others.&lt;/p>
+&lt;p>This is a collaborative effort between
+&lt;a href="http://2i2c.org" target="_blank" rel="noopener" >2i2c&lt;/a>
+,
+&lt;a href="http://carpentries.org" target="_blank" rel="noopener" >The Carpentries&lt;/a>
+,
+&lt;a href="http://cscce.org" target="_blank" rel="noopener" >CSCCE&lt;/a>
+,
+&lt;a href="http://investinopen.org" target="_blank" rel="noopener" >Invest in Open Infrastructure&lt;/a>
+,
+&lt;a href="http://metadocencia.org" target="_blank" rel="noopener" >MetaDocencia&lt;/a>
+, and
+&lt;a href="http://openlifesci.org" target="_blank" rel="noopener" >Open Life Science&lt;/a>
+. For more detailed information, see
+&lt;a href="https://2i2c.org/blog/2022/czi-global-communities-proposal/" target="_blank" rel="noopener" >the blog post with our full grant narrative&lt;/a>
+.&lt;/p>
+&lt;h2 id="we-are-hiring">
+We are hiring
+&lt;a class="header-anchor" href="#we-are-hiring">#&lt;/a>
+&lt;/h2>&lt;p>As a part of this effort, we will also hire several new team members! There are currently two job postings open. Here are links for more information in case you are interested:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="https://2i2c.org/jobs/2022/open-source-infrastructure-engineer/" target="_blank" rel="noopener" >Cloud infrastructure engineer&lt;/a>
+to join &lt;strong>2i2c’s Site Reliability Engineering team&lt;/strong> that will operate and support the cloud infrastructure in this project.&lt;/li>
+&lt;li>
+&lt;a href="https://openlifesci.org/posts/2022/12/19/ECB-PM-job-description/" target="_blank" rel="noopener" >Programme manager role&lt;/a>
+to join &lt;strong>Open Life Science&lt;/strong> and support this project via project management and operational support.&lt;/li>
+&lt;/ul>
+&lt;p>We may be hiring other positions related to this effort, so
+&lt;a href="https://forms.gle/5boZswKNUn2NcTUv9" target="_blank" rel="noopener" >please stay tuned for more information&lt;/a>
+if you are interested.&lt;/p>
+&lt;h2 id="where-to-follow-along">
+Where to follow along
+&lt;a class="header-anchor" href="#where-to-follow-along">#&lt;/a>
+&lt;/h2>&lt;p>If you’d like to follow along with this work, please
+&lt;a href="https://forms.gle/5boZswKNUn2NcTUv9" target="_blank" rel="noopener" >share your e-mail address in this short form&lt;/a>
+. We’ll send updates as we work out longer-term spaces for communication or documentation.&lt;/p>
+&lt;div class="about-us">
+&lt;blockquote>
+&lt;p>💡 Follow our work!
+&lt;a href="http://eepurl.com/hjHbff" target="_blank" rel="noopener" >Sign up for our mailing list&lt;/a>
+for updates about 2i2c.
+&lt;a href="" >Send us an e-mail about collaborating or partnering&lt;/a>
+on a project.
+See our
+&lt;a href="https://docs.2i2c.org" target="_blank" rel="noopener" >Service Documentation&lt;/a>
+or our
+&lt;a href="https://compass.2i2c.org" target="_blank" rel="noopener" >Team Compass&lt;/a>
+to learn about our service and organization.&lt;/p>
+&lt;/blockquote>
+&lt;/div></description></item><item><title>GESIS - 2i2c collaborate to build a persistent BinderHub experience</title><link>https://2i2c.org/blog/2022/gesis-2i2c-collaboration-update/</link><pubDate>Mon, 28 Nov 2022 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2022/gesis-2i2c-collaboration-update/</guid><description>
+&lt;h1 id="introduction">
+Introduction
+&lt;a class="header-anchor" href="#introduction">#&lt;/a>
+&lt;/h1>&lt;p>
+&lt;a href="https://mybinder.org" target="_blank" rel="noopener" >Mybinder.org&lt;/a>
+enables researchers across the world to replicate computational environments in the cloud. It allows researchers to turn static code into interactive literate coding environments with a click of a button within seconds. The
+&lt;a href="https://mybinder.org" target="_blank" rel="noopener" >mybinder.org&lt;/a>
+service is powered by
+&lt;a href="https://binderhub.readthedocs.io" target="_blank" rel="noopener" >BinderHub&lt;/a>
+, an open-source tool developed by
+&lt;a href="https://jupyter.org" target="_blank" rel="noopener" >the Jupyter Project&lt;/a>
+that many organizations have deployed for their own communities. It does this by _dynamically building _the software environment needed to reproduce a computation (using a tool called
+&lt;a href="https://repo2docker.readthedocs.io" target="_blank" rel="noopener" >repo2docker&lt;/a>
+), and making this environment available to users.&lt;/p>
+&lt;p>BinderHub was developed for use-cases that are &lt;em>temporary&lt;/em> and &lt;em>fully open&lt;/em> by design. BinderHub sessions are destroyed after a fixed amount of time and there is no persistent storage or authentication. However, many research institutions also need more “standard” service features like authentication and persistent storage.&lt;/p>
+&lt;p>Over the past several years, the
+&lt;a href="http://notebooks.gesis.org" target="_blank" rel="noopener" >GESIS Notebooks&lt;/a>
+team made the first steps towards bridging this gap through their
+&lt;a href="https://github.com/gesiscss/persistent_binderhub" target="_blank" rel="noopener" >Persistent BinderHub&lt;/a>
+implementation. This was a modified and authenticated BinderHub that &lt;em>included&lt;/em> persistent storage across sessions. The Persistent BinderHub service was very successful at GESIS and with its partner communities, and the team wishes to build this functionality into the JupyterHub community’s core technology so that these features can be enjoyed for more use-cases and by many communities.&lt;/p>
+&lt;p>To enable this vision, we have partnered with GESIS in cooperation with
+&lt;a href="https://www.nfdi4datascience.de/" target="_blank" rel="noopener" >NFDI4DS&lt;/a>
+(GAN: 460234259),
+&lt;a href="https://www.cessda.eu/" target="_blank" rel="noopener" >CESSDA&lt;/a>
+, and members of the
+&lt;a href="https://jupytearth.org/" target="_blank" rel="noopener" >JMTE&lt;/a>
+project. This collaboration has three primary goals:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Generalize the Persistent BinderHub functionality/experience to run on cloud-agnostic infrastructure&lt;/strong>, so that other stakeholders in NFDI, CESSDA, and the broader scientific community may benefit from this functionality and experience.&lt;/li>
+&lt;li>&lt;strong>Upstream this functionality by making contributions into Jupyter community projects&lt;/strong>, so that it will be maintained and improved by a community moving forward, thus improving its reliability and sustainability.&lt;/li>
+&lt;li>&lt;strong>Improve the implementation and user experience around Persistent BinderHub&lt;/strong>, in order to make it more reliable, scalable, productive, and enjoyable to use.&lt;/li>
+&lt;/ul>
+&lt;p>We began this collaboration several months ago, and have focused our efforts on exploring potential implementation pathways for this functionality. We believe that we now have a path forward for this functionality, and this blog post is a brief report of our efforts and future plans as we undertake this effort. See
+&lt;a href="https://github.com/orgs/2i2c-org/projects/33" target="_blank" rel="noopener" >this GitHub Projects Board for issues that implement this effort&lt;/a>
+.&lt;/p>
+&lt;h3 id="exploration-1-adding-persistent-storage-directly-into-binderhub">
+Exploration 1: Adding persistent storage directly into BinderHub
+&lt;a class="header-anchor" href="#exploration-1-adding-persistent-storage-directly-into-binderhub">#&lt;/a>
+&lt;/h3>&lt;p>Our initial intention was to incorporate persistent storage and authentication from the GESIS Persistent BinderHub into the
+&lt;a href="http://binderhub.readthedocs.io/" target="_blank" rel="noopener" >BinderHub codebase&lt;/a>
+. We began by holding a series of meetings to discuss technical requirements from our experience in the JupyterHub/BinderHub ecosystem, and also conducted an audit of the
+&lt;a href="https://www.google.com/url?q=https://github.com/gesiscss/persistent_binderhub/blob/9936fc2251abafd00921b3b53954fb60c8640347/persistent_binderhub/values.yaml" target="_blank" rel="noopener" >Persistent BinderHub codebase&lt;/a>
+. The Persistent BinderHub implementation is a
+&lt;a href="https://github.com/gesiscss/persistent_binderhub/blob/9936fc2251abafd00921b3b53954fb60c8640347/persistent_binderhub/values.yaml" target="_blank" rel="noopener" >modified Helm Chart&lt;/a>
+that configures a JupyterHub to expose its authentication and persistent storage functionality, overriding the BinderHub default behavior. We were concerned that building this functionality &lt;em>natively&lt;/em> into BinderHub would be challenging given that the BinderHub codebase was designed for ephemeral user sessions.&lt;/p>
+&lt;p>So, we decided to take another approach:&lt;/p>
+&lt;h3 id="exploration-2-add-dynamic-image-building-to-jupyterhub">
+Exploration 2: Add dynamic image building to JupyterHub
+&lt;a class="header-anchor" href="#exploration-2-add-dynamic-image-building-to-jupyterhub">#&lt;/a>
+&lt;/h3>&lt;p>We realized that there is a way to make this functionality more broadly useful and more maintainable, while still achieving the end-user experience that the GESIS team needed. Instead of modifying BinderHub to incorporate JupyterHub’s storage and authentication features, &lt;strong>we would give JupyterHub the ability do dynamically generate user environments using
+&lt;a href="http://repo2docker.readthedocs.io/" target="_blank" rel="noopener" >repo2docker&lt;/a>
+&lt;/strong>.&lt;/p>
+&lt;p>This would give JupyterHub users more flexibility over the environments served by their hub, and expose Binder-style workflows to the “typical” JupyterHub workflow. BinderHub could then be simplified to re-use JupyterHub’s image building functionality as a part of its own service. We also identified a prototype of this functionality in the
+&lt;a href="https://github.com/plasmabio/tljh-repo2docker" target="_blank" rel="noopener" >tljh-repo2docker&lt;/a>
+project that
+&lt;a href="https://quantstack.net/" target="_blank" rel="noopener" >QuantStack&lt;/a>
+had built for the
+&lt;a href="https://plasmabio.org/" target="_blank" rel="noopener" >PlasmaBio project&lt;/a>
+. This implementation was seen as successful, and something others in the community had wanted to generalize for some time.&lt;/p>
+&lt;h1 id="our-implementation-plan">
+Our implementation plan
+&lt;a class="header-anchor" href="#our-implementation-plan">#&lt;/a>
+&lt;/h1>
+&lt;h2 id="two-phases-of-implementation">
+Two phases of implementation
+&lt;a class="header-anchor" href="#two-phases-of-implementation">#&lt;/a>
+&lt;/h2>&lt;p>With this alternative implementation route in place, we identified two major steps to accomplish this project:&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>Build a back-end for dynamic environment building&lt;/strong>. JupyterHub needs to understand how to call repo2docker’s image generation from a Docker-based environment. It needs to expose this ability via APIs that others can build interfaces on top of.&lt;/li>
+&lt;li>**Build a front-end that is user-friendly and accessible. **Once the back-end is functional, we must build a front-end experience that feels familiar to BinderHub users and is easy and intuitive to use.&lt;/li>
+&lt;/ol>
+&lt;p>Here are a few tasks that we’re carrying out next to make progress on the above two items.&lt;/p>
+&lt;ul>
+&lt;li>Build a working prototype for image generation via a &lt;em>JupyterHub Service&lt;/em> (see below for current status)&lt;/li>
+&lt;li>Research the &lt;code>tljh-repo2docker&lt;/code> code base to understand how we could build upon its UX and functionality.&lt;/li>
+&lt;li>Understand the typical process that GESIS and NFDI users follow in their BinderHub workflows, to ensure that it can be replicated via this new implementation.&lt;/li>
+&lt;li>Perform UI/UX research validation to inform the implementation from a user’s perspective.&lt;/li>
+&lt;/ul>
+&lt;p>As a follow-up, we’ll likely re-work the BinderHub codebase to utilize JupyterHub’s new repo2docker service, rather than defining its own custom repo2docker functionality.&lt;/p>
+&lt;h2 id="back-end-implementation-as-a-jupyterhub-service">
+Back-end implementation as a JupyterHub Service
+&lt;a class="header-anchor" href="#back-end-implementation-as-a-jupyterhub-service">#&lt;/a>
+&lt;/h2>&lt;p>We’re planning to use
+&lt;a href="https://jupyterhub.readthedocs.io/en/stable/reference/services.html" target="_blank" rel="noopener" >JupyterHub Services&lt;/a>
+to add the back-end functionality for dynamic image building to a JupyterHub. Services are a way to expose functionality via a JupyterHub REST API, and would allow us to expose basic image generation on-the-fly with
+&lt;a href="https://repo2docker.readthedocs.io/" target="_blank" rel="noopener" >repo2docker&lt;/a>
+. We aim for basic functionality to be as close as possible to repo2docker’s default behavior, but to make this functionality _composable and customizable _if a JupyterHub administrator wants to provide different out-of-the-box functionality.&lt;/p>
+&lt;p>While details may still change, we believe that the major architectural plan has now been settled. We have
+&lt;a href="https://github.com/consideratio/repo2docker-service" target="_blank" rel="noopener" >an experimental codebase&lt;/a>
+with a basic implementation of the repo2docker service described above. As part of this effort, this team has also made a number of improvements to repo2docker’s codebase and project infrastructure. We hope that this effort will continue to push resources and attention to repo2docker by growing the number of users and stakeholders that rely on the project for their success.&lt;/p>
+&lt;h2 id="front-end-implementation-that-uses-this-service">
+Front-end implementation that uses this service
+&lt;a class="header-anchor" href="#front-end-implementation-that-uses-this-service">#&lt;/a>
+&lt;/h2>&lt;p>Once the back-end setup exists, we can use it to begin prototyping user interactions that can trigger and use repo2docker’s image generation. Bringing dynamic environment image building into JupyterHub is a significant improvement in its functionality, and may introduce new kinds of workflows that we hadn’t initially imagined. Understanding, interpreting, and extending the original “Persistent BinderHub” workflow will require a more thorough understanding of user stories and needs in order to identify new workflows that feel natural not only in a JupyterHub scenario but also in a Binder-like scenario.&lt;/p>
+&lt;p>For example, here are a few major UI/UX questions we must answer:&lt;/p>
+&lt;ul>
+&lt;li>When a user builds an image, should it also become available to &lt;em>other users&lt;/em> as well?&lt;/li>
+&lt;li>How can a user store, find, and delete old images that they’ve built?&lt;/li>
+&lt;li>What about new versions of the same image?&lt;/li>
+&lt;li>Should we simply mimic the mybinder.org UX, or should this be improved as well?&lt;/li>
+&lt;/ul>
+&lt;p>We must answer these and several other questions next. With that vision in place, we’d like to &lt;strong>expand our efforts in UI/UX and user research&lt;/strong>. This will help inform the technical implementation of this work as we expand on our prototype, and help us choose the right way to expose this functionality to users. We welcome collaboration around this work - if you know of an organization that is interested in collaboration, please reach out.&lt;/p>
+&lt;h1 id="collaborate-and-follow-along">
+Collaborate and follow along
+&lt;a class="header-anchor" href="#collaborate-and-follow-along">#&lt;/a>
+&lt;/h1>&lt;p>Below you’ll find a rough project plan to give an idea for the major actions needed and a timeline for when we hope they’ll be completed. We’ll track further updates and progress on this project in this
+&lt;a href="https://github.com/2i2c-org/infrastructure/issues/1382" target="_blank" rel="noopener" >dedicated GitHub issue&lt;/a>
+and this
+&lt;a href="https://github.com/orgs/2i2c-org/projects/33/views/1" target="_blank" rel="noopener" >dedicated GitHub project board&lt;/a>
+.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Timeline" srcset="
+/blog/2022/gesis-2i2c-collaboration-update/timeline_huf349230eacdca331b5924cfc1e190900_44466_4a589a8f6a8820fe798f80e3344efa26.webp 400w,
+/blog/2022/gesis-2i2c-collaboration-update/timeline_huf349230eacdca331b5924cfc1e190900_44466_01ee42ea3d744254e0efb955fb71e51e.webp 760w,
+/blog/2022/gesis-2i2c-collaboration-update/timeline_huf349230eacdca331b5924cfc1e190900_44466_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2022/gesis-2i2c-collaboration-update/timeline_huf349230eacdca331b5924cfc1e190900_44466_4a589a8f6a8820fe798f80e3344efa26.webp"
+width="760"
+height="555"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>After a few months working on this project, we are even more excited about the potential for dynamically building environments in a JupyterHub. We believe that it adds a new class of workflows to JupyterHubs that were not possible before, and will be immediately useful to the hundreds of communities that deploy JupyterHub for their communities.&lt;/p></description></item><item><title>Grant progress report: CZI Foundational grant year 2</title><link>https://2i2c.org/blog/2022/czi-year2-progress-report/</link><pubDate>Sun, 13 Nov 2022 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2022/czi-year2-progress-report/</guid><description>&lt;p>We recently completed a progress report for Year 2 of our primary CZI funding grant.
+This funding covers some core operations of 2i2c as well as engineering capacity to run our cloud infrastructure for JupyterHubs.&lt;/p>
+&lt;p>Below is a link to the 3-page grant narrative that summarizes some of our major progress and milestones from year two:&lt;/p>
+&lt;p>
+&lt;a href="https://zenodo.org/record/7319289" target="_blank" rel="noopener" >https://zenodo.org/record/7319289&lt;/a>
+&lt;/p></description></item><item><title>Reflections on the Jack Eddy Symposium</title><link>https://2i2c.org/blog/2022/eddy-symposium-report/</link><pubDate>Thu, 14 Jul 2022 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2022/eddy-symposium-report/</guid><description>
+&lt;h1 id="reflections-on-the-jack-eddy-symposium">
+Reflections on the Jack Eddy Symposium
+&lt;a class="header-anchor" href="#reflections-on-the-jack-eddy-symposium">#&lt;/a>
+&lt;/h1>&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Eddy Symposium Hero Image" srcset="
+/blog/2022/eddy-symposium-report/cover-featured_hu65774d245d7022e22422f407a342fc61_85909_9ccc1a7885d2ffa87872e038c5a20b37.webp 400w,
+/blog/2022/eddy-symposium-report/cover-featured_hu65774d245d7022e22422f407a342fc61_85909_611be7acd5ceece2ca1898c4ce5b28ee.webp 760w,
+/blog/2022/eddy-symposium-report/cover-featured_hu65774d245d7022e22422f407a342fc61_85909_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+src="https://2i2c.org/blog/2022/eddy-symposium-report/cover-featured_hu65774d245d7022e22422f407a342fc61_85909_9ccc1a7885d2ffa87872e038c5a20b37.webp"
+width="760"
+height="338"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>2i2c supported and participated in the
+&lt;a href="https://cpaess.ucar.edu/meetings/eddy-symposium-2022" target="_blank" rel="noopener" >3rd Eddy Cross Disciplinary Symposium&lt;/a>
+held recently in Vail Colorado. The event was hosted by the Cooperative Programs for the Advancement of Earth System Science (
+&lt;a href="https://cpaess.ucar.edu/" target="_blank" rel="noopener" >CPAESS&lt;/a>
+) team at the University Corporation for Atmospheric Research (
+&lt;a href="https://www.ucar.edu/" target="_blank" rel="noopener" >UCAR&lt;/a>
+) with support from NASA.&lt;/p>
+&lt;h2 id="context">
+Context
+&lt;a class="header-anchor" href="#context">#&lt;/a>
+&lt;/h2>&lt;p>The Symposium was framed by the interesting and interdisciplinary scientific career of the late
+&lt;a href="https://en.wikipedia.org/wiki/John_A._Eddy" target="_blank" rel="noopener" >Jack Eddy&lt;/a>
+. Eddy&amp;rsquo;s legacy was highlighted and his influence has been extended by dynamic leadership from NASA Program Officer
+&lt;a href="https://science.nasa.gov/about-us/organization-and-leadership/lead-program-scientist-for-lws" target="_blank" rel="noopener" >Madhulika Guhathakurta (Lika)&lt;/a>
+. Lika helped launch and has sustained NASA&amp;rsquo;s
+&lt;a href="https://science.nasa.gov/heliophysics/programs/living-with-a-star" target="_blank" rel="noopener" >Living with a Star (LWS)&lt;/a>
+program over the past two decades. Prior to LWS, NASA had a variety of siloed efforts focused on near-Sun and near-Earth behavior. The LWS program led to an integration of these efforts under &amp;ldquo;system science&amp;rdquo; or &amp;ldquo;systems engineering&amp;rdquo; approaches and an expressed desired to connect LWS research activities with impacts on Earth (society, biology, culture, etc.). The program has expanded to include explorations of similar questions arising around other planets in our solar system and the recently discovered collection of exoplanets. Scientists from diverse disciplines (plasma physics, stellar evolution, atmospheric chemistry, space weather, planetary science,&amp;hellip;) work together on &amp;ldquo;cross disciplinary&amp;rdquo; research that helps us understand our lives near our star.&lt;/p>
+&lt;p>The Symposium focused on three disciplinary areas (&lt;strong>Exoplanets&lt;/strong>; &lt;strong>Sun-Climate and Star-Climate interactions&lt;/strong>; &lt;strong>Risk and resilience of space weather&lt;/strong>) unified under the cross-cutting thread of &lt;strong>open science&lt;/strong>. Frequent references were made to the upcoming 2023 Year of Open Science and
+&lt;a href="https://science.nasa.gov/open-science/transform-to-open-science" target="_blank" rel="noopener" >NASA&amp;rsquo;s Transform to Open Science (TOPS) mission&lt;/a>
+. Symposium attendees listened to talks surveying the four areas in the morning and participated in hackathon-style breakout projects during the afternoons. Work on the projects launched at the Eddy Symposium
+&lt;a href="https://github.com/jack-eddy-symposium" target="_blank" rel="noopener" >continues&lt;/a>
+. The space weather group is investigating ways to make the power grid more resilient. The Sun-climate group is exploring plans to establish an institute focused on Sun-climate interactions and improve connections between climate and heliophysics research communities. The exoplanets team is developing tools to programmatically compare Sun-Earth and star-exoplanet interactions.&lt;/p>
+&lt;h2 id="2i2cs-role">
+2i2c&amp;rsquo;s role
+&lt;a class="header-anchor" href="#2i2cs-role">#&lt;/a>
+&lt;/h2>&lt;p>2i2c, with input from Symposium CoChair&amp;rsquo;s
+&lt;a href="https://staff.ucar.edu/users/marsh" target="_blank" rel="noopener" >Dan Marsh&lt;/a>
+and
+&lt;a href="http://www.ryanmcgranaghan.com/about.html" target="_blank" rel="noopener" >Ryan McGranaghan&lt;/a>
+, rapidly deployed a cloud-hosted JupyterHub for use during the event. The hub provided a shared space for participants to explore data, run analyses, and collaborate with one another using modern tools including Zarr, Xarray and Dask Gateway. Access to the interactive computing platform was granted to any member of the
+&lt;a href="https://github.com/jack-eddy-symposium/" target="_blank" rel="noopener" >Symposium&amp;rsquo;s GitHub organization&lt;/a>
+. The work to set up that hub, openly chronicled in this GitHub issue (
+&lt;a href="https://github.com/2i2c-org/infrastructure/issues/1329" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> 2i2c-org/infrastructure#1329&lt;/a>
+), included swapping out a Pangeo-style software environment for a heliophysics-specific resource developed by
+&lt;a href="http://heliocloud.org/" target="_blank" rel="noopener" >HelioCloud&lt;/a>
+with special thanks to
+&lt;a href="https://www.nasa.gov/offices/oce/bios/mwm/Thomas-Brian-bio.html" target="_blank" rel="noopener" >Brian Thomas&lt;/a>
+!&lt;/p>
+&lt;p>2i2c co-founder Fernando Pérez gave a talk on how he is
+&lt;a href="https://docs.google.com/presentation/d/1i99eQqOVCSQyxoyscUo0dl3Ybgdex5qKo_KEO9YGxQg/edit?usp=drivesdk" target="_blank" rel="noopener" >&amp;ldquo;living la vida nube&amp;rdquo;&lt;/a>
+. Fernando described the ways he, research collaborators, and students are using the Jupyter ecosystem. Diverse and curated tools in Jupyter hubs for the
+&lt;a href="https://jupytearth.org/" target="_blank" rel="noopener" >Jupyter Meets the Earth Project&lt;/a>
+and
+&lt;a href="https://data.berkeley.edu/" target="_blank" rel="noopener" >Berkeley&amp;rsquo;s data science programs&lt;/a>
+were highlighted. The talk showcased how these tools have been integrated to support individuals and communities of practice in data-driven research. In response to requests from the organizers and participants, Fernando gave a demonstration on how to use the hub 2i2c set up for the Symposium and an introduction to version control using &lt;code>git&lt;/code>.&lt;/p>
+&lt;p>2i2c co-founder Jim Colliander gave a talk titled
+&lt;a href="https://bit.ly/eddy-science-commons" target="_blank" rel="noopener" >Governing the Science Commons&lt;/a>
+. Three key points from Jim&amp;rsquo;s talk were: the virtue that should guide the improvements to the scientific enterprise is intellectual generosity; implementation of intellectual generosity into science requires commons-based governance; the convergence of open source tools that support data-intensive collaborative research and learning (as showcased by Fernando) and agency interest (
+&lt;a href="https://science.nasa.gov/open-science/transform-to-open-science" target="_blank" rel="noopener" >NASA TOPS&lt;/a>
+,
+&lt;a href="https://unesdoc.unesco.org/ark:/48223/pf0000379949/PDF/379949eng.pdf.multi.page=1" target="_blank" rel="noopener" >UNESCO&lt;/a>
+) in open science is an inflection point for global change. The talk ended with a call to action for the diverse communities represented at the Symposium to improve the ways we do science.&lt;/p>
+&lt;h2 id="things-we-learned">
+Things we learned
+&lt;a class="header-anchor" href="#things-we-learned">#&lt;/a>
+&lt;/h2>&lt;p>Our experience with the Symposium taught 2i2c a few things.&lt;/p>
+&lt;p>We learned that our engineering team can rapidly deploy interactive computing resources to support a research and education community. Along the way, we confirmed what we&amp;rsquo;ve been learning from Pangeo and the neuroscience communities: flexible methods to customize the software environment are necessary. We confirmed that our developing
+&lt;a href="https://docs.2i2c.org/about/service/shared-responsibility.html?highlight=shared%20responsibility" target="_blank" rel="noopener" >shared responsibility model&lt;/a>
+, enabling domain-specific experts to provide curated toolchains for their communities while leveraging 2i2c&amp;rsquo;s infrastructure expertise, is the right approach.&lt;/p>
+&lt;p>We learned that managing access to the hub using members in a GitHub organization works but involves some toil since organizers had to work through the GitHub invitation process for each participant. We are exploring others ways to systematically grant event participants access to a hub.&lt;/p>
+&lt;p>The Eddy Symposium experience reminded us that some skill at using &lt;code>git&lt;/code> is vital for collaboration. Fernando&amp;rsquo;s brief introduction to &lt;code>git&lt;/code> provided
+&lt;a href="https://jack-eddy-symposium.github.io/intro-git-jupyter/intro-git/git-visuals.html" target="_blank" rel="noopener" >the mental model of working on a directed acyclyic graph&lt;/a>
+. Roving support from Jim and Fernando during the afternoon hackathon sessions normalized the skill level across the groups but not without a few merge conflicts and frustration. Near the beginning of future workshops, we will follow an improved approach aimed at establishing good &lt;code>git&lt;/code> hygeine and familiarity with the collaboration workflow using a simple pull request.&lt;/p>
+&lt;p>We are honored to have had the opportunity to collaborate with the Eddy Symposium team by managing infrastructure and participating in the workshop. We learned a lot about how to support the Helio and adjacent communities, and are proud of the ways in which our infrastructure helped them do their work more openly and effectively. We hope to build on these successes with these and other communities in the future!&lt;/p></description></item><item><title>Pangeo Cloud goes live on 2i2c!</title><link>https://2i2c.org/blog/2021/pangeo-goes-live/</link><pubDate>Tue, 16 Nov 2021 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2021/pangeo-goes-live/</guid><description>&lt;p>
+&lt;a href="https://pangeo.io/cloud.html" target="_blank" rel="noopener" >Pangeo Cloud&lt;/a>
+is an experimental service providing public cloud-based data-science environments for data-intensive geoscience research.
+We have recently finished re-creating the
+&lt;a href="http://pangeo.io/" target="_blank" rel="noopener" >Pangeo&lt;/a>
+community JupyterHub hosted on GCP in the
+&lt;a href="https://github.com/2i2c-org/infrastructure" target="_blank" rel="noopener" >2i2c-org/infrastructure&lt;/a>
+repository.
+This is a huge milestone in our partnership with Pangeo to provide expertise and operations of cloud-based, vendor-agnostic Jupyter infrastructure and workflows.&lt;/p>
+&lt;p>For users of Pangeo Cloud, the switch should have been a smooth one!
+The new hub should behave nearly identically to the old one, and will be managed by 2i2c engineers moving forward, in partnership with the Pangeo community.
+It will be available at the same URL (
+&lt;a href="https://us-central1-b.gcp.pangeo.io" target="_blank" rel="noopener" >https://us-central1-b.gcp.pangeo.io&lt;/a>
+) and there&amp;rsquo;s no need to worry about your home directories, they were synced to the new hub only a few days before the migration took place.
+Development and operations on this hub will all be done in the open and we invite participation and feedback from others in our infrastructure work.
+Please see
+&lt;a href="https://discourse.pangeo.io/t/migration-of-us-central1-b-gcp-pangeo-io-to-2i2c-infrastructure/1890" target="_blank" rel="noopener" >this Discourse thread&lt;/a>
+as an initial place to provide feedback.&lt;/p>
+&lt;p>On &lt;strong>22nd November 2021&lt;/strong>, the old Pangeo GCP JupyterHub will be shut down, and the project will move forward on the new 2i2c Pangeo Hub.
+Moving forward, we plan to collaborate together in order to find new pathways for development in the Jupyter ecosystem - we will share more ideas of things we will work on soon!&lt;/p>
+&lt;h2 id="history-of-pangeo-cloud-hubs">
+History of Pangeo Cloud Hubs
+&lt;a class="header-anchor" href="#history-of-pangeo-cloud-hubs">#&lt;/a>
+&lt;/h2>&lt;p>Pangeo has pioneered a new model in using open source and cloud-agnostic infrastructure to support scientific research in the cloud.&lt;/p>
+&lt;p>The first Pangeo cloud JupyterHub (pangeo.pydata.org; now defuct) was deployed for the
+&lt;a href="https://annual.ametsoc.org/2017/" target="_blank" rel="noopener" >2017 American Meteoroligical Society Meeting&lt;/a>
+; since then, the Pangeo community has iterated through several different versions of prototype cloud-based hubs.
+This allowed for many new workflows that enabled a more open and collaborative pathway to doing world class research, and included access to datasets and computational resources that were previously unattainable.
+Pangeo achieved this by working in partnership with open source communities and building technology that leveraged modular open source components for their platform.&lt;/p>
+&lt;p>In the last several years, Pangeo have built a thriving community of practice around this infrastructure.
+However as the community has grown, so has the need for more reliable and dedicated operational and developmental support since parts of the Pangeo stack require dedicated expertise and attention to managed.
+Modern scalable cloud infrastructure is one example of this. Maintaining a complex JupyterHub with many users is a difficult task, and has required significant resources from the Pangeo Project up to this point.&lt;/p>
+&lt;h2 id="the-pangeo-2i2c-partnership">
+The Pangeo-2i2c Partnership
+&lt;a class="header-anchor" href="#the-pangeo-2i2c-partnership">#&lt;/a>
+&lt;/h2>&lt;p>
+&lt;a href="https://2i2c.org" target="_blank" rel="noopener" >2i2c&lt;/a>
+is a non-profit team that develops and operates cloud infrastructure for interactive computing workflows.
+We have extensive experience in Jupyter workflows in the cloud and a long history of contributions to projects in this ecosystem.
+We have built a cloud deployment management system that allows us to centralise and configure the deployment of many independent JupyterHubs, empowering communities to leverage the same infrastructure (and team!) for JupyterHubs running in the cloud.&lt;/p>
+&lt;p>Similarly to Pangeo, all of 2i2c&amp;rsquo;s core infrastructure is cloud- and vendor-agnostic, and follows a model of building open source tools and giving back to those communities.
+Our partnership with Pangeo began through 2i2c&amp;rsquo;s core competency in these areas and the similarity between the two project&amp;rsquo;s technical stacks.&lt;/p>
+&lt;p>We&amp;rsquo;ve begun a partnership whereby 2i2c will manage Pangeo&amp;rsquo;s cloud infrastructure and lead efforts to develop new features, in partnership with open source communities.
+We sketched out a few ideas to focus on in this
+&lt;a href="https://discourse.pangeo.io/t/notes-from-the-pangeo-2i2c-kick-off-meeting/1587" target="_blank" rel="noopener" >kick-off thread on Discourse&lt;/a>
+.
+This approach allows each community to focus on it&amp;rsquo;s core strengths: Pangeo will continue to grow an open community and scientific software ecosystem around geospatial analytics, and 2i2c will oversee the development and operations of the core cloud infrastructure stack that powers Pangeo&amp;rsquo;s workflows.
+In some areas we are still experimenting with different collaboration models to ensure that the needs of the Pangeo community are met in a way that is also sustainable for 2i2c.
+Over the coming weeks, you may see some conversations (and threads for feedback!) about different support and operations models that work best for the community.
+We are excited to use this as an opportunity to learn more about how to serve more complex and diverse communities like Pangeo.&lt;/p>
+&lt;p>We are extremely grateful to the Pangeo project for giving us the opportunity to serve their community, and we look forward to a long partnership ahead! &amp;#x1f680;&lt;/p></description></item><item><title>A deep dive into MyST, Part 2: The MyST-Parser, Docutils and Sphinx</title><link>https://2i2c.org/blog/2021/myst-nikola-part-2/</link><pubDate>Sat, 04 Sep 2021 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2021/myst-nikola-part-2/</guid><description/></item><item><title>A deep dive into MyST, Part 1: The MyST-Parser Python API usage in Nikola</title><link>https://2i2c.org/blog/2021/myst-nikola-part-1/</link><pubDate>Mon, 23 Aug 2021 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2021/myst-nikola-part-1/</guid><description/></item></channel></rss>

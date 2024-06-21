@@ -114,7 +114,7 @@ and
 &lt;p>
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
-&lt;div class="w-100" >&lt;img src="./screenshot.png" alt="Screenshot of Kubernetes Profiles with Unlisted Choice" loading="lazy" data-zoomable />&lt;/div>
+&lt;div class="w-100" >&lt;img src="./screenshot-featured.png" alt="Screenshot of Kubernetes Profiles with Unlisted Choice" loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;/figure>
 &lt;/p>
 &lt;p>A key component of doing &lt;em>sustainable&lt;/em> upstream work is that every addition needs to be useful by itself for a broad group of people. This change was very helpful for many communities that wanted to allow their users the freedom to pick whatever image they want to use, regardless of wether they wanted to use dynamic image building or not. The broad interest allowed us to build a coalition with other interested parties, and get the change accepted upstream more easily!&lt;/p>

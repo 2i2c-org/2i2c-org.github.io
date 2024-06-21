@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>James Munroe | 2i2c</title><link>https://2i2c.org/author/james-munroe/</link><atom:link href="https://2i2c.org/author/james-munroe/index.xml" rel="self" type="application/rss+xml"/><description>James Munroe</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 18 Jun 2024 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/author/james-munroe/avatar_hude7670af7a102670f2ed2cb0d3353624_103742_270x270_fill_lanczos_center_3.png</url><title>James Munroe</title><link>https://2i2c.org/author/james-munroe/</link></image><item><title>Hacking the Project Pythia Cook-off with MyST Markdown</title><link>https://2i2c.org/blog/2024/project-pythia-cookoff/</link><pubDate>Tue, 18 Jun 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/project-pythia-cookoff/</guid><description>&lt;p>
-&lt;figure >
+&lt;figure id="figure-photo-courtesy-of-dr-debanjana-das">
 &lt;div class="d-flex justify-content-center">
-&lt;div class="w-100" >&lt;img src="./cover.png" alt="Group selfie of Project Pythia Cook-off participants." loading="lazy" data-zoomable />&lt;/div>
-&lt;/div>&lt;/figure>
+&lt;div class="w-100" >&lt;img src="./cover-featured.png" alt="Group selfie of Project Pythia Cook-off participants." loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+Photo courtesy of Dr Debanjana Das
+&lt;/figcaption>&lt;/figure>
 &lt;/p>
 &lt;h2 id="what-is-project-pythia">
 What is Project Pythia?
