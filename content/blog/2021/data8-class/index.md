@@ -8,7 +8,7 @@ featured: false
 draft: false
 ---
 
-![Data8 logo](cover-feature.png "[Data8](https://github.com/data-8). MIT licensed.")
+![Data8 logo](cover-featured.png "[Data8](https://github.com/data-8). MIT licensed.")
 
 [Data8](https://www.data8.org/) began as a large introductory data science class at UC Berkeley. It uses a Jupyter Book for all course materials, and uses JupyterHub magic links to distribute course content from the textbook.
 
