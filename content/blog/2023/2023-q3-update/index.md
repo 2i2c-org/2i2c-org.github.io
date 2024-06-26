@@ -4,7 +4,7 @@ subtitle: ""
 summary: ""
 authors: ["Chris Holdgraf"]
 tags: []
-categories: ["updates"]
+categories: [organization]
 date: 2023-10-31
 featured: false
 draft: false

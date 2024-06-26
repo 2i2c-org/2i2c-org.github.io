@@ -4,7 +4,7 @@ subtitle: ""
 summary: ""
 authors: ["Chris Holdgraf", "Zack Adell"]
 tags: []
-categories: ["updates"]
+categories: [organization]
 date: 2023-09-07
 featured: false
 draft: false

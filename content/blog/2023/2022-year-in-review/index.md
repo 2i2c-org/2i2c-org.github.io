@@ -4,7 +4,7 @@ subtitle: ""
 summary: ""
 authors: ["Chris Holdgraf"]
 tags: ["year-in-review"]
-categories: [brainstorm]
+categories: [organization]
 date: 2023-01-04
 featured: false
 draft: false
