@@ -4,7 +4,7 @@ subtitle: "How we optimised and parallelised deployments of multiple JupyterHubs
 summary: ""
 authors: ["Sarah Gibson"]
 tags: []
-categories: [engineering]
+categories: [organization, service]
 date: "2022-04-19"
 featured: false
 draft: false
