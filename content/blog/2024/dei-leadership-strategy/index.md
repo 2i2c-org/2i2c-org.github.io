@@ -1,18 +1,18 @@
 ---
 title: We need to improve the diversity of our leadership
 date: "2024-06-28"
-authors: ["Jenny Wong", "Chris Holdgraf"]
+authors: ["Chris Holdgraf", "Jenny Wong"]
 tags: [culture]
 categories: [organization]
 featured: false
 draft: false
 ---
 
-As an organization commited to broadening access to interactive computing for global communities, we believe that a team embedded with diverse insights and lived experiences can more effectively advocate for under-represented voices in our socio-technical partnerships.
-A diversity of team experiences helps us deliver a service that broadens and empowers participation in open source science for all communities, and leads to [more effective teams that make better decisions](https://hbr.org/2016/11/why-diverse-teams-are-smarter).
+As an organization committed to broadening access to interactive computing for global communities, we believe that a team embedded with diverse insights and lived experiences can more effectively advocate for underrepresented voices in our socio-technical partnerships.
+A diversity of team experiences helps us deliver a service that broadens and empowers participation in open-source science for all communities and leads to [more effective teams that make better decisions](https://hbr.org/2016/11/why-diverse-teams-are-smarter).
 
-As a young and growing organization we have had mixed success in building diversity within our team.
-We've leaned into values of our service that build trust and attract a broad coalition of community partners (and potential employees).
+As a young and growing organization, we have had mixed success in building diversity within our team.
+We've leaned into the values of our service that build trust and attract a broad coalition of community partners (and potential employees).
 For example, we've used the following pillars in describing our service:
 
 1. **Transparency** – our transparent and participatory model keeps our incentives aligned with community needs.
@@ -26,11 +26,11 @@ We've also invested in creating an inclusive organizational culture via document
 
 ## The importance of diverse _leadership_
 
-However, over the past few months we have reflected on our organization's structure and future plans, and noticed a worrying lack of women in staff leadership roles. This imbalance does not live up to our values of diversity in our team and service.
+However, over the past few months, we have reflected on our organization's structure and future plans and noticed a worrying lack of women in staff leadership roles. This imbalance does not live up to our values of diversity in our team and service.
 
 We need to do better.
 
-2i2c is at a moment of maturation and growth as an organization, kicked off by [our organizational audit from 2023](../2023/organizational-report/index.md) as well as [our three year retrospective](../report-czi/index.md).
+2i2c is at a moment of maturation and growth as an organization, kicked off by [our organizational audit from 2023](../2023/organizational-report/index.md) as well as [our three-year retrospective](../report-czi/index.md).
 We believe that improving the diversity of leadership throughout the organization is a necessary part of that maturation over the next three years.
 
 Below are a few ideas for how we aim to make improvements, and we invite feedback from others who are interested in helping us improve this aspect of our organization.
@@ -42,10 +42,10 @@ Over the next few months, we will work on a long-term DEI strategy in tandem wit
 Here are some steps we aim to take to improve the diversity of our leadership across the organization:
 
 1. **Define our goals for diversity**. First, we need a better understanding of the most important axes of diversity that we wish to design around. Gender is clearly a critical gap to cover, but there are many other important axes of diversity as well. For example, as an organization that serves a global community, it is important that we have global perspectives represented in our leadership as well.
-2. **Define mechanisms for leadership and governance that includes representation along these axes**. Leadership at a staff level is one way to ensure representation of diverse perspectives, but there are many other ways to bring voices into the conversation as well. We aim to explore new ways of bringing diverse voices into the strategic direction of the organization, and provide mechanisms for holding us accountable to our values. For example, we intend to grow a _board_ to guide 2i2c's strategy and hold its Executive Director accountable for achieving impact - this is another opportunity to bring diverse perspectives into our leadership.
-3. **Make a plan for improving leadership diversity within our team**. Whatever mechanisms we create for diverse leadership, we know that one of them needs to be improving our diversity at a staff leadership level. Our staff are the ones that spend the most time working on - and have the most leverage over - our strategy and mission, and it's important that our staff leadership is a good representation of the diverse perspectives we serve via our service. This might mean investing more heavily in reaching broad applicant pools for new positions, or seeking external consultation for how we can avoid unintentionally sending exclusionary signals to others in our communications and outreach.
-4. **Continue our work at improving our system of delivery and work**. Finally, we believe that a crucial aspect of improving the diversity in our organization is to improve our systems for delivery, reliability, and accountability across the organization. We have [made a lot of progress in improving our delivery systems](../delivery-improvements/index.md) and will continue this improvement as an organization.
+2. **Define mechanisms for leadership and governance that includes representation along these axes**. Leadership at a staff level is one way to ensure representation of diverse perspectives, but there are many other ways to bring voices into the conversation as well. We aim to explore new ways of bringing diverse voices into the strategic direction of the organization and provide mechanisms for holding us accountable to our values. For example, we intend to grow a _board_ to guide 2i2c's strategy and hold its Executive Director accountable for achieving impact - this is another opportunity to bring diverse perspectives into our leadership.
+3. **Make a plan for improving leadership diversity within our team**. Whatever mechanisms we create for diverse leadership, we know that one of them needs to be improving our diversity at a staff leadership level. Our staff are the ones that spend the most time working on - and have the most leverage over - our strategy and mission, and it's important that our staff leadership is a good representation of the diverse perspectives of the communities we serve. This might mean investing more heavily in reaching broad applicant pools for new positions or seeking external consultation for how we can avoid unintentionally sending exclusionary signals to others in our communications and outreach.
+4. **Continue improving our systems of delivery and work**. Finally, we believe that a crucial aspect of improving the diversity in our organization is to improve our systems for delivery, reliability, and accountability across the organization. We have [made a lot of progress in improving our delivery systems](../delivery-improvements/index.md) and will continue this improvement as an organization.
 
-We hope that this post both makes transparent an important lack of diversity within our organizational leadership, and provides clarity for some of our plans to improve as an organization.
+We hope that this post both makes transparent a distinct lack of diversity within our organizational leadership and provides clarity for some of our plans to improve.
 We are excited about the organization that we have built, as well as its culture.
-We still know that we must do better, and we're committed to doing so over the coming years.
+We still know that we must do better, and we're fully committed to doing so over the coming years.
