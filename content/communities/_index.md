@@ -9,13 +9,12 @@ sections:
   - block: markdown
     id: numbers
     content:
-      title: A shared platform for global communities.
+      title: We serve an international network of communities that create and share knowledge
       subtitle: 
       text: |
 
         {{< figure src="/images/communities/map-of-communities.png" >}}
 
-        We serve a global network of communities that create and share knowledge.
         The map above shows active communities in our network, and the size of each circle corresponds to the size of each community.
         See [our interactive map of active communities](https://2i2c.org/kpis/cloud/#map-of-hubs) for the latest data.
 

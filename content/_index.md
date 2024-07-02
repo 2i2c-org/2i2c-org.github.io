@@ -28,7 +28,7 @@ sections:
                   
       # Add your Hero text here
       text: |-
-        Our interactive computing platform gives your community a digital home to create and share knowledge, and a global network of communities to learn from.
+        Our interactive computing platform gives research and education communities a digital home to create and share knowledge, and a global network of communities to learn from.
     design:
       # Choose an optional background color, gradient, image, or video
       background:
@@ -45,30 +45,9 @@ sections:
       subtitle: 
       text: |
 
-        Our interactive computing platform **empowers communities in research and education to design a hub for their unique workflows**. It brings together open source tools, data, and computational resources in a remotely-accessible interactive environment for creating and sharing knowledge.
-                
-        <style>
-          img.logo {
-            padding: 0 3em;
-            margin-top: 1em;
-          }
-        </style>
+        Our platform **empowers leaders in research and education to design a hub that helps their community create and share knowledge**. It does so by bringing together open tools and services, data, and computational resources.
 
-        {{< figure src="/images/home/hub-diagram.png" >}}
-
-        <div class="container logos">
-            <div class="row justify-content-center">
-                <div class="section-heading d-flex flex-wrap justify-content-center col-12 mb-3 text-center">
-                    <img class="logo col-6 col-md-4" src="/images/logos/project/jupyterlab.svg" alt="Jupyter Lab logo">
-                    <img class="logo col-6 col-md-4" src="/images/logos/project/jupyterhub.svg" alt="Jupyter Hub logo">
-                    <img class="logo col-6 col-md-4" src="/images/logos/project/jupyterbook.svg" alt="Jupyter Book logo">
-                    <img class="logo col-6 col-md-4" src="/images/logos/project/jupyter.svg" alt="Jupyter logo">
-                    <img class="logo col-6 col-md-4" src="/images/logos/project/myst.svg" alt="MyST logo">
-                    <img class="logo col-6 col-md-4" src="/images/logos/project/binder.svg" alt="Binder logo">
-                </div>
-            </div>
-        </div>
-
+        {{< figure src="/images/service/shared-infrastructure.png" >}}
 
   - block: markdown
     id: numbers
@@ -182,6 +161,7 @@ sections:
       subtitle: ""
       text: ""
       items:
+        # LEAVE OUT PARTNERSHIP because this forces us to use 3 columns
         - name: Transparency
           description: Our transparent and participatory model keeps our incentives aligned with community needs.
           icon: magnifying-glass
