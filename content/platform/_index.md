@@ -26,7 +26,7 @@ sections:
     id: numbers
     content:
       title: Hubs enable the research lifecycle with open tools and services
-      subtitle: Interactive computing hubs integrate open tools and services to provide a digital home that takes users from learning their first workflows to making discoveries and sharing with others.
+      subtitle: Interactive computing hubs integrate open tools and services to provide a digital home that bootstraps users from learning their first workflows to making discoveries and sharing with others.
       text: |
 
         {{< figure src="/images/service/research-lifecycle.png" alt="The research lifecycle we enable.">}}
@@ -52,7 +52,7 @@ sections:
         columns: 2
     content:
       title: Magic links let you instantly share content on a hub
-      subtitle:  Clicking a magic link to instantly give a user their own copy of your content so that they can interact and explore in a live environment.
+      subtitle: Create and share a magic link to instantly share a copy of your content with anyone so that they can interact and explore with live code and data.
       text: |
 
         {{< video src="videos/magic-links.mp4">}}

@@ -28,7 +28,7 @@ sections:
                   
       # Add your Hero text here
       text: |-
-        Our interactive computing platform gives research and education communities a digital home to create and share knowledge, and a global network of communities to learn from.
+        Our interactive computing platform gives research and education communities a digital home to create and share knowledge with a global network of communities to learn from.
     design:
       # Choose an optional background color, gradient, image, or video
       background:
@@ -45,7 +45,7 @@ sections:
       subtitle: 
       text: |
 
-        Our platform **empowers leaders in research and education to design a hub that helps their community create and share knowledge**. It does so by bringing together open tools and services, data, and computational resources.
+        Our platform **empowers leaders in research and education to design a hub that helps their community create and share knowledge**. We bring together open tools and services, data, and computational resources to co-create customized solutions.
 
         {{< figure src="/images/service/shared-infrastructure.png" >}}
 
