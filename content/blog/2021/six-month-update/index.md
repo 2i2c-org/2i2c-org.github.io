@@ -41,7 +41,7 @@ Because Pangeo's infrastructure is already running on a fully open source stack 
 We don't anticipate needing to make major changes to their infrastructure and deployments (part of the benefits of using open, modular tools).
 
 Once this is complete, we'll next shift our attention to some new areas of development that support use-cases in the Pangeo community (and in the scientific community more broadly).
-There's a lot of progress that we imagine making - such as [supporting publishing pipelines via the Pangeo Gallery](https://gallery.pangeo.io) or improving tools for scalable computing with [Dask Gateway](https://gateway.dask.org/).
+There's a lot of progress that we imagine making - such as [supporting sharing pipelines via the Pangeo Gallery](https://gallery.pangeo.io) or improving tools for scalable computing with [Dask Gateway](https://gateway.dask.org/).
 We'll provide updates as we formally begin this collaboration and hash out a plan for our next steps.
 
 ## JupyterHub for education - A collaboration with CloudBank and UC Berkeley

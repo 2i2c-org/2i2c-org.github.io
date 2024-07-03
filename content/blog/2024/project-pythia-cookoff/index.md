@@ -16,7 +16,7 @@ draft: false
 
 ## What did 2i2c do?
 
-Jenny, James and Angus from the 2i2c team participated in the annual [Project Pythia Cook-off 2024](https://projectpythia.org/pythia-cookoff-2024/), a hackathon where cookbook authors and collaborators can spend dedicated time on creating and maintaining their content using [Jupyter Book](https://jupyterbook.org/en/stable/intro.html) and publishing their cookbooks with GitHub actions.
+Jenny, James and Angus from the 2i2c team participated in the annual [Project Pythia Cook-off 2024](https://projectpythia.org/pythia-cookoff-2024/), a hackathon where cookbook authors and collaborators can spend dedicated time on creating and maintaining their content using [Jupyter Book](https://jupyterbook.org/en/stable/intro.html) and deploying their cookbooks with GitHub actions.
 
 2i2c teamed up with the infrastructure breakout group during the hackathon, led by Katelyn FitzGerald (UCAR) and Kevin Tyle (University at Albany), and members of the [Curvenote](https://curvenote.com/) team also joined the group.
 
@@ -67,7 +67,7 @@ We spent this day tackling support for managing a gallery of Project Pythia cook
 
 ## Day 4
 
-Looking to the future, we spent time reflecting on our experiences and discussing the potential, transformative impact MyST MD tooling could have in the hands of the scientific community at large, including the communities served by 2i2c. Knowledge-sharing based on static figures and PDFs would fall obsolete and give way to a dynamic, web-first approach to interactive communication and publishing backed by compute from a Jupyter server.
+Looking to the future, we spent time reflecting on our experiences and discussing the potential, transformative impact MyST MD tooling could have in the hands of the scientific community at large, including the communities served by 2i2c. Knowledge-sharing based on static figures and PDFs would fall obsolete and give way to a dynamic, web-first approach to sharing interactive narratives backed by compute from a Jupyter server.
 
 Throughout the course of the hackathon, the rate of iterated development for both end users of the community cookbook and the developers of the open-source tooling was astounding. For example, we were able to quickly expose small bugs ([e.g. support for HTML video tags](https://github.com/executablebooks/mystmd/issues/1297)) in the MyST MD tooling, which were immediately fixed upstream and released within minutes. The feedback loop that connected the user experience with the software tooling was incredibly synergistic, with immediate impact both upstream and downstream that 2i2c hopes to continue replicating across many facets of their operations.
 
