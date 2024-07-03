@@ -26,7 +26,7 @@ Over the past quarter, we have enabled the following improvements to the VEDA pl
 
 **Improve the QGIS experience** – `jupyter-remote-qgis-proxy` was developed to create a custom endpoint that accepts query parameters to open datasets in QGIS (see the deployment in this [GitHub Pull Request](https://github.com/2i2c-org/infrastructure/pull/4299)).
 
-<!-- TBC: Insert demo video -->
+<!-- TBC: @jnywong Insert demo video -->
 
 **Support workshop users** – See our related blog post [US Greenhouse Gas Center supports summer school at CIRA](blog/2024/ghg-summer-school/index))
 
@@ -34,11 +34,11 @@ Over the past quarter, we have enabled the following improvements to the VEDA pl
 
 **Integrate with a unified auth solution** – Work is underway to provide a streamlined and central authentication system for integration with all applications across the VEDA ecosystem, enhancing security and user experience.
 
-<!-- TBC: Insert a quote from 2i2c about the collaboration -->
+<!-- TBC: @yuvipanda Insert a quote from 2i2c about the collaboration -->
 
-<!-- TBC: Insert a quote from DevSeed about the collaboration -->
+<!-- TBC: @yuvipanda Insert a quote from DevSeed about the collaboration -->
 
-<!-- TBC: Insert a quote from NASA about the collaboration -->
+<!-- TBC: @yuvipanda Insert a quote from NASA about the collaboration -->
 
 ## Acknowledgements
 
