@@ -26,7 +26,10 @@ Over the past quarter, we have enabled the following improvements to the VEDA pl
 
 **Improve the QGIS experience** – `jupyter-remote-qgis-proxy` was developed to create a custom endpoint that accepts query parameters to open datasets in QGIS (see the deployment in this [GitHub Pull Request](https://github.com/2i2c-org/infrastructure/pull/4299)).
 
-<!-- TBC: @jnywong Insert demo video -->
+<figure>
+  {{< video autoplay="true" loop="true" src="qgis.mp4" >}}
+  <figcaption>Launching QGIS on a Linux desktop served by the VEDA JupyterHub</figcaption>
+</figure>
 
 **Support workshop users** – See our related blog post [US Greenhouse Gas Center supports summer school at CIRA](blog/2024/ghg-summer-school/index))
 
