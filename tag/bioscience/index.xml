@@ -1,4 +1,109 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Bioscience | 2i2c</title><link>https://2i2c.org/tag/bioscience/</link><atom:link href="https://2i2c.org/tag/bioscience/index.xml" rel="self" type="application/rss+xml"/><description>Bioscience</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 21 Jun 2024 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Bioscience</title><link>https://2i2c.org/tag/bioscience/</link></image><item><title>Neurohackademy Summer School in Neuroimaging and Data Science 2024</title><link>https://2i2c.org/blog/2024/neurohackademy-summer-school/</link><pubDate>Fri, 21 Jun 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/neurohackademy-summer-school/</guid><description>&lt;p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Bioscience | 2i2c</title><link>https://2i2c.org/tag/bioscience/</link><atom:link href="https://2i2c.org/tag/bioscience/index.xml" rel="self" type="application/rss+xml"/><description>Bioscience</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 05 Jul 2024 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Bioscience</title><link>https://2i2c.org/tag/bioscience/</link></image><item><title>Enabling neuroscience in the cloud with HHMI Spyglass and MySQL on JupyterHub</title><link>https://2i2c.org/blog/2024/hhmi-spyglass-mysql/</link><pubDate>Fri, 05 Jul 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/hhmi-spyglass-mysql/</guid><description>&lt;p>
+&lt;figure id="figure-the-hhmi-spyglass-tutorialhttpsspyglasshhmi2i2ccloud">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="HHMI Spyglass tutorial" srcset="
+/blog/2024/hhmi-spyglass-mysql/featured_hu410b1218ee4391ecc35ef84ca9e97293_287716_86c408a60ebca8bf8dc746e1ea9819c3.webp 400w,
+/blog/2024/hhmi-spyglass-mysql/featured_hu410b1218ee4391ecc35ef84ca9e97293_287716_a54ca150839b6f45415b0c718177c538.webp 760w,
+/blog/2024/hhmi-spyglass-mysql/featured_hu410b1218ee4391ecc35ef84ca9e97293_287716_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2024/hhmi-spyglass-mysql/featured_hu410b1218ee4391ecc35ef84ca9e97293_287716_86c408a60ebca8bf8dc746e1ea9819c3.webp"
+width="760"
+height="498"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+The
+&lt;a href="https://spyglass.hhmi.2i2c.cloud/" target="_blank" rel="noopener" >HHMI Spyglass tutorial&lt;/a>
+&lt;/figcaption>&lt;/figure>
+&lt;/p>
+&lt;h2 id="spyglass">
+Spyglass
+&lt;a class="header-anchor" href="#spyglass">#&lt;/a>
+&lt;/h2>&lt;p>
+&lt;a href="https://github.com/LorenFrankLab/spyglass" target="_blank" rel="noopener" >Spyglass&lt;/a>
+is a framework for reproducible and shareable neuroscience research produced by
+&lt;a href="https://github.com/LorenFrankLab" target="_blank" rel="noopener" >Loren Frank’s lab&lt;/a>
+at the University of California, San Francisco. Check out our
+&lt;a href="https://2i2c.org/blog/2024/hhmi-spyglass/" >blog post about the release of their preprint&lt;/a>
+to read more about the methods.&lt;/p>
+&lt;p>This post focuses on the complex data storage needed for the project, which can be difficult to set up locally or at scale in the cloud. In particular, the analysis needed a MySQL database for reproducibility. This is a fairly common task across many fields. The aim of 2i2c is to enable researchers to focus on the essential complexity of what they were doing, i.e. the science, without managing the accidental complexity of how to do it &amp;ndash; in this case, setting up databases.&lt;/p>
+&lt;p>We describe how you can do this too for your own JupyterHubs. Since 2i2c commits to running our infrastructure in line with open-source values as much as possible, you can also directly see the
+&lt;a href="https://github.com/2i2c-org/infrastructure/blob/99071c38712ef8e6bed6609117ca4b894b89ae5c/config/clusters/hhmi/spyglass.values.yaml#L76" target="_blank" rel="noopener" >configuration for the hub&lt;/a>
+referenced in the paper.&lt;/p>
+&lt;h2 id="what-is-a-sidecar-container">
+What is a &amp;ldquo;sidecar container&amp;rdquo;?
+&lt;a class="header-anchor" href="#what-is-a-sidecar-container">#&lt;/a>
+&lt;/h2>&lt;p>The Kubernetes definition of a
+&lt;a href="https://kubernetes.io/docs/concepts/workloads/pods/sidecar-containers/" target="_blank" rel="noopener" >sidecar container&lt;/a>
+is&lt;/p>
+&lt;blockquote>
+&lt;p>Sidecar containers are the secondary containers that run along with the main application container within the same Pod. These containers are used to enhance or to extend the functionality of the primary app container by providing additional services, or functionality such as logging, monitoring, security, or data synchronization, without directly altering the primary application code.&lt;/p>
+&lt;/blockquote>
+&lt;p>In this case, the &lt;em>primary&lt;/em> app container is the JupyterLab instance where people are interactively running code and doing science. We want to provide a MySQL database as a sidecar so that each user server gets their own independent MySQL server instance (that is not accessible to anyone else). We can then run code such as&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">%%bash
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">mysql -h 127.0.0.1 -u root --password=tutorial &amp;lt; path-to-sql-file-with-data
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>to load data into the database. Note the IP address &lt;code>127.0.0.1&lt;/code> - the MySQL server is listening on localhost, even though it is not running in the &lt;em>same container&lt;/em>! Thanks to the magic of
+&lt;a href="https://lwn.net/Articles/580893/" target="_blank" rel="noopener" >Linux Network Namespaces&lt;/a>
+, the sidecar and main app container can share &lt;code>127.0.0.1&lt;/code>. This allows you to write code that works &lt;strong>in the exact same way&lt;/strong> on a user&amp;rsquo;s local computers as on the JupyterHub, making transitions and replication easier.&lt;/p>
+&lt;h2 id="setting-up-sidecars-in-jupyterhub-on-kubernetes">
+Setting up sidecars in JupyterHub on Kubernetes
+&lt;a class="header-anchor" href="#setting-up-sidecars-in-jupyterhub-on-kubernetes">#&lt;/a>
+&lt;/h2>&lt;p>We&amp;rsquo;re leveraging multiple tools from the open-source ecosystem - JupyterHub, Kubernetes, Linux as well as MySQL itself.&lt;/p>
+&lt;p>Since this is a &lt;em>Kubernetes&lt;/em> feature, we can pass through config to it. There are
+two layers here, which are&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;a href="https://z2jh.jupyter.org/en/latest/resources/reference.html#singleuser-extracontainers" target="_blank" rel="noopener" >singleuser.extraContainers&lt;/a>
+in
+&lt;a href="https://z2jh.jupyter.org/en/stable/" target="_blank" rel="noopener" >z2jh&lt;/a>
+configuration&lt;/li>
+&lt;li>
+&lt;a href="https://jupyterhub-kubespawner.readthedocs.io/en/latest/spawner.html#kubespawner.KubeSpawner.extra_containers" target="_blank" rel="noopener" >KubeSpawner.extra_containers&lt;/a>
+in
+&lt;a href="https://jupyterhub-kubespawner.readthedocs.io/en/latest/spawner.html" target="_blank" rel="noopener" >KubeSpawner&lt;/a>
+configuration&lt;/li>
+&lt;/ol>
+&lt;p>The hub configuration looks like&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-yaml" data-lang="yaml">&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">singleuser&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">extraContainers&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="nt">name&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">mysql&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">image&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">datajoint/mysql:8.0&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="c"># following the spyglass tutorial at https://lorenfranklab.github.io/spyglass/latest/notebooks/00_Setup/#existing-database&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">ports&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="nt">name&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">mysql&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">containerPort&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="m">3306&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">resources&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">limits&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="c"># Best effort only. No more than 1 CPU, and if mysql uses more than 4G, restart it&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">memory&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">4Gi&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">cpu&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="m">1.0&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">requests&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="c"># If we don&amp;#39;t set requests, k8s sets requests == limits!&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="c"># So we set something tiny&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">memory&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">64Mi&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">cpu&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="m">0.01&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">env&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="c"># Configured using the env vars documented in https://lorenfranklab.github.io/spyglass/latest/notebooks/00_Setup/#existing-database&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>- &lt;span class="nt">name&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="l">MYSQL_ROOT_PASSWORD&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">value&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="s2">&amp;#34;tutorial&amp;#34;&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>By setting this up, we allow users to insert the code snippet above&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">%%bash
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">mysql -h 127.0.0.1 -u root --password=tutorial &amp;lt; path-to-sql-file-with-data
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>into their
+&lt;a href="https://github.com/LorenFrankLab/spyglass-demo/blob/main/notebooks/00_HubQuickStart.ipynb" target="_blank" rel="noopener" >Jupyter Notebooks&lt;/a>
+, which gives access to their MySQL database in the hub!&lt;/p>
+&lt;p>However, this configuration does not include permanently store the database itself between hub server sessions. Thanks to a pilot in a prior collaboration with University of Texas, Austin, we do have
+&lt;a href="https://github.com/2i2c-org/infrastructure/blob/main/docs/howto/features/per-user-db.md" target="_blank" rel="noopener" >some documentation&lt;/a>
+on how you can enable that as well!&lt;/p>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>National Institute of Mental Health (NIMH), grant number RF1MH130623&lt;/li>
+&lt;li>
+&lt;a href="https://github.com/jupyterhub/kubespawner" target="_blank" rel="noopener" >kubespawner&lt;/a>
+&lt;/li>
+&lt;li>
+&lt;a href="https://github.com/jupyterhub/zero-to-jupyterhub-k8s/" target="_blank" rel="noopener" >zero-to-jupyterhub-k8s&lt;/a>
+&lt;/li>
+&lt;/ul></description></item><item><title>Neurohackademy Summer School in Neuroimaging and Data Science 2024</title><link>https://2i2c.org/blog/2024/neurohackademy-summer-school/</link><pubDate>Fri, 21 Jun 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/neurohackademy-summer-school/</guid><description>&lt;p>
 &lt;figure id="figure-neurohackademy-summer-schoolhttpsneurohackademyorg">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Landing page of the Neurohackademy Summer School website" srcset="
