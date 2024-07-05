@@ -22,8 +22,8 @@ sections:
   - block: markdown
     id: numbers
     content:
-      title: Hubs enable the research lifecycle with open tools and services
-      subtitle: Interactive computing hubs integrate open tools and services to provide a digital home that bootstraps users from learning their first workflows to making discoveries and sharing with others.
+      title: Each hub integrates open tools and services to enable the lifecycle of knowledge creation
+      subtitle: Hubs are a digital home that bootstraps users from learning their first workflows to making discoveries and sharing with others.
       text: |
 
         {{< figure src="/images/service/research-lifecycle.png" alt="The research lifecycle we enable.">}}
