@@ -9,7 +9,7 @@
   weight = 10
 
 [[main]]
-  name = "Community network"
+  name = "Community case studies"
   url = "communities/"
   weight = 10
 
@@ -48,6 +48,12 @@
   name = "Origin story"
   url = "founders/"
   weight = 50
+
+  [[main]]
+  parent = "about"
+  name = "Design and brand assets"
+  url = "brand/"
+  weight = 70
 
   [[main]]
   parent = "about"

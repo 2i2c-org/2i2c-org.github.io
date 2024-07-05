@@ -41,13 +41,58 @@ sections:
   - block: markdown
     id: service
     content:
-      title: We give communities a home in the cloud for interactive computing.
+      title: We help communities build a home in the cloud for interactive computing
       subtitle: 
       text: |
 
-        Our platform **empowers leaders in research and education to design a hub that helps their community create and share knowledge**. We bring together open tools and services, data, and computational resources to co-create customized solutions.
+        Our platform **empowers community leaders in research and education to design a hub** for their community to create and share knowledge. We do so by bringing together open tools, services, data, and infrastructure.
 
-        {{< figure src="/images/service/shared-infrastructure.png" >}}
+        {{< servicetech >}}
+
+  - block: portfolio
+    id: posts
+    content:
+      title: Community impact stories
+      subtitle: Our platform integrates open tools and services for many communities in research and education. Below are some stories of impact from our community partners.
+      text: ''
+      # Choose how many pages you would like to display (0 = all pages)
+      count: 5
+      # Filter on criteria
+      filters:
+        # The folders to display content from
+        folders:
+          - blog
+        # These are the tags that will show up in the list
+        tags: ["geoscience", "bioscience", "education", "open source"]
+        author: ""
+        publication_type: ""
+        featured_only: false
+        exclude_featured: false
+        exclude_future: false
+        exclude_past: false
+      # Choose how many pages you would like to offset by
+      # Useful if you wish to show the first item in the Featured widget
+      offset: 0
+      # Field to sort by, such as Date or Title
+      sort_by: 'Date'
+      sort_ascending: false
+      buttons:
+        - name: All
+          tag: '*'
+        - name: Geoscience
+          tag: geoscience
+        - name: Bioscience
+          tag: bioscience
+        - name: Education
+          tag: education
+        - name: Open Source
+          tag: open source
+    design:
+      # Choose a listing view
+      view: masonry
+      # Choose single or dual column layout
+      columns: '1'
+      css_class: "home-stories"
 
   - block: markdown
     id: numbers
@@ -56,7 +101,7 @@ sections:
       subtitle: 
       text: |
 
-        We serve **over 80 communities across the globe** with **over 7000 active users** that are dedicated to creating and sharing knowledge. This includes **educational communities** that share knowledge within a community, **research communities** that create advances at the frontier of knowledge, and **applied knowledge communities** that use advances in knowledge to serve the public.
+        We serve **over 80 communities across the globe** with **over 7000 active users** that are dedicated to creating and sharing knowledge.
 
         <style>
           #who-logos {
@@ -74,7 +119,7 @@ sections:
           }
         </style>
 
-        {{< figure src="/images/home/worldmap.png" alt="2i2c map of communities" caption="A map of the rough location of communities with currently active hubs. Updated as of April 2024, [see our interactive map](https://2i2c.org/kpis/cloud/#map-of-hubs) for the latest data.">}}
+        {{< figure src="/images/home/worldmap.png" alt="2i2c map of communities" caption="A map of the rough location of communities with currently active hubs. Updated as of July 2024, [see our interactive map](https://2i2c.org/kpis/cloud/#map-of-hubs) for the latest data.">}}
 
         </p>
 
@@ -87,52 +132,6 @@ sections:
             <li class="list-inline-item"><a href="https://www.utoronto.ca/" target="_blank"><img src="/images/logos/community/university-of-toronto.svg" alt="University of toronto logo"></a></li>
             <li class="list-inline-item"><a href="https://columbia.edu/" target="_blank"><img src="/images/logos/community/columbia-university.png" alt="Columbia University logo"></a></li>
         </ul>
-
-
-  - block: portfolio
-    id: posts
-    content:
-      title: Community impact stories
-      subtitle: ''
-      text: ''
-      # Choose how many pages you would like to display (0 = all pages)
-      count: 5
-      # Filter on criteria
-      filters:
-        # The folders to display content from
-        folders:
-          - blog
-        # These are the tags that will show up in the list
-        tags: ["open source", "geoscience", "bioscience", "education"]
-        author: ""
-        publication_type: ""
-        featured_only: false
-        exclude_featured: false
-        exclude_future: false
-        exclude_past: false
-      # Choose how many pages you would like to offset by
-      # Useful if you wish to show the first item in the Featured widget
-      offset: 0
-      # Field to sort by, such as Date or Title
-      sort_by: 'Date'
-      sort_ascending: false
-      buttons:
-        - name: All
-          tag: '*'
-        - name: Open Source
-          tag: open source
-        - name: Geoscience
-          tag: geoscience
-        - name: Bioscience
-          tag: bioscience
-        - name: Education
-          tag: education
-    design:
-      # Choose a listing view
-      view: masonry
-      # Choose single or dual column layout
-      columns: '1'
-      css_class: "home-stories"
 
   - block: markdown
     id: numbers

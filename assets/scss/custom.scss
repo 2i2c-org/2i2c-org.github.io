@@ -8,6 +8,10 @@
 @import "components/admonitions.scss";
 @import "components/buttons.scss";
 
+// CSS for shortcodes we create
+@import "shortcodes/servicetech.scss";
+@import "shortcodes/opensourcelogos.scss";
+
 // Sections of the whole site
 @import "sections/navbar";
 @import "sections/footer";

@@ -11,17 +11,14 @@ aliases:
 sections:
   - block: markdown
     id: numbers
-    design:
-        columns: 2
     content:
       title: A shared platform for global communities
-      subtitle: Our interactive computing platform helps communities create a digital home for data-driven discovery with open tools and services.
+      subtitle: Our interactive computing hubs provide frictionless access to open infrastructure to connect, create, and share knowledge using data.
       text: |
+        {{< servicetech >}}
 
-        {{< figure src="/images/service/shared-infrastructure.png" alt="Serving multiple communities with the same infrastructure.">}}
+        {{< cta cta_text="See how research and education communities use this platform" cta_link="/communities" cta_new_tab="false" >}}
 
-        {{< cta cta_text="Learn about our community network" cta_link="/communities" cta_new_tab="false" >}}
-        
   - block: markdown
     id: numbers
     content:
@@ -31,20 +28,11 @@ sections:
 
         {{< figure src="/images/service/research-lifecycle.png" alt="The research lifecycle we enable.">}}
 
-        <center> <strong>Open source tools we use and support in our service. See below for some of the workflows these tools enable.</strong></center>
+        <center> <strong>Open source tools we use and support in our service.</strong></center>
 
-        <div class="container logos">
-            <div class="row justify-content-center">
-                <div class="section-heading d-flex flex-wrap justify-content-center col-12 mb-3 text-center">
-                    <img class="logo col-6 col-md-4" src="/images/logos/project/jupyterlab.svg" alt="Jupyter Lab logo">
-                    <img class="logo col-6 col-md-4" src="/images/logos/project/jupyterhub.svg" alt="Jupyter Hub logo">
-                    <img class="logo col-6 col-md-4" src="/images/logos/project/jupyterbook.svg" alt="Jupyter Book logo">
-                    <img class="logo col-6 col-md-4" src="/images/logos/project/jupyter.svg" alt="Jupyter logo">
-                    <img class="logo col-6 col-md-4" src="/images/logos/project/myst.svg" alt="MyST logo">
-                    <img class="logo col-6 col-md-4" src="/images/logos/project/binder.svg" alt="Binder logo">
-                </div>
-            </div>
-        </div>
+        {{< opensourcelogos >}}
+
+        <center><h3>Below are a few workflows that these tools enable</h3></center>
 
   - block: markdown
     id: magiclink
@@ -58,7 +46,7 @@ sections:
         {{< video src="videos/magic-links.mp4">}}
         
         <p class="figcaption">
-          Powered by <a href="https://mystmd.org"><img src="/images/logos/project/myst.svg" /></a> and <a href="https://jupyterhub.readthedocs.io"><img src="/images/logos/project/jupyterhub.svg" /></a>
+          Powered by <a href="https://mystmd.org"><img src="/images/logos/project/myst.svg" /></a> and <a href="https://jupyterhub.readthedocs.io"><img src="/images/logos/project/jupyterhub.svg" /></a>. Example from <a href="https://www.biorxiv.org/content/10.1101/2024.01.25.577295v1">the Spyglass toolbox paper</a>.
         </p>
   - block: markdown
     id: jupyterlab
@@ -73,7 +61,7 @@ sections:
         {{< video src="videos/jupyterlab.mp4">}}
 
         <p class="figcaption">
-          Powered by <a href="https://jupyterlab.readthedocs.io"><img src="/images/logos/project/jupyterlab.svg" /></a> and <a href="https://mystmd.org"><img src="/images/logos/project/myst.svg" /></a> 
+          Powered by <a href="https://jupyterlab.readthedocs.io"><img src="/images/logos/project/jupyterlab.svg" /></a> and <a href="https://mystmd.org"><img src="/images/logos/project/myst.svg" /></a>. 
         </p>
 
   - block: markdown
@@ -103,7 +91,7 @@ sections:
         {{< video src="videos/jupyterbook.mp4">}}
 
         <p class="figcaption">
-          Powered by <a href="https://jupyterbook.org"><img src="/images/logos/project/jupyterbook.svg" /></a> and <a href="https://mystmd.org"><img src="/images/logos/project/myst.svg" /></a>
+          Powered by <a href="https://jupyterbook.org"><img src="/images/logos/project/jupyterbook.svg" /></a> and <a href="https://mystmd.org"><img src="/images/logos/project/myst.svg" /></a>. Example from <a href="https://book.cryointhecloud.com/intro.html">the CryoCloud JupyterBook</a>.
         </p>
 
   - block: markdown
@@ -120,6 +108,21 @@ sections:
 
         <p class="figcaption">
           Powered by <a href="https://jupyterhub.readthedocs.io"><img src="/images/logos/project/jupyterhub.svg" /></a>
+        </p>
+
+  - block: markdown
+    id: desktop
+    design:
+        columns: 2
+    content:
+      title: Serve linux applications via a remote desktop
+      subtitle: You can provide users a full linux UI that provides access to GUI applications via the web.
+      text: |
+
+        {{< video src="videos/desktop.mp4">}}
+        
+        <p class="figcaption">
+          Powered by <a href="https://jupyterhub.readthedocs.io"><img src="/images/logos/project/jupyterhub.svg" /></a>. Example from <a href="https://www.earthdata.nasa.gov/esds/veda">the NASA VEDA project</a>.
         </p>
 
   - block: features
