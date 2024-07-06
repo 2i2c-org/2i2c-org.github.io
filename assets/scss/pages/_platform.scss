@@ -56,10 +56,25 @@ div.project-figures {
 }
 
 // Captions to call out to open source projects
-.figcaption {
-    font-size: .8rem;
-    img {
-        display: inline;
-        max-height: 1.2rem;
+figure.videofigure {
+    display: flex;
+    flex-direction: column;
+    figcaption {
+        display: inline-flex;
+        font-size: .8rem;
+        flex-wrap: wrap;
+        a {
+            margin: 0 .2rem;
+        }
+        img {
+            height: 1.2rem;
+            border: none;
+        }
+    }
+}
+
+section:not(.reverse-markdown-row) {
+    figcaption {
+        margin-left: auto;
     }
 }

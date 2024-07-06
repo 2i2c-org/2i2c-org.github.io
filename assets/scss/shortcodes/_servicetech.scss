@@ -3,15 +3,16 @@
  */
  .jupyter-demos {
   text-align: center;
-  .demo-item__title {
-    font-weight: bold;
-    margin-bottom: .5rem;
-  }
-  .demo-item__body {
-    font-size: .9rem;
-    margin-bottom: .5em;
-  }
-
+  
+    figcaption {
+      font-size: .9rem;
+      margin-bottom: .5em;
+      .caption-title {
+        font-weight: bold;
+        margin-bottom: .5rem;
+      }
+    }  
+  
   .demo-image-box {
       min-height: 10em;
       display: flex;

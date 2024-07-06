@@ -25,14 +25,11 @@ sections:
       title: Each hub integrates open tools and services to enable the lifecycle of knowledge creation
       subtitle: Hubs are a digital home that bootstraps users from learning their first workflows to making discoveries and sharing with others.
       text: |
-
         {{< figure src="/images/service/research-lifecycle.png" alt="The research lifecycle we enable.">}}
 
         <center> <strong>Open source tools we use and support in our service.</strong></center>
 
         {{< opensourcelogos >}}
-
-        <center><h3>Below are a few workflows that these tools enable</h3></center>
 
   - block: markdown
     id: magiclink
@@ -43,11 +40,13 @@ sections:
       subtitle: Create and share a magic link to instantly share a copy of your content with anyone so that they can interact and explore with live code and data.
       text: |
 
-        {{< video src="videos/magic-links.mp4">}}
-        
-        <p class="figcaption">
-          Powered by <a href="https://mystmd.org"><img src="/images/logos/project/myst.svg" /></a> and <a href="https://jupyterhub.readthedocs.io"><img src="/images/logos/project/jupyterhub.svg" /></a>. Example from <a href="https://www.biorxiv.org/content/10.1101/2024.01.25.577295v1">the Spyglass toolbox paper</a>.
-        </p>
+        <figure class="videofigure">
+          {{< video src="videos/magic-links.mp4">}}
+          
+          <figcaption>
+            Powered by <a href="https://mystmd.org"><img src="/images/logos/project/myst.svg" /></a> and <a href="https://jupyterhub.readthedocs.io"><img src="/images/logos/project/jupyterhub.svg" /></a>. Example from <a href="https://www.biorxiv.org/content/10.1101/2024.01.25.577295v1">the Spyglass toolbox paper</a>.
+          </figcaption>
+        </figure>
   - block: markdown
     id: jupyterlab
     design:
@@ -58,11 +57,13 @@ sections:
       subtitle:  JupyterLab provides a flexible user interface to create and explore notebooks, interactive visualizations, and computational narratives.
       text: |
 
-        {{< video src="videos/jupyterlab.mp4">}}
+        <figure class="videofigure">
+          {{< video src="videos/jupyterlab.mp4">}}
 
-        <p class="figcaption">
-          Powered by <a href="https://jupyterlab.readthedocs.io"><img src="/images/logos/project/jupyterlab.svg" /></a> and <a href="https://mystmd.org"><img src="/images/logos/project/myst.svg" /></a>. 
-        </p>
+          <figcaption>
+              Powered by <a href="https://jupyterlab.readthedocs.io"><img src="/images/logos/project/jupyterlab.svg" /></a> and <a href="https://mystmd.org"><img src="/images/logos/project/myst.svg" /></a>. 
+          </figcaption>
+        </figure>
 
   - block: markdown
     id: environment-choice
@@ -72,12 +73,13 @@ sections:
       title: Choose a community environment, or create your own
       subtitle:  Community leaders can offer many environments for users to fit all of their workflows.
       text: |
+        <figure class="videofigure">
+          {{< video src="/videos/jupyterhub-environment.mp4" >}}
 
-        {{< figure src="/images/service/server-choices.png" >}}
-
-        <p class="figcaption">
-          Powered by <a href="https://jupyterhub.readthedocs.io"><img src="/images/logos/project/jupyterhub.svg" /></a> and <a href="https://repo2docker.readthedocs.io"><img src="/images/logos/project/repo2docker.png" /></a>
-        </p>
+          <figcaption>
+              Powered by <a href="https://jupyterhub.readthedocs.io"><img src="/images/logos/project/jupyterhub.svg" /></a> and <a href="https://repo2docker.readthedocs.io"><img src="/images/logos/project/repo2docker.png" /></a>. Example from <a href="https://www.earthdata.nasa.gov/esds/veda">the NASA VEDA project</a>.
+          </figcaption>
+        </figure>
   - block: markdown
     id: knowledge-base
     design:
@@ -87,43 +89,47 @@ sections:
       title: A shared knowledge base that connects with your hub
       subtitle:  Shared knowledge bases allow communities to contribute their ideas and work to a shared space that is accessible to the community.
       text: |
+        <figure class="videofigure">
+          {{< video src="videos/jupyterbook.mp4">}}
 
-        {{< video src="videos/jupyterbook.mp4">}}
-
-        <p class="figcaption">
-          Powered by <a href="https://jupyterbook.org"><img src="/images/logos/project/jupyterbook.svg" /></a> and <a href="https://mystmd.org"><img src="/images/logos/project/myst.svg" /></a>. Example from <a href="https://book.cryointhecloud.com/intro.html">the CryoCloud JupyterBook</a>.
-        </p>
+          <figcaption>
+              Powered by <a href="https://jupyterbook.org"><img src="/images/logos/project/jupyterbook.svg" /></a> and <a href="https://mystmd.org"><img src="/images/logos/project/myst.svg" /></a>. Example from <a href="https://book.cryointhecloud.com/intro.html">the CryoCloud JupyterBook</a>.
+          </figcaption>
+        </figure>
 
   - block: markdown
     id: jupyterhub
     design:
         columns: 2
-        css_class: reverse-row
     content:
       title: JupyterHub gives your users their own digital space
       subtitle: Community leaders can manage user access to the hub, and provide each user their own workspace that persists over time.
       text: |
+        <figure class="videofigure">
+          {{< video src="videos/jupyterhub-admin.mp4">}}
 
-        {{< video src="videos/jupyterhub-admin.mp4">}}
-
-        <p class="figcaption">
-          Powered by <a href="https://jupyterhub.readthedocs.io"><img src="/images/logos/project/jupyterhub.svg" /></a>
-        </p>
+          <figcaption>
+              Powered by <a href="https://jupyterhub.readthedocs.io"><img src="/images/logos/project/jupyterhub.svg" /></a>
+          </figcaption>
+        </figure>
 
   - block: markdown
     id: desktop
     design:
         columns: 2
+        css_class: reverse-markdown-row
     content:
       title: Serve linux applications via a remote desktop
       subtitle: You can provide users a full linux UI that provides access to GUI applications via the web.
       text: |
 
-        {{< video src="videos/desktop.mp4">}}
-        
-        <p class="figcaption">
-          Powered by <a href="https://jupyterhub.readthedocs.io"><img src="/images/logos/project/jupyterhub.svg" /></a>. Example from <a href="https://www.earthdata.nasa.gov/esds/veda">the NASA VEDA project</a>.
-        </p>
+        <figure class="videofigure">
+          {{< video src="videos/desktop.mp4">}}
+          
+          <figcaption>
+              Powered by <a href="https://jupyterhub.readthedocs.io"><img src="/images/logos/project/jupyterhub.svg" /></a>. Example from <a href="https://www.earthdata.nasa.gov/esds/veda">the NASA VEDA project</a>.
+          </figcaption>
+        </figure>
 
   - block: features
     id: clouds
