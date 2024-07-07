@@ -1,6 +1,6 @@
 ---
 # Page title
-title: Our network of communities
+title: Community case studies
 # Page type - we want a landing page (such as a homepage)
 type: landing
 
@@ -9,13 +9,12 @@ sections:
   - block: markdown
     id: numbers
     content:
-      title: A shared platform for global communities.
+      title: We serve an international network of communities that create and share knowledge
       subtitle: 
       text: |
 
         {{< figure src="/images/communities/map-of-communities.png" >}}
 
-        We serve a global network of communities that create and share knowledge.
         The map above shows active communities in our network, and the size of each circle corresponds to the size of each community.
         See [our interactive map of active communities](https://2i2c.org/kpis/cloud/#map-of-hubs) for the latest data.
 
@@ -31,7 +30,7 @@ sections:
                 <h2 class="mb-0">2i2c in numbers</h2>
                 <div class="stat col-6">
                     <h5 class="card-title text-uppercase text-muted mb-0">Communities</h5>
-                    <span class="h2 font-weight-bold mb-0">>80</span>
+                    <span class="h2 font-weight-bold mb-0">>90</span>
                 </div>
                 <div class="stat col-6">
                     <h5 class="card-title text-uppercase text-muted mb-0">Active users</h5>
@@ -53,12 +52,16 @@ sections:
                     <li><a href="#data8">Data science education</a></li>
                     <li><a href="#spyglass">Communicating open science</a></li>
                     <li><a href="#catalyst">Global hubs for biomedical imaging</a></li>
+                    <li><a href="https://2i2c.org/category/impact">See our blog for more case studies</a></li>
                 </ul>
             </div>
         </div>
 
+        <div class="cta-group" class="margin: 0 auto;">
+        {{< cta cta_text="More case studies on our blog" cta_link="https://2i2c.org/category/impact" cta_new_tab="false" >}}
         {{< cta cta_text="Join our community network" cta_link="/join" cta_new_tab="false" >}}
-       
+        </div>
+        
   - block: markdown
     id: cryocloud
     design:

@@ -54,3 +54,27 @@ div.project-figures {
 #jupyter-features div.featurette-icon img {
     width: 150px;
 }
+
+// Captions to call out to open source projects
+figure.videofigure {
+    display: flex;
+    flex-direction: column;
+    figcaption {
+        display: inline-flex;
+        font-size: .8rem;
+        flex-wrap: wrap;
+        a {
+            margin: 0 .2rem;
+        }
+        img {
+            height: 1.2rem;
+            border: none;
+        }
+    }
+}
+
+section:not(.reverse-markdown-row) {
+    figcaption {
+        margin-left: auto;
+    }
+}

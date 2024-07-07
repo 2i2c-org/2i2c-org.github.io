@@ -1,0 +1,25 @@
+/**
+ * Three-column product demo at the top of the page
+ */
+ .jupyter-demos {
+  text-align: center;
+  
+    figcaption {
+      font-size: .9rem;
+      margin-bottom: .5em;
+      .caption-title {
+        font-weight: bold;
+        margin-bottom: .5rem;
+      }
+    }  
+  
+  .demo-image-box {
+      min-height: 10em;
+      display: flex;
+      align-items: center;
+  }
+  img {
+      border: 1px solid black;
+      border-radius: .5em;
+  }
+}
