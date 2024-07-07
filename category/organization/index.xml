@@ -2082,7 +2082,7 @@ Because Pangeo&amp;rsquo;s infrastructure is already running on a fully open sou
 We don&amp;rsquo;t anticipate needing to make major changes to their infrastructure and deployments (part of the benefits of using open, modular tools).&lt;/p>
 &lt;p>Once this is complete, we&amp;rsquo;ll next shift our attention to some new areas of development that support use-cases in the Pangeo community (and in the scientific community more broadly).
 There&amp;rsquo;s a lot of progress that we imagine making - such as
-&lt;a href="https://gallery.pangeo.io" target="_blank" rel="noopener" >supporting publishing pipelines via the Pangeo Gallery&lt;/a>
+&lt;a href="https://gallery.pangeo.io" target="_blank" rel="noopener" >supporting sharing pipelines via the Pangeo Gallery&lt;/a>
 or improving tools for scalable computing with
 &lt;a href="https://gateway.dask.org/" target="_blank" rel="noopener" >Dask Gateway&lt;/a>
 .

@@ -126,7 +126,7 @@ What did 2i2c do?
 &lt;a href="https://projectpythia.org/pythia-cookoff-2024/" target="_blank" rel="noopener" >Project Pythia Cook-off 2024&lt;/a>
 , a hackathon where cookbook authors and collaborators can spend dedicated time on creating and maintaining their content using
 &lt;a href="https://jupyterbook.org/en/stable/intro.html" target="_blank" rel="noopener" >Jupyter Book&lt;/a>
-and publishing their cookbooks with GitHub actions.&lt;/p>
+and deploying their cookbooks with GitHub actions.&lt;/p>
 &lt;p>2i2c teamed up with the infrastructure breakout group during the hackathon, led by Katelyn FitzGerald (UCAR) and Kevin Tyle (University at Albany), and members of the
 &lt;a href="https://curvenote.com/" target="_blank" rel="noopener" >Curvenote&lt;/a>
 team also joined the group.&lt;/p>
@@ -217,13 +217,13 @@ and
 &lt;a href="https://mystmd.org/guide/external-references#tbl-syntax-xref" target="_blank" rel="noopener" >simple markdown syntax for hover-references&lt;/a>
 .&lt;/li>
 &lt;/ul>
-&lt;video autoplay loop >
+&lt;video mute autoplay loop >
 &lt;source src="https://2i2c.org/blog/2024/project-pythia-cookoff/hover-ref.mp4" type="video/mp4">
 &lt;/video>
 &lt;h2 id="day-4">
 Day 4
 &lt;a class="header-anchor" href="#day-4">#&lt;/a>
-&lt;/h2>&lt;p>Looking to the future, we spent time reflecting on our experiences and discussing the potential, transformative impact MyST MD tooling could have in the hands of the scientific community at large, including the communities served by 2i2c. Knowledge-sharing based on static figures and PDFs would fall obsolete and give way to a dynamic, web-first approach to interactive communication and publishing backed by compute from a Jupyter server.&lt;/p>
+&lt;/h2>&lt;p>Looking to the future, we spent time reflecting on our experiences and discussing the potential, transformative impact MyST MD tooling could have in the hands of the scientific community at large, including the communities served by 2i2c. Knowledge-sharing based on static figures and PDFs would fall obsolete and give way to a dynamic, web-first approach to sharing interactive narratives backed by compute from a Jupyter server.&lt;/p>
 &lt;p>Throughout the course of the hackathon, the rate of iterated development for both end users of the community cookbook and the developers of the open-source tooling was astounding. For example, we were able to quickly expose small bugs (
 &lt;a href="https://github.com/executablebooks/mystmd/issues/1297" target="_blank" rel="noopener" >e.g. support for HTML video tags&lt;/a>
 ) in the MyST MD tooling, which were immediately fixed upstream and released within minutes. The feedback loop that connected the user experience with the software tooling was incredibly synergistic, with immediate impact both upstream and downstream that 2i2c hopes to continue replicating across many facets of their operations.&lt;/p>
