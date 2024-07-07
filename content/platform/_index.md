@@ -32,28 +32,28 @@ sections:
         {{< opensourcelogos >}}
 
   - block: markdown
-    id: magiclink
+    id: jupyterhub
     design:
         columns: 2
     content:
-      title: Magic links let you instantly share content on a hub
-      subtitle: Create and share a magic link to instantly share a copy of your content with anyone so that they can interact and explore with live code and data.
+      title: Manage and monitor resources and users
+      subtitle: Community leaders can manage user access to the hub, and provide each user their own workspace that persists over time.
       text: |
-
         <figure class="videofigure">
-          {{< video src="videos/magic-links.mp4">}}
-          
+          {{< video src="videos/jupyterhub-admin.mp4">}}
+
           <figcaption>
-            Powered by <a href="https://mystmd.org"><img src="/images/logos/project/myst.svg" /></a> and <a href="https://jupyterhub.readthedocs.io"><img src="/images/logos/project/jupyterhub.svg" /></a>. Example from <a href="https://www.biorxiv.org/content/10.1101/2024.01.25.577295v1">the Spyglass toolbox paper</a>.
+              Powered by <a href="https://jupyterhub.readthedocs.io"><img src="/images/logos/project/jupyterhub.svg" /></a>
           </figcaption>
         </figure>
+
   - block: markdown
     id: jupyterlab
     design:
         columns: 2
         css_class: reverse-markdown-row
     content:
-      title: Flexible interfaces for data-driven discovery
+      title: Design interactive interfaces for data-driven discovery
       subtitle:  JupyterLab provides a flexible user interface to create and explore notebooks, interactive visualizations, and computational narratives.
       text: |
 
@@ -61,7 +61,7 @@ sections:
           {{< video src="videos/jupyterlab.mp4">}}
 
           <figcaption>
-              Powered by <a href="https://jupyterlab.readthedocs.io"><img src="/images/logos/project/jupyterlab.svg" /></a> and <a href="https://mystmd.org"><img src="/images/logos/project/myst.svg" /></a>. 
+              Powered by <a href="https://jupyterlab.readthedocs.io"><img src="/images/logos/project/jupyterlab.svg" /></a> and <a href="https://mystmd.org"><img src="/images/logos/project/myst.svg" /></a>. Example from <a href="https://github.com/google/neuroglancer"> Neuroglancer-JupyterLab</a>.
           </figcaption>
         </figure>
 
@@ -86,7 +86,7 @@ sections:
         columns: 2
         css_class: reverse-markdown-row
     content:
-      title: A shared knowledge base that connects with your hub
+      title: Share workflows with a community knowledge base.
       subtitle:  Shared knowledge bases allow communities to contribute their ideas and work to a shared space that is accessible to the community.
       text: |
         <figure class="videofigure">
@@ -98,20 +98,22 @@ sections:
         </figure>
 
   - block: markdown
-    id: jupyterhub
+    id: magiclink
     design:
         columns: 2
     content:
-      title: JupyterHub gives your users their own digital space
-      subtitle: Community leaders can manage user access to the hub, and provide each user their own workspace that persists over time.
+      title: Share content and interactive links to a hub
+      subtitle: Create and share a magic link to instantly share a copy of your content with anyone so that they can interact and explore with live code and data.
       text: |
-        <figure class="videofigure">
-          {{< video src="videos/jupyterhub-admin.mp4">}}
 
+        <figure class="videofigure">
+          {{< video src="videos/magic-links.mp4">}}
+          
           <figcaption>
-              Powered by <a href="https://jupyterhub.readthedocs.io"><img src="/images/logos/project/jupyterhub.svg" /></a>
+            Powered by <a href="https://mystmd.org"><img src="/images/logos/project/myst.svg" /></a> and <a href="https://jupyterhub.readthedocs.io"><img src="/images/logos/project/jupyterhub.svg" /></a>. Example from <a href="https://www.biorxiv.org/content/10.1101/2024.01.25.577295v1">the Spyglass toolbox paper</a>.
           </figcaption>
         </figure>
+
 
   - block: markdown
     id: desktop
