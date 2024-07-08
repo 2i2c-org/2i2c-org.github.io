@@ -26,6 +26,8 @@ One of the elements that enabled us to recognize and solve this issue effectivel
 
 ![Slack message from Bri Lind](slack.png "Feedback from Bri Lind (LP DAAC)")
 
+We have documented the technical infrastructure changes required to enable a shared password for the hub in our [Infrastructure Guide](https://infrastructure.2i2c.org/hub-deployment-guide/configure-auth/shared-password/) and hope to support many future events with this mechanism.
+
 ## Acknowledgements
 
 - [NASA OpenScapes](https://nasa-openscapes.github.io/)
