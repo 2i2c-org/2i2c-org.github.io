@@ -12,7 +12,7 @@ draft: false
 
 ![Cover slide from the SBG Workshop](featured.png "Surface Biology and Geology: VITALS Workshop")
 
-Openscapes is a value-based initiative that advocates for kinder, better science produced with open source community and program building co-developed by Julia Lowndes and Erin Robinson. 
+[Openscapes](https://nasa-openscapes.github.io/) is a value-based initiative that advocates for kinder, better science produced with open source community and program building co-developed by Julia Lowndes and Erin Robinson. 
 
 The initiative recently supported the [Surface Biology and Geology: VITALS Workshop](https://nasa.github.io/VITALS/) hosted by NASA [Land Processes Distributed Activate Archive Center (LP DAAC)](https://lpdaac.usgs.gov/) and NASA [Jet Propulsion Laboratory (JPL)](https://www.jpl.nasa.gov/).
 
