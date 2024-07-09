@@ -1,5 +1,5 @@
 ---
-title: Openscapes host a Surface Biology and Geology workshop
+title: Openscapes Host a Surface Biology and Geology Workshop with Shared Password
 date: "2024-05-29"
 banner:
   image: "featured.png"
@@ -12,11 +12,11 @@ draft: false
 
 ![Cover slide from the SBG Workshop](featured.png "Surface Biology and Geology: VITALS Workshop")
 
-[Openscapes](https://nasa-openscapes.github.io/) is a value-based initiative that advocates for kinder, better science produced with open source community and program building co-developed by Julia Lowndes and Erin Robinson. 
+[Openscapes](https://openscapes.org) is a value-based initiative that supports kinder, better science based on open source community. [NASA Openscapes](https://nasa-openscapes.github.io) is in its fourth year as a project supporting NASA Earth science in the Cloud, co-developed by Julia Lowndes (Openscapes) and Erin Robinson (Metadata Game Changers).  
 
 The initiative recently supported the [Surface Biology and Geology: VITALS Workshop](https://nasa.github.io/VITALS/) hosted by NASA [Land Processes Distributed Activate Archive Center (LP DAAC)](https://lpdaac.usgs.gov/) and NASA [Jet Propulsion Laboratory (JPL)](https://www.jpl.nasa.gov/).
 
-Hands-on exercises teaching learners how to manipluate data collected from the [ECOSTRESS](https://ecostress.jpl.nasa.gov/) and [EMIT](https://earth.jpl.nasa.gov/emit/) instruments onboard the International Space Station were delivered using the 2i2c OpenScapes Hub. [Jupyter notebooks](https://nasa.github.io/VITALS/python/01_Finding_Concurrent_Data.html) were used to demonstrate how open source tools together with cloud data and compute resources could effectively analyse the the Canopy Water Content and the Land Surface Temperature over the [Jack and Laura Dangermond Preserve](https://www.dangermondpreserve.org/), Santa Barbara, CA.
+Instructors used the 2i2c Openscapes Hub to lead hands-on exercises teaching learners how to manipluate data collected from the [ECOSTRESS](https://ecostress.jpl.nasa.gov/) and [EMIT](https://earth.jpl.nasa.gov/emit/) instruments onboard the International Space Station. They used [Jupyter notebooks](https://nasa.github.io/VITALS/python/01_Finding_Concurrent_Data.html) in the Hub to demonstrate how open source tools together with cloud data and compute resources could effectively analyse the the Canopy Water Content and the Land Surface Temperature over the [Jack and Laura Dangermond Preserve](https://www.dangermondpreserve.org/), Santa Barbara, CA.
 
 ![Plot of the Canopy Water Content over the Jack and Laura Dangermond Preserve, Santa Barbara, CA.](canopy-water-content.png "Plot of the Canopy Water Content over the Jack and Laura Dangermond Preserve, Santa Barbara, CA from a [VITALS Workshop Jupyter notebook](https://nasa.github.io/VITALS/python/03_EMIT_CWC_from_Reflectance.html).")
 
@@ -30,7 +30,7 @@ We have documented the technical infrastructure changes required to enable a sha
 
 ## Acknowledgements
 
-- [NASA OpenScapes](https://nasa-openscapes.github.io/)
+- [NASA Openscapes](https://nasa-openscapes.github.io/)
 - [NASA LP DAAC](https://lpdaac.usgs.gov/)
 - [NASA JPL](https://www.jpl.nasa.gov/)
 - [NASA ROSES funding](https://science.nasa.gov/researchers/)
