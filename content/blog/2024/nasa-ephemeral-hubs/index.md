@@ -16,8 +16,8 @@ We are pleased to announce that we have deployed two ephemeral hubs for NASA com
 
 As part of the deliverables for our NASA High Priority Open-Source Science (HPOSS) award, we deployed two new ephemeral hubs:
 
-1. a public small binder hub that offers a "reader" experience where learners can interactively view light scientific content with small compute and no barriers to authentication
-1. a large binder hub that offers an "explorer" experience where learners can log in to access more substantial compute resources to interactively investigate large datasets and run large workflows.
+1. a [public small binder hub](https://binder.opensci.2i2c.cloud/) that offers a "reader" experience where learners can interactively view light scientific content with small compute and no barriers to authentication
+1. a [big binder hub](https://hub.big.binder.opensci.2i2c.cloud/) that offers an "explorer" experience where learners can log in to access more substantial compute resources to interactively investigate large datasets and run large workflows.
 
 These services enrich the interactive computing ecosystem for NASA communities by
 
@@ -27,9 +27,9 @@ These services enrich the interactive computing ecosystem for NASA communities b
 
 ## How did we do it?
 
-Ephemeral interactive computing services based on integrating binder service technology together with JupyterHub was enabled in our previous development work in collaboration with GESIS (see our [detailed blog post](/blog/2024/jupyterhub-binderhub-gesis/index) for more information).
+Ephemeral interactive computing services were enabled in our previous development work in collaboration with GESIS based on integrating binder service technology together with JupyterHub (see our [detailed blog post](/blog/2024/jupyterhub-binderhub-gesis/index) for more information).
 
-The research and development of this project achieved wide-reaching impact across many NASA communities we currently serve, such as [TOPST ScienceCore](https://www.nasa.gov/centers-and-facilities/marshall/nasa-boosts-open-science-through-innovative-training/), [Openscapes](/blog/2024/openscapes-sbg-workshop), [US Greenhouse Gas Center](/blog/2024/ghg-summer-school), [VEDA](https://www.earthdata.nasa.gov/esds/veda) and [CryoCloud](https://cryointhecloud.com/); as well as networks beyond the NASA scope, such as the NSF-funded [Project Pythia](https://projectpythia.org/) and HHMI-funded[Spyglass](https://lorenfranklab.github.io/spyglass/latest/) projects.
+The research and development of this project achieved wide-reaching impact across many NASA communities we currently serve, including [TOPST ScienceCore](https://www.nasa.gov/centers-and-facilities/marshall/nasa-boosts-open-science-through-innovative-training/), [Openscapes](/blog/2024/openscapes-sbg-workshop), [US Greenhouse Gas Center](/blog/2024/ghg-summer-school), [VEDA](https://www.earthdata.nasa.gov/esds/veda) and [CryoCloud](https://cryointhecloud.com/); as well as networks beyond the NASA scope, such as the NSF-funded [Project Pythia](https://projectpythia.org/) and HHMI-funded[Spyglass](https://lorenfranklab.github.io/spyglass/latest/) projects.
 
 ## What next?
 
