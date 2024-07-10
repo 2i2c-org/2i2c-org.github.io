@@ -7,7 +7,7 @@ authors: ["Jenny Wong"]
 tags: [geoscience, education]
 categories: [impact]
 featured: false
-draft: false
+draft: true
 ---
 
 We are pleased to announce that we have deployed two ephemeral hubs for NASA communities!
@@ -16,8 +16,8 @@ We are pleased to announce that we have deployed two ephemeral hubs for NASA com
 
 As part of the deliverables for our NASA High Priority Open-Source Science (HPOSS) award, we deployed two new ephemeral hubs:
 
-1. a [public small binder hub](https://binder.opensci.2i2c.cloud/) that offers a "reader" experience where learners can interactively view light scientific content with small compute and no barriers to authentication
-1. a [big binder hub](https://hub.big.binder.opensci.2i2c.cloud/) that offers an "explorer" experience where learners can log in to access more substantial compute resources to interactively investigate large datasets and run large workflows.
+1. a [public small BinderHub](https://binder.opensci.2i2c.cloud/) that offers a "reader" experience where learners can interactively view a pre-approved selection of GitHub repositories that deliver light scientific content with small compute and no barriers to authentication
+1. a [big BinderHub](https://hub.big.binder.opensci.2i2c.cloud/) that offers an "explorer" experience where learners can log in to access more substantial compute resources to interactively investigate large datasets and run large workflows from any GitHub repository.
 
 These services enrich the interactive computing ecosystem for NASA communities by
 
@@ -27,13 +27,19 @@ These services enrich the interactive computing ecosystem for NASA communities b
 
 ## How did we do it?
 
-Ephemeral interactive computing services were enabled in our previous development work in collaboration with GESIS based on integrating binder service technology together with JupyterHub (see our [detailed blog post](/blog/2024/jupyterhub-binderhub-gesis/index) for more information).
-
-The research and development of this project achieved wide-reaching impact across many NASA communities we currently serve, including [TOPST ScienceCore](https://www.nasa.gov/centers-and-facilities/marshall/nasa-boosts-open-science-through-innovative-training/), [Openscapes](/blog/2024/openscapes-sbg-workshop), [US Greenhouse Gas Center](/blog/2024/ghg-summer-school), [VEDA](https://www.earthdata.nasa.gov/esds/veda) and [CryoCloud](https://cryointhecloud.com/); as well as networks beyond the NASA scope, such as the NSF-funded [Project Pythia](https://projectpythia.org/) and HHMI-funded[Spyglass](https://lorenfranklab.github.io/spyglass/latest/) projects.
+Ephemeral interactive computing services benefited from some of our previous development work in collaboration with GESIS (see our [detailed blog post](/blog/2024/jupyterhub-binderhub-gesis/index) for more information). The research and development of this project achieved wide-reaching impact across many NASA communities we currently serve, including [TOPST ScienceCore](https://www.nasa.gov/centers-and-facilities/marshall/nasa-boosts-open-science-through-innovative-training/), [Openscapes](/blog/2024/openscapes-sbg-workshop), [US Greenhouse Gas Center](/blog/2024/ghg-summer-school), [VEDA](https://www.earthdata.nasa.gov/esds/veda) and [CryoCloud](https://cryointhecloud.com/); as well as networks beyond the NASA scope, such as the NSF-funded [Project Pythia](https://projectpythia.org/) and HHMI-funded[Spyglass](https://lorenfranklab.github.io/spyglass/latest/) projects.
 
 ## What next?
 
 We will focus on bolstering the community- and knowledge-building needed for making the best use of these binder services in the next phase of our HPOSS work to accelerate broader participation in science. Further engineering developments will proceed in collaboration with the NASA VEDA project to set up a binder service, improve the sharing of custom environments, and refine QGIS integrations for analysing geospatial data.
+
+## Can I use this ephemeral hub service?
+
+The answer is yes!
+
+- For the [public small BinderHub](https://binder.opensci.2i2c.cloud/) anyone can view a pre-approved list of GitHub repositories. If you are a member of a NASA community and would like to add to the pre-approved list, please send us an email at [binder-requests@2i2c.org](mailto:binder-requests@2i2c.org).
+
+- For the [big BinderHub](https://hub.big.binder.opensci.2i2c.cloud/) you will need to be member of a NASA community. We require a GitHub account and membership of the GitHub Team [2i2c-nasa-binder-access:big-binder-team](https://github.com/orgs/2i2c-nasa-binder-access/teams/big-binder-team) for authorization. Please send us an email at [binder-requests@2i2c.org](mailto:binder-requests@2i2c.org) to be added to the GitHub team.
 
 ## Acknowledgements
 
