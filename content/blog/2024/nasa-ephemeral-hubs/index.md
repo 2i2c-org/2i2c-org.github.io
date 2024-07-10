@@ -12,7 +12,7 @@ draft: false
 
 We are pleased to announce that we have deployed two ephemeral hubs for NASA communities!
 
-Ephemeral interactive computing services based on integrating binder service technology together with JupyterHub was enabled in our previous development work in collaboration with GESIS (see our [detailed blog post](/blog/2024/jupyterhub-binderhub-gesis/index) for more information).
+## What did we do?
 
 As part of the deliverables for our NASA High Priority Open-Source Science (HPOSS) award, we deployed two new ephemeral hubs:
 
@@ -25,11 +25,15 @@ These services enrich the interactive computing ecosystem for NASA communities b
 - broadening participation for historically excluded and under-resourced science communities
 - enabling activities such as hackathons, demonstrations or training, during workshops and conferences.
 
-The research and development of this project achieved wide-reaching impact across many NASA communities we currently serve, such as [TOPST ScienceCore](https://www.nasa.gov/centers-and-facilities/marshall/nasa-boosts-open-science-through-innovative-training/) [Openscapes](/blog/2024/openscapes-sbg-workshop), [US Greenhouse Gas Center](/blog/2024/ghg-summer-school), [VEDA](https://www.earthdata.nasa.gov/esds/veda) and [CryoCloud](https://cryointhecloud.com/); as well as networks beyond the NASA scope, such as the NSF-funded [Project Pythia](https://projectpythia.org/) and HHMI-funded[Spyglass](https://lorenfranklab.github.io/spyglass/latest/) projects.
+## How did we do it?
 
-We will focus on bolstering the community- and knowledge-building needed for making the best use of these binder services in the next phase of our HPOSS work to accelerate broader participation in science.
+Ephemeral interactive computing services based on integrating binder service technology together with JupyterHub was enabled in our previous development work in collaboration with GESIS (see our [detailed blog post](/blog/2024/jupyterhub-binderhub-gesis/index) for more information).
 
-Further engineering developments will proceed in collaboration with the NASA VEDA project to set up a binder service, improve the sharing of custom environments, and refine QGIS integrations for analysing geospatial data.
+The research and development of this project achieved wide-reaching impact across many NASA communities we currently serve, such as [TOPST ScienceCore](https://www.nasa.gov/centers-and-facilities/marshall/nasa-boosts-open-science-through-innovative-training/), [Openscapes](/blog/2024/openscapes-sbg-workshop), [US Greenhouse Gas Center](/blog/2024/ghg-summer-school), [VEDA](https://www.earthdata.nasa.gov/esds/veda) and [CryoCloud](https://cryointhecloud.com/); as well as networks beyond the NASA scope, such as the NSF-funded [Project Pythia](https://projectpythia.org/) and HHMI-funded[Spyglass](https://lorenfranklab.github.io/spyglass/latest/) projects.
+
+## What next?
+
+We will focus on bolstering the community- and knowledge-building needed for making the best use of these binder services in the next phase of our HPOSS work to accelerate broader participation in science. Further engineering developments will proceed in collaboration with the NASA VEDA project to set up a binder service, improve the sharing of custom environments, and refine QGIS integrations for analysing geospatial data.
 
 ## Acknowledgements
 
