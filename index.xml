@@ -263,56 +263,7 @@ We still know that we must do better, and we&amp;rsquo;re fully committed to doi
 documentation in creating an inclusive culture and set of policies.&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/div></description></item><item><title>Ephemeral Interactive Computing for NASA Communities</title><link>https://2i2c.org/blog/2024/nasa-ephemeral-hubs/</link><pubDate>Thu, 27 Jun 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/nasa-ephemeral-hubs/</guid><description>&lt;p>We are pleased to announce that we have deployed two ephemeral hubs for NASA communities!&lt;/p>
-&lt;h2 id="what-did-we-do">
-What did we do?
-&lt;a class="header-anchor" href="#what-did-we-do">#&lt;/a>
-&lt;/h2>&lt;p>As part of the deliverables for our NASA High Priority Open-Source Science (HPOSS) award, we deployed two new ephemeral hubs:&lt;/p>
-&lt;ol>
-&lt;li>a
-&lt;a href="https://binder.opensci.2i2c.cloud/" target="_blank" rel="noopener" >public small binder hub&lt;/a>
-that offers a &amp;ldquo;reader&amp;rdquo; experience where learners can interactively view light scientific content with small compute and no barriers to authentication&lt;/li>
-&lt;li>a
-&lt;a href="https://hub.big.binder.opensci.2i2c.cloud/" target="_blank" rel="noopener" >big binder hub&lt;/a>
-that offers an &amp;ldquo;explorer&amp;rdquo; experience where learners can log in to access more substantial compute resources to interactively investigate large datasets and run large workflows.&lt;/li>
-&lt;/ol>
-&lt;p>These services enrich the interactive computing ecosystem for NASA communities by&lt;/p>
-&lt;ul>
-&lt;li>improving the shareability and reproducibility of scientific information&lt;/li>
-&lt;li>broadening participation for historically excluded and under-resourced science communities&lt;/li>
-&lt;li>enabling activities such as hackathons, demonstrations or training, during workshops and conferences.&lt;/li>
-&lt;/ul>
-&lt;h2 id="how-did-we-do-it">
-How did we do it?
-&lt;a class="header-anchor" href="#how-did-we-do-it">#&lt;/a>
-&lt;/h2>&lt;p>Ephemeral interactive computing services were enabled in our previous development work in collaboration with GESIS based on integrating binder service technology together with JupyterHub (see our
-&lt;a href="https://2i2c.org/blog/2024/jupyterhub-binderhub-gesis/" >detailed blog post&lt;/a>
-for more information).&lt;/p>
-&lt;p>The research and development of this project achieved wide-reaching impact across many NASA communities we currently serve, including
-&lt;a href="https://www.nasa.gov/centers-and-facilities/marshall/nasa-boosts-open-science-through-innovative-training/" target="_blank" rel="noopener" >TOPST ScienceCore&lt;/a>
-,
-&lt;a href="https://2i2c.org/blog/2024/openscapes-sbg-workshop/" >Openscapes&lt;/a>
-,
-&lt;a href="https://2i2c.org/blog/2024/ghg-summer-school/" >US Greenhouse Gas Center&lt;/a>
-,
-&lt;a href="https://www.earthdata.nasa.gov/esds/veda" target="_blank" rel="noopener" >VEDA&lt;/a>
-and
-&lt;a href="https://cryointhecloud.com/" target="_blank" rel="noopener" >CryoCloud&lt;/a>
-; as well as networks beyond the NASA scope, such as the NSF-funded
-&lt;a href="https://projectpythia.org/" target="_blank" rel="noopener" >Project Pythia&lt;/a>
-and HHMI-funded
-&lt;a href="https://lorenfranklab.github.io/spyglass/latest/" target="_blank" rel="noopener" >Spyglass&lt;/a>
-projects.&lt;/p>
-&lt;h2 id="what-next">
-What next?
-&lt;a class="header-anchor" href="#what-next">#&lt;/a>
-&lt;/h2>&lt;p>We will focus on bolstering the community- and knowledge-building needed for making the best use of these binder services in the next phase of our HPOSS work to accelerate broader participation in science. Further engineering developments will proceed in collaboration with the NASA VEDA project to set up a binder service, improve the sharing of custom environments, and refine QGIS integrations for analysing geospatial data.&lt;/p>
-&lt;h2 id="acknowledgements">
-Acknowledgements
-&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
-&lt;/h2>&lt;ul>
-&lt;li>NASA NSPIRES F.15 High Priority Open-Source Science Award NNH22ZDA001N-HPOSS&lt;/li>
-&lt;/ul></description></item><item><title>Neurohackademy Summer School in Neuroimaging and Data Science 2024</title><link>https://2i2c.org/blog/2024/neurohackademy-summer-school/</link><pubDate>Fri, 21 Jun 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/neurohackademy-summer-school/</guid><description>&lt;p>
+&lt;/div></description></item><item><title>Neurohackademy Summer School in Neuroimaging and Data Science 2024</title><link>https://2i2c.org/blog/2024/neurohackademy-summer-school/</link><pubDate>Fri, 21 Jun 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/neurohackademy-summer-school/</guid><description>&lt;p>
 &lt;figure id="figure-neurohackademy-summer-schoolhttpsneurohackademyorg">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Landing page of the Neurohackademy Summer School website" srcset="
