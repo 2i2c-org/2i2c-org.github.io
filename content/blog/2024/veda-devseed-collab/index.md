@@ -10,7 +10,7 @@ draft: false
 
 ![Landing page of the public-facing NASA VEDA dashboard](featured.png "The [VEDA dashboard](https://www.earthdata.nasa.gov/dashboard/)")
 
-The 2i2c team are proud to continue our strong working collaboration with [DevSeed](https://developmentseed.org/), following our previous work on launching the [US GHG center](blog/2023/us-ghg-center-launches/index) (also see the [DevSeed blog post](https://developmentseed.org/blog/2023-12-14-ghg-center)). Together with scientists at NASA in our regular 6-weekly sync touchpoints, we have recently delivered a tranche of improvements to [the Visualization, Exploration and Data Analysis (VEDA) project](https://www.earthdata.nasa.gov/esds/veda).
+The 2i2c team are proud to continue our strong working collaboration with [Development Seed](https://developmentseed.org/), following our previous work on launching the [US GHG center](blog/2023/us-ghg-center-launches/index) (also see the [Development Seed blog post](https://developmentseed.org/blog/2023-12-14-ghg-center)). Together with scientists at NASA in our regular 6-weekly sync touchpoints, we have recently delivered a tranche of improvements to [the Visualization, Exploration and Data Analysis (VEDA) project](https://www.earthdata.nasa.gov/esds/veda).
 
 This platform is designed to thread open-source components together to consolidate GIS delivery mechanisms, processing, analysis and visualization tools, and presented in a collaborative interactive computing environment. All code repositories and associated resources stemming from this work are available on the [VEDA GitHub page](https://github.com/NASA-IMPACT/VEDA/wiki).
 
@@ -37,11 +37,9 @@ Over the past quarter, we have enabled the following improvements to the VEDA pl
 
 **Integrate with a unified auth solution** – Work is underway to provide a streamlined and central authentication system for integration with all applications across the VEDA ecosystem, enhancing security and user experience.
 
-<!-- TBC: @yuvipanda Insert a quote from 2i2c about the collaboration -->
+Delivering on these objectives in a timely way heavily depended on the success of the team collaboration. [Sanjay Bhangar](https://developmentseed.org/team/sanjay-bhangar) of Development Seed commented
 
-<!-- TBC: @yuvipanda Insert a quote from DevSeed about the collaboration -->
-
-<!-- TBC: @yuvipanda Insert a quote from NASA about the collaboration -->
+> Working closely with the 2i2c team on growing features to support users on the VEDA and GHG Center hubs has been absolutely amazing. With 2i2c’s deep experience in the Jupyter ecosystem, we have been able to implement some fairly complex features quite easily, and their strong open-source roots have ensured that whatever we work on is broadly useful to the wider Jupyter and scientific computing communities.
 
 ## Acknowledgements
 
