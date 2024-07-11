@@ -1,5 +1,5 @@
 ---
-title: Collaborating with DevSeed to deliver cyberinfrastructure for NASA VEDA
+title: Collaborating with Development Seed to deliver cyberinfrastructure for NASA VEDA
 date: "2024-07-02"
 authors: ["Jenny Wong"]
 tags: [geoscience, open source]
