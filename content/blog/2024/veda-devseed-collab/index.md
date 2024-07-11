@@ -17,7 +17,6 @@ This platform is designed to thread open-source components together to consolida
 In the spirit of fully open development, you can [see the objectives](https://github.com/NASA-IMPACT/veda-jupyterhub/issues?q=is%3Aissue+jh+is%3Aclosed+label%3A%22PI+24.3%22+)
 the combined 2i2c and Development Seed team had for the last quarter. In this blog post, we will describe some of the significant ones!
 
-
 ## Better image management and testing
 
 [repo2docker-action](https://github.com/jupyterhub/repo2docker-action) is a GitHub action simplifying image building and testing for use with JupyterHub, using either a `Dockerfile` or just the various [configuration files](https://repo2docker.readthedocs.io/en/latest/config_files.html) (like `requirements.txt`, `environment.yml`, etc) supported by [repo2docker](https://github.com/jupyterhub/repo2docker). We migrated our image building pipeline from a somewhat homegrown solution to this upstream action, making image updates and testing *much* easier. In particular, it has allowed us to [automatically run test notebooks](https://github.com/NASA-IMPACT/pangeo-notebook-veda-image/pull/4) on every change we make to the image! This way, we can easily catch any breaking changes in library versions or other image changes without impact to our users. We also debugged and [contributed upstream](https://github.com/jupyterhub/repo2docker-action/pull/124) fixes to the testing infrastructure so everyone could benefit from this, rather than just us.
@@ -28,28 +27,44 @@ When a user logs into a JupyterHub, it is very helpful if we could have a bunch 
 
 ## Opening specific visualizations in QGIS via URL
 
-**Improve the QGIS experience** – `jupyter-remote-qgis-proxy` was developed to create a custom endpoint that accepts query parameters to open datasets in QGIS (see the deployment in this [GitHub Pull Request](https://github.com/2i2c-org/infrastructure/pull/4299)).
+[QGIS](https://www.qgis.org/) is the world's most used open source GIS software, and previously 2i2c had [worked with Openscapes and QGreenland](https://blog.jupyter.org/desktop-gis-software-in-the-cloud-with-jupyterhub-ddced297019a) to bring this *desktop* software to JupyterHub. We had previously worked on a [docker image](https://github.com/2i2c-org/nasa-qgis-image) that allows users to directy access large scale data in S3 in QGIS on the JupyterHub, allowing users to work with much larger datasets than they could on their desktops by bringing their compute very close to the data. As continuation of this work, we developed [jupyter-rmeote-qgis-proxy](https://github.com/sunu/jupyter-remote-qgis-proxy), which builds QGIS specific features on top of [jupyter-remote-desktop-proxy](https://github.com/jupyterhub/jupyter-remote-desktop-proxy). In particular, it allows creation of sharable links that when clicked, open specific datasets and layers in QGIS in a JupyterHub! You can see this in action:
 
 <figure>
   {{< video autoplay="true" loop="true" src="qgis.mp4" >}}
   <figcaption>Launching QGIS on a Linux desktop served by the VEDA JupyterHub</figcaption>
 </figure>
 
+This opens up exciting future possibilities. Imagine this [exploration of the Camp Fire](https://www.earthdata.nasa.gov/dashboard/data-catalog/campfire_ndvi_difference_2015_2022) having an 'Open in QGIS' button that enables further exploration of the data without the user needing to download or install anything! Work will continue in the coming quarter towards that.
+
+We are also excited to see recent work in this space [from QuantStack and Simula Labs](https://blog.jupyter.org/jupytergis-d63b7adf9d0c), and will follow up to ensure an orderly transition to more web native workflows for existing users of QGIS in due time.
+
 ## Better Profile Selection
 
-**A dynamic image building user interface** – Implement the BinderHub integration developed with our [GESIS collaboration](blog/2024/jupyterhub-binderhub-gesis/index)
+This is a continuation of our [GESIS collaboration](blog/2024/jupyterhub-binderhub-gesis/index). In the path to deploying dynamic image building to end users, we wanted to stabilize [jupyterhub-fancy-profiles](https://github.com/yuvipanda/jupyterhub-fancy-profiles) enough to be able to deploy to users of VEDA (and eventually everyone else). This is the primary interface users see *after* they log in to JupyterHub, and was ripe for UX improvements. The default interface looks like this:
 
-## Home Directory Reporting
+![Default profile list page](old-profile.png)
+
+The revamped one looks like this:
+
+<figure>
+  {{< video autoplay="true" loop="true" src="new-profile.mp4" >}}
+  <figcaption>Revamped Profile Screen</figcaption>
+</figure>
+
+This is currently deployed to staging, and has helped us shake out a lot of bugs! We expect this to be rolled out to all users shortly. We are also planning on building on this to make the experience even better and smoother for everyone.
 
 ## Supporting workshops
 
 End users benefiting from our work is what ultimately gives meaning to our work. To that end, we were very happy to support running workshops -
 - see our related blog post [US Greenhouse Gas Center supports summer school at CIRA](blog/2024/ghg-summer-school/index))
 
+## Ongoing Collaboration
 
 Delivering on these objectives in a timely way heavily depended on the success of the team collaboration. [Sanjay Bhangar](https://developmentseed.org/team/sanjay-bhangar) of Development Seed commented
 
 > Working closely with the 2i2c team on growing features to support users on the VEDA and GHG Center hubs has been absolutely amazing. With 2i2c’s deep experience in the Jupyter ecosystem, we have been able to implement some fairly complex features quite easily, and their strong open-source roots have ensured that whatever we work on is broadly useful to the wider Jupyter and scientific computing communities.
+
+This collaboration continues, and we have now [published our objectives for the coming quarter](https://github.com/NASA-IMPACT/veda-jupyterhub/issues?q=is%3Aissue+jh%3A+label%3A%22PI+24.4%22+).
 
 ## Acknowledgements
 
