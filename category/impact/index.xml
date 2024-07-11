@@ -99,6 +99,50 @@ Acknowledgements
 &lt;li>
 &lt;a href="https://science.nasa.gov/researchers/" target="_blank" rel="noopener" >NASA ROSES funding&lt;/a>
 &lt;/li>
+&lt;/ul></description></item><item><title>Determining Climate Risks with NASA Earthdata Cloud at Scipy 2024</title><link>https://2i2c.org/blog/2024/climaterisk-scipy-tutorial/</link><pubDate>Mon, 08 Jul 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/climaterisk-scipy-tutorial/</guid><description>&lt;p>&lt;em>Determining Climate Risks with NASA Earthdata Cloud&lt;/em> is a
+&lt;a href="https://www.nasa.gov/centers-and-facilities/marshall/nasa-boosts-open-science-through-innovative-training/" target="_blank" rel="noopener" >ScienceCore&lt;/a>
+curriculum module that comprises part of NASA&amp;rsquo;s
+&lt;a href="https://science.nasa.gov/open-science-overview" target="_blank" rel="noopener" >Open Science&lt;/a>
+and
+&lt;a href="https://nasa.github.io/Transform-to-Open-Science/" target="_blank" rel="noopener" >Transform to Open Science (TOPS)&lt;/a>
+initiatives.
+The aim of this module is to deliver a hands-on experience with &amp;ldquo;data-proximate computing&amp;rdquo; in the cloud with
+&lt;a href="https://www.earthdata.nasa.gov/" target="_blank" rel="noopener" >NASA Earthdata&lt;/a>
+products with content co-developed with
+&lt;a href="https://www.metadocencia.org/" target="_blank" rel="noopener" >MetaDocencia&lt;/a>
+.&lt;/p>
+&lt;p>This module was delivered as a
+&lt;a href="https://cfp.scipy.org/2024/talk/3DVH7S/" target="_blank" rel="noopener" >SciPy tutorial&lt;/a>
+at this year&amp;rsquo;s conference. 2i2c have been working closely with the organizers to provide the hub infrastructure for the tutorial, including enabling a shared password for easy authentication (see our
+&lt;a href="https://2i2c.org/blog/2024/openscapes-sbg-workshop/" >Openscapes post&lt;/a>
+for more about this feature) and operating a small binder service for participants to view content after the event.&lt;/p>
+&lt;p>You can take a look at the tutorial on the
+&lt;a href="https://binder.opensci.2i2c.cloud/v2/gh/ScienceCore/scipy-2024-climaterisk/HEAD?labpath=00_Introduction_Setup%2F01_Initial_Setup.ipynb" target="_blank" rel="noopener" >NASA ephemeral hub&lt;/a>
+!).&lt;/p>
+&lt;p>The event was well-attended, with 40 learners taking part. Special thanks go to the organizers
+&lt;a href="https://github.com/dhavide" target="_blank" rel="noopener" >Dhavide Aruliah&lt;/a>
+,
+&lt;a href="https://www.linkedin.com/in/karthikvenkataramani/" target="_blank" rel="noopener" >Karthik Venkataramani&lt;/a>
+and
+&lt;a href="https://github.com/patriloto" target="_blank" rel="noopener" >Patricia A. Loto&lt;/a>
+for leading the tutorial.&lt;/p>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>NASA F.14 Transform to Open Science Training award NNH23ZDA001N-TOPST&lt;/li>
+&lt;li>
+&lt;a href="https://www.metadocencia.org/en/proyecto/nasa-2i2c/" target="_blank" rel="noopener" >MetaDocencia&lt;/a>
+&lt;/li>
+&lt;li>
+&lt;a href="https://github.com/dhavide" target="_blank" rel="noopener" >Dhavide Aruliah&lt;/a>
+&lt;/li>
+&lt;li>
+&lt;a href="https://www.linkedin.com/in/karthikvenkataramani/" target="_blank" rel="noopener" >Karthik Venkataramani&lt;/a>
+&lt;/li>
+&lt;li>
+&lt;a href="https://github.com/patriloto" target="_blank" rel="noopener" >Patricia A. Loto&lt;/a>
+&lt;/li>
 &lt;/ul></description></item><item><title>Enabling neuroscience in the cloud with HHMI Spyglass and MySQL on JupyterHub</title><link>https://2i2c.org/blog/2024/hhmi-spyglass-mysql/</link><pubDate>Fri, 05 Jul 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/hhmi-spyglass-mysql/</guid><description>&lt;p>
 &lt;figure id="figure-the-hhmi-spyglass-tutorialhttpsspyglasshhmi2i2ccloud">
 &lt;div class="d-flex justify-content-center">
