@@ -70,3 +70,4 @@ This collaboration continues, and we have now [published our objectives for the 
 
 - [Development Seed](https://developmentseed.org/)
 - [NASA IMPACT](https://impact.earthdata.nasa.gov/)
+- [Tarashish Mishra](https://sunu.in/), [Julia Signell](https://jsignell.github.io/), [Oliver Roick](https://oliverroick.net/), [Slesa Adhikari](https://slesa.com.np/) and [Sanjay Bhangar](https://developmentseed.org/team/sanjay-bhangar) for various code contributions towards these objectives
