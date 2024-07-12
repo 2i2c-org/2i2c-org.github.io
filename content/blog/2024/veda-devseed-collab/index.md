@@ -1,12 +1,14 @@
 ---
 title: Collaborating with Development Seed to deliver cyberinfrastructure for NASA VEDA
 date: "2024-07-12"
-authors: ["Jenny Wong"]
+authors: ["Yuvi Panda", "Jenny Wong"]
 tags: [geoscience, open source]
 categories: [impact]
 featured: false
 draft: false
 ---
+
+*Thank you to Sajjad Anwar and Sanjay Bhangar for contributing to this post.* 
 
 ![Landing page of the public-facing NASA VEDA dashboard](featured.png "The [VEDA dashboard](https://www.earthdata.nasa.gov/dashboard/)")
 
