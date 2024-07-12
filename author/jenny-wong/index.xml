@@ -1,4 +1,144 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Jenny Wong | 2i2c</title><link>https://2i2c.org/author/jenny-wong/</link><atom:link href="https://2i2c.org/author/jenny-wong/index.xml" rel="self" type="application/rss+xml"/><description>Jenny Wong</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 09 Jul 2024 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/author/jenny-wong/avatar_huc2333c99a5a6960f14279231c17feb93_40255_270x270_fill_q75_lanczos_center.jpg</url><title>Jenny Wong</title><link>https://2i2c.org/author/jenny-wong/</link></image><item><title>Jenny Wong</title><link>https://2i2c.org/author/jenny-wong/</link><pubDate>Tue, 09 Jul 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/author/jenny-wong/</guid><description>&lt;p>Jenny is the Technical Content Developer for 2i2c. Her work is mainly focused on the CZI-funded Catalyst Project, an initiative aiming to provide research communities in Latin America and Africa with access to large-scale scientific infrastructure. As part of this effort, she will help develop community-based training materials for interactive cloud-native workflows.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Jenny Wong | 2i2c</title><link>https://2i2c.org/author/jenny-wong/</link><atom:link href="https://2i2c.org/author/jenny-wong/index.xml" rel="self" type="application/rss+xml"/><description>Jenny Wong</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 12 Jul 2024 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/author/jenny-wong/avatar_huc2333c99a5a6960f14279231c17feb93_40255_270x270_fill_q75_lanczos_center.jpg</url><title>Jenny Wong</title><link>https://2i2c.org/author/jenny-wong/</link></image><item><title>Collaborating with Development Seed to deliver cyberinfrastructure for NASA VEDA</title><link>https://2i2c.org/blog/2024/veda-devseed-collab/</link><pubDate>Fri, 12 Jul 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/veda-devseed-collab/</guid><description>&lt;p>
+&lt;figure id="figure-the-veda-dashboardhttpswwwearthdatanasagovdashboard">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Landing page of the public-facing NASA VEDA dashboard" srcset="
+/blog/2024/veda-devseed-collab/featured_hu39a7cc29a158ac2651b21d5a8118917f_3367824_71bfd2bbcb0414a641ccf9d2497f1383.webp 400w,
+/blog/2024/veda-devseed-collab/featured_hu39a7cc29a158ac2651b21d5a8118917f_3367824_a2f03ffcfc01d10b92d3b5359ab49521.webp 760w,
+/blog/2024/veda-devseed-collab/featured_hu39a7cc29a158ac2651b21d5a8118917f_3367824_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2024/veda-devseed-collab/featured_hu39a7cc29a158ac2651b21d5a8118917f_3367824_71bfd2bbcb0414a641ccf9d2497f1383.webp"
+width="760"
+height="490"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+The
+&lt;a href="https://www.earthdata.nasa.gov/dashboard/" target="_blank" rel="noopener" >VEDA dashboard&lt;/a>
+&lt;/figcaption>&lt;/figure>
+&lt;/p>
+&lt;p>The 2i2c team are proud to continue our strong working collaboration with
+&lt;a href="https://developmentseed.org/" target="_blank" rel="noopener" >Development Seed&lt;/a>
+, following our previous work on launching the
+&lt;a href="https://2i2c.org/blog/2023/us-ghg-center-launches/" >US GHG center&lt;/a>
+(also see the
+&lt;a href="https://developmentseed.org/blog/2023-12-14-ghg-center" target="_blank" rel="noopener" >Development Seed blog post&lt;/a>
+). Together with scientists at NASA in our regular sync touchpoints, we have recently delivered a tranche of improvements to
+&lt;a href="https://www.earthdata.nasa.gov/esds/veda" target="_blank" rel="noopener" >the Visualization, Exploration and Data Analysis (VEDA) project&lt;/a>
+.&lt;/p>
+&lt;p>This platform is designed to thread open-source components together to consolidate GIS delivery mechanisms, processing, analysis and visualization tools, and presented in a collaborative interactive computing environment. All code repositories and associated resources stemming from this work are available on the
+&lt;a href="https://github.com/NASA-IMPACT/VEDA/wiki" target="_blank" rel="noopener" >VEDA GitHub page&lt;/a>
+.&lt;/p>
+&lt;p>In the spirit of fully open development, you can
+&lt;a href="https://github.com/NASA-IMPACT/veda-jupyterhub/issues?q=is%3Aissue&amp;#43;jh&amp;#43;is%3Aclosed&amp;#43;label%3A%22PI&amp;#43;24.3%22&amp;#43;" target="_blank" rel="noopener" >see the objectives&lt;/a>
+the combined 2i2c and Development Seed team had for the last quarter. In this blog post, we will describe some of the significant ones!&lt;/p>
+&lt;h2 id="better-image-management-and-testing">
+Better image management and testing
+&lt;a class="header-anchor" href="#better-image-management-and-testing">#&lt;/a>
+&lt;/h2>&lt;p>The
+&lt;a href="https://github.com/jupyterhub/repo2docker-action" target="_blank" rel="noopener" >repo2docker-action&lt;/a>
+is a GitHub action simplifying image building and testing for use with JupyterHub, using either a &lt;code>Dockerfile&lt;/code> or various
+&lt;a href="https://repo2docker.readthedocs.io/en/latest/config_files.html" target="_blank" rel="noopener" >configuration files&lt;/a>
+(like &lt;code>requirements.txt&lt;/code>, &lt;code>environment.yml&lt;/code>, etc) supported by
+&lt;a href="https://github.com/jupyterhub/repo2docker" target="_blank" rel="noopener" >repo2docker&lt;/a>
+. We migrated our image building pipeline from a somewhat homegrown solution to this upstream action, making image updates and testing &lt;em>much&lt;/em> easier. In particular, we can
+&lt;a href="https://github.com/NASA-IMPACT/pangeo-notebook-veda-image/pull/4" target="_blank" rel="noopener" >automatically run test notebooks&lt;/a>
+on every change we make to the image! This way, we can easily catch any breaking changes in library versions or other package installs without disrupting users. We also debugged and
+&lt;a href="https://github.com/jupyterhub/repo2docker-action/pull/124" target="_blank" rel="noopener" >contributed upstream&lt;/a>
+fixes to the testing infrastructure so everyone could benefit from this, rather than just us.&lt;/p>
+&lt;h2 id="automatically-pulling-example-notebooks-on-startup">
+Automatically pulling example notebooks on startup
+&lt;a class="header-anchor" href="#automatically-pulling-example-notebooks-on-startup">#&lt;/a>
+&lt;/h2>&lt;p>When a user logs into a JupyterHub, it is very helpful if we could have a bunch of example notebooks and other content pre-populated for them so they can get started right away.
+&lt;a href="https://nbgitpuller.readthedocs.io/" target="_blank" rel="noopener" >nbgitpuller&lt;/a>
+is heavily used for this particular use case. However, it requires that nbgitpuller is installed inside the image the user is using - and not all images have it installed. In particular, we wanted to continue using the (wonderful)
+&lt;a href="https://rocker-project.org/" target="_blank" rel="noopener" >Rocker images&lt;/a>
+maintained upstream for R users, however they do not have nbgitpuller installed. To solve this problem we built
+&lt;a href="https://github.com/NASA-IMPACT/jupyterhub-gitpuller-init" target="_blank" rel="noopener" >jupyterhub-gitpuller-init&lt;/a>
+, which can be used as an
+&lt;a href="https://kubernetes.io/docs/concepts/workloads/pods/init-containers/" target="_blank" rel="noopener" >init container&lt;/a>
+to pre-populate user content on persistent home directories regardless of the image used. We also made sure to build this in a way that &lt;em>anyone&lt;/em> can use it, and it is not tied into either 2i2c or VEDA infrastructure!&lt;/p>
+&lt;h2 id="opening-specific-visualizations-in-qgis-via-url">
+Opening specific visualizations in QGIS via URL
+&lt;a class="header-anchor" href="#opening-specific-visualizations-in-qgis-via-url">#&lt;/a>
+&lt;/h2>&lt;p>
+&lt;a href="https://www.qgis.org/" target="_blank" rel="noopener" >QGIS&lt;/a>
+is the world&amp;rsquo;s most used open source GIS software, and previously 2i2c had
+&lt;a href="https://blog.jupyter.org/desktop-gis-software-in-the-cloud-with-jupyterhub-ddced297019a" target="_blank" rel="noopener" >worked with Openscapes and QGreenland&lt;/a>
+to bring this &lt;em>desktop&lt;/em> software to JupyterHub. We had previously worked on a
+&lt;a href="https://github.com/2i2c-org/nasa-qgis-image" target="_blank" rel="noopener" >container image&lt;/a>
+that allows users to access large datasets stored in the cloud directly through QGIS on the JupyterHub, allowing users to work with much larger datasets than they could on their desktops by bringing cloud compute adjacent to the data. As a continuation of this work, we developed
+&lt;a href="https://github.com/sunu/jupyter-remote-qgis-proxy" target="_blank" rel="noopener" >jupyter-remote-qgis-proxy&lt;/a>
+, which builds QGIS specific features on top of
+&lt;a href="https://github.com/jupyterhub/jupyter-remote-desktop-proxy" target="_blank" rel="noopener" >jupyter-remote-desktop-proxy&lt;/a>
+. In particular, it allows creation of shareable links that when clicked, opens specific datasets and layers in QGIS in a JupyterHub! You can see this in action:&lt;/p>
+&lt;figure>
+&lt;video mute autoplay loop >
+&lt;source src="https://2i2c.org/blog/2024/veda-devseed-collab/qgis.mp4" type="video/mp4">
+&lt;/video>
+&lt;figcaption>Launching QGIS on a Linux desktop served by the VEDA JupyterHub&lt;/figcaption>
+&lt;/figure>
+&lt;p>This opens up exciting future possibilities. Imagine this
+&lt;a href="https://www.earthdata.nasa.gov/dashboard/data-catalog/campfire_ndvi_difference_2015_2022" target="_blank" rel="noopener" >exploration of the Camp Fire&lt;/a>
+having an &amp;lsquo;Open in QGIS&amp;rsquo; button that enables further exploration of the data without the user needing to download or install anything! Work will continue in the coming quarter towards achieving this vision.&lt;/p>
+&lt;p>We are also excited to see recent work in this space
+&lt;a href="https://blog.jupyter.org/jupytergis-d63b7adf9d0c" target="_blank" rel="noopener" >from QuantStack and Simula Labs&lt;/a>
+, and will follow up to ensure an orderly transition to more web native workflows for existing users of QGIS in due time.&lt;/p>
+&lt;h2 id="better-profile-selection">
+Better Profile Selection
+&lt;a class="header-anchor" href="#better-profile-selection">#&lt;/a>
+&lt;/h2>&lt;p>This is a continuation of our
+&lt;a href="https://2i2c.org/blog/2024/jupyterhub-binderhub-gesis/" >GESIS collaboration&lt;/a>
+. In the path to deploying dynamic image building to end users, we wanted to stabilize
+&lt;a href="https://github.com/yuvipanda/jupyterhub-fancy-profiles" target="_blank" rel="noopener" >jupyterhub-fancy-profiles&lt;/a>
+enough to deploy to users of VEDA (and eventually everyone else). This is the primary interface users see &lt;em>after&lt;/em> they log in to JupyterHub, and was ripe for UX improvements. The default interface looks like this:&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Default profile list page" srcset="
+/blog/2024/veda-devseed-collab/old-profile_hu0c4ed8e23eda24477579f8c6de486cbb_251152_33f71f9278500a92b225887bc823fa03.webp 400w,
+/blog/2024/veda-devseed-collab/old-profile_hu0c4ed8e23eda24477579f8c6de486cbb_251152_21c5e15271c50f03d7308c09feec74d4.webp 760w,
+/blog/2024/veda-devseed-collab/old-profile_hu0c4ed8e23eda24477579f8c6de486cbb_251152_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2024/veda-devseed-collab/old-profile_hu0c4ed8e23eda24477579f8c6de486cbb_251152_33f71f9278500a92b225887bc823fa03.webp"
+width="734"
+height="760"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>The revamped one is much more streamlined and looks like this:&lt;/p>
+&lt;figure>
+&lt;video mute autoplay loop >
+&lt;source src="https://2i2c.org/blog/2024/veda-devseed-collab/new-profile.mp4" type="video/mp4">
+&lt;/video>
+&lt;figcaption>Revamped Profile Screen&lt;/figcaption>
+&lt;/figure>
+&lt;p>This is currently deployed to a staging hub and has helped us shake out a lot of bugs! We expect the improved interface will be rolled out to all users in the near future. We are also planning further development to make the user experience even better and smoother for everyone.&lt;/p>
+&lt;h2 id="supporting-workshops">
+Supporting workshops
+&lt;a class="header-anchor" href="#supporting-workshops">#&lt;/a>
+&lt;/h2>&lt;p>End users benefiting from our work is what ultimately gives meaning to our work. To that end, we were very happy to support running workshops during this collaboration – see our related blog post
+&lt;a href="https://2i2c.org/blog/2024/ghg-summer-school/" >US Greenhouse Gas Center supports summer school at CIRA&lt;/a>
+for more information.&lt;/p>
+&lt;h2 id="ongoing-collaboration">
+Ongoing Collaboration
+&lt;a class="header-anchor" href="#ongoing-collaboration">#&lt;/a>
+&lt;/h2>&lt;p>Delivering on these objectives in a timely way heavily depended on the success of the team collaboration.
+&lt;a href="https://developmentseed.org/team/sanjay-bhangar" target="_blank" rel="noopener" >Sanjay Bhangar&lt;/a>
+of Development Seed commented&lt;/p>
+&lt;blockquote>
+&lt;p>Working closely with the 2i2c team on growing features to support users on the VEDA and GHG Center hubs has been absolutely amazing. With 2i2c’s deep experience in the Jupyter ecosystem, we have been able to implement some fairly complex features quite easily, and their strong open-source roots have ensured that whatever we work on is broadly useful to the wider Jupyter and scientific computing communities.&lt;/p>
+&lt;/blockquote>
+&lt;p>This collaboration continues, and we have now
+&lt;a href="https://github.com/NASA-IMPACT/veda-jupyterhub/issues?q=is%3Aissue&amp;#43;jh%3A&amp;#43;label%3A%22PI&amp;#43;24.4%22&amp;#43;" target="_blank" rel="noopener" >published our objectives for the coming quarter&lt;/a>
+. Watch this space!&lt;/p>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;a href="https://developmentseed.org/" target="_blank" rel="noopener" >Development Seed&lt;/a>
+&lt;/li>
+&lt;li>
+&lt;a href="https://impact.earthdata.nasa.gov/" target="_blank" rel="noopener" >NASA IMPACT&lt;/a>
+&lt;/li>
+&lt;/ul></description></item><item><title>Jenny Wong</title><link>https://2i2c.org/author/jenny-wong/</link><pubDate>Fri, 12 Jul 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/author/jenny-wong/</guid><description>&lt;p>Jenny is the Technical Content Developer for 2i2c. Her work is mainly focused on the CZI-funded Catalyst Project, an initiative aiming to provide research communities in Latin America and Africa with access to large-scale scientific infrastructure. As part of this effort, she will help develop community-based training materials for interactive cloud-native workflows.&lt;/p>
 &lt;p>As a former research software engineer, Jenny has considerable experience supporting researchers with writing documentation, creating video tutorials, and designing and delivering training for advanced research computing. Jenny is also a qualified Software Carpentries Instructor.&lt;/p>
 &lt;p>Jenny&amp;rsquo;s background is in mathematics, with a special interest in geophysical fluid dynamics. She obtained a PhD in the subject with her thesis titled &amp;ldquo;A slurry model of the F-layer in the Earth&amp;rsquo;s core&amp;rdquo;.&lt;/p></description></item><item><title>Openscapes Host a Surface Biology and Geology Workshop with Shared Password Feature</title><link>https://2i2c.org/blog/2024/openscapes-sbg-workshop/</link><pubDate>Tue, 09 Jul 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/openscapes-sbg-workshop/</guid><description>&lt;p>&lt;em>Thanks to Brianna Lind, Julia Lowndes and Andy Teucher for contributing to this blog post!&lt;/em>&lt;/p>
 &lt;p>
@@ -249,146 +389,6 @@ Acknowledgements
 &lt;/li>
 &lt;li>
 &lt;a href="https://github.com/jupyterhub/zero-to-jupyterhub-k8s/" target="_blank" rel="noopener" >zero-to-jupyterhub-k8s&lt;/a>
-&lt;/li>
-&lt;/ul></description></item><item><title>Collaborating with Development Seed to deliver cyberinfrastructure for NASA VEDA</title><link>https://2i2c.org/blog/2024/veda-devseed-collab/</link><pubDate>Tue, 02 Jul 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/veda-devseed-collab/</guid><description>&lt;p>
-&lt;figure id="figure-the-veda-dashboardhttpswwwearthdatanasagovdashboard">
-&lt;div class="d-flex justify-content-center">
-&lt;div class="w-100" >&lt;img alt="Landing page of the public-facing NASA VEDA dashboard" srcset="
-/blog/2024/veda-devseed-collab/featured_hu39a7cc29a158ac2651b21d5a8118917f_3367824_71bfd2bbcb0414a641ccf9d2497f1383.webp 400w,
-/blog/2024/veda-devseed-collab/featured_hu39a7cc29a158ac2651b21d5a8118917f_3367824_a2f03ffcfc01d10b92d3b5359ab49521.webp 760w,
-/blog/2024/veda-devseed-collab/featured_hu39a7cc29a158ac2651b21d5a8118917f_3367824_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2024/veda-devseed-collab/featured_hu39a7cc29a158ac2651b21d5a8118917f_3367824_71bfd2bbcb0414a641ccf9d2497f1383.webp"
-width="760"
-height="490"
-loading="lazy" data-zoomable />&lt;/div>
-&lt;/div>&lt;figcaption>
-The
-&lt;a href="https://www.earthdata.nasa.gov/dashboard/" target="_blank" rel="noopener" >VEDA dashboard&lt;/a>
-&lt;/figcaption>&lt;/figure>
-&lt;/p>
-&lt;p>The 2i2c team are proud to continue our strong working collaboration with
-&lt;a href="https://developmentseed.org/" target="_blank" rel="noopener" >Development Seed&lt;/a>
-, following our previous work on launching the
-&lt;a href="https://2i2c.org/blog/2023/us-ghg-center-launches/" >US GHG center&lt;/a>
-(also see the
-&lt;a href="https://developmentseed.org/blog/2023-12-14-ghg-center" target="_blank" rel="noopener" >Development Seed blog post&lt;/a>
-). Together with scientists at NASA in our regular sync touchpoints, we have recently delivered a tranche of improvements to
-&lt;a href="https://www.earthdata.nasa.gov/esds/veda" target="_blank" rel="noopener" >the Visualization, Exploration and Data Analysis (VEDA) project&lt;/a>
-.&lt;/p>
-&lt;p>This platform is designed to thread open-source components together to consolidate GIS delivery mechanisms, processing, analysis and visualization tools, and presented in a collaborative interactive computing environment. All code repositories and associated resources stemming from this work are available on the
-&lt;a href="https://github.com/NASA-IMPACT/VEDA/wiki" target="_blank" rel="noopener" >VEDA GitHub page&lt;/a>
-.&lt;/p>
-&lt;p>In the spirit of fully open development, you can
-&lt;a href="https://github.com/NASA-IMPACT/veda-jupyterhub/issues?q=is%3Aissue&amp;#43;jh&amp;#43;is%3Aclosed&amp;#43;label%3A%22PI&amp;#43;24.3%22&amp;#43;" target="_blank" rel="noopener" >see the objectives&lt;/a>
-the combined 2i2c and Development Seed team had for the last quarter. In this blog post, we will describe some of the significant ones!&lt;/p>
-&lt;h2 id="better-image-management-and-testing">
-Better image management and testing
-&lt;a class="header-anchor" href="#better-image-management-and-testing">#&lt;/a>
-&lt;/h2>&lt;p>The
-&lt;a href="https://github.com/jupyterhub/repo2docker-action" target="_blank" rel="noopener" >repo2docker-action&lt;/a>
-is a GitHub action simplifying image building and testing for use with JupyterHub, using either a &lt;code>Dockerfile&lt;/code> or various
-&lt;a href="https://repo2docker.readthedocs.io/en/latest/config_files.html" target="_blank" rel="noopener" >configuration files&lt;/a>
-(like &lt;code>requirements.txt&lt;/code>, &lt;code>environment.yml&lt;/code>, etc) supported by
-&lt;a href="https://github.com/jupyterhub/repo2docker" target="_blank" rel="noopener" >repo2docker&lt;/a>
-. We migrated our image building pipeline from a somewhat homegrown solution to this upstream action, making image updates and testing &lt;em>much&lt;/em> easier. In particular, we can
-&lt;a href="https://github.com/NASA-IMPACT/pangeo-notebook-veda-image/pull/4" target="_blank" rel="noopener" >automatically run test notebooks&lt;/a>
-on every change we make to the image! This way, we can easily catch any breaking changes in library versions or other package installs without disrupting users. We also debugged and
-&lt;a href="https://github.com/jupyterhub/repo2docker-action/pull/124" target="_blank" rel="noopener" >contributed upstream&lt;/a>
-fixes to the testing infrastructure so everyone could benefit from this, rather than just us.&lt;/p>
-&lt;h2 id="automatically-pulling-example-notebooks-on-startup">
-Automatically pulling example notebooks on startup
-&lt;a class="header-anchor" href="#automatically-pulling-example-notebooks-on-startup">#&lt;/a>
-&lt;/h2>&lt;p>When a user logs into a JupyterHub, it is very helpful if we could have a bunch of example notebooks and other content pre-populated for them so they can get started right away.
-&lt;a href="https://nbgitpuller.readthedocs.io/" target="_blank" rel="noopener" >nbgitpuller&lt;/a>
-is heavily used for this particular use case. However, it requires that nbgitpuller is installed inside the image the user is using - and not all images have it installed. In particular, we wanted to continue using the (wonderful)
-&lt;a href="https://rocker-project.org/" target="_blank" rel="noopener" >Rocker images&lt;/a>
-maintained upstream for R users, however they do not have nbgitpuller installed. To solve this problem we built
-&lt;a href="https://github.com/NASA-IMPACT/jupyterhub-gitpuller-init" target="_blank" rel="noopener" >jupyterhub-gitpuller-init&lt;/a>
-, which can be used as an
-&lt;a href="https://kubernetes.io/docs/concepts/workloads/pods/init-containers/" target="_blank" rel="noopener" >init container&lt;/a>
-to pre-populate user content on persistent home directories regardless of the image used. We also made sure to build this in a way that &lt;em>anyone&lt;/em> can use it, and it is not tied into either 2i2c or VEDA infrastructure!&lt;/p>
-&lt;h2 id="opening-specific-visualizations-in-qgis-via-url">
-Opening specific visualizations in QGIS via URL
-&lt;a class="header-anchor" href="#opening-specific-visualizations-in-qgis-via-url">#&lt;/a>
-&lt;/h2>&lt;p>
-&lt;a href="https://www.qgis.org/" target="_blank" rel="noopener" >QGIS&lt;/a>
-is the world&amp;rsquo;s most used open source GIS software, and previously 2i2c had
-&lt;a href="https://blog.jupyter.org/desktop-gis-software-in-the-cloud-with-jupyterhub-ddced297019a" target="_blank" rel="noopener" >worked with Openscapes and QGreenland&lt;/a>
-to bring this &lt;em>desktop&lt;/em> software to JupyterHub. We had previously worked on a
-&lt;a href="https://github.com/2i2c-org/nasa-qgis-image" target="_blank" rel="noopener" >container image&lt;/a>
-that allows users to access large datasets stored in the cloud directly through QGIS on the JupyterHub, allowing users to work with much larger datasets than they could on their desktops by bringing cloud compute adjacent to the data. As a continuation of this work, we developed
-&lt;a href="https://github.com/sunu/jupyter-remote-qgis-proxy" target="_blank" rel="noopener" >jupyter-remote-qgis-proxy&lt;/a>
-, which builds QGIS specific features on top of
-&lt;a href="https://github.com/jupyterhub/jupyter-remote-desktop-proxy" target="_blank" rel="noopener" >jupyter-remote-desktop-proxy&lt;/a>
-. In particular, it allows creation of shareable links that when clicked, opens specific datasets and layers in QGIS in a JupyterHub! You can see this in action:&lt;/p>
-&lt;figure>
-&lt;video mute autoplay loop >
-&lt;source src="https://2i2c.org/blog/2024/veda-devseed-collab/qgis.mp4" type="video/mp4">
-&lt;/video>
-&lt;figcaption>Launching QGIS on a Linux desktop served by the VEDA JupyterHub&lt;/figcaption>
-&lt;/figure>
-&lt;p>This opens up exciting future possibilities. Imagine this
-&lt;a href="https://www.earthdata.nasa.gov/dashboard/data-catalog/campfire_ndvi_difference_2015_2022" target="_blank" rel="noopener" >exploration of the Camp Fire&lt;/a>
-having an &amp;lsquo;Open in QGIS&amp;rsquo; button that enables further exploration of the data without the user needing to download or install anything! Work will continue in the coming quarter towards achieving this vision.&lt;/p>
-&lt;p>We are also excited to see recent work in this space
-&lt;a href="https://blog.jupyter.org/jupytergis-d63b7adf9d0c" target="_blank" rel="noopener" >from QuantStack and Simula Labs&lt;/a>
-, and will follow up to ensure an orderly transition to more web native workflows for existing users of QGIS in due time.&lt;/p>
-&lt;h2 id="better-profile-selection">
-Better Profile Selection
-&lt;a class="header-anchor" href="#better-profile-selection">#&lt;/a>
-&lt;/h2>&lt;p>This is a continuation of our
-&lt;a href="https://2i2c.org/blog/2024/jupyterhub-binderhub-gesis/" >GESIS collaboration&lt;/a>
-. In the path to deploying dynamic image building to end users, we wanted to stabilize
-&lt;a href="https://github.com/yuvipanda/jupyterhub-fancy-profiles" target="_blank" rel="noopener" >jupyterhub-fancy-profiles&lt;/a>
-enough to deploy to users of VEDA (and eventually everyone else). This is the primary interface users see &lt;em>after&lt;/em> they log in to JupyterHub, and was ripe for UX improvements. The default interface looks like this:&lt;/p>
-&lt;p>
-&lt;figure >
-&lt;div class="d-flex justify-content-center">
-&lt;div class="w-100" >&lt;img alt="Default profile list page" srcset="
-/blog/2024/veda-devseed-collab/old-profile_hu0c4ed8e23eda24477579f8c6de486cbb_251152_33f71f9278500a92b225887bc823fa03.webp 400w,
-/blog/2024/veda-devseed-collab/old-profile_hu0c4ed8e23eda24477579f8c6de486cbb_251152_21c5e15271c50f03d7308c09feec74d4.webp 760w,
-/blog/2024/veda-devseed-collab/old-profile_hu0c4ed8e23eda24477579f8c6de486cbb_251152_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2024/veda-devseed-collab/old-profile_hu0c4ed8e23eda24477579f8c6de486cbb_251152_33f71f9278500a92b225887bc823fa03.webp"
-width="734"
-height="760"
-loading="lazy" data-zoomable />&lt;/div>
-&lt;/div>&lt;/figure>
-&lt;/p>
-&lt;p>The revamped one is much more streamlined and looks like this:&lt;/p>
-&lt;figure>
-&lt;video mute autoplay loop >
-&lt;source src="https://2i2c.org/blog/2024/veda-devseed-collab/new-profile.mp4" type="video/mp4">
-&lt;/video>
-&lt;figcaption>Revamped Profile Screen&lt;/figcaption>
-&lt;/figure>
-&lt;p>This is currently deployed to a staging hub and has helped us shake out a lot of bugs! We expect the improved interface will be rolled out to all users in the near future. We are also planning further development to make the user experience even better and smoother for everyone.&lt;/p>
-&lt;h2 id="supporting-workshops">
-Supporting workshops
-&lt;a class="header-anchor" href="#supporting-workshops">#&lt;/a>
-&lt;/h2>&lt;p>End users benefiting from our work is what ultimately gives meaning to our work. To that end, we were very happy to support running workshops during this collaboration – see our related blog post
-&lt;a href="https://2i2c.org/blog/2024/ghg-summer-school/" >US Greenhouse Gas Center supports summer school at CIRA&lt;/a>
-for more information.&lt;/p>
-&lt;h2 id="ongoing-collaboration">
-Ongoing Collaboration
-&lt;a class="header-anchor" href="#ongoing-collaboration">#&lt;/a>
-&lt;/h2>&lt;p>Delivering on these objectives in a timely way heavily depended on the success of the team collaboration.
-&lt;a href="https://developmentseed.org/team/sanjay-bhangar" target="_blank" rel="noopener" >Sanjay Bhangar&lt;/a>
-of Development Seed commented&lt;/p>
-&lt;blockquote>
-&lt;p>Working closely with the 2i2c team on growing features to support users on the VEDA and GHG Center hubs has been absolutely amazing. With 2i2c’s deep experience in the Jupyter ecosystem, we have been able to implement some fairly complex features quite easily, and their strong open-source roots have ensured that whatever we work on is broadly useful to the wider Jupyter and scientific computing communities.&lt;/p>
-&lt;/blockquote>
-&lt;p>This collaboration continues, and we have now
-&lt;a href="https://github.com/NASA-IMPACT/veda-jupyterhub/issues?q=is%3Aissue&amp;#43;jh%3A&amp;#43;label%3A%22PI&amp;#43;24.4%22&amp;#43;" target="_blank" rel="noopener" >published our objectives for the coming quarter&lt;/a>
-. Watch this space!&lt;/p>
-&lt;h2 id="acknowledgements">
-Acknowledgements
-&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
-&lt;/h2>&lt;ul>
-&lt;li>
-&lt;a href="https://developmentseed.org/" target="_blank" rel="noopener" >Development Seed&lt;/a>
-&lt;/li>
-&lt;li>
-&lt;a href="https://impact.earthdata.nasa.gov/" target="_blank" rel="noopener" >NASA IMPACT&lt;/a>
 &lt;/li>
 &lt;/ul></description></item><item><title>We need to improve the diversity of our leadership</title><link>https://2i2c.org/blog/2024/dei-leadership-strategy/</link><pubDate>Fri, 28 Jun 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/dei-leadership-strategy/</guid><description>&lt;p>As an organization committed to broadening access to interactive computing for global communities, we believe that a team embedded with diverse insights and lived experiences can more effectively advocate for underrepresented voices in our socio-technical partnerships.
 A diversity of team experiences helps us deliver a service that broadens and empowers participation in open-source science for all communities and leads to
