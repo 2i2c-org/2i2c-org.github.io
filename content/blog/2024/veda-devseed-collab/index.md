@@ -65,7 +65,7 @@ Delivering on these objectives in a timely way heavily depended on the success o
 
 > Working closely with the 2i2c team on growing features to support users on the VEDA and GHG Center hubs has been absolutely amazing. With 2i2c’s deep experience in the Jupyter ecosystem, we have been able to implement some fairly complex features quite easily, and their strong open-source roots have ensured that whatever we work on is broadly useful to the wider Jupyter and scientific computing communities.
 
-Take a look at the [Development Seed blog post](https://developmentseed.org/blog/2024-07-12-jupyter-geospatial) of this work.
+Take a look at the companion [Development Seed blog post](https://developmentseed.org/blog/2024-07-12-jupyter-geospatial) of this work.
 
 This collaboration continues, and we have now [published our objectives for the coming quarter](https://github.com/NASA-IMPACT/veda-jupyterhub/issues?q=is%3Aissue+jh%3A+label%3A%22PI+24.4%22+). Watch this space!
 
