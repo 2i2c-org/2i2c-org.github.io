@@ -1,6 +1,6 @@
 ---
 title: Collaborating with Development Seed to deliver cyberinfrastructure for NASA VEDA
-date: "2024-07-02"
+date: "2024-07-12"
 authors: ["Jenny Wong"]
 tags: [geoscience, open source]
 categories: [impact]
