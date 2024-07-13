@@ -31,6 +31,9 @@ social:
 - icon: github
   icon_pack: fab
   link: https://github.com/yuvipanda
+- icon: globe
+  icon_pack: fas
+  link: https://yuvi.in
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 email: ""
