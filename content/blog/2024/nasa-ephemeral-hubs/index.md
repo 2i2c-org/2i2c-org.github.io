@@ -7,7 +7,7 @@ authors: ["Jenny Wong"]
 tags: [geoscience, education]
 categories: [impact]
 featured: false
-draft: true
+draft: false
 ---
 
 We are pleased to announce that we have deployed two ephemeral hubs for NASA communities!
