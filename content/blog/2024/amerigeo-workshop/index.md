@@ -7,7 +7,7 @@ authors: ["James Munroe, Jenny Wong"]
 tags: [geoscience, education]
 categories: [impact]
 featured: false
-draft: true
+draft: false
 ---
 
 ![Video presentation of the RStudio environment used for the workshop.](rstudio.png)
@@ -22,7 +22,7 @@ Over 100 participants were able to access the interactive workshop on our infras
 
 ## Acknowledgements
 
-- Funding from Science Mission Directorate’s Open Source Science Initiative, Research Opportunities in Space and Earth Science (ROSES-2022), F.14 Transform to Open Science 
+- Funding from Science Mission Directorate’s Open Source Science Initiative, Research Opportunities in Space and Earth Science (ROSES-2022), F.14 Transform to Open Science
 - NASA NSPIRES F.15 High Priority Open-Source Science Award NNH22ZDA001N-HPOSS
 - Kytt MacManus
 - Juan F. Martinez
