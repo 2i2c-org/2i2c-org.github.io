@@ -1,5 +1,5 @@
 ---
-title: Ephemeral Interactive Computing for AmeriGEO Workshop
+title: Ephemeral Interactive Computing for the AmeriGEO Workshop
 date: "2024-08-05"
 banner:
   image: "featured.png"
@@ -24,6 +24,7 @@ Over 100 participants were able to access the interactive workshop on our infras
 
 - Funding from Science Mission Directorate’s Open Source Science Initiative, Research Opportunities in Space and Earth Science (ROSES-2022), F.14 Transform to Open Science
 - NASA NSPIRES F.15 High Priority Open-Source Science Award NNH22ZDA001N-HPOSS
+- [NASA Socioeconomic Data and Applications Center (SEDAC)](https://sedac.ciesin.columbia.edu/)
 - Kytt MacManus
 - Juan F. Martinez
 - James Munroe for providing support and assistance for setting up the cyberinfrastructure for this workshop.
