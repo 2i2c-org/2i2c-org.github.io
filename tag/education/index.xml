@@ -1,4 +1,49 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Education | 2i2c</title><link>https://2i2c.org/tag/education/</link><atom:link href="https://2i2c.org/tag/education/index.xml" rel="self" type="application/rss+xml"/><description>Education</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 09 Jul 2024 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Education</title><link>https://2i2c.org/tag/education/</link></image><item><title>Openscapes Host a Surface Biology and Geology Workshop with Shared Password Feature</title><link>https://2i2c.org/blog/2024/openscapes-sbg-workshop/</link><pubDate>Tue, 09 Jul 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/openscapes-sbg-workshop/</guid><description>&lt;p>&lt;em>Thanks to Brianna Lind, Julia Lowndes and Andy Teucher for contributing to this blog post!&lt;/em>&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Education | 2i2c</title><link>https://2i2c.org/tag/education/</link><atom:link href="https://2i2c.org/tag/education/index.xml" rel="self" type="application/rss+xml"/><description>Education</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 05 Aug 2024 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Education</title><link>https://2i2c.org/tag/education/</link></image><item><title>Ephemeral Interactive Computing for the AmeriGEO Workshop</title><link>https://2i2c.org/blog/2024/amerigeo-workshop/</link><pubDate>Mon, 05 Aug 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/amerigeo-workshop/</guid><description>&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Video presentation of the RStudio environment used for the workshop." srcset="
+/blog/2024/amerigeo-workshop/rstudio_hu8025ab8fb7793b93e2eb3724aa4ea81a_1222244_a69c3a56ec011c97547fd35df34e6a98.webp 400w,
+/blog/2024/amerigeo-workshop/rstudio_hu8025ab8fb7793b93e2eb3724aa4ea81a_1222244_55ff4b968a1fe533c2d5e33459c87c15.webp 760w,
+/blog/2024/amerigeo-workshop/rstudio_hu8025ab8fb7793b93e2eb3724aa4ea81a_1222244_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2024/amerigeo-workshop/rstudio_hu8025ab8fb7793b93e2eb3724aa4ea81a_1222244_a69c3a56ec011c97547fd35df34e6a98.webp"
+width="760"
+height="428"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>
+&lt;a href="https://www.amerigeo.org/" target="_blank" rel="noopener" >AmeriGEO&lt;/a>
+provides a framework for cooperation in the Americas for the use of Earth data to benefit science and society with data driven decision-making. As part of a virtual workshop held on 1st August 2024, 2i2c provided an interactive computing environment to support the delivery of a
+&lt;a href="https://www.nasa.gov/centers-and-facilities/marshall/nasa-boosts-open-science-through-innovative-training/" target="_blank" rel="noopener" >NASA TOPST&lt;/a>
+water module.&lt;/p>
+&lt;p>The workshop was facilitated by
+&lt;a href="https://people.climate.columbia.edu/users/profile/kytt-macmanus" target="_blank" rel="noopener" >Kytt MacManus&lt;/a>
+and
+&lt;a href="https://ciesin.climate.columbia.edu/directory/juan-f-martinez" target="_blank" rel="noopener" >Juan F. Martinez&lt;/a>
+(both of
+&lt;a href="http://www.ciesin.columbia.edu/" target="_blank" rel="noopener" >CIESIN&lt;/a>
+, Columbia University, New York). Juan presented interactive R code, with explanatory content written in Quarto, for hotspot vulnerability analysis for floods and landslides focused on Ecuador using earth observation data and socioeconomic data to develop an index of vulnerability. Check out their
+&lt;a href="https://github.com/ciesin-geospatial/TOPSTSCHOOL-water" target="_blank" rel="noopener" >GitHub repo&lt;/a>
+and explore interactively yourself! See our blog post for more details of how to access the BinderHub deployments to provide
+&lt;a href="https://2i2c.org/blog/2024/nasa-ephemeral-hubs/" >Ephemeral Interactive Computing for NASA Communities&lt;/a>
+.&lt;/p>
+&lt;p>Over 100 participants were able to access the interactive workshop on our infrastructure, with 8 GB of RAM per user to facilitate the processing of large amounts of earth data. We are pleased that the workshop was successful and the platform was able to provide a great experience for participants. After the workshop, Kytt reported that&lt;/p>
+&lt;blockquote>
+&lt;p>The technology worked as expected and we didn&amp;rsquo;t run into 1 major technical problem. Thank you so much for that!&amp;quot;.&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>Funding from Science Mission Directorate’s Open Source Science Initiative, Research Opportunities in Space and Earth Science (ROSES-2022), F.14 Transform to Open Science&lt;/li>
+&lt;li>NASA NSPIRES F.15 High Priority Open-Source Science Award NNH22ZDA001N-HPOSS&lt;/li>
+&lt;li>
+&lt;a href="https://sedac.ciesin.columbia.edu/" target="_blank" rel="noopener" >NASA Socioeconomic Data and Applications Center (SEDAC)&lt;/a>
+&lt;/li>
+&lt;li>Kytt MacManus&lt;/li>
+&lt;li>Juan F. Martinez&lt;/li>
+&lt;li>James Munroe for providing support and assistance for setting up the cyberinfrastructure for this workshop.&lt;/li>
+&lt;/ul></description></item><item><title>Openscapes Host a Surface Biology and Geology Workshop with Shared Password Feature</title><link>https://2i2c.org/blog/2024/openscapes-sbg-workshop/</link><pubDate>Tue, 09 Jul 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/openscapes-sbg-workshop/</guid><description>&lt;p>&lt;em>Thanks to Brianna Lind, Julia Lowndes and Andy Teucher for contributing to this blog post!&lt;/em>&lt;/p>
 &lt;p>
 &lt;figure id="figure-surface-biology-and-geology-vitals-workshop">
 &lt;div class="d-flex justify-content-center">
@@ -143,6 +188,70 @@ Acknowledgements
 &lt;li>
 &lt;a href="https://github.com/patriloto" target="_blank" rel="noopener" >Patricia A. Loto&lt;/a>
 &lt;/li>
+&lt;/ul></description></item><item><title>Ephemeral Interactive Computing for NASA Communities</title><link>https://2i2c.org/blog/2024/nasa-ephemeral-hubs/</link><pubDate>Thu, 27 Jun 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/nasa-ephemeral-hubs/</guid><description>&lt;p>We are pleased to announce that we have deployed two ephemeral hubs for NASA communities!&lt;/p>
+&lt;h2 id="what-did-we-do">
+What did we do?
+&lt;a class="header-anchor" href="#what-did-we-do">#&lt;/a>
+&lt;/h2>&lt;p>As part of the deliverables for our NASA High Priority Open-Source Science (HPOSS) award, we deployed two new ephemeral hubs:&lt;/p>
+&lt;ol>
+&lt;li>a
+&lt;a href="https://binder.opensci.2i2c.cloud/" target="_blank" rel="noopener" >public small BinderHub&lt;/a>
+that offers a &amp;ldquo;reader&amp;rdquo; experience where learners can interactively view GitHub repositories that deliver light scientific content with small compute and no barriers to authentication&lt;/li>
+&lt;li>a
+&lt;a href="https://hub.big.binder.opensci.2i2c.cloud/" target="_blank" rel="noopener" >big BinderHub&lt;/a>
+that offers an &amp;ldquo;explorer&amp;rdquo; experience where learners can log in to access more substantial compute resources to interactively investigate large datasets and run large workflows from any GitHub repository.&lt;/li>
+&lt;/ol>
+&lt;p>These services enrich the interactive computing ecosystem for NASA communities by&lt;/p>
+&lt;ul>
+&lt;li>improving the shareability and reproducibility of scientific information&lt;/li>
+&lt;li>broadening participation for historically excluded and under-resourced science communities&lt;/li>
+&lt;li>enabling activities such as hackathons, demonstrations or training, during workshops and conferences.&lt;/li>
+&lt;/ul>
+&lt;h2 id="how-did-we-do-it">
+How did we do it?
+&lt;a class="header-anchor" href="#how-did-we-do-it">#&lt;/a>
+&lt;/h2>&lt;p>Ephemeral interactive computing services benefited from some of our previous development work in collaboration with GESIS (see our
+&lt;a href="https://2i2c.org/blog/2024/jupyterhub-binderhub-gesis/" >detailed blog post&lt;/a>
+for more information). The research and development of this project achieved wide-reaching impact across many NASA communities we currently serve, including
+&lt;a href="https://www.nasa.gov/centers-and-facilities/marshall/nasa-boosts-open-science-through-innovative-training/" target="_blank" rel="noopener" >TOPST ScienceCore&lt;/a>
+,
+&lt;a href="https://2i2c.org/blog/2024/openscapes-sbg-workshop/" >Openscapes&lt;/a>
+,
+&lt;a href="https://2i2c.org/blog/2024/ghg-summer-school/" >US Greenhouse Gas Center&lt;/a>
+,
+&lt;a href="https://www.earthdata.nasa.gov/esds/veda" target="_blank" rel="noopener" >VEDA&lt;/a>
+and
+&lt;a href="https://cryointhecloud.com/" target="_blank" rel="noopener" >CryoCloud&lt;/a>
+; as well as networks beyond the NASA scope, such as the NSF-funded
+&lt;a href="https://projectpythia.org/" target="_blank" rel="noopener" >Project Pythia&lt;/a>
+and HHMI-funded
+&lt;a href="https://lorenfranklab.github.io/spyglass/latest/" target="_blank" rel="noopener" >Spyglass&lt;/a>
+projects.&lt;/p>
+&lt;h2 id="what-next">
+What next?
+&lt;a class="header-anchor" href="#what-next">#&lt;/a>
+&lt;/h2>&lt;p>We will focus on bolstering the community- and knowledge-building needed for making the best use of these binder services in the next phase of our HPOSS work to accelerate broader participation in science. This includes opportunities such as running workshops and tutorials, as well as disseminating best practices for collaborative research. Further engineering developments will proceed in collaboration with the NASA VEDA project to set up a binder service, improve the sharing of custom environments, and refine QGIS integrations for analysing geospatial data.&lt;/p>
+&lt;h2 id="can-i-use-this-ephemeral-hub-service">
+Can I use this ephemeral hub service?
+&lt;a class="header-anchor" href="#can-i-use-this-ephemeral-hub-service">#&lt;/a>
+&lt;/h2>&lt;p>The answer is yes!&lt;/p>
+&lt;ul>
+&lt;li>For the
+&lt;a href="https://binder.opensci.2i2c.cloud/" target="_blank" rel="noopener" >public small BinderHub&lt;/a>
+anyone can view GitHub repositories that deliver light scientific content with small compute and no barriers to authentication&lt;/li>
+&lt;li>For the
+&lt;a href="https://hub.big.binder.opensci.2i2c.cloud/" target="_blank" rel="noopener" >big BinderHub&lt;/a>
+you will need to be member of a NASA community. This requires a GitHub account for membership of the GitHub Team
+&lt;a href="https://github.com/orgs/2i2c-nasa-binder-access/teams/big-binder-team" target="_blank" rel="noopener" >2i2c-nasa-binder-access:big-binder-team&lt;/a>
+for authorization. Please send us an email at
+&lt;a href="" >binder-requests@2i2c.org&lt;/a>
+to be added to the GitHub Team.&lt;/li>
+&lt;/ul>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>NASA NSPIRES F.15 High Priority Open-Source Science Award NNH22ZDA001N-HPOSS&lt;/li>
 &lt;/ul></description></item><item><title>Neurohackademy Summer School in Neuroimaging and Data Science 2024</title><link>https://2i2c.org/blog/2024/neurohackademy-summer-school/</link><pubDate>Fri, 21 Jun 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/neurohackademy-summer-school/</guid><description>&lt;p>
 &lt;figure id="figure-neurohackademy-summer-schoolhttpsneurohackademyorg">
 &lt;div class="d-flex justify-content-center">
