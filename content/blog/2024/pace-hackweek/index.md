@@ -38,7 +38,7 @@ As you might expect, 64 MB of shared memory is not enough for training over 160,
 
 This event demonstrates the economy of how running shared and open infrastructure dynamically solves problems for the benefit of many users, not just for one occasion. Learning experiences such as the above are transferred and embedded upstream into transparent and flexible open source software that impacts not only all users of 2i2c operated hubs, but also generalized for the wider research community at large (case in point, see the Slack thread below from [Eli Holmes](https://eeholmes.github.io/), operator of the [NOAA Fisheries](https://www.fisheries.noaa.gov/science-data/open-science-noaa-fisheries) hubs)! We are grateful for the strong partnerships with our communities who help us to co-design impactful solutions that are specific for their needs and accessible to all.
 
-![A slack thread demonstrating the power open infrastructure beyond 2i2c-operated hubs](slack-noaa.png "The power open infrastructure beyond 2i2c-operated hubs")
+![A slack thread demonstrating the power of open infrastructure beyond 2i2c-operated hubs](slack-noaa.png "The power of open infrastructure beyond 2i2c-operated hubs")
 
 ## References and Acknowledgments
 
