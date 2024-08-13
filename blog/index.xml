@@ -1,4 +1,101 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog posts | 2i2c</title><link>https://2i2c.org/blog/</link><atom:link href="https://2i2c.org/blog/index.xml" rel="self" type="application/rss+xml"/><description>Blog posts</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 05 Aug 2024 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Blog posts</title><link>https://2i2c.org/blog/</link></image><item><title>Ephemeral Interactive Computing for the AmeriGEO Workshop</title><link>https://2i2c.org/blog/2024/amerigeo-workshop/</link><pubDate>Mon, 05 Aug 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/amerigeo-workshop/</guid><description>&lt;p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Blog posts | 2i2c</title><link>https://2i2c.org/blog/</link><atom:link href="https://2i2c.org/blog/index.xml" rel="self" type="application/rss+xml"/><description>Blog posts</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 12 Aug 2024 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Blog posts</title><link>https://2i2c.org/blog/</link></image><item><title>Keeping PACE with GPU enabled compute to detect global cloud cover using satellite data</title><link>https://2i2c.org/blog/2024/pace-hackweek/</link><pubDate>Mon, 12 Aug 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/pace-hackweek/</guid><description>&lt;p>
+&lt;figure id="figure-left-bw-model-inputs-and-right-color-model-outputs-of-a-simple-multi-layer-perceptronhttpspacehackweekgithubiopace-2024presentationshackweekml_cloud_maskhtmla-simple-multi-layer-perceptron-for-detecting-cloud-cover">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="(left, b&amp;amp;amp;w) Model inputs and (right, color) model outputs of a simple multi-layer perceptron" srcset="
+/blog/2024/pace-hackweek/cloud-cover-data_huda526747f8507a80028d4f3edb0d32df_1351710_83e6643782ab8691b5a3971e4605a5ab.webp 400w,
+/blog/2024/pace-hackweek/cloud-cover-data_huda526747f8507a80028d4f3edb0d32df_1351710_545a47b201cd762cb9492cd76a2ffc7a.webp 760w,
+/blog/2024/pace-hackweek/cloud-cover-data_huda526747f8507a80028d4f3edb0d32df_1351710_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2024/pace-hackweek/cloud-cover-data_huda526747f8507a80028d4f3edb0d32df_1351710_83e6643782ab8691b5a3971e4605a5ab.webp"
+width="760"
+height="384"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+(left, b&amp;amp;w) Model inputs and (right, color) model outputs of a
+&lt;a href="https://pacehackweek.github.io/pace-2024/presentations/hackweek/ml_cloud_mask.html#a-simple-multi-layer-perceptron" target="_blank" rel="noopener" >simple multi-layer perceptron&lt;/a>
+for detecting cloud cover.
+&lt;/figcaption>&lt;/figure>
+&lt;/p>
+&lt;p>
+&lt;a href="https://pace.gsfc.nasa.gov/" target="_blank" rel="noopener" >PACE&lt;/a>
+is the NASA Plankton, Aerosol, Cloud, ocean Ecosystem mission that focuses on understanding ocean health and its impact on the atmosphere. Together with the
+&lt;a href="https://www.us-ocb.org/" target="_blank" rel="noopener" >Ocean Carbon and Biochemistry (OCB)&lt;/a>
+program, a one-week
+&lt;a href="https://pacehackweek.github.io/pace-2024/" target="_blank" rel="noopener" >hackathon&lt;/a>
+ran from Aug 4 to Aug 8 on the 2i2c-hosted
+&lt;a href="https://cryointhecloud.com/" target="_blank" rel="noopener" >CryoCloud&lt;/a>
+hub. The goal of the hackathon was to explore new Earth science data streams provided by the
+&lt;a href="https://pace.oceansciences.org/oci.htm" target="_blank" rel="noopener" >OCI&lt;/a>
+,
+&lt;a href="https://pace.oceansciences.org/spexone.htm" target="_blank" rel="noopener" >SPEXone&lt;/a>
+and
+&lt;a href="https://pace.oceansciences.org/harp2.htm" target="_blank" rel="noopener" >HARP2&lt;/a>
+instruments using Python.&lt;/p>
+&lt;h2 id="machine-learning-with-gpus">
+Machine Learning with GPUs
+&lt;a class="header-anchor" href="#machine-learning-with-gpus">#&lt;/a>
+&lt;/h2>&lt;p>One of the most advanced tutorials delivered during the hackathon was the
+&lt;a href="https://pacehackweek.github.io/pace-2024/presentations/hackweek/ml_cloud_mask.html" target="_blank" rel="noopener" >Machine Learning Tutorial&lt;/a>
+. The tutorial focused on creating a machine learning pipeline to detect cloud cover from satellite imagery. This was done by training a convolutional neural network (CNN) to assign each pixel a binary value to indicate whether the location was covered by cloud or not. To improve the spatial context beyond a single pixel value, as the likelihood of a pixel containing cloud cover increases if its neighbours also contain cloud cover, the CNN needs to be trained on the entire image at once rather than at a single pixel level. This massively increases the training time, but also allows the CNN to learn more complex relationships between pixels.&lt;/p>
+&lt;p>GPUs have a far greater number of cores than CPUs that are well-suited for accelerating the massive parallel processing needed to train a neural network on the large amounts of image data in the above scenario.
+&lt;a href="https://pytorch.org/" target="_blank" rel="noopener" >PyTorch&lt;/a>
+is a popular Python library for training CNNs, available for both CPUs and GPUs, and is an ideal tool for performing this kind of work. In terms of the accelerator hardware available on the CryoCloud hub, 2i2c provisions an instance with an
+&lt;a href="https://www.nvidia.com/en-us/data-center/tesla-t4/" target="_blank" rel="noopener" >NVIDIA Tesla T4 GPU&lt;/a>
+with 4 CPUS, 16GB of RAM and 2,560 CUDA cores.&lt;/p>
+&lt;h2 id="managing-shared-memory-on-2i2c-hubs">
+Managing shared memory on 2i2c hubs
+&lt;a class="header-anchor" href="#managing-shared-memory-on-2i2c-hubs">#&lt;/a>
+&lt;/h2>&lt;p>PyTorch uses shared memory to share data for parallel processing. The shared memory is provided by &lt;code>/dev/shm&lt;/code>, a temporary file store mount that can access the RAM available on an instance. Accessing data stored in RAM is significantly faster than from disk storage (i.e. &lt;code>/tmp&lt;/code>), making &lt;code>/dev/shm&lt;/code> a good choice for training large neural networks.&lt;/p>
+&lt;p>While developing the above tutorial, tutorial lead Sean Foley (NASA/GSFC/SED &amp;amp; Morgan State University &amp;amp; GESTAR II) noticed that the shared memory segment size was 64 MB set by default on the container, separate from the total 16 GB RAM that was available on the host.&lt;/p>
+&lt;div class="alert alert-note">
+&lt;div>
+&lt;p>You can check the amount of shared memory available on your hub in a terminal with the command&lt;/p>
+&lt;p>&lt;code>df -h | grep shm&lt;/code>&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;p>As you might expect, 64 MB of shared memory is not enough for training over 160,000 images in the tutorial. 2i2c was able to increase the limit to 8 GB for &lt;em>all&lt;/em> users on the CryoCloud hub within an hour of the issue being reported and we upstreamed the change for &lt;em>all&lt;/em> 2i2c hubs (see GitHub pull requests for
+&lt;a href="https://github.com/2i2c-org/infrastructure/pull/4564" target="_blank" rel="noopener" >CryoCloud&lt;/a>
+and
+&lt;a href="https://github.com/2i2c-org/infrastructure/issues/4563" target="_blank" rel="noopener" >all 2i2c hubs&lt;/a>
+).&lt;/p>
+&lt;h2 id="conclusion">
+Conclusion
+&lt;a class="header-anchor" href="#conclusion">#&lt;/a>
+&lt;/h2>&lt;p>This event demonstrates the economy of how running shared and open infrastructure dynamically solves problems for the benefit of many users, not just for one occasion. Learning experiences such as the above are transferred and embedded upstream into transparent and flexible open source software that impacts not only all users of 2i2c operated hubs, but also generalized for the wider research community at large (case in point, see the Slack thread below from
+&lt;a href="https://eeholmes.github.io/" target="_blank" rel="noopener" >Eli Holmes&lt;/a>
+, operator of the
+&lt;a href="https://www.fisheries.noaa.gov/science-data/open-science-noaa-fisheries" target="_blank" rel="noopener" >NOAA Fisheries&lt;/a>
+hubs)! We are grateful for the strong partnerships with our communities who help us to co-design impactful solutions that are specific for their needs and accessible to all.&lt;/p>
+&lt;p>
+&lt;figure id="figure-the-power-of-open-infrastructure-beyond-2i2c-operated-hubs">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="A slack thread demonstrating the power of open infrastructure beyond 2i2c-operated hubs" srcset="
+/blog/2024/pace-hackweek/slack-noaa_hue9b3c329c381c273be8e00af344cf1dd_89829_fa44a0d0b53e03f767fcb39a8991a0df.webp 400w,
+/blog/2024/pace-hackweek/slack-noaa_hue9b3c329c381c273be8e00af344cf1dd_89829_4368755a975b056c342cdc73c18439bc.webp 760w,
+/blog/2024/pace-hackweek/slack-noaa_hue9b3c329c381c273be8e00af344cf1dd_89829_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2024/pace-hackweek/slack-noaa_hue9b3c329c381c273be8e00af344cf1dd_89829_fa44a0d0b53e03f767fcb39a8991a0df.webp"
+width="506"
+height="327"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+The power of open infrastructure beyond 2i2c-operated hubs
+&lt;/figcaption>&lt;/figure>
+&lt;/p>
+&lt;h2 id="references-and-acknowledgments">
+References and Acknowledgments
+&lt;a class="header-anchor" href="#references-and-acknowledgments">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;a href="https://science.gsfc.nasa.gov/sci/bio/sean.r.foley" target="_blank" rel="noopener" >Sean Foley&lt;/a>
+(NASA/GSFC/SED &amp;amp; Morgan State University &amp;amp; GESTAR II)&lt;/li>
+&lt;li>
+&lt;a href="https://www.linkedin.com/in/tasha-snow-26815b23" target="_blank" rel="noopener" >Tasha Snow&lt;/a>
+(ESSIC UMD &amp;amp; NASA GSFC &amp;amp;
+&lt;a href="https://cryointhecloud.com/" target="_blank" rel="noopener" >CryoCloud&lt;/a>
+)&lt;/li>
+&lt;li>
+&lt;a href="https://pacehackweek.github.io/pace-2024/intro.html" target="_blank" rel="noopener" >PACE Hackweek Jupyter Book&lt;/a>
+&lt;/li>
+&lt;/ul></description></item><item><title>Ephemeral Interactive Computing for the AmeriGEO Workshop</title><link>https://2i2c.org/blog/2024/amerigeo-workshop/</link><pubDate>Mon, 05 Aug 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/amerigeo-workshop/</guid><description>&lt;p>
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Video presentation of the RStudio environment used for the workshop." srcset="
