@@ -24,9 +24,11 @@ and
 &lt;a href="http://www.ciesin.columbia.edu/" target="_blank" rel="noopener" >CIESIN&lt;/a>
 , Columbia University, New York). Juan presented interactive R code, with explanatory content written in Quarto, for hotspot vulnerability analysis for floods and landslides focused on Ecuador using earth observation data and socioeconomic data to develop an index of vulnerability. Check out their
 &lt;a href="https://github.com/ciesin-geospatial/TOPSTSCHOOL-water" target="_blank" rel="noopener" >GitHub repo&lt;/a>
-and explore interactively yourself! See our blog post for more details of how to access the BinderHub deployments to provide
+and
+&lt;a href="https://tinyurl.com/TOPSTSCHOOL" target="_blank" rel="noopener" >explore interactively yourself&lt;/a>
+on our BinderHub (see our blog post for more details of how to access the BinderHub deployments to provide
 &lt;a href="https://2i2c.org/blog/2024/nasa-ephemeral-hubs/" >Ephemeral Interactive Computing for NASA Communities&lt;/a>
-.&lt;/p>
+).&lt;/p>
 &lt;p>Over 100 participants were able to access the interactive workshop on our infrastructure, with 8 GB of RAM per user to facilitate the processing of large amounts of earth data. We are pleased that the workshop was successful and the platform was able to provide a great experience for participants. After the workshop, Kytt reported that&lt;/p>
 &lt;blockquote>
 &lt;p>The technology worked as expected and we didn&amp;rsquo;t run into 1 major technical problem. Thank you so much for that!&amp;quot;.&lt;/p>
