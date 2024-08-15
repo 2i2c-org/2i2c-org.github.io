@@ -14,7 +14,23 @@ _Thank you to Ariel Rokem for guest writing this blog post!_
 
 ## Subsection
 
-Text goes here.
+
+- What is NeuroHackademy? 
+   -  A word or two about the hybrid structure (see also https://pubmed.ncbi.nlm.nih.gov/38763989/). 
+- The role of 2i2c and the Jupyterhub in the NeuroHackademy curriculum. 
+- Some features that we've honed over the years: 
+    - nbgitpuller from an organization curriculum repo, with a ragtag team of instructors as collaborators.
+    - Shared data storage with user read and admin read-write.
+    - Emphasis on cloud-hosted datasets (and maybe a word or two about how much easier and abundant that has become!).
+    - 
+- This year's unique features: 
+    - "Bring your own image" together with repo2docker and Github actions as a way to prototype changes to the image. 
+    - Pull requests on 2i2c infrastructure. Organizers as GitHub collaborators. 
+    - GPU instances. 
+    
+- Some lessons learned and desiderata for next year: 
+    - jupyter keepalive for long-running processes.
+    - ??? 
 
 
 ## Acknowledgements
