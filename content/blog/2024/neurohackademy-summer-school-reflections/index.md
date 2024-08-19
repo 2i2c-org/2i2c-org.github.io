@@ -1,7 +1,7 @@
 ---
 title: NeuroHackademy Summer School Reflections
 date: "2024-08-19"
-authors: ["Ariel Rokem", "Jenny Wong"]
+authors: ["Ariel Rokem", "Noah Benson", "Jenny Wong"]
 tags: [bioscience, education]
 categories: [impact]
 featured: false
@@ -10,7 +10,7 @@ draft: false
 
 _Thank you to Ariel Rokem for guest writing this blog post!_
 
-![Landing page of the NeuroHackademy Summer School website](featured.png "[NeuroHackademy Summer School](https://NeuroHackademy.org/)")
+![Group photo from NeuroHackademy 2024](featured.png "Group photo from NeuroHackademy 2024")
 
 ## What is NeuroHackademy?
 
@@ -18,7 +18,7 @@ Part summer school, part free-wheeling hackathon, all focused on the use of data
 
 ## Global and inclusive
 
-In 2020, the event had to rapidly pivot to an online format, and this format was also used in 2021. Through this experience, the organizers (Ariel Rokem and Noah Benson) realized that many participants preferred the online format. For example, participants who could not afford to travel to Seattle, or participants who had care-taking responsibilities that precluded them from participating in a two-week event away from their homes.  In 2022, the event pioneered a hybrid format, where half of the participants are present in-person and half join the event via zoom, slack, GitHub, and of course through a dedicated 2i2c JupyterHub. Taken together, this format allows the participation of students from a larger range of backgrounds and locations. This aspect plays an important part in building a global and inclusive community of practice. See the paper [Hands-On Neuroinformatics Education at the Crossroads of Online and In-Person: Lessons Learned from NeuroHackademy](https://pubmed.ncbi.nlm.nih.gov/38763989/) to read more on this subject.
+In 2020, the event had to rapidly pivot to an online format, and this format was also used in 2021. Through this experience, the organizers ([Ariel Rokem](https://arokem.org/) and [Noah Benson](https://nben.net/)) realized that many participants preferred the online format. For example, participants who could not afford to travel to Seattle, or participants who had care-taking responsibilities that precluded them from participating in a two-week event away from their homes.  In 2022, the event pioneered a hybrid format, where half of the participants are present in-person and half join the event via zoom, slack, GitHub, and of course through a dedicated 2i2c JupyterHub. Taken together, this format allows the participation of students from a larger range of backgrounds and locations. This aspect plays an important part in building a global and inclusive community of practice. See the paper [Hands-On Neuroinformatics Education at the Crossroads of Online and In-Person: Lessons Learned from NeuroHackademy](https://pubmed.ncbi.nlm.nih.gov/38763989/) to read more on this subject.
 
 ## Collaboration with 2i2c
 
