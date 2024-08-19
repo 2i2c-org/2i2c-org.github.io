@@ -8,7 +8,7 @@ featured: false
 draft: false
 ---
 
-_Thank you to Ariel Rokem for guest writing this blog post!_
+_Thank you to Ariel Rokem and Noah Benson for guest writing this blog post!_
 
 ![Group photo from NeuroHackademy 2024](featured.png "Group photo from NeuroHackademy 2024")
 
@@ -34,8 +34,8 @@ In terms of the software environment, the following tools and features that have
   - [The Human Connectome Project](https://www.humanconnectome.org/)
   - [The Natural Scenes Dataset](https://naturalscenesdataset.org/)
   - [OpenNeuro](https://openneuro.org/)
-    - [The Healthy Brain Network](https://fcp-indi.s3.amazonaws.com/index.html#data/Projects/HBN/)
-    - And more.
+  - [The Healthy Brain Network](https://fcp-indi.s3.amazonaws.com/index.html#data/Projects/HBN/)
+  - And more.
 ### This year
 
 This year 2i2c supported the following tools and features for NeuroHackademy
@@ -70,4 +70,4 @@ The NeuroHackademy Summer School is sponsored by
 ## References
 
 - [NeuroHackademy2024 GitHub Organization](https://github.com/NeuroHackademy2024)
-- [Hands-On Neuroinformatics Education at the Crossroads of Online and In-Person: Lessons Learned from NeuroHackademy](https://pubmed.ncbi.nlm.nih.gov/38763989/)
+- [Hands-On Neuroinformatics Education at the Crossroads of Online and In-Person: Lessons Learned from NeuroHackademy](https://doi.org/10.1007/s12021-024-09666-6)
