@@ -14,17 +14,17 @@ _Thank you to Ariel Rokem for guest writing this blog post!_
 
 ## What is NeuroHackademy?
 
-NeuroHackademy is a summer school hosted by the [University of Washington eScience Institute](http://escience.washington.edu/). The school is aimed at providing students with skills to work with open source tools and workflows for analyzing human neuroscience data in an effort to make scientific analysis and results shareable, reproducible, and accessible.
+Part summer school, part free-wheeling hackathon, all focused on the use of data science methods in neuroscience, NeuroHackademy is an event that was recently hosted by the [University of Washington eScience Institute](http://escience.washington.edu/) in Seattle, WA, USA. This event, that has been running annually since 2016, aims to provide early-career researchers in Psychology, Medicine, Neuroscience, and other related fields with the skills and knowledge that they need to effectively and rigorously work with open source tools and workflows for analyzing human neuroscience data. This supports the effort to make scientific analysis and results shareable, reproducible, and accessible.
 
 ## Global and inclusive
 
-The hybrid format of the summer school that allows the participation of students from all backgrounds. This aspect plays an important part in building a global and inclusive community of practice. See the paper [Hands-On Neuroinformatics Education at the Crossroads of Online and In-Person: Lessons Learned from NeuroHackademy](https://pubmed.ncbi.nlm.nih.gov/38763989/) to read more on this subject.
+In 2020, the event had to rapidly pivot to an online format, and this format was also used in 2021. Through this experience, the organizers (Ariel Rokem and Noah Benson) realized that many participants preferred the online format. For example, participants who could not afford to travel to Seattle, or participants who had care-taking responsibilities that precluded them from participating in a two-week event away from their homes.  In 2022, the event pioneered a hybrid format, where half of the participants are present in-person and half join the event via zoom, slack, GitHub, and of course through a dedicated 2i2c JupyterHub. Taken together, this format allows the participation of students from a larger range of backgrounds and locations. This aspect plays an important part in building a global and inclusive community of practice. See the paper [Hands-On Neuroinformatics Education at the Crossroads of Online and In-Person: Lessons Learned from NeuroHackademy](https://pubmed.ncbi.nlm.nih.gov/38763989/) to read more on this subject.
 
 ## Collaboration with 2i2c
 
 ### Previous years
 
-2i2c has operated a JupyterHub for the last X years that provides an interactive computing platform for learners (see [blog post](blog/2024/NeuroHackademy-summer-school/index.md) announcing support for this year's event).
+NeuroHackademy has been an early adopter of the cloud-based JupyterHub model, setting up its first hub using the zero-to-jupyterhub guide in 2018. NeuroHackademy partnered with 2i2c as soon as it was founded, and 2i2c has operated a JupyterHub for the last 3 years. The hub provides an interactive computing platform for learners, and implements the "digital watering hole" for practical and immediate access to a range of cloud-based datasets in human neuroscience (see [blog post](blog/2024/NeuroHackademy-summer-school/index.md) announcing support for this year's event).
 
 In terms of the software environment, the following tools and features that have benefited the event over the years include
 
@@ -34,14 +34,15 @@ In terms of the software environment, the following tools and features that have
   - [The Human Connectome Project](https://www.humanconnectome.org/)
   - [The Natural Scenes Dataset](https://naturalscenesdataset.org/)
   - [OpenNeuro](https://openneuro.org/)
-
+    - [The Healthy Brain Network](https://fcp-indi.s3.amazonaws.com/index.html#data/Projects/HBN/)
+    - And more.
 ### This year
 
 This year 2i2c supported the following tools and features for NeuroHackademy
 
-- A "Bring your own image" option where users can pull any image hosted on a container registry into the hub. See our [Integrating BinderHub with JupyterHub: Empowering users to manage their own environments](blog/2024/jupyterhub-binderhub-gesis) blog post for more details
-- [`repo2docker`](https://github.com/jupyterhub/repo2docker) and GitHub actions to build and prototype images from a repository
-- The support services provided by 2i2c and the ability for instructors to [open pull requests on 2i2c infrastructure](https://infrastructure.2i2c.org/contributing/community-partner/) for speedy resolution
+- A "Bring your own image" option where users can pull any image hosted on a container registry into the hub. See our [Integrating BinderHub with JupyterHub: Empowering users to manage their own environments](blog/2024/jupyterhub-binderhub-gesis) blog post for more details.
+- [`repo2docker`](https://github.com/jupyterhub/repo2docker) and GitHub actions to build and prototype images from a repository.
+- The support services provided by 2i2c and the ability for instructors to [open pull requests on 2i2c infrastructure](https://infrastructure.2i2c.org/contributing/community-partner/) for speedy resolution.
 - GPU instances to support more compute intensive workloads for machine learning.
 
 ### Next year
