@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Ariel Rokem | 2i2c</title><link>https://2i2c.org/author/ariel-rokem/</link><atom:link href="https://2i2c.org/author/ariel-rokem/index.xml" rel="self" type="application/rss+xml"/><description>Ariel Rokem</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 19 Aug 2024 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Ariel Rokem</title><link>https://2i2c.org/author/ariel-rokem/</link></image><item><title>NeuroHackademy Summer School Reflections</title><link>https://2i2c.org/blog/2024/neurohackademy-summer-school-reflections/</link><pubDate>Mon, 19 Aug 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/neurohackademy-summer-school-reflections/</guid><description>&lt;p>&lt;em>Thank you to Ariel Rokem and Noah Benson for guest writing this blog post!&lt;/em>&lt;/p>
+&lt;p>
+&lt;figure id="figure-group-photo-from-neurohackademy-2024">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Group photo from NeuroHackademy 2024" srcset="
+/blog/2024/neurohackademy-summer-school-reflections/featured_hu97d020adb628e6b2f37aa30af1fb528f_5301016_727800d9eed197807c0a76a6a99614cc.webp 400w,
+/blog/2024/neurohackademy-summer-school-reflections/featured_hu97d020adb628e6b2f37aa30af1fb528f_5301016_2a24facdb9d4c437ce71be1149e70883.webp 760w,
+/blog/2024/neurohackademy-summer-school-reflections/featured_hu97d020adb628e6b2f37aa30af1fb528f_5301016_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2024/neurohackademy-summer-school-reflections/featured_hu97d020adb628e6b2f37aa30af1fb528f_5301016_727800d9eed197807c0a76a6a99614cc.webp"
+width="760"
+height="339"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+Group photo from NeuroHackademy 2024
+&lt;/figcaption>&lt;/figure>
+&lt;/p>
+&lt;h2 id="what-is-neurohackademy">
+What is NeuroHackademy?
+&lt;a class="header-anchor" href="#what-is-neurohackademy">#&lt;/a>
+&lt;/h2>&lt;p>Part summer school, part free-wheeling hackathon, all focused on the use of data science methods in neuroscience, NeuroHackademy is an event that was recently hosted by the
+&lt;a href="http://escience.washington.edu/" target="_blank" rel="noopener" >University of Washington eScience Institute&lt;/a>
+in Seattle, WA, USA. This event, that has been running annually since 2016, aims to provide early-career researchers in Psychology, Medicine, Neuroscience, and other related fields with the skills and knowledge that they need to effectively and rigorously work with open source tools and workflows for analyzing human neuroscience data. This supports the effort to make scientific analysis and results shareable, reproducible, and accessible.&lt;/p>
+&lt;h2 id="global-and-inclusive">
+Global and inclusive
+&lt;a class="header-anchor" href="#global-and-inclusive">#&lt;/a>
+&lt;/h2>&lt;p>In 2020, the event had to rapidly pivot to an online format, and this format was also used in 2021. Through this experience, the organizers (
+&lt;a href="https://arokem.org/" target="_blank" rel="noopener" >Ariel Rokem&lt;/a>
+and
+&lt;a href="https://nben.net/" target="_blank" rel="noopener" >Noah Benson&lt;/a>
+) realized that many participants preferred the online format. For example, participants who could not afford to travel to Seattle, or participants who had care-taking responsibilities that precluded them from participating in a two-week event away from their homes. In 2022, the event pioneered a hybrid format, where half of the participants are present in-person and half join the event via zoom, slack, GitHub, and of course through a dedicated 2i2c JupyterHub. Taken together, this format allows the participation of students from a larger range of backgrounds and locations. This aspect plays an important part in building a global and inclusive community of practice. See the paper
+&lt;a href="https://pubmed.ncbi.nlm.nih.gov/38763989/" target="_blank" rel="noopener" >Hands-On Neuroinformatics Education at the Crossroads of Online and In-Person: Lessons Learned from NeuroHackademy&lt;/a>
+to read more on this subject.&lt;/p>
+&lt;h2 id="collaboration-with-2i2c">
+Collaboration with 2i2c
+&lt;a class="header-anchor" href="#collaboration-with-2i2c">#&lt;/a>
+&lt;/h2>
+&lt;h3 id="previous-years">
+Previous years
+&lt;a class="header-anchor" href="#previous-years">#&lt;/a>
+&lt;/h3>&lt;p>NeuroHackademy has been an early adopter of the cloud-based JupyterHub model, setting up its first hub using the zero-to-jupyterhub guide in 2018. NeuroHackademy partnered with 2i2c as soon as it was founded, and 2i2c has operated a JupyterHub for the last 3 years. The hub provides an interactive computing platform for learners, and implements the &amp;ldquo;digital watering hole&amp;rdquo; for practical and immediate access to a range of cloud-based datasets in human neuroscience (see
+&lt;a href="https://2i2c.org/blog/2024/neurohackademy-summer-school/" >blog post&lt;/a>
+announcing support for this year&amp;rsquo;s event).&lt;/p>
+&lt;p>In terms of the software environment, the following tools and features that have benefited the event over the years include&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="https://github.com/jupyterhub/nbgitpuller" target="_blank" rel="noopener" >&lt;code>nbgitpuller&lt;/code>&lt;/a>
+allows students to synchronise lesson content with an organizational GitHub repository that is collaboratively maintained by the lesson instructors.&lt;/li>
+&lt;li>
+&lt;a href="https://docs.2i2c.org/user/topics/data/sharing/" target="_blank" rel="noopener" >Shared data file storage&lt;/a>
+with read-only access for learners and read-write access for instructors&lt;/li>
+&lt;li>Access to an abundance of neuroimaging data hosted in cloud object storage
+&lt;ul>
+&lt;li>
+&lt;a href="https://www.humanconnectome.org/" target="_blank" rel="noopener" >The Human Connectome Project&lt;/a>
+&lt;/li>
+&lt;li>
+&lt;a href="https://naturalscenesdataset.org/" target="_blank" rel="noopener" >The Natural Scenes Dataset&lt;/a>
+&lt;/li>
+&lt;li>
+&lt;a href="https://openneuro.org/" target="_blank" rel="noopener" >OpenNeuro&lt;/a>
+&lt;/li>
+&lt;li>
+&lt;a href="https://fcp-indi.s3.amazonaws.com/index.html#data/Projects/HBN/" target="_blank" rel="noopener" >The Healthy Brain Network&lt;/a>
+&lt;/li>
+&lt;li>And more.&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;h3 id="this-year">
+This year
+&lt;a class="header-anchor" href="#this-year">#&lt;/a>
+&lt;/h3>&lt;p>This year 2i2c supported the following tools and features for NeuroHackademy&lt;/p>
+&lt;ul>
+&lt;li>A &amp;ldquo;Bring your own image&amp;rdquo; option where users can pull any image hosted on a container registry into the hub. See our
+&lt;a href="https://2i2c.org/blog/2024/jupyterhub-binderhub-gesis/" >Integrating BinderHub with JupyterHub: Empowering users to manage their own environments&lt;/a>
+blog post for more details.&lt;/li>
+&lt;li>
+&lt;a href="https://github.com/jupyterhub/repo2docker" target="_blank" rel="noopener" >&lt;code>repo2docker&lt;/code>&lt;/a>
+and GitHub actions to build and prototype images from a repository.&lt;/li>
+&lt;li>The support services provided by 2i2c and the ability for instructors to
+&lt;a href="https://infrastructure.2i2c.org/contributing/community-partner/" target="_blank" rel="noopener" >open pull requests on 2i2c infrastructure&lt;/a>
+for speedy resolution.&lt;/li>
+&lt;li>GPU instances to support more compute intensive workloads for machine learning.&lt;/li>
+&lt;/ul>
+&lt;h3 id="next-year">
+Next year
+&lt;a class="header-anchor" href="#next-year">#&lt;/a>
+&lt;/h3>&lt;p>One thing we have learned is that 2i2c automatically
+&lt;a href="https://docs.2i2c.org/admin/howto/control-user-server/#stop-user-servers-after-inactivity" target="_blank" rel="noopener" >shuts down a user server after one hour of inactivity&lt;/a>
+by default to ensure efficient resource usage and limit runaway cloud costs. Naturally, we are seeing increasing demand from learners for longer and more complex analyses. In response to this, we are keen to explore how the
+&lt;a href="https://github.com/minrk/jupyter-keepalive" target="_blank" rel="noopener" >&lt;code>jupyter-keepalive&lt;/code>&lt;/a>
+extension can keep the server alive for long-running processes.&lt;/p>
+&lt;p>We are pleased that learners have made great progress in making use of cloud-native, open-source workflows for analyzing human neuroscience data. We are keen to benefit from lessons learned this year and are looking forward to collaborating with 2i2c once again to deliver the NeuroHackademy Summer School in 2025.&lt;/p>
+&lt;p>Watch this space next year!&lt;/p>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;p>Funded by grant
+&lt;a href="https://pubmed.ncbi.nlm.nih.gov/38763989/" target="_blank" rel="noopener" >R25MH112480&lt;/a>
+from the US National Institute of Mental Health awarded to
+&lt;a href="https://arokem.org/" target="_blank" rel="noopener" >Ariel Rokem&lt;/a>
+and
+&lt;a href="https://nben.net/" target="_blank" rel="noopener" >Noah Benson&lt;/a>
+.&lt;/p>
+&lt;p>The NeuroHackademy Summer School is sponsored by&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="http://escience.washington.edu/" target="_blank" rel="noopener" >University of Washington eScience Institute&lt;/a>
+&lt;/li>
+&lt;li>
+&lt;a href="http://www.moore.org/" target="_blank" rel="noopener" >Gordon and Betty Moore Foundation&lt;/a>
+&lt;/li>
+&lt;li>
+&lt;a href="http://sloan.org/" target="_blank" rel="noopener" >Alfred P. Sloan Foundation&lt;/a>
+&lt;/li>
+&lt;li>
+&lt;a href="http://www.washington.edu/" target="_blank" rel="noopener" >University of Washington&lt;/a>
+&lt;/li>
+&lt;li>
+&lt;a href="https://www.utexas.edu/" target="_blank" rel="noopener" >The University of Texas at Austin&lt;/a>
+&lt;/li>
+&lt;li>
+&lt;a href="https://www.nimh.nih.gov/" target="_blank" rel="noopener" >National Institute of Mental Health&lt;/a>
+&lt;/li>
+&lt;li>
+&lt;a href="https://www.nsf.gov/" target="_blank" rel="noopener" >National Science Foundation&lt;/a>
+.&lt;/li>
+&lt;/ul>
+&lt;h2 id="references">
+References
+&lt;a class="header-anchor" href="#references">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;a href="https://github.com/NeuroHackademy2024" target="_blank" rel="noopener" >NeuroHackademy2024 GitHub Organization&lt;/a>
+&lt;/li>
+&lt;li>
+&lt;a href="https://doi.org/10.1007/s12021-024-09666-6" target="_blank" rel="noopener" >Hands-On Neuroinformatics Education at the Crossroads of Online and In-Person: Lessons Learned from NeuroHackademy&lt;/a>
+&lt;/li>
+&lt;/ul></description></item></channel></rss>
