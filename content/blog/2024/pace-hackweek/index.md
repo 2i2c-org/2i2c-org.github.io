@@ -22,17 +22,15 @@ GPUs have a far greater number of cores than CPUs that are well-suited for accel
 
 ## Managing shared memory on 2i2c hubs
 
-PyTorch uses shared memory to share data for parallel processing. The shared memory is provided by `/dev/shm`, a temporary file store mount that can access the RAM available on an instance. Accessing data stored in RAM is significantly faster than from disk storage (i.e. `/tmp`), making `/dev/shm` a good choice for training large neural networks.
-
-While developing the above tutorial, tutorial lead Sean Foley (NASA/GSFC/SED & Morgan State University & GESTAR II) noticed that the shared memory segment size was 64 MB set by default on the container, separate from the total 16 GB RAM that was available on the host.
+While developing the above tutorial, tutorial lead Sean Foley (NASA/GSFC/SED & Morgan State University & GESTAR II) noticed that training neural networks was way slower than it should be given the GPUs available to them. They investigated the issue, and with help from the 2i2c engineering team, it was determined that shared memory was the issue. PyTorch uses shared memory via `/dev/shm` for faster parallel processing, and maximizing use of GPU. However in containerized environments, this is limited to a maximum of 64MB by default.
 
 {{% callout note %}}
 You can check the amount of shared memory available on your hub in a terminal with the command
 
-`df -h | grep shm`
+`df -h | grep /dev/shm`
 {{% /callout %}}
 
-As you might expect, 64 MB of shared memory is not enough for training over 160,000 images in the tutorial. 2i2c was able to increase the limit to 8 GB for _all_ users on the CryoCloud hub within an hour of the issue being reported and we upstreamed the change for _all_ 2i2c hubs (see GitHub pull requests for [CryoCloud](https://github.com/2i2c-org/infrastructure/pull/4564) and [all 2i2c hubs](https://github.com/2i2c-org/infrastructure/issues/4563)).
+As you might expect, 64 MB of shared memory is not enough for training over 160,000 images in the tutorial. 2i2c was able to remove the limit, making `/dev/shm` share the memory the user has selected via their profile list, rather than be artificially limited to any particular size. This was done for _all_ users on the CryoCloud hub within an hour of the issue being reported and we upstreamed the change for _all_ 2i2c hubs (see GitHub pull requests for [CryoCloud](https://github.com/2i2c-org/infrastructure/pull/4564) and [all 2i2c hubs](https://github.com/2i2c-org/infrastructure/issues/4563)).
 
 ## Conclusion
 
