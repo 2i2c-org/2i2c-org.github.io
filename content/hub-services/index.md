@@ -85,7 +85,7 @@ sections:
       title: Sharing
       subtitle: ""
       text: |
-        Learning and discovery through interactive cloud computing is more powerful when shared.
+        Learning and discovery through interactive cloud computing are more powerful when shared.
 
         You can choose to let your hub users share their fully interactive projects through ephemeral hubs generated on the fly, giving others the opportunity to experience their work in full by simply clicking on a shared link.
 
