@@ -19,9 +19,9 @@ sections:
         #icon_pack: fas
         #icon: download
       # Optionally, add an alternative CTA link
-      # cta_alt:
-      #   label: Our mission
-      #   url: mission
+      cta_alt:
+        label: Join us
+        url: /join
       # Optionally, add a note under the Call-To-Action button
       # cta_note:
       #   label: >-
