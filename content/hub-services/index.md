@@ -27,7 +27,7 @@ sections:
         We support the following authentication and authorization options:
           - GitHub - with support for GitHub Organization and Teams
           - CILogon - with support for institutional logins, Google Auth, Microsoft, and ORCID
-          - Shared Password - simple authentication with a global shared password, ideal for workshops and webinar
+          - Shared Password - simple authentication with a global shared password, ideal for workshops and webinars
         <figure class="videofigure">
           {{< video src="videos/jupyterhub-admin.mp4">}}
 
