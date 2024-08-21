@@ -4,145 +4,40 @@ title: Cloud platform
 # Page type - we want a landing page (such as a homepage)
 type: landing
 aliases:
-  - /service/
+  - /hub-services/
 
-
-# Your landing page sections - add as many different content blocks as you like
 sections:
+  
   - block: markdown
-    id: numbers
+    id: hub-services-intro
     content:
-      title: A shared platform for global communities
-      subtitle: Our interactive computing hubs provide frictionless access to open infrastructure to connect, create, and share knowledge using data.
-      text: |
-        {{< servicetech >}}
-
-        {{< cta cta_text="See how research and education communities use this platform" cta_link="/communities" cta_new_tab="false" >}}
-
+      title: Your hub, the way you want it
+      subtitle: This page outlines our standard hub configuration options, which can be usually be **deployed in 1 day or less**. Should your community require a more customized approach, don't hesitate to [contact us](../join/_index.md) to discuss your specific requirements.
+                
   - block: markdown
-    id: numbers
     content:
-      title: Each hub integrates open tools and services to enable the lifecycle of knowledge creation
-      subtitle: Hubs are a digital home that bootstraps users from learning their first workflows to making discoveries and sharing with others.
+      title: Sign-in
       text: |
-        {{< figure src="/images/service/research-lifecycle.png" alt="The research lifecycle we enable.">}}
+        We support the following authentication and authorization options:
+          - **GitHub** - with support for GitHub Organization and Teams
+          - **CILogon** - with support for institutional logins, Google Auth, Microsoft, and ORCID
+          - **Shared Password** - simple authentication with a global shared password, ideal for workshops and webinar
 
-        <center> <strong>Open source tools we use and support in our service.</strong></center>
-
-        {{< opensourcelogos >}}
-
-  - block: markdown
-    id: jupyterhub
-    design:
-        columns: 2
-    content:
-      title: Manage and monitor resources and users
-      subtitle: Community leaders can manage user access to the hub, and provide each user their own workspace that persists over time.
-      text: |
         <figure class="videofigure">
           {{< video src="videos/jupyterhub-admin.mp4">}}
 
           <figcaption>
               Powered by <a href="https://jupyterhub.readthedocs.io"><img src="/images/logos/project/jupyterhub.svg" /></a>
           </figcaption>
-        </figure>
-
-  - block: markdown
-    id: jupyterlab
-    design:
-        columns: 2
-        css_class: reverse-markdown-row
-    content:
-      title: Design interactive interfaces for data-driven discovery
-      subtitle:  JupyterLab provides a flexible user interface to create and explore notebooks, interactive visualizations, and computational narratives.
-      text: |
-
-        <figure class="videofigure">
-          {{< video src="videos/jupyterlab.mp4">}}
-
-          <figcaption>
-              Powered by <a href="https://jupyterlab.readthedocs.io"><img src="/images/logos/project/jupyterlab.svg" /></a> and <a href="https://mystmd.org"><img src="/images/logos/project/myst.svg" /></a>. Example from <a href="https://github.com/google/neuroglancer"> Neuroglancer-JupyterLab</a>.
-          </figcaption>
-        </figure>
-
-  - block: markdown
-    id: environment-choice
-    design:
-        columns: 2
-    content:
-      title: Choose a community environment, or create your own
-      subtitle:  Community leaders can offer many environments for users to fit all of their workflows.
-      text: |
-        <figure class="videofigure">
-          {{< video src="/videos/jupyterhub-environment.mp4" >}}
-
-          <figcaption>
-              Powered by <a href="https://jupyterhub.readthedocs.io"><img src="/images/logos/project/jupyterhub.svg" /></a> and <a href="https://repo2docker.readthedocs.io"><img src="/images/logos/project/repo2docker.png" /></a>. Example from <a href="https://www.earthdata.nasa.gov/esds/veda">the NASA VEDA project</a>.
-          </figcaption>
-        </figure>
-  - block: markdown
-    id: knowledge-base
-    design:
-        columns: 2
-        css_class: reverse-markdown-row
-    content:
-      title: Share workflows with a community knowledge base.
-      subtitle:  Shared knowledge bases allow communities to contribute their ideas and work to a shared space that is accessible to the community.
-      text: |
-        <figure class="videofigure">
-          {{< video src="videos/jupyterbook.mp4">}}
-
-          <figcaption>
-              Powered by <a href="https://jupyterbook.org"><img src="/images/logos/project/jupyterbook.svg" /></a> and <a href="https://mystmd.org"><img src="/images/logos/project/myst.svg" /></a>. Example from <a href="https://book.cryointhecloud.com/intro.html">the CryoCloud JupyterBook</a>.
-          </figcaption>
-        </figure>
-
-  - block: markdown
-    id: magiclink
-    design:
-        columns: 2
-    content:
-      title: Share content and interactive links to a hub
-      subtitle: Create and share a magic link to instantly share a copy of your content with anyone so that they can interact and explore with live code and data.
-      text: |
-
-        <figure class="videofigure">
-          {{< video src="videos/magic-links.mp4">}}
-          
-          <figcaption>
-            Powered by <a href="https://mystmd.org"><img src="/images/logos/project/myst.svg" /></a> and <a href="https://jupyterhub.readthedocs.io"><img src="/images/logos/project/jupyterhub.svg" /></a>. Example from <a href="https://www.biorxiv.org/content/10.1101/2024.01.25.577295v1">the Spyglass toolbox paper</a>.
-          </figcaption>
-        </figure>
-
-
-  - block: markdown
-    id: desktop
-    design:
-        columns: 2
-        css_class: reverse-markdown-row
-    content:
-      title: Serve linux applications via a remote desktop
-      subtitle: You can provide users a full linux UI that provides access to GUI applications via the web.
-      text: |
-
-        <figure class="videofigure">
-          {{< video src="videos/desktop.mp4">}}
-          
-          <figcaption>
-              Powered by <a href="https://jupyterhub.readthedocs.io"><img src="/images/logos/project/jupyterhub.svg" /></a>. Example from <a href="https://www.earthdata.nasa.gov/esds/veda">the NASA VEDA project</a>.
-          </figcaption>
-        </figure>
+        </figure>      
 
   - block: features
-    id: clouds
     content:
-      title: Supported cloud providers
-      subtitle: ""
-      text: |
-        2i2c aims to support JupyterHubs on any cloud provider that offers a managed Kubernetes service.
-        To start, we are focusing on the major commercial cloud providers listed below.
-        If you would like a hub hosted on a different cloud provider, please [give us your feedback](mailto:hello@2i2c.org).
-        See [our Organizational Strategy and Goals](https://compass.2i2c.org/organization/strategy.html) to learn more about our plans.
+      title: Compute
+      subtitle: | 
+        We offer a choice of CPU, Memory (from 4GB to 512GB) and GPU configurations for all types of workloads, with added support for Dask Gateway for task parallelization. 
+
+        We can also co-locate your hub's compute next to your cloud data to improve performance and costs, with AWS and Google Cloud Platform supported out-of-the box, and Azure configurations available on request.
 
       items:
         - icon: google-cloud
@@ -159,26 +54,69 @@ sections:
           description: ""
 
   - block: markdown
-    id: learnmore
-    design:
-        columns: 2
     content:
-      title: Learn more about our organization
-      subtitle: 
+      title: Software Stack
+      subtitle: ""
       text: |
+        2i2c supports a number of standard community-maintained images for research and education including Pangeo Notebook, SciPy, Julia, and Rocker with RStudio.
 
-        {{% about-hubs %}}
+        Additionally, hub users can configure their hubs with any existing pre-built image hosted on [Docker Hub](https://hub.docker.com/) or [quay.io](https://quay.io).
+
+        Hub administrators can also provide their own self-maintained images, should they wish to do so.
+        
+        {{< softwarestacklogos >}}
 
   - block: markdown
-    id: learncommunities
     content:
-      title: Learn more about our community network
-      subtitle: 
+      title: Storage
+      subtitle: ""
+      text: |
+        Hubs can be configured with a choice of persistent home directories and different levels of read-write permissions (admins only, or everyone).
+
+        Additionally, object storage can be configured for access to scratch, persistent, or pre-existing buckets, as needed.
+
+  - block: markdown
+    content:
+      title: Sharing
+      subtitle: ""
+      text: |
+        Learning and discovery through interactive cloud computing are more powerful when shared.
+
+        You can choose to let your hub users share their fully interactive projects through ephemeral hubs generated on the fly, giving others the opportunity to experience their work in full by simply clicking on a shared link.
+
+        <figure class="videofigure">
+          {{< video src="videos/magic-links.mp4">}}
+
+          <figcaption>
+            Powered by <a href="https://mystmd.org"><img src="/images/logos/project/myst.svg" /></a> and <a href="https://jupyterhub.readthedocs.io"><img src="/images/logos/project/jupyterhub.svg" /></a>. Example from <a href="https://www.biorxiv.org/content/10.1101/2024.01.25.577295v1">the Spyglass toolbox paper</a>.
+          </figcaption>
+        </figure>              
+
+  - block: markdown
+    content:
+      title: Reporting and quotas
+      subtitle: ""
+      text: |
+        Our hubs come standard with Grafana access to help users and administrators keep an eye on their usage and cost analytics, which together with configurable storage quotas help ensure that cost overruns and unexpected bill shocks are a thing of the past.
+
+        {{< figure src="/images/service/grafana.png" alt="Grafana dashboard">}}
+
+  - block: markdown
+    content:
+      title: Community branding and white labeling
+      subtitle: ""
+      text: |
+        Looking to customize your hub's look and feel to match your community? We can give your hub a unique look to match your message and mission, with a customizable landing page, branding, and announcements area.
+
+  - block: markdown
+    id: join
+    content:
+      title: "Join our community network"
+      subtitle: |
+        
       text: |
 
-        {{< cta cta_text="Learn about our community network" cta_link="/communities" cta_new_tab="false" >}}
-
-
+        {{< cta cta_text="Join our network of communities" cta_link="/join" cta_new_tab="false" >}}
 
 ---
 

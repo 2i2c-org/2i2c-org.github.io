@@ -32,7 +32,7 @@ When a user logs into a JupyterHub, it is very helpful if we could have a bunch 
 [QGIS](https://www.qgis.org/) is the world's most used open source GIS software, and previously 2i2c had [worked with Openscapes and QGreenland](https://blog.jupyter.org/desktop-gis-software-in-the-cloud-with-jupyterhub-ddced297019a) to bring this *desktop* software to JupyterHub. We had previously worked on a [container image](https://github.com/2i2c-org/nasa-qgis-image) that allows users to access large datasets stored in the cloud directly through QGIS on the JupyterHub, allowing users to work with much larger datasets than they could on their desktops by bringing cloud compute adjacent to the data. As a continuation of this work, we developed [jupyter-remote-qgis-proxy](https://github.com/sunu/jupyter-remote-qgis-proxy), which builds QGIS specific features on top of [jupyter-remote-desktop-proxy](https://github.com/jupyterhub/jupyter-remote-desktop-proxy). In particular, it allows creation of shareable links that when clicked, opens specific datasets and layers in QGIS in a JupyterHub! You can see this in action:
 
 <figure>
-  {{< video autoplay="true" loop="true" src="qgis.mp4" >}}
+  {{< video autoplay="true" mute="true" loop="true" src="qgis.mp4" >}}
   <figcaption>Launching QGIS on a Linux desktop served by the VEDA JupyterHub</figcaption>
 </figure>
 

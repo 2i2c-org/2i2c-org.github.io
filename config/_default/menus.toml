@@ -9,20 +9,14 @@
   weight = 10
 
 [[main]]
-  name = "Community case studies"
+  name = "Community impact"
   url = "communities/"
-  weight = 10
-
-[[main]]
-  name = "Hub services"
-  url = "hub-services/"
   weight = 11
 
 [[main]]
   name = "Right to Replicate"
   url = "right-to-replicate/"
-  weight = 11
-
+  weight = 12
 
 [[main]]
   name = "About"
@@ -31,16 +25,15 @@
 
   [[main]]
   parent = "about"
-  name = "Team and organization"
-  url = "organization/"
+  name = "Mission and goals"
+  url = "mission/"
   weight = 10
 
   [[main]]
   parent = "about"
-  name = "Mission, values, and strategy"
-  url = "mission/"
-  weight = 20
-
+  name = "Team and organization"
+  url = "organization/"
+  weight = 15
 
   [[main]]
     parent = "about"
