@@ -16,7 +16,7 @@ sections:
       text: |
         At 2i2c, we have extensive expertise in rapidly deploying custom cloud computing hubs to help research and education communities create and share knowledge.
 
-        This page outlines our standard hub configuration options, which can be usually be deployed with a short turnaround of 1 day or less.
+        This page outlines our standard hub configuration options, which can be usually deployed with a short turnaround of 1 day or less.
 
         However, should your community require a more customized approach, please don't hesitate to [contact us](../join/_index.md) to discuss your specific requirements.
 
@@ -27,7 +27,7 @@ sections:
         We support the following authentication and authorization options:
           - GitHub - with support for GitHub Organization and Teams
           - CILogon - with support for institutional logins, Google Auth, Microsoft, and ORCID
-          - Shared Password - simple authentication with a global shared password, ideal for workshops and webinar
+          - Shared Password - simple authentication with a global shared password, ideal for workshops and webinars
         <figure class="videofigure">
           {{< video src="videos/jupyterhub-admin.mp4">}}
 
@@ -42,7 +42,7 @@ sections:
       subtitle: | 
         We offer a choice of CPU, Memory (from 4GB to 512GB) and GPU configurations for all types of workloads, with added support for Dask Gateway for task parallelization. 
 
-        We can also co-locate your hub's compute next to your cloud data to improve performance and costs, with AWS and Google Cloud Platform supported out-of-the box, and Azure configurations available on request.
+        We can also co-locate your hub's compute next to your cloud data to improve performance and costs, with AWS and Google Cloud Platform supported out-of-the-box, and Azure configurations available on request.
 
       items:
         - icon: google-cloud
