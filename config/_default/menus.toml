@@ -14,6 +14,11 @@
   weight = 10
 
 [[main]]
+  name = "Hub services"
+  url = "hub-services/"
+  weight = 11
+
+[[main]]
   name = "Right to Replicate"
   url = "right-to-replicate/"
   weight = 11
