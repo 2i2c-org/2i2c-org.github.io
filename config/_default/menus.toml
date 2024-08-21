@@ -14,6 +14,11 @@
   weight = 10
 
 [[main]]
+  name = "Hub services"
+  url = "hub-services/"
+  weight = 11
+
+[[main]]
   name = "Right to Replicate"
   url = "right-to-replicate/"
   weight = 11
@@ -74,16 +79,21 @@
   weight = 80
 
 [[main_right]]
+  name = 'join us'
+  url = "/join"
+  weight = 100
+
+[[main_right]]
   name = 'blog'
   url = "/blog"
-  weight = 100
+  weight = 90
 
 [[main_right]]
   name = 'docs'
   url = "https://docs.2i2c.org"
-  weight = 100
+  weight = 90
 
 [[main_right]]
   name = 'support'
   url = "https://docs.2i2c.org/support"
-  weight = 100
+  weight = 80
