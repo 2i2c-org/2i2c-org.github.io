@@ -12,7 +12,7 @@ sections:
   - block: markdown
     id: hub-services-intro
     content:
-      title: Your interactive computing hub, the way you want it
+      title: Your hub, the way you want it
       text: |
         At 2i2c, we have extensive expertise in rapidly deploying custom cloud computing hubs to help research and education communities create and share knowledge.
 
