@@ -47,9 +47,9 @@ This year 2i2c supported the following tools and features for NeuroHackademy
 
 ### Next year
 
-We are pleased that learners have made great progress in making use of cloud-native, open-source workflows for analyzing human neuroscience data. We are keen to benefit from lessons learned this year and are looking forward to collaborating with 2i2c once again to deliver the NeuroHackademy Summer School in 2025.
-
 One thing we have learned is that 2i2c automatically [shuts down a user server after one hour of inactivity](https://docs.2i2c.org/admin/howto/control-user-server/#stop-user-servers-after-inactivity) by default to ensure efficient resource usage and limit runaway cloud costs. Naturally, we are seeing increasing demand from learners for longer and more complex analyses. In response to this, we are keen to explore how the [`jupyter-keepalive`](https://github.com/minrk/jupyter-keepalive) extension can keep the server alive for long-running processes.
+
+We are pleased that learners have made great progress in making use of cloud-native, open-source workflows for analyzing human neuroscience data. We are keen to benefit from lessons learned this year and are looking forward to collaborating with 2i2c once again to deliver the NeuroHackademy Summer School in 2025.
 
 Watch this space next year!
 
