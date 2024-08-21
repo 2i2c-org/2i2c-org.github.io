@@ -40,9 +40,9 @@ sections:
     content:
       title: Compute
       subtitle: | 
-        <font color="#000000"> We offer a choice of CPU, Memory (from 4GB to 512GB) and GPU configurations for all types of workloads, with added support for Dask Gateway for task parallelization. 
+        We offer a choice of CPU, Memory (from 4GB to 512GB) and GPU configurations for all types of workloads, with added support for Dask Gateway for task parallelization. 
 
-        We can also co-locate your hub's compute next to your cloud data to improve performance and costs, with AWS and Google Cloud Platform supported out-of-the box, and Azure configurations available on request.</font>
+        We can also co-locate your hub's compute next to your cloud data to improve performance and costs, with AWS and Google Cloud Platform supported out-of-the box, and Azure configurations available on request.
 
       items:
         - icon: google-cloud
