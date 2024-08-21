@@ -184,15 +184,14 @@ with 4 CPUS, 16GB of RAM and 2,560 CUDA cores.&lt;/p>
 &lt;h2 id="managing-shared-memory-on-2i2c-hubs">
 Managing shared memory on 2i2c hubs
 &lt;a class="header-anchor" href="#managing-shared-memory-on-2i2c-hubs">#&lt;/a>
-&lt;/h2>&lt;p>PyTorch uses shared memory to share data for parallel processing. The shared memory is provided by &lt;code>/dev/shm&lt;/code>, a temporary file store mount that can access the RAM available on an instance. Accessing data stored in RAM is significantly faster than from disk storage (i.e. &lt;code>/tmp&lt;/code>), making &lt;code>/dev/shm&lt;/code> a good choice for training large neural networks.&lt;/p>
-&lt;p>While developing the above tutorial, tutorial lead Sean Foley (NASA/GSFC/SED &amp;amp; Morgan State University &amp;amp; GESTAR II) noticed that the shared memory segment size was 64 MB set by default on the container, separate from the total 16 GB RAM that was available on the host.&lt;/p>
+&lt;/h2>&lt;p>While developing the above tutorial, tutorial lead Sean Foley (NASA/GSFC/SED &amp;amp; Morgan State University &amp;amp; GESTAR II) noticed that training neural networks was way slower than it should be given the GPUs available to them. They investigated the issue, and with help from the 2i2c engineering team, it was determined that shared memory was the issue. PyTorch uses shared memory via &lt;code>/dev/shm&lt;/code> for faster parallel processing, and maximizing use of GPU. However in containerized environments, this is limited to a maximum of 64MB by default.&lt;/p>
 &lt;div class="alert alert-note">
 &lt;div>
 &lt;p>You can check the amount of shared memory available on your hub in a terminal with the command&lt;/p>
-&lt;p>&lt;code>df -h | grep shm&lt;/code>&lt;/p>
+&lt;p>&lt;code>df -h | grep /dev/shm&lt;/code>&lt;/p>
 &lt;/div>
 &lt;/div>
-&lt;p>As you might expect, 64 MB of shared memory is not enough for training over 160,000 images in the tutorial. 2i2c was able to increase the limit to 8 GB for &lt;em>all&lt;/em> users on the CryoCloud hub within an hour of the issue being reported and we upstreamed the change for &lt;em>all&lt;/em> 2i2c hubs (see GitHub pull requests for
+&lt;p>As you might expect, 64 MB of shared memory is not enough for training over 160,000 images in the tutorial. 2i2c was able to remove the limit, making &lt;code>/dev/shm&lt;/code> share the memory the user has selected via their profile list, rather than be artificially limited to any particular size. This was done for &lt;em>all&lt;/em> users on the CryoCloud hub within an hour of the issue being reported and we upstreamed the change for &lt;em>all&lt;/em> 2i2c hubs (see GitHub pull requests for
 &lt;a href="https://github.com/2i2c-org/infrastructure/pull/4564" target="_blank" rel="noopener" >CryoCloud&lt;/a>
 and
 &lt;a href="https://github.com/2i2c-org/infrastructure/issues/4563" target="_blank" rel="noopener" >all 2i2c hubs&lt;/a>
