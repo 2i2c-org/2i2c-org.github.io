@@ -20,7 +20,7 @@ sections:
         #icon: download
       # Optionally, add an alternative CTA link
       cta_alt:
-        label: Join us
+        label: Join our network
         url: /join
       # Optionally, add a note under the Call-To-Action button
       # cta_note:
@@ -47,7 +47,9 @@ sections:
 
         {{< servicetech >}}
 
-        We serve **over 90 communities across the globe** with **over 7000 active users** that are dedicated to creating and sharing knowledge. See [our community impact stories](/communities) for inspiration.
+        2i2c's [community hub platform and consultancy services](/platform) ensure your community makes the best use of open infrastructure for interactive computing in the cloud.
+
+        We serve **over 90 communities across the globe** with **over 7000 active users** dedicated to creating and sharing knowledge. See [our community impact stories](/communities) for inspiration.
 
         <style>
           #who-logos {
@@ -75,6 +77,7 @@ sections:
             <li class="list-inline-item"><a href="https://columbia.edu/" target="_blank"><img src="/images/logos/community/columbia-university.png" alt="Columbia University logo"></a></li>
         </ul>
 
+        {{< cta cta_text="Join our network of community hubs" cta_link="/join" cta_new_tab="false" >}}
 
   - block: markdown
     id: jupyterhub
@@ -204,6 +207,15 @@ sections:
           description: ""
 
   - block: markdown
+    id: learnplatform
+    content:
+      title: Learn more about our platform.
+      subtitle: 
+      text: |
+
+        {{< cta cta_text="Learn about our interactive computing platform" cta_link="/platform" cta_new_tab="false" >}}
+
+  - block: markdown
     id: learnmore
     design:
         columns: 2
@@ -213,15 +225,6 @@ sections:
       text: |
 
         {{% about-hubs %}}
-
-  - block: markdown
-    id: learnplatform
-    content:
-      title: Learn more about our platform.
-      subtitle: 
-      text: |
-
-        {{< cta cta_text="Learn about our interactive computing platform" cta_link="/platform" cta_new_tab="false" >}}
 
 ---
 
