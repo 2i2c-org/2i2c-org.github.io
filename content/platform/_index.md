@@ -19,19 +19,19 @@ sections:
           <div class="card col">
             <div class="card-body">
               <h5 class="card-title">Management</h5>
-              <p class="card-text px-0">Our cloud infrastructure team manages your hub infrastructure so that you can focus on your work.</p>
+              <p class="card-text px-0">Our cloud infrastructure team deploys and manages your hub infrastructure so that you can focus on your work.</p>
             </div>
           </div>
           <div class="card col">
             <div class="card-body">
               <h5 class="card-title">Development</h5>
-              <p class="card-text px-0">Our open infrastructure team contributes to open source projects to enhance the functionality of your service.</p>
+              <p class="card-text px-0">Our infrastructure team actively contributes to the open source community, ensuring our hubs, and your service, always benefit from the latest developments.</p>
             </div>
           </div>
           <div class="card col">
             <div class="card-body">
               <h5 class="card-title">Guidance</h5>
-              <p class="card-text px-0">Our cloud workflows team helps your community learn how to make the most of your hub for impact.</p>
+              <p class="card-text px-0">Our cloud workflows team helps community leaders and their users learn how to make the most of your hub for impact.</p>
             </div>
           </div>
         </div>

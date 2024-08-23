@@ -61,13 +61,9 @@ sections:
           .list-inline-item {
             flex: 1
           }
-
-          .list-inline-item img {
-            filter: grayscale(100%); /* Desaturates the image completely */
-          }
         </style>
 
-        <ul id="who-logos" class="list-inline">
+        <ul id="who-logos" class="list-inline greyscale">
             <li class="list-inline-item"><a href="https://nasa.gov" target="_blank"><img src="/images/logos/community/nasa.svg" alt="Nasa logo"></a></li>
             <li class="list-inline-item"><a href="https://www.si.edu/" target="_blank"><img src="/images/logos/community/smithsonian.svg" alt="Smithsonian logo"></a></li>
             <li class="list-inline-item"><a href="https://www.hhmi.org/" target="_blank"><img src="/images/logos/community/howard-hughes-medical-institute.svg" alt="Howard Hughes Medical Institute logo"></a></li>
