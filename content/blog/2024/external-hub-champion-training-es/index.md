@@ -1,5 +1,5 @@
 ---
-title: Hub Champion Training Reflections (Español)
+title: Reflexiones sobre la formación de Campeones y Campeonas del Hub (Español)
 date: "2024-09-04"
 tags: [bioscience]
 categories: [impact]
