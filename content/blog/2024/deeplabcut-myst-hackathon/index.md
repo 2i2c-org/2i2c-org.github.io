@@ -12,9 +12,9 @@ draft: false
 
 ## The DeepLabCut Team
 
-The [DeepLabCut team](http://www.mackenziemathislab.org/deeplabcut) is a group of researchers and developers who are working on open source tools for analyzing animal pose estimation by training deep neural networks on videos.
-
 ![Animal pose estimation using deep neural networks. Courtesy of the DeepLabCut Jupyter Book](https://images.squarespace-cdn.com/content/v1/57f6d51c9f74566f55ecf271/daed7f16-527f-4150-8bdd-cbb20e267451/cheetah-ezgif.com-video-to-gif-converter.gif?format=180w "Animal pose estimation using deep neural networks. Courtesy of the [DeepLabCut Jupyter Book](https://deeplabcut.github.io/DeepLabCut/README.html)")
+
+The [DeepLabCut team](http://www.mackenziemathislab.org/deeplabcut) is a group of researchers and developers who are working on open source tools for analyzing animal pose estimation by training deep neural networks on videos.
 
 Chris Holdgraf visited the lab in early August to learn more about how the group were using open-source tools to document and share their work.
 
