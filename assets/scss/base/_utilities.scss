@@ -12,3 +12,16 @@
 .reverse-markdown-row div.row {
   flex-direction: row-reverse;
 }
+
+/**
+ * Image utilities
+ */
+/* Desaturates the image completely */
+.greyscale {
+  filter: grayscale(100%);
+}
+
+/* In dark mode, invert the greyscale so that it shows up */
+body.dark .greyscale {
+  filter: grayscale(100%) invert(88.1%) hue-rotate(90deg);
+}

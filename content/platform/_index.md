@@ -1,18 +1,60 @@
 ---
 # Page title
-title: Cloud platform
+title: Hub service
 # Page type - we want a landing page (such as a homepage)
 type: landing
 aliases:
   - /hub-services/
+  - /service/
 
 sections:
   
   - block: markdown
     id: hub-services-intro
+    design:
+      css_class: "bigtitle"
     content:
       title: Your hub, the way you want it
-      subtitle: This page outlines our standard hub configuration options, which can be usually be **deployed in 1 day or less**. Should your community require a more customized approach, don't hesitate to [contact us](../join/_index.md) to discuss your specific requirements.
+      subtitle: Our cloud platform empowers communities to create their own digital hub to create and share knowledge with open infrastructure. Our services help you along the way.
+      text: |
+        <style>
+        /* This makes the titles on the page a bit bigger to differentiate section titles */
+        .bigtitle h1 {
+          font-size: 2.2em;
+        }
+        </style>
+
+        <div class="row row-cols-3">
+          <div class="card col">
+            <div class="card-body">
+              <h5 class="card-title">Management</h5>
+              <p class="card-text px-0">Our cloud infrastructure team deploys and manages your hub infrastructure so that you can focus on your work.</p>
+            </div>
+          </div>
+          <div class="card col">
+            <div class="card-body">
+              <h5 class="card-title">Development</h5>
+              <p class="card-text px-0">Our infrastructure team actively contributes to the open source community, ensuring our hubs, and your service, always benefit from the latest developments.</p>
+            </div>
+          </div>
+          <div class="card col">
+            <div class="card-body">
+              <h5 class="card-title">Guidance</h5>
+              <p class="card-text px-0">Our cloud workflows team helps community leaders and their users learn how to make the most of your hub for impact.</p>
+            </div>
+          </div>
+        </div>
+
+        {{< cta cta_text="Join our network of community hubs" cta_link="/join" cta_new_tab="false" >}}
+
+
+  - block: markdown
+    id: hub-service-intro
+    design:
+      css_class: "bigtitle"
+    content:
+      title: Standard hub features
+      subtitle: Below we outline our standard hub configuration options, which can be usually be **deployed in 1 day or less**. Should your community require a more customized approach, don't hesitate to [contact us](../join/_index.md) to discuss your specific requirements.
                 
   - block: markdown
     content:
