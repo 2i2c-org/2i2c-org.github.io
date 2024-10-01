@@ -12,6 +12,6 @@ title = "Pangeo Hub Infrastructure"
   css_class = "project-list-item"
 +++
 
-{{< figure src="https://pangeo.io/_images/pangeo_simple_logo.svg" class="projects-image" >}}
+{{< figure src="https://www.pangeo.io/Pangeo-assets/pangeo_logo.png" class="projects-image" >}}
 
 The [Pangeo project](https://pangeo.io/) is a community platform for Big Data geoscience. 2i2c collaborates with Pangeo by developing and running JupyterHub infrastructure for the Pangeo Hubs. This work focuses around building collaborative data science platforms that can draw from large cloud datasets, as well as integrating JupyterHub with scalable computing in the cloud via [Dask Gateway](https://gateway.dask.org/).

@@ -9,7 +9,7 @@ title = "Pangeo"
   columns = "2"
 +++
 
-{{< figure src="https://pangeo.io/_images/pangeo_simple_logo.svg" class="projects-image" >}}
+{{< figure src="https://www.pangeo.io/Pangeo-assets/pangeo_logo.png" class="projects-image" >}}
 
 The [Pangeo project](https://pangeo.io/) is a community platform for Big Data geoscience. It runs several
 JupyterHubs and BinderHubs for geoscience communities, and is a pioneer in integrating
