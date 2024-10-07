@@ -31,7 +31,7 @@ Chris led a mini-hackathon to introduce the group to MyST and collect feedback o
 - A bunch of enhancement features were requested ✨
   - [Using cell tags for labelling notebook cells](https://github.com/jupyter-book/mystmd/issues/1455)
   - [Support for loading user-defined CSS stylesheets for theming](https://github.com/jupyter-book/myst-theme/issues/321)
-  - [Better UX for mult-versioned documentation](https://github.com/jupyter-book/mystmd/issues/1458)
+  - [Better UX for multi-versioned documentation](https://github.com/jupyter-book/mystmd/issues/1458)
   - [Bibliography styling in HTML](https://github.com/jupyter-book/mystmd/issues/1462)
   - [Automatic API documentation generation](https://github.com/DeepLabCut/DeepLabCut/pull/2712)
 - And we found a bug in the [table of contents validation](https://github.com/jupyter-book/mystmd/issues/1456) 🐞
