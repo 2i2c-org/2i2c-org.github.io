@@ -32,7 +32,7 @@ At the African Institute of Biomedical Sciences and Technology (AiBST) in Zimbab
 
 *"Through the Catalyst Project we are able to bring genomic information interpretation to patient bedsides." - Zedias Chikwambi*
 
-Read more: [EN](https://catalystproject.cloud/community-highlight-aibst-en.md) | [ES](https://catalystproject.cloud/community-highlight-aibst-es.md)
+Read more: [EN](https://catalystproject.cloud/blog/community-highlight-aibst-en.html) | [ES](https://catalystproject.cloud/blog/community-highlight-aibst-es.html)
 
 ### Malawi University of Science and Technology (MUST)
 
@@ -42,7 +42,7 @@ The Catalyst Project Community at the Malawi University of Science and Technolog
 
 *“...many staff and students need… a robust and easily accessible platform from which they can efficiently run their machine learning models and do advanced data analysis for their data science research…” - Bennett Kankuzi*
 
-Read more: [EN](https://catalystproject.cloud/community-highlight-must-en.md) | [ES](https://catalystproject.cloud/community-highlight-must-es.md)
+Read more: [EN](https://catalystproject.cloud/blog/community-highlight-must-en.html) | [ES](https://catalystproject.cloud/blog/community-highlight-must-es.html)
 
 ### MolerHealth
 
@@ -52,7 +52,7 @@ MolerHealth is focused on revolutionizing healthcare in Nigeria by developing an
 
 *“Access to training, like The Carpentries Instructor Training, has empowered our team with essential skills for effective teaching and collaboration.” - Monsurat Onabajo*
 
-Read more: [EN](https://catalystproject.cloud/community-highlight-molerhealth-en.md) | [ES](https://catalystproject.cloud/community-highlight-molerhealth-es.md)
+Read more: [EN](https://catalystproject.cloud/blog/community-highlight-molerhealth-en.html) | [ES](https://catalystproject.cloud/blog/community-highlight-molerhealth-es.html)
 
 ### Nelson Mandela African Institution of Science and Technology (NM-AIST)
 
@@ -62,7 +62,7 @@ The Northern Tanzania One Health Research Group, hosted at the Nelson Mandela Af
 
 *“...access to training, particularly through the 2i2c Hub Champion Training, has significantly enhanced our ability to manage and optimize cloud-based resources." - Beatus M Lyimo*
 
-Read more: [EN](https://catalystproject.cloud/community-highlight-nmaist-en.md) | [ES](https://catalystproject.cloud/community-highlight-nmaist-es.md)
+Read more: [EN](https://catalystproject.cloud/blog/community-highlight-nmaist-en.html) | [ES](https://catalystproject.cloud/blog/community-highlight-nmaist-es.html)
 
 ### Nodo Nacional de Bioinformática (NNB-CCG)
 
@@ -72,7 +72,7 @@ The Nodo Nacional de Bioinformática (NNB-CCG) of the Centro de Ciencias Genómi
 
 *“(Our) goal is to optimize our participation in events, assess the usefulness of the Catalyst Project's resources, and, in turn, provide the Catalyst Project with guidelines to improve their service by identifying the necessary areas for improvement within the institutions." - Shirley Alquicira Hernández*
 
-Read more: [EN](https://catalystproject.cloud/community-highlight-nnbccg-en.md) | [ES](https://catalystproject.cloud/community-highlight-nnbccg-es.md)
+Read more: [EN](https://catalystproject.cloud/blog/community-highlight-nnbccg-en.html) | [ES](https://catalystproject.cloud/blog/community-highlight-nnbccg-es.html)
 
 ### Instituto Nacional de Enfermedades Respiratorias (INER)
 
@@ -82,7 +82,7 @@ Collaborators at INER are using the Catalyst Cloud Infrastructure to implement m
 
 *"The Catalyst Project is helping us to collaborate more efficiently and work remotely." - Yalbi I. Balderas-Martinez*
 
-Read more: [EN](https://catalystproject.cloud/community-highlight-iner-en.md) | [ES](https://catalystproject.cloud/community-highlight-iner-es.md)
+Read more: [EN](https://catalystproject.cloud/blog/community-highlight-iner-en.html) | [ES](https://catalystproject.cloud/blog/community-highlight-iner-es.html)
 
 ### Centro Interdisciplinario en Ciencia de Datos y Aprendizaje Automático (CICADA)  
 
@@ -92,7 +92,7 @@ CICADA, an interdisciplinary center researching data science and machine learnin
 
 *"The Catalyst Project…trainings are attractive, as they are respectful of the people, no previous knowledge is assumed, and the instructors are welcoming.” - María Inés Fariello Rico"*
 
-Read more: [EN](https://catalystproject.cloud/community-highlight-cicada-en.md) | [ES](https://catalystproject.cloud/community-highlight-cicada-es.md)
+Read more: [EN](https://catalystproject.cloud/blog/community-highlight-cicada-en.html) | [ES](https://catalystproject.cloud/blog/community-highlight-cicada-es.html)
 
 ## About the blog posts – Acknowledgements
 
