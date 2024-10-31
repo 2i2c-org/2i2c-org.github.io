@@ -10,7 +10,7 @@ featured: false
 draft: false
 ---
 
-*Cross-posted from the [Catalyst Project blog](https://catalystproject.cloud/blog/blog.html)*
+*Cross-posted from the [Catalyst Project blog](https://catalystproject.cloud/blog.html)*
 
 ![Photos of people using their laptops to access cloud computing.](featured.png "Catalyst Project community partners using accessible cloud infrastructure for open science leadership and training. (clockwise from top-left) [NNB-CCG](https://www.nnb.unam.mx/), [MUST](https://www.must.ac.mw/), [CICADA](https://cicada.uy/) and INER. Photos courtesy of Shirley Alquicira Hernández, Bennett Kankuzi, María Inés Fariello Rico and Yalbi I. Balderas-Martinez.")
 
