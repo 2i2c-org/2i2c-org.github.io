@@ -10,13 +10,13 @@ featured: false
 draft: false
 ---
 
-*Cross-posted from the [Catalyst Project blog](https://catalystproject.cloud/blog.html)*
+*Cross-posted from the [Catalyst Project blog](https://catalystproject.cloud/blog/blog.html)*
 
 ![Photos of people using their laptops to access cloud computing.](featured.png "Catalyst Project community partners using accessible cloud infrastructure for open science leadership and training. (clockwise from top-left) [NNB-CCG](https://www.nnb.unam.mx/), [MUST](https://www.must.ac.mw/), [CICADA](https://cicada.uy/) and INER. Photos courtesy of Shirley Alquicira Hernández, Bennett Kankuzi, María Inés Fariello Rico and Yalbi I. Balderas-Martinez.")
 
 The Catalyst Project is a community-engaged initiative designed to support the adoption of open science principles in under-served bioscientific research communities through the provision of reliable and sustainable cloud computing infrastructure. It’s a project we’ve been working on now for almost two years, which involves staff from seven different organizations: [2i2c](https://2i2c.org/), [The Carpentries](https://carpentries.org/about/), [CCAD](https://ccad.unc.edu.ar/), [CSCCE](https://www.cscce.org/), [IOI](http://investinopen.org/), [MetaDocencia](http://metadocencia.org/), and [OLS](http://openlifesci.org/), and is funded by the Chan Zuckerberg Initiative.
 
-A key part of the project is engaging with Community Partners in Africa and Latin America: Institutions, organizations, and individuals who are undertaking bioscientific research projects that require cloud computing infrastructure. As collaborators on the Catalyst Project, Community Partners can access and use 2i2c’s open science cloud services, and also receive training from 2i2c, The Carpentries, MetaDocencia, and OLS to support their work. [Community Partners](https://catalystproject.cloud/current-community-partners.html) also play a vital role in shaping an evolving governance model for the Catalyst Project to help sustain, scale, and maximize impact in Latin America, Africa, and under-served communities around the world.
+A key part of the project is engaging with Community Partners in Africa and Latin America: Institutions, organizations, and individuals who are undertaking bioscientific research projects that require cloud computing infrastructure. As collaborators on the Catalyst Project, Community Partners can access and use 2i2c’s open science cloud services, and also receive training from 2i2c, The Carpentries, MetaDocencia, and OLS to support their work. [Community Partners](https://catalystproject.cloud/blog/current-community-partners.html) also play a vital role in shaping an evolving governance model for the Catalyst Project to help sustain, scale, and maximize impact in Latin America, Africa, and under-served communities around the world.
 
 In a new collection of blog posts (that we hope will expand over the next couple of months!) we’re highlighting the work of the Catalyst Project Community Partners. This post is a gateway to learning more about the Catalyst Project and its Community Partners. If you have any questions or feedback about the project, please [send an email to the core team](mailto:catalyst-project-core-team@googlegroups.com).
 
@@ -32,7 +32,7 @@ At the African Institute of Biomedical Sciences and Technology (AiBST) in Zimbab
 
 *"Through the Catalyst Project we are able to bring genomic information interpretation to patient bedsides." - Zedias Chikwambi*
 
-Read more: [EN](https://catalystproject.cloud/community-highlight-aibst-en.md) | [ES](https://catalystproject.cloud/community-highlight-aibst-es.md)
+Read more: [EN](https://catalystproject.cloud/blog/community-highlight-aibst-en.html) | [ES](https://catalystproject.cloud/blog/community-highlight-aibst-es.html)
 
 ### Malawi University of Science and Technology (MUST)
 
@@ -42,7 +42,7 @@ The Catalyst Project Community at the Malawi University of Science and Technolog
 
 *“...many staff and students need… a robust and easily accessible platform from which they can efficiently run their machine learning models and do advanced data analysis for their data science research…” - Bennett Kankuzi*
 
-Read more: [EN](https://catalystproject.cloud/community-highlight-must-en.md) | [ES](https://catalystproject.cloud/community-highlight-must-es.md)
+Read more: [EN](https://catalystproject.cloud/blog/community-highlight-must-en.html) | [ES](https://catalystproject.cloud/blog/community-highlight-must-es.html)
 
 ### MolerHealth
 
@@ -52,7 +52,7 @@ MolerHealth is focused on revolutionizing healthcare in Nigeria by developing an
 
 *“Access to training, like The Carpentries Instructor Training, has empowered our team with essential skills for effective teaching and collaboration.” - Monsurat Onabajo*
 
-Read more: [EN](https://catalystproject.cloud/community-highlight-molerhealth-en.md) | [ES](https://catalystproject.cloud/community-highlight-molerhealth-es.md)
+Read more: [EN](https://catalystproject.cloud/blog/community-highlight-molerhealth-en.html) | [ES](https://catalystproject.cloud/blog/community-highlight-molerhealth-es.html)
 
 ### Nelson Mandela African Institution of Science and Technology (NM-AIST)
 
@@ -62,7 +62,7 @@ The Northern Tanzania One Health Research Group, hosted at the Nelson Mandela Af
 
 *“...access to training, particularly through the 2i2c Hub Champion Training, has significantly enhanced our ability to manage and optimize cloud-based resources." - Beatus M Lyimo*
 
-Read more: [EN](https://catalystproject.cloud/community-highlight-nmaist-en.md) | [ES](https://catalystproject.cloud/community-highlight-nmaist-es.md)
+Read more: [EN](https://catalystproject.cloud/blog/community-highlight-nmaist-en.html) | [ES](https://catalystproject.cloud/blog/community-highlight-nmaist-es.html)
 
 ### Nodo Nacional de Bioinformática (NNB-CCG)
 
@@ -72,7 +72,7 @@ The Nodo Nacional de Bioinformática (NNB-CCG) of the Centro de Ciencias Genómi
 
 *“(Our) goal is to optimize our participation in events, assess the usefulness of the Catalyst Project's resources, and, in turn, provide the Catalyst Project with guidelines to improve their service by identifying the necessary areas for improvement within the institutions." - Shirley Alquicira Hernández*
 
-Read more: [EN](https://catalystproject.cloud/community-highlight-nnbccg-en.md) | [ES](https://catalystproject.cloud/community-highlight-nnbccg-es.md)
+Read more: [EN](https://catalystproject.cloud/blog/community-highlight-nnbccg-en.html) | [ES](https://catalystproject.cloud/blog/community-highlight-nnbccg-es.html)
 
 ### Instituto Nacional de Enfermedades Respiratorias (INER)
 
@@ -82,7 +82,7 @@ Collaborators at INER are using the Catalyst Cloud Infrastructure to implement m
 
 *"The Catalyst Project is helping us to collaborate more efficiently and work remotely." - Yalbi I. Balderas-Martinez*
 
-Read more: [EN](https://catalystproject.cloud/community-highlight-iner-en.md) | [ES](https://catalystproject.cloud/community-highlight-iner-es.md)
+Read more: [EN](https://catalystproject.cloud/blog/community-highlight-iner-en.html) | [ES](https://catalystproject.cloud/blog/community-highlight-iner-es.html)
 
 ### Centro Interdisciplinario en Ciencia de Datos y Aprendizaje Automático (CICADA)  
 
@@ -92,7 +92,7 @@ CICADA, an interdisciplinary center researching data science and machine learnin
 
 *"The Catalyst Project…trainings are attractive, as they are respectful of the people, no previous knowledge is assumed, and the instructors are welcoming.” - María Inés Fariello Rico"*
 
-Read more: [EN](https://catalystproject.cloud/community-highlight-cicada-en.md) | [ES](https://catalystproject.cloud/community-highlight-cicada-es.md)
+Read more: [EN](https://catalystproject.cloud/blog/community-highlight-cicada-en.html) | [ES](https://catalystproject.cloud/blog/community-highlight-cicada-es.html)
 
 ## About the blog posts – Acknowledgements
 
