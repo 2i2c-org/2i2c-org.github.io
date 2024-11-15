@@ -1,6 +1,6 @@
 ---
 title: Track and manage cloud costs using Grafana
-date: "2024-11-11"
+date: "2024-11-15"
 banner:
   image: "featured.png"
 authors: ["Jenny Wong"]
@@ -20,7 +20,7 @@ Note that this feature is currently available to AWS hosted hubs only and will b
 
 ## Accessing the cloud cost dashboard
 
-Community Champions can view the Cloud Cost dashboard from their Grafana instance (please see the [Service Guide](https://docs.2i2c.org/admin/howto/monitoring/) for how to gain access).
+Community Champions can view the Cloud Cost dashboard from their Grafana instance (please see the [Service Guide](https://docs.2i2c.org/admin/howto/monitoring/grafana-dashboards/#getting-a-grafana-account) for how to gain access).
 
 From the main menu of Grafana, navigate to *Dashboards > Cloud cost dashboards > Cloud cost attribution* to view the dashboard.
 
@@ -37,16 +37,20 @@ The dashboard is made of several panels:
 
 {{< video autoplay="true" loop="true" src="demo.mp4" >}}
 
-For more detailed information on the data that each panel displays, please consult our Service Guide for reference.
+For more detailed information on the data that each panel displays, please consult our [Service Guide](https://docs.2i2c.org/admin/howto/monitoring/cost-attribution/#understanding-the-cloud-cost-dashboard) for reference.
 
 ## Sharing cost reports
 
-The dashboard can be shared with other community members and stakeholders so they can understand usage and cost patterns. Community Champions export data to a CSV file, or they can generate a snapshot of the Grafana dashboard and share a public link.
+The dashboard can be shared with other community members and stakeholders so they can understand usage and cost patterns. Community Champions can export data to a CSV file, or they can generate a snapshot of the Grafana dashboard and share a public link.
 
-For instructions on how to export data from the dashboard, please see our Service Guide for reference.
+For instructions on how to export data from the dashboard, please see our [Service Guide](https://docs.2i2c.org/admin/howto/monitoring/cost-attribution/#understanding-the-cloud-cost-dashboard) for reference.
 
 ## Next steps
 
-We would love to know whether this feature is useful and how it can be improved. Please share your feedback with us!
+We would love to know whether this feature is useful and how it can be improved. We will be contacting individual communities to share their feedback with us – please share your thoughts with us!
 
-We are working on rolling out this service to GCP hosted clusters as well. Stay tuned to know when this feature is available to your community.
+We will work on rolling out this service to GCP hosted clusters in future. Stay tuned to know when this feature is available to your community.
+
+## Acknowledgements
+
+Thank you to Erik for spearheading the rollout effort and to the rest of the 2i2c team for their support. We are especially grateful to the Openscapes and Cryocloud communities for providing valuable insights during the prototyping and testing phase.
