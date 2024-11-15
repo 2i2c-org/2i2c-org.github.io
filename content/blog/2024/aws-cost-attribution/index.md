@@ -43,7 +43,7 @@ For more detailed information on the data that each panel displays, please consu
 
 The dashboard can be shared with other community members and stakeholders so they can understand usage and cost patterns. Community Champions can export data to a CSV file, or they can generate a snapshot of the Grafana dashboard and share a public link.
 
-For instructions on how to export data from the dashboard, please see our [Service Guide](https://docs.2i2c.org/admin/howto/monitoring/cost-attribution/#understanding-the-cloud-cost-dashboard) for reference.
+For instructions on how to export data from the dashboard, please see our [Service Guide](https://docs.2i2c.org/admin/howto/monitoring/cost-attribution/#sharing-cost-reports) for reference.
 
 ## Next steps
 
