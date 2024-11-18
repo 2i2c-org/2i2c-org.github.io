@@ -12,6 +12,8 @@ draft: false
 
 *Cross-posted from the [Jupyter Book blog](blog.jupyterbook.org/). Note that some MyST functionality is not supported on the 2i2c website – please see the original post for previews.*
 
+![Jupyter Book 2 logo](featured.png)
+
 Over the last ten months, the Jupyter Book team have been hard at work; Jupyter Book has [become a Jupyter subproject](https://github.com/jupyter/governance/pull/229), and the team[^jb-eb] announced a [plan to release Jupyter Book 2][plan]. This post announces the **alpha release of Jupyter Book 2.0**, which has been re-written from the ground up to use the new MyST-MD engine.
 
 Over the next few months, we will work in preparation for the full release of Jupyter Book 2. Stay tuned for more! The initial documentation for the alpha release can be found at:
@@ -62,19 +64,19 @@ Try hovering over [this tooltip about tooltips!](https://en.wikipedia.org/wiki/T
 
 Content from other websites built with the MyST engine can be embedded in your own sites and PDFs:
 
-![](https://cdn.curvenote.com/0192bff5-9c9d-722f-92bf-e702aa8e1f46/public/c8830546aa82907becb6cd46c414a80c.webp "Cross-referenced content can easily be embedded and re-captioned into other pages and projects, such as this figure to <xref:guide#mylabel>.")
+![Image of a mountain range.](https://cdn.curvenote.com/0192bff5-9c9d-722f-92bf-e702aa8e1f46/public/c8830546aa82907becb6cd46c414a80c.webp "Cross-referenced content can easily be embedded and re-captioned into other pages and projects, such as this figure to <xref:guide#mylabel>.")
 
 ### Simple Instant Search
 
 A new client-side search uses a simple, modern algorithm for fast _local_ search that finds the results that you care about.
 
-![](https://github.com/jupyter-book/blog/blob/main/media/search.png?raw=true "Client-side search uses simple, modern, [Algolia](https://algolia.com)-inspired search algorithm to provide _useful_ search results. We will be iterating on this in the near future for even richer search results!") 
+![Screenshot of a search bar.](https://github.com/jupyter-book/blog/blob/main/media/search.png?raw=true "Client-side search uses simple, modern, [Algolia](https://algolia.com)-inspired search algorithm to provide _useful_ search results. We will be iterating on this in the near future for even richer search results!")
 
 ### High Quality PDFs
 
 PDF documents can now be built with Typst, a high-quality typesetting engine that produces readable error messages and beautiful documents. This feature was the basis for the 2024 [SciPy proceedings][proceedings], which is now built on MyST Markdown and will be accepting Jupyter Notebooks in 2025.
 
-![](https://raw.githubusercontent.com/rowanc1/LaPreprint/68f5ccbf1e1e26819149bcea1d547dfdfc5ceecd/example/files/screenshot.png "Example of the LaPreprint Typst template for rendering PDFs from Jupyter Book (via the MyST Engine).")
+![An example preprint using the LaPreprint template.](https://raw.githubusercontent.com/rowanc1/LaPreprint/68f5ccbf1e1e26819149bcea1d547dfdfc5ceecd/example/files/screenshot.png "Example of the LaPreprint Typst template for rendering PDFs from Jupyter Book (via the MyST Engine).")
 
 ## Coming Soon in `2.0 beta`
 
