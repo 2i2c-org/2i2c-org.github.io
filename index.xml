@@ -54,9 +54,7 @@ New Features in &lt;code>2.0 alpha&lt;/code>
 &lt;h3 id="rich-hover-previews">
 Rich Hover Previews
 &lt;a class="header-anchor" href="#rich-hover-previews">#&lt;/a>
-&lt;/h3>&lt;p>Try hovering over
-&lt;a href="https://en.wikipedia.org/wiki/Tooltip" target="_blank" rel="noopener" >this tooltip about tooltips!&lt;/a>
-. The new MyST book and article themes provide useful hover previews for links to other MyST content, Wikipedia, GitHub issues, and many more.&lt;/p>
+&lt;/h3>&lt;p>The new MyST book and article themes provide useful hover previews for links to other MyST content, Wikipedia, GitHub issues, and many more.&lt;/p>
 &lt;video width="100%" autoplay>
 &lt;source src="https://github.com/jupyter-book/blog/raw/refs/heads/main/media/hover-previews.mp4" type="video/mp4">
 &lt;/video>
@@ -70,7 +68,7 @@ Share &amp;amp; Embed Content
 &lt;div class="w-100" >&lt;img src="https://cdn.curvenote.com/0192bff5-9c9d-722f-92bf-e702aa8e1f46/public/c8830546aa82907becb6cd46c414a80c.webp" alt="Image of a mountain range." loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;figcaption>
 Cross-referenced content can easily be embedded and re-captioned into other pages and projects, such as this figure to
-&lt;a href="" >xref:guide#mylabel&lt;/a>
+&lt;a href="https://mystmd.org/guide/embed#mylabel" target="_blank" rel="noopener" >https://mystmd.org/guide/embed#mylabel&lt;/a>
 .
 &lt;/figcaption>&lt;/figure>
 &lt;/p>
