@@ -33,7 +33,7 @@ Last week, we rolled this new experience out to all 2i2c managed JupyterHubs! He
 
    ![image](./fancy-profiles-build.png)
 
-This is just the start, and thanks to ongoing funding from the NASA VEDA project, we are going to continue making improvements to this experience.
+This is just the start, and thanks to ongoing funding from the [NASA VEDA](https://www.earthdata.nasa.gov/data/tools/veda) project, we are going to continue making improvements to this experience.
 
 ## Use this in your JupyterHub
 
