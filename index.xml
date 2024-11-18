@@ -1,4 +1,137 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2i2c</title><link>https://2i2c.org/</link><atom:link href="https://2i2c.org/index.xml" rel="self" type="application/rss+xml"/><description>2i2c</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 15 Nov 2024 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>2i2c</title><link>https://2i2c.org/</link></image><item><title>Track and manage cloud costs using Grafana</title><link>https://2i2c.org/blog/2024/aws-cost-attribution/</link><pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/aws-cost-attribution/</guid><description>&lt;p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2i2c</title><link>https://2i2c.org/</link><atom:link href="https://2i2c.org/index.xml" rel="self" type="application/rss+xml"/><description>2i2c</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 18 Nov 2024 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>2i2c</title><link>https://2i2c.org/</link></image><item><title>Announcing the Jupyter Book 2 alpha</title><link>https://2i2c.org/blog/2024/jupyter-book-2/</link><pubDate>Mon, 18 Nov 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/jupyter-book-2/</guid><description>&lt;p>&lt;em>Cross-posted from the
+&lt;a href="" >Jupyter Book blog&lt;/a>
+. Note that some MyST functionality is not supported on the 2i2c website – please see the original post for previews.&lt;/em>&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Jupyter Book 2 logo" srcset="
+/blog/2024/jupyter-book-2/featured_hua33e8d2e3d9e7a1805c554d19769ecc0_9963_804acdd0a9c785816968a9611befcaa6.webp 400w,
+/blog/2024/jupyter-book-2/featured_hua33e8d2e3d9e7a1805c554d19769ecc0_9963_061a4c785abe99d31a2a316c14e43ea3.webp 760w,
+/blog/2024/jupyter-book-2/featured_hua33e8d2e3d9e7a1805c554d19769ecc0_9963_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2024/jupyter-book-2/featured_hua33e8d2e3d9e7a1805c554d19769ecc0_9963_804acdd0a9c785816968a9611befcaa6.webp"
+width="461"
+height="105"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>Over the last ten months, the Jupyter Book team have been hard at work; Jupyter Book has
+&lt;a href="https://github.com/jupyter/governance/pull/229" target="_blank" rel="noopener" >become a Jupyter subproject&lt;/a>
+, and the team&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup> announced a
+&lt;a href="https://executablebooks.org/en/latest/blog/2024-05-20-jupyter-book-myst/" target="_blank" rel="noopener" >plan to release Jupyter Book 2&lt;/a>
+. This post announces the &lt;strong>alpha release of Jupyter Book 2.0&lt;/strong>, which has been re-written from the ground up to use the new MyST-MD engine.&lt;/p>
+&lt;p>Over the next few months, we will work in preparation for the full release of Jupyter Book 2. Stay tuned for more! The initial documentation for the alpha release can be found at:&lt;/p>
+&lt;p>
+&lt;a href="https://next.jupyterbook.org/" target="_blank" rel="noopener" >https://next.jupyterbook.org/&lt;/a>
+&lt;/p>
+&lt;h2 id="install-the-jupyter-book-2-alpha">
+Install the Jupyter Book 2 Alpha
+&lt;a class="header-anchor" href="#install-the-jupyter-book-2-alpha">#&lt;/a>
+&lt;/h2>&lt;p>The Jupyter Book 2 alpha is available from PyPI.org. You can install it with &lt;code>pip&lt;/code>, using&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">pip install -U jupyter-book&lt;span class="o">==&lt;/span>2.0.0a0
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>If you use &lt;code>pipx&lt;/code>, it&amp;rsquo;s recommened to run Jupyter Book 2 using&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-shell" data-lang="shell">&lt;span class="line">&lt;span class="cl">pipx run jupyter-book&lt;span class="o">==&lt;/span>2.0.0a0
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Jupyter Book 2 needs Node.js installed on your computer. If this is not the case, running &lt;code>jupyter book&lt;/code> will prompt you to install it using the &lt;code>nodeenv&lt;/code> package that ships with Jupyter Book 2:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">❗ Node.js (node) is required to run Jupyter Book, but could not be found`.
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">❔ Install Node.js in &amp;#39;...&amp;#39;? (y/N):
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Press &lt;code>y&lt;/code> and &lt;code>Enter&lt;/code> to proceed.&lt;/p>
+&lt;div class="alert alert-note">
+&lt;div>
+&lt;p>The Jupyter Book 2 project is a complete re-write of Jupyter Book. We expect there to be bugs and breakages! Please use our support channels to keep us up to date with your findings!&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://discord.mystmd.org/" target="_blank" rel="noopener" >Discord&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>&lt;a href="https://github.com/jupyter-book/jupyter-book/issues/new?template=prerelease.yml" target="_blank" rel="noopener" >GitHub Issues&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ul>
+&lt;/div>
+&lt;/div>
+&lt;h2 id="new-features-in-20-alpha">
+New Features in &lt;code>2.0 alpha&lt;/code>
+&lt;a class="header-anchor" href="#new-features-in-20-alpha">#&lt;/a>
+&lt;/h2>
+&lt;h3 id="rich-hover-previews">
+Rich Hover Previews
+&lt;a class="header-anchor" href="#rich-hover-previews">#&lt;/a>
+&lt;/h3>&lt;p>Try hovering over
+&lt;a href="https://en.wikipedia.org/wiki/Tooltip" target="_blank" rel="noopener" >this tooltip about tooltips!&lt;/a>
+. The new MyST book and article themes provide useful hover previews for links to other MyST content, Wikipedia, GitHub issues, and many more.&lt;/p>
+&lt;video width="100%" autoplay>
+&lt;source src="https://github.com/jupyter-book/blog/raw/refs/heads/main/media/hover-previews.mp4" type="video/mp4">
+&lt;/video>
+&lt;h3 id="share--embed-content">
+Share &amp;amp; Embed Content
+&lt;a class="header-anchor" href="#share--embed-content">#&lt;/a>
+&lt;/h3>&lt;p>Content from other websites built with the MyST engine can be embedded in your own sites and PDFs:&lt;/p>
+&lt;p>
+&lt;figure id="figure-cross-referenced-content-can-easily-be-embedded-and-re-captioned-into-other-pages-and-projects-such-as-this-figure-to-">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="https://cdn.curvenote.com/0192bff5-9c9d-722f-92bf-e702aa8e1f46/public/c8830546aa82907becb6cd46c414a80c.webp" alt="Image of a mountain range." loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+Cross-referenced content can easily be embedded and re-captioned into other pages and projects, such as this figure to
+&lt;a href="" >xref:guide#mylabel&lt;/a>
+.
+&lt;/figcaption>&lt;/figure>
+&lt;/p>
+&lt;h3 id="simple-instant-search">
+Simple Instant Search
+&lt;a class="header-anchor" href="#simple-instant-search">#&lt;/a>
+&lt;/h3>&lt;p>A new client-side search uses a simple, modern algorithm for fast &lt;em>local&lt;/em> search that finds the results that you care about.&lt;/p>
+&lt;p>
+&lt;figure id="figure-client-side-search-uses-simple-modern-algoliahttpsalgoliacom-inspired-search-algorithm-to-provide-_useful_-search-results-we-will-be-iterating-on-this-in-the-near-future-for-even-richer-search-results">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="https://github.com/jupyter-book/blog/blob/main/media/search.png?raw=true" alt="Screenshot of a search bar." loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+Client-side search uses simple, modern,
+&lt;a href="https://algolia.com" target="_blank" rel="noopener" >Algolia&lt;/a>
+-inspired search algorithm to provide &lt;em>useful&lt;/em> search results. We will be iterating on this in the near future for even richer search results!
+&lt;/figcaption>&lt;/figure>
+&lt;/p>
+&lt;h3 id="high-quality-pdfs">
+High Quality PDFs
+&lt;a class="header-anchor" href="#high-quality-pdfs">#&lt;/a>
+&lt;/h3>&lt;p>PDF documents can now be built with Typst, a high-quality typesetting engine that produces readable error messages and beautiful documents. This feature was the basis for the 2024
+&lt;a href="https://proceedings.scipy.org" target="_blank" rel="noopener" >SciPy proceedings&lt;/a>
+, which is now built on MyST Markdown and will be accepting Jupyter Notebooks in 2025.&lt;/p>
+&lt;p>
+&lt;figure id="figure-example-of-the-lapreprint-typst-template-for-rendering-pdfs-from-jupyter-book-via-the-myst-engine">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="https://raw.githubusercontent.com/rowanc1/LaPreprint/68f5ccbf1e1e26819149bcea1d547dfdfc5ceecd/example/files/screenshot.png" alt="An example preprint using the LaPreprint template." loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+Example of the LaPreprint Typst template for rendering PDFs from Jupyter Book (via the MyST Engine).
+&lt;/figcaption>&lt;/figure>
+&lt;/p>
+&lt;h2 id="coming-soon-in-20-beta">
+Coming Soon in &lt;code>2.0 beta&lt;/code>
+&lt;a class="header-anchor" href="#coming-soon-in-20-beta">#&lt;/a>
+&lt;/h2>
+&lt;h3 id="custom-styles--scrips">
+Custom Styles &amp;amp; Scrips
+&lt;a class="header-anchor" href="#custom-styles--scrips">#&lt;/a>
+&lt;/h3>&lt;p>Jupyter Book 2 will make it easy to tweak your website styles, and add new website behaviors.&lt;/p>
+&lt;h3 id="generate-markdown-from-code-cells">
+Generate Markdown from Code Cells
+&lt;a class="header-anchor" href="#generate-markdown-from-code-cells">#&lt;/a>
+&lt;/h3>&lt;p>The MyST engine is on-track to support the inclusion of references and other markup features generated by code cells.&lt;/p>
+&lt;h3 id="control-cell-visibility-with-tags">
+Control Cell Visibility with Tags
+&lt;a class="header-anchor" href="#control-cell-visibility-with-tags">#&lt;/a>
+&lt;/h3>&lt;p>In the beta release, Jupyter Book 2 will once-again be able to show and hide content according to cell tags.&lt;/p>
+&lt;h2 id="jupyter-book-2-vs-myst-md">
+Jupyter Book 2 vs MyST-MD
+&lt;a class="header-anchor" href="#jupyter-book-2-vs-myst-md">#&lt;/a>
+&lt;/h2>&lt;p>At this early stage, the new Jupyter Book application &lt;code>jupyter book&lt;/code> behaves identically to the &lt;code>mystmd&lt;/code> engine that it is built upon; as outlined in
+&lt;a href="https://executablebooks.org/en/latest/blog/2024-05-20-jupyter-book-myst/" target="_blank" rel="noopener" >our Jupyter Book 2 plan&lt;/a>
+, we intend for Jupyter Book to be an &amp;ldquo;opinionated distribution&amp;rdquo; of &lt;code>mystmd&lt;/code> that shares the same configuration format and CLI. This contrasts with Jupyter Book 1, which was built on top of the Sphinx documentation engine, but offered its own CLI and configuration files. In future, the &lt;code>jupyter book&lt;/code> and &lt;code>mystmd&lt;/code> CLIs may diverge from one another, but we expect that this will be handled in a graceful manner: &lt;code>mystmd&lt;/code> commands should always be compatible with the &lt;code>jupyter book&lt;/code> application.&lt;/p>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>Jupyter Book project has historically been a &lt;em>technical&lt;/em> project of the Executable Books organisation. In 2024, the establishment of a Jupyter subproject means that the Jupyter Book project now has its own identity outside of Executable Books.&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></description></item><item><title>Track and manage cloud costs using Grafana</title><link>https://2i2c.org/blog/2024/aws-cost-attribution/</link><pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/aws-cost-attribution/</guid><description>&lt;p>
 &lt;figure id="figure-grafana-dashboard-showing-cloud-costs-broken-down-by-compute-storage-and-other-components-for-the-openscapeshttpsopenscapesorg-hub">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Screenshot of a graph showing total daily costs per component." srcset="
