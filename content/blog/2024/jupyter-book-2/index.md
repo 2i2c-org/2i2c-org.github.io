@@ -54,7 +54,7 @@ The Jupyter Book 2 project is a complete re-write of Jupyter Book. We expect the
 
 ### Rich Hover Previews
 
-Try hovering over [this tooltip about tooltips!](https://en.wikipedia.org/wiki/Tooltip). The new MyST book and article themes provide useful hover previews for links to other MyST content, Wikipedia, GitHub issues, and many more.
+The new MyST book and article themes provide useful hover previews for links to other MyST content, Wikipedia, GitHub issues, and many more.
 
 <video width="100%" autoplay>
     <source src="https://github.com/jupyter-book/blog/raw/refs/heads/main/media/hover-previews.mp4" type="video/mp4">
@@ -64,7 +64,7 @@ Try hovering over [this tooltip about tooltips!](https://en.wikipedia.org/wiki/T
 
 Content from other websites built with the MyST engine can be embedded in your own sites and PDFs:
 
-![Image of a mountain range.](https://cdn.curvenote.com/0192bff5-9c9d-722f-92bf-e702aa8e1f46/public/c8830546aa82907becb6cd46c414a80c.webp "Cross-referenced content can easily be embedded and re-captioned into other pages and projects, such as this figure to <xref:guide#mylabel>.")
+![Image of a mountain range.](https://cdn.curvenote.com/0192bff5-9c9d-722f-92bf-e702aa8e1f46/public/c8830546aa82907becb6cd46c414a80c.webp "Cross-referenced content can easily be embedded and re-captioned into other pages and projects, such as this figure to <https://mystmd.org/guide/embed#mylabel>.")
 
 ### Simple Instant Search
 
