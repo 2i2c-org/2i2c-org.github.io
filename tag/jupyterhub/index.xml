@@ -1,4 +1,100 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Jupyterhub | 2i2c</title><link>https://2i2c.org/tag/jupyterhub/</link><atom:link href="https://2i2c.org/tag/jupyterhub/index.xml" rel="self" type="application/rss+xml"/><description>Jupyterhub</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 03 Jan 2024 16:56:14 -0800</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Jupyterhub</title><link>https://2i2c.org/tag/jupyterhub/</link></image><item><title>Integrating BinderHub with JupyterHub: Empowering users to manage their own environments</title><link>https://2i2c.org/blog/2024/jupyterhub-binderhub-gesis/</link><pubDate>Wed, 03 Jan 2024 16:56:14 -0800</pubDate><guid>https://2i2c.org/blog/2024/jupyterhub-binderhub-gesis/</guid><description>&lt;p>&lt;em>Thanks to
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Jupyterhub | 2i2c</title><link>https://2i2c.org/tag/jupyterhub/</link><atom:link href="https://2i2c.org/tag/jupyterhub/index.xml" rel="self" type="application/rss+xml"/><description>Jupyterhub</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 18 Nov 2024 12:55:20 -0800</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Jupyterhub</title><link>https://2i2c.org/tag/jupyterhub/</link></image><item><title>Improving the logged in home page experience in JupyterHub with `jupyterhub-fancy-profiles`</title><link>https://2i2c.org/blog/2024/jupyterhub-fancy-profiles-rollout/</link><pubDate>Mon, 18 Nov 2024 12:55:20 -0800</pubDate><guid>https://2i2c.org/blog/2024/jupyterhub-fancy-profiles-rollout/</guid><description>&lt;p>On most research oriented JupyterHub installations, users would like to customize their server (the environment, resources available, etc) after logging in. In Kubernetes based JupyterHub environments, a
+&lt;a href="https://z2jh.jupyter.org/en/latest/jupyterhub/customizing/user-environment.html#using-multiple-profiles-to-let-users-select-their-environment" target="_blank" rel="noopener" >profile list&lt;/a>
+provides this functionality.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./classic-profiles.png" alt="image" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+(Profile List for the NASA VEDA JupyterHub with the default implementation from KubeSpawner)&lt;/p>
+&lt;p>The profile list is the de-facto &amp;ldquo;logged in homepage&amp;rdquo; for these users, as that is what they see after they have logged in.&lt;/p>
+&lt;p>In collaboration with
+&lt;a href="https://developmentseed.org/" target="_blank" rel="noopener" >Development Seed&lt;/a>
+, funded by our
+&lt;a href="https://2i2c.org/blog/2024/jupyterhub-binderhub-gesis/" target="_blank" rel="noopener" >earlier grant&lt;/a>
+from
+&lt;a href="https://www.gesis.org/home" target="_blank" rel="noopener" >GESIS&lt;/a>
+as well as the
+&lt;a href="https://www.earthdata.nasa.gov/data/tools/veda" target="_blank" rel="noopener" >NASA VEDA project&lt;/a>
+, we have been building the
+&lt;a href="https://github.com/2i2c-org/jupyterhub-fancy-profiles" target="_blank" rel="noopener" >&lt;code>jupyterhub-fancy-profiles&lt;/code>&lt;/a>
+project to improve this experience.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./fancy-profiles.png" alt="image" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+(Profile List for the NASA VEDA JupyterHub with &lt;code>jupyterhub-fancy-profiles&lt;/code>)&lt;/p>
+&lt;p>Last week, we rolled this new experience out to all 2i2c managed JupyterHubs! Here&amp;rsquo;s a quick rundown of what this enables:&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>Descriptions for choices in the dropdowns, making it much easier for users to know what they are getting with each environment (or resource selection).&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Fully backwards compatible with the existing KubeSpawner profile list implementation. In our PR to
+&lt;a href="https://github.com/2i2c-org/infrastructure/pull/5083" target="_blank" rel="noopener" >roll this out&lt;/a>
+to all hubs, you notice that we didn&amp;rsquo;t have to change the structure of any profile lists! So you can safely roll this out to your hubs too without needing to fundamentally change how your profiles are set up.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>It is a modern web app (built with
+&lt;a href="https://react.dev/" target="_blank" rel="noopener" >react&lt;/a>
+), just like the JupyterHub admin panel. This allows us to evolve and satisfy user needs much faster, as well as expanding the pool of people who can contribute to the project!&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Support for dynamically building images using
+&lt;a href="https://mybinder.org" target="_blank" rel="noopener" >mybinder.org&lt;/a>
+style repositories! It talks to the
+&lt;a href="https://github.com/jupyterhub/binderhub/" target="_blank" rel="noopener" >binderhub&lt;/a>
+API so users can build reproducible environments as they wish without admin involvement nor needing to fully understand how docker and containers work. Our
+&lt;a href="https://2i2c.org/blog/2024/jupyterhub-binderhub-gesis/" target="_blank" rel="noopener" >earlier blog post&lt;/a>
+has more information.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./fancy-profiles-build.png" alt="image" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;p>This is just the start, and thanks to ongoing funding from the
+&lt;a href="https://www.earthdata.nasa.gov/data/tools/veda" target="_blank" rel="noopener" >NASA VEDA&lt;/a>
+project, we are going to continue making improvements to this experience.&lt;/p>
+&lt;h2 id="use-this-in-your-jupyterhub">
+Use this in your JupyterHub
+&lt;a class="header-anchor" href="#use-this-in-your-jupyterhub">#&lt;/a>
+&lt;/h2>&lt;p>As with everything we build at 2i2c (per our
+&lt;a href="https://2i2c.org/right-to-replicate/" target="_blank" rel="noopener" >right to replicate&lt;/a>
+policy), this project can be used with &lt;em>any&lt;/em> JupyterHub installation that uses Kubernetes. There are
+&lt;a href="https://github.com/2i2c-org/jupyterhub-fancy-profiles/?tab=readme-ov-file#how-to-use" target="_blank" rel="noopener" >instructions&lt;/a>
+in the README. Please try it out on yours and let us know what you think!&lt;/p>
+&lt;h2 id="credit">
+Credit
+&lt;a class="header-anchor" href="#credit">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>The project was initiated with funding generously provided by
+&lt;a href="http://gesis.org" target="_blank" rel="noopener" >GESIS&lt;/a>
+in cooperation with NFDI4DS (project number:
+&lt;a href="https://gepris.dfg.de/gepris/projekt/460234259?context=projekt&amp;amp;task=showDetail&amp;amp;id=460234259&amp;amp;" target="_blank" rel="noopener" >460234259&lt;/a>
+) and
+&lt;a href="https://www.cessda.eu" target="_blank" rel="noopener" >CESSDA&lt;/a>
+(see our
+&lt;a href="https://2i2c.org/blog/2024/jupyterhub-binderhub-gesis/" target="_blank" rel="noopener" >earlier blog post&lt;/a>
+).&lt;/li>
+&lt;li>
+&lt;a href="https://developmentseed.org/team/sanjay-bhangar/" target="_blank" rel="noopener" >Sanjay Bhangar&lt;/a>
+and
+&lt;a href="https://oliverroick.net/" target="_blank" rel="noopener" >Oliver Roick&lt;/a>
+from
+&lt;a href="https://developmentseed.org/" target="_blank" rel="noopener" >Development Seed&lt;/a>
+for advocating for this project and contributing heavily to it.&lt;/li>
+&lt;li>The
+&lt;a href="https://www.earthdata.nasa.gov/data/tools/veda" target="_blank" rel="noopener" >NASA VEDA&lt;/a>
+project (in particular,
+&lt;a href="https://github.com/freitagb/" target="_blank" rel="noopener" >Brian Freitag&lt;/a>
+and
+&lt;a href="https://github.com/wildintellect" target="_blank" rel="noopener" >Alex Mandel&lt;/a>
+), for continued funding (in the form of engineering time) plus being early adopters!&lt;/li>
+&lt;/ul></description></item><item><title>Integrating BinderHub with JupyterHub: Empowering users to manage their own environments</title><link>https://2i2c.org/blog/2024/jupyterhub-binderhub-gesis/</link><pubDate>Wed, 03 Jan 2024 16:56:14 -0800</pubDate><guid>https://2i2c.org/blog/2024/jupyterhub-binderhub-gesis/</guid><description>&lt;p>&lt;em>Thanks to
 &lt;a href="https://www.gesis.org/en/institute/staff/person/arnim.bleier" target="_blank" rel="noopener" >Arnim Bleier&lt;/a>
 ,
 &lt;a href="https://jnywong.github.io/" target="_blank" rel="noopener" >Jenny Wong&lt;/a>
