@@ -10,7 +10,7 @@ featured: false
 draft: false
 ---
 
-*Cross-posted from the [Jupyter Book blog](blog.jupyterbook.org/). Note that some MyST functionality is not supported on the 2i2c website – please see the original post for previews.*
+*Cross-posted from the [Jupyter Book blog](https://blog.jupyterbook.org/). Note that some MyST functionality is not supported on the 2i2c website – please see the original post for previews.*
 
 ![Jupyter Book 2 logo](featured.png)
 
