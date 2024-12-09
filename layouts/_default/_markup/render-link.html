@@ -5,6 +5,8 @@
 {{ $title = replace $title "https://github.com/" "" }}
 {{ $title = replace $title "/issues/" "#" }}
 {{ $title = replace $title "/pull/" "#" }}
+{{ $title = replace $title "https://" "" }}
+{{ $title = replace $title "http://" "" }}
 
 {{/* This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix. */}}
 
