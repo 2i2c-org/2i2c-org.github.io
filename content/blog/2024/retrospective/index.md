@@ -12,19 +12,21 @@ draft: false
 
 ## The main idea
 
-In 2024, 2i2c began an organizational transformation that I now call the "$1M to $2M budget jump". This is a point in an organization's lifecycle when your team has grown enough in size and complexity that you must change the ways that you organize. The informal ways that you worked as a small group don't suffice anymore, and you have to put more effort into aligning and coordinating everyone to ensure you have impact as a group.
+In 2024, 2i2c reached the point in an organization's lifecycle when a team has grown enough in size and complexity that you must change the ways that you organize. The informal ways that worked as a small group don't suffice anymore, and you have to put more effort into aligning and coordinating everyone to ensure you have the same impact.
 
-Every organization hits this point at a different time, but it seems to be around when your annual budget goes from $1M to $2M, thus the name. Getting to the other side of this gap with an intact runway and team is hard, and I suspect that 2i2c's fully distributed nature means that we hit these scaling milestones earlier than many organizations.
+I call this the "$1M to $2M budget jump", because organizations seem to hit this point around when your annual budget goes from `$1M` to `$2M`. Getting to the other side of this gap with an intact runway and team is hard, and I suspect that 2i2c's fully distributed nature means that we hit these scaling milestones earlier than many organizations. For us, this has been a major focus of effort all year, and has involved taking a top-to-bottom look at our plans and ways of working as a team.
 
-At an organizational level for our team, this meant a lot of introspection and planning, a few new roles, a few departing team members, a funding crunch, a successful effort to dig out of it, and a new system of work organizing our team. We'll share more about all of this later, but here are the major implications for our team:
+At an organizational level, this meant a lot of introspection and planning, a few new roles, a few departing team members, a funding crunch, a successful effort to dig out of it, and a new system of work organizing our team. We'll share more about all of this later, but here are the major implications for our team:
 
 - **We've raised another $2.2M in funding** to support our efforts in scaling and sustaining our network of community hubs. This gives us roughly another 2 years of projected runway (with some assumptions about revenue from contracts and grants).
 - **We've hired and incorporated more strategic and systems-level roles** to give our team support as it grows: a Product Lead, Delivery Lead / Chief of Staff , and a People operations manager.
-- **We've re-organized our team into separate business development and product teams**, in order to focus on _providing an excellent technical platform and a collection of services that maximizes commnunity impact_, as well as _sustaining this service for our communities_.
+- **We've re-organized our team into separate product and business development teams**, in order to focus on _providing an excellent technical platform and a collection of services that maximizes commnunity impact_, as well as _sustaining this service for our communities_.
 
 This has allowed us to more effectively coordinate our service enhancement and development efforts, and increases our ability to deliver improvements to our communities and to upstream projects.
 
-For more details about our impact, see the summaries below.
+As a result, our organization has a much stronger foundation to build upon as we continue to grow and refine our sustainability model in 2025. It has positioned us to more effectively deal with the challenges in reaching our next milestones for scale and impact, and gives us the tools to be more adaptive and responsive to community needs.
+
+Along the way, we also had a lot of impact through our collaborations with communities in our network, and in the upstream projects that we support. For more details about our impact, see the summaries below.
 
 ## Community impact
 
@@ -45,7 +47,6 @@ Beyond the numbers, we also re-focused our team on reporting on impact stories f
   width="75%"
   caption="Our impact gallery is a new place to share stories of our impact with user research communities as well as open source communities: https://2i2c.org/category/impact/"
 >}}
-
 
 Here are a few community highlights from this year:
 
