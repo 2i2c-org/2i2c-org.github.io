@@ -4,12 +4,12 @@
 #   The weight parameter defines the order that the links will appear in.
 
 [[main]]
-  name = "Hub platform"
+  name = "Platform"
   url = "platform/"
   weight = 10
 
 [[main]]
-  name = "Community impact"
+  name = "Impact"
   url = "communities/"
   weight = 11
 
