@@ -17,9 +17,7 @@ This project aims to make it easier for administrators to provide a service that
   caption="An example leaderboard for a data challenge, taken from the [Cellmap Challenge](https://cellmapchallenge.janelia.org/). Users make submissions that are run against secure and private infrastructure and data, and provides feedback about the submission's performance. Learn more about the FRX challenges project here: https://2i2c.org/frx-challenges/"
 >}}
 
-It is designed to be lightweight and flexible, and can be run on a variety of shared infrastructure. For those who wish to run this project on cloud infrastructure, we've also published a Helm Chart to help you deploy `frx-challenges` with Kubernetes:
-
-https://2i2c.org/frx-challenges-helm-chart/
+It is designed to be lightweight and flexible, and can be run on a variety of shared infrastructure. For those who wish to run this project on cloud infrastructure, we've also published a [Helm Chart to help you deploy `frx-challenges` with Kubernetes](https://2i2c.org/frx-challenges-helm-chart/).
 
 While it can be run on its own, we believe that it naturally complements other tools and services for interactive computing and data, such as **JupyterHub**, **Jupyter Book**, and **Binder**. More on that below.
 
@@ -47,7 +45,7 @@ Data challenges are harder than you think! While it is simple enough to run some
 
 - **Submissions must retain user and team identity**, which means that we must keep track of users and their submissions over time, since data challenges are designed to encourage iterative improvement and optimization.
 - **Evaluations must use potentially complex resources and data** since many data challenges operate by publicly sharing a small dataset, and then running it against a much more complex dataset.
-- **Evaluations must be totally secure**, so that submissions can't do nefarious things like mine cryptocurrency or gain access to the challenge's private data.
+- **Evaluations must be totally secure**, so that submissions can't do nefarious things like mine cryptocurrency or extract the challenge's private data in unintended ways.
 - **Evaluations must be automated**, so that running the challenge does not require extensive human intervention and can scale to many users.
 - **Evaluation must be flexible**, so that the infrastructure can accept a variety of types of submissions (e.g. code, data, model weights, etc), run them with arbitrary environments designed by the organizers, and run them with the right hardware to get the job done.
 
@@ -61,4 +59,6 @@ This is still the **very early stages** of the project, and we imagine it will e
 
 ## Acknowledgements
 
-Many thanks to the Howard Hughes Medical Institute (HHMI) for collaborating with us on the [Cellmap Challenge](https://cellmapchallenge.janelia.org/), which led to the creation of this project.
+Thanks to the Howard Hughes Medical Institute (HHMI) for collaborating with us on the [Cellmap Challenge](https://cellmapchallenge.janelia.org/), which led to the creation of this project.
+
+Thanks to Kristen Ratan and [Strategies for Open Science](https://strategiesos.org/about/) (Stratos) for enabling this collaboration, and providing strategic guidance and support.

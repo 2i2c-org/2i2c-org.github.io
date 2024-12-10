@@ -55,6 +55,11 @@ Here are a few community highlights from this year:
 - The NeuroHackademy used our infrastructure to support their annual summer school: http://2i2c.org/blog/2024/neurohackademy-summer-school-reflections/
 - We enabled ephemeral and sharable interactive computing environments for workshops in the geospatial community: http://2i2c.org/blog/2024/amerigeo-workshop/
 - We ran a pilot for an HHMI-funded Spyglass project for reproducing their pre-print with a live interactive environment using BinderHub to support publishing infrastructure: https://2i2c.org/blog/2024/hhmi-spyglass-mysql/
+- We began a collaboration around biomedical infrastructure for 
+- We began a collaboration with [Development Seed](https://developmentseed.org/) around the NASA VEDA project, to support them with interactive cloud environments for geospatial research: https://2i2c.org/blog/2024/veda-devseed-collab/index.md
+- Several members in our community network showed off their work at [AGU 2024](https://www.agu.org/annual-meeting): https://2i2c.org/blog/2024/agu/
+- We co-organized a workshop alongside [Project Pythia](https://projectpythia.org/) to create computational narrative content for geospatial analytics, and upgrade their stack to Jupyter Book 2.0: https://2i2c.org/blog/2024/project-pythia-cookoff/
+
 
 ## Open source technology enhancements
 
