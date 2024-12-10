@@ -20,19 +20,19 @@ At an organizational level, this meant a lot of introspection and planning, a fe
 
 - **We've raised another $2.2M in funding** to support our efforts in scaling and sustaining our network of community hubs. This gives us roughly another 2 years of projected runway (with some assumptions about revenue from contracts and grants).
 - **We've hired and incorporated more strategic and systems-level roles** to give our team support as it grows: a Product Lead, Delivery Lead / Chief of Staff , and a People operations manager.
-- **We've re-organized our team into separate product and business development teams**, in order to focus on _providing an excellent technical platform and a collection of services that maximizes commnunity impact_, as well as _sustaining this service for our communities_.
+- **We've re-organized our team into separate product and business development teams**, in order to focus on _providing an excellent technical platform and a collection of services that maximizes community impact_, as well as _sustaining this service for our communities_.
 
 This has allowed us to more effectively coordinate our service enhancement and development efforts, and increases our ability to deliver improvements to our communities and to upstream projects.
 
 As a result, our organization has a much stronger foundation to build upon as we continue to grow and refine our sustainability model in 2025. It has positioned us to more effectively deal with the challenges in reaching our next milestones for scale and impact, and gives us the tools to be more adaptive and responsive to community needs.
 
-Along the way, we also had a lot of impact through our collaborations with communities in our network, and in the upstream projects that we support. For more details about our impact, see the summaries below.
+Along the way, we also generated a lot of impact through our collaborations with communities in our network, and in the upstream projects that we support. For more details about our impact, see the summaries below.
 
 ## Community impact
 
 2i2c's core mission is to support its network of communities that create and share knowledge with open infrastructure. Here are the highlights of how our community network has grown and had impact.
 
-First, we've grown our network of hubs and users through several new partnerships, we **grew the number of active hubs from ~75 to ~105**, and **grew the number of Monthly Active Users (MAUs) from ~8100 to ~9100**.
+First, we've grown our network of hubs and users through several new partnerships. We **grew the number of active hubs from ~75 to ~105**, and **grew the number of Monthly Active Users (MAUs) from ~8100 to ~9100**.
 
 {{< figure
   src="images/maus.png"
@@ -40,7 +40,7 @@ First, we've grown our network of hubs and users through several new partnership
   caption="You can see an interactive version of these numbers in our platform usage dashboard: https://2i2c.org/kpis/cloud/"
 >}}
 
-Beyond the numbers, we also re-focused our team on reporting on impact stories from our collaborations with community members, and have published these into a (growing) list of impact reports on our blog:
+Beyond the numbers, we also re-focused our team on reporting impact stories from our collaborations with community members, and have published these into a (growing) list of posts on our blog:
 
 {{< figure
   src="images/impact-gallery.png"
@@ -50,11 +50,11 @@ Beyond the numbers, we also re-focused our team on reporting on impact stories f
 
 Here are a few community highlights from this year:
 
-- We served around 20 communities from Latin America and Africa for the Catalyst project partner impact: https://2i2c.org/blog/2024/catalyst-partner-highlights/
+- We served around 20 communities from Latin America and Africa for the Catalyst project: https://2i2c.org/blog/2024/catalyst-partner-highlights/
 - Our community partner Openscapes were invited to the White House to discuss the importance of open science: https://openscapes.org/events/2024-09-26-openscapes-whitehouse/
 - The NeuroHackademy used our infrastructure to support their annual summer school: http://2i2c.org/blog/2024/neurohackademy-summer-school-reflections/
 - We enabled ephemeral and sharable interactive computing environments for workshops in the geospatial community: http://2i2c.org/blog/2024/amerigeo-workshop/
-- We ran a pilot for an HHMI-funded Spyglass project for reproducing their pre-print with a live interactive environment: - BinderHub support for publishing infrastructure: https://2i2c.org/blog/2024/hhmi-spyglass-mysql/
+- We ran a pilot for an HHMI-funded Spyglass project for reproducing their pre-print with a live interactive environment using BinderHub to support publishing infrastructure: https://2i2c.org/blog/2024/hhmi-spyglass-mysql/
 
 ## Open source technology enhancements
 
@@ -80,7 +80,7 @@ Here are a few highlights where we focused our effort this year - each of these 
   https://2i2c.org/blog/2024/project-pythia-cookoff/
 
   https://2i2c.org/blog/2024/jupyter-book-2/
-- We built `frx-challenge`, a tool to help communities host data challenges with secure, automated evaluation of submissions.
+- We built `frx-challenges`, a tool to help communities host data challenges with secure, automated evaluation of submissions.
 
   https://github.com/2i2c-org/frx-challenge
   
@@ -91,7 +91,7 @@ Here are a few highlights where we focused our effort this year - each of these 
 
 ## Looking to next year
 
-2025 is going to be a critical year for 2i2c to build upon the work we began this year and achieve a more sustainable and scalable community model. Here are the main areas that will guide our work in the new year and into 2026, pulled from our [recent proposal from The Navigation Fund](../funding-navigation/):
+2025 is going to be a critical year for 2i2c to build upon the work we began this year and achieve a more sustainable and scalable community model. Here are the main areas that will guide our work in the new year and into 2026, pulled from our [recent proposal from The Navigation Fund](/blog/2024/funding-navigation/index.md):
 
 - **Goal #1: Delivery**. Develop the operating structure and team skills to
 efficiently scale our product and service delivery.

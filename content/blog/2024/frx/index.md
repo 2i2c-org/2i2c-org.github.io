@@ -1,5 +1,5 @@
 ---
-title: "`frx-challenge`: A new tool to host data challenges for Frictionless Research Exchanges"
+title: "`frx-challenges`: A new tool to host data challenges for Frictionless Research Exchanges"
 date: 2024-12-06
 ---
 
@@ -12,7 +12,7 @@ This project aims to make it easier for administrators to provide a service that
 {{< figure
   src="images/leaderboard.png"
   width="75%"
-  caption="An example leaderboard for a data challenge, taken from the [Cellmap Challenge](https://cellmapchallenge.janelia.org/). Users make submissions that are run against secure and private infrastructure and data, and provides feedback about the submission's performance. Learn more about the FRX challeenges project here: https://2i2c.org/frx-challenges/"
+  caption="An example leaderboard for a data challenge, taken from the [Cellmap Challenge](https://cellmapchallenge.janelia.org/). Users make submissions that are run against secure and private infrastructure and data, and provides feedback about the submission's performance. Learn more about the FRX challenges project here: https://2i2c.org/frx-challenges/"
 >}}
 
 It is designed to be lightweight and flexible, and can be run on a variety of shared infrastructure. For those who wish to run this project on cloud infrastructure, we've also published a Helm Chart to help you deploy `frx-challenges` with Kubernetes:

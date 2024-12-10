@@ -80,4 +80,18 @@ sections:
 
         {{< figure src="/images/home/os-lifecycle.png" alt="The lifecycle of upstream development">}}
 
+  - block: markdown
+    id: values
+    content:
+      title: Our values
+      text: |
+      
+        Our values are crucial to accomplishing our goals in a way that is equitable
+        and accessible to all.
+
+        Here are some of the core values underlying 2i2c:
+
+        * 2i2c values **fairness** and **justice** as requirements for successful communities.
+        * 2i2c values **learning** and **discovery** for all people.
+        * 2i2c values **collaborating** and **connecting** to foster environments for learning and discovery.
 ---

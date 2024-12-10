@@ -1,5 +1,5 @@
 ---
-title: Support from CZI to support 2i2c's mission to help communities create and share knowledge with open infrastructure
+title: Support from CZI to sustain 2i2c's mission to help communities create and share knowledge with open infrastructure
 date: "2024-10-13"
 authors: ["Chris Holdgraf"]
 tags: [report]

@@ -31,9 +31,15 @@
 
   [[main]]
   parent = "about"
-  name = "Team and organization"
+  name = "Our team"
   url = "organization/"
   weight = 15
+
+  [[main]]
+  parent = "about"
+  name = "How we're funded"
+  url = "about/funding/"
+  weight = 16
 
   [[main]]
     parent = "about"
