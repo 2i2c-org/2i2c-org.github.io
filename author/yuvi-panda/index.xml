@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Yuvi Panda | 2i2c</title><link>https://2i2c.org/author/yuvi-panda/</link><atom:link href="https://2i2c.org/author/yuvi-panda/index.xml" rel="self" type="application/rss+xml"/><description>Yuvi Panda</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 18 Nov 2024 12:55:20 -0800</lastBuildDate><image><url>https://2i2c.org/author/yuvi-panda/avatar_huc33b170c6d7c951ba6ff8e7ef074ee49_9242_270x270_fill_q75_lanczos_center.jpeg</url><title>Yuvi Panda</title><link>https://2i2c.org/author/yuvi-panda/</link></image><item><title>Improving the logged in home page experience in JupyterHub with `jupyterhub-fancy-profiles`</title><link>https://2i2c.org/blog/2024/jupyterhub-fancy-profiles-rollout/</link><pubDate>Mon, 18 Nov 2024 12:55:20 -0800</pubDate><guid>https://2i2c.org/blog/2024/jupyterhub-fancy-profiles-rollout/</guid><description>&lt;p>On most research oriented JupyterHub installations, users would like to customize their server (the environment, resources available, etc) after logging in. In Kubernetes based JupyterHub environments, a
-&lt;a href="https://z2jh.jupyter.org/en/latest/jupyterhub/customizing/user-environment.html#using-multiple-profiles-to-let-users-select-their-environment" target="_blank" rel="noopener" >profile list&lt;/a>
-provides this functionality.&lt;/p>
+&lt;a href="https://z2jh.jupyter.org/en/latest/jupyterhub/customizing/user-environment.html#using-multiple-profiles-to-let-users-select-their-environment" target="_blank" rel="noopener" >profile list&lt;/a> provides this functionality.&lt;/p>
 &lt;p>
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
@@ -9,16 +8,11 @@ provides this functionality.&lt;/p>
 (Profile List for the NASA VEDA JupyterHub with the default implementation from KubeSpawner)&lt;/p>
 &lt;p>The profile list is the de-facto &amp;ldquo;logged in homepage&amp;rdquo; for these users, as that is what they see after they have logged in.&lt;/p>
 &lt;p>In collaboration with
-&lt;a href="https://developmentseed.org/" target="_blank" rel="noopener" >Development Seed&lt;/a>
-, funded by our
-&lt;a href="https://2i2c.org/blog/2024/jupyterhub-binderhub-gesis/" target="_blank" rel="noopener" >earlier grant&lt;/a>
-from
-&lt;a href="https://www.gesis.org/home" target="_blank" rel="noopener" >GESIS&lt;/a>
-as well as the
-&lt;a href="https://www.earthdata.nasa.gov/data/tools/veda" target="_blank" rel="noopener" >NASA VEDA project&lt;/a>
-, we have been building the
-&lt;a href="https://github.com/2i2c-org/jupyterhub-fancy-profiles" target="_blank" rel="noopener" >&lt;code>jupyterhub-fancy-profiles&lt;/code>&lt;/a>
-project to improve this experience.&lt;/p>
+&lt;a href="https://developmentseed.org/" target="_blank" rel="noopener" >Development Seed&lt;/a>, funded by our
+&lt;a href="https://2i2c.org/blog/2024/jupyterhub-binderhub-gesis/" target="_blank" rel="noopener" >earlier grant&lt;/a> from
+&lt;a href="https://www.gesis.org/home" target="_blank" rel="noopener" >GESIS&lt;/a> as well as the
+&lt;a href="https://www.earthdata.nasa.gov/data/tools/veda" target="_blank" rel="noopener" >NASA VEDA project&lt;/a>, we have been building the
+&lt;a href="https://github.com/2i2c-org/jupyterhub-fancy-profiles" target="_blank" rel="noopener" >&lt;code>jupyterhub-fancy-profiles&lt;/code>&lt;/a> project to improve this experience.&lt;/p>
 &lt;p>
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
@@ -32,22 +26,17 @@ project to improve this experience.&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>Fully backwards compatible with the existing KubeSpawner profile list implementation. In our PR to
-&lt;a href="https://github.com/2i2c-org/infrastructure/pull/5083" target="_blank" rel="noopener" >roll this out&lt;/a>
-to all hubs, you notice that we didn&amp;rsquo;t have to change the structure of any profile lists! So you can safely roll this out to your hubs too without needing to fundamentally change how your profiles are set up.&lt;/p>
+&lt;a href="https://github.com/2i2c-org/infrastructure/pull/5083" target="_blank" rel="noopener" >roll this out&lt;/a> to all hubs, you notice that we didn&amp;rsquo;t have to change the structure of any profile lists! So you can safely roll this out to your hubs too without needing to fundamentally change how your profiles are set up.&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>It is a modern web app (built with
-&lt;a href="https://react.dev/" target="_blank" rel="noopener" >react&lt;/a>
-), just like the JupyterHub admin panel. This allows us to evolve and satisfy user needs much faster, as well as expanding the pool of people who can contribute to the project!&lt;/p>
+&lt;a href="https://react.dev/" target="_blank" rel="noopener" >react&lt;/a>), just like the JupyterHub admin panel. This allows us to evolve and satisfy user needs much faster, as well as expanding the pool of people who can contribute to the project!&lt;/p>
 &lt;/li>
 &lt;li>
 &lt;p>Support for dynamically building images using
-&lt;a href="https://mybinder.org" target="_blank" rel="noopener" >mybinder.org&lt;/a>
-style repositories! It talks to the
-&lt;a href="https://github.com/jupyterhub/binderhub/" target="_blank" rel="noopener" >binderhub&lt;/a>
-API so users can build reproducible environments as they wish without admin involvement nor needing to fully understand how docker and containers work. Our
-&lt;a href="https://2i2c.org/blog/2024/jupyterhub-binderhub-gesis/" target="_blank" rel="noopener" >earlier blog post&lt;/a>
-has more information.&lt;/p>
+&lt;a href="https://mybinder.org" target="_blank" rel="noopener" >mybinder.org&lt;/a> style repositories! It talks to the
+&lt;a href="https://github.com/jupyterhub/binderhub/" target="_blank" rel="noopener" >binderhub&lt;/a> API so users can build reproducible environments as they wish without admin involvement nor needing to fully understand how docker and containers work. Our
+&lt;a href="https://2i2c.org/blog/2024/jupyterhub-binderhub-gesis/" target="_blank" rel="noopener" >earlier blog post&lt;/a> has more information.&lt;/p>
 &lt;p>
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
@@ -57,43 +46,30 @@ has more information.&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;p>This is just the start, and thanks to ongoing funding from the
-&lt;a href="https://www.earthdata.nasa.gov/data/tools/veda" target="_blank" rel="noopener" >NASA VEDA&lt;/a>
-project, we are going to continue making improvements to this experience.&lt;/p>
+&lt;a href="https://www.earthdata.nasa.gov/data/tools/veda" target="_blank" rel="noopener" >NASA VEDA&lt;/a> project, we are going to continue making improvements to this experience.&lt;/p>
 &lt;h2 id="use-this-in-your-jupyterhub">
 Use this in your JupyterHub
 &lt;a class="header-anchor" href="#use-this-in-your-jupyterhub">#&lt;/a>
 &lt;/h2>&lt;p>As with everything we build at 2i2c (per our
-&lt;a href="https://2i2c.org/right-to-replicate/" target="_blank" rel="noopener" >right to replicate&lt;/a>
-policy), this project can be used with &lt;em>any&lt;/em> JupyterHub installation that uses Kubernetes. There are
-&lt;a href="https://github.com/2i2c-org/jupyterhub-fancy-profiles/?tab=readme-ov-file#how-to-use" target="_blank" rel="noopener" >instructions&lt;/a>
-in the README. Please try it out on yours and let us know what you think!&lt;/p>
+&lt;a href="https://2i2c.org/right-to-replicate/" target="_blank" rel="noopener" >right to replicate&lt;/a> policy), this project can be used with &lt;em>any&lt;/em> JupyterHub installation that uses Kubernetes. There are
+&lt;a href="https://github.com/2i2c-org/jupyterhub-fancy-profiles/?tab=readme-ov-file#how-to-use" target="_blank" rel="noopener" >instructions&lt;/a> in the README. Please try it out on yours and let us know what you think!&lt;/p>
 &lt;h2 id="credit">
 Credit
 &lt;a class="header-anchor" href="#credit">#&lt;/a>
 &lt;/h2>&lt;ul>
 &lt;li>The project was initiated with funding generously provided by
-&lt;a href="http://gesis.org" target="_blank" rel="noopener" >GESIS&lt;/a>
-in cooperation with NFDI4DS (project number:
-&lt;a href="https://gepris.dfg.de/gepris/projekt/460234259?context=projekt&amp;amp;task=showDetail&amp;amp;id=460234259&amp;amp;" target="_blank" rel="noopener" >460234259&lt;/a>
-) and
-&lt;a href="https://www.cessda.eu" target="_blank" rel="noopener" >CESSDA&lt;/a>
-(see our
-&lt;a href="https://2i2c.org/blog/2024/jupyterhub-binderhub-gesis/" target="_blank" rel="noopener" >earlier blog post&lt;/a>
-).&lt;/li>
+&lt;a href="http://gesis.org" target="_blank" rel="noopener" >GESIS&lt;/a> in cooperation with NFDI4DS (project number:
+&lt;a href="https://gepris.dfg.de/gepris/projekt/460234259?context=projekt&amp;amp;task=showDetail&amp;amp;id=460234259&amp;amp;" target="_blank" rel="noopener" >460234259&lt;/a>) and
+&lt;a href="https://www.cessda.eu" target="_blank" rel="noopener" >CESSDA&lt;/a> (see our
+&lt;a href="https://2i2c.org/blog/2024/jupyterhub-binderhub-gesis/" target="_blank" rel="noopener" >earlier blog post&lt;/a>).&lt;/li>
 &lt;li>
-&lt;a href="https://developmentseed.org/team/sanjay-bhangar/" target="_blank" rel="noopener" >Sanjay Bhangar&lt;/a>
-and
-&lt;a href="https://oliverroick.net/" target="_blank" rel="noopener" >Oliver Roick&lt;/a>
-from
-&lt;a href="https://developmentseed.org/" target="_blank" rel="noopener" >Development Seed&lt;/a>
-for advocating for this project and contributing heavily to it.&lt;/li>
+&lt;a href="https://developmentseed.org/team/sanjay-bhangar/" target="_blank" rel="noopener" >Sanjay Bhangar&lt;/a> and
+&lt;a href="https://oliverroick.net/" target="_blank" rel="noopener" >Oliver Roick&lt;/a> from
+&lt;a href="https://developmentseed.org/" target="_blank" rel="noopener" >Development Seed&lt;/a> for advocating for this project and contributing heavily to it.&lt;/li>
 &lt;li>The
-&lt;a href="https://www.earthdata.nasa.gov/data/tools/veda" target="_blank" rel="noopener" >NASA VEDA&lt;/a>
-project (in particular,
-&lt;a href="https://github.com/freitagb/" target="_blank" rel="noopener" >Brian Freitag&lt;/a>
-and
-&lt;a href="https://github.com/wildintellect" target="_blank" rel="noopener" >Alex Mandel&lt;/a>
-), for continued funding (in the form of engineering time) plus being early adopters!&lt;/li>
+&lt;a href="https://www.earthdata.nasa.gov/data/tools/veda" target="_blank" rel="noopener" >NASA VEDA&lt;/a> project (in particular,
+&lt;a href="https://github.com/freitagb/" target="_blank" rel="noopener" >Brian Freitag&lt;/a> and
+&lt;a href="https://github.com/wildintellect" target="_blank" rel="noopener" >Alex Mandel&lt;/a>), for continued funding (in the form of engineering time) plus being early adopters!&lt;/li>
 &lt;/ul></description></item><item><title>Yuvi Panda</title><link>https://2i2c.org/author/yuvi-panda/</link><pubDate>Mon, 18 Nov 2024 12:55:20 -0800</pubDate><guid>https://2i2c.org/author/yuvi-panda/</guid><description>&lt;p>Building participatory open infrastructure for scientific &amp;amp; educational use cases. A Project Jupyter team member working on infrastructure related projects. Ex Wikimedia and ex-GNOME. Let&amp;rsquo;s eliminate accidental complexities wherever we find them.&lt;/p></description></item><item><title>Collaborating with Development Seed to deliver cyberinfrastructure for NASA VEDA</title><link>https://2i2c.org/blog/2024/veda-devseed-collab/</link><pubDate>Fri, 12 Jul 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/veda-devseed-collab/</guid><description>&lt;p>&lt;em>Thank you to Sajjad Anwar and Sanjay Bhangar for contributing to this post.&lt;/em>&lt;/p>
 &lt;p>
 &lt;figure id="figure-the-veda-dashboardhttpswwwearthdatanasagovdashboard">
@@ -112,17 +88,12 @@ The
 &lt;/figcaption>&lt;/figure>
 &lt;/p>
 &lt;p>The 2i2c team are proud to continue our strong working collaboration with
-&lt;a href="https://developmentseed.org/" target="_blank" rel="noopener" >Development Seed&lt;/a>
-, following our previous work on launching the
-&lt;a href="https://2i2c.org/blog/2023/us-ghg-center-launches/" >US GHG center&lt;/a>
-(also see the
-&lt;a href="https://developmentseed.org/blog/2023-12-14-ghg-center" target="_blank" rel="noopener" >Development Seed blog post&lt;/a>
-). Together with scientists at NASA in our regular sync touchpoints, we have recently delivered a tranche of improvements to
-&lt;a href="https://www.earthdata.nasa.gov/esds/veda" target="_blank" rel="noopener" >the Visualization, Exploration and Data Analysis (VEDA) project&lt;/a>
-.&lt;/p>
+&lt;a href="https://developmentseed.org/" target="_blank" rel="noopener" >Development Seed&lt;/a>, following our previous work on launching the
+&lt;a href="https://2i2c.org/blog/2023/us-ghg-center-launches/" >US GHG center&lt;/a> (also see the
+&lt;a href="https://developmentseed.org/blog/2023-12-14-ghg-center" target="_blank" rel="noopener" >Development Seed blog post&lt;/a>). Together with scientists at NASA in our regular sync touchpoints, we have recently delivered a tranche of improvements to
+&lt;a href="https://www.earthdata.nasa.gov/esds/veda" target="_blank" rel="noopener" >the Visualization, Exploration and Data Analysis (VEDA) project&lt;/a>.&lt;/p>
 &lt;p>This platform is designed to thread open-source components together to consolidate GIS delivery mechanisms, processing, analysis and visualization tools, and presented in a collaborative interactive computing environment. All code repositories and associated resources stemming from this work are available on the
-&lt;a href="https://github.com/NASA-IMPACT/VEDA/wiki" target="_blank" rel="noopener" >VEDA GitHub page&lt;/a>
-.&lt;/p>
+&lt;a href="https://github.com/NASA-IMPACT/VEDA/wiki" target="_blank" rel="noopener" >VEDA GitHub page&lt;/a>.&lt;/p>
 &lt;p>In the spirit of fully open development, you can
 &lt;a href="https://github.com/NASA-IMPACT/veda-jupyterhub/issues?q=is%3Aissue&amp;#43;jh&amp;#43;is%3Aclosed&amp;#43;label%3A%22PI&amp;#43;24.3%22&amp;#43;" target="_blank" rel="noopener" >see the objectives&lt;/a>
 the combined 2i2c and Development Seed team had for the last quarter. In this blog post, we will describe some of the significant ones!&lt;/p>
@@ -130,42 +101,28 @@ the combined 2i2c and Development Seed team had for the last quarter. In this bl
 Better image management and testing
 &lt;a class="header-anchor" href="#better-image-management-and-testing">#&lt;/a>
 &lt;/h2>&lt;p>The
-&lt;a href="https://github.com/jupyterhub/repo2docker-action" target="_blank" rel="noopener" >repo2docker-action&lt;/a>
-is a GitHub action simplifying image building and testing for use with JupyterHub, using either a &lt;code>Dockerfile&lt;/code> or various
-&lt;a href="https://repo2docker.readthedocs.io/en/latest/config_files.html" target="_blank" rel="noopener" >configuration files&lt;/a>
-(like &lt;code>requirements.txt&lt;/code>, &lt;code>environment.yml&lt;/code>, etc) supported by
-&lt;a href="https://github.com/jupyterhub/repo2docker" target="_blank" rel="noopener" >repo2docker&lt;/a>
-. We migrated our image building pipeline from a somewhat homegrown solution to this upstream action, making image updates and testing &lt;em>much&lt;/em> easier. In particular, we can
-&lt;a href="https://github.com/NASA-IMPACT/pangeo-notebook-veda-image/pull/4" target="_blank" rel="noopener" >automatically run test notebooks&lt;/a>
-on every change we make to the image! This way, we can easily catch any breaking changes in library versions or other package installs without disrupting users. We also debugged and
-&lt;a href="https://github.com/jupyterhub/repo2docker-action/pull/124" target="_blank" rel="noopener" >contributed upstream&lt;/a>
-fixes to the testing infrastructure so everyone could benefit from this, rather than just us.&lt;/p>
+&lt;a href="https://github.com/jupyterhub/repo2docker-action" target="_blank" rel="noopener" >repo2docker-action&lt;/a> is a GitHub action simplifying image building and testing for use with JupyterHub, using either a &lt;code>Dockerfile&lt;/code> or various
+&lt;a href="https://repo2docker.readthedocs.io/en/latest/config_files.html" target="_blank" rel="noopener" >configuration files&lt;/a> (like &lt;code>requirements.txt&lt;/code>, &lt;code>environment.yml&lt;/code>, etc) supported by
+&lt;a href="https://github.com/jupyterhub/repo2docker" target="_blank" rel="noopener" >repo2docker&lt;/a>. We migrated our image building pipeline from a somewhat homegrown solution to this upstream action, making image updates and testing &lt;em>much&lt;/em> easier. In particular, we can
+&lt;a href="https://github.com/NASA-IMPACT/pangeo-notebook-veda-image/pull/4" target="_blank" rel="noopener" >automatically run test notebooks&lt;/a> on every change we make to the image! This way, we can easily catch any breaking changes in library versions or other package installs without disrupting users. We also debugged and
+&lt;a href="https://github.com/jupyterhub/repo2docker-action/pull/124" target="_blank" rel="noopener" >contributed upstream&lt;/a> fixes to the testing infrastructure so everyone could benefit from this, rather than just us.&lt;/p>
 &lt;h2 id="automatically-pulling-example-notebooks-on-startup">
 Automatically pulling example notebooks on startup
 &lt;a class="header-anchor" href="#automatically-pulling-example-notebooks-on-startup">#&lt;/a>
 &lt;/h2>&lt;p>When a user logs into a JupyterHub, it is very helpful if we could have a bunch of example notebooks and other content pre-populated for them so they can get started right away.
-&lt;a href="https://nbgitpuller.readthedocs.io/" target="_blank" rel="noopener" >nbgitpuller&lt;/a>
-is heavily used for this particular use case. However, it requires that nbgitpuller is installed inside the image the user is using - and not all images have it installed. In particular, we wanted to continue using the (wonderful)
-&lt;a href="https://rocker-project.org/" target="_blank" rel="noopener" >Rocker images&lt;/a>
-maintained upstream for R users, however they do not have nbgitpuller installed. To solve this problem we built
-&lt;a href="https://github.com/NASA-IMPACT/jupyterhub-gitpuller-init" target="_blank" rel="noopener" >jupyterhub-gitpuller-init&lt;/a>
-, which can be used as an
-&lt;a href="https://kubernetes.io/docs/concepts/workloads/pods/init-containers/" target="_blank" rel="noopener" >init container&lt;/a>
-to pre-populate user content on persistent home directories regardless of the image used. We also made sure to build this in a way that &lt;em>anyone&lt;/em> can use it, and it is not tied into either 2i2c or VEDA infrastructure!&lt;/p>
+&lt;a href="https://nbgitpuller.readthedocs.io/" target="_blank" rel="noopener" >nbgitpuller&lt;/a> is heavily used for this particular use case. However, it requires that nbgitpuller is installed inside the image the user is using - and not all images have it installed. In particular, we wanted to continue using the (wonderful)
+&lt;a href="https://rocker-project.org/" target="_blank" rel="noopener" >Rocker images&lt;/a> maintained upstream for R users, however they do not have nbgitpuller installed. To solve this problem we built
+&lt;a href="https://github.com/NASA-IMPACT/jupyterhub-gitpuller-init" target="_blank" rel="noopener" >jupyterhub-gitpuller-init&lt;/a>, which can be used as an
+&lt;a href="https://kubernetes.io/docs/concepts/workloads/pods/init-containers/" target="_blank" rel="noopener" >init container&lt;/a> to pre-populate user content on persistent home directories regardless of the image used. We also made sure to build this in a way that &lt;em>anyone&lt;/em> can use it, and it is not tied into either 2i2c or VEDA infrastructure!&lt;/p>
 &lt;h2 id="opening-specific-visualizations-in-qgis-via-url">
 Opening specific visualizations in QGIS via URL
 &lt;a class="header-anchor" href="#opening-specific-visualizations-in-qgis-via-url">#&lt;/a>
 &lt;/h2>&lt;p>
-&lt;a href="https://www.qgis.org/" target="_blank" rel="noopener" >QGIS&lt;/a>
-is the world&amp;rsquo;s most used open source GIS software, and previously 2i2c had
-&lt;a href="https://blog.jupyter.org/desktop-gis-software-in-the-cloud-with-jupyterhub-ddced297019a" target="_blank" rel="noopener" >worked with Openscapes and QGreenland&lt;/a>
-to bring this &lt;em>desktop&lt;/em> software to JupyterHub. We had previously worked on a
-&lt;a href="https://github.com/2i2c-org/nasa-qgis-image" target="_blank" rel="noopener" >container image&lt;/a>
-that allows users to access large datasets stored in the cloud directly through QGIS on the JupyterHub, allowing users to work with much larger datasets than they could on their desktops by bringing cloud compute adjacent to the data. As a continuation of this work, we developed
-&lt;a href="https://github.com/sunu/jupyter-remote-qgis-proxy" target="_blank" rel="noopener" >jupyter-remote-qgis-proxy&lt;/a>
-, which builds QGIS specific features on top of
-&lt;a href="https://github.com/jupyterhub/jupyter-remote-desktop-proxy" target="_blank" rel="noopener" >jupyter-remote-desktop-proxy&lt;/a>
-. In particular, it allows creation of shareable links that when clicked, opens specific datasets and layers in QGIS in a JupyterHub! You can see this in action:&lt;/p>
+&lt;a href="https://www.qgis.org/" target="_blank" rel="noopener" >QGIS&lt;/a> is the world&amp;rsquo;s most used open source GIS software, and previously 2i2c had
+&lt;a href="https://blog.jupyter.org/desktop-gis-software-in-the-cloud-with-jupyterhub-ddced297019a" target="_blank" rel="noopener" >worked with Openscapes and QGreenland&lt;/a> to bring this &lt;em>desktop&lt;/em> software to JupyterHub. We had previously worked on a
+&lt;a href="https://github.com/2i2c-org/nasa-qgis-image" target="_blank" rel="noopener" >container image&lt;/a> that allows users to access large datasets stored in the cloud directly through QGIS on the JupyterHub, allowing users to work with much larger datasets than they could on their desktops by bringing cloud compute adjacent to the data. As a continuation of this work, we developed
+&lt;a href="https://github.com/sunu/jupyter-remote-qgis-proxy" target="_blank" rel="noopener" >jupyter-remote-qgis-proxy&lt;/a>, which builds QGIS specific features on top of
+&lt;a href="https://github.com/jupyterhub/jupyter-remote-desktop-proxy" target="_blank" rel="noopener" >jupyter-remote-desktop-proxy&lt;/a>. In particular, it allows creation of shareable links that when clicked, opens specific datasets and layers in QGIS in a JupyterHub! You can see this in action:&lt;/p>
 &lt;figure>
 &lt;video mute autoplay loop >
 &lt;source src="https://2i2c.org/blog/2024/veda-devseed-collab/qgis.mp4" type="video/mp4">
@@ -173,19 +130,15 @@ that allows users to access large datasets stored in the cloud directly through 
 &lt;figcaption>Launching QGIS on a Linux desktop served by the VEDA JupyterHub&lt;/figcaption>
 &lt;/figure>
 &lt;p>This opens up exciting future possibilities. Imagine this
-&lt;a href="https://www.earthdata.nasa.gov/dashboard/data-catalog/campfire_ndvi_difference_2015_2022" target="_blank" rel="noopener" >exploration of the Camp Fire&lt;/a>
-having an &amp;lsquo;Open in QGIS&amp;rsquo; button that enables further exploration of the data without the user needing to download or install anything! Work will continue in the coming quarter towards achieving this vision.&lt;/p>
+&lt;a href="https://www.earthdata.nasa.gov/dashboard/data-catalog/campfire_ndvi_difference_2015_2022" target="_blank" rel="noopener" >exploration of the Camp Fire&lt;/a> having an &amp;lsquo;Open in QGIS&amp;rsquo; button that enables further exploration of the data without the user needing to download or install anything! Work will continue in the coming quarter towards achieving this vision.&lt;/p>
 &lt;p>We are also excited to see recent work in this space
-&lt;a href="https://blog.jupyter.org/jupytergis-d63b7adf9d0c" target="_blank" rel="noopener" >from QuantStack and Simula Labs&lt;/a>
-, and will follow up to ensure an orderly transition to more web native workflows for existing users of QGIS in due time.&lt;/p>
+&lt;a href="https://blog.jupyter.org/jupytergis-d63b7adf9d0c" target="_blank" rel="noopener" >from QuantStack and Simula Labs&lt;/a>, and will follow up to ensure an orderly transition to more web native workflows for existing users of QGIS in due time.&lt;/p>
 &lt;h2 id="better-profile-selection">
 Better Profile Selection
 &lt;a class="header-anchor" href="#better-profile-selection">#&lt;/a>
 &lt;/h2>&lt;p>This is a continuation of our
-&lt;a href="https://2i2c.org/blog/2024/jupyterhub-binderhub-gesis/" >GESIS collaboration&lt;/a>
-. In the path to deploying dynamic image building to end users, we wanted to stabilize
-&lt;a href="https://github.com/yuvipanda/jupyterhub-fancy-profiles" target="_blank" rel="noopener" >jupyterhub-fancy-profiles&lt;/a>
-enough to deploy to users of VEDA (and eventually everyone else). This is the primary interface users see &lt;em>after&lt;/em> they log in to JupyterHub, and was ripe for UX improvements. The default interface looks like this:&lt;/p>
+&lt;a href="https://2i2c.org/blog/2024/jupyterhub-binderhub-gesis/" >GESIS collaboration&lt;/a>. In the path to deploying dynamic image building to end users, we wanted to stabilize
+&lt;a href="https://github.com/yuvipanda/jupyterhub-fancy-profiles" target="_blank" rel="noopener" >jupyterhub-fancy-profiles&lt;/a> enough to deploy to users of VEDA (and eventually everyone else). This is the primary interface users see &lt;em>after&lt;/em> they log in to JupyterHub, and was ripe for UX improvements. The default interface looks like this:&lt;/p>
 &lt;p>
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
@@ -211,44 +164,33 @@ loading="lazy" data-zoomable />&lt;/div>
 Supporting workshops
 &lt;a class="header-anchor" href="#supporting-workshops">#&lt;/a>
 &lt;/h2>&lt;p>End users benefiting from our work is what ultimately gives meaning to our work. To that end, we were very happy to support running workshops during this collaboration – see our related blog post
-&lt;a href="https://2i2c.org/blog/2024/ghg-summer-school/" >US Greenhouse Gas Center supports summer school at CIRA&lt;/a>
-for more information.&lt;/p>
+&lt;a href="https://2i2c.org/blog/2024/ghg-summer-school/" >US Greenhouse Gas Center supports summer school at CIRA&lt;/a> for more information.&lt;/p>
 &lt;h2 id="ongoing-collaboration">
 Ongoing Collaboration
 &lt;a class="header-anchor" href="#ongoing-collaboration">#&lt;/a>
 &lt;/h2>&lt;p>Delivering on these objectives in a timely way heavily depended on the success of the team collaboration.
-&lt;a href="https://developmentseed.org/team/sanjay-bhangar" target="_blank" rel="noopener" >Sanjay Bhangar&lt;/a>
-of Development Seed commented&lt;/p>
+&lt;a href="https://developmentseed.org/team/sanjay-bhangar" target="_blank" rel="noopener" >Sanjay Bhangar&lt;/a> of Development Seed commented&lt;/p>
 &lt;blockquote>
 &lt;p>Working closely with the 2i2c team on growing features to support users on the VEDA and GHG Center hubs has been absolutely amazing. With 2i2c’s deep experience in the Jupyter ecosystem, we have been able to implement some fairly complex features quite easily, and their strong open-source roots have ensured that whatever we work on is broadly useful to the wider Jupyter and scientific computing communities.&lt;/p>
 &lt;/blockquote>
 &lt;p>Take a look at the companion
-&lt;a href="https://developmentseed.org/blog/2024-07-12-jupyter-geospatial" target="_blank" rel="noopener" >Development Seed blog post&lt;/a>
-of this work.&lt;/p>
+&lt;a href="https://developmentseed.org/blog/2024-07-12-jupyter-geospatial" target="_blank" rel="noopener" >Development Seed blog post&lt;/a> of this work.&lt;/p>
 &lt;p>This collaboration continues, and we have now
-&lt;a href="https://github.com/NASA-IMPACT/veda-jupyterhub/issues?q=is%3Aissue&amp;#43;jh%3A&amp;#43;label%3A%22PI&amp;#43;24.4%22&amp;#43;" target="_blank" rel="noopener" >published our objectives for the coming quarter&lt;/a>
-. Watch this space!&lt;/p>
+&lt;a href="https://github.com/NASA-IMPACT/veda-jupyterhub/issues?q=is%3Aissue&amp;#43;jh%3A&amp;#43;label%3A%22PI&amp;#43;24.4%22&amp;#43;" target="_blank" rel="noopener" >published our objectives for the coming quarter&lt;/a>. Watch this space!&lt;/p>
 &lt;h2 id="acknowledgements">
 Acknowledgements
 &lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
 &lt;/h2>&lt;ul>
 &lt;li>
-&lt;a href="https://developmentseed.org/" target="_blank" rel="noopener" >Development Seed&lt;/a>
-&lt;/li>
+&lt;a href="https://developmentseed.org/" target="_blank" rel="noopener" >Development Seed&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://impact.earthdata.nasa.gov/" target="_blank" rel="noopener" >NASA IMPACT&lt;/a>
-&lt;/li>
+&lt;a href="https://impact.earthdata.nasa.gov/" target="_blank" rel="noopener" >NASA IMPACT&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://sunu.in/" target="_blank" rel="noopener" >Tarashish Mishra&lt;/a>
-,
-&lt;a href="https://jsignell.github.io/" target="_blank" rel="noopener" >Julia Signell&lt;/a>
-,
-&lt;a href="https://oliverroick.net/" target="_blank" rel="noopener" >Oliver Roick&lt;/a>
-,
-&lt;a href="https://slesa.com.np/" target="_blank" rel="noopener" >Slesa Adhikari&lt;/a>
-and
-&lt;a href="https://developmentseed.org/team/sanjay-bhangar" target="_blank" rel="noopener" >Sanjay Bhangar&lt;/a>
-for various code contributions towards these objectives&lt;/li>
+&lt;a href="https://sunu.in/" target="_blank" rel="noopener" >Tarashish Mishra&lt;/a>,
+&lt;a href="https://jsignell.github.io/" target="_blank" rel="noopener" >Julia Signell&lt;/a>,
+&lt;a href="https://oliverroick.net/" target="_blank" rel="noopener" >Oliver Roick&lt;/a>,
+&lt;a href="https://slesa.com.np/" target="_blank" rel="noopener" >Slesa Adhikari&lt;/a> and
+&lt;a href="https://developmentseed.org/team/sanjay-bhangar" target="_blank" rel="noopener" >Sanjay Bhangar&lt;/a> for various code contributions towards these objectives&lt;/li>
 &lt;/ul></description></item><item><title>Openscapes Host a Surface Biology and Geology Workshop with Shared Password Feature</title><link>https://2i2c.org/blog/2024/openscapes-sbg-workshop/</link><pubDate>Tue, 09 Jul 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/openscapes-sbg-workshop/</guid><description>&lt;p>&lt;em>Thanks to Brianna Lind, Julia Lowndes and Andy Teucher for contributing to this blog post!&lt;/em>&lt;/p>
 &lt;p>
 &lt;figure id="figure-surface-biology-and-geology-vitals-workshop">
@@ -266,26 +208,17 @@ Surface Biology and Geology: VITALS Workshop
 &lt;/figcaption>&lt;/figure>
 &lt;/p>
 &lt;p>
-&lt;a href="https://openscapes.org" target="_blank" rel="noopener" >Openscapes&lt;/a>
-is a value-based initiative that supports kinder, better science based on open source community.
-&lt;a href="https://nasa-openscapes.github.io" target="_blank" rel="noopener" >NASA Openscapes&lt;/a>
-is in its fourth year as a project supporting NASA Earth science in the Cloud, co-developed by Julia Lowndes (Openscapes) and Erin Robinson (Metadata Game Changers).&lt;/p>
+&lt;a href="https://openscapes.org" target="_blank" rel="noopener" >Openscapes&lt;/a> is a value-based initiative that supports kinder, better science based on open source community.
+&lt;a href="https://nasa-openscapes.github.io" target="_blank" rel="noopener" >NASA Openscapes&lt;/a> is in its fourth year as a project supporting NASA Earth science in the Cloud, co-developed by Julia Lowndes (Openscapes) and Erin Robinson (Metadata Game Changers).&lt;/p>
 &lt;p>The initiative recently supported the
-&lt;a href="https://nasa.github.io/VITALS/" target="_blank" rel="noopener" >Surface Biology and Geology: VITALS Workshop&lt;/a>
-hosted by NASA
-&lt;a href="https://lpdaac.usgs.gov/" target="_blank" rel="noopener" >Land Processes Distributed Activate Archive Center (LP DAAC)&lt;/a>
-and NASA
-&lt;a href="https://www.jpl.nasa.gov/" target="_blank" rel="noopener" >Jet Propulsion Laboratory (JPL)&lt;/a>
-.&lt;/p>
+&lt;a href="https://nasa.github.io/VITALS/" target="_blank" rel="noopener" >Surface Biology and Geology: VITALS Workshop&lt;/a> hosted by NASA
+&lt;a href="https://lpdaac.usgs.gov/" target="_blank" rel="noopener" >Land Processes Distributed Activate Archive Center (LP DAAC)&lt;/a> and NASA
+&lt;a href="https://www.jpl.nasa.gov/" target="_blank" rel="noopener" >Jet Propulsion Laboratory (JPL)&lt;/a>.&lt;/p>
 &lt;p>Instructors used the 2i2c Openscapes Hub to lead hands-on exercises teaching learners how to manipulate data collected from the
-&lt;a href="https://ecostress.jpl.nasa.gov/" target="_blank" rel="noopener" >ECOSTRESS&lt;/a>
-and
-&lt;a href="https://earth.jpl.nasa.gov/emit/" target="_blank" rel="noopener" >EMIT&lt;/a>
-instruments onboard the International Space Station. They used
-&lt;a href="https://nasa.github.io/VITALS/python/01_Finding_Concurrent_Data.html" target="_blank" rel="noopener" >Jupyter notebooks&lt;/a>
-in the Hub to demonstrate how open source tools together with cloud data and compute resources could effectively analyse the the Canopy Water Content and the Land Surface Temperature over the
-&lt;a href="https://www.dangermondpreserve.org/" target="_blank" rel="noopener" >Jack and Laura Dangermond Preserve&lt;/a>
-, Santa Barbara, CA.&lt;/p>
+&lt;a href="https://ecostress.jpl.nasa.gov/" target="_blank" rel="noopener" >ECOSTRESS&lt;/a> and
+&lt;a href="https://earth.jpl.nasa.gov/emit/" target="_blank" rel="noopener" >EMIT&lt;/a> instruments onboard the International Space Station. They used
+&lt;a href="https://nasa.github.io/VITALS/python/01_Finding_Concurrent_Data.html" target="_blank" rel="noopener" >Jupyter notebooks&lt;/a> in the Hub to demonstrate how open source tools together with cloud data and compute resources could effectively analyse the the Canopy Water Content and the Land Surface Temperature over the
+&lt;a href="https://www.dangermondpreserve.org/" target="_blank" rel="noopener" >Jack and Laura Dangermond Preserve&lt;/a>, Santa Barbara, CA.&lt;/p>
 &lt;p>
 &lt;figure id="figure-plot-of-the-canopy-water-content-over-the-jack-and-laura-dangermond-preserve-santa-barbara-ca-from-a-vitals-workshop-jupyter-notebookhttpsnasagithubiovitalspython03_emit_cwc_from_reflectancehtml">
 &lt;div class="d-flex justify-content-center">
@@ -299,8 +232,7 @@ height="601"
 loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;figcaption>
 Plot of the Canopy Water Content over the Jack and Laura Dangermond Preserve, Santa Barbara, CA from a
-&lt;a href="https://nasa.github.io/VITALS/python/03_EMIT_CWC_from_Reflectance.html" target="_blank" rel="noopener" >VITALS Workshop Jupyter notebook&lt;/a>
-.
+&lt;a href="https://nasa.github.io/VITALS/python/03_EMIT_CWC_from_Reflectance.html" target="_blank" rel="noopener" >VITALS Workshop Jupyter notebook&lt;/a>.
 &lt;/figcaption>&lt;/figure>
 &lt;/p>
 &lt;p>This event was attended by around 250 participants. An event of this size therefore requires a &lt;em>frictionless login flow&lt;/em> so that organizers could focus on the essential complexity of teaching data analysis rather than the accidental complexity of managing Hub authorization. GitHub authentication is the default option for most 2i2c Hubs for research use cases, but for an educational event of this size this option was not fit for purpose since organizers had to&lt;/p>
@@ -312,10 +244,8 @@ Plot of the Canopy Water Content over the Jack and Laura Dangermond Preserve, Sa
 &lt;/ol>
 &lt;p>In response to this need, we developed a shared password feature so that workshop organizers can simply hand the share password out to learners for access to the Hub. This bypassed the manual labour of managing GitHub accounts while not adding to the learner&amp;rsquo;s high cognitive load and improving the participant&amp;rsquo;s learning experience overall.&lt;/p>
 &lt;p>One of the elements that enabled us to recognize and solve this issue effectively is our close partnership with the Openscapes team. We engage in regular
-&lt;a href="https://github.com/NASA-Openscapes/2i2cAccessPolicies/issues/7" target="_blank" rel="noopener" >6-weekly catch-ups&lt;/a>
-where we can learn about user requirements and how we can develop our infrastructure to co-create optimal solutions. Together with our
-&lt;a href="https://team-compass.2i2c.org/product/deliveryflow/#defining-our-product-delivery-flow" target="_blank" rel="noopener" >Product Delivery Flow&lt;/a>
-, we were quickly able to architect the shared password solution in time for the workshop.&lt;/p>
+&lt;a href="https://github.com/NASA-Openscapes/2i2cAccessPolicies/issues/7" target="_blank" rel="noopener" >6-weekly catch-ups&lt;/a> where we can learn about user requirements and how we can develop our infrastructure to co-create optimal solutions. Together with our
+&lt;a href="https://team-compass.2i2c.org/product/deliveryflow/#defining-our-product-delivery-flow" target="_blank" rel="noopener" >Product Delivery Flow&lt;/a>, we were quickly able to architect the shared password solution in time for the workshop.&lt;/p>
 &lt;p>
 &lt;figure id="figure-feedback-from-brianna-lind-lp-daac">
 &lt;div class="d-flex justify-content-center">
@@ -332,24 +262,19 @@ Feedback from Brianna Lind (LP DAAC)
 &lt;/figcaption>&lt;/figure>
 &lt;/p>
 &lt;p>We have documented the technical infrastructure changes required to enable a shared password for the Hub in our
-&lt;a href="https://infrastructure.2i2c.org/hub-deployment-guide/configure-auth/shared-password/" target="_blank" rel="noopener" >Infrastructure Guide&lt;/a>
-and hope to support many future events with this mechanism!&lt;/p>
+&lt;a href="https://infrastructure.2i2c.org/hub-deployment-guide/configure-auth/shared-password/" target="_blank" rel="noopener" >Infrastructure Guide&lt;/a> and hope to support many future events with this mechanism!&lt;/p>
 &lt;h2 id="acknowledgements">
 Acknowledgements
 &lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
 &lt;/h2>&lt;ul>
 &lt;li>
-&lt;a href="https://nasa-openscapes.github.io/" target="_blank" rel="noopener" >NASA Openscapes&lt;/a>
-&lt;/li>
+&lt;a href="https://nasa-openscapes.github.io/" target="_blank" rel="noopener" >NASA Openscapes&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://lpdaac.usgs.gov/" target="_blank" rel="noopener" >NASA LP DAAC&lt;/a>
-&lt;/li>
+&lt;a href="https://lpdaac.usgs.gov/" target="_blank" rel="noopener" >NASA LP DAAC&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://www.jpl.nasa.gov/" target="_blank" rel="noopener" >NASA JPL&lt;/a>
-&lt;/li>
+&lt;a href="https://www.jpl.nasa.gov/" target="_blank" rel="noopener" >NASA JPL&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://science.nasa.gov/researchers/" target="_blank" rel="noopener" >NASA ROSES funding&lt;/a>
-&lt;/li>
+&lt;a href="https://science.nasa.gov/researchers/" target="_blank" rel="noopener" >NASA ROSES funding&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>Enabling neuroscience in the cloud with HHMI Spyglass and MySQL on JupyterHub</title><link>https://2i2c.org/blog/2024/hhmi-spyglass-mysql/</link><pubDate>Fri, 05 Jul 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/hhmi-spyglass-mysql/</guid><description>&lt;p>
 &lt;figure id="figure-the-hhmi-spyglass-tutorialhttpsspyglasshhmi2i2ccloud">
 &lt;div class="d-flex justify-content-center">
@@ -370,22 +295,17 @@ The
 Spyglass
 &lt;a class="header-anchor" href="#spyglass">#&lt;/a>
 &lt;/h2>&lt;p>
-&lt;a href="https://github.com/LorenFrankLab/spyglass" target="_blank" rel="noopener" >Spyglass&lt;/a>
-is a framework for reproducible and shareable neuroscience research produced by
-&lt;a href="https://github.com/LorenFrankLab" target="_blank" rel="noopener" >Loren Frank’s lab&lt;/a>
-at the University of California, San Francisco. Check out our
-&lt;a href="https://2i2c.org/blog/2024/hhmi-spyglass/" >blog post about the release of their preprint&lt;/a>
-to read more about the methods.&lt;/p>
+&lt;a href="https://github.com/LorenFrankLab/spyglass" target="_blank" rel="noopener" >Spyglass&lt;/a> is a framework for reproducible and shareable neuroscience research produced by
+&lt;a href="https://github.com/LorenFrankLab" target="_blank" rel="noopener" >Loren Frank’s lab&lt;/a> at the University of California, San Francisco. Check out our
+&lt;a href="https://2i2c.org/blog/2024/hhmi-spyglass/" >blog post about the release of their preprint&lt;/a> to read more about the methods.&lt;/p>
 &lt;p>This post focuses on the complex data storage needed for the project, which can be difficult to set up locally or at scale in the cloud. In particular, the analysis needed a MySQL database for reproducibility. This is a fairly common task across many fields. The aim of 2i2c is to enable researchers to focus on the essential complexity of what they were doing, i.e. the science, without managing the accidental complexity of how to do it &amp;ndash; in this case, setting up databases.&lt;/p>
 &lt;p>We describe how you can do this too for your own JupyterHubs. Since 2i2c commits to running our infrastructure in line with open-source values as much as possible, you can also directly see the
-&lt;a href="https://github.com/2i2c-org/infrastructure/blob/99071c38712ef8e6bed6609117ca4b894b89ae5c/config/clusters/hhmi/spyglass.values.yaml#L76" target="_blank" rel="noopener" >configuration for the hub&lt;/a>
-referenced in the paper.&lt;/p>
+&lt;a href="https://github.com/2i2c-org/infrastructure/blob/99071c38712ef8e6bed6609117ca4b894b89ae5c/config/clusters/hhmi/spyglass.values.yaml#L76" target="_blank" rel="noopener" >configuration for the hub&lt;/a> referenced in the paper.&lt;/p>
 &lt;h2 id="what-is-a-sidecar-container">
 What is a &amp;ldquo;sidecar container&amp;rdquo;?
 &lt;a class="header-anchor" href="#what-is-a-sidecar-container">#&lt;/a>
 &lt;/h2>&lt;p>The Kubernetes definition of a
-&lt;a href="https://kubernetes.io/docs/concepts/workloads/pods/sidecar-containers/" target="_blank" rel="noopener" >sidecar container&lt;/a>
-is&lt;/p>
+&lt;a href="https://kubernetes.io/docs/concepts/workloads/pods/sidecar-containers/" target="_blank" rel="noopener" >sidecar container&lt;/a> is&lt;/p>
 &lt;blockquote>
 &lt;p>Sidecar containers are the secondary containers that run along with the main application container within the same Pod. These containers are used to enhance or to extend the functionality of the primary app container by providing additional services, or functionality such as logging, monitoring, security, or data synchronization, without directly altering the primary application code.&lt;/p>
 &lt;/blockquote>
@@ -393,8 +313,7 @@ is&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">%%bash
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">mysql -h 127.0.0.1 -u root --password=tutorial &amp;lt; path-to-sql-file-with-data
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>to load data into the database. Note the IP address &lt;code>127.0.0.1&lt;/code> - the MySQL server is listening on localhost, even though it is not running in the &lt;em>same container&lt;/em>! Thanks to the magic of
-&lt;a href="https://lwn.net/Articles/580893/" target="_blank" rel="noopener" >Linux Network Namespaces&lt;/a>
-, the sidecar and main app container can share &lt;code>127.0.0.1&lt;/code>. This allows you to write code that works &lt;strong>in the exact same way&lt;/strong> on a user&amp;rsquo;s local computers as on the JupyterHub, making transitions and replication easier.&lt;/p>
+&lt;a href="https://lwn.net/Articles/580893/" target="_blank" rel="noopener" >Linux Network Namespaces&lt;/a>, the sidecar and main app container can share &lt;code>127.0.0.1&lt;/code>. This allows you to write code that works &lt;strong>in the exact same way&lt;/strong> on a user&amp;rsquo;s local computers as on the JupyterHub, making transitions and replication easier.&lt;/p>
 &lt;h2 id="setting-up-sidecars-in-jupyterhub-on-kubernetes">
 Setting up sidecars in JupyterHub on Kubernetes
 &lt;a class="header-anchor" href="#setting-up-sidecars-in-jupyterhub-on-kubernetes">#&lt;/a>
@@ -403,15 +322,11 @@ Setting up sidecars in JupyterHub on Kubernetes
 two layers here, which are&lt;/p>
 &lt;ol>
 &lt;li>
-&lt;a href="https://z2jh.jupyter.org/en/latest/resources/reference.html#singleuser-extracontainers" target="_blank" rel="noopener" >singleuser.extraContainers&lt;/a>
-in
-&lt;a href="https://z2jh.jupyter.org/en/stable/" target="_blank" rel="noopener" >z2jh&lt;/a>
-configuration&lt;/li>
+&lt;a href="https://z2jh.jupyter.org/en/latest/resources/reference.html#singleuser-extracontainers" target="_blank" rel="noopener" >singleuser.extraContainers&lt;/a> in
+&lt;a href="https://z2jh.jupyter.org/en/stable/" target="_blank" rel="noopener" >z2jh&lt;/a> configuration&lt;/li>
 &lt;li>
-&lt;a href="https://jupyterhub-kubespawner.readthedocs.io/en/latest/spawner.html#kubespawner.KubeSpawner.extra_containers" target="_blank" rel="noopener" >KubeSpawner.extra_containers&lt;/a>
-in
-&lt;a href="https://jupyterhub-kubespawner.readthedocs.io/en/latest/spawner.html" target="_blank" rel="noopener" >KubeSpawner&lt;/a>
-configuration&lt;/li>
+&lt;a href="https://jupyterhub-kubespawner.readthedocs.io/en/latest/spawner.html#kubespawner.KubeSpawner.extra_containers" target="_blank" rel="noopener" >KubeSpawner.extra_containers&lt;/a> in
+&lt;a href="https://jupyterhub-kubespawner.readthedocs.io/en/latest/spawner.html" target="_blank" rel="noopener" >KubeSpawner&lt;/a> configuration&lt;/li>
 &lt;/ol>
 &lt;p>The hub configuration looks like&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-yaml" data-lang="yaml">&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">singleuser&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
@@ -439,59 +354,39 @@ configuration&lt;/li>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">%%bash
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">mysql -h 127.0.0.1 -u root --password=tutorial &amp;lt; path-to-sql-file-with-data
 &lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>into their
-&lt;a href="https://github.com/LorenFrankLab/spyglass-demo/blob/main/notebooks/00_HubQuickStart.ipynb" target="_blank" rel="noopener" >Jupyter Notebooks&lt;/a>
-, which gives access to their MySQL database in the hub!&lt;/p>
+&lt;a href="https://github.com/LorenFrankLab/spyglass-demo/blob/main/notebooks/00_HubQuickStart.ipynb" target="_blank" rel="noopener" >Jupyter Notebooks&lt;/a>, which gives access to their MySQL database in the hub!&lt;/p>
 &lt;p>However, this configuration does not include permanently store the database itself between hub server sessions. Thanks to a pilot in a prior collaboration with University of Texas, Austin, we do have
-&lt;a href="https://github.com/2i2c-org/infrastructure/blob/main/docs/howto/features/per-user-db.md" target="_blank" rel="noopener" >some documentation&lt;/a>
-on how you can enable that as well!&lt;/p>
+&lt;a href="https://github.com/2i2c-org/infrastructure/blob/main/docs/howto/features/per-user-db.md" target="_blank" rel="noopener" >some documentation&lt;/a> on how you can enable that as well!&lt;/p>
 &lt;h2 id="acknowledgements">
 Acknowledgements
 &lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
 &lt;/h2>&lt;ul>
 &lt;li>
-&lt;a href="https://www.hhmi.org/" target="_blank" rel="noopener" >Howard Hughes Medical Institute&lt;/a>
-&lt;/li>
+&lt;a href="https://www.hhmi.org/" target="_blank" rel="noopener" >Howard Hughes Medical Institute&lt;/a>&lt;/li>
 &lt;li>National Institute of Mental Health (NIMH), grant number RF1MH130623&lt;/li>
 &lt;li>
-&lt;a href="https://github.com/jupyterhub/kubespawner" target="_blank" rel="noopener" >kubespawner&lt;/a>
-&lt;/li>
+&lt;a href="https://github.com/jupyterhub/kubespawner" target="_blank" rel="noopener" >kubespawner&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://github.com/jupyterhub/zero-to-jupyterhub-k8s/" target="_blank" rel="noopener" >zero-to-jupyterhub-k8s&lt;/a>
-&lt;/li>
+&lt;a href="https://github.com/jupyterhub/zero-to-jupyterhub-k8s/" target="_blank" rel="noopener" >zero-to-jupyterhub-k8s&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>Integrating BinderHub with JupyterHub: Empowering users to manage their own environments</title><link>https://2i2c.org/blog/2024/jupyterhub-binderhub-gesis/</link><pubDate>Wed, 03 Jan 2024 16:56:14 -0800</pubDate><guid>https://2i2c.org/blog/2024/jupyterhub-binderhub-gesis/</guid><description>&lt;p>&lt;em>Thanks to
-&lt;a href="https://www.gesis.org/en/institute/staff/person/arnim.bleier" target="_blank" rel="noopener" >Arnim Bleier&lt;/a>
-,
-&lt;a href="https://jnywong.github.io/" target="_blank" rel="noopener" >Jenny Wong&lt;/a>
-,
-&lt;a href="https://github.com/GeorgianaElena" target="_blank" rel="noopener" >Georgiana Elena&lt;/a>
-,
-&lt;a href="https://github.com/damianavila" target="_blank" rel="noopener" >Damián Avila&lt;/a>
-,
-&lt;a href="https://colliand.com/" target="_blank" rel="noopener" >Jim Colliander&lt;/a>
-and
-&lt;a href="https://github.com/jmunroe" target="_blank" rel="noopener" >James Munroe&lt;/a>
-for contributing to this blog post&lt;/em>&lt;/p>
+&lt;a href="https://www.gesis.org/en/institute/staff/person/arnim.bleier" target="_blank" rel="noopener" >Arnim Bleier&lt;/a>,
+&lt;a href="https://jnywong.github.io/" target="_blank" rel="noopener" >Jenny Wong&lt;/a>,
+&lt;a href="https://github.com/GeorgianaElena" target="_blank" rel="noopener" >Georgiana Elena&lt;/a>,
+&lt;a href="https://github.com/damianavila" target="_blank" rel="noopener" >Damián Avila&lt;/a>,
+&lt;a href="https://colliand.com/" target="_blank" rel="noopener" >Jim Colliander&lt;/a> and
+&lt;a href="https://github.com/jmunroe" target="_blank" rel="noopener" >James Munroe&lt;/a> for contributing to this blog post&lt;/em>&lt;/p>
 &lt;p>
-&lt;a href="https://mybinder.org" target="_blank" rel="noopener" >mybinder.org&lt;/a>
-is a very popular service that allows end users to specify and share the environment (languages, packages, etc) required for their notebooks to run correctly by placing
-&lt;a href="https://repo2docker.readthedocs.io/en/latest/config_files.html#config-files" target="_blank" rel="noopener" >configuration files&lt;/a>
-they are already familiar with (like &lt;code>requirements.txt&lt;/code> or &lt;code>environment.yml&lt;/code>) along with their notebooks. While not without its own set of challenges, this is extremely powerful because it puts control of the &lt;em>environment&lt;/em> in the hands of the people who write the code. They can customize the environment to fit the needs of their code, instead of having to fit their code into the environment that admins have made available.&lt;/p>
+&lt;a href="https://mybinder.org" target="_blank" rel="noopener" >mybinder.org&lt;/a> is a very popular service that allows end users to specify and share the environment (languages, packages, etc) required for their notebooks to run correctly by placing
+&lt;a href="https://repo2docker.readthedocs.io/en/latest/config_files.html#config-files" target="_blank" rel="noopener" >configuration files&lt;/a> they are already familiar with (like &lt;code>requirements.txt&lt;/code> or &lt;code>environment.yml&lt;/code>) along with their notebooks. While not without its own set of challenges, this is extremely powerful because it puts control of the &lt;em>environment&lt;/em> in the hands of the people who write the code. They can customize the environment to fit the needs of their code, instead of having to fit their code into the environment that admins have made available.&lt;/p>
 &lt;p>But, mybinder.org (and the
-&lt;a href="https://github.com/jupyterhub/binderhub/" target="_blank" rel="noopener" >BinderHub&lt;/a>
-software that powers it) is built for &lt;em>sharing&lt;/em> your work after you are done with it, &lt;em>not&lt;/em> for actively doing work. BinderHubs often do not have persistent storage nor persistent user identity, and UX is centered around &lt;em>ephemeral&lt;/em> interactivity that can be shared with others (via a link), rather than &lt;em>persistent&lt;/em> interactivity that a single user repeatedly comes back to.
-&lt;a href="https://jupyter.org/hub" target="_blank" rel="noopener" >JupyterHub&lt;/a>
-is more commonly used for this kinda workflow, but doesn&amp;rsquo;t currently have the ability for users to easily build their own environments. Admins who are &lt;em>running&lt;/em> the JupyterHub can make
-&lt;a href="https://z2jh.jupyter.org/en/stable/jupyterhub/customizing/user-environment.html#using-multiple-profiles-to-let-users-select-their-environment" target="_blank" rel="noopener" >multiple environments&lt;/a>
-available for users to choose from, but this still puts admins in the critical path for environment customization.&lt;/p>
+&lt;a href="https://github.com/jupyterhub/binderhub/" target="_blank" rel="noopener" >BinderHub&lt;/a> software that powers it) is built for &lt;em>sharing&lt;/em> your work after you are done with it, &lt;em>not&lt;/em> for actively doing work. BinderHubs often do not have persistent storage nor persistent user identity, and UX is centered around &lt;em>ephemeral&lt;/em> interactivity that can be shared with others (via a link), rather than &lt;em>persistent&lt;/em> interactivity that a single user repeatedly comes back to.
+&lt;a href="https://jupyter.org/hub" target="_blank" rel="noopener" >JupyterHub&lt;/a> is more commonly used for this kinda workflow, but doesn&amp;rsquo;t currently have the ability for users to easily build their own environments. Admins who are &lt;em>running&lt;/em> the JupyterHub can make
+&lt;a href="https://z2jh.jupyter.org/en/stable/jupyterhub/customizing/user-environment.html#using-multiple-profiles-to-let-users-select-their-environment" target="_blank" rel="noopener" >multiple environments&lt;/a> available for users to choose from, but this still puts admins in the critical path for environment customization.&lt;/p>
 &lt;p>Our
-&lt;a href="https://2i2c.org/blog/2022/gesis-2i2c-collaboration-update/" target="_blank" rel="noopener" >collaboration&lt;/a>
-with
-&lt;a href="http://notebooks.gesis.org" target="_blank" rel="noopener" >GESIS&lt;/a>
-,
-&lt;a href="https://www.nfdi4datascience.de" target="_blank" rel="noopener" >NFDI4DS&lt;/a>
-, and
-&lt;a href="https://www.cessda.eu" target="_blank" rel="noopener" >CESSDA&lt;/a>
-, aims to bring this flexibility to JupyterHub directly. We aim to empower users to decide for themselves which applications and dependencies are installed on a per-project basis. Our work enables communities with heterogeneous requirements to share a single Hub. Our approach frees administrators from being overwhelmed by installation requests and transforms the JupyterHub platform into a platform for collaborative computational reproducibility. In this update, we report on our progress and upcoming steps in this project.&lt;/p>
+&lt;a href="https://2i2c.org/blog/2022/gesis-2i2c-collaboration-update/" target="_blank" rel="noopener" >collaboration&lt;/a> with
+&lt;a href="http://notebooks.gesis.org" target="_blank" rel="noopener" >GESIS&lt;/a>,
+&lt;a href="https://www.nfdi4datascience.de" target="_blank" rel="noopener" >NFDI4DS&lt;/a>, and
+&lt;a href="https://www.cessda.eu" target="_blank" rel="noopener" >CESSDA&lt;/a>, aims to bring this flexibility to JupyterHub directly. We aim to empower users to decide for themselves which applications and dependencies are installed on a per-project basis. Our work enables communities with heterogeneous requirements to share a single Hub. Our approach frees administrators from being overwhelmed by installation requests and transforms the JupyterHub platform into a platform for collaborative computational reproducibility. In this update, we report on our progress and upcoming steps in this project.&lt;/p>
 &lt;h2 id="what-does-a-binderhub-do-exactly">
 What does a BinderHub do, exactly?
 &lt;a class="header-anchor" href="#what-does-a-binderhub-do-exactly">#&lt;/a>
@@ -499,8 +394,7 @@ What does a BinderHub do, exactly?
 &lt;ol>
 &lt;li>Present a UI to the end user for them to provide details on what to build (this is what you see when you go to mybinder.org)&lt;/li>
 &lt;li>Call out to
-&lt;a href="https://github.com/jupyterhub/repo2docker" target="_blank" rel="noopener" >repo2docker&lt;/a>
-in a scalable way to actually &lt;em>build and push&lt;/em> an image containing the environment for the given repository, and show the user logs as this build process happens. This also allows users to debug issues with their build more easily.&lt;/li>
+&lt;a href="https://github.com/jupyterhub/repo2docker" target="_blank" rel="noopener" >repo2docker&lt;/a> in a scalable way to actually &lt;em>build and push&lt;/em> an image containing the environment for the given repository, and show the user logs as this build process happens. This also allows users to debug issues with their build more easily.&lt;/li>
 &lt;li>Talk to a JupyterHub instance to launch a user server with the built docker image, and redirect the user to this.&lt;/li>
 &lt;/ol>
 &lt;p>(2) is really the &lt;em>core&lt;/em> feature of BinderHub, and we settled on figuring out how to make that available to JupyterHub users. It was really important to us that this was also done in a way that can be sustainably used by &lt;em>everyone&lt;/em>, not just 2i2c. This blog post discusses the various improvements to the broad ecosystem of projects in the Jupyter ecosystem to get this done.&lt;/p>
@@ -527,50 +421,34 @@ c. A mybinder.org style way to specify a GitHub repository, which will be then d
 A Standalone &lt;code>binderhub-service&lt;/code> helm chart
 &lt;a class="header-anchor" href="#a-standalone-binderhub-service-helm-chart">#&lt;/a>
 &lt;/h2>&lt;p>The default upstream
-&lt;a href="https://github.com/jupyterhub/binderhub/tree/main/helm-chart" target="_blank" rel="noopener" >BinderHub helm chart&lt;/a>
-&lt;em>includes&lt;/em> a JupyterHub as a dependency, and configures itself to be used primarily in a manner similar to
-&lt;a href="https://mybinder.org" target="_blank" rel="noopener" >mybinder.org&lt;/a>
-. As the person who helped make that choice early on, I can tell you why it was made - for convenience! And it &lt;em>was&lt;/em> very convenient, as it allowed us to get mybinder.org going fast. However, it makes it difficult to install a BinderHub service &lt;em>alongside&lt;/em> an existing JupyterHub. To this end, we have created a standalone
-&lt;a href="https://github.com/2i2c-org/binderhub-service/" target="_blank" rel="noopener" >BinderHub helm chart&lt;/a>
-, designed to be installed &lt;em>alongside&lt;/em> an existing JupyterHub, so we can use it &lt;em>purely&lt;/em> to build images. This allows the BinderHub instance to be used as a
-&lt;a href="https://jupyterhub.readthedocs.io/en/stable/reference/services.html" target="_blank" rel="noopener" >JupyterHub Service&lt;/a>
-, which is what we want.&lt;/p>
+&lt;a href="https://github.com/jupyterhub/binderhub/tree/main/helm-chart" target="_blank" rel="noopener" >BinderHub helm chart&lt;/a> &lt;em>includes&lt;/em> a JupyterHub as a dependency, and configures itself to be used primarily in a manner similar to
+&lt;a href="https://mybinder.org" target="_blank" rel="noopener" >mybinder.org&lt;/a>. As the person who helped make that choice early on, I can tell you why it was made - for convenience! And it &lt;em>was&lt;/em> very convenient, as it allowed us to get mybinder.org going fast. However, it makes it difficult to install a BinderHub service &lt;em>alongside&lt;/em> an existing JupyterHub. To this end, we have created a standalone
+&lt;a href="https://github.com/2i2c-org/binderhub-service/" target="_blank" rel="noopener" >BinderHub helm chart&lt;/a>, designed to be installed &lt;em>alongside&lt;/em> an existing JupyterHub, so we can use it &lt;em>purely&lt;/em> to build images. This allows the BinderHub instance to be used as a
+&lt;a href="https://jupyterhub.readthedocs.io/en/stable/reference/services.html" target="_blank" rel="noopener" >JupyterHub Service&lt;/a>, which is what we want.&lt;/p>
 &lt;p>While this helm chart is currently under the 2i2c GitHub org, the hope is that it can eventually migrate to a
-&lt;a href="https://github.com/jupyterhub/team-compass/issues/519" target="_blank" rel="noopener" >jupyterhub-contrib&lt;/a>
-organization (once it is created), or it can become the upstream helm chart for BinderHub if enough work can be done in BinderHub to allow it to serve use cases like mybinder.org.&lt;/p>
+&lt;a href="https://github.com/jupyterhub/team-compass/issues/519" target="_blank" rel="noopener" >jupyterhub-contrib&lt;/a> organization (once it is created), or it can become the upstream helm chart for BinderHub if enough work can be done in BinderHub to allow it to serve use cases like mybinder.org.&lt;/p>
 &lt;p>As part of this work, we also added a way for BinderHub to run in
-&lt;a href="https://github.com/jupyterhub/binderhub/pull/1647" target="_blank" rel="noopener" >API only mode&lt;/a>
-, so we can fully turn off the UI &lt;em>and&lt;/em> launching ability of BinderHub. This change decoupled the
-&lt;a href="" >three responsibilities of BinderHub&lt;/a>
-we discussed previously, allowing us to bring our own UI and JupyterHub. BinderHub could now be used &lt;em>purely&lt;/em> for its scalable image building features, which is exactly what we want!&lt;/p>
+&lt;a href="https://github.com/jupyterhub/binderhub/pull/1647" target="_blank" rel="noopener" >API only mode&lt;/a>, so we can fully turn off the UI &lt;em>and&lt;/em> launching ability of BinderHub. This change decoupled the
+&lt;a href="" >three responsibilities of BinderHub&lt;/a> we discussed previously, allowing us to bring our own UI and JupyterHub. BinderHub could now be used &lt;em>purely&lt;/em> for its scalable image building features, which is exactly what we want!&lt;/p>
 &lt;h2 id="sustainably-extending-kubespawners-profilelist">
 Sustainably extending KubeSpawner&amp;rsquo;s &lt;code>profileList&lt;/code>
 &lt;a class="header-anchor" href="#sustainably-extending-kubespawners-profilelist">#&lt;/a>
 &lt;/h2>&lt;p>We identified KubeSpawner&amp;rsquo;s &lt;code>profileList&lt;/code> feature as the ideal location for UI to dynamically build environments (container images), making it just another &amp;rsquo;environment choice&amp;rsquo; people can choose, along with picking the resources their server needs. From an end-user perspective, it was also the logical place for them to specify a repository to build into an environment, as they could already choose some pre-built environments from here. They can also select other arbitrary resources they want (such as memory, GPU, etc) from here as well. From a maintainer perspective, it helps with long-term maintenance of the JupyterHub projects.&lt;/p>
 &lt;p>The implementation of &lt;code>profileList&lt;/code> however, was not easy to extend at this point. So
-&lt;a href="https://github.com/jupyterhub/kubespawner/pull/724" target="_blank" rel="noopener" >this PR&lt;/a>
-improved how easy it was to extend it in more complex ways, without making the implementation in KubeSpawner itself complicated. Even though this had &lt;em>no&lt;/em> visible end-user effects, it was an extremely important step in allowing us to experiment with UI in a &lt;em>sustainable&lt;/em> way without having to rely on upstream. These kinds of changes can sometimes be hard to sell to stakeholders but are extremely important in ensuring a continuous and sustainable relationship with upstream.&lt;/p>
+&lt;a href="https://github.com/jupyterhub/kubespawner/pull/724" target="_blank" rel="noopener" >this PR&lt;/a> improved how easy it was to extend it in more complex ways, without making the implementation in KubeSpawner itself complicated. Even though this had &lt;em>no&lt;/em> visible end-user effects, it was an extremely important step in allowing us to experiment with UI in a &lt;em>sustainable&lt;/em> way without having to rely on upstream. These kinds of changes can sometimes be hard to sell to stakeholders but are extremely important in ensuring a continuous and sustainable relationship with upstream.&lt;/p>
 &lt;h2 id="implementing-unlisted_choice-feature-in-kubespawner">
 Implementing &lt;code>unlisted_choice&lt;/code> feature in KubeSpawner
 &lt;a class="header-anchor" href="#implementing-unlisted_choice-feature-in-kubespawner">#&lt;/a>
 &lt;/h2>&lt;p>The profileList feature was built to allow JupyterHub &lt;em>admins&lt;/em> to specify an explicit list of container images the end-user can choose from. It did not have a way for any choice that was &lt;em>not&lt;/em> pre-approved by the admin to be used. We needed this feature since the BinderHub API will build a new docker image for each environment the user wants, and so this can not be chosen from a pre-approved list. We had to safely add this feature to KubeSpawner in such a way that it was generally useful to everyone. Many other communities had been asking for such a feature anyway - the ability to simply &amp;rsquo;type in&amp;rsquo; an image and have that be used.&lt;/p>
 &lt;p>
-&lt;a href="https://www.earthdata.nasa.gov/esds/veda" target="_blank" rel="noopener" >NASA VEDA&lt;/a>
-was one such community, so we partnered with
-&lt;a href="https://github.com/batpad/" target="_blank" rel="noopener" >Sanjay Bhangar&lt;/a>
-from
-&lt;a href="https://developmentseed.org/" target="_blank" rel="noopener" >Development Seed&lt;/a>
-(an organization that helps run NASA VEDA) to implement this feature. Engineers from 2i2c contributed heavily to this feature as well, and after &lt;em>several&lt;/em> PRs (
-&lt;a href="https://github.com/jupyterhub/kubespawner/pull/735" target="_blank" rel="noopener" >1&lt;/a>
-,
-&lt;a href="https://github.com/jupyterhub/kubespawner/pull/766" target="_blank" rel="noopener" >2&lt;/a>
-,
-&lt;a href="https://github.com/jupyterhub/kubespawner/pull/773" target="_blank" rel="noopener" >3&lt;/a>
-,
-&lt;a href="https://github.com/jupyterhub/kubespawner/pull/774" target="_blank" rel="noopener" >4&lt;/a>
-and
-&lt;a href="https://github.com/jupyterhub/kubespawner/pull/777" target="_blank" rel="noopener" >5&lt;/a>
-), this feature is now available for everyone to use!&lt;/p>
+&lt;a href="https://www.earthdata.nasa.gov/esds/veda" target="_blank" rel="noopener" >NASA VEDA&lt;/a> was one such community, so we partnered with
+&lt;a href="https://github.com/batpad/" target="_blank" rel="noopener" >Sanjay Bhangar&lt;/a> from
+&lt;a href="https://developmentseed.org/" target="_blank" rel="noopener" >Development Seed&lt;/a> (an organization that helps run NASA VEDA) to implement this feature. Engineers from 2i2c contributed heavily to this feature as well, and after &lt;em>several&lt;/em> PRs (
+&lt;a href="https://github.com/jupyterhub/kubespawner/pull/735" target="_blank" rel="noopener" >1&lt;/a>,
+&lt;a href="https://github.com/jupyterhub/kubespawner/pull/766" target="_blank" rel="noopener" >2&lt;/a>,
+&lt;a href="https://github.com/jupyterhub/kubespawner/pull/773" target="_blank" rel="noopener" >3&lt;/a>,
+&lt;a href="https://github.com/jupyterhub/kubespawner/pull/774" target="_blank" rel="noopener" >4&lt;/a> and
+&lt;a href="https://github.com/jupyterhub/kubespawner/pull/777" target="_blank" rel="noopener" >5&lt;/a>), this feature is now available for everyone to use!&lt;/p>
 &lt;p>
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
@@ -583,99 +461,67 @@ and
 &lt;a class="header-anchor" href="#jupyterhub-fancy-profiles">#&lt;/a>
 &lt;/h2>&lt;p>Once we had all these pieces in place, it was time to actually work on the frontend UI that would allow users to build images dynamically and launch them. Since this will replace the &amp;lsquo;profileList&amp;rsquo; feature, it should also allow them to select different resources (RAM, CPU, etc) as needed, as well as type in an existing image if they desire. So it was a full re-implementation of the &lt;code>profileList&lt;/code> frontend.&lt;/p>
 &lt;p>This is ongoing now at the
-&lt;a href="https://github.com/yuvipanda/jupyterhub-fancy-profiles" target="_blank" rel="noopener" >jupyterhub-fancy-profiles&lt;/a>
-project. It is a pure frontend web application, using modern frontend tooling (
-&lt;a href="https://react.dev/" target="_blank" rel="noopener" >React&lt;/a>
-,
-&lt;a href="https://webpack.js.org/" target="_blank" rel="noopener" >webpack&lt;/a>
-,
-&lt;a href="https://babeljs.io/" target="_blank" rel="noopener" >Babel&lt;/a>
-, etc) and written in JavaScript. It&amp;rsquo;s gone through a few revisions, but the demo provided earlier in the blog post is in its current state. Because the default profileList implementation is pure HTML / CSS with very &lt;em>minimal&lt;/em> JS, it is limited in what kind of UX it could have. &lt;code>jupyterhub-fancy-profiles&lt;/code> aims to be very helpful &lt;em>even&lt;/em> when dynamic image-building features are not enabled on a JupyterHub. We hope to roll this out to a few JupyterHubs and improve it over time based on feedback.&lt;/p>
+&lt;a href="https://github.com/yuvipanda/jupyterhub-fancy-profiles" target="_blank" rel="noopener" >jupyterhub-fancy-profiles&lt;/a> project. It is a pure frontend web application, using modern frontend tooling (
+&lt;a href="https://react.dev/" target="_blank" rel="noopener" >React&lt;/a>,
+&lt;a href="https://webpack.js.org/" target="_blank" rel="noopener" >webpack&lt;/a>,
+&lt;a href="https://babeljs.io/" target="_blank" rel="noopener" >Babel&lt;/a>, etc) and written in JavaScript. It&amp;rsquo;s gone through a few revisions, but the demo provided earlier in the blog post is in its current state. Because the default profileList implementation is pure HTML / CSS with very &lt;em>minimal&lt;/em> JS, it is limited in what kind of UX it could have. &lt;code>jupyterhub-fancy-profiles&lt;/code> aims to be very helpful &lt;em>even&lt;/em> when dynamic image-building features are not enabled on a JupyterHub. We hope to roll this out to a few JupyterHubs and improve it over time based on feedback.&lt;/p>
 &lt;h2 id="jupyterhubbinderhub-clienthttpswwwnpmjscompackagejupyterhubbinderhub-client-npm-package">
-&lt;a href="https://www.npmjs.com/package/@jupyterhub/binderhub-client" target="_blank" rel="noopener" >&lt;code>jupyterhub/@binderhub-client&lt;/code>&lt;/a>
-npm package
+&lt;a href="https://www.npmjs.com/package/@jupyterhub/binderhub-client" target="_blank" rel="noopener" >&lt;code>jupyterhub/@binderhub-client&lt;/code>&lt;/a> npm package
 &lt;a class="header-anchor" href="#jupyterhubbinderhub-clienthttpswwwnpmjscompackagejupyterhubbinderhub-client-npm-package">#&lt;/a>
 &lt;/h2>&lt;p>While building &lt;code>jupyterhub-fancy-profiles&lt;/code>, we wanted to use the &lt;em>same&lt;/em> javascript code used by BinderHub frontend to interact with the BinderHub API, instead of re-implementing it. However, the existing BinderHub JavaScript code was not easily consumable by external projects. We refactored the code, added tests, migrated to use modern JS practices and published the
-&lt;a href="https://www.npmjs.com/package/@jupyterhub/binderhub-client" target="_blank" rel="noopener" >&lt;code>jupyterhub/@binderhub-client&lt;/code> NPM package&lt;/a>
-that can be used not just by &lt;code>jupyerhub-fancy-profiles&lt;/code> but any external project for talking to the BinderHub API.&lt;/p>
+&lt;a href="https://www.npmjs.com/package/@jupyterhub/binderhub-client" target="_blank" rel="noopener" >&lt;code>jupyterhub/@binderhub-client&lt;/code> NPM package&lt;/a> that can be used not just by &lt;code>jupyerhub-fancy-profiles&lt;/code> but any external project for talking to the BinderHub API.&lt;/p>
 &lt;p>This had to be done in such a way that current BinderHub installations (such as mybinder.org) do not break. That took quite a few pull requests:
-&lt;a href="https://github.com/jupyterhub/binderhub/pull/1689" target="_blank" rel="noopener" >1&lt;/a>
-,
-&lt;a href="https://github.com/jupyterhub/binderhub/pull/1693" target="_blank" rel="noopener" >2&lt;/a>
-,
-&lt;a href="https://github.com/jupyterhub/binderhub/pull/1694" target="_blank" rel="noopener" >3&lt;/a>
-,
-&lt;a href="https://github.com/jupyterhub/binderhub/pull/1741" target="_blank" rel="noopener" >4&lt;/a>
-,
-&lt;a href="https://github.com/jupyterhub/binderhub/pull/1742" target="_blank" rel="noopener" >5&lt;/a>
-,
-&lt;a href="https://github.com/jupyterhub/binderhub/pull/1758" target="_blank" rel="noopener" >6&lt;/a>
-,
-&lt;a href="https://github.com/jupyterhub/binderhub/pull/1761" target="_blank" rel="noopener" >7&lt;/a>
-,
-&lt;a href="https://github.com/jupyterhub/binderhub/pull/1771" target="_blank" rel="noopener" >8&lt;/a>
-,
-&lt;a href="https://github.com/jupyterhub/binderhub/pull/1773" target="_blank" rel="noopener" >9&lt;/a>
-,
-&lt;a href="https://github.com/jupyterhub/binderhub/pull/1775" target="_blank" rel="noopener" >10&lt;/a>
-,
-&lt;a href="https://github.com/jupyterhub/binderhub/pull/1778" target="_blank" rel="noopener" >11&lt;/a>
-,
-&lt;a href="https://github.com/jupyterhub/binderhub/pull/1779" target="_blank" rel="noopener" >12&lt;/a>
-,
-&lt;a href="https://github.com/jupyterhub/binderhub/pull/1781" target="_blank" rel="noopener" >13&lt;/a>
-,
-&lt;a href="https://github.com/jupyterhub/binderhub/pull/1782" target="_blank" rel="noopener" >14&lt;/a>
-,
-&lt;a href="https://github.com/jupyterhub/binderhub/pull/1783" target="_blank" rel="noopener" >15&lt;/a>
-. This refactoring work was very helpful to us, and also appreciated by the broader community.&lt;/p>
+&lt;a href="https://github.com/jupyterhub/binderhub/pull/1689" target="_blank" rel="noopener" >1&lt;/a>,
+&lt;a href="https://github.com/jupyterhub/binderhub/pull/1693" target="_blank" rel="noopener" >2&lt;/a>,
+&lt;a href="https://github.com/jupyterhub/binderhub/pull/1694" target="_blank" rel="noopener" >3&lt;/a>,
+&lt;a href="https://github.com/jupyterhub/binderhub/pull/1741" target="_blank" rel="noopener" >4&lt;/a>,
+&lt;a href="https://github.com/jupyterhub/binderhub/pull/1742" target="_blank" rel="noopener" >5&lt;/a>,
+&lt;a href="https://github.com/jupyterhub/binderhub/pull/1758" target="_blank" rel="noopener" >6&lt;/a>,
+&lt;a href="https://github.com/jupyterhub/binderhub/pull/1761" target="_blank" rel="noopener" >7&lt;/a>,
+&lt;a href="https://github.com/jupyterhub/binderhub/pull/1771" target="_blank" rel="noopener" >8&lt;/a>,
+&lt;a href="https://github.com/jupyterhub/binderhub/pull/1773" target="_blank" rel="noopener" >9&lt;/a>,
+&lt;a href="https://github.com/jupyterhub/binderhub/pull/1775" target="_blank" rel="noopener" >10&lt;/a>,
+&lt;a href="https://github.com/jupyterhub/binderhub/pull/1778" target="_blank" rel="noopener" >11&lt;/a>,
+&lt;a href="https://github.com/jupyterhub/binderhub/pull/1779" target="_blank" rel="noopener" >12&lt;/a>,
+&lt;a href="https://github.com/jupyterhub/binderhub/pull/1781" target="_blank" rel="noopener" >13&lt;/a>,
+&lt;a href="https://github.com/jupyterhub/binderhub/pull/1782" target="_blank" rel="noopener" >14&lt;/a>,
+&lt;a href="https://github.com/jupyterhub/binderhub/pull/1783" target="_blank" rel="noopener" >15&lt;/a>. This refactoring work was very helpful to us, and also appreciated by the broader community.&lt;/p>
 &lt;h2 id="defending-against-cryptojacking-with-cryptnono">
 Defending against cryptojacking with &lt;code>cryptnono&lt;/code>
 &lt;a class="header-anchor" href="#defending-against-cryptojacking-with-cryptnono">#&lt;/a>
 &lt;/h2>&lt;p>For Open Science to flourish, we need to allow access to resources without login / paywalls wherever possible. A new menace against this has been
-&lt;a href="https://www.interpol.int/en/Crimes/Cybercrime/Cryptojacking" target="_blank" rel="noopener" >cryptojacking&lt;/a>
-- where attackers use up any and all available free compute to mine cryptocurrencies. This has affected &lt;em>many&lt;/em> folks on the internet, including
-&lt;a href="https://www.bleepingcomputer.com/news/security/github-actions-being-actively-abused-to-mine-cryptocurrency-on-github-servers/" target="_blank" rel="noopener" >GitHub Actions&lt;/a>
-and mybinder.org, the primary public BinderHub installation. mybinder.org has some extra protections against cryptojacking that aren&amp;rsquo;t easily usable elsewhere, and this has unfortunately meant that the demo JupyterHubs we have with these features enabled have been behind a login wall. I personally believe login walls are long term antithetical to open science, and so this was an important problem to solve.&lt;/p>
+&lt;a href="https://www.interpol.int/en/Crimes/Cybercrime/Cryptojacking" target="_blank" rel="noopener" >cryptojacking&lt;/a> - where attackers use up any and all available free compute to mine cryptocurrencies. This has affected &lt;em>many&lt;/em> folks on the internet, including
+&lt;a href="https://www.bleepingcomputer.com/news/security/github-actions-being-actively-abused-to-mine-cryptocurrency-on-github-servers/" target="_blank" rel="noopener" >GitHub Actions&lt;/a> and mybinder.org, the primary public BinderHub installation. mybinder.org has some extra protections against cryptojacking that aren&amp;rsquo;t easily usable elsewhere, and this has unfortunately meant that the demo JupyterHubs we have with these features enabled have been behind a login wall. I personally believe login walls are long term antithetical to open science, and so this was an important problem to solve.&lt;/p>
 &lt;p>
-&lt;a href="https://github.com/cryptnono/cryptnono" target="_blank" rel="noopener" >cryptnono&lt;/a>
-is an open source project designed to help fight cryptojacking, and as part of this grant we ported some of this functionality out of mybinder.org specific code into cryptnono, so other deployments may also benefit from it! We also migrated to using the super efficient
-&lt;a href="https://ebpf.io/" target="_blank" rel="noopener" >ebpf&lt;/a>
-Linux Kernel subsystem, allowing for more complex heuristics to catch a much broader range of cryptomining activity. We have been slowly tweaking the config on mybinder.org, and it has proven to be very effective! This will be very helpful for &lt;em>anyone&lt;/em> who wants to provide a JupyterHub (or any other computational service) without a login wall. If you are interested in using cryptnono in this fashion, please
-&lt;a href="https://github.com/cryptnono/cryptnono/issues" target="_blank" rel="noopener" >reach out to us&lt;/a>
-so we can work together!&lt;/p>
+&lt;a href="https://github.com/cryptnono/cryptnono" target="_blank" rel="noopener" >cryptnono&lt;/a> is an open source project designed to help fight cryptojacking, and as part of this grant we ported some of this functionality out of mybinder.org specific code into cryptnono, so other deployments may also benefit from it! We also migrated to using the super efficient
+&lt;a href="https://ebpf.io/" target="_blank" rel="noopener" >ebpf&lt;/a> Linux Kernel subsystem, allowing for more complex heuristics to catch a much broader range of cryptomining activity. We have been slowly tweaking the config on mybinder.org, and it has proven to be very effective! This will be very helpful for &lt;em>anyone&lt;/em> who wants to provide a JupyterHub (or any other computational service) without a login wall. If you are interested in using cryptnono in this fashion, please
+&lt;a href="https://github.com/cryptnono/cryptnono/issues" target="_blank" rel="noopener" >reach out to us&lt;/a> so we can work together!&lt;/p>
 &lt;h2 id="explored-pathways-that-were-then-discarded">
 Explored pathways that were then discarded
 &lt;a class="header-anchor" href="#explored-pathways-that-were-then-discarded">#&lt;/a>
 &lt;/h2>&lt;p>List of things that were tried and then decided as not good pathways:&lt;/p>
 &lt;ul>
 &lt;li>
-&lt;a href="https://github.com/consideRatio/repo2docker-service" target="_blank" rel="noopener" >repo2docker-service&lt;/a>
-, a separate JupyterHub service that could &lt;em>only&lt;/em> build images. As we worked on it, we realized that it was replicating a lot of features that BinderHub already has, so we pivoted to working on BinderHub directly instead.&lt;/li>
+&lt;a href="https://github.com/consideRatio/repo2docker-service" target="_blank" rel="noopener" >repo2docker-service&lt;/a>, a separate JupyterHub service that could &lt;em>only&lt;/em> build images. As we worked on it, we realized that it was replicating a lot of features that BinderHub already has, so we pivoted to working on BinderHub directly instead.&lt;/li>
 &lt;li>Building off of
-&lt;a href="https://github.com/plasmabio/tljh-repo2docker" target="_blank" rel="noopener" >tljh-repo2docker&lt;/a>
-. While this already had a nice UI, it would be hard to port it to run on a distributed Kubernetes environment without it becoming a &amp;lsquo;hard fork&amp;rsquo;.&lt;/li>
+&lt;a href="https://github.com/plasmabio/tljh-repo2docker" target="_blank" rel="noopener" >tljh-repo2docker&lt;/a>. While this already had a nice UI, it would be hard to port it to run on a distributed Kubernetes environment without it becoming a &amp;lsquo;hard fork&amp;rsquo;.&lt;/li>
 &lt;/ul>
 &lt;p>While these did slow down the implementation of the project, it has allowed us to be very confident that the methods we have chosen are long-term sustainable.&lt;/p>
 &lt;h2 id="want-to-try-this-out">
 Want to try this out?
 &lt;a class="header-anchor" href="#want-to-try-this-out">#&lt;/a>
 &lt;/h2>&lt;p>We have a demo of this running at
-&lt;a href="https://imagebuilding-demo.2i2c.cloud" target="_blank" rel="noopener" >imagebuilding-demo.2i2c.cloud&lt;/a>
-, but unfortunately as we are still fine-tuning &lt;code>cryptnono&lt;/code> config, at this moment it is not open to the public. Please
-&lt;a href="" >contact me&lt;/a>
-with your GitHub account if you want access, and promise to not be a cryptominer and you shall be granted access.&lt;/p>
+&lt;a href="https://imagebuilding-demo.2i2c.cloud" target="_blank" rel="noopener" >imagebuilding-demo.2i2c.cloud&lt;/a>, but unfortunately as we are still fine-tuning &lt;code>cryptnono&lt;/code> config, at this moment it is not open to the public. Please
+&lt;a href="" >contact me&lt;/a> with your GitHub account if you want access, and promise to not be a cryptominer and you shall be granted access.&lt;/p>
 &lt;p>Want to set this up on your own JupyterHub? There is some
-&lt;a href="https://github.com/2i2c-org/binderhub-service/pull/72" target="_blank" rel="noopener" >work in progress&lt;/a>
-documentation and more is being worked on. Drop a line in the linked pull request and we&amp;rsquo;ll be happy to help. The eventual goal is for &lt;em>anyone&lt;/em> to be able to simply follow documentation and set this up for themselves.&lt;/p>
+&lt;a href="https://github.com/2i2c-org/binderhub-service/pull/72" target="_blank" rel="noopener" >work in progress&lt;/a> documentation and more is being worked on. Drop a line in the linked pull request and we&amp;rsquo;ll be happy to help. The eventual goal is for &lt;em>anyone&lt;/em> to be able to simply follow documentation and set this up for themselves.&lt;/p>
 &lt;h2 id="future-work">
 Future work
 &lt;a class="header-anchor" href="#future-work">#&lt;/a>
 &lt;/h2>&lt;p>This is not complete of course, and there is a lot of future work to be done.&lt;/p>
 &lt;ol>
 &lt;li>mybinder.org also helps you distribute your &lt;em>content&lt;/em>, not just the environment for your code to run in. Since JupyterHub usually comes with a persistent home directory for the user,
-&lt;a href="https://github.com/jupyterhub/nbgitpuller/" target="_blank" rel="noopener" >nbgitpuller&lt;/a>
-is commonly used for this purpose instead. We should explore ways to integrate nbgitpuller (and other ways to distribute content) in the future.&lt;/li>
+&lt;a href="https://github.com/jupyterhub/nbgitpuller/" target="_blank" rel="noopener" >nbgitpuller&lt;/a> is commonly used for this purpose instead. We should explore ways to integrate nbgitpuller (and other ways to distribute content) in the future.&lt;/li>
 &lt;li>More thorough documentation for how you can recreate what is in the demo for yourself in your own JupyterHub installation.&lt;/li>
 &lt;li>Better UX for specifying images, including figuring out how to &amp;lsquo;save&amp;rsquo; them for future reuse.&lt;/li>
 &lt;li>Better compatibility with mybinder.org, particularly in allowing other sources of environments (not just GitHub, but Zenodo, raw git repositories, etc) and URL compatibility.&lt;/li>
@@ -687,39 +533,25 @@ Credit
 &lt;/h2>&lt;p>All this work would not be possible without a large group of collaborators!&lt;/p>
 &lt;ul>
 &lt;li>From 2i2c:
-&lt;a href="https://github.com/consideRatio" target="_blank" rel="noopener" >Erik Sundell&lt;/a>
-,
-&lt;a href="https://github.com/GeorgianaElena" target="_blank" rel="noopener" >Georgiana Elena&lt;/a>
-,
-&lt;a href="https://words.yuvi.in/" target="_blank" rel="noopener" >Yuvi&lt;/a>
-,
-&lt;a href="https://github.com/jmunroe" target="_blank" rel="noopener" >James Munroe&lt;/a>
-, and
-&lt;a href="https://github.com/damianavila" target="_blank" rel="noopener" >Damián Avila&lt;/a>
-.&lt;/li>
+&lt;a href="https://github.com/consideRatio" target="_blank" rel="noopener" >Erik Sundell&lt;/a>,
+&lt;a href="https://github.com/GeorgianaElena" target="_blank" rel="noopener" >Georgiana Elena&lt;/a>,
+&lt;a href="https://words.yuvi.in/" target="_blank" rel="noopener" >Yuvi&lt;/a>,
+&lt;a href="https://github.com/jmunroe" target="_blank" rel="noopener" >James Munroe&lt;/a>, and
+&lt;a href="https://github.com/damianavila" target="_blank" rel="noopener" >Damián Avila&lt;/a>.&lt;/li>
 &lt;li>The
-&lt;a href="https://github.com/gesiscss/persistent_BinderHub/" target="_blank" rel="noopener" >persistent BinderHub&lt;/a>
-project was the direct inspiration for all this work, with particular thanks to
-&lt;a href="https://github.com/bitnik" target="_blank" rel="noopener" >Kenan Erdogan&lt;/a>
-.&lt;/li>
+&lt;a href="https://github.com/gesiscss/persistent_BinderHub/" target="_blank" rel="noopener" >persistent BinderHub&lt;/a> project was the direct inspiration for all this work, with particular thanks to
+&lt;a href="https://github.com/bitnik" target="_blank" rel="noopener" >Kenan Erdogan&lt;/a>.&lt;/li>
 &lt;li>The
-&lt;a href="https://github.com/plasmabio/tljh-repo2docker" target="_blank" rel="noopener" >tljh-repo2docker&lt;/a>
-project, which explores similar ideas in the context of running only on a single node.&lt;/li>
+&lt;a href="https://github.com/plasmabio/tljh-repo2docker" target="_blank" rel="noopener" >tljh-repo2docker&lt;/a> project, which explores similar ideas in the context of running only on a single node.&lt;/li>
 &lt;li>The broad JupyterHub and MyBinder.org community, particularly
-&lt;a href="https://github.com/manics" target="_blank" rel="noopener" >Simon Li&lt;/a>
-and
-&lt;a href="https://github.com/minrk/" target="_blank" rel="noopener" >MinRK&lt;/a>
-.&lt;/li>
+&lt;a href="https://github.com/manics" target="_blank" rel="noopener" >Simon Li&lt;/a> and
+&lt;a href="https://github.com/minrk/" target="_blank" rel="noopener" >MinRK&lt;/a>.&lt;/li>
 &lt;li>Funding generously provided by
-&lt;a href="http://gesis.org" target="_blank" rel="noopener" >GESIS&lt;/a>
-in cooperation with NFDI4DS (project number:
-&lt;a href="https://gepris.dfg.de/gepris/projekt/460234259?context=projekt&amp;amp;task=showDetail&amp;amp;id=460234259&amp;amp;" target="_blank" rel="noopener" >460234259&lt;/a>
-) and
-&lt;a href="https://www.cessda.eu" target="_blank" rel="noopener" >CESSDA&lt;/a>
-.&lt;/li>
+&lt;a href="http://gesis.org" target="_blank" rel="noopener" >GESIS&lt;/a> in cooperation with NFDI4DS (project number:
+&lt;a href="https://gepris.dfg.de/gepris/projekt/460234259?context=projekt&amp;amp;task=showDetail&amp;amp;id=460234259&amp;amp;" target="_blank" rel="noopener" >460234259&lt;/a>) and
+&lt;a href="https://www.cessda.eu" target="_blank" rel="noopener" >CESSDA&lt;/a>.&lt;/li>
 &lt;li>
-&lt;a href="https://www.gesis.org/en/institute/staff/person/arnim.bleier" target="_blank" rel="noopener" >Arnim Bleier&lt;/a>
-from GESIS was &lt;em>instrumental&lt;/em> in making this project happen.&lt;/li>
+&lt;a href="https://www.gesis.org/en/institute/staff/person/arnim.bleier" target="_blank" rel="noopener" >Arnim Bleier&lt;/a> from GESIS was &lt;em>instrumental&lt;/em> in making this project happen.&lt;/li>
 &lt;/ul></description></item><item><title>A QGIS desktop in the cloud with JupyterHub</title><link>https://2i2c.org/blog/2023/qgis-greenland/</link><pubDate>Sat, 05 Aug 2023 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2023/qgis-greenland/</guid><description>&lt;p>
 &lt;figure id="figure-the-qgreenland-researcher-workshophttpsqgreenland-workshop-2023-researchergithubio">
 &lt;div class="d-flex justify-content-center">
@@ -741,8 +573,7 @@ The
 QGreenland Overview
 &lt;a class="header-anchor" href="#qgreenland-overview">#&lt;/a>
 &lt;/h2>&lt;p>
-&lt;a href="https://qgreenland.org/" target="_blank" rel="noopener" >QGreenland&lt;/a>
-is an open-source geospatial data package designed for QGIS, a community-owned GIS platform. It focuses on Greenland, offering researchers and educators a comprehensive toolset for FAIR (findable, accessible, interoperable and reproducible) data analysis. The package integrates a variety of datasets into a single, easy-to-use data-viewing and analysis platform, supporting both offline and online use. This makes it particularly valuable for remote fieldwork and areas with limited internet access.&lt;/p>
+&lt;a href="https://qgreenland.org/" target="_blank" rel="noopener" >QGreenland&lt;/a> is an open-source geospatial data package designed for QGIS, a community-owned GIS platform. It focuses on Greenland, offering researchers and educators a comprehensive toolset for FAIR (findable, accessible, interoperable and reproducible) data analysis. The package integrates a variety of datasets into a single, easy-to-use data-viewing and analysis platform, supporting both offline and online use. This makes it particularly valuable for remote fieldwork and areas with limited internet access.&lt;/p>
 &lt;h2 id="workshop-success">
 Workshop Success
 &lt;a class="header-anchor" href="#workshop-success">#&lt;/a>
@@ -757,25 +588,20 @@ Conclusion
 &lt;a class="header-anchor" href="#conclusion">#&lt;/a>
 &lt;/h2>&lt;p>The success of the QGreenland workshop underscores the potential of integrating interactive software applications in JupyterHub. This approach not only democratizes access to advanced geospatial tools but also fosters a collaborative research environment. We look forward to supporting more workshops for QGreenland in the future!&lt;/p>
 &lt;p>&lt;em>Want to know more? Check out the companion post by QGreenland on the
-&lt;a href="https://blog.jupyter.org/desktop-gis-software-in-the-cloud-with-jupyterhub-ddced297019a" target="_blank" rel="noopener" >Jupyter Blog&lt;/a>
-&lt;/em>&lt;/p>
+&lt;a href="https://blog.jupyter.org/desktop-gis-software-in-the-cloud-with-jupyterhub-ddced297019a" target="_blank" rel="noopener" >Jupyter Blog&lt;/a>&lt;/em>&lt;/p>
 &lt;h2 id="acknowledgements">
 Acknowledgements
 &lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
 &lt;/h2>&lt;ul>
 &lt;li>
 &lt;a href="https://cires.colorado.edu/people/trey-stafford" target="_blank" rel="noopener" >Trey Stafford&lt;/a>
-&lt;a href="https://cires.colorado.edu/" target="_blank" rel="noopener" >(CIRES)&lt;/a>
-&lt;/li>
+&lt;a href="https://cires.colorado.edu/" target="_blank" rel="noopener" >(CIRES)&lt;/a>&lt;/li>
 &lt;li>
 &lt;a href="https://cires.colorado.edu/people/matthew-fisher" target="_blank" rel="noopener" >Matthew Fisher&lt;/a>
-&lt;a href="https://cires.colorado.edu/" target="_blank" rel="noopener" >(CIRES)&lt;/a>
-&lt;/li>
+&lt;a href="https://cires.colorado.edu/" target="_blank" rel="noopener" >(CIRES)&lt;/a>&lt;/li>
 &lt;li>*Fisher, M., *T. Stafford, T. Moon, and A. Thurber (2023). QGreenland (v3) [software], National Snow and Ice Data Center.&lt;/li>
 &lt;li>Snow, Tasha, Millstein, Joanna, Scheick, Jessica, Sauthoff, Wilson, Leong, Wei Ji, Colliander, James, Pérez, Fernando, James Munroe, Felikson, Denis, Sutterley, Tyler, &amp;amp; Siegfried, Matthew. (2023).
-&lt;a href="https://book.cryointhecloud.com/intro.html" target="_blank" rel="noopener" >CryoCloud JupyterBook&lt;/a>
-(2023.01.26). Zenodo.
-&lt;a href="https://doi.org/10.5281/zenodo.7576602" target="_blank" rel="noopener" >10.5281/zenodo.7576602&lt;/a>
-&lt;/li>
+&lt;a href="https://book.cryointhecloud.com/intro.html" target="_blank" rel="noopener" >CryoCloud JupyterBook&lt;/a> (2023.01.26). Zenodo.
+&lt;a href="https://doi.org/10.5281/zenodo.7576602" target="_blank" rel="noopener" >10.5281/zenodo.7576602&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;p>* Denotes co-equal lead authorship&lt;/p></description></item></channel></rss>

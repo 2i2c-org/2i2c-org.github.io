@@ -3,8 +3,7 @@ of data-intensive scientific research and make a big impact on democratizing the
 to cloud-based resources for research and education purposes. This engineer will be part of an awesome
 engineering team pushing forward the development and reliable operations of our cloud-based infrastructure.&lt;/p>
 &lt;p>&lt;strong>For more information and to apply, see
-&lt;a href="https://boards.greenhouse.io/codeforsciencesociety/jobs/4120089007?gh_jid=4120089007" target="_blank" rel="noopener" >our Greenhouse application page for this job&lt;/a>
-&lt;/strong>.&lt;/p>
+&lt;a href="https://boards.greenhouse.io/codeforsciencesociety/jobs/4120089007?gh_jid=4120089007" target="_blank" rel="noopener" >our Greenhouse application page for this job&lt;/a>&lt;/strong>.&lt;/p>
 &lt;!-- Defined in layouts/shortcodes/job_details.html -->
 &lt;div class="job-info">
 &lt;p>❌❌❌&lt;br>
@@ -32,17 +31,13 @@ See &lt;a href="https://2i2c.org/jobs">the jobs page&lt;/a> for our open positio
 &lt;p>For more general information about 2i2c, see the links below:&lt;/p>
 &lt;ul>
 &lt;li>
-&lt;a href="https://compass.2i2c.org/" target="_blank" rel="noopener" >Our Team Compass&lt;/a>
-&lt;/li>
+&lt;a href="https://compass.2i2c.org/" target="_blank" rel="noopener" >Our Team Compass&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://compass.2i2c.org/code-of-conduct/index.html" target="_blank" rel="noopener" >Our Code of Conduct&lt;/a>
-&lt;/li>
+&lt;a href="https://compass.2i2c.org/code-of-conduct/index.html" target="_blank" rel="noopener" >Our Code of Conduct&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://compass.2i2c.org/organization/mission.html" target="_blank" rel="noopener" >Our Mission and Values&lt;/a>
-&lt;/li>
+&lt;a href="https://compass.2i2c.org/organization/mission.html" target="_blank" rel="noopener" >Our Mission and Values&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://2i2c.org/jobs/#what-its-like-to-work-at-2i2c" target="_blank" rel="noopener" >What it&amp;rsquo;s like to work at 2i2c&lt;/a>
-&lt;/li>
+&lt;a href="https://2i2c.org/jobs/#what-its-like-to-work-at-2i2c" target="_blank" rel="noopener" >What it&amp;rsquo;s like to work at 2i2c&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;ul class="cta-group">
 &lt;li>
@@ -54,61 +49,43 @@ See &lt;a href="https://2i2c.org/jobs">the jobs page&lt;/a> for our open positio
 Introduction
 &lt;a class="header-anchor" href="#introduction">#&lt;/a>
 &lt;/h1>&lt;p>
-&lt;a href="https://mybinder.org" target="_blank" rel="noopener" >Mybinder.org&lt;/a>
-enables researchers across the world to replicate computational environments in the cloud. It allows researchers to turn static code into interactive literate coding environments with a click of a button within seconds. The
-&lt;a href="https://mybinder.org" target="_blank" rel="noopener" >mybinder.org&lt;/a>
-service is powered by
-&lt;a href="https://binderhub.readthedocs.io" target="_blank" rel="noopener" >BinderHub&lt;/a>
-, an open-source tool developed by
-&lt;a href="https://jupyter.org" target="_blank" rel="noopener" >the Jupyter Project&lt;/a>
-that many organizations have deployed for their own communities. It does this by _dynamically building _the software environment needed to reproduce a computation (using a tool called
-&lt;a href="https://repo2docker.readthedocs.io" target="_blank" rel="noopener" >repo2docker&lt;/a>
-), and making this environment available to users.&lt;/p>
+&lt;a href="https://mybinder.org" target="_blank" rel="noopener" >Mybinder.org&lt;/a> enables researchers across the world to replicate computational environments in the cloud. It allows researchers to turn static code into interactive literate coding environments with a click of a button within seconds. The
+&lt;a href="https://mybinder.org" target="_blank" rel="noopener" >mybinder.org&lt;/a> service is powered by
+&lt;a href="https://binderhub.readthedocs.io" target="_blank" rel="noopener" >BinderHub&lt;/a>, an open-source tool developed by
+&lt;a href="https://jupyter.org" target="_blank" rel="noopener" >the Jupyter Project&lt;/a> that many organizations have deployed for their own communities. It does this by _dynamically building _the software environment needed to reproduce a computation (using a tool called
+&lt;a href="https://repo2docker.readthedocs.io" target="_blank" rel="noopener" >repo2docker&lt;/a>), and making this environment available to users.&lt;/p>
 &lt;p>BinderHub was developed for use-cases that are &lt;em>temporary&lt;/em> and &lt;em>fully open&lt;/em> by design. BinderHub sessions are destroyed after a fixed amount of time and there is no persistent storage or authentication. However, many research institutions also need more “standard” service features like authentication and persistent storage.&lt;/p>
 &lt;p>Over the past several years, the
-&lt;a href="http://notebooks.gesis.org" target="_blank" rel="noopener" >GESIS Notebooks&lt;/a>
-team made the first steps towards bridging this gap through their
-&lt;a href="https://github.com/gesiscss/persistent_binderhub" target="_blank" rel="noopener" >Persistent BinderHub&lt;/a>
-implementation. This was a modified and authenticated BinderHub that &lt;em>included&lt;/em> persistent storage across sessions. The Persistent BinderHub service was very successful at GESIS and with its partner communities, and the team wishes to build this functionality into the JupyterHub community’s core technology so that these features can be enjoyed for more use-cases and by many communities.&lt;/p>
+&lt;a href="http://notebooks.gesis.org" target="_blank" rel="noopener" >GESIS Notebooks&lt;/a> team made the first steps towards bridging this gap through their
+&lt;a href="https://github.com/gesiscss/persistent_binderhub" target="_blank" rel="noopener" >Persistent BinderHub&lt;/a> implementation. This was a modified and authenticated BinderHub that &lt;em>included&lt;/em> persistent storage across sessions. The Persistent BinderHub service was very successful at GESIS and with its partner communities, and the team wishes to build this functionality into the JupyterHub community’s core technology so that these features can be enjoyed for more use-cases and by many communities.&lt;/p>
 &lt;p>To enable this vision, we have partnered with GESIS in cooperation with
-&lt;a href="https://www.nfdi4datascience.de/" target="_blank" rel="noopener" >NFDI4DS&lt;/a>
-(GAN: 460234259),
-&lt;a href="https://www.cessda.eu/" target="_blank" rel="noopener" >CESSDA&lt;/a>
-, and members of the
-&lt;a href="https://jupytearth.org/" target="_blank" rel="noopener" >JMTE&lt;/a>
-project. This collaboration has three primary goals:&lt;/p>
+&lt;a href="https://www.nfdi4datascience.de/" target="_blank" rel="noopener" >NFDI4DS&lt;/a> (GAN: 460234259),
+&lt;a href="https://www.cessda.eu/" target="_blank" rel="noopener" >CESSDA&lt;/a>, and members of the
+&lt;a href="https://jupytearth.org/" target="_blank" rel="noopener" >JMTE&lt;/a> project. This collaboration has three primary goals:&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>Generalize the Persistent BinderHub functionality/experience to run on cloud-agnostic infrastructure&lt;/strong>, so that other stakeholders in NFDI, CESSDA, and the broader scientific community may benefit from this functionality and experience.&lt;/li>
 &lt;li>&lt;strong>Upstream this functionality by making contributions into Jupyter community projects&lt;/strong>, so that it will be maintained and improved by a community moving forward, thus improving its reliability and sustainability.&lt;/li>
 &lt;li>&lt;strong>Improve the implementation and user experience around Persistent BinderHub&lt;/strong>, in order to make it more reliable, scalable, productive, and enjoyable to use.&lt;/li>
 &lt;/ul>
 &lt;p>We began this collaboration several months ago, and have focused our efforts on exploring potential implementation pathways for this functionality. We believe that we now have a path forward for this functionality, and this blog post is a brief report of our efforts and future plans as we undertake this effort. See
-&lt;a href="https://github.com/orgs/2i2c-org/projects/33" target="_blank" rel="noopener" >this GitHub Projects Board for issues that implement this effort&lt;/a>
-.&lt;/p>
+&lt;a href="https://github.com/orgs/2i2c-org/projects/33" target="_blank" rel="noopener" >this GitHub Projects Board for issues that implement this effort&lt;/a>.&lt;/p>
 &lt;h3 id="exploration-1-adding-persistent-storage-directly-into-binderhub">
 Exploration 1: Adding persistent storage directly into BinderHub
 &lt;a class="header-anchor" href="#exploration-1-adding-persistent-storage-directly-into-binderhub">#&lt;/a>
 &lt;/h3>&lt;p>Our initial intention was to incorporate persistent storage and authentication from the GESIS Persistent BinderHub into the
-&lt;a href="http://binderhub.readthedocs.io/" target="_blank" rel="noopener" >BinderHub codebase&lt;/a>
-. We began by holding a series of meetings to discuss technical requirements from our experience in the JupyterHub/BinderHub ecosystem, and also conducted an audit of the
-&lt;a href="https://www.google.com/url?q=https://github.com/gesiscss/persistent_binderhub/blob/9936fc2251abafd00921b3b53954fb60c8640347/persistent_binderhub/values.yaml" target="_blank" rel="noopener" >Persistent BinderHub codebase&lt;/a>
-. The Persistent BinderHub implementation is a
-&lt;a href="https://github.com/gesiscss/persistent_binderhub/blob/9936fc2251abafd00921b3b53954fb60c8640347/persistent_binderhub/values.yaml" target="_blank" rel="noopener" >modified Helm Chart&lt;/a>
-that configures a JupyterHub to expose its authentication and persistent storage functionality, overriding the BinderHub default behavior. We were concerned that building this functionality &lt;em>natively&lt;/em> into BinderHub would be challenging given that the BinderHub codebase was designed for ephemeral user sessions.&lt;/p>
+&lt;a href="http://binderhub.readthedocs.io/" target="_blank" rel="noopener" >BinderHub codebase&lt;/a>. We began by holding a series of meetings to discuss technical requirements from our experience in the JupyterHub/BinderHub ecosystem, and also conducted an audit of the
+&lt;a href="https://www.google.com/url?q=https://github.com/gesiscss/persistent_binderhub/blob/9936fc2251abafd00921b3b53954fb60c8640347/persistent_binderhub/values.yaml" target="_blank" rel="noopener" >Persistent BinderHub codebase&lt;/a>. The Persistent BinderHub implementation is a
+&lt;a href="https://github.com/gesiscss/persistent_binderhub/blob/9936fc2251abafd00921b3b53954fb60c8640347/persistent_binderhub/values.yaml" target="_blank" rel="noopener" >modified Helm Chart&lt;/a> that configures a JupyterHub to expose its authentication and persistent storage functionality, overriding the BinderHub default behavior. We were concerned that building this functionality &lt;em>natively&lt;/em> into BinderHub would be challenging given that the BinderHub codebase was designed for ephemeral user sessions.&lt;/p>
 &lt;p>So, we decided to take another approach:&lt;/p>
 &lt;h3 id="exploration-2-add-dynamic-image-building-to-jupyterhub">
 Exploration 2: Add dynamic image building to JupyterHub
 &lt;a class="header-anchor" href="#exploration-2-add-dynamic-image-building-to-jupyterhub">#&lt;/a>
 &lt;/h3>&lt;p>We realized that there is a way to make this functionality more broadly useful and more maintainable, while still achieving the end-user experience that the GESIS team needed. Instead of modifying BinderHub to incorporate JupyterHub’s storage and authentication features, &lt;strong>we would give JupyterHub the ability do dynamically generate user environments using
-&lt;a href="http://repo2docker.readthedocs.io/" target="_blank" rel="noopener" >repo2docker&lt;/a>
-&lt;/strong>.&lt;/p>
+&lt;a href="http://repo2docker.readthedocs.io/" target="_blank" rel="noopener" >repo2docker&lt;/a>&lt;/strong>.&lt;/p>
 &lt;p>This would give JupyterHub users more flexibility over the environments served by their hub, and expose Binder-style workflows to the “typical” JupyterHub workflow. BinderHub could then be simplified to re-use JupyterHub’s image building functionality as a part of its own service. We also identified a prototype of this functionality in the
-&lt;a href="https://github.com/plasmabio/tljh-repo2docker" target="_blank" rel="noopener" >tljh-repo2docker&lt;/a>
-project that
-&lt;a href="https://quantstack.net/" target="_blank" rel="noopener" >QuantStack&lt;/a>
-had built for the
-&lt;a href="https://plasmabio.org/" target="_blank" rel="noopener" >PlasmaBio project&lt;/a>
-. This implementation was seen as successful, and something others in the community had wanted to generalize for some time.&lt;/p>
+&lt;a href="https://github.com/plasmabio/tljh-repo2docker" target="_blank" rel="noopener" >tljh-repo2docker&lt;/a> project that
+&lt;a href="https://quantstack.net/" target="_blank" rel="noopener" >QuantStack&lt;/a> had built for the
+&lt;a href="https://plasmabio.org/" target="_blank" rel="noopener" >PlasmaBio project&lt;/a>. This implementation was seen as successful, and something others in the community had wanted to generalize for some time.&lt;/p>
 &lt;h1 id="our-implementation-plan">
 Our implementation plan
 &lt;a class="header-anchor" href="#our-implementation-plan">#&lt;/a>
@@ -133,13 +110,10 @@ Two phases of implementation
 Back-end implementation as a JupyterHub Service
 &lt;a class="header-anchor" href="#back-end-implementation-as-a-jupyterhub-service">#&lt;/a>
 &lt;/h2>&lt;p>We’re planning to use
-&lt;a href="https://jupyterhub.readthedocs.io/en/stable/reference/services.html" target="_blank" rel="noopener" >JupyterHub Services&lt;/a>
-to add the back-end functionality for dynamic image building to a JupyterHub. Services are a way to expose functionality via a JupyterHub REST API, and would allow us to expose basic image generation on-the-fly with
-&lt;a href="https://repo2docker.readthedocs.io/" target="_blank" rel="noopener" >repo2docker&lt;/a>
-. We aim for basic functionality to be as close as possible to repo2docker’s default behavior, but to make this functionality _composable and customizable _if a JupyterHub administrator wants to provide different out-of-the-box functionality.&lt;/p>
+&lt;a href="https://jupyterhub.readthedocs.io/en/stable/reference/services.html" target="_blank" rel="noopener" >JupyterHub Services&lt;/a> to add the back-end functionality for dynamic image building to a JupyterHub. Services are a way to expose functionality via a JupyterHub REST API, and would allow us to expose basic image generation on-the-fly with
+&lt;a href="https://repo2docker.readthedocs.io/" target="_blank" rel="noopener" >repo2docker&lt;/a>. We aim for basic functionality to be as close as possible to repo2docker’s default behavior, but to make this functionality _composable and customizable _if a JupyterHub administrator wants to provide different out-of-the-box functionality.&lt;/p>
 &lt;p>While details may still change, we believe that the major architectural plan has now been settled. We have
-&lt;a href="https://github.com/consideratio/repo2docker-service" target="_blank" rel="noopener" >an experimental codebase&lt;/a>
-with a basic implementation of the repo2docker service described above. As part of this effort, this team has also made a number of improvements to repo2docker’s codebase and project infrastructure. We hope that this effort will continue to push resources and attention to repo2docker by growing the number of users and stakeholders that rely on the project for their success.&lt;/p>
+&lt;a href="https://github.com/consideratio/repo2docker-service" target="_blank" rel="noopener" >an experimental codebase&lt;/a> with a basic implementation of the repo2docker service described above. As part of this effort, this team has also made a number of improvements to repo2docker’s codebase and project infrastructure. We hope that this effort will continue to push resources and attention to repo2docker by growing the number of users and stakeholders that rely on the project for their success.&lt;/p>
 &lt;h2 id="front-end-implementation-that-uses-this-service">
 Front-end implementation that uses this service
 &lt;a class="header-anchor" href="#front-end-implementation-that-uses-this-service">#&lt;/a>
@@ -156,10 +130,8 @@ Front-end implementation that uses this service
 Collaborate and follow along
 &lt;a class="header-anchor" href="#collaborate-and-follow-along">#&lt;/a>
 &lt;/h1>&lt;p>Below you’ll find a rough project plan to give an idea for the major actions needed and a timeline for when we hope they’ll be completed. We’ll track further updates and progress on this project in this
-&lt;a href="https://github.com/2i2c-org/infrastructure/issues/1382" target="_blank" rel="noopener" >dedicated GitHub issue&lt;/a>
-and this
-&lt;a href="https://github.com/orgs/2i2c-org/projects/33/views/1" target="_blank" rel="noopener" >dedicated GitHub project board&lt;/a>
-.&lt;/p>
+&lt;a href="https://github.com/2i2c-org/infrastructure/issues/1382" target="_blank" rel="noopener" >dedicated GitHub issue&lt;/a> and this
+&lt;a href="https://github.com/orgs/2i2c-org/projects/33/views/1" target="_blank" rel="noopener" >dedicated GitHub project board&lt;/a>.&lt;/p>
 &lt;p>
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
@@ -203,17 +175,13 @@ See &lt;a href="https://2i2c.org/jobs">the jobs page&lt;/a> for our open positio
 &lt;p>For more general information about 2i2c, see the links below:&lt;/p>
 &lt;ul>
 &lt;li>
-&lt;a href="https://compass.2i2c.org/" target="_blank" rel="noopener" >Our Team Compass&lt;/a>
-&lt;/li>
+&lt;a href="https://compass.2i2c.org/" target="_blank" rel="noopener" >Our Team Compass&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://compass.2i2c.org/code-of-conduct/index.html" target="_blank" rel="noopener" >Our Code of Conduct&lt;/a>
-&lt;/li>
+&lt;a href="https://compass.2i2c.org/code-of-conduct/index.html" target="_blank" rel="noopener" >Our Code of Conduct&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://compass.2i2c.org/organization/mission.html" target="_blank" rel="noopener" >Our Mission and Values&lt;/a>
-&lt;/li>
+&lt;a href="https://compass.2i2c.org/organization/mission.html" target="_blank" rel="noopener" >Our Mission and Values&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://2i2c.org/jobs/#what-its-like-to-work-at-2i2c" target="_blank" rel="noopener" >What it&amp;rsquo;s like to work at 2i2c&lt;/a>
-&lt;/li>
+&lt;a href="https://2i2c.org/jobs/#what-its-like-to-work-at-2i2c" target="_blank" rel="noopener" >What it&amp;rsquo;s like to work at 2i2c&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;ul class="cta-group">
 &lt;li>
@@ -225,14 +193,12 @@ See &lt;a href="https://2i2c.org/jobs">the jobs page&lt;/a> for our open positio
 Who we are
 &lt;a class="header-anchor" href="#who-we-are">#&lt;/a>
 &lt;/h2>&lt;p>2i2c is a non-profit organization with a mission to make interactive computing more accessible, scalable, and powerful for research and education:
-&lt;a href="https://2i2c.org/organization/" >https://2i2c.org/organization/&lt;/a>
-.&lt;/p>
+&lt;a href="https://2i2c.org/organization/" >2i2c.org/organization/&lt;/a>.&lt;/p>
 &lt;p>We accomplish this mission by providing managed cloud services for interactive computing, by providing development and technical leadership to researchers and educators that utilize this infrastructure for specific communities, and by providing support for open source tools and communities in this ecosystem.&lt;/p>
 &lt;p>We have deep ties to the open source community, and have been leaders and core contributors across dozens of projects - in particular in the Jupyter ecosystem. We also have deep ties to research and education - our team has spent years deploying infrastructure for universities, community colleges, and research teams, and now we’re bringing this experience to a wider audience with 2i2c.&lt;/p>
 &lt;p>We believe strongly in communities that are inclusive, transparent, equitable, effective, and diverse, especially 2i2c itself. We believe that our values should permeate everything about 2i2c, including the work we do, the communities we serve, and our own organizational culture.&lt;/p>
 &lt;p>2i2c is a fiscally sponsored project of
-&lt;a href="http://www.codeforsociety.org/" target="_blank" rel="noopener" >Code for Science and Society&lt;/a>
-, a registered US 501(c)(3) nonprofit corporation.&lt;/p>
+&lt;a href="http://www.codeforsociety.org/" target="_blank" rel="noopener" >Code for Science and Society&lt;/a>, a registered US 501(c)(3) nonprofit corporation.&lt;/p>
 &lt;h2 id="what-youll-do">
 What you’ll do
 &lt;a class="header-anchor" href="#what-youll-do">#&lt;/a>
@@ -272,15 +238,12 @@ Desirable requirements
 What it is like to work at 2i2c and why you’ll like working with us
 &lt;a class="header-anchor" href="#what-it-is-like-to-work-at-2i2c-and-why-youll-like-working-with-us">#&lt;/a>
 &lt;/h2>&lt;p>2i2c is a remote-first team that believes strongly in our organizational values and mission. We recommend that you visit our
-&lt;a href="https://2i2c.org/jobs/" >jobs page&lt;/a>
-, to learn about what it’s like to work at 2i2c and why you should work with us. You will also find relevant information about our compensation philosophy and our commitment to equal opportunity. For an even deeper look into how 2i2c works, check out our
-&lt;a href="https://compass.2i2c.org/" target="_blank" rel="noopener" >Team Compass&lt;/a>
-.&lt;/p>
+&lt;a href="https://2i2c.org/jobs/" >jobs page&lt;/a>, to learn about what it’s like to work at 2i2c and why you should work with us. You will also find relevant information about our compensation philosophy and our commitment to equal opportunity. For an even deeper look into how 2i2c works, check out our
+&lt;a href="https://compass.2i2c.org/" target="_blank" rel="noopener" >Team Compass&lt;/a>.&lt;/p>
 &lt;h2 id="how-to-apply">
 How to apply
 &lt;a class="header-anchor" href="#how-to-apply">#&lt;/a>
 &lt;/h2>&lt;p>Please fill out the following
-&lt;a href="https://forms.gle/RPqWHoweDnvUVp4d8" target="_blank" rel="noopener" >application form&lt;/a>
-.
+&lt;a href="https://forms.gle/RPqWHoweDnvUVp4d8" target="_blank" rel="noopener" >application form&lt;/a>.
 We will begin reviewing applications on November 17th, and will accept them on a rolling basis until the position is filled.&lt;/p>
 &lt;p>We are eager to receive your application!&lt;/p></description></item><item><title>A deep dive into MyST, Part 2: The MyST-Parser, Docutils and Sphinx</title><link>https://2i2c.org/blog/2021/myst-nikola-part-2/</link><pubDate>Sat, 04 Sep 2021 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2021/myst-nikola-part-2/</guid><description/></item><item><title>A deep dive into MyST, Part 1: The MyST-Parser Python API usage in Nikola</title><link>https://2i2c.org/blog/2021/myst-nikola-part-1/</link><pubDate>Mon, 23 Aug 2021 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2021/myst-nikola-part-1/</guid><description/></item></channel></rss>

@@ -1,4 +1,281 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Education | 2i2c</title><link>https://2i2c.org/tag/education/</link><atom:link href="https://2i2c.org/tag/education/index.xml" rel="self" type="application/rss+xml"/><description>Education</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 19 Aug 2024 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Education</title><link>https://2i2c.org/tag/education/</link></image><item><title>NeuroHackademy Summer School Reflections</title><link>https://2i2c.org/blog/2024/neurohackademy-summer-school-reflections/</link><pubDate>Mon, 19 Aug 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/neurohackademy-summer-school-reflections/</guid><description>&lt;p>&lt;em>Thank you to Ariel Rokem and Noah Benson for guest writing this blog post!&lt;/em>&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Education | 2i2c</title><link>https://2i2c.org/tag/education/</link><atom:link href="https://2i2c.org/tag/education/index.xml" rel="self" type="application/rss+xml"/><description>Education</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 09 Dec 2024 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Education</title><link>https://2i2c.org/tag/education/</link></image><item><title>2i2c communities at AGU 2024</title><link>https://2i2c.org/blog/2024/agu/</link><pubDate>Mon, 09 Dec 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/agu/</guid><description>&lt;p>We are proud to share that several of 2i2c&amp;rsquo;s community partners are presenting their work at AGU 2024! In each case, 2i2c&amp;rsquo;s infrastructure plays a part in helping communities create and share knowledge, and grow their community. As an organization rooted in community-centric practices, we are particularly excited to see 2i2c represented &amp;ldquo;indirectly&amp;rdquo; at this conference, and to see ourselves as a supporting role enabling the impact of others.&lt;/p>
+&lt;p>Here&amp;rsquo;s a summary and links to all of the sessions. See below for a brief overview of seach one.&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1735091" target="_blank" rel="noopener" >ED31G-2272 Breaking down the barriers to Open Science with Project Pythia&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1577974" target="_blank" rel="noopener" >ED31G-2277 PACE Hackweek: An open community keeping up with PACE&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1709763" target="_blank" rel="noopener" >IN13A-2147 Including more solutions and more solvers via actionable open science&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1522970" target="_blank" rel="noopener" >IN34A-01 Beyond Open Data: Ensuring True Accessibility for All (Invited)&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1645291" target="_blank" rel="noopener" >Introducing GeoLab - An EarthScope JupyterHub for Enabling Collaborative Cloud-Native Geophysical Data Analysis and Skill Development Workshops&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1697601" target="_blank" rel="noopener" >U13A-2349 Sharing recipes for cloud computing: the Project Pythia Cookbook Initiative&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1708480" target="_blank" rel="noopener" >U13A-2350 Supporting NASA Earthdata users in the Cloud: NASA Openscapes JupyterHub and User Onboarding &amp;amp; Fledging&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1605357" target="_blank" rel="noopener" >V31A-08 VICTOR – A new Cyber-infrastructure for Volcanology&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="ed31g-2272-breaking-down-the-barriers-to-open-science-with-project-pythia">
+ED31G-2272 Breaking down the barriers to Open Science with Project Pythia
+&lt;a class="header-anchor" href="#ed31g-2272-breaking-down-the-barriers-to-open-science-with-project-pythia">#&lt;/a>
+&lt;/h2>&lt;p>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1735091" target="_blank" rel="noopener" >Link to session&lt;/a>&lt;/p>
+&lt;p>Hall B-C (Poster Hall) (Convention Center)&lt;/p>
+&lt;h3 id="abstract">
+Abstract
+&lt;a class="header-anchor" href="#abstract">#&lt;/a>
+&lt;/h3>&lt;p>Project Pythia is an open access educational initiative established with funding from the U.S. National Science Foundation. Its mission is to help students and scientists enhance their skills and adopt best practices using the tools and technologies of open science. As part of the Pangeo community, Project Pythia primarily focuses on the Pangeo stack, which includes cloud computing, Jupyter technologies, GitHub, and various software packages in the Scientific Python ecosystem, centered around Xarray. Project Pythia offers a wide range of open access content, such as datasets, software, tutorials, and annotated real-world workflows presented in the form of Jupyter Books.&lt;/p>
+&lt;p>Project Pythia serves as a resource for scientists, promoting and fostering open science. Although it is not a scientific research artifact itself, the development of Project Pythia adheres to many best practices advocated by open science proponents. The Pythia team actively encourages community engagement and collaborates openly with scientists and technologists to create new content. All Pythia resources are freely accessible, and the project follows the FAIR principles (Findable, Accessible, Interoperable, and Reusable) for managing research outputs, including publications, data, and other materials. We support and facilitate open evaluation and peer reviews of content to ensure verifiability and trust. Lastly, we endeavor to openly discuss ideas, designs, and methods before implementation.&lt;/p>
+&lt;p>This presentation will provide an overview of Project Pythia&amp;rsquo;s extensive educational resources and share our experiences in applying many open science principles to develop this flagship training resource for the geoscience community.&lt;/p>
+&lt;h3 id="authors">
+Authors
+&lt;a class="header-anchor" href="#authors">#&lt;/a>
+&lt;/h3>&lt;ul>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/15277" target="_blank" rel="noopener" >John Clyne&lt;/a> - NSF National Center for Atmospheric Research (first author)&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1112151" target="_blank" rel="noopener" >Drew Camron&lt;/a> - University Corporation for Atmospheric Research&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1104277" target="_blank" rel="noopener" >Orhan Eroglu&lt;/a> - NSF National Center for Atmospheric Research&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1266060" target="_blank" rel="noopener" >Robert Ford&lt;/a> - University at Albany State University of New York&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/796821" target="_blank" rel="noopener" >Julia Kent&lt;/a> - NSF National Center for Atmospheric Research&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/529702" target="_blank" rel="noopener" >Ryan May&lt;/a> - University Corporation for Atmospheric Research&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1317099" target="_blank" rel="noopener" >James Munroe&lt;/a> - 2i2c / Code for Science and Society&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/10645" target="_blank" rel="noopener" >Brian E J Rose&lt;/a> - SUNY at Albany&lt;/li>
+&lt;/ul>
+&lt;h2 id="ed31g-2277-pace-hackweek-an-open-community-keeping-up-with-pace">
+ED31G-2277 PACE Hackweek: An open community keeping up with PACE
+&lt;a class="header-anchor" href="#ed31g-2277-pace-hackweek-an-open-community-keeping-up-with-pace">#&lt;/a>
+&lt;/h2>&lt;p>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1577974" target="_blank" rel="noopener" >Link to session&lt;/a>&lt;/p>
+&lt;h3 id="abstract-1">
+Abstract
+&lt;a class="header-anchor" href="#abstract-1">#&lt;/a>
+&lt;/h3>&lt;p>The NASA Plankton, Aerosol, Cloud, ocean Ecosystem (PACE) mission, while bringing NASA&amp;rsquo;s Earth System Observatory &lt;em>up to speed&lt;/em> with aquatic, atmospheric, and terrestrial science capabilities, is also providing data records of the Earth System for the next generation of scientists &lt;em>to grow into&lt;/em>. The goal of the PACE Hackweek, supported by the Ocean Carbon &amp;amp; Biogeochemistry program and hosted at the University of Maryland Baltimore County in August 2024, was to enrich and support the practice of open science by both emerging and established researchers. Cloud-compute resources for the event were provided by CryoCloud, a NASA funded collaboration between ICESat-2 and the International Interactive Computing Collaboration (2i2c) to provide cryosphere researchers with a shared JupyterHub. We, the hackweek mentors, were buoyed by the NASA Openscapes program and adopted its mantra of striving toward &amp;ldquo;a kinder science for future us.&amp;rdquo; Participants faced two novelties: the &amp;ldquo;firehose&amp;rdquo; of data from the PACE instrument array (a hyper-spectral imaging spectrometer, a wide-swath hyper-angular polarimeter, and a narrow-swath spectro-polarimeter), and the distribution of PACE collections through the NASA Earthdata Cloud (a first for the Ocean Biology Distributed Active Archive Center). We present our approach and the challenges undertaken to hold an in-person, social coding event with 45 participants that provided a collaborative, supportive launchpad for doing open science with PACE. All lectures and tutorials produced for the event are freely available for examination and reuse. Our results additionally include highlights from the demonstration projects pursued by event participants and results from two post-event, qualitative surveys. One anonymous survey gathered participant feedback that will inform plans for growing these 45 participants into a lasting, open community. A separate, anonymous survey recorded participant demographics in order to evaluate our efforts at increasing diversity within the community of PACE data users. Key points of discussion include participant views, informed by our event, on whether and how the NASA Earthdata Cloud is a significant resource for the practice of open science with PACE, and how a shared JupyterHub can further the practice of open science by the community it serves.&lt;/p>
+&lt;h3 id="authors-1">
+Authors
+&lt;a class="header-anchor" href="#authors-1">#&lt;/a>
+&lt;/h3>&lt;ul>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1480998" target="_blank" rel="noopener" >Ian Carroll&lt;/a> - NASA Goddard Space Flight Center; University of Maryland Baltimore County (first author)&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1495436" target="_blank" rel="noopener" >Kelsey Bisson&lt;/a> - NASA Headquarters&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1376909" target="_blank" rel="noopener" >Sean Foley&lt;/a> - NASA Goddard Space Flight Center; Morgan State University&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/741441" target="_blank" rel="noopener" >Patrick Clifton Gray&lt;/a> - University of Maine&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/23781" target="_blank" rel="noopener" >Elizabeth E Holmes&lt;/a> - NOAA Fisheries&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1492013" target="_blank" rel="noopener" >Carina Poulin&lt;/a> - Science Systems and Applications, Inc.; NASA Goddard Space Flight Center&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1306597" target="_blank" rel="noopener" >Tasha Snow&lt;/a> - NASA Goddard Space Flight Center; University of Maryland College Park&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1076991" target="_blank" rel="noopener" >Guoqing Wang&lt;/a> - NASA Goddard Space Flight Center; Science Systems and Applications, Inc.&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/38898" target="_blank" rel="noopener" >Jeremy Werdell&lt;/a> - NASA Goddard Space Flight Center&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1466866" target="_blank" rel="noopener" >Anna Windle&lt;/a> - NASA Goddard Space Flight Center; Science Systems and Applications, Inc.&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/66734" target="_blank" rel="noopener" >Pengwang Zhai&lt;/a> - Department of Physics, University of Maryland Baltimore County&lt;/li>
+&lt;/ul>
+&lt;h2 id="in13a-2147-including-more-solutions-and-more-solvers-via-actionable-open-science">
+IN13A-2147 Including more solutions and more solvers via actionable open science
+&lt;a class="header-anchor" href="#in13a-2147-including-more-solutions-and-more-solvers-via-actionable-open-science">#&lt;/a>
+&lt;/h2>&lt;p>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1709763" target="_blank" rel="noopener" >Link to session&lt;/a>&lt;/p>
+&lt;p>Monday, 9 December 2024
+13:40 - 17:30&lt;br>
+Hall B-C (Poster Hall) (Convention Center)&lt;/p>
+&lt;h3 id="abstract-2">
+Abstract
+&lt;a class="header-anchor" href="#abstract-2">#&lt;/a>
+&lt;/h3>&lt;p>If we&amp;rsquo;re asking people to change for open science, we must be willing to change ourselves. Internalizing this as individuals and institutions is critical - &amp;ldquo;to address our climate emergency, we must rapidly, radically reshape society. We need every solution and every solver&amp;rdquo; (Johnson &amp;amp; Wilkinson, All We Can Save).&lt;/p>
+&lt;p>Radically reshaping our society and including more solvers requires Earth scientists of all disciplines, across AGU, to work together in new ways. Many of these shifts can be considered Open science. They change how we work daily, not just the open products we produce. And for that, people need to consider themselves part of a team, let go of perfection and embrace a growth mindset to continually reflect and improve skills – no matter their job title. Further, open science requires all of us to see ourselves as leaders making small changes that collectively add up to a movement.&lt;/p>
+&lt;p>Openscapes is an open source approach to cultivating leaders and change makers. Openscapes&amp;rsquo; flywheel approach intervenes and builds momentum through identifying mentors within organizations and mentoring teams curious about shifting to open science (Robinson &amp;amp; Lowndes 2022). Collectively, the Openscapes flywheel iterations have had a significant impact over the past five years across institutions like the federal government and academia that seem impossible to change. Through stories working with professional scientists over the past 5 years including at NASA, NOAA, Black Women in Ecology, Evolution, and Marine Science, and many universities, and open source software communities like 2i2c, Posit, Pangeo, and RLadies, we will share actionable insights for flourishing in the open science commons, and are interested in learning with and growing flywheel momentum further at AGU.&lt;/p>
+&lt;h3 id="authors-2">
+Authors
+&lt;a class="header-anchor" href="#authors-2">#&lt;/a>
+&lt;/h3>&lt;ul>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/259076" target="_blank" rel="noopener" >Julia S. Stewart Lowndes&lt;/a> - Openscapes, LLC (first author)&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/710145" target="_blank" rel="noopener" >Ileana Faye Fenwick&lt;/a> - Hampton University&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/23781" target="_blank" rel="noopener" >Elizabeth E Holmes&lt;/a> - NOAA Fisheries&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/156587" target="_blank" rel="noopener" >Luis Alberto Lopez&lt;/a> - National Snow and Ice Data Center (NSIDC), CIRES, University of Colorado Boulder&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1117961" target="_blank" rel="noopener" >Erin Robinson&lt;/a> - Self Employed&lt;/li>
+&lt;/ul>
+&lt;h2 id="in34a-01-beyond-open-data-ensuring-true-accessibility-for-all-invited">
+IN34A-01 Beyond Open Data: Ensuring True Accessibility for All (Invited)
+&lt;a class="header-anchor" href="#in34a-01-beyond-open-data-ensuring-true-accessibility-for-all-invited">#&lt;/a>
+&lt;/h2>&lt;p>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1522970" target="_blank" rel="noopener" >Link to session&lt;/a>&lt;/p>
+&lt;h3 id="abstract-3">
+Abstract
+&lt;a class="header-anchor" href="#abstract-3">#&lt;/a>
+&lt;/h3>&lt;p>The Earth Observation (EO) industry has seen rapid technological advancements alongside a massive increase in the number of private and public missions, leading to exponentially growing data archives. For publicly funded entities, this data is typically required to be freely available. However, open data does not always guarantee accessibility, and significant barriers remain for even the most advanced users. The stagnation in the use and adoption of open data can be attributed to several factors, including 1) challenges in unifying and maintaining metadata standards, 2) inefficiencies associated with legacy data formats, 3) a lack of training and resources for transitioning to cloud-based infrastructure, and 4) systemic social inequalities.&lt;/p>
+&lt;p>This talk will explore real-life examples of these barriers and highlight success stories that have emerged from partnerships largely originating within open-source communities which foster diverse connections between private and public entities including efforts like GeoZarr, pangeo-forge, Openscapes and 2i2c. While many advancements in improving the usability and accessibility of EO data have come from private efforts (i.e. Google Earth Engine), the shutdown of the Planetary Computer is a reminder of the need for publicly funded alternatives. The sustainability of open source projects will be addressed, with questions posed around reliable funding mechanisms as a means to ensure equitable development to address barriers and ensure accessibility for all. While this talk will be presented by one individual, it is the review and reflection of the work done by dozens of people across various organizations.&lt;/p>
+&lt;h3 id="authors-3">
+Authors
+&lt;a class="header-anchor" href="#authors-3">#&lt;/a>
+&lt;/h3>&lt;ul>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1267904" target="_blank" rel="noopener" >Brianna Rita Pagán&lt;/a> - NASA Goddard Space Flight Center; ADNET Systems Inc. Greenbelt (first author)&lt;/li>
+&lt;/ul>
+&lt;h2 id="introducing-geolab---an-earthscope-jupyterhub-for-enabling-collaborative-cloud-native-geophysical-data-analysis-and-skill-development-workshops">
+Introducing GeoLab - An EarthScope JupyterHub for Enabling Collaborative Cloud-Native Geophysical Data Analysis and Skill Development Workshops
+&lt;a class="header-anchor" href="#introducing-geolab---an-earthscope-jupyterhub-for-enabling-collaborative-cloud-native-geophysical-data-analysis-and-skill-development-workshops">#&lt;/a>
+&lt;/h2>&lt;p>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1645291" target="_blank" rel="noopener" >Link to session&lt;/a>&lt;/p>
+&lt;h3 id="abstract-4">
+Abstract
+&lt;a class="header-anchor" href="#abstract-4">#&lt;/a>
+&lt;/h3>&lt;p>The EarthScope Consortium manages NSF&amp;rsquo;s GAGE and SAGE facilities and makes all of its geophysical data available in a commercial cloud system. This enables EarthScope and the communities it supports to leverage the abundant computational resources and cost-effective benefits of adopting data-proximate workflows with direct access to large, analysis-ready geophysical data sets.&lt;/p>
+&lt;p>In recent years, JupyterHub environments have gained popularity with data enthusiasts for their ability to provide open access to powerful compute resources. As part of a broad effort to support communities with intuitive resources to quickly adapt their workflows to the cloud, EarthScope has partnered with 2i2c to operate a scalable JupyterHub environment in AWS that will provide equitable access to cloud compute resources for researchers, educators, and the general public. GeoLab, the EarthScope hub, is aligned with related open science initiatives to establish rigorous and transparent standards for reproducible, data-intensive workflows. In addition to promoting interdisciplinary and inter-institutional collaborative work between researchers in GeoLab, EarthScope is developing and hosting workshops that can support both in-person and asynchronous learning modules that will train users how to utilize these new resources and transition their work to the cloud. We are excited to invite all geophysical data users to participate in the vigorous growth of this new platform and collaborate with adjacent open-science compute hub initiatives.&lt;/p>
+&lt;h3 id="authors-4">
+Authors
+&lt;a class="header-anchor" href="#authors-4">#&lt;/a>
+&lt;/h3>&lt;ul>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/74000" target="_blank" rel="noopener" >Robert T Weekly&lt;/a> - EarthScope Consortium (first author)&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/84732" target="_blank" rel="noopener" >Tammy K Bravo&lt;/a> - EarthScope Consortium&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/38950" target="_blank" rel="noopener" >Jerry A Carter&lt;/a> - EarthScope Consortium&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1522227" target="_blank" rel="noopener" >Tim Dittmann&lt;/a> - EarthScope Consortium&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1293466" target="_blank" rel="noopener" >Alex Hamilton&lt;/a> - EarthScope Consortium&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/57436" target="_blank" rel="noopener" >David Mencin&lt;/a> - EarthScope Consortium&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/13120" target="_blank" rel="noopener" >Chad Trabant&lt;/a> - EarthScope Consortium&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1526474" target="_blank" rel="noopener" >Sarah Wilson&lt;/a> - EarthScope Consortium&lt;/li>
+&lt;/ul>
+&lt;h2 id="u13a-2349-sharing-recipes-for-cloud-computing-the-project-pythia-cookbook-initiative">
+U13A-2349 Sharing recipes for cloud computing: the Project Pythia Cookbook Initiative
+&lt;a class="header-anchor" href="#u13a-2349-sharing-recipes-for-cloud-computing-the-project-pythia-cookbook-initiative">#&lt;/a>
+&lt;/h2>&lt;p>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1697601" target="_blank" rel="noopener" >Link to session&lt;/a>&lt;/p>
+&lt;h3 id="abstract-5">
+Abstract
+&lt;a class="header-anchor" href="#abstract-5">#&lt;/a>
+&lt;/h3>&lt;p>Project Pythia is the flagship education and training initiative of the Pangeo community. Pangeo has advanced transformative platforms and paradigms for &amp;ldquo;Big Data&amp;rdquo; geoscience in the cloud; Pythia is creating on-ramps for new users with open, interactive learning resources centered on Python in the geosciences. Pythia is now building a vibrant community-owned clearinghouse of accessible, reusable, and reproducible tutorials and exemplar workflows in the cloud known as Pythia Cookbooks.&lt;/p>
+&lt;p>&amp;ldquo;Cookbooks&amp;rdquo; imply collections of recipes for transforming raw ingredients (publicly available data) into scientifically useful results. Based on Jupyter notebooks, Cookbooks are explicitly tied to reproducible computational environments and supported by a rich cloud-based infrastructure enabling collaborative authoring and automated health-checking – essential tools in the struggle against the widespread notebook obsolescence problem. Cookbooks are hosted on Pythia&amp;rsquo;s searchable gallery and nurtured by a growing community of open science enthusiasts from across the geosciences. The Pythia Cookbook gallery is essentially a crowd-sourced, community-curated collection of best practices for data analysis and visualization.&lt;/p>
+&lt;p>Here we will outline the stack of technologies and infrastructure enabling cookbook creation, collaboration, testing, publication, and interactive deployment, and how these are used in service of building an inclusive participatory community. We will discuss existing technical and social hurdles for contributors, as well as new infrastructure developments in collaboration with the Executable Books Project that are reducing these hurdles.&lt;/p>
+&lt;h3 id="authors-5">
+Authors
+&lt;a class="header-anchor" href="#authors-5">#&lt;/a>
+&lt;/h3>&lt;ul>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/10645" target="_blank" rel="noopener" >Brian E J Rose&lt;/a> - University at Albany State University of New York (first author)&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1112151" target="_blank" rel="noopener" >Drew Camron&lt;/a> - University Corporation for Atmospheric Research&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/15277" target="_blank" rel="noopener" >John Clyne&lt;/a> - NCAR&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1104277" target="_blank" rel="noopener" >Orhan Eroglu&lt;/a> - NSF National Center for Atmospheric Research&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1266060" target="_blank" rel="noopener" >Robert Ford&lt;/a> - University at Albany State University of New York&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/796821" target="_blank" rel="noopener" >Julia Kent&lt;/a> - NSF National Center for Atmospheric Research&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/529702" target="_blank" rel="noopener" >Ryan May&lt;/a> - University Corporation for Atmospheric Research&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1317099" target="_blank" rel="noopener" >James Munroe&lt;/a> - 2i2c / Code for Science and Society&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/218622" target="_blank" rel="noopener" >Kevin Tyle&lt;/a> - SUNY at Albany&lt;/li>
+&lt;/ul>
+&lt;h2 id="u13a-2350-supporting-nasa-earthdata-users-in-the-cloud-nasa-openscapes-jupyterhub-and-user-onboarding--fledging">
+U13A-2350 Supporting NASA Earthdata users in the Cloud: NASA Openscapes JupyterHub and User Onboarding &amp;amp; Fledging
+&lt;a class="header-anchor" href="#u13a-2350-supporting-nasa-earthdata-users-in-the-cloud-nasa-openscapes-jupyterhub-and-user-onboarding--fledging">#&lt;/a>
+&lt;/h2>&lt;p>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1708480" target="_blank" rel="noopener" >Link to session&lt;/a>&lt;/p>
+&lt;h3 id="abstract-6">
+Abstract
+&lt;a class="header-anchor" href="#abstract-6">#&lt;/a>
+&lt;/h3>&lt;p>In this talk we will highlight our NASA Openscapes community teaching approach to using the 2i2c-managed JupyterHub – how we&amp;rsquo;ve collaboratively developed it to meet user needs, and how it continues to enable researchers and users of NASA Earthdata in the new Cloud paradigm.&lt;/p>
+&lt;p>NASA Openscapes is an open source mentor community across NASA Earth science data centers (
+&lt;a href="https://www.earthdata.nasa.gov/eosdis/daacs" target="_blank" rel="noopener" >DAACs&lt;/a>) that helps users explore and use the Cloud for their science and applications.
+&lt;a href="https://nasa-openscapes.github.io/earthdata-cloud-cookbook/" target="_blank" rel="noopener" >Earthdata Cloud Cookbook&lt;/a> is a learner-focused open source tutorial collection that we update openly as we learn together.&lt;/p>
+&lt;p>A critical piece of the NASA Openscapes effort is our &lt;strong>NASA Openscapes 2i2c JupyterHub&lt;/strong>, a managed cloud computing space. By working with cloud early adopters and science
+&lt;a href="https://nasa-openscapes.github.io/news/2024-07-24-2024-nasa-champions-cohort/" target="_blank" rel="noopener" >Champions&lt;/a>, responding and co-developing solutions, the JupyterHub has evolved since its early days in 2021. We support cloud computing for several languages (python, R, Matlab, QGIS) and common science libraries with
+&lt;a href="https://github.com/nasa-openscapes/corn" target="_blank" rel="noopener" >corn&lt;/a>; we streamlined how to bulk-add workshop participants via GitHub Teams; we established policy and technology for a special authentication mechanism for large scale workshops; we are developing earthaccess as an community-developed python library for NASA Earthdata search and access, whether locally or in the cloud.&lt;/p>
+&lt;p>Based on the last 3 years of engaging with the user community and the Hub, we have &lt;strong>evolved&lt;/strong> how we &lt;strong>onboard&lt;/strong> (first experience in the cloud) and &lt;strong>fledge&lt;/strong> (set up for Cloud that includes a plan, how to do it, how to pay for it; leaving the nest and perhaps building your own). Fledging is an important part of adoption and initiating users to the Cloud - where do researchers go when they decide to do their science in the Cloud? We&amp;rsquo;ve been developing practices that aim to be equitable and consider policy (cost), technical (where do people go, what admin setup is needed, what tech like base images etc are needed), and social (how do I learn, get support) aspects, and look forward to discussing further at AGU.&lt;/p>
+&lt;h3 id="authors-6">
+Authors
+&lt;a class="header-anchor" href="#authors-6">#&lt;/a>
+&lt;/h3>&lt;ul>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/259076" target="_blank" rel="noopener" >Julia S. Stewart Lowndes&lt;/a> - Openscapes, LLC (first author)&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1187283" target="_blank" rel="noopener" >Andrew Barrett&lt;/a> - National Snow and Ice Data Center (NSIDC)&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/153347" target="_blank" rel="noopener" >Carl Boettiger&lt;/a> - University of California Santa Cruz&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/249458" target="_blank" rel="noopener" >Aaron M Friesz&lt;/a> - Organization Not Listed&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/23781" target="_blank" rel="noopener" >Elizabeth E Holmes&lt;/a> - NOAA Fisheries&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1187291" target="_blank" rel="noopener" >Alexis Hunzinger&lt;/a> - NASA Goddard Space Flight Center&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1232669" target="_blank" rel="noopener" >Daniel Kaufman&lt;/a> - NASA Langley Research Center&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/156587" target="_blank" rel="noopener" >Luis Alberto Lopez&lt;/a> - National Snow and Ice Data Center (NSIDC), CIRES, University of Colorado Boulder&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/64338" target="_blank" rel="noopener" >Catalina M Oaida Taglialatela&lt;/a> - NASA Jet Propulsion Laboratory, California Institute of Technology&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/773544" target="_blank" rel="noopener" >Yuvi Panda&lt;/a> - University of California, Berkeley&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/153320" target="_blank" rel="noopener" >Michele Thornton&lt;/a> - Oak Ridge National Laboratory&lt;/li>
+&lt;/ul>
+&lt;h2 id="v31a-08-victor--a-new-cyber-infrastructure-for-volcanology">
+V31A-08 VICTOR – A new Cyber-infrastructure for Volcanology
+&lt;a class="header-anchor" href="#v31a-08-victor--a-new-cyber-infrastructure-for-volcanology">#&lt;/a>
+&lt;/h2>&lt;p>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1605357" target="_blank" rel="noopener" >Link to session&lt;/a>&lt;/p>
+&lt;h3 id="abstract-7">
+Abstract
+&lt;a class="header-anchor" href="#abstract-7">#&lt;/a>
+&lt;/h3>&lt;p>Numerical models are essential for forecasting volcanic hazards for both short-term responses and long-term hazard assessment. While many models of volcanic processes already exist, challenges in finding, installing, and evaluating these models, coupled with limited computational resources, hinder their widespread use. To address this, we introduce VICTOR, the Volcanology Infrastructure for Computational Tools and Resources.&lt;/p>
+&lt;p>VICTOR is a cutting-edge cyber-infrastructure platform offering an open-source, cloud-based environment tailored for the volcanology community. It features Jupyter notebooks that integrate existing volcano models, such as the lava flow codes MOLASSES and IMEX_lava, the tephra and ash dispersal codes Tephra2 and HYSPLIT, and the mass flow code TITAN2D. The backend of VICTOR is managed as a JupyterHub, operated by the non-profit 2i2c under the Code for Science and Society.&lt;/p>
+&lt;p>VICTOR not only provides access to individual modeling tools, but also hosts workflows that use them in data inversion, model benchmarking, and uncertainty quantification. For example, we developed a workflow to validate mass flow models using multiple metrics and Bayesian statistics. VICTOR provides built-in access to external databases such as OpenTopography, Copernicus, and NASA&amp;rsquo;s remote sensing products to streamline obtaining and using data in workflows.&lt;/p>
+&lt;p>VICTOR also serves as an educational resource. In Spring 2023 and 2024 we taught graduate level, multi-institutional courses in Computational Volcanology using VICTOR, and we are creating multilingual tutorials for the workflows. We are developing teaching modules on topics such as lava flows and remote sensing to be shared with instructors. Lastly, VICTOR collaborates with national efforts including CONVERSE and SZ4D.&lt;/p>
+&lt;p>In summary, VICTOR addresses the critical need for accessible, effective volcanic hazard modeling tools and resources, fostering advancements in both research and education within the volcanology community.&lt;/p>
+&lt;h3 id="plain-language-summary">
+Plain-language Summary
+&lt;a class="header-anchor" href="#plain-language-summary">#&lt;/a>
+&lt;/h3>&lt;p>VICTOR is a new online platform designed to help scientists predict volcanic hazards more easily. Traditional models can be difficult to find, use, and combine with other tools. VICTOR solves these problems by offering a cloud-based, open-source environment with user-friendly tools.&lt;/p>
+&lt;p>VICTOR includes tools like Jupyter notebooks that combine various volcano models for lava flows, ash dispersal, and mass movements. It operates through JupyterHub, managed by the non-profit 2i2c. The platform not only provides access to these models but also offers workflows for tasks like data analysis and model validation. For example, it has a workflow for testing mass flow models using multiple evaluation methods.&lt;/p>
+&lt;p>VICTOR simplifies data access by connecting directly to databases like OpenTopography and NASA&amp;rsquo;s remote sensing products. It&amp;rsquo;s also an educational tool, used in graduate courses and offering multilingual tutorials. Additionally, VICTOR is developing teaching materials on topics like lava flows and remote sensing and collaborates with national projects like CONVERSE and SZ4D.&lt;/p>
+&lt;p>In essence, VICTOR makes volcanic hazard modeling more accessible and effective, benefiting both research and education in volcanology.&lt;/p>
+&lt;h3 id="authors-7">
+Authors
+&lt;a class="header-anchor" href="#authors-7">#&lt;/a>
+&lt;/h3>&lt;ul>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/23513" target="_blank" rel="noopener" >Einat Lev&lt;/a> - Columbia University of New York (first author)&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/82273" target="_blank" rel="noopener" >Sylvain J Charbonnier&lt;/a> - University of South Florida&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/12431" target="_blank" rel="noopener" >Charles Connor&lt;/a> - University of South Florida&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1565568" target="_blank" rel="noopener" >Samuel Krasnoff&lt;/a> - Lamont -Doherty Earth Observatory&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/880" target="_blank" rel="noopener" >Abani K Patra&lt;/a> - University at Buffalo&lt;/li>
+&lt;/ul></description></item><item><title>NeuroHackademy Summer School Reflections</title><link>https://2i2c.org/blog/2024/neurohackademy-summer-school-reflections/</link><pubDate>Mon, 19 Aug 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/neurohackademy-summer-school-reflections/</guid><description>&lt;p>&lt;em>Thank you to Ariel Rokem and Noah Benson for guest writing this blog post!&lt;/em>&lt;/p>
 &lt;p>
 &lt;figure id="figure-group-photo-from-neurohackademy-2024">
 &lt;div class="d-flex justify-content-center">
@@ -18,18 +295,14 @@ Group photo from NeuroHackademy 2024
 What is NeuroHackademy?
 &lt;a class="header-anchor" href="#what-is-neurohackademy">#&lt;/a>
 &lt;/h2>&lt;p>Part summer school, part free-wheeling hackathon, all focused on the use of data science methods in neuroscience, NeuroHackademy is an event that was recently hosted by the
-&lt;a href="http://escience.washington.edu/" target="_blank" rel="noopener" >University of Washington eScience Institute&lt;/a>
-in Seattle, WA, USA. This event, that has been running annually since 2016, aims to provide early-career researchers in Psychology, Medicine, Neuroscience, and other related fields with the skills and knowledge that they need to effectively and rigorously work with open source tools and workflows for analyzing human neuroscience data. This supports the effort to make scientific analysis and results shareable, reproducible, and accessible.&lt;/p>
+&lt;a href="http://escience.washington.edu/" target="_blank" rel="noopener" >University of Washington eScience Institute&lt;/a> in Seattle, WA, USA. This event, that has been running annually since 2016, aims to provide early-career researchers in Psychology, Medicine, Neuroscience, and other related fields with the skills and knowledge that they need to effectively and rigorously work with open source tools and workflows for analyzing human neuroscience data. This supports the effort to make scientific analysis and results shareable, reproducible, and accessible.&lt;/p>
 &lt;h2 id="global-and-inclusive">
 Global and inclusive
 &lt;a class="header-anchor" href="#global-and-inclusive">#&lt;/a>
 &lt;/h2>&lt;p>In 2020, the event had to rapidly pivot to an online format, and this format was also used in 2021. Through this experience, the organizers (
-&lt;a href="https://arokem.org/" target="_blank" rel="noopener" >Ariel Rokem&lt;/a>
-and
-&lt;a href="https://nben.net/" target="_blank" rel="noopener" >Noah Benson&lt;/a>
-) realized that many participants preferred the online format. For example, participants who could not afford to travel to Seattle, or participants who had care-taking responsibilities that precluded them from participating in a two-week event away from their homes. In 2022, the event pioneered a hybrid format, where half of the participants are present in-person and half join the event via zoom, slack, GitHub, and of course through a dedicated 2i2c JupyterHub. Taken together, this format allows the participation of students from a larger range of backgrounds and locations. This aspect plays an important part in building a global and inclusive community of practice. See the paper
-&lt;a href="https://pubmed.ncbi.nlm.nih.gov/38763989/" target="_blank" rel="noopener" >Hands-On Neuroinformatics Education at the Crossroads of Online and In-Person: Lessons Learned from NeuroHackademy&lt;/a>
-to read more on this subject.&lt;/p>
+&lt;a href="https://arokem.org/" target="_blank" rel="noopener" >Ariel Rokem&lt;/a> and
+&lt;a href="https://nben.net/" target="_blank" rel="noopener" >Noah Benson&lt;/a>) realized that many participants preferred the online format. For example, participants who could not afford to travel to Seattle, or participants who had care-taking responsibilities that precluded them from participating in a two-week event away from their homes. In 2022, the event pioneered a hybrid format, where half of the participants are present in-person and half join the event via zoom, slack, GitHub, and of course through a dedicated 2i2c JupyterHub. Taken together, this format allows the participation of students from a larger range of backgrounds and locations. This aspect plays an important part in building a global and inclusive community of practice. See the paper
+&lt;a href="https://pubmed.ncbi.nlm.nih.gov/38763989/" target="_blank" rel="noopener" >Hands-On Neuroinformatics Education at the Crossroads of Online and In-Person: Lessons Learned from NeuroHackademy&lt;/a> to read more on this subject.&lt;/p>
 &lt;h2 id="collaboration-with-2i2c">
 Collaboration with 2i2c
 &lt;a class="header-anchor" href="#collaboration-with-2i2c">#&lt;/a>
@@ -38,30 +311,23 @@ Collaboration with 2i2c
 Previous years
 &lt;a class="header-anchor" href="#previous-years">#&lt;/a>
 &lt;/h3>&lt;p>NeuroHackademy has been an early adopter of the cloud-based JupyterHub model, setting up its first hub using the zero-to-jupyterhub guide in 2018. NeuroHackademy partnered with 2i2c as soon as it was founded, and 2i2c has operated a JupyterHub for the last 3 years. The hub provides an interactive computing platform for learners, and implements the &amp;ldquo;digital watering hole&amp;rdquo; for practical and immediate access to a range of cloud-based datasets in human neuroscience (see
-&lt;a href="https://2i2c.org/blog/2024/neurohackademy-summer-school/" >blog post&lt;/a>
-announcing support for this year&amp;rsquo;s event).&lt;/p>
+&lt;a href="https://2i2c.org/blog/2024/neurohackademy-summer-school/" >blog post&lt;/a> announcing support for this year&amp;rsquo;s event).&lt;/p>
 &lt;p>In terms of the software environment, the following tools and features that have benefited the event over the years include&lt;/p>
 &lt;ul>
 &lt;li>
-&lt;a href="https://github.com/jupyterhub/nbgitpuller" target="_blank" rel="noopener" >&lt;code>nbgitpuller&lt;/code>&lt;/a>
-allows students to synchronise lesson content with an organizational GitHub repository that is collaboratively maintained by the lesson instructors.&lt;/li>
+&lt;a href="https://github.com/jupyterhub/nbgitpuller" target="_blank" rel="noopener" >&lt;code>nbgitpuller&lt;/code>&lt;/a> allows students to synchronise lesson content with an organizational GitHub repository that is collaboratively maintained by the lesson instructors.&lt;/li>
 &lt;li>
-&lt;a href="https://docs.2i2c.org/user/topics/data/sharing/" target="_blank" rel="noopener" >Shared data file storage&lt;/a>
-with read-only access for learners and read-write access for instructors&lt;/li>
+&lt;a href="https://docs.2i2c.org/user/topics/data/sharing/" target="_blank" rel="noopener" >Shared data file storage&lt;/a> with read-only access for learners and read-write access for instructors&lt;/li>
 &lt;li>Access to an abundance of neuroimaging data hosted in cloud object storage
 &lt;ul>
 &lt;li>
-&lt;a href="https://www.humanconnectome.org/" target="_blank" rel="noopener" >The Human Connectome Project&lt;/a>
-&lt;/li>
+&lt;a href="https://www.humanconnectome.org/" target="_blank" rel="noopener" >The Human Connectome Project&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://naturalscenesdataset.org/" target="_blank" rel="noopener" >The Natural Scenes Dataset&lt;/a>
-&lt;/li>
+&lt;a href="https://naturalscenesdataset.org/" target="_blank" rel="noopener" >The Natural Scenes Dataset&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://openneuro.org/" target="_blank" rel="noopener" >OpenNeuro&lt;/a>
-&lt;/li>
+&lt;a href="https://openneuro.org/" target="_blank" rel="noopener" >OpenNeuro&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://fcp-indi.s3.amazonaws.com/index.html#data/Projects/HBN/" target="_blank" rel="noopener" >The Healthy Brain Network&lt;/a>
-&lt;/li>
+&lt;a href="https://fcp-indi.s3.amazonaws.com/index.html#data/Projects/HBN/" target="_blank" rel="noopener" >The Healthy Brain Network&lt;/a>&lt;/li>
 &lt;li>And more.&lt;/li>
 &lt;/ul>
 &lt;/li>
@@ -72,70 +338,53 @@ This year
 &lt;/h3>&lt;p>This year 2i2c supported the following tools and features for NeuroHackademy&lt;/p>
 &lt;ul>
 &lt;li>A &amp;ldquo;Bring your own image&amp;rdquo; option where users can pull any image hosted on a container registry into the hub. See our
-&lt;a href="https://2i2c.org/blog/2024/jupyterhub-binderhub-gesis/" >Integrating BinderHub with JupyterHub: Empowering users to manage their own environments&lt;/a>
-blog post for more details.&lt;/li>
+&lt;a href="https://2i2c.org/blog/2024/jupyterhub-binderhub-gesis/" >Integrating BinderHub with JupyterHub: Empowering users to manage their own environments&lt;/a> blog post for more details.&lt;/li>
 &lt;li>
-&lt;a href="https://github.com/jupyterhub/repo2docker" target="_blank" rel="noopener" >&lt;code>repo2docker&lt;/code>&lt;/a>
-and GitHub actions to build and prototype images from a repository.&lt;/li>
+&lt;a href="https://github.com/jupyterhub/repo2docker" target="_blank" rel="noopener" >&lt;code>repo2docker&lt;/code>&lt;/a> and GitHub actions to build and prototype images from a repository.&lt;/li>
 &lt;li>The support services provided by 2i2c and the ability for instructors to
-&lt;a href="https://infrastructure.2i2c.org/contributing/community-partner/" target="_blank" rel="noopener" >open pull requests on 2i2c infrastructure&lt;/a>
-for speedy resolution.&lt;/li>
+&lt;a href="https://infrastructure.2i2c.org/contributing/community-partner/" target="_blank" rel="noopener" >open pull requests on 2i2c infrastructure&lt;/a> for speedy resolution.&lt;/li>
 &lt;li>GPU instances to support more compute intensive workloads for machine learning.&lt;/li>
 &lt;/ul>
 &lt;h3 id="next-year">
 Next year
 &lt;a class="header-anchor" href="#next-year">#&lt;/a>
 &lt;/h3>&lt;p>One thing we have learned is that 2i2c automatically
-&lt;a href="https://docs.2i2c.org/admin/howto/control-user-server/#stop-user-servers-after-inactivity" target="_blank" rel="noopener" >shuts down a user server after one hour of inactivity&lt;/a>
-by default to ensure efficient resource usage and limit runaway cloud costs. Naturally, we are seeing increasing demand from learners for longer and more complex analyses. In response to this, we are keen to explore how the
-&lt;a href="https://github.com/minrk/jupyter-keepalive" target="_blank" rel="noopener" >&lt;code>jupyter-keepalive&lt;/code>&lt;/a>
-extension can keep the server alive for long-running processes.&lt;/p>
+&lt;a href="https://docs.2i2c.org/admin/howto/control-user-server/#stop-user-servers-after-inactivity" target="_blank" rel="noopener" >shuts down a user server after one hour of inactivity&lt;/a> by default to ensure efficient resource usage and limit runaway cloud costs. Naturally, we are seeing increasing demand from learners for longer and more complex analyses. In response to this, we are keen to explore how the
+&lt;a href="https://github.com/minrk/jupyter-keepalive" target="_blank" rel="noopener" >&lt;code>jupyter-keepalive&lt;/code>&lt;/a> extension can keep the server alive for long-running processes.&lt;/p>
 &lt;p>We are pleased that learners have made great progress in making use of cloud-native, open-source workflows for analyzing human neuroscience data. We are keen to benefit from lessons learned this year and are looking forward to collaborating with 2i2c once again to deliver the NeuroHackademy Summer School in 2025.&lt;/p>
 &lt;p>Watch this space next year!&lt;/p>
 &lt;h2 id="acknowledgements">
 Acknowledgements
 &lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
 &lt;/h2>&lt;p>Funded by grant
-&lt;a href="https://pubmed.ncbi.nlm.nih.gov/38763989/" target="_blank" rel="noopener" >R25MH112480&lt;/a>
-from the US National Institute of Mental Health awarded to
-&lt;a href="https://arokem.org/" target="_blank" rel="noopener" >Ariel Rokem&lt;/a>
-and
-&lt;a href="https://nben.net/" target="_blank" rel="noopener" >Noah Benson&lt;/a>
-.&lt;/p>
+&lt;a href="https://pubmed.ncbi.nlm.nih.gov/38763989/" target="_blank" rel="noopener" >R25MH112480&lt;/a> from the US National Institute of Mental Health awarded to
+&lt;a href="https://arokem.org/" target="_blank" rel="noopener" >Ariel Rokem&lt;/a> and
+&lt;a href="https://nben.net/" target="_blank" rel="noopener" >Noah Benson&lt;/a>.&lt;/p>
 &lt;p>The NeuroHackademy Summer School is sponsored by&lt;/p>
 &lt;ul>
 &lt;li>
-&lt;a href="http://escience.washington.edu/" target="_blank" rel="noopener" >University of Washington eScience Institute&lt;/a>
-&lt;/li>
+&lt;a href="http://escience.washington.edu/" target="_blank" rel="noopener" >University of Washington eScience Institute&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="http://www.moore.org/" target="_blank" rel="noopener" >Gordon and Betty Moore Foundation&lt;/a>
-&lt;/li>
+&lt;a href="http://www.moore.org/" target="_blank" rel="noopener" >Gordon and Betty Moore Foundation&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="http://sloan.org/" target="_blank" rel="noopener" >Alfred P. Sloan Foundation&lt;/a>
-&lt;/li>
+&lt;a href="http://sloan.org/" target="_blank" rel="noopener" >Alfred P. Sloan Foundation&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="http://www.washington.edu/" target="_blank" rel="noopener" >University of Washington&lt;/a>
-&lt;/li>
+&lt;a href="http://www.washington.edu/" target="_blank" rel="noopener" >University of Washington&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://www.utexas.edu/" target="_blank" rel="noopener" >The University of Texas at Austin&lt;/a>
-&lt;/li>
+&lt;a href="https://www.utexas.edu/" target="_blank" rel="noopener" >The University of Texas at Austin&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://www.nimh.nih.gov/" target="_blank" rel="noopener" >National Institute of Mental Health&lt;/a>
-&lt;/li>
+&lt;a href="https://www.nimh.nih.gov/" target="_blank" rel="noopener" >National Institute of Mental Health&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://www.nsf.gov/" target="_blank" rel="noopener" >National Science Foundation&lt;/a>
-.&lt;/li>
+&lt;a href="https://www.nsf.gov/" target="_blank" rel="noopener" >National Science Foundation&lt;/a>.&lt;/li>
 &lt;/ul>
 &lt;h2 id="references">
 References
 &lt;a class="header-anchor" href="#references">#&lt;/a>
 &lt;/h2>&lt;ul>
 &lt;li>
-&lt;a href="https://github.com/NeuroHackademy2024" target="_blank" rel="noopener" >NeuroHackademy2024 GitHub Organization&lt;/a>
-&lt;/li>
+&lt;a href="https://github.com/NeuroHackademy2024" target="_blank" rel="noopener" >NeuroHackademy2024 GitHub Organization&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://doi.org/10.1007/s12021-024-09666-6" target="_blank" rel="noopener" >Hands-On Neuroinformatics Education at the Crossroads of Online and In-Person: Lessons Learned from NeuroHackademy&lt;/a>
-&lt;/li>
+&lt;a href="https://doi.org/10.1007/s12021-024-09666-6" target="_blank" rel="noopener" >Hands-On Neuroinformatics Education at the Crossroads of Online and In-Person: Lessons Learned from NeuroHackademy&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>Keeping PACE with GPU enabled compute to detect global cloud cover using satellite data</title><link>https://2i2c.org/blog/2024/pace-hackweek/</link><pubDate>Mon, 12 Aug 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/pace-hackweek/</guid><description>&lt;p>
 &lt;figure id="figure-left-bw-model-inputs-and-right-color-model-outputs-of-a-simple-multi-layer-perceptronhttpspacehackweekgithubiopace-2024presentationshackweekml_cloud_maskhtmla-simple-multi-layer-perceptron-for-detecting-cloud-cover">
 &lt;div class="d-flex justify-content-center">
@@ -149,36 +398,25 @@ height="384"
 loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;figcaption>
 (left, b&amp;amp;w) Model inputs and (right, color) model outputs of a
-&lt;a href="https://pacehackweek.github.io/pace-2024/presentations/hackweek/ml_cloud_mask.html#a-simple-multi-layer-perceptron" target="_blank" rel="noopener" >simple multi-layer perceptron&lt;/a>
-for detecting cloud cover.
+&lt;a href="https://pacehackweek.github.io/pace-2024/presentations/hackweek/ml_cloud_mask.html#a-simple-multi-layer-perceptron" target="_blank" rel="noopener" >simple multi-layer perceptron&lt;/a> for detecting cloud cover.
 &lt;/figcaption>&lt;/figure>
 &lt;/p>
 &lt;p>
-&lt;a href="https://pace.gsfc.nasa.gov/" target="_blank" rel="noopener" >PACE&lt;/a>
-is the NASA Plankton, Aerosol, Cloud, ocean Ecosystem mission that focuses on understanding ocean health and its impact on the atmosphere. Together with the
-&lt;a href="https://www.us-ocb.org/" target="_blank" rel="noopener" >Ocean Carbon and Biochemistry (OCB)&lt;/a>
-program, a one-week
-&lt;a href="https://pacehackweek.github.io/pace-2024/" target="_blank" rel="noopener" >hackathon&lt;/a>
-ran from Aug 4 to Aug 8 on the 2i2c-hosted
-&lt;a href="https://cryointhecloud.com/" target="_blank" rel="noopener" >CryoCloud&lt;/a>
-hub. The goal of the hackathon was to explore new Earth science data streams provided by the
-&lt;a href="https://pace.oceansciences.org/oci.htm" target="_blank" rel="noopener" >OCI&lt;/a>
-,
-&lt;a href="https://pace.oceansciences.org/spexone.htm" target="_blank" rel="noopener" >SPEXone&lt;/a>
-and
-&lt;a href="https://pace.oceansciences.org/harp2.htm" target="_blank" rel="noopener" >HARP2&lt;/a>
-instruments using Python.&lt;/p>
+&lt;a href="https://pace.gsfc.nasa.gov/" target="_blank" rel="noopener" >PACE&lt;/a> is the NASA Plankton, Aerosol, Cloud, ocean Ecosystem mission that focuses on understanding ocean health and its impact on the atmosphere. Together with the
+&lt;a href="https://www.us-ocb.org/" target="_blank" rel="noopener" >Ocean Carbon and Biochemistry (OCB)&lt;/a> program, a one-week
+&lt;a href="https://pacehackweek.github.io/pace-2024/" target="_blank" rel="noopener" >hackathon&lt;/a> ran from Aug 4 to Aug 8 on the 2i2c-hosted
+&lt;a href="https://cryointhecloud.com/" target="_blank" rel="noopener" >CryoCloud&lt;/a> hub. The goal of the hackathon was to explore new Earth science data streams provided by the
+&lt;a href="https://pace.oceansciences.org/oci.htm" target="_blank" rel="noopener" >OCI&lt;/a>,
+&lt;a href="https://pace.oceansciences.org/spexone.htm" target="_blank" rel="noopener" >SPEXone&lt;/a> and
+&lt;a href="https://pace.oceansciences.org/harp2.htm" target="_blank" rel="noopener" >HARP2&lt;/a> instruments using Python.&lt;/p>
 &lt;h2 id="machine-learning-with-gpus">
 Machine Learning with GPUs
 &lt;a class="header-anchor" href="#machine-learning-with-gpus">#&lt;/a>
 &lt;/h2>&lt;p>One of the most advanced tutorials delivered during the hackathon was the
-&lt;a href="https://pacehackweek.github.io/pace-2024/presentations/hackweek/ml_cloud_mask.html" target="_blank" rel="noopener" >Machine Learning Tutorial&lt;/a>
-. The tutorial focused on creating a machine learning pipeline to detect cloud cover from satellite imagery. This was done by training a convolutional neural network (CNN) to assign each pixel a binary value to indicate whether the location was covered by cloud or not. To improve the spatial context beyond a single pixel value, as the likelihood of a pixel containing cloud cover increases if its neighbours also contain cloud cover, the CNN needs to be trained on the entire image at once rather than at a single pixel level. This massively increases the training time, but also allows the CNN to learn more complex relationships between pixels.&lt;/p>
+&lt;a href="https://pacehackweek.github.io/pace-2024/presentations/hackweek/ml_cloud_mask.html" target="_blank" rel="noopener" >Machine Learning Tutorial&lt;/a>. The tutorial focused on creating a machine learning pipeline to detect cloud cover from satellite imagery. This was done by training a convolutional neural network (CNN) to assign each pixel a binary value to indicate whether the location was covered by cloud or not. To improve the spatial context beyond a single pixel value, as the likelihood of a pixel containing cloud cover increases if its neighbours also contain cloud cover, the CNN needs to be trained on the entire image at once rather than at a single pixel level. This massively increases the training time, but also allows the CNN to learn more complex relationships between pixels.&lt;/p>
 &lt;p>GPUs have a far greater number of cores than CPUs that are well-suited for accelerating the massive parallel processing needed to train a neural network on the large amounts of image data in the above scenario.
-&lt;a href="https://pytorch.org/" target="_blank" rel="noopener" >PyTorch&lt;/a>
-is a popular Python library for training CNNs, available for both CPUs and GPUs, and is an ideal tool for performing this kind of work. In terms of the accelerator hardware available on the CryoCloud hub, 2i2c provisions an instance with an
-&lt;a href="https://www.nvidia.com/en-us/data-center/tesla-t4/" target="_blank" rel="noopener" >NVIDIA Tesla T4 GPU&lt;/a>
-with 4 CPUS, 16GB of RAM and 2,560 CUDA cores.&lt;/p>
+&lt;a href="https://pytorch.org/" target="_blank" rel="noopener" >PyTorch&lt;/a> is a popular Python library for training CNNs, available for both CPUs and GPUs, and is an ideal tool for performing this kind of work. In terms of the accelerator hardware available on the CryoCloud hub, 2i2c provisions an instance with an
+&lt;a href="https://www.nvidia.com/en-us/data-center/tesla-t4/" target="_blank" rel="noopener" >NVIDIA Tesla T4 GPU&lt;/a> with 4 CPUS, 16GB of RAM and 2,560 CUDA cores.&lt;/p>
 &lt;h2 id="managing-shared-memory-on-2i2c-hubs">
 Managing shared memory on 2i2c hubs
 &lt;a class="header-anchor" href="#managing-shared-memory-on-2i2c-hubs">#&lt;/a>
@@ -190,18 +428,14 @@ Managing shared memory on 2i2c hubs
 &lt;/div>
 &lt;/div>
 &lt;p>As you might expect, 64 MB of shared memory is not enough for training over 160,000 images in the tutorial. 2i2c was able to remove the limit, making &lt;code>/dev/shm&lt;/code> share the memory the user has selected via their profile list, rather than be artificially limited to any particular size. This was done for &lt;em>all&lt;/em> users on the CryoCloud hub within an hour of the issue being reported and we upstreamed the change for &lt;em>all&lt;/em> 2i2c hubs (see GitHub pull requests for
-&lt;a href="https://github.com/2i2c-org/infrastructure/pull/4564" target="_blank" rel="noopener" >CryoCloud&lt;/a>
-and
-&lt;a href="https://github.com/2i2c-org/infrastructure/issues/4563" target="_blank" rel="noopener" >all 2i2c hubs&lt;/a>
-).&lt;/p>
+&lt;a href="https://github.com/2i2c-org/infrastructure/pull/4564" target="_blank" rel="noopener" >CryoCloud&lt;/a> and
+&lt;a href="https://github.com/2i2c-org/infrastructure/issues/4563" target="_blank" rel="noopener" >all 2i2c hubs&lt;/a>).&lt;/p>
 &lt;h2 id="conclusion">
 Conclusion
 &lt;a class="header-anchor" href="#conclusion">#&lt;/a>
 &lt;/h2>&lt;p>This event demonstrates the economy of how running shared and open infrastructure dynamically solves problems for the benefit of many users, not just for one occasion. Learning experiences such as the above are transferred and embedded upstream into transparent and flexible open source software that impacts not only all users of 2i2c operated hubs, but also generalized for the wider research community at large (case in point, see the Slack thread below from
-&lt;a href="https://eeholmes.github.io/" target="_blank" rel="noopener" >Eli Holmes&lt;/a>
-, operator of the
-&lt;a href="https://www.fisheries.noaa.gov/science-data/open-science-noaa-fisheries" target="_blank" rel="noopener" >NOAA Fisheries&lt;/a>
-hubs)! We are grateful for the strong partnerships with our communities who help us to co-design impactful solutions that are specific for their needs and accessible to all.&lt;/p>
+&lt;a href="https://eeholmes.github.io/" target="_blank" rel="noopener" >Eli Holmes&lt;/a>, operator of the
+&lt;a href="https://www.fisheries.noaa.gov/science-data/open-science-noaa-fisheries" target="_blank" rel="noopener" >NOAA Fisheries&lt;/a> hubs)! We are grateful for the strong partnerships with our communities who help us to co-design impactful solutions that are specific for their needs and accessible to all.&lt;/p>
 &lt;p>
 &lt;figure id="figure-the-power-of-open-infrastructure-beyond-2i2c-operated-hubs">
 &lt;div class="d-flex justify-content-center">
@@ -222,16 +456,12 @@ References and Acknowledgments
 &lt;a class="header-anchor" href="#references-and-acknowledgments">#&lt;/a>
 &lt;/h2>&lt;ul>
 &lt;li>
-&lt;a href="https://science.gsfc.nasa.gov/sci/bio/sean.r.foley" target="_blank" rel="noopener" >Sean Foley&lt;/a>
-(NASA/GSFC/SED &amp;amp; Morgan State University &amp;amp; GESTAR II)&lt;/li>
+&lt;a href="https://science.gsfc.nasa.gov/sci/bio/sean.r.foley" target="_blank" rel="noopener" >Sean Foley&lt;/a> (NASA/GSFC/SED &amp;amp; Morgan State University &amp;amp; GESTAR II)&lt;/li>
 &lt;li>
-&lt;a href="https://www.linkedin.com/in/tasha-snow-26815b23" target="_blank" rel="noopener" >Tasha Snow&lt;/a>
-(ESSIC UMD &amp;amp; NASA GSFC &amp;amp;
-&lt;a href="https://cryointhecloud.com/" target="_blank" rel="noopener" >CryoCloud&lt;/a>
-)&lt;/li>
+&lt;a href="https://www.linkedin.com/in/tasha-snow-26815b23" target="_blank" rel="noopener" >Tasha Snow&lt;/a> (ESSIC UMD &amp;amp; NASA GSFC &amp;amp;
+&lt;a href="https://cryointhecloud.com/" target="_blank" rel="noopener" >CryoCloud&lt;/a>)&lt;/li>
 &lt;li>
-&lt;a href="https://pacehackweek.github.io/pace-2024/intro.html" target="_blank" rel="noopener" >PACE Hackweek Jupyter Book&lt;/a>
-&lt;/li>
+&lt;a href="https://pacehackweek.github.io/pace-2024/intro.html" target="_blank" rel="noopener" >PACE Hackweek Jupyter Book&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>Ephemeral Interactive Computing for the AmeriGEO Workshop</title><link>https://2i2c.org/blog/2024/amerigeo-workshop/</link><pubDate>Mon, 05 Aug 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/amerigeo-workshop/</guid><description>&lt;p>
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
@@ -246,23 +476,15 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;/figure>
 &lt;/p>
 &lt;p>
-&lt;a href="https://www.amerigeo.org/" target="_blank" rel="noopener" >AmeriGEO&lt;/a>
-provides a framework for cooperation in the Americas for the use of Earth data to benefit science and society with data driven decision-making. As part of a virtual workshop held on 1st August 2024, 2i2c provided an interactive computing environment to support the delivery of a
-&lt;a href="https://www.nasa.gov/centers-and-facilities/marshall/nasa-boosts-open-science-through-innovative-training/" target="_blank" rel="noopener" >NASA TOPST&lt;/a>
-water module.&lt;/p>
+&lt;a href="https://www.amerigeo.org/" target="_blank" rel="noopener" >AmeriGEO&lt;/a> provides a framework for cooperation in the Americas for the use of Earth data to benefit science and society with data driven decision-making. As part of a virtual workshop held on 1st August 2024, 2i2c provided an interactive computing environment to support the delivery of a
+&lt;a href="https://www.nasa.gov/centers-and-facilities/marshall/nasa-boosts-open-science-through-innovative-training/" target="_blank" rel="noopener" >NASA TOPST&lt;/a> water module.&lt;/p>
 &lt;p>The workshop was facilitated by
-&lt;a href="https://people.climate.columbia.edu/users/profile/kytt-macmanus" target="_blank" rel="noopener" >Kytt MacManus&lt;/a>
-and
-&lt;a href="https://ciesin.climate.columbia.edu/directory/juan-f-martinez" target="_blank" rel="noopener" >Juan F. Martinez&lt;/a>
-(both of
-&lt;a href="http://www.ciesin.columbia.edu/" target="_blank" rel="noopener" >CIESIN&lt;/a>
-, Columbia University, New York). Juan presented interactive R code, with explanatory content written in Quarto, for hotspot vulnerability analysis for floods and landslides focused on Ecuador using earth observation data and socioeconomic data to develop an index of vulnerability. Check out their
-&lt;a href="https://github.com/ciesin-geospatial/TOPSTSCHOOL-water" target="_blank" rel="noopener" >GitHub repo&lt;/a>
-and
-&lt;a href="https://tinyurl.com/TOPSTSCHOOL" target="_blank" rel="noopener" >explore interactively yourself&lt;/a>
-on our BinderHub (see our blog post for more details of how to access the BinderHub deployments to provide
-&lt;a href="https://2i2c.org/blog/2024/nasa-ephemeral-hubs/" >Ephemeral Interactive Computing for NASA Communities&lt;/a>
-).&lt;/p>
+&lt;a href="https://people.climate.columbia.edu/users/profile/kytt-macmanus" target="_blank" rel="noopener" >Kytt MacManus&lt;/a> and
+&lt;a href="https://ciesin.climate.columbia.edu/directory/juan-f-martinez" target="_blank" rel="noopener" >Juan F. Martinez&lt;/a> (both of
+&lt;a href="http://www.ciesin.columbia.edu/" target="_blank" rel="noopener" >CIESIN&lt;/a>, Columbia University, New York). Juan presented interactive R code, with explanatory content written in Quarto, for hotspot vulnerability analysis for floods and landslides focused on Ecuador using earth observation data and socioeconomic data to develop an index of vulnerability. Check out their
+&lt;a href="https://github.com/ciesin-geospatial/TOPSTSCHOOL-water" target="_blank" rel="noopener" >GitHub repo&lt;/a> and
+&lt;a href="https://tinyurl.com/TOPSTSCHOOL" target="_blank" rel="noopener" >explore interactively yourself&lt;/a> on our BinderHub (see our blog post for more details of how to access the BinderHub deployments to provide
+&lt;a href="https://2i2c.org/blog/2024/nasa-ephemeral-hubs/" >Ephemeral Interactive Computing for NASA Communities&lt;/a>).&lt;/p>
 &lt;p>Over 100 participants were able to access the interactive workshop on our infrastructure, with 8 GB of RAM per user to facilitate the processing of large amounts of earth data. We are pleased that the workshop was successful and the platform was able to provide a great experience for participants. After the workshop, Kytt reported that&lt;/p>
 &lt;blockquote>
 &lt;p>The technology worked as expected and we didn&amp;rsquo;t run into 1 major technical problem. Thank you so much for that!&amp;quot;.&lt;/p>
@@ -274,8 +496,7 @@ Acknowledgements
 &lt;li>Funding from Science Mission Directorate’s Open Source Science Initiative, Research Opportunities in Space and Earth Science (ROSES-2022), F.14 Transform to Open Science&lt;/li>
 &lt;li>NASA NSPIRES F.15 High Priority Open-Source Science Award NNH22ZDA001N-HPOSS&lt;/li>
 &lt;li>
-&lt;a href="https://sedac.ciesin.columbia.edu/" target="_blank" rel="noopener" >NASA Socioeconomic Data and Applications Center (SEDAC)&lt;/a>
-&lt;/li>
+&lt;a href="https://sedac.ciesin.columbia.edu/" target="_blank" rel="noopener" >NASA Socioeconomic Data and Applications Center (SEDAC)&lt;/a>&lt;/li>
 &lt;li>Kytt MacManus&lt;/li>
 &lt;li>Juan F. Martinez&lt;/li>
 &lt;li>James Munroe for providing support and assistance for setting up the cyberinfrastructure for this workshop.&lt;/li>
@@ -296,26 +517,17 @@ Surface Biology and Geology: VITALS Workshop
 &lt;/figcaption>&lt;/figure>
 &lt;/p>
 &lt;p>
-&lt;a href="https://openscapes.org" target="_blank" rel="noopener" >Openscapes&lt;/a>
-is a value-based initiative that supports kinder, better science based on open source community.
-&lt;a href="https://nasa-openscapes.github.io" target="_blank" rel="noopener" >NASA Openscapes&lt;/a>
-is in its fourth year as a project supporting NASA Earth science in the Cloud, co-developed by Julia Lowndes (Openscapes) and Erin Robinson (Metadata Game Changers).&lt;/p>
+&lt;a href="https://openscapes.org" target="_blank" rel="noopener" >Openscapes&lt;/a> is a value-based initiative that supports kinder, better science based on open source community.
+&lt;a href="https://nasa-openscapes.github.io" target="_blank" rel="noopener" >NASA Openscapes&lt;/a> is in its fourth year as a project supporting NASA Earth science in the Cloud, co-developed by Julia Lowndes (Openscapes) and Erin Robinson (Metadata Game Changers).&lt;/p>
 &lt;p>The initiative recently supported the
-&lt;a href="https://nasa.github.io/VITALS/" target="_blank" rel="noopener" >Surface Biology and Geology: VITALS Workshop&lt;/a>
-hosted by NASA
-&lt;a href="https://lpdaac.usgs.gov/" target="_blank" rel="noopener" >Land Processes Distributed Activate Archive Center (LP DAAC)&lt;/a>
-and NASA
-&lt;a href="https://www.jpl.nasa.gov/" target="_blank" rel="noopener" >Jet Propulsion Laboratory (JPL)&lt;/a>
-.&lt;/p>
+&lt;a href="https://nasa.github.io/VITALS/" target="_blank" rel="noopener" >Surface Biology and Geology: VITALS Workshop&lt;/a> hosted by NASA
+&lt;a href="https://lpdaac.usgs.gov/" target="_blank" rel="noopener" >Land Processes Distributed Activate Archive Center (LP DAAC)&lt;/a> and NASA
+&lt;a href="https://www.jpl.nasa.gov/" target="_blank" rel="noopener" >Jet Propulsion Laboratory (JPL)&lt;/a>.&lt;/p>
 &lt;p>Instructors used the 2i2c Openscapes Hub to lead hands-on exercises teaching learners how to manipulate data collected from the
-&lt;a href="https://ecostress.jpl.nasa.gov/" target="_blank" rel="noopener" >ECOSTRESS&lt;/a>
-and
-&lt;a href="https://earth.jpl.nasa.gov/emit/" target="_blank" rel="noopener" >EMIT&lt;/a>
-instruments onboard the International Space Station. They used
-&lt;a href="https://nasa.github.io/VITALS/python/01_Finding_Concurrent_Data.html" target="_blank" rel="noopener" >Jupyter notebooks&lt;/a>
-in the Hub to demonstrate how open source tools together with cloud data and compute resources could effectively analyse the the Canopy Water Content and the Land Surface Temperature over the
-&lt;a href="https://www.dangermondpreserve.org/" target="_blank" rel="noopener" >Jack and Laura Dangermond Preserve&lt;/a>
-, Santa Barbara, CA.&lt;/p>
+&lt;a href="https://ecostress.jpl.nasa.gov/" target="_blank" rel="noopener" >ECOSTRESS&lt;/a> and
+&lt;a href="https://earth.jpl.nasa.gov/emit/" target="_blank" rel="noopener" >EMIT&lt;/a> instruments onboard the International Space Station. They used
+&lt;a href="https://nasa.github.io/VITALS/python/01_Finding_Concurrent_Data.html" target="_blank" rel="noopener" >Jupyter notebooks&lt;/a> in the Hub to demonstrate how open source tools together with cloud data and compute resources could effectively analyse the the Canopy Water Content and the Land Surface Temperature over the
+&lt;a href="https://www.dangermondpreserve.org/" target="_blank" rel="noopener" >Jack and Laura Dangermond Preserve&lt;/a>, Santa Barbara, CA.&lt;/p>
 &lt;p>
 &lt;figure id="figure-plot-of-the-canopy-water-content-over-the-jack-and-laura-dangermond-preserve-santa-barbara-ca-from-a-vitals-workshop-jupyter-notebookhttpsnasagithubiovitalspython03_emit_cwc_from_reflectancehtml">
 &lt;div class="d-flex justify-content-center">
@@ -329,8 +541,7 @@ height="601"
 loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;figcaption>
 Plot of the Canopy Water Content over the Jack and Laura Dangermond Preserve, Santa Barbara, CA from a
-&lt;a href="https://nasa.github.io/VITALS/python/03_EMIT_CWC_from_Reflectance.html" target="_blank" rel="noopener" >VITALS Workshop Jupyter notebook&lt;/a>
-.
+&lt;a href="https://nasa.github.io/VITALS/python/03_EMIT_CWC_from_Reflectance.html" target="_blank" rel="noopener" >VITALS Workshop Jupyter notebook&lt;/a>.
 &lt;/figcaption>&lt;/figure>
 &lt;/p>
 &lt;p>This event was attended by around 250 participants. An event of this size therefore requires a &lt;em>frictionless login flow&lt;/em> so that organizers could focus on the essential complexity of teaching data analysis rather than the accidental complexity of managing Hub authorization. GitHub authentication is the default option for most 2i2c Hubs for research use cases, but for an educational event of this size this option was not fit for purpose since organizers had to&lt;/p>
@@ -342,10 +553,8 @@ Plot of the Canopy Water Content over the Jack and Laura Dangermond Preserve, Sa
 &lt;/ol>
 &lt;p>In response to this need, we developed a shared password feature so that workshop organizers can simply hand the share password out to learners for access to the Hub. This bypassed the manual labour of managing GitHub accounts while not adding to the learner&amp;rsquo;s high cognitive load and improving the participant&amp;rsquo;s learning experience overall.&lt;/p>
 &lt;p>One of the elements that enabled us to recognize and solve this issue effectively is our close partnership with the Openscapes team. We engage in regular
-&lt;a href="https://github.com/NASA-Openscapes/2i2cAccessPolicies/issues/7" target="_blank" rel="noopener" >6-weekly catch-ups&lt;/a>
-where we can learn about user requirements and how we can develop our infrastructure to co-create optimal solutions. Together with our
-&lt;a href="https://team-compass.2i2c.org/product/deliveryflow/#defining-our-product-delivery-flow" target="_blank" rel="noopener" >Product Delivery Flow&lt;/a>
-, we were quickly able to architect the shared password solution in time for the workshop.&lt;/p>
+&lt;a href="https://github.com/NASA-Openscapes/2i2cAccessPolicies/issues/7" target="_blank" rel="noopener" >6-weekly catch-ups&lt;/a> where we can learn about user requirements and how we can develop our infrastructure to co-create optimal solutions. Together with our
+&lt;a href="https://team-compass.2i2c.org/product/deliveryflow/#defining-our-product-delivery-flow" target="_blank" rel="noopener" >Product Delivery Flow&lt;/a>, we were quickly able to architect the shared password solution in time for the workshop.&lt;/p>
 &lt;p>
 &lt;figure id="figure-feedback-from-brianna-lind-lp-daac">
 &lt;div class="d-flex justify-content-center">
@@ -362,68 +571,48 @@ Feedback from Brianna Lind (LP DAAC)
 &lt;/figcaption>&lt;/figure>
 &lt;/p>
 &lt;p>We have documented the technical infrastructure changes required to enable a shared password for the Hub in our
-&lt;a href="https://infrastructure.2i2c.org/hub-deployment-guide/configure-auth/shared-password/" target="_blank" rel="noopener" >Infrastructure Guide&lt;/a>
-and hope to support many future events with this mechanism!&lt;/p>
+&lt;a href="https://infrastructure.2i2c.org/hub-deployment-guide/configure-auth/shared-password/" target="_blank" rel="noopener" >Infrastructure Guide&lt;/a> and hope to support many future events with this mechanism!&lt;/p>
 &lt;h2 id="acknowledgements">
 Acknowledgements
 &lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
 &lt;/h2>&lt;ul>
 &lt;li>
-&lt;a href="https://nasa-openscapes.github.io/" target="_blank" rel="noopener" >NASA Openscapes&lt;/a>
-&lt;/li>
+&lt;a href="https://nasa-openscapes.github.io/" target="_blank" rel="noopener" >NASA Openscapes&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://lpdaac.usgs.gov/" target="_blank" rel="noopener" >NASA LP DAAC&lt;/a>
-&lt;/li>
+&lt;a href="https://lpdaac.usgs.gov/" target="_blank" rel="noopener" >NASA LP DAAC&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://www.jpl.nasa.gov/" target="_blank" rel="noopener" >NASA JPL&lt;/a>
-&lt;/li>
+&lt;a href="https://www.jpl.nasa.gov/" target="_blank" rel="noopener" >NASA JPL&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://science.nasa.gov/researchers/" target="_blank" rel="noopener" >NASA ROSES funding&lt;/a>
-&lt;/li>
+&lt;a href="https://science.nasa.gov/researchers/" target="_blank" rel="noopener" >NASA ROSES funding&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>Determining Climate Risks with NASA Earthdata Cloud at Scipy 2024</title><link>https://2i2c.org/blog/2024/climaterisk-scipy-tutorial/</link><pubDate>Mon, 08 Jul 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/climaterisk-scipy-tutorial/</guid><description>&lt;p>&lt;em>Determining Climate Risks with NASA Earthdata Cloud&lt;/em> is a
-&lt;a href="https://www.nasa.gov/centers-and-facilities/marshall/nasa-boosts-open-science-through-innovative-training/" target="_blank" rel="noopener" >ScienceCore&lt;/a>
-curriculum module that comprises part of NASA&amp;rsquo;s
-&lt;a href="https://science.nasa.gov/open-science-overview" target="_blank" rel="noopener" >Open Science&lt;/a>
-and
-&lt;a href="https://nasa.github.io/Transform-to-Open-Science/" target="_blank" rel="noopener" >Transform to Open Science (TOPS)&lt;/a>
-initiatives.
+&lt;a href="https://www.nasa.gov/centers-and-facilities/marshall/nasa-boosts-open-science-through-innovative-training/" target="_blank" rel="noopener" >ScienceCore&lt;/a> curriculum module that comprises part of NASA&amp;rsquo;s
+&lt;a href="https://science.nasa.gov/open-science-overview" target="_blank" rel="noopener" >Open Science&lt;/a> and
+&lt;a href="https://nasa.github.io/Transform-to-Open-Science/" target="_blank" rel="noopener" >Transform to Open Science (TOPS)&lt;/a> initiatives.
 The aim of this module is to deliver a hands-on experience with &amp;ldquo;data-proximate computing&amp;rdquo; in the cloud with
-&lt;a href="https://www.earthdata.nasa.gov/" target="_blank" rel="noopener" >NASA Earthdata&lt;/a>
-products with content co-developed with
-&lt;a href="https://www.metadocencia.org/" target="_blank" rel="noopener" >MetaDocencia&lt;/a>
-.&lt;/p>
+&lt;a href="https://www.earthdata.nasa.gov/" target="_blank" rel="noopener" >NASA Earthdata&lt;/a> products with content co-developed with
+&lt;a href="https://www.metadocencia.org/" target="_blank" rel="noopener" >MetaDocencia&lt;/a>.&lt;/p>
 &lt;p>This module was delivered as a
-&lt;a href="https://cfp.scipy.org/2024/talk/3DVH7S/" target="_blank" rel="noopener" >SciPy tutorial&lt;/a>
-at this year&amp;rsquo;s conference. 2i2c have been working closely with the organizers to provide the hub infrastructure for the tutorial, including enabling a shared password for easy authentication (see our
-&lt;a href="https://2i2c.org/blog/2024/openscapes-sbg-workshop/" >Openscapes post&lt;/a>
-for more about this feature) and operating a small binder service for participants to view content after the event.&lt;/p>
+&lt;a href="https://cfp.scipy.org/2024/talk/3DVH7S/" target="_blank" rel="noopener" >SciPy tutorial&lt;/a> at this year&amp;rsquo;s conference. 2i2c have been working closely with the organizers to provide the hub infrastructure for the tutorial, including enabling a shared password for easy authentication (see our
+&lt;a href="https://2i2c.org/blog/2024/openscapes-sbg-workshop/" >Openscapes post&lt;/a> for more about this feature) and operating a small binder service for participants to view content after the event.&lt;/p>
 &lt;p>You can take a look at the tutorial on the
-&lt;a href="https://binder.opensci.2i2c.cloud/v2/gh/ScienceCore/scipy-2024-climaterisk/HEAD?labpath=00_Introduction_Setup%2F01_Initial_Setup.ipynb" target="_blank" rel="noopener" >NASA ephemeral hub&lt;/a>
-!&lt;/p>
+&lt;a href="https://binder.opensci.2i2c.cloud/v2/gh/ScienceCore/scipy-2024-climaterisk/HEAD?labpath=00_Introduction_Setup%2F01_Initial_Setup.ipynb" target="_blank" rel="noopener" >NASA ephemeral hub&lt;/a>!&lt;/p>
 &lt;p>The event was well-attended, with 40 learners taking part. Special thanks go to the organizers
-&lt;a href="https://github.com/dhavide" target="_blank" rel="noopener" >Dhavide Aruliah&lt;/a>
-,
-&lt;a href="https://www.linkedin.com/in/karthikvenkataramani/" target="_blank" rel="noopener" >Karthik Venkataramani&lt;/a>
-and
-&lt;a href="https://github.com/patriloto" target="_blank" rel="noopener" >Patricia A. Loto&lt;/a>
-for leading the tutorial.&lt;/p>
+&lt;a href="https://github.com/dhavide" target="_blank" rel="noopener" >Dhavide Aruliah&lt;/a>,
+&lt;a href="https://www.linkedin.com/in/karthikvenkataramani/" target="_blank" rel="noopener" >Karthik Venkataramani&lt;/a> and
+&lt;a href="https://github.com/patriloto" target="_blank" rel="noopener" >Patricia A. Loto&lt;/a> for leading the tutorial.&lt;/p>
 &lt;h2 id="acknowledgements">
 Acknowledgements
 &lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
 &lt;/h2>&lt;ul>
 &lt;li>NASA F.14 Transform to Open Science Training award NNH23ZDA001N-TOPST&lt;/li>
 &lt;li>
-&lt;a href="https://www.metadocencia.org/en/proyecto/nasa-2i2c/" target="_blank" rel="noopener" >MetaDocencia&lt;/a>
-&lt;/li>
+&lt;a href="https://www.metadocencia.org/en/proyecto/nasa-2i2c/" target="_blank" rel="noopener" >MetaDocencia&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://github.com/dhavide" target="_blank" rel="noopener" >Dhavide Aruliah&lt;/a>
-&lt;/li>
+&lt;a href="https://github.com/dhavide" target="_blank" rel="noopener" >Dhavide Aruliah&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://www.linkedin.com/in/karthikvenkataramani/" target="_blank" rel="noopener" >Karthik Venkataramani&lt;/a>
-&lt;/li>
+&lt;a href="https://www.linkedin.com/in/karthikvenkataramani/" target="_blank" rel="noopener" >Karthik Venkataramani&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://github.com/patriloto" target="_blank" rel="noopener" >Patricia A. Loto&lt;/a>
-&lt;/li>
+&lt;a href="https://github.com/patriloto" target="_blank" rel="noopener" >Patricia A. Loto&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>Ephemeral Interactive Computing for NASA Communities</title><link>https://2i2c.org/blog/2024/nasa-ephemeral-hubs/</link><pubDate>Thu, 27 Jun 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/nasa-ephemeral-hubs/</guid><description>&lt;p>We are pleased to announce that we have deployed two ephemeral hubs for NASA communities!&lt;/p>
 &lt;h2 id="what-did-we-do">
 What did we do?
@@ -431,11 +620,9 @@ What did we do?
 &lt;/h2>&lt;p>As part of the deliverables for our NASA High Priority Open-Source Science (HPOSS) award, we deployed two new ephemeral hubs:&lt;/p>
 &lt;ol>
 &lt;li>a
-&lt;a href="https://binder.opensci.2i2c.cloud/" target="_blank" rel="noopener" >public small BinderHub&lt;/a>
-that offers a &amp;ldquo;reader&amp;rdquo; experience where learners can interactively view GitHub repositories that deliver light scientific content with small compute and no barriers to authentication&lt;/li>
+&lt;a href="https://binder.opensci.2i2c.cloud/" target="_blank" rel="noopener" >public small BinderHub&lt;/a> that offers a &amp;ldquo;reader&amp;rdquo; experience where learners can interactively view GitHub repositories that deliver light scientific content with small compute and no barriers to authentication&lt;/li>
 &lt;li>a
-&lt;a href="https://hub.big.binder.opensci.2i2c.cloud/" target="_blank" rel="noopener" >big BinderHub&lt;/a>
-that offers an &amp;ldquo;explorer&amp;rdquo; experience where learners can log in to access more substantial compute resources to interactively investigate large datasets and run large workflows from any GitHub repository.&lt;/li>
+&lt;a href="https://hub.big.binder.opensci.2i2c.cloud/" target="_blank" rel="noopener" >big BinderHub&lt;/a> that offers an &amp;ldquo;explorer&amp;rdquo; experience where learners can log in to access more substantial compute resources to interactively investigate large datasets and run large workflows from any GitHub repository.&lt;/li>
 &lt;/ol>
 &lt;p>These services enrich the interactive computing ecosystem for NASA communities by&lt;/p>
 &lt;ul>
@@ -447,22 +634,14 @@ that offers an &amp;ldquo;explorer&amp;rdquo; experience where learners can log 
 How did we do it?
 &lt;a class="header-anchor" href="#how-did-we-do-it">#&lt;/a>
 &lt;/h2>&lt;p>Ephemeral interactive computing services benefited from some of our previous development work in collaboration with GESIS (see our
-&lt;a href="https://2i2c.org/blog/2024/jupyterhub-binderhub-gesis/" >detailed blog post&lt;/a>
-for more information). The research and development of this project achieved wide-reaching impact across many NASA communities we currently serve, including
-&lt;a href="https://www.nasa.gov/centers-and-facilities/marshall/nasa-boosts-open-science-through-innovative-training/" target="_blank" rel="noopener" >TOPST ScienceCore&lt;/a>
-,
-&lt;a href="https://2i2c.org/blog/2024/openscapes-sbg-workshop/" >Openscapes&lt;/a>
-,
-&lt;a href="https://2i2c.org/blog/2024/ghg-summer-school/" >US Greenhouse Gas Center&lt;/a>
-,
-&lt;a href="https://www.earthdata.nasa.gov/esds/veda" target="_blank" rel="noopener" >VEDA&lt;/a>
-and
-&lt;a href="https://cryointhecloud.com/" target="_blank" rel="noopener" >CryoCloud&lt;/a>
-; as well as networks beyond the NASA scope, such as the NSF-funded
-&lt;a href="https://projectpythia.org/" target="_blank" rel="noopener" >Project Pythia&lt;/a>
-and HHMI-funded
-&lt;a href="https://lorenfranklab.github.io/spyglass/latest/" target="_blank" rel="noopener" >Spyglass&lt;/a>
-projects.&lt;/p>
+&lt;a href="https://2i2c.org/blog/2024/jupyterhub-binderhub-gesis/" >detailed blog post&lt;/a> for more information). The research and development of this project achieved wide-reaching impact across many NASA communities we currently serve, including
+&lt;a href="https://www.nasa.gov/centers-and-facilities/marshall/nasa-boosts-open-science-through-innovative-training/" target="_blank" rel="noopener" >TOPST ScienceCore&lt;/a>,
+&lt;a href="https://2i2c.org/blog/2024/openscapes-sbg-workshop/" >Openscapes&lt;/a>,
+&lt;a href="https://2i2c.org/blog/2024/ghg-summer-school/" >US Greenhouse Gas Center&lt;/a>,
+&lt;a href="https://www.earthdata.nasa.gov/esds/veda" target="_blank" rel="noopener" >VEDA&lt;/a> and
+&lt;a href="https://cryointhecloud.com/" target="_blank" rel="noopener" >CryoCloud&lt;/a>; as well as networks beyond the NASA scope, such as the NSF-funded
+&lt;a href="https://projectpythia.org/" target="_blank" rel="noopener" >Project Pythia&lt;/a> and HHMI-funded
+&lt;a href="https://lorenfranklab.github.io/spyglass/latest/" target="_blank" rel="noopener" >Spyglass&lt;/a> projects.&lt;/p>
 &lt;h2 id="what-next">
 What next?
 &lt;a class="header-anchor" href="#what-next">#&lt;/a>
@@ -473,15 +652,11 @@ Can I use this ephemeral hub service?
 &lt;/h2>&lt;p>The answer is yes!&lt;/p>
 &lt;ul>
 &lt;li>For the
-&lt;a href="https://binder.opensci.2i2c.cloud/" target="_blank" rel="noopener" >public small BinderHub&lt;/a>
-anyone can view GitHub repositories that deliver light scientific content with small compute and no barriers to authentication&lt;/li>
+&lt;a href="https://binder.opensci.2i2c.cloud/" target="_blank" rel="noopener" >public small BinderHub&lt;/a> anyone can view GitHub repositories that deliver light scientific content with small compute and no barriers to authentication&lt;/li>
 &lt;li>For the
-&lt;a href="https://hub.big.binder.opensci.2i2c.cloud/" target="_blank" rel="noopener" >big BinderHub&lt;/a>
-you will need to be member of a NASA community. This requires a GitHub account for membership of the GitHub Team
-&lt;a href="https://github.com/orgs/2i2c-nasa-binder-access/teams/big-binder-team" target="_blank" rel="noopener" >2i2c-nasa-binder-access:big-binder-team&lt;/a>
-for authorization. Please send us an email at
-&lt;a href="" >binder-requests@2i2c.org&lt;/a>
-to be added to the GitHub Team.&lt;/li>
+&lt;a href="https://hub.big.binder.opensci.2i2c.cloud/" target="_blank" rel="noopener" >big BinderHub&lt;/a> you will need to be member of a NASA community. This requires a GitHub account for membership of the GitHub Team
+&lt;a href="https://github.com/orgs/2i2c-nasa-binder-access/teams/big-binder-team" target="_blank" rel="noopener" >2i2c-nasa-binder-access:big-binder-team&lt;/a> for authorization. Please send us an email at
+&lt;a href="" >binder-requests@2i2c.org&lt;/a> to be added to the GitHub Team.&lt;/li>
 &lt;/ul>
 &lt;h2 id="acknowledgements">
 Acknowledgements
@@ -504,64 +679,46 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;/figcaption>&lt;/figure>
 &lt;/p>
 &lt;p>2i2c are pleased to support the
-&lt;a href="https://neurohackademy.org/" target="_blank" rel="noopener" >Neurohackademy Summer School&lt;/a>
-in neuroimaging and data science again!&lt;/p>
+&lt;a href="https://neurohackademy.org/" target="_blank" rel="noopener" >Neurohackademy Summer School&lt;/a> in neuroimaging and data science again!&lt;/p>
 &lt;p>Following the success of our collaboration in previous years (see the
-&lt;a href="https://escience.washington.edu/events/neurohackademy-2023/" target="_blank" rel="noopener" >event page for 2023&lt;/a>
-), this year’s course will be held July 29th – August 10th, 2024 and will be hosted by the
-&lt;a href="http://escience.washington.edu/" target="_blank" rel="noopener" >University of Washington eScience Institute&lt;/a>
-.&lt;/p>
+&lt;a href="https://escience.washington.edu/events/neurohackademy-2023/" target="_blank" rel="noopener" >event page for 2023&lt;/a>), this year’s course will be held July 29th – August 10th, 2024 and will be hosted by the
+&lt;a href="http://escience.washington.edu/" target="_blank" rel="noopener" >University of Washington eScience Institute&lt;/a>.&lt;/p>
 &lt;p>We provide an interactive computing platform for participants to get hands on experience in data pipelining, machine learning and data visualization techniques. Take a look at the following links to learn more about the neurohackathon:&lt;/p>
 &lt;ul>
 &lt;li>
-&lt;a href="https://www.washington.edu/news/2018/08/23/hack-week-pnas/" target="_blank" rel="noopener" >Hack week: Study supports collaborative, participant-driven approach for researchers to learn data science from their peers&lt;/a>
-&lt;/li>
+&lt;a href="https://www.washington.edu/news/2018/08/23/hack-week-pnas/" target="_blank" rel="noopener" >Hack week: Study supports collaborative, participant-driven approach for researchers to learn data science from their peers&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://escience.washington.edu/neurohackademy-debuts-successfully/" target="_blank" rel="noopener" >NeuroHackademy debuts successfully&lt;/a>
-&lt;/li>
+&lt;a href="https://escience.washington.edu/neurohackademy-debuts-successfully/" target="_blank" rel="noopener" >NeuroHackademy debuts successfully&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://psych.uw.edu/newsletter/summer-2022/faculty/hackathon-combines-neuroscience-and-data-science" target="_blank" rel="noopener" >Hackathon Combines Neuroscience and Data Science&lt;/a>
-&lt;/li>
+&lt;a href="https://psych.uw.edu/newsletter/summer-2022/faculty/hackathon-combines-neuroscience-and-data-science" target="_blank" rel="noopener" >Hackathon Combines Neuroscience and Data Science&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://escience.washington.edu/neurohackademy-participants-offer-perspectives/" target="_blank" rel="noopener" >NeuroHackademy participants offer perspectives&lt;/a>
-&lt;/li>
+&lt;a href="https://escience.washington.edu/neurohackademy-participants-offer-perspectives/" target="_blank" rel="noopener" >NeuroHackademy participants offer perspectives&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://escience.washington.edu/participants-offer-insight-on-neurohackademy/" target="_blank" rel="noopener" >Participants offer insight on Neurohackademy&lt;/a>
-&lt;/li>
+&lt;a href="https://escience.washington.edu/participants-offer-insight-on-neurohackademy/" target="_blank" rel="noopener" >Participants offer insight on Neurohackademy&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h2 id="acknowledgements">
 Acknowledgements
 &lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
 &lt;/h2>&lt;p>Funded by grant
-&lt;a href="https://pubmed.ncbi.nlm.nih.gov/38763989/" target="_blank" rel="noopener" >R25MH112480&lt;/a>
-from the US National Institute of Mental Health awarded to
-&lt;a href="https://arokem.org/" target="_blank" rel="noopener" >Ariel Rokem&lt;/a>
-and
-&lt;a href="https://nben.net/" target="_blank" rel="noopener" >Noah Benson&lt;/a>
-.&lt;/p>
+&lt;a href="https://pubmed.ncbi.nlm.nih.gov/38763989/" target="_blank" rel="noopener" >R25MH112480&lt;/a> from the US National Institute of Mental Health awarded to
+&lt;a href="https://arokem.org/" target="_blank" rel="noopener" >Ariel Rokem&lt;/a> and
+&lt;a href="https://nben.net/" target="_blank" rel="noopener" >Noah Benson&lt;/a>.&lt;/p>
 &lt;p>The Neurohackademy Summer School is sponsored by&lt;/p>
 &lt;ul>
 &lt;li>
-&lt;a href="http://escience.washington.edu/" target="_blank" rel="noopener" >University of Washington eScience Institute&lt;/a>
-&lt;/li>
+&lt;a href="http://escience.washington.edu/" target="_blank" rel="noopener" >University of Washington eScience Institute&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="http://www.moore.org/" target="_blank" rel="noopener" >Gordon and Betty Moore Foundation&lt;/a>
-&lt;/li>
+&lt;a href="http://www.moore.org/" target="_blank" rel="noopener" >Gordon and Betty Moore Foundation&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="http://sloan.org/" target="_blank" rel="noopener" >Alfred P. Sloan Foundation&lt;/a>
-&lt;/li>
+&lt;a href="http://sloan.org/" target="_blank" rel="noopener" >Alfred P. Sloan Foundation&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="http://www.washington.edu/" target="_blank" rel="noopener" >University of Washington&lt;/a>
-&lt;/li>
+&lt;a href="http://www.washington.edu/" target="_blank" rel="noopener" >University of Washington&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://www.utexas.edu/" target="_blank" rel="noopener" >The University of Texas at Austin&lt;/a>
-&lt;/li>
+&lt;a href="https://www.utexas.edu/" target="_blank" rel="noopener" >The University of Texas at Austin&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://www.nimh.nih.gov/" target="_blank" rel="noopener" >National Institute of Mental Health&lt;/a>
-&lt;/li>
+&lt;a href="https://www.nimh.nih.gov/" target="_blank" rel="noopener" >National Institute of Mental Health&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://www.nsf.gov/" target="_blank" rel="noopener" >National Science Foundation&lt;/a>
-&lt;/li>
+&lt;a href="https://www.nsf.gov/" target="_blank" rel="noopener" >National Science Foundation&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>US Greenhouse Gas Center supports summer school at CIRA</title><link>https://2i2c.org/blog/2024/ghg-summer-school/</link><pubDate>Thu, 20 Jun 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/ghg-summer-school/</guid><description>&lt;p>
 &lt;figure id="figure-summer-school-for-inverse-modeling-of-greenhouse-gases-2024">
 &lt;div class="d-flex justify-content-center">
@@ -578,17 +735,12 @@ Summer school for inverse modeling of greenhouse gases 2024
 &lt;/figcaption>&lt;/figure>
 &lt;/p>
 &lt;p>The Cooperative Institute for Research in the Atmosphere (
-&lt;a href="https://www.cira.colostate.edu/" target="_blank" rel="noopener" >CIRA&lt;/a>
-) is an interdisciplinary cooperation between NOAA research scientists and Colorado State University. CIRA is hosting a
-&lt;a href="https://www.cira.colostate.edu/conferences/rmtgw/" target="_blank" rel="noopener" >summer school&lt;/a>
-for inverse modeling of greenhouse gases using atmospheric data assimilation techniques. The
-&lt;a href="https://earth.gov/ghgcenter" target="_blank" rel="noopener" >US Greenhouse Gas Center&lt;/a>
-is supporting the workshop by providing 40+ attendees access to their interactive computing hub operated by 2i2c (see
-&lt;a href="https://2i2c.org/blog/2023/us-ghg-center-launches/" >our blog post about their launch&lt;/a>
-).&lt;/p>
+&lt;a href="https://www.cira.colostate.edu/" target="_blank" rel="noopener" >CIRA&lt;/a>) is an interdisciplinary cooperation between NOAA research scientists and Colorado State University. CIRA is hosting a
+&lt;a href="https://www.cira.colostate.edu/conferences/rmtgw/" target="_blank" rel="noopener" >summer school&lt;/a> for inverse modeling of greenhouse gases using atmospheric data assimilation techniques. The
+&lt;a href="https://earth.gov/ghgcenter" target="_blank" rel="noopener" >US Greenhouse Gas Center&lt;/a> is supporting the workshop by providing 40+ attendees access to their interactive computing hub operated by 2i2c (see
+&lt;a href="https://2i2c.org/blog/2023/us-ghg-center-launches/" >our blog post about their launch&lt;/a>).&lt;/p>
 &lt;p>Hub administrators have
-&lt;a href="https://github.com/NASA-IMPACT/ssim-ghg-workshop-2024-python-image" target="_blank" rel="noopener" >built a customized software environment&lt;/a>
-with container technology for use at the workshop. In doing so, this bypasses the need for participants to individually install software on their own machines and the online hub provides a &lt;em>consistent&lt;/em> and &lt;em>reproducible&lt;/em> interactive computing environment that is easily &lt;em>accessible&lt;/em> and &lt;em>scalable&lt;/em>.&lt;/p>
+&lt;a href="https://github.com/NASA-IMPACT/ssim-ghg-workshop-2024-python-image" target="_blank" rel="noopener" >built a customized software environment&lt;/a> with container technology for use at the workshop. In doing so, this bypasses the need for participants to individually install software on their own machines and the online hub provides a &lt;em>consistent&lt;/em> and &lt;em>reproducible&lt;/em> interactive computing environment that is easily &lt;em>accessible&lt;/em> and &lt;em>scalable&lt;/em>.&lt;/p>
 &lt;p>
 &lt;figure id="figure-login-screen-of-the-ghg-hub-showing-the-custom-built-ssim-ghg-image-option">
 &lt;div class="d-flex justify-content-center">
@@ -621,8 +773,7 @@ The UToronto hub landing page
 &lt;/p>
 &lt;p>2i2c has operated The University of Toronto hub since 2021 and this hub supports over 6000 educators and learners in a day! With a community of this size, file storage can quickly grow out of control and cause issues.&lt;/p>
 &lt;p>The 2i2c engineering team have implemented a
-&lt;a href="https://github.com/2i2c-org/infrastructure/issues/3320" target="_blank" rel="noopener" >low storage alerting system&lt;/a>
-for Microsoft Azure, so that they can pre-emptively take remedial action before the filesystem is about to run out of diskspace.&lt;/p>
+&lt;a href="https://github.com/2i2c-org/infrastructure/issues/3320" target="_blank" rel="noopener" >low storage alerting system&lt;/a> for Microsoft Azure, so that they can pre-emptively take remedial action before the filesystem is about to run out of diskspace.&lt;/p>
 &lt;p>Great job team 🚀&lt;/p>
 &lt;p>
 &lt;figure id="figure-utoronto-hub-usage">
@@ -650,18 +801,15 @@ width="280"
 height="280"
 loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;figcaption>
-&lt;a href="https://github.com/data-8" target="_blank" rel="noopener" >Data8&lt;/a>
-. MIT licensed.
+&lt;a href="https://github.com/data-8" target="_blank" rel="noopener" >Data8&lt;/a>. MIT licensed.
 &lt;/figcaption>&lt;/figure>
 &lt;/p>
 &lt;p>
-&lt;a href="https://www.data8.org/" target="_blank" rel="noopener" >Data8&lt;/a>
-began as a large introductory data science class at UC Berkeley. It uses a Jupyter Book for all course materials, and uses JupyterHub magic links to distribute course content from the textbook.&lt;/p>
+&lt;a href="https://www.data8.org/" target="_blank" rel="noopener" >Data8&lt;/a> began as a large introductory data science class at UC Berkeley. It uses a Jupyter Book for all course materials, and uses JupyterHub magic links to distribute course content from the textbook.&lt;/p>
 &lt;p>2i2c is working with the Data 8 team to deploy JupyterHubs for community colleges in California that run the Data8 course, to make the infrastructure and content broadly accessible.&lt;/p>
 &lt;p>Giving people curricula, content, and infrastructure goes a long way to adoption. Communities want to remix content for their specific needs.&lt;/p>
 &lt;h2 id="acknowledgements">
 Acknowledgements
 &lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
 &lt;/h2>&lt;p>This effort is funded by 2i2c together with UC Berkeley and
-&lt;a href="https://www.cloudbank.org/about" target="_blank" rel="noopener" >CloudBank&lt;/a>
-.&lt;/p></description></item></channel></rss>
+&lt;a href="https://www.cloudbank.org/about" target="_blank" rel="noopener" >CloudBank&lt;/a>.&lt;/p></description></item></channel></rss>

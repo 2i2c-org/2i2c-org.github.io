@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Open Culture | 2i2c</title><link>https://2i2c.org/tag/open-culture/</link><atom:link href="https://2i2c.org/tag/open-culture/index.xml" rel="self" type="application/rss+xml"/><description>Open Culture</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 08 Jan 2023 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Open Culture</title><link>https://2i2c.org/tag/open-culture/</link></image><item><title>Principles and considerations for ethically accepting funding for open source</title><link>https://2i2c.org/blog/2023/open-source-funding-principles/</link><pubDate>Sun, 08 Jan 2023 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2023/open-source-funding-principles/</guid><description>&lt;p>&lt;em>This is a brainstorm to consider the principles and guidelines that 2i2c should follow in defining its strategy towards open source communities.
 See
-&lt;a href="https://compass.2i2c.org/open-source/index.html" target="_blank" rel="noopener" >our open source policy documentation&lt;/a>
-for the product of this brainstorm.&lt;/em>&lt;/p>
+&lt;a href="https://compass.2i2c.org/open-source/index.html" target="_blank" rel="noopener" >our open source policy documentation&lt;/a> for the product of this brainstorm.&lt;/em>&lt;/p>
 &lt;p>Over the past year the 2i2c team has focused its efforts on deploying, configuring, running, and managing cloud infrastructure that supports open source workflows in research and education. We&amp;rsquo;ve also done a lot of &lt;em>upstream contribution&lt;/em> as a part of our work.&lt;/p>
 &lt;p>However, we have shied away from taking direct funding for direct development work in open source projects. This is for two primary reasons:&lt;/p>
 &lt;ol>
@@ -9,8 +8,7 @@ for the product of this brainstorm.&lt;/em>&lt;/p>
 &lt;li>While 2i2c is aligned with the interests of open communities, we are still a distinct organization with our own mission and strategy. We want to be conscious that 2i2c team members have &lt;em>more than one hat&lt;/em>, and that their 2i2c hat is necessarily not the same thing as their open source hat. As such, we don&amp;rsquo;t want to leverage our &amp;ldquo;other hats&amp;rdquo; to drive resources to 2i2c without being thoughtful about it.&lt;/li>
 &lt;/ol>
 &lt;p>In the last year we&amp;rsquo;ve found that running infrastructure for research and education gives us great visibility into the kinds of things that these communities want to do, and ways to improve the infrastructure. It also means we can potentially be a conduit of &lt;em>resources&lt;/em> from those communities into open source development workflows. For example, we recently
-&lt;a href="" >partnered with GESIS to make improvements in Binder and JupyterHub&lt;/a>
-.&lt;/p>
+&lt;a href="" >partnered with GESIS to make improvements in Binder and JupyterHub&lt;/a>.&lt;/p>
 &lt;p>So, this post is a brainstorm to identify some of the major considerations that we should take before agreeing to this kind of work. Its goals is to drive policy that streamlines our ability to seek and accept funding for open source work. It tries to answer this question:&lt;/p>
 &lt;blockquote>
 &lt;p>How can a stakeholder accept funding on behalf of an open source community in a way that is inclusive, equitable, and effective.&lt;/p>
@@ -19,8 +17,7 @@ for the product of this brainstorm.&lt;/em>&lt;/p>
 Some assumptions
 &lt;a class="header-anchor" href="#some-assumptions">#&lt;/a>
 &lt;/h2>&lt;p>First off I want to note that this only applies to open source projects that I&amp;rsquo;d call &amp;ldquo;Open communities&amp;rdquo;. For example, those that follow
-&lt;a href="https://openscholarlyinfrastructure.org/" target="_blank" rel="noopener" >the principles of open scholarly infrastructure&lt;/a>
-. The ideas here don&amp;rsquo;t apply to open source projects that are run by single organizations or people. You can assume I&amp;rsquo;m talking about projects that:&lt;/p>
+&lt;a href="https://openscholarlyinfrastructure.org/" target="_blank" rel="noopener" >the principles of open scholarly infrastructure&lt;/a>. The ideas here don&amp;rsquo;t apply to open source projects that are run by single organizations or people. You can assume I&amp;rsquo;m talking about projects that:&lt;/p>
 &lt;ul>
 &lt;li>Have inclusive multi-stakeholder governance and operations.&lt;/li>
 &lt;li>Care about having a broad contributor and leadership base, and want to follow best-practices in inclusive and equitable operations.&lt;/li>
@@ -105,34 +102,25 @@ References and more reading
 &lt;/h2>&lt;p>There are many resources that discuss how to equitably and inclusively seek funding as part of collaborations&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>. Here are a few that I found useful in writing this blog post:&lt;/p>
 &lt;ul>
 &lt;li>
-&lt;a href="https://awid.org/sites/default/files/2022-02/AWID_Funding_Ecosystem_2019_FINAL_Eng.pdf" target="_blank" rel="noopener" >AWID - Towards a feminist funding ecosystem guide&lt;/a>
-&lt;/li>
+&lt;a href="https://awid.org/sites/default/files/2022-02/AWID_Funding_Ecosystem_2019_FINAL_Eng.pdf" target="_blank" rel="noopener" >AWID - Towards a feminist funding ecosystem guide&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="http://astraeafoundation.org/microsites/feminist-funding-principles/" target="_blank" rel="noopener" >The Astraea Foundation - Feminist Funding Principles&lt;/a>
-&lt;/li>
+&lt;a href="http://astraeafoundation.org/microsites/feminist-funding-principles/" target="_blank" rel="noopener" >The Astraea Foundation - Feminist Funding Principles&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://www.openglobalrights.org/what-we-can-learn-from-feminists-who-fund-themselves/" target="_blank" rel="noopener" >OpenGlobalRights - What we can learn from feminists who fund themselves&lt;/a>
-&lt;/li>
+&lt;a href="https://www.openglobalrights.org/what-we-can-learn-from-feminists-who-fund-themselves/" target="_blank" rel="noopener" >OpenGlobalRights - What we can learn from feminists who fund themselves&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://learningforfunders.candid.org/content/guides/deciding-together/" target="_blank" rel="noopener" >Candid Learning for Funders - Deciding Together&lt;/a>
-&lt;/li>
+&lt;a href="https://learningforfunders.candid.org/content/guides/deciding-together/" target="_blank" rel="noopener" >Candid Learning for Funders - Deciding Together&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://www.openandequitable.org/participate" target="_blank" rel="noopener" >Open Research Funders Group - Open and Equitable Model Funding Program&lt;/a>
-&lt;/li>
+&lt;a href="https://www.openandequitable.org/participate" target="_blank" rel="noopener" >Open Research Funders Group - Open and Equitable Model Funding Program&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;div class="footnotes" role="doc-endnotes">
 &lt;hr>
 &lt;ol>
 &lt;li id="fn:1">
 &lt;p>And many thanks to several people in the
-&lt;a href="https://investinopen.org" target="_blank" rel="noopener" >Invest in Open Infrastructure&lt;/a>
-,
-&lt;a href="https://the-turing-way.netlify.app" target="_blank" rel="noopener" >The Turing Way&lt;/a>
-,
-&lt;a href="https://chanzuckerberg.com/" target="_blank" rel="noopener" >the Chan Zuckerberg Initiative&lt;/a>
-, and
-&lt;a href="https://codeforsociety.org" target="_blank" rel="noopener" >Code for Science and Society&lt;/a>
-Slacks that helped me brainstorm these ideas.&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;a href="https://investinopen.org" target="_blank" rel="noopener" >Invest in Open Infrastructure&lt;/a>,
+&lt;a href="https://the-turing-way.netlify.app" target="_blank" rel="noopener" >The Turing Way&lt;/a>,
+&lt;a href="https://chanzuckerberg.com/" target="_blank" rel="noopener" >the Chan Zuckerberg Initiative&lt;/a>, and
+&lt;a href="https://codeforsociety.org" target="_blank" rel="noopener" >Code for Science and Society&lt;/a> Slacks that helped me brainstorm these ideas.&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;/div></description></item></channel></rss>

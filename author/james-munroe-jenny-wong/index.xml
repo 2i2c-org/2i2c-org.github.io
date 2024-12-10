@@ -12,23 +12,15 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;/figure>
 &lt;/p>
 &lt;p>
-&lt;a href="https://www.amerigeo.org/" target="_blank" rel="noopener" >AmeriGEO&lt;/a>
-provides a framework for cooperation in the Americas for the use of Earth data to benefit science and society with data driven decision-making. As part of a virtual workshop held on 1st August 2024, 2i2c provided an interactive computing environment to support the delivery of a
-&lt;a href="https://www.nasa.gov/centers-and-facilities/marshall/nasa-boosts-open-science-through-innovative-training/" target="_blank" rel="noopener" >NASA TOPST&lt;/a>
-water module.&lt;/p>
+&lt;a href="https://www.amerigeo.org/" target="_blank" rel="noopener" >AmeriGEO&lt;/a> provides a framework for cooperation in the Americas for the use of Earth data to benefit science and society with data driven decision-making. As part of a virtual workshop held on 1st August 2024, 2i2c provided an interactive computing environment to support the delivery of a
+&lt;a href="https://www.nasa.gov/centers-and-facilities/marshall/nasa-boosts-open-science-through-innovative-training/" target="_blank" rel="noopener" >NASA TOPST&lt;/a> water module.&lt;/p>
 &lt;p>The workshop was facilitated by
-&lt;a href="https://people.climate.columbia.edu/users/profile/kytt-macmanus" target="_blank" rel="noopener" >Kytt MacManus&lt;/a>
-and
-&lt;a href="https://ciesin.climate.columbia.edu/directory/juan-f-martinez" target="_blank" rel="noopener" >Juan F. Martinez&lt;/a>
-(both of
-&lt;a href="http://www.ciesin.columbia.edu/" target="_blank" rel="noopener" >CIESIN&lt;/a>
-, Columbia University, New York). Juan presented interactive R code, with explanatory content written in Quarto, for hotspot vulnerability analysis for floods and landslides focused on Ecuador using earth observation data and socioeconomic data to develop an index of vulnerability. Check out their
-&lt;a href="https://github.com/ciesin-geospatial/TOPSTSCHOOL-water" target="_blank" rel="noopener" >GitHub repo&lt;/a>
-and
-&lt;a href="https://tinyurl.com/TOPSTSCHOOL" target="_blank" rel="noopener" >explore interactively yourself&lt;/a>
-on our BinderHub (see our blog post for more details of how to access the BinderHub deployments to provide
-&lt;a href="https://2i2c.org/blog/2024/nasa-ephemeral-hubs/" >Ephemeral Interactive Computing for NASA Communities&lt;/a>
-).&lt;/p>
+&lt;a href="https://people.climate.columbia.edu/users/profile/kytt-macmanus" target="_blank" rel="noopener" >Kytt MacManus&lt;/a> and
+&lt;a href="https://ciesin.climate.columbia.edu/directory/juan-f-martinez" target="_blank" rel="noopener" >Juan F. Martinez&lt;/a> (both of
+&lt;a href="http://www.ciesin.columbia.edu/" target="_blank" rel="noopener" >CIESIN&lt;/a>, Columbia University, New York). Juan presented interactive R code, with explanatory content written in Quarto, for hotspot vulnerability analysis for floods and landslides focused on Ecuador using earth observation data and socioeconomic data to develop an index of vulnerability. Check out their
+&lt;a href="https://github.com/ciesin-geospatial/TOPSTSCHOOL-water" target="_blank" rel="noopener" >GitHub repo&lt;/a> and
+&lt;a href="https://tinyurl.com/TOPSTSCHOOL" target="_blank" rel="noopener" >explore interactively yourself&lt;/a> on our BinderHub (see our blog post for more details of how to access the BinderHub deployments to provide
+&lt;a href="https://2i2c.org/blog/2024/nasa-ephemeral-hubs/" >Ephemeral Interactive Computing for NASA Communities&lt;/a>).&lt;/p>
 &lt;p>Over 100 participants were able to access the interactive workshop on our infrastructure, with 8 GB of RAM per user to facilitate the processing of large amounts of earth data. We are pleased that the workshop was successful and the platform was able to provide a great experience for participants. After the workshop, Kytt reported that&lt;/p>
 &lt;blockquote>
 &lt;p>The technology worked as expected and we didn&amp;rsquo;t run into 1 major technical problem. Thank you so much for that!&amp;quot;.&lt;/p>
@@ -40,8 +32,7 @@ Acknowledgements
 &lt;li>Funding from Science Mission Directorate’s Open Source Science Initiative, Research Opportunities in Space and Earth Science (ROSES-2022), F.14 Transform to Open Science&lt;/li>
 &lt;li>NASA NSPIRES F.15 High Priority Open-Source Science Award NNH22ZDA001N-HPOSS&lt;/li>
 &lt;li>
-&lt;a href="https://sedac.ciesin.columbia.edu/" target="_blank" rel="noopener" >NASA Socioeconomic Data and Applications Center (SEDAC)&lt;/a>
-&lt;/li>
+&lt;a href="https://sedac.ciesin.columbia.edu/" target="_blank" rel="noopener" >NASA Socioeconomic Data and Applications Center (SEDAC)&lt;/a>&lt;/li>
 &lt;li>Kytt MacManus&lt;/li>
 &lt;li>Juan F. Martinez&lt;/li>
 &lt;li>James Munroe for providing support and assistance for setting up the cyberinfrastructure for this workshop.&lt;/li>

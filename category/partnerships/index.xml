@@ -15,26 +15,17 @@ Surface Biology and Geology: VITALS Workshop
 &lt;/figcaption>&lt;/figure>
 &lt;/p>
 &lt;p>
-&lt;a href="https://openscapes.org" target="_blank" rel="noopener" >Openscapes&lt;/a>
-is a value-based initiative that supports kinder, better science based on open source community.
-&lt;a href="https://nasa-openscapes.github.io" target="_blank" rel="noopener" >NASA Openscapes&lt;/a>
-is in its fourth year as a project supporting NASA Earth science in the Cloud, co-developed by Julia Lowndes (Openscapes) and Erin Robinson (Metadata Game Changers).&lt;/p>
+&lt;a href="https://openscapes.org" target="_blank" rel="noopener" >Openscapes&lt;/a> is a value-based initiative that supports kinder, better science based on open source community.
+&lt;a href="https://nasa-openscapes.github.io" target="_blank" rel="noopener" >NASA Openscapes&lt;/a> is in its fourth year as a project supporting NASA Earth science in the Cloud, co-developed by Julia Lowndes (Openscapes) and Erin Robinson (Metadata Game Changers).&lt;/p>
 &lt;p>The initiative recently supported the
-&lt;a href="https://nasa.github.io/VITALS/" target="_blank" rel="noopener" >Surface Biology and Geology: VITALS Workshop&lt;/a>
-hosted by NASA
-&lt;a href="https://lpdaac.usgs.gov/" target="_blank" rel="noopener" >Land Processes Distributed Activate Archive Center (LP DAAC)&lt;/a>
-and NASA
-&lt;a href="https://www.jpl.nasa.gov/" target="_blank" rel="noopener" >Jet Propulsion Laboratory (JPL)&lt;/a>
-.&lt;/p>
+&lt;a href="https://nasa.github.io/VITALS/" target="_blank" rel="noopener" >Surface Biology and Geology: VITALS Workshop&lt;/a> hosted by NASA
+&lt;a href="https://lpdaac.usgs.gov/" target="_blank" rel="noopener" >Land Processes Distributed Activate Archive Center (LP DAAC)&lt;/a> and NASA
+&lt;a href="https://www.jpl.nasa.gov/" target="_blank" rel="noopener" >Jet Propulsion Laboratory (JPL)&lt;/a>.&lt;/p>
 &lt;p>Instructors used the 2i2c Openscapes Hub to lead hands-on exercises teaching learners how to manipulate data collected from the
-&lt;a href="https://ecostress.jpl.nasa.gov/" target="_blank" rel="noopener" >ECOSTRESS&lt;/a>
-and
-&lt;a href="https://earth.jpl.nasa.gov/emit/" target="_blank" rel="noopener" >EMIT&lt;/a>
-instruments onboard the International Space Station. They used
-&lt;a href="https://nasa.github.io/VITALS/python/01_Finding_Concurrent_Data.html" target="_blank" rel="noopener" >Jupyter notebooks&lt;/a>
-in the Hub to demonstrate how open source tools together with cloud data and compute resources could effectively analyse the the Canopy Water Content and the Land Surface Temperature over the
-&lt;a href="https://www.dangermondpreserve.org/" target="_blank" rel="noopener" >Jack and Laura Dangermond Preserve&lt;/a>
-, Santa Barbara, CA.&lt;/p>
+&lt;a href="https://ecostress.jpl.nasa.gov/" target="_blank" rel="noopener" >ECOSTRESS&lt;/a> and
+&lt;a href="https://earth.jpl.nasa.gov/emit/" target="_blank" rel="noopener" >EMIT&lt;/a> instruments onboard the International Space Station. They used
+&lt;a href="https://nasa.github.io/VITALS/python/01_Finding_Concurrent_Data.html" target="_blank" rel="noopener" >Jupyter notebooks&lt;/a> in the Hub to demonstrate how open source tools together with cloud data and compute resources could effectively analyse the the Canopy Water Content and the Land Surface Temperature over the
+&lt;a href="https://www.dangermondpreserve.org/" target="_blank" rel="noopener" >Jack and Laura Dangermond Preserve&lt;/a>, Santa Barbara, CA.&lt;/p>
 &lt;p>
 &lt;figure id="figure-plot-of-the-canopy-water-content-over-the-jack-and-laura-dangermond-preserve-santa-barbara-ca-from-a-vitals-workshop-jupyter-notebookhttpsnasagithubiovitalspython03_emit_cwc_from_reflectancehtml">
 &lt;div class="d-flex justify-content-center">
@@ -48,8 +39,7 @@ height="601"
 loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;figcaption>
 Plot of the Canopy Water Content over the Jack and Laura Dangermond Preserve, Santa Barbara, CA from a
-&lt;a href="https://nasa.github.io/VITALS/python/03_EMIT_CWC_from_Reflectance.html" target="_blank" rel="noopener" >VITALS Workshop Jupyter notebook&lt;/a>
-.
+&lt;a href="https://nasa.github.io/VITALS/python/03_EMIT_CWC_from_Reflectance.html" target="_blank" rel="noopener" >VITALS Workshop Jupyter notebook&lt;/a>.
 &lt;/figcaption>&lt;/figure>
 &lt;/p>
 &lt;p>This event was attended by around 250 participants. An event of this size therefore requires a &lt;em>frictionless login flow&lt;/em> so that organizers could focus on the essential complexity of teaching data analysis rather than the accidental complexity of managing Hub authorization. GitHub authentication is the default option for most 2i2c Hubs for research use cases, but for an educational event of this size this option was not fit for purpose since organizers had to&lt;/p>
@@ -61,10 +51,8 @@ Plot of the Canopy Water Content over the Jack and Laura Dangermond Preserve, Sa
 &lt;/ol>
 &lt;p>In response to this need, we developed a shared password feature so that workshop organizers can simply hand the share password out to learners for access to the Hub. This bypassed the manual labour of managing GitHub accounts while not adding to the learner&amp;rsquo;s high cognitive load and improving the participant&amp;rsquo;s learning experience overall.&lt;/p>
 &lt;p>One of the elements that enabled us to recognize and solve this issue effectively is our close partnership with the Openscapes team. We engage in regular
-&lt;a href="https://github.com/NASA-Openscapes/2i2cAccessPolicies/issues/7" target="_blank" rel="noopener" >6-weekly catch-ups&lt;/a>
-where we can learn about user requirements and how we can develop our infrastructure to co-create optimal solutions. Together with our
-&lt;a href="https://team-compass.2i2c.org/product/deliveryflow/#defining-our-product-delivery-flow" target="_blank" rel="noopener" >Product Delivery Flow&lt;/a>
-, we were quickly able to architect the shared password solution in time for the workshop.&lt;/p>
+&lt;a href="https://github.com/NASA-Openscapes/2i2cAccessPolicies/issues/7" target="_blank" rel="noopener" >6-weekly catch-ups&lt;/a> where we can learn about user requirements and how we can develop our infrastructure to co-create optimal solutions. Together with our
+&lt;a href="https://team-compass.2i2c.org/product/deliveryflow/#defining-our-product-delivery-flow" target="_blank" rel="noopener" >Product Delivery Flow&lt;/a>, we were quickly able to architect the shared password solution in time for the workshop.&lt;/p>
 &lt;p>
 &lt;figure id="figure-feedback-from-brianna-lind-lp-daac">
 &lt;div class="d-flex justify-content-center">
@@ -81,24 +69,19 @@ Feedback from Brianna Lind (LP DAAC)
 &lt;/figcaption>&lt;/figure>
 &lt;/p>
 &lt;p>We have documented the technical infrastructure changes required to enable a shared password for the Hub in our
-&lt;a href="https://infrastructure.2i2c.org/hub-deployment-guide/configure-auth/shared-password/" target="_blank" rel="noopener" >Infrastructure Guide&lt;/a>
-and hope to support many future events with this mechanism!&lt;/p>
+&lt;a href="https://infrastructure.2i2c.org/hub-deployment-guide/configure-auth/shared-password/" target="_blank" rel="noopener" >Infrastructure Guide&lt;/a> and hope to support many future events with this mechanism!&lt;/p>
 &lt;h2 id="acknowledgements">
 Acknowledgements
 &lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
 &lt;/h2>&lt;ul>
 &lt;li>
-&lt;a href="https://nasa-openscapes.github.io/" target="_blank" rel="noopener" >NASA Openscapes&lt;/a>
-&lt;/li>
+&lt;a href="https://nasa-openscapes.github.io/" target="_blank" rel="noopener" >NASA Openscapes&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://lpdaac.usgs.gov/" target="_blank" rel="noopener" >NASA LP DAAC&lt;/a>
-&lt;/li>
+&lt;a href="https://lpdaac.usgs.gov/" target="_blank" rel="noopener" >NASA LP DAAC&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://www.jpl.nasa.gov/" target="_blank" rel="noopener" >NASA JPL&lt;/a>
-&lt;/li>
+&lt;a href="https://www.jpl.nasa.gov/" target="_blank" rel="noopener" >NASA JPL&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://science.nasa.gov/researchers/" target="_blank" rel="noopener" >NASA ROSES funding&lt;/a>
-&lt;/li>
+&lt;a href="https://science.nasa.gov/researchers/" target="_blank" rel="noopener" >NASA ROSES funding&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>US Greenhouse Gas Center supports summer school at CIRA</title><link>https://2i2c.org/blog/2024/ghg-summer-school/</link><pubDate>Thu, 20 Jun 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/ghg-summer-school/</guid><description>&lt;p>
 &lt;figure id="figure-summer-school-for-inverse-modeling-of-greenhouse-gases-2024">
 &lt;div class="d-flex justify-content-center">
@@ -115,17 +98,12 @@ Summer school for inverse modeling of greenhouse gases 2024
 &lt;/figcaption>&lt;/figure>
 &lt;/p>
 &lt;p>The Cooperative Institute for Research in the Atmosphere (
-&lt;a href="https://www.cira.colostate.edu/" target="_blank" rel="noopener" >CIRA&lt;/a>
-) is an interdisciplinary cooperation between NOAA research scientists and Colorado State University. CIRA is hosting a
-&lt;a href="https://www.cira.colostate.edu/conferences/rmtgw/" target="_blank" rel="noopener" >summer school&lt;/a>
-for inverse modeling of greenhouse gases using atmospheric data assimilation techniques. The
-&lt;a href="https://earth.gov/ghgcenter" target="_blank" rel="noopener" >US Greenhouse Gas Center&lt;/a>
-is supporting the workshop by providing 40+ attendees access to their interactive computing hub operated by 2i2c (see
-&lt;a href="https://2i2c.org/blog/2023/us-ghg-center-launches/" >our blog post about their launch&lt;/a>
-).&lt;/p>
+&lt;a href="https://www.cira.colostate.edu/" target="_blank" rel="noopener" >CIRA&lt;/a>) is an interdisciplinary cooperation between NOAA research scientists and Colorado State University. CIRA is hosting a
+&lt;a href="https://www.cira.colostate.edu/conferences/rmtgw/" target="_blank" rel="noopener" >summer school&lt;/a> for inverse modeling of greenhouse gases using atmospheric data assimilation techniques. The
+&lt;a href="https://earth.gov/ghgcenter" target="_blank" rel="noopener" >US Greenhouse Gas Center&lt;/a> is supporting the workshop by providing 40+ attendees access to their interactive computing hub operated by 2i2c (see
+&lt;a href="https://2i2c.org/blog/2023/us-ghg-center-launches/" >our blog post about their launch&lt;/a>).&lt;/p>
 &lt;p>Hub administrators have
-&lt;a href="https://github.com/NASA-IMPACT/ssim-ghg-workshop-2024-python-image" target="_blank" rel="noopener" >built a customized software environment&lt;/a>
-with container technology for use at the workshop. In doing so, this bypasses the need for participants to individually install software on their own machines and the online hub provides a &lt;em>consistent&lt;/em> and &lt;em>reproducible&lt;/em> interactive computing environment that is easily &lt;em>accessible&lt;/em> and &lt;em>scalable&lt;/em>.&lt;/p>
+&lt;a href="https://github.com/NASA-IMPACT/ssim-ghg-workshop-2024-python-image" target="_blank" rel="noopener" >built a customized software environment&lt;/a> with container technology for use at the workshop. In doing so, this bypasses the need for participants to individually install software on their own machines and the online hub provides a &lt;em>consistent&lt;/em> and &lt;em>reproducible&lt;/em> interactive computing environment that is easily &lt;em>accessible&lt;/em> and &lt;em>scalable&lt;/em>.&lt;/p>
 &lt;p>
 &lt;figure id="figure-login-screen-of-the-ghg-hub-showing-the-custom-built-ssim-ghg-image-option">
 &lt;div class="d-flex justify-content-center">

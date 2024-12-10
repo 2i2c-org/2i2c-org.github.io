@@ -12,58 +12,44 @@ Animal pose estimation using deep neural networks. Courtesy of the
 &lt;/figcaption>&lt;/figure>
 &lt;/p>
 &lt;p>The
-&lt;a href="http://www.mackenziemathislab.org/deeplabcut" target="_blank" rel="noopener" >DeepLabCut team&lt;/a>
-is a group of researchers and developers who are working on open source tools for analyzing animal pose estimation by training deep neural networks on videos.&lt;/p>
+&lt;a href="http://www.mackenziemathislab.org/deeplabcut" target="_blank" rel="noopener" >DeepLabCut team&lt;/a> is a group of researchers and developers who are working on open source tools for analyzing animal pose estimation by training deep neural networks on videos.&lt;/p>
 &lt;p>Chris Holdgraf visited the lab in early August to learn more about how the group were using open-source tools to document and share their work.&lt;/p>
 &lt;h2 id="jupyter-book-and-myst">
 Jupyter Book and MyST
 &lt;a class="header-anchor" href="#jupyter-book-and-myst">#&lt;/a>
 &lt;/h2>&lt;p>Extensive documentation for using the DeepLabCut software package is already available as a
-&lt;a href="https://deeplabcut.github.io/DeepLabCut/README.html" target="_blank" rel="noopener" >Jupyter Book&lt;/a>
-. The group was interested in adopting MyST Markdown to stay ahead of the curve and upgrade their Jupyter Book (see the related announcement
-&lt;a href="https://executablebooks.org/en/latest/blog/2024-05-20-jupyter-book-myst/" target="_blank" rel="noopener" >Jupyter Book 2 will be build upon the MyST-MD engine&lt;/a>
-).&lt;/p>
+&lt;a href="https://deeplabcut.github.io/DeepLabCut/README.html" target="_blank" rel="noopener" >Jupyter Book&lt;/a>. The group was interested in adopting MyST Markdown to stay ahead of the curve and upgrade their Jupyter Book (see the related announcement
+&lt;a href="https://executablebooks.org/en/latest/blog/2024-05-20-jupyter-book-myst/" target="_blank" rel="noopener" >Jupyter Book 2 will be build upon the MyST-MD engine&lt;/a>).&lt;/p>
 &lt;p>Chris led a mini-hackathon to introduce the group to MyST and collect feedback on where enhancement features could be made in the future. Here&amp;rsquo;s a summary of the outcomes:&lt;/p>
 &lt;ul>
 &lt;li>Many improvements were made to the
-&lt;a href="https://mystmd.org/guide/" target="_blank" rel="noopener" >MyST documentation&lt;/a>
-📖
+&lt;a href="https://mystmd.org/guide/" target="_blank" rel="noopener" >MyST documentation&lt;/a> 📖
 &lt;ul>
 &lt;li>The
-&lt;a href="https://mystmd.org/guide/quickstart" target="_blank" rel="noopener" >MyST Quick Start Guide&lt;/a>
-was used to onboard new users. Amendments were
-&lt;a href="https://github.com/jupyter-book/mystmd/pull/1433" target="_blank" rel="noopener" >upstreamed to the MyST docs directly&lt;/a>
-and were immediately available to all.&lt;/li>
+&lt;a href="https://mystmd.org/guide/quickstart" target="_blank" rel="noopener" >MyST Quick Start Guide&lt;/a> was used to onboard new users. Amendments were
+&lt;a href="https://github.com/jupyter-book/mystmd/pull/1433" target="_blank" rel="noopener" >upstreamed to the MyST docs directly&lt;/a> and were immediately available to all.&lt;/li>
 &lt;li>A
-&lt;a href="https://mystmd.org/guide/quickstart-executable-documents" target="_blank" rel="noopener" >tutorial on executable documents&lt;/a>
-was added to the collection of MyST tutorials.&lt;/li>
+&lt;a href="https://mystmd.org/guide/quickstart-executable-documents" target="_blank" rel="noopener" >tutorial on executable documents&lt;/a> was added to the collection of MyST tutorials.&lt;/li>
 &lt;li>MyST-MD installation instructions were
-&lt;a href="https://github.com/jupyter-book/mystmd/pull/1454" target="_blank" rel="noopener" >simplified using &lt;code>mamba&lt;/code>&lt;/a>
-.&lt;/li>
+&lt;a href="https://github.com/jupyter-book/mystmd/pull/1454" target="_blank" rel="noopener" >simplified using &lt;code>mamba&lt;/code>&lt;/a>.&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;li>A bunch of enhancement features were requested ✨
 &lt;ul>
 &lt;li>
-&lt;a href="https://github.com/jupyter-book/mystmd/issues/1455" target="_blank" rel="noopener" >Using cell tags for labelling notebook cells&lt;/a>
-&lt;/li>
+&lt;a href="https://github.com/jupyter-book/mystmd/issues/1455" target="_blank" rel="noopener" >Using cell tags for labelling notebook cells&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://github.com/jupyter-book/myst-theme/issues/321" target="_blank" rel="noopener" >Support for loading user-defined CSS stylesheets for theming&lt;/a>
-&lt;/li>
+&lt;a href="https://github.com/jupyter-book/myst-theme/issues/321" target="_blank" rel="noopener" >Support for loading user-defined CSS stylesheets for theming&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://github.com/jupyter-book/mystmd/issues/1458" target="_blank" rel="noopener" >Better UX for multi-versioned documentation&lt;/a>
-&lt;/li>
+&lt;a href="https://github.com/jupyter-book/mystmd/issues/1458" target="_blank" rel="noopener" >Better UX for multi-versioned documentation&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://github.com/jupyter-book/mystmd/issues/1462" target="_blank" rel="noopener" >Bibliography styling in HTML&lt;/a>
-&lt;/li>
+&lt;a href="https://github.com/jupyter-book/mystmd/issues/1462" target="_blank" rel="noopener" >Bibliography styling in HTML&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://github.com/DeepLabCut/DeepLabCut/pull/2712" target="_blank" rel="noopener" >Automatic API documentation generation&lt;/a>
-&lt;/li>
+&lt;a href="https://github.com/DeepLabCut/DeepLabCut/pull/2712" target="_blank" rel="noopener" >Automatic API documentation generation&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;li>And we found a bug in the
-&lt;a href="https://github.com/jupyter-book/mystmd/issues/1456" target="_blank" rel="noopener" >table of contents validation&lt;/a>
-🐞&lt;/li>
+&lt;a href="https://github.com/jupyter-book/mystmd/issues/1456" target="_blank" rel="noopener" >table of contents validation&lt;/a> 🐞&lt;/li>
 &lt;/ul>
 &lt;h2 id="summary">
 Summary
@@ -73,8 +59,7 @@ Summary
 Acknowledgments
 &lt;a class="header-anchor" href="#acknowledgments">#&lt;/a>
 &lt;/h2>&lt;p>We would like to thank the
-&lt;a href="http://www.mackenziemathislab.org/" target="_blank" rel="noopener" >Mackenzie Mathis Lab&lt;/a>
-for hosting Chris Holdgraf at EPFL, Lausanne, Switzerland.&lt;/p></description></item><item><title>Hacking the Project Pythia Cook-off with MyST Markdown</title><link>https://2i2c.org/blog/2024/project-pythia-cookoff/</link><pubDate>Tue, 18 Jun 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/project-pythia-cookoff/</guid><description>&lt;p>
+&lt;a href="http://www.mackenziemathislab.org/" target="_blank" rel="noopener" >Mackenzie Mathis Lab&lt;/a> for hosting Chris Holdgraf at EPFL, Lausanne, Switzerland.&lt;/p></description></item><item><title>Hacking the Project Pythia Cook-off with MyST Markdown</title><link>https://2i2c.org/blog/2024/project-pythia-cookoff/</link><pubDate>Tue, 18 Jun 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/project-pythia-cookoff/</guid><description>&lt;p>
 &lt;figure id="figure-photo-courtesy-of-dr-debanjana-das">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img src="./cover-featured.png" alt="Group selfie of Project Pythia Cook-off participants." loading="lazy" data-zoomable />&lt;/div>
@@ -86,21 +71,16 @@ Photo courtesy of Dr Debanjana Das
 What is Project Pythia?
 &lt;a class="header-anchor" href="#what-is-project-pythia">#&lt;/a>
 &lt;/h2>&lt;p>
-&lt;a href="https://projectpythia.org/" target="_blank" rel="noopener" >Project Pythia&lt;/a>
-is the education working group for
-&lt;a href="https://pangeo.io/index.html" target="_blank" rel="noopener" >Pangeo&lt;/a>
-, a community platform for Big Data geoscience in which 2i2c operates a cloud hub. The core aim of Project Pythia is to spearhead the creation and curation of community-driven, open-source documentation, in the form of &amp;ldquo;cookbooks&amp;rdquo;, to enable the adoption of &lt;em>open&lt;/em>, &lt;em>scalable&lt;/em> and &lt;em>reproducible&lt;/em> workflows for geoscientists.&lt;/p>
+&lt;a href="https://projectpythia.org/" target="_blank" rel="noopener" >Project Pythia&lt;/a> is the education working group for
+&lt;a href="https://pangeo.io/index.html" target="_blank" rel="noopener" >Pangeo&lt;/a>, a community platform for Big Data geoscience in which 2i2c operates a cloud hub. The core aim of Project Pythia is to spearhead the creation and curation of community-driven, open-source documentation, in the form of &amp;ldquo;cookbooks&amp;rdquo;, to enable the adoption of &lt;em>open&lt;/em>, &lt;em>scalable&lt;/em> and &lt;em>reproducible&lt;/em> workflows for geoscientists.&lt;/p>
 &lt;h2 id="what-did-2i2c-do">
 What did 2i2c do?
 &lt;a class="header-anchor" href="#what-did-2i2c-do">#&lt;/a>
 &lt;/h2>&lt;p>Jenny, James and Angus from the 2i2c team participated in the annual
-&lt;a href="https://projectpythia.org/pythia-cookoff-2024/" target="_blank" rel="noopener" >Project Pythia Cook-off 2024&lt;/a>
-, a hackathon where cookbook authors and collaborators can spend dedicated time on creating and maintaining their content using
-&lt;a href="https://jupyterbook.org/en/stable/intro.html" target="_blank" rel="noopener" >Jupyter Book&lt;/a>
-and deploying their cookbooks with GitHub actions.&lt;/p>
+&lt;a href="https://projectpythia.org/pythia-cookoff-2024/" target="_blank" rel="noopener" >Project Pythia Cook-off 2024&lt;/a>, a hackathon where cookbook authors and collaborators can spend dedicated time on creating and maintaining their content using
+&lt;a href="https://jupyterbook.org/en/stable/intro.html" target="_blank" rel="noopener" >Jupyter Book&lt;/a> and deploying their cookbooks with GitHub actions.&lt;/p>
 &lt;p>2i2c teamed up with the infrastructure breakout group during the hackathon, led by Katelyn FitzGerald (UCAR) and Kevin Tyle (University at Albany), and members of the
-&lt;a href="https://curvenote.com/" target="_blank" rel="noopener" >Curvenote&lt;/a>
-team also joined the group.&lt;/p>
+&lt;a href="https://curvenote.com/" target="_blank" rel="noopener" >Curvenote&lt;/a> team also joined the group.&lt;/p>
 &lt;h2 id="day-1">
 Day 1
 &lt;a class="header-anchor" href="#day-1">#&lt;/a>
@@ -126,29 +106,22 @@ Day 2
 &lt;li>&lt;input disabled="" type="checkbox"> Configuration files for each cookbook were difficult to update at scale. Project Pythia currently have a gallery of over 30 cookbooks!&lt;/li>
 &lt;li>&lt;input disabled="" type="checkbox"> Changes to Sphinx-based themes inherited from upstream were prone to breaking custom Project Pythia branding downstream.&lt;/li>
 &lt;li>&lt;input disabled="" type="checkbox"> Executable content was not able to run on the Project Pythia&amp;rsquo;s dedicated BinderHub hosted on
-&lt;a href="https://jetstream-cloud.org/index.html" target="_blank" rel="noopener" >JetStream2&lt;/a>
-(operated by NSF).&lt;/li>
+&lt;a href="https://jetstream-cloud.org/index.html" target="_blank" rel="noopener" >JetStream2&lt;/a> (operated by NSF).&lt;/li>
 &lt;li>&lt;input disabled="" type="checkbox"> Cookbooks frequently cross-referenced materials from other cookbooks to build upon pre-existing knowledge, but this was not easy to author and the reader experience was not as smooth as it could be.&lt;/li>
 &lt;/ul>
 &lt;p>Following the announcement that
-&lt;a href="" >Jupyter Book 2.0 will use MyST&lt;/a>
-last month, Rowan (Curvenote) and Angus (2i2c) delivered a compelling demonstration of the
-&lt;a href="https://mystmd.org/" target="_blank" rel="noopener" >MyST&lt;/a>
-ecosystem centered around modern web-first technologies (JavaScript/TypeScript) that offers improved interactivity and accessibility.&lt;/p>
+&lt;a href="" >Jupyter Book 2.0 will use MyST&lt;/a> last month, Rowan (Curvenote) and Angus (2i2c) delivered a compelling demonstration of the
+&lt;a href="https://mystmd.org/" target="_blank" rel="noopener" >MyST&lt;/a> ecosystem centered around modern web-first technologies (JavaScript/TypeScript) that offers improved interactivity and accessibility.&lt;/p>
 &lt;p>In the second half of the day, we decided to use the hackathon to explore migrating the Pythia cookbooks from using a Sphinx-based to a MyST-based document structure and engine. Within one afternoon, the group migrated four cookbooks to use MyST MD&lt;/p>
 &lt;ol>
 &lt;li>
-&lt;a href="https://projectpythia-mystmd.github.io/pythia-foundations/" target="_blank" rel="noopener" >Pythia Foundations&lt;/a>
-&lt;/li>
+&lt;a href="https://projectpythia-mystmd.github.io/pythia-foundations/" target="_blank" rel="noopener" >Pythia Foundations&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://projectpythia-mystmd.github.io/HRRR-AWS-cookbook/" target="_blank" rel="noopener" >High Resolution Rapid Refresh on AWS&lt;/a>
-&lt;/li>
+&lt;a href="https://projectpythia-mystmd.github.io/HRRR-AWS-cookbook/" target="_blank" rel="noopener" >High Resolution Rapid Refresh on AWS&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://projectpythia-mystmd.github.io/radar-cookbook/" target="_blank" rel="noopener" >Radar Cookbook&lt;/a>
-&lt;/li>
+&lt;a href="https://projectpythia-mystmd.github.io/radar-cookbook/" target="_blank" rel="noopener" >Radar Cookbook&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://projectpythia-mystmd.github.io/advanced-viz-cookbook/" target="_blank" rel="noopener" >Advanced Visualization&lt;/a>
-.&lt;/li>
+&lt;a href="https://projectpythia-mystmd.github.io/advanced-viz-cookbook/" target="_blank" rel="noopener" >Advanced Visualization&lt;/a>.&lt;/li>
 &lt;/ol>
 &lt;p>
 &lt;figure >
@@ -170,23 +143,17 @@ loading="lazy" data-zoomable />&lt;/div>
 Day 3
 &lt;a class="header-anchor" href="#day-3">#&lt;/a>
 &lt;/h2>&lt;p>We spent this day tackling support for managing a gallery of Project Pythia cookbooks at scale. See the
-&lt;a href="https://executablebooks.org/en/latest/blog/2024-06-14-project-pythia-mystmd/" target="_blank" rel="noopener" >Executable Books blog post&lt;/a>
-for technical details on how we&lt;/p>
+&lt;a href="https://executablebooks.org/en/latest/blog/2024-06-14-project-pythia-mystmd/" target="_blank" rel="noopener" >Executable Books blog post&lt;/a> for technical details on how we&lt;/p>
 &lt;ul>
 &lt;li>
-&lt;a href="https://github.com/projectpythia-mystmd/pythia-config" target="_blank" rel="noopener" >Centralized configuration&lt;/a>
-&lt;/li>
+&lt;a href="https://github.com/projectpythia-mystmd/pythia-config" target="_blank" rel="noopener" >Centralized configuration&lt;/a>&lt;/li>
 &lt;li>Prototyped a
-&lt;a href="https://projectpythia-mystmd.github.io/" target="_blank" rel="noopener" >gallery&lt;/a>
-plugin in Python&lt;/li>
+&lt;a href="https://projectpythia-mystmd.github.io/" target="_blank" rel="noopener" >gallery&lt;/a> plugin in Python&lt;/li>
 &lt;li>Fixed a number of bugs related to integrated computation with
-&lt;a href="https://mystmd.org/guide/integrating-jupyter#connecting-to-a-binder" target="_blank" rel="noopener" >Binder&lt;/a>
-and
-&lt;a href="https://mystmd.org/guide/integrating-jupyter#jupyterlite" target="_blank" rel="noopener" >JupyterLite&lt;/a>
-&lt;/li>
+&lt;a href="https://mystmd.org/guide/integrating-jupyter#connecting-to-a-binder" target="_blank" rel="noopener" >Binder&lt;/a> and
+&lt;a href="https://mystmd.org/guide/integrating-jupyter#jupyterlite" target="_blank" rel="noopener" >JupyterLite&lt;/a>&lt;/li>
 &lt;li>Embraced the referencing and reuse of content with
-&lt;a href="https://mystmd.org/guide/external-references#tbl-syntax-xref" target="_blank" rel="noopener" >simple markdown syntax for hover-references&lt;/a>
-.&lt;/li>
+&lt;a href="https://mystmd.org/guide/external-references#tbl-syntax-xref" target="_blank" rel="noopener" >simple markdown syntax for hover-references&lt;/a>.&lt;/li>
 &lt;/ul>
 &lt;video mute autoplay loop >
 &lt;source src="https://2i2c.org/blog/2024/project-pythia-cookoff/hover-ref.mp4" type="video/mp4">
@@ -196,11 +163,9 @@ Day 4
 &lt;a class="header-anchor" href="#day-4">#&lt;/a>
 &lt;/h2>&lt;p>Looking to the future, we spent time reflecting on our experiences and discussing the potential, transformative impact MyST MD tooling could have in the hands of the scientific community at large, including the communities served by 2i2c. Knowledge-sharing based on static figures and PDFs would fall obsolete and give way to a dynamic, web-first approach to sharing interactive narratives backed by compute from a Jupyter server.&lt;/p>
 &lt;p>Throughout the course of the hackathon, the rate of iterated development for both end users of the community cookbook and the developers of the open-source tooling was astounding. For example, we were able to quickly expose small bugs (
-&lt;a href="https://github.com/executablebooks/mystmd/issues/1297" target="_blank" rel="noopener" >e.g. support for HTML video tags&lt;/a>
-) in the MyST MD tooling, which were immediately fixed upstream and released within minutes. The feedback loop that connected the user experience with the software tooling was incredibly synergistic, with immediate impact both upstream and downstream that 2i2c hopes to continue replicating across many facets of their operations.&lt;/p>
+&lt;a href="https://github.com/executablebooks/mystmd/issues/1297" target="_blank" rel="noopener" >e.g. support for HTML video tags&lt;/a>) in the MyST MD tooling, which were immediately fixed upstream and released within minutes. The feedback loop that connected the user experience with the software tooling was incredibly synergistic, with immediate impact both upstream and downstream that 2i2c hopes to continue replicating across many facets of their operations.&lt;/p>
 &lt;p>Beyond the Project Pythia Cook-off, the breakout group will continue conversations around strengthening their community of practice and hopefully advocating for wider adoption of MyST MD amongst the scientific community (say hello to some of our group members at
-&lt;a href="https://www.scipy2024.scipy.org/" target="_blank" rel="noopener" >SciPy 2024&lt;/a>
-in July!).&lt;/p>
+&lt;a href="https://www.scipy2024.scipy.org/" target="_blank" rel="noopener" >SciPy 2024&lt;/a> in July!).&lt;/p>
 &lt;h2 id="acknowledgements">
 Acknowledgements
 &lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
@@ -210,7 +175,5 @@ Acknowledgements
 &lt;li>2i2c / Code for Science and Society (NSF award 2324304): Provided tailored compute services and on-site support&lt;/li>
 &lt;li>Curvenote: Contributed engineering cycles to MyST MD development.&lt;/li>
 &lt;/ul></description></item><item><title>Jupyter Book 2.0 will use MyST</title><link>https://2i2c.org/blog/2024/myst-jupyter-book/</link><pubDate>Tue, 21 May 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/myst-jupyter-book/</guid><description>&lt;p>See
-&lt;a href="https://executablebooks.org/en/latest/blog/2024-05-20-jupyter-book-myst/" target="_blank" rel="noopener" >the Executable Books blog&lt;/a>
-for a post on the future directions of the Jupyter Book project, which will be built on top of the
-&lt;a href="https://mystmd.org" target="_blank" rel="noopener" >MyST Markdown engine&lt;/a>
-.&lt;/p></description></item></channel></rss>
+&lt;a href="https://executablebooks.org/en/latest/blog/2024-05-20-jupyter-book-myst/" target="_blank" rel="noopener" >the Executable Books blog&lt;/a> for a post on the future directions of the Jupyter Book project, which will be built on top of the
+&lt;a href="https://mystmd.org" target="_blank" rel="noopener" >MyST Markdown engine&lt;/a>.&lt;/p></description></item></channel></rss>

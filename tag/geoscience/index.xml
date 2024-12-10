@@ -1,4 +1,281 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Geoscience | 2i2c</title><link>https://2i2c.org/tag/geoscience/</link><atom:link href="https://2i2c.org/tag/geoscience/index.xml" rel="self" type="application/rss+xml"/><description>Geoscience</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Oct 2024 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Geoscience</title><link>https://2i2c.org/tag/geoscience/</link></image><item><title>Pancakes are the future of geophysical data processing</title><link>https://2i2c.org/blog/2024/external-earthscope-pancakes/</link><pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/external-earthscope-pancakes/</guid><description/></item><item><title>Keeping PACE with GPU enabled compute to detect global cloud cover using satellite data</title><link>https://2i2c.org/blog/2024/pace-hackweek/</link><pubDate>Mon, 12 Aug 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/pace-hackweek/</guid><description>&lt;p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Geoscience | 2i2c</title><link>https://2i2c.org/tag/geoscience/</link><atom:link href="https://2i2c.org/tag/geoscience/index.xml" rel="self" type="application/rss+xml"/><description>Geoscience</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 09 Dec 2024 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Geoscience</title><link>https://2i2c.org/tag/geoscience/</link></image><item><title>2i2c communities at AGU 2024</title><link>https://2i2c.org/blog/2024/agu/</link><pubDate>Mon, 09 Dec 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/agu/</guid><description>&lt;p>We are proud to share that several of 2i2c&amp;rsquo;s community partners are presenting their work at AGU 2024! In each case, 2i2c&amp;rsquo;s infrastructure plays a part in helping communities create and share knowledge, and grow their community. As an organization rooted in community-centric practices, we are particularly excited to see 2i2c represented &amp;ldquo;indirectly&amp;rdquo; at this conference, and to see ourselves as a supporting role enabling the impact of others.&lt;/p>
+&lt;p>Here&amp;rsquo;s a summary and links to all of the sessions. See below for a brief overview of seach one.&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1735091" target="_blank" rel="noopener" >ED31G-2272 Breaking down the barriers to Open Science with Project Pythia&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1577974" target="_blank" rel="noopener" >ED31G-2277 PACE Hackweek: An open community keeping up with PACE&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1709763" target="_blank" rel="noopener" >IN13A-2147 Including more solutions and more solvers via actionable open science&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1522970" target="_blank" rel="noopener" >IN34A-01 Beyond Open Data: Ensuring True Accessibility for All (Invited)&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1645291" target="_blank" rel="noopener" >Introducing GeoLab - An EarthScope JupyterHub for Enabling Collaborative Cloud-Native Geophysical Data Analysis and Skill Development Workshops&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1697601" target="_blank" rel="noopener" >U13A-2349 Sharing recipes for cloud computing: the Project Pythia Cookbook Initiative&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1708480" target="_blank" rel="noopener" >U13A-2350 Supporting NASA Earthdata users in the Cloud: NASA Openscapes JupyterHub and User Onboarding &amp;amp; Fledging&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1605357" target="_blank" rel="noopener" >V31A-08 VICTOR – A new Cyber-infrastructure for Volcanology&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="ed31g-2272-breaking-down-the-barriers-to-open-science-with-project-pythia">
+ED31G-2272 Breaking down the barriers to Open Science with Project Pythia
+&lt;a class="header-anchor" href="#ed31g-2272-breaking-down-the-barriers-to-open-science-with-project-pythia">#&lt;/a>
+&lt;/h2>&lt;p>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1735091" target="_blank" rel="noopener" >Link to session&lt;/a>&lt;/p>
+&lt;p>Hall B-C (Poster Hall) (Convention Center)&lt;/p>
+&lt;h3 id="abstract">
+Abstract
+&lt;a class="header-anchor" href="#abstract">#&lt;/a>
+&lt;/h3>&lt;p>Project Pythia is an open access educational initiative established with funding from the U.S. National Science Foundation. Its mission is to help students and scientists enhance their skills and adopt best practices using the tools and technologies of open science. As part of the Pangeo community, Project Pythia primarily focuses on the Pangeo stack, which includes cloud computing, Jupyter technologies, GitHub, and various software packages in the Scientific Python ecosystem, centered around Xarray. Project Pythia offers a wide range of open access content, such as datasets, software, tutorials, and annotated real-world workflows presented in the form of Jupyter Books.&lt;/p>
+&lt;p>Project Pythia serves as a resource for scientists, promoting and fostering open science. Although it is not a scientific research artifact itself, the development of Project Pythia adheres to many best practices advocated by open science proponents. The Pythia team actively encourages community engagement and collaborates openly with scientists and technologists to create new content. All Pythia resources are freely accessible, and the project follows the FAIR principles (Findable, Accessible, Interoperable, and Reusable) for managing research outputs, including publications, data, and other materials. We support and facilitate open evaluation and peer reviews of content to ensure verifiability and trust. Lastly, we endeavor to openly discuss ideas, designs, and methods before implementation.&lt;/p>
+&lt;p>This presentation will provide an overview of Project Pythia&amp;rsquo;s extensive educational resources and share our experiences in applying many open science principles to develop this flagship training resource for the geoscience community.&lt;/p>
+&lt;h3 id="authors">
+Authors
+&lt;a class="header-anchor" href="#authors">#&lt;/a>
+&lt;/h3>&lt;ul>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/15277" target="_blank" rel="noopener" >John Clyne&lt;/a> - NSF National Center for Atmospheric Research (first author)&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1112151" target="_blank" rel="noopener" >Drew Camron&lt;/a> - University Corporation for Atmospheric Research&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1104277" target="_blank" rel="noopener" >Orhan Eroglu&lt;/a> - NSF National Center for Atmospheric Research&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1266060" target="_blank" rel="noopener" >Robert Ford&lt;/a> - University at Albany State University of New York&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/796821" target="_blank" rel="noopener" >Julia Kent&lt;/a> - NSF National Center for Atmospheric Research&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/529702" target="_blank" rel="noopener" >Ryan May&lt;/a> - University Corporation for Atmospheric Research&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1317099" target="_blank" rel="noopener" >James Munroe&lt;/a> - 2i2c / Code for Science and Society&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/10645" target="_blank" rel="noopener" >Brian E J Rose&lt;/a> - SUNY at Albany&lt;/li>
+&lt;/ul>
+&lt;h2 id="ed31g-2277-pace-hackweek-an-open-community-keeping-up-with-pace">
+ED31G-2277 PACE Hackweek: An open community keeping up with PACE
+&lt;a class="header-anchor" href="#ed31g-2277-pace-hackweek-an-open-community-keeping-up-with-pace">#&lt;/a>
+&lt;/h2>&lt;p>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1577974" target="_blank" rel="noopener" >Link to session&lt;/a>&lt;/p>
+&lt;h3 id="abstract-1">
+Abstract
+&lt;a class="header-anchor" href="#abstract-1">#&lt;/a>
+&lt;/h3>&lt;p>The NASA Plankton, Aerosol, Cloud, ocean Ecosystem (PACE) mission, while bringing NASA&amp;rsquo;s Earth System Observatory &lt;em>up to speed&lt;/em> with aquatic, atmospheric, and terrestrial science capabilities, is also providing data records of the Earth System for the next generation of scientists &lt;em>to grow into&lt;/em>. The goal of the PACE Hackweek, supported by the Ocean Carbon &amp;amp; Biogeochemistry program and hosted at the University of Maryland Baltimore County in August 2024, was to enrich and support the practice of open science by both emerging and established researchers. Cloud-compute resources for the event were provided by CryoCloud, a NASA funded collaboration between ICESat-2 and the International Interactive Computing Collaboration (2i2c) to provide cryosphere researchers with a shared JupyterHub. We, the hackweek mentors, were buoyed by the NASA Openscapes program and adopted its mantra of striving toward &amp;ldquo;a kinder science for future us.&amp;rdquo; Participants faced two novelties: the &amp;ldquo;firehose&amp;rdquo; of data from the PACE instrument array (a hyper-spectral imaging spectrometer, a wide-swath hyper-angular polarimeter, and a narrow-swath spectro-polarimeter), and the distribution of PACE collections through the NASA Earthdata Cloud (a first for the Ocean Biology Distributed Active Archive Center). We present our approach and the challenges undertaken to hold an in-person, social coding event with 45 participants that provided a collaborative, supportive launchpad for doing open science with PACE. All lectures and tutorials produced for the event are freely available for examination and reuse. Our results additionally include highlights from the demonstration projects pursued by event participants and results from two post-event, qualitative surveys. One anonymous survey gathered participant feedback that will inform plans for growing these 45 participants into a lasting, open community. A separate, anonymous survey recorded participant demographics in order to evaluate our efforts at increasing diversity within the community of PACE data users. Key points of discussion include participant views, informed by our event, on whether and how the NASA Earthdata Cloud is a significant resource for the practice of open science with PACE, and how a shared JupyterHub can further the practice of open science by the community it serves.&lt;/p>
+&lt;h3 id="authors-1">
+Authors
+&lt;a class="header-anchor" href="#authors-1">#&lt;/a>
+&lt;/h3>&lt;ul>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1480998" target="_blank" rel="noopener" >Ian Carroll&lt;/a> - NASA Goddard Space Flight Center; University of Maryland Baltimore County (first author)&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1495436" target="_blank" rel="noopener" >Kelsey Bisson&lt;/a> - NASA Headquarters&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1376909" target="_blank" rel="noopener" >Sean Foley&lt;/a> - NASA Goddard Space Flight Center; Morgan State University&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/741441" target="_blank" rel="noopener" >Patrick Clifton Gray&lt;/a> - University of Maine&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/23781" target="_blank" rel="noopener" >Elizabeth E Holmes&lt;/a> - NOAA Fisheries&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1492013" target="_blank" rel="noopener" >Carina Poulin&lt;/a> - Science Systems and Applications, Inc.; NASA Goddard Space Flight Center&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1306597" target="_blank" rel="noopener" >Tasha Snow&lt;/a> - NASA Goddard Space Flight Center; University of Maryland College Park&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1076991" target="_blank" rel="noopener" >Guoqing Wang&lt;/a> - NASA Goddard Space Flight Center; Science Systems and Applications, Inc.&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/38898" target="_blank" rel="noopener" >Jeremy Werdell&lt;/a> - NASA Goddard Space Flight Center&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1466866" target="_blank" rel="noopener" >Anna Windle&lt;/a> - NASA Goddard Space Flight Center; Science Systems and Applications, Inc.&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/66734" target="_blank" rel="noopener" >Pengwang Zhai&lt;/a> - Department of Physics, University of Maryland Baltimore County&lt;/li>
+&lt;/ul>
+&lt;h2 id="in13a-2147-including-more-solutions-and-more-solvers-via-actionable-open-science">
+IN13A-2147 Including more solutions and more solvers via actionable open science
+&lt;a class="header-anchor" href="#in13a-2147-including-more-solutions-and-more-solvers-via-actionable-open-science">#&lt;/a>
+&lt;/h2>&lt;p>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1709763" target="_blank" rel="noopener" >Link to session&lt;/a>&lt;/p>
+&lt;p>Monday, 9 December 2024
+13:40 - 17:30&lt;br>
+Hall B-C (Poster Hall) (Convention Center)&lt;/p>
+&lt;h3 id="abstract-2">
+Abstract
+&lt;a class="header-anchor" href="#abstract-2">#&lt;/a>
+&lt;/h3>&lt;p>If we&amp;rsquo;re asking people to change for open science, we must be willing to change ourselves. Internalizing this as individuals and institutions is critical - &amp;ldquo;to address our climate emergency, we must rapidly, radically reshape society. We need every solution and every solver&amp;rdquo; (Johnson &amp;amp; Wilkinson, All We Can Save).&lt;/p>
+&lt;p>Radically reshaping our society and including more solvers requires Earth scientists of all disciplines, across AGU, to work together in new ways. Many of these shifts can be considered Open science. They change how we work daily, not just the open products we produce. And for that, people need to consider themselves part of a team, let go of perfection and embrace a growth mindset to continually reflect and improve skills – no matter their job title. Further, open science requires all of us to see ourselves as leaders making small changes that collectively add up to a movement.&lt;/p>
+&lt;p>Openscapes is an open source approach to cultivating leaders and change makers. Openscapes&amp;rsquo; flywheel approach intervenes and builds momentum through identifying mentors within organizations and mentoring teams curious about shifting to open science (Robinson &amp;amp; Lowndes 2022). Collectively, the Openscapes flywheel iterations have had a significant impact over the past five years across institutions like the federal government and academia that seem impossible to change. Through stories working with professional scientists over the past 5 years including at NASA, NOAA, Black Women in Ecology, Evolution, and Marine Science, and many universities, and open source software communities like 2i2c, Posit, Pangeo, and RLadies, we will share actionable insights for flourishing in the open science commons, and are interested in learning with and growing flywheel momentum further at AGU.&lt;/p>
+&lt;h3 id="authors-2">
+Authors
+&lt;a class="header-anchor" href="#authors-2">#&lt;/a>
+&lt;/h3>&lt;ul>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/259076" target="_blank" rel="noopener" >Julia S. Stewart Lowndes&lt;/a> - Openscapes, LLC (first author)&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/710145" target="_blank" rel="noopener" >Ileana Faye Fenwick&lt;/a> - Hampton University&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/23781" target="_blank" rel="noopener" >Elizabeth E Holmes&lt;/a> - NOAA Fisheries&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/156587" target="_blank" rel="noopener" >Luis Alberto Lopez&lt;/a> - National Snow and Ice Data Center (NSIDC), CIRES, University of Colorado Boulder&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1117961" target="_blank" rel="noopener" >Erin Robinson&lt;/a> - Self Employed&lt;/li>
+&lt;/ul>
+&lt;h2 id="in34a-01-beyond-open-data-ensuring-true-accessibility-for-all-invited">
+IN34A-01 Beyond Open Data: Ensuring True Accessibility for All (Invited)
+&lt;a class="header-anchor" href="#in34a-01-beyond-open-data-ensuring-true-accessibility-for-all-invited">#&lt;/a>
+&lt;/h2>&lt;p>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1522970" target="_blank" rel="noopener" >Link to session&lt;/a>&lt;/p>
+&lt;h3 id="abstract-3">
+Abstract
+&lt;a class="header-anchor" href="#abstract-3">#&lt;/a>
+&lt;/h3>&lt;p>The Earth Observation (EO) industry has seen rapid technological advancements alongside a massive increase in the number of private and public missions, leading to exponentially growing data archives. For publicly funded entities, this data is typically required to be freely available. However, open data does not always guarantee accessibility, and significant barriers remain for even the most advanced users. The stagnation in the use and adoption of open data can be attributed to several factors, including 1) challenges in unifying and maintaining metadata standards, 2) inefficiencies associated with legacy data formats, 3) a lack of training and resources for transitioning to cloud-based infrastructure, and 4) systemic social inequalities.&lt;/p>
+&lt;p>This talk will explore real-life examples of these barriers and highlight success stories that have emerged from partnerships largely originating within open-source communities which foster diverse connections between private and public entities including efforts like GeoZarr, pangeo-forge, Openscapes and 2i2c. While many advancements in improving the usability and accessibility of EO data have come from private efforts (i.e. Google Earth Engine), the shutdown of the Planetary Computer is a reminder of the need for publicly funded alternatives. The sustainability of open source projects will be addressed, with questions posed around reliable funding mechanisms as a means to ensure equitable development to address barriers and ensure accessibility for all. While this talk will be presented by one individual, it is the review and reflection of the work done by dozens of people across various organizations.&lt;/p>
+&lt;h3 id="authors-3">
+Authors
+&lt;a class="header-anchor" href="#authors-3">#&lt;/a>
+&lt;/h3>&lt;ul>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1267904" target="_blank" rel="noopener" >Brianna Rita Pagán&lt;/a> - NASA Goddard Space Flight Center; ADNET Systems Inc. Greenbelt (first author)&lt;/li>
+&lt;/ul>
+&lt;h2 id="introducing-geolab---an-earthscope-jupyterhub-for-enabling-collaborative-cloud-native-geophysical-data-analysis-and-skill-development-workshops">
+Introducing GeoLab - An EarthScope JupyterHub for Enabling Collaborative Cloud-Native Geophysical Data Analysis and Skill Development Workshops
+&lt;a class="header-anchor" href="#introducing-geolab---an-earthscope-jupyterhub-for-enabling-collaborative-cloud-native-geophysical-data-analysis-and-skill-development-workshops">#&lt;/a>
+&lt;/h2>&lt;p>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1645291" target="_blank" rel="noopener" >Link to session&lt;/a>&lt;/p>
+&lt;h3 id="abstract-4">
+Abstract
+&lt;a class="header-anchor" href="#abstract-4">#&lt;/a>
+&lt;/h3>&lt;p>The EarthScope Consortium manages NSF&amp;rsquo;s GAGE and SAGE facilities and makes all of its geophysical data available in a commercial cloud system. This enables EarthScope and the communities it supports to leverage the abundant computational resources and cost-effective benefits of adopting data-proximate workflows with direct access to large, analysis-ready geophysical data sets.&lt;/p>
+&lt;p>In recent years, JupyterHub environments have gained popularity with data enthusiasts for their ability to provide open access to powerful compute resources. As part of a broad effort to support communities with intuitive resources to quickly adapt their workflows to the cloud, EarthScope has partnered with 2i2c to operate a scalable JupyterHub environment in AWS that will provide equitable access to cloud compute resources for researchers, educators, and the general public. GeoLab, the EarthScope hub, is aligned with related open science initiatives to establish rigorous and transparent standards for reproducible, data-intensive workflows. In addition to promoting interdisciplinary and inter-institutional collaborative work between researchers in GeoLab, EarthScope is developing and hosting workshops that can support both in-person and asynchronous learning modules that will train users how to utilize these new resources and transition their work to the cloud. We are excited to invite all geophysical data users to participate in the vigorous growth of this new platform and collaborate with adjacent open-science compute hub initiatives.&lt;/p>
+&lt;h3 id="authors-4">
+Authors
+&lt;a class="header-anchor" href="#authors-4">#&lt;/a>
+&lt;/h3>&lt;ul>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/74000" target="_blank" rel="noopener" >Robert T Weekly&lt;/a> - EarthScope Consortium (first author)&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/84732" target="_blank" rel="noopener" >Tammy K Bravo&lt;/a> - EarthScope Consortium&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/38950" target="_blank" rel="noopener" >Jerry A Carter&lt;/a> - EarthScope Consortium&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1522227" target="_blank" rel="noopener" >Tim Dittmann&lt;/a> - EarthScope Consortium&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1293466" target="_blank" rel="noopener" >Alex Hamilton&lt;/a> - EarthScope Consortium&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/57436" target="_blank" rel="noopener" >David Mencin&lt;/a> - EarthScope Consortium&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/13120" target="_blank" rel="noopener" >Chad Trabant&lt;/a> - EarthScope Consortium&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1526474" target="_blank" rel="noopener" >Sarah Wilson&lt;/a> - EarthScope Consortium&lt;/li>
+&lt;/ul>
+&lt;h2 id="u13a-2349-sharing-recipes-for-cloud-computing-the-project-pythia-cookbook-initiative">
+U13A-2349 Sharing recipes for cloud computing: the Project Pythia Cookbook Initiative
+&lt;a class="header-anchor" href="#u13a-2349-sharing-recipes-for-cloud-computing-the-project-pythia-cookbook-initiative">#&lt;/a>
+&lt;/h2>&lt;p>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1697601" target="_blank" rel="noopener" >Link to session&lt;/a>&lt;/p>
+&lt;h3 id="abstract-5">
+Abstract
+&lt;a class="header-anchor" href="#abstract-5">#&lt;/a>
+&lt;/h3>&lt;p>Project Pythia is the flagship education and training initiative of the Pangeo community. Pangeo has advanced transformative platforms and paradigms for &amp;ldquo;Big Data&amp;rdquo; geoscience in the cloud; Pythia is creating on-ramps for new users with open, interactive learning resources centered on Python in the geosciences. Pythia is now building a vibrant community-owned clearinghouse of accessible, reusable, and reproducible tutorials and exemplar workflows in the cloud known as Pythia Cookbooks.&lt;/p>
+&lt;p>&amp;ldquo;Cookbooks&amp;rdquo; imply collections of recipes for transforming raw ingredients (publicly available data) into scientifically useful results. Based on Jupyter notebooks, Cookbooks are explicitly tied to reproducible computational environments and supported by a rich cloud-based infrastructure enabling collaborative authoring and automated health-checking – essential tools in the struggle against the widespread notebook obsolescence problem. Cookbooks are hosted on Pythia&amp;rsquo;s searchable gallery and nurtured by a growing community of open science enthusiasts from across the geosciences. The Pythia Cookbook gallery is essentially a crowd-sourced, community-curated collection of best practices for data analysis and visualization.&lt;/p>
+&lt;p>Here we will outline the stack of technologies and infrastructure enabling cookbook creation, collaboration, testing, publication, and interactive deployment, and how these are used in service of building an inclusive participatory community. We will discuss existing technical and social hurdles for contributors, as well as new infrastructure developments in collaboration with the Executable Books Project that are reducing these hurdles.&lt;/p>
+&lt;h3 id="authors-5">
+Authors
+&lt;a class="header-anchor" href="#authors-5">#&lt;/a>
+&lt;/h3>&lt;ul>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/10645" target="_blank" rel="noopener" >Brian E J Rose&lt;/a> - University at Albany State University of New York (first author)&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1112151" target="_blank" rel="noopener" >Drew Camron&lt;/a> - University Corporation for Atmospheric Research&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/15277" target="_blank" rel="noopener" >John Clyne&lt;/a> - NCAR&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1104277" target="_blank" rel="noopener" >Orhan Eroglu&lt;/a> - NSF National Center for Atmospheric Research&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1266060" target="_blank" rel="noopener" >Robert Ford&lt;/a> - University at Albany State University of New York&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/796821" target="_blank" rel="noopener" >Julia Kent&lt;/a> - NSF National Center for Atmospheric Research&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/529702" target="_blank" rel="noopener" >Ryan May&lt;/a> - University Corporation for Atmospheric Research&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1317099" target="_blank" rel="noopener" >James Munroe&lt;/a> - 2i2c / Code for Science and Society&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/218622" target="_blank" rel="noopener" >Kevin Tyle&lt;/a> - SUNY at Albany&lt;/li>
+&lt;/ul>
+&lt;h2 id="u13a-2350-supporting-nasa-earthdata-users-in-the-cloud-nasa-openscapes-jupyterhub-and-user-onboarding--fledging">
+U13A-2350 Supporting NASA Earthdata users in the Cloud: NASA Openscapes JupyterHub and User Onboarding &amp;amp; Fledging
+&lt;a class="header-anchor" href="#u13a-2350-supporting-nasa-earthdata-users-in-the-cloud-nasa-openscapes-jupyterhub-and-user-onboarding--fledging">#&lt;/a>
+&lt;/h2>&lt;p>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1708480" target="_blank" rel="noopener" >Link to session&lt;/a>&lt;/p>
+&lt;h3 id="abstract-6">
+Abstract
+&lt;a class="header-anchor" href="#abstract-6">#&lt;/a>
+&lt;/h3>&lt;p>In this talk we will highlight our NASA Openscapes community teaching approach to using the 2i2c-managed JupyterHub – how we&amp;rsquo;ve collaboratively developed it to meet user needs, and how it continues to enable researchers and users of NASA Earthdata in the new Cloud paradigm.&lt;/p>
+&lt;p>NASA Openscapes is an open source mentor community across NASA Earth science data centers (
+&lt;a href="https://www.earthdata.nasa.gov/eosdis/daacs" target="_blank" rel="noopener" >DAACs&lt;/a>) that helps users explore and use the Cloud for their science and applications.
+&lt;a href="https://nasa-openscapes.github.io/earthdata-cloud-cookbook/" target="_blank" rel="noopener" >Earthdata Cloud Cookbook&lt;/a> is a learner-focused open source tutorial collection that we update openly as we learn together.&lt;/p>
+&lt;p>A critical piece of the NASA Openscapes effort is our &lt;strong>NASA Openscapes 2i2c JupyterHub&lt;/strong>, a managed cloud computing space. By working with cloud early adopters and science
+&lt;a href="https://nasa-openscapes.github.io/news/2024-07-24-2024-nasa-champions-cohort/" target="_blank" rel="noopener" >Champions&lt;/a>, responding and co-developing solutions, the JupyterHub has evolved since its early days in 2021. We support cloud computing for several languages (python, R, Matlab, QGIS) and common science libraries with
+&lt;a href="https://github.com/nasa-openscapes/corn" target="_blank" rel="noopener" >corn&lt;/a>; we streamlined how to bulk-add workshop participants via GitHub Teams; we established policy and technology for a special authentication mechanism for large scale workshops; we are developing earthaccess as an community-developed python library for NASA Earthdata search and access, whether locally or in the cloud.&lt;/p>
+&lt;p>Based on the last 3 years of engaging with the user community and the Hub, we have &lt;strong>evolved&lt;/strong> how we &lt;strong>onboard&lt;/strong> (first experience in the cloud) and &lt;strong>fledge&lt;/strong> (set up for Cloud that includes a plan, how to do it, how to pay for it; leaving the nest and perhaps building your own). Fledging is an important part of adoption and initiating users to the Cloud - where do researchers go when they decide to do their science in the Cloud? We&amp;rsquo;ve been developing practices that aim to be equitable and consider policy (cost), technical (where do people go, what admin setup is needed, what tech like base images etc are needed), and social (how do I learn, get support) aspects, and look forward to discussing further at AGU.&lt;/p>
+&lt;h3 id="authors-6">
+Authors
+&lt;a class="header-anchor" href="#authors-6">#&lt;/a>
+&lt;/h3>&lt;ul>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/259076" target="_blank" rel="noopener" >Julia S. Stewart Lowndes&lt;/a> - Openscapes, LLC (first author)&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1187283" target="_blank" rel="noopener" >Andrew Barrett&lt;/a> - National Snow and Ice Data Center (NSIDC)&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/153347" target="_blank" rel="noopener" >Carl Boettiger&lt;/a> - University of California Santa Cruz&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/249458" target="_blank" rel="noopener" >Aaron M Friesz&lt;/a> - Organization Not Listed&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/23781" target="_blank" rel="noopener" >Elizabeth E Holmes&lt;/a> - NOAA Fisheries&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1187291" target="_blank" rel="noopener" >Alexis Hunzinger&lt;/a> - NASA Goddard Space Flight Center&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1232669" target="_blank" rel="noopener" >Daniel Kaufman&lt;/a> - NASA Langley Research Center&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/156587" target="_blank" rel="noopener" >Luis Alberto Lopez&lt;/a> - National Snow and Ice Data Center (NSIDC), CIRES, University of Colorado Boulder&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/64338" target="_blank" rel="noopener" >Catalina M Oaida Taglialatela&lt;/a> - NASA Jet Propulsion Laboratory, California Institute of Technology&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/773544" target="_blank" rel="noopener" >Yuvi Panda&lt;/a> - University of California, Berkeley&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/153320" target="_blank" rel="noopener" >Michele Thornton&lt;/a> - Oak Ridge National Laboratory&lt;/li>
+&lt;/ul>
+&lt;h2 id="v31a-08-victor--a-new-cyber-infrastructure-for-volcanology">
+V31A-08 VICTOR – A new Cyber-infrastructure for Volcanology
+&lt;a class="header-anchor" href="#v31a-08-victor--a-new-cyber-infrastructure-for-volcanology">#&lt;/a>
+&lt;/h2>&lt;p>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1605357" target="_blank" rel="noopener" >Link to session&lt;/a>&lt;/p>
+&lt;h3 id="abstract-7">
+Abstract
+&lt;a class="header-anchor" href="#abstract-7">#&lt;/a>
+&lt;/h3>&lt;p>Numerical models are essential for forecasting volcanic hazards for both short-term responses and long-term hazard assessment. While many models of volcanic processes already exist, challenges in finding, installing, and evaluating these models, coupled with limited computational resources, hinder their widespread use. To address this, we introduce VICTOR, the Volcanology Infrastructure for Computational Tools and Resources.&lt;/p>
+&lt;p>VICTOR is a cutting-edge cyber-infrastructure platform offering an open-source, cloud-based environment tailored for the volcanology community. It features Jupyter notebooks that integrate existing volcano models, such as the lava flow codes MOLASSES and IMEX_lava, the tephra and ash dispersal codes Tephra2 and HYSPLIT, and the mass flow code TITAN2D. The backend of VICTOR is managed as a JupyterHub, operated by the non-profit 2i2c under the Code for Science and Society.&lt;/p>
+&lt;p>VICTOR not only provides access to individual modeling tools, but also hosts workflows that use them in data inversion, model benchmarking, and uncertainty quantification. For example, we developed a workflow to validate mass flow models using multiple metrics and Bayesian statistics. VICTOR provides built-in access to external databases such as OpenTopography, Copernicus, and NASA&amp;rsquo;s remote sensing products to streamline obtaining and using data in workflows.&lt;/p>
+&lt;p>VICTOR also serves as an educational resource. In Spring 2023 and 2024 we taught graduate level, multi-institutional courses in Computational Volcanology using VICTOR, and we are creating multilingual tutorials for the workflows. We are developing teaching modules on topics such as lava flows and remote sensing to be shared with instructors. Lastly, VICTOR collaborates with national efforts including CONVERSE and SZ4D.&lt;/p>
+&lt;p>In summary, VICTOR addresses the critical need for accessible, effective volcanic hazard modeling tools and resources, fostering advancements in both research and education within the volcanology community.&lt;/p>
+&lt;h3 id="plain-language-summary">
+Plain-language Summary
+&lt;a class="header-anchor" href="#plain-language-summary">#&lt;/a>
+&lt;/h3>&lt;p>VICTOR is a new online platform designed to help scientists predict volcanic hazards more easily. Traditional models can be difficult to find, use, and combine with other tools. VICTOR solves these problems by offering a cloud-based, open-source environment with user-friendly tools.&lt;/p>
+&lt;p>VICTOR includes tools like Jupyter notebooks that combine various volcano models for lava flows, ash dispersal, and mass movements. It operates through JupyterHub, managed by the non-profit 2i2c. The platform not only provides access to these models but also offers workflows for tasks like data analysis and model validation. For example, it has a workflow for testing mass flow models using multiple evaluation methods.&lt;/p>
+&lt;p>VICTOR simplifies data access by connecting directly to databases like OpenTopography and NASA&amp;rsquo;s remote sensing products. It&amp;rsquo;s also an educational tool, used in graduate courses and offering multilingual tutorials. Additionally, VICTOR is developing teaching materials on topics like lava flows and remote sensing and collaborates with national projects like CONVERSE and SZ4D.&lt;/p>
+&lt;p>In essence, VICTOR makes volcanic hazard modeling more accessible and effective, benefiting both research and education in volcanology.&lt;/p>
+&lt;h3 id="authors-7">
+Authors
+&lt;a class="header-anchor" href="#authors-7">#&lt;/a>
+&lt;/h3>&lt;ul>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/23513" target="_blank" rel="noopener" >Einat Lev&lt;/a> - Columbia University of New York (first author)&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/82273" target="_blank" rel="noopener" >Sylvain J Charbonnier&lt;/a> - University of South Florida&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/12431" target="_blank" rel="noopener" >Charles Connor&lt;/a> - University of South Florida&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1565568" target="_blank" rel="noopener" >Samuel Krasnoff&lt;/a> - Lamont -Doherty Earth Observatory&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/880" target="_blank" rel="noopener" >Abani K Patra&lt;/a> - University at Buffalo&lt;/li>
+&lt;/ul></description></item><item><title>Pancakes are the future of geophysical data processing</title><link>https://2i2c.org/blog/2024/external-earthscope-pancakes/</link><pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/external-earthscope-pancakes/</guid><description/></item><item><title>Keeping PACE with GPU enabled compute to detect global cloud cover using satellite data</title><link>https://2i2c.org/blog/2024/pace-hackweek/</link><pubDate>Mon, 12 Aug 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/pace-hackweek/</guid><description>&lt;p>
 &lt;figure id="figure-left-bw-model-inputs-and-right-color-model-outputs-of-a-simple-multi-layer-perceptronhttpspacehackweekgithubiopace-2024presentationshackweekml_cloud_maskhtmla-simple-multi-layer-perceptron-for-detecting-cloud-cover">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="(left, b&amp;amp;amp;w) Model inputs and (right, color) model outputs of a simple multi-layer perceptron" srcset="
@@ -11,36 +288,25 @@ height="384"
 loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;figcaption>
 (left, b&amp;amp;w) Model inputs and (right, color) model outputs of a
-&lt;a href="https://pacehackweek.github.io/pace-2024/presentations/hackweek/ml_cloud_mask.html#a-simple-multi-layer-perceptron" target="_blank" rel="noopener" >simple multi-layer perceptron&lt;/a>
-for detecting cloud cover.
+&lt;a href="https://pacehackweek.github.io/pace-2024/presentations/hackweek/ml_cloud_mask.html#a-simple-multi-layer-perceptron" target="_blank" rel="noopener" >simple multi-layer perceptron&lt;/a> for detecting cloud cover.
 &lt;/figcaption>&lt;/figure>
 &lt;/p>
 &lt;p>
-&lt;a href="https://pace.gsfc.nasa.gov/" target="_blank" rel="noopener" >PACE&lt;/a>
-is the NASA Plankton, Aerosol, Cloud, ocean Ecosystem mission that focuses on understanding ocean health and its impact on the atmosphere. Together with the
-&lt;a href="https://www.us-ocb.org/" target="_blank" rel="noopener" >Ocean Carbon and Biochemistry (OCB)&lt;/a>
-program, a one-week
-&lt;a href="https://pacehackweek.github.io/pace-2024/" target="_blank" rel="noopener" >hackathon&lt;/a>
-ran from Aug 4 to Aug 8 on the 2i2c-hosted
-&lt;a href="https://cryointhecloud.com/" target="_blank" rel="noopener" >CryoCloud&lt;/a>
-hub. The goal of the hackathon was to explore new Earth science data streams provided by the
-&lt;a href="https://pace.oceansciences.org/oci.htm" target="_blank" rel="noopener" >OCI&lt;/a>
-,
-&lt;a href="https://pace.oceansciences.org/spexone.htm" target="_blank" rel="noopener" >SPEXone&lt;/a>
-and
-&lt;a href="https://pace.oceansciences.org/harp2.htm" target="_blank" rel="noopener" >HARP2&lt;/a>
-instruments using Python.&lt;/p>
+&lt;a href="https://pace.gsfc.nasa.gov/" target="_blank" rel="noopener" >PACE&lt;/a> is the NASA Plankton, Aerosol, Cloud, ocean Ecosystem mission that focuses on understanding ocean health and its impact on the atmosphere. Together with the
+&lt;a href="https://www.us-ocb.org/" target="_blank" rel="noopener" >Ocean Carbon and Biochemistry (OCB)&lt;/a> program, a one-week
+&lt;a href="https://pacehackweek.github.io/pace-2024/" target="_blank" rel="noopener" >hackathon&lt;/a> ran from Aug 4 to Aug 8 on the 2i2c-hosted
+&lt;a href="https://cryointhecloud.com/" target="_blank" rel="noopener" >CryoCloud&lt;/a> hub. The goal of the hackathon was to explore new Earth science data streams provided by the
+&lt;a href="https://pace.oceansciences.org/oci.htm" target="_blank" rel="noopener" >OCI&lt;/a>,
+&lt;a href="https://pace.oceansciences.org/spexone.htm" target="_blank" rel="noopener" >SPEXone&lt;/a> and
+&lt;a href="https://pace.oceansciences.org/harp2.htm" target="_blank" rel="noopener" >HARP2&lt;/a> instruments using Python.&lt;/p>
 &lt;h2 id="machine-learning-with-gpus">
 Machine Learning with GPUs
 &lt;a class="header-anchor" href="#machine-learning-with-gpus">#&lt;/a>
 &lt;/h2>&lt;p>One of the most advanced tutorials delivered during the hackathon was the
-&lt;a href="https://pacehackweek.github.io/pace-2024/presentations/hackweek/ml_cloud_mask.html" target="_blank" rel="noopener" >Machine Learning Tutorial&lt;/a>
-. The tutorial focused on creating a machine learning pipeline to detect cloud cover from satellite imagery. This was done by training a convolutional neural network (CNN) to assign each pixel a binary value to indicate whether the location was covered by cloud or not. To improve the spatial context beyond a single pixel value, as the likelihood of a pixel containing cloud cover increases if its neighbours also contain cloud cover, the CNN needs to be trained on the entire image at once rather than at a single pixel level. This massively increases the training time, but also allows the CNN to learn more complex relationships between pixels.&lt;/p>
+&lt;a href="https://pacehackweek.github.io/pace-2024/presentations/hackweek/ml_cloud_mask.html" target="_blank" rel="noopener" >Machine Learning Tutorial&lt;/a>. The tutorial focused on creating a machine learning pipeline to detect cloud cover from satellite imagery. This was done by training a convolutional neural network (CNN) to assign each pixel a binary value to indicate whether the location was covered by cloud or not. To improve the spatial context beyond a single pixel value, as the likelihood of a pixel containing cloud cover increases if its neighbours also contain cloud cover, the CNN needs to be trained on the entire image at once rather than at a single pixel level. This massively increases the training time, but also allows the CNN to learn more complex relationships between pixels.&lt;/p>
 &lt;p>GPUs have a far greater number of cores than CPUs that are well-suited for accelerating the massive parallel processing needed to train a neural network on the large amounts of image data in the above scenario.
-&lt;a href="https://pytorch.org/" target="_blank" rel="noopener" >PyTorch&lt;/a>
-is a popular Python library for training CNNs, available for both CPUs and GPUs, and is an ideal tool for performing this kind of work. In terms of the accelerator hardware available on the CryoCloud hub, 2i2c provisions an instance with an
-&lt;a href="https://www.nvidia.com/en-us/data-center/tesla-t4/" target="_blank" rel="noopener" >NVIDIA Tesla T4 GPU&lt;/a>
-with 4 CPUS, 16GB of RAM and 2,560 CUDA cores.&lt;/p>
+&lt;a href="https://pytorch.org/" target="_blank" rel="noopener" >PyTorch&lt;/a> is a popular Python library for training CNNs, available for both CPUs and GPUs, and is an ideal tool for performing this kind of work. In terms of the accelerator hardware available on the CryoCloud hub, 2i2c provisions an instance with an
+&lt;a href="https://www.nvidia.com/en-us/data-center/tesla-t4/" target="_blank" rel="noopener" >NVIDIA Tesla T4 GPU&lt;/a> with 4 CPUS, 16GB of RAM and 2,560 CUDA cores.&lt;/p>
 &lt;h2 id="managing-shared-memory-on-2i2c-hubs">
 Managing shared memory on 2i2c hubs
 &lt;a class="header-anchor" href="#managing-shared-memory-on-2i2c-hubs">#&lt;/a>
@@ -52,18 +318,14 @@ Managing shared memory on 2i2c hubs
 &lt;/div>
 &lt;/div>
 &lt;p>As you might expect, 64 MB of shared memory is not enough for training over 160,000 images in the tutorial. 2i2c was able to remove the limit, making &lt;code>/dev/shm&lt;/code> share the memory the user has selected via their profile list, rather than be artificially limited to any particular size. This was done for &lt;em>all&lt;/em> users on the CryoCloud hub within an hour of the issue being reported and we upstreamed the change for &lt;em>all&lt;/em> 2i2c hubs (see GitHub pull requests for
-&lt;a href="https://github.com/2i2c-org/infrastructure/pull/4564" target="_blank" rel="noopener" >CryoCloud&lt;/a>
-and
-&lt;a href="https://github.com/2i2c-org/infrastructure/issues/4563" target="_blank" rel="noopener" >all 2i2c hubs&lt;/a>
-).&lt;/p>
+&lt;a href="https://github.com/2i2c-org/infrastructure/pull/4564" target="_blank" rel="noopener" >CryoCloud&lt;/a> and
+&lt;a href="https://github.com/2i2c-org/infrastructure/issues/4563" target="_blank" rel="noopener" >all 2i2c hubs&lt;/a>).&lt;/p>
 &lt;h2 id="conclusion">
 Conclusion
 &lt;a class="header-anchor" href="#conclusion">#&lt;/a>
 &lt;/h2>&lt;p>This event demonstrates the economy of how running shared and open infrastructure dynamically solves problems for the benefit of many users, not just for one occasion. Learning experiences such as the above are transferred and embedded upstream into transparent and flexible open source software that impacts not only all users of 2i2c operated hubs, but also generalized for the wider research community at large (case in point, see the Slack thread below from
-&lt;a href="https://eeholmes.github.io/" target="_blank" rel="noopener" >Eli Holmes&lt;/a>
-, operator of the
-&lt;a href="https://www.fisheries.noaa.gov/science-data/open-science-noaa-fisheries" target="_blank" rel="noopener" >NOAA Fisheries&lt;/a>
-hubs)! We are grateful for the strong partnerships with our communities who help us to co-design impactful solutions that are specific for their needs and accessible to all.&lt;/p>
+&lt;a href="https://eeholmes.github.io/" target="_blank" rel="noopener" >Eli Holmes&lt;/a>, operator of the
+&lt;a href="https://www.fisheries.noaa.gov/science-data/open-science-noaa-fisheries" target="_blank" rel="noopener" >NOAA Fisheries&lt;/a> hubs)! We are grateful for the strong partnerships with our communities who help us to co-design impactful solutions that are specific for their needs and accessible to all.&lt;/p>
 &lt;p>
 &lt;figure id="figure-the-power-of-open-infrastructure-beyond-2i2c-operated-hubs">
 &lt;div class="d-flex justify-content-center">
@@ -84,16 +346,12 @@ References and Acknowledgments
 &lt;a class="header-anchor" href="#references-and-acknowledgments">#&lt;/a>
 &lt;/h2>&lt;ul>
 &lt;li>
-&lt;a href="https://science.gsfc.nasa.gov/sci/bio/sean.r.foley" target="_blank" rel="noopener" >Sean Foley&lt;/a>
-(NASA/GSFC/SED &amp;amp; Morgan State University &amp;amp; GESTAR II)&lt;/li>
+&lt;a href="https://science.gsfc.nasa.gov/sci/bio/sean.r.foley" target="_blank" rel="noopener" >Sean Foley&lt;/a> (NASA/GSFC/SED &amp;amp; Morgan State University &amp;amp; GESTAR II)&lt;/li>
 &lt;li>
-&lt;a href="https://www.linkedin.com/in/tasha-snow-26815b23" target="_blank" rel="noopener" >Tasha Snow&lt;/a>
-(ESSIC UMD &amp;amp; NASA GSFC &amp;amp;
-&lt;a href="https://cryointhecloud.com/" target="_blank" rel="noopener" >CryoCloud&lt;/a>
-)&lt;/li>
+&lt;a href="https://www.linkedin.com/in/tasha-snow-26815b23" target="_blank" rel="noopener" >Tasha Snow&lt;/a> (ESSIC UMD &amp;amp; NASA GSFC &amp;amp;
+&lt;a href="https://cryointhecloud.com/" target="_blank" rel="noopener" >CryoCloud&lt;/a>)&lt;/li>
 &lt;li>
-&lt;a href="https://pacehackweek.github.io/pace-2024/intro.html" target="_blank" rel="noopener" >PACE Hackweek Jupyter Book&lt;/a>
-&lt;/li>
+&lt;a href="https://pacehackweek.github.io/pace-2024/intro.html" target="_blank" rel="noopener" >PACE Hackweek Jupyter Book&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>Ephemeral Interactive Computing for the AmeriGEO Workshop</title><link>https://2i2c.org/blog/2024/amerigeo-workshop/</link><pubDate>Mon, 05 Aug 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/amerigeo-workshop/</guid><description>&lt;p>
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
@@ -108,23 +366,15 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;/figure>
 &lt;/p>
 &lt;p>
-&lt;a href="https://www.amerigeo.org/" target="_blank" rel="noopener" >AmeriGEO&lt;/a>
-provides a framework for cooperation in the Americas for the use of Earth data to benefit science and society with data driven decision-making. As part of a virtual workshop held on 1st August 2024, 2i2c provided an interactive computing environment to support the delivery of a
-&lt;a href="https://www.nasa.gov/centers-and-facilities/marshall/nasa-boosts-open-science-through-innovative-training/" target="_blank" rel="noopener" >NASA TOPST&lt;/a>
-water module.&lt;/p>
+&lt;a href="https://www.amerigeo.org/" target="_blank" rel="noopener" >AmeriGEO&lt;/a> provides a framework for cooperation in the Americas for the use of Earth data to benefit science and society with data driven decision-making. As part of a virtual workshop held on 1st August 2024, 2i2c provided an interactive computing environment to support the delivery of a
+&lt;a href="https://www.nasa.gov/centers-and-facilities/marshall/nasa-boosts-open-science-through-innovative-training/" target="_blank" rel="noopener" >NASA TOPST&lt;/a> water module.&lt;/p>
 &lt;p>The workshop was facilitated by
-&lt;a href="https://people.climate.columbia.edu/users/profile/kytt-macmanus" target="_blank" rel="noopener" >Kytt MacManus&lt;/a>
-and
-&lt;a href="https://ciesin.climate.columbia.edu/directory/juan-f-martinez" target="_blank" rel="noopener" >Juan F. Martinez&lt;/a>
-(both of
-&lt;a href="http://www.ciesin.columbia.edu/" target="_blank" rel="noopener" >CIESIN&lt;/a>
-, Columbia University, New York). Juan presented interactive R code, with explanatory content written in Quarto, for hotspot vulnerability analysis for floods and landslides focused on Ecuador using earth observation data and socioeconomic data to develop an index of vulnerability. Check out their
-&lt;a href="https://github.com/ciesin-geospatial/TOPSTSCHOOL-water" target="_blank" rel="noopener" >GitHub repo&lt;/a>
-and
-&lt;a href="https://tinyurl.com/TOPSTSCHOOL" target="_blank" rel="noopener" >explore interactively yourself&lt;/a>
-on our BinderHub (see our blog post for more details of how to access the BinderHub deployments to provide
-&lt;a href="https://2i2c.org/blog/2024/nasa-ephemeral-hubs/" >Ephemeral Interactive Computing for NASA Communities&lt;/a>
-).&lt;/p>
+&lt;a href="https://people.climate.columbia.edu/users/profile/kytt-macmanus" target="_blank" rel="noopener" >Kytt MacManus&lt;/a> and
+&lt;a href="https://ciesin.climate.columbia.edu/directory/juan-f-martinez" target="_blank" rel="noopener" >Juan F. Martinez&lt;/a> (both of
+&lt;a href="http://www.ciesin.columbia.edu/" target="_blank" rel="noopener" >CIESIN&lt;/a>, Columbia University, New York). Juan presented interactive R code, with explanatory content written in Quarto, for hotspot vulnerability analysis for floods and landslides focused on Ecuador using earth observation data and socioeconomic data to develop an index of vulnerability. Check out their
+&lt;a href="https://github.com/ciesin-geospatial/TOPSTSCHOOL-water" target="_blank" rel="noopener" >GitHub repo&lt;/a> and
+&lt;a href="https://tinyurl.com/TOPSTSCHOOL" target="_blank" rel="noopener" >explore interactively yourself&lt;/a> on our BinderHub (see our blog post for more details of how to access the BinderHub deployments to provide
+&lt;a href="https://2i2c.org/blog/2024/nasa-ephemeral-hubs/" >Ephemeral Interactive Computing for NASA Communities&lt;/a>).&lt;/p>
 &lt;p>Over 100 participants were able to access the interactive workshop on our infrastructure, with 8 GB of RAM per user to facilitate the processing of large amounts of earth data. We are pleased that the workshop was successful and the platform was able to provide a great experience for participants. After the workshop, Kytt reported that&lt;/p>
 &lt;blockquote>
 &lt;p>The technology worked as expected and we didn&amp;rsquo;t run into 1 major technical problem. Thank you so much for that!&amp;quot;.&lt;/p>
@@ -136,8 +386,7 @@ Acknowledgements
 &lt;li>Funding from Science Mission Directorate’s Open Source Science Initiative, Research Opportunities in Space and Earth Science (ROSES-2022), F.14 Transform to Open Science&lt;/li>
 &lt;li>NASA NSPIRES F.15 High Priority Open-Source Science Award NNH22ZDA001N-HPOSS&lt;/li>
 &lt;li>
-&lt;a href="https://sedac.ciesin.columbia.edu/" target="_blank" rel="noopener" >NASA Socioeconomic Data and Applications Center (SEDAC)&lt;/a>
-&lt;/li>
+&lt;a href="https://sedac.ciesin.columbia.edu/" target="_blank" rel="noopener" >NASA Socioeconomic Data and Applications Center (SEDAC)&lt;/a>&lt;/li>
 &lt;li>Kytt MacManus&lt;/li>
 &lt;li>Juan F. Martinez&lt;/li>
 &lt;li>James Munroe for providing support and assistance for setting up the cyberinfrastructure for this workshop.&lt;/li>
@@ -159,17 +408,12 @@ The
 &lt;/figcaption>&lt;/figure>
 &lt;/p>
 &lt;p>The 2i2c team are proud to continue our strong working collaboration with
-&lt;a href="https://developmentseed.org/" target="_blank" rel="noopener" >Development Seed&lt;/a>
-, following our previous work on launching the
-&lt;a href="https://2i2c.org/blog/2023/us-ghg-center-launches/" >US GHG center&lt;/a>
-(also see the
-&lt;a href="https://developmentseed.org/blog/2023-12-14-ghg-center" target="_blank" rel="noopener" >Development Seed blog post&lt;/a>
-). Together with scientists at NASA in our regular sync touchpoints, we have recently delivered a tranche of improvements to
-&lt;a href="https://www.earthdata.nasa.gov/esds/veda" target="_blank" rel="noopener" >the Visualization, Exploration and Data Analysis (VEDA) project&lt;/a>
-.&lt;/p>
+&lt;a href="https://developmentseed.org/" target="_blank" rel="noopener" >Development Seed&lt;/a>, following our previous work on launching the
+&lt;a href="https://2i2c.org/blog/2023/us-ghg-center-launches/" >US GHG center&lt;/a> (also see the
+&lt;a href="https://developmentseed.org/blog/2023-12-14-ghg-center" target="_blank" rel="noopener" >Development Seed blog post&lt;/a>). Together with scientists at NASA in our regular sync touchpoints, we have recently delivered a tranche of improvements to
+&lt;a href="https://www.earthdata.nasa.gov/esds/veda" target="_blank" rel="noopener" >the Visualization, Exploration and Data Analysis (VEDA) project&lt;/a>.&lt;/p>
 &lt;p>This platform is designed to thread open-source components together to consolidate GIS delivery mechanisms, processing, analysis and visualization tools, and presented in a collaborative interactive computing environment. All code repositories and associated resources stemming from this work are available on the
-&lt;a href="https://github.com/NASA-IMPACT/VEDA/wiki" target="_blank" rel="noopener" >VEDA GitHub page&lt;/a>
-.&lt;/p>
+&lt;a href="https://github.com/NASA-IMPACT/VEDA/wiki" target="_blank" rel="noopener" >VEDA GitHub page&lt;/a>.&lt;/p>
 &lt;p>In the spirit of fully open development, you can
 &lt;a href="https://github.com/NASA-IMPACT/veda-jupyterhub/issues?q=is%3Aissue&amp;#43;jh&amp;#43;is%3Aclosed&amp;#43;label%3A%22PI&amp;#43;24.3%22&amp;#43;" target="_blank" rel="noopener" >see the objectives&lt;/a>
 the combined 2i2c and Development Seed team had for the last quarter. In this blog post, we will describe some of the significant ones!&lt;/p>
@@ -177,42 +421,28 @@ the combined 2i2c and Development Seed team had for the last quarter. In this bl
 Better image management and testing
 &lt;a class="header-anchor" href="#better-image-management-and-testing">#&lt;/a>
 &lt;/h2>&lt;p>The
-&lt;a href="https://github.com/jupyterhub/repo2docker-action" target="_blank" rel="noopener" >repo2docker-action&lt;/a>
-is a GitHub action simplifying image building and testing for use with JupyterHub, using either a &lt;code>Dockerfile&lt;/code> or various
-&lt;a href="https://repo2docker.readthedocs.io/en/latest/config_files.html" target="_blank" rel="noopener" >configuration files&lt;/a>
-(like &lt;code>requirements.txt&lt;/code>, &lt;code>environment.yml&lt;/code>, etc) supported by
-&lt;a href="https://github.com/jupyterhub/repo2docker" target="_blank" rel="noopener" >repo2docker&lt;/a>
-. We migrated our image building pipeline from a somewhat homegrown solution to this upstream action, making image updates and testing &lt;em>much&lt;/em> easier. In particular, we can
-&lt;a href="https://github.com/NASA-IMPACT/pangeo-notebook-veda-image/pull/4" target="_blank" rel="noopener" >automatically run test notebooks&lt;/a>
-on every change we make to the image! This way, we can easily catch any breaking changes in library versions or other package installs without disrupting users. We also debugged and
-&lt;a href="https://github.com/jupyterhub/repo2docker-action/pull/124" target="_blank" rel="noopener" >contributed upstream&lt;/a>
-fixes to the testing infrastructure so everyone could benefit from this, rather than just us.&lt;/p>
+&lt;a href="https://github.com/jupyterhub/repo2docker-action" target="_blank" rel="noopener" >repo2docker-action&lt;/a> is a GitHub action simplifying image building and testing for use with JupyterHub, using either a &lt;code>Dockerfile&lt;/code> or various
+&lt;a href="https://repo2docker.readthedocs.io/en/latest/config_files.html" target="_blank" rel="noopener" >configuration files&lt;/a> (like &lt;code>requirements.txt&lt;/code>, &lt;code>environment.yml&lt;/code>, etc) supported by
+&lt;a href="https://github.com/jupyterhub/repo2docker" target="_blank" rel="noopener" >repo2docker&lt;/a>. We migrated our image building pipeline from a somewhat homegrown solution to this upstream action, making image updates and testing &lt;em>much&lt;/em> easier. In particular, we can
+&lt;a href="https://github.com/NASA-IMPACT/pangeo-notebook-veda-image/pull/4" target="_blank" rel="noopener" >automatically run test notebooks&lt;/a> on every change we make to the image! This way, we can easily catch any breaking changes in library versions or other package installs without disrupting users. We also debugged and
+&lt;a href="https://github.com/jupyterhub/repo2docker-action/pull/124" target="_blank" rel="noopener" >contributed upstream&lt;/a> fixes to the testing infrastructure so everyone could benefit from this, rather than just us.&lt;/p>
 &lt;h2 id="automatically-pulling-example-notebooks-on-startup">
 Automatically pulling example notebooks on startup
 &lt;a class="header-anchor" href="#automatically-pulling-example-notebooks-on-startup">#&lt;/a>
 &lt;/h2>&lt;p>When a user logs into a JupyterHub, it is very helpful if we could have a bunch of example notebooks and other content pre-populated for them so they can get started right away.
-&lt;a href="https://nbgitpuller.readthedocs.io/" target="_blank" rel="noopener" >nbgitpuller&lt;/a>
-is heavily used for this particular use case. However, it requires that nbgitpuller is installed inside the image the user is using - and not all images have it installed. In particular, we wanted to continue using the (wonderful)
-&lt;a href="https://rocker-project.org/" target="_blank" rel="noopener" >Rocker images&lt;/a>
-maintained upstream for R users, however they do not have nbgitpuller installed. To solve this problem we built
-&lt;a href="https://github.com/NASA-IMPACT/jupyterhub-gitpuller-init" target="_blank" rel="noopener" >jupyterhub-gitpuller-init&lt;/a>
-, which can be used as an
-&lt;a href="https://kubernetes.io/docs/concepts/workloads/pods/init-containers/" target="_blank" rel="noopener" >init container&lt;/a>
-to pre-populate user content on persistent home directories regardless of the image used. We also made sure to build this in a way that &lt;em>anyone&lt;/em> can use it, and it is not tied into either 2i2c or VEDA infrastructure!&lt;/p>
+&lt;a href="https://nbgitpuller.readthedocs.io/" target="_blank" rel="noopener" >nbgitpuller&lt;/a> is heavily used for this particular use case. However, it requires that nbgitpuller is installed inside the image the user is using - and not all images have it installed. In particular, we wanted to continue using the (wonderful)
+&lt;a href="https://rocker-project.org/" target="_blank" rel="noopener" >Rocker images&lt;/a> maintained upstream for R users, however they do not have nbgitpuller installed. To solve this problem we built
+&lt;a href="https://github.com/NASA-IMPACT/jupyterhub-gitpuller-init" target="_blank" rel="noopener" >jupyterhub-gitpuller-init&lt;/a>, which can be used as an
+&lt;a href="https://kubernetes.io/docs/concepts/workloads/pods/init-containers/" target="_blank" rel="noopener" >init container&lt;/a> to pre-populate user content on persistent home directories regardless of the image used. We also made sure to build this in a way that &lt;em>anyone&lt;/em> can use it, and it is not tied into either 2i2c or VEDA infrastructure!&lt;/p>
 &lt;h2 id="opening-specific-visualizations-in-qgis-via-url">
 Opening specific visualizations in QGIS via URL
 &lt;a class="header-anchor" href="#opening-specific-visualizations-in-qgis-via-url">#&lt;/a>
 &lt;/h2>&lt;p>
-&lt;a href="https://www.qgis.org/" target="_blank" rel="noopener" >QGIS&lt;/a>
-is the world&amp;rsquo;s most used open source GIS software, and previously 2i2c had
-&lt;a href="https://blog.jupyter.org/desktop-gis-software-in-the-cloud-with-jupyterhub-ddced297019a" target="_blank" rel="noopener" >worked with Openscapes and QGreenland&lt;/a>
-to bring this &lt;em>desktop&lt;/em> software to JupyterHub. We had previously worked on a
-&lt;a href="https://github.com/2i2c-org/nasa-qgis-image" target="_blank" rel="noopener" >container image&lt;/a>
-that allows users to access large datasets stored in the cloud directly through QGIS on the JupyterHub, allowing users to work with much larger datasets than they could on their desktops by bringing cloud compute adjacent to the data. As a continuation of this work, we developed
-&lt;a href="https://github.com/sunu/jupyter-remote-qgis-proxy" target="_blank" rel="noopener" >jupyter-remote-qgis-proxy&lt;/a>
-, which builds QGIS specific features on top of
-&lt;a href="https://github.com/jupyterhub/jupyter-remote-desktop-proxy" target="_blank" rel="noopener" >jupyter-remote-desktop-proxy&lt;/a>
-. In particular, it allows creation of shareable links that when clicked, opens specific datasets and layers in QGIS in a JupyterHub! You can see this in action:&lt;/p>
+&lt;a href="https://www.qgis.org/" target="_blank" rel="noopener" >QGIS&lt;/a> is the world&amp;rsquo;s most used open source GIS software, and previously 2i2c had
+&lt;a href="https://blog.jupyter.org/desktop-gis-software-in-the-cloud-with-jupyterhub-ddced297019a" target="_blank" rel="noopener" >worked with Openscapes and QGreenland&lt;/a> to bring this &lt;em>desktop&lt;/em> software to JupyterHub. We had previously worked on a
+&lt;a href="https://github.com/2i2c-org/nasa-qgis-image" target="_blank" rel="noopener" >container image&lt;/a> that allows users to access large datasets stored in the cloud directly through QGIS on the JupyterHub, allowing users to work with much larger datasets than they could on their desktops by bringing cloud compute adjacent to the data. As a continuation of this work, we developed
+&lt;a href="https://github.com/sunu/jupyter-remote-qgis-proxy" target="_blank" rel="noopener" >jupyter-remote-qgis-proxy&lt;/a>, which builds QGIS specific features on top of
+&lt;a href="https://github.com/jupyterhub/jupyter-remote-desktop-proxy" target="_blank" rel="noopener" >jupyter-remote-desktop-proxy&lt;/a>. In particular, it allows creation of shareable links that when clicked, opens specific datasets and layers in QGIS in a JupyterHub! You can see this in action:&lt;/p>
 &lt;figure>
 &lt;video mute autoplay loop >
 &lt;source src="https://2i2c.org/blog/2024/veda-devseed-collab/qgis.mp4" type="video/mp4">
@@ -220,19 +450,15 @@ that allows users to access large datasets stored in the cloud directly through 
 &lt;figcaption>Launching QGIS on a Linux desktop served by the VEDA JupyterHub&lt;/figcaption>
 &lt;/figure>
 &lt;p>This opens up exciting future possibilities. Imagine this
-&lt;a href="https://www.earthdata.nasa.gov/dashboard/data-catalog/campfire_ndvi_difference_2015_2022" target="_blank" rel="noopener" >exploration of the Camp Fire&lt;/a>
-having an &amp;lsquo;Open in QGIS&amp;rsquo; button that enables further exploration of the data without the user needing to download or install anything! Work will continue in the coming quarter towards achieving this vision.&lt;/p>
+&lt;a href="https://www.earthdata.nasa.gov/dashboard/data-catalog/campfire_ndvi_difference_2015_2022" target="_blank" rel="noopener" >exploration of the Camp Fire&lt;/a> having an &amp;lsquo;Open in QGIS&amp;rsquo; button that enables further exploration of the data without the user needing to download or install anything! Work will continue in the coming quarter towards achieving this vision.&lt;/p>
 &lt;p>We are also excited to see recent work in this space
-&lt;a href="https://blog.jupyter.org/jupytergis-d63b7adf9d0c" target="_blank" rel="noopener" >from QuantStack and Simula Labs&lt;/a>
-, and will follow up to ensure an orderly transition to more web native workflows for existing users of QGIS in due time.&lt;/p>
+&lt;a href="https://blog.jupyter.org/jupytergis-d63b7adf9d0c" target="_blank" rel="noopener" >from QuantStack and Simula Labs&lt;/a>, and will follow up to ensure an orderly transition to more web native workflows for existing users of QGIS in due time.&lt;/p>
 &lt;h2 id="better-profile-selection">
 Better Profile Selection
 &lt;a class="header-anchor" href="#better-profile-selection">#&lt;/a>
 &lt;/h2>&lt;p>This is a continuation of our
-&lt;a href="https://2i2c.org/blog/2024/jupyterhub-binderhub-gesis/" >GESIS collaboration&lt;/a>
-. In the path to deploying dynamic image building to end users, we wanted to stabilize
-&lt;a href="https://github.com/yuvipanda/jupyterhub-fancy-profiles" target="_blank" rel="noopener" >jupyterhub-fancy-profiles&lt;/a>
-enough to deploy to users of VEDA (and eventually everyone else). This is the primary interface users see &lt;em>after&lt;/em> they log in to JupyterHub, and was ripe for UX improvements. The default interface looks like this:&lt;/p>
+&lt;a href="https://2i2c.org/blog/2024/jupyterhub-binderhub-gesis/" >GESIS collaboration&lt;/a>. In the path to deploying dynamic image building to end users, we wanted to stabilize
+&lt;a href="https://github.com/yuvipanda/jupyterhub-fancy-profiles" target="_blank" rel="noopener" >jupyterhub-fancy-profiles&lt;/a> enough to deploy to users of VEDA (and eventually everyone else). This is the primary interface users see &lt;em>after&lt;/em> they log in to JupyterHub, and was ripe for UX improvements. The default interface looks like this:&lt;/p>
 &lt;p>
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
@@ -258,44 +484,33 @@ loading="lazy" data-zoomable />&lt;/div>
 Supporting workshops
 &lt;a class="header-anchor" href="#supporting-workshops">#&lt;/a>
 &lt;/h2>&lt;p>End users benefiting from our work is what ultimately gives meaning to our work. To that end, we were very happy to support running workshops during this collaboration – see our related blog post
-&lt;a href="https://2i2c.org/blog/2024/ghg-summer-school/" >US Greenhouse Gas Center supports summer school at CIRA&lt;/a>
-for more information.&lt;/p>
+&lt;a href="https://2i2c.org/blog/2024/ghg-summer-school/" >US Greenhouse Gas Center supports summer school at CIRA&lt;/a> for more information.&lt;/p>
 &lt;h2 id="ongoing-collaboration">
 Ongoing Collaboration
 &lt;a class="header-anchor" href="#ongoing-collaboration">#&lt;/a>
 &lt;/h2>&lt;p>Delivering on these objectives in a timely way heavily depended on the success of the team collaboration.
-&lt;a href="https://developmentseed.org/team/sanjay-bhangar" target="_blank" rel="noopener" >Sanjay Bhangar&lt;/a>
-of Development Seed commented&lt;/p>
+&lt;a href="https://developmentseed.org/team/sanjay-bhangar" target="_blank" rel="noopener" >Sanjay Bhangar&lt;/a> of Development Seed commented&lt;/p>
 &lt;blockquote>
 &lt;p>Working closely with the 2i2c team on growing features to support users on the VEDA and GHG Center hubs has been absolutely amazing. With 2i2c’s deep experience in the Jupyter ecosystem, we have been able to implement some fairly complex features quite easily, and their strong open-source roots have ensured that whatever we work on is broadly useful to the wider Jupyter and scientific computing communities.&lt;/p>
 &lt;/blockquote>
 &lt;p>Take a look at the companion
-&lt;a href="https://developmentseed.org/blog/2024-07-12-jupyter-geospatial" target="_blank" rel="noopener" >Development Seed blog post&lt;/a>
-of this work.&lt;/p>
+&lt;a href="https://developmentseed.org/blog/2024-07-12-jupyter-geospatial" target="_blank" rel="noopener" >Development Seed blog post&lt;/a> of this work.&lt;/p>
 &lt;p>This collaboration continues, and we have now
-&lt;a href="https://github.com/NASA-IMPACT/veda-jupyterhub/issues?q=is%3Aissue&amp;#43;jh%3A&amp;#43;label%3A%22PI&amp;#43;24.4%22&amp;#43;" target="_blank" rel="noopener" >published our objectives for the coming quarter&lt;/a>
-. Watch this space!&lt;/p>
+&lt;a href="https://github.com/NASA-IMPACT/veda-jupyterhub/issues?q=is%3Aissue&amp;#43;jh%3A&amp;#43;label%3A%22PI&amp;#43;24.4%22&amp;#43;" target="_blank" rel="noopener" >published our objectives for the coming quarter&lt;/a>. Watch this space!&lt;/p>
 &lt;h2 id="acknowledgements">
 Acknowledgements
 &lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
 &lt;/h2>&lt;ul>
 &lt;li>
-&lt;a href="https://developmentseed.org/" target="_blank" rel="noopener" >Development Seed&lt;/a>
-&lt;/li>
+&lt;a href="https://developmentseed.org/" target="_blank" rel="noopener" >Development Seed&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://impact.earthdata.nasa.gov/" target="_blank" rel="noopener" >NASA IMPACT&lt;/a>
-&lt;/li>
+&lt;a href="https://impact.earthdata.nasa.gov/" target="_blank" rel="noopener" >NASA IMPACT&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://sunu.in/" target="_blank" rel="noopener" >Tarashish Mishra&lt;/a>
-,
-&lt;a href="https://jsignell.github.io/" target="_blank" rel="noopener" >Julia Signell&lt;/a>
-,
-&lt;a href="https://oliverroick.net/" target="_blank" rel="noopener" >Oliver Roick&lt;/a>
-,
-&lt;a href="https://slesa.com.np/" target="_blank" rel="noopener" >Slesa Adhikari&lt;/a>
-and
-&lt;a href="https://developmentseed.org/team/sanjay-bhangar" target="_blank" rel="noopener" >Sanjay Bhangar&lt;/a>
-for various code contributions towards these objectives&lt;/li>
+&lt;a href="https://sunu.in/" target="_blank" rel="noopener" >Tarashish Mishra&lt;/a>,
+&lt;a href="https://jsignell.github.io/" target="_blank" rel="noopener" >Julia Signell&lt;/a>,
+&lt;a href="https://oliverroick.net/" target="_blank" rel="noopener" >Oliver Roick&lt;/a>,
+&lt;a href="https://slesa.com.np/" target="_blank" rel="noopener" >Slesa Adhikari&lt;/a> and
+&lt;a href="https://developmentseed.org/team/sanjay-bhangar" target="_blank" rel="noopener" >Sanjay Bhangar&lt;/a> for various code contributions towards these objectives&lt;/li>
 &lt;/ul></description></item><item><title>Openscapes Host a Surface Biology and Geology Workshop with Shared Password Feature</title><link>https://2i2c.org/blog/2024/openscapes-sbg-workshop/</link><pubDate>Tue, 09 Jul 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/openscapes-sbg-workshop/</guid><description>&lt;p>&lt;em>Thanks to Brianna Lind, Julia Lowndes and Andy Teucher for contributing to this blog post!&lt;/em>&lt;/p>
 &lt;p>
 &lt;figure id="figure-surface-biology-and-geology-vitals-workshop">
@@ -313,26 +528,17 @@ Surface Biology and Geology: VITALS Workshop
 &lt;/figcaption>&lt;/figure>
 &lt;/p>
 &lt;p>
-&lt;a href="https://openscapes.org" target="_blank" rel="noopener" >Openscapes&lt;/a>
-is a value-based initiative that supports kinder, better science based on open source community.
-&lt;a href="https://nasa-openscapes.github.io" target="_blank" rel="noopener" >NASA Openscapes&lt;/a>
-is in its fourth year as a project supporting NASA Earth science in the Cloud, co-developed by Julia Lowndes (Openscapes) and Erin Robinson (Metadata Game Changers).&lt;/p>
+&lt;a href="https://openscapes.org" target="_blank" rel="noopener" >Openscapes&lt;/a> is a value-based initiative that supports kinder, better science based on open source community.
+&lt;a href="https://nasa-openscapes.github.io" target="_blank" rel="noopener" >NASA Openscapes&lt;/a> is in its fourth year as a project supporting NASA Earth science in the Cloud, co-developed by Julia Lowndes (Openscapes) and Erin Robinson (Metadata Game Changers).&lt;/p>
 &lt;p>The initiative recently supported the
-&lt;a href="https://nasa.github.io/VITALS/" target="_blank" rel="noopener" >Surface Biology and Geology: VITALS Workshop&lt;/a>
-hosted by NASA
-&lt;a href="https://lpdaac.usgs.gov/" target="_blank" rel="noopener" >Land Processes Distributed Activate Archive Center (LP DAAC)&lt;/a>
-and NASA
-&lt;a href="https://www.jpl.nasa.gov/" target="_blank" rel="noopener" >Jet Propulsion Laboratory (JPL)&lt;/a>
-.&lt;/p>
+&lt;a href="https://nasa.github.io/VITALS/" target="_blank" rel="noopener" >Surface Biology and Geology: VITALS Workshop&lt;/a> hosted by NASA
+&lt;a href="https://lpdaac.usgs.gov/" target="_blank" rel="noopener" >Land Processes Distributed Activate Archive Center (LP DAAC)&lt;/a> and NASA
+&lt;a href="https://www.jpl.nasa.gov/" target="_blank" rel="noopener" >Jet Propulsion Laboratory (JPL)&lt;/a>.&lt;/p>
 &lt;p>Instructors used the 2i2c Openscapes Hub to lead hands-on exercises teaching learners how to manipulate data collected from the
-&lt;a href="https://ecostress.jpl.nasa.gov/" target="_blank" rel="noopener" >ECOSTRESS&lt;/a>
-and
-&lt;a href="https://earth.jpl.nasa.gov/emit/" target="_blank" rel="noopener" >EMIT&lt;/a>
-instruments onboard the International Space Station. They used
-&lt;a href="https://nasa.github.io/VITALS/python/01_Finding_Concurrent_Data.html" target="_blank" rel="noopener" >Jupyter notebooks&lt;/a>
-in the Hub to demonstrate how open source tools together with cloud data and compute resources could effectively analyse the the Canopy Water Content and the Land Surface Temperature over the
-&lt;a href="https://www.dangermondpreserve.org/" target="_blank" rel="noopener" >Jack and Laura Dangermond Preserve&lt;/a>
-, Santa Barbara, CA.&lt;/p>
+&lt;a href="https://ecostress.jpl.nasa.gov/" target="_blank" rel="noopener" >ECOSTRESS&lt;/a> and
+&lt;a href="https://earth.jpl.nasa.gov/emit/" target="_blank" rel="noopener" >EMIT&lt;/a> instruments onboard the International Space Station. They used
+&lt;a href="https://nasa.github.io/VITALS/python/01_Finding_Concurrent_Data.html" target="_blank" rel="noopener" >Jupyter notebooks&lt;/a> in the Hub to demonstrate how open source tools together with cloud data and compute resources could effectively analyse the the Canopy Water Content and the Land Surface Temperature over the
+&lt;a href="https://www.dangermondpreserve.org/" target="_blank" rel="noopener" >Jack and Laura Dangermond Preserve&lt;/a>, Santa Barbara, CA.&lt;/p>
 &lt;p>
 &lt;figure id="figure-plot-of-the-canopy-water-content-over-the-jack-and-laura-dangermond-preserve-santa-barbara-ca-from-a-vitals-workshop-jupyter-notebookhttpsnasagithubiovitalspython03_emit_cwc_from_reflectancehtml">
 &lt;div class="d-flex justify-content-center">
@@ -346,8 +552,7 @@ height="601"
 loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;figcaption>
 Plot of the Canopy Water Content over the Jack and Laura Dangermond Preserve, Santa Barbara, CA from a
-&lt;a href="https://nasa.github.io/VITALS/python/03_EMIT_CWC_from_Reflectance.html" target="_blank" rel="noopener" >VITALS Workshop Jupyter notebook&lt;/a>
-.
+&lt;a href="https://nasa.github.io/VITALS/python/03_EMIT_CWC_from_Reflectance.html" target="_blank" rel="noopener" >VITALS Workshop Jupyter notebook&lt;/a>.
 &lt;/figcaption>&lt;/figure>
 &lt;/p>
 &lt;p>This event was attended by around 250 participants. An event of this size therefore requires a &lt;em>frictionless login flow&lt;/em> so that organizers could focus on the essential complexity of teaching data analysis rather than the accidental complexity of managing Hub authorization. GitHub authentication is the default option for most 2i2c Hubs for research use cases, but for an educational event of this size this option was not fit for purpose since organizers had to&lt;/p>
@@ -359,10 +564,8 @@ Plot of the Canopy Water Content over the Jack and Laura Dangermond Preserve, Sa
 &lt;/ol>
 &lt;p>In response to this need, we developed a shared password feature so that workshop organizers can simply hand the share password out to learners for access to the Hub. This bypassed the manual labour of managing GitHub accounts while not adding to the learner&amp;rsquo;s high cognitive load and improving the participant&amp;rsquo;s learning experience overall.&lt;/p>
 &lt;p>One of the elements that enabled us to recognize and solve this issue effectively is our close partnership with the Openscapes team. We engage in regular
-&lt;a href="https://github.com/NASA-Openscapes/2i2cAccessPolicies/issues/7" target="_blank" rel="noopener" >6-weekly catch-ups&lt;/a>
-where we can learn about user requirements and how we can develop our infrastructure to co-create optimal solutions. Together with our
-&lt;a href="https://team-compass.2i2c.org/product/deliveryflow/#defining-our-product-delivery-flow" target="_blank" rel="noopener" >Product Delivery Flow&lt;/a>
-, we were quickly able to architect the shared password solution in time for the workshop.&lt;/p>
+&lt;a href="https://github.com/NASA-Openscapes/2i2cAccessPolicies/issues/7" target="_blank" rel="noopener" >6-weekly catch-ups&lt;/a> where we can learn about user requirements and how we can develop our infrastructure to co-create optimal solutions. Together with our
+&lt;a href="https://team-compass.2i2c.org/product/deliveryflow/#defining-our-product-delivery-flow" target="_blank" rel="noopener" >Product Delivery Flow&lt;/a>, we were quickly able to architect the shared password solution in time for the workshop.&lt;/p>
 &lt;p>
 &lt;figure id="figure-feedback-from-brianna-lind-lp-daac">
 &lt;div class="d-flex justify-content-center">
@@ -379,68 +582,48 @@ Feedback from Brianna Lind (LP DAAC)
 &lt;/figcaption>&lt;/figure>
 &lt;/p>
 &lt;p>We have documented the technical infrastructure changes required to enable a shared password for the Hub in our
-&lt;a href="https://infrastructure.2i2c.org/hub-deployment-guide/configure-auth/shared-password/" target="_blank" rel="noopener" >Infrastructure Guide&lt;/a>
-and hope to support many future events with this mechanism!&lt;/p>
+&lt;a href="https://infrastructure.2i2c.org/hub-deployment-guide/configure-auth/shared-password/" target="_blank" rel="noopener" >Infrastructure Guide&lt;/a> and hope to support many future events with this mechanism!&lt;/p>
 &lt;h2 id="acknowledgements">
 Acknowledgements
 &lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
 &lt;/h2>&lt;ul>
 &lt;li>
-&lt;a href="https://nasa-openscapes.github.io/" target="_blank" rel="noopener" >NASA Openscapes&lt;/a>
-&lt;/li>
+&lt;a href="https://nasa-openscapes.github.io/" target="_blank" rel="noopener" >NASA Openscapes&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://lpdaac.usgs.gov/" target="_blank" rel="noopener" >NASA LP DAAC&lt;/a>
-&lt;/li>
+&lt;a href="https://lpdaac.usgs.gov/" target="_blank" rel="noopener" >NASA LP DAAC&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://www.jpl.nasa.gov/" target="_blank" rel="noopener" >NASA JPL&lt;/a>
-&lt;/li>
+&lt;a href="https://www.jpl.nasa.gov/" target="_blank" rel="noopener" >NASA JPL&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://science.nasa.gov/researchers/" target="_blank" rel="noopener" >NASA ROSES funding&lt;/a>
-&lt;/li>
+&lt;a href="https://science.nasa.gov/researchers/" target="_blank" rel="noopener" >NASA ROSES funding&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>Determining Climate Risks with NASA Earthdata Cloud at Scipy 2024</title><link>https://2i2c.org/blog/2024/climaterisk-scipy-tutorial/</link><pubDate>Mon, 08 Jul 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/climaterisk-scipy-tutorial/</guid><description>&lt;p>&lt;em>Determining Climate Risks with NASA Earthdata Cloud&lt;/em> is a
-&lt;a href="https://www.nasa.gov/centers-and-facilities/marshall/nasa-boosts-open-science-through-innovative-training/" target="_blank" rel="noopener" >ScienceCore&lt;/a>
-curriculum module that comprises part of NASA&amp;rsquo;s
-&lt;a href="https://science.nasa.gov/open-science-overview" target="_blank" rel="noopener" >Open Science&lt;/a>
-and
-&lt;a href="https://nasa.github.io/Transform-to-Open-Science/" target="_blank" rel="noopener" >Transform to Open Science (TOPS)&lt;/a>
-initiatives.
+&lt;a href="https://www.nasa.gov/centers-and-facilities/marshall/nasa-boosts-open-science-through-innovative-training/" target="_blank" rel="noopener" >ScienceCore&lt;/a> curriculum module that comprises part of NASA&amp;rsquo;s
+&lt;a href="https://science.nasa.gov/open-science-overview" target="_blank" rel="noopener" >Open Science&lt;/a> and
+&lt;a href="https://nasa.github.io/Transform-to-Open-Science/" target="_blank" rel="noopener" >Transform to Open Science (TOPS)&lt;/a> initiatives.
 The aim of this module is to deliver a hands-on experience with &amp;ldquo;data-proximate computing&amp;rdquo; in the cloud with
-&lt;a href="https://www.earthdata.nasa.gov/" target="_blank" rel="noopener" >NASA Earthdata&lt;/a>
-products with content co-developed with
-&lt;a href="https://www.metadocencia.org/" target="_blank" rel="noopener" >MetaDocencia&lt;/a>
-.&lt;/p>
+&lt;a href="https://www.earthdata.nasa.gov/" target="_blank" rel="noopener" >NASA Earthdata&lt;/a> products with content co-developed with
+&lt;a href="https://www.metadocencia.org/" target="_blank" rel="noopener" >MetaDocencia&lt;/a>.&lt;/p>
 &lt;p>This module was delivered as a
-&lt;a href="https://cfp.scipy.org/2024/talk/3DVH7S/" target="_blank" rel="noopener" >SciPy tutorial&lt;/a>
-at this year&amp;rsquo;s conference. 2i2c have been working closely with the organizers to provide the hub infrastructure for the tutorial, including enabling a shared password for easy authentication (see our
-&lt;a href="https://2i2c.org/blog/2024/openscapes-sbg-workshop/" >Openscapes post&lt;/a>
-for more about this feature) and operating a small binder service for participants to view content after the event.&lt;/p>
+&lt;a href="https://cfp.scipy.org/2024/talk/3DVH7S/" target="_blank" rel="noopener" >SciPy tutorial&lt;/a> at this year&amp;rsquo;s conference. 2i2c have been working closely with the organizers to provide the hub infrastructure for the tutorial, including enabling a shared password for easy authentication (see our
+&lt;a href="https://2i2c.org/blog/2024/openscapes-sbg-workshop/" >Openscapes post&lt;/a> for more about this feature) and operating a small binder service for participants to view content after the event.&lt;/p>
 &lt;p>You can take a look at the tutorial on the
-&lt;a href="https://binder.opensci.2i2c.cloud/v2/gh/ScienceCore/scipy-2024-climaterisk/HEAD?labpath=00_Introduction_Setup%2F01_Initial_Setup.ipynb" target="_blank" rel="noopener" >NASA ephemeral hub&lt;/a>
-!&lt;/p>
+&lt;a href="https://binder.opensci.2i2c.cloud/v2/gh/ScienceCore/scipy-2024-climaterisk/HEAD?labpath=00_Introduction_Setup%2F01_Initial_Setup.ipynb" target="_blank" rel="noopener" >NASA ephemeral hub&lt;/a>!&lt;/p>
 &lt;p>The event was well-attended, with 40 learners taking part. Special thanks go to the organizers
-&lt;a href="https://github.com/dhavide" target="_blank" rel="noopener" >Dhavide Aruliah&lt;/a>
-,
-&lt;a href="https://www.linkedin.com/in/karthikvenkataramani/" target="_blank" rel="noopener" >Karthik Venkataramani&lt;/a>
-and
-&lt;a href="https://github.com/patriloto" target="_blank" rel="noopener" >Patricia A. Loto&lt;/a>
-for leading the tutorial.&lt;/p>
+&lt;a href="https://github.com/dhavide" target="_blank" rel="noopener" >Dhavide Aruliah&lt;/a>,
+&lt;a href="https://www.linkedin.com/in/karthikvenkataramani/" target="_blank" rel="noopener" >Karthik Venkataramani&lt;/a> and
+&lt;a href="https://github.com/patriloto" target="_blank" rel="noopener" >Patricia A. Loto&lt;/a> for leading the tutorial.&lt;/p>
 &lt;h2 id="acknowledgements">
 Acknowledgements
 &lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
 &lt;/h2>&lt;ul>
 &lt;li>NASA F.14 Transform to Open Science Training award NNH23ZDA001N-TOPST&lt;/li>
 &lt;li>
-&lt;a href="https://www.metadocencia.org/en/proyecto/nasa-2i2c/" target="_blank" rel="noopener" >MetaDocencia&lt;/a>
-&lt;/li>
+&lt;a href="https://www.metadocencia.org/en/proyecto/nasa-2i2c/" target="_blank" rel="noopener" >MetaDocencia&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://github.com/dhavide" target="_blank" rel="noopener" >Dhavide Aruliah&lt;/a>
-&lt;/li>
+&lt;a href="https://github.com/dhavide" target="_blank" rel="noopener" >Dhavide Aruliah&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://www.linkedin.com/in/karthikvenkataramani/" target="_blank" rel="noopener" >Karthik Venkataramani&lt;/a>
-&lt;/li>
+&lt;a href="https://www.linkedin.com/in/karthikvenkataramani/" target="_blank" rel="noopener" >Karthik Venkataramani&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://github.com/patriloto" target="_blank" rel="noopener" >Patricia A. Loto&lt;/a>
-&lt;/li>
+&lt;a href="https://github.com/patriloto" target="_blank" rel="noopener" >Patricia A. Loto&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>Ephemeral Interactive Computing for NASA Communities</title><link>https://2i2c.org/blog/2024/nasa-ephemeral-hubs/</link><pubDate>Thu, 27 Jun 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/nasa-ephemeral-hubs/</guid><description>&lt;p>We are pleased to announce that we have deployed two ephemeral hubs for NASA communities!&lt;/p>
 &lt;h2 id="what-did-we-do">
 What did we do?
@@ -448,11 +631,9 @@ What did we do?
 &lt;/h2>&lt;p>As part of the deliverables for our NASA High Priority Open-Source Science (HPOSS) award, we deployed two new ephemeral hubs:&lt;/p>
 &lt;ol>
 &lt;li>a
-&lt;a href="https://binder.opensci.2i2c.cloud/" target="_blank" rel="noopener" >public small BinderHub&lt;/a>
-that offers a &amp;ldquo;reader&amp;rdquo; experience where learners can interactively view GitHub repositories that deliver light scientific content with small compute and no barriers to authentication&lt;/li>
+&lt;a href="https://binder.opensci.2i2c.cloud/" target="_blank" rel="noopener" >public small BinderHub&lt;/a> that offers a &amp;ldquo;reader&amp;rdquo; experience where learners can interactively view GitHub repositories that deliver light scientific content with small compute and no barriers to authentication&lt;/li>
 &lt;li>a
-&lt;a href="https://hub.big.binder.opensci.2i2c.cloud/" target="_blank" rel="noopener" >big BinderHub&lt;/a>
-that offers an &amp;ldquo;explorer&amp;rdquo; experience where learners can log in to access more substantial compute resources to interactively investigate large datasets and run large workflows from any GitHub repository.&lt;/li>
+&lt;a href="https://hub.big.binder.opensci.2i2c.cloud/" target="_blank" rel="noopener" >big BinderHub&lt;/a> that offers an &amp;ldquo;explorer&amp;rdquo; experience where learners can log in to access more substantial compute resources to interactively investigate large datasets and run large workflows from any GitHub repository.&lt;/li>
 &lt;/ol>
 &lt;p>These services enrich the interactive computing ecosystem for NASA communities by&lt;/p>
 &lt;ul>
@@ -464,22 +645,14 @@ that offers an &amp;ldquo;explorer&amp;rdquo; experience where learners can log 
 How did we do it?
 &lt;a class="header-anchor" href="#how-did-we-do-it">#&lt;/a>
 &lt;/h2>&lt;p>Ephemeral interactive computing services benefited from some of our previous development work in collaboration with GESIS (see our
-&lt;a href="https://2i2c.org/blog/2024/jupyterhub-binderhub-gesis/" >detailed blog post&lt;/a>
-for more information). The research and development of this project achieved wide-reaching impact across many NASA communities we currently serve, including
-&lt;a href="https://www.nasa.gov/centers-and-facilities/marshall/nasa-boosts-open-science-through-innovative-training/" target="_blank" rel="noopener" >TOPST ScienceCore&lt;/a>
-,
-&lt;a href="https://2i2c.org/blog/2024/openscapes-sbg-workshop/" >Openscapes&lt;/a>
-,
-&lt;a href="https://2i2c.org/blog/2024/ghg-summer-school/" >US Greenhouse Gas Center&lt;/a>
-,
-&lt;a href="https://www.earthdata.nasa.gov/esds/veda" target="_blank" rel="noopener" >VEDA&lt;/a>
-and
-&lt;a href="https://cryointhecloud.com/" target="_blank" rel="noopener" >CryoCloud&lt;/a>
-; as well as networks beyond the NASA scope, such as the NSF-funded
-&lt;a href="https://projectpythia.org/" target="_blank" rel="noopener" >Project Pythia&lt;/a>
-and HHMI-funded
-&lt;a href="https://lorenfranklab.github.io/spyglass/latest/" target="_blank" rel="noopener" >Spyglass&lt;/a>
-projects.&lt;/p>
+&lt;a href="https://2i2c.org/blog/2024/jupyterhub-binderhub-gesis/" >detailed blog post&lt;/a> for more information). The research and development of this project achieved wide-reaching impact across many NASA communities we currently serve, including
+&lt;a href="https://www.nasa.gov/centers-and-facilities/marshall/nasa-boosts-open-science-through-innovative-training/" target="_blank" rel="noopener" >TOPST ScienceCore&lt;/a>,
+&lt;a href="https://2i2c.org/blog/2024/openscapes-sbg-workshop/" >Openscapes&lt;/a>,
+&lt;a href="https://2i2c.org/blog/2024/ghg-summer-school/" >US Greenhouse Gas Center&lt;/a>,
+&lt;a href="https://www.earthdata.nasa.gov/esds/veda" target="_blank" rel="noopener" >VEDA&lt;/a> and
+&lt;a href="https://cryointhecloud.com/" target="_blank" rel="noopener" >CryoCloud&lt;/a>; as well as networks beyond the NASA scope, such as the NSF-funded
+&lt;a href="https://projectpythia.org/" target="_blank" rel="noopener" >Project Pythia&lt;/a> and HHMI-funded
+&lt;a href="https://lorenfranklab.github.io/spyglass/latest/" target="_blank" rel="noopener" >Spyglass&lt;/a> projects.&lt;/p>
 &lt;h2 id="what-next">
 What next?
 &lt;a class="header-anchor" href="#what-next">#&lt;/a>
@@ -490,15 +663,11 @@ Can I use this ephemeral hub service?
 &lt;/h2>&lt;p>The answer is yes!&lt;/p>
 &lt;ul>
 &lt;li>For the
-&lt;a href="https://binder.opensci.2i2c.cloud/" target="_blank" rel="noopener" >public small BinderHub&lt;/a>
-anyone can view GitHub repositories that deliver light scientific content with small compute and no barriers to authentication&lt;/li>
+&lt;a href="https://binder.opensci.2i2c.cloud/" target="_blank" rel="noopener" >public small BinderHub&lt;/a> anyone can view GitHub repositories that deliver light scientific content with small compute and no barriers to authentication&lt;/li>
 &lt;li>For the
-&lt;a href="https://hub.big.binder.opensci.2i2c.cloud/" target="_blank" rel="noopener" >big BinderHub&lt;/a>
-you will need to be member of a NASA community. This requires a GitHub account for membership of the GitHub Team
-&lt;a href="https://github.com/orgs/2i2c-nasa-binder-access/teams/big-binder-team" target="_blank" rel="noopener" >2i2c-nasa-binder-access:big-binder-team&lt;/a>
-for authorization. Please send us an email at
-&lt;a href="" >binder-requests@2i2c.org&lt;/a>
-to be added to the GitHub Team.&lt;/li>
+&lt;a href="https://hub.big.binder.opensci.2i2c.cloud/" target="_blank" rel="noopener" >big BinderHub&lt;/a> you will need to be member of a NASA community. This requires a GitHub account for membership of the GitHub Team
+&lt;a href="https://github.com/orgs/2i2c-nasa-binder-access/teams/big-binder-team" target="_blank" rel="noopener" >2i2c-nasa-binder-access:big-binder-team&lt;/a> for authorization. Please send us an email at
+&lt;a href="" >binder-requests@2i2c.org&lt;/a> to be added to the GitHub Team.&lt;/li>
 &lt;/ul>
 &lt;h2 id="acknowledgements">
 Acknowledgements
@@ -521,17 +690,12 @@ Summer school for inverse modeling of greenhouse gases 2024
 &lt;/figcaption>&lt;/figure>
 &lt;/p>
 &lt;p>The Cooperative Institute for Research in the Atmosphere (
-&lt;a href="https://www.cira.colostate.edu/" target="_blank" rel="noopener" >CIRA&lt;/a>
-) is an interdisciplinary cooperation between NOAA research scientists and Colorado State University. CIRA is hosting a
-&lt;a href="https://www.cira.colostate.edu/conferences/rmtgw/" target="_blank" rel="noopener" >summer school&lt;/a>
-for inverse modeling of greenhouse gases using atmospheric data assimilation techniques. The
-&lt;a href="https://earth.gov/ghgcenter" target="_blank" rel="noopener" >US Greenhouse Gas Center&lt;/a>
-is supporting the workshop by providing 40+ attendees access to their interactive computing hub operated by 2i2c (see
-&lt;a href="https://2i2c.org/blog/2023/us-ghg-center-launches/" >our blog post about their launch&lt;/a>
-).&lt;/p>
+&lt;a href="https://www.cira.colostate.edu/" target="_blank" rel="noopener" >CIRA&lt;/a>) is an interdisciplinary cooperation between NOAA research scientists and Colorado State University. CIRA is hosting a
+&lt;a href="https://www.cira.colostate.edu/conferences/rmtgw/" target="_blank" rel="noopener" >summer school&lt;/a> for inverse modeling of greenhouse gases using atmospheric data assimilation techniques. The
+&lt;a href="https://earth.gov/ghgcenter" target="_blank" rel="noopener" >US Greenhouse Gas Center&lt;/a> is supporting the workshop by providing 40+ attendees access to their interactive computing hub operated by 2i2c (see
+&lt;a href="https://2i2c.org/blog/2023/us-ghg-center-launches/" >our blog post about their launch&lt;/a>).&lt;/p>
 &lt;p>Hub administrators have
-&lt;a href="https://github.com/NASA-IMPACT/ssim-ghg-workshop-2024-python-image" target="_blank" rel="noopener" >built a customized software environment&lt;/a>
-with container technology for use at the workshop. In doing so, this bypasses the need for participants to individually install software on their own machines and the online hub provides a &lt;em>consistent&lt;/em> and &lt;em>reproducible&lt;/em> interactive computing environment that is easily &lt;em>accessible&lt;/em> and &lt;em>scalable&lt;/em>.&lt;/p>
+&lt;a href="https://github.com/NASA-IMPACT/ssim-ghg-workshop-2024-python-image" target="_blank" rel="noopener" >built a customized software environment&lt;/a> with container technology for use at the workshop. In doing so, this bypasses the need for participants to individually install software on their own machines and the online hub provides a &lt;em>consistent&lt;/em> and &lt;em>reproducible&lt;/em> interactive computing environment that is easily &lt;em>accessible&lt;/em> and &lt;em>scalable&lt;/em>.&lt;/p>
 &lt;p>
 &lt;figure id="figure-login-screen-of-the-ghg-hub-showing-the-custom-built-ssim-ghg-image-option">
 &lt;div class="d-flex justify-content-center">
@@ -567,17 +731,14 @@ height="328"
 loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;figcaption>
 Figure from the
-&lt;a href="https://doi.org/10.31223/X5WQ47" target="_blank" rel="noopener" >preprint&lt;/a>
-showing large and small scale air-sea fluxes are separated. By Julius Busecke &lt;em>et al.&lt;/em>, licensed under
+&lt;a href="https://doi.org/10.31223/X5WQ47" target="_blank" rel="noopener" >preprint&lt;/a> showing large and small scale air-sea fluxes are separated. By Julius Busecke &lt;em>et al.&lt;/em>, licensed under
 &lt;a href="http://creativecommons.org/licenses/by/4.0/" target="_blank" rel="noopener" >CC BY 4.0&lt;/a>
 &lt;/figcaption>&lt;/figure>
 &lt;/p>
 &lt;p>Julius Busecke &lt;em>et al.&lt;/em> of the
-&lt;a href="https://leap-stc.github.io/intro.html" target="_blank" rel="noopener" >LEAP-Pangeo&lt;/a>
-&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup> hub, have recently published a preprint&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup> that investigates &amp;ldquo;The Overlooked Sub-Grid Air-Sea Flux in Climate Models&amp;rdquo; using 2i2c infrastructure.&lt;/p>
+&lt;a href="https://leap-stc.github.io/intro.html" target="_blank" rel="noopener" >LEAP-Pangeo&lt;/a>&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup> hub, have recently published a preprint&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup> that investigates &amp;ldquo;The Overlooked Sub-Grid Air-Sea Flux in Climate Models&amp;rdquo; using 2i2c infrastructure.&lt;/p>
 &lt;p>See Julius&amp;rsquo;
-&lt;a href="https://x.com/JuliusBusecke/status/1792930908900630735" target="_blank" rel="noopener" >social media post&lt;/a>
-for a more bite-sized outline of the work done.&lt;/p>
+&lt;a href="https://x.com/JuliusBusecke/status/1792930908900630735" target="_blank" rel="noopener" >social media post&lt;/a> for a more bite-sized outline of the work done.&lt;/p>
 &lt;p>Well done all! 🎉&lt;/p>
 &lt;div class="footnotes" role="doc-endnotes">
 &lt;hr>
@@ -587,39 +748,28 @@ for a more bite-sized outline of the work done.&lt;/p>
 &lt;/li>
 &lt;li id="fn:2">
 &lt;p>
-&lt;a href="https://doi.org/10.31223/X5WQ47" target="_blank" rel="noopener" >https://doi.org/10.31223/X5WQ47&lt;/a>
-&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;a href="https://doi.org/10.31223/X5WQ47" target="_blank" rel="noopener" >doi.org/10.31223/X5WQ47&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;/div></description></item><item><title>Digital public goods for Earth system management: U.S. Greenhouse Gas Center launches</title><link>https://2i2c.org/blog/2023/us-ghg-center-launches/</link><pubDate>Tue, 05 Dec 2023 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2023/us-ghg-center-launches/</guid><description>&lt;blockquote>
 &lt;p>&lt;strong>Abstract&lt;/strong>&lt;/p>
 &lt;p>The International Interactive Computing Collaboration (
-&lt;a href="https://2i2c.org" target="_blank" rel="noopener" >2i2c.org&lt;/a>
-), working with
-&lt;a href="https://www.earthdata.nasa.gov/dashboard/" target="_blank" rel="noopener" >NASA VEDA&lt;/a>
-,
-&lt;a href="https://developmentseed.org/" target="_blank" rel="noopener" >Development Seed&lt;/a>
-and other partners, operates an interactive computing platform for The U.S. Greenhouse Gas Center. The U.S. GHG Center,
-&lt;a href="https://www.nasa.gov/news-release/nasa-partners-launch-us-greenhouse-gas-center-to-share-climate-data/" target="_blank" rel="noopener" >announced yesterday&lt;/a>
-at the 28th annual United Nations Climate Conference (COP-28) in Dubai, is an interagency collaboration of the
-&lt;a href="https://www.epa.gov/" target="_blank" rel="noopener" >Environmental Protection Agency (EPA)&lt;/a>
-, the
-&lt;a href="https://www.nasa.gov/" target="_blank" rel="noopener" >National Aeronautics and Space Administration (NASA)&lt;/a>
-, the
-&lt;a href="https://www.nist.gov/" target="_blank" rel="noopener" >National Institute of Standards and Technology (NIST)&lt;/a>
-, and the
-&lt;a href="https://www.nist.gov/" target="_blank" rel="noopener" >National Ocean and Atmospheric Administration (NOAA)&lt;/a>
-. This note places the launch of the U.S. GHG Center in a scientific, international, and national context and argues that similar digital public goods are needed for humanity to understand and manage the Earth system.&lt;/p>
+&lt;a href="https://2i2c.org" target="_blank" rel="noopener" >2i2c.org&lt;/a>), working with
+&lt;a href="https://www.earthdata.nasa.gov/dashboard/" target="_blank" rel="noopener" >NASA VEDA&lt;/a>,
+&lt;a href="https://developmentseed.org/" target="_blank" rel="noopener" >Development Seed&lt;/a> and other partners, operates an interactive computing platform for The U.S. Greenhouse Gas Center. The U.S. GHG Center,
+&lt;a href="https://www.nasa.gov/news-release/nasa-partners-launch-us-greenhouse-gas-center-to-share-climate-data/" target="_blank" rel="noopener" >announced yesterday&lt;/a> at the 28th annual United Nations Climate Conference (COP-28) in Dubai, is an interagency collaboration of the
+&lt;a href="https://www.epa.gov/" target="_blank" rel="noopener" >Environmental Protection Agency (EPA)&lt;/a>, the
+&lt;a href="https://www.nasa.gov/" target="_blank" rel="noopener" >National Aeronautics and Space Administration (NASA)&lt;/a>, the
+&lt;a href="https://www.nist.gov/" target="_blank" rel="noopener" >National Institute of Standards and Technology (NIST)&lt;/a>, and the
+&lt;a href="https://www.nist.gov/" target="_blank" rel="noopener" >National Ocean and Atmospheric Administration (NOAA)&lt;/a>. This note places the launch of the U.S. GHG Center in a scientific, international, and national context and argues that similar digital public goods are needed for humanity to understand and manage the Earth system.&lt;/p>
 &lt;/blockquote>
 &lt;h2 id="scientific-context">
 Scientific Context
 &lt;a class="header-anchor" href="#scientific-context">#&lt;/a>
 &lt;/h2>&lt;p>It was controversial in 1827 when Joseph Fourier (the discoverer of the
-&lt;a href="https://en.wikipedia.org/wiki/Thermal_conduction#Fourier%27s_law" target="_blank" rel="noopener" >law of heat conduction&lt;/a>
-) argued &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup> that the atmosphere keeps the Earth warm, like a puffy down comforter, but it&amp;rsquo;s not now. Gases in the atmosphere trap heat near Earth. How much heat is trapped depends on the gas mixture. Putting more heat-trapping gases in is like putting a wool blanket on top of the down comforter. Human activity since industrialization is injecting lots more heat-trapping gas into the atmosphere and changing the Earth&amp;rsquo;s climate.&lt;/p>
+&lt;a href="https://en.wikipedia.org/wiki/Thermal_conduction#Fourier%27s_law" target="_blank" rel="noopener" >law of heat conduction&lt;/a>) argued &lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup> that the atmosphere keeps the Earth warm, like a puffy down comforter, but it&amp;rsquo;s not now. Gases in the atmosphere trap heat near Earth. How much heat is trapped depends on the gas mixture. Putting more heat-trapping gases in is like putting a wool blanket on top of the down comforter. Human activity since industrialization is injecting lots more heat-trapping gas into the atmosphere and changing the Earth&amp;rsquo;s climate.&lt;/p>
 &lt;p>The science is clear. The up-to-date consensus view of the global scientific community is expressed in the
-&lt;a href="https://www.ipcc.ch/assessment-report/ar6/" target="_blank" rel="noopener" >Sixth Assessment Report&lt;/a>
-of the Intergovernmental Panel on Climate Change (IPCC):&lt;/p>
+&lt;a href="https://www.ipcc.ch/assessment-report/ar6/" target="_blank" rel="noopener" >Sixth Assessment Report&lt;/a> of the Intergovernmental Panel on Climate Change (IPCC):&lt;/p>
 &lt;p>
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
@@ -630,8 +780,7 @@ of the Intergovernmental Panel on Climate Change (IPCC):&lt;/p>
 International Context
 &lt;a class="header-anchor" href="#international-context">#&lt;/a>
 &lt;/h2>&lt;p>The international community officially recognized human-influenced climate change at the World Climate Conference (WCC-1) &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup> in 1979. The
-&lt;a href="https://library.wmo.int/viewer/54699/download?file=1979_wcc1-declaration.pdf&amp;amp;type=pdf&amp;amp;navigator=1" target="_blank" rel="noopener" >1979 declaration&lt;/a>
-is remarkably prescient and detailed. A complex and interconnected collection of scientific and diplomatic activities were catalyzed by WCC-1. Some important milestones from this history are captured in the chart and numbered list below.&lt;/p>
+&lt;a href="https://library.wmo.int/viewer/54699/download?file=1979_wcc1-declaration.pdf&amp;amp;type=pdf&amp;amp;navigator=1" target="_blank" rel="noopener" >1979 declaration&lt;/a>is remarkably prescient and detailed. A complex and interconnected collection of scientific and diplomatic activities were catalyzed by WCC-1. Some important milestones from this history are captured in the chart and numbered list below.&lt;/p>
 &lt;div class="mermaid">gantt
 dateFormat YYYY-MM-DD
 title International Climate Change Milestones
@@ -669,82 +818,54 @@ ETF :crit, adminU, 2024-01-01, 2025-12-31
 &lt;ol>
 &lt;li>The First World Climate Conference (&lt;strong>WCC-1&lt;/strong>) &lt;sup id="fnref1:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup> was held in 1979.&lt;/li>
 &lt;li>The World Climate Programme (
-&lt;a href="https://public.wmo.int/en/programmes/world-climate-programme" target="_blank" rel="noopener" >WCP&lt;/a>
-), an activity overseen by the
-&lt;a href="https://public.wmo.int/en" target="_blank" rel="noopener" >World Meteorological Organization&lt;/a>
-was established after WCC-1. WCP, in partnership with other organizations, operates programs (e.g. the
-&lt;a href="https://wcrp-cmip.org/" target="_blank" rel="noopener" >World Climate Research Program (WCRP)&lt;/a>
-) that organize and integrate international scientific efforts to understand the climate. The WMO also operates the
-&lt;a href="https://ig3is.wmo.int/en/who-we-are" target="_blank" rel="noopener" >Integrated Global Greenhouse Gas Information System (IG3IS)&lt;/a>
-, a natural partner for the emerging work described below.&lt;/li>
+&lt;a href="https://public.wmo.int/en/programmes/world-climate-programme" target="_blank" rel="noopener" >WCP&lt;/a>), an activity overseen by the
+&lt;a href="https://public.wmo.int/en" target="_blank" rel="noopener" >World Meteorological Organization&lt;/a> was established after WCC-1. WCP, in partnership with other organizations, operates programs (e.g. the
+&lt;a href="https://wcrp-cmip.org/" target="_blank" rel="noopener" >World Climate Research Program (WCRP)&lt;/a>) that organize and integrate international scientific efforts to understand the climate. The WMO also operates the
+&lt;a href="https://ig3is.wmo.int/en/who-we-are" target="_blank" rel="noopener" >Integrated Global Greenhouse Gas Information System (IG3IS)&lt;/a>, a natural partner for the emerging work described below.&lt;/li>
 &lt;li>WCRP manages the
-&lt;a href="https://wcrp-cmip.org/" target="_blank" rel="noopener" >Common Model Intercomparison Project (CMIP)&lt;/a>
-. CMIP serves as a kind of &lt;strong>league for intercomparing models&lt;/strong> of the Earth&amp;rsquo;s climate system developed by teams who approach the problems with different methods and designs. Intercomparison, an approach that enables finding the consensus views of teams with divergent approaches to problems, is used in other modeling scenarios.&lt;/li>
+&lt;a href="https://wcrp-cmip.org/" target="_blank" rel="noopener" >Common Model Intercomparison Project (CMIP)&lt;/a>. CMIP serves as a kind of &lt;strong>league for intercomparing models&lt;/strong> of the Earth&amp;rsquo;s climate system developed by teams who approach the problems with different methods and designs. Intercomparison, an approach that enables finding the consensus views of teams with divergent approaches to problems, is used in other modeling scenarios.&lt;/li>
 &lt;li>Research papers on the climate are rapidly produced by scholars from essentially all knowledge disciplines. This overwhelming stream of content, like snowflakes in a blizzard, is coalesced into coherent and carefully scrutinized &lt;strong>
-&lt;a href="https://www.ipcc.ch/reports/" target="_blank" rel="noopener" >IPCC Assessment Reports&lt;/a>
-&lt;/strong> by the
-&lt;a href="https://www.ipcc.ch/" target="_blank" rel="noopener" >Intergovernmental Panel on Climate Change (IPCC)&lt;/a>
-.&lt;/li>
+&lt;a href="https://www.ipcc.ch/reports/" target="_blank" rel="noopener" >IPCC Assessment Reports&lt;/a>&lt;/strong> by the
+&lt;a href="https://www.ipcc.ch/" target="_blank" rel="noopener" >Intergovernmental Panel on Climate Change (IPCC)&lt;/a>.&lt;/li>
 &lt;li>The
-&lt;a href="https://en.wikipedia.org/wiki/Earth_Summit" target="_blank" rel="noopener" >Earth Summit&lt;/a>
-held in Rio de Janeiro in 1992 led to the
-&lt;a href="https://unfccc.int/" target="_blank" rel="noopener" >United Nations Framework Convention on Climate Change (UNFCC)&lt;/a>
-. The UNFCCC is an international treaty that recognizes the dangers to the climate system caused by human activity, calls for ongoing study, and establishes recurring
-&lt;a href="https://unfccc.int/process/bodies/supreme-bodies/conference-of-the-parties-cop" target="_blank" rel="noopener" >Conference of the Parties (COP)&lt;/a>
-meetings.&lt;/li>
+&lt;a href="https://en.wikipedia.org/wiki/Earth_Summit" target="_blank" rel="noopener" >Earth Summit&lt;/a> held in Rio de Janeiro in 1992 led to the
+&lt;a href="https://unfccc.int/" target="_blank" rel="noopener" >United Nations Framework Convention on Climate Change (UNFCC)&lt;/a>. The UNFCCC is an international treaty that recognizes the dangers to the climate system caused by human activity, calls for ongoing study, and establishes recurring
+&lt;a href="https://unfccc.int/process/bodies/supreme-bodies/conference-of-the-parties-cop" target="_blank" rel="noopener" >Conference of the Parties (COP)&lt;/a> meetings.&lt;/li>
 &lt;li>
-&lt;a href="https://unfccc.int/event/cop-3" target="_blank" rel="noopener" >COP-3 (Kyoto)&lt;/a>
-led to the
-&lt;a href="https://unfccc.int/kyoto_protocol" target="_blank" rel="noopener" >Kyoto Protocol Treaty&lt;/a>
-.&lt;/li>
+&lt;a href="https://unfccc.int/event/cop-3" target="_blank" rel="noopener" >COP-3 (Kyoto)&lt;/a> led to the
+&lt;a href="https://unfccc.int/kyoto_protocol" target="_blank" rel="noopener" >Kyoto Protocol Treaty&lt;/a>.&lt;/li>
 &lt;li>The
-&lt;a href="https://en.wikipedia.org/wiki/Byrd%E2%80%93Hagel_Resolution" target="_blank" rel="noopener" >Byrd-Hagel Resolution&lt;/a>
-was a unanimous United States Senate Resolution that stipulated the United States would not sign treaties promising greenhouse gas reductions by developed countries that did not mandate similar reductions from developing countries. This killed USA participation in the Kyoto Protocol Treaty.&lt;/li>
+&lt;a href="https://en.wikipedia.org/wiki/Byrd%E2%80%93Hagel_Resolution" target="_blank" rel="noopener" >Byrd-Hagel Resolution&lt;/a> was a unanimous United States Senate Resolution that stipulated the United States would not sign treaties promising greenhouse gas reductions by developed countries that did not mandate similar reductions from developing countries. This killed USA participation in the Kyoto Protocol Treaty.&lt;/li>
 &lt;li>The
-&lt;a href="https://unfccc.int/process-and-meetings/the-paris-agreement" target="_blank" rel="noopener" >Paris Agreement&lt;/a>
-, established at
-&lt;a href="https://unfccc.int/event/cop-21" target="_blank" rel="noopener" >COP-21 (Paris)&lt;/a>
-, effectively replaces the Kyoto Protocol, includes specifications by participant countries on greenhouse gas reductions called &lt;em>National Determined Contributions&lt;/em> (NDCs). The United States entered the Paris Agreement under President Obama, exited under President Trump and rejoined under President Biden.&lt;/li>
+&lt;a href="https://unfccc.int/process-and-meetings/the-paris-agreement" target="_blank" rel="noopener" >Paris Agreement&lt;/a>, established at
+&lt;a href="https://unfccc.int/event/cop-21" target="_blank" rel="noopener" >COP-21 (Paris)&lt;/a>, effectively replaces the Kyoto Protocol, includes specifications by participant countries on greenhouse gas reductions called &lt;em>National Determined Contributions&lt;/em> (NDCs). The United States entered the Paris Agreement under President Obama, exited under President Trump and rejoined under President Biden.&lt;/li>
 &lt;li>
-&lt;a href="https://www.un.org/en/climatechange/cop26" target="_blank" rel="noopener" >COP-26 (Glasgow)&lt;/a>
-established an accountability system for the Paris Agreement called the
-&lt;a href="https://unfccc.int/FAQ-moving-towards-the-ETF" target="_blank" rel="noopener" >Enhanced Transparency Framework (ETF)&lt;/a>
-. Participant countries to the Paris Agreement will
-&lt;a href="https://unfccc.int/process-and-meetings/transparency-and-reporting/preparing-for-the-ETF" target="_blank" rel="noopener" >submit their first Biennial Transparency Reports (BTR1) under the ETF&lt;/a>
-in 2024.&lt;/li>
+&lt;a href="https://www.un.org/en/climatechange/cop26" target="_blank" rel="noopener" >COP-26 (Glasgow)&lt;/a>established an accountability system for the Paris Agreement called the
+&lt;a href="https://unfccc.int/FAQ-moving-towards-the-ETF" target="_blank" rel="noopener" >Enhanced Transparency Framework (ETF)&lt;/a>. Participant countries to the Paris Agreement will
+&lt;a href="https://unfccc.int/process-and-meetings/transparency-and-reporting/preparing-for-the-ETF" target="_blank" rel="noopener" >submit their first Biennial Transparency Reports (BTR1) under the ETF&lt;/a> in 2024.&lt;/li>
 &lt;/ol>
 &lt;h2 id="-usa-context">
 🇺🇸 U.S.A. Context
 &lt;a class="header-anchor" href="#-usa-context">#&lt;/a>
 &lt;/h2>&lt;p>The
-&lt;a href="https://www.epa.gov/ghgemissions/inventory-us-greenhouse-gas-emissions-and-sinks" target="_blank" rel="noopener" >United States Environmental Protection Agency (EPA) annually releases&lt;/a>
-the &lt;em>Inventory of U.S. Greenhouse Gas Emissions and Sinks&lt;/em> reports. These reports are submitted to the United Nations in accordance with the UNFCCC. The EPA
-&lt;a href="https://www.epa.gov/ghgemissions/greenhouse-gas-inventory-tools" target="_blank" rel="noopener" >openly shares&lt;/a>
-software, tools, data, and
-&lt;a href="https://www.epa.gov/ghgemissions/capacity-building-national-greenhouse-gas-inventories" target="_blank" rel="noopener" >builds capacity&lt;/a>
-to assist other nations to assemble their own greenhouse gas inventories.&lt;/p>
+&lt;a href="https://www.epa.gov/ghgemissions/inventory-us-greenhouse-gas-emissions-and-sinks" target="_blank" rel="noopener" >United States Environmental Protection Agency (EPA) annually releases&lt;/a> the &lt;em>Inventory of U.S. Greenhouse Gas Emissions and Sinks&lt;/em> reports. These reports are submitted to the United Nations in accordance with the UNFCCC. The EPA
+&lt;a href="https://www.epa.gov/ghgemissions/greenhouse-gas-inventory-tools" target="_blank" rel="noopener" >openly shares&lt;/a> software, tools, data, and
+&lt;a href="https://www.epa.gov/ghgemissions/capacity-building-national-greenhouse-gas-inventories" target="_blank" rel="noopener" >builds capacity&lt;/a> to assist other nations to assemble their own greenhouse gas inventories.&lt;/p>
 &lt;p>An
-&lt;a href="https://obamawhitehouse.archives.gov/sites/default/files/omb/inforeg/for-agencies/Social-Cost-of-Carbon-for-RIA.pdf" target="_blank" rel="noopener" >Interagency Working Group (IWG) on the Social Cost of Carbon&lt;/a>
-was set up by the Obama Administration in 2010. The IWG, renamed as the
-&lt;a href="https://www.epa.gov/sites/default/files/2016-12/documents/sc_co2_tsd_august_2016.pdf" target="_blank" rel="noopener" >Interagency Working Group on Social Cost of Greenhouse Gases in 2016&lt;/a>
-, synthesizes research on
-&lt;a href="https://en.wikipedia.org/wiki/Integrated_assessment_modelling" target="_blank" rel="noopener" >integrated assessment modelling&lt;/a>
-to quantify the dollar costs associated to damage caused by an incremental increase in GHG emissions in a given year. Quantifying the impacts of GHG emissions in monetary terms is vital to effective rulemaking across the Federal Government. This
-&lt;a href="https://www.epa.gov/sites/default/files/2016-12/documents/social_cost_of_carbon_fact_sheet.pdf" target="_blank" rel="noopener" >EPA fact sheet on the social costs of carbon&lt;/a>
-provides further background. A 2017 consensus report &lt;sup id="fnref:5">&lt;a href="#fn:5" class="footnote-ref" role="doc-noteref">5&lt;/a>&lt;/sup> of the National Academies of Science Engineering and Medicine (NASEM) offered recommendations for ongoing research to improve the assignment of social costs to GHG emissions.&lt;/p>
+&lt;a href="https://obamawhitehouse.archives.gov/sites/default/files/omb/inforeg/for-agencies/Social-Cost-of-Carbon-for-RIA.pdf" target="_blank" rel="noopener" >Interagency Working Group (IWG) on the Social Cost of Carbon&lt;/a> was set up by the Obama Administration in 2010. The IWG, renamed as the
+&lt;a href="https://www.epa.gov/sites/default/files/2016-12/documents/sc_co2_tsd_august_2016.pdf" target="_blank" rel="noopener" >Interagency Working Group on Social Cost of Greenhouse Gases in 2016&lt;/a>, synthesizes research on
+&lt;a href="https://en.wikipedia.org/wiki/Integrated_assessment_modelling" target="_blank" rel="noopener" >integrated assessment modelling&lt;/a> to quantify the dollar costs associated to damage caused by an incremental increase in GHG emissions in a given year. Quantifying the impacts of GHG emissions in monetary terms is vital to effective rulemaking across the Federal Government. This
+&lt;a href="https://www.epa.gov/sites/default/files/2016-12/documents/social_cost_of_carbon_fact_sheet.pdf" target="_blank" rel="noopener" >EPA fact sheet on the social costs of carbon&lt;/a> provides further background. A 2017 consensus report &lt;sup id="fnref:5">&lt;a href="#fn:5" class="footnote-ref" role="doc-noteref">5&lt;/a>&lt;/sup> of the National Academies of Science Engineering and Medicine (NASEM) offered recommendations for ongoing research to improve the assignment of social costs to GHG emissions.&lt;/p>
 &lt;p>Other federal agencies have developed expertise, data, and analyses that give insights into GHG emissions that compliment and potentially extend the &lt;em>Inventory&lt;/em> reports developed annually by the EPA. How should the United States integrate federal agency efforts to monitor and measure greenhouse gas emissions? A 2022 NASEM consensus report &lt;sup id="fnref:6">&lt;a href="#fn:6" class="footnote-ref" role="doc-noteref">6&lt;/a>&lt;/sup> investigated this question. In January of this year, the
-&lt;a href="https://www.whitehouse.gov/ceq/news-updates/2023/01/06/biden-harris-administration-releases-new-guidance-to-disclose-climate-impacts-in-environmental-reviews/" target="_blank" rel="noopener" >Biden Administration&lt;/a>
-released guidance&lt;sup id="fnref:7">&lt;a href="#fn:7" class="footnote-ref" role="doc-noteref">7&lt;/a>&lt;/sup> for federal agencies on incorporating GHG emissions information in policies and reports. Shortly thereafter, a draft federal strategy to advance an integrated greenhouse gas monitoring system was
-&lt;a href="https://nspires.nasaprs.com/external/solicitations/summary.do?solId=%7bDDD1BC85-9276-8FB7-C362-A00E3E427E0D%7d&amp;amp;path=&amp;amp;method=init" target="_blank" rel="noopener" >released by NASA with a request for public input&lt;/a>
-.&lt;/p>
+&lt;a href="https://www.whitehouse.gov/ceq/news-updates/2023/01/06/biden-harris-administration-releases-new-guidance-to-disclose-climate-impacts-in-environmental-reviews/" target="_blank" rel="noopener" >Biden Administration&lt;/a> released guidance&lt;sup id="fnref:7">&lt;a href="#fn:7" class="footnote-ref" role="doc-noteref">7&lt;/a>&lt;/sup> for federal agencies on incorporating GHG emissions information in policies and reports. Shortly thereafter, a draft federal strategy to advance an integrated greenhouse gas monitoring system was
+&lt;a href="https://nspires.nasaprs.com/external/solicitations/summary.do?solId=%7bDDD1BC85-9276-8FB7-C362-A00E3E427E0D%7d&amp;amp;path=&amp;amp;method=init" target="_blank" rel="noopener" >released by NASA with a request for public input&lt;/a>.&lt;/p>
 &lt;p>Some important insights from the NASEM consensus report, the draft federal strategy, and the IWG reports:&lt;/p>
 &lt;ol>
 &lt;li>Data streams on greenhouse gas emissions can be sorted into two broad categories:
 &lt;ul>
 &lt;li>&lt;strong>Activity-based:&lt;/strong> Activity-based data, sometimes called &amp;ldquo;bottom-up&amp;rdquo; data, quantify GHG emissions by measuring activities that generate GHG emissions. Economic or business activity data (gallons of diesel sold in a county on Tuesday; miles flown by a 747 in October) can be converted into quantified GHG emissions information.&lt;/li>
 &lt;li>&lt;strong>Atmospheric-based:&lt;/strong> Atmosphere-based data, sometimes called &amp;ldquo;top-down&amp;rdquo; data, quantify GHG emissions by performing atmospheric measurements. For example, the
-&lt;a href="https://ocov2.jpl.nasa.gov/" target="_blank" rel="noopener" >Orbiting Carbon Observatory (OCO2)&lt;/a>
-remotely senses $CO_2$ from space.&lt;/li>
+&lt;a href="https://ocov2.jpl.nasa.gov/" target="_blank" rel="noopener" >Orbiting Carbon Observatory (OCO2)&lt;/a> remotely senses $CO_2$ from space.&lt;/li>
 &lt;li>A hybrid approach that blends activity-based and atmospheric-based GHG data has the potential to provide new insights.&lt;/li>
 &lt;/ul>
 &lt;/li>
@@ -763,45 +884,30 @@ remotely senses $CO_2$ from space.&lt;/li>
 The U.S. Greenhouse Gas Center
 &lt;a class="header-anchor" href="#the-us-greenhouse-gas-center">#&lt;/a>
 &lt;/h2>&lt;p>The launch of U.S. GHG Center, an interagency collaboration of the 
-&lt;a href="https://www.epa.gov/" target="_blank" rel="noopener" >Environmental Protection Agency (EPA)&lt;/a>
-, the 
-&lt;a href="https://www.nasa.gov/" target="_blank" rel="noopener" >National Aeronautics and Space Administration (NASA)&lt;/a>
-, the 
-&lt;a href="https://www.nist.gov/" target="_blank" rel="noopener" >National Institute of Standards and Technology (NIST)&lt;/a>
-, and the 
-&lt;a href="https://www.nist.gov/" target="_blank" rel="noopener" >National Ocean and Atmospheric Administration (NOAA)&lt;/a>
-, was
-&lt;a href="https://www.nasa.gov/news-release/nasa-partners-launch-us-greenhouse-gas-center-to-share-climate-data/" target="_blank" rel="noopener" >announced on 2023-12-04&lt;/a>
-at COP-28 (Dubai)&lt;/p>
+&lt;a href="https://www.epa.gov/" target="_blank" rel="noopener" >Environmental Protection Agency (EPA)&lt;/a>, the 
+&lt;a href="https://www.nasa.gov/" target="_blank" rel="noopener" >National Aeronautics and Space Administration (NASA)&lt;/a>, the 
+&lt;a href="https://www.nist.gov/" target="_blank" rel="noopener" >National Institute of Standards and Technology (NIST)&lt;/a>, and the 
+&lt;a href="https://www.nist.gov/" target="_blank" rel="noopener" >National Ocean and Atmospheric Administration (NOAA)&lt;/a>, was
+&lt;a href="https://www.nasa.gov/news-release/nasa-partners-launch-us-greenhouse-gas-center-to-share-climate-data/" target="_blank" rel="noopener" >announced on 2023-12-04&lt;/a> at COP-28 (Dubai)&lt;/p>
 &lt;p>How much GHG emission is generated through oil and gas production? How much GHG emission is generated by urban centers? Do landfills contribute significant GHG emissions? How do human-generated GHG emissions compare to natural sources of GHG emissions? The U.S. GHG Center is designed to assemble the data, tools, and people to scientifically address these kinds of questions.&lt;/p>
 &lt;h2 id="openness-amplified-knowledge-sharing">
 Openness: Amplified Knowledge Sharing
 &lt;a class="header-anchor" href="#openness-amplified-knowledge-sharing">#&lt;/a>
 &lt;/h2>&lt;p>The U.S. Greenhouse Gas Center builds on
-&lt;a href="https://www.epa.gov/ghgemissions/greenhouse-gas-inventory-tools" target="_blank" rel="noopener" >EPA&amp;rsquo;s leadership to openly share the data and tools for the &lt;em>Inventory&lt;/em>&lt;/a>
-and the
-&lt;a href="https://www.whitehouse.gov/ostp/news-updates/2023/01/11/fact-sheet-biden-harris-administration-announces-new-actions-to-advance-open-and-equitable-research/" target="_blank" rel="noopener" >2023 Year of Open Science&lt;/a>
-. Instead of building a walled garden with proprietary technology from a vendor selected through RFP, the Center launched a prototype platform using curated open source tools integrated with public federal data. This &lt;strong>open toolchain approach&lt;/strong> amplifies the open data efforts developed over the past two decades.&lt;/p>
+&lt;a href="https://www.epa.gov/ghgemissions/greenhouse-gas-inventory-tools" target="_blank" rel="noopener" >EPA&amp;rsquo;s leadership to openly share the data and tools for the &lt;em>Inventory&lt;/em>&lt;/a>and the
+&lt;a href="https://www.whitehouse.gov/ostp/news-updates/2023/01/11/fact-sheet-biden-harris-administration-announces-new-actions-to-advance-open-and-equitable-research/" target="_blank" rel="noopener" >2023 Year of Open Science&lt;/a>. Instead of building a walled garden with proprietary technology from a vendor selected through RFP, the Center launched a prototype platform using curated open source tools integrated with public federal data. This &lt;strong>open toolchain approach&lt;/strong> amplifies the open data efforts developed over the past two decades.&lt;/p>
 &lt;p>The U.S. GHG Center&amp;rsquo;s interactive computing platform is &lt;strong>open source science infrastructure&lt;/strong>. The platform is:&lt;/p>
 &lt;ol>
 &lt;li>
-&lt;a href="https://github.com/2i2c-org/infrastructure" target="_blank" rel="noopener" >transparently operated&lt;/a>
-by
-&lt;a href="https://2i2c.org" target="_blank" rel="noopener" >2i2c&lt;/a>
-on a cloud data center under a
-&lt;a href="https://2i2c.org/right-to-replicate/" target="_blank" rel="noopener" >right to replicate that ensures zero vendor lock-in&lt;/a>
-with data integrations and visualizations built with using software from a
-&lt;a href="https://jupyter.org/" target="_blank" rel="noopener" >vibrant open source ecosystem&lt;/a>
-by
-&lt;a href="https://developmentseed.org/" target="_blank" rel="noopener" >Development Seed&lt;/a>
-,
-&lt;a href="https://www.earthdata.nasa.gov/dashboard/" target="_blank" rel="noopener" >NASA VEDA&lt;/a>
-, and collaborators;&lt;/li>
+&lt;a href="https://github.com/2i2c-org/infrastructure" target="_blank" rel="noopener" >transparently operated&lt;/a> by
+&lt;a href="https://2i2c.org" target="_blank" rel="noopener" >2i2c&lt;/a> on a cloud data center under a
+&lt;a href="https://2i2c.org/right-to-replicate/" target="_blank" rel="noopener" >right to replicate that ensures zero vendor lock-in&lt;/a> with data integrations and visualizations built with using software from a
+&lt;a href="https://jupyter.org/" target="_blank" rel="noopener" >vibrant open source ecosystem&lt;/a> by
+&lt;a href="https://developmentseed.org/" target="_blank" rel="noopener" >Development Seed&lt;/a>,
+&lt;a href="https://www.earthdata.nasa.gov/dashboard/" target="_blank" rel="noopener" >NASA VEDA&lt;/a>, and collaborators;&lt;/li>
 &lt;li>proximate to and optimized &lt;sup id="fnref:8">&lt;a href="#fn:8" class="footnote-ref" role="doc-noteref">8&lt;/a>&lt;/sup> for analyzing geospatial data (e.g.
-&lt;a href="https://registry.opendata.aws/collab/nasa/" target="_blank" rel="noopener" >NASA&lt;/a>
-,
-&lt;a href="https://repository.library.noaa.gov/view/noaa/37529" target="_blank" rel="noopener" >NOAA&lt;/a>
-);&lt;/li>
+&lt;a href="https://registry.opendata.aws/collab/nasa/" target="_blank" rel="noopener" >NASA&lt;/a>,
+&lt;a href="https://repository.library.noaa.gov/view/noaa/37529" target="_blank" rel="noopener" >NOAA&lt;/a>);&lt;/li>
 &lt;li>designed to be a &lt;em>digital public good.&lt;/em>&lt;/li>
 &lt;/ol>
 &lt;p>Research, data and recommendations developed by scientists and engineers that influence policies set by democratic governments should be accessible by voters. No entity should own the ways humans communicate and learn about the Earth system. The U.S. Greenhouse Gas Center&amp;rsquo;s generous approach to digital infrastructure &amp;ndash; an open toolchain adjacent to open data &amp;ndash; is vital for democracy and should be replicated across government agencies worldwide.&lt;/p>
@@ -816,8 +922,7 @@ References
 &lt;/li>
 &lt;li id="fn:2">
 &lt;p>World Climate Conference. &lt;em>World Climate Conference - Declaration and supporting documents&lt;/em>.
-&lt;a href="https://library.wmo.int/records/item/54699-world-climate-conference-declaration-and-supporting-documents" target="_blank" rel="noopener" >https://library.wmo.int/records/item/54699-world-climate-conference-declaration-and-supporting-documents&lt;/a>
-(1979).&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref1:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;a href="https://library.wmo.int/records/item/54699-world-climate-conference-declaration-and-supporting-documents" target="_blank" rel="noopener" >library.wmo.int/records/item/54699-world-climate-conference-declaration-and-supporting-documents&lt;/a> (1979).&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&amp;#160;&lt;a href="#fnref1:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li id="fn:3">
 &lt;p>Gupta, J. A history of international climate change policy. &lt;em>WIREs Climate Change&lt;/em> &lt;strong>1&lt;/strong>, 636–653 (2010).&amp;#160;&lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
@@ -827,18 +932,15 @@ References
 &lt;/li>
 &lt;li id="fn:5">
 &lt;p>&lt;em>Valuing Climate Changes: Updating Estimation of the Social Cost of Carbon Dioxide&lt;/em>. (National Academies Press, 2017). doi:
-&lt;a href="https://doi.org/10.17226/24651" target="_blank" rel="noopener" >10.17226/24651&lt;/a>
-.&amp;#160;&lt;a href="#fnref:5" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;a href="https://doi.org/10.17226/24651" target="_blank" rel="noopener" >10.17226/24651&lt;/a>.&amp;#160;&lt;a href="#fnref:5" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li id="fn:6">
 &lt;p>&lt;em>Greenhouse Gas Emissions Information for Decision Making: A Framework Going Forward&lt;/em>. (National Academies Press, 2022). doi:
-&lt;a href="https://doi.org/10.17226/26641" target="_blank" rel="noopener" >10.17226/26641&lt;/a>
-.&amp;#160;&lt;a href="#fnref:6" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;a href="https://doi.org/10.17226/26641" target="_blank" rel="noopener" >10.17226/26641&lt;/a>.&amp;#160;&lt;a href="#fnref:6" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li id="fn:7">
 &lt;p>CEQguidance. National Environmental Policy Act Guidance on Consideration of Greenhouse Gas Emissions and Climate Change. &lt;em>Federal Register&lt;/em>
-&lt;a href="https://www.federalregister.gov/documents/2023/01/09/2023-00158/national-environmental-policy-act-guidance-on-consideration-of-greenhouse-gas-emissions-and-climate" target="_blank" rel="noopener" >https://www.federalregister.gov/documents/2023/01/09/2023-00158/national-environmental-policy-act-guidance-on-consideration-of-greenhouse-gas-emissions-and-climate&lt;/a>
-(2023).&amp;#160;&lt;a href="#fnref:7" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;a href="https://www.federalregister.gov/documents/2023/01/09/2023-00158/national-environmental-policy-act-guidance-on-consideration-of-greenhouse-gas-emissions-and-climate" target="_blank" rel="noopener" >www.federalregister.gov/documents/2023/01/09/2023-00158/national-environmental-policy-act-guidance-on-consideration-of-greenhouse-gas-emissions-and-climate&lt;/a> (2023).&amp;#160;&lt;a href="#fnref:7" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li id="fn:8">
 &lt;p>Abernathey, R. P. &lt;em>et al.&lt;/em> Cloud-Native Repositories for Big Scientific Data. &lt;em>Computing in Science &amp;amp; Engineering&lt;/em> &lt;strong>23&lt;/strong>, 26–35 (2021).&amp;#160;&lt;a href="#fnref:8" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
@@ -865,8 +967,7 @@ The
 QGreenland Overview
 &lt;a class="header-anchor" href="#qgreenland-overview">#&lt;/a>
 &lt;/h2>&lt;p>
-&lt;a href="https://qgreenland.org/" target="_blank" rel="noopener" >QGreenland&lt;/a>
-is an open-source geospatial data package designed for QGIS, a community-owned GIS platform. It focuses on Greenland, offering researchers and educators a comprehensive toolset for FAIR (findable, accessible, interoperable and reproducible) data analysis. The package integrates a variety of datasets into a single, easy-to-use data-viewing and analysis platform, supporting both offline and online use. This makes it particularly valuable for remote fieldwork and areas with limited internet access.&lt;/p>
+&lt;a href="https://qgreenland.org/" target="_blank" rel="noopener" >QGreenland&lt;/a> is an open-source geospatial data package designed for QGIS, a community-owned GIS platform. It focuses on Greenland, offering researchers and educators a comprehensive toolset for FAIR (findable, accessible, interoperable and reproducible) data analysis. The package integrates a variety of datasets into a single, easy-to-use data-viewing and analysis platform, supporting both offline and online use. This makes it particularly valuable for remote fieldwork and areas with limited internet access.&lt;/p>
 &lt;h2 id="workshop-success">
 Workshop Success
 &lt;a class="header-anchor" href="#workshop-success">#&lt;/a>
@@ -881,26 +982,21 @@ Conclusion
 &lt;a class="header-anchor" href="#conclusion">#&lt;/a>
 &lt;/h2>&lt;p>The success of the QGreenland workshop underscores the potential of integrating interactive software applications in JupyterHub. This approach not only democratizes access to advanced geospatial tools but also fosters a collaborative research environment. We look forward to supporting more workshops for QGreenland in the future!&lt;/p>
 &lt;p>&lt;em>Want to know more? Check out the companion post by QGreenland on the
-&lt;a href="https://blog.jupyter.org/desktop-gis-software-in-the-cloud-with-jupyterhub-ddced297019a" target="_blank" rel="noopener" >Jupyter Blog&lt;/a>
-&lt;/em>&lt;/p>
+&lt;a href="https://blog.jupyter.org/desktop-gis-software-in-the-cloud-with-jupyterhub-ddced297019a" target="_blank" rel="noopener" >Jupyter Blog&lt;/a>&lt;/em>&lt;/p>
 &lt;h2 id="acknowledgements">
 Acknowledgements
 &lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
 &lt;/h2>&lt;ul>
 &lt;li>
 &lt;a href="https://cires.colorado.edu/people/trey-stafford" target="_blank" rel="noopener" >Trey Stafford&lt;/a>
-&lt;a href="https://cires.colorado.edu/" target="_blank" rel="noopener" >(CIRES)&lt;/a>
-&lt;/li>
+&lt;a href="https://cires.colorado.edu/" target="_blank" rel="noopener" >(CIRES)&lt;/a>&lt;/li>
 &lt;li>
 &lt;a href="https://cires.colorado.edu/people/matthew-fisher" target="_blank" rel="noopener" >Matthew Fisher&lt;/a>
-&lt;a href="https://cires.colorado.edu/" target="_blank" rel="noopener" >(CIRES)&lt;/a>
-&lt;/li>
+&lt;a href="https://cires.colorado.edu/" target="_blank" rel="noopener" >(CIRES)&lt;/a>&lt;/li>
 &lt;li>*Fisher, M., *T. Stafford, T. Moon, and A. Thurber (2023). QGreenland (v3) [software], National Snow and Ice Data Center.&lt;/li>
 &lt;li>Snow, Tasha, Millstein, Joanna, Scheick, Jessica, Sauthoff, Wilson, Leong, Wei Ji, Colliander, James, Pérez, Fernando, James Munroe, Felikson, Denis, Sutterley, Tyler, &amp;amp; Siegfried, Matthew. (2023).
-&lt;a href="https://book.cryointhecloud.com/intro.html" target="_blank" rel="noopener" >CryoCloud JupyterBook&lt;/a>
-(2023.01.26). Zenodo.
-&lt;a href="https://doi.org/10.5281/zenodo.7576602" target="_blank" rel="noopener" >10.5281/zenodo.7576602&lt;/a>
-&lt;/li>
+&lt;a href="https://book.cryointhecloud.com/intro.html" target="_blank" rel="noopener" >CryoCloud JupyterBook&lt;/a> (2023.01.26). Zenodo.
+&lt;a href="https://doi.org/10.5281/zenodo.7576602" target="_blank" rel="noopener" >10.5281/zenodo.7576602&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;p>* Denotes co-equal lead authorship&lt;/p></description></item><item><title>The why, what, and how of our NASA Openscapes cloud infrastructure: 2i2c JupyterHub and corn environment</title><link>https://2i2c.org/blog/2022/external-openscapes-corn/</link><pubDate>Thu, 17 Nov 2022 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2022/external-openscapes-corn/</guid><description/></item><item><title>Reflections on the Jack Eddy Symposium</title><link>https://2i2c.org/blog/2022/eddy-symposium-report/</link><pubDate>Thu, 14 Jul 2022 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2022/eddy-symposium-report/</guid><description>
 &lt;h1 id="reflections-on-the-jack-eddy-symposium">
@@ -920,86 +1016,59 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;/figure>
 &lt;/p>
 &lt;p>2i2c supported and participated in the
-&lt;a href="https://cpaess.ucar.edu/meetings/eddy-symposium-2022" target="_blank" rel="noopener" >3rd Eddy Cross Disciplinary Symposium&lt;/a>
-held recently in Vail Colorado. The event was hosted by the Cooperative Programs for the Advancement of Earth System Science (
-&lt;a href="https://cpaess.ucar.edu/" target="_blank" rel="noopener" >CPAESS&lt;/a>
-) team at the University Corporation for Atmospheric Research (
-&lt;a href="https://www.ucar.edu/" target="_blank" rel="noopener" >UCAR&lt;/a>
-) with support from NASA.&lt;/p>
+&lt;a href="https://cpaess.ucar.edu/meetings/eddy-symposium-2022" target="_blank" rel="noopener" >3rd Eddy Cross Disciplinary Symposium&lt;/a> held recently in Vail Colorado. The event was hosted by the Cooperative Programs for the Advancement of Earth System Science (
+&lt;a href="https://cpaess.ucar.edu/" target="_blank" rel="noopener" >CPAESS&lt;/a>) team at the University Corporation for Atmospheric Research (
+&lt;a href="https://www.ucar.edu/" target="_blank" rel="noopener" >UCAR&lt;/a>) with support from NASA.&lt;/p>
 &lt;h2 id="context">
 Context
 &lt;a class="header-anchor" href="#context">#&lt;/a>
 &lt;/h2>&lt;p>The Symposium was framed by the interesting and interdisciplinary scientific career of the late
-&lt;a href="https://en.wikipedia.org/wiki/John_A._Eddy" target="_blank" rel="noopener" >Jack Eddy&lt;/a>
-. Eddy&amp;rsquo;s legacy was highlighted and his influence has been extended by dynamic leadership from NASA Program Officer
-&lt;a href="https://science.nasa.gov/about-us/organization-and-leadership/lead-program-scientist-for-lws" target="_blank" rel="noopener" >Madhulika Guhathakurta (Lika)&lt;/a>
-. Lika helped launch and has sustained NASA&amp;rsquo;s
-&lt;a href="https://science.nasa.gov/heliophysics/programs/living-with-a-star" target="_blank" rel="noopener" >Living with a Star (LWS)&lt;/a>
-program over the past two decades. Prior to LWS, NASA had a variety of siloed efforts focused on near-Sun and near-Earth behavior. The LWS program led to an integration of these efforts under &amp;ldquo;system science&amp;rdquo; or &amp;ldquo;systems engineering&amp;rdquo; approaches and an expressed desired to connect LWS research activities with impacts on Earth (society, biology, culture, etc.). The program has expanded to include explorations of similar questions arising around other planets in our solar system and the recently discovered collection of exoplanets. Scientists from diverse disciplines (plasma physics, stellar evolution, atmospheric chemistry, space weather, planetary science,&amp;hellip;) work together on &amp;ldquo;cross disciplinary&amp;rdquo; research that helps us understand our lives near our star.&lt;/p>
+&lt;a href="https://en.wikipedia.org/wiki/John_A._Eddy" target="_blank" rel="noopener" >Jack Eddy&lt;/a>. Eddy&amp;rsquo;s legacy was highlighted and his influence has been extended by dynamic leadership from NASA Program Officer
+&lt;a href="https://science.nasa.gov/about-us/organization-and-leadership/lead-program-scientist-for-lws" target="_blank" rel="noopener" >Madhulika Guhathakurta (Lika)&lt;/a>. Lika helped launch and has sustained NASA&amp;rsquo;s
+&lt;a href="https://science.nasa.gov/heliophysics/programs/living-with-a-star" target="_blank" rel="noopener" >Living with a Star (LWS)&lt;/a> program over the past two decades. Prior to LWS, NASA had a variety of siloed efforts focused on near-Sun and near-Earth behavior. The LWS program led to an integration of these efforts under &amp;ldquo;system science&amp;rdquo; or &amp;ldquo;systems engineering&amp;rdquo; approaches and an expressed desired to connect LWS research activities with impacts on Earth (society, biology, culture, etc.). The program has expanded to include explorations of similar questions arising around other planets in our solar system and the recently discovered collection of exoplanets. Scientists from diverse disciplines (plasma physics, stellar evolution, atmospheric chemistry, space weather, planetary science,&amp;hellip;) work together on &amp;ldquo;cross disciplinary&amp;rdquo; research that helps us understand our lives near our star.&lt;/p>
 &lt;p>The Symposium focused on three disciplinary areas (&lt;strong>Exoplanets&lt;/strong>; &lt;strong>Sun-Climate and Star-Climate interactions&lt;/strong>; &lt;strong>Risk and resilience of space weather&lt;/strong>) unified under the cross-cutting thread of &lt;strong>open science&lt;/strong>. Frequent references were made to the upcoming 2023 Year of Open Science and
-&lt;a href="https://science.nasa.gov/open-science/transform-to-open-science" target="_blank" rel="noopener" >NASA&amp;rsquo;s Transform to Open Science (TOPS) mission&lt;/a>
-. Symposium attendees listened to talks surveying the four areas in the morning and participated in hackathon-style breakout projects during the afternoons. Work on the projects launched at the Eddy Symposium
-&lt;a href="https://github.com/jack-eddy-symposium" target="_blank" rel="noopener" >continues&lt;/a>
-. The space weather group is investigating ways to make the power grid more resilient. The Sun-climate group is exploring plans to establish an institute focused on Sun-climate interactions and improve connections between climate and heliophysics research communities. The exoplanets team is developing tools to programmatically compare Sun-Earth and star-exoplanet interactions.&lt;/p>
+&lt;a href="https://science.nasa.gov/open-science/transform-to-open-science" target="_blank" rel="noopener" >NASA&amp;rsquo;s Transform to Open Science (TOPS) mission&lt;/a>. Symposium attendees listened to talks surveying the four areas in the morning and participated in hackathon-style breakout projects during the afternoons. Work on the projects launched at the Eddy Symposium
+&lt;a href="https://github.com/jack-eddy-symposium" target="_blank" rel="noopener" >continues&lt;/a>. The space weather group is investigating ways to make the power grid more resilient. The Sun-climate group is exploring plans to establish an institute focused on Sun-climate interactions and improve connections between climate and heliophysics research communities. The exoplanets team is developing tools to programmatically compare Sun-Earth and star-exoplanet interactions.&lt;/p>
 &lt;h2 id="2i2cs-role">
 2i2c&amp;rsquo;s role
 &lt;a class="header-anchor" href="#2i2cs-role">#&lt;/a>
 &lt;/h2>&lt;p>2i2c, with input from Symposium CoChair&amp;rsquo;s
-&lt;a href="https://staff.ucar.edu/users/marsh" target="_blank" rel="noopener" >Dan Marsh&lt;/a>
-and
-&lt;a href="http://www.ryanmcgranaghan.com/about.html" target="_blank" rel="noopener" >Ryan McGranaghan&lt;/a>
-, rapidly deployed a cloud-hosted JupyterHub for use during the event. The hub provided a shared space for participants to explore data, run analyses, and collaborate with one another using modern tools including Zarr, Xarray and Dask Gateway. Access to the interactive computing platform was granted to any member of the
-&lt;a href="https://github.com/jack-eddy-symposium/" target="_blank" rel="noopener" >Symposium&amp;rsquo;s GitHub organization&lt;/a>
-. The work to set up that hub, openly chronicled in this GitHub issue (
-&lt;a href="https://github.com/2i2c-org/infrastructure/issues/1329" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> 2i2c-org/infrastructure#1329&lt;/a>
-), included swapping out a Pangeo-style software environment for a heliophysics-specific resource developed by
-&lt;a href="http://heliocloud.org/" target="_blank" rel="noopener" >HelioCloud&lt;/a>
-with special thanks to
-&lt;a href="https://www.nasa.gov/offices/oce/bios/mwm/Thomas-Brian-bio.html" target="_blank" rel="noopener" >Brian Thomas&lt;/a>
-!&lt;/p>
+&lt;a href="https://staff.ucar.edu/users/marsh" target="_blank" rel="noopener" >Dan Marsh&lt;/a> and
+&lt;a href="http://www.ryanmcgranaghan.com/about.html" target="_blank" rel="noopener" >Ryan McGranaghan&lt;/a>, rapidly deployed a cloud-hosted JupyterHub for use during the event. The hub provided a shared space for participants to explore data, run analyses, and collaborate with one another using modern tools including Zarr, Xarray and Dask Gateway. Access to the interactive computing platform was granted to any member of the
+&lt;a href="https://github.com/jack-eddy-symposium/" target="_blank" rel="noopener" >Symposium&amp;rsquo;s GitHub organization&lt;/a>. The work to set up that hub, openly chronicled in this GitHub issue (
+&lt;a href="https://github.com/2i2c-org/infrastructure/issues/1329" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> 2i2c-org/infrastructure#1329&lt;/a> ), included swapping out a Pangeo-style software environment for a heliophysics-specific resource developed by
+&lt;a href="http://heliocloud.org/" target="_blank" rel="noopener" >HelioCloud&lt;/a> with special thanks to
+&lt;a href="https://www.nasa.gov/offices/oce/bios/mwm/Thomas-Brian-bio.html" target="_blank" rel="noopener" >Brian Thomas&lt;/a>!&lt;/p>
 &lt;p>2i2c co-founder Fernando Pérez gave a talk on how he is
-&lt;a href="https://docs.google.com/presentation/d/1i99eQqOVCSQyxoyscUo0dl3Ybgdex5qKo_KEO9YGxQg/edit?usp=drivesdk" target="_blank" rel="noopener" >&amp;ldquo;living la vida nube&amp;rdquo;&lt;/a>
-. Fernando described the ways he, research collaborators, and students are using the Jupyter ecosystem. Diverse and curated tools in Jupyter hubs for the
-&lt;a href="https://jupytearth.org/" target="_blank" rel="noopener" >Jupyter Meets the Earth Project&lt;/a>
-and
-&lt;a href="https://data.berkeley.edu/" target="_blank" rel="noopener" >Berkeley&amp;rsquo;s data science programs&lt;/a>
-were highlighted. The talk showcased how these tools have been integrated to support individuals and communities of practice in data-driven research. In response to requests from the organizers and participants, Fernando gave a demonstration on how to use the hub 2i2c set up for the Symposium and an introduction to version control using &lt;code>git&lt;/code>.&lt;/p>
+&lt;a href="https://docs.google.com/presentation/d/1i99eQqOVCSQyxoyscUo0dl3Ybgdex5qKo_KEO9YGxQg/edit?usp=drivesdk" target="_blank" rel="noopener" >&amp;ldquo;living la vida nube&amp;rdquo;&lt;/a>. Fernando described the ways he, research collaborators, and students are using the Jupyter ecosystem. Diverse and curated tools in Jupyter hubs for the
+&lt;a href="https://jupytearth.org/" target="_blank" rel="noopener" >Jupyter Meets the Earth Project&lt;/a> and
+&lt;a href="https://data.berkeley.edu/" target="_blank" rel="noopener" >Berkeley&amp;rsquo;s data science programs&lt;/a> were highlighted. The talk showcased how these tools have been integrated to support individuals and communities of practice in data-driven research. In response to requests from the organizers and participants, Fernando gave a demonstration on how to use the hub 2i2c set up for the Symposium and an introduction to version control using &lt;code>git&lt;/code>.&lt;/p>
 &lt;p>2i2c co-founder Jim Colliander gave a talk titled
-&lt;a href="https://bit.ly/eddy-science-commons" target="_blank" rel="noopener" >Governing the Science Commons&lt;/a>
-. Three key points from Jim&amp;rsquo;s talk were: the virtue that should guide the improvements to the scientific enterprise is intellectual generosity; implementation of intellectual generosity into science requires commons-based governance; the convergence of open source tools that support data-intensive collaborative research and learning (as showcased by Fernando) and agency interest (
-&lt;a href="https://science.nasa.gov/open-science/transform-to-open-science" target="_blank" rel="noopener" >NASA TOPS&lt;/a>
-,
-&lt;a href="https://unesdoc.unesco.org/ark:/48223/pf0000379949/PDF/379949eng.pdf.multi.page=1" target="_blank" rel="noopener" >UNESCO&lt;/a>
-) in open science is an inflection point for global change. The talk ended with a call to action for the diverse communities represented at the Symposium to improve the ways we do science.&lt;/p>
+&lt;a href="https://bit.ly/eddy-science-commons" target="_blank" rel="noopener" >Governing the Science Commons&lt;/a>. Three key points from Jim&amp;rsquo;s talk were: the virtue that should guide the improvements to the scientific enterprise is intellectual generosity; implementation of intellectual generosity into science requires commons-based governance; the convergence of open source tools that support data-intensive collaborative research and learning (as showcased by Fernando) and agency interest (
+&lt;a href="https://science.nasa.gov/open-science/transform-to-open-science" target="_blank" rel="noopener" >NASA TOPS&lt;/a>,
+&lt;a href="https://unesdoc.unesco.org/ark:/48223/pf0000379949/PDF/379949eng.pdf.multi.page=1" target="_blank" rel="noopener" >UNESCO&lt;/a>) in open science is an inflection point for global change. The talk ended with a call to action for the diverse communities represented at the Symposium to improve the ways we do science.&lt;/p>
 &lt;h2 id="things-we-learned">
 Things we learned
 &lt;a class="header-anchor" href="#things-we-learned">#&lt;/a>
 &lt;/h2>&lt;p>Our experience with the Symposium taught 2i2c a few things.&lt;/p>
 &lt;p>We learned that our engineering team can rapidly deploy interactive computing resources to support a research and education community. Along the way, we confirmed what we&amp;rsquo;ve been learning from Pangeo and the neuroscience communities: flexible methods to customize the software environment are necessary. We confirmed that our developing
-&lt;a href="https://docs.2i2c.org/about/service/shared-responsibility.html?highlight=shared%20responsibility" target="_blank" rel="noopener" >shared responsibility model&lt;/a>
-, enabling domain-specific experts to provide curated toolchains for their communities while leveraging 2i2c&amp;rsquo;s infrastructure expertise, is the right approach.&lt;/p>
+&lt;a href="https://docs.2i2c.org/about/service/shared-responsibility.html?highlight=shared%20responsibility" target="_blank" rel="noopener" >shared responsibility model&lt;/a>, enabling domain-specific experts to provide curated toolchains for their communities while leveraging 2i2c&amp;rsquo;s infrastructure expertise, is the right approach.&lt;/p>
 &lt;p>We learned that managing access to the hub using members in a GitHub organization works but involves some toil since organizers had to work through the GitHub invitation process for each participant. We are exploring others ways to systematically grant event participants access to a hub.&lt;/p>
 &lt;p>The Eddy Symposium experience reminded us that some skill at using &lt;code>git&lt;/code> is vital for collaboration. Fernando&amp;rsquo;s brief introduction to &lt;code>git&lt;/code> provided
-&lt;a href="https://jack-eddy-symposium.github.io/intro-git-jupyter/intro-git/git-visuals.html" target="_blank" rel="noopener" >the mental model of working on a directed acyclyic graph&lt;/a>
-. Roving support from Jim and Fernando during the afternoon hackathon sessions normalized the skill level across the groups but not without a few merge conflicts and frustration. Near the beginning of future workshops, we will follow an improved approach aimed at establishing good &lt;code>git&lt;/code> hygeine and familiarity with the collaboration workflow using a simple pull request.&lt;/p>
+&lt;a href="https://jack-eddy-symposium.github.io/intro-git-jupyter/intro-git/git-visuals.html" target="_blank" rel="noopener" >the mental model of working on a directed acyclyic graph&lt;/a>. Roving support from Jim and Fernando during the afternoon hackathon sessions normalized the skill level across the groups but not without a few merge conflicts and frustration. Near the beginning of future workshops, we will follow an improved approach aimed at establishing good &lt;code>git&lt;/code> hygeine and familiarity with the collaboration workflow using a simple pull request.&lt;/p>
 &lt;p>We are honored to have had the opportunity to collaborate with the Eddy Symposium team by managing infrastructure and participating in the workshop. We learned a lot about how to support the Helio and adjacent communities, and are proud of the ways in which our infrastructure helped them do their work more openly and effectively. We hope to build on these successes with these and other communities in the future!&lt;/p></description></item><item><title>Pangeo Cloud goes live on 2i2c!</title><link>https://2i2c.org/blog/2021/pangeo-goes-live/</link><pubDate>Tue, 16 Nov 2021 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2021/pangeo-goes-live/</guid><description>&lt;p>
-&lt;a href="https://pangeo.io/cloud.html" target="_blank" rel="noopener" >Pangeo Cloud&lt;/a>
-is an experimental service providing public cloud-based data-science environments for data-intensive geoscience research.
+&lt;a href="https://pangeo.io/cloud.html" target="_blank" rel="noopener" >Pangeo Cloud&lt;/a> is an experimental service providing public cloud-based data-science environments for data-intensive geoscience research.
 We have recently finished re-creating the
-&lt;a href="http://pangeo.io/" target="_blank" rel="noopener" >Pangeo&lt;/a>
-community JupyterHub hosted on GCP in the
-&lt;a href="https://github.com/2i2c-org/infrastructure" target="_blank" rel="noopener" >2i2c-org/infrastructure&lt;/a>
-repository.
+&lt;a href="http://pangeo.io/" target="_blank" rel="noopener" >Pangeo&lt;/a> community JupyterHub hosted on GCP in the
+&lt;a href="https://github.com/2i2c-org/infrastructure" target="_blank" rel="noopener" >2i2c-org/infrastructure&lt;/a> repository.
 This is a huge milestone in our partnership with Pangeo to provide expertise and operations of cloud-based, vendor-agnostic Jupyter infrastructure and workflows.&lt;/p>
 &lt;p>For users of Pangeo Cloud, the switch should have been a smooth one!
 The new hub should behave nearly identically to the old one, and will be managed by 2i2c engineers moving forward, in partnership with the Pangeo community.
 It will be available at the same URL (
-&lt;a href="https://us-central1-b.gcp.pangeo.io" target="_blank" rel="noopener" >https://us-central1-b.gcp.pangeo.io&lt;/a>
-) and there&amp;rsquo;s no need to worry about your home directories, they were synced to the new hub only a few days before the migration took place.
+&lt;a href="https://us-central1-b.gcp.pangeo.io" target="_blank" rel="noopener" >us-central1-b.gcp.pangeo.io&lt;/a>) and there&amp;rsquo;s no need to worry about your home directories, they were synced to the new hub only a few days before the migration took place.
 Development and operations on this hub will all be done in the open and we invite participation and feedback from others in our infrastructure work.
 Please see
-&lt;a href="https://discourse.pangeo.io/t/migration-of-us-central1-b-gcp-pangeo-io-to-2i2c-infrastructure/1890" target="_blank" rel="noopener" >this Discourse thread&lt;/a>
-as an initial place to provide feedback.&lt;/p>
+&lt;a href="https://discourse.pangeo.io/t/migration-of-us-central1-b-gcp-pangeo-io-to-2i2c-infrastructure/1890" target="_blank" rel="noopener" >this Discourse thread&lt;/a> as an initial place to provide feedback.&lt;/p>
 &lt;p>On &lt;strong>22nd November 2021&lt;/strong>, the old Pangeo GCP JupyterHub will be shut down, and the project will move forward on the new 2i2c Pangeo Hub.
 Moving forward, we plan to collaborate together in order to find new pathways for development in the Jupyter ecosystem - we will share more ideas of things we will work on soon!&lt;/p>
 &lt;h2 id="history-of-pangeo-cloud-hubs">
@@ -1007,8 +1076,7 @@ History of Pangeo Cloud Hubs
 &lt;a class="header-anchor" href="#history-of-pangeo-cloud-hubs">#&lt;/a>
 &lt;/h2>&lt;p>Pangeo has pioneered a new model in using open source and cloud-agnostic infrastructure to support scientific research in the cloud.&lt;/p>
 &lt;p>The first Pangeo cloud JupyterHub (pangeo.pydata.org; now defuct) was deployed for the
-&lt;a href="https://annual.ametsoc.org/2017/" target="_blank" rel="noopener" >2017 American Meteoroligical Society Meeting&lt;/a>
-; since then, the Pangeo community has iterated through several different versions of prototype cloud-based hubs.
+&lt;a href="https://annual.ametsoc.org/2017/" target="_blank" rel="noopener" >2017 American Meteoroligical Society Meeting&lt;/a>; since then, the Pangeo community has iterated through several different versions of prototype cloud-based hubs.
 This allowed for many new workflows that enabled a more open and collaborative pathway to doing world class research, and included access to datasets and computational resources that were previously unattainable.
 Pangeo achieved this by working in partnership with open source communities and building technology that leveraged modular open source components for their platform.&lt;/p>
 &lt;p>In the last several years, Pangeo have built a thriving community of practice around this infrastructure.
@@ -1018,16 +1086,14 @@ Modern scalable cloud infrastructure is one example of this. Maintaining a compl
 The Pangeo-2i2c Partnership
 &lt;a class="header-anchor" href="#the-pangeo-2i2c-partnership">#&lt;/a>
 &lt;/h2>&lt;p>
-&lt;a href="https://2i2c.org" target="_blank" rel="noopener" >2i2c&lt;/a>
-is a non-profit team that develops and operates cloud infrastructure for interactive computing workflows.
+&lt;a href="https://2i2c.org" target="_blank" rel="noopener" >2i2c&lt;/a> is a non-profit team that develops and operates cloud infrastructure for interactive computing workflows.
 We have extensive experience in Jupyter workflows in the cloud and a long history of contributions to projects in this ecosystem.
 We have built a cloud deployment management system that allows us to centralise and configure the deployment of many independent JupyterHubs, empowering communities to leverage the same infrastructure (and team!) for JupyterHubs running in the cloud.&lt;/p>
 &lt;p>Similarly to Pangeo, all of 2i2c&amp;rsquo;s core infrastructure is cloud- and vendor-agnostic, and follows a model of building open source tools and giving back to those communities.
 Our partnership with Pangeo began through 2i2c&amp;rsquo;s core competency in these areas and the similarity between the two project&amp;rsquo;s technical stacks.&lt;/p>
 &lt;p>We&amp;rsquo;ve begun a partnership whereby 2i2c will manage Pangeo&amp;rsquo;s cloud infrastructure and lead efforts to develop new features, in partnership with open source communities.
 We sketched out a few ideas to focus on in this
-&lt;a href="https://discourse.pangeo.io/t/notes-from-the-pangeo-2i2c-kick-off-meeting/1587" target="_blank" rel="noopener" >kick-off thread on Discourse&lt;/a>
-.
+&lt;a href="https://discourse.pangeo.io/t/notes-from-the-pangeo-2i2c-kick-off-meeting/1587" target="_blank" rel="noopener" >kick-off thread on Discourse&lt;/a>.
 This approach allows each community to focus on it&amp;rsquo;s core strengths: Pangeo will continue to grow an open community and scientific software ecosystem around geospatial analytics, and 2i2c will oversee the development and operations of the core cloud infrastructure stack that powers Pangeo&amp;rsquo;s workflows.
 In some areas we are still experimenting with different collaboration models to ensure that the needs of the Pangeo community are met in a way that is also sustainable for 2i2c.
 Over the coming weeks, you may see some conversations (and threads for feedback!) about different support and operations models that work best for the community.
