@@ -1,6 +1,8 @@
 ---
 title: "`frx-challenges`: A new tool to host data challenges for Frictionless Research Exchanges"
 date: 2024-12-06
+tags: [open source]
+categories: [impact]
 ---
 
 2i2c is pleased to announce the `frx-challenges` project, a new open source tool to help communities host data challenges on shared infrastructure:
