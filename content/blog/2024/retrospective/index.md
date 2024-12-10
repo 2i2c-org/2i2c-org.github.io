@@ -51,7 +51,7 @@ Beyond the numbers, we also re-focused our team on reporting on impact stories f
 Here are a few community highlights from this year:
 
 - We served around 20 communities from Latin America and Africa for the Catalyst project partner impact: https://2i2c.org/blog/2024/catalyst-partner-highlights/
-- Our community partner Openscapes were invited to the white house to discuss the importance of open science: https://openscapes.org/events/2024-09-26-openscapes-whitehouse/
+- Our community partner Openscapes were invited to the White House to discuss the importance of open science: https://openscapes.org/events/2024-09-26-openscapes-whitehouse/
 - The NeuroHackademy used our infrastructure to support their annual summer school: http://2i2c.org/blog/2024/neurohackademy-summer-school-reflections/
 - We enabled ephemeral and sharable interactive computing environments for workshops in the geospatial community: http://2i2c.org/blog/2024/amerigeo-workshop/
 - We ran a pilot for an HHMI-funded Spyglass project for reproducing their pre-print with a live interactive environment: - BinderHub support for publishing infrastructure: https://2i2c.org/blog/2024/hhmi-spyglass-mysql/
@@ -91,7 +91,7 @@ Here are a few highlights where we focused our effort this year - each of these 
 
 ## Looking to next year
 
-2025 is going to be a critical year for 2i2c to build upon the work it's begin this year and achieve a more sustainable and scalable community model. Here are the main areas that will guide our work in the new year, pulled from our [recent proposal from The Navigation Fund](../funding-navigation/):
+2025 is going to be a critical year for 2i2c to build upon the work we began this year and achieve a more sustainable and scalable community model. Here are the main areas that will guide our work in the new year and into 2026, pulled from our [recent proposal from The Navigation Fund](../funding-navigation/):
 
 - **Goal #1: Delivery**. Develop the operating structure and team skills to
 efficiently scale our product and service delivery.
@@ -104,5 +104,5 @@ These are the key goals 2i2c must achieve in order to ensure that its service re
 
 Overall, 2024 has been a challenging, but also a rewarding year for our team. We've encountered and successfully worked thorugh a number of scaling challenges for our team, and we've made significant progress at laying a foundation on which we can build for the years to come.
 
-I'm incredibly proud of 2i2c's team for all of their hard work this year, and also honored to be working with a network of communities that care about open infrastructure, and its value for creating and sharing knowledge with the world. Here's to another year of impact!
+I'm incredibly proud of 2i2c's team for all of their hard work this year, and also honored to be working with a network of communities that care about open infrastructure and its value for creating and sharing knowledge with the world. Here's to another year of impact!
 
