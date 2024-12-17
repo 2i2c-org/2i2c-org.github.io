@@ -1,16 +1,28 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Report | 2i2c</title><link>https://2i2c.org/tag/report/</link><atom:link href="https://2i2c.org/tag/report/index.xml" rel="self" type="application/rss+xml"/><description>Report</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 08 Dec 2024 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Report</title><link>https://2i2c.org/tag/report/</link></image><item><title>2024 impact report: new team structure, new funding, and growth in our network</title><link>https://2i2c.org/blog/2024/retrospective/</link><pubDate>Sun, 08 Dec 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/retrospective/</guid><description>&lt;p>2024 has been a busy year for 2i2c, with many highs and lows, a lot of impact, and significant organizational change. As the year comes to an end, I want to reflect on the work we&amp;rsquo;ve done in 2024, and where we aim to go in 2025.&lt;/p>
-&lt;h2 id="the-main-idea">
-The main idea
-&lt;a class="header-anchor" href="#the-main-idea">#&lt;/a>
-&lt;/h2>&lt;p>In 2024, 2i2c reached the point in an organization&amp;rsquo;s lifecycle when a team has grown enough in size and complexity that you must change the ways that you organize. The informal ways that worked as a small group don&amp;rsquo;t suffice anymore, and you have to put more effort into aligning and coordinating everyone to ensure you have the same impact.&lt;/p>
-&lt;p>I call this the &amp;ldquo;$1M to $2M budget jump&amp;rdquo;, because organizations seem to hit this point around when your annual budget goes from &lt;code>$1M&lt;/code> to &lt;code>$2M&lt;/code>. Getting to the other side of this gap with an intact runway and team is hard, and I suspect that 2i2c&amp;rsquo;s fully distributed nature means that we hit these scaling milestones earlier than many organizations. For us, this has been a major focus of effort all year, and has involved taking a top-to-bottom look at our plans and ways of working as a team.&lt;/p>
-&lt;p>At an organizational level, this meant a lot of introspection and planning, a few new roles, a few departing team members, a funding crunch, a successful effort to dig out of it, and a new system of work organizing our team. We&amp;rsquo;ll share more about all of this later, but here are the major implications for our team:&lt;/p>
+&lt;p>In 2024, 2i2c reached the point in an organization&amp;rsquo;s lifecycle when a team has grown enough in size and complexity that you must change the ways that you organize. The informal ways that worked as a small group don&amp;rsquo;t suffice anymore, and you have to put more effort into aligning and coordinating everyone to ensure you have the same impact.&lt;/p>
+&lt;p>I call this the &amp;ldquo;$1M to $2M budget jump&amp;rdquo;, because organizations seem to hit this point around when your annual budget goes from &lt;code>$1M&lt;/code> to &lt;code>$2M&lt;/code>. Getting to the other side of this gap with an intact runway and team is hard, and I suspect that 2i2c&amp;rsquo;s fully distributed nature means that we hit these scaling milestones earlier than many organizations. For us, this has been a major focus of effort all year, and has involved taking a top-to-bottom look at our plans and ways of working as a team. Read on for more details about major updates, challenges, and impact that our team had in 2024.&lt;/p>
+&lt;h2 id="organizational-updates">
+Organizational updates
+&lt;a class="header-anchor" href="#organizational-updates">#&lt;/a>
+&lt;/h2>&lt;p>At an organizational level, this year had a lot of introspection and planning, a few new roles, a few departing team members, a funding crunch, a successful effort to dig out of it, and a new system of work organizing our team. We&amp;rsquo;ll share more about all of this later, but here are the major implications for our team:&lt;/p>
+&lt;p>&lt;strong>We&amp;rsquo;ve raised another $2.2M in funding&lt;/strong> to support our efforts in scaling and sustaining our network of community hubs. This gives us roughly another 2 years of projected runway (with some assumptions about revenue from contracts and grants). Below are two posts that describe two major awards we were awarded in Q3 and Q4 of this year:&lt;/p>
 &lt;ul>
-&lt;li>&lt;strong>We&amp;rsquo;ve raised another $2.2M in funding&lt;/strong> to support our efforts in scaling and sustaining our network of community hubs. This gives us roughly another 2 years of projected runway (with some assumptions about revenue from contracts and grants).&lt;/li>
-&lt;li>&lt;strong>We&amp;rsquo;ve hired and incorporated more strategic and systems-level roles&lt;/strong> to give our team support as it grows: a Product Lead, Delivery Lead / Chief of Staff , and a People operations manager.&lt;/li>
-&lt;li>&lt;strong>We&amp;rsquo;ve re-organized our team into separate product and business development teams&lt;/strong>, in order to focus on &lt;em>providing an excellent technical platform and a collection of services that maximizes community impact&lt;/em>, as well as &lt;em>sustaining this service for our communities&lt;/em>.&lt;/li>
+&lt;li>&lt;strong>
+&lt;a href="https://2i2c.org/blog/2024/funding-czi/" >A one-year award from the Chan Zuckerberg Initiative&lt;/a>&lt;/strong>.&lt;/li>
+&lt;li>&lt;strong>
+&lt;a href="https://2i2c.org/blog/2024/funding-navigation/" >A two-year award from The Navigation Fund&lt;/a>&lt;/strong>.&lt;/li>
 &lt;/ul>
-&lt;p>This has allowed us to more effectively coordinate our service enhancement and development efforts, and increases our ability to deliver improvements to our communities and to upstream projects.&lt;/p>
+&lt;p>&lt;strong>We&amp;rsquo;ve designed and hired several strategic and systems-level roles&lt;/strong> to give our team support and direction as it grows. Here&amp;rsquo;s a brief summary:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>
+&lt;a href="https://2i2c.org/author/giuliano-maciocci/" >Head of Product, Giuliano Maciocci&lt;/a>&lt;/strong>. Giuliano leads our efforts to define and steward our value proposition and the roadmap of development for products and services that feeds into it. Giuliano has 10+ years experience driving growth in companies, was the ex-Chief Product Officer at Ex Ordo, ex-head of Product at eLife Sciences where he led the open science product
+&lt;a href="https://elifesciences.org/collections/d72819a9/executable-research-articles" target="_blank" rel="noopener" >Executable Research Article&lt;/a>, and contributed significantly to mobile design and innovation at Adobe.&lt;/li>
+&lt;li>&lt;strong>
+&lt;a href="https://2i2c.org/author/harold-campbell/" >Chief of Staff and Delivery Manager, Harold Campbell&lt;/a>&lt;/strong>. Harold leads our delivery and operations efforts, and stewards our system of work and coordination around it to ensure we deliver on our commitments efficiently and reliably. Harold has 15+ years of industry experience spanning companies in Africa and Jamaica, and 10+ years experience in agile consulting and coaching in technical and product teams.&lt;/li>
+&lt;li>&lt;strong>
+&lt;a href="https://2i2c.org/author/april-johnson/" >People Lead, April Johnson&lt;/a>&lt;/strong>. April leads and stewards our system to support our team as individuals, ensuring that we provide the guidance and support needed to grow our team members in their careers and skills. April has 20+ years growing and guiding technology organizations. She is the ex-Global Head of Transformation at Thoughtworks (Europe, Latin America, India, North America, and Asia), with expertise in human-centered design, agility, people leadership, change, leading remote and asynchronous agile teams, coaching, and non-profit development.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>We&amp;rsquo;ve re-organized our team into separate product and business development teams&lt;/strong>, in order to focus on &lt;em>providing an excellent technical platform and a collection of services that maximizes community impact&lt;/em>, as well as &lt;em>sustaining this service for our communities&lt;/em>. This has allowed us to more effectively coordinate our service enhancement and development efforts, and increases our ability to deliver improvements to our communities and to upstream projects.&lt;/p>
 &lt;p>As a result, our organization has a much stronger foundation to build upon as we continue to grow and refine our sustainability model in 2025. It has positioned us to more effectively deal with the challenges in reaching our next milestones for scale and impact, and gives us the tools to be more adaptive and responsive to community needs.&lt;/p>
 &lt;p>Along the way, we also generated a lot of impact through our collaborations with communities in our network, and in the upstream projects that we support. For more details about our impact, see the summaries below.&lt;/p>
 &lt;h2 id="community-impact">
@@ -49,22 +61,22 @@ Our impact gallery is a new place to share stories of our impact with user resea
 &lt;/figcaption>&lt;/figure>
 &lt;p>Here are a few community highlights from this year:&lt;/p>
 &lt;ul>
-&lt;li>We served around 20 communities from Latin America and Africa for the &lt;strong>Catalyst project&lt;/strong>:
-&lt;a href="https://2i2c.org/blog/2024/catalyst-partner-highlights/" target="_blank" rel="noopener" >2i2c.org/blog/2024/catalyst-partner-highlights/&lt;/a>&lt;/li>
-&lt;li>Our community partner &lt;strong>Openscapes&lt;/strong> were invited to the White House to discuss the importance of open science:
-&lt;a href="https://openscapes.org/events/2024-09-26-openscapes-whitehouse/" target="_blank" rel="noopener" >openscapes.org/events/2024-09-26-openscapes-whitehouse/&lt;/a>&lt;/li>
-&lt;li>The &lt;strong>NeuroHackademy&lt;/strong> used our infrastructure to support their annual summer school:
-&lt;a href="http://2i2c.org/blog/2024/neurohackademy-summer-school-reflections/" target="_blank" rel="noopener" >2i2c.org/blog/2024/neurohackademy-summer-school-reflections/&lt;/a>&lt;/li>
-&lt;li>We enabled ephemeral and sharable interactive computing environments for the &lt;strong>Amerigeo workshop&lt;/strong> in the geospatial community:
-&lt;a href="http://2i2c.org/blog/2024/amerigeo-workshop/" target="_blank" rel="noopener" >2i2c.org/blog/2024/amerigeo-workshop/&lt;/a>&lt;/li>
-&lt;li>We ran a pilot for an &lt;strong>HHMI-affiliated open source project called Spyglass&lt;/strong> for reproducing their pre-print with a live interactive environment using BinderHub to support publishing infrastructure:
-&lt;a href="https://2i2c.org/blog/2024/hhmi-spyglass-mysql/" target="_blank" rel="noopener" >2i2c.org/blog/2024/hhmi-spyglass-mysql/&lt;/a>&lt;/li>
-&lt;li>We began a collaboration with &lt;strong>Development Seed&lt;/strong> around the &lt;strong>NASA VEDA&lt;/strong> project, to support them with interactive cloud environments for geospatial research:
-&lt;a href="https://2i2c.org/blog/2024/veda-devseed-collab/index.md" target="_blank" rel="noopener" >2i2c.org/blog/2024/veda-devseed-collab/index.md&lt;/a>&lt;/li>
-&lt;li>Several members in our community network showed off their work at &lt;strong>AGU 2024&lt;/strong>:
-&lt;a href="https://2i2c.org/blog/2024/agu/" target="_blank" rel="noopener" >2i2c.org/blog/2024/agu/&lt;/a>&lt;/li>
-&lt;li>We co-organized a workshop alongside &lt;strong>Project Pythia&lt;/strong> to create computational narrative content for geospatial analytics, and upgrade their stack to Jupyter Book 2.0:
-&lt;a href="https://2i2c.org/blog/2024/project-pythia-cookoff/" target="_blank" rel="noopener" >2i2c.org/blog/2024/project-pythia-cookoff/&lt;/a>&lt;/li>
+&lt;li>We served around 20 communities from Latin America and Africa for the
+&lt;a href="https://2i2c.org/blog/2024/catalyst-partner-highlights/" target="_blank" rel="noopener" >&lt;strong>Catalyst project&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>Our community partner
+&lt;a href="https://openscapes.org/events/2024-09-26-openscapes-whitehouse/" target="_blank" rel="noopener" >&lt;strong>Openscapes&lt;/strong> were invited to the White House&lt;/a> to discuss the importance of open science&lt;/li>
+&lt;li>The
+&lt;a href="http://2i2c.org/blog/2024/neurohackademy-summer-school-reflections/" target="_blank" rel="noopener" >&lt;strong>NeuroHackademy&lt;/strong> used our infrastructure&lt;/a> to support their annual summer school&lt;/li>
+&lt;li>We enabled
+&lt;a href="http://2i2c.org/blog/2024/amerigeo-workshop/" target="_blank" rel="noopener" >ephemeral and sharable interactive computing environments for the &lt;strong>Amerigeo workshop&lt;/strong>&lt;/a> in the geospatial community&lt;/li>
+&lt;li>We ran a
+&lt;a href="https://2i2c.org/blog/2024/hhmi-spyglass-mysql/" target="_blank" rel="noopener" >pilot for an &lt;strong>HHMI-affiliated open source project called Spyglass&lt;/strong>&lt;/a> for reproducing their pre-print with a live interactive environment using BinderHub to support publishing infrastructure&lt;/li>
+&lt;li>We began a
+&lt;a href="https://2i2c.org/blog/2024/veda-devseed-collab/" target="_blank" rel="noopener" >collaboration with &lt;strong>Development Seed&lt;/strong> around the &lt;strong>NASA VEDA&lt;/strong> project&lt;/a>, to support them with interactive cloud environments for geospatial research&lt;/li>
+&lt;li>Several members in our community network
+&lt;a href="https://2i2c.org/blog/2024/agu/" target="_blank" rel="noopener" >showed off their work at &lt;strong>AGU 2024&lt;/strong>&lt;/a>&lt;/li>
+&lt;li>We
+&lt;a href="https://2i2c.org/blog/2024/project-pythia-cookoff/" target="_blank" rel="noopener" >co-organized a workshop alongside &lt;strong>Project Pythia&lt;/strong>&lt;/a> to create computational narrative content for geospatial analytics, and upgrade their stack to Jupyter Book 2.0&lt;/li>
 &lt;/ul>
 &lt;h2 id="open-source-technology-enhancements">
 Open source technology enhancements
@@ -77,34 +89,26 @@ Open source technology enhancements
 &lt;p>Here are a few highlights where we focused our effort this year - each of these efforts required both development with and for our community network, as well as upstream contributions and support:&lt;/p>
 &lt;ul>
 &lt;li>
-&lt;p>We released the &lt;strong>JupyterHub Fancy Profiles&lt;/strong> project, which allows for a more flexible and modern interface to launch environments with JupyterHub:&lt;/p>
-&lt;p>
-&lt;a href="https://2i2c.org/blog/2024/jupyterhub-fancy-profiles-rollout/" target="_blank" rel="noopener" >2i2c.org/blog/2024/jupyterhub-fancy-profiles-rollout/&lt;/a>&lt;/p>
+&lt;p>We released
+&lt;a href="https://2i2c.org/blog/2024/jupyterhub-fancy-profiles-rollout/" target="_blank" rel="noopener" >&lt;strong>JupyterHub Fancy Profiles&lt;/strong>&lt;/a>, which allows for a more flexible and modern interface to launch environments with JupyterHub.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>We used this to allow users to &lt;strong>build and launch custom environments in JupyterHub&lt;/strong> in a way that users can also share with others. Here&amp;rsquo;s a community with which we&amp;rsquo;ve piloted this functionality:&lt;/p>
-&lt;p>
-&lt;a href="https://2i2c.org/blog/2024/nasa-ephemeral-hubs/" target="_blank" rel="noopener" >2i2c.org/blog/2024/nasa-ephemeral-hubs/&lt;/a>&lt;/p>
+&lt;p>We used this to allow users to
+&lt;a href="https://2i2c.org/blog/2024/nasa-ephemeral-hubs/" target="_blank" rel="noopener" >&lt;strong>build and launch custom environments in JupyterHub&lt;/strong>&lt;/a> in a way that users can also share with others.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>We&amp;rsquo;ve added a Grafana dashboard for &lt;strong>resource and cost monitoring with JupyterHub&lt;/strong> to give communities more visibility over their projected cloud costs:&lt;/p>
-&lt;p>
-&lt;a href="https://2i2c.org/blog/2024/aws-cost-attribution/" target="_blank" rel="noopener" >2i2c.org/blog/2024/aws-cost-attribution/&lt;/a>&lt;/p>
+&lt;p>We&amp;rsquo;ve added a Grafana dashboard for
+&lt;a href="https://2i2c.org/blog/2024/aws-cost-attribution/" target="_blank" rel="noopener" >&lt;strong>resource and cost monitoring with JupyterHub&lt;/strong>&lt;/a> to give communities more visibility over their projected cloud costs.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>We began &lt;strong>incorporating Jupyter Book 2.0 workflows into our community hubs&lt;/strong> and laid a foundation for enabling our communuty networks to communicate with one another more effectively using the new MyST document engine. Here are two posts about this:&lt;/p>
-&lt;p>
-&lt;a href="https://2i2c.org/blog/2024/project-pythia-cookoff/" target="_blank" rel="noopener" >2i2c.org/blog/2024/project-pythia-cookoff/&lt;/a>&lt;/p>
-&lt;p>
-&lt;a href="https://2i2c.org/blog/2024/jupyter-book-2/" target="_blank" rel="noopener" >2i2c.org/blog/2024/jupyter-book-2/&lt;/a>&lt;/p>
+&lt;p>We began
+&lt;a href="https://2i2c.org/blog/2024/project-pythia-cookoff/" target="_blank" rel="noopener" >&lt;strong>incorporating Jupyter Book 2.0 workflows into our community hubs&lt;/strong>&lt;/a> and laid a foundation for enabling our communuty networks to communicate with one another more effectively using the new MyST document engine. Read more in our
+&lt;a href="https://2i2c.org/blog/2024/jupyter-book-2/" target="_blank" rel="noopener" >blog post about Jupyter Book 2.0&lt;/a>.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>We built &lt;code>frx-challenges&lt;/code>, a tool to help communities host data challenges with secure, automated evaluation of submissions.&lt;/p>
-&lt;p>
-&lt;a href="https://2i2c.org/blog/2024/frx/" target="_blank" rel="noopener" >2i2c.org/blog/2024/frx/&lt;/a>&lt;/p>
-&lt;p>This was built in collaboration with the &lt;strong>HHMI Cellmsp Challenge&lt;/strong> competition:&lt;/p>
-&lt;p>
-&lt;a href="https://cellmapchallenge.janelia.org/" target="_blank" rel="noopener" >cellmapchallenge.janelia.org/&lt;/a>&lt;/p>
+&lt;p>We built
+&lt;a href="https://2i2c.org/blog/2024/frx/" target="_blank" rel="noopener" >&lt;strong>&lt;code>frx-challenges&lt;/code>&lt;/strong>&lt;/a>, a tool to help communities host data challenges with secure, automated evaluation of submissions. This was built in collaboration with the
+&lt;a href="https://cellmapchallenge.janelia.org/" target="_blank" rel="noopener" >&lt;strong>HHMI Cellmap Challenge&lt;/strong>&lt;/a> competition.&lt;/p>
 &lt;/li>
 &lt;/ul>
 &lt;h2 id="looking-to-next-year">
