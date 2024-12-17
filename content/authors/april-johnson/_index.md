@@ -44,7 +44,7 @@ user_groups:
 - Delivery Enablement Team
 ---
 
-April brings ideas to life, whether that's making big change happen or creating teams from scratch. She has helped people make their businesses greener, design and build their technology and talent organizations, go public, incorporate new capabilities through acquisition, and scale up for the future. (from April's [LinkedIn profile](https://www.linkedin.com/in/apriljohnson/))
+April is a people & transformation consultant who brings ideas to life, whether that's making big change happen or creating teams from scratch. She has helped people make their businesses greener, design and build their technology and talent organizations, go public, incorporate new capabilities through acquisition, and scale up for the future. 
 
 **Highlights**:
 
