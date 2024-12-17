@@ -1,23 +1,23 @@
 ---
 # Display name
-title: "Georgiana Dolocan"
+title: "April Johnson"
 
 # Username (this should match the folder name and the name on publications)
 authors:
-- "georgiana-dolocan"
+- "april-johnson"
 
 # Is this the primary user of the site?
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: Open Source Infrastructure Engineer
+role: People Operations Lead
 
 # Organizations/Affiliations
 organizations:
 - name: 2i2c
   url: "https://2i2c.org"
-- name: Project Jupyter
-  url: "https://jupyter.org"
+- name: April Johnson Coaching & Consulting
+  url: "https://www.apriljohnson.io/"
 
 # Short bio (displayed in user profile at end of posts)
 bio:
@@ -32,13 +32,8 @@ interests: []
 social:
 - icon: envelope
   icon_pack: fas
-  link: 'mailto:georgianaelena@2i2c.org'  # For a direct email link, use "mailto:test@example.org".
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/GeorgianaElenaD
-- icon: github
-  icon_pack: fab
-  link: https://github.com/georgianaelena
+  link: 'mailto:april@2i2c.org'
+
 
 # Enter email to display Gravatar (if Gravatar enabled in Config)
 # email: ""
@@ -46,7 +41,13 @@ social:
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Product and Services Team
+- Delivery Enablement Team
 ---
 
-Software Engineer irreversibly in love with open source. A JupyterHub team member, focusing on infrastructure and community growth. Previously JupyterHub Contributor in Residence and Outreachy intern through an internship that supports diversity in open source and free software.
+April is a people & transformation consultant who brings ideas to life, whether that's making big change happen or creating teams from scratch. She has helped people make their businesses greener, design and build their technology and talent organizations, go public, incorporate new capabilities through acquisition, and scale up for the future. 
+
+**Highlights**:
+
+- 20+ years growing and guiding technology organizations
+- Ex-Global Head of Transformation at Thoughtworks (Europe, Latin America, India, North America, and Asia)
+- expertise in human-centered design, agility, people leadership, change, leading remote and asynchronous agile teams, coaching, and non-profit development.
