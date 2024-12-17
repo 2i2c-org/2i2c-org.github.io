@@ -10,7 +10,7 @@ authors:
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: Product Lead
+role: Head of Product
 
 # Organizations/Affiliations
 organizations:
@@ -39,6 +39,16 @@ social:
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Product Team
+- Product and Services Team
 ---
 
+Giuliano is a product specialist with an extensive User Experience background and strong analytical skills, I help organisations define their product development roadmaps and customer engagement strategies with a user-focused, data-driven approach that starts by building a shared understanding of what constitutes value, then structures and empowers the organisational talent needed to deliver it. (from Giuliano's [LinkedIn profile](https://www.linkedin.com/in/gmaciocci/))
+
+**Highlights**:
+
+- 10+ years experience driving growth in companies
+- Ex-Chief Product Officer at Ex Ordo
+- Ex-head of Product at eLife Sciences
+- Led the open science product Executable Research Article
+- Led Qualcomm to $65M platform sale
+- Contributed significantly to mobile design and innovation at Adobe.

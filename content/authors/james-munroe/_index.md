@@ -10,7 +10,7 @@ authors:
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: Community Success Manager
+role: Senior Product Manager
 
 # Organizations/Affiliations
 organizations:
@@ -44,7 +44,7 @@ social:
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Partnerships Team
+- Product and Services Team
 ---
 
 James is Product and Community Lead for 2i2c. Coming from a background as an associate professor in the Department of Physics and Physical Oceanography at [Memorial University of Newfoundland](https://mun.ca), he is a strong advocate for enabling scientists and students to be efficient and effective in their computational workflows. Building on previous work in big data oceanography with links to the [Pangeo](https://pangeo.io/) project, [COSIMA](http://cosima.org.au/): Consortium for Ocean-Sea Ice Modelling in Australia, and [CIOOS](https://cioos.ca/): Canadian Integrated Ocean Observing System, James wants to bring the strength of the Jupyter ecosystem to users across a broad range of educational and research domains.

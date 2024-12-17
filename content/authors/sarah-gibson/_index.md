@@ -49,7 +49,7 @@ social:
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Open Engineering Team
+- Product and Services Team
 ---
 
 Sarah Gibson is an Open Source Infrastructure Engineer at 2i2c, an open source contributor and advocate.

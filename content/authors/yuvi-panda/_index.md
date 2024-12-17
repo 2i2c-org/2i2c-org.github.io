@@ -42,8 +42,16 @@ email: ""
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
 - Founders
-- Open Engineering Team
+- Product and Services Team
 - Steering Council
 ---
 
 Building participatory open infrastructure for scientific & educational use cases. A Project Jupyter team member working on infrastructure related projects. Ex Wikimedia and ex-GNOME. Let's eliminate accidental complexities wherever we find them.
+
+**Highlights**:
+
+- 10+ years experience building open infrastructure for scientific and educational communities
+- Jupyter Distinguished Contributor
+- Leader in the JupyterHub and Binder projects
+- Served as the Infrastructure Architect behind UC Berkeley’s scalable DataHub
+- Former ops engineer at Wikimedia and GNOME.

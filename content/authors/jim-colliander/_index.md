@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: Partnerships Lead
+role: Senior Account Executive / Co-lead of Business Development
 
 # Organizations/Affiliations
 organizations:
@@ -55,7 +55,14 @@ email: "colliand@2i2c.org"
 user_groups:
 - Founders
 - Steering Council
-- Partnerships Team
+- Business Development Team
 ---
 
 Jim is a 2i2c Co-Founder. He is a Professor of [Mathematics at the University of British Columbia](https://www.math.ubc.ca) and previously served (2016-2021) as the Director of The Pacific Institute for the Mathematical Sciences (PIMS). While at PIMS and using infrastructure from Compute Canada, he helped create a [national-scale JupyterHub service called Syzygy](https://blog.jupyter.org/national-scale-interactive-computing-2c104455e062). He co-founded [Callysto](https://callysto.ca), a collaboration between PIMS and Cybera. Callysto develops open education resources and training programs for students and teachers in grades 5-12 leveraging cloud-hosted interactive computing. Colliander also co-found [Crowdmark](https://crowdmark.com), an education technology company based in Toronto that provides workflows and AI-based improvements to education assessment. 
+
+**Highlights**:
+
+- Award-winning mathematician and professor
+- Ex-Director of the Pacific Institute for Mathematical Sciences
+- He utilized Compute Canada infrastructure to establish Syzygy, a national JupyterHub service
+- Co-founded Callysto for interactive computing in K-12 education.

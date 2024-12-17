@@ -10,7 +10,7 @@ authors:
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: Technical Content Developer
+role: Product Manager
 
 # Organizations/Affiliations
 organizations:
@@ -47,7 +47,7 @@ social:
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Partnerships Team
+- Product and Services Team
 ---
 
 Jenny is the Technical Content Developer for 2i2c. Her work is mainly focused on the CZI-funded Catalyst Project, an initiative aiming to provide research communities in Latin America and Africa with access to large-scale scientific infrastructure. As part of this effort, she will help develop community-based training materials for interactive cloud-native workflows.

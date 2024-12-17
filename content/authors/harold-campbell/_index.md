@@ -10,7 +10,7 @@ authors:
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: Delivery Manager and Chief of Staff
+role: Delivery Manager / Chief of Staff
 
 # Organizations/Affiliations
 organizations:
@@ -52,7 +52,13 @@ social:
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-    - Open Engineering Team
+    - Delivery Enablement Team
 ---
 
 I enjoy building and supporting communities of practice. I have built a small JS visualization library and dabbled in delivery management systems. Recently, I have strong interests in music (programming VST, etc.), AI and data science.
+
+**Highlights**:
+
+- 15+ years industry experience spanning companies in Africa and Jamaica
+- 10+ years experience in agile consulting and coaching in technical and product teams
+- Core skills span Enterprise Agile Coaching, Change Management, DevOps, and cloud consultations.
