@@ -10,13 +10,13 @@ draft: false
 
 2024 has been a busy year for 2i2c, with many highs and lows, a lot of impact, and significant organizational change. As the year comes to an end, I want to reflect on the work we've done in 2024, and where we aim to go in 2025.
 
-## The main idea
-
 In 2024, 2i2c reached the point in an organization's lifecycle when a team has grown enough in size and complexity that you must change the ways that you organize. The informal ways that worked as a small group don't suffice anymore, and you have to put more effort into aligning and coordinating everyone to ensure you have the same impact.
 
-I call this the "$1M to $2M budget jump", because organizations seem to hit this point around when your annual budget goes from `$1M` to `$2M`. Getting to the other side of this gap with an intact runway and team is hard, and I suspect that 2i2c's fully distributed nature means that we hit these scaling milestones earlier than many organizations. For us, this has been a major focus of effort all year, and has involved taking a top-to-bottom look at our plans and ways of working as a team.
+I call this the "$1M to $2M budget jump", because organizations seem to hit this point around when your annual budget goes from `$1M` to `$2M`. Getting to the other side of this gap with an intact runway and team is hard, and I suspect that 2i2c's fully distributed nature means that we hit these scaling milestones earlier than many organizations. For us, this has been a major focus of effort all year, and has involved taking a top-to-bottom look at our plans and ways of working as a team. Read on for more details about major updates, challenges, and impact that our team had in 2024.
 
-At an organizational level, this meant a lot of introspection and planning, a few new roles, a few departing team members, a funding crunch, a successful effort to dig out of it, and a new system of work organizing our team. We'll share more about all of this later, but here are the major implications for our team:
+## Organizational updates
+
+At an organizational level, this year had a lot of introspection and planning, a few new roles, a few departing team members, a funding crunch, a successful effort to dig out of it, and a new system of work organizing our team. We'll share more about all of this later, but here are the major implications for our team:
 
 **We've raised another $2.2M in funding** to support our efforts in scaling and sustaining our network of community hubs. This gives us roughly another 2 years of projected runway (with some assumptions about revenue from contracts and grants). Below are two posts that describe two major awards we were awarded in Q3 and Q4 of this year:
 
