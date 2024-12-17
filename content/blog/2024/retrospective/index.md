@@ -50,7 +50,7 @@ First, we've grown our network of hubs and users through several new partnership
 Beyond the numbers, we also re-focused our team on reporting impact stories from our collaborations with community members, and have published these into a (growing) list of posts on our blog:
 
 {{< figure
-  src="images/impact-gallery.png"
+  src="images/impact-gallery.gif"
   width="75%"
   caption="Our impact gallery is a new place to share stories of our impact with user research communities as well as open source communities: https://2i2c.org/category/impact/"
 >}}
