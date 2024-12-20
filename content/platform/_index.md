@@ -9,13 +9,31 @@ aliases:
 
 sections:
   
-  - block: markdown
-    id: hub-services-intro
+
+  - block: features
     design:
       css_class: "bigtitle"
     content:
-      title: Your hub, the way you want it
-      subtitle: Our cloud platform empowers communities to create their own digital hub to create and share knowledge with open infrastructure. Our services help you along the way.
+      title: Create a home with everything your community needs for data-driven discovery
+      subtitle: We build and manage community hubs that provide access to all the tools needed to do their work, enabled with open infrastructure that ensures your [Right to Replicate](./right-to-replicate/).
+
+      items:
+        - icon: software
+          icon_pack: custom
+          name: Software & Tools
+          description: "Provide easy access to community software and tools."
+        - icon: compute
+          icon_pack: custom
+          name: Compute & Data
+          description: "Provide the hardware and data resources available to your community."
+        - icon: content
+          icon_pack: custom
+          name: Computational Content
+          description: "Facilitate learning and sharing through community documentation."
+  - block: markdown
+    id: hub-services-intro
+    content:
+      title: We provide services to design, develop, and manage your community hub.
       text: |
         <style>
         /* This makes the titles on the page a bit bigger to differentiate section titles */
