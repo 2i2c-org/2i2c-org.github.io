@@ -15,7 +15,7 @@ sections:
       css_class: "bigtitle"
     content:
       title: Create a home with everything your community needs for data-driven discovery
-      subtitle: We build and manage community hubs that provide access to all the tools needed to do their work, enabled with open infrastructure.
+      subtitle: We build and manage community hubs that provide access to all the tools needed to do their work, enabled with open infrastructure that ensures your [Right to Replicate](./right-to-replicate/).
 
       items:
         - icon: software
