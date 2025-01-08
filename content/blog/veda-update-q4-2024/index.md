@@ -58,7 +58,7 @@ Ongoing work here will focus on improving the UX as well as better documentation
 
 We had worked in the past with many communities in enabling [QGIS on the Cloud](https://2i2c.org/blog/2023/qgis-greenland/), and this quarter we got closer to enabling a contextual 'Open in QGIS' button in the [VEDA Dashboard](https://www.earthdata.nasa.gov/dashboard/)! Here is a quick demo:
 
-<video src="./open-in-qgis.mp4"></video>
+<video src="./open-in-qgis.mp4" muted controls></video>
 
 You can play with this in [this preview](https://deploy-preview-688--ghg-demo.netlify.app/exploration), although you need to have access to the NASA VEDA hub to fully try it out at this point.
 
