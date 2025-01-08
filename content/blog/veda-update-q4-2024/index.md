@@ -60,6 +60,8 @@ We had worked in the past with many communities in enabling [QGIS on the Cloud](
 
 <video src="./open-in-qgis.mp4" muted controls></video>
 
+(This shows the workflow when user is already logged into the JupyterHub and had started the server)
+
 You can play with this in [this preview](https://deploy-preview-688--ghg-demo.netlify.app/exploration), although you need to have access to the NASA VEDA hub to fully try it out at this point.
 
 Tarashish from Development Seed is again responsible for most of the work here, available in [jupyter-remote-qgis-proxy](https://github.com/sunu/jupyter-remote-qgis-proxy). You can use it to create 'magic links' that will open QGIS in a desktop environment in your browser, and add a specific layer to it! Our hope is that this allows primarily GIS folks to better use tools they already are familiar with in cloud based contexts.
