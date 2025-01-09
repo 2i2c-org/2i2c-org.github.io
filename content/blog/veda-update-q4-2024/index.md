@@ -48,7 +48,7 @@ We will continue doing work on `jupyterhub-home-nfs` in the upcoming quarter! If
 
 We covered this more extensively in [another blog post](https://2i2c.org/blog/2024/jupyterhub-fancy-profiles-rollout/), so go read that!
 
-This work in particular is a good demonstrator of 2i2c's value - it started off with a [grant from GESIS](https://2i2c.org/blog/2024/jupyterhub-binderhub-gesis/), and now with support from NASA we are able to bring it to a *lot* of communities, not just the ones that funded it.
+This work in particular is a good demonstrator of 2i2c's value - it started off with a [grant from GESIS](https://2i2c.org/blog/2024/jupyterhub-binderhub-gesis/), and now with support from [NASA IMPACT](https://impact.earthdata.nasa.gov/) we are able to bring it to a *lot* of communities, not just the ones that funded it.
 
 Ongoing work here will focus on improving the UX as well as better documentation so users can actually use it!
 
