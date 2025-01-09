@@ -28,7 +28,7 @@ image:
 projects: ["nasa-veda"]
 ---
 
-A non-exhaustive list of things 2i2c and [Development Seed](https://developmentseed.org/) did with the NASA VEDA project last quarter!
+A non-exhaustive list of things 2i2c and [Development Seed](https://developmentseed.org/) did with the [NASA VEDA](https://www.earthdata.nasa.gov/data/tools/veda) project last quarter!
 
 ## Automated backups and alerting with `jupyterhub-home-nfs`
 
