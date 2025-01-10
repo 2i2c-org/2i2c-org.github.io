@@ -1,4 +1,67 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Yuvi Panda | 2i2c</title><link>https://2i2c.org/author/yuvi-panda/</link><atom:link href="https://2i2c.org/author/yuvi-panda/index.xml" rel="self" type="application/rss+xml"/><description>Yuvi Panda</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 18 Nov 2024 12:55:20 -0800</lastBuildDate><image><url>https://2i2c.org/author/yuvi-panda/avatar_huc33b170c6d7c951ba6ff8e7ef074ee49_9242_270x270_fill_q75_lanczos_center.jpeg</url><title>Yuvi Panda</title><link>https://2i2c.org/author/yuvi-panda/</link></image><item><title>Improving the logged in home page experience in JupyterHub with `jupyterhub-fancy-profiles`</title><link>https://2i2c.org/blog/2024/jupyterhub-fancy-profiles-rollout/</link><pubDate>Mon, 18 Nov 2024 12:55:20 -0800</pubDate><guid>https://2i2c.org/blog/2024/jupyterhub-fancy-profiles-rollout/</guid><description>&lt;p>On most research oriented JupyterHub installations, users would like to customize their server (the environment, resources available, etc) after logging in. In Kubernetes based JupyterHub environments, a
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Yuvi Panda | 2i2c</title><link>https://2i2c.org/author/yuvi-panda/</link><atom:link href="https://2i2c.org/author/yuvi-panda/index.xml" rel="self" type="application/rss+xml"/><description>Yuvi Panda</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 07 Jan 2025 15:18:37 -0800</lastBuildDate><image><url>https://2i2c.org/author/yuvi-panda/avatar_huc33b170c6d7c951ba6ff8e7ef074ee49_9242_270x270_fill_q75_lanczos_center.jpeg</url><title>Yuvi Panda</title><link>https://2i2c.org/author/yuvi-panda/</link></image><item><title>NASA VEDA &amp; 2i2c Update for Q4 2024 (Oct-Dec 2024)</title><link>https://2i2c.org/blog/veda-update-q4-2024/</link><pubDate>Tue, 07 Jan 2025 15:18:37 -0800</pubDate><guid>https://2i2c.org/blog/veda-update-q4-2024/</guid><description>&lt;p>A non-exhaustive list of things 2i2c and
+&lt;a href="https://developmentseed.org/" target="_blank" rel="noopener" >Development Seed&lt;/a> did with the
+&lt;a href="https://www.earthdata.nasa.gov/data/tools/veda" target="_blank" rel="noopener" >NASA VEDA&lt;/a> project last quarter!&lt;/p>
+&lt;h2 id="automated-backups-and-alerting-with-jupyterhub-home-nfs">
+Automated backups and alerting with &lt;code>jupyterhub-home-nfs&lt;/code>
+&lt;a class="header-anchor" href="#automated-backups-and-alerting-with-jupyterhub-home-nfs">#&lt;/a>
+&lt;/h2>&lt;p>
+&lt;a href="https://github.com/NASA-IMPACT/veda-jupyterhub/issues/56" target="_blank" rel="noopener" >Tracking Issue&lt;/a>&lt;/p>
+&lt;p>
+&lt;a href="https://github.com/2i2c-org/jupyterhub-home-nfs/" target="_blank" rel="noopener" >jupyterhub-home-nfs&lt;/a> is a young project to provide flexible per-user home directory limits on JupyterHub - an important feature for controlling cloud costs.
+&lt;a href="https://sunu.in/" target="_blank" rel="noopener" >Tarashish Mishra&lt;/a> and
+&lt;a href="https://sgibson91.github.io/cv/" target="_blank" rel="noopener" >Sarah Gibson&lt;/a> have been leading this project for the last few months. Since we are moving away from
+&lt;a href="https://aws.amazon.com/efs/" target="_blank" rel="noopener" >AWS Managed EFS&lt;/a> here, we had to do some work to recreate some of the benefits EFS gives us out of the box. During this quarter, we:&lt;/p>
+&lt;ol>
+&lt;li>Set up automated backups so we can recover files in cases of disaster&lt;/li>
+&lt;li>Set up automated alerting (via prometheus and pagerduty) to know if our backing EBS device is getting full and we need to perform a manual intervention&lt;/li>
+&lt;li>Deployed this to a few other communities (
+&lt;a href="https://www.cryocloud.io/" target="_blank" rel="noopener" >CryoCloud&lt;/a> and
+&lt;a href="https://nmfs-openscapes.github.io/" target="_blank" rel="noopener" >NMFS Openscapes&lt;/a>) to broaden adoption.&lt;/li>
+&lt;/ol>
+&lt;p>We will continue doing work on &lt;code>jupyterhub-home-nfs&lt;/code> in the upcoming quarter! If this is functionality you are interested in deploying, please reach out to us to collaborate!&lt;/p>
+&lt;h2 id="enable-users-to-dynamically-build-environments-with-jupyterhub-fancy-profiles">
+Enable users to dynamically build environments with &lt;code>jupyterhub-fancy-profiles&lt;/code>
+&lt;a class="header-anchor" href="#enable-users-to-dynamically-build-environments-with-jupyterhub-fancy-profiles">#&lt;/a>
+&lt;/h2>&lt;p>
+&lt;a href="https://github.com/NASA-IMPACT/veda-jupyterhub/issues/58" target="_blank" rel="noopener" >Tracking Issue&lt;/a>&lt;/p>
+&lt;p>We covered this more extensively in
+&lt;a href="https://2i2c.org/blog/2024/jupyterhub-fancy-profiles-rollout/" target="_blank" rel="noopener" >another blog post&lt;/a>, so go read that!&lt;/p>
+&lt;p>This work in particular is a good demonstrator of 2i2c&amp;rsquo;s value - it started off with a
+&lt;a href="https://2i2c.org/blog/2024/jupyterhub-binderhub-gesis/" target="_blank" rel="noopener" >grant from GESIS&lt;/a>, and now with support from
+&lt;a href="https://impact.earthdata.nasa.gov/" target="_blank" rel="noopener" >NASA IMPACT&lt;/a> we are able to bring it to a &lt;em>lot&lt;/em> of communities, not just the ones that funded it.&lt;/p>
+&lt;p>Ongoing work here will focus on improving the UX as well as better documentation so users can actually use it!&lt;/p>
+&lt;h2 id="open-in-qgis-from-veda-ui">
+&amp;ldquo;Open in QGIS&amp;rdquo; from VEDA UI
+&lt;a class="header-anchor" href="#open-in-qgis-from-veda-ui">#&lt;/a>
+&lt;/h2>&lt;p>
+&lt;a href="https://github.com/NASA-IMPACT/veda-jupyterhub/issues/59" target="_blank" rel="noopener" >Tracking Issue&lt;/a>&lt;/p>
+&lt;p>We had worked in the past with many communities in enabling
+&lt;a href="https://2i2c.org/blog/2023/qgis-greenland/" target="_blank" rel="noopener" >QGIS on the Cloud&lt;/a>, and this quarter we got closer to enabling a contextual &amp;lsquo;Open in QGIS&amp;rsquo; button in the
+&lt;a href="https://www.earthdata.nasa.gov/dashboard/" target="_blank" rel="noopener" >VEDA Dashboard&lt;/a>! Here is a quick demo:&lt;/p>
+&lt;p>&lt;video src="./open-in-qgis.mp4" muted controls>&lt;/video>&lt;/p>
+&lt;p>(This shows the workflow when user is already logged into the JupyterHub and had started the server)&lt;/p>
+&lt;p>You can play with this in
+&lt;a href="https://deploy-preview-688--ghg-demo.netlify.app/exploration" target="_blank" rel="noopener" >this preview&lt;/a>, although you need to have access to the NASA VEDA hub to fully try it out at this point.&lt;/p>
+&lt;p>Tarashish from Development Seed is again responsible for most of the work here, available in
+&lt;a href="https://github.com/sunu/jupyter-remote-qgis-proxy" target="_blank" rel="noopener" >jupyter-remote-qgis-proxy&lt;/a>. You can use it to create &amp;lsquo;magic links&amp;rsquo; that will open QGIS in a desktop environment in your browser, and add a specific layer to it! Our hope is that this allows primarily GIS folks to better use tools they already are familiar with in cloud based contexts.&lt;/p>
+&lt;h2 id="other-updates">
+Other updates
+&lt;a class="header-anchor" href="#other-updates">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>We participated heavily in an evaluation process for the authentication and authorization solution to be used across NASA VEDA!
+&lt;a href="https://github.com/NASA-IMPACT/veda-jupyterhub/issues/57" target="_blank" rel="noopener" >Tracking Issue&lt;/a>&lt;/li>
+&lt;li>We are very close to
+&lt;a href="https://github.com/2i2c-org/infrastructure/issues/5209" target="_blank" rel="noopener" >rolling out JupyterHub 5.0&lt;/a> and associated changes across all our hubs, which will enable us to eventually offer per-group shared directories!
+&lt;a href="https://github.com/NASA-IMPACT/veda-jupyterhub/issues/61" target="_blank" rel="noopener" >Tracking Issue&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Yuvi Panda</title><link>https://2i2c.org/author/yuvi-panda/</link><pubDate>Tue, 07 Jan 2025 15:18:37 -0800</pubDate><guid>https://2i2c.org/author/yuvi-panda/</guid><description>&lt;p>Building participatory open infrastructure for scientific &amp;amp; educational use cases. A Project Jupyter team member working on infrastructure related projects. Ex Wikimedia and ex-GNOME. Let&amp;rsquo;s eliminate accidental complexities wherever we find them.&lt;/p>
+&lt;p>&lt;strong>Highlights&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>10+ years experience building open infrastructure for scientific and educational communities&lt;/li>
+&lt;li>Jupyter Distinguished Contributor&lt;/li>
+&lt;li>Leader in the JupyterHub and Binder projects&lt;/li>
+&lt;li>Served as the Infrastructure Architect behind UC Berkeley’s scalable DataHub&lt;/li>
+&lt;li>Former ops engineer at Wikimedia and GNOME.&lt;/li>
+&lt;/ul></description></item><item><title>Improving the logged in home page experience in JupyterHub with `jupyterhub-fancy-profiles`</title><link>https://2i2c.org/blog/2024/jupyterhub-fancy-profiles-rollout/</link><pubDate>Mon, 18 Nov 2024 12:55:20 -0800</pubDate><guid>https://2i2c.org/blog/2024/jupyterhub-fancy-profiles-rollout/</guid><description>&lt;p>On most research oriented JupyterHub installations, users would like to customize their server (the environment, resources available, etc) after logging in. In Kubernetes based JupyterHub environments, a
 &lt;a href="https://z2jh.jupyter.org/en/latest/jupyterhub/customizing/user-environment.html#using-multiple-profiles-to-let-users-select-their-environment" target="_blank" rel="noopener" >profile list&lt;/a> provides this functionality.&lt;/p>
 &lt;p>
 &lt;figure >
@@ -70,14 +133,6 @@ Credit
 &lt;a href="https://www.earthdata.nasa.gov/data/tools/veda" target="_blank" rel="noopener" >NASA VEDA&lt;/a> project (in particular,
 &lt;a href="https://github.com/freitagb/" target="_blank" rel="noopener" >Brian Freitag&lt;/a> and
 &lt;a href="https://github.com/wildintellect" target="_blank" rel="noopener" >Alex Mandel&lt;/a>), for continued funding (in the form of engineering time) plus being early adopters!&lt;/li>
-&lt;/ul></description></item><item><title>Yuvi Panda</title><link>https://2i2c.org/author/yuvi-panda/</link><pubDate>Mon, 18 Nov 2024 12:55:20 -0800</pubDate><guid>https://2i2c.org/author/yuvi-panda/</guid><description>&lt;p>Building participatory open infrastructure for scientific &amp;amp; educational use cases. A Project Jupyter team member working on infrastructure related projects. Ex Wikimedia and ex-GNOME. Let&amp;rsquo;s eliminate accidental complexities wherever we find them.&lt;/p>
-&lt;p>&lt;strong>Highlights&lt;/strong>:&lt;/p>
-&lt;ul>
-&lt;li>10+ years experience building open infrastructure for scientific and educational communities&lt;/li>
-&lt;li>Jupyter Distinguished Contributor&lt;/li>
-&lt;li>Leader in the JupyterHub and Binder projects&lt;/li>
-&lt;li>Served as the Infrastructure Architect behind UC Berkeley’s scalable DataHub&lt;/li>
-&lt;li>Former ops engineer at Wikimedia and GNOME.&lt;/li>
 &lt;/ul></description></item><item><title>Collaborating with Development Seed to deliver cyberinfrastructure for NASA VEDA</title><link>https://2i2c.org/blog/2024/veda-devseed-collab/</link><pubDate>Fri, 12 Jul 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/veda-devseed-collab/</guid><description>&lt;p>&lt;em>Thank you to Sajjad Anwar and Sanjay Bhangar for contributing to this post.&lt;/em>&lt;/p>
 &lt;p>
 &lt;figure id="figure-the-veda-dashboardhttpswwwearthdatanasagovdashboard">
