@@ -20,9 +20,9 @@ So we're launching an experiment to deploy a Binder federation member via the si
 
 Initially this is just an experiment to see how it goes, whether it's sustainable from a cloud costs and labor standpoint, and what we can learn and share for others. Here's a rough plan:
 
-- 2i2c sponsors a max of €300 a month (with some currency conversion noise) to fund the cloud costs of a new federation member.
+- 2i2c sponsors a max of €350 a month (with some currency conversion noise) to fund the cloud costs of a new federation member.
 - We'll provide in-kind labor to run this node, and treat it as an organizational investment in learning new Kubernetes and cloud infrastructure workflows.
-- In six months, se'll evaluate how much effort it was to run this node for mybinder.org, whether it meaningfully helped with mybinder's capacity, and whether it was sustainable for us from a time and labor perspective.
+- In six months, we'll evaluate how much effort it was to run this node for mybinder.org, whether it meaningfully helped with mybinder's capacity, and whether it was sustainable for us from a time and labor perspective.
 
 Our rationale is that, with a cheaper cloud provider like Hetzner, we can get a pretty large node running persistently for around €300 a month. The equivalent cost on AWS would be $1,500, and on Digital Ocean it'd be about $1,000, so this is already roughly a factor of three cheaper than the previous cheapest option. In addition, we've been developing some experience running single-node Kubernetes workflows via [k3s](https://k3s.io/) and a collaboration with [Carl Boettiger](https://carlboettiger.info/), so we think that we've got some expertise to deploy and manage this efficiently. Finally, because it's a single node cluster, there is no auto-scaling (one reason it is so cheap), which reduces a lot of the complexity we'll have to manage. These are acceptable tradeoffs for a service like mybinder.org, which runs entirely ephemeral sessions with very limited resources and no promises about uptime, persistence, etc.
 
