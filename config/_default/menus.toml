@@ -14,9 +14,21 @@
   weight = 11
 
 [[main]]
+  name = "Service Principles"
+  weight = 12
+
+[[main]]
+  parent = "Service Principles"
   name = "Right to Replicate"
   url = "right-to-replicate/"
   weight = 12
+
+[[main]]
+  parent = "Service Principles"
+  name = "Commitment to Open Technology"
+  url = "open-technology/"
+  weight = 12
+
 
 [[main]]
   name = "About"
