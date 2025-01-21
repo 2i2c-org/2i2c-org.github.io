@@ -22,7 +22,7 @@ We've recently been working to integrate [Jupyter Book 2][jb2] workflows with ou
 
 We want a workflow like this to be as seamless and un-complicated as possible. We also want it to follow the same fundamental workflow as the [nbgitpuller-based launch buttons](https://docs.2i2c.org/community/content/). Along the way, we realized that we needed to coordinate development across [Jupyter Book 2][jb2]], [JupyterHub](https://jupyter.readthedocs.io), and [BinderHub](https://binderhub.readthedocs.io).
 
-{{< figure src="./images/featured.png" caption="The three projects (Jupyter Book, BinderHub, and JupyterHub) that needed to work together to enable 'bring your own binderhub' workflows." >}}
+{{< figure src="./featured.png" caption="The three projects (Jupyter Book, BinderHub, and JupyterHub) that needed to work together to enable 'bring your own binderhub' workflows." >}}
 
 ## Getting Jupyter Book to discover Jupyter Hub
 
