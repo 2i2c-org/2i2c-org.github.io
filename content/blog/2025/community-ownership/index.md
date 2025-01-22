@@ -68,7 +68,7 @@ We imagine three audiences for this policy:
 
 ## We'd love feedback
 
-We hope that these ideas both clarify our intent and the reason that we think it's important. We'd love feedback about early refinements to these principles in order to make them more effective, as well as ways that we can provide more community oversight and participation in evolving these policies moving forward. If you have any thoughts to share, please open an issue at [2i2c-org/compass](https://github.com/2i2c-org/team-compass/issues/new).
+We hope that these ideas both clarify our intent and the reason that we think it's important. We'd love feedback about early refinements to these principles in order to make them more effective, as well as ways that we can provide more community oversight and participation in evolving these policies moving forward. If you have any thoughts to share, please send feedback via e-mail [hello@2i2c.org](mailto:hello@2i2c.org).
 
 ---
 
