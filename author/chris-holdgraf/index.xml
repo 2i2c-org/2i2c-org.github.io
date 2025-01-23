@@ -61,7 +61,85 @@ Getting Jupyter Book to discover Jupyter Hub
 &lt;p>This actually required an interesting bit of team discussion that was much easier with a few 2i2c staff on the JupyterHub team. The original request from Angus was interpreted as opening up the &lt;em>entire hub API&lt;/em> to external requests (which is a bad idea!) but we were able to quickly discuss this with the JupyterHub team to clarify that this was only about a very specific API endpoint. This is the kind of communication loop that often goes haywire when you have people contributing to a project without historical relationships to the project&amp;rsquo;s maintainers.&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/div></description></item><item><title>2024 impact report: new team structure, new funding, and growth in our network</title><link>https://2i2c.org/blog/2024/retrospective/</link><pubDate>Sun, 08 Dec 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/retrospective/</guid><description>&lt;p>2024 has been a busy year for 2i2c, with many highs and lows, a lot of impact, and significant organizational change. As the year comes to an end, I want to reflect on the work we&amp;rsquo;ve done in 2024, and where we aim to go in 2025.&lt;/p>
+&lt;/div></description></item><item><title>Announcing our formal commitment to open technology</title><link>https://2i2c.org/blog/2025/community-ownership/</link><pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/community-ownership/</guid><description>&lt;p>In this post, we&amp;rsquo;re sharing our
+&lt;a href="https://2i2c.org/open-technology/" >Commitment to Open Technology&lt;/a>. It is focused on &lt;em>software licenses&lt;/em> for reasons we&amp;rsquo;ll describe below. We hope that it clarifies what kind of licenses we&amp;rsquo;ll use, and assures our communities that we will not change our stance towards open source technology in the future. This ensures 2i2c&amp;rsquo;s long-term commitment to community-owned and open infrastructure.&lt;/p>
+&lt;p>Being a platform and service provider gives us a lot of power, and also introduces a potential source of &lt;em>lock-in&lt;/em> for our member communities. While 2i2c&amp;rsquo;s organizational mission and culture are strongly aligned with open infrastructure, we believe it&amp;rsquo;s important to encode commitments like these in a formal way to provide both transparency and accountability to our member communities.&lt;/p>
+&lt;h2 id="our-commitment-to-open-technology">
+Our commitment to open technology
+&lt;a class="header-anchor" href="#our-commitment-to-open-technology">#&lt;/a>
+&lt;/h2>&lt;p>Below we copy the original language of this policy from our
+&lt;a href="https://2i2c.org/open-technology/" >Commitment to Open Technology&lt;/a>:&lt;/p>
+&lt;!-- TODO: When we switch to MyST, we should embed this rather than copy/paste -->
+&lt;p>&lt;em>Definitions of MUST, MUST NOT, SHOULD, MAY, etc are defined in
+&lt;a href="https://tools.ietf.org/html/rfc2119" target="_blank" rel="noopener" >RFC 2119&lt;/a>&lt;/em>&lt;/p>
+&lt;ol>
+&lt;li>All engineering artifacts (code, documentation, etc) produced by 2i2c&amp;rsquo;s engineering team MUST be licensed under an open source license approved by a non-profit organization that is not 2i2c.&lt;/li>
+&lt;li>Open Source Projects originating at 2i2c, or stewarded by 2i2c, MUST NOT require a
+&lt;a href="https://en.wikipedia.org/wiki/Contributor_License_Agreement" target="_blank" rel="noopener" >Contributor Licensing Agreement&lt;/a> that includes Copyright Assignment to 2i2c.&lt;/li>
+&lt;li>The list of external organizations that define licenses we accept are
+&lt;ol>
+&lt;li>
+&lt;a href="https://opensource.org/" target="_blank" rel="noopener" >the Open Source Initiative&lt;/a>&lt;/li>
+&lt;li>the
+&lt;a href="https://ethicalsource.dev/" target="_blank" rel="noopener" >Organization for Ethical Source&lt;/a>.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>Modifying (1), (2), or (3) MUST be done through a 2/3 majority vote of 2i2c staff.&lt;/li>
+&lt;/ol>
+&lt;h2 id="what-does-this-commitment-mean">
+What does this commitment mean?
+&lt;a class="header-anchor" href="#what-does-this-commitment-mean">#&lt;/a>
+&lt;/h2>&lt;p>In plain language, here&amp;rsquo;s what this commitment means:&lt;/p>
+&lt;ol>
+&lt;li>We&amp;rsquo;ll only use open source licenses that have been approved by standard non-profits that are broadly recognized by the tech industry.&lt;/li>
+&lt;li>For anything we build, we won&amp;rsquo;t require contributors to give up the rights to their contributions via CLAs, so that it is much harder for 2i2c to change our licenses in the future.&lt;/li>
+&lt;li>Changing this policy will require organization-wide agreement, and in the future we&amp;rsquo;ll give authority over this policy to a group of people representing our member communities.&lt;/li>
+&lt;/ol>
+&lt;h2 id="why-are-licenses-and-clas-important">
+Why are licenses and CLAs important?
+&lt;a class="header-anchor" href="#why-are-licenses-and-clas-important">#&lt;/a>
+&lt;/h2>&lt;p>Many organizations claim to be committed to open infrastructure, while retaining the ability to &lt;em>change this commitment in the future when it is in their interests&lt;/em>. A classic example of this is a &amp;ldquo;bait and switch&amp;rdquo; that looks something like this:&lt;/p>
+&lt;ol>
+&lt;li>A company releases software under an open source license and professes to build an open source community around it.&lt;/li>
+&lt;li>However, they retain the rights to all of the code in their projects through a
+&lt;a href="https://en.wikipedia.org/wiki/Contributor_License_Agreement" target="_blank" rel="noopener" >Contributor License Agreement&lt;/a> (CLA) with copyright assignment. This generally means that contributors must &lt;em>give up the rights to their contribution&lt;/em> in order to make that contribution.&lt;/li>
+&lt;li>Once their product has gained traction and it is in their interests, the company can &lt;em>change the license&lt;/em> to whatever they wish (even one that is not open source) because they retain the rights to all contributions in the codebase.&lt;/li>
+&lt;li>They then leverage this new position as owners of a proprietary project to extract business value or grow their position in a market.&lt;/li>
+&lt;/ol>
+&lt;p>Think this sounds unlikely? Here are just a few recent examples of companies that have switched their license after many years of releasing their technology under an open source license:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="https://redis.io/blog/redis-adopts-dual-source-available-licensing/" target="_blank" rel="noopener" >Redis&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://www.hashicorp.com/blog/hashicorp-adopts-business-source-license" target="_blank" rel="noopener" >Hashicorp / Terraform&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://en.wikipedia.org/wiki/Elasticsearch#Licensing_changes" target="_blank" rel="noopener" >Elastic Search&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>We want to ensure our communities that 2i2c is not headed down this path, in order to give them confidence in treating us as a long-term service partner.&lt;/p>
+&lt;h2 id="what-does-this-change-about-2i2cs-open-source-commitment">
+What does this change about 2i2c&amp;rsquo;s open source commitment?
+&lt;a class="header-anchor" href="#what-does-this-change-about-2i2cs-open-source-commitment">#&lt;/a>
+&lt;/h2>&lt;p>In short: nothing. These are already the principles that 2i2c was committed to from its inception, and already implied via our
+&lt;a href="https://2i2c.org/right-to-replicate/" >Right to Replicate&lt;/a>. However, we wanted to make these commitments more formally in order to give ourselves more accountability to sticking with them, and to provide more transparency for our community members and stakeholders.&lt;/p>
+&lt;h2 id="who-is-this-for">
+Who is this for?
+&lt;a class="header-anchor" href="#who-is-this-for">#&lt;/a>
+&lt;/h2>&lt;p>We imagine three audiences for this policy:&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>2i2c present and future staff&lt;/strong> who want to ensure that their organization remains committed to our open principles. This document provides a sense of psychological safety to have bold discussions about structuring our approach to open source.&lt;/li>
+&lt;li>&lt;strong>Member communities and 2i2c stakeholders&lt;/strong> who need to have an understanding of the guarantees that we provide in order to trust 2i2c as a service developer and provider. This is similar to the effect our
+&lt;a href="https://2i2c.org/right-to-replicate/" >Right to Replicate&lt;/a> has.&lt;/li>
+&lt;li>&lt;strong>Open source communities&lt;/strong> who need to understand our long-term commitment and goals around open technology in order to trust as a peer and collaborator within open source communities.&lt;/li>
+&lt;/ol>
+&lt;h2 id="wed-love-feedback">
+We&amp;rsquo;d love feedback
+&lt;a class="header-anchor" href="#wed-love-feedback">#&lt;/a>
+&lt;/h2>&lt;p>We hope that these ideas both clarify our intent and the reason that we think it&amp;rsquo;s important. We&amp;rsquo;d love feedback about early refinements to these principles in order to make them more effective, as well as ways that we can provide more community oversight and participation in evolving these policies moving forward. If you have any thoughts to share, please send feedback via e-mail
+&lt;a href="" >hello@2i2c.org&lt;/a>.&lt;/p>
+&lt;hr>
+&lt;p>&lt;strong>Acknowledgements&lt;/strong>: &lt;em>The creation of this policy and the rationale behind it was led by
+&lt;a href="https://2i2c.org/author/yuvi-panda/" >Yuvi Panda&lt;/a> with feedback from 2i2c&amp;rsquo;s team. This blog post was co-written with
+&lt;a href="https://2i2c.org/author/chris-holdgraf/" >Chris Holdgraf&lt;/a>.&lt;/em>&lt;/p></description></item><item><title>2024 impact report: new team structure, new funding, and growth in our network</title><link>https://2i2c.org/blog/2024/retrospective/</link><pubDate>Sun, 08 Dec 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/retrospective/</guid><description>&lt;p>2024 has been a busy year for 2i2c, with many highs and lows, a lot of impact, and significant organizational change. As the year comes to an end, I want to reflect on the work we&amp;rsquo;ve done in 2024, and where we aim to go in 2025.&lt;/p>
 &lt;p>In 2024, 2i2c reached the point in an organization&amp;rsquo;s lifecycle when a team has grown enough in size and complexity that you must change the ways that you organize. The informal ways that worked as a small group don&amp;rsquo;t suffice anymore, and you have to put more effort into aligning and coordinating everyone to ensure you have the same impact.&lt;/p>
 &lt;p>I call this the &amp;ldquo;$1M to $2M budget jump&amp;rdquo;, because organizations seem to hit this point around when your annual budget goes from &lt;code>$1M&lt;/code> to &lt;code>$2M&lt;/code>. Getting to the other side of this gap with an intact runway and team is hard, and I suspect that 2i2c&amp;rsquo;s fully distributed nature means that we hit these scaling milestones earlier than many organizations. For us, this has been a major focus of effort all year, and has involved taking a top-to-bottom look at our plans and ways of working as a team. Read on for more details about major updates, challenges, and impact that our team had in 2024.&lt;/p>
 &lt;h2 id="organizational-updates">

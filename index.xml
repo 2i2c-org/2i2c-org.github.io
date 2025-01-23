@@ -62,7 +62,85 @@ Getting Jupyter Book to discover Jupyter Hub
 &lt;a href="https://github.com/NASA-IMPACT/veda-jupyterhub/issues/61" target="_blank" rel="noopener" >Tracking Issue&lt;/a>.&lt;/p>
 &lt;p>Checkout the
 &lt;a href="https://jupyterhub.readthedocs.io/en/latest/howto/upgrading-v5.html" target="_blank" rel="noopener" >JupyterHub 5.0 migration&lt;/a> docs or the
-&lt;a href="https://jupyterhub.readthedocs.io/en/5.0.0/reference/changelog.html#id3" target="_blank" rel="noopener" >changelog&lt;/a> for more details.&lt;/p></description></item><item><title>NASA VEDA &amp; 2i2c Update for Q4 2024 (Oct-Dec 2024)</title><link>https://2i2c.org/blog/2025/veda-update-q4-2024/</link><pubDate>Tue, 07 Jan 2025 15:18:37 -0800</pubDate><guid>https://2i2c.org/blog/2025/veda-update-q4-2024/</guid><description>&lt;p>A non-exhaustive list of things 2i2c and
+&lt;a href="https://jupyterhub.readthedocs.io/en/5.0.0/reference/changelog.html#id3" target="_blank" rel="noopener" >changelog&lt;/a> for more details.&lt;/p></description></item><item><title>Announcing our formal commitment to open technology</title><link>https://2i2c.org/blog/2025/community-ownership/</link><pubDate>Wed, 15 Jan 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/community-ownership/</guid><description>&lt;p>In this post, we&amp;rsquo;re sharing our
+&lt;a href="https://2i2c.org/open-technology/" >Commitment to Open Technology&lt;/a>. It is focused on &lt;em>software licenses&lt;/em> for reasons we&amp;rsquo;ll describe below. We hope that it clarifies what kind of licenses we&amp;rsquo;ll use, and assures our communities that we will not change our stance towards open source technology in the future. This ensures 2i2c&amp;rsquo;s long-term commitment to community-owned and open infrastructure.&lt;/p>
+&lt;p>Being a platform and service provider gives us a lot of power, and also introduces a potential source of &lt;em>lock-in&lt;/em> for our member communities. While 2i2c&amp;rsquo;s organizational mission and culture are strongly aligned with open infrastructure, we believe it&amp;rsquo;s important to encode commitments like these in a formal way to provide both transparency and accountability to our member communities.&lt;/p>
+&lt;h2 id="our-commitment-to-open-technology">
+Our commitment to open technology
+&lt;a class="header-anchor" href="#our-commitment-to-open-technology">#&lt;/a>
+&lt;/h2>&lt;p>Below we copy the original language of this policy from our
+&lt;a href="https://2i2c.org/open-technology/" >Commitment to Open Technology&lt;/a>:&lt;/p>
+&lt;!-- TODO: When we switch to MyST, we should embed this rather than copy/paste -->
+&lt;p>&lt;em>Definitions of MUST, MUST NOT, SHOULD, MAY, etc are defined in
+&lt;a href="https://tools.ietf.org/html/rfc2119" target="_blank" rel="noopener" >RFC 2119&lt;/a>&lt;/em>&lt;/p>
+&lt;ol>
+&lt;li>All engineering artifacts (code, documentation, etc) produced by 2i2c&amp;rsquo;s engineering team MUST be licensed under an open source license approved by a non-profit organization that is not 2i2c.&lt;/li>
+&lt;li>Open Source Projects originating at 2i2c, or stewarded by 2i2c, MUST NOT require a
+&lt;a href="https://en.wikipedia.org/wiki/Contributor_License_Agreement" target="_blank" rel="noopener" >Contributor Licensing Agreement&lt;/a> that includes Copyright Assignment to 2i2c.&lt;/li>
+&lt;li>The list of external organizations that define licenses we accept are
+&lt;ol>
+&lt;li>
+&lt;a href="https://opensource.org/" target="_blank" rel="noopener" >the Open Source Initiative&lt;/a>&lt;/li>
+&lt;li>the
+&lt;a href="https://ethicalsource.dev/" target="_blank" rel="noopener" >Organization for Ethical Source&lt;/a>.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>Modifying (1), (2), or (3) MUST be done through a 2/3 majority vote of 2i2c staff.&lt;/li>
+&lt;/ol>
+&lt;h2 id="what-does-this-commitment-mean">
+What does this commitment mean?
+&lt;a class="header-anchor" href="#what-does-this-commitment-mean">#&lt;/a>
+&lt;/h2>&lt;p>In plain language, here&amp;rsquo;s what this commitment means:&lt;/p>
+&lt;ol>
+&lt;li>We&amp;rsquo;ll only use open source licenses that have been approved by standard non-profits that are broadly recognized by the tech industry.&lt;/li>
+&lt;li>For anything we build, we won&amp;rsquo;t require contributors to give up the rights to their contributions via CLAs, so that it is much harder for 2i2c to change our licenses in the future.&lt;/li>
+&lt;li>Changing this policy will require organization-wide agreement, and in the future we&amp;rsquo;ll give authority over this policy to a group of people representing our member communities.&lt;/li>
+&lt;/ol>
+&lt;h2 id="why-are-licenses-and-clas-important">
+Why are licenses and CLAs important?
+&lt;a class="header-anchor" href="#why-are-licenses-and-clas-important">#&lt;/a>
+&lt;/h2>&lt;p>Many organizations claim to be committed to open infrastructure, while retaining the ability to &lt;em>change this commitment in the future when it is in their interests&lt;/em>. A classic example of this is a &amp;ldquo;bait and switch&amp;rdquo; that looks something like this:&lt;/p>
+&lt;ol>
+&lt;li>A company releases software under an open source license and professes to build an open source community around it.&lt;/li>
+&lt;li>However, they retain the rights to all of the code in their projects through a
+&lt;a href="https://en.wikipedia.org/wiki/Contributor_License_Agreement" target="_blank" rel="noopener" >Contributor License Agreement&lt;/a> (CLA) with copyright assignment. This generally means that contributors must &lt;em>give up the rights to their contribution&lt;/em> in order to make that contribution.&lt;/li>
+&lt;li>Once their product has gained traction and it is in their interests, the company can &lt;em>change the license&lt;/em> to whatever they wish (even one that is not open source) because they retain the rights to all contributions in the codebase.&lt;/li>
+&lt;li>They then leverage this new position as owners of a proprietary project to extract business value or grow their position in a market.&lt;/li>
+&lt;/ol>
+&lt;p>Think this sounds unlikely? Here are just a few recent examples of companies that have switched their license after many years of releasing their technology under an open source license:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="https://redis.io/blog/redis-adopts-dual-source-available-licensing/" target="_blank" rel="noopener" >Redis&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://www.hashicorp.com/blog/hashicorp-adopts-business-source-license" target="_blank" rel="noopener" >Hashicorp / Terraform&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://en.wikipedia.org/wiki/Elasticsearch#Licensing_changes" target="_blank" rel="noopener" >Elastic Search&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>We want to ensure our communities that 2i2c is not headed down this path, in order to give them confidence in treating us as a long-term service partner.&lt;/p>
+&lt;h2 id="what-does-this-change-about-2i2cs-open-source-commitment">
+What does this change about 2i2c&amp;rsquo;s open source commitment?
+&lt;a class="header-anchor" href="#what-does-this-change-about-2i2cs-open-source-commitment">#&lt;/a>
+&lt;/h2>&lt;p>In short: nothing. These are already the principles that 2i2c was committed to from its inception, and already implied via our
+&lt;a href="https://2i2c.org/right-to-replicate/" >Right to Replicate&lt;/a>. However, we wanted to make these commitments more formally in order to give ourselves more accountability to sticking with them, and to provide more transparency for our community members and stakeholders.&lt;/p>
+&lt;h2 id="who-is-this-for">
+Who is this for?
+&lt;a class="header-anchor" href="#who-is-this-for">#&lt;/a>
+&lt;/h2>&lt;p>We imagine three audiences for this policy:&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>2i2c present and future staff&lt;/strong> who want to ensure that their organization remains committed to our open principles. This document provides a sense of psychological safety to have bold discussions about structuring our approach to open source.&lt;/li>
+&lt;li>&lt;strong>Member communities and 2i2c stakeholders&lt;/strong> who need to have an understanding of the guarantees that we provide in order to trust 2i2c as a service developer and provider. This is similar to the effect our
+&lt;a href="https://2i2c.org/right-to-replicate/" >Right to Replicate&lt;/a> has.&lt;/li>
+&lt;li>&lt;strong>Open source communities&lt;/strong> who need to understand our long-term commitment and goals around open technology in order to trust as a peer and collaborator within open source communities.&lt;/li>
+&lt;/ol>
+&lt;h2 id="wed-love-feedback">
+We&amp;rsquo;d love feedback
+&lt;a class="header-anchor" href="#wed-love-feedback">#&lt;/a>
+&lt;/h2>&lt;p>We hope that these ideas both clarify our intent and the reason that we think it&amp;rsquo;s important. We&amp;rsquo;d love feedback about early refinements to these principles in order to make them more effective, as well as ways that we can provide more community oversight and participation in evolving these policies moving forward. If you have any thoughts to share, please send feedback via e-mail
+&lt;a href="" >hello@2i2c.org&lt;/a>.&lt;/p>
+&lt;hr>
+&lt;p>&lt;strong>Acknowledgements&lt;/strong>: &lt;em>The creation of this policy and the rationale behind it was led by
+&lt;a href="https://2i2c.org/author/yuvi-panda/" >Yuvi Panda&lt;/a> with feedback from 2i2c&amp;rsquo;s team. This blog post was co-written with
+&lt;a href="https://2i2c.org/author/chris-holdgraf/" >Chris Holdgraf&lt;/a>.&lt;/em>&lt;/p></description></item><item><title>NASA VEDA &amp; 2i2c Update for Q4 2024 (Oct-Dec 2024)</title><link>https://2i2c.org/blog/2025/veda-update-q4-2024/</link><pubDate>Tue, 07 Jan 2025 15:18:37 -0800</pubDate><guid>https://2i2c.org/blog/2025/veda-update-q4-2024/</guid><description>&lt;p>A non-exhaustive list of things 2i2c and
 &lt;a href="https://developmentseed.org/" target="_blank" rel="noopener" >Development Seed&lt;/a> did with the
 &lt;a href="https://www.earthdata.nasa.gov/data/tools/veda" target="_blank" rel="noopener" >NASA VEDA&lt;/a> project last quarter!&lt;/p>
 &lt;h2 id="automated-backups-and-alerting-with-jupyterhub-home-nfs">
@@ -5720,6 +5798,46 @@ border-radius: .25rem;
 &lt;a href="https://investinopen.org/blog/jrost-rapid-response-fund-awardees/" target="_blank" rel="noopener" >a $5,000 grant&lt;/a> to fund JupyterHub cloud infrastructure for projects that did not have their own cloud funding.&lt;/p>
 &lt;/div>
 &lt;/div>
+&lt;/div></description></item><item><title/><link>https://2i2c.org/blog/2025/binder-singlenode/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/binder-singlenode/</guid><description/></item><item><title/><link>https://2i2c.org/open-technology/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://2i2c.org/open-technology/</guid><description>
+&lt;h1 id="our-commitment-to-open-technology">
+Our commitment to open technology
+&lt;a class="header-anchor" href="#our-commitment-to-open-technology">#&lt;/a>
+&lt;/h1>&lt;p>This page describes 2i2c&amp;rsquo;s commitment to developing and contributing to infrastructure that is open source now and into the future. More context can be found
+&lt;a href="https://2i2c.org/blog/2025/community-ownership/" >in this blog post&lt;/a>.&lt;/p>
+&lt;p>&lt;em>Definitions of MUST, MUST NOT, SHOULD, MAY, etc are defined in
+&lt;a href="https://tools.ietf.org/html/rfc2119" target="_blank" rel="noopener" >RFC 2119&lt;/a>&lt;/em>&lt;/p>
+&lt;ol>
+&lt;li>All engineering artifacts (code, documentation, etc) produced by 2i2c&amp;rsquo;s engineering team MUST be licensed under an open source license approved by a non-profit organization that is not 2i2c.&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>&lt;/li>
+&lt;li>Open Source Projects originating at 2i2c, or stewarded by 2i2c, MUST NOT require a
+&lt;a href="https://en.wikipedia.org/wiki/Contributor_License_Agreement" target="_blank" rel="noopener" >Contributor Licensing Agreement&lt;/a> that includes Copyright Assignment to 2i2c. &lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/li>
+&lt;li>The list of external organizations that define licenses we accept are&lt;sup id="fnref:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>:
+&lt;ol>
+&lt;li>
+&lt;a href="https://opensource.org/" target="_blank" rel="noopener" >the Open Source Initiative&lt;/a>&lt;/li>
+&lt;li>the
+&lt;a href="https://ethicalsource.dev/" target="_blank" rel="noopener" >Organization for Ethical Source&lt;/a>.&lt;/li>
+&lt;/ol>
+&lt;/li>
+&lt;li>Modifying (1), (2), or (3) MUST be done through a 2/3 majority vote of 2i2c staff. &lt;sup id="fnref:4">&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref">4&lt;/a>&lt;/sup>&lt;/li>
+&lt;/ol>
+&lt;p>These commitments ensure 2i2c&amp;rsquo;s ongoing support for open source technology and community-owned infrastructure, and constrain us from &lt;em>changing&lt;/em> this commitment in a way that would harm our communities. We hope that this builds trust with our communities to rely on 2i2c as a provider and a steward of their infrastructure.
+&lt;a href="https://2i2c.org/blog/2025/community-ownership/" >See this blog post for more context&lt;/a>&lt;/p>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>This constrains us from writing proprietary engineering code or creating proprietary products. Note that this only applies to 2i2c artifacts, and not those that are created by our member communities.&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2">
+&lt;p>Protects from the most common &amp;ldquo;bait and switch&amp;rdquo; licensing problem, where being the sole copyright owner of a project allows us to change the license in the future because we&amp;rsquo;ve retained ownership over all the code.&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:3">
+&lt;p>This constrains us from creating a new non profit that rubberstamps a license that is fundamentally proprietary, while still allowing for experimentation with licenses that try to innovate on OSI.&amp;#160;&lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:4">
+&lt;p>This sets an intentionally-high bar for modifying this policy. In 2025 we aim to re-establish our steering council along with a community advisory board that is tasked with defining policy like this. In the interrim, we choose &lt;code>2/3 of the organization&lt;/code> to be a reasonably high bar for changing this policy&amp;#160;&lt;a href="#fnref:4" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
 &lt;/div></description></item><item><title/><link>https://2i2c.org/pilot-hubs/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://2i2c.org/pilot-hubs/</guid><description>&lt;meta http-equiv="refresh" content="0; URL='http://infrastructure.2i2c.org'" /></description></item><item><title/><link>https://2i2c.org/pilot/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://2i2c.org/pilot/</guid><description>&lt;meta http-equiv="refresh" content="0; URL='http://docs.2i2c.org'" /></description></item><item><title/><link>https://2i2c.org/team-compass/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://2i2c.org/team-compass/</guid><description>&lt;meta http-equiv="refresh" content="0; URL='http://team-compass.2i2c.org'" /></description></item><item><title>Contact us to collaborate</title><link>https://2i2c.org/collaborate/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://2i2c.org/collaborate/</guid><description>&lt;p>2i2c has expertise in cloud infrastructure and managed services for interactive computing in research and education workflows.
 We focus on the Jupyter ecosystem and adjacent open source communities (e.g., the PyData ecosystem), with a particular emphasis on JupyterHub.&lt;/p>
 &lt;div class="d-flex justify-content-center">
