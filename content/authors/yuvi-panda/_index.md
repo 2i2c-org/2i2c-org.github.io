@@ -9,7 +9,7 @@ authors:
 # Is this the primary user of the site?
 superuser: true
 
-role: Senior Open Source Infrastructure Engineer
+role: Tech Lead and Co-Founder
 
 # Organizations/Affiliations
 organizations: []
