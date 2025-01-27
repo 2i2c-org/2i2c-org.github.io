@@ -19,7 +19,7 @@ organizations:
 - name: Project Jupyter
   url: "https://jupyter.org"
 - name: The Turing Way
-  url: "https://the-turing-way.netlify.app/"
+  url: "https://the-turing-way.org/"
 
 # Short bio (displayed in user profile at end of posts)
 bio:
@@ -36,9 +36,6 @@ social:
 - icon: envelope
   icon_pack: fas
   link: 'mailto:sgibson@2i2c.org'
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/drsarahlgibson
 - icon: github
   icon_pack: fab
   link: https://github.com/sgibson91
@@ -50,10 +47,11 @@ social:
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
 - Product and Services Team
+
 ---
 
 Sarah Gibson is an Open Source Infrastructure Engineer at 2i2c, an open source contributor and advocate.
-She holds more than two years of experience as a Research Engineer at a national institute for data science and artificial intelligence, as well as holding a core contributor role in the open source projects [Binder](https://jupyter.org/binder), [JupyterHub](https://jupyter.org/hub), and [_The Turing Way_](https://the-turing-way.netlify.app/).
+She holds more than two years of experience as a Research Engineer at a national institute for data science and artificial intelligence, as well as holding a core contributor role in the open source projects [Binder](https://jupyter.org/binder), [JupyterHub](https://jupyter.org/hub), and [_The Turing Way_](https://the-turing-way.org).
 Sarah is passionate about working with domain experts to leverage cloud computing in order to accelerate cutting-edge, data-intensive research and disseminating the results in an open, reproducible and reusable manner.
 
 Sarah holds a Fellowship with the [Software Sustainability Institute](https://software.ac.uk) and advocates for best software practices in research.
