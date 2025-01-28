@@ -18,7 +18,7 @@ If you're interested in supporting `mybinder.org` with cloud resources, financia
 
 While we're thinking through long-term ways to support Binder, 2i2c wanted to provide short-term support for the project and experiment with cheaper models for deploying Binder's reproducible environments. Making it simpler and easier to add capacity to the `mybinder.org` federation would both improve some of Binder's short-term capacity shortage and may also provide an easier pathway for others to support the project in the future.
 
-So we're launching an experiment to deploy a Binder federation member via the simplest and cheapest cloud solution we could identify. The Kubernetes (and in particular, [k3s](https://k3s.io/)) ecosystem has matured, and there are some interesting cloud offerings that make a _single-node kubernetes cluster_ logistically accessible for workflows like `mybinder.org`. We're going to deploy a single-node Kubernetes cluster running `mybinder.org` sessions.
+So we're launching an experiment to deploy a Binder federation member via the simplest and cheapest cloud solution we could identify. The Kubernetes (and in particular, [K3s](https://k3s.io/)) ecosystem has matured, and there are some interesting cloud offerings that make a _single-node kubernetes cluster_ logistically accessible for workflows like `mybinder.org`. We're going to deploy a single-node Kubernetes cluster running `mybinder.org` sessions.
 
 Here's the [PR to add `2i2c.mybinder.org` to the federation](https://github.com/jupyterhub/mybinder.org-deploy/pull/3169/files#diff-bbf9217a40f20b5a3a6a15a624f4f3523bcbd3b18cd71f30f5941e34c62814ed), and below is a brief explainer for what we're trying, and why.
 
@@ -26,13 +26,13 @@ Here's the [PR to add `2i2c.mybinder.org` to the federation](https://github.com/
 
 Over the last year, two things have changed:
 
-**k3s lets us deploy and manage a very simple Kubernetes distribution**. In the last several months, we've been experimenting and developing experience in single-node Kubernetes workflows via [k3s](https://k3s.io/) (thanks to [Carl Boettiger](https://carlboettiger.info/) for collaborating on this with us!). [k3s](https://k3s.io/) is a lightweight Kubernetes distribution that is much easier to deploy and manage. It's designed for things like edge computing and low-resource environments, and it can be deployed with a single script! We think that we've got some expertise to deploy and manage this efficiently, and want to try this out as a simpler way to deploy a BinderHub instance.
+**K3s lets us deploy and manage a very simple Kubernetes distribution**. In the last several months, we've been experimenting and developing experience in single-node Kubernetes workflows via [K3s](https://k3s.io/) (thanks to [Carl Boettiger](https://carlboettiger.info/) for collaborating on this with us!). [K3s](https://k3s.io/) is a lightweight Kubernetes distribution that is much easier to deploy and manage. It's designed for things like edge computing and low-resource environments, and it can be deployed with a single script! We think that we've got some expertise to deploy and manage this efficiently, and want to try this out as a simpler way to deploy a BinderHub instance.
 
 **Single-node cloud offerings have become bigger while remaining cheaper**. In the last few years, single-VM offerings have gotten bigger (e.g., with more RAM), which makes them more suitable for handling large chunks of capacity on a service like [`mybinder.org`](https://mybinder.org). These single-node VM offerings are usually multiples cheaper than the autoscaling variants.[^1]
 
-[^1]: For example, [Hetzner](https://hetzner.com/cloud), which provides a much cheaper single-VM option than other cloud providers. There are many others infrastructure providers who could be used in this way. Because of the simpler deployment model, the number of providers we could use is likely much larger.
+[^1]: For example, [Hetzner](https://hetzner.com/cloud), which provides a much cheaper single-VM option than other cloud providers. There are many other infrastructure providers who could be used in this way. Because of the simpler deployment model, the number of providers we could use is likely much larger.
 
-We think that running a single-node Kubernetes instance will be a cheap and effective way to handle a lot of `mybinder.org`'s capacity needs. Because it's a single node cluster, there is no auto-scaling (one reason it is so cheap), which reduces a lot of the complexity we'll have to manage. These are acceptable tradeoffs for a service like `mybinder.org`, which runs entirely ephemeral sessions with very limited resources and no promises about uptime, persistence, etc. As long as there's a steady stream of `mybinder.org` launches (which there has been for many years now), this node should be able to handle a constant stream of Binder launches, effecively maxing out its capacity. 
+We think that running a single-node Kubernetes instance will be a cheap and effective way to handle a lot of `mybinder.org`'s capacity needs. Because it's a single node cluster, there is no auto-scaling (one reason it is so cheap), which reduces a lot of the complexity we'll have to manage. These are acceptable tradeoffs for a service like `mybinder.org`, which runs entirely ephemeral sessions with very limited resources and no promises about uptime, persistence, etc. As long as there's a steady stream of `mybinder.org` launches (which there has been for many years now), this node should be able to handle a constant stream of Binder launches, effectively maxing out its capacity. 
 
 ## Why would it be cheaper to run a single VM?
 
@@ -42,9 +42,9 @@ Normally, running Kubernetes for scalable workflows is a way to _save money_. Wi
 
 However, these costs assume that you're paying for VMs / nodes on the _same provider_. There's a lot of competition in the cloud infrastructure space, and often this results in providers entering a market that compete on price.
 
-So, we did a bit of research and found that [Hetzner](https://www.hetzner.com/cloud/), a cloud provider that has been around for a while, has single-node VMs that are about `4x` cheaper than their counterparts in Google Cloud or AWS. Using [k3s](https://k3s.io/), we can run a lightweight, single-node Kubernetes runtime on this node, and deploy a BinderHub with the same infrastructure as any other BinderHub federation member. 
+So, we did a bit of research and found that [Hetzner](https://www.hetzner.com/cloud/), a cloud provider that has been around for a while, has single-node VMs that are about `4x` cheaper than their counterparts in Google Cloud or AWS. Using [K3s](https://k3s.io/), we can run a lightweight, single-node Kubernetes runtime on this node, and deploy a BinderHub with the same infrastructure as any other BinderHub federation member. 
 
-By our estimate, we could fit around 400 simultaneous sessions on `mybinder.org` (because each session has very few cloud resources). This is a sizeable chunk of the simultaneous users on the service! Assuming that it is usually near-capacity, it might be cost-effective to pay for a single node that is _always_ on, but _much cheaper_. The cost picture looks something like this:
+By our estimate, we could fit around 400 simultaneous sessions on `mybinder.org` (because each session uses very few cloud resources). This is a sizeable chunk of the simultaneous users on the service! Assuming that it is usually near-capacity, it might be cost-effective to pay for a single node that is _always_ on, but _much cheaper_. The cost picture looks something like this:
 
 {{< figure src="images/single.excalidraw.svg" caption="If your single VM is much cheaper, it might still be the cheapest option. In the case of a Hetzner VM, it has roughly the same capacity as another cloud provider's VM, but at 1/4 of the cost." >}}
 
@@ -58,7 +58,7 @@ Initially this is just an experiment to see how it goes, whether it's sustainabl
 - We'll provide in-kind labor to run this node, and treat it as an organizational investment in learning new Kubernetes and cloud infrastructure workflows.
 - In six months, we'll evaluate how much effort it was to run this node for `mybinder.org`, whether it meaningfully helped with `mybinder.org`'s capacity, and whether it was sustainable for us from a time and labor perspective.
 
-There may be other benefits to running BinderHub on a single VM. Doing so will likely be simpler and faster to launch sessions. Moreover, because k3s can be deployed with a single command, it means that others can build their own single-node federations members with minimal effort. We hope this will be cheaper, and require relatively little human maintenance time.
+There may be other benefits to running BinderHub on a single VM. Doing so will likely be simpler and faster to launch sessions. Moreover, because K3s can be deployed with a single command, it means that others can build their own single-node federation members with minimal effort. We hope this will be cheaper, and require relatively little human maintenance time.
 
 ## Anybody want to fund this?
 
