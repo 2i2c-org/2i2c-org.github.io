@@ -1,6 +1,6 @@
 ---
-title: "An experiment to support `mybinder.org` with a single node federation member"
-date: "2025-01-18"
+title: "2i2c joins the mybinder.org federation with a cheaper and faster way to deploy Binderhub"
+date: "2025-01-28"
 authors: ["Yuvi Panda", "Chris Holdgraf"]
 tags: [open source]
 categories: [impact]
@@ -12,61 +12,79 @@ draft: false
 If you're interested in supporting `mybinder.org` with cloud resources, financial resources, or human resources, please see the [Support Binder](https://mybinder.readthedocs.io/en/latest/about/support.html) page for how you can help.
 {{% /callout %}}
 
-> `tl;dr`: The 2i2c team is launching an experiment to [run a single-node BinderHub instance at `2i2c.mybinder.org`](https://github.com/jupyterhub/mybinder.org-deploy/pull/3169/). It should be much cheaper to run than auto-scaling Kubernetes clusters, and might be a good way to support `mybinder.org` more sustainably.
+> `tl;dr`: The 2i2c team is joining the mybinder.org federation with a [single-node BinderHub instance at `2i2c.mybinder.org`](https://github.com/jupyterhub/mybinder.org-deploy/pull/3169/). It should be much cheaper to run than auto-scaling Kubernetes clusters, and might be a good way to support `mybinder.org` more sustainably.
 
-[`mybinder.org`](https://mybinder.org) is a massive public service for creating and sharing reproducible computational environments. It is managed by the JupyterHub team and [members of the `mybinder.org` federation](https://mybinder.readthedocs.io/en/latest/about/federation.html). One challenge in running [`mybinder.org`](https://mybinder.org) is identifying suppliers of cloud credits or financial resources to support the cloud infrastructure that runs the service. Two years ago, [Google stopped supporting `mybinder.org` federation with cloud credits](https://medium.com/jupyter-blog/mybinder-org-reducing-capacity-c93ccfc6413f), and last month [the federation lost more capacity](https://discourse.jupyter.org/t/mybinder-org-reduced-capacity-stability/31750). This makes `mybinder.org` less reliable, slower, and generally less useful to the world.
+[`mybinder.org`](https://mybinder.org) is a massive public service for creating and sharing reproducible computational environments. It is managed by the JupyterHub team and [members of the `mybinder.org` federation](https://mybinder.readthedocs.io/en/latest/about/federation.html). One challenge in running [`mybinder.org`](https://mybinder.org) is identifying cloud credits or financial resources to support the cloud infrastructure that runs the service. Two years ago, [Google stopped supporting `mybinder.org` federation with cloud credits](https://medium.com/jupyter-blog/mybinder-org-reducing-capacity-c93ccfc6413f), and last month [the federation lost more capacity](https://discourse.jupyter.org/t/mybinder-org-reduced-capacity-stability/31750). This makes `mybinder.org` less reliable, slower, and generally less useful to the world.
 
-While we're thinking through long-term ways to support Binder, 2i2c wanted to provide short-term support for the project and experiment with cheaper models for deploying Binder's reproducible environments. Making it simpler and easier to add capacity to the `mybinder.org` federation would both improve some of Binder's short-term capacity shortage and may also provide an easier pathway for others to support the project in the future.
+The landscape of cloud infrastructure technology and services has changed considerably, and we think that there's a way to deploy BinderHub instances with lower costs and less complexity. We've accomplished this by deploying a **single-node Kubernetes cluster** on a VM provider that is much cheaper, now running at `2i2c.mybinder.org`. This both relieves Binder's short-term capacity shortage and may provide an easier pathway for others to support the project in the future.
 
-So we're launching an experiment to deploy a Binder federation member via the simplest and cheapest cloud solution we could identify. The Kubernetes (and in particular, [K3s](https://k3s.io/)) ecosystem has matured, and there are some interesting cloud offerings that make a _single-node kubernetes cluster_ logistically accessible for workflows like `mybinder.org`. We're going to deploy a single-node Kubernetes cluster running `mybinder.org` sessions.
+Below, we'll describe what has changed to enable this, what we're deploying, and what the impact should be.
 
-Here's the [PR to add `2i2c.mybinder.org` to the federation](https://github.com/jupyterhub/mybinder.org-deploy/pull/3169/files#diff-bbf9217a40f20b5a3a6a15a624f4f3523bcbd3b18cd71f30f5941e34c62814ed), and below is a brief explainer for what we're trying, and why.
+## Cloud infrastructure has become cheaper and more commodified
 
-## What if we could run a simple BinderHub federation member for cheap?
+A key theory of mybinder.org (and 2i2c) is that commercial cloud infrastructure will be commidified over time -- what begins as cutting-edge functionality will become commonplace and offered across all cloud providers. As a result, costs will go down over time. Abstractions like [Kubernetes](https://kubernetes.io/) will allow you to easily migrate workflows and infrastructure between cloud providers. As a result, you'll be able to easily _follow those costs_ where there are better options. That's essentially what is happening here.
 
-Over the last year, two things have changed:
+There are two key changes that make it much easier to deploy a BinderHub instance at a fraction of the cost:
 
-**K3s lets us deploy and manage a very simple Kubernetes distribution**. In the last several months, we've been experimenting and developing experience in single-node Kubernetes workflows via [K3s](https://k3s.io/) (thanks to [Carl Boettiger](https://carlboettiger.info/) for collaborating on this with us!). [K3s](https://k3s.io/) is a lightweight Kubernetes distribution that is much easier to deploy and manage. It's designed for things like edge computing and low-resource environments, and it can be deployed with a single script! We think that we've got some expertise to deploy and manage this efficiently, and want to try this out as a simpler way to deploy a BinderHub instance.
+First, **Kubernetes has matured and become easier to deploy**. When mybinder.org started, it was using the cutting-edge of Kubernetes functionality. This meant that we needed to use cloud providers that provided a _managed Kubernetes service_ to deal with this complexity. A managed Kubernetes offering tends to be expensive, offered by only a few cloud providers, and thus raises costs across-the-board for the provider that offers it.
 
-**Single-node cloud offerings have become bigger while remaining cheaper**. In the last few years, single-VM offerings have gotten bigger (e.g., with more RAM), which makes them more suitable for handling large chunks of capacity on a service like [`mybinder.org`](https://mybinder.org). These single-node VM offerings are usually multiples cheaper than the autoscaling variants.[^1]
+However, this was almost a decade ago, and Kubernetes has become both more functional and more stable. There are now many more ways of running Kubernetes, especially for simpler workflows that don't require autoscaling. In the last several months, we've been experimenting with **single-node Kubernetes workflows** via [K3s](https://k3s.io/)[^carl]. [K3s](https://k3s.io/) is a lightweight Kubernetes distribution that is much easier to deploy and manage. It's designed for things like edge computing and low-resource environments, and it can be deployed with a single script!
 
-[^1]: For example, [Hetzner](https://hetzner.com/cloud), which provides a much cheaper single-VM option than other cloud providers. There are many other infrastructure providers who could be used in this way. Because of the simpler deployment model, the number of providers we could use is likely much larger.
+[^carl]: thanks to [Carl Boettiger](https://carlboettiger.info/) for collaborating on this with us!
+   
+By running a Kubernetes cluster on a single node, we don't need a "managed Kubernetes service", which means **we can choose from a much larger pool of infrastructure / cloud providers**. If all we need is a running VM, this is something the tech industry has been doing for decades.
 
-We think that running a single-node Kubernetes instance will be a cheap and effective way to handle a lot of `mybinder.org`'s capacity needs. Because it's a single node cluster, there is no auto-scaling (one reason it is so cheap), which reduces a lot of the complexity we'll have to manage. These are acceptable tradeoffs for a service like `mybinder.org`, which runs entirely ephemeral sessions with very limited resources and no promises about uptime, persistence, etc. As long as there's a steady stream of `mybinder.org` launches (which there has been for many years now), this node should be able to handle a constant stream of Binder launches, effectively maxing out its capacity. 
+Second, **Managed Object Storage services have more open source options, and are more commodified and cheaper**. In addition to Kubernetes, the other thing that BinderHub needs is a way to store and retrieve images for the environments that it builds. This also used to be a fairly complex problem, and thus required managed solutions from cloud providers that charged a premium for their service. However, a number of open source object storage solutions have emerged and made it much easier for providers to support this workflow.[^minio]. Because these are open source, infrastructure providers can provide managed object storage at a fraction of the cost.
 
-## Why would it be cheaper to run a single VM?
+[^minio]: One example is [MinIO](https://min.io/), which is used by [Hetzner](https://hetzner.com/cloud) to provide managed object storage for their single-node VMs.
 
-Normally, running Kubernetes for scalable workflows is a way to _save money_. Without scaling, you'd need to provide a VM that can _always_ handle your _maximum capacity_ needs (and pay for the costs the entire time). With Kubernetes, you can request and remove nodes to grow your capacity as-needed (and save money doing so). It looks something like this:
+Because of these two things, we've learned that we can run a BinderHub instance on a single VM from a much larger pool of infrastructure providers. This means **we should be able to run BinderHub instances at a fraction of the cost**.[^1] 
+
+[^1]: For example, [Hetzner](https://hetzner.com/cloud) provides a single-VM option with managed object storage that is roughly 25% of the cost of other cloud providers that also offer autoscaling Kubernetes services. There are many other infrastructure providers who could be used in this way.
+
+## Deploying BinderHub on a single-node VM is cheaper and simpler
+
+Last week, we [deployed 2i2c.mybinder.org](https://github.com/jupyterhub/mybinder.org-deploy/pull/3169), a single-node Kubernetes instance on [Hetzner](https://hetzner.com/cloud) cloud using [K3s](https://k3s.io/). This will run on a single node VM, with a Kubernetes instance that is entirely managed by us, and with managed object storage from Hetzner.
+
+Running a single-node Kubernetes instance will be a cheap and effective way to handle a lot of `mybinder.org`'s capacity needs. Because it's a single node cluster, there is no auto-scaling (one reason it is so cheap), which reduces a lot of the complexity we'll have to manage. These are acceptable tradeoffs for a service like `mybinder.org`, which runs entirely ephemeral sessions with very limited resources and no promises about uptime, persistence, etc.
+
+You might be wondering: "I thought Kubernetes was supposed to _save money_." Normally, running Kubernetes for scalable workflows does save costs because you can scale infrastructure to match your capacity needs. Without scaling, you'd need to provide a VM that can _always_ handle your _maximum capacity_ needs (and pay for the costs the entire time). With Kubernetes, you can request and remove nodes to grow your capacity as-needed (and save money doing so). It looks something like this:
 
 {{< figure src="images/scalable.excalidraw.svg" caption="The cost difference between a single large VM vs scalable nodes. Given variable usage over time, kubernetes allows you to scale your cost up and down with need, which is more efficient than paying for a single VM that can withstand your maximum capacity." >}}
 
-However, these costs assume that you're paying for VMs / nodes on the _same provider_. There's a lot of competition in the cloud infrastructure space, and often this results in providers entering a market that compete on price.
+However, there is a built-in cost you pay when you use a service that provides managed Kubernetes. **Managed Kubernetes services are complex and expensive**, and this is reflected across-the-board in the provider's costs. What if we could achieve the same outcome with a much simpler cloud offering like a single VM?
 
-So, we did a bit of research and found that [Hetzner](https://www.hetzner.com/cloud/), a cloud provider that has been around for a while, has single-node VMs that are about `4x` cheaper than their counterparts in Google Cloud or AWS. Using [K3s](https://k3s.io/), we can run a lightweight, single-node Kubernetes runtime on this node, and deploy a BinderHub with the same infrastructure as any other BinderHub federation member. 
+We did a bit of research and discovered that the Kubernetes and object storage landscape has indeed evolved significantly since the early days of mybinder.org. For example, [Hetzner](https://www.hetzner.com/cloud/) is a cloud provider that has been around for a long time. It has single-node VMs that are about `4x` cheaper than their counterparts in Google Cloud or AWS, and provides managed object storage that uses [MinIO](https://min.io/) in a cost-effective way. Using [K3s](https://k3s.io/), we can run a lightweight, single-node Kubernetes runtime on this node, and deploy a BinderHub with the same infrastructure as any other BinderHub federation member. 
 
-By our estimate, we could fit around 400 simultaneous sessions on `mybinder.org` (because each session uses very few cloud resources). This is a sizeable chunk of the simultaneous users on the service! Assuming that it is usually near-capacity, it might be cost-effective to pay for a single node that is _always_ on, but _much cheaper_. The cost picture looks something like this:
+By our estimate, we could fit around **400 simultaneous sessions** on `mybinder.org` (because each session uses very few cloud resources). This is already the majority of mybinder.org's capacity needs, and at a much lower cost than using a scalable Kubernetes cluster. The cost picture looks something like this:
 
 {{< figure src="images/single.excalidraw.svg" caption="If your single VM is much cheaper, it might still be the cheapest option. In the case of a Hetzner VM, it has roughly the same capacity as another cloud provider's VM, but at 1/4 of the cost." >}}
 
-At least, that's how it should work in theory :-)
+## 2i2c.mybinder.org now serves 70% of the mybinder.org federation
 
-## Let the experiment begin
+About a week ago, we launched [2i2c.mybinder.org](https://2i2c.mybinder.org) running via the methodology we described above. We intended to run this as a longer experiment, but believe that it has already proven useful enough to consider "ready for production". We recently [increased 2i2c.mybinder.org's load to 70%](https://github.com/jupyterhub/mybinder.org-deploy/pull/3196) and will continue to monitor its performance over time. Here's a plot of where each mybinder.org session has been run over the past ten days - you can see the moment where we turn on `2i2c.mybinder.org` to the left:
 
-Initially this is just an experiment to see how it goes, whether it's sustainable from a cloud costs and labor standpoint, and what we can learn and share for others. Here's a rough plan:
+{{< figure src="images/grafana.png" caption="Sessions launched on mybinder.org's federation over the past ten days. The yellow area represents sessions run on `2i2c.mybinder.org`. They now make up the majority of launches on mybinder.org. Prior to this, `gesis.mybinder.org` was the only remaining federation member." >}}
 
-- 2i2c sponsors a max of €350 a month (with some currency conversion noise) to fund the cloud costs of a new federation member.
-- We'll provide in-kind labor to run this node, and treat it as an organizational investment in learning new Kubernetes and cloud infrastructure workflows.
-- In six months, we'll evaluate how much effort it was to run this node for `mybinder.org`, whether it meaningfully helped with `mybinder.org`'s capacity, and whether it was sustainable for us from a time and labor perspective.
+For now, 2i2c is sponsoring a max of €350 a month (with some currency conversion noise) to run this service. We'll provide in-kind labor to run this node, and treat it as an organizational investment in supporting open science, as well as learning new Kubernetes and cloud infrastructure workflows. We're going to use funds recovered from communities in our [community hub network](/platform/), along with in-kind labor to build out this experiment.
 
-There may be other benefits to running BinderHub on a single VM. Doing so will likely be simpler and faster to launch sessions. Moreover, because K3s can be deployed with a single command, it means that others can build their own single-node federation members with minimal effort. We hope this will be cheaper, and require relatively little human maintenance time.
+In six months, we'll evaluate how much effort it was to run this node for `mybinder.org`, whether it meaningfully helped with `mybinder.org`'s capacity, and whether it was sustainable for us from a time and labor perspective.
+
+## Others can join the mybinder.org federation using this approach as well
+
+We think that developing this single-node BinderHub workflow will make it much easier for others to join the mybinder.org federation, because it lowers the infrastructure and skills complexity needed to join. [Here is a brief guide we've written for deploying a BinderHub with K3s](https://github.com/jupyterhub/mybinder.org-deploy/blob/72a1a34509e2c43aec788f602250c58d9d849a13/docs/source/deployment/k3s.md). We are helping a few interested organizations deploy their own BinderHubs in this way in order to validate the idea, and are hopeful that this makes it much easier to grow mybinder.org's capacity via new federation members.[^2]
+
+[^2]: We're also experimenting with a few other ways to reduce the complexity and costs of running a BinderHub even further, but will have more on that later as we learn more :-).
+
+We're excited to experiment with new ways to support `mybinder.org`. We think this is an excellent example of how open standards and technology lead to cloud workflows with lower costs and more flexibility. We also think it's a good example of how it is valuable to have organizations aligned with open science (like 2i2c!) acting in this space.
 
 ## Anybody want to fund this?
 
-For now we're going to use funds recovered from communities in our [community hub network](/platform/), along with in-kind labor to build out this experiment. If you're interested in making open science infrastructure like Binder more scalable and sustainable, we'd love to find more resources to both sustain this node and cover more development time to run this experiment.
+If you're interested in making open science infrastructure like Binder more scalable and sustainable, we'd love to find more resources to both sustain this node and cover more development time to run this experiment. [Feel free to reach out here](mailto:hello@2i2c.org).
 
-If you're interested in supporting `mybinder.org` with cloud resources, financial resources, or human resources, please see the [Support Binder](https://mybinder.readthedocs.io/en/latest/about/support.html) page for how you can help.
+If you have access to VMs and object storage, and are interested in running a mybinder.org federation member using the methods described here, check out [our brief guide for deploying a BinderHub with K3s](https://github.com/jupyterhub/mybinder.org-deploy/blob/72a1a34509e2c43aec788f602250c58d9d849a13/docs/source/deployment/k3s.md).
 
-We're excited to experiment with new ways to support `mybinder.org`, and to identify sustainable models for deploying Binder and Jupyter infrastructure for communities in a way that could benefit the wider ecosystem as well. We'll report back on how this experiment goes!
+If you're generally interested in supporting `mybinder.org` with cloud resources, financial resources, or human resources, please see the [Support Binder](https://mybinder.readthedocs.io/en/latest/about/support.html) page for how you can help.
 
 {{% callout note %}}
 If you're interested in supporting `mybinder.org` with cloud resources, financial resources, or human resources, please see the [Support Binder](https://mybinder.readthedocs.io/en/latest/about/support.html) page for how you can help.
