@@ -43,4 +43,4 @@ This project can also be used with _any_ Kubernetes-based JupyterHub, as per our
 
 ## Credit
 
-This project was developed and deployed in collaboration with [Tarashish Mishra](https://developmentseed.org/team/tarashish-mishra/) from [Development Seed](https://developmentseed.org)
+This project was developed and deployed in collaboration with [Tarashish Mishra](https://developmentseed.org/team/tarashish-mishra/) from [Development Seed](https://developmentseed.org), funded through the [NASA VEDA project](https://www.earthdata.nasa.gov/data/tools/veda).
