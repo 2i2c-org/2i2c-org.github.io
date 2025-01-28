@@ -3,8 +3,8 @@ title: "Enforcing per-user storage quotas with `jupyterhub-home-nfs`"
 subtitle: ""
 summary: ""
 authors: ["Sarah Gibson"]
-tags: []
-categories: []
+tags: [open-source]
+categories: [impact]
 date: 2025-01-28T09:57:28+00:00
 lastmod: 2025-01-28T10:10:14+00:00
 featured: false
@@ -33,9 +33,9 @@ To this end, 2i2c in close collaboration with [Development Seed](https://develop
 Note that this feature is currently available to AWS hosted hubs only and will be rolled out to other cloud providers in the future.
 {{% /callout %}}
 
-Under the hood, the Helm chart runs [NFS Ganesha](https://github.com/nfs-ganesha/nfs-ganesha) as an in-cluster NFS server, backed by XFS as the underlying filesystem. Storage quota is enforced through XFS's native quota management utility `xfs_quota`.
+Under the hood, the Helm chart runs [NFS Ganesha](https://github.com/nfs-ganesha/nfs-ganesha) as an in-cluster NFS server, backed by [XFS](https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/7/html/storage_administration_guide/ch-xfs) as the underlying filesystem. Storage quota is enforced through XFS's native quota management utility `xfs_quota`.
 
-Since this feature moves our infrastructure away from managed filesystems (such as AWS's Elastic File System), we have also developed monitoring and alerting mechanisms that will let us know when the disks are getting full, and automated back-ups for disaster recovery.
+Since this feature moves our infrastructure away from managed filesystems (such as AWS's Elastic File System) that cannot support per-user storage quotas, we have also developed monitoring and alerting mechanisms that will let us know when the disks are getting full, and automated back-ups for disaster recovery.
 
 If you would like to try this on your 2i2c-managed hub, [please get in touch](https://docs.2i2c.org/support/).
 
