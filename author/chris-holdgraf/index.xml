@@ -1,4 +1,159 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Chris Holdgraf | 2i2c</title><link>https://2i2c.org/author/chris-holdgraf/</link><atom:link href="https://2i2c.org/author/chris-holdgraf/index.xml" rel="self" type="application/rss+xml"/><description>Chris Holdgraf</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 21 Jan 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/author/chris-holdgraf/avatar_hu239570f3b0123c4756b7a8f15caec1a2_32796_270x270_fill_q75_lanczos_center.jpg</url><title>Chris Holdgraf</title><link>https://2i2c.org/author/chris-holdgraf/</link></image><item><title>Chris Holdgraf</title><link>https://2i2c.org/author/chris-holdgraf/</link><pubDate>Tue, 21 Jan 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/author/chris-holdgraf/</guid><description>&lt;p>Chris is the Executive Director of 2i2c. He was previously a post-doctoral researcher in the Department of Statistics at
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Chris Holdgraf | 2i2c</title><link>https://2i2c.org/author/chris-holdgraf/</link><atom:link href="https://2i2c.org/author/chris-holdgraf/index.xml" rel="self" type="application/rss+xml"/><description>Chris Holdgraf</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 29 Jan 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/author/chris-holdgraf/avatar_hu239570f3b0123c4756b7a8f15caec1a2_32796_270x270_fill_q75_lanczos_center.jpg</url><title>Chris Holdgraf</title><link>https://2i2c.org/author/chris-holdgraf/</link></image><item><title>2i2c joins the mybinder.org federation with a cheaper and faster way to deploy Binderhub</title><link>https://2i2c.org/blog/2025/binder-singlenode/</link><pubDate>Wed, 29 Jan 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/binder-singlenode/</guid><description>&lt;div class="alert alert-note">
+&lt;div>
+If you&amp;rsquo;re interested in supporting &lt;code>mybinder.org&lt;/code> with cloud resources, financial resources, or human resources, please see the
+&lt;p>&lt;a href="https://mybinder.readthedocs.io/en/latest/about/support.html" target="_blank" rel="noopener" >Support Binder&lt;/a> page for how you can help.&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;blockquote>
+&lt;p>&lt;code>tl;dr&lt;/code>: The 2i2c team is joining the mybinder.org federation with a
+&lt;a href="https://github.com/jupyterhub/mybinder.org-deploy/pull/3169/" target="_blank" rel="noopener" >single-node BinderHub instance at &lt;code>2i2c.mybinder.org&lt;/code>&lt;/a>. It should be much cheaper to run than auto-scaling Kubernetes clusters, and might be a good way to support &lt;code>mybinder.org&lt;/code> more sustainably.&lt;/p>
+&lt;/blockquote>
+&lt;p>
+&lt;a href="https://mybinder.org" target="_blank" rel="noopener" >&lt;code>mybinder.org&lt;/code>&lt;/a> is a massive public service for creating and sharing reproducible computational environments. It is managed by the JupyterHub team and
+&lt;a href="https://mybinder.readthedocs.io/en/latest/about/federation.html" target="_blank" rel="noopener" >members of the &lt;code>mybinder.org&lt;/code> federation&lt;/a>. One challenge in running
+&lt;a href="https://mybinder.org" target="_blank" rel="noopener" >&lt;code>mybinder.org&lt;/code>&lt;/a> is identifying cloud credits or financial resources to support the cloud infrastructure that runs the service. Two years ago,
+&lt;a href="https://medium.com/jupyter-blog/mybinder-org-reducing-capacity-c93ccfc6413f" target="_blank" rel="noopener" >Google stopped supporting &lt;code>mybinder.org&lt;/code> federation with cloud credits&lt;/a>, and last month
+&lt;a href="https://discourse.jupyter.org/t/mybinder-org-reduced-capacity-stability/31750" target="_blank" rel="noopener" >the federation lost more capacity&lt;/a>, leaving only
+&lt;a href="https://www.gesis.org/en/home" target="_blank" rel="noopener" >GESIS&lt;/a> and
+&lt;a href="https://us.ovhcloud.com/" target="_blank" rel="noopener" >OVH&lt;/a> as remaining federation members&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>. This makes &lt;code>mybinder.org&lt;/code> less reliable, slower, and generally less useful to the world.&lt;/p>
+&lt;p>The landscape of cloud infrastructure technology and services has changed considerably, and we think that there&amp;rsquo;s a way to deploy BinderHub instances with lower costs and less complexity. We&amp;rsquo;ve accomplished this by deploying a &lt;strong>single-node Kubernetes cluster&lt;/strong> on a VM provider that is much cheaper, now running at &lt;code>2i2c.mybinder.org&lt;/code>. This both relieves Binder&amp;rsquo;s short-term capacity shortage and may provide an easier pathway for others to support the project in the future.&lt;/p>
+&lt;p>Below, we&amp;rsquo;ll describe what has changed to enable this, what we&amp;rsquo;re deploying, and what the impact should be.&lt;/p>
+&lt;h2 id="cloud-infrastructure-has-become-cheaper-and-more-commodified">
+Cloud infrastructure has become cheaper and more commodified
+&lt;a class="header-anchor" href="#cloud-infrastructure-has-become-cheaper-and-more-commodified">#&lt;/a>
+&lt;/h2>&lt;p>A key theory of mybinder.org (and 2i2c) is that commercial cloud infrastructure will be commidified over time &amp;ndash; what begins as cutting-edge functionality will become commonplace and offered across all cloud providers. As a result, costs will go down over time. Abstractions like
+&lt;a href="https://kubernetes.io/" target="_blank" rel="noopener" >Kubernetes&lt;/a> will allow you to easily migrate workflows and infrastructure between cloud providers. As a result, you&amp;rsquo;ll be able to easily &lt;em>follow those costs&lt;/em> where there are better options. That&amp;rsquo;s essentially what is happening here.&lt;/p>
+&lt;p>There are two key changes that make it much easier to deploy a BinderHub instance at a fraction of the cost:&lt;/p>
+&lt;p>First, &lt;strong>Kubernetes has matured and become easier to deploy&lt;/strong>. When mybinder.org started, it was using the cutting-edge of Kubernetes functionality. This meant that we needed to use cloud providers that provided a &lt;em>managed Kubernetes service&lt;/em> to deal with this complexity. A managed Kubernetes offering tends to be expensive, offered by only a few cloud providers, and thus raises costs across-the-board for the provider that offers it.&lt;/p>
+&lt;p>However, this was almost a decade ago, and Kubernetes has become both more functional and more stable. There are now many more ways of running Kubernetes, especially for simpler workflows that don&amp;rsquo;t require autoscaling. In the last several months, we&amp;rsquo;ve been experimenting with &lt;strong>single-node Kubernetes workflows&lt;/strong> via
+&lt;a href="https://k3s.io/" target="_blank" rel="noopener" >K3s&lt;/a>&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>.
+&lt;a href="https://k3s.io/" target="_blank" rel="noopener" >K3s&lt;/a> is a lightweight Kubernetes distribution that is much easier to deploy and manage. It&amp;rsquo;s designed for things like edge computing and low-resource environments, and it can be deployed with a single script!&lt;/p>
+&lt;p>By running a Kubernetes cluster on a single node, we don&amp;rsquo;t need a &amp;ldquo;managed Kubernetes service&amp;rdquo;, which means &lt;strong>we can choose from a much larger pool of infrastructure / cloud providers&lt;/strong>. If all we need is a running VM, this is something the tech industry has been doing for decades.&lt;/p>
+&lt;p>Second, &lt;strong>Managed Object Storage services have more open source options, and are more commodified and cheaper&lt;/strong>. In addition to Kubernetes, the other thing that BinderHub needs is a way to store and retrieve images for the environments that it builds. This also used to be a fairly complex problem, and thus required managed solutions from cloud providers that charged a premium for their service. However, a number of open source object storage solutions have emerged and made it much easier for providers to support this workflow.&lt;sup id="fnref:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>. Because these are open source, infrastructure providers can provide managed object storage at a fraction of the cost.&lt;/p>
+&lt;p>Because of these two things, we&amp;rsquo;ve learned that we can run a BinderHub instance on a single VM from a much larger pool of infrastructure providers. This means &lt;strong>we should be able to run BinderHub instances at a fraction of the cost&lt;/strong>.&lt;sup id="fnref:4">&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref">4&lt;/a>&lt;/sup>&lt;/p>
+&lt;h2 id="deploying-binderhub-on-a-single-node-vm-is-cheaper-and-simpler">
+Deploying BinderHub on a single-node VM is cheaper and simpler
+&lt;a class="header-anchor" href="#deploying-binderhub-on-a-single-node-vm-is-cheaper-and-simpler">#&lt;/a>
+&lt;/h2>&lt;p>Last week, we
+&lt;a href="https://github.com/jupyterhub/mybinder.org-deploy/pull/3169" target="_blank" rel="noopener" >deployed 2i2c.mybinder.org&lt;/a>, a single-node Kubernetes instance on
+&lt;a href="https://hetzner.com/cloud" target="_blank" rel="noopener" >Hetzner&lt;/a> cloud using
+&lt;a href="https://k3s.io/" target="_blank" rel="noopener" >K3s&lt;/a>. This will run on a single node VM, with a Kubernetes instance that is entirely managed by us, and with managed object storage from Hetzner. Compared to other cloud providers, it is &lt;strong>around 5x cheaper per month&lt;/strong>.&lt;/p>
+&lt;figure id="figure-comparison-of-rough-monthly-costs-across-different-cloud-providers-for-similar-vm-instances-these-are-rough-estimates-based-on-cloud-provider-pricing-pages-for-an-on-demand-vm-with-around-190gb-ram-pricing-pages-hetzner-cloudhttpswwwhetznercomcloud-300-microsoft-azurehttpsazurecomeda6294b08dfa49639f74caad1630bbe4-1300-google-cloud-platformhttpscloudgooglecomproductscalculatorhlendlcjhdavjrwlrbevpeumpnqzawtvrrmkxuumtnalv0t0rnnu5pmhpav1eywlrnmfphsxppve1rqve9praigirdrtq3qtywqy1dnum5ltq3qkqtqtm3ms05mjbcqju1qjngrjg-1500-amazon-web-serviceshttpscalculatorawsestimateida3bddb8bdbfa2058b941b669e408141e7fd18da4-1600">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Comparison of rough monthly costs across different cloud providers for similar VM instances. These are rough estimates based on cloud provider pricing pages for an on-demand VM with around 190GB RAM. Pricing pages: [Hetzner Cloud](https://www.hetzner.com/cloud) ~$300, [Microsoft Azure](https://azure.com/e/da6294b08dfa49639f74caad1630bbe4) ~$1,300, [Google Cloud Platform](https://cloud.google.com/products/calculator?hl=en&amp;amp;dl=CjhDaVJrWlRBeVpEUmpNQzAwTVRrMkxUUmtNalV0T0RnNU5pMHpaV1EyWlRnMFpHSXpPVE1RQVE9PRAIGiRDRTQ3QTYwQy1DNUM5LTQ3QkQtQTM3MS05MjBCQjU1QjNGRjg) ~$1,500, [Amazon Web Services](https://calculator.aws/#/estimate?id=a3bddb8bdbfa2058b941b669e408141e7fd18da4) ~$1,600." srcset="
+/blog/2025/binder-singlenode/featured_hu51603921db60081a66cbc5b0a068d259_308887_9daba9f80271d1da5e14b46a3d641067.webp 400w,
+/blog/2025/binder-singlenode/featured_hu51603921db60081a66cbc5b0a068d259_308887_c2893908494f67146ba04b558b8584c1.webp 760w,
+/blog/2025/binder-singlenode/featured_hu51603921db60081a66cbc5b0a068d259_308887_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2025/binder-singlenode/featured_hu51603921db60081a66cbc5b0a068d259_308887_9daba9f80271d1da5e14b46a3d641067.webp"
+width="760"
+height="540"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+Comparison of rough monthly costs across different cloud providers for similar VM instances. These are rough estimates based on cloud provider pricing pages for an on-demand VM with around 190GB RAM. Pricing pages:
+&lt;a href="https://www.hetzner.com/cloud" target="_blank" rel="noopener" >Hetzner Cloud&lt;/a> ~$300,
+&lt;a href="https://azure.com/e/da6294b08dfa49639f74caad1630bbe4" target="_blank" rel="noopener" >Microsoft Azure&lt;/a> ~$1,300,
+&lt;a href="https://cloud.google.com/products/calculator?hl=en&amp;amp;dl=CjhDaVJrWlRBeVpEUmpNQzAwTVRrMkxUUmtNalV0T0RnNU5pMHpaV1EyWlRnMFpHSXpPVE1RQVE9PRAIGiRDRTQ3QTYwQy1DNUM5LTQ3QkQtQTM3MS05MjBCQjU1QjNGRjg" target="_blank" rel="noopener" >Google Cloud Platform&lt;/a> ~$1,500,
+&lt;a href="https://calculator.aws/#/estimate?id=a3bddb8bdbfa2058b941b669e408141e7fd18da4" target="_blank" rel="noopener" >Amazon Web Services&lt;/a> ~$1,600.
+&lt;/figcaption>&lt;/figure>
+&lt;!-- Machines for the figure above:
+Hetzner: CCX63
+Amazon Web Services: m8g.12xlarge
+Google Cloud Platform: n2-standard-48
+Microsoft Azure: D48as v5
+-->
+&lt;p>Running a single-node Kubernetes instance will be a cheap and effective way to handle a lot of &lt;code>mybinder.org&lt;/code>&amp;rsquo;s capacity needs. Because it&amp;rsquo;s a single node cluster, there is no auto-scaling (one reason it is so cheap), which reduces a lot of the complexity we&amp;rsquo;ll have to manage. These are acceptable tradeoffs for a service like &lt;code>mybinder.org&lt;/code>, which runs entirely ephemeral sessions with very limited resources and no promises about uptime, persistence, etc.&lt;/p>
+&lt;p>You might be wondering: &amp;ldquo;I thought Kubernetes was supposed to &lt;em>save money&lt;/em>.&amp;rdquo; Normally, running Kubernetes for scalable workflows does save costs because you can scale infrastructure to match your capacity needs. Without scaling, you&amp;rsquo;d need to provide a VM that can &lt;em>always&lt;/em> handle your &lt;em>maximum capacity&lt;/em> needs (and pay for the costs the entire time). With Kubernetes, you can request and remove nodes to grow your capacity as-needed (and save money doing so). It looks something like this:&lt;/p>
+&lt;figure id="figure-the-cost-difference-between-a-single-large-vm-vs-scalable-nodes-given-variable-usage-over-time-kubernetes-allows-you-to-scale-your-cost-up-and-down-with-need-which-is-more-efficient-than-paying-for-a-single-vm-that-can-withstand-your-maximum-capacity">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="The cost difference between a single large VM vs scalable nodes. Given variable usage over time, kubernetes allows you to scale your cost up and down with need, which is more efficient than paying for a single VM that can withstand your maximum capacity."
+src="https://2i2c.org/blog/2025/binder-singlenode/images/scalable.excalidraw.svg"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+The cost difference between a single large VM vs scalable nodes. Given variable usage over time, kubernetes allows you to scale your cost up and down with need, which is more efficient than paying for a single VM that can withstand your maximum capacity.
+&lt;/figcaption>&lt;/figure>
+&lt;p>However, there is a built-in cost you pay when you use a service that provides managed Kubernetes. &lt;strong>Managed Kubernetes services are complex and expensive&lt;/strong>, and this is reflected across-the-board in the provider&amp;rsquo;s costs. What if we could achieve the same outcome with a much simpler cloud offering like a single VM?&lt;/p>
+&lt;p>We did a bit of research and discovered that the Kubernetes and object storage landscape has indeed evolved significantly since the early days of mybinder.org. For example,
+&lt;a href="https://www.hetzner.com/cloud/" target="_blank" rel="noopener" >Hetzner&lt;/a> is a cloud provider that has been around for a long time. It has single-node VMs that are about &lt;code>4x&lt;/code> cheaper than their counterparts in Google Cloud or AWS, and provides managed object storage that uses
+&lt;a href="https://min.io/" target="_blank" rel="noopener" >MinIO&lt;/a> in a cost-effective way. Using
+&lt;a href="https://k3s.io/" target="_blank" rel="noopener" >K3s&lt;/a>, we can run a lightweight, single-node Kubernetes runtime on this node, and deploy a BinderHub with the same infrastructure as any other BinderHub federation member.&lt;/p>
+&lt;p>By our estimate, we could fit around &lt;strong>400 simultaneous sessions&lt;/strong> on &lt;code>mybinder.org&lt;/code> (because each session uses very few cloud resources). This is already the majority of mybinder.org&amp;rsquo;s capacity needs, and at a much lower cost than using a scalable Kubernetes cluster. The cost picture looks something like this:&lt;/p>
+&lt;figure id="figure-if-your-single-vm-is-much-cheaper-it-might-still-be-the-cheapest-option-in-the-case-of-a-hetzner-vm-it-has-roughly-the-same-capacity-as-another-cloud-providers-vm-but-at-14-of-the-cost">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="If your single VM is much cheaper, it might still be the cheapest option. In the case of a Hetzner VM, it has roughly the same capacity as another cloud provider&amp;#39;s VM, but at 1/4 of the cost."
+src="https://2i2c.org/blog/2025/binder-singlenode/images/single.excalidraw.svg"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+If your single VM is much cheaper, it might still be the cheapest option. In the case of a Hetzner VM, it has roughly the same capacity as another cloud provider&amp;rsquo;s VM, but at 1/4 of the cost.
+&lt;/figcaption>&lt;/figure>
+&lt;h2 id="2i2cmybinderorg-now-serves-70-of-the-mybinderorg-federation">
+2i2c.mybinder.org now serves 70% of the mybinder.org federation
+&lt;a class="header-anchor" href="#2i2cmybinderorg-now-serves-70-of-the-mybinderorg-federation">#&lt;/a>
+&lt;/h2>&lt;p>About a week ago, we launched
+&lt;a href="https://2i2c.mybinder.org" target="_blank" rel="noopener" >2i2c.mybinder.org&lt;/a> running via the methodology we described above. We intended to run this as a longer experiment, but believe that it has already proven useful enough to consider &amp;ldquo;ready for production&amp;rdquo;. We recently
+&lt;a href="https://github.com/jupyterhub/mybinder.org-deploy/pull/3196" target="_blank" rel="noopener" >increased 2i2c.mybinder.org&amp;rsquo;s load to 70%&lt;/a> and will continue to monitor its performance over time. Here&amp;rsquo;s a plot of where each mybinder.org session has been run over the past ten days - you can see the moment where we turn on &lt;code>2i2c.mybinder.org&lt;/code> to the left:&lt;/p>
+&lt;figure id="figure-sessions-launched-on-mybinderorgs-federation-over-the-past-ten-days-the-yellow-area-represents-sessions-run-on-2i2cmybinderorg-they-now-make-up-the-majority-of-launches-on-mybinderorg-prior-to-this-gesismybinderorg-was-the-only-remaining-federation-member">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Sessions launched on mybinder.org&amp;#39;s federation over the past ten days. The yellow area represents sessions run on `2i2c.mybinder.org`. They now make up the majority of launches on mybinder.org. Prior to this, `gesis.mybinder.org` was the only remaining federation member." srcset="
+/blog/2025/binder-singlenode/images/grafana_hue0c246cc982879ed32a6360c39d9353a_621484_8b7db3ecb3259d2ccf6fed0acdab58fe.webp 400w,
+/blog/2025/binder-singlenode/images/grafana_hue0c246cc982879ed32a6360c39d9353a_621484_60d33ca4f5b10dd4a2e0daa491ee21c6.webp 760w,
+/blog/2025/binder-singlenode/images/grafana_hue0c246cc982879ed32a6360c39d9353a_621484_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2025/binder-singlenode/images/grafana_hue0c246cc982879ed32a6360c39d9353a_621484_8b7db3ecb3259d2ccf6fed0acdab58fe.webp"
+width="760"
+height="455"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+Sessions launched on mybinder.org&amp;rsquo;s federation over the past ten days. The yellow area represents sessions run on &lt;code>2i2c.mybinder.org&lt;/code>. They now make up the majority of launches on mybinder.org. Prior to this, &lt;code>gesis.mybinder.org&lt;/code> was the only remaining federation member.
+&lt;/figcaption>&lt;/figure>
+&lt;p>For now, 2i2c is sponsoring a max of €350 a month (with some currency conversion noise) to run this service. We&amp;rsquo;ll provide in-kind labor to run this node, and treat it as an organizational investment in supporting open science, as well as learning new Kubernetes and cloud infrastructure workflows. We&amp;rsquo;re going to use funds recovered from communities in our
+&lt;a href="https://2i2c.org/platform/" >community hub network&lt;/a>, along with in-kind labor to build out this experiment.&lt;/p>
+&lt;p>In six months, we&amp;rsquo;ll evaluate how much effort it was to run this node for &lt;code>mybinder.org&lt;/code>, whether it meaningfully helped with &lt;code>mybinder.org&lt;/code>&amp;rsquo;s capacity, and whether it was sustainable for us from a time and labor perspective.&lt;/p>
+&lt;h2 id="others-can-join-the-mybinderorg-federation-using-this-approach-as-well">
+Others can join the mybinder.org federation using this approach as well
+&lt;a class="header-anchor" href="#others-can-join-the-mybinderorg-federation-using-this-approach-as-well">#&lt;/a>
+&lt;/h2>&lt;p>We think that developing this single-node BinderHub workflow will make it much easier for others to join the mybinder.org federation, because it lowers the infrastructure and skills complexity needed to join.
+&lt;a href="https://github.com/jupyterhub/mybinder.org-deploy/blob/72a1a34509e2c43aec788f602250c58d9d849a13/docs/source/deployment/k3s.md" target="_blank" rel="noopener" >Here is a brief guide we&amp;rsquo;ve written for deploying a BinderHub with K3s&lt;/a>. We are helping a few interested organizations deploy their own BinderHubs in this way in order to validate the idea, and are hopeful that this makes it much easier to grow mybinder.org&amp;rsquo;s capacity via new federation members.&lt;sup id="fnref:5">&lt;a href="#fn:5" class="footnote-ref" role="doc-noteref">5&lt;/a>&lt;/sup>&lt;/p>
+&lt;p>We&amp;rsquo;re excited to experiment with new ways to support &lt;code>mybinder.org&lt;/code>. We think this is an excellent example of how open standards and technology lead to cloud workflows with lower costs and more flexibility. We also think it&amp;rsquo;s a good example of how it is valuable to have organizations aligned with open science (like 2i2c!) acting in this space.&lt;/p>
+&lt;h2 id="anybody-want-to-fund-this">
+Anybody want to fund this?
+&lt;a class="header-anchor" href="#anybody-want-to-fund-this">#&lt;/a>
+&lt;/h2>&lt;p>If you&amp;rsquo;re interested in making open science infrastructure like Binder more scalable and sustainable, we&amp;rsquo;d love to find more resources to both sustain this node and cover more development time to run this experiment.
+&lt;a href="" >Feel free to reach out here&lt;/a>.&lt;/p>
+&lt;p>If you have access to VMs and object storage, and are interested in running a mybinder.org federation member using the methods described here, check out
+&lt;a href="https://github.com/jupyterhub/mybinder.org-deploy/blob/72a1a34509e2c43aec788f602250c58d9d849a13/docs/source/deployment/k3s.md" target="_blank" rel="noopener" >our brief guide for deploying a BinderHub with K3s&lt;/a>.&lt;/p>
+&lt;p>If you&amp;rsquo;re generally interested in supporting &lt;code>mybinder.org&lt;/code> with cloud resources, financial resources, or human resources, please see the
+&lt;a href="https://mybinder.readthedocs.io/en/latest/about/support.html" target="_blank" rel="noopener" >Support Binder&lt;/a> page for how you can help.&lt;/p>
+&lt;div class="alert alert-note">
+&lt;div>
+If you&amp;rsquo;re interested in supporting &lt;code>mybinder.org&lt;/code> with cloud resources, financial resources, or human resources, please see the
+&lt;p>&lt;a href="https://mybinder.readthedocs.io/en/latest/about/support.html" target="_blank" rel="noopener" >Support Binder&lt;/a> page for how you can help.&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>Many thanks to
+&lt;a href="https://www.gesis.org/en/home" target="_blank" rel="noopener" >GESIS&lt;/a> and
+&lt;a href="https://us.ovhcloud.com/" target="_blank" rel="noopener" >OVH&lt;/a> for their continued support of mybinder.org, your contributions to keeping this service running are critical!&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2">
+&lt;p>thanks to
+&lt;a href="https://carlboettiger.info/" target="_blank" rel="noopener" >Carl Boettiger&lt;/a> for collaborating on this with us!&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:3">
+&lt;p>One example is
+&lt;a href="https://min.io/" target="_blank" rel="noopener" >MinIO&lt;/a>, which is used by
+&lt;a href="https://hetzner.com/cloud" target="_blank" rel="noopener" >Hetzner&lt;/a> to provide managed object storage for their single-node VMs.&amp;#160;&lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:4">
+&lt;p>For example,
+&lt;a href="https://hetzner.com/cloud" target="_blank" rel="noopener" >Hetzner&lt;/a> provides a single-VM option with managed object storage that is roughly 25% of the cost of other cloud providers that also offer autoscaling Kubernetes services. There are many other infrastructure providers who could be used in this way.&amp;#160;&lt;a href="#fnref:4" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:5">
+&lt;p>We&amp;rsquo;re also experimenting with a few other ways to reduce the complexity and costs of running a BinderHub even further, but will have more on that later as we learn more :-).&amp;#160;&lt;a href="#fnref:5" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></description></item><item><title>Chris Holdgraf</title><link>https://2i2c.org/author/chris-holdgraf/</link><pubDate>Wed, 29 Jan 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/author/chris-holdgraf/</guid><description>&lt;p>Chris is the Executive Director of 2i2c. He was previously a post-doctoral researcher in the Department of Statistics at
 &lt;a href="https://www.berkeley.edu/" target="_blank" rel="noopener" >UC Berkeley&lt;/a>, and a Community Architect with the
 &lt;a href="https://data.berkeley.edu/" target="_blank" rel="noopener" >Division of Data Science&lt;/a> at Berkeley. He is also a team member of Project Jupyter (particularly the
 &lt;a href="https://jupyterhub-team-compass.readthedocs.io/en/latest/team.html#jupyterhub-team" target="_blank" rel="noopener" >JupyterHub and Binder teams&lt;/a>), with a focus on how infrastructure can support interactive computing workflows in research and education. He&amp;rsquo;s interested in the boundary between technology, open-source software, and research and education workflows, as well as how open communities can support and extend these workflows in a way that makes science more impactful and inclusive. His background is in cognitive and computational neuroscience, where he used
@@ -663,7 +818,13 @@ display: inline-flex;
 &lt;/ul>
 &lt;p>This report was written with the
 &lt;a href="https://mystmd.org" target="_blank" rel="noopener" >new MyST Markdown document engine&lt;/a> and shows off some of the functionality that we&amp;rsquo;ve been working on in collaboration with the MyST team.&lt;/p>
-&lt;p>We&amp;rsquo;re incredibly grateful for the seed funding that CZI provided to kickstart 2i2c&amp;rsquo;s mission and operations, and excited about more impact to come!&lt;/p></description></item><item><title>Community Update: October 2023</title><link>https://2i2c.org/blog/2023/update-october/</link><pubDate>Fri, 10 Nov 2023 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2023/update-october/</guid><description>&lt;p>Over the past few months, we&amp;rsquo;ve been investigating ways to improve our reporting both internally and externally.
+&lt;p>We&amp;rsquo;re incredibly grateful for the seed funding that CZI provided to kickstart 2i2c&amp;rsquo;s mission and operations, and excited about more impact to come!&lt;/p></description></item><item><title>2i2c supports Jupyter Docker Stacks ARM builds</title><link>https://2i2c.org/blog/2023/docker-stacks-support/</link><pubDate>Fri, 01 Dec 2023 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2023/docker-stacks-support/</guid><description>&lt;p>The
+&lt;a href="https://jupyter-docker-stacks.readthedocs.io/" target="_blank" rel="noopener" >Jupyter Docker Stacks&lt;/a> project provides a collection of ready-to-use Docker images for Jupyter environments. These images are used by many in the Jupyter community, including 2i2c which uses them as base images for our JupyterHub deployments.&lt;/p>
+&lt;p>The project recently began publishing
+&lt;a href="https://github.com/jupyter/docker-stacks/issues/1019" target="_blank" rel="noopener" >ARM-compatible images&lt;/a> alongside the standard x86 images, making it easier for users with ARM-based systems (like M1 Macs) to use these environments. However, building and hosting these ARM images comes with additional cloud computing costs that were being personally covered by
+&lt;a href="https://github.com/mathbunnyru" target="_blank" rel="noopener" >@mathbunnyru&lt;/a>, one of the project&amp;rsquo;s maintainers.&lt;/p>
+&lt;p>A part of 2i2c&amp;rsquo;s mission is supporting upstream communities that we rely on, especially where the upstream project has limited resources. For this reason, we&amp;rsquo;ve decided to support Jupyter Docker Stack&amp;rsquo;s ARM building costs, with a total budget of &lt;code>$2000&lt;/code> (approximately &lt;code>$150&lt;/code> per month). As a regular user and beneficiary of the Jupyter Docker Stacks, we believe it&amp;rsquo;s important to contribute to the maintenance and sustainability of this crucial piece of infrastructure that benefits the entire Jupyter community.&lt;/p>
+&lt;p>We hope this support helps the Docker Stacks project remain healthy, and continue providing high-quality, multi-architecture images that work across different computing platforms. We&amp;rsquo;ll revisit this decision as the landscape of technology providers changes and other options arise.&lt;/p></description></item><item><title>Community Update: October 2023</title><link>https://2i2c.org/blog/2023/update-october/</link><pubDate>Fri, 10 Nov 2023 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2023/update-october/</guid><description>&lt;p>Over the past few months, we&amp;rsquo;ve been investigating ways to improve our reporting both internally and externally.
 We&amp;rsquo;ve decided to experiment with a &lt;strong>monthly community update&lt;/strong> to create a regular cadence of transparency and highlights from 2i2c for our broader community.
 This is the first such update, so bear with us as we work out the kinks!&lt;/p>
 &lt;p>Our goal with these updates is to share what stands out at 2i2c - what we&amp;rsquo;ve learned, what we&amp;rsquo;re proud of, where we&amp;rsquo;ve struggled, and where we&amp;rsquo;ve had an impact.
