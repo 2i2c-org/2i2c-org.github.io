@@ -46,7 +46,32 @@ Because of these two things, we've learned that we can run a BinderHub instance 
 
 ## Deploying BinderHub on a single-node VM is cheaper and simpler
 
-Last week, we [deployed 2i2c.mybinder.org](https://github.com/jupyterhub/mybinder.org-deploy/pull/3169), a single-node Kubernetes instance on [Hetzner](https://hetzner.com/cloud) cloud using [K3s](https://k3s.io/). This will run on a single node VM, with a Kubernetes instance that is entirely managed by us, and with managed object storage from Hetzner.
+Last week, we [deployed 2i2c.mybinder.org](https://github.com/jupyterhub/mybinder.org-deploy/pull/3169), a single-node Kubernetes instance on [Hetzner](https://hetzner.com/cloud) cloud using [K3s](https://k3s.io/). This will run on a single node VM, with a Kubernetes instance that is entirely managed by us, and with managed object storage from Hetzner. Compared to other cloud providers, it is **around 5x cheaper per month**.
+
+{{< figure src="featured.png" caption="Comparison of rough monthly costs across different cloud providers for similar VM instances. These are rough estimates based on cloud provider pricing pages for an on-demand VM with around 190GB RAM. Pricing pages: [Hetzner Cloud](https://www.hetzner.com/cloud), [Google Cloud Platform](https://cloud.google.com/compute/vm-instance-pricing), [Amazon Web Services](https://aws.amazon.com/ec2/pricing/on-demand/), [Microsoft Azure](https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/#pricing)." >}}
+
+<!-- Data for the figure above: 
+
+  Hetzner
+    https://www.hetzner.com/cloud
+    CCX63
+    $320/mo
+  Amazon Web Services
+    https://aws.amazon.com/ec2/pricing/on-demand/
+    https://calculator.aws/#/createCalculator/ec2-enhancement
+    m8g.12xlarge
+    $1500
+  Google Cloud Platform
+    https://cloud.google.com/products/calculator?hl=en&dl=CjhDaVEzWlRkbU1tVTNaaTFtTWpJNExUUmxObVV0T0dFME5TMHlObVJrTmpsall6RmtPR0VRQVE9PRAIGiRGRjUzNTJEQi1EODI4LTQ0RTYtOEM3MC0wMkNFNUZDQ0RGOUQ
+    n2-standard-48
+    $1700
+  Microsoft Azure
+    https://azure.microsoft.com/en-us/pricing/details/virtual-machines/linux/#pricing
+    https://azure.microsoft.com/en-us/pricing/calculator/
+    D48ads v5
+    $1,800
+
+-->
 
 Running a single-node Kubernetes instance will be a cheap and effective way to handle a lot of `mybinder.org`'s capacity needs. Because it's a single node cluster, there is no auto-scaling (one reason it is so cheap), which reduces a lot of the complexity we'll have to manage. These are acceptable tradeoffs for a service like `mybinder.org`, which runs entirely ephemeral sessions with very limited resources and no promises about uptime, persistence, etc.
 
