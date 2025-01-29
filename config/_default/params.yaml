@@ -15,12 +15,13 @@ appearance:
 
 marketing:
   seo:
-    site_type: Project
+    site_type: ResearchOrganization
     local_business_type: ''
     org_name: '2i2c'
-    description: 'The International Interactive Computing Collaboration.'
+    description: 'A non-profit that designs community hubs for data-driven discovery, helps communities use these hubs to maximize impact, and facilitates the spread of ideas between communities in our network.'
     twitter: '2i2c_org'
   analytics:
+    # WE USE PLAUSIBLE.IO FOR ANALYTICS, DON'T FILL IN THE GOOGLE ANALYTICS OPTION
     google_analytics: ''
     baidu_tongji: ''
   verification:
