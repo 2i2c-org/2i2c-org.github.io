@@ -6,7 +6,8 @@ If you&amp;rsquo;re interested in supporting &lt;code>mybinder.org&lt;/code> wit
 &lt;/div>
 &lt;blockquote>
 &lt;p>&lt;code>tl;dr&lt;/code>: The 2i2c team is joining the mybinder.org federation with a
-&lt;a href="https://github.com/jupyterhub/mybinder.org-deploy/pull/3169/" target="_blank" rel="noopener" >single-node BinderHub instance at &lt;code>2i2c.mybinder.org&lt;/code>&lt;/a>. It should be much cheaper to run than auto-scaling Kubernetes clusters, and might be a good way to support &lt;code>mybinder.org&lt;/code> more sustainably.&lt;/p>
+&lt;a href="https://github.com/jupyterhub/mybinder.org-deploy/pull/3169/" target="_blank" rel="noopener" >single-node BinderHub instance at &lt;code>2i2c.mybinder.org&lt;/code>&lt;/a>. It should be much cheaper to run than auto-scaling Kubernetes clusters, and might be a good way to support &lt;code>mybinder.org&lt;/code> more sustainably. For questions or comments, join
+&lt;a href="https://jupyter.zulipchat.com/#narrow/channel/469744-jupyterhub/topic/ANN.3A.202i2c.20joins.20mybinder.2Eorg.20federation.20with.20new.20strategy/near/496811301" target="_blank" rel="noopener" >this Jupyter Zulip thread&lt;/a>.&lt;/p>
 &lt;/blockquote>
 &lt;p>
 &lt;a href="https://mybinder.org" target="_blank" rel="noopener" >&lt;code>mybinder.org&lt;/code>&lt;/a> is a massive public service for creating and sharing reproducible computational environments. It is managed by the JupyterHub team and
@@ -112,7 +113,8 @@ Others can join the mybinder.org federation using this approach as well
 &lt;a class="header-anchor" href="#others-can-join-the-mybinderorg-federation-using-this-approach-as-well">#&lt;/a>
 &lt;/h2>&lt;p>We think that developing this single-node BinderHub workflow will make it much easier for others to join the mybinder.org federation, because it lowers the infrastructure and skills complexity needed to join.
 &lt;a href="https://github.com/jupyterhub/mybinder.org-deploy/blob/72a1a34509e2c43aec788f602250c58d9d849a13/docs/source/deployment/k3s.md" target="_blank" rel="noopener" >Here is a brief guide we&amp;rsquo;ve written for deploying a BinderHub with K3s&lt;/a>. We are helping a few interested organizations deploy their own BinderHubs in this way in order to validate the idea, and are hopeful that this makes it much easier to grow mybinder.org&amp;rsquo;s capacity via new federation members.&lt;sup id="fnref:5">&lt;a href="#fn:5" class="footnote-ref" role="doc-noteref">5&lt;/a>&lt;/sup>&lt;/p>
-&lt;p>We&amp;rsquo;re excited to experiment with new ways to support &lt;code>mybinder.org&lt;/code>. We think this is an excellent example of how open standards and technology lead to cloud workflows with lower costs and more flexibility. We also think it&amp;rsquo;s a good example of how it is valuable to have organizations aligned with open science (like 2i2c!) acting in this space.&lt;/p>
+&lt;p>We&amp;rsquo;re excited to experiment with new ways to support &lt;code>mybinder.org&lt;/code>. We think this is an excellent example of how open standards and technology lead to cloud workflows with lower costs and more flexibility. We also think it&amp;rsquo;s a good example of how it is valuable to have organizations aligned with open science (like 2i2c!) acting in this space. If you have any questions or comments, please join
+&lt;a href="https://jupyter.zulipchat.com/#narrow/channel/469744-jupyterhub/topic/ANN.3A.202i2c.20joins.20mybinder.2Eorg.20federation.20with.20new.20strategy/near/496811301" target="_blank" rel="noopener" >this Jupyter Zulip thread&lt;/a>&lt;/p>
 &lt;h2 id="anybody-want-to-fund-this">
 Anybody want to fund this?
 &lt;a class="header-anchor" href="#anybody-want-to-fund-this">#&lt;/a>
