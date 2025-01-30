@@ -12,7 +12,7 @@ draft: false
 If you're interested in supporting `mybinder.org` with cloud resources, financial resources, or human resources, please see the [Support Binder](https://mybinder.readthedocs.io/en/latest/about/support.html) page for how you can help.
 {{% /callout %}}
 
-> `tl;dr`: The 2i2c team is joining the mybinder.org federation with a [single-node BinderHub instance at `2i2c.mybinder.org`](https://github.com/jupyterhub/mybinder.org-deploy/pull/3169/). It should be much cheaper to run than auto-scaling Kubernetes clusters, and might be a good way to support `mybinder.org` more sustainably.
+> `tl;dr`: The 2i2c team is joining the mybinder.org federation with a [single-node BinderHub instance at `2i2c.mybinder.org`](https://github.com/jupyterhub/mybinder.org-deploy/pull/3169/). It should be much cheaper to run than auto-scaling Kubernetes clusters, and might be a good way to support `mybinder.org` more sustainably. For questions or comments, join [this Jupyter Zulip thread](https://jupyter.zulipchat.com/#narrow/channel/469744-jupyterhub/topic/ANN.3A.202i2c.20joins.20mybinder.2Eorg.20federation.20with.20new.20strategy/near/496811301).
 
 [`mybinder.org`](https://mybinder.org) is a massive public service for creating and sharing reproducible computational environments. It is managed by the JupyterHub team and [members of the `mybinder.org` federation](https://mybinder.readthedocs.io/en/latest/about/federation.html). One challenge in running [`mybinder.org`](https://mybinder.org) is identifying cloud credits or financial resources to support the cloud infrastructure that runs the service. Two years ago, [Google stopped supporting `mybinder.org` federation with cloud credits](https://medium.com/jupyter-blog/mybinder-org-reducing-capacity-c93ccfc6413f), and last month [the federation lost more capacity](https://discourse.jupyter.org/t/mybinder-org-reduced-capacity-stability/31750), leaving only [GESIS](https://www.gesis.org/en/home) and [OVH](https://us.ovhcloud.com/) as remaining federation members[^thanks]. This makes `mybinder.org` less reliable, slower, and generally less useful to the world.
 
@@ -88,7 +88,7 @@ We think that developing this single-node BinderHub workflow will make it much e
 
 [^2]: We're also experimenting with a few other ways to reduce the complexity and costs of running a BinderHub even further, but will have more on that later as we learn more :-).
 
-We're excited to experiment with new ways to support `mybinder.org`. We think this is an excellent example of how open standards and technology lead to cloud workflows with lower costs and more flexibility. We also think it's a good example of how it is valuable to have organizations aligned with open science (like 2i2c!) acting in this space.
+We're excited to experiment with new ways to support `mybinder.org`. We think this is an excellent example of how open standards and technology lead to cloud workflows with lower costs and more flexibility. We also think it's a good example of how it is valuable to have organizations aligned with open science (like 2i2c!) acting in this space. If you have any questions or comments, please join [this Jupyter Zulip thread](https://jupyter.zulipchat.com/#narrow/channel/469744-jupyterhub/topic/ANN.3A.202i2c.20joins.20mybinder.2Eorg.20federation.20with.20new.20strategy/near/496811301)
 
 ## Anybody want to fund this?
 
