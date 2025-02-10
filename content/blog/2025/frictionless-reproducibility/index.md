@@ -1,6 +1,8 @@
 ---
 title: "Towards frictionless, portable, and sustainable reproducibility with Binder"
 date: 2025-02-10
+comment: |
+  Figures are here: https://docs.google.com/presentation/d/1ApnGswakl2U_OUzYxSOSis3V-DbmR8EsJhO-DZ7MuLk/edit#slide=id.g33066a3c77c_0_0
 --- 
 
 Last December I had an opportunity to discuss the current and future state of the open publishing ecosystem. While 2i2c doesn't primarily focus on "publishing" workflows, we do support communities on a journey that often _leads to publishing_, and we make choices about technology in our [open cloud platform](../../../platform/) that can support different kinds of publishing outcomes.
@@ -55,7 +57,9 @@ Integrating with publishing in this way would empower communities to leverage th
 
 ## How could we sustain the cost of running computation for published articles?
 
-This raises an important question: how would you sustain services like these? Communities are already nervous about the cost of computation for their workflows. Public services like [mybinder.org](https://mybinder.org) are free and accessible, but suitable for complex or mission-critical workflows. Would community stakeholders pay for privileged access to BinderHubs that could reproduce and share their computational narratives? Would publishers be willing to pay a percentage of the cloud and management costs associated with reproduction? Could we use this to sustain a larger public service like mybinder.org?
+This raises an important question: how would you sustain services like these? Communities are already nervous about the cost of computation for their workflows. Public services like [mybinder.org](https://mybinder.org) are free and accessible, but not scalable, nor suitable for complex or mission-critical workflows[^scale]. Would community stakeholders pay for privileged access to BinderHubs that could reproduce and share their computational narratives? Would publishers be willing to pay a percentage of the cloud and management costs associated with reproduction? Could we use this to sustain a larger public service like mybinder.org?
+
+[^scale]: The costs associated with running [mybinder.org](https://mybinder.org) have historically been shouldered by donations from organizations such has [OVH](https://ovhcloud.com), [Google](https://google.com), [GESIS](https://notebooks.gesis.org/), [Curvenote](https://curvenote.com), and now [2i2c](https://2i2c.org). These donations are not guaranteed, and do not scale directly with the number of users.
 
 We don't have any answers yet but we're keen to try. Some of these ideas were recently explored in a talk recorded for [AGU 2024](https://agu.confex.com/agu/fm24/meetingapp.cgi/Paper/100644).
 

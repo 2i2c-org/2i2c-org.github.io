@@ -1,6 +1,7 @@
 ---
-date: 2024-12-16
+date: 2024-2-15
 title: "Where we hope to improve our service for creating and sharing knowledge."
+draft: true
 ---
 
 <style>
@@ -17,21 +18,20 @@ title: "Where we hope to improve our service for creating and sharing knowledge.
   }
 </style>
 
-Over the years, 2i2c has managed infrastructure for more than 100 communities in research and education. Over this time, we've seen patterns emerge in how communities attract new members, collaborate with them, and create new knowledge. This post is a reflection on this process, where 2i2c has supported it historically, and where we think we can enhance our service to better-support this workflow.
-
+Over the years, 2i2c has managed infrastructure for more than 100 communities in research and education. During this time, we've seen patterns emerge in how communities attract new members, collaborate with them, and create new knowledge. This post is a reflection on this process, where 2i2c has supported it historically, and where we think we can enhance our service to better-support this workflow.
 ## Elements of data-driven discovery
 
 For any individual to create and share knowledge with data, they need access to a few key resources[^1]:
 
 - **Data** is the raw material that drives computational ideas.
 - **Computation** provides the mechanism for manipulating data with code.
-- **Tools** domain-specific software that leverage data and computation for specific outcomes.
+- **Tools** comprise of domain-specific software that leverage data and computation for specific outcomes.
 
 Users leverage these resources by creating two types of content:
 
 [^1]: For a more in-depth discussion of the relationship between tools, ideas, data, and computation, [Granger & Perez, 2021](https://ieeexplore.ieee.org/document/9387490).
 
-- **Code** operates these resources in order to run analyses, generate visualizations and reports, etc.
+- **Code** consumes these resources in order to run analyses, generate visualizations and reports, etc.
 - **Narratives** contextualize the work of code to tell a story.
 - **Computational Narratives** are a special-case of code and narratives that recognize the unique interplay between computation and scientific ideas for data-driven discovery.
 
