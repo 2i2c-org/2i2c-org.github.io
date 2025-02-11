@@ -1,6 +1,7 @@
 ---
 title: "Towards frictionless, portable, and sustainable reproducibility with Binder"
 date: 2025-02-10
+authors: ["Chris Holdgraf"]
 comment: |
   Figures are here: https://docs.google.com/presentation/d/1ApnGswakl2U_OUzYxSOSis3V-DbmR8EsJhO-DZ7MuLk/edit#slide=id.g33066a3c77c_0_0
 --- 
