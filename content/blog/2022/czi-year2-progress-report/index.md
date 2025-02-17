@@ -7,7 +7,7 @@ authors:
 tags:
   - bioscience
 categories:
-  - impact
+  - organization
 date: 2022-11-13
 featured: false
 draft: false

@@ -8,8 +8,6 @@ tags:
   - education
 categories:
   - impact
-  - updates
-  - partnerships
 featured: false
 draft: false
 ---

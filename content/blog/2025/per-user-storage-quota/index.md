@@ -5,9 +5,10 @@ summary: ""
 authors:
   - Sarah Gibson
 tags:
-  - open-source
+  - open source
+  - storage
 categories:
-  - impact
+  - service
 date: 2025-01-28T09:57:28+00:00
 lastmod: 2025-01-28T10:10:14+00:00
 featured: false

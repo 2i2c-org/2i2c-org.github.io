@@ -8,7 +8,6 @@ tags:
   - product
 categories:
   - organization
-  - service
 featured: false
 draft: false
 ---

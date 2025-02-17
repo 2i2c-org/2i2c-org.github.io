@@ -7,7 +7,7 @@ authors:
 tags:
   - open source
 categories:
-  - organization
+  - impact
 featured: false
 draft: false
 ---

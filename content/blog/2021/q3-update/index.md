@@ -4,9 +4,10 @@ subtitle: ""
 summary: ""
 authors:
   - Chris Holdgraf
-tags: []
+tags:
+  - report
 categories:
-  - updates
+  - organization
 date: 2021-10-10
 featured: false
 draft: false

@@ -4,8 +4,10 @@ subtitle: ""
 summary: ""
 authors:
   - Yuvi Panda
-tags: []
-categories: []
+tags:
+  - geoscience
+categories:
+  - impact
 date: 2025-01-07T15:18:37-08:00
 lastmod: 2025-01-07T15:18:37-08:00
 featured: false

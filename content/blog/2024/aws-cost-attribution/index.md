@@ -3,9 +3,10 @@ title: Track and manage cloud costs using Grafana
 date: 2024-11-15
 authors:
   - Jenny Wong
-tags: []
+tags:
+  - monitoring
 categories:
-  - organization
+  - service
 featured: false
 draft: false
 ---

@@ -4,9 +4,10 @@ subtitle: How we optimised and parallelised deployments of multiple JupyterHubs 
 summary: ""
 authors:
   - Sarah Gibson
-tags: []
+tags:
+  - cloud
 categories:
-  - enhancement
+  - service
 date: 2022-04-19
 featured: false
 draft: false

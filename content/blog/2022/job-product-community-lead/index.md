@@ -4,7 +4,8 @@ subtitle: ""
 summary: ""
 authors:
   - Chris Holdgraf
-tags: []
+tags:
+  - hiring
 categories:
   - organization
 date: 2022-02-22

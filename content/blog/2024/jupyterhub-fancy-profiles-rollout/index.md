@@ -8,7 +8,7 @@ tags:
   - jupyterhub
   - open source
 categories:
-  - impact
+  - service
 date: 2024-11-18T12:55:20-0800
 lastmod: 2024-11-18T12:55:20-0800
 featured: false

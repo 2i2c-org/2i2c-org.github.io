@@ -7,6 +7,9 @@ comment: |
   Figures are here: https://docs.google.com/presentation/d/1ApnGswakl2U_OUzYxSOSis3V-DbmR8EsJhO-DZ7MuLk/edit#slide=id.g33066a3c77c_0_0
 categories:
   - service
+tags:
+  - binder
+  - reproducibility
 --- 
 
 Last December I had an opportunity to discuss the current and future state of the open publishing ecosystem at a workshop hosted by [HHMI](https://www.hhmi.org)[^followup]. While 2i2c doesn't primarily focus on "publishing" workflows, we do support communities on a journey that often _leads to publishing_, and we make choices about technology in our [community hub platform](../../../platform/) that can support different kinds of publishing outcomes.

@@ -3,7 +3,8 @@ title: Pilot hubs, new collaborations, and new team members - A six month update
 summary: ""
 authors:
   - Chris Holdgraf
-tags: []
+tags:
+  - report
 categories:
   - organization
 date: 2021-05-25

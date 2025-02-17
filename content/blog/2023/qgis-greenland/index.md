@@ -8,7 +8,7 @@ tags:
   - geoscience
   - open source
 categories:
-  - impact
+  - service
 featured: false
 draft: false
 ---

@@ -4,9 +4,10 @@ subtitle: ""
 summary: ""
 authors:
   - Chris Holdgraf
-tags: []
+tags:
+  - hiring
 categories:
-  - people
+  - organization
 date: 2022-03-22
 featured: false
 draft: false
