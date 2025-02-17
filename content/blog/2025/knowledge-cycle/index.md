@@ -1,6 +1,6 @@
 ---
 date: 2024-2-15
-title: "Where we hope to improve our service for creating and sharing knowledge."
+title: Where we hope to improve our service for creating and sharing knowledge.
 draft: true
 ---
 

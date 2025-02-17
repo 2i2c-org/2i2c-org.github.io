@@ -1,10 +1,12 @@
 ---
-title: "Notes from our drop-in meeting about the Product and Community Lead role"
+title: Notes from our drop-in meeting about the Product and Community Lead role
 subtitle: ""
 summary: ""
-authors: ["Chris Holdgraf"]
+authors:
+  - Chris Holdgraf
 tags: []
-categories: [people]
+categories:
+  - people
 date: 2022-03-22
 featured: false
 draft: false

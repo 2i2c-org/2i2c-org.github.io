@@ -1,15 +1,18 @@
 ---
-title: "Improving the logged in home page experience in JupyterHub with `jupyterhub-fancy-profiles`"
+title: Improving the logged in home page experience in JupyterHub with `jupyterhub-fancy-profiles`
 subtitle: ""
 summary: ""
-authors: ["Yuvi Panda"]
-tags: [jupyterhub, open source]
-categories: [impact]
+authors:
+  - Yuvi Panda
+tags:
+  - jupyterhub
+  - open source
+categories:
+  - impact
 date: 2024-11-18T12:55:20-0800
 lastmod: 2024-11-18T12:55:20-0800
 featured: false
 draft: false
-
 ---
 
 On most research oriented JupyterHub installations, users would like to customize their server (the environment, resources available, etc) after logging in. In Kubernetes based JupyterHub environments, a [profile list](https://z2jh.jupyter.org/en/latest/jupyterhub/customizing/user-environment.html#using-multiple-profiles-to-let-users-select-their-environment) provides this functionality.

@@ -2,9 +2,11 @@
 title: "Community update Q1 2023: Growing our community partner network and our team"
 subtitle: ""
 summary: ""
-authors: ["Chris Holdgraf"]
+authors:
+  - Chris Holdgraf
 tags: []
-categories: [organization]
+categories:
+  - organization
 date: 2023-04-28
 featured: false
 draft: false

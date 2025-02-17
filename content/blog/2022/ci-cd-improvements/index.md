@@ -1,11 +1,13 @@
 ---
 title: "Tech update: Multiple JupyterHubs, multiple clusters, one repository."
-subtitle: "How we optimised and parallelised deployments of multiple JupyterHubs across multiple clusters in GitHub."
+subtitle: How we optimised and parallelised deployments of multiple JupyterHubs across multiple clusters in GitHub.
 summary: ""
-authors: ["Sarah Gibson"]
+authors:
+  - Sarah Gibson
 tags: []
-categories: [organization, service]
-date: "2022-04-19"
+categories:
+  - enhancement
+date: 2022-04-19
 featured: false
 draft: false
 ---

@@ -1,10 +1,14 @@
 ---
 title: Towards scalable and sustainable networks of community hubs
-date: "2024-06-18"
-lastmod: "2024-06-18"
-authors: ["Chris Holdgraf"]
-tags: [sustainability]
-categories: [organization, service]
+date: 2024-06-18
+lastmod: 2024-06-18
+authors:
+  - Chris Holdgraf
+tags:
+  - sustainability
+categories:
+  - organization
+  - service
 featured: false
 draft: false
 ---

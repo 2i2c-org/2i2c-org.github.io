@@ -1,11 +1,15 @@
 ---
 title: US Greenhouse Gas Center supports summer school at CIRA
-date: "2024-06-20"
-banner:
-  image: "cover.png"
-authors: ["Jenny Wong"]
-tags: [geoscience, education]
-categories: [impact, updates, partnerships]
+date: 2024-06-20
+authors:
+  - Jenny Wong
+tags:
+  - geoscience
+  - education
+categories:
+  - impact
+  - updates
+  - partnerships
 featured: false
 draft: false
 ---

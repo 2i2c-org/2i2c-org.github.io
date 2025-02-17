@@ -1,11 +1,13 @@
 ---
-title: Determining Climate Risks with NASA Earthdata Cloud at Scipy 2024 
-date: "2024-07-08"
-banner:
-  image: "featured.png"
-authors: ["Jenny Wong"]
-tags: [geoscience, education]
-categories: [impact]
+title: Determining Climate Risks with NASA Earthdata Cloud at Scipy 2024
+date: 2024-07-08
+authors:
+  - Jenny Wong
+tags:
+  - geoscience
+  - education
+categories:
+  - impact
 featured: false
 draft: false
 ---

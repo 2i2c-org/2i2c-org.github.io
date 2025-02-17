@@ -1,10 +1,14 @@
 ---
 title: An update to 2i2c's value proposition
-date: "2024-05-06"
-lastmod: "2024-05-06"
-authors: ["Chris Holdgraf"]
-tags: [product]
-categories: [organization, service]
+date: 2024-05-06
+lastmod: 2024-05-06
+authors:
+  - Chris Holdgraf
+tags:
+  - product
+categories:
+  - organization
+  - service
 featured: false
 draft: false
 ---

@@ -2,9 +2,11 @@
 title: "Community update Q3 2023: Service growth and growing pains"
 subtitle: ""
 summary: ""
-authors: ["Chris Holdgraf"]
+authors:
+  - Chris Holdgraf
 tags: []
-categories: [organization]
+categories:
+  - organization
 date: 2023-10-31
 featured: false
 draft: false

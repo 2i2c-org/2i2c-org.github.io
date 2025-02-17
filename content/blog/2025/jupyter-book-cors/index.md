@@ -1,9 +1,13 @@
 ---
 title: "Designing for an ecosystem: a case study in cross-project open source contribution"
-date: "2025-01-21"
-authors: ["Chris Holdgraf", "Angus Hollands"]
-tags: [open source]
-categories: [impact]
+date: 2025-01-21
+authors:
+  - Chris Holdgraf
+  - Angus Hollands
+tags:
+  - open source
+categories:
+  - impact
 featured: false
 draft: false
 ---

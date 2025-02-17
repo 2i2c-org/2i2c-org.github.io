@@ -2,9 +2,11 @@
 title: "New job posting: Product and Community Lead."
 subtitle: ""
 summary: ""
-authors: ["Chris Holdgraf"]
+authors:
+  - Chris Holdgraf
 tags: []
-categories: [people]
+categories:
+  - organization
 date: 2022-02-22
 featured: false
 draft: false

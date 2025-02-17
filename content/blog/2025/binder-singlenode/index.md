@@ -1,9 +1,13 @@
 ---
-title: "2i2c joins the mybinder.org federation with a cheaper and faster way to deploy Binderhub"
-date: "2025-01-29"
-authors: ["Yuvi Panda", "Chris Holdgraf"]
-tags: [open source]
-categories: [impact]
+title: 2i2c joins the mybinder.org federation with a cheaper and faster way to deploy Binderhub
+date: 2025-01-29
+authors:
+  - Yuvi Panda
+  - Chris Holdgraf
+tags:
+  - open source
+categories:
+  - organization
 featured: false
 draft: false
 ---

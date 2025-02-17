@@ -2,9 +2,12 @@
 title: "2022 in review: growing our partner communities and expanding our operations"
 subtitle: ""
 summary: ""
-authors: ["Chris Holdgraf"]
-tags: ["year-in-review"]
-categories: [organization]
+authors:
+  - Chris Holdgraf
+tags:
+  - year-in-review
+categories:
+  - organization
 date: 2023-01-04
 featured: false
 draft: false

@@ -1,8 +1,11 @@
 ---
 title: 2i2c communities at AGU 2024
 date: 2024-12-09
-tags: [geoscience, education]
-categories: [impact]
+tags:
+  - geoscience
+  - education
+categories:
+  - impact
 ---
 
 We are proud to share that several of 2i2c's community partners are presenting their work at AGU 2024! In each case, 2i2c's infrastructure plays a part in helping communities create and share knowledge, and grow their community. As an organization rooted in community-centric practices, we are particularly excited to see 2i2c represented "indirectly" at this conference, and to see ourselves as a supporting role enabling the impact of others.

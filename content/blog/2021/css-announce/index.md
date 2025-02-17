@@ -1,10 +1,13 @@
 ---
-title: "2i2c launches next phase in partnership with CS&S"
+title: 2i2c launches next phase in partnership with CS&S
 subtitle: ""
 summary: ""
-authors: ["Chris Holdgraf", "Danielle Robinson"]
-tags: [2i2c]
-categories: [updates]
+authors:
+  - Chris Holdgraf
+  - Danielle Robinson
+tags: []
+categories:
+  - organization
 date: 2021-09-30
 featured: false
 draft: false

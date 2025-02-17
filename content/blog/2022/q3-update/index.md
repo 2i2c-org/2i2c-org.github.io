@@ -1,10 +1,12 @@
 ---
-title: "Celebrating our progress in Q3 2022"
+title: Celebrating our progress in Q3 2022
 subtitle: ""
 summary: ""
-authors: ["Chris Holdgraf"]
+authors:
+  - Chris Holdgraf
 tags: []
-categories: [organization]
+categories:
+  - organization
 date: 2022-10-16
 featured: false
 draft: false

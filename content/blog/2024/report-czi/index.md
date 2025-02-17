@@ -1,10 +1,13 @@
 ---
-title: "A three year retrospective report of 2i2c's impact"
+title: A three year retrospective report of 2i2c's impact
 subtitle: ""
 summary: ""
-authors: ["Chris Holdgraf"]
-tags: [sustainability]
-categories: [organization]
+authors:
+  - Chris Holdgraf
+tags:
+  - sustainability
+categories:
+  - organization
 date: 2024-03-01
 lastmod: 2024-04-11
 featured: false

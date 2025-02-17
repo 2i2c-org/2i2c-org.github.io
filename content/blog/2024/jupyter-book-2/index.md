@@ -1,10 +1,10 @@
 ---
 title: Announcing the Jupyter Book 2 alpha
-date: "2024-11-18"
-banner:
-  image: "featured.png"
-authors: ["Jenny Wong"]
-tags: [open-source]
+date: 2024-11-18
+authors:
+  - Jenny Wong
+tags:
+  - open-source
 categories: []
 featured: false
 draft: false

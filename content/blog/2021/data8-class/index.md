@@ -1,9 +1,12 @@
 ---
 title: 2i2c partners with UC Berkeley and CloudBank to provide data science education hubs for community colleges in California
-date: "2021-01-01"
-authors: ["Jenny Wong"]
-tags: [education]
-categories: [impact]
+date: 2021-01-01
+authors:
+  - Jenny Wong
+tags:
+  - education
+categories:
+  - impact
 featured: false
 draft: false
 ---

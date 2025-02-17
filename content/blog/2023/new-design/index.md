@@ -1,10 +1,13 @@
 ---
-title: "A new design and logo for 2i2c"
+title: A new design and logo for 2i2c
 subtitle: ""
 summary: ""
-authors: ["Chris Holdgraf", "Zack Adell"]
+authors:
+  - Chris Holdgraf
+  - Zack Adell
 tags: []
-categories: [organization]
+categories:
+  - organization
 date: 2023-09-07
 featured: false
 draft: false

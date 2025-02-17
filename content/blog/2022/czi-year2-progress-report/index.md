@@ -2,9 +2,12 @@
 title: "Grant progress report: CZI Foundational grant year 2"
 subtitle: ""
 summary: ""
-authors: ["Chris Holdgraf"]
-tags: [bioscience]
-categories: [impact]
+authors:
+  - Chris Holdgraf
+tags:
+  - bioscience
+categories:
+  - impact
 date: 2022-11-13
 featured: false
 draft: false

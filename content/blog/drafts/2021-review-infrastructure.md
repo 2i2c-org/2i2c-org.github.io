@@ -2,9 +2,11 @@
 title: "2i2c’s first year, part 2: creating an infrastructure backbone."
 subtitle: ""
 summary: ""
-authors: ["Chris Holdgraf"]
+authors:
+  - Chris Holdgraf
 tags: []
-categories: [updates]
+categories:
+  - updates
 date: 2022-01-24
 featured: false
 draft: true

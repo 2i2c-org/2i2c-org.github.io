@@ -2,9 +2,11 @@
 title: "Community update Q3 2021: A new fiscal sponsor, improving our infrastructure, nearing an alpha launch."
 subtitle: ""
 summary: ""
-authors: ["Chris Holdgraf"]
+authors:
+  - Chris Holdgraf
 tags: []
-categories: [updates]
+categories:
+  - updates
 date: 2021-10-10
 featured: false
 draft: false
