@@ -2,10 +2,13 @@
 title: "New project: Open science cloud infrastructure and training for communities in Latin America and Africa"
 subtitle: ""
 summary: ""
-authors: ["Chris Holdgraf"]
-tags: ["bioscience"]
-categories: [impact]
-date: "2022-12-20"
+authors:
+  - Chris Holdgraf
+tags:
+  - bioscience
+categories:
+  - impact
+date: 2022-12-20
 featured: false
 draft: false
 ---

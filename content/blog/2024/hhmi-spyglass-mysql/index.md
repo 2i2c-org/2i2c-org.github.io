@@ -1,9 +1,15 @@
 ---
 title: Enabling neuroscience in the cloud with HHMI Spyglass and MySQL on JupyterHub
-date: "2024-07-05"
-authors: ["Yuvi Panda", "James Munroe", "Jenny Wong"]
-tags: [bioscience, open source]
-categories: [impact]
+date: 2024-07-05
+authors:
+  - Yuvi Panda
+  - James Munroe
+  - Jenny Wong
+tags:
+  - bioscience
+  - open source
+categories:
+  - impact
 featured: false
 draft: false
 ---

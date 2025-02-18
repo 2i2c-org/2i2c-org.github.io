@@ -2,14 +2,17 @@
 title: "Integrating BinderHub with JupyterHub: Empowering users to manage their own environments"
 subtitle: ""
 summary: ""
-authors: ["Yuvi Panda"]
-tags: [jupyterhub, open source]
-categories: [impact]
+authors:
+  - Yuvi Panda
+tags:
+  - jupyterhub
+  - open source
+categories:
+  - service
 date: 2024-01-03T16:56:14-08:00
 lastmod: 2024-01-12T12:11:55-08:00
 featured: false
 draft: false
-
 ---
 
 *Thanks to [Arnim Bleier](https://www.gesis.org/en/institute/staff/person/arnim.bleier), [Jenny Wong](https://jnywong.github.io/), [Georgiana Elena](https://github.com/GeorgianaElena), [Damián Avila](https://github.com/damianavila), [Jim Colliander](https://colliand.com/) and [James Munroe](https://github.com/jmunroe) for contributing to this blog post*

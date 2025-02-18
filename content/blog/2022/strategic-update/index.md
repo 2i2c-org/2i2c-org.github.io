@@ -2,9 +2,12 @@
 title: "One year later: an update of 2i2c's mission, strategy, and impact"
 subtitle: ""
 summary: ""
-authors: ["Chris Holdgraf"]
-tags: []
-categories: [organization]
+authors:
+  - Chris Holdgraf
+tags:
+  - report
+categories:
+  - organization
 date: 2022-10-09
 featured: false
 draft: false

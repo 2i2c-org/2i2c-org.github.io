@@ -1,9 +1,12 @@
 ---
 title: "2024 impact report: new team structure, new funding, and growth in our network"
-date: "2024-12-08"
-authors: ["Chris Holdgraf"]
-tags: [report]
-categories: [organization]
+date: 2024-12-08
+authors:
+  - Chris Holdgraf
+tags:
+  - report
+categories:
+  - organization
 featured: false
 draft: false
 ---

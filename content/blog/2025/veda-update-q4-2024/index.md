@@ -1,31 +1,19 @@
 ---
-# Documentation: https://docs.hugoblox.com/managing-content/
-
-title: "NASA VEDA & 2i2c Update for Q4 2024 (Oct-Dec 2024)"
+title: NASA VEDA & 2i2c Update for Q4 2024 (Oct-Dec 2024)
 subtitle: ""
 summary: ""
-authors: ["Yuvi Panda"]
-tags: []
-categories: []
+authors:
+  - Yuvi Panda
+tags:
+  - geoscience
+categories:
+  - impact
 date: 2025-01-07T15:18:37-08:00
 lastmod: 2025-01-07T15:18:37-08:00
 featured: false
 draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
-image:
-  caption: ""
-  focal_point: ""
-  preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: ["nasa-veda"]
+projects:
+  - nasa-veda
 ---
 
 A non-exhaustive list of things 2i2c and [Development Seed](https://developmentseed.org/) did with the [NASA VEDA](https://www.earthdata.nasa.gov/data/tools/veda) project last quarter!

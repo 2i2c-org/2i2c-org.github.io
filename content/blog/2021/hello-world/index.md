@@ -1,15 +1,18 @@
 ---
-title: "Hello World"
+title: Hello World
 subtitle: ""
 summary: ""
-authors: ["Chris Holdgraf"]
-tags: [meta]
-categories: [organization]
+authors:
+  - Chris Holdgraf
+tags:
+  - meta
+categories:
+  - organization
 date: 2020-11-10
 featured: false
 draft: false
 aliases:
- - /posts/hello-world
+  - /posts/hello-world
 ---
 
 👋 hey everyone!

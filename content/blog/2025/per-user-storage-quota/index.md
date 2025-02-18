@@ -1,29 +1,20 @@
 ---
-title: "Enforcing per-user storage quotas with `jupyterhub-home-nfs`"
+title: Enforcing per-user storage quotas with `jupyterhub-home-nfs`
 subtitle: ""
 summary: ""
-authors: ["Sarah Gibson"]
-tags: [open-source]
-categories: [impact]
+authors:
+  - Sarah Gibson
+tags:
+  - open source
+  - storage
+categories:
+  - service
 date: 2025-01-28T09:57:28+00:00
 lastmod: 2025-01-28T10:10:14+00:00
 featured: false
 draft: false
-
-# Featured image
-# To use, add an image named `featured.jpg/png` to your page's folder.
-# Focal points: Smart, Center, TopLeft, Top, TopRight, Left, Right, BottomLeft, Bottom, BottomRight.
-image:
-  caption: ""
-  focal_point: ""
-  preview_only: false
-
-# Projects (optional).
-#   Associate this post with one or more of your projects.
-#   Simply enter your project's folder or file name without extension.
-#   E.g. `projects = ["internal-project"]` references `content/project/deep-learning/index.md`.
-#   Otherwise, set `projects = []`.
-projects: ["nasa-veda"]
+projects:
+  - nasa-veda
 ---
 
 When sharing a storage disk between users, as is usually the case in a JupyterHub deployment, it is important to put in guardrails so that one user cannot eat up the whole storage capacity from the rest of the users.

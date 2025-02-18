@@ -1,9 +1,14 @@
 ---
 title: A QGIS desktop in the cloud with JupyterHub
-date: "2023-08-05"
-authors: ["Yuvi Panda", "Jenny Wong"]
-tags: [geoscience, open source]
-categories: [impact]
+date: 2023-08-05
+authors:
+  - Yuvi Panda
+  - Jenny Wong
+tags:
+  - geoscience
+  - open source
+categories:
+  - service
 featured: false
 draft: false
 ---

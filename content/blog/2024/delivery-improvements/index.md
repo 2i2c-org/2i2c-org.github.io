@@ -1,10 +1,14 @@
 ---
 title: Improvements to our team's planning and delivery
-date: "2024-04-15"
-lastmod: "2024-04-15"
-authors: ["Chris Holdgraf", "Harold Campbell"]
-tags: [culture]
-categories: [organization]
+date: 2024-04-15
+lastmod: 2024-04-15
+authors:
+  - Chris Holdgraf
+  - Harold Campbell
+tags:
+  - culture
+categories:
+  - organization
 featured: false
 draft: false
 ---

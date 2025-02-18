@@ -1,9 +1,13 @@
 ---
 title: Researchers at LEAP-Pangeo investigate overlooked sub-grid air-sea heat flux in climate models
-date: "2024-05-21"
-authors: ["Jenny Wong"]
-tags: [geoscience, community]
-categories: [impact]
+date: 2024-05-21
+authors:
+  - Jenny Wong
+tags:
+  - geoscience
+  - community
+categories:
+  - impact
 featured: false
 draft: false
 ---

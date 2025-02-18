@@ -2,9 +2,12 @@
 title: "Community Update: October 2023"
 subtitle: ""
 summary: ""
-authors: ["Chris Holdgraf"]
-tags: []
-categories: [organization]
+authors:
+  - Chris Holdgraf
+tags:
+  - report
+categories:
+  - organization
 date: 2023-11-10
 featured: false
 draft: false

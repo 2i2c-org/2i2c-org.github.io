@@ -1,10 +1,13 @@
 ---
-title: "Reflections on the Jack Eddy Symposium"
+title: Reflections on the Jack Eddy Symposium
 subtitle: ""
 summary: ""
-authors: ["James Colliander"]
-tags: ["geoscience"]
-categories: [impact]
+authors:
+  - James Colliander
+tags:
+  - geoscience
+categories:
+  - impact
 date: 2022-07-14
 featured: false
 draft: false

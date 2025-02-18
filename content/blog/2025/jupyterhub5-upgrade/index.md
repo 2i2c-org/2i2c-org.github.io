@@ -1,9 +1,12 @@
 ---
 title: 2i2c hubs now run JupyterHub 5.0
-date: "2025-01-17"
-authors: ["Georgiana Dolocan"]
-tags: []
-categories: [enhancements]
+date: 2025-01-17
+authors:
+  - Georgiana Dolocan
+tags:
+  - jupyterhub
+categories:
+  - service
 featured: false
 draft: false
 ---

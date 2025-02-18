@@ -1,9 +1,13 @@
 ---
-title: "2i2c supports Jupyter Docker Stacks ARM builds"
-date: "2023-12-01"
-authors: ["Chris Holdgraf", "Yuvi Panda"]
-tags: [open source]
-categories: [impact]
+title: 2i2c supports Jupyter Docker Stacks ARM builds
+date: 2023-12-01
+authors:
+  - Chris Holdgraf
+  - Yuvi Panda
+tags:
+  - open source
+categories:
+  - impact
 featured: false
 draft: false
 ---

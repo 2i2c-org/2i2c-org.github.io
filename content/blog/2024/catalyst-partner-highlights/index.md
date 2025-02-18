@@ -1,11 +1,12 @@
 ---
 title: Introducing the Catalyst Project Community Partner Highlights
-date: "2024-10-31"
-banner:
-  image: "featured.png"
-authors: ["Jenny Wong"]
-tags: [bioscience]
-categories: [impact]
+date: 2024-10-31
+authors:
+  - Jenny Wong
+tags:
+  - bioscience
+categories:
+  - impact
 featured: false
 draft: false
 ---

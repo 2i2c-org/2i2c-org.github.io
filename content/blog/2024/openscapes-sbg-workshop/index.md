@@ -1,11 +1,14 @@
 ---
 title: Openscapes Host a Surface Biology and Geology Workshop with Shared Password Feature
-date: "2024-07-09"
-banner:
-  image: "featured.png"
-authors: ["Yuvi Panda", "Jenny Wong"]
-tags: [geoscience, education]
-categories: [impact, updates, partnerships]
+date: 2024-07-09
+authors:
+  - Yuvi Panda
+  - Jenny Wong
+tags:
+  - geoscience
+  - education
+categories:
+  - impact
 featured: false
 draft: false
 ---

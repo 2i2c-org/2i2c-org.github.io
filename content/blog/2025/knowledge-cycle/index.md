@@ -1,7 +1,13 @@
 ---
-date: 2024-2-15
-title: "Where we hope to improve our service for creating and sharing knowledge."
+date: 2025-02-15
+title: Where we hope to improve our service for creating and sharing knowledge.
 draft: true
+categories:
+  - service
+tags:
+  - brainstorm
+authors:
+  - Chris Holdgraf
 ---
 
 <style>

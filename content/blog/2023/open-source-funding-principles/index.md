@@ -1,11 +1,17 @@
 ---
-title: "Principles and considerations for ethically accepting funding for open source"
+title: Principles and considerations for ethically accepting funding for open source
 subtitle: ""
 summary: ""
-authors: ["Chris Holdgraf"]
-tags: ["funding", "community", "open culture", "sustainability"]
-categories: [organization]
-date: "2023-01-08"
+authors:
+  - Chris Holdgraf
+tags:
+  - funding
+  - community
+  - open culture
+  - sustainability
+categories:
+  - organization
+date: 2023-01-08
 featured: false
 draft: false
 ---

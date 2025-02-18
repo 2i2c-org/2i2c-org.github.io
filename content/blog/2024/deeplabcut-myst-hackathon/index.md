@@ -1,11 +1,15 @@
 ---
 title: MyST Mini-Hackathon with the DeepLabCut Team
-date: "2024-09-02"
-banner:
-  image: "featured.png"
-authors: ["Jenny Wong", "Angus Hollands", "Chris Holdgraf"]
-tags: [bioscience, open source]
-categories: [impact]
+date: 2024-09-02
+authors:
+  - Jenny Wong
+  - Angus Hollands
+  - Chris Holdgraf
+tags:
+  - bioscience
+  - open source
+categories:
+  - impact
 featured: false
 draft: false
 ---

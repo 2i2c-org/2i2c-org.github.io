@@ -1,11 +1,13 @@
 ---
-title: "Announcing our formal commitment to open technology"
-date: "2025-01-15"
-banner:
-  image: ""
-authors: ["Yuvi Panda", "Chris Holdgraf"]
-tags: [open-source]
-categories: [organization]
+title: Announcing our formal commitment to open technology
+date: 2025-01-15
+authors:
+  - Yuvi Panda
+  - Chris Holdgraf
+tags:
+  - open source
+categories:
+  - organization
 featured: false
 draft: false
 ---

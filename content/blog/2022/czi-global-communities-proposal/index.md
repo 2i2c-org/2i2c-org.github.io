@@ -2,10 +2,13 @@
 title: "Open grant narrative: A Collaborative Interactive Computing Service Model for Global Communities"
 subtitle: ""
 summary: ""
-authors: ["Chris Holdgraf"]
-tags: [bioscience]
-categories: [organization]
-date: "2022-08-28"
+authors:
+  - Chris Holdgraf
+tags:
+  - bioscience
+categories:
+  - organization
+date: 2022-08-28
 featured: false
 draft: false
 ---
