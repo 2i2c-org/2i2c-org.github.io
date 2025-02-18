@@ -24,11 +24,11 @@ Jetstream2 uses [OpenStack](https://www.openstack.org) in order to manage pools 
 
 Cluster API needs a `CAPI management cluster` in order to manage other Kubernetes clusters, called workload clusters. On Jetstream2, this management cluster is gracefully created and operated by the Jetstream2 team, which means that the only task to worry about is creating and configuring the workload cluster.
 
-For the workload cluster we used the [Openstack Terraform provider](https://registry.terraform.io/providers/terraform-provider-openstack/openstack/latest/docs) to define the cluster template, the cluster itself and the node groups in a reproductible way.
+For the workload cluster we used the [Openstack Terraform provider](https://registry.terraform.io/providers/terraform-provider-openstack/openstack/latest/docs) to define the cluster template, the cluster itself and the node groups in a reproducible way.
 
 After the cluster infrastructure was successfully created on Jetstream2, thanks to the 2i2c hub infrastructure being cloud agnostic as well, deploying BinderHub to Jetstream2, was a seamless experience and it was no different than on other cloud providers that we already supported.
 
-We also learnt about some limitations of the Openstack Magnum driver project, which were expected given it being a relatively recent project, slowly being addopted, but they were all reported upstream and hopefully will soon be fixed.
+We also learnt about some limitations of the Openstack Magnum driver project, which were expected given it being a relatively recent project, slowly being adopted, but they were all reported upstream and hopefully will soon be fixed.
 
 ## Acknowledgements
 
