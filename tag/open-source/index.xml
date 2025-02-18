@@ -1,4 +1,42 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Open-Source | 2i2c</title><link>https://2i2c.org/tag/open-source/</link><atom:link href="https://2i2c.org/tag/open-source/index.xml" rel="self" type="application/rss+xml"/><description>Open-Source</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 07 Feb 2025 13:08:22 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Open-Source</title><link>https://2i2c.org/tag/open-source/</link></image><item><title>Announcing backups for GCP-hosted hubs!</title><link>https://2i2c.org/blog/2025/gcp-filestore-backups/</link><pubDate>Fri, 07 Feb 2025 13:08:22 +0000</pubDate><guid>https://2i2c.org/blog/2025/gcp-filestore-backups/</guid><description>&lt;p>2i2c are pleased to announce the development and deployment of automated backups of home directories on GCP-hosted hubs!&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Open-Source | 2i2c</title><link>https://2i2c.org/tag/open-source/</link><atom:link href="https://2i2c.org/tag/open-source/index.xml" rel="self" type="application/rss+xml"/><description>Open-Source</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 12 Feb 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Open-Source</title><link>https://2i2c.org/tag/open-source/</link></image><item><title>Open infrastructure for collaborative geoscience with Project Pythia: Learning how to deploy a BinderHub on Jetstream2</title><link>https://2i2c.org/blog/2025/jetstream-binderhub/</link><pubDate>Wed, 12 Feb 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/jetstream-binderhub/</guid><description>
+&lt;h2 id="project-pythia-and-the-jupyter-notebook-obsolescence-problem">
+Project Pythia and the &amp;ldquo;Jupyter notebook obsolescence&amp;rdquo; problem
+&lt;a class="header-anchor" href="#project-pythia-and-the-jupyter-notebook-obsolescence-problem">#&lt;/a>
+&lt;/h2>&lt;p>
+&lt;a href="https://projectpythia.org/" target="_blank" rel="noopener" >Project Pythia&lt;/a> provides educational resources for essential software tools that enable open, reproducible and scalable geoscience, such as the
+&lt;a href="https://pangeo.io" target="_blank" rel="noopener" >Pangeo&lt;/a> stack of packages (Xarray, Dask, Jupyter). Their &lt;em>Cookbooks&lt;/em> are crowdsourced, community-curated, and open-source collections of Jupyter notebooks that demonstrate how to use these tools for cloud-native, geoscientific workflows (see our
+&lt;a href="" >Project Pythia Cookoff&lt;/a> blog post). However, &amp;ldquo;Jupyter notebook obsolescence&amp;rdquo; is a common problem: tutorials that were created a few years ago may no longer work due to changes in the software ecosystem and hampers the reproducibility of scientific results. A reproducible execution environment and the infrastructure to support it are essential for the long-term sustainability of these educational resources.&lt;/p>
+&lt;h2 id="leveraging-nsf-funded-cyberinfrastructure-for-binderhub">
+Leveraging NSF-funded cyberinfrastructure for BinderHub
+&lt;a class="header-anchor" href="#leveraging-nsf-funded-cyberinfrastructure-for-binderhub">#&lt;/a>
+&lt;/h2>&lt;p>A
+&lt;a href="https://binderhub.readthedocs.io/en/latest/" target="_blank" rel="noopener" >BinderHub&lt;/a> allows users to dynamically create custom computing environments from
+&lt;a href="https://mybinder.readthedocs.io/en/latest/introduction.html#what-is-a-binder" target="_blank" rel="noopener" >Binder-ready&lt;/a> repositories containing computational notebooks and configuration files that describe the software environment required to run them. A public Binder service exists at
+&lt;a href="https://mybinder.org/" target="_blank" rel="noopener" >mybinder.org&lt;/a> (see our blog post about
+&lt;a href="https://2i2c.org/blog/2025/binder-singlenode/" >joining the mybinder federation&lt;/a> 🎉) and is a successful example of how open cloud infrastructure can accommodate reproducible execution environments.&lt;/p>
+&lt;p>The resources available on such a public service are limited therefore 2i2c, together with Project Pythia, have been exploring how to deploy a BinderHub backed by larger resources from the NSF-funded cloud computing platform
+&lt;a href="https://jetstream-cloud.org/" target="_blank" rel="noopener" >Jetstream2&lt;/a>. This allows for larger simultaneous user loads, such as at workshops, as well as access to more powerful distributed and parallelized workflows required to process large geoscientific datasets, under a persistent resource allocation.&lt;/p>
+&lt;h2 id="learning-how-to-deploy-on-openstack">
+Learning how to deploy on OpenStack
+&lt;a class="header-anchor" href="#learning-how-to-deploy-on-openstack">#&lt;/a>
+&lt;/h2>&lt;p>Jetstream2 uses
+&lt;a href="https://www.openstack.org" target="_blank" rel="noopener" >OpenStack&lt;/a> in order to manage pools of compute, storage and networking resources, and for our purposes we specifically make use of OpenStack
+&lt;a href="https://docs.openstack.org/magnum/latest/" target="_blank" rel="noopener" >Magnum&lt;/a>
+&lt;a href="https://specs.openstack.org/openstack//magnum-specs/specs/bobcat/clusterapi-driver.html" target="_blank" rel="noopener" >Cluster API driver&lt;/a> to manage Kubernetes for our deployment.&lt;/p>
+&lt;p>Cluster API needs a &lt;code>CAPI management cluster&lt;/code> in order to manage other Kubernetes clusters, called workload clusters. On Jetstream2, this management cluster is gracefully created and operated by the Jetstream2 team, which means that the only task to worry about is creating and configuring the workload cluster.&lt;/p>
+&lt;p>For the workload cluster we used the
+&lt;a href="https://registry.terraform.io/providers/terraform-provider-openstack/openstack/latest/docs" target="_blank" rel="noopener" >Openstack Terraform provider&lt;/a> to define the cluster template, the cluster itself and the node groups in a reproducible way.&lt;/p>
+&lt;p>After the cluster infrastructure was successfully created on Jetstream2, thanks to the 2i2c hub infrastructure being cloud agnostic as well, deploying BinderHub to Jetstream2, was a seamless experience and it was no different than on other cloud providers that we already supported.&lt;/p>
+&lt;p>We also learnt about some limitations of the Openstack Magnum driver project, which were expected given it being a relatively recent project, slowly being adopted, but they were all reported upstream and hopefully will soon be fixed.&lt;/p>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;a href="https://jetstream-cloud.org/" target="_blank" rel="noopener" >Jetstream2&lt;/a>: Explore ACCESS allocation and Julian Pistorius for technical support&lt;/li>
+&lt;li>
+&lt;a href="https://projectpythia.org/" target="_blank" rel="noopener" >Project Pythia&lt;/a> (NSF award 2324302)&lt;/li>
+&lt;/ul></description></item><item><title>Announcing backups for GCP-hosted hubs!</title><link>https://2i2c.org/blog/2025/gcp-filestore-backups/</link><pubDate>Fri, 07 Feb 2025 13:08:22 +0000</pubDate><guid>https://2i2c.org/blog/2025/gcp-filestore-backups/</guid><description>&lt;p>2i2c are pleased to announce the development and deployment of automated backups of home directories on GCP-hosted hubs!&lt;/p>
 &lt;p>We have developed the
 &lt;a href="https://github.com/2i2c-org/gcp-filestore-backups" target="_blank" rel="noopener" >&lt;code>gcp-filestore-backups&lt;/code> project&lt;/a> that regularly creates backups of JupyterHub home directories for disaster recovery purposes. The project is a Python wrapper around the
 &lt;a href="https://cloud.google.com/sdk/gcloud" target="_blank" rel="noopener" >&lt;code>gcloud&lt;/code> tool&lt;/a> to regularly request backups be made of the Filestore hosting JupyterHub&amp;rsquo;s user home directories, by default on a daily basis. The script also manages retention of these backups by checking how recently the last backup was made, and the age of existing backups, by default deleting any backup older than 5 days.&lt;/p>
