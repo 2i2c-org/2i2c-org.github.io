@@ -36,6 +36,8 @@ Acknowledgements
 &lt;a href="https://jetstream-cloud.org/" target="_blank" rel="noopener" >Jetstream2&lt;/a>: Explore ACCESS allocation and Julian Pistorius for technical support&lt;/li>
 &lt;li>
 &lt;a href="https://projectpythia.org/" target="_blank" rel="noopener" >Project Pythia&lt;/a> (NSF award 2324302)&lt;/li>
+&lt;li>
+&lt;a href="https://www.zonca.dev/posts/2024-12-11-jetstream_kubernetes_magnum" target="_blank" rel="noopener" >Andrea Zonca&lt;/a> for preliminary work on Kubernetes deployments on Jetstream 2&lt;/li>
 &lt;/ul></description></item><item><title>2i2c hubs now run JupyterHub 5.0</title><link>https://2i2c.org/blog/2025/jupyterhub5-upgrade/</link><pubDate>Fri, 17 Jan 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/jupyterhub5-upgrade/</guid><description>&lt;p>We are excited to announce that all 2i2c hubs now run JupyterHub 5.0!&lt;/p>
 &lt;p>This is an upgrade that brings some exciting new features and improvements. Some of the highlights include:&lt;/p>
 &lt;ol>

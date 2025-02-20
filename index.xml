@@ -36,6 +36,8 @@ Acknowledgements
 &lt;a href="https://jetstream-cloud.org/" target="_blank" rel="noopener" >Jetstream2&lt;/a>: Explore ACCESS allocation and Julian Pistorius for technical support&lt;/li>
 &lt;li>
 &lt;a href="https://projectpythia.org/" target="_blank" rel="noopener" >Project Pythia&lt;/a> (NSF award 2324302)&lt;/li>
+&lt;li>
+&lt;a href="https://www.zonca.dev/posts/2024-12-11-jetstream_kubernetes_magnum" target="_blank" rel="noopener" >Andrea Zonca&lt;/a> for preliminary work on Kubernetes deployments on Jetstream 2&lt;/li>
 &lt;/ul></description></item><item><title>Towards frictionless, portable, and sustainable reproducibility with Binder</title><link>https://2i2c.org/blog/2025/frictionless-reproducibility/</link><pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/frictionless-reproducibility/</guid><description>&lt;p>Last December I had an opportunity to discuss the current and future state of the open publishing ecosystem at a workshop hosted by
 &lt;a href="https://www.hhmi.org" target="_blank" rel="noopener" >HHMI&lt;/a>&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>. While 2i2c doesn&amp;rsquo;t primarily focus on &amp;ldquo;publishing&amp;rdquo; workflows, we do support communities on a journey that often &lt;em>leads to publishing&lt;/em>, and we make choices about technology in our
 &lt;a href="https://2i2c.org/platform/" >community hub platform&lt;/a> that can support different kinds of publishing outcomes.&lt;/p>

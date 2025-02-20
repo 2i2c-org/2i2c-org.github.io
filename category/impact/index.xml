@@ -36,6 +36,8 @@ Acknowledgements
 &lt;a href="https://jetstream-cloud.org/" target="_blank" rel="noopener" >Jetstream2&lt;/a>: Explore ACCESS allocation and Julian Pistorius for technical support&lt;/li>
 &lt;li>
 &lt;a href="https://projectpythia.org/" target="_blank" rel="noopener" >Project Pythia&lt;/a> (NSF award 2324302)&lt;/li>
+&lt;li>
+&lt;a href="https://www.zonca.dev/posts/2024-12-11-jetstream_kubernetes_magnum" target="_blank" rel="noopener" >Andrea Zonca&lt;/a> for preliminary work on Kubernetes deployments on Jetstream 2&lt;/li>
 &lt;/ul></description></item><item><title>Announcing backups for GCP-hosted hubs!</title><link>https://2i2c.org/blog/2025/gcp-filestore-backups/</link><pubDate>Fri, 07 Feb 2025 13:08:22 +0000</pubDate><guid>https://2i2c.org/blog/2025/gcp-filestore-backups/</guid><description>&lt;p>2i2c are pleased to announce the development and deployment of automated backups of home directories on GCP-hosted hubs!&lt;/p>
 &lt;p>We have developed the
 &lt;a href="https://github.com/2i2c-org/gcp-filestore-backups" target="_blank" rel="noopener" >&lt;code>gcp-filestore-backups&lt;/code> project&lt;/a> that regularly creates backups of JupyterHub home directories for disaster recovery purposes. The project is a Python wrapper around the
