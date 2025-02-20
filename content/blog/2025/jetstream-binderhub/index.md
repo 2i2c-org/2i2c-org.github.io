@@ -34,3 +34,4 @@ We also learnt about some limitations of the Openstack Magnum driver project, wh
 
 - [Jetstream2](https://jetstream-cloud.org/): Explore ACCESS allocation and Julian Pistorius for technical support
 - [Project Pythia](https://projectpythia.org/) (NSF award 2324302)
+- [Andrea Zonca](https://www.zonca.dev/posts/2024-12-11-jetstream_kubernetes_magnum) for preliminary work on Kubernetes deployments on Jetstream 2
