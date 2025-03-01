@@ -12,7 +12,7 @@ Over the past year, 2i2c has made team-wide efforts to improve our product plann
 
 Our goal is to **organize our product work around a small set of core themes** to help us focus and prioritize. As part of this, we’d like to share platform enhancement goals for roughly each quarter. These are not guarantees, but we share them to be transparent about where we think we can be the most impactful in the next few months. Here are the major areas we hope to improve 2i2c’ platform in Q1 2025.
 
-## Expanding access to cloud providers and improving data safety
+## Expan access to cloud providers and improve data safety
 
 One of 2i2c's goals is to showcase the ability of open infrastructure to be deployed on a variety of infrastructure proiders. This includes user-facing features, as well as guardrails and safety measures.
 
@@ -24,13 +24,13 @@ Many communities in research and education are interested in leveraging publicly
 
 **In Q1 2025** we'll begin this expansion by deploying JupyterHubs and BinderHubs on JetStream 2, which will give communities access to publicly-funded computing resources. We will use this experience to decide whether it's sustainable for us to deploy on this and other publicly-owned infrastructure providers.
 
-## Enabling enhanced community knowledge bases with Jupyter Book 2
+## Enable enhanced community knowledge bases with Jupyter Book 2
 
 A key theme we aim to enable is **sharing** within and between community hubs. This is a critical part of the data science workflow because it allows people to collaborate on the same ideas, and build on top of one another's ideas. An early target for this is to facilitate lightweight sharing of computational content so that community members can learn from one another more effectively.
 
 **In Q1 2025** we want to help get [Jupyter Book 2's beta](https://next.jupyterbook.org) released, and provide an out-of-the-box configuration for our communities to use it with their hubs. This includes adding landing pages and better integration with JupyterHub via launch buttons to create a more seamless experience between documentation and interactive computing.
 
-## Enabling sharing reproducible environments on a hub
+## Enable sharing reproducible environments on a hub
 
 Another key aspect of sharing is **sharing the computational environment as well**. This would allow communities to not only sheir their content, but also live infrastructure that allows others to reproduce and interact with their work. We think that investing more time into imiproving and deploying [BinderHubs](https://binderhub.readthedocs.io/en/latest/) (the technology behind [mybinder.org](https://mybinder.org)) will help us learn more about how to make this a reality.
 
@@ -42,7 +42,13 @@ Perhaps the biggest perceived risk to using cloud infrastructure is the possibil
 
 **In Q1 2025** we are aim to add more **visibility into hub usage** and **more controls over resources via quotas**. This will allow more fine control over resource budgets such as CPU, memory, and storage. We'll also work on breaking down **users into groups** for better resource management, giving communities more granular control over their infrastructure.
 
-## Standardize and scale our community support services
+## Standardize our hub service menu of options and prices
+
+A key goal of our [Navigation Fund grant](../2024/funding-navigation/index.md) is to streamline ourselves into a few repeatable, scalable service offerings at different price points. This will allow us to more easily support new communities and provide a more consistent experience for users.
+
+**In Q1 2025** we'd like to define a starting point that we can begin to iterate on. We'll define a new set of pricing based around a tiered service model, and decide on an initial set of features and services to include with each. Our goal will be to have something defined quickly so that we can iterate a few times with community feedback before the quarter is over.
+
+## Standardize our community support services
 
 Finally, we've audited our ongoing support practices and realized that we aren't always delivering them in an efficient way. We often share the same information one-on-one conversations, and aren't effectively leveraging our community network to support and learn from one another. We'd like to standardize and boost the scalability of our support services.
 
