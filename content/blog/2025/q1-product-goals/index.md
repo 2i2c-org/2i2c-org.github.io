@@ -40,7 +40,7 @@ Another key aspect of sharing is **sharing the computational environment as well
 
 Perhaps the biggest perceived risk to using cloud infrastructure is the possibility of **runaway costs**. Community leaders are often nervous that something unexpected will happen and they'll have to foot a giant bill at the end of the month. We think that reducing this risk is a key way to make cloud infrastructure safer and more useful for research and education communities.
 
-**In Q1 2025** we are aim to add more **visibility into hub usage** and **more controls over resources via quotas**. This will allow more fine control over resource budgets such as CPU, memory, and storage. We'll also work on breaking down **users into groups** for better resource management, giving communities more granular control over their infrastructure.
+**In Q1 2025** we are aim to add more **visibility into hub usage** and **more controls over resources via quotas**. This will allow more fine control over resource budgets such as CPU, memory, and storage. We'll also work on **assigning users to groups**, allowing communities greater control over resource allocation across large user bases.
 
 ## Standardize our hub service menu of options and prices
 
