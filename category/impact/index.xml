@@ -56,9 +56,9 @@ Acknowledgements
 &lt;p>Over the past year, 2i2c has made team-wide efforts to improve our product planning and delivery. A key part of this is re-organizing an integrated
 &lt;a href="https://compass.2i2c.org/product-and-services/" target="_blank" rel="noopener" >Product and Services team&lt;/a> that brings our strategic planning, engineering, and service delivery closer together. We&amp;rsquo;ve also built systems for planning and measuring progress within the P&amp;amp;S team, and a product initiatives system for planning major work.&lt;/p>
 &lt;p>Our goal is to &lt;strong>organize our product work around a small set of core themes&lt;/strong> to help us focus and prioritize. As part of this, we’d like to share platform enhancement goals for roughly each quarter. These are not guarantees, but we share them to be transparent about where we think we can be the most impactful in the next few months. Here are the major areas we hope to improve 2i2c’ platform in Q1 2025.&lt;/p>
-&lt;h2 id="expan-access-to-cloud-providers-and-improve-data-safety">
-Expan access to cloud providers and improve data safety
-&lt;a class="header-anchor" href="#expan-access-to-cloud-providers-and-improve-data-safety">#&lt;/a>
+&lt;h2 id="expand-access-to-cloud-providers-and-improve-data-safety">
+Expand access to cloud providers and improve data safety
+&lt;a class="header-anchor" href="#expand-access-to-cloud-providers-and-improve-data-safety">#&lt;/a>
 &lt;/h2>&lt;p>One of 2i2c&amp;rsquo;s goals is to showcase the ability of open infrastructure to be deployed on a variety of infrastructure proiders. This includes user-facing features, as well as guardrails and safety measures.&lt;/p>
 &lt;p>&lt;strong>In Q1 2025&lt;/strong> we are working to bring closer feature parity between hub deployments on AWS and GCP, while enabling disaster recovery with automated home directory backups.&lt;/p>
 &lt;h2 id="explore-deploying-on-public-infrastructure-providers">
