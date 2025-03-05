@@ -12,7 +12,7 @@ Over the past year, 2i2c has made team-wide efforts to improve our product plann
 
 Our goal is to **organize our product work around a small set of core themes** to help us focus and prioritize. As part of this, we’d like to share platform enhancement goals for roughly each quarter. These are not guarantees, but we share them to be transparent about where we think we can be the most impactful in the next few months. Here are the major areas we hope to improve 2i2c’ platform in Q1 2025.
 
-## Expan access to cloud providers and improve data safety
+## Expand access to cloud providers and improve data safety
 
 One of 2i2c's goals is to showcase the ability of open infrastructure to be deployed on a variety of infrastructure proiders. This includes user-facing features, as well as guardrails and safety measures.
 
