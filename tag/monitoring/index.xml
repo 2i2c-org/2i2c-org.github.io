@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Monitoring | 2i2c</title><link>https://2i2c.org/tag/monitoring/</link><atom:link href="https://2i2c.org/tag/monitoring/index.xml" rel="self" type="application/rss+xml"/><description>Monitoring</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 15 Nov 2024 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Monitoring</title><link>https://2i2c.org/tag/monitoring/</link></image><item><title>Track and manage cloud costs using Grafana</title><link>https://2i2c.org/blog/2024/aws-cost-attribution/</link><pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/aws-cost-attribution/</guid><description>&lt;p>
+&lt;figure id="figure-grafana-dashboard-showing-cloud-costs-broken-down-by-compute-storage-and-other-components-for-the-openscapeshttpsopenscapesorg-hub">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Screenshot of a graph showing total daily costs per component." srcset="
+/blog/2024/aws-cost-attribution/featured_hu3c57cea2eaf38f8a160eedbbc8d845ec_255975_942dbf5613c853c7fcd391661568abd2.webp 400w,
+/blog/2024/aws-cost-attribution/featured_hu3c57cea2eaf38f8a160eedbbc8d845ec_255975_664dc28ef86bcc1505966f108d9ee15e.webp 760w,
+/blog/2024/aws-cost-attribution/featured_hu3c57cea2eaf38f8a160eedbbc8d845ec_255975_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2024/aws-cost-attribution/featured_hu3c57cea2eaf38f8a160eedbbc8d845ec_255975_942dbf5613c853c7fcd391661568abd2.webp"
+width="760"
+height="485"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+Grafana dashboard showing cloud costs broken down by compute, storage and other components for the
+&lt;a href="https://openscapes.org/" target="_blank" rel="noopener" >Openscapes&lt;/a> hub.
+&lt;/figcaption>&lt;/figure>
+&lt;/p>
+&lt;p>We are pleased to unveil a new feature to track cloud costs within our Grafana dashboards! Community Champions now have the ability to monitor the cost and usage of their 2i2c-managed hubs that displays up to date aggregated costs as well as detailed breakdowns for more granular reports.&lt;/p>
+&lt;div class="alert alert-note">
+&lt;div>
+Note that this feature is currently available to AWS hosted hubs only and will be rolled out to other cloud providers in the future.
+&lt;/div>
+&lt;/div>
+&lt;h2 id="accessing-the-cloud-cost-dashboard">
+Accessing the cloud cost dashboard
+&lt;a class="header-anchor" href="#accessing-the-cloud-cost-dashboard">#&lt;/a>
+&lt;/h2>&lt;p>Community Champions can view the Cloud Cost dashboard from their Grafana instance (please see the
+&lt;a href="https://docs.2i2c.org/admin/howto/monitoring/grafana-dashboards/#getting-a-grafana-account" target="_blank" rel="noopener" >Service Guide&lt;/a> for how to gain access).&lt;/p>
+&lt;p>From the main menu of Grafana, navigate to &lt;em>Dashboards &amp;gt; Cloud cost dashboards &amp;gt; Cloud cost attribution&lt;/em> to view the dashboard.&lt;/p>
+&lt;h2 id="understanding-the-cloud-cost-dashboard">
+Understanding the cloud cost dashboard
+&lt;a class="header-anchor" href="#understanding-the-cloud-cost-dashboard">#&lt;/a>
+&lt;/h2>&lt;p>A typical 2i2c-managed deployment comprises of a staging hub and a production hub, although some other communities may have extra hubs such as a workshop hub. By default, costs are not broken down on a per hub basis unless the community has opted in to this feature.&lt;/p>
+&lt;p>The dashboard is made of several panels:&lt;/p>
+&lt;ul>
+&lt;li>Daily costs&lt;/li>
+&lt;li>Daily costs per hub (opt-in only)&lt;/li>
+&lt;li>Total daily costs per component&lt;/li>
+&lt;li>Daily costs per component per hub (opt-in only).&lt;/li>
+&lt;/ul>
+&lt;video mute autoplay loop >
+&lt;source src="https://2i2c.org/blog/2024/aws-cost-attribution/demo.mp4" type="video/mp4">
+&lt;/video>
+&lt;p>For more detailed information on the data that each panel displays, please consult our
+&lt;a href="https://docs.2i2c.org/admin/howto/monitoring/cost-attribution/#understanding-the-cloud-cost-dashboard" target="_blank" rel="noopener" >Service Guide&lt;/a> for reference.&lt;/p>
+&lt;h2 id="sharing-cost-reports">
+Sharing cost reports
+&lt;a class="header-anchor" href="#sharing-cost-reports">#&lt;/a>
+&lt;/h2>&lt;p>The dashboard can be shared with other community members and stakeholders so they can understand usage and cost patterns. Community Champions can export data to a CSV file, or they can generate a snapshot of the Grafana dashboard and share a public link.&lt;/p>
+&lt;p>For instructions on how to export data from the dashboard, please see our
+&lt;a href="https://docs.2i2c.org/admin/howto/monitoring/cost-attribution/#sharing-cost-reports" target="_blank" rel="noopener" >Service Guide&lt;/a> for reference.&lt;/p>
+&lt;h2 id="next-steps">
+Next steps
+&lt;a class="header-anchor" href="#next-steps">#&lt;/a>
+&lt;/h2>&lt;p>We would love to know whether this feature is useful and how it can be improved. We will be contacting individual communities to share their feedback with us – please share your thoughts with us!&lt;/p>
+&lt;p>We will work on rolling out this service to GCP hosted clusters in future. Stay tuned to know when this feature is available to your community.&lt;/p>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;p>Thank you to Erik for spearheading the rollout effort and to the rest of the 2i2c team for their support. We are especially grateful to the Openscapes and Cryocloud communities for providing valuable insights during the prototyping and testing phase.&lt;/p></description></item></channel></rss>

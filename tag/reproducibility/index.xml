@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Reproducibility | 2i2c</title><link>https://2i2c.org/tag/reproducibility/</link><atom:link href="https://2i2c.org/tag/reproducibility/index.xml" rel="self" type="application/rss+xml"/><description>Reproducibility</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 10 Feb 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Reproducibility</title><link>https://2i2c.org/tag/reproducibility/</link></image><item><title>Towards frictionless, portable, and sustainable reproducibility with Binder</title><link>https://2i2c.org/blog/2025/frictionless-reproducibility/</link><pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/frictionless-reproducibility/</guid><description>&lt;p>Last December I had an opportunity to discuss the current and future state of the open publishing ecosystem at a workshop hosted by
+&lt;a href="https://www.hhmi.org" target="_blank" rel="noopener" >HHMI&lt;/a>&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>. While 2i2c doesn&amp;rsquo;t primarily focus on &amp;ldquo;publishing&amp;rdquo; workflows, we do support communities on a journey that often &lt;em>leads to publishing&lt;/em>, and we make choices about technology in our
+&lt;a href="https://2i2c.org/platform/" >community hub platform&lt;/a> that can support different kinds of publishing outcomes.&lt;/p>
+&lt;p>After listening to folks across the open science and publishing ecosystem, I noticed a common challenge:&lt;/p>
+&lt;ul>
+&lt;li>Publishers care about &lt;strong>reproducibility&lt;/strong> of computational narratives and the &lt;strong>interactivity&lt;/strong> that computation can provide.&lt;/li>
+&lt;li>But they &lt;strong>lack the capacity to manage computational infrastructure&lt;/strong> in a way that is flexible enough for all of their authors.&lt;/li>
+&lt;/ul>
+&lt;p>This post is a reflection on how ecosystems like Jupyter and managed community hubs could solve some of these challenges.&lt;/p>
+&lt;h2 id="a-community-experiment-to-provide-reproducible-environments-for-published-pre-prints">
+A community experiment to provide reproducible environments for published pre-prints
+&lt;a class="header-anchor" href="#a-community-experiment-to-provide-reproducible-environments-for-published-pre-prints">#&lt;/a>
+&lt;/h2>&lt;p>Many of 2i2c&amp;rsquo;s communities already care about reproducibility and sharing their computational narratives. That&amp;rsquo;s one reason that we&amp;rsquo;ve
+&lt;a href="https://2i2c.org/blog/2024/jupyterhub-binderhub-gesis/" >been improving reproducible environment sharing with Binder&lt;/a>,
+&lt;a href="https://2i2c.org/blog/2024/project-pythia-cookoff/" >integrating Jupyter Book into our community cloud platform&lt;/a>, and
+&lt;a href="https://2i2c.org/blog/2025/binder-singlenode/" >supporting the mybinder.org federation&lt;/a>.&lt;/p>
+&lt;p>However, communities often want to &lt;strong>publish&lt;/strong> rather than just &lt;strong>share&lt;/strong>. Publishing is more structured, invites particular kinds of feedback, and requires more Quality Assurance. There&amp;rsquo;s a huge ecosystem of publishers and services that support formal publishing, and they ensure things like discoverability, long-term archivability, versioning, peer review, DOI referencing, etc.&lt;/p>
+&lt;p>We recently piloted
+&lt;a href="https://2i2c.org/blog/2024/hhmi-spyglass-mysql/" >running a BinderHub for Biorxiv publications with the Loren Frank lab and HHMI&lt;/a>, and found this to be a nice proof-of-concept. While the &amp;ldquo;published article&amp;rdquo; lives on
+&lt;a href="https://www.biorxiv.org/" target="_blank" rel="noopener" >Biorxiv&lt;/a>, the computational infrastructure and environment is provided by a BinderHub (in this case managed by 2i2c, but anybody could manage a hub in this way).&lt;/p>
+&lt;figure id="figure-the-biorxiv-binder-pilot-workflow-an-author-used-a-2i2c-managed-binderhub-to-generate-a-reproducible-environment-for-their-paper-they-included-a-link-to-this-environment-in-the-abstract-readers-could-click-this-link-and-be-taken-to-a-fully-interactive-environment-to-explore-the-ideas-in-the-paper-and-reproduce-its-computation">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="The Biorxiv Binder pilot workflow. An author used a 2i2c-managed BinderHub to generate a reproducible environment for their paper. They included a link to this environment in the abstract. Readers could click this link, and be taken to a fully interactive environment to explore the ideas in the paper and reproduce its computation." srcset="
+/blog/2025/frictionless-reproducibility/images/reproduce-biorxiv_huf604de85a68d50f7a40711968e3141fb_95205_3441b302dcaeeacf16df2b59218d7be8.webp 400w,
+/blog/2025/frictionless-reproducibility/images/reproduce-biorxiv_huf604de85a68d50f7a40711968e3141fb_95205_12bb4f6978b5b5a62c5ff0f4ac0c4057.webp 760w,
+/blog/2025/frictionless-reproducibility/images/reproduce-biorxiv_huf604de85a68d50f7a40711968e3141fb_95205_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2025/frictionless-reproducibility/images/reproduce-biorxiv_huf604de85a68d50f7a40711968e3141fb_95205_3441b302dcaeeacf16df2b59218d7be8.webp"
+width="760"
+height="428"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+The Biorxiv Binder pilot workflow. An author used a 2i2c-managed BinderHub to generate a reproducible environment for their paper. They included a link to this environment in the abstract. Readers could click this link, and be taken to a fully interactive environment to explore the ideas in the paper and reproduce its computation.
+&lt;/figcaption>&lt;/figure>
+&lt;p>This was a nice proof-of-concept, though I think that broader adoption of this type of workflow would require a deeper connection between publisher workflows and open source communities.&lt;/p>
+&lt;h2 id="could-we-enable-communities-to-bring-their-computational-environments-with-them-when-publishing">
+Could we enable communities to &amp;ldquo;bring their computational environments with them&amp;rdquo; when publishing?
+&lt;a class="header-anchor" href="#could-we-enable-communities-to-bring-their-computational-environments-with-them-when-publishing">#&lt;/a>
+&lt;/h2>&lt;p>Currently, a community&amp;rsquo;s computational environment and data are &lt;em>not accessible to publishers&lt;/em>. Could we relax this by allowing JupyterHub and Binder to be re-used by external services like publishers? This could allow a community&amp;rsquo;s hub to act like an &lt;strong>external service for reproducibility&lt;/strong> that could be used by one of the many publishing platforms out there. It would require making improvements around a few different areas of Jupyter:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>JupyterHub&lt;/strong> and &lt;strong>BinderHub&lt;/strong> would need improved workflows around external authentication so that services could easily request kernels from a hub.&lt;/li>
+&lt;li>&lt;strong>Jupyter Book&lt;/strong> and &lt;strong>MyST&lt;/strong> would need the ability to power computation on a page from a variety of computational back-ends, potentially defined by a user (e.g., via
+&lt;a href="https://thebe.readthedocs.io/en/stable/" target="_blank" rel="noopener" >Thebe&lt;/a> and some UI design in Jupyter Book).&lt;/li>
+&lt;li>&lt;strong>Jupyter Lab&lt;/strong> and other user interfaces may need improved ways for defining and sharing their environments and their content to use tools like Jupyter Book and Binder.&lt;/li>
+&lt;/ul>
+&lt;p>We&amp;rsquo;d also need &lt;strong>integration work&lt;/strong> for the various publishers to leverage this technology for their infrastructure. This is a significant lift - a lot of publishers use &lt;em>very old&lt;/em> and bespoke technology in their systems. However, there&amp;rsquo;s also hope that a subset of the publishing ecosystem is ready to try things like this.&lt;/p>
+&lt;h2 id="there-are-many-publishing-organizations-innovating-with-open-source">
+There are many publishing organizations innovating with open source
+&lt;a class="header-anchor" href="#there-are-many-publishing-organizations-innovating-with-open-source">#&lt;/a>
+&lt;/h2>&lt;p>I learned that &lt;strong>there&amp;rsquo;s a lot of interest in innovating around publishing workflows&lt;/strong>, as well as &lt;strong>building on top of open source communities and standards&lt;/strong>. We don&amp;rsquo;t need the whole industry to move at once (it won&amp;rsquo;t), but we do need a critical mass of organizations who are interested in innovating. This might be possible with more publishing-focused products that integrate heavily with open source.&lt;/p>
+&lt;p>For example,
+&lt;a href="https://curvenote.com" target="_blank" rel="noopener" >Curvenote&lt;/a> is a publishing and communication platform that builds heavily on top of the Jupyter and MyST ecosystems. They co-lead many of the open source projects they use in their platform. Curvenote builds largely around the
+&lt;a href="https://mystmd.org" target="_blank" rel="noopener" >MyST Markdown document engine&lt;/a>, which means they could more easily integrate improvements around Portable Computation in the Jupyter ecosystem.&lt;/p>
+&lt;p>I hope that the broader publishing ecosystem moves in this direction. Because Jupyter is largely based around open standards and protocols, it should be possible for publishers to leverage the BinderHub API and the
+&lt;a href="https://repo2docker.readthedocs.io/en/latest/specification.html" target="_blank" rel="noopener" >Reproducible Execution Environment Specification&lt;/a> to integrate computation that powers their reproducible articles. This would allow a community&amp;rsquo;s members to connect their hub&amp;rsquo;s reproducible environment with each published article. Something like the figure below.&lt;/p>
+&lt;figure id="figure-publishers-could-re-use-the-computational-environments-from-a-communitys-hub-resulting-in-a-de-duplication-of-infrastructure-and-effort-and-bridging-the-gap-between-where-a-community-does-its-work-and-where-it-submits-new-ideas-for-publication-note-these-are-hypothetical-for-now-but-we-think-publishing-platforms-like-these-are-a-good-starting-point">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Publishers could re-use the computational environments from a community&amp;#39;s hub, resulting in a de-duplication of infrastructure and effort, and bridging the gap between where a community does its work, and where it submits new ideas for publication. (note these are hypothetical for now, but we think publishing platforms like these are a good starting point!)" srcset="
+/blog/2025/frictionless-reproducibility/featured_hue27b97fe8afb5729ef57cb528de3f2b8_94917_d99920aeaec9917382ce149f3ce7d5a3.webp 400w,
+/blog/2025/frictionless-reproducibility/featured_hue27b97fe8afb5729ef57cb528de3f2b8_94917_e5e6ded3be27e1fb99f31ea2025fe129.webp 760w,
+/blog/2025/frictionless-reproducibility/featured_hue27b97fe8afb5729ef57cb528de3f2b8_94917_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2025/frictionless-reproducibility/featured_hue27b97fe8afb5729ef57cb528de3f2b8_94917_d99920aeaec9917382ce149f3ce7d5a3.webp"
+width="760"
+height="428"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+Publishers could re-use the computational environments from a community&amp;rsquo;s hub, resulting in a de-duplication of infrastructure and effort, and bridging the gap between where a community does its work, and where it submits new ideas for publication. (note these are hypothetical for now, but we think publishing platforms like these are a good starting point!)
+&lt;/figcaption>&lt;/figure>
+&lt;p>Integrating with publishing in this way would allow communities to leverage their pre-existing infrastructure as part of their scholarly workflows. If a community had their own capacity to manage Binder infrastructure they could do so, or they could use a service provider like
+&lt;a href="https://2i2c.org" target="_blank" rel="noopener" >2i2c&lt;/a> to manage it for them. This would distribute the responsibility of infrastructure management to those who are in the best position to do so - the communities that do the work.&lt;/p>
+&lt;h2 id="how-could-we-sustain-the-cost-of-running-computation-for-published-articles">
+How could we sustain the cost of running computation for published articles?
+&lt;a class="header-anchor" href="#how-could-we-sustain-the-cost-of-running-computation-for-published-articles">#&lt;/a>
+&lt;/h2>&lt;p>This raises an important question: how would you sustain services like these? Communities are already nervous about the cost of computation for their workflows. Public services like
+&lt;a href="https://mybinder.org" target="_blank" rel="noopener" >mybinder.org&lt;/a> are free and accessible, but not scalable, nor suitable for complex or mission-critical workflows&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>. Would community stakeholders pay for privileged access to BinderHubs that could reproduce and share their computational narratives? Would publishers be willing to pay a percentage of the cloud and management costs associated with reproduction? Could we use this to sustain a larger public service like mybinder.org?&lt;/p>
+&lt;p>We don&amp;rsquo;t have any answers yet but we&amp;rsquo;re keen to try. Our colleague Jim Colliander recently explored some of these ideas in a talk recorded for
+&lt;a href="https://agu.confex.com/agu/fm24/meetingapp.cgi/Paper/100644" target="_blank" rel="noopener" >AGU 2024&lt;/a>.&lt;/p>
+&lt;figure>
+&lt;iframe width="560" height="315" src="https://www.youtube.com/embed/D5s2HbaulZw?si=GCeDPpr2WobIuu4w" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>&lt;/iframe>
+&lt;figcaption>
+&lt;p>A talk from 2i2c team member
+&lt;a href="https://2i2c.org/author/jim-colliander/" target="_blank" rel="noopener" >Jim Colliander&lt;/a> discussing the right to reproduce computational ideas, the importance of enabling frictionless reproducibility, and how we might sustain such a service.&lt;/p>
+&lt;/figcaption>
+&lt;/figure>
+&lt;p>One thing seems clear - there is an imperative to make reproducibility and interaction frictionless. This is both to ensure the scientific integrity of the work being done, and also to make computational ideas more accessible to the world. Technologies and service partnerships like these can help ensure the broader community&amp;rsquo;s right to reproduce the work of others.&lt;/p>
+&lt;h2 id="exploring-frictionless-portable-computing-at-2i2c">
+Exploring Frictionless Portable Computing at 2i2c
+&lt;a class="header-anchor" href="#exploring-frictionless-portable-computing-at-2i2c">#&lt;/a>
+&lt;/h2>&lt;p>2i2c often plays a role in &lt;em>bridging user communities and open source communities&lt;/em> through cycles of development and collaboration, perhaps we could do the same for the publishing community. We&amp;rsquo;d like to explore some tooling improvements that lay a foundation for these workflows, and will report back on our experiments in the coming months.&lt;/p>
+&lt;p>&lt;strong>If you are interested in collaborating&lt;/strong>, &lt;a href="mailto:hello@2i2c.org">please reach out&lt;/a>. We&amp;rsquo;d love to hear from organizations from the scholarly publishing community to understand where these ideas have holes or need significant new development. I&amp;rsquo;d also love feedback on sustainability models to ensure these services can be relied on as part of the publishing ecosystem. In the meantime, hopefully these ideas serve as an inspiration for what is possible, and where we might be heading with 2i2c&amp;rsquo;s service and the broader publishing ecosystem.&lt;/p>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>There&amp;rsquo;s a
+&lt;a href="https://incentivizingopen.org/2025/02/the-future-of-open-science-publishing-continuing-the-discussion/" target="_blank" rel="noopener" >follow-up meeting&lt;/a> for those who are interested.&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2">
+&lt;p>The costs associated with running
+&lt;a href="https://mybinder.org" target="_blank" rel="noopener" >mybinder.org&lt;/a> have historically been shouldered by donations from organizations such as
+&lt;a href="https://ovhcloud.com" target="_blank" rel="noopener" >OVH&lt;/a>,
+&lt;a href="https://google.com" target="_blank" rel="noopener" >Google&lt;/a>,
+&lt;a href="https://notebooks.gesis.org/" target="_blank" rel="noopener" >GESIS&lt;/a>,
+&lt;a href="https://curvenote.com" target="_blank" rel="noopener" >Curvenote&lt;/a>, and now
+&lt;a href="https://2i2c.org" target="_blank" rel="noopener" >2i2c&lt;/a>. These donations are not guaranteed, and do not scale directly with the number of users.&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></description></item></channel></rss>

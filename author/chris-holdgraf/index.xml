@@ -450,7 +450,284 @@ We&amp;rsquo;d love feedback
 &lt;hr>
 &lt;p>&lt;strong>Acknowledgements&lt;/strong>: &lt;em>The creation of this policy and the rationale behind it was led by
 &lt;a href="https://2i2c.org/author/yuvi-panda/" >Yuvi Panda&lt;/a> with feedback from 2i2c&amp;rsquo;s team. This blog post was co-written with
-&lt;a href="https://2i2c.org/author/chris-holdgraf/" >Chris Holdgraf&lt;/a>.&lt;/em>&lt;/p></description></item><item><title>2024 impact report: new team structure, new funding, and growth in our network</title><link>https://2i2c.org/blog/2024/retrospective/</link><pubDate>Sun, 08 Dec 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/retrospective/</guid><description>&lt;p>2024 has been a busy year for 2i2c, with many highs and lows, a lot of impact, and significant organizational change. As the year comes to an end, I want to reflect on the work we&amp;rsquo;ve done in 2024, and where we aim to go in 2025.&lt;/p>
+&lt;a href="https://2i2c.org/author/chris-holdgraf/" >Chris Holdgraf&lt;/a>.&lt;/em>&lt;/p></description></item><item><title>2i2c communities at AGU 2024</title><link>https://2i2c.org/blog/2024/agu/</link><pubDate>Mon, 09 Dec 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/agu/</guid><description>&lt;p>We are proud to share that several of 2i2c&amp;rsquo;s community partners are presenting their work at AGU 2024! In each case, 2i2c&amp;rsquo;s infrastructure plays a part in helping communities create and share knowledge, and grow their community. As an organization rooted in community-centric practices, we are particularly excited to see 2i2c represented &amp;ldquo;indirectly&amp;rdquo; at this conference, and to see ourselves as a supporting role enabling the impact of others.&lt;/p>
+&lt;p>Here&amp;rsquo;s a summary and links to all of the sessions. See below for a brief overview of seach one.&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1735091" target="_blank" rel="noopener" >ED31G-2272 Breaking down the barriers to Open Science with Project Pythia&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1577974" target="_blank" rel="noopener" >ED31G-2277 PACE Hackweek: An open community keeping up with PACE&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1709763" target="_blank" rel="noopener" >IN13A-2147 Including more solutions and more solvers via actionable open science&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1522970" target="_blank" rel="noopener" >IN34A-01 Beyond Open Data: Ensuring True Accessibility for All (Invited)&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1645291" target="_blank" rel="noopener" >Introducing GeoLab - An EarthScope JupyterHub for Enabling Collaborative Cloud-Native Geophysical Data Analysis and Skill Development Workshops&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1697601" target="_blank" rel="noopener" >U13A-2349 Sharing recipes for cloud computing: the Project Pythia Cookbook Initiative&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1708480" target="_blank" rel="noopener" >U13A-2350 Supporting NASA Earthdata users in the Cloud: NASA Openscapes JupyterHub and User Onboarding &amp;amp; Fledging&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1605357" target="_blank" rel="noopener" >V31A-08 VICTOR – A new Cyber-infrastructure for Volcanology&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="ed31g-2272-breaking-down-the-barriers-to-open-science-with-project-pythia">
+ED31G-2272 Breaking down the barriers to Open Science with Project Pythia
+&lt;a class="header-anchor" href="#ed31g-2272-breaking-down-the-barriers-to-open-science-with-project-pythia">#&lt;/a>
+&lt;/h2>&lt;p>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1735091" target="_blank" rel="noopener" >Link to session&lt;/a>&lt;/p>
+&lt;p>Hall B-C (Poster Hall) (Convention Center)&lt;/p>
+&lt;h3 id="abstract">
+Abstract
+&lt;a class="header-anchor" href="#abstract">#&lt;/a>
+&lt;/h3>&lt;p>Project Pythia is an open access educational initiative established with funding from the U.S. National Science Foundation. Its mission is to help students and scientists enhance their skills and adopt best practices using the tools and technologies of open science. As part of the Pangeo community, Project Pythia primarily focuses on the Pangeo stack, which includes cloud computing, Jupyter technologies, GitHub, and various software packages in the Scientific Python ecosystem, centered around Xarray. Project Pythia offers a wide range of open access content, such as datasets, software, tutorials, and annotated real-world workflows presented in the form of Jupyter Books.&lt;/p>
+&lt;p>Project Pythia serves as a resource for scientists, promoting and fostering open science. Although it is not a scientific research artifact itself, the development of Project Pythia adheres to many best practices advocated by open science proponents. The Pythia team actively encourages community engagement and collaborates openly with scientists and technologists to create new content. All Pythia resources are freely accessible, and the project follows the FAIR principles (Findable, Accessible, Interoperable, and Reusable) for managing research outputs, including publications, data, and other materials. We support and facilitate open evaluation and peer reviews of content to ensure verifiability and trust. Lastly, we endeavor to openly discuss ideas, designs, and methods before implementation.&lt;/p>
+&lt;p>This presentation will provide an overview of Project Pythia&amp;rsquo;s extensive educational resources and share our experiences in applying many open science principles to develop this flagship training resource for the geoscience community.&lt;/p>
+&lt;h3 id="authors">
+Authors
+&lt;a class="header-anchor" href="#authors">#&lt;/a>
+&lt;/h3>&lt;ul>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/15277" target="_blank" rel="noopener" >John Clyne&lt;/a> - NSF National Center for Atmospheric Research (first author)&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1112151" target="_blank" rel="noopener" >Drew Camron&lt;/a> - University Corporation for Atmospheric Research&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1104277" target="_blank" rel="noopener" >Orhan Eroglu&lt;/a> - NSF National Center for Atmospheric Research&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1266060" target="_blank" rel="noopener" >Robert Ford&lt;/a> - University at Albany State University of New York&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/796821" target="_blank" rel="noopener" >Julia Kent&lt;/a> - NSF National Center for Atmospheric Research&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/529702" target="_blank" rel="noopener" >Ryan May&lt;/a> - University Corporation for Atmospheric Research&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1317099" target="_blank" rel="noopener" >James Munroe&lt;/a> - 2i2c / Code for Science and Society&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/10645" target="_blank" rel="noopener" >Brian E J Rose&lt;/a> - SUNY at Albany&lt;/li>
+&lt;/ul>
+&lt;h2 id="ed31g-2277-pace-hackweek-an-open-community-keeping-up-with-pace">
+ED31G-2277 PACE Hackweek: An open community keeping up with PACE
+&lt;a class="header-anchor" href="#ed31g-2277-pace-hackweek-an-open-community-keeping-up-with-pace">#&lt;/a>
+&lt;/h2>&lt;p>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1577974" target="_blank" rel="noopener" >Link to session&lt;/a>&lt;/p>
+&lt;h3 id="abstract-1">
+Abstract
+&lt;a class="header-anchor" href="#abstract-1">#&lt;/a>
+&lt;/h3>&lt;p>The NASA Plankton, Aerosol, Cloud, ocean Ecosystem (PACE) mission, while bringing NASA&amp;rsquo;s Earth System Observatory &lt;em>up to speed&lt;/em> with aquatic, atmospheric, and terrestrial science capabilities, is also providing data records of the Earth System for the next generation of scientists &lt;em>to grow into&lt;/em>. The goal of the PACE Hackweek, supported by the Ocean Carbon &amp;amp; Biogeochemistry program and hosted at the University of Maryland Baltimore County in August 2024, was to enrich and support the practice of open science by both emerging and established researchers. Cloud-compute resources for the event were provided by CryoCloud, a NASA funded collaboration between ICESat-2 and the International Interactive Computing Collaboration (2i2c) to provide cryosphere researchers with a shared JupyterHub. We, the hackweek mentors, were buoyed by the NASA Openscapes program and adopted its mantra of striving toward &amp;ldquo;a kinder science for future us.&amp;rdquo; Participants faced two novelties: the &amp;ldquo;firehose&amp;rdquo; of data from the PACE instrument array (a hyper-spectral imaging spectrometer, a wide-swath hyper-angular polarimeter, and a narrow-swath spectro-polarimeter), and the distribution of PACE collections through the NASA Earthdata Cloud (a first for the Ocean Biology Distributed Active Archive Center). We present our approach and the challenges undertaken to hold an in-person, social coding event with 45 participants that provided a collaborative, supportive launchpad for doing open science with PACE. All lectures and tutorials produced for the event are freely available for examination and reuse. Our results additionally include highlights from the demonstration projects pursued by event participants and results from two post-event, qualitative surveys. One anonymous survey gathered participant feedback that will inform plans for growing these 45 participants into a lasting, open community. A separate, anonymous survey recorded participant demographics in order to evaluate our efforts at increasing diversity within the community of PACE data users. Key points of discussion include participant views, informed by our event, on whether and how the NASA Earthdata Cloud is a significant resource for the practice of open science with PACE, and how a shared JupyterHub can further the practice of open science by the community it serves.&lt;/p>
+&lt;h3 id="authors-1">
+Authors
+&lt;a class="header-anchor" href="#authors-1">#&lt;/a>
+&lt;/h3>&lt;ul>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1480998" target="_blank" rel="noopener" >Ian Carroll&lt;/a> - NASA Goddard Space Flight Center; University of Maryland Baltimore County (first author)&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1495436" target="_blank" rel="noopener" >Kelsey Bisson&lt;/a> - NASA Headquarters&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1376909" target="_blank" rel="noopener" >Sean Foley&lt;/a> - NASA Goddard Space Flight Center; Morgan State University&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/741441" target="_blank" rel="noopener" >Patrick Clifton Gray&lt;/a> - University of Maine&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/23781" target="_blank" rel="noopener" >Elizabeth E Holmes&lt;/a> - NOAA Fisheries&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1492013" target="_blank" rel="noopener" >Carina Poulin&lt;/a> - Science Systems and Applications, Inc.; NASA Goddard Space Flight Center&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1306597" target="_blank" rel="noopener" >Tasha Snow&lt;/a> - NASA Goddard Space Flight Center; University of Maryland College Park&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1076991" target="_blank" rel="noopener" >Guoqing Wang&lt;/a> - NASA Goddard Space Flight Center; Science Systems and Applications, Inc.&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/38898" target="_blank" rel="noopener" >Jeremy Werdell&lt;/a> - NASA Goddard Space Flight Center&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1466866" target="_blank" rel="noopener" >Anna Windle&lt;/a> - NASA Goddard Space Flight Center; Science Systems and Applications, Inc.&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/66734" target="_blank" rel="noopener" >Pengwang Zhai&lt;/a> - Department of Physics, University of Maryland Baltimore County&lt;/li>
+&lt;/ul>
+&lt;h2 id="in13a-2147-including-more-solutions-and-more-solvers-via-actionable-open-science">
+IN13A-2147 Including more solutions and more solvers via actionable open science
+&lt;a class="header-anchor" href="#in13a-2147-including-more-solutions-and-more-solvers-via-actionable-open-science">#&lt;/a>
+&lt;/h2>&lt;p>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1709763" target="_blank" rel="noopener" >Link to session&lt;/a>&lt;/p>
+&lt;p>Monday, 9 December 2024
+13:40 - 17:30&lt;br>
+Hall B-C (Poster Hall) (Convention Center)&lt;/p>
+&lt;h3 id="abstract-2">
+Abstract
+&lt;a class="header-anchor" href="#abstract-2">#&lt;/a>
+&lt;/h3>&lt;p>If we&amp;rsquo;re asking people to change for open science, we must be willing to change ourselves. Internalizing this as individuals and institutions is critical - &amp;ldquo;to address our climate emergency, we must rapidly, radically reshape society. We need every solution and every solver&amp;rdquo; (Johnson &amp;amp; Wilkinson, All We Can Save).&lt;/p>
+&lt;p>Radically reshaping our society and including more solvers requires Earth scientists of all disciplines, across AGU, to work together in new ways. Many of these shifts can be considered Open science. They change how we work daily, not just the open products we produce. And for that, people need to consider themselves part of a team, let go of perfection and embrace a growth mindset to continually reflect and improve skills – no matter their job title. Further, open science requires all of us to see ourselves as leaders making small changes that collectively add up to a movement.&lt;/p>
+&lt;p>Openscapes is an open source approach to cultivating leaders and change makers. Openscapes&amp;rsquo; flywheel approach intervenes and builds momentum through identifying mentors within organizations and mentoring teams curious about shifting to open science (Robinson &amp;amp; Lowndes 2022). Collectively, the Openscapes flywheel iterations have had a significant impact over the past five years across institutions like the federal government and academia that seem impossible to change. Through stories working with professional scientists over the past 5 years including at NASA, NOAA, Black Women in Ecology, Evolution, and Marine Science, and many universities, and open source software communities like 2i2c, Posit, Pangeo, and RLadies, we will share actionable insights for flourishing in the open science commons, and are interested in learning with and growing flywheel momentum further at AGU.&lt;/p>
+&lt;h3 id="authors-2">
+Authors
+&lt;a class="header-anchor" href="#authors-2">#&lt;/a>
+&lt;/h3>&lt;ul>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/259076" target="_blank" rel="noopener" >Julia S. Stewart Lowndes&lt;/a> - Openscapes, LLC (first author)&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/710145" target="_blank" rel="noopener" >Ileana Faye Fenwick&lt;/a> - Hampton University&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/23781" target="_blank" rel="noopener" >Elizabeth E Holmes&lt;/a> - NOAA Fisheries&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/156587" target="_blank" rel="noopener" >Luis Alberto Lopez&lt;/a> - National Snow and Ice Data Center (NSIDC), CIRES, University of Colorado Boulder&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1117961" target="_blank" rel="noopener" >Erin Robinson&lt;/a> - Self Employed&lt;/li>
+&lt;/ul>
+&lt;h2 id="in34a-01-beyond-open-data-ensuring-true-accessibility-for-all-invited">
+IN34A-01 Beyond Open Data: Ensuring True Accessibility for All (Invited)
+&lt;a class="header-anchor" href="#in34a-01-beyond-open-data-ensuring-true-accessibility-for-all-invited">#&lt;/a>
+&lt;/h2>&lt;p>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1522970" target="_blank" rel="noopener" >Link to session&lt;/a>&lt;/p>
+&lt;h3 id="abstract-3">
+Abstract
+&lt;a class="header-anchor" href="#abstract-3">#&lt;/a>
+&lt;/h3>&lt;p>The Earth Observation (EO) industry has seen rapid technological advancements alongside a massive increase in the number of private and public missions, leading to exponentially growing data archives. For publicly funded entities, this data is typically required to be freely available. However, open data does not always guarantee accessibility, and significant barriers remain for even the most advanced users. The stagnation in the use and adoption of open data can be attributed to several factors, including 1) challenges in unifying and maintaining metadata standards, 2) inefficiencies associated with legacy data formats, 3) a lack of training and resources for transitioning to cloud-based infrastructure, and 4) systemic social inequalities.&lt;/p>
+&lt;p>This talk will explore real-life examples of these barriers and highlight success stories that have emerged from partnerships largely originating within open-source communities which foster diverse connections between private and public entities including efforts like GeoZarr, pangeo-forge, Openscapes and 2i2c. While many advancements in improving the usability and accessibility of EO data have come from private efforts (i.e. Google Earth Engine), the shutdown of the Planetary Computer is a reminder of the need for publicly funded alternatives. The sustainability of open source projects will be addressed, with questions posed around reliable funding mechanisms as a means to ensure equitable development to address barriers and ensure accessibility for all. While this talk will be presented by one individual, it is the review and reflection of the work done by dozens of people across various organizations.&lt;/p>
+&lt;h3 id="authors-3">
+Authors
+&lt;a class="header-anchor" href="#authors-3">#&lt;/a>
+&lt;/h3>&lt;ul>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1267904" target="_blank" rel="noopener" >Brianna Rita Pagán&lt;/a> - NASA Goddard Space Flight Center; ADNET Systems Inc. Greenbelt (first author)&lt;/li>
+&lt;/ul>
+&lt;h2 id="introducing-geolab---an-earthscope-jupyterhub-for-enabling-collaborative-cloud-native-geophysical-data-analysis-and-skill-development-workshops">
+Introducing GeoLab - An EarthScope JupyterHub for Enabling Collaborative Cloud-Native Geophysical Data Analysis and Skill Development Workshops
+&lt;a class="header-anchor" href="#introducing-geolab---an-earthscope-jupyterhub-for-enabling-collaborative-cloud-native-geophysical-data-analysis-and-skill-development-workshops">#&lt;/a>
+&lt;/h2>&lt;p>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1645291" target="_blank" rel="noopener" >Link to session&lt;/a>&lt;/p>
+&lt;h3 id="abstract-4">
+Abstract
+&lt;a class="header-anchor" href="#abstract-4">#&lt;/a>
+&lt;/h3>&lt;p>The EarthScope Consortium manages NSF&amp;rsquo;s GAGE and SAGE facilities and makes all of its geophysical data available in a commercial cloud system. This enables EarthScope and the communities it supports to leverage the abundant computational resources and cost-effective benefits of adopting data-proximate workflows with direct access to large, analysis-ready geophysical data sets.&lt;/p>
+&lt;p>In recent years, JupyterHub environments have gained popularity with data enthusiasts for their ability to provide open access to powerful compute resources. As part of a broad effort to support communities with intuitive resources to quickly adapt their workflows to the cloud, EarthScope has partnered with 2i2c to operate a scalable JupyterHub environment in AWS that will provide equitable access to cloud compute resources for researchers, educators, and the general public. GeoLab, the EarthScope hub, is aligned with related open science initiatives to establish rigorous and transparent standards for reproducible, data-intensive workflows. In addition to promoting interdisciplinary and inter-institutional collaborative work between researchers in GeoLab, EarthScope is developing and hosting workshops that can support both in-person and asynchronous learning modules that will train users how to utilize these new resources and transition their work to the cloud. We are excited to invite all geophysical data users to participate in the vigorous growth of this new platform and collaborate with adjacent open-science compute hub initiatives.&lt;/p>
+&lt;h3 id="authors-4">
+Authors
+&lt;a class="header-anchor" href="#authors-4">#&lt;/a>
+&lt;/h3>&lt;ul>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/74000" target="_blank" rel="noopener" >Robert T Weekly&lt;/a> - EarthScope Consortium (first author)&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/84732" target="_blank" rel="noopener" >Tammy K Bravo&lt;/a> - EarthScope Consortium&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/38950" target="_blank" rel="noopener" >Jerry A Carter&lt;/a> - EarthScope Consortium&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1522227" target="_blank" rel="noopener" >Tim Dittmann&lt;/a> - EarthScope Consortium&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1293466" target="_blank" rel="noopener" >Alex Hamilton&lt;/a> - EarthScope Consortium&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/57436" target="_blank" rel="noopener" >David Mencin&lt;/a> - EarthScope Consortium&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/13120" target="_blank" rel="noopener" >Chad Trabant&lt;/a> - EarthScope Consortium&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1526474" target="_blank" rel="noopener" >Sarah Wilson&lt;/a> - EarthScope Consortium&lt;/li>
+&lt;/ul>
+&lt;h2 id="u13a-2349-sharing-recipes-for-cloud-computing-the-project-pythia-cookbook-initiative">
+U13A-2349 Sharing recipes for cloud computing: the Project Pythia Cookbook Initiative
+&lt;a class="header-anchor" href="#u13a-2349-sharing-recipes-for-cloud-computing-the-project-pythia-cookbook-initiative">#&lt;/a>
+&lt;/h2>&lt;p>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1697601" target="_blank" rel="noopener" >Link to session&lt;/a>&lt;/p>
+&lt;h3 id="abstract-5">
+Abstract
+&lt;a class="header-anchor" href="#abstract-5">#&lt;/a>
+&lt;/h3>&lt;p>Project Pythia is the flagship education and training initiative of the Pangeo community. Pangeo has advanced transformative platforms and paradigms for &amp;ldquo;Big Data&amp;rdquo; geoscience in the cloud; Pythia is creating on-ramps for new users with open, interactive learning resources centered on Python in the geosciences. Pythia is now building a vibrant community-owned clearinghouse of accessible, reusable, and reproducible tutorials and exemplar workflows in the cloud known as Pythia Cookbooks.&lt;/p>
+&lt;p>&amp;ldquo;Cookbooks&amp;rdquo; imply collections of recipes for transforming raw ingredients (publicly available data) into scientifically useful results. Based on Jupyter notebooks, Cookbooks are explicitly tied to reproducible computational environments and supported by a rich cloud-based infrastructure enabling collaborative authoring and automated health-checking – essential tools in the struggle against the widespread notebook obsolescence problem. Cookbooks are hosted on Pythia&amp;rsquo;s searchable gallery and nurtured by a growing community of open science enthusiasts from across the geosciences. The Pythia Cookbook gallery is essentially a crowd-sourced, community-curated collection of best practices for data analysis and visualization.&lt;/p>
+&lt;p>Here we will outline the stack of technologies and infrastructure enabling cookbook creation, collaboration, testing, publication, and interactive deployment, and how these are used in service of building an inclusive participatory community. We will discuss existing technical and social hurdles for contributors, as well as new infrastructure developments in collaboration with the Executable Books Project that are reducing these hurdles.&lt;/p>
+&lt;h3 id="authors-5">
+Authors
+&lt;a class="header-anchor" href="#authors-5">#&lt;/a>
+&lt;/h3>&lt;ul>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/10645" target="_blank" rel="noopener" >Brian E J Rose&lt;/a> - University at Albany State University of New York (first author)&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1112151" target="_blank" rel="noopener" >Drew Camron&lt;/a> - University Corporation for Atmospheric Research&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/15277" target="_blank" rel="noopener" >John Clyne&lt;/a> - NCAR&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1104277" target="_blank" rel="noopener" >Orhan Eroglu&lt;/a> - NSF National Center for Atmospheric Research&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1266060" target="_blank" rel="noopener" >Robert Ford&lt;/a> - University at Albany State University of New York&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/796821" target="_blank" rel="noopener" >Julia Kent&lt;/a> - NSF National Center for Atmospheric Research&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/529702" target="_blank" rel="noopener" >Ryan May&lt;/a> - University Corporation for Atmospheric Research&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1317099" target="_blank" rel="noopener" >James Munroe&lt;/a> - 2i2c / Code for Science and Society&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/218622" target="_blank" rel="noopener" >Kevin Tyle&lt;/a> - SUNY at Albany&lt;/li>
+&lt;/ul>
+&lt;h2 id="u13a-2350-supporting-nasa-earthdata-users-in-the-cloud-nasa-openscapes-jupyterhub-and-user-onboarding--fledging">
+U13A-2350 Supporting NASA Earthdata users in the Cloud: NASA Openscapes JupyterHub and User Onboarding &amp;amp; Fledging
+&lt;a class="header-anchor" href="#u13a-2350-supporting-nasa-earthdata-users-in-the-cloud-nasa-openscapes-jupyterhub-and-user-onboarding--fledging">#&lt;/a>
+&lt;/h2>&lt;p>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1708480" target="_blank" rel="noopener" >Link to session&lt;/a>&lt;/p>
+&lt;h3 id="abstract-6">
+Abstract
+&lt;a class="header-anchor" href="#abstract-6">#&lt;/a>
+&lt;/h3>&lt;p>In this talk we will highlight our NASA Openscapes community teaching approach to using the 2i2c-managed JupyterHub – how we&amp;rsquo;ve collaboratively developed it to meet user needs, and how it continues to enable researchers and users of NASA Earthdata in the new Cloud paradigm.&lt;/p>
+&lt;p>NASA Openscapes is an open source mentor community across NASA Earth science data centers (
+&lt;a href="https://www.earthdata.nasa.gov/eosdis/daacs" target="_blank" rel="noopener" >DAACs&lt;/a>) that helps users explore and use the Cloud for their science and applications.
+&lt;a href="https://nasa-openscapes.github.io/earthdata-cloud-cookbook/" target="_blank" rel="noopener" >Earthdata Cloud Cookbook&lt;/a> is a learner-focused open source tutorial collection that we update openly as we learn together.&lt;/p>
+&lt;p>A critical piece of the NASA Openscapes effort is our &lt;strong>NASA Openscapes 2i2c JupyterHub&lt;/strong>, a managed cloud computing space. By working with cloud early adopters and science
+&lt;a href="https://nasa-openscapes.github.io/news/2024-07-24-2024-nasa-champions-cohort/" target="_blank" rel="noopener" >Champions&lt;/a>, responding and co-developing solutions, the JupyterHub has evolved since its early days in 2021. We support cloud computing for several languages (python, R, Matlab, QGIS) and common science libraries with
+&lt;a href="https://github.com/nasa-openscapes/corn" target="_blank" rel="noopener" >corn&lt;/a>; we streamlined how to bulk-add workshop participants via GitHub Teams; we established policy and technology for a special authentication mechanism for large scale workshops; we are developing earthaccess as an community-developed python library for NASA Earthdata search and access, whether locally or in the cloud.&lt;/p>
+&lt;p>Based on the last 3 years of engaging with the user community and the Hub, we have &lt;strong>evolved&lt;/strong> how we &lt;strong>onboard&lt;/strong> (first experience in the cloud) and &lt;strong>fledge&lt;/strong> (set up for Cloud that includes a plan, how to do it, how to pay for it; leaving the nest and perhaps building your own). Fledging is an important part of adoption and initiating users to the Cloud - where do researchers go when they decide to do their science in the Cloud? We&amp;rsquo;ve been developing practices that aim to be equitable and consider policy (cost), technical (where do people go, what admin setup is needed, what tech like base images etc are needed), and social (how do I learn, get support) aspects, and look forward to discussing further at AGU.&lt;/p>
+&lt;h3 id="authors-6">
+Authors
+&lt;a class="header-anchor" href="#authors-6">#&lt;/a>
+&lt;/h3>&lt;ul>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/259076" target="_blank" rel="noopener" >Julia S. Stewart Lowndes&lt;/a> - Openscapes, LLC (first author)&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1187283" target="_blank" rel="noopener" >Andrew Barrett&lt;/a> - National Snow and Ice Data Center (NSIDC)&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/153347" target="_blank" rel="noopener" >Carl Boettiger&lt;/a> - University of California Santa Cruz&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/249458" target="_blank" rel="noopener" >Aaron M Friesz&lt;/a> - Organization Not Listed&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/23781" target="_blank" rel="noopener" >Elizabeth E Holmes&lt;/a> - NOAA Fisheries&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1187291" target="_blank" rel="noopener" >Alexis Hunzinger&lt;/a> - NASA Goddard Space Flight Center&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1232669" target="_blank" rel="noopener" >Daniel Kaufman&lt;/a> - NASA Langley Research Center&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/156587" target="_blank" rel="noopener" >Luis Alberto Lopez&lt;/a> - National Snow and Ice Data Center (NSIDC), CIRES, University of Colorado Boulder&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/64338" target="_blank" rel="noopener" >Catalina M Oaida Taglialatela&lt;/a> - NASA Jet Propulsion Laboratory, California Institute of Technology&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/773544" target="_blank" rel="noopener" >Yuvi Panda&lt;/a> - University of California, Berkeley&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/153320" target="_blank" rel="noopener" >Michele Thornton&lt;/a> - Oak Ridge National Laboratory&lt;/li>
+&lt;/ul>
+&lt;h2 id="v31a-08-victor--a-new-cyber-infrastructure-for-volcanology">
+V31A-08 VICTOR – A new Cyber-infrastructure for Volcanology
+&lt;a class="header-anchor" href="#v31a-08-victor--a-new-cyber-infrastructure-for-volcanology">#&lt;/a>
+&lt;/h2>&lt;p>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1605357" target="_blank" rel="noopener" >Link to session&lt;/a>&lt;/p>
+&lt;h3 id="abstract-7">
+Abstract
+&lt;a class="header-anchor" href="#abstract-7">#&lt;/a>
+&lt;/h3>&lt;p>Numerical models are essential for forecasting volcanic hazards for both short-term responses and long-term hazard assessment. While many models of volcanic processes already exist, challenges in finding, installing, and evaluating these models, coupled with limited computational resources, hinder their widespread use. To address this, we introduce VICTOR, the Volcanology Infrastructure for Computational Tools and Resources.&lt;/p>
+&lt;p>VICTOR is a cutting-edge cyber-infrastructure platform offering an open-source, cloud-based environment tailored for the volcanology community. It features Jupyter notebooks that integrate existing volcano models, such as the lava flow codes MOLASSES and IMEX_lava, the tephra and ash dispersal codes Tephra2 and HYSPLIT, and the mass flow code TITAN2D. The backend of VICTOR is managed as a JupyterHub, operated by the non-profit 2i2c under the Code for Science and Society.&lt;/p>
+&lt;p>VICTOR not only provides access to individual modeling tools, but also hosts workflows that use them in data inversion, model benchmarking, and uncertainty quantification. For example, we developed a workflow to validate mass flow models using multiple metrics and Bayesian statistics. VICTOR provides built-in access to external databases such as OpenTopography, Copernicus, and NASA&amp;rsquo;s remote sensing products to streamline obtaining and using data in workflows.&lt;/p>
+&lt;p>VICTOR also serves as an educational resource. In Spring 2023 and 2024 we taught graduate level, multi-institutional courses in Computational Volcanology using VICTOR, and we are creating multilingual tutorials for the workflows. We are developing teaching modules on topics such as lava flows and remote sensing to be shared with instructors. Lastly, VICTOR collaborates with national efforts including CONVERSE and SZ4D.&lt;/p>
+&lt;p>In summary, VICTOR addresses the critical need for accessible, effective volcanic hazard modeling tools and resources, fostering advancements in both research and education within the volcanology community.&lt;/p>
+&lt;h3 id="plain-language-summary">
+Plain-language Summary
+&lt;a class="header-anchor" href="#plain-language-summary">#&lt;/a>
+&lt;/h3>&lt;p>VICTOR is a new online platform designed to help scientists predict volcanic hazards more easily. Traditional models can be difficult to find, use, and combine with other tools. VICTOR solves these problems by offering a cloud-based, open-source environment with user-friendly tools.&lt;/p>
+&lt;p>VICTOR includes tools like Jupyter notebooks that combine various volcano models for lava flows, ash dispersal, and mass movements. It operates through JupyterHub, managed by the non-profit 2i2c. The platform not only provides access to these models but also offers workflows for tasks like data analysis and model validation. For example, it has a workflow for testing mass flow models using multiple evaluation methods.&lt;/p>
+&lt;p>VICTOR simplifies data access by connecting directly to databases like OpenTopography and NASA&amp;rsquo;s remote sensing products. It&amp;rsquo;s also an educational tool, used in graduate courses and offering multilingual tutorials. Additionally, VICTOR is developing teaching materials on topics like lava flows and remote sensing and collaborates with national projects like CONVERSE and SZ4D.&lt;/p>
+&lt;p>In essence, VICTOR makes volcanic hazard modeling more accessible and effective, benefiting both research and education in volcanology.&lt;/p>
+&lt;h3 id="authors-7">
+Authors
+&lt;a class="header-anchor" href="#authors-7">#&lt;/a>
+&lt;/h3>&lt;ul>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/23513" target="_blank" rel="noopener" >Einat Lev&lt;/a> - Columbia University of New York (first author)&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/82273" target="_blank" rel="noopener" >Sylvain J Charbonnier&lt;/a> - University of South Florida&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/12431" target="_blank" rel="noopener" >Charles Connor&lt;/a> - University of South Florida&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1565568" target="_blank" rel="noopener" >Samuel Krasnoff&lt;/a> - Lamont -Doherty Earth Observatory&lt;/li>
+&lt;li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/880" target="_blank" rel="noopener" >Abani K Patra&lt;/a> - University at Buffalo&lt;/li>
+&lt;/ul></description></item><item><title>2024 impact report: new team structure, new funding, and growth in our network</title><link>https://2i2c.org/blog/2024/retrospective/</link><pubDate>Sun, 08 Dec 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/retrospective/</guid><description>&lt;p>2024 has been a busy year for 2i2c, with many highs and lows, a lot of impact, and significant organizational change. As the year comes to an end, I want to reflect on the work we&amp;rsquo;ve done in 2024, and where we aim to go in 2025.&lt;/p>
 &lt;p>In 2024, 2i2c reached the point in an organization&amp;rsquo;s lifecycle when a team has grown enough in size and complexity that you must change the ways that you organize. The informal ways that worked as a small group don&amp;rsquo;t suffice anymore, and you have to put more effort into aligning and coordinating everyone to ensure you have the same impact.&lt;/p>
 &lt;p>I call this the &amp;ldquo;$1M to $2M budget jump&amp;rdquo;, because organizations seem to hit this point around when your annual budget goes from &lt;code>$1M&lt;/code> to &lt;code>$2M&lt;/code>. Getting to the other side of this gap with an intact runway and team is hard, and I suspect that 2i2c&amp;rsquo;s fully distributed nature means that we hit these scaling milestones earlier than many organizations. For us, this has been a major focus of effort all year, and has involved taking a top-to-bottom look at our plans and ways of working as a team. Read on for more details about major updates, challenges, and impact that our team had in 2024.&lt;/p>
 &lt;h2 id="organizational-updates">
@@ -599,7 +876,75 @@ delivers value and impact at scale.&lt;/li>
 us resources to sustain and scale our service.&lt;/li>
 &lt;/ul>
 &lt;p>We believe this is a critical step in helping our organization define and build a pathway to sustainability so that our service remains accessible, scalable, and resilient for years to come.&lt;/p>
-&lt;p>We&amp;rsquo;re incredibly honored to be supported by the Navigation Fund, and excited to continue our work helping communities create and share knowledge with open infrastructure.&lt;/p></description></item><item><title>Support from CZI to sustain 2i2c's mission to help communities create and share knowledge with open infrastructure</title><link>https://2i2c.org/blog/2024/funding-czi/</link><pubDate>Sun, 13 Oct 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/funding-czi/</guid><description>&lt;p>We are proud to announce that 2i2c has received financial support from
+&lt;p>We&amp;rsquo;re incredibly honored to be supported by the Navigation Fund, and excited to continue our work helping communities create and share knowledge with open infrastructure.&lt;/p></description></item><item><title>`frx-challenges`: A new tool to host data challenges for Frictionless Research Exchanges</title><link>https://2i2c.org/blog/2024/frx/</link><pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/frx/</guid><description>&lt;p>2i2c is pleased to announce the &lt;code>frx-challenges&lt;/code> project, a new open source tool to help communities host data challenges on shared infrastructure:&lt;/p>
+&lt;p>
+&lt;a href="https://github.com/2i2c-org/frx-challenges" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> 2i2c-org/frx-challenges&lt;/a>&lt;/p>
+&lt;p>This project aims to make it easier for administrators to provide a service that enables users to &lt;strong>submit code and data&lt;/strong> that are &lt;strong>evaluated on secure infrastructure with access to private data and resources&lt;/strong>. It also provides a leaderboard that helps users compare their performance against others.&lt;/p>
+&lt;figure id="figure-an-example-leaderboard-for-a-data-challenge-taken-from-the-cellmap-challengehttpscellmapchallengejaneliaorg-users-make-submissions-that-are-run-against-secure-and-private-infrastructure-and-data-and-provides-feedback-about-the-submissions-performance-learn-more-about-the-frx-challenges-project-here-https2i2corgfrx-challenges">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="An example leaderboard for a data challenge, taken from the [Cellmap Challenge](https://cellmapchallenge.janelia.org/). Users make submissions that are run against secure and private infrastructure and data, and provides feedback about the submission&amp;#39;s performance. Learn more about the FRX challenges project here: https://2i2c.org/frx-challenges/" srcset="
+/blog/2024/frx/images/leaderboard_hu0bc251dd6caf23590fd61cf61013dca1_1307009_5b46aa64a0a0ccda04e936b986eb85ec.webp 400w,
+/blog/2024/frx/images/leaderboard_hu0bc251dd6caf23590fd61cf61013dca1_1307009_be703c3a967b80309a261be425d99de3.webp 760w,
+/blog/2024/frx/images/leaderboard_hu0bc251dd6caf23590fd61cf61013dca1_1307009_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2024/frx/images/leaderboard_hu0bc251dd6caf23590fd61cf61013dca1_1307009_5b46aa64a0a0ccda04e936b986eb85ec.webp"
+width="75%"
+height="417"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+An example leaderboard for a data challenge, taken from the
+&lt;a href="https://cellmapchallenge.janelia.org/" target="_blank" rel="noopener" >Cellmap Challenge&lt;/a>. Users make submissions that are run against secure and private infrastructure and data, and provides feedback about the submission&amp;rsquo;s performance. Learn more about the FRX challenges project here:
+&lt;a href="https://2i2c.org/frx-challenges/" target="_blank" rel="noopener" >2i2c.org/frx-challenges/&lt;/a>
+&lt;/figcaption>&lt;/figure>
+&lt;p>It is designed to be lightweight and flexible, and can be run on a variety of shared infrastructure. For those who wish to run this project on cloud infrastructure, we&amp;rsquo;ve also published a
+&lt;a href="https://2i2c.org/frx-challenges-helm-chart/" target="_blank" rel="noopener" >Helm Chart to help you deploy &lt;code>frx-challenges&lt;/code> with Kubernetes&lt;/a>.&lt;/p>
+&lt;p>While it can be run on its own, we believe that it naturally complements other tools and services for interactive computing and data, such as &lt;strong>JupyterHub&lt;/strong>, &lt;strong>Jupyter Book&lt;/strong>, and &lt;strong>Binder&lt;/strong>. More on that below.&lt;/p>
+&lt;p>Below is a brief description of the motivation behind this project.&lt;/p>
+&lt;h2 id="what-are-frictionless-research-exchanges">
+What are Frictionless Research Exchanges
+&lt;a class="header-anchor" href="#what-are-frictionless-research-exchanges">#&lt;/a>
+&lt;/h2>&lt;p>The project is heavily inspired by David Donoho&amp;rsquo;s vision of &lt;strong>Frictionless Research Exchanges&lt;/strong> (FRX) as described in
+&lt;a href="https://arxiv.org/abs/2310.00865" target="_blank" rel="noopener" >&lt;em>Data Science at the Singularity&lt;/em>&lt;/a>.&lt;/p>
+&lt;p>In this article, Donoho describes three key pillars for Frictionless Research Exchanges:&lt;/p>
+&lt;blockquote>
+&lt;p>The three initiatives are related but separate; and all three have to come together, and in a particularly strong way, to provide the conditions for the new era. Here they are:&lt;/p>
+&lt;ul>
+&lt;li>[FR-1: Data] datafication of everything, with a culture of research data sharing. One can now find datasets publicly available online on a bewildering variety of topics, from chest x-rays to cosmic microwave background measurements to uber routes to geospatial crop identifications.&lt;/li>
+&lt;li>[FR-2: Re-execution] research code sharing including the ability to exactly re-execute the same complete workflow by different researchers.&lt;/li>
+&lt;li>[FR-3: Challenges] adopting challenge problems as a new paradigm powering scientific research. The paradigm includes: a shared public dataset, a prescribed and quantified task performance metric, a set of enrolled competitors seeking to outperform each other on the task, and a public leaderboard. Thousands of such challenges with millions of entries have now taken place, across many fields.&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;p>We considered the landscape of tools and services, and felt that [FR-1] and [FR-2] were already well-served by a variety of tools and services for community workspace infrastructure (e.g., JupyterHub:
+&lt;a href="https://jupyterhub.readthedocs.io" target="_blank" rel="noopener" >jupyterhub.readthedocs.io&lt;/a>), sharable computational environments (e.g., BinderHub:
+&lt;a href="https://binderhub.readthedocs.io" target="_blank" rel="noopener" >binderhub.readthedocs.io&lt;/a>), authoring and reading computational narratives (e.g., Jupyter Book:
+&lt;a href="https://jupyterbook.org" target="_blank" rel="noopener" >jupyterbook.org&lt;/a> and MyST:
+&lt;a href="https://mystmd.org" target="_blank" rel="noopener" >mystmd.org&lt;/a>), and data I/O tools and standards (e.g., Zarr:
+&lt;a href="https://zarr.readthedocs.io" target="_blank" rel="noopener" >zarr.readthedocs.io&lt;/a> and Intake:
+&lt;a href="https://intake.readthedocs.io" target="_blank" rel="noopener" >intake.readthedocs.io&lt;/a>).&lt;/p>
+&lt;p>However there was a natural missing piece for &lt;strong>[FR-3 Challenges]&lt;/strong>, and we could not identify any community-managed infrastructure that facilitated data challenges. This is the goal of &lt;code>frx-challenges&lt;/code>.&lt;/p>
+&lt;h2 id="why-facilitate-data-challenges">
+Why facilitate data challenges?
+&lt;a class="header-anchor" href="#why-facilitate-data-challenges">#&lt;/a>
+&lt;/h2>&lt;p>Data challenges are harder than you think! While it is simple enough to run somebody else&amp;rsquo;s code locally, data challenges require a systematic, secure, and automated approach to accepting and evaluating submissions in a fair and repeatable way. Here are some of the big challenges to tackle:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Submissions must retain user and team identity&lt;/strong>, which means that we must keep track of users and their submissions over time, since data challenges are designed to encourage iterative improvement and optimization.&lt;/li>
+&lt;li>&lt;strong>Evaluations must use potentially complex resources and data&lt;/strong> since many data challenges operate by publicly sharing a small dataset, and then running it against a much more complex dataset.&lt;/li>
+&lt;li>&lt;strong>Evaluations must be totally secure&lt;/strong>, so that submissions can&amp;rsquo;t do nefarious things like mine cryptocurrency or extract the challenge&amp;rsquo;s private data in unintended ways.&lt;/li>
+&lt;li>&lt;strong>Evaluations must be automated&lt;/strong>, so that running the challenge does not require extensive human intervention and can scale to many users.&lt;/li>
+&lt;li>&lt;strong>Evaluation must be flexible&lt;/strong>, so that the infrastructure can accept a variety of types of submissions (e.g. code, data, model weights, etc), run them with arbitrary environments designed by the organizers, and run them with the right hardware to get the job done.&lt;/li>
+&lt;/ul>
+&lt;p>These are just a few of the major challenges that we&amp;rsquo;ve tried to address with &lt;code>frx-challenges&lt;/code>, and we&amp;rsquo;re excited to see how it goes with our first assisted community challenge: the
+&lt;a href="https://cellmapchallenge.janelia.org/" target="_blank" rel="noopener" >Cellmap Challenge&lt;/a>.&lt;/p>
+&lt;p>If you&amp;rsquo;re interested in learning more or participating in this project, follow along at its GitHub repository:&lt;/p>
+&lt;p>
+&lt;a href="https://github.com/2i2c-org/frx-challenges" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> 2i2c-org/frx-challenges&lt;/a>&lt;/p>
+&lt;p>This is still the &lt;strong>very early stages&lt;/strong> of the project, and we imagine it will evolve significantly. We welcome feedback for how it can more effectively serve a variety of communities.&lt;/p>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;p>Thanks to the Howard Hughes Medical Institute (HHMI) for collaborating with us on the
+&lt;a href="https://cellmapchallenge.janelia.org/" target="_blank" rel="noopener" >Cellmap Challenge&lt;/a>, which led to the creation of this project.&lt;/p>
+&lt;p>Thanks to Kristen Ratan and
+&lt;a href="https://strategiesos.org/about/" target="_blank" rel="noopener" >Strategies for Open Science&lt;/a> (Stratos) for enabling this collaboration, and providing strategic guidance and support.&lt;/p></description></item><item><title>Support from CZI to sustain 2i2c's mission to help communities create and share knowledge with open infrastructure</title><link>https://2i2c.org/blog/2024/funding-czi/</link><pubDate>Sun, 13 Oct 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/funding-czi/</guid><description>&lt;p>We are proud to announce that 2i2c has received financial support from
 &lt;a href="https://chanzuckerberg.com/" target="_blank" rel="noopener" >The Chan Zuckerberg Initiative&lt;/a> to sustain our efforts at helping open science communities create and share knowledge with open infrastructure.&lt;/p>
 &lt;figure id="figure-funding-comes-from-the-open-science-programhttpschanzuckerbergcomscienceprograms-resourcesopen-science-at-czi-which-aims-to-support-a-diverse-scientific-community-working-in-the-open-to-accelerate-our-understanding-of-human-health-and-disease-we-invest-in-tools-platforms-and-organizations-that-help-expand-participation-and-access-to-the-scientific-process-by-making-it-open-and-reproducible-and-helping-scientists-build-on-each-others-work">
 &lt;div class="d-flex justify-content-center">

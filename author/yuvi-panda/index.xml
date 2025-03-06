@@ -296,7 +296,75 @@ Other updates
 &lt;li>We are very close to
 &lt;a href="https://github.com/2i2c-org/infrastructure/issues/5209" target="_blank" rel="noopener" >rolling out JupyterHub 5.0&lt;/a> and associated changes across all our hubs, which will enable us to eventually offer per-group shared directories!
 &lt;a href="https://github.com/NASA-IMPACT/veda-jupyterhub/issues/61" target="_blank" rel="noopener" >Tracking Issue&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Improving the logged in home page experience in JupyterHub with `jupyterhub-fancy-profiles`</title><link>https://2i2c.org/blog/2024/jupyterhub-fancy-profiles-rollout/</link><pubDate>Mon, 18 Nov 2024 12:55:20 -0800</pubDate><guid>https://2i2c.org/blog/2024/jupyterhub-fancy-profiles-rollout/</guid><description>&lt;p>On most research oriented JupyterHub installations, users would like to customize their server (the environment, resources available, etc) after logging in. In Kubernetes based JupyterHub environments, a
+&lt;/ul></description></item><item><title>`frx-challenges`: A new tool to host data challenges for Frictionless Research Exchanges</title><link>https://2i2c.org/blog/2024/frx/</link><pubDate>Fri, 06 Dec 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/frx/</guid><description>&lt;p>2i2c is pleased to announce the &lt;code>frx-challenges&lt;/code> project, a new open source tool to help communities host data challenges on shared infrastructure:&lt;/p>
+&lt;p>
+&lt;a href="https://github.com/2i2c-org/frx-challenges" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> 2i2c-org/frx-challenges&lt;/a>&lt;/p>
+&lt;p>This project aims to make it easier for administrators to provide a service that enables users to &lt;strong>submit code and data&lt;/strong> that are &lt;strong>evaluated on secure infrastructure with access to private data and resources&lt;/strong>. It also provides a leaderboard that helps users compare their performance against others.&lt;/p>
+&lt;figure id="figure-an-example-leaderboard-for-a-data-challenge-taken-from-the-cellmap-challengehttpscellmapchallengejaneliaorg-users-make-submissions-that-are-run-against-secure-and-private-infrastructure-and-data-and-provides-feedback-about-the-submissions-performance-learn-more-about-the-frx-challenges-project-here-https2i2corgfrx-challenges">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="An example leaderboard for a data challenge, taken from the [Cellmap Challenge](https://cellmapchallenge.janelia.org/). Users make submissions that are run against secure and private infrastructure and data, and provides feedback about the submission&amp;#39;s performance. Learn more about the FRX challenges project here: https://2i2c.org/frx-challenges/" srcset="
+/blog/2024/frx/images/leaderboard_hu0bc251dd6caf23590fd61cf61013dca1_1307009_5b46aa64a0a0ccda04e936b986eb85ec.webp 400w,
+/blog/2024/frx/images/leaderboard_hu0bc251dd6caf23590fd61cf61013dca1_1307009_be703c3a967b80309a261be425d99de3.webp 760w,
+/blog/2024/frx/images/leaderboard_hu0bc251dd6caf23590fd61cf61013dca1_1307009_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2024/frx/images/leaderboard_hu0bc251dd6caf23590fd61cf61013dca1_1307009_5b46aa64a0a0ccda04e936b986eb85ec.webp"
+width="75%"
+height="417"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+An example leaderboard for a data challenge, taken from the
+&lt;a href="https://cellmapchallenge.janelia.org/" target="_blank" rel="noopener" >Cellmap Challenge&lt;/a>. Users make submissions that are run against secure and private infrastructure and data, and provides feedback about the submission&amp;rsquo;s performance. Learn more about the FRX challenges project here:
+&lt;a href="https://2i2c.org/frx-challenges/" target="_blank" rel="noopener" >2i2c.org/frx-challenges/&lt;/a>
+&lt;/figcaption>&lt;/figure>
+&lt;p>It is designed to be lightweight and flexible, and can be run on a variety of shared infrastructure. For those who wish to run this project on cloud infrastructure, we&amp;rsquo;ve also published a
+&lt;a href="https://2i2c.org/frx-challenges-helm-chart/" target="_blank" rel="noopener" >Helm Chart to help you deploy &lt;code>frx-challenges&lt;/code> with Kubernetes&lt;/a>.&lt;/p>
+&lt;p>While it can be run on its own, we believe that it naturally complements other tools and services for interactive computing and data, such as &lt;strong>JupyterHub&lt;/strong>, &lt;strong>Jupyter Book&lt;/strong>, and &lt;strong>Binder&lt;/strong>. More on that below.&lt;/p>
+&lt;p>Below is a brief description of the motivation behind this project.&lt;/p>
+&lt;h2 id="what-are-frictionless-research-exchanges">
+What are Frictionless Research Exchanges
+&lt;a class="header-anchor" href="#what-are-frictionless-research-exchanges">#&lt;/a>
+&lt;/h2>&lt;p>The project is heavily inspired by David Donoho&amp;rsquo;s vision of &lt;strong>Frictionless Research Exchanges&lt;/strong> (FRX) as described in
+&lt;a href="https://arxiv.org/abs/2310.00865" target="_blank" rel="noopener" >&lt;em>Data Science at the Singularity&lt;/em>&lt;/a>.&lt;/p>
+&lt;p>In this article, Donoho describes three key pillars for Frictionless Research Exchanges:&lt;/p>
+&lt;blockquote>
+&lt;p>The three initiatives are related but separate; and all three have to come together, and in a particularly strong way, to provide the conditions for the new era. Here they are:&lt;/p>
+&lt;ul>
+&lt;li>[FR-1: Data] datafication of everything, with a culture of research data sharing. One can now find datasets publicly available online on a bewildering variety of topics, from chest x-rays to cosmic microwave background measurements to uber routes to geospatial crop identifications.&lt;/li>
+&lt;li>[FR-2: Re-execution] research code sharing including the ability to exactly re-execute the same complete workflow by different researchers.&lt;/li>
+&lt;li>[FR-3: Challenges] adopting challenge problems as a new paradigm powering scientific research. The paradigm includes: a shared public dataset, a prescribed and quantified task performance metric, a set of enrolled competitors seeking to outperform each other on the task, and a public leaderboard. Thousands of such challenges with millions of entries have now taken place, across many fields.&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;p>We considered the landscape of tools and services, and felt that [FR-1] and [FR-2] were already well-served by a variety of tools and services for community workspace infrastructure (e.g., JupyterHub:
+&lt;a href="https://jupyterhub.readthedocs.io" target="_blank" rel="noopener" >jupyterhub.readthedocs.io&lt;/a>), sharable computational environments (e.g., BinderHub:
+&lt;a href="https://binderhub.readthedocs.io" target="_blank" rel="noopener" >binderhub.readthedocs.io&lt;/a>), authoring and reading computational narratives (e.g., Jupyter Book:
+&lt;a href="https://jupyterbook.org" target="_blank" rel="noopener" >jupyterbook.org&lt;/a> and MyST:
+&lt;a href="https://mystmd.org" target="_blank" rel="noopener" >mystmd.org&lt;/a>), and data I/O tools and standards (e.g., Zarr:
+&lt;a href="https://zarr.readthedocs.io" target="_blank" rel="noopener" >zarr.readthedocs.io&lt;/a> and Intake:
+&lt;a href="https://intake.readthedocs.io" target="_blank" rel="noopener" >intake.readthedocs.io&lt;/a>).&lt;/p>
+&lt;p>However there was a natural missing piece for &lt;strong>[FR-3 Challenges]&lt;/strong>, and we could not identify any community-managed infrastructure that facilitated data challenges. This is the goal of &lt;code>frx-challenges&lt;/code>.&lt;/p>
+&lt;h2 id="why-facilitate-data-challenges">
+Why facilitate data challenges?
+&lt;a class="header-anchor" href="#why-facilitate-data-challenges">#&lt;/a>
+&lt;/h2>&lt;p>Data challenges are harder than you think! While it is simple enough to run somebody else&amp;rsquo;s code locally, data challenges require a systematic, secure, and automated approach to accepting and evaluating submissions in a fair and repeatable way. Here are some of the big challenges to tackle:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Submissions must retain user and team identity&lt;/strong>, which means that we must keep track of users and their submissions over time, since data challenges are designed to encourage iterative improvement and optimization.&lt;/li>
+&lt;li>&lt;strong>Evaluations must use potentially complex resources and data&lt;/strong> since many data challenges operate by publicly sharing a small dataset, and then running it against a much more complex dataset.&lt;/li>
+&lt;li>&lt;strong>Evaluations must be totally secure&lt;/strong>, so that submissions can&amp;rsquo;t do nefarious things like mine cryptocurrency or extract the challenge&amp;rsquo;s private data in unintended ways.&lt;/li>
+&lt;li>&lt;strong>Evaluations must be automated&lt;/strong>, so that running the challenge does not require extensive human intervention and can scale to many users.&lt;/li>
+&lt;li>&lt;strong>Evaluation must be flexible&lt;/strong>, so that the infrastructure can accept a variety of types of submissions (e.g. code, data, model weights, etc), run them with arbitrary environments designed by the organizers, and run them with the right hardware to get the job done.&lt;/li>
+&lt;/ul>
+&lt;p>These are just a few of the major challenges that we&amp;rsquo;ve tried to address with &lt;code>frx-challenges&lt;/code>, and we&amp;rsquo;re excited to see how it goes with our first assisted community challenge: the
+&lt;a href="https://cellmapchallenge.janelia.org/" target="_blank" rel="noopener" >Cellmap Challenge&lt;/a>.&lt;/p>
+&lt;p>If you&amp;rsquo;re interested in learning more or participating in this project, follow along at its GitHub repository:&lt;/p>
+&lt;p>
+&lt;a href="https://github.com/2i2c-org/frx-challenges" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> 2i2c-org/frx-challenges&lt;/a>&lt;/p>
+&lt;p>This is still the &lt;strong>very early stages&lt;/strong> of the project, and we imagine it will evolve significantly. We welcome feedback for how it can more effectively serve a variety of communities.&lt;/p>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;p>Thanks to the Howard Hughes Medical Institute (HHMI) for collaborating with us on the
+&lt;a href="https://cellmapchallenge.janelia.org/" target="_blank" rel="noopener" >Cellmap Challenge&lt;/a>, which led to the creation of this project.&lt;/p>
+&lt;p>Thanks to Kristen Ratan and
+&lt;a href="https://strategiesos.org/about/" target="_blank" rel="noopener" >Strategies for Open Science&lt;/a> (Stratos) for enabling this collaboration, and providing strategic guidance and support.&lt;/p></description></item><item><title>Improving the logged in home page experience in JupyterHub with `jupyterhub-fancy-profiles`</title><link>https://2i2c.org/blog/2024/jupyterhub-fancy-profiles-rollout/</link><pubDate>Mon, 18 Nov 2024 12:55:20 -0800</pubDate><guid>https://2i2c.org/blog/2024/jupyterhub-fancy-profiles-rollout/</guid><description>&lt;p>On most research oriented JupyterHub installations, users would like to customize their server (the environment, resources available, etc) after logging in. In Kubernetes based JupyterHub environments, a
 &lt;a href="https://z2jh.jupyter.org/en/latest/jupyterhub/customizing/user-environment.html#using-multiple-profiles-to-let-users-select-their-environment" target="_blank" rel="noopener" >profile list&lt;/a> provides this functionality.&lt;/p>
 &lt;p>
 &lt;figure >

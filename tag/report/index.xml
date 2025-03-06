@@ -121,4 +121,1060 @@ us resources to sustain and scale our service.&lt;/li>
 &lt;/ul>
 &lt;p>These are the key goals 2i2c must achieve in order to ensure that its service remains impactful, sustainable, scalable, and accessible. We believe that we&amp;rsquo;ve laid a strong foundation to get there, and are excited to begin work next year.&lt;/p>
 &lt;p>Overall, 2024 has been a challenging, but also a rewarding year for our team. We&amp;rsquo;ve encountered and successfully worked thorugh a number of scaling challenges, and we&amp;rsquo;ve made significant progress at laying a foundation on which we can build for the years to come.&lt;/p>
-&lt;p>I&amp;rsquo;m incredibly proud of 2i2c&amp;rsquo;s team for all of their hard work this year, and also honored to be working with a network of communities that care about open infrastructure and its value for creating and sharing knowledge with the world. Here&amp;rsquo;s to another year of impact!&lt;/p></description></item></channel></rss>
+&lt;p>I&amp;rsquo;m incredibly proud of 2i2c&amp;rsquo;s team for all of their hard work this year, and also honored to be working with a network of communities that care about open infrastructure and its value for creating and sharing knowledge with the world. Here&amp;rsquo;s to another year of impact!&lt;/p></description></item><item><title>Community Update: October 2023</title><link>https://2i2c.org/blog/2023/update-october/</link><pubDate>Fri, 10 Nov 2023 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2023/update-october/</guid><description>&lt;p>Over the past few months, we&amp;rsquo;ve been investigating ways to improve our reporting both internally and externally.
+We&amp;rsquo;ve decided to experiment with a &lt;strong>monthly community update&lt;/strong> to create a regular cadence of transparency and highlights from 2i2c for our broader community.
+This is the first such update, so bear with us as we work out the kinks!&lt;/p>
+&lt;p>Our goal with these updates is to share what stands out at 2i2c - what we&amp;rsquo;ve learned, what we&amp;rsquo;re proud of, where we&amp;rsquo;ve struggled, and where we&amp;rsquo;ve had an impact.
+We hope this can be a historical record of &amp;ldquo;what stands out&amp;rdquo; to our team and that it is useful for our broader community to see.
+We also want this to be relatively short and to the point to make it sustainable to both write and read.&lt;/p>
+&lt;p>&lt;strong>We&amp;rsquo;d love feedback&lt;/strong> on what else you&amp;rsquo;d like to see.
+If you have any ideas, please send an email to &lt;code>hello@2i2c.org&lt;/code>.&lt;/p>
+&lt;h2 id="rough-numbers">
+Rough Numbers
+&lt;a class="header-anchor" href="#rough-numbers">#&lt;/a>
+&lt;/h2>&lt;p>First off, a few numbers on the scale and status of our interactive computing hub service:&lt;/p>
+&lt;p>We are currently running around &lt;strong>73 JupyterHubs&lt;/strong> that are collectively averaging more than &lt;strong>4000 average monthly users&lt;/strong>.
+We have several communities in the educational sector, so October was a peak in the Fall semester of activity.&lt;/p>
+&lt;p>We&amp;rsquo;re recovering roughly &lt;strong>40% of our monthly staffing costs through recurring service revenue&lt;/strong>.
+The remainder we&amp;rsquo;re making up with a combination of grants and more focused development contracts.&lt;/p>
+&lt;p>Assuming minimal growth in our service and fundraising, our &lt;strong>runway is roughly until August 2025&lt;/strong> - however, we anticipate this to shrink in the short-term once we make critical new hires in the coming months.&lt;/p>
+&lt;h2 id="organization-updates">
+Organization Updates
+&lt;a class="header-anchor" href="#organization-updates">#&lt;/a>
+&lt;/h2>&lt;p>&lt;em>This section describes some major organization-wide efforts we&amp;rsquo;ve started or progressed over the last month.&lt;/em>&lt;/p>
+&lt;h3 id="improving-our-quarterly-sprints-and-goals">
+Improving Our Quarterly Sprints and Goals
+&lt;a class="header-anchor" href="#improving-our-quarterly-sprints-and-goals">#&lt;/a>
+&lt;/h3>&lt;p>This month our team kicked off the second round of our new quarterly sprints and goals process.
+This is an attempt to focus our team around a few goals and sub-teams dedicated to them throughout each quarter.
+Our hope is that this allows us to make strategic &amp;ldquo;pushes&amp;rdquo; in directions that feel important for 2i2c&amp;rsquo;s operations and the communities we serve.&lt;/p>
+&lt;p>This quarter, we incorporated a lot of learning that took place after our first iteration in Q3 2023.
+We are hoping to sharpen up the timing of events throughout the process, including communicating internally and externally about our status (thus, this blog post series).&lt;/p>
+&lt;p>In the next quarter, we aim to build off of this work, and to identify where our future new hires of
+&lt;a href="https://2i2c.org/jobs/2023/delivery-manager/" >Delivery Manager / Interim Chief of Staff&lt;/a> and our
+&lt;a href="https://2i2c.org/jobs/2023/product-lead/" >Product Lead&lt;/a> will fit in.&lt;/p>
+&lt;h3 id="three-new-jobs-posted">
+Three New Jobs Posted
+&lt;a class="header-anchor" href="#three-new-jobs-posted">#&lt;/a>
+&lt;/h3>&lt;p>In October, we began a short hiring push to address many of the organizational challenges noted in
+&lt;a href="" >our organizational structure and strategy audit&lt;/a>.
+We aim to have each of these positions filled by the end of the year and begin incorporating new team members into our organization.
+Here&amp;rsquo;s a list of the three job postings:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="https://2i2c.org/jobs/2023/delivery-manager/" >Delivery Manager / Interim Chief of Staff&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://2i2c.org/jobs/2023/product-lead/" >Product Lead&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://2i2c.org/jobs/2023/23qq4-open-source-infrastructure-engineer/" >Open Source Infrastructure Engineer: Cloud Engineering&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="product-strategy-work">
+Product Strategy Work
+&lt;a class="header-anchor" href="#product-strategy-work">#&lt;/a>
+&lt;/h3>&lt;p>We kicked off a collaboration with
+&lt;a href="https://richardpope.org/" target="_blank" rel="noopener" >Richard Pope&lt;/a> to provide us with some short-term product strategy work.
+In Q3, our team took stock of the many different kinds of services and technology that we deploy, aiming to refine this into a long-term product model.&lt;/p>
+&lt;p>Richard will join us for several months to take these outputs and help us craft them into a model for where 2i2c is delivering value that we can build upon for the coming years.
+We&amp;rsquo;ll provide more updates for the community as this work continues.&lt;/p>
+&lt;h3 id="continued-onboarding-of-communities-in-our-catalyst-project-collaboration">
+Continued Onboarding of Communities in Our Catalyst Project Collaboration
+&lt;a class="header-anchor" href="#continued-onboarding-of-communities-in-our-catalyst-project-collaboration">#&lt;/a>
+&lt;/h3>&lt;p>We continued onboarding communities onto infrastructure managed by 2i2c as part of a
+&lt;a href="" >CZI-funded project to serve communities in Latin America and Africa&lt;/a>.
+The grant team began its operations last April and spent the first several months creating an onboarding pipeline and rubric for identifying and connecting with communities.
+As of October, we&amp;rsquo;ve onboarded our first few communities - there is still a lot of content, training material, and documentation to create, and we will begin iterating on this in collaboration with our early-adopted communities in Q4 2023 and Q1 2024.&lt;/p>
+&lt;h2 id="partnerships-and-impact">
+Partnerships and Impact
+&lt;a class="header-anchor" href="#partnerships-and-impact">#&lt;/a>
+&lt;/h2>&lt;p>&lt;em>This section describes notable new partnerships and developments with communities in our interactive computing hub service.&lt;/em>&lt;/p>
+&lt;p>We began several new partnerships with communities in the research space this month.&lt;/p>
+&lt;p>The
+&lt;a href="https://www.earthdata.nasa.gov/esds/veda" target="_blank" rel="noopener" >NASA Visualization, Exploration, and Data Analysis (VEDA)&lt;/a> project is an open-source science cyberinfrastructure for data processing, visualization, exploration, and geographic information systems (GIS) capabilities.&lt;/p>
+&lt;p>The
+&lt;a href="https://us-ghg-center.github.io/ghgc-docs/" target="_blank" rel="noopener" >US Greenhouse Gas Center&lt;/a> provides a cloud-based system for exploring and analyzing U.S. government and other curated greenhouse gas datasets.&lt;/p>
+&lt;p>In addition, we&amp;rsquo;ve celebrated considerable growth in one of our partner communities:
+&lt;a href="https://cryointhecloud.com/" target="_blank" rel="noopener" >CryoCloud&lt;/a>.
+This community focuses its work around studying the Cryosphere using satellite imagery data.
+They&amp;rsquo;ve grown their community hub to roughly 300 users in a year and have piloted several novel interfaces for data analysis in a JupyterHub context, such as using
+&lt;a href="https://qgis.org/" target="_blank" rel="noopener" >QGIS&lt;/a> via a Linux desktop browser.&lt;/p>
+&lt;p>2i2c team members also gave several talks in October, and you can find links to each of these below:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="https://www.youtube.com/watch?v=coKoUoUzLPk" target="_blank" rel="noopener" >Chris Holdgraf on 2i2c&amp;rsquo;s overall purpose and operations thus far&lt;/a>, delivered at the
+&lt;a href="https://pslmodels.org/index.html" target="_blank" rel="noopener" >Policy Simulation Library demo day&lt;/a>.&lt;/li>
+&lt;li>
+&lt;a href="https://www.youtube.com/watch?v=SHUSoXgRAho" target="_blank" rel="noopener" >Jim Colliander on the impact 2i2c wishes to have and what it means for open science&lt;/a>, delivered to
+&lt;a href="https://wiki.esipfed.org/Main_Page" target="_blank" rel="noopener" >the ESIP community&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;h2 id="what-weve-learned-and-what-stood-out">
+What We&amp;rsquo;ve Learned and What Stood Out
+&lt;a class="header-anchor" href="#what-weve-learned-and-what-stood-out">#&lt;/a>
+&lt;/h2>&lt;p>&lt;em>These are things that we&amp;rsquo;ve learned in the past month that we&amp;rsquo;re using to improve our service moving forward&lt;/em>.&lt;/p>
+&lt;p>&lt;strong>Communities like to define and select their own environments&lt;/strong>.
+We began rolling out new functionality to allow communities to &lt;strong>define their user environments on-the-fly&lt;/strong>.
+This brings mybinder.org-style environment creation into a JupyterHub, and gives both more control and more visibility into the environments that communities use.
+We noticed that this also begins to blur the line between different workflows and types of communities that can be served on a single hub.
+It means that a hub is no longer strictly tied to a small number of user environments created for it.
+We&amp;rsquo;ll explore the implications of this in the coming months.&lt;/p>
+&lt;p>&lt;strong>We need to improve our billing and invoicing infrastructure&lt;/strong>.
+This month we began going through another backlog of cloud infrastructure invoices to send out to communities.
+For many communities, 2i2c pays a cloud bill on their behalf and passes through costs directly to them.
+This allows them to know exactly what they&amp;rsquo;re paying for.
+However, it is also starting to generate a lot of work!
+We aim to explore ways to automate and standardize this process in the future.&lt;/p>
+&lt;p>&lt;strong>Digital Public Goods is a concept that resonates with many community leaders&lt;/strong>.
+Jim and Chris both gave talks that leaned heavily into the notion of open tools and services as &amp;ldquo;Digital Public Goods&amp;rdquo;.
+As public goods, it is important that they remain &amp;ldquo;driven by the public&amp;rdquo; and that they have sustainable and scalable models to grow the value that these goods provide.
+We&amp;rsquo;ve noted that this topic resonates heavily with people across the research and education spectrum, and we&amp;rsquo;re considering how to lean into these values more heavily in 2i2c.&lt;/p></description></item><item><title>Open organizational report: Strengths and challenges for 2i2c's team</title><link>https://2i2c.org/blog/2023/organizational-report/</link><pubDate>Wed, 08 Nov 2023 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2023/organizational-report/</guid><description>&lt;p>Over the last several months 2i2c has been working with an organizational consulting group called
+&lt;a href="https://www.makeadifference.digital/" target="_blank" rel="noopener" >Difference Digital&lt;/a> to help us identify the major opportunities and challenges in our organizational structure and strategy.
+The result of this work is a report that describes in detail the major strengths, weaknesses, challenges, and opportunities that 2i2c faces. It also recommends major actions to take as an organization.&lt;/p>
+&lt;p>2i2c values organizational transparency and a willingness to be honest about where you&amp;rsquo;re struggling.
+Stress is a natural part of both individuals and organizations, and should be embraced with the goal of learning and improving.
+Moreover, as a young organization 2i2c has benefitted heavily from the documents and learning that &lt;em>other&lt;/em> organizations have made publicly available.
+We wouldn&amp;rsquo;t be where we are without building on the backs of others who are willing to share what they&amp;rsquo;ve learned.&lt;/p>
+&lt;p>So, we are making this organizational audit and report public for anyone to see.
+We hope that it provides transparency into 2i2c&amp;rsquo;s current status, and that it serves as a useful resource for other non-profits that are growing and facing similar challenges.&lt;/p>
+&lt;p>
+&lt;a href="https://zenodo.org/records/10081003" target="_blank" rel="noopener" >Here&amp;rsquo;s a link to the report on Zenodo&lt;/a>.&lt;/p>
+&lt;p>For more background on this report, check out the short description below.&lt;/p>
+&lt;hr>
+&lt;p>In April of this year we had our first in-person team meeting.
+We were excited and grateful to have the opportunity to speak to each other face-to-face.
+We also learned that many people on our team were stressed out!
+Our service had grown slow-but-steadily over the previous year, and we were feeling the tension that comes with growing your partnerships without significantly changing your team&amp;rsquo;s capacity or structure.&lt;/p>
+&lt;p>So, we decided to work with an organizational consulting group called
+&lt;a href="https://www.makeadifference.digital/" target="_blank" rel="noopener" >makeadifference.digital&lt;/a> to help us identify where we need to make improvements.
+They spent several weeks having one-on-one conversations with each member of the team, as well as doing a broader organizational analysis and comparison to other technical organizations at a similar stage of their lifecycle.&lt;/p>
+&lt;p>The result of this work was a report that outlines the major opportunities and strengths, as well as challenges and gaps in capacity, that our team currently faces.
+It makes a number of recommendations for how we should shift our practices, and importantly it also notes that the only way to gain that capacity is by hiring for new people and skills.&lt;/p>
+&lt;p>
+&lt;a href="https://zenodo.org/records/10081003" target="_blank" rel="noopener" >Here&amp;rsquo;s a link to the report on Zenodo&lt;/a>.&lt;/p>
+&lt;p>The immediate result of this work is that we currently have three jobs posted:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="https://2i2c.org/jobs/2023/product-lead/" >A Product Lead role&lt;/a> to help us build a &amp;ldquo;product function&amp;rdquo; within 2i2c&amp;rsquo;s team.&lt;/li>
+&lt;li>
+&lt;a href="https://2i2c.org/jobs/2023/delivery-manager/" >A Delivery Manager / Chief of Staff role&lt;/a> to oversee and manage 2i2c&amp;rsquo;s system of work.&lt;/li>
+&lt;li>
+&lt;a href="https://2i2c.org/jobs/2023/23qq4-open-source-infrastructure-engineer/" >A cloud and operations engineering role&lt;/a> to grow our cloud engineering team&amp;rsquo;s capacity in serving communities.&lt;/li>
+&lt;/ul>
+&lt;p>Our next steps are to fill these positions, and to then begin the work of implementing many of the recommendations that are contained in the report.
+We&amp;rsquo;re confident that this is a natural part of being a small and growing organization, and we are grateful for the expertise of
+&lt;a href="https://www.makeadifference.digital" target="_blank" rel="noopener" >makeadifference.digital&lt;/a> in guiding us through this work.&lt;/p>
+&lt;p>&lt;em>Note: if you&amp;rsquo;d like to work with
+&lt;a href="https://www.makeadifference.digital" target="_blank" rel="noopener" >makeadifference.digital&lt;/a>, you can reach out to them at
+&lt;a href="" >&lt;code>hello@makeadifference.digital&lt;/code>&lt;/a>&lt;/em>.&lt;/p>
+&lt;div class="about-us">
+&lt;blockquote>
+&lt;p>💡 Follow our work!
+&lt;a href="http://eepurl.com/hjHbff" target="_blank" rel="noopener" >Sign up for our mailing list&lt;/a> for updates about 2i2c.
+&lt;a href="" >Send us an e-mail about collaborating or partnering&lt;/a> on a project.
+See our
+&lt;a href="https://docs.2i2c.org" target="_blank" rel="noopener" >Service Documentation&lt;/a> or our
+&lt;a href="https://compass.2i2c.org" target="_blank" rel="noopener" >Team Compass&lt;/a> to learn about our service and organization.&lt;/p>
+&lt;/blockquote>
+&lt;/div></description></item><item><title>Community update Q3 2023: Service growth and growing pains</title><link>https://2i2c.org/blog/2023/2023-q3-update/</link><pubDate>Tue, 31 Oct 2023 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2023/2023-q3-update/</guid><description>&lt;p>It&amp;rsquo;s been two quarters since our last major update - this isn&amp;rsquo;t quite as frequent as we&amp;rsquo;re hoping to post updates from our team, but we&amp;rsquo;re making adjustments to have more regular communication for reasons that will hopefully be a bit clearer below!
+In that time, we&amp;rsquo;ve been hard at work serving and growing our interactive computing service, as well as doing some introspection as a team and identifying major next steps moving forward.
+More on that in the following sections, but first a short service update.&lt;/p>
+&lt;h2 id="how-has-our-service-evolved-over-the-past-few-months">
+How has our service evolved over the past few months?
+&lt;a class="header-anchor" href="#how-has-our-service-evolved-over-the-past-few-months">#&lt;/a>
+&lt;/h2>
+&lt;h3 id="new-partnerships-and-service-growth">
+New partnerships and service growth
+&lt;a class="header-anchor" href="#new-partnerships-and-service-growth">#&lt;/a>
+&lt;/h3>&lt;p>Our service has grown several new partner communities over the last two quarters. A few notable communities are
+&lt;a href="https://nasa-veda.2i2c.cloud/" target="_blank" rel="noopener" >the NASA VEDA project&lt;/a>, a
+&lt;a href="https://smithsonian.2i2c.cloud/" target="_blank" rel="noopener" >team at the Smithsonian&lt;/a>,
+&lt;a href="https://ncar-cisl.2i2c.cloud/" target="_blank" rel="noopener" >a team at NCAR&lt;/a>, and the
+&lt;a href="https://hub.ghg.center/" target="_blank" rel="noopener" >U.S. Greenhouse Gases Center&lt;/a>. We are running about &lt;strong>71 hubs across 24 clusters, with about 4000 weekly users&lt;/strong> (
+&lt;a href="https://2i2c.org/kpis/cloud/" target="_blank" rel="noopener" >more usage stats here&lt;/a>).&lt;/p>
+&lt;p>We also began operations on a major collaboration to serve communities in Latin America and Africa, called
+&lt;a href="https://zenodo.org/records/7025288" target="_blank" rel="noopener" >the Catalyst Project&lt;/a>.
+This team met together for the first time in April, and we&amp;rsquo;ve been laying a foundation for service growth in the first several months.
+We are just onboarding our first communities and hope to grow that service in the coming year.&lt;/p>
+&lt;p>Finally, we&amp;rsquo;ve been fortunate to receive some grants around creating content and designing workflows that utilize cloud infrastructure. For example, a
+&lt;a href="https://nasa.github.io/Transform-to-Open-Science/open-science-101/" target="_blank" rel="noopener" >NASA TOPS grant&lt;/a> and an upcoming collaboration with
+&lt;a href="https://projectpythia.org/" target="_blank" rel="noopener" >Project Pythia&lt;/a> around geospatial workflows.&lt;/p>
+&lt;h3 id="financial-picture">
+Financial picture
+&lt;a class="header-anchor" href="#financial-picture">#&lt;/a>
+&lt;/h3>&lt;p>At this point, we&amp;rsquo;re &lt;strong>recovering roughly 40% of our operating costs&lt;/strong> through recurring fees of our managed hub service (making up the remainder in development contracts and grants), and &lt;strong>we&amp;rsquo;ve currently got around 2 years of runway&lt;/strong>.&lt;/p>
+&lt;p>However, both of these will be lowered soon because we are about to hire for several more positions.
+Improvements to our product model will allow us to estimate and recover our service costs more effectively, but we also intend to raise some funds next year to support our efforts in making our service more robust, sustainable, and valuable to communities.&lt;/p>
+&lt;p>It&amp;rsquo;s always difficult to strike a proper balance of team (and cost) growth against the financial buffer needed to assure your partners you&amp;rsquo;ll stick around, but we&amp;rsquo;re confident that the new hires described below will serve critical needs for our team and mission.&lt;/p>
+&lt;p>For more context on why and how we&amp;rsquo;re trying to make up that capacity, read on&amp;hellip;&lt;/p>
+&lt;h2 id="how-service-growth-can-lead-to-team-stress">
+How service growth can lead to team stress
+&lt;a class="header-anchor" href="#how-service-growth-can-lead-to-team-stress">#&lt;/a>
+&lt;/h2>&lt;p>Over the past year we&amp;rsquo;ve had a slow-but-steady stream of new communities interested in working with 2i2c for managing cloud infrastructure for interactive computing.
+We&amp;rsquo;ve taken a &amp;ldquo;let&amp;rsquo;s make it work somehow&amp;rdquo; approach to all of our community partnerships thus far, with the idea that we must use these partnerships to learn what communities want and identify common patterns.&lt;/p>
+&lt;p>This is exciting, and we&amp;rsquo;re fortunate to see the interest and growth in our service.
+It suggests to us that something about our model is fundamentally right.
+Communities really love the
+&lt;a href="https://2i2c.org/right-to-replicate" target="_blank" rel="noopener" >Right to Replicate&lt;/a>, and our participatory service model based around upstream contributions, transparency, and shared responsibility is attractive to many in research and education.&lt;/p>
+&lt;p>However, each new community is also a new set of stresses on the technical and social infrastructure of our team.
+Without the capacity to manage the demands of the service, you run the risk of over-extending &amp;ndash; and in a worst case scenario, burning out &amp;ndash; your team.&lt;/p>
+&lt;p>This became clear in our first in-person team meeting last May.
+At that meeting, we realized that many on the team were spending too much of their time &amp;ldquo;reacting&amp;rdquo; to demands from the service.
+We also learned that the scope and complexity of our various workstreams had gotten to a size where our informal team structures of work prioritization were no longer adequate.&lt;/p>
+&lt;h2 id="growing-the-complexity-of-our-team-to-match-the-complexity-of-our-service">
+Growing the complexity of our team to match the complexity of our service
+&lt;a class="header-anchor" href="#growing-the-complexity-of-our-team-to-match-the-complexity-of-our-service">#&lt;/a>
+&lt;/h2>&lt;p>So, for the past several months we&amp;rsquo;ve been working on a plan to evolve 2i2c&amp;rsquo;s team structure in order to more effectively manage the complexity of our service, and balance long- and short-term thinking.&lt;/p>
+&lt;p>This began with an organizational audit carried out by
+&lt;a href="https://www.makeadifference.digital/" target="_blank" rel="noopener" >makeadifference.digital&lt;/a>, a consulting group that focuses on tech-for-good and non-profit products and services.
+They conducted interviews with everybody on the team, and concluded that we have a few key functions missing that were creating or compounding the stresses people felt.&lt;/p>
+&lt;p>We hope to make some of their key findings public soon (Update: this is now available at
+&lt;a href="https://2i2c.org/blog/2023/organizational-report/" >this blog post about the organizational report&lt;/a>), and in the meantime here is an overview of some highlights:&lt;/p>
+&lt;h3 id="we-need-a-dedicated-product-functionality">
+We need a dedicated product functionality
+&lt;a class="header-anchor" href="#we-need-a-dedicated-product-functionality">#&lt;/a>
+&lt;/h3>&lt;p>First, we realized that we have a number of new &amp;ldquo;signals&amp;rdquo; pushing our service in many different directions.
+Some are external - from communities we work with or from funders. Some are internal - from different team member visions of where work is needed.
+After growing our service and our team, there are now too many perspectives and voices to balance in an unstructured and purely organic way.&lt;/p>
+&lt;p>So we&amp;rsquo;re creating a &lt;strong>dedicated &amp;ldquo;product function&amp;rdquo; within 2i2c&lt;/strong>.
+Its goal will be to serve as an integrator across the many stakeholders that are interested in 2i2c&amp;rsquo;s service, and synthesize a collective product strategy and system of prioritization to move the organization forward.
+They&amp;rsquo;ll help 2i2c grow a culture of iteration and decisions that are driven by the needs of our community partners and users.&lt;/p>
+&lt;p>We&amp;rsquo;re
+&lt;a href="https://2i2c.org/jobs/2023/product-lead/" target="_blank" rel="noopener" >hiring a Product Lead&lt;/a> to kick off this effort.
+If you think you&amp;rsquo;d be interested in this role, please consider applying!&lt;/p>
+&lt;h3 id="we-need-a-more-structured-system-of-work-and-execution">
+We need a more structured system of work and execution
+&lt;a class="header-anchor" href="#we-need-a-more-structured-system-of-work-and-execution">#&lt;/a>
+&lt;/h3>&lt;p>Next, we realized that there are many different workstreams we must balance simultaneously.
+There are new communities to be onboarded, infrastructure bugs to be fixed, questions to be answered, and strategic priorities to improve the service.
+Expecting each team member to individually find the right balance between all of these is increasingly unrealistic.
+We need capacity to oversee this system of work and bring some structure to it.&lt;/p>
+&lt;p>So, we&amp;rsquo;re creating a &lt;strong>Delivery Manager role&lt;/strong> to oversee the system of work that our engineering team uses for its planning and execution.
+In addition, this role will serve at an organization-wide capacity as an &lt;strong>interim Chief of Staff&lt;/strong>.
+This will allow them to improve and standardize practices organization-wide, and coordinate major projects that span our team.&lt;/p>
+&lt;p>You can find a
+&lt;a href="https://2i2c.org/jobs/2023/delivery-manager/" target="_blank" rel="noopener" >job posting for a Delivery Manager / interrim Chief of Staff&lt;/a> role.
+If you think you&amp;rsquo;d be interested, please apply!&lt;/p>
+&lt;h3 id="we-need-more-capacity-to-support-our-team-and-its-individuals">
+We need more capacity to support our team and its individuals
+&lt;a class="header-anchor" href="#we-need-more-capacity-to-support-our-team-and-its-individuals">#&lt;/a>
+&lt;/h3>&lt;p>In addition to moving forward our workstreams, we also have a unique challenge in team support and dynamics.
+2i2c is a small team, it is also distributed across 10 time zones!
+This adds a lot of extra challenge in getting the team to communicate with one another, support one another as individuals, and learn and grow as a team.
+We believe that it&amp;rsquo;s critical to support one another, and to have systems in 2i2c that recognize these challenges in distributed collaboration to design around them.&lt;/p>
+&lt;p>So, we&amp;rsquo;re exploring how to create a &lt;strong>&amp;ldquo;People Operations&amp;rdquo; function within 2i2c&lt;/strong> that can dedicate their time to supporting 2i2c&amp;rsquo;s team as a group as individuals.
+This might mean defining creative ways for team-building, creating mechanisms to surface where team members are struggling or need support, and growing best-practices in inclusive asynchronous team culture.&lt;/p>
+&lt;p>We&amp;rsquo;re in the process of designing this role, and hope to have it out in the coming months!&lt;/p>
+&lt;h3 id="we-need-more-engineering-capacity">
+We need more engineering capacity
+&lt;a class="header-anchor" href="#we-need-more-engineering-capacity">#&lt;/a>
+&lt;/h3>&lt;p>Finally, we also realized we need more cloud engineering capacity on our team, particularly in a timezone that overlaps with the American continents.
+This will give our team a bit more breathing room to balance reactive and project-based work, and have more capacity to focus on personal growth and learning.&lt;/p>
+&lt;p>You can find our
+&lt;a href="https://2i2c.org/jobs/2023/23qq4-open-source-infrastructure-engineer/" target="_blank" rel="noopener" >Open Source Infrastructure Engineer&lt;/a> job post here if you&amp;rsquo;re interested.&lt;/p>
+&lt;h2 id="whats-up-next-for-our-team">
+What&amp;rsquo;s up next for our team?
+&lt;a class="header-anchor" href="#whats-up-next-for-our-team">#&lt;/a>
+&lt;/h2>&lt;p>Finally, we&amp;rsquo;ve also adopted a new quarterly planning system to align our team around key goals that deserve focused attention in each quarter.
+This will let us be more intentional about considering our work in the context of 2i2c&amp;rsquo;s broader opportunities and challenges.&lt;/p>
+&lt;p>For the final quarter of 2023, we&amp;rsquo;re focusing on these key goals:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Begin to standardize and refine our product offering&lt;/strong>.
+In advance of our Product Lead role, we are doing a bit of work to more precisely describe and structure our &lt;em>current&lt;/em> service offering.
+Our goal is to lay a foundation that our upcoming Product Lead can then use to learn about 2i2c&amp;rsquo;s product and make progress more quickly.&lt;/li>
+&lt;li>&lt;strong>Pay down technical debt&lt;/strong>.
+Our engineering team is going to focus on streamlining their operations and reducing toil, in order to reduce the number of &amp;ldquo;unexpected distractions&amp;rdquo; that come with inefficient infrastructure and processes.
+It will also make the service more reliable and transparent for our communities.&lt;/li>
+&lt;li>&lt;strong>Build foundational resources for hub champions to support their community.&lt;/strong>
+Our Partnerships team will lead an effort to build basic infrastructure and content that communities can use to create their own knowledge bases around hubs. This will be ongoing work so the goal here is to create a foundation to build upon in the future.&lt;/li>
+&lt;/ul>
+&lt;p>We hope that this has been an informative update from our team, and we appreciate everybody&amp;rsquo;s input and collaboration over the past few months.
+We think that the tensions described in this post are healthy - they&amp;rsquo;re reflective of an organization that is growing and reaching organizational milestones.
+We&amp;rsquo;re excited to tackle them and to continue growing our impact and partnerships.&lt;/p>
+&lt;div class="about-us">
+&lt;blockquote>
+&lt;p>💡 Follow our work!
+&lt;a href="http://eepurl.com/hjHbff" target="_blank" rel="noopener" >Sign up for our mailing list&lt;/a> for updates about 2i2c.
+&lt;a href="" >Send us an e-mail about collaborating or partnering&lt;/a> on a project.
+See our
+&lt;a href="https://docs.2i2c.org" target="_blank" rel="noopener" >Service Documentation&lt;/a> or our
+&lt;a href="https://compass.2i2c.org" target="_blank" rel="noopener" >Team Compass&lt;/a> to learn about our service and organization.&lt;/p>
+&lt;/blockquote>
+&lt;/div></description></item><item><title>Community update Q1 2023: Growing our community partner network and our team</title><link>https://2i2c.org/blog/2023/2023-q1-update/</link><pubDate>Fri, 28 Apr 2023 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2023/2023-q1-update/</guid><description>&lt;p>It&amp;rsquo;s a month after the end of Q1 2023, and we&amp;rsquo;d like to share a belated update about what we were up to in the first quarter of this year (we have good excuses for being late, including new tiny humans, I promise).&lt;/p>
+&lt;p>This quarter we grew our engineering team significantly, and started to refine our team processes and structures to accommodate this extra complexity.
+We expanded our managed cloud service with new community partners, and made a number of improvements to our technical infrastructure and organizational processes for managing this service.&lt;/p>
+&lt;p>Read on below to learn more about what we&amp;rsquo;ve been up to!&lt;/p>
+&lt;h2 id="new-community-partnerships">
+New community partnerships
+&lt;a class="header-anchor" href="#new-community-partnerships">#&lt;/a>
+&lt;/h2>&lt;p>We added several new community partnerships to our managed hub service.
+We&amp;rsquo;ve deployed new hub infrastructure for each of the following groups:&lt;/p>
+&lt;ul>
+&lt;li>Our
+&lt;a href="https://act.utoronto.ca/jupyterhub-support/" target="_blank" rel="noopener" >University of Toronto Jupyter service&lt;/a> now has a dedicated R hub.&lt;/li>
+&lt;li>We ran an event hub for the
+&lt;a href="https://www.drakkar-ocean.eu/" target="_blank" rel="noopener" >Drakkar Ocean project&lt;/a>&lt;/li>
+&lt;li>We deployed a hub for the
+&lt;a href="https://www.earthdata.nasa.gov/esds/veda" target="_blank" rel="noopener" >NASA Visuaslization Exploration and Data Analysis (VEDA) project&lt;/a>.&lt;/li>
+&lt;li>We deployed a hub for the
+&lt;a href="https://www.linkedin.com/company/quantifiedcarbon/about/" target="_blank" rel="noopener" >QuantifiedCarbon&lt;/a> organization.&lt;/li>
+&lt;li>We ran an event hub for
+&lt;a href="https://oceanhackweek.org/" target="_blank" rel="noopener" >OceanHackWeek 2023&lt;/a>.&lt;/li>
+&lt;li>We onboarded several new community colleges to our &amp;ldquo;JupyterHubs Education in Community Colleges&amp;rdquo; collaboration with
+&lt;a href="https://www.cloudbank.org/welcome-cloudbank" target="_blank" rel="noopener" >CloudBank&lt;/a> and
+&lt;a href="https://data.berkeley.edu/" target="_blank" rel="noopener" >UC Berkeley CDSS&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;h2 id="service-improvements">
+Service improvements
+&lt;a class="header-anchor" href="#service-improvements">#&lt;/a>
+&lt;/h2>&lt;p>Below are a few highlights for ways in which we improved our
+&lt;a href="https://docs.2i2c.org" target="_blank" rel="noopener" >Managed Cloud Service&lt;/a> for our partner communities.&lt;/p>
+&lt;h3 id="we-simplified-our-authentication-workflow-with-cilogon">
+We simplified our authentication workflow with CILogon
+&lt;a class="header-anchor" href="#we-simplified-our-authentication-workflow-with-cilogon">#&lt;/a>
+&lt;/h3>&lt;p>Authentication services allow us to identify a user when they log onto a hub, which determines their ability to access hub resources.
+Previously we had used a combination of
+&lt;a href="https://auth0.com/" target="_blank" rel="noopener" >Auth0&lt;/a>,
+&lt;a href="https://www.cilogon.org/" target="_blank" rel="noopener" >CILogon&lt;/a>, or
+&lt;a href="https://infrastructure.2i2c.org/hub-deployment-guide/configure-auth/github-orgs.html" target="_blank" rel="noopener" >GitHub&lt;/a> for authentication.&lt;/p>
+&lt;p>However, over the past year we&amp;rsquo;ve been happy with our use of CILogon so far, especially because of its non-profit status and alignment with many research and education institutions that we work with.
+This quarter, we decided to streamline our authentication process by dropping the use of Auth0 and grow our partnership with CILogon.&lt;/p>
+&lt;p>💡 &lt;em>Learn more&lt;/em>&lt;/p>
+&lt;ul>
+&lt;li>See
+&lt;a href="https://www.ncsa.illinois.edu/security-made-simple-with-ncsas-cilogon/" target="_blank" rel="noopener" >CILogon&amp;rsquo;s write up about it&amp;rsquo;s partnership with 2i2c&lt;/a>&lt;/li>
+&lt;li>See
+&lt;a href="https://2i2c.org/blog/2023/cilogon-integration/" target="_blank" rel="noopener" >our blog post about our use of CILogon&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h3 id="we-exposed-user-activity-dashboards-in-jupyterhub-so-communities-know-how-many-people-are-using-the-service">
+We exposed user activity dashboards in JupyterHub so communities know how many people are using the service
+&lt;a class="header-anchor" href="#we-exposed-user-activity-dashboards-in-jupyterhub-so-communities-know-how-many-people-are-using-the-service">#&lt;/a>
+&lt;/h3>&lt;p>We tend to work with &lt;em>leaders&lt;/em> of communities that utilize our service and infrastructure for many others in their network.
+For example, a teacher with a classroom of students, or a researcher with a global network of collaborators.&lt;/p>
+&lt;p>In these cases, it&amp;rsquo;s useful to track how many users are actively using a platform over various metrics of time.
+This can tell you whether your community finds a service useful, and whether this is growing or shrinking.&lt;/p>
+&lt;p>We use
+&lt;a href="https://grafana.com/" target="_blank" rel="noopener" >Grafana&lt;/a> to automatically generate dashboards of activity for all of our community hubs and clusters.
+However, tracking &lt;strong>daily, weekly, and monthly active users&lt;/strong> was not part of JupyterHub&amp;rsquo;s core functionality.&lt;/p>
+&lt;p>So, we decided to upstream this functionality into JupyterHub and expose it via
+&lt;a href="https://github.com/jupyterhub/grafana-dashboards" target="_blank" rel="noopener" >the JupyterHub Grafana project&lt;/a>.
+All 2i2c hubs now track daily, weekly, and monthly unique active users.
+And importantly, anybody else deploying the
+&lt;a href="https://z2jh.jupyter.org" target="_blank" rel="noopener" >Zero to JupyterHub for Kubernetes&lt;/a> can use this feature now too.&lt;/p>
+&lt;p>💡 &lt;em>Learn more&lt;/em>&lt;/p>
+&lt;p>See
+&lt;a href="https://blog.jupyter.org/accurately-counting-daily-weekly-monthly-active-users-on-jupyterhub-6fbec6c6ce2f" target="_blank" rel="noopener" >Yuvi&amp;rsquo;s blog post about this feature&lt;/a>.&lt;/p>
+&lt;h3 id="we-made-our-support-process-more-structured-with-a-new-support-widget">
+We made our support process more structured with a new support widget
+&lt;a class="header-anchor" href="#we-made-our-support-process-more-structured-with-a-new-support-widget">#&lt;/a>
+&lt;/h3>&lt;p>We&amp;rsquo;ve added a support widget to our
+&lt;a href="https://docs.2i2c.org" target="_blank" rel="noopener" >service documentation site&lt;/a>.
+This will allow users to provide structured support requests directly to our team, allowing us to triage and respond more quickly.&lt;/p>
+&lt;p>Here&amp;rsquo;s our support button and widget in action:&lt;/p>
+&lt;figure id="figure-our-fancy-new-support-button">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Our fancy new support button!" srcset="
+/blog/2023/2023-q1-update/support-button_hu3af886a5aee4620b217234a080986c9b_77578_b7df963678a03e66dcd5f869446a4aae.webp 400w,
+/blog/2023/2023-q1-update/support-button_hu3af886a5aee4620b217234a080986c9b_77578_219e5934964e4e57afd753de94f89bcb.webp 760w,
+/blog/2023/2023-q1-update/support-button_hu3af886a5aee4620b217234a080986c9b_77578_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2023/2023-q1-update/support-button_hu3af886a5aee4620b217234a080986c9b_77578_b7df963678a03e66dcd5f869446a4aae.webp"
+width="500"
+height="736"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+Our fancy new support button!
+&lt;/figcaption>&lt;/figure>
+&lt;h3 id="we-upgraded-kubernetes-across-all-of-our-aws-clusters">
+We upgraded Kubernetes across all of our AWS clusters
+&lt;a class="header-anchor" href="#we-upgraded-kubernetes-across-all-of-our-aws-clusters">#&lt;/a>
+&lt;/h3>&lt;p>
+&lt;a href="https://kubernetes.org" target="_blank" rel="noopener" >Kubernetes&lt;/a> is at the core of our cloud infrastructure and scalability.
+We use either a shared or a dedicated Kubernetes cluster for each of our community partners, and it is the foundation upon which all of their Jupyter infrastructure rests.&lt;/p>
+&lt;p>One of the biggest challenges with managing an ongoing cloud service is keeping the underlying infrastructure upgraded.
+This brings in new stability and functionality, but also often involves manual steps and toil.
+This quarter, we upgraded each of our AWS JupyterHubs to
+&lt;a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.24.md" target="_blank" rel="noopener" >Kubernetes 1.24&lt;/a> and will continue this effort with other providers in the coming quarters.&lt;/p>
+&lt;h3 id="we-streamlined-our-hub-uptime-checks-to-be-more-efficient">
+We streamlined our hub uptime checks to be more efficient
+&lt;a class="header-anchor" href="#we-streamlined-our-hub-uptime-checks-to-be-more-efficient">#&lt;/a>
+&lt;/h3>&lt;p>The best kinds of failures are ones that your operations team recognizes and solves before any users run into the problem themselves.
+We use the
+&lt;a href="https://cloud.google.com/monitoring/uptime-checks" target="_blank" rel="noopener" >Google Cloud Platform HTTP uptime checker&lt;/a> to
+&lt;a href="https://infrastructure.2i2c.org/topic/monitoring-alerting/uptime-checks.html#simple-https-uptime-checks" target="_blank" rel="noopener" >run regular uptime checks for each of the community hubs that we use&lt;/a>.
+This allows us to get quick alerts if any of our community hubs is down for some reason.&lt;/p>
+&lt;p>We made several optimizations to this process so that we can more efficiently monitor hub uptime and trigger alerts to our engineering team if action is needed.&lt;/p>
+&lt;h2 id="organizational-updates">
+Organizational updates
+&lt;a class="header-anchor" href="#organizational-updates">#&lt;/a>
+&lt;/h2>&lt;p>We made a number of broader improvements to our team processes and policies, and even got a shout-out from a few community partners!&lt;/p>
+&lt;h3 id="we-defined-organizational-principles-around-engaging-in-healthy-ways-with-open-source-communities">
+We defined organizational principles around engaging in healthy ways with open source communities
+&lt;a class="header-anchor" href="#we-defined-organizational-principles-around-engaging-in-healthy-ways-with-open-source-communities">#&lt;/a>
+&lt;/h3>&lt;p>2i2c interacts with many open source communities throughout its work, due to the fact that the majority of the improvements we make are done via &lt;strong>upstream contributions&lt;/strong>.
+We define
+&lt;a href="https://compass.2i2c.org/organization/mission/#key-stakeholders" target="_blank" rel="noopener" >several key open source communities&lt;/a> that we interact with, and we needed a philosophy and set of practices to ensure that our relationship with them remains healthy and supportive.&lt;/p>
+&lt;p>💡 &lt;em>Learn more&lt;/em>&lt;/p>
+&lt;p>Check out &lt;em>
+&lt;a href="https://2i2c.org/blog/2023/open-source-funding-principles/" target="_blank" rel="noopener" >Principles and considerations for ethically accepting funding for open source&lt;/a>&lt;/em> for our first take on this, and
+&lt;a href="https://compass.2i2c.org/open-source/strategy/" target="_blank" rel="noopener" >our Open Source Strategy&lt;/a> page for our current team policies around this.&lt;/p>
+&lt;h3 id="we-responded-to-a-nasa-rfi-on-scientific-data-and-computing-architecture-to-support-open-science">
+We responded to a NASA RFI on &amp;ldquo;Scientific Data and Computing Architecture to Support Open Science&amp;rdquo;
+&lt;a class="header-anchor" href="#we-responded-to-a-nasa-rfi-on-scientific-data-and-computing-architecture-to-support-open-science">#&lt;/a>
+&lt;/h3>&lt;p>NASA recently put out a Request for Information around open science and open source infrastructure:
+&lt;a href="https://nspires.nasaprs.com/external/solicitations/summary.do?solId=%7B78AA81B6-A7B9-D934-20F8-7B3151DA59A2%7D&amp;amp;path=&amp;amp;method=init" target="_blank" rel="noopener" >NASA RFI NNH23ZDA005L: Scientific Data and Computing Architecture to Support Open Science&lt;/a>.
+We responded with some of our ideas around how to build more open, inclusive, collaborative scientific communities with cloud infrastructure and open source tools.&lt;/p>
+&lt;p>💡 &lt;em>Learn more&lt;/em>&lt;/p>
+&lt;p>
+&lt;a href="https://zenodo.org/record/7662828#.ZFEROBXMKrN" target="_blank" rel="noopener" >Check out our submission, &amp;ldquo;Building the open source stack&amp;rdquo;&lt;/a>.&lt;/p>
+&lt;h3 id="we-added-two-new-team-members-and-a-new-team-role">
+We added two new team members and a new team role
+&lt;a class="header-anchor" href="#we-added-two-new-team-members-and-a-new-team-role">#&lt;/a>
+&lt;/h3>&lt;p>Our
+&lt;a href="https://2i2c.org/organization/#faces" target="_blank" rel="noopener" >Product and Services Team&lt;/a> continues to grow!
+We added a new team member to improve and manage our cloud infrastructure service:
+&lt;a href="https://2i2c.org/author/erik-sundell/" target="_blank" rel="noopener" >Erik Sundell&lt;/a>.
+As our team has grown, we have also had to manage more complexity in communicating and coordinating across a globally-distributed team of engineers.
+To help us manage this system, we&amp;rsquo;ve
+&lt;a href="https://compass.2i2c.org/engineering/roles/engineering-manager/" target="_blank" rel="noopener" >created a new Engineering Manager Role&lt;/a> and promoted
+&lt;a href="https://2i2c.org/author/damian-avila/" target="_blank" rel="noopener" >Damian Avila&lt;/a> as our team&amp;rsquo;s first engineering manager.&lt;/p>
+&lt;h3 id="openscapes-wrote-up-a-blog-post-about-our-cloud-service-collaboration">
+OpenScapes wrote up a blog post about our cloud service collaboration
+&lt;a class="header-anchor" href="#openscapes-wrote-up-a-blog-post-about-our-cloud-service-collaboration">#&lt;/a>
+&lt;/h3>&lt;p>We got a nice shout-out from Luis Lopez at the OpenScapes project, describing the benefits of the cloud service that we run for their communities.
+Check out his blog post:
+&lt;a href="https://www.openscapes.org/blog/2022/11/17/nasa-earthdata-cloud-infrastructure/#cloud-optimized-data-formats" target="_blank" rel="noopener" >The why, what, and how of our NASA Openscapes cloud infrastructure: 2i2c JupyterHub and corn environment&lt;/a>.&lt;/p>
+&lt;h2 id="onward-to-q2">
+Onward to Q2
+&lt;a class="header-anchor" href="#onward-to-q2">#&lt;/a>
+&lt;/h2>&lt;p>Many thanks to the 2i2c team, our partner communities, our funders, and the many others that have provided us support and guidance.
+We hope that this update provides a helpful idea of our priorities and major efforts, and we look forward to giving you a new update in Q2!&lt;/p>
+&lt;div class="about-us">
+&lt;blockquote>
+&lt;p>💡 Follow our work!
+&lt;a href="http://eepurl.com/hjHbff" target="_blank" rel="noopener" >Sign up for our mailing list&lt;/a> for updates about 2i2c.
+&lt;a href="" >Send us an e-mail about collaborating or partnering&lt;/a> on a project.
+See our
+&lt;a href="https://docs.2i2c.org" target="_blank" rel="noopener" >Service Documentation&lt;/a> or our
+&lt;a href="https://compass.2i2c.org" target="_blank" rel="noopener" >Team Compass&lt;/a> to learn about our service and organization.&lt;/p>
+&lt;/blockquote>
+&lt;/div></description></item><item><title>Celebrating our progress in Q3 2022</title><link>https://2i2c.org/blog/2022/q3-update/</link><pubDate>Sun, 16 Oct 2022 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2022/q3-update/</guid><description>&lt;p>Quarter 3 of 2022 has wrapped up, and the 2i2c team has been busy making improvements across our infrastructure, organization, and operations.
+This is a quick post to celebrate the work we&amp;rsquo;ve done over the past three months, and to briefly share what we&amp;rsquo;re working on next.&lt;/p>
+&lt;p>Below we&amp;rsquo;ll provide a brief update about major developments this quarter, broken down by functional areas of 2i2c.&lt;/p>
+&lt;div class="alert alert-">
+&lt;div>
+&lt;p>These are the main highlights from this quarter - if you&amp;rsquo;d like to check out more of the work that we&amp;rsquo;ve done, see:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;p>&lt;a href="https://github.com/pulls?q=is%3Apr&amp;#43;merged%3A2022-07-01..2022-10-01&amp;#43;org%3A2i2c-org&amp;#43;archived%3Afalse&amp;#43;sort%3Aupdated-desc&amp;#43;" target="_blank" rel="noopener" >All the PRs we’ve merged in Q3&lt;/a>&lt;/li>&lt;/p>
+&lt;li>
+&lt;p>&lt;a href="https://github.com/issues?page=4&amp;amp;q=is%3Aissue&amp;#43;closed%3A2022-07-01..2022-10-01&amp;#43;org%3A2i2c-org&amp;#43;sort%3Aupdated-desc" target="_blank" rel="noopener" >All closed issues in Q3&lt;/a>&lt;/li>&lt;/p>
+&lt;/ul>
+&lt;/div>
+&lt;/div>
+&lt;h2 id="community-impact">
+Community impact
+&lt;a class="header-anchor" href="#community-impact">#&lt;/a>
+&lt;/h2>&lt;p>These are a few ways in which we&amp;rsquo;ve collaborated with communities and demonstrated impact over the last few months.&lt;/p>
+&lt;p>&lt;strong>New JupyterHubs for communities&lt;/strong>. We&amp;rsquo;ve deployed JupyterHubs for several new partner communities. Here&amp;rsquo;s a quick list:&lt;/p>
+&lt;ul>
+&lt;li>PaleoCube and PaleoHack Hubs
+&lt;a href="https://github.com/2i2c-org/infrastructure/issues/1418" target="_blank" rel="noopener" >infrastructure#1418&lt;/a>&lt;/li>
+&lt;li>NeuroHackademy 2022
+&lt;a href="https://github.com/2i2c-org/infrastructure/issues/1505" target="_blank" rel="noopener" >infrastructure#1505&lt;/a>&lt;/li>
+&lt;li>Alabama Water Institute CIROH hub
+&lt;a href="https://github.com/2i2c-org/infrastructure/issues/1444" target="_blank" rel="noopener" >infrastructure#1444&lt;/a>&lt;/li>
+&lt;li>OceanHackWeek 2022
+&lt;a href="https://github.com/2i2c-org/infrastructure/issues/1515" target="_blank" rel="noopener" >infrastructure#1515&lt;/a>&lt;/li>
+&lt;li>COESSING Pangeo-Style Hub
+&lt;a href="https://github.com/2i2c-org/infrastructure/issues/1516" target="_blank" rel="noopener" >infrastructure#1516&lt;/a>&lt;/li>
+&lt;li>Temple University Education Hub
+&lt;a href="https://github.com/2i2c-org/infrastructure/issues/1648" target="_blank" rel="noopener" >infrastructure#1648&lt;/a>&lt;/li>
+&lt;li>Callysto Hub
+&lt;a href="https://github.com/2i2c-org/infrastructure/issues/" target="_blank" rel="noopener" >infrastructure#1439&lt;/a>&lt;/li>
+&lt;li>London Interdisciplinary School
+&lt;a href="https://github.com/2i2c-org/infrastructure/issues/1485" target="_blank" rel="noopener" >infrastructure#1485&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>We also ran hubs for several &lt;strong>community events&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>NeuroHackademy:
+&lt;a href="https://github.com/2i2c-org/infrastructure/issues/1300" target="_blank" rel="noopener" >infrastructure#1300&lt;/a>&lt;/li>
+&lt;li>OceanHackWeek 2022
+&lt;a href="https://github.com/2i2c-org/infrastructure/issues/1576" target="_blank" rel="noopener" >infrastructure#1576&lt;/a>&lt;/li>
+&lt;li>COESSING workshop:
+&lt;a href="https://github.com/2i2c-org/infrastructure/issues/1516" target="_blank" rel="noopener" >infrastructure#1516&lt;/a>&lt;/li>
+&lt;li>Eddy Symposium:
+&lt;a href="https://github.com/2i2c-org/team-compass/issues/467" target="_blank" rel="noopener" >infrastructure#467&lt;/a>&lt;/li>
+&lt;li>Allen Institute Summer Workshop on the Dynamic Brain
+&lt;a href="https://github.com/2i2c-org/infrastructure/issues/1621" target="_blank" rel="noopener" >infrastructure#1621&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>For a recap of one of these events, see our recent
+&lt;a href="https://2i2c.org/blog/2022/eddy-symposium-report" target="_blank" rel="noopener" >blog post on the Jack Eddy symposium&lt;/a>.&lt;/p>
+&lt;div class="alert alert-note">
+&lt;div>
+If you are interested in partnering with 2i2c to have your own managed JupyterHub, please contact us at &lt;code>partnerships@2i2c.org&lt;/code>.
+We have a shared cluster on Google Cloud, with plans to deploy one on AWS soon, and dedicated clusters can be run on any major cloud provider. Please see
+&lt;p>&lt;a href="https://docs.2i2c.org/about/service/index.html" target="_blank" rel="noopener" >our service documentation&lt;/a> for more details.&lt;/p>
+&lt;/div>
+&lt;/div>
+&lt;h2 id="organization-wide-updates">
+Organization wide updates
+&lt;a class="header-anchor" href="#organization-wide-updates">#&lt;/a>
+&lt;/h2>&lt;p>These are large-scale organizational and strategic efforts that impact all of 2i2c.&lt;/p>
+&lt;p>&lt;strong>We applied for a CZI Grant&lt;/strong>: In partership with The Carpentries, CSCCE, MetaDocencia, Invest in Open Infrastructure, and OpenLifeScience, we
+&lt;a href="https://2i2c.org/blog/2022/czi-global-communities-proposal/" >applied for a CZI grant to provide cloud infrastructure services to global communities&lt;/a>.&lt;/p>
+&lt;p>&lt;strong>We grew our team&lt;/strong>: We&amp;rsquo;ve hired two new team members to lead new major efforts with 2i2c.
+&lt;a href="https://2i2c.org/author/james-munroe/" target="_blank" rel="noopener" >&lt;strong>James Munroe&lt;/strong>&lt;/a> will lead efforts around &lt;em>community guidance and product design&lt;/em>, and
+&lt;a href="https://2i2c.org/author/jim-colliander/" target="_blank" rel="noopener" >&lt;strong>Jim Colliander&lt;/strong>&lt;/a> will lead efforts around &lt;em>partnerships and sustainability&lt;/em>. We also
+&lt;a href="https://github.com/2i2c-org/team-compass/issues/436" target="_blank" rel="noopener" >updated our Hiring and Candidate Search documentation&lt;/a> in the process.&lt;/p>
+&lt;p>&lt;strong>We&amp;rsquo;re refining our strategy&lt;/strong>: We&amp;rsquo;ve begun a process of revisiting and refining our strategy after a year of major operations, see
+&lt;a href="" >our strategic update blog post for more information&lt;/a>.&lt;/p>
+&lt;p>&lt;strong>We completed the
+&lt;a href="https://cscce.org" target="_blank" rel="noopener" >CSCCE&lt;/a> community management training&lt;/strong>. Two of our team members (James and Sarah) both completed a several-week community management course that was offered in partnership with
+&lt;a href="https://chanzuckerberg.org" target="_blank" rel="noopener" >CZI&lt;/a>.&lt;/p>
+&lt;p>&lt;strong>Our team member Sarah began a part-time role as the JupyterHub Community Strategic Lead&lt;/strong>. Sarah will be leading community strategy efforts within JupyterHub for the next two years thanks to a grant to the JupyterHub team from CZI.
+&lt;a href="https://github.com/jupyterhub/team-compass/issues/536" target="_blank" rel="noopener" >Check out this issue to follow our progress&lt;/a>.&lt;/p>
+&lt;!--
+TODO: Only post this if we get our engineering salary bands questions resolved before this post goes live.
+**We are hiring an engineer**: Do you know an open source cloud engineer with experience in Kubernetes and has desire make research and education more impactful, accessible, and delightful? Check out our job ad [at ].
+-->
+&lt;h2 id="service-improvements">
+Service improvements
+&lt;a class="header-anchor" href="#service-improvements">#&lt;/a>
+&lt;/h2>&lt;p>We made a number of improvements to our cloud infrastructure and the processes around our service.
+Here&amp;rsquo;s a brief breakdown:&lt;/p>
+&lt;p>&lt;strong>We expanded our shared clusters to new cloud providers and regions&lt;/strong>. We now have shared clusters already deployed on Google Cloud Platform on &lt;code>us-central1-b&lt;/code> and &lt;code>europe-west2&lt;/code>.&lt;/p>
+&lt;p>&lt;strong>We defined an incident commander process&lt;/strong>. This will allow us to coordinate and respond to major outages in our cloud infrastructure more efficiently. See
+&lt;a href="https://compass.2i2c.org/projects/managed-hubs/incidents.html" target="_blank" rel="noopener" >our incident response documentation&lt;/a> for more information.&lt;/p>
+&lt;p>&lt;strong>We improved our cloud usage monitoring infrastructure&lt;/strong>. We&amp;rsquo;ve deployed
+&lt;a href="https://github.com/2i2c-org/infrastructure/issues/328" target="_blank" rel="noopener" >a centralized Grafana Dashboard&lt;/a> that aggregates cloud usage across all of our partner communities, and allows us to keep track of any unexpected behavior or outages across them all.&lt;/p>
+&lt;h2 id="where-were-focusing-next">
+Where we&amp;rsquo;re focusing next
+&lt;a class="header-anchor" href="#where-were-focusing-next">#&lt;/a>
+&lt;/h2>&lt;p>In the final quarter of this year, we&amp;rsquo;ve decided to focus our efforts on &lt;strong>growing capacity&lt;/strong> across all of the aspects of our team.
+Now that we have brought on several more partner communities into our Managed JupyterHub Service, it has shown us where we have bottlenecks in our technology, process, and structure.
+In 2023 we hope to significantly grow the number of communities we work with, and so we must grow our capacity to be able to take on these new partnerships.&lt;/p>
+&lt;p>We aim to accomplish this in a few ways:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Make technical improvements&lt;/strong> to our cloud infrastructure that reduces the amount of human labor associated with regular actions. This will make our cloud infrastructure more scalable and reliable.&lt;/li>
+&lt;li>&lt;strong>Improve our invoicing and partnership leads pipeline&lt;/strong> so that we can reduce the amount of administrative toil for ourselves and for the communities we work with in billing and cloud cost pass-through.&lt;/li>
+&lt;li>&lt;strong>Refine our organizational strategy and structure&lt;/strong> so that we are better-able to agree on our most important objectives, and to execute on them efficiently as a distributed team.&lt;/li>
+&lt;li>&lt;strong>Hire people!&lt;/strong> While improving our efficiency will certainly grow our capacity, we also hope to grow our capacity the old fashioned way: by hiring more team members. We&amp;rsquo;re identifying the biggest needs on our team now and will hope to have postings soon. Stay tuned!&lt;/li>
+&lt;/ul>
+&lt;h2 id="thanks">
+Thanks
+&lt;a class="header-anchor" href="#thanks">#&lt;/a>
+&lt;/h2>&lt;p>Many thanks to the 2i2c team, our partner communities, our funders, and the many others that have provided us support and guidance. We hope that this update provides a helpful idea of our priorities and major efforts, and we look forward to giving you a new update in Q4!&lt;/p>
+&lt;div class="alert alert-note">
+&lt;div>
+If you are interested in partnering with 2i2c to have your own managed JupyterHub, please contact us at &lt;code>partnerships@2i2c.org&lt;/code>.
+We have a shared cluster on Google Cloud, with plans to deploy one on AWS soon, and dedicated clusters can be run on any major cloud provider. Please see
+&lt;p>&lt;a href="https://docs.2i2c.org/about/service/index.html" target="_blank" rel="noopener" >our service documentation&lt;/a> for more details.&lt;/p>
+&lt;/div>
+&lt;/div></description></item><item><title>One year later: an update of 2i2c's mission, strategy, and impact</title><link>https://2i2c.org/blog/2022/strategic-update/</link><pubDate>Sun, 09 Oct 2022 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2022/strategic-update/</guid><description>&lt;p>&lt;em>This post is an exploration of 2i2c&amp;rsquo;s current strategy and direction after a year of major operations. It is a brainstorm from the Executive Director, shared as a blog post to invite feedback and provide transparency into our current thinking. Its goal is to explore the context of 2i2c&amp;rsquo;s stakeholders and their needs, and identify an opportunity and plan for having a positive impact with these communities. It is not a concrete proposal but a snapshot of thinking in time meant to trigger reflection. Over time we will incorporate some of these ideas
+&lt;a href="https://compass.2i2c.org/" target="_blank" rel="noopener" >into our Team Compass&lt;/a>.&lt;/em>&lt;/p>
+&lt;p>When we founded 2i2c, we largely did so from the &amp;ldquo;bottom up&amp;rdquo; - we identified several patterns around hosted infrastructure that were useful at
+&lt;a href="https://datahub.berkeley.edu" target="_blank" rel="noopener" >UC Berkeley&lt;/a>,
+&lt;a href="https://pangeo.io" target="_blank" rel="noopener" >Pangeo&lt;/a>, and similar communities, and we wished to make them more generalized, accessible, and scalable.&lt;/p>
+&lt;p>We defined our mission as the following:&lt;/p>
+&lt;blockquote>
+&lt;p>Our mission is to make research and education more impactful, accessible, and delightful by developing, operating, and supporting infrastructure for interactive computing.&lt;/p>
+&lt;/blockquote>
+&lt;p>And a description about our immediate activities to make things a bit more concrete:&lt;/p>
+&lt;blockquote>
+&lt;p>2i2c designs, develops, and operates JupyterHubs in the cloud for communities of practice in research &amp;amp; education. It builds and supports open source infrastructure that serves these communities.&lt;/p>
+&lt;/blockquote>
+&lt;p>Around a year ago
+&lt;a href="http://2i2c.org/blog/2021/six-month-update/" target="_blank" rel="noopener" >we began our pilot JupyterHubs project&lt;/a> to learn more about our biggest challenges and opportunities in making interactive computing more accessible and useful for research and education.
+While both of these statements are still accurate, over the past year we&amp;rsquo;ve also learned more about the value that 2i2c provides. This post is an exploration of how these statements and our strategy may evolve in the near future.&lt;/p>
+&lt;h2 id="what-did-we-miss-with-our-original-strategy">
+What did we miss with our original strategy?
+&lt;a class="header-anchor" href="#what-did-we-miss-with-our-original-strategy">#&lt;/a>
+&lt;/h2>&lt;p>In short: it is too-focused on &lt;strong>actions&lt;/strong> rather than &lt;strong>impact&lt;/strong>.&lt;/p>
+&lt;p>While running JupyterHubs is a key part of what 2i2c does, it is a means to an end rather than our end-goal.
+Infrastructure is only useful if it changes workflows in a way that aligns with the goals and values that we wish to achieve.
+We&amp;rsquo;ve historically defined these in a few scattered places. For example, here are the values listed on our website:&lt;/p>
+&lt;blockquote>
+&lt;ul>
+&lt;li>2i2c values fairness and justice as requirements for successful communities.&lt;/li>
+&lt;li>2i2c values learning and discovery for all people.&lt;/li>
+&lt;li>2i2c values collaborating and connecting to foster environments for learning and discovery.&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;p>However, it is difficult to tie our operations directly to values and goals without making them concrete, and without defining a plan that ties them to our work.&lt;/p>
+&lt;p>Through our JupyterHubs pilot, we&amp;rsquo;ve learned how our actions-focused approach was missing some important aspects of these broader goals.
+For example, we came to understand that a big part of 2i2c&amp;rsquo;s value isn&amp;rsquo;t just providing a JupyterHub, it is &lt;em>de-risking cloud native workflows&lt;/em> for communities that are inherently skeptical of what cloud infrastructure offers.
+Doing this entails many things: teaching, making decisions on behalf of others, supporting and answering questions, building trust, and yes, managing infrastructure.&lt;/p>
+&lt;h3 id="refining-our-strategy">
+Refining our strategy
+&lt;a class="header-anchor" href="#refining-our-strategy">#&lt;/a>
+&lt;/h3>&lt;p>With this in mind, we&amp;rsquo;d like to &lt;strong>make our strategy more clearly-defined and tied to our operational choices&lt;/strong>. Here are a few ways we&amp;rsquo;d like to do this:&lt;/p>
+&lt;ul>
+&lt;li>Define our organization&amp;rsquo;s &lt;strong>values and vision&lt;/strong> for the impact we wish to have.&lt;/li>
+&lt;li>Define the key &lt;strong>stakeholder communities&lt;/strong> that we wish to serve, the context of tools and services that are relevant to these stakeholders, and the assumptions we&amp;rsquo;re making.&lt;/li>
+&lt;li>Define the &lt;strong>problems these stakeholders have&lt;/strong>, the ways in which their current workflow could be improved, and the opportunity to help them.&lt;/li>
+&lt;li>Describe our &lt;strong>strategy&lt;/strong> to positively impact these stakeholders with our work.&lt;/li>
+&lt;li>Define a collection of &lt;strong>goals and objectives&lt;/strong> to carry out this strategy in the near-term.&lt;/li>
+&lt;/ul>
+&lt;p>The rest of this post will take a crack at answering a few of these questions. It is intentionally messy, and meant both as a public snapshot of my thinking at this moment, and fodder for discussion and more specific proposals in the future.&lt;/p>
+&lt;h2 id="context-our-key-stakeholders-and-the-impact-we-wish-to-have">
+Context: Our key stakeholders and the impact we wish to have
+&lt;a class="header-anchor" href="#context-our-key-stakeholders-and-the-impact-we-wish-to-have">#&lt;/a>
+&lt;/h2>&lt;p>2i2c&amp;rsquo;s key stakeholders are communities of practice that are dedicated to creating and sharing public knowledge.
+These are primarily made up of &lt;strong>researchers&lt;/strong> and &lt;strong>educators&lt;/strong> in the global community.&lt;/p>
+&lt;p>For these stakeholders, we wish to catalyze and support a transformation in their data workflows that allows them to be more collaborative, inclusive, efficient, and powerful in the impact they wish to have.&lt;/p>
+&lt;h3 id="assumptions-we-make-about-our-stakeholders">
+Assumptions we make about our stakeholders
+&lt;a class="header-anchor" href="#assumptions-we-make-about-our-stakeholders">#&lt;/a>
+&lt;/h3>&lt;p>There are a few unique things about these communities that are important for us:&lt;/p>
+&lt;ul>
+&lt;li>Researchers and educators see their job as &lt;strong>creating and sharing knowledge with a heterogeneous and global community&lt;/strong>. They can&amp;rsquo;t make many assumptions about the organizational context or resources of this community, or their work will become inaccessible to others.&lt;/li>
+&lt;li>They &lt;strong>work at vertically-oriented institutions&lt;/strong> (e.g., a university with an in-house IT department), but their communities are &lt;strong>organized horizontally across institutions&lt;/strong> (a researcher may identify more with colleagues in their field than with their co-workers at the university).&lt;/li>
+&lt;li>As a result, these communities &lt;strong>value workflows that are maximally accessible, portable, modular, simple, and long-lasting&lt;/strong>. This allows them to define a shared set of practices across their institutional boundaries without requiring a lot of vertical decision-making.&lt;/li>
+&lt;/ul>
+&lt;p>Historically, this means that scientists must choose between workflows that are underpowered but accessible (e.g., collapsed into a PDF describing the work), or powerful but inaccessible to many (e.g., they rely on extensive training or resources only accessible to some institutions).&lt;/p>
+&lt;h3 id="open-source-tools-have-boosted-standardization-and-collaboration-across-communities">
+Open source tools have boosted standardization and collaboration across communities
+&lt;a class="header-anchor" href="#open-source-tools-have-boosted-standardization-and-collaboration-across-communities">#&lt;/a>
+&lt;/h3>&lt;p>Over the past ten years, the proliferation of open source tools has vastly expanded our potential to create public knowledge in a more accessible, modular, inclusive, and productive way.&lt;/p>
+&lt;p>For example, core numerical computing infrastructure like
+&lt;a href="https://numpy.org" target="_blank" rel="noopener" >NumPy&lt;/a> provides a foundation for more domain specific numerical libraries to build on. Tools like
+&lt;a href="https://pandas.pydata.org/" target="_blank" rel="noopener" >Pandas&lt;/a> and
+&lt;a href="https://xarray.dev/" target="_blank" rel="noopener" >XArray&lt;/a> allow for more sophisticated data structures that match the complex and heterogeneous data in the research community.&lt;/p>
+&lt;p>This has led to many domain-specific communities of practice building upon the same APIs and infrastructure to solve their specific needs. By largely sharing the same stack, we have reduced duplication of effort and make it easier to speak the same language across data-rich fields.&lt;/p>
+&lt;h3 id="but-a-local-workflow-with-open-source-tools-is-inaccessible-or-underpowered-for-many-people">
+&amp;hellip;but a local workflow with open source tools is inaccessible or underpowered for many people
+&lt;a class="header-anchor" href="#but-a-local-workflow-with-open-source-tools-is-inaccessible-or-underpowered-for-many-people">#&lt;/a>
+&lt;/h3>&lt;p>However, this has also led to a few key problems:&lt;/p>
+&lt;p>&lt;strong>Problem 1: The ecosystem of open source tools is huge and complex, and hard to tailor for specific domain workflows&lt;/strong>. It is hard to decide which tools to use for a workflow, and we do not have efficient community processes for creating and standardizing workflows.&lt;/p>
+&lt;p>&lt;strong>Problem 2: For many users, it is still too difficult to set up a local environment&lt;/strong>. Installing the right libraries and their dependencies is complex and domain-specific. This leads to wasted time and confusion, especially for newcomers or learners in an educational context.&lt;/p>
+&lt;p>Finally, there is another workflow-related problem that arises even when you do set up a proper environment:&lt;/p>
+&lt;p>&lt;strong>Problem 3: Local workflows are not scalable enough for many communities&lt;/strong>. Working with 10GB of data can be challenging in a local context, working with 10TB of data quickly becomes impossible. This leads to communities that &amp;ldquo;share data&amp;rdquo; by making lots of local copies that are distributed to individual users. This harms data provenance and makes our work less reproducible and accessible. It limits the scope of questions we can ask with data and increases the friction for sharing our work with others. As our workflows require more computation and data, a &amp;ldquo;local, fixed hardware&amp;rdquo; approach will become more and more underpowered.&lt;/p>
+&lt;h2 id="managed-cloud-services-can-solve-the-accessibility-problem-for-many-workflows-and-tools">
+Managed cloud services can solve the accessibility problem for many workflows and tools
+&lt;a class="header-anchor" href="#managed-cloud-services-can-solve-the-accessibility-problem-for-many-workflows-and-tools">#&lt;/a>
+&lt;/h2>&lt;p>One way to resolve these problems is to rely on &lt;strong>managed infrastructure services&lt;/strong> to provide the environments needed for data analysis. A systems administrator can set up computing and data resources, and then expose these resources to many users as a service. This makes these complex and powerful environments more accessible, standardizes the workflows of users to make it easier for them to collaborate, and potentially serves as a gateway to more complex data and computing infrastructure.&lt;/p>
+&lt;p>Historically, this work was done in-house by internal teams at research institutions. This led to many unique infrastructure setups with slight differences across institutions. It also led to data and workflows being institution-centric, even though many communities are organized &lt;em>across&lt;/em> institutions.&lt;/p>
+&lt;p>&lt;strong>Cloud infrastructure can solve this problem&lt;/strong>. It provides a layer of infrastructure that can be used to standardize access and worfklows across communities of practice. It can be more accessible than on-prem infrastructure, as the cloud is already globally distributed in a way that local hardware can never be. Moreover, cloud infrastructure is also much more scalable, and can be used to access more sophisticated data and computing resources in a fluid manner.&lt;/p>
+&lt;h3 id="but-the-cloud-services-landscape-is-not-designed-for-research-and-education-communities">
+But the cloud services landscape is not designed for research and education communities
+&lt;a class="header-anchor" href="#but-the-cloud-services-landscape-is-not-designed-for-research-and-education-communities">#&lt;/a>
+&lt;/h3>&lt;p>Over the last 10 years, a huge ecosystem of cloud-native tools and services have grown to solve this problem in industry. These are often called the
+&lt;a href="https://future.com/emerging-architectures-modern-data-infrastructure/" target="_blank" rel="noopener" >Modern Data Stack&lt;/a>. However, &lt;strong>modern cloud services are largely unused by research and education&lt;/strong>. Why is this?&lt;/p>
+&lt;p>We believe it is because most cloud services do not meet many needs of research and educational communities:&lt;/p>
+&lt;ul>
+&lt;li>They tend to be offered by a single vendor, which results in a fear of lock-in or vendor-specific workflows that result in high-costs.&lt;/li>
+&lt;li>They require users to learn non-standard workflows that are attached to the cloud service.&lt;/li>
+&lt;li>They often require extensive knowledge of data and cloud resources to configure properly. They may require an internal dev-ops team to integrate cloud services and expose them for internal teams.&lt;/li>
+&lt;li>They are often still institution-centric because cloud services are geared towards enterprise contracts within vertically-integrated organizations. Many research organizations are more like collections of little fiefdoms rather than a single kingdom.&lt;/li>
+&lt;/ul>
+&lt;p>In short, &lt;strong>many cloud services ask researchers and educators to give up too much agency and choice, and make them reliant on organizations they do not inherently trust&lt;/strong>. They are perceived as a risky alternative to the &amp;ldquo;we have control and have visibility into everything&amp;rdquo; nature of on-prem hardware.&lt;/p>
+&lt;h3 id="examples-of-a-potential-model-for-community-centric-cloud-services">
+Examples of a potential model for community-centric cloud services
+&lt;a class="header-anchor" href="#examples-of-a-potential-model-for-community-centric-cloud-services">#&lt;/a>
+&lt;/h3>&lt;p>Over the past several years we have seen several communities strike a balance that made cloud infrastructure more accessible while still retaining agency for the communities of practice that used and managed the infrastructure.
+For example:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>The Pangeo Project&lt;/strong> is a
+&lt;a href="https://pangeo.io" target="_blank" rel="noopener" >cloud-native geospatial analytics platform&lt;/a> that builds on the Dask, Zarr, and XArray stack to enable distributed and collaborative access to large-scale geospatial datasets.&lt;/li>
+&lt;li>&lt;strong>The UC Berkeley DataHub&lt;/strong> is a
+&lt;a href="https://docs.datahub.berkeley.edu/en/latest/" target="_blank" rel="noopener" >cloud-native educational community&lt;/a> that uses a managed service to provide interactive learning environments to thousands of students via the cloud.&lt;/li>
+&lt;li>&lt;strong>The Syzygy service&lt;/strong> is a
+&lt;a href="https://syzygy.ca/" target="_blank" rel="noopener" >federated network of educational hubs&lt;/a> that run entirely on open source infrastructure in the cloud, managed for universities in Canada.&lt;/li>
+&lt;/ul>
+&lt;p>Each of these communities roughly followed the same model:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Integrate&lt;/strong> a collection of open source tools and cloud services into a standardized cloud environment for a community.&lt;/li>
+&lt;li>&lt;strong>Customize&lt;/strong> the environment and cloud resources via open source tools that provide remote interactive computing sessions. This is usually done with
+&lt;a href="https://jupyterhub.readthedocs.io" target="_blank" rel="noopener" >JupyterHub&lt;/a>.&lt;/li>
+&lt;li>&lt;strong>Contribute&lt;/strong> to upstream tools and redeploy improvements to a community&amp;rsquo;s shared infrastucture in order to enhance the service.&lt;/li>
+&lt;/ul>
+&lt;p>Moreover, they use nearly identical technical stacks: some combination of Jupyter infrastructure to manage cloud infrastructure and provide interactive computing environments, a Scientific Python or R-based stack for the libraries users access, and a collection of online services to facilitate collaboration and workflows.&lt;/p>
+&lt;p>These services required a combination of &lt;strong>dev-ops and cloud engineering&lt;/strong> skills to integrate the tools and manage the infrastructure, as well as &lt;strong>community guidance and teaching&lt;/strong> to standardize and share workflows across a community.&lt;/p>
+&lt;p>So why couldn&amp;rsquo;t this model just be repeated across many other communities as well?&lt;/p>
+&lt;h3 id="however-running-your-own-cloud-infrastructure-is-a-lot-of-work">
+However, running your own cloud infrastructure is a lot of work
+&lt;a class="header-anchor" href="#however-running-your-own-cloud-infrastructure-is-a-lot-of-work">#&lt;/a>
+&lt;/h3>&lt;p>These initiatives demonstrate the potential of building community-centric cloud services on top of open source tools, but they were also unscalable to other communities. Observing these success stories also reveals a few more problems that we must resolve in order to make these services more generalizable and accessible to new communities:&lt;/p>
+&lt;p>&lt;strong>Problem 4: Running your own cloud requires skills and resources that most organizations do not have&lt;/strong>. In order to make the most of the cloud and to provide it as a resource reliable-enough for important workflows, it is important to have a knowledgeable team with best-practices in distributed cloud management. However, hiring engineers in this space is very difficult, and the team structure and culture needed for these services is often at-odds with the way universities are structured.&lt;/p>
+&lt;p>&lt;strong>Problem 5: Contributing to open source communities requires dedicated time and skills&lt;/strong>. When building services on top of open source tools, you will invariably need to improve the tools in order to fix bugs or to enhance your service. Doing this is very different from a contract with a traditional vendor, and requires building skills in how to communicate and interact with open source communities. For key open source infrastructure, it also requires an ongoing investment of time into upstream community work that is hard for many institutions to justify.&lt;/p>
+&lt;p>&lt;strong>Problem 6: When institutions run their own clouds, they tend to re-invent institution-centric anti-patterns.&lt;/strong> For example, an institution might expose a cloud-based service but make it available only to individuals with an institutional account.
+They might staff it with an under-resourced team (or just a single person). They might make small decisions that differ from institution to institution. All of this limits the effectiveness of the cloud for facilitating collaboration and sharing within communities of practice.&lt;/p>
+&lt;p>Finally, while vendor-specific cloud services often come with a lot of training material, self-managed cloud services require institutions to build their own practices and guidance for how to use the infrastructure. This results in another major problem:&lt;/p>
+&lt;p>&lt;strong>Problem 7: Communities need assistance in understanding what is possible with cloud-native workflows, and adapting these workflows to their domains.&lt;/strong> There is enormous value in integrating tools together and exposing them as a highly-accessible managed service via the cloud. However, most communities of practice are still new to cloud-native workflows, and they need considerable guidance to begin sharing their practices within a community.&lt;/p>
+&lt;p>These are several major problems that we must overcome in order to make cloud infrastructure more accessible and useful to research and education communities while living up to our values of community agency and open workflows.&lt;/p>
+&lt;h2 id="our-opportunity-for-impact">
+Our opportunity for impact
+&lt;a class="header-anchor" href="#our-opportunity-for-impact">#&lt;/a>
+&lt;/h2>&lt;p>To summarize, we believe that there is the following opportunity for impact:&lt;/p>
+&lt;ul>
+&lt;li>Make communities in research and education do work that is more collaborative, reproducible, and impactful&amp;hellip;&lt;/li>
+&lt;li>In a way that gives them agency and flexibility to do their work as they wish&amp;hellip;&lt;/li>
+&lt;li>By integrating open tools and standards, managing them as a service with scalable cloud infrastructure, and guiding communities in deciding how to use these tools for their domain-specific problems&amp;hellip;&lt;/li>
+&lt;/ul>
+&lt;p>We believe that the best way to do this is via a mission-aligned non-profit service that is based on values of trust, shared responsibility, and transparency. This will allow us to treat our relationships with communities as &lt;strong>collaborators, not customers&lt;/strong> and share responsibility and agency with them. In this way we can act as a vehicle for &lt;strong>sharing resources and ideas across communities&lt;/strong> via our infrastructure and services.&lt;/p>
+&lt;p>We can make such a service both &lt;strong>sustainable&lt;/strong> and &lt;strong>scalable&lt;/strong> because we are delivering direct value to communities with resources. There are many
+&lt;a href="https://www.ffwd.org/playbook/choose-a-business-model/" target="_blank" rel="noopener" >potential business models&lt;/a> that are already in existence (for example, &lt;em>Software as a Service&lt;/em> or shared research infrastructure services like supercomputing centers). By generating resources in exchange for these services, we can &lt;strong>centralize cloud infrastructure services for many communities into a single, scalable team&lt;/strong>. By committing ourselves to an &lt;em>upstream-first service model&lt;/em>, we can &lt;strong>drive resources towards open source communities&lt;/strong> and make these tools more useful for our key stakeholders.&lt;/p>
+&lt;p>A model like this naturally sets up a two-directional virtuous cycle where open source communities and public knowledge communities derive value from one another&amp;rsquo;s work.&lt;/p>
+&lt;div class="mermaid">flowchart TD
+RE[Communities in &lt;br /> Research and Education]
+OS[Open Source Communities]
+OS -- Builds open tools and &lt;br /> standards used by --> 2i2c
+2i2c -- Integrates tools into &lt;br /> managed services for --> RE
+2i2c -- Integrates feedback and &lt;br /> upstreams improvements to --> OS
+RE -- Provides feedback &lt;br /> and resources for --> 2i2c
+&lt;/div>
+&lt;h3 id="how-should-2i2c-try-to-achieve-this-impact">
+How should 2i2c try to achieve this impact
+&lt;a class="header-anchor" href="#how-should-2i2c-try-to-achieve-this-impact">#&lt;/a>
+&lt;/h3>&lt;p>With this in mind, we hope to focus our organizational efforts around building services that focus on the following actions.&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Integrate&lt;/strong> open source tools and services into a cloud-native service that is optimized for scientific workflows and communities. The end-product should not feel like &amp;ldquo;a 2i2c product&amp;rdquo; but a service anybody with enough skills could build themselves.&lt;/li>
+&lt;li>&lt;strong>Manage&lt;/strong> cloud infrastructure with an &amp;ldquo;upstream first&amp;rdquo; mentality to provide a high-quality and accessible service for global communities. This will allow communities to focus on their work instead of the infrastructure.&lt;/li>
+&lt;li>&lt;strong>Support&lt;/strong> the communities that use this infrastructure so that questions and problems are dealt with quickly. This will de-risk the service (and the cloud more generally) with the knowledge that help is available.&lt;/li>
+&lt;li>&lt;strong>Guide&lt;/strong> communities in using these tools to do their work more effectively and collaboratively. This will speed up the learning and sharing process so that communities are able to make the most of the cloud.&lt;/li>
+&lt;li>&lt;strong>Collaborate&lt;/strong> with these communities and embody the values we want to see in the research community to build trust and lead others. This will build trust and strengthen relationships between our communities.&lt;/li>
+&lt;/ul>
+&lt;p>Over time, we may add new verbs (such as &lt;strong>develop&lt;/strong> open source software and &lt;strong>lead&lt;/strong> open source communities), but the ones above define our initial organizational focus.&lt;/p>
+&lt;h3 id="our-most-important-actions-to-take">
+Our most important actions to take
+&lt;a class="header-anchor" href="#our-most-important-actions-to-take">#&lt;/a>
+&lt;/h3>&lt;p>Accomplishing this requires blending aspects of cloud infrastructure management, domain and workflow expertise, and collaborative service design. As we move forward, these are the biggest challenges to overcome in developing this service further:&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>Build a top-notch global Site Reliability Engineering Team&lt;/strong>. First and foremost, the infrastructure that we manage must be reliable and scalable. If you ask communities to do their work in the cloud, they must be confident that it will be stable and highly available. If you wish to serve a global community, then you must build systems management capacity on a global level. This means investing heavily in our asynchronous coordination and communication processes, and building team skills in the modern cloud infrastructure stack and dev-ops practices.&lt;/li>
+&lt;li>&lt;strong>Build centralized cloud deployment infrastructure for community-first services&lt;/strong>. We need the ability to centrally manage infrastructure that is delivered in a community-specific manner to many different communities of practice. This will allow us to achieve economies of scale in managing and running the infrastructure, while allowing communities to have agency over their tools to customize them for their needs. To do this we&amp;rsquo;ll need to use open source tools and cloud services that are designed for flexibility and modularity, create out-of-the-box infrastructure that gets communities 80% of the way there, and gives them the power to define the last 20% in a way that is sustainable for both them and our team.&lt;/li>
+&lt;li>&lt;strong>Define two or three scientific workflows to focus on, and integrate the right tools and services into a distribution for each&lt;/strong>. We must identify a few scientific workflows to focus on, as well as the infrastructure stack that will be most-useful to the communities that require these workflows. We must integrate this infrastructure into a distribution that any community could pick up, but that has enough flexibility for each to solve their &amp;ldquo;last-mile problem&amp;rdquo; with customizations.&lt;/li>
+&lt;li>&lt;strong>Define a support and guidance model for community-first services&lt;/strong>. Our support and guidance similarly needs to be generic enough to be scalable to many kinds of communities, but with the ability for communities to make their own customizations and have agency over their training and content. In this way we can be a centralized resource that communities can use to grow their own practice of cloud-native workflows.&lt;/li>
+&lt;li>&lt;strong>Identify a collaborative service delivery model that doesn&amp;rsquo;t create too much overhead&lt;/strong>. We believe that community-centric infrastructure should be transparent and participatory, and provide agency to communities in shaping their service. On the other hand, we wish to serve many different communities, and thus we must minimize the amount of labor associated with serving any particular community. As a result we must build a collaborative model of roles and expectations around our services that balances participation from community representatives against our ability to act quickly to ensure the best service possible.&lt;/li>
+&lt;li>&lt;strong>Identify a cost-recovery model that is globally accessible and scalable&lt;/strong>. We wish to serve a large and global collection of communities with our services, and so we must identify a way to recover our costs such that we are not restricted to serving only the wealthiest communities in the world, and such that &amp;ldquo;cost vs. resources generated&amp;rdquo; gives us the flexibility to grow to serve a large global community.&lt;/li>
+&lt;li>&lt;strong>Create an upstream-first culture&lt;/strong>. If we wish to leverage open source tools in our work, we need to build team expertise in interacting with open source communities, deploying their technology in our services, and making improvements to our service by upstream contributions to open source tools.&lt;/li>
+&lt;li>&lt;strong>Create an organizational culture that embodies the values we want to support&lt;/strong>. In order to build a better, more collaborative, more inclusive network of communities of practice, we need to embody the principles we wish to help grow in other communities. This will help us build trust with organizations that are inherently skeptical of &amp;ldquo;outsourcing&amp;rdquo; responsibilities to other organizations, and will make us more effective advocates for the same kinds of practices in other communities.&lt;/li>
+&lt;/ol>
+&lt;p>There are many other issues we must tackle, but we&amp;rsquo;ve identified these as being crucial to 2i2c accomplishing its mission. Over the coming months we will continue to refine our practices and service model. As we learn more, we&amp;rsquo;ll update our understanding of 2i2c&amp;rsquo;s situation and potential for impact, and our strategy for accomplishing our mission.&lt;/p>
+&lt;p>We hope that this framing helps others understand our position relative to the communities we wish to serve, and the impact we wish to have. We welcome any feedback or suggestions about how we can refine these ideas to better-serve our communities.&lt;/p>
+&lt;h2 id="appendix-future-growth">
+Appendix: Future growth
+&lt;a class="header-anchor" href="#appendix-future-growth">#&lt;/a>
+&lt;/h2>&lt;p>Many people also ask what the growth model looks like for 2i2c.
+Our pricing strategy above should include our goal of &lt;strong>building a financial buffer&lt;/strong> in order to boost the financial resiliency of the organization, and to provide us room to grow if there is an opportunity to expand our service.&lt;/p>
+&lt;p>While we want to focus our efforts on the strategic goals described above, here is how I think 2i2c could grow its operations and expand its impact as a next step.
+These are initiatives for which we might seek grant funding to experiment with sustainable and scalable models.&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Create a software development team&lt;/strong>. Right now our technical efforts are focused on &lt;em>integrating&lt;/em> pre-existing tools and services, and &lt;em>managing&lt;/em> these services in the cloud. However there are many opportunities to &lt;em>create&lt;/em> and &lt;em>enhance&lt;/em> the ecosystem of tools that is out there. Doing dedicated software development is very different from Site Reliability Engineering, and we will need to build our financial and staffing capacity to dedicate team members to this work.&lt;/li>
+&lt;li>&lt;strong>Expand the kinds of cloud services we offer&lt;/strong>. Currently we focus our efforts around providing &lt;em>research and analysis platforms&lt;/em> in the cloud. These are often connected to other cloud resources (like datasets) but we do not manage them ourselves. We believe there&amp;rsquo;s an opportunity to strategically grow the services we provide - most notably in the area of cloud data management and migration. However, this is beyond our current capacity and we will need to grow more before moving in this direction.&lt;/li>
+&lt;li>&lt;strong>Create an open source support operation&lt;/strong>. There are many things that open source communities need beyond technical improvements. Providing community, operational, and strategic support is another way that 2i2c could use its resources and experience to benefit open source communities that we work with. However, we need to better-understand how to do this in a way that is sustainable for us, and that respects open source communities as independent organizations with their own mission, strategy, and expectations.&lt;/li>
+&lt;li>&lt;strong>Create a cloud infrastructure training operation&lt;/strong>. Many communities we work with &lt;em>aspire to run their own cloud infrastructure&lt;/em>. They wish to work with a trusted partner like 2i2c in the short-term, but in the long term they want to build their own capacity in running similar services. 2i2c&amp;rsquo;s cloud services are a unique opportunity for others to get hands-on training to grow their skills. Perhaps there is a way for us to share this experience with members from other communities in a way that they can then bring back with them to other organizations. There will be an inherent tension between this and our sustainability model from ongoing services, but we believe it is an important opportunity to explore since it aligns with our values of community agency and choice.&lt;/li>
+&lt;/ul>
+&lt;div class="about-us">
+&lt;blockquote>
+&lt;p>💡 Follow our work!
+&lt;a href="http://eepurl.com/hjHbff" target="_blank" rel="noopener" >Sign up for our mailing list&lt;/a> for updates about 2i2c.
+&lt;a href="" >Send us an e-mail about collaborating or partnering&lt;/a> on a project.
+See our
+&lt;a href="https://docs.2i2c.org" target="_blank" rel="noopener" >Service Documentation&lt;/a> or our
+&lt;a href="https://compass.2i2c.org" target="_blank" rel="noopener" >Team Compass&lt;/a> to learn about our service and organization.&lt;/p>
+&lt;/blockquote>
+&lt;/div></description></item><item><title>Celebrating our progress in Q1 2022</title><link>https://2i2c.org/blog/2022/q1-update/</link><pubDate>Mon, 04 Apr 2022 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2022/q1-update/</guid><description>&lt;p>Quarter 1 of 2022 just wrapped up, and the 2i2c team has been busy making improvements across our infrastructure, organization, and operations.
+This is a quick post to celebrate the work we&amp;rsquo;ve done over the past three months, and to briefly share what we&amp;rsquo;re working on next.&lt;/p>
+&lt;p>These are the main highlights from this quarter - if you&amp;rsquo;d like to check out more of the work that we&amp;rsquo;ve done, see:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="https://github.com/pulls?q=is%3Apr&amp;#43;merged%3A%3E2022-01-01&amp;#43;org%3A2i2c-org&amp;#43;archived%3Afalse&amp;#43;sort%3Aupdated-desc&amp;#43;" target="_blank" rel="noopener" >All the PRs we&amp;rsquo;ve merged in Q1&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://github.com/issues?page=4&amp;amp;q=is%3Aissue&amp;#43;closed%3A%3E2022-01-01&amp;#43;org%3A2i2c-org&amp;#43;sort%3Aupdated-desc" target="_blank" rel="noopener" >All closed issues in Q1&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="infrastructure-improvements">
+Infrastructure improvements
+&lt;a class="header-anchor" href="#infrastructure-improvements">#&lt;/a>
+&lt;/h2>&lt;p>This quarter we did a deep dive into a number of core infrastructure improvements for our
+&lt;a href="https://2i2c.org/service/" target="_blank" rel="noopener" >Managed JupyterHubs Service&lt;/a>.
+Here are a few highlights:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Infrastructure reliability and efficiency&lt;/strong>. We
+&lt;a href="https://github.com/2i2c-org/infrastructure/issues/879" target="_blank" rel="noopener" >improved the resiliency, reliability, and efficiency of our deployment infrastructure&lt;/a>. For example, we refactored our hub configuration so that each community is better-able to track it, we implemented validation steps to ensure that we don&amp;rsquo;t accidentally push incorrect config to the hubs, and we&amp;rsquo;ve significantly improved our CI/CD pipeline to push deployments out to our hubs more efficiently.&lt;/li>
+&lt;li>&lt;strong>Automatic deployments to commercial cloud&lt;/strong>. With the ICESat hackweek as a test-case for AWS, we&amp;rsquo;ve finished automating the deployment of clusters and hubs to each major commercial cloud. (there&amp;rsquo;s not a specific issue for this as it has been a multi-month effort over many PRs and issues!)&lt;/li>
+&lt;li>&lt;strong>CILogon authentication&lt;/strong>.
+&lt;a href="https://cilogon.org/" target="_blank" rel="noopener" >CILogon&lt;/a> is a non-profit organization that provides &amp;ldquo;single-sign on&amp;rdquo; authentication services for the same communities that 2i2c serves. We&amp;rsquo;ve partnered with them to
+&lt;a href="https://github.com/2i2c-org/infrastructure/pull/1089" target="_blank" rel="noopener" >prototype using CILogon for 2i2c&amp;rsquo;s hubs&lt;/a>, which should make it much easier for communities to user their own institutional sign-ons.&lt;/li>
+&lt;/ul>
+&lt;h2 id="communities-weve-served-and-lessons-learned">
+Communities we&amp;rsquo;ve served and lessons learned
+&lt;a class="header-anchor" href="#communities-weve-served-and-lessons-learned">#&lt;/a>
+&lt;/h2>&lt;p>As described in
+&lt;a href="https://compass.2i2c.org/organization/strategy.html" target="_blank" rel="noopener" >our Managed Hub Services strategy&lt;/a>, our goals for this phase of our organization are to balance &lt;em>serving communities of practice&lt;/em> and &lt;em>learning where we can improve our infrastructure and practices&lt;/em>.
+With that in mind, here are a few highlights of communities we&amp;rsquo;ve served, and what we&amp;rsquo;ve learned from it:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>We grew a hub for
+&lt;a href="https://jupyter.utoronto.ca/" target="_blank" rel="noopener" >the University of Toronto&lt;/a> to around 4000 monthly users&lt;/strong>. This has taught us a lot about where our support and operations can and cannot scale, and where we have gaps in our sustainability / pricing model.&lt;/li>
+&lt;li>&lt;strong>We deployed CILogon on a hub for
+&lt;a href="https://anu.pilot.2i2c.cloud/" target="_blank" rel="noopener" >a class at Australian National University&lt;/a>&lt;/strong>. This gives us an opportunity to work out any UX issues and improvements to be made before a deeper CILogon integration.&lt;/li>
+&lt;li>&lt;strong>We deployed a dedicated database per user for
+&lt;a href="https://utexas.pilot.2i2c.cloud/" target="_blank" rel="noopener" >a databases course at UT Austin&lt;/a>&lt;/strong>. This is helping us learn more about how to pair slightly more customized per-user infrastructure with our standard hub setups, as well as how our
+&lt;a href="https://2i2c.org/right-to-replicate" target="_blank" rel="noopener" >Right to Replicate model&lt;/a> could be followed for more complex setups like a database.&lt;/li>
+&lt;li>&lt;strong>We ran an event hub for
+&lt;a href="https://twitter.com/scotty_h_q/status/1508557909751320577" target="_blank" rel="noopener" >the ICESat2 HackWeek&lt;/a> at the University of Washington&lt;/strong>. This helped refine our infrastructure and expertise with AWS, as well as improved our event &amp;ldquo;ready mode&amp;rdquo; practices.&lt;/li>
+&lt;li>&lt;strong>We deployed a new hub for
+&lt;a href="https://leap-stc.github.io/intro.html" target="_blank" rel="noopener" >the LEAP project&lt;/a>&lt;/strong>. This has given us an opportunity to prototype new processes for pass-through cloud costs to simplify our deployments.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Organizational improvements&lt;/strong>&lt;/p>
+&lt;p>Beyond our technical and community impact work, we&amp;rsquo;ve made a lot of significant organizational improvements as well.&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>We designed a
+&lt;a href="https://2i2c.org/blog/2022/job-product-community-lead/" target="_blank" rel="noopener" >new role in Product and Community Management&lt;/a>&lt;/strong>. We&amp;rsquo;re excited for this new hire to spearhead efforts in guiding and developing relationships with the communities we serve, as well as guiding and collaborating with our engineering team in developing our services.&lt;/li>
+&lt;li>&lt;strong>We designed
+&lt;a href="https://github.com/2i2c-org/team-compass/issues/382" target="_blank" rel="noopener" >a new Project Manager role&lt;/a>&lt;/strong>. Our engineering team had been operating as a largely autonomous and independent group, but we&amp;rsquo;ve realized that we would benefit from someone to help coordinate our actions and plans, especially as we balance more operations/support issues in addition to new development. This new role is an experiment at growing this capacity within our team, in the hopes that we can dedicate a team member to it in the future.&lt;/li>
+&lt;/ul>
+&lt;h2 id="whats-next">
+What&amp;rsquo;s next
+&lt;a class="header-anchor" href="#whats-next">#&lt;/a>
+&lt;/h2>&lt;p>We are still working out our major priorities for the oncoming quarter, but have a few major projects in the works that we&amp;rsquo;re hopeful to make progress on quickly.
+Here are a few major examples:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Improve our process and operations around supporting our users&lt;/strong>. We are
+&lt;a href="https://github.com/2i2c-org/infrastructure/issues/1068" target="_blank" rel="noopener" >discussing first- and second-line support processes&lt;/a> to make our team more responsive and effective at resolving incidents.&lt;/li>
+&lt;li>&lt;strong>Improve our invoicing and contracting process&lt;/strong>. We are
+&lt;a href="https://github.com/2i2c-org/team-compass/issues/355" target="_blank" rel="noopener" >discussing how to reduce toil associated with invoicing&lt;/a> in order to make this practice more reliable and efficient, along with our fiscal sponsor
+&lt;a href="https://codeforscience.org" target="_blank" rel="noopener" >Code for Science and Society&lt;/a>.&lt;/li>
+&lt;li>&lt;strong>Improving our reporting and monitoring infrastructure&lt;/strong>. We&amp;rsquo;d like to boost our ability to
+&lt;a href="https://github.com/2i2c-org/infrastructure/issues/328" target="_blank" rel="noopener" >monitor activity on each of our hubs&lt;/a> in order to identify when something abnormal is happening and get ahead of any potential problems (e.g., to avoid unintentionally large cloud bills). We&amp;rsquo;d also like to improve our usage reporting to more create more accurate cloud bills for hubs running on multi-tenant clusters.&lt;/li>
+&lt;/ul>
+&lt;p>There is a lot more planned for 2i2c, and if you&amp;rsquo;re curious to see what we&amp;rsquo;re up to, we invite you to
+&lt;a href="https://compass.2i2c.org" target="_blank" rel="noopener" >check out our team compass&lt;/a> to learn about our practices, and
+&lt;a href="https://github.com/2i2c-org/" target="_blank" rel="noopener" >watch our activity on GitHub&lt;/a> to see our work.&lt;/p>
+&lt;p>Many thanks to the amazing 2i2c team, and the multiple open source and scholarly communities that we collaborate with to make all of this possible. In addition, we are grateful to
+&lt;a href="" >our funders&lt;/a> for making this possible. We are looking forward to Q2! 🎉&lt;/p></description></item><item><title>2i2c’s first year, part 1: exploring Jupyter services.</title><link>https://2i2c.org/blog/2022/2021-review-services/</link><pubDate>Tue, 25 Jan 2022 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2022/2021-review-services/</guid><description>&lt;p>Now that 2021 has come to an end, this marks the end of 2i2c’s first year of operations. In this year we have grown, experimented, and accomplished a lot - we have also faced challenges and learned as a team. Our primary goal in 2021 was to build a strong foundation for 2i2c.&lt;/p>
+&lt;p>To reflect on our work thus far, we&amp;rsquo;re writing three blog posts that describe progress in major areas of work towards this foundation for 2i2c.
+These three areas are:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Creating services for use-cases&lt;/strong> - these are our first managed infrastructure offerings for communities in research and education.&lt;/li>
+&lt;li>&lt;strong>Developing cloud infrastructure and tools&lt;/strong> - this is the technical backbone that makes these services possible, built entirely on open source tools.&lt;/li>
+&lt;li>&lt;strong>Building an organizational foundation&lt;/strong> - this is the creation of our team structures, processes, and culture that help us carry out our mission.&lt;/li>
+&lt;/ul>
+&lt;p>This first post will focus on &lt;strong>services that we&amp;rsquo;ve created in our first year&lt;/strong>.&lt;/p>
+&lt;p>Ultimately, 2i2c&amp;rsquo;s mission is to facilitate use-cases in research and education via open source development and services. Throughout 2021 we ran several pilots to learn more about the needs of communities in research and education, and how we could build sustainable services that meet these needs. Here are some highlights for each major use-case we have targeted thus far:&lt;/p>
+&lt;h2 id="educational-community-hubs">
+Educational community hubs
+&lt;a class="header-anchor" href="#educational-community-hubs">#&lt;/a>
+&lt;/h2>&lt;p>A primary use-case that 2i2c seeks to enable is &lt;strong>collaborative, distributed educational spaces for learning with data&lt;/strong>. In 2021 we ran several pilots with educational communities:&lt;/p>
+&lt;p>&lt;strong>A university-wide hub for the University of Toronto.&lt;/strong> This hub is used in a variety of classes throughout the university, and is made freely available to anyone with a UofT account. We hope to repeat this model for other university-wide communities, and have learned a lot about the challenges of working with particularly large educational communities.&lt;/p>
+&lt;p>&lt;strong>Several hubs for community colleges across California.&lt;/strong> In partnership with UC Berkeley and CloudBank, we&amp;rsquo;ve run several hubs for nearly a dozen small community colleges teaching the
+&lt;a href="http://data8.org" target="_blank" rel="noopener" >Data 8 curriculum&lt;/a> for their students. These hubs are lightweight and offer standardized environments for their students to use, in order to lower the cost of deploying and maintaining the hubs over time.&lt;/p>
+&lt;h3 id="what-we-learned">
+What we learned
+&lt;a class="header-anchor" href="#what-we-learned">#&lt;/a>
+&lt;/h3>&lt;p>The organizational context around educational use-cases is different from research communities. Compared with research groups, educucational groups have more variance in their size (classes as small as 10 people and as large as 500) and think about cost &lt;strong>by the student&lt;/strong>, not as a lump sum. This means that our initial hub-based pricing model may not map cleanly onto educational contexts, and we need to improve the match of scalability and price to these communities.&lt;/p>
+&lt;p>Moreover, we&amp;rsquo;ve learned that for these communities, navigating all of the open source tools that are available for pedagogy is confusing! Everybody wants auto-grading but it&amp;rsquo;s unclear what is the &amp;ldquo;right tool for the job&amp;rdquo;. Tools like
+&lt;a href="https://jupyterhub.github.io/nbgitpuller/" target="_blank" rel="noopener" >nbgitpuller&lt;/a> have heavy use at &amp;ldquo;power universities&amp;rdquo; like UC Berkeley, but many others don&amp;rsquo;t know that it exists! We will need to invest more time into building guides and documentation that help others leverage these tools.&lt;/p>
+&lt;h2 id="research-in-the-cloud">
+Research in the cloud
+&lt;a class="header-anchor" href="#research-in-the-cloud">#&lt;/a>
+&lt;/h2>&lt;p>In addition to educational use-cases, we ran several pilots for research communities in order to leverage cloud infrastructure for scaling their work or collaborating more effectively.&lt;/p>
+&lt;p>&lt;strong>We migrated Pangeo’s cloud infrastructure to be run via 2i2c.&lt;/strong> The
+&lt;a href="https://pangeo.io" target="_blank" rel="noopener" >Pangeo Community&lt;/a> had been operating and developing their own JupyterHub for several years, but were looking for another organization to provide more reliable/sustained operations and support for their Pangeo Cloud Service. This year we migrated the service
+&lt;a href="" >to run off of 2i2c’s deployment infrastructure&lt;/a>.&lt;/p>
+&lt;p>&lt;strong>A scalable cloud hub for a SWOT satellite team&lt;/strong>. The
+&lt;a href="https://meom-group.github.io/projects/swot-st/" target="_blank" rel="noopener" >MEOM research group at Grenoble&lt;/a> is doing work with the
+&lt;a href="https://swot.jpl.nasa.gov/" target="_blank" rel="noopener" >NASA SWOT satellite project&lt;/a>. However, the datasets generated from this project are huge, and only storable via the cloud. We&amp;rsquo;ve set up a JupyterHub to provide cloud-based access to this data, running a Pangeo-like environment.&lt;/p>
+&lt;h3 id="what-we-learned-1">
+What we learned
+&lt;a class="header-anchor" href="#what-we-learned-1">#&lt;/a>
+&lt;/h3>&lt;p>Research communities tend to have more usecase-specific needs than educational ones. While introductory courses in data science tend to be similar across institutions, research needs are much more unique to the problem and team at hand. Moreover, they tend to want infrastructure that runs via institutional cloud accounts. This is possible due to the flexible nature of Jupyter and JupyterHub, but brings extra challenges in bureacracy and access permissions, given that 2i2c engineers usually are not members of these organizations already.&lt;/p>
+&lt;p>Additionally, many research use-cases are based around the &lt;strong>location of the data&lt;/strong>. This is because data is the hardest thing to move from cloud to cloud. For this reason, it&amp;rsquo;s important to &lt;strong>bring interactive sessions to the data&lt;/strong>. Jupyter&amp;rsquo;s ecosystem makes this possible, but we&amp;rsquo;d like to do more to make this easier. For example, users should be able to launch interactive sessions across many clusters or datacenters, regardless of their hub&amp;rsquo;s location. They should also have more customized control over their environments.&lt;/p>
+&lt;h2 id="distributed-events-and-hackweeks">
+Distributed events and hackweeks
+&lt;a class="header-anchor" href="#distributed-events-and-hackweeks">#&lt;/a>
+&lt;/h2>&lt;p>Finally, we had a special use-case that is a hybrid of the previous two examples. Events and hackweeks are &lt;em>time-bounded&lt;/em>, &lt;em>focused on learning and doing&lt;/em>, but often &lt;em>with research workflows and communities&lt;/em>. They also tend to be more globally-distributed than a traditional research or education community.
+See below for a few examples:&lt;/p>
+&lt;p>The
+&lt;a href="https://coessing.org/" target="_blank" rel="noopener" >&lt;strong>Coastal Ocean Environment Summer School in Ghana&lt;/strong>&lt;/a> workshop is a summer school run in Ghana to share skills and workflows with researchers across Africa. It builds on workflows in the Pangeo ecosystem, and teaches attendees how to work with cloud-native data. By using a cloud-based JupyterHub for their workshop, attendees had direct access to data and compute in a way that would have been much more difficult to set up on local infrastructure.&lt;/p>
+&lt;p>The
+&lt;a href="http://linked.earth/paleoHackathon/" target="_blank" rel="noopener" >&lt;strong>PaleoHackWeek hackathons&lt;/strong>&lt;/a> were two hackathons around paleo/climate data workflows. They brought together a distributed community and use the 2i2c hub to facilitate the use of the
+&lt;a href="https://pyleoclim-util.readthedocs.io/en/master/" target="_blank" rel="noopener" >paleoclim package&lt;/a> throughout the hackweek.&lt;/p>
+&lt;p>
+&lt;a href="https://www.openscapes.org/" target="_blank" rel="noopener" >&lt;strong>OpenScapes&lt;/strong>&lt;/a> champions open practices in environmental science to help uncover data-driven solutions faster. They have several cohorts of scientific trainees learning more about adopting open and collaborative workflows, and use a hub managed by 2i2c to provide remote learning environments for their workshops.&lt;/p>
+&lt;h3 id="what-we-learned-2">
+What we learned
+&lt;a class="header-anchor" href="#what-we-learned-2">#&lt;/a>
+&lt;/h3>&lt;p>Initially we assumed that event-based hubs would be similar to educational use-cases. However, in practice they are more complex. First, event organizers have ever-changing communities of users on their hubs. They often want to provide access to many new users in each event, and expect only a small subset to continue using the infrastructure after an event. Finally, one-off events also generate spikes in activity that are more intense than educational use-cases, and warrant more dedicated attention from our engineers.&lt;/p>
+&lt;h2 id="challenges-that-we-faced">
+Challenges that we faced
+&lt;a class="header-anchor" href="#challenges-that-we-faced">#&lt;/a>
+&lt;/h2>&lt;p>As we piloted these use-cases, we also ran into a few challenges in designing services around our infrastructure.&lt;/p>
+&lt;p>&lt;strong>Balancing standard deployments, custom deployments, and scalability&lt;/strong>. Our goal is to centralize our deployment and operations infrastructure in order to reduce the maintenance burden for each community hub. This will allow us to gain economies of scale and lower costs. However, there’s an inherent tension between scalability and customizability - in order to scale we must standardize the infrastructure we offer, but communities often want environments that are unique to their use-case.&lt;/p>
+&lt;p>&lt;strong>Turning services into sustainability&lt;/strong>. We’ve learned that charging money for things does not come naturally to us. We’ve spent many years building technology and services that were offered freely to the public. This was easy to provide, but difficult to sustain. 2i2c’s goal is to offer similar services, but with a sustainability model that allows us to employ team members to do this work, and to grow in the future. Understanding how to pair the right technology, use-case, and service with a particular pricing model is an area where we must learn more.&lt;/p>
+&lt;h2 id="whats-next">
+What’s next
+&lt;a class="header-anchor" href="#whats-next">#&lt;/a>
+&lt;/h2>&lt;p>Piloting all of these services taught us a lot about the similarities and differences between each use case. Towards the end of 2021, this led to 2i2c&amp;rsquo;s first collection of &amp;ldquo;service offerings&amp;rdquo; for a Managed Jupyter Service. This includes a 2-by-2 matrix of service options, and a specific price point for each. We have begun offering this service to communities, in order to learn more about the model, the pricing, and any changes that should be made. In early 2022, we hope to expand this group to more communities so that we can test this model’s ability to scale.&lt;/p>
+&lt;p>Our next post in this series will focus on the underlying technology that powers the services described above, stay tuned for more!&lt;/p></description></item><item><title>Community update Q3 2021: A new fiscal sponsor, improving our infrastructure, nearing an alpha launch.</title><link>https://2i2c.org/blog/2021/q3-update/</link><pubDate>Sun, 10 Oct 2021 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2021/q3-update/</guid><description>&lt;blockquote>
+&lt;p>This is a (roughly) quarterly update for the 2i2c community, with the goal of providing transparency about what we&amp;rsquo;ve been up to, sharing what we are working on and where we have struggled, and discussing what we&amp;rsquo;re up to next. In addition, almost all of the work we do is public and discoverable across
+&lt;a href="https://github.com/2i2c-org/" target="_blank" rel="noopener" >our GitHub repositories&lt;/a>, and is tracked by GitHub issues.
+&lt;a href="https://github.com/search?q=org:2i2c-org&amp;#43;type:issue&amp;#43;is:closed&amp;#43;closed:2021-06-01..2021-10-01&amp;#43;-label:%22type:&amp;#43;team-sync%22&amp;#43;is:issue&amp;amp;type=issues" target="_blank" rel="noopener" >Here&amp;rsquo;s a list of issues we&amp;rsquo;ve closed in ~Q3&lt;/a>.&lt;/p>
+&lt;/blockquote>
+&lt;p>It is amazing how quickly 4 months goes by when you&amp;rsquo;re building an organization from scratch! It seems like only a few weeks ago that we were recapping the beginning of the year in
+&lt;a href="" >our last community update&lt;/a>. Since then, we have been hard at work to make 2i2c&amp;rsquo;s organizational and infrastructure more robust and sustainable.&lt;/p>
+&lt;p>There are several major strategic areas where 2i2c aims to have impact, and we&amp;rsquo;ve split this community update along each of these major areas below. We&amp;rsquo;ll cover major highlights, challenges we&amp;rsquo;ve faced, and where we&amp;rsquo;re going next.&lt;/p>
+&lt;h2 id="highlights">
+Highlights
+&lt;a class="header-anchor" href="#highlights">#&lt;/a>
+&lt;/h2>
+&lt;h3 id="managed-jupyterhub-service">
+Managed JupyterHub Service
+&lt;a class="header-anchor" href="#managed-jupyterhub-service">#&lt;/a>
+&lt;/h3>&lt;p>Our Managed JupyterHub Service will be a sustainable, scalable, and participatory service to provide cloud-based DevOps around JupyterHub for communities of practice in research and education. For the past several months, we have been running individual JupyterHubs for many organizations as a pilot, in order to learn more about the challenges we&amp;rsquo;ll face, and give ourselves an opportunity to build centralized infrastructure around the service.&lt;/p>
+&lt;p>We focused on a few major areas for work, outlined below:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Automation across cloud providers&lt;/strong>. We wish to serve communities that run on any of the major commercial cloud providers. We can standardize some of our infrastructure through abstractions like Kubernetes, but must still create cloud-specific deployment infrastructure as well (that Kubernetes cluster has to come from somewhere first!). In the last four months we&amp;rsquo;ve worked on automating Kubernetes and JupyterHub deployments on
+&lt;a href="https://github.com/2i2c-org/infrastructure/issues/627" target="_blank" rel="noopener" >AWS&lt;/a> as well as
+&lt;a href="https://github.com/2i2c-org/infrastructure/issues/512" target="_blank" rel="noopener" >Azure&lt;/a> to complement our Google Cloud deployments. We would soon like to run more hubs on this infrastructure to test how well it scales.&lt;/li>
+&lt;li>&lt;strong>Monitoring and reporting infrastructure&lt;/strong>. We have worked on the JupyterHub
+&lt;a href="https://github.com/jupyterhub/grafana-dashboards" target="_blank" rel="noopener" >&lt;code>grafana-dashboards&lt;/code> project&lt;/a> to improve dashboarding around JupyterHub deployments in general, and will soon automatically deploy Grafana dashboards for our hubs so that communities have insight into what is going on in their hubs.&lt;/li>
+&lt;li>&lt;strong>User environment management&lt;/strong>. We want communities to have control over the environments that are available on their hubs. We also want to encourage that our communities follow community standards for reproducible environments that can be re-used elsewhere. For this reason, we&amp;rsquo;ve improved the
+&lt;a href="https://github.com/jupyterhub/repo2docker-action" target="_blank" rel="noopener" >repo2docker GitHub action&lt;/a> to work with more image registries, and created a
+&lt;a href="https://github.com/2i2c-org/hub-user-image-template" target="_blank" rel="noopener" >2i2c user image template repository&lt;/a> for users to re-use for their hubs. See
+&lt;a href="https://docs.2i2c.org/admin/howto/environment.html#bring-your-own-docker-image" target="_blank" rel="noopener" >the User Environment docs&lt;/a> for more information.&lt;/li>
+&lt;li>&lt;strong>Support and collaboration roles&lt;/strong>. In addition to technology changes, we have developed an alpha-level support and collaboration model for the communities we serve. Most relevant for our communities is the &lt;strong>community representative&lt;/strong> role, who acts as the main point of contact with 2i2c engineers, and leads administrators on the hub to guide its customization for the community it serves. See
+&lt;a href="https://docs.2i2c.org/about/roles.html" target="_blank" rel="noopener" >the user roles documentation&lt;/a> for more information. We have also begun prototyping a
+&lt;a href="https://docs.2i2c.org/support.html" target="_blank" rel="noopener" >FreshDesk support model&lt;/a> and team processes around monitoring our support channels and responding to requests and incidents.&lt;/li>
+&lt;/ul>
+&lt;h3 id="pangeo">
+Pangeo
+&lt;a class="header-anchor" href="#pangeo">#&lt;/a>
+&lt;/h3>&lt;p>We are working with &lt;strong>the Pangeo Community&lt;/strong> to migrate the Pangeo JupyterHub deployments to utilize 2i2c&amp;rsquo;s centralized infrastructure, with the goal of 2i2c taking over the development and operation of Pangeo hubs moving forward. We have spent the last few months re-creating the Pangeo hub environment from scratch on a new cloud project controlled by Columbia University, and are nearly ready to begin migration from the &amp;ldquo;old&amp;rdquo; Pangeo hub to the new one. After this, we will focus our attention on re-creating the Pangeo BinderHub and AWS hub. Follow along with this work
+&lt;a href="https://github.com/orgs/2i2c-org/projects/16" target="_blank" rel="noopener" >in this GitHub Project&lt;/a>.&lt;/p>
+&lt;h3 id="executable-books--jupyter-book">
+Executable Books / Jupyter Book
+&lt;a class="header-anchor" href="#executable-books--jupyter-book">#&lt;/a>
+&lt;/h3>&lt;p>We are nearing the final year of a grant from the Sloan Foundation to support development on the
+&lt;a href="https://executablebooks.org" target="_blank" rel="noopener" >Executable Books Project&lt;/a>. As such, we have begun shifting our attention to
+&lt;a href="https://github.com/executablebooks/meta/issues/493" target="_blank" rel="noopener" >create a strategy for sustaining the project&amp;rsquo;s community beyond this grant&lt;/a>. In the coming months we plan on prioritizing improving our documentation (both for users and developers), as well as improving the general maintainability and quality of our codebases.&lt;/p>
+&lt;h3 id="jupyterhub-community-support">
+JupyterHub community support
+&lt;a class="header-anchor" href="#jupyterhub-community-support">#&lt;/a>
+&lt;/h3>&lt;p>We recently collaborated with the JupyterHub community to
+&lt;a href="https://github.com/jupyterhub/team-compass/issues/380" target="_blank" rel="noopener" >apply for two CZI EOSS awards&lt;/a>. Last month, we were notified that
+&lt;a href="https://chanzuckerberg.com/eoss/proposals/jupyterhub-community-strategic-lead/" target="_blank" rel="noopener" >our application to support a Community Strategic Lead&lt;/a> was funded! This role will fund Sarah Gibson&amp;rsquo;s time to focus some of her thinking on building community structures and dynamics that are inclusive and sustainable. We&amp;rsquo;ll update with more information as this project starts moving.&lt;/p>
+&lt;h3 id="organizational-foundations">
+Organizational foundations
+&lt;a class="header-anchor" href="#organizational-foundations">#&lt;/a>
+&lt;/h3>&lt;p>Finally, in addition to our major development and projects, we have also made a lot of progress at an organizational level.&lt;/p>
+&lt;p>We &lt;strong>began
+&lt;a href="https://2i2c.org/posts/2021/css-announce/" target="_blank" rel="noopener" >a fiscal sponsorship with Code for Science and Society&lt;/a>&lt;/strong>. This provides a new organizational and legal home for 2i2c after spending nearly a year receiving
+&lt;a href="https://www.icsi.berkeley.edu/icsi/news/2021/08/2i2c-new-chapter" target="_blank" rel="noopener" >critical strategic and start-up support&lt;/a> from our previous host,
+&lt;a href="https://www.icsi.berkeley.edu" target="_blank" rel="noopener" >ICSI&lt;/a>. We are excited to work with CS&amp;amp;S to create the business infrastructure that will power our managed JupyterHubs service.&lt;/p>
+&lt;p>The 2i2c team has also been &lt;strong>improving our team planning and coordination processes&lt;/strong>, so that we can more effectively execute on our mission. As a distributed team, we have the challenge of building processes for team communication, coordination, and planning that are distributed and asynchronous. If you&amp;rsquo;re curious, you can learn more about our coordination processes in
+&lt;a href="https://compass.2i2c.org/practices/development.html" target="_blank" rel="noopener" >our Team Compass&lt;/a>.&lt;/p>
+&lt;p>We have &lt;strong>improved our organization-wide documentation&lt;/strong> in order to make it easier to navigate between 2i2c&amp;rsquo;s various sources of information. We hope that this provides more transparency into what 2i2c is up to and how it is structured, and that it allows us to build more connections between our projects and the broader community. Check out the new documentation landing site at
+&lt;a href="https://docs.2i2c.org" target="_blank" rel="noopener" >docs.2i2c.org&lt;/a>.&lt;/p>
+&lt;h2 id="whats-next">
+What&amp;rsquo;s next
+&lt;a class="header-anchor" href="#whats-next">#&lt;/a>
+&lt;/h2>&lt;p>In addition to making iterative improvements around the projects described above, we have a few major goals for the final quarter of 2021.&lt;/p>
+&lt;p>We wish to &lt;strong>polish and finish the alpha-level deployment infrastructure&lt;/strong> across each of the major cloud providers. Our end goal is to be able to &lt;em>deploy a Kubernetes cluster and a JupyterHub on that cluster with minimal human effort&lt;/em>. This will allow us to serve more communities with fewer human effort per community. This includes migrating JupyterHubs for key communities, such as the Pangeo project.&lt;/p>
+&lt;p>We wish to &lt;strong>define and begin an alpha-level service&lt;/strong>. This means defining a few specific &amp;ldquo;products&amp;rdquo; that 2i2c can offer, as well as a pricing model for each product. Our goals will still be to learn about how this service should evolve, but we&amp;rsquo;ll have a bit more specificity about ways that others can engage with us. It will also be an opportunity to scale modestly so that we can improve our infrastructure as-needed.&lt;/p>
+&lt;p>We wish to &lt;strong>define a longer-term vision&lt;/strong> for our Managed JupyterHubs Service, and create a plan for new workflows that we wish to enable via new development. We wish to use our experience in managing JupyterHubs to understand where new open source development would significantly help the communities we serve, and will shift our attention in this direction once we have finished the early stages of making our infrastructure more robust.&lt;/p>
+&lt;p>Stay tuned for some more updates about this service, coming soon!&lt;/p>
+&lt;h2 id="challenges-weve-faced">
+Challenges we&amp;rsquo;ve faced
+&lt;a class="header-anchor" href="#challenges-weve-faced">#&lt;/a>
+&lt;/h2>&lt;p>Finally, we want to recognize that there are plenty of challenges along with successes when it comes to having impact! Here are a few of the unexpected challenges that we&amp;rsquo;ve faced along the way.&lt;/p>
+&lt;p>&lt;strong>Developing and operating multi-cloud infrastructure is a complex process&lt;/strong>. Automating the creation and operation of Kubernetes clusters across each of the major cloud providers has proven to be a lot of work! While it has been necessary to use our pre-existing hubs to provide the opportunity to build this infrastructure, it is a challenge to both &lt;em>build&lt;/em> and &lt;em>operate&lt;/em> infrastructure at the same time. This has lengthened our timelines for when we expect the alpha version of the service to be ready.&lt;/p>
+&lt;p>&lt;strong>Coordinating among a distributed team takes time&lt;/strong>. Each of our team members has been used to working asynchronously with open source communities for many years, and we under-estimated how complex it would be to port this workflow to a distributed team that must coordinate with each other much more closely on a daily basis. Deciding what to work on, how to work on it, and how to help one another take a lot of work when you only share a few hours awake at the same time. For this reason, we have spent a lot of extra energy in our first months as a team to work out
+&lt;a href="https://compass.2i2c.org/practices/development.html" target="_blank" rel="noopener" >team processes for coordination and collaboration&lt;/a>.&lt;/p>
+&lt;p>&lt;strong>How to design cloud services as a non-profit?&lt;/strong> Finally, we&amp;rsquo;ve learned that there is no clear roadmap for how to build a sustainable cloud service like the one we describe here. 2i2c is somewhere in-between a traditional SaaS company (which tends to provide access to proprietary technology) and a bespoke consultancy (which is more hands-on and custom than we are). Our best explanation for what 2i2c wishes to do is &amp;ldquo;Open source operations/dev-ops as a service&amp;rdquo;, which doesn&amp;rsquo;t quite fit into either category. This means that we have more &amp;ldquo;unknown unknowns&amp;rdquo; about what kind of service and pricing model we should develop. We hope to begin answering some of these questions in our alpha-level service launch. Stay tuned for more to come!&lt;/p>
+&lt;h2 id="get-involved">
+Get involved
+&lt;a class="header-anchor" href="#get-involved">#&lt;/a>
+&lt;/h2>&lt;p>Thanks for your interest in 2i2c and the mission that it hopes to accomplish.
+We hope that this update has been informative and interesting, and we welcome feedback about any of the information provided. If you&amp;rsquo;d like to help with any of the challenges or efforts described above, we welcome all forms of collaboration, and are happy to chat. Please drop us a line at
+&lt;a href="" >&lt;code>hello@2i2c.org&lt;/code>&lt;/a> or
+&lt;a href="https://2i2c.org/#contact" target="_blank" rel="noopener" >contact us about joining our Slack community&lt;/a>. Thanks for reading!&lt;/p></description></item><item><title>Pilot hubs, new collaborations, and new team members - A six month update</title><link>https://2i2c.org/blog/2021/six-month-update/</link><pubDate>Tue, 25 May 2021 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2021/six-month-update/</guid><description>&lt;p>It has been about six months since 2i2c first began operations (after receiving
+&lt;a href="" >funding from the Chan Zuckerberg Initiative&lt;/a>).
+In that time we&amp;rsquo;ve made progress along several directions, and wish to use this blog post to provide updates about the ways in which 2i2c has evolved over the first months of its existence.&lt;/p>
+&lt;p>Below are a few major updates from the 2i2c community - as always, if you want to learn more about 2i2c, keep an eye
+&lt;a href="" >on our blog&lt;/a> or subscribe to the
+&lt;a href="" >2i2c mailing list&lt;/a>.&lt;/p>
+&lt;h2 id="early-pilot-jupyterhub-infrastructure">
+Early pilot JupyterHub infrastructure
+&lt;a class="header-anchor" href="#early-pilot-jupyterhub-infrastructure">#&lt;/a>
+&lt;/h2>&lt;p>First off - we have been making progress building out our JupyterHub deployment infrastructure for 2i2c.
+One of our major organizational goals is to build a sustainable service
+&lt;a href="" >managing open source cloud infrastructure&lt;/a> for interactive computing.
+This service will provide hosted, customized JupyterHubs for communities of practice in research and education.
+They&amp;rsquo;ll be built entirely with open source tools that are community-driven, and that
+&lt;a href="https://2i2c.org/right-to-replicate/" >respect the community&amp;rsquo;s Right to Replicate&lt;/a>.&lt;/p>
+&lt;p>In order to accomplish this, 2i2c is running several pilots with partners and interested organizations, supported by our
+&lt;a href="" >funding from CZI&lt;/a>, as well as from
+&lt;a href="https://investinopen.org/blog/jrost-rapid-response-fund-awardees/" target="_blank" rel="noopener" >the JROST rapid response fund&lt;/a>.
+These pilots are meant to be learning opportunities to understand what kind of infrastructure and service it needs to build moving forward.&lt;/p>
+&lt;p>The
+&lt;a href="https://infrastructure.2i2c.org/" target="_blank" rel="noopener" >documentation for our pilot hubs infrastructure&lt;/a> contains information about our deployments and infrastructure.
+It is served from
+&lt;a href="https://github.com/2i2c-org/infrastructure" target="_blank" rel="noopener" >this &lt;code>2i2c-org/infrastructure&lt;/code> repository&lt;/a>, a centralized location for configuring and deploying a federated network of JupyterHubs.
+Each JupyterHub is independent of one another, and could be spun out from the centralized repository with minimal extra work, giving hub users the ability to
+&lt;a href="https://2i2c.org/right-to-replicate/" >replicate their infrastructure, with or without 2i2c&lt;/a>.
+We will continue refining the code in this repository as we learn more from our hub infrastructure pilots.&lt;/p>
+&lt;h2 id="jupyterhub-for-geospatial-analytics---a-collaboration-with-pangeo">
+JupyterHub for geospatial analytics - A collaboration with Pangeo
+&lt;a class="header-anchor" href="#jupyterhub-for-geospatial-analytics---a-collaboration-with-pangeo">#&lt;/a>
+&lt;/h2>&lt;p>As
+&lt;a href="https://medium.com/pangeo/pangeo-2-0-2bedf099582d" target="_blank" rel="noopener" >originally announced on the Pangeo blog&lt;/a>, 2i2c is forging a collaboration with
+&lt;a href="https://pangeo.io" target="_blank" rel="noopener" >the Pangeo project&lt;/a> around operating and developing cloud infrastructure for large-scale geospatial analytics!
+This collaboration is funded through a grant from the Moore Foundation (via Pangeo investigator Ryan Abernathey).&lt;/p>
+&lt;p>Over the coming months, 2i2c plans to assume operation of infrastructure underlying the Pangeo project, allowing the Pangeo team to focus their efforts on their core scientific and development missions.
+Because Pangeo&amp;rsquo;s infrastructure is already running on a fully open source stack with JupyterHub, our first step will simply be to shift control over this infrastructure to 2i2c engineers.
+We don&amp;rsquo;t anticipate needing to make major changes to their infrastructure and deployments (part of the benefits of using open, modular tools).&lt;/p>
+&lt;p>Once this is complete, we&amp;rsquo;ll next shift our attention to some new areas of development that support use-cases in the Pangeo community (and in the scientific community more broadly).
+There&amp;rsquo;s a lot of progress that we imagine making - such as
+&lt;a href="https://gallery.pangeo.io" target="_blank" rel="noopener" >supporting sharing pipelines via the Pangeo Gallery&lt;/a> or improving tools for scalable computing with
+&lt;a href="https://gateway.dask.org/" target="_blank" rel="noopener" >Dask Gateway&lt;/a>.
+We&amp;rsquo;ll provide updates as we formally begin this collaboration and hash out a plan for our next steps.&lt;/p>
+&lt;h2 id="jupyterhub-for-education---a-collaboration-with-cloudbank-and-uc-berkeley">
+JupyterHub for education - A collaboration with CloudBank and UC Berkeley
+&lt;a class="header-anchor" href="#jupyterhub-for-education---a-collaboration-with-cloudbank-and-uc-berkeley">#&lt;/a>
+&lt;/h2>&lt;p>In addition, we&amp;rsquo;ve begun a partnership with the UC Berkeley
+&lt;a href="https://data.berkeley.edu/academics/undergraduate-programs" target="_blank" rel="noopener" >Data Science in Undergraduate Studies program&lt;/a>, as well as
+&lt;a href="http://cloudbank.org/" target="_blank" rel="noopener" >CloudBank&lt;/a>.
+This collaboration aims to provide hosted JupyterHub infrastructure for community colleges across the state of California.
+It is an attempt at providing vendor-agnostic and open-source infrastructure to several institutions who would otherwise not be able to deploy this infrastructure on their own.&lt;/p>
+&lt;p>2i2c will provide the deployment and configuration architecture for this collaboration, working with
+&lt;a href="https://www.linkedin.com/in/sean-morris-5847aa2b" target="_blank" rel="noopener" >Sean Morris&lt;/a> in operating this educational infrastructure.
+All of the cloud infrastructure for this pilot will be funded via CloudBank.
+We will begin by offering environments that are modeled after
+&lt;a href="http://data8.org" target="_blank" rel="noopener" >the Data 8 course at UC Berkeley&lt;/a>.
+This is part of an effort to build a community of practice around Data Science education using open source tools.&lt;/p>
+&lt;h2 id="new-team-members">
+New team members
+&lt;a class="header-anchor" href="#new-team-members">#&lt;/a>
+&lt;/h2>&lt;p>We&amp;rsquo;ve also welcomed two new members to the 2i2c core team! 🎉&lt;/p>
+&lt;p>These individuals will both work towards
+&lt;a href="https://2i2c.org/projects/" >2i2c&amp;rsquo;s major projects&lt;/a>, and collaborate together on running our 2i2c Pilot Hub infrastructure.
+Here&amp;rsquo;s a bit about each new team member.&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="https://github.com/damianavila" target="_blank" rel="noopener" >Damián Avila&lt;/a>. Damián has been a Jupyter core team member for many years now, and has done work across many different parts of the PyData stack (in particular,
+&lt;a href="https://jupyter.org" target="_blank" rel="noopener" >Jupyter&lt;/a>,
+&lt;a href="http://bokeh.org/" target="_blank" rel="noopener" >Bokeh&lt;/a>,
+&lt;a href="https://rise.readthedocs.io/" target="_blank" rel="noopener" >RISE&lt;/a>, and
+&lt;a href="https://getnikola.com/" target="_blank" rel="noopener" >Nikola&lt;/a>). Damián will focus his efforts on supporting JupyterHub infrastructure for the
+&lt;a href="https://pangeo.io" target="_blank" rel="noopener" >Pangeo project&lt;/a>, as well as development across the
+&lt;a href="https://executablebooks.org" target="_blank" rel="noopener" >Executable Books Project&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://github.com/sgibson91" target="_blank" rel="noopener" >Sarah Gibson&lt;/a>. Sarah will join 2i2c in June, after spending several years as a Research Software Engineer at
+&lt;a href="https://www.turing.ac.uk/" target="_blank" rel="noopener" >the Turing Institute&lt;/a>. She has also been involved with
+&lt;a href="https://the-turing-way.netlify.app/welcome" target="_blank" rel="noopener" >the Turing Way&lt;/a> for many years. Sarah will focus her efforts on JupyterHub development and operations for the Pangeo community.&lt;/li>
+&lt;/ul>
+&lt;h2 id="governance-and-a-code-of-conduct">
+Governance and a code of conduct
+&lt;a class="header-anchor" href="#governance-and-a-code-of-conduct">#&lt;/a>
+&lt;/h2>&lt;p>Finally, while it&amp;rsquo;s easy to get lost in technology and collaborations, 2i2c has also made important steps towards defining a stable and transparent organizational model moving forward.
+2i2c now
+&lt;a href="https://compass.2i2c.org/about/structure.html#steering-council" target="_blank" rel="noopener" >has a Steering Council&lt;/a> and an
+&lt;a href="https://compass.2i2c.org/about/structure.html" target="_blank" rel="noopener" >early organizational structure&lt;/a>.
+In addition,
+&lt;a href="https://compass.2i2c.org/organization/strategy.html" target="_blank" rel="noopener" >we&amp;rsquo;ve defined a one-year bootstrap strategy&lt;/a> that we&amp;rsquo;ll use to guide our path in the first year of 2i2c&amp;rsquo;s existence.&lt;/p>
+&lt;p>Finally, one of the first acts of the Steering Council has been to
+&lt;a href="https://compass.2i2c.org/code-of-conduct/index.html" target="_blank" rel="noopener" >adopt a Code of Conduct&lt;/a>.
+This is a set of guidelines, and a process for resolving incidents, that makes our community more inclusive, equitable, and enjoyable for all.
+Creating a Code of Conduct is a crucial part of defining our organizational and community culture, and we&amp;rsquo;re excited to have some explicit guidelines to support our interactions in the future!&lt;/p>
+&lt;h2 id="keep-in-touch">
+Keep in touch
+&lt;a class="header-anchor" href="#keep-in-touch">#&lt;/a>
+&lt;/h2>&lt;p>Now that we are improving our organizational foundation, we will try to post more frequent updates and discussions about what we are up to.
+We hope for 2i2c to be a model organization in participatory, collaborative, transparent operations, and we look forward to working with you all in the future on this journey.&lt;/p></description></item></channel></rss>

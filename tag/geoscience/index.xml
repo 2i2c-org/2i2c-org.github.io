@@ -38,6 +38,61 @@ Acknowledgements
 &lt;a href="https://projectpythia.org/" target="_blank" rel="noopener" >Project Pythia&lt;/a> (NSF award 2324302)&lt;/li>
 &lt;li>
 &lt;a href="https://www.zonca.dev/posts/2024-12-11-jetstream_kubernetes_magnum" target="_blank" rel="noopener" >Andrea Zonca&lt;/a> for preliminary work on Kubernetes deployments on Jetstream 2&lt;/li>
+&lt;/ul></description></item><item><title>NASA VEDA &amp; 2i2c Update for Q4 2024 (Oct-Dec 2024)</title><link>https://2i2c.org/blog/2025/veda-update-q4-2024/</link><pubDate>Tue, 07 Jan 2025 15:18:37 -0800</pubDate><guid>https://2i2c.org/blog/2025/veda-update-q4-2024/</guid><description>&lt;p>A non-exhaustive list of things 2i2c and
+&lt;a href="https://developmentseed.org/" target="_blank" rel="noopener" >Development Seed&lt;/a> did with the
+&lt;a href="https://www.earthdata.nasa.gov/data/tools/veda" target="_blank" rel="noopener" >NASA VEDA&lt;/a> project last quarter!&lt;/p>
+&lt;h2 id="automated-backups-and-alerting-with-jupyterhub-home-nfs">
+Automated backups and alerting with &lt;code>jupyterhub-home-nfs&lt;/code>
+&lt;a class="header-anchor" href="#automated-backups-and-alerting-with-jupyterhub-home-nfs">#&lt;/a>
+&lt;/h2>&lt;p>
+&lt;a href="https://github.com/NASA-IMPACT/veda-jupyterhub/issues/56" target="_blank" rel="noopener" >Tracking Issue&lt;/a>&lt;/p>
+&lt;p>
+&lt;a href="https://github.com/2i2c-org/jupyterhub-home-nfs/" target="_blank" rel="noopener" >jupyterhub-home-nfs&lt;/a> is a young project to provide flexible per-user home directory limits on JupyterHub - an important feature for controlling cloud costs.
+&lt;a href="https://sunu.in/" target="_blank" rel="noopener" >Tarashish Mishra&lt;/a> and
+&lt;a href="https://sgibson91.github.io/cv/" target="_blank" rel="noopener" >Sarah Gibson&lt;/a> have been leading this project for the last few months. Since we are moving away from
+&lt;a href="https://aws.amazon.com/efs/" target="_blank" rel="noopener" >AWS Managed EFS&lt;/a> here, we had to do some work to recreate some of the benefits EFS gives us out of the box. During this quarter, we:&lt;/p>
+&lt;ol>
+&lt;li>Set up automated backups so we can recover files in cases of disaster&lt;/li>
+&lt;li>Set up automated alerting (via prometheus and pagerduty) to know if our backing EBS device is getting full and we need to perform a manual intervention&lt;/li>
+&lt;li>Deployed this to a few other communities (
+&lt;a href="https://www.cryocloud.io/" target="_blank" rel="noopener" >CryoCloud&lt;/a> and
+&lt;a href="https://nmfs-openscapes.github.io/" target="_blank" rel="noopener" >NMFS Openscapes&lt;/a>) to broaden adoption.&lt;/li>
+&lt;/ol>
+&lt;p>We will continue doing work on &lt;code>jupyterhub-home-nfs&lt;/code> in the upcoming quarter! If this is functionality you are interested in deploying, please reach out to us to collaborate!&lt;/p>
+&lt;h2 id="enable-users-to-dynamically-build-environments-with-jupyterhub-fancy-profiles">
+Enable users to dynamically build environments with &lt;code>jupyterhub-fancy-profiles&lt;/code>
+&lt;a class="header-anchor" href="#enable-users-to-dynamically-build-environments-with-jupyterhub-fancy-profiles">#&lt;/a>
+&lt;/h2>&lt;p>
+&lt;a href="https://github.com/NASA-IMPACT/veda-jupyterhub/issues/58" target="_blank" rel="noopener" >Tracking Issue&lt;/a>&lt;/p>
+&lt;p>We covered this more extensively in
+&lt;a href="https://2i2c.org/blog/2024/jupyterhub-fancy-profiles-rollout/" target="_blank" rel="noopener" >another blog post&lt;/a>, so go read that!&lt;/p>
+&lt;p>This work in particular is a good demonstrator of 2i2c&amp;rsquo;s value - it started off with a
+&lt;a href="https://2i2c.org/blog/2024/jupyterhub-binderhub-gesis/" target="_blank" rel="noopener" >grant from GESIS&lt;/a>, and now with support from
+&lt;a href="https://impact.earthdata.nasa.gov/" target="_blank" rel="noopener" >NASA IMPACT&lt;/a> we are able to bring it to a &lt;em>lot&lt;/em> of communities, not just the ones that funded it.&lt;/p>
+&lt;p>Ongoing work here will focus on improving the UX as well as better documentation so users can actually use it!&lt;/p>
+&lt;h2 id="open-in-qgis-from-veda-ui">
+&amp;ldquo;Open in QGIS&amp;rdquo; from VEDA UI
+&lt;a class="header-anchor" href="#open-in-qgis-from-veda-ui">#&lt;/a>
+&lt;/h2>&lt;p>
+&lt;a href="https://github.com/NASA-IMPACT/veda-jupyterhub/issues/59" target="_blank" rel="noopener" >Tracking Issue&lt;/a>&lt;/p>
+&lt;p>We had worked in the past with many communities in enabling
+&lt;a href="https://2i2c.org/blog/2023/qgis-greenland/" target="_blank" rel="noopener" >QGIS on the Cloud&lt;/a>, and this quarter we got closer to enabling a contextual &amp;lsquo;Open in QGIS&amp;rsquo; button in the
+&lt;a href="https://www.earthdata.nasa.gov/dashboard/" target="_blank" rel="noopener" >VEDA Dashboard&lt;/a>! Here is a quick demo:&lt;/p>
+&lt;p>&lt;video src="./open-in-qgis.mp4" muted controls>&lt;/video>&lt;/p>
+&lt;p>(This shows the workflow when user is already logged into the JupyterHub and had started the server)&lt;/p>
+&lt;p>You can play with this in
+&lt;a href="https://deploy-preview-688--ghg-demo.netlify.app/exploration" target="_blank" rel="noopener" >this preview&lt;/a>, although you need to have access to the NASA VEDA hub to fully try it out at this point.&lt;/p>
+&lt;p>Tarashish from Development Seed is again responsible for most of the work here, available in
+&lt;a href="https://github.com/sunu/jupyter-remote-qgis-proxy" target="_blank" rel="noopener" >jupyter-remote-qgis-proxy&lt;/a>. You can use it to create &amp;lsquo;magic links&amp;rsquo; that will open QGIS in a desktop environment in your browser, and add a specific layer to it! Our hope is that this allows primarily GIS folks to better use tools they already are familiar with in cloud based contexts.&lt;/p>
+&lt;h2 id="other-updates">
+Other updates
+&lt;a class="header-anchor" href="#other-updates">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>We participated heavily in an evaluation process for the authentication and authorization solution to be used across NASA VEDA!
+&lt;a href="https://github.com/NASA-IMPACT/veda-jupyterhub/issues/57" target="_blank" rel="noopener" >Tracking Issue&lt;/a>&lt;/li>
+&lt;li>We are very close to
+&lt;a href="https://github.com/2i2c-org/infrastructure/issues/5209" target="_blank" rel="noopener" >rolling out JupyterHub 5.0&lt;/a> and associated changes across all our hubs, which will enable us to eventually offer per-group shared directories!
+&lt;a href="https://github.com/NASA-IMPACT/veda-jupyterhub/issues/61" target="_blank" rel="noopener" >Tracking Issue&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>2i2c communities at AGU 2024</title><link>https://2i2c.org/blog/2024/agu/</link><pubDate>Mon, 09 Dec 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/agu/</guid><description>&lt;p>We are proud to share that several of 2i2c&amp;rsquo;s community partners are presenting their work at AGU 2024! In each case, 2i2c&amp;rsquo;s infrastructure plays a part in helping communities create and share knowledge, and grow their community. As an organization rooted in community-centric practices, we are particularly excited to see 2i2c represented &amp;ldquo;indirectly&amp;rdquo; at this conference, and to see ourselves as a supporting role enabling the impact of others.&lt;/p>
 &lt;p>Here&amp;rsquo;s a summary and links to all of the sessions. See below for a brief overview of seach one.&lt;/p>
 &lt;ul>
