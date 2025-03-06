@@ -1,11 +1,13 @@
 ---
 title: Keeping PACE with GPU enabled compute to detect global cloud cover using satellite data
-date: "2024-08-12"
-banner:
-  image: "featured.png"
-authors: ["Jenny Wong"]
-tags: [geoscience, education]
-categories: [impact]
+date: 2024-08-12
+authors:
+  - Jenny Wong
+tags:
+  - geoscience
+  - education
+categories:
+  - impact
 featured: false
 draft: false
 ---

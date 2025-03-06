@@ -2,10 +2,13 @@
 title: "Digital public goods for Earth system management: U.S. Greenhouse Gas Center launches"
 subtitle: ""
 summary: ""
-authors: ["James Colliander"]
-tags: ["geoscience"]
-categories: ["impact"]
-date: "2023-12-05"
+authors:
+  - James Colliander
+tags:
+  - geoscience
+categories:
+  - impact
+date: 2023-12-05
 featured: false
 draft: false
 ---

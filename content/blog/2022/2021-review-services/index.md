@@ -2,9 +2,12 @@
 title: "2i2c’s first year, part 1: exploring Jupyter services."
 subtitle: ""
 summary: ""
-authors: ["Chris Holdgraf"]
-tags: []
-categories: [organization]
+authors:
+  - Chris Holdgraf
+tags:
+  - report
+categories:
+  - organization
 date: 2022-01-25
 featured: false
 draft: false

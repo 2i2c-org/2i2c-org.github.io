@@ -1,9 +1,14 @@
 ---
 title: Collaborating with Development Seed to deliver cyberinfrastructure for NASA VEDA
-date: "2024-07-12"
-authors: ["Yuvi Panda", "Jenny Wong"]
-tags: [geoscience, open source]
-categories: [impact]
+date: 2024-07-12
+authors:
+  - Yuvi Panda
+  - Jenny Wong
+tags:
+  - geoscience
+  - open source
+categories:
+  - impact
 featured: false
 draft: false
 ---

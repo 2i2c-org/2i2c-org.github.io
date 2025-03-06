@@ -1,11 +1,13 @@
 ---
 title: Ephemeral Interactive Computing for NASA Communities
-date: "2024-06-27"
-banner:
-  image: "featured.png"
-authors: ["Jenny Wong"]
-tags: [geoscience, education]
-categories: [impact]
+date: 2024-06-27
+authors:
+  - Jenny Wong
+tags:
+  - geoscience
+  - education
+categories:
+  - impact
 featured: false
 draft: false
 ---
