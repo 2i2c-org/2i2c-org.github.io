@@ -2,9 +2,12 @@
 title: "Open organizational report: Strengths and challenges for 2i2c's team"
 subtitle: ""
 summary: ""
-authors: ["Chris Holdgraf"]
-tags: []
-categories: [organization]
+authors:
+  - Chris Holdgraf
+tags:
+  - report
+categories:
+  - organization
 date: 2023-11-08
 featured: false
 draft: false

@@ -1,11 +1,12 @@
 ---
 title: Low storage alerting for the UToronto cluster
-date: "2024-06-14"
-banner:
-  image: "cover.png"
-authors: ["Jenny Wong"]
-tags: [education]
-categories: [impact]
+date: 2024-06-14
+authors:
+  - Jenny Wong
+tags:
+  - education
+categories:
+  - service
 featured: false
 draft: false
 ---

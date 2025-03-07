@@ -1,9 +1,13 @@
 ---
 title: Neurohackademy Summer School in Neuroimaging and Data Science 2024
-date: "2024-06-21"
-authors: ["Jenny Wong"]
-tags: [bioscience, education]
-categories: [impact]
+date: 2024-06-21
+authors:
+  - Jenny Wong
+tags:
+  - bioscience
+  - education
+categories:
+  - impact
 featured: false
 draft: false
 ---

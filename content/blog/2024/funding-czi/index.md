@@ -1,9 +1,12 @@
 ---
 title: Support from CZI to sustain 2i2c's mission to help communities create and share knowledge with open infrastructure
-date: "2024-10-13"
-authors: ["Chris Holdgraf"]
-tags: [funding]
-categories: [organization]
+date: 2024-10-13
+authors:
+  - Chris Holdgraf
+tags:
+  - funding
+categories:
+  - organization
 featured: false
 draft: false
 ---

@@ -1,9 +1,15 @@
 ---
 title: NeuroHackademy Summer School Reflections
-date: "2024-08-19"
-authors: ["Ariel Rokem", "Noah Benson", "Jenny Wong"]
-tags: [bioscience, education]
-categories: [impact]
+date: 2024-08-19
+authors:
+  - Ariel Rokem
+  - Noah Benson
+  - Jenny Wong
+tags:
+  - bioscience
+  - education
+categories:
+  - impact
 featured: false
 draft: false
 ---

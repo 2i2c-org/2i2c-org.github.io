@@ -1,11 +1,13 @@
 ---
 title: Ephemeral Interactive Computing for the AmeriGEO Workshop
-date: "2024-08-05"
-banner:
-  image: "featured.png"
-authors: ["James Munroe, Jenny Wong"]
-tags: [geoscience, education]
-categories: [impact]
+date: 2024-08-05
+authors:
+  - James Munroe, Jenny Wong
+tags:
+  - geoscience
+  - education
+categories:
+  - impact
 featured: false
 draft: false
 ---

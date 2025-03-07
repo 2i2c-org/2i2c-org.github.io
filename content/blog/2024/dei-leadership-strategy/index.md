@@ -1,9 +1,13 @@
 ---
 title: We need to improve the diversity of our leadership
-date: "2024-06-28"
-authors: ["Chris Holdgraf", "Jenny Wong"]
-tags: [culture]
-categories: [organization]
+date: 2024-06-28
+authors:
+  - Chris Holdgraf
+  - Jenny Wong
+tags:
+  - culture
+categories:
+  - organization
 featured: false
 draft: false
 ---
