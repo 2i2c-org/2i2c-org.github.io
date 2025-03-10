@@ -2,7 +2,7 @@
 title: "Chris is joining Project Jupyter's Executive Council"
 subtitle: ""
 authors: ["Chris Holdgraf"]
-tags: ["jupyter", "community"]
+tags: ["open source", "jupyter", "community"]
 categories: ["impact"]
 date: "2025-03-10"
 featured: false
