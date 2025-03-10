@@ -31,9 +31,6 @@ social:
 - icon: envelope
   icon_pack: fas
   link: 'mailto:jwong@2i2c.org'
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/_jennywong_
 - icon: github
   icon_pack: fab
   link: https://github.com/jnywong
