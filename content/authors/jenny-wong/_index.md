@@ -10,7 +10,7 @@ authors:
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: Product Manager
+role: Open Source Applications Engineer
 
 # Organizations/Affiliations
 organizations:
@@ -31,9 +31,6 @@ social:
 - icon: envelope
   icon_pack: fas
   link: 'mailto:jwong@2i2c.org'
-- icon: twitter
-  icon_pack: fab
-  link: https://twitter.com/_jennywong_
 - icon: github
   icon_pack: fab
   link: https://github.com/jnywong
@@ -50,7 +47,7 @@ user_groups:
 - Product and Services Team
 ---
 
-Jenny is a Product Manager focused on Platform and Services for 2i2c. Her work has included the CZI-funded Catalyst Project, an initiative aiming to provide research communities in Latin America and Africa with access to large-scale scientific infrastructure. She's built community-based training materials for interactive cloud-native workflows. Jenny is responsible for direct community engagement to ensure the alignment of Product and Services value streams to the needs of the communities we serve. 
+Jenny is an Open Source Applications Engineer focused on delivering the Platform and Services roadmap for 2i2c. Her previous work has included the CZI-funded Catalyst Project, an initiative aiming to provide research communities in Latin America and Africa with access to large-scale scientific infrastructure. She's built community-based training materials for interactive cloud-native workflows. Jenny is responsible for building user-centered open source applications that ensure the alignment of Product and Services value streams to the needs of the communities we serve.
 
 As a former research software engineer, Jenny has considerable experience supporting researchers with writing documentation, creating video tutorials, and designing and delivering training for advanced research computing. Jenny is also a qualified Software Carpentries Instructor.
 
