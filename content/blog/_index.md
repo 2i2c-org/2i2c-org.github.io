@@ -7,7 +7,7 @@ sections:
     content:
       title: Recent Posts
       subtitle: "[Organization Updates](/categories/organization) | [Service Updates](/categories/service) | [Community Impact](/categories/impact)"
-      count: 5
+      count: 10
       filters:
         folders:
           - blog
@@ -22,7 +22,11 @@ sections:
       offset: 0
       sort_by: Date
       sort_ascending: false
+      archive:
+        enable: true
+        text: See older blog posts
+        link: blog/page/2
     design:
       view: compact
-      columns: "1"
+      columns: "1"  
 ---
