@@ -10,7 +10,7 @@ draft: false
 ---
 *Thank you to Emilio Mayorga for sharing this publication.* 
 
-Several community members, including Paige Martin (Australian Climate Simulator), Eli Holmes (NOAA Fisheries), and Emilio Mayorga (University of Washington) published case studies in [Oceanography magazine's "Vision for Capacity Sharing" issue](https://tos.org/oceanography/issue/volume-38-issue-1).
+Several community members, including [Paige Martin](https://github.com/paigem) (Australian Climate Simulator), [Eli Holmes](https://github.com/eeholmes) (NOAA Fisheries), and [Emilio Mayorga](https://github.com/emiliom/) (University of Washington) published case studies in [Oceanography magazine's "Vision for Capacity Sharing" issue](https://tos.org/oceanography/issue/volume-38-issue-1).
 
 Their article [Harnessing Marine Open Data Science for Ocean Sustainability in Africa, South Asia, and Latin America](https://tos.org/oceanography/article/harnessing-marine-open-data-science-for-ocean-sustainability-in-africa-south-asia-and-latin-america) highlights the benefits of hackweek-style collaboration and learning events to build capacity in underrepresented communities, using 2i2c-supported JupyterHub for seamless set up and effective data sharing.  
 
