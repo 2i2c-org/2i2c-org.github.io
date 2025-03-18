@@ -48,7 +48,9 @@ For instructions on how to export data from the dashboard, please see our [Servi
 
 ## Next steps
 
-We would love to know whether this feature is useful and how it can be improved. We will be contacting individual communities to share their feedback with us – please share your thoughts with us!
+We would love to know whether this feature is useful and how it can be improved. Please share your feedback with us by filling in this survey!
+
+{{< cta cta_text="🫴 Give us feedback!" cta_link="https://airtable.com/apptR4AXWIFNGkZMz/pagt5hK9UfWQt9U12/form" cta_new_tab="false" >}}
 
 We will work on rolling out this service to GCP hosted clusters in future. Stay tuned to know when this feature is available to your community.
 
