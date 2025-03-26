@@ -8,6 +8,7 @@ title = "Our organization and team"
   columns = "1"
 +++
 
+2i2c stands for **the International Interactive Computing Collaboration**.
 We are a non-profit, fiscally-sponsored project of [Code for Science and Society](https://codeforscience.org), a US 501(c)(3) public charity.
 
 We are a distributed team spread across South America, Western and Eastern Europe, and North America. We have a combination of experience in cloud engineering and open source, research and education, and open communities. Our Steering Council provides strategic guidance and oversight to our team.
