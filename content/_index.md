@@ -47,7 +47,7 @@ sections:
 
         {{< servicetech >}}
 
-        2i2c's [community hub platform and consultancy services](/platform) ensure your community makes the best use of open infrastructure for interactive computing in the cloud.
+        2i2c stands for **the International Interactive Computing Collaboration**. Our [community hub platform and consultancy services](/platform) ensure your community makes the best use of open infrastructure for interactive computing in the cloud.
 
         We serve **over 90 communities across the globe** with **over 7000 active users** dedicated to creating and sharing knowledge. See [our community impact stories](/communities) for inspiration.
 
