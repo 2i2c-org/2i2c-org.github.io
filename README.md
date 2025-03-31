@@ -17,6 +17,30 @@ See [the Team Compass blog documentation](https://compass.2i2c.org/communication
 
 This theme will automatically shorten GitHub links and add a little GitHub icon to the front. For example, see the [Jack Eddy Symposium blog post](https://2i2c.org/blog/2022/eddy-symposium-report/).
 
+### How to add an external blog post
+
+We can link to blog posts that were written by the 2i2c team but published in other locations. These show up in our blog roll but are just pointers to other websites.
+
+To add an external blog post to our blog, create a blog post with an `external_link:` metadata field like, and a body that _summarizes_ the post. For example:
+
+```
+---
+title: "An external post title"
+date: 2025-03-03
+external_link: https://your-post-url.org
+tags:
+  - upstream
+  - open source
+categories:
+  - impact
+---
+
+This content will be displayed as a summary of the post in the blog landing page.
+```
+
+Note that all other metadata fields are the same as any other blog post.
+See [this blog post as an example](content/blog/2025/binder-buildkit/index.md).
+
 ### Broken link checking
 
 We have [a GitHub workflow to check for broken links](.github/workflows/linkcheck.yml).
