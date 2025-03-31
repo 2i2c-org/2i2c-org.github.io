@@ -1,9 +1,14 @@
 ---
 title: "Open infrastructure for collaborative geoscience with Project Pythia: Learning how to deploy a BinderHub on Jetstream2"
-date: "2025-02-12"
-authors: ["Georgiana Dolocan", "James Munroe"]
-tags: [open source, geoscience]
-categories: [impact]
+date: 2025-02-12
+authors:
+  - Georgiana Dolocan
+  - James Munroe
+tags:
+  - open source
+  - geoscience
+categories:
+  - service
 featured: false
 draft: false
 ---
