@@ -1,6 +1,6 @@
 ---
 # Display name
-title: "Yuvi Panda"
+title: "Yuvaraj (Yuvi)"
 
 # Username (this should match the folder name and the name on publications)
 authors:
