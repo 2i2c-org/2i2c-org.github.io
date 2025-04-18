@@ -1,4 +1,76 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Service | 2i2c</title><link>https://2i2c.org/category/service/</link><atom:link href="https://2i2c.org/category/service/index.xml" rel="self" type="application/rss+xml"/><description>Service</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 25 Feb 2025 14:18:04 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Service</title><link>https://2i2c.org/category/service/</link></image><item><title>Enforcing per-user storage quotas now available on GCP</title><link>https://2i2c.org/blog/2025/per-user-storage-quota-gcp/</link><pubDate>Tue, 25 Feb 2025 14:18:04 +0000</pubDate><guid>https://2i2c.org/blog/2025/per-user-storage-quota-gcp/</guid><description>&lt;p>Building upon our previous work developing
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Service | 2i2c</title><link>https://2i2c.org/category/service/</link><atom:link href="https://2i2c.org/category/service/index.xml" rel="self" type="application/rss+xml"/><description>Service</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 16 Apr 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Service</title><link>https://2i2c.org/category/service/</link></image><item><title>Our product highlights from Q2 2025</title><link>https://2i2c.org/blog/2025/q1-product-highlights/</link><pubDate>Wed, 16 Apr 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/q1-product-highlights/</guid><description>&lt;p>&lt;em>These describe the major service improvements that we rolled out in Q1 2025. See this
+&lt;a href="https://2i2c.org/blog/2025/q1-product-goals/" >blog post describing our product enhancement goals in Q1 2025&lt;/a> for the targets we intended to hit this quarter. Below is a brief description of what we accomplished.&lt;/em>&lt;/p>
+&lt;h2 id="user-storage-quotas">
+User storage quotas
+&lt;a class="header-anchor" href="#user-storage-quotas">#&lt;/a>
+&lt;/h2>&lt;p>A key part of 2i2c’s service is &lt;strong>making the cloud safe to try&lt;/strong>. One of the biggest concerns from our communities is that their cloud costs will be unexpectedly high. This quarter we decided to make cloud storage a bit safer. Storage can get expensive, especially when a user accidentally downloads a particularly large file - they may not even realize that doing so incurs an extra cost. For this reason, we added the ability to limit user storage on JupyterHubs:&lt;/p>
+&lt;p>
+&lt;a href="https://2i2c.org/blog/2025/per-user-storage-quota/" target="_blank" rel="noopener" >Enforcing per-user storage quotas with &lt;code>jupyterhub-home-nfs&lt;/code>&lt;/a>&lt;/p>
+&lt;p>We initially deployed this feature on our AWS hubs, and followed up by deploying it on GCP hubs as well. Any community with a hub on AWS and GCP now has the ability to limit the storage that their users receive, greatly increasing our communities’ control over their costs.&lt;/p>
+&lt;p>
+&lt;a href="https://2i2c.org/blog/2025/per-user-storage-quota-gcp/" target="_blank" rel="noopener" >Enforcing per-user storage quotas now available on GCP&lt;/a>&lt;/p>
+&lt;p>&lt;em>&lt;strong>Thanks to&lt;/strong>
+&lt;a href="https://developmentseed.org/" target="_blank" rel="noopener" >DevSeed&lt;/a> for collaboration on this work, in addition to the
+&lt;a href="https://www.earthdata.nasa.gov/data/tools/veda" target="_blank" rel="noopener" >NASA VEDA project&lt;/a> for funding this effort.&lt;/em>&lt;/p>
+&lt;h2 id="automated-backups-for-gcp-hubs">
+Automated backups for GCP hubs
+&lt;a class="header-anchor" href="#automated-backups-for-gcp-hubs">#&lt;/a>
+&lt;/h2>&lt;p>Another concern communities have is “what happens if something breaks and I lose data?” Cloud providers offer a number of ways to recover from disasters like this, and we did some work enabling this for GCP so that communities have disaster recovery options available to them.&lt;/p>
+&lt;p>
+&lt;a href="https://2i2c.org/blog/2025/gcp-filestore-backups/" target="_blank" rel="noopener" >Announcing backups for GCP-hosted hubs!&lt;/a>&lt;/p>
+&lt;h2 id="deploying-jupyterhub-on-public-infrastructure">
+Deploying JupyterHub on public infrastructure
+&lt;a class="header-anchor" href="#deploying-jupyterhub-on-public-infrastructure">#&lt;/a>
+&lt;/h2>&lt;p>Deploying Kubernetes and JupyterHub on publicly-managed infrastructure could be an excellent way to reduce the perceived risk of depending on large tech companies for their key workflows, and potentially reduce costs by using federal infrastructure that can be paid with special grant funding. We built team expertise in deploying and running JupyterHub and BinderHub on JetStream2, and have promising results that we hope to build upon in Q2.&lt;/p>
+&lt;p>
+&lt;a href="https://2i2c.org/blog/2025/jetstream-binderhub/" target="_blank" rel="noopener" >Open infrastructure for collaborative geoscience with Project Pythia: Learning how to deploy a BinderHub on Jetstream2&lt;/a>&lt;/p>
+&lt;p>&lt;em>&lt;strong>Thanks to&lt;/strong>
+&lt;a href="https://jetstream-cloud.org/" target="_blank" rel="noopener" >Jetstream2&lt;/a> for an ACCESS allocation, to Julian Pistorius for technical support, to
+&lt;a href="https://projectpythia.org/" target="_blank" rel="noopener" >Project Pythia&lt;/a> (NSF award 2324302) for funding this work, and to
+&lt;a href="https://www.zonca.dev/posts/2024-12-11-jetstream_kubernetes_magnum" target="_blank" rel="noopener" >Andrea Zonca&lt;/a> for preliminary work on Kubernetes deployments on Jetstream 2.&lt;/em>&lt;/p>
+&lt;h2 id="upgrading-to-the-latest-jupyterhub-version">
+Upgrading to the latest JupyterHub version
+&lt;a class="header-anchor" href="#upgrading-to-the-latest-jupyterhub-version">#&lt;/a>
+&lt;/h2>&lt;p>We upgraded all of 2i2c’s community hubs to use JupyterHub 5.0. This brings in a bunch of security improvements, bugfixes, and enhancements. You can find links to the highlights and changelog in our blog post below.&lt;/p>
+&lt;p>
+&lt;a href="https://2i2c.org/blog/2025/jupyterhub5-upgrade/" target="_blank" rel="noopener" >2i2c hubs now run JupyterHub 5.0&lt;/a>&lt;/p>
+&lt;h2 id="reproducible-environments-for-community-members">
+Reproducible environments for community members
+&lt;a class="header-anchor" href="#reproducible-environments-for-community-members">#&lt;/a>
+&lt;/h2>&lt;p>Finally, we did a bit of product brainstorming around enabling communities to bring their environments with them when they publish. We are interested in making it easy to re-use a community’s hub infrastructure to provide the reproducible environments needed for publishing or communicating their work externally. Here’s a brief brainstorm for what this could look like:&lt;/p>
+&lt;p>
+&lt;a href="https://2i2c.org/blog/2025/frictionless-reproducibility/" target="_blank" rel="noopener" >Towards frictionless, portable, and sustainable reproducibility with Binder&lt;/a>&lt;/p>
+&lt;h2 id="improving-the-ux-and-flexibility-of-community-documentation-with-myst">
+Improving the UX and flexibility of community documentation with MyST
+&lt;a class="header-anchor" href="#improving-the-ux-and-flexibility-of-community-documentation-with-myst">#&lt;/a>
+&lt;/h2>&lt;p>To provide our communities with quality documentation that sits alongside their Hubs, we have been working on improving MyST to allow for a more flexible and usable document authoring experience, with improvements to landing page layouts, theming, galleries, button layouts, and project launching. We’re aiming to deliver a complete MVP covering our communities’ most requested features by the end of Q2.&lt;/p>
+&lt;h2 id="in-case-you-missed-it">
+In case you missed it
+&lt;a class="header-anchor" href="#in-case-you-missed-it">#&lt;/a>
+&lt;/h2>&lt;p>Finally, below are a few other blog posts where we’ve documented major impact stories and organizational updates:&lt;/p>
+&lt;p>&lt;strong>Community impact&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="https://2i2c.org/blog/2025/hackweek-shoutout/" target="_blank" rel="noopener" >Harnessing Marine Open Data Science for Ocean Sustainability in Africa, South Asia and Latin America&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://2i2c.org/blog/2025/veda-update-q4-2024/" target="_blank" rel="noopener" >NASA VEDA &amp;amp; 2i2c Update for Q4 2024 (Oct-Dec 2024)&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Open Source impact&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="https://2i2c.org/blog/2025/jupyter-executive-council/" target="_blank" rel="noopener" >Chris is joining Project Jupyter&amp;rsquo;s Executive Council&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://blog.jupyter.org/simplifying-and-speeding-up-binder-builds-with-buildkit-d44f96582994" target="_blank" rel="noopener" >Simplifying and speeding up Binder builds with BuildKit&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://2i2c.org/blog/2025/binder-singlenode/" target="_blank" rel="noopener" >2i2c joins the mybinder.org federation with a cheaper and faster way to deploy Binderhub&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://2i2c.org/blog/2025/jupyter-book-cors/" target="_blank" rel="noopener" >Designing for an ecosystem: a case study in cross-project open source contribution&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>Organizational updates&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="https://2i2c.org/blog/2025/community-ownership/" target="_blank" rel="noopener" >Announcing our formal commitment to open technology&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Enforcing per-user storage quotas now available on GCP</title><link>https://2i2c.org/blog/2025/per-user-storage-quota-gcp/</link><pubDate>Tue, 25 Feb 2025 14:18:04 +0000</pubDate><guid>https://2i2c.org/blog/2025/per-user-storage-quota-gcp/</guid><description>&lt;p>Building upon our previous work developing
 &lt;a href="https://2i2c.org/blog/2025/per-user-storage-quota/" target="_blank" rel="noopener" >per-user storage quotas for our AWS infrastructure&lt;/a>, we are pleased to announce that this feature is now available for GCP-hosted hubs!&lt;/p>
 &lt;p>To provide this feature on this vendor, we have updated our infrastructure provisioning system to create persistent disks, and enable automatic backups of the disk for disaster recovery purposes. However, the systems we had already developed for AWS, such as
 &lt;a href="https://github.com/2i2c-org/jupyterhub-home-nfs" target="_blank" rel="noopener" >&lt;code>jupyterhub-home-nfs&lt;/code>&lt;/a> and our alerting system through
