@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: Executive Director / Co-lead of Business Development
+role: Executive Director
 
 # Organizations/Affiliations
 organizations:

@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: Senior Account Executive / Co-lead of Business Development
+role: Business Development Lead
 
 # Organizations/Affiliations
 organizations:
