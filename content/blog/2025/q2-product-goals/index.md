@@ -5,9 +5,9 @@ categories: [organization]
 date: 2025-04-16
 ---
 
-As we head into Q2 of 2025, we continue to focus our work on delivering to a small set of core themes we feel reflect our communities’ most pressing needs. As a part of this process, we want to continue sharing our platform and service goals in an effort to remain transparent, as well as to provide our communities with an opportunity to give us feedback on our direction, and on what’s important for them. *See [last quarter’s product goals here](https://2i2c.org/blog/2025/q1-product-goals/).*
+_As we head into Q2 of 2025, we continue to focus our work delivering on a small set of core themes that reflect our communities’ most pressing needs. As a part of this process, we want to continue sharing our platform and service goals in an effort to remain transparent, as well as to provide our communities with an opportunity to give us feedback on our direction, and on what’s important for them. See [last quarter’s product goals here](../q1-product-goals/index.md)._
 
-The following themes are not guarantees, but should provide a high level view on how we plan to improve our product and services offerings in the next quarter. **If your organization has funding available to support any of the enhancements below, reach out to us and we can discuss how you can help shape our priorities and outcomes**.
+The following themes are not guarantees, but should provide a high level view on how we plan to improve our product and services offerings in the next quarter. **If your organization has funding available to support any of the enhancements below, [reach out to us](mailto:hello@2i2c.org) and we can discuss how you can shape our priorities and outcomes**.
 
 ## Give administrators more control
 
@@ -23,7 +23,7 @@ In Q2, we aim to improve the ability for hub users to **build custom environment
 
 ## Out-of-the-box Jupyter Book support
 
-We have been working on scoping and building a default JupyterBook implementation [using the new MyST document engine](http://mystmd.org), aiming to deliver a default set of tools for **authoring and sharing documentation**, **customizable landing pages** and **interactive training materials** right out of the box with new hub deployments. 
+We have been working on scoping and building a default JupyterBook implementation [using the new MyST document engine](http://mystmd.org), aiming to deliver a default set of tools for **authoring and sharing documentation**, **customizable landing pages** and **interactive training materials** out of the box with new hub deployments. 
 
 In Q1 we delivered improvements to the JupyterBook launching interface to allow for **automatic hub type detection**, as well as **landing page components, theming capabilities, galleries and more**. We aim to complete this work in Q2.
 
@@ -31,7 +31,7 @@ In Q1 we delivered improvements to the JupyterBook launching interface to allow 
 
 As more communities in the research and education space join the 2i2c community network, it’s important for us to be ready to deliver the best value we can for them at scale. To that end, we’re **streamlining the processes we use to onboard our communities**, improving the touchpoints through which we engage with them when they join our community network, and ensuring we create opportunities to better understand their needs in order to set them up for success with their hubs right from the start.
 
-## Improve the way we deliver services to our communities
+## Improve and formalize the services we deliver to our communities
 
 Together with an improved onboarding experience, we aim to improve how we deliver other key services to our communities, including **expert consulting, hub management, and technical support**, with the aim to offer more scalable, high-value services to address the needs of our communities in a sustainable way. 
 

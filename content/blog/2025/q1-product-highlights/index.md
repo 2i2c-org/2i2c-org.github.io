@@ -1,29 +1,29 @@
 ---
-title: "Product highlights \- Q2 2025"
+title: "Our product highlights from Q2 2025"
 authors: ["Chris Holdgraf", "Giuliano Maccioci"]
 categories: [service]
 date: 2025-04-16
 ---
 
-These describe the major service improvements that we rolled out in Q1 2025\. See this [blog post describing our product enhancement goals in Q1 2025](https://2i2c.org/blog/2025/q1-product-goals/) for the targets we intended to hit this quarter. Below is a brief description of what we accomplished.
+_These describe the major service improvements that we rolled out in Q1 2025. See this [blog post describing our product enhancement goals in Q1 2025](../q1-product-goals/index.md) for the targets we intended to hit this quarter. Below is a brief description of what we accomplished._
 
-## User storage quotas*
+## User storage quotas
 
-A key part of 2i2c’s service is **making the cloud safe to try**. One of the biggest concerns from our communities is that their cloud costs will be unexpectedly high. This quarter we decided to make cloud storage a bit safer. Storage can get expensive, especially when a user accidentally downloads a particularly large file \- they may not even realize that doing so incurs an extra cost. For this reason, we added the ability to limit user storage on JupyterHubs:
+A key part of 2i2c’s service is **making the cloud safe to try**. One of the biggest concerns from our communities is that their cloud costs will be unexpectedly high. This quarter we decided to make cloud storage a bit safer. Storage can get expensive, especially when a user accidentally downloads a particularly large file - they may not even realize that doing so incurs an extra cost. For this reason, we added the ability to limit user storage on JupyterHubs:
 
-[Enforcing per-user storage quotas with \`jupyterhub-home-nfs\`](https://2i2c.org/blog/2025/per-user-storage-quota/)
+[Enforcing per-user storage quotas with `jupyterhub-home-nfs`](https://2i2c.org/blog/2025/per-user-storage-quota/)
 
 We initially deployed this feature on our AWS hubs, and followed up by deploying it on GCP hubs as well. Any community with a hub on AWS and GCP now has the ability to limit the storage that their users receive, greatly increasing our communities’ control over their costs.  
    
 [Enforcing per-user storage quotas now available on GCP](https://2i2c.org/blog/2025/per-user-storage-quota-gcp/)
 
-***Thanks to** [DevSeed](https://developmentseed.org/) for collaboration on this work, in addition to the [NASA VEDA project](https://www.earthdata.nasa.gov/data/tools/veda) for funding this effort.*
+_**Thanks to** [DevSeed](https://developmentseed.org/) for collaboration on this work, in addition to the [NASA VEDA project](https://www.earthdata.nasa.gov/data/tools/veda) for funding this effort._
 
 ## Automated backups for GCP hubs
 
 Another concern communities have is “what happens if something breaks and I lose data?” Cloud providers offer a number of ways to recover from disasters like this, and we did some work enabling this for GCP so that communities have disaster recovery options available to them.
 
-[Announcing backups for GCP-hosted hubs\!](https://2i2c.org/blog/2025/gcp-filestore-backups/)
+[Announcing backups for GCP-hosted hubs!](https://2i2c.org/blog/2025/gcp-filestore-backups/)
 
 ## Deploying JupyterHub on public infrastructure
 
@@ -31,9 +31,9 @@ Deploying Kubernetes and JupyterHub on publicly-managed infrastructure could be 
 
 [Open infrastructure for collaborative geoscience with Project Pythia: Learning how to deploy a BinderHub on Jetstream2](https://2i2c.org/blog/2025/jetstream-binderhub/)
 
-***Thanks to** [Jetstream2](https://jetstream-cloud.org/) for an ACCESS allocation, to Julian Pistorius for technical support, to [Project Pythia](https://projectpythia.org/) (NSF award 2324302\) for funding this work, and to [Andrea Zonca](https://www.zonca.dev/posts/2024-12-11-jetstream_kubernetes_magnum) for preliminary work on Kubernetes deployments on Jetstream 2\.*
+_**Thanks to** [Jetstream2](https://jetstream-cloud.org/) for an ACCESS allocation, to Julian Pistorius for technical support, to [Project Pythia](https://projectpythia.org/) (NSF award 2324302) for funding this work, and to [Andrea Zonca](https://www.zonca.dev/posts/2024-12-11-jetstream_kubernetes_magnum) for preliminary work on Kubernetes deployments on Jetstream 2._
 
-## Upgrading to the latest JupyterHub
+## Upgrading to the latest JupyterHub version
 
 We upgraded all of 2i2c’s community hubs to use JupyterHub 5.0. This brings in a bunch of security improvements, bugfixes, and enhancements. You can find links to the highlights and changelog in our blog post below.
 
@@ -56,7 +56,7 @@ Finally, below are a few other blog posts where we’ve documented major impact 
 **Community impact**
 
 - [Harnessing Marine Open Data Science for Ocean Sustainability in Africa, South Asia and Latin America](https://2i2c.org/blog/2025/hackweek-shoutout/)  
-- [NASA VEDA & 2i2c Update for Q4 2024 (Oct-Dec 2024\)](https://2i2c.org/blog/2025/veda-update-q4-2024/)
+- [NASA VEDA & 2i2c Update for Q4 2024 (Oct-Dec 2024)](https://2i2c.org/blog/2025/veda-update-q4-2024/)
 
 **Open Source impact**
 
