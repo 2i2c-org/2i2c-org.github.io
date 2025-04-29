@@ -1,4 +1,103 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Georgiana Dolocan | 2i2c</title><link>https://2i2c.org/author/georgiana-dolocan/</link><atom:link href="https://2i2c.org/author/georgiana-dolocan/index.xml" rel="self" type="application/rss+xml"/><description>Georgiana Dolocan</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 12 Feb 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/author/georgiana-dolocan/avatar_hu5a78bf28ffb183ff0de0c23a9805fa26_292451_270x270_fill_q75_lanczos_center.jpg</url><title>Georgiana Dolocan</title><link>https://2i2c.org/author/georgiana-dolocan/</link></image><item><title>Georgiana Dolocan</title><link>https://2i2c.org/author/georgiana-dolocan/</link><pubDate>Wed, 12 Feb 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/author/georgiana-dolocan/</guid><description>&lt;p>Software Engineer irreversibly in love with open source. A JupyterHub team member, focusing on infrastructure and community growth. Previously JupyterHub Contributor in Residence and Outreachy intern through an internship that supports diversity in open source and free software.&lt;/p></description></item><item><title>Open infrastructure for collaborative geoscience with Project Pythia: Learning how to deploy a BinderHub on Jetstream2</title><link>https://2i2c.org/blog/2025/jetstream-binderhub/</link><pubDate>Wed, 12 Feb 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/jetstream-binderhub/</guid><description>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Georgiana Dolocan | 2i2c</title><link>https://2i2c.org/author/georgiana-dolocan/</link><atom:link href="https://2i2c.org/author/georgiana-dolocan/index.xml" rel="self" type="application/rss+xml"/><description>Georgiana Dolocan</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 28 Apr 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/author/georgiana-dolocan/avatar_hu5a78bf28ffb183ff0de0c23a9805fa26_292451_270x270_fill_q75_lanczos_center.jpg</url><title>Georgiana Dolocan</title><link>https://2i2c.org/author/georgiana-dolocan/</link></image><item><title>Georgiana Dolocan</title><link>https://2i2c.org/author/georgiana-dolocan/</link><pubDate>Mon, 28 Apr 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/author/georgiana-dolocan/</guid><description>&lt;p>Software Engineer irreversibly in love with open source. A JupyterHub team member, focusing on infrastructure and community growth. Previously JupyterHub Contributor in Residence and Outreachy intern through an internship that supports diversity in open source and free software.&lt;/p></description></item><item><title>Offering Jetstream2-powered hub support at 2i2c</title><link>https://2i2c.org/blog/2025/jetstream2-persistent-hub/</link><pubDate>Mon, 28 Apr 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/jetstream2-persistent-hub/</guid><description>&lt;p>When we first committed to offer
+&lt;a href="https://jetstream-cloud.org/index.html" target="_blank" rel="noopener" >Jetstream2&lt;/a> support at 2i2c, Jetstream2,
+&lt;a href="https://docs.openstack.org/magnum/latest/" target="_blank" rel="noopener" >Magnum&lt;/a>,
+&lt;a href="https://www.openstack.org/" target="_blank" rel="noopener" >OpenStack&lt;/a>,
+&lt;a href="https://cluster-api.sigs.k8s.io/" target="_blank" rel="noopener" >ClusterAPI&lt;/a> were all new concepts that we hadn&amp;rsquo;t used at 2i2c before.
+And although the initial exercise of reading about each of them independently was confusing, learning how they actually glued together was the key.
+This post is about Jetstream2, 2i2c persistent hub offerings, and the learning that took place in the process.&lt;/p>
+&lt;h2 id="context">
+Context
+&lt;a class="header-anchor" href="#context">#&lt;/a>
+&lt;/h2>&lt;p>At 2i2c, we want to be able to deploy k8s clusters on different cloud providers. In a very simplistic way, for this we use:&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>Infrastructure as code&lt;/code> to describe, deploy and manage the actual physical infrastructure from the cloud providers&lt;/li>
+&lt;li>Cloud specific CLI to authenticate to this infrastructure&lt;/li>
+&lt;li>
+&lt;a href="https://helm.sh/" target="_blank" rel="noopener" >&lt;code>Helm&lt;/code>&lt;/a> to deploy and manage k8s resources onto this infrastructure&lt;/li>
+&lt;li>And finally
+&lt;a href="https://kubernetes.io/docs/reference/kubectl/" target="_blank" rel="noopener" >&lt;code>kubectl&lt;/code>&lt;/a> to interact with all of these k8s resources&lt;/li>
+&lt;/ul>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./2i2c-generic-infra.png" alt="image" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+(Main tools used at 2i2c to deploy and manage k8s clusters on different cloud providers)&lt;/p>
+&lt;p>On cloud providers like GCP, AWS, Azure, the Kubernetes support feels like an atomic feature of the cloud provider and works out of the box. But on Jetstream2, k8s support is not such a solid feature anymore.&lt;/p>
+&lt;h2 id="jetstream2-kubernetes-support-stack">
+Jetstream2 Kubernetes support stack
+&lt;a class="header-anchor" href="#jetstream2-kubernetes-support-stack">#&lt;/a>
+&lt;/h2>&lt;p>Jetstream2 is a collection of supercomputers that are part of the
+&lt;a href="https://access-ci.org/" target="_blank" rel="noopener" >ACCESS cyberinfrastructure&lt;/a>. This ACCESS infrastructure groups together super computers like Jetstream2 (but not limited to it), into a mesh that creates the impression of a single, virtual system that scientists can openly access and interactively use.&lt;/p>
+&lt;p>It offers Infrastructure as a Service (IaaS), that allows users to deploy VMs and manage environments dynamically. And the piece that enables this Infrastructure as a Service feature is OpenStack.&lt;/p>
+&lt;h3 id="openstack-and-magnum">
+OpenStack and Magnum
+&lt;a class="header-anchor" href="#openstack-and-magnum">#&lt;/a>
+&lt;/h3>&lt;p>OpenStack is an open source platform made of multiple projects that help build and manage both private and public cloud infrastructure.&lt;/p>
+&lt;p>For our use-case, one of the most relevant OpenStack sub-project is Magnum. Magnum offers container orchestration engines for deploying and managing containers, like Kubernetes, but not limited to it.&lt;/p>
+&lt;p>Initially, Kubernetes support was provided through a project called
+&lt;a href="https://wiki.openstack.org/wiki/Heat" target="_blank" rel="noopener" >HEAT&lt;/a>. However that has proven harder to manage and maintain, and it was extremely hard to upgrade a cluster. So, they’ve migrated towards a new driver called
+&lt;a href="https://docs.openstack.org/magnum-capi-helm/latest/user_docs/index.html" target="_blank" rel="noopener" >Cluster API magnum driver&lt;/a>, which offers a more native k8s integration.&lt;/p>
+&lt;h3 id="cluster-api-and-capi-helm-driver">
+Cluster API and CAPI helm driver
+&lt;a class="header-anchor" href="#cluster-api-and-capi-helm-driver">#&lt;/a>
+&lt;/h3>&lt;p>CAPI itself is k8s project that allows declaring k8s clusters in an easy way.&lt;/p>
+&lt;p>The helm driver on the other hand is what acts like a bridge between OpenStack’s Magnum and Kubernetes’ Cluster API (CAPI). Its main goal is to to manage the lifecycle (create, scale, upgrade, destroy) of Kubernetes-conformant clusters using a declarative API.&lt;/p>
+&lt;p>In order to do this, Cluster API provides an API for being able to manage the various components of a Kubernetes cluster. This conceptually looks like a Kubernetes cluster managing other Kubernetes clusters; the former, named the ‘CAPI management cluster’, is the one providing the API for managing the latter workload clusters.&lt;/p>
+&lt;h3 id="decomposing-the-previous-atomic-feature">
+Decomposing the previous atomic feature
+&lt;a class="header-anchor" href="#decomposing-the-previous-atomic-feature">#&lt;/a>
+&lt;/h3>&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./Jetstream2-and-tent.png" alt="image" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+(Comparison between Jetstream2 and other cloud providers when it comes to k8s support)&lt;/p>
+&lt;p>Magnum is part of the OpenStack tent and it’s the first layer on top of Jetstream2 towards achieving k8s support.&lt;/p>
+&lt;p>The CAPI helm driver is what’s offering CAPI support. This is the last piece that’s needed to link a k8s cluster down to the hardware where it’s deployed, on Jetstream2.&lt;/p>
+&lt;h2 id="challenges">
+Challenges
+&lt;a class="header-anchor" href="#challenges">#&lt;/a>
+&lt;/h2>&lt;p>The Jetstream2-OpenStack stack is not a simple one. It’s a complex stack of technologies and each of the connection points can be challenging to debug and fix when something doesn&amp;rsquo;t work. Especially when you are one of the first ones that pilots this new magnum driver setup.&lt;/p>
+&lt;p>So, it was expected that we faced some issues along the way. However, we were able to go around them and add Jetstream2 to our service menu. Below is a list of some of the issues that we faced:&lt;/p>
+&lt;ol>
+&lt;li>We have to create terraform resource in sequence which takes longer because of a race condition that makes concurrent nodegroups creation requests to fail&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>
+&lt;a href="https://bugs.launchpad.net/magnum/&amp;#43;bug/2097946" target="_blank" rel="noopener" >bugs.launchpad.net/magnum/+bug/2097946&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;ol start="2">
+&lt;li>The role and labels of the nodegroups don&amp;rsquo;t get propagated to the actual nodes, so we cannot put our own labels on nodes at once&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>
+&lt;a href="https://github.com/azimuth-cloud/capi-helm-charts/issues/84" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> azimuth-cloud/capi-helm-charts#84&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;ol start="3">
+&lt;li>The node count and min node count cannot be set to 0 and each nodegroup has to have at least 1 node&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>
+&lt;a href="https://bugs.launchpad.net/magnum/&amp;#43;bug/2098002" target="_blank" rel="noopener" >bugs.launchpad.net/magnum/+bug/2098002&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;ol start="4">
+&lt;li>A default-worker is created apart from the default-control plane nodegroup and we cannot delete it due to the same issue as in 2.&lt;/li>
+&lt;li>Latest CAPI helm chart version causes autoscaling to stop working in a persistent hub setup, so we had to downgrade it to a previous version&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>
+&lt;a href="https://github.com/2i2c-org/infrastructure/issues/5601" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> 2i2c-org/infrastructure#5601&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="conclusion">
+Conclusion
+&lt;a class="header-anchor" href="#conclusion">#&lt;/a>
+&lt;/h2>&lt;p>The biggest plus, is the people. We got support from
+&lt;a href="https://github.com/julianpistorius" target="_blank" rel="noopener" >Julian Pistorius&lt;/a>, which has helped us a lot to both fix and validate some of the behaviours we were experiencing. Also, going through the
+&lt;a href="https://jetstream-cloud.org/contact/index.html" target="_blank" rel="noopener" >Jetstream2 support process&lt;/a> was also a pleasant experience because they were super prompt in answering and they were very nice.&lt;/p>
+&lt;p>Jetstream2 has a big plus over the other cloud providers with its openness thought the ACCESS program. This is something very handy to researchers and less costly than other cloud providers. 2i2c being able to offer hubs though this ACCESS program makes things more accessible to more researchers and more cost efficient.&lt;/p>
+&lt;p>Higher complexity comes also with more control over the infrastructure which has its advantages.&lt;/p>
+&lt;p>Leaving the challenges apart, the experience was a nice one and the outcome was positive -&amp;gt; 2i2c is now able to deploy both mybinder.org-like hubs as well as persistent storage hubs on Jetstream2 hardware, from the same cloud-agnostic infrastructure.&lt;/p></description></item><item><title>Open infrastructure for collaborative geoscience with Project Pythia: Learning how to deploy a BinderHub on Jetstream2</title><link>https://2i2c.org/blog/2025/jetstream-binderhub/</link><pubDate>Wed, 12 Feb 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/jetstream-binderhub/</guid><description>
 &lt;h2 id="project-pythia-and-the-jupyter-notebook-obsolescence-problem">
 Project Pythia and the &amp;ldquo;Jupyter notebook obsolescence&amp;rdquo; problem
 &lt;a class="header-anchor" href="#project-pythia-and-the-jupyter-notebook-obsolescence-problem">#&lt;/a>
