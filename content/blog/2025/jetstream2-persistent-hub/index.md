@@ -21,7 +21,7 @@ At 2i2c, we want to be able to deploy k8s clusters on different cloud providers.
 - `Infrastructure as code` to describe, deploy and manage the actual physical infrastructure from the cloud providers
 - Cloud specific CLI to authenticate to this infrastructure
 - [`Helm`](https://helm.sh/) to deploy and manage k8s resources onto this infrastructure
-- And finally [`kubectl`](https://kubernetes.io/docs/reference/kubectl/) to interact will of these k8s resources
+- And finally [`kubectl`](https://kubernetes.io/docs/reference/kubectl/) to interact with all of these k8s resources
 
 ![image](./2i2c-generic-infra.png)
 (Main tools used at 2i2c to deploy and manage k8s clusters on different cloud providers)
