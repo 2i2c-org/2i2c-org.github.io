@@ -40,12 +40,12 @@ OpenStack is an open source platform made of multiple projects that help build a
 
 For our use-case, one of the most relevant OpenStack sub-project is Magnum. Magnum offers container orchestration engines for deploying and managing containers, like Kubernetes, but not limited to it.
 
-Initially, Kubernetes support was provided through a project called [HEAT](https://wiki.openstack.org/wiki/Heat). However that has proven harder to manage, and maintain and was extremely hard to upgrade a cluster. So, they’ve migrated towards a new driver called [Cluster API magnum driver](https://docs.openstack.org/magnum-capi-helm/latest/user_docs/index.html), which offers a more native k8s integration.
+Initially, Kubernetes support was provided through a project called [HEAT](https://wiki.openstack.org/wiki/Heat). However that has proven harder to manage and maintain, and it was extremely hard to upgrade a cluster. So, they’ve migrated towards a new driver called [Cluster API magnum driver](https://docs.openstack.org/magnum-capi-helm/latest/user_docs/index.html), which offers a more native k8s integration.
 
 ### Cluster API and CAPI helm driver
 CAPI itself is k8s project that allows declaring k8s clusters in an easy way.
 
-The helm driver on the other hand is what acts like a bridge between OpenStack’s Magnum and Kubernetes’ Cluster API (CAPI). It’s main goal is to to manage the lifecycle (create, scale, upgrade, destroy) of Kubernetes-conformant clusters using a declarative API.
+The helm driver on the other hand is what acts like a bridge between OpenStack’s Magnum and Kubernetes’ Cluster API (CAPI). Its main goal is to to manage the lifecycle (create, scale, upgrade, destroy) of Kubernetes-conformant clusters using a declarative API.
 
 In order to do this, Cluster API provides an API for being able to manage the various components of a Kubernetes cluster. This conceptually looks like a Kubernetes cluster managing other Kubernetes clusters; the former, named the ‘CAPI management cluster’, is the one providing the API for managing the latter workload clusters.
 
@@ -70,7 +70,7 @@ So, it was expected that we faced some issues along the way. However, we were ab
   - https://github.com/azimuth-cloud/capi-helm-charts/issues/84
 3. The node count and min node count cannot be set to 0 and each nodegroup has to have at least 1 node
   - https://bugs.launchpad.net/magnum/+bug/2098002
-4. A default-worker is created apart from the default-control plane nodegroup is created and we cannot delete it due to the same issue as in 2.
+4. A default-worker is created apart from the default-control plane nodegroup and we cannot delete it due to the same issue as in 2.
 5. Latest CAPI helm chart version causes autoscaling to stop working in a persistent hub setup, so we had to downgrade it to a previous version
   - https://github.com/2i2c-org/infrastructure/issues/5601
 
@@ -79,7 +79,7 @@ So, it was expected that we faced some issues along the way. However, we were ab
 
 The biggest plus, is the people. We got support from [Julian Pistorius](https://github.com/julianpistorius), which has helped us a lot to both fix and validate some of the behaviours we were experiencing. Also, going through the [Jetstream2 support process](https://jetstream-cloud.org/contact/index.html) was also a pleasant experience because they were super prompt in answering and they were very nice.
 
-Jetstream2 has a big plus over the other cloud providers which it’s openness thought the ACCESS program. This is something very handy to researchers and less costly than other cloud provides. Us being able to offer hubs though this ACCESS program makes things more accessible to more researchers and more cost efficient. 
+Jetstream2 has a big plus over the other cloud providers with its openness thought the ACCESS program. This is something very handy to researchers and less costly than other cloud providers. 2i2c being able to offer hubs though this ACCESS program makes things more accessible to more researchers and more cost efficient. 
 
 Higher complexity comes also with more control over the infrastructure which has its advantages.
 
