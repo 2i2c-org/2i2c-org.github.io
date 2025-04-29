@@ -26,7 +26,7 @@ At 2i2c, we want to be able to deploy k8s clusters on different cloud providers.
 ![image](./2i2c-generic-infra.png)
 (Main tools used at 2i2c to deploy and manage k8s clusters on different cloud providers)
 
-On cloud providers like GCP, AWS, Azure, the Kubernetes support feels like an atomic feature of the cloud provider and it's something that just *is*. But on Jetstream2, k8s support is not such an opaque feature anymore.
+On cloud providers like GCP, AWS, Azure, the Kubernetes support feels like an atomic feature of the cloud provider and works out of the box. But on Jetstream2, k8s support is not such a solid feature anymore.
 
 ## Jetstream2 Kubernetes support stack
 
