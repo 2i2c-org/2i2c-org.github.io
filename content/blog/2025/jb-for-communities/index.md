@@ -11,7 +11,7 @@ featured: false
 draft: false
 ---
 
-A core component of our mission to make research and education more _impactful_, _accessible_, and _delightful_ is leveraging our unique [global network of communities][network] to help us make impactful improvements to the open-source tools that powers their work. In this way, our experience of learning from one community can be used to provide value to our entire network e.g. [our work with PACE on speeding up their CNN model training][pace-gpu]. 
+A core component of our mission to make research and education more _impactful_, _accessible_, and _delightful_ is leveraging our unique [global network of communities][network] to help us make meaningful improvements to the open-source tools that powers their work. In this way, our experience of learning from one community can be used to provide value to our entire network e.g. [our work with PACE on speeding up their CNN model training][pace-gpu]. 
 
 At the heart of the work that our communities perform is the fundamental importance of sharing new findings, best-practice, and community resources. Across our network, we have seen communities creating their own "books" of that provide a home for this kind of content. Replicated across many of these resources is the concept of a "landing page" that welcomes new members, establishes an identity, and provides jumping off points (or "calls to action") into more detailed resources. 
 
