@@ -21,6 +21,9 @@ Until now, each community has been required to understake this work themselves. 
 - Built components into the Jupyter Book "book theme" for low-density landing page content like call-to-action blocks.
 - Extended our service to co-locate community documentation alongside community hubs (i.e. `docs.hub.2i2c.cloud`).
 
+![Screenshot of the 2i2c Showcase Hub landing page](./landing-page.png)
+(A screenshot of the 2i2c [Showcase Hub](https://docs.showcase.2i2c.cloud/) landing page, featuring a simple banner image and call to action.)
+
 In order to take advantage of this feature, communities can use the [`2i2c-org/community-docs-tmeplate`][template] to deploy a Jupyter Book site to GitHub Pages. This template demonstrates some simple usage of Jupyter Book 2 for working with computational content and building a landing page, and establishes the necessary CD workflows to publish the book to the web. Meanwhile, 2i2c can update our domain name management to point the `docs.hub.2i2c.cloud` nested subdomain to the newly deployed documentation.
 
 Through building these new capabilities, we learned a lot about what makes building "good" community documentation so difficult. Between a wide range of bespoke tools for building websites, and quirks in integrating them together, it has previously been a lot of work for communities to both keep the documentation up-to-date with the changes from within the communtity and keep-up with the necessary updates to the software that powers it. We also learned that by trading bespoke complexity for simplicity and readability, we could build a solution that scales to multiple communities with a consequentially reduced maintenance burden.
