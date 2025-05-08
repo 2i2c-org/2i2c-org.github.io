@@ -21,13 +21,19 @@ Until now, each community has been required to understake this work themselves. 
 - Built components into the Jupyter Book "book theme" for low-density landing page content like call-to-action blocks.
 - Extended our service to co-locate community documentation alongside community hubs (i.e. `docs.hub.2i2c.cloud`).
 
+In order to take advantage of this feature, communities can use the [`2i2c-org/community-docs-tmeplate`][template] to deploy a Jupyter Book site to GitHub Pages. This template demonstrates some simple usage of Jupyter Book 2 for working with computational content and building a landing page, and establishes the necessary CD workflows to publish the book to the web. Meanwhile, 2i2c can update our domain name management to point the `docs.hub.2i2c.cloud` nested subdomain to point to the newly deployed documentation.
+
+Through building these new capabilities, we learned a lot about what makes building "good" community documentation so difficult. Between a wide range of bespoke tools for building websites, and quirks in integrating them together, it has previously been a lot of work for communities to both keep the documentation up-to-date with the changes from within the communtity and keep-up with the necessary updates to the software that powers it. We also learned that the more bespoke deployments that 
+
 With these improvements, we have tried to start a conversation around what a more unified "look and feel" to our network might look like, and how it might benefit our communities. There is much that can be done to take this first step further, and we are keen to garner feedback on how we can make these features work better for users.
 
-A very thin example of what this community landing page _might_ look like can be seen at [2i2c's Showcase Hub](https://docs.showcase.2i2c.cloud/)
+To learn more about this work, why not take a look at a very thin example on [our Showcase Hub](https://docs.showcase.2i2c.cloud/), and check out [our service guide][svc-guide].
 
 
+[svc-guide]: https://docs.2i2c.org/community/content/#deploy-documentation-with-jupyter-book
 [network]: https://2i2c.org/communities/
 [pace-cpu]: https://2i2c.org/blog/2024/pace-hackweek/#managing-shared-memory-on-2i2c-hubs
 [initiative]: https://github.com/2i2c-org/infrastructure/issues/5045
 [open-tech]: https://2i2c.org/blog/2025/community-ownership/
 [jb-next]: https://next.jupyterbook.org
+[template]: https://github.com/2i2c-org/community-docs-template
