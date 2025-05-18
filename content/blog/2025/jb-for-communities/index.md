@@ -30,7 +30,7 @@ Through building these new capabilities, we learned a lot about what makes build
 
 With these improvements, we have tried to start a conversation around what a more unified "look and feel" to our network might look like, and how it might benefit our communities. There is much that can be done to take this first step further, and we are keen to garner feedback on how we can make these features work better for users.
 
-To learn more about this work, why not take a look at a very thin example on [our Showcase Hub](https://docs.showcase.2i2c.cloud/), and check out [our service guide][svc-guide].
+To learn more about this work, why not take a look at a very thin example on [our Showcase Hub](https://docs.showcase.2i2c.cloud/), and check out [our service guide][svc-guide]. [Let us know](https://airtable.com/appM2L2x1uglMU0hy/pagWPJDEKTlLd7uMP/form) what you think!
 
 [svc-guide]: https://docs.2i2c.org/community/content/#deploy-documentation-with-jupyter-book
 [network]: https://2i2c.org/communities/
