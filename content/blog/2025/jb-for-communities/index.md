@@ -26,7 +26,7 @@ Until now, each community has been required to undertake this work independently
 
 To take advantage of this feature, communities can use the [`2i2c-org/community-docs-template`][template] to deploy a Jupyter Book site to GitHub Pages. This template demonstrates simple usage of Jupyter Book 2 for computational content and landing page creation, and establishes the necessary CD workflows for web publication. Meanwhile, 2i2c can update our domain name management to point the `docs.hub.2i2c.cloud` nested subdomain to the newly deployed documentation.
 
-For more information, see [our community documentation for deploying Jupyter Books](svc-guide).
+For more information, see [our community documentation for deploying Jupyter Books][svc-guide].
 
 Developing these new capabilities taught us a lot about what makes building "good" community documentation so difficult. A wide range of bespoke website-building tools and integration quirks previously made it challenging for communities to both keep documentation current with internal changes and keep up with necessary software updates. We also learned that by trading bespoke complexity for simplicity and readability, we could build a solution that scales to multiple communities, with a consequently reduced maintenance burden.
 
