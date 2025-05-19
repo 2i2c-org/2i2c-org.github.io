@@ -32,7 +32,7 @@ With these improvements, we have tried to start a conversation around what a mor
 
 To learn more about this work, why not take a look at a very thin example on [our Showcase Hub](https://docs.showcase.2i2c.cloud/), and check out [our service guide][svc-guide]. [Let us know](https://airtable.com/appM2L2x1uglMU0hy/pagWPJDEKTlLd7uMP/form) what you think!
 
-[pace-cpu]: /content/blog/2024/pace-hackweek/index.md
+[pace-hpu]: /content/blog/2024/pace-hackweek/index.md
 [open-tech]: /content/blog/2025/community-ownership/index.md
 [svc-guide]: https://docs.2i2c.org/community/content/#deploy-documentation-with-jupyter-book
 [network]: https://2i2c.org/communities/
