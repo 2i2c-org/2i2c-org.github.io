@@ -56,7 +56,10 @@ user_groups:
 - Executive Director
 ---
 
-Chris is the Executive Director of 2i2c. He was previously a post-doctoral researcher in the Department of Statistics at [UC Berkeley](https://www.berkeley.edu/), and a Community Architect with the [Division of Data Science](https://data.berkeley.edu/) at Berkeley. He is also a team member of Project Jupyter (particularly the [JupyterHub and Binder teams](https://jupyterhub-team-compass.readthedocs.io/en/latest/team.html#jupyterhub-team)), with a focus on how infrastructure can support interactive computing workflows in research and education. He's interested in the boundary between technology, open-source software, and research and education workflows, as well as how open communities can support and extend these workflows in a way that makes science more impactful and inclusive. His background is in cognitive and computational neuroscience, where he used [predictive models to understand the auditory system](https://www.nature.com/articles/ncomms13654) in the human brain.
+
+Chris is the Executive Director of 2i2c. He is on the [Jupyter Executive Council](https://ec.jupyter.org) as well as the [Jupyter Foundation Board](https://jupyterfoundation.org). He has been a co-lead of several projects within the Jupyter ecosystem for over ten years (particularly the [JupyterHub and Binder projects](https://jupyterhub-team-compass.readthedocs.io/en/latest/team.html#jupyterhub-team), as well as the [Jupyter Book project](https://jupyterbook.org)). He’s interested in the boundary between technology, open-source software, and research and education workflows, as well as how open communities can support and extend these workflows to make science more impactful and inclusive.
+
+He was previously a post-doctoral researcher in the Department of Statistics at [UC Berkeley](https://www.berkeley.edu/), and a Community Architect with the [Division of Data Science](https://data.berkeley.edu/) at Berkeley. His background is in cognitive and computational neuroscience, where he used [predictive models to understand the auditory system](https://www.nature.com/articles/ncomms13654) in the human brain.
 
 **Highlights**:
 
