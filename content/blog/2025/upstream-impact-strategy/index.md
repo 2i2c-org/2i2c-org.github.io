@@ -3,12 +3,12 @@ title: "Systematizing our upstream community support"
 date: 2025-05-21
 authors:
   - Yuvi Panda
-  - Chris Holdgraf
 tags:
   - open source
 categories:
   - impact
 ---
+(Edited by Chris Holdgraf)
 
 Over the past few months we've been running an experiment to be more thoughtful about our goals, strategy, and systems for supporting upstream communities _as a team_. This is a summary of the major ideas behind our current plan. It includes a few team targets and practices that we'll pilot over the next year. We'll revisit this as we learn more. Our goal is to provide transparency about the motivations behind our actions, and also to serve as an example that other organizations might learn from in their own upstream contributions.
 
