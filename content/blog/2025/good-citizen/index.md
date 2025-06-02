@@ -70,7 +70,6 @@ Stakeholder-led contributions naturally align with 2i2c's overall goals and stra
 With that in mind, here are a few ways that stakeholder-led contributions relate to our practices:
 
 - Stakeholder-led contributions should be defined by our product roadmap and prioritization processes.
-  - For engineering, this process eventually feeds into the Engineering Project Board under the `product-dev` (from product board), `internal-eng` (from recurring calendar events and internal eng roadmap), `tech-support` (via freshdesk) and `partnership-support`  (via slack) buckets.
 - We should allocate engineering time to making these upstream contributions as part of our product lifecycle, and consider the extra coordination and communication work needed to work at the pace of the upstream community.
 - We should cross-link 2i2c product initiatives to upstream issues and pull-requests wherever we can to provide transparency about why we're making a contribution.
 
