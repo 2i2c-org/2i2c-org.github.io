@@ -20,7 +20,7 @@ What was the &lt;strong>class of issues&lt;/strong> we could fix here?
 &lt;h2 id="structured-solutions">
 Structured solutions
 &lt;a class="header-anchor" href="#structured-solutions">#&lt;/a>
-&lt;/h2>&lt;p>We follow a 2 week sprint cycle, and I love the (hard won) structure it provides us. I don&amp;rsquo;t want to arbitrarily start doing work that upsets prior committed work from that structure. However, we also treat support requests seriously and try to work them into the sprint. So I timeboxed myself for 1hr, and saw what I could accomplish. Turns out, a lot!&lt;/p>
+&lt;/h2>&lt;p>We follow a two week sprint cycle, and I love the (hard won) structure it provides us. I don&amp;rsquo;t want to arbitrarily start doing work that upsets prior committed work from that structure. However, we also treat support requests seriously and try to work them into the sprint. So I timeboxed myself for one hour, and saw what I could accomplish. Turns out, a lot!&lt;/p>
 &lt;ol>
 &lt;li>I
 &lt;a href="https://github.com/2i2c-org/infrastructure/pull/6183" target="_blank" rel="noopener" >upgraded all our support components&lt;/a>, tested them, and rolled them out to &lt;em>all&lt;/em> our communities! This included upgrading Grafana, Prometheus, nginx-ingress as well as the cluster-autoscaler. This also restarts the cluster-autoscaler across our clusters, fixing this issue for other communities (if any had it).&lt;/li>
@@ -29,7 +29,7 @@ Structured solutions
 &lt;a href="https://github.com/consideratio" target="_blank" rel="noopener" >Erik Sundell&lt;/a> for initially setting this up&lt;/li>
 &lt;li>Create
 &lt;a href="https://github.com/2i2c-org/infrastructure/issues/6185" target="_blank" rel="noopener" >an issue&lt;/a> to track the alert creation, and put it in our sprint backlog.&lt;/li>
-&lt;li>(Outside my 1hr timebox, but still with a 15min one) Write this blog post, to communicate out both to the affected communities and others what we have done.&lt;/li>
+&lt;li>(In an additional fifteen minute timebox) Write this blog post, to communicate out both to the affected communities and others what we have done.&lt;/li>
 &lt;/ol>
 &lt;p>By timeboxing myself, I didn&amp;rsquo;t upset our sprint cadence and was able to continue doing other work I had committed to in the sprint, while also fixing this &lt;em>class of issues&lt;/em> to the best of my ability.&lt;/p>
 &lt;h2 id="moving-forward">
