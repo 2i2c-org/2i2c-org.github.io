@@ -25,7 +25,7 @@ because it allows them to advocate for better funding and cost recovery models b
 Current methods and workarounds include:
 
 - ring-fencing resources for specific user groups personas, e.g. creating a separate hub for a workshop group, or creating a separate Dask cluster for a power user group, which increases the admin burden of managing multiple hub instances
-- writing custom scripts to aggregate per user metrics into groups, which can be time-consuming and error-prone
+- writing custom scripts to aggregate per user metrics, that are already available, into groups – which can be time-consuming and error-prone
 
 ## JupyterHub and user groups
 
@@ -67,13 +67,13 @@ sum(
 
 ## Visualizing user group resource usage with Grafana
 
-The PromQL query above is rather long and complex to construct! However, you can benefit from an [upstream contribution](https://github.com/jupyterhub/grafana-dashboards/pull/149) to the [jupyterhub/grafana-dashboards](https://github.com/jupyterhub/grafana-dashboards) project where we have encapsulated the PromQL queries as Jsonnet code and represented them as Grafana Dashboard visualizations (also known as [Grafonnet](https://grafana.github.io/grafonnet/index.html)). If you have a Kubernetes cluster running JupyterHub, try out deploying these Grafana Dashboard and let us know what you think!
+The PromQL query above is rather long and complex to construct! However, you can benefit from an [upstream contribution](https://github.com/jupyterhub/grafana-dashboards/pull/149) to the [jupyterhub/grafana-dashboards](https://github.com/jupyterhub/grafana-dashboards) project where we have encapsulated the PromQL queries as Jsonnet code and represented them as Grafana Dashboard visualizations (also known as [Grafonnet](https://grafana.github.io/grafonnet/index.html)). If you have a Kubernetes cluster running JupyterHub, try deploying these Grafana Dashboards and let us know what you think!
 
 Our particular PromQL query above is visualized in the Grafana Dashboard **User Groups Diagnostics** under the **Memory Usage** panel (see also the corresponding screenshot at the top of this post). This is equivalent to its counterpart **User Diagnostics** dashboard, but with resource usage visualized on a *per-group* level rather than a per-user level :tada:
 
 ## Future work
 
-We have laid the foundation for extracting user group data with Prometheus by extracting memberships from JupyterHub's database. This unlocks potent ways in which observability systems can be extended to group-level reporting and monitoring.
+We have laid the foundation for joining user group data to usage metrics with Prometheus by extracting memberships from JupyterHub's database. This unlocks potent ways in which observability systems can be extended to group-level reporting and monitoring.
 
 Future directions for this work include:
 
