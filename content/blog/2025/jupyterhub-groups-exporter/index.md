@@ -4,7 +4,7 @@ subtitle: ""
 authors: ["Jenny Wong"]
 tags: ["jupyterhub", "prometheus", "grafana", "kubernetes"]
 categories: ["Service"]
-date: "2025-06-08"
+date: "2025-06-11"
 featured: false
 draft: false
 ---
