@@ -119,7 +119,7 @@ sections:
         css_class: showcase
     content:
       title: "Research community: Cryosphere research in the cloud"
-      subtitle: Cryocloud is a research hub dedicated to "accelerating discovery and enhancing collaboration for NASA Cryosphere communities". They use their hub to provide access to [NASA Earthdata cloud](https://book.cryointhecloud.com/tutorials/NASA-Earthdata-Cloud-Access/1.Intro-Earthdata-Cloud.html) use a [community Jupyter Book](https://book.cryointhecloud.com) to organize training and learning within the community via community workshops.
+      subtitle: Cryocloud is a research hub dedicated to "accelerating discovery and enhancing collaboration for NASA Cryosphere communities". They use their hub to provide access to [NASA Earthdata cloud](https://book.cryointhecloud.com/intro-earthdata-cloud) use a [community Jupyter Book](https://book.cryointhecloud.com) to organize training and learning within the community via community workshops.
       text: |
 
         {{< figure src="/images/communities/cryocloud-landing.png" >}}
