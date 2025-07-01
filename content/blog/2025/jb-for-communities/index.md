@@ -32,7 +32,7 @@ Developing these new capabilities taught us a lot about what makes building "goo
 
 With these improvements, we have initiated a conversation about what a more unified "look and feel" for our network might entail, and how it might benefit our communities. Much more can be done to build on this first step, and we are eager to gather feedback on how to improve these features for users.
 
-To learn more about this work, consider exploring a minimal example on [our Showcase Hub](https://docs.showcase.2i2c.cloud/), and check out [our service guide][svc-guide]. [Let us know](https://airtable.com/appM2L2x1uglMU0hy/pagWPJDEKTlLd7uMP/form) what you think!
+To learn more about this work, consider exploring a minimal example on [our Showcase Hub](https://docs.showcase.2i2c.cloud/), and check out [our service guide][svc-guide]. [Let us know](https://docs.google.com/forms/d/e/1FAIpQLSff-u-sWFuwO1-VTgk2Ir7f1nfUUlLevQk_Vkk_jnmcI1nJnw/viewform) what you think!
 
 [pace-gpu]: ../../2024/pace-hackweek/index.md
 [open-tech]: ../community-ownership/index.md
