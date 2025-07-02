@@ -44,7 +44,7 @@ Allowing readers to &amp;ldquo;bring their own Binders&amp;rdquo;
 &lt;/ul>
 &lt;p>We want a workflow like this to be as seamless and un-complicated as possible. We also want it to follow the same fundamental workflow as the
 &lt;a href="https://docs.2i2c.org/community/content/" target="_blank" rel="noopener" >nbgitpuller-based launch buttons&lt;/a>. Along the way, we realized that we needed to coordinate development across
-&lt;a href="https://next.jupyterbook.org/" target="_blank" rel="noopener" >Jupyter Book 2&lt;/a>],
+&lt;a href="https://next.jupyterbook.org/" target="_blank" rel="noopener" >Jupyter Book 2&lt;/a>,
 &lt;a href="https://jupyter.readthedocs.io" target="_blank" rel="noopener" >JupyterHub&lt;/a>, and
 &lt;a href="https://binderhub.readthedocs.io" target="_blank" rel="noopener" >BinderHub&lt;/a>.&lt;/p>
 &lt;figure id="figure-the-three-projects-jupyter-book-binderhub-and-jupyterhub-that-needed-to-work-together-to-enable-bring-your-own-binderhub-workflows">
