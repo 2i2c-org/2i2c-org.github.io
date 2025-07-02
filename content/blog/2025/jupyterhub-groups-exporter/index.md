@@ -81,4 +81,4 @@ Future directions for this work include:
 - developing more group-level reporting and monitoring dashboards
 - introducing group-level resource quotas.
 
-What do you think? How would you like to see JupyterHub's group management features evolve? Have you tried deploying this yourself? [We welcome your feedback](https://airtable.com/appM2L2x1uglMU0hy/pagWPJDEKTlLd7uMP/form) and feel free to open GitHub issues or make contributions to the repositories mentioned in this post.
+What do you think? How would you like to see JupyterHub's group management features evolve? Have you tried deploying this yourself? [We welcome your feedback](https://docs.google.com/forms/d/e/1FAIpQLSff-u-sWFuwO1-VTgk2Ir7f1nfUUlLevQk_Vkk_jnmcI1nJnw/viewform?usp=header) and feel free to open GitHub issues or make contributions to the repositories mentioned in this post.
