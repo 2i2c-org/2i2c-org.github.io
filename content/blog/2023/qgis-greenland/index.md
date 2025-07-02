@@ -40,6 +40,6 @@ The success of the QGreenland workshop underscores the potential of integrating 
 - [Trey Stafford](https://cires.colorado.edu/people/trey-stafford)[(CIRES)](https://cires.colorado.edu/)
 - [Matthew Fisher](https://cires.colorado.edu/people/matthew-fisher)[(CIRES)](https://cires.colorado.edu/)
 - *Fisher, M., *T. Stafford, T. Moon, and A. Thurber (2023). QGreenland (v3) [software], National Snow and Ice Data Center.
-- Snow, Tasha, Millstein, Joanna, Scheick, Jessica, Sauthoff, Wilson, Leong, Wei Ji, Colliander, James, Pérez, Fernando, James Munroe, Felikson, Denis, Sutterley, Tyler, & Siegfried, Matthew. (2023). [CryoCloud JupyterBook](https://book.cryointhecloud.com/intro.html) (2023.01.26). Zenodo. [10.5281/zenodo.7576602](https://doi.org/10.5281/zenodo.7576602)
+- Snow, Tasha, Millstein, Joanna, Scheick, Jessica, Sauthoff, Wilson, Leong, Wei Ji, Colliander, James, Pérez, Fernando, James Munroe, Felikson, Denis, Sutterley, Tyler, & Siegfried, Matthew. (2023). [CryoCloud JupyterBook](https://book.cryointhecloud.com) (2023.01.26). Zenodo. [10.5281/zenodo.7576602](https://doi.org/10.5281/zenodo.7576602)
 
 \* Denotes co-equal lead authorship
