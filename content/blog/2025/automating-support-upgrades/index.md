@@ -10,7 +10,7 @@ tags:
 
 ## The Problem
 
-Two of our the communities we serve ([NMFS Openscapes](https://nmfs-openscapes.github.io/) and [CryoCloud](https://book.cryointhecloud.com/intro.html)) reported issues with starting GPU nodes on their hubs. Upon investigation, I discovered that the [cluster autoscaler](https://github.com/kubernetes/autoscaler) seems to not recognize that GPUs were available in the cluster at all suddenly, and hence wasn't provisioning the nodes. A restart of the cluster-autoscaler pod fixed the issue for both these communities.
+Two of our the communities we serve ([NMFS Openscapes](https://nmfs-openscapes.github.io/) and [CryoCloud](https://book.cryointhecloud.com)) reported issues with starting GPU nodes on their hubs. Upon investigation, I discovered that the [cluster autoscaler](https://github.com/kubernetes/autoscaler) seems to not recognize that GPUs were available in the cluster at all suddenly, and hence wasn't provisioning the nodes. A restart of the cluster-autoscaler pod fixed the issue for both these communities.
 
 ## An incomplete solution
 

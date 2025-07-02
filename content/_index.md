@@ -137,7 +137,7 @@ sections:
           {{< video src="videos/jupyterbook.mp4">}}
 
           <figcaption>
-              Powered by <a href="https://jupyterbook.org"><img src="/images/logos/project/jupyterbook.svg" /></a> and <a href="https://mystmd.org"><img src="/images/logos/project/myst.svg" /></a>. Example from <a href="https://book.cryointhecloud.com/intro.html">the CryoCloud JupyterBook</a>.
+              Powered by <a href="https://jupyterbook.org"><img src="/images/logos/project/jupyterbook.svg" /></a> and <a href="https://mystmd.org"><img src="/images/logos/project/myst.svg" /></a>. Example from <a href="https://book.cryointhecloud.com">the CryoCloud JupyterBook</a>.
           </figcaption>
         </figure>
 
