@@ -108,6 +108,8 @@ We have a demo of this running at [imagebuilding-demo.2i2c.cloud](https://imageb
 
 Want to set this up on your own JupyterHub? There is some [work in progress](https://github.com/2i2c-org/binderhub-service/pull/72) documentation and more is being worked on. Drop a line in the linked pull request and we'll be happy to help. The eventual goal is for *anyone* to be able to simply follow documentation and set this up for themselves.
 
+We also have user facing documentation on using this service on [docs.2i2c.org](https://docs.2i2c.org/user/topics/dynamic-imagebuilding/#dynamic-image-building).
+
 ## Future work
 
 This is not complete of course, and there is a lot of future work to be done.
