@@ -15,7 +15,10 @@ When we first committed to offer [Jetstream2](https://jetstream-cloud.org/index.
 And although the initial exercise of reading about each of them independently was confusing, learning how they actually glued together was the key.
 This post is about Jetstream2, 2i2c persistent hub offerings, and the learning that took place in the process.
 
+> ⭐ **Members of 2i2c's community network** can determine their eligibility and learn about JetStream2 in [our supported cloud providers documentation](https://docs.2i2c.org/about/distributions/#jetstream2). If needed, [reach out to 2i2c for support](https://docs.2i2c.org/support/).
+
 ## Context
+
 At 2i2c, we want to be able to deploy k8s clusters on different cloud providers. In a very simplistic way, for this we use:
 
 - `Infrastructure as code` to describe, deploy and manage the actual physical infrastructure from the cloud providers
