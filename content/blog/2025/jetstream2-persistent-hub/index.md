@@ -15,7 +15,7 @@ When we first committed to offer [Jetstream2](https://jetstream-cloud.org/index.
 And although the initial exercise of reading about each of them independently was confusing, learning how they actually glued together was the key.
 This post is about Jetstream2, 2i2c persistent hub offerings, and the learning that took place in the process.
 
-> ⭐ **Members of 2i2c's community network** can learn how to use JetStream2 in their hubs by [following our JetStream 2 deployment documentation](TODO: MISSING LINK).
+> ⭐ **Members of 2i2c's community network** can determine their eligibility and learn how to use JetStream2  by [following the JetStream 2 getting started guide](https://jetstream-cloud.org/get-started/index.html). If needed, [reach out to 2i2c for support](https://docs.2i2c.org/support/).
 
 ## Context
 
