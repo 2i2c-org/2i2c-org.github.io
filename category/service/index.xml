@@ -1,4 +1,8 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Service | 2i2c</title><link>https://2i2c.org/category/service/</link><atom:link href="https://2i2c.org/category/service/index.xml" rel="self" type="application/rss+xml"/><description>Service</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 11 Jun 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Service</title><link>https://2i2c.org/category/service/</link></image><item><title>Announcing `jupyterhub-groups-exporter`: monitor usage based on JupyterHub group membership with Prometheus and Grafana</title><link>https://2i2c.org/blog/2025/jupyterhub-groups-exporter/</link><pubDate>Wed, 11 Jun 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/jupyterhub-groups-exporter/</guid><description>&lt;p>Managing user groups in JupyterHub can be a challenging task, especially in environments with dynamic user bases and complex group structures. This post describes how we can leverage the latest group management features in JupyterHub, along with Prometheus and Grafana, to monitor group-level resource usage effectively.&lt;/p>
+&lt;blockquote>
+&lt;p>⭐ &lt;strong>Members of 2i2c&amp;rsquo;s community network&lt;/strong> can use this feature in their hubs by
+&lt;a href="https://docs.2i2c.org/admin/howto/monitoring/cost-attribution/" target="_blank" rel="noopener" >following our cost attribution documentation&lt;/a>.&lt;/p>
+&lt;/blockquote>
 &lt;p>
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
@@ -79,7 +83,13 @@ Future work
 &lt;li>introducing group-level resource quotas.&lt;/li>
 &lt;/ul>
 &lt;p>What do you think? How would you like to see JupyterHub&amp;rsquo;s group management features evolve? Have you tried deploying this yourself?
-&lt;a href="https://docs.google.com/forms/d/e/1FAIpQLSff-u-sWFuwO1-VTgk2Ir7f1nfUUlLevQk_Vkk_jnmcI1nJnw/viewform?usp=header" target="_blank" rel="noopener" >We welcome your feedback&lt;/a> and feel free to open GitHub issues or make contributions to the repositories mentioned in this post.&lt;/p></description></item><item><title>Launching Jupyter Book for 2i2c Communities</title><link>https://2i2c.org/blog/2025/jb-for-communities/</link><pubDate>Thu, 08 May 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/jb-for-communities/</guid><description>&lt;p>A core component of our mission to make research and education more &lt;em>impactful&lt;/em>, &lt;em>accessible&lt;/em>, and &lt;em>delightful&lt;/em> is leveraging our unique
+&lt;a href="https://docs.google.com/forms/d/e/1FAIpQLSff-u-sWFuwO1-VTgk2Ir7f1nfUUlLevQk_Vkk_jnmcI1nJnw/viewform?usp=header" target="_blank" rel="noopener" >We welcome your feedback&lt;/a> and feel free to open GitHub issues or make contributions to the repositories mentioned in this post.&lt;/p></description></item><item><title>Launching Jupyter Book for 2i2c Communities</title><link>https://2i2c.org/blog/2025/jb-for-communities/</link><pubDate>Thu, 08 May 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/jb-for-communities/</guid><description>&lt;p>We&amp;rsquo;re excited to announce out-of-the-box support for
+&lt;a href="https://next.jupyterbook.org" target="_blank" rel="noopener" >Jupyter Book 2&lt;/a> for our community members. This allows communities to create and share knowledge bases together for their community workflows. This post describes the motivation behind this new functionality, and how you can learn more about the project.&lt;/p>
+&lt;blockquote>
+&lt;p>⭐ &lt;strong>Members of 2i2c&amp;rsquo;s community network&lt;/strong> can use this feature in their hubs by following
+&lt;a href="https://docs.2i2c.org/sharing/documentation/" target="_blank" rel="noopener" >our documentation and sharing guide&lt;/a>.&lt;/p>
+&lt;/blockquote>
+&lt;p>A core component of our mission to make research and education more &lt;em>impactful&lt;/em>, &lt;em>accessible&lt;/em>, and &lt;em>delightful&lt;/em> is leveraging our unique
 &lt;a href="https://2i2c.org/communities/" target="_blank" rel="noopener" >global network of communities&lt;/a> to make meaningful improvements to the open-source tools that power their work. Learning from one community can then provide value to our entire network, e.g.,
 &lt;a href="https://2i2c.org/blog/2024/pace-hackweek/" >our work with PACE on speeding up their CNN model training&lt;/a>.&lt;/p>
 &lt;p>Central to our communities&amp;rsquo; work is the importance of sharing new findings, best practices, and community resources. Across our network, we have seen communities creating their own &amp;ldquo;books&amp;rdquo; that provide a home for this kind of content. Many of these books feature the concept of a &amp;ldquo;landing page&amp;rdquo; that welcomes new members, establishes an identity, and provides jumping-off points (or &amp;ldquo;calls to action&amp;rdquo;) to more detailed resources.&lt;/p>
@@ -115,6 +125,11 @@ Future work
 &lt;a href="https://cluster-api.sigs.k8s.io/" target="_blank" rel="noopener" >ClusterAPI&lt;/a> were all new concepts that we hadn&amp;rsquo;t used at 2i2c before.
 And although the initial exercise of reading about each of them independently was confusing, learning how they actually glued together was the key.
 This post is about Jetstream2, 2i2c persistent hub offerings, and the learning that took place in the process.&lt;/p>
+&lt;blockquote>
+&lt;p>⭐ &lt;strong>Members of 2i2c&amp;rsquo;s community network&lt;/strong> can determine their eligibility and learn about JetStream2 in
+&lt;a href="https://docs.2i2c.org/about/distributions/#jetstream2" target="_blank" rel="noopener" >our supported cloud providers documentation&lt;/a>. If needed,
+&lt;a href="https://docs.2i2c.org/support/" target="_blank" rel="noopener" >reach out to 2i2c for support&lt;/a>.&lt;/p>
+&lt;/blockquote>
 &lt;h2 id="context">
 Context
 &lt;a class="header-anchor" href="#context">#&lt;/a>

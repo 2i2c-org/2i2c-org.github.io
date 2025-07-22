@@ -5,6 +5,11 @@
 &lt;a href="https://cluster-api.sigs.k8s.io/" target="_blank" rel="noopener" >ClusterAPI&lt;/a> were all new concepts that we hadn&amp;rsquo;t used at 2i2c before.
 And although the initial exercise of reading about each of them independently was confusing, learning how they actually glued together was the key.
 This post is about Jetstream2, 2i2c persistent hub offerings, and the learning that took place in the process.&lt;/p>
+&lt;blockquote>
+&lt;p>⭐ &lt;strong>Members of 2i2c&amp;rsquo;s community network&lt;/strong> can determine their eligibility and learn about JetStream2 in
+&lt;a href="https://docs.2i2c.org/about/distributions/#jetstream2" target="_blank" rel="noopener" >our supported cloud providers documentation&lt;/a>. If needed,
+&lt;a href="https://docs.2i2c.org/support/" target="_blank" rel="noopener" >reach out to 2i2c for support&lt;/a>.&lt;/p>
+&lt;/blockquote>
 &lt;h2 id="context">
 Context
 &lt;a class="header-anchor" href="#context">#&lt;/a>

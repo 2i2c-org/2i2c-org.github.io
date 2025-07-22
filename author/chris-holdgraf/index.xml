@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Chris Holdgraf | 2i2c</title><link>https://2i2c.org/author/chris-holdgraf/</link><atom:link href="https://2i2c.org/author/chris-holdgraf/index.xml" rel="self" type="application/rss+xml"/><description>Chris Holdgraf</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 23 May 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/author/chris-holdgraf/avatar_hu239570f3b0123c4756b7a8f15caec1a2_32796_270x270_fill_q75_lanczos_center.jpg</url><title>Chris Holdgraf</title><link>https://2i2c.org/author/chris-holdgraf/</link></image><item><title>Chris Holdgraf</title><link>https://2i2c.org/author/chris-holdgraf/</link><pubDate>Fri, 23 May 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/author/chris-holdgraf/</guid><description>&lt;p>Chris is the Executive Director of
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Chris Holdgraf | 2i2c</title><link>https://2i2c.org/author/chris-holdgraf/</link><atom:link href="https://2i2c.org/author/chris-holdgraf/index.xml" rel="self" type="application/rss+xml"/><description>Chris Holdgraf</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 21 Jul 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/author/chris-holdgraf/avatar_hu239570f3b0123c4756b7a8f15caec1a2_32796_270x270_fill_q75_lanczos_center.jpg</url><title>Chris Holdgraf</title><link>https://2i2c.org/author/chris-holdgraf/</link></image><item><title>Chris Holdgraf</title><link>https://2i2c.org/author/chris-holdgraf/</link><pubDate>Mon, 21 Jul 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/author/chris-holdgraf/</guid><description>&lt;p>Chris is the Executive Director of
 &lt;a href="https://2i2c.org" target="_blank" rel="noopener" >2i2c&lt;/a>. He is on the
 &lt;a href="https://ec.jupyter.org" target="_blank" rel="noopener" >Jupyter Executive Council&lt;/a> as well as the
 &lt;a href="https://jupyterfoundation.org" target="_blank" rel="noopener" >Jupyter Foundation Board&lt;/a>. He has been a co-lead of several projects within the Jupyter ecosystem for over ten years (particularly the
@@ -14,7 +14,61 @@
 &lt;li>Jupyter Distinguished Contributor&lt;/li>
 &lt;li>Co-led JupyterHub, Binder, and Jupyter Book&lt;/li>
 &lt;li>Co-created the DataHub interactive computing service for the Data Science Education Program at UC Berkeley.&lt;/li>
-&lt;/ul></description></item><item><title>Jupyter Book at the Scientific Python 2025 Developer Summit</title><link>https://2i2c.org/blog/2025/scientific-python-summit/</link><pubDate>Fri, 23 May 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/scientific-python-summit/</guid><description>&lt;p>A post on the Jupyter Book blog about the recent Scientific Python 2025 Developer Summit.&lt;/p></description></item><item><title>2025-Q1 reflection: Building a foundation for our new platform and membership model</title><link>https://2i2c.org/blog/2025/q1-reflection/</link><pubDate>Wed, 16 Apr 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/q1-reflection/</guid><description>&lt;p>&lt;em>This is a summary of major progress we made in Q1 of 2025. Its goal is to summarize our major accomplishments and important context before we prioritize for Q2. We hope this gives our community stakeholders a more strategic-level insight into our progress and organizational plans. See
+&lt;/ul></description></item><item><title>Product and team highlights from Q2 2025</title><link>https://2i2c.org/blog/2025/q2-highlights/</link><pubDate>Mon, 21 Jul 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/q2-highlights/</guid><description>&lt;p>This post highlights what stood out to us from last quarter and reflects on the
+&lt;a href="https://2i2c.org/blog/2025/q2-product-goals/" target="_blank" rel="noopener" >targets we set at the start of the quarter&lt;/a>.&lt;/p>
+&lt;p>This quarter, our team learned the importance of shipping iteratively and inviting feedback frequently. In some cases, we learned this the hard way - having spent multiple cycles developing without feedback from community representatives. In other cases, we made rapid progress by working in collaboration with community members in our network. This quarter, we are leaning into this approach as we work towards &lt;strong>building a more standardized and sustainable service&lt;/strong> for our community network.&lt;/p>
+&lt;p>Here&amp;rsquo;s what stood out from the quarter:&lt;/p>
+&lt;h2 id="group-level-resource-monitoring">
+Group-level resource monitoring
+&lt;a class="header-anchor" href="#group-level-resource-monitoring">#&lt;/a>
+&lt;/h2>&lt;p>Building on our previous work delivering
+&lt;a href="https://2i2c.org/blog/2024/aws-cost-attribution/" target="_blank" rel="noopener" >usage monitoring using Prometheus and Grafana&lt;/a>, we&amp;rsquo;ve released
+&lt;a href="https://2i2c.org/blog/2025/jupyterhub-groups-exporter/" target="_blank" rel="noopener" >jupyterhub-groups-exporter&lt;/a>, allowing hub administrators to leverage the latest group management features in JupyterHub to monitor group-level resource usage effectively, making it easier to identify usage patterns across teams and departments.&lt;/p>
+&lt;blockquote>
+&lt;p>⭐ Members of 2i2c&amp;rsquo;s community network can learn how to use this in
+&lt;a href="https://docs.2i2c.org/admin/howto/monitoring/grafana-dashboards/#getting-a-grafana-account" target="_blank" rel="noopener" >our user guide to usage monitoring&lt;/a>. See this
+&lt;a href="https://2i2c.org/blog/2025/jupyterhub-groups-exporter/" target="_blank" rel="noopener" >blog post announcing &lt;code>jupyterhub-groups-exporter&lt;/code>&lt;/a>.&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="improve-creating-and-sharing-custom-environments">
+Improve creating and sharing custom environments
+&lt;a class="header-anchor" href="#improve-creating-and-sharing-custom-environments">#&lt;/a>
+&lt;/h2>&lt;p>Last year we introduced
+&lt;a href="https://2i2c.org/blog/2024/jupyterhub-fancy-profiles-rollout/" target="_blank" rel="noopener" >customizable servers via profile lists&lt;/a>. We&amp;rsquo;re building on that - servers can now be configured to
+&lt;a href="https://docs.2i2c.org/user/topics/dynamic-imagebuilding/" target="_blank" rel="noopener" >allow users to dynamically specify, build, and share their own custom environment images&lt;/a> without the need for a hub administrator. This will allow community champions with diverse user bases to give their users greater flexibility to support a wide variety of custom computational workflows, accelerating knowledge discovery and sharing. Look out for a blog post on this development in the coming weeks and months.&lt;/p>
+&lt;blockquote>
+&lt;p>⭐ Members of 2i2c&amp;rsquo;s community network can learn how to use this in our &lt;strong>
+&lt;a href="https://docs.2i2c.org/user/topics/dynamic-imagebuilding/" target="_blank" rel="noopener" >dynamic image building quick start guide&lt;/a>&lt;/strong>.&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="co-located-narrative-content-with-out-of-the-box-jupyter-book-support">
+Co-located narrative content with out-of-the-box Jupyter Book support
+&lt;a class="header-anchor" href="#co-located-narrative-content-with-out-of-the-box-jupyter-book-support">#&lt;/a>
+&lt;/h2>&lt;p>Central to our communities&amp;rsquo; work is sharing new findings, best practices, and community resources. To facilitate that, we&amp;rsquo;ve added support for
+&lt;a href="http://next.jupyterbook.org" target="_blank" rel="noopener" >Jupyter Book 2&lt;/a> for all of our member communities. Our communities can rapidly build interactive starter documentation and provide users with a rich, interactive, and informative onboarding experience. With a suite of customizable landing-page layouts, colour themes, and component galleries ready to match a community&amp;rsquo;s branding, it&amp;rsquo;s now easier than ever to couple a hub with its own co-located narrative content.&lt;/p>
+&lt;blockquote>
+&lt;p>⭐ Members of 2i2c&amp;rsquo;s community network can learn how to use this in
+&lt;a href="https://docs.2i2c.org/admin/howto/monitoring/cost-attribution/" target="_blank" rel="noopener" >our user guide to documentation and sharing&lt;/a>. See
+&lt;a href="https://2i2c.org/blog/2025/jb-for-communities/" target="_blank" rel="noopener" >this blog post for an announcement&lt;/a>.&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="a-better-onboarding-experience-for-our-communities">
+A better onboarding experience for our communities
+&lt;a class="header-anchor" href="#a-better-onboarding-experience-for-our-communities">#&lt;/a>
+&lt;/h2>&lt;p>We have been working on a streamlined onboarding experience for communities, smoothing out the process of gathering requirements, customizing a hub for the community&amp;rsquo;s specific needs, and delivering new hubs more rapidly. We will be rolling out this process in the next few weeks for new communities onboarding the 2i2c network, and aim to continue learning and refining this process to deliver a faster, smoother onboarding experience for everyone.&lt;/p>
+&lt;blockquote>
+&lt;p>⭐ Members of 2i2c&amp;rsquo;s community network will see &lt;strong>changes to our process&lt;/strong> over the coming months that increase the speed and ease of hub delivery.&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="efforts-to-improve-and-formalize-the-services-we-deliver-to-our-communities">
+Efforts to improve and formalize the services we deliver to our communities
+&lt;a class="header-anchor" href="#efforts-to-improve-and-formalize-the-services-we-deliver-to-our-communities">#&lt;/a>
+&lt;/h2>&lt;p>As 2i2c has grown over the past few years, it organically developed internal processes for handling common tasks such as the management, rollout and maintenance of hubs, as well as expect consulting to help our communities get the most value out of their hubs. Earlier in the year, we realised it was time to review and refine these processes to better serve our growing community network. As a result of this exercise, we now have tighter service definitions and best practices which clarify what service levels our communities can expect, and how we can internally meet those expectations. We will be publishing our service definitions in the coming months as they are finalized, to ensure full transparency with our communities.&lt;/p>
+&lt;blockquote>
+&lt;p>⭐ You can learn more about our efforts to standardize and scale our services by
+&lt;a href="http://2i2c.org/blog" target="_blank" rel="noopener" >following the 2i2c blog&lt;/a>, where we&amp;rsquo;ll share our work as it stabilizes.&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="another-update-coming-in-q3">
+Another update coming in Q3
+&lt;a class="header-anchor" href="#another-update-coming-in-q3">#&lt;/a>
+&lt;/h2>&lt;p>We&amp;rsquo;ll be announcing the focus for our next quarter in a follow-up post, so stay tuned for our next roadmap update, and don&amp;rsquo;t forget to
+&lt;a href="https://docs.google.com/forms/d/e/1FAIpQLSfo6JFr9L5gEFpk_QjoR23YZ9GHXYaO-3WZWZV3qRz8pj7dbg/viewform?usp=dialog" target="_blank" rel="noopener" >let us know what you think&lt;/a> of our direction - we welcome your feedback!&lt;/p></description></item><item><title>Jupyter Book at the Scientific Python 2025 Developer Summit</title><link>https://2i2c.org/blog/2025/scientific-python-summit/</link><pubDate>Fri, 23 May 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/scientific-python-summit/</guid><description>&lt;p>A post on the Jupyter Book blog about the recent Scientific Python 2025 Developer Summit.&lt;/p></description></item><item><title>2025-Q1 reflection: Building a foundation for our new platform and membership model</title><link>https://2i2c.org/blog/2025/q1-reflection/</link><pubDate>Wed, 16 Apr 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/q1-reflection/</guid><description>&lt;p>&lt;em>This is a summary of major progress we made in Q1 of 2025. Its goal is to summarize our major accomplishments and important context before we prioritize for Q2. We hope this gives our community stakeholders a more strategic-level insight into our progress and organizational plans. See
 &lt;a href="https://2i2c.org/blog/2025/q1-product-highlights/" >our Product Highlights for 2025Q1&lt;/a> for a product-focused review. Please
 &lt;a href="" >give us feedback&lt;/a> for how we can provide more useful information.&lt;/em>&lt;/p>
 &lt;p>Heading into Q1 2025, we had just completed an organizational re-structuring into new functional areas. These were
