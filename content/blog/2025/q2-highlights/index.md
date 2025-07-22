@@ -4,7 +4,7 @@ authors:
 - Chris Holdgraf
 - April Johnson
 date: 2025-07-21
-category: Organization
+category: service
 title: Product and team highlights from Q2 2025
 ---
 
