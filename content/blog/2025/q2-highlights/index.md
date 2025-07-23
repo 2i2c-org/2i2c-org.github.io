@@ -11,6 +11,8 @@ title: Product and team highlights from Q2 2025
 
 This post highlights what stood out to us from last quarter and reflects on the [targets we set at the start of the quarter](https://2i2c.org/blog/2025/q2-product-goals/).
 
+> ⭐ Find [our JupyterCon 2025 submissions here](../jupytercon-2025-submissions/index.md) to see some other things we're excited about sharing.
+
 This quarter, our team learned the importance of shipping iteratively and inviting feedback frequently. In some cases, we learned this the hard way - having spent multiple cycles developing without feedback from community representatives. In other cases, we made rapid progress by working in collaboration with community members in our network. This quarter, we are leaning into this approach as we work towards **building a more standardized and sustainable service** for our community network.
 
 Here's what stood out from the quarter:
