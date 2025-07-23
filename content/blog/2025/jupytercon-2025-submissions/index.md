@@ -104,6 +104,18 @@ Come to this talk to:
 
 This is a community talk from the [Jupyter Book team](https://compass.jupyterbook.org/team), detailing the principles behind the new [MyST Document Engine](https://mystmd.org/) and [Jupyter Book 2's upcoming release](https://next.jupyterbook.org). We'll share the text when the Jupyter Book team posts it publicly.
 
+## You don't need to contribute more to open source, you need to go to therapy
+
+Open source communities can be incredible and irreplaceable sources of human connection in our lives, offering a unique kind of fulfillment hard to find elsewhere. This feeling of fulfillment and approval can, for some people, be a soothing balm in an otherwise rough life. However, it has the be part of a healthy, balanced ecosystem of different kinds of connections offering different kinds of fulfillment . If a significant chunk of fulfillment in your life comes from the open source work you do, unbalanced by other sources, that can quickly become unhealthy for both you and the community.  Disagreements are more likely to become high stakes. Interactions can quickly become emotionally charged and filled with hard to interpret subtext. This can both burn you out, and drive away potential new community members. 
+
+This talk explores the why *emotional regulation* is a critical skill for participating in open source communities, and how therapy can be a tool for learning that skill. Come to learn:
+
+1. What is *emotional regulation*?
+2. Why should I care?
+3. What is therapy and how can I access it?
+4. Wait that's not what I thought therapy was! Are you telling me Missy Armitage lied in *Get Out*?!
+5. What negative effects do *communities* feel?
+
 ## What 2i2c has learned while trying to build sustainable relationships with Jupyter's community.
 
 2i2c is a non-profit organization that fosters co-creation and collaboration between science communities and open source communities. We are deeply embedded in an international network of research and education communities, as well as open source communities that underlie their infrastructure (particularly in the Jupyter ecosystem). Our technical infrastructure is built entirely with open source components that we contribute to, but do not control. This is a really hard problem to solve!
