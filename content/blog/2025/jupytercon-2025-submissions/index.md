@@ -11,6 +11,8 @@ draft: false
 
 We were excited to hear that [JupyterCon is happening again in 2025](https://jupytercon.com). The Call for Proposals just wrapped up, and our team was involved in preparing and submitting several directly from 2i2c as well as from the ecosystem in general.
 
+Enjoy brief summaries our the proposals we contributed to below. [Let us know](mailto:hello@2i2c.org) if you have ideas for future talks you want to hear from us? 
+
 > **Note**: Many of these submissions were written in collaboration with others in the open-source projects we participate in. Particularly, in [JupyterHub](https://compass.hub.jupyter.org) and [JupyterBook](https://compass.jupyterbook.org).
 
 ## JupyterHub: A multi-user server for Jupyter notebooks
