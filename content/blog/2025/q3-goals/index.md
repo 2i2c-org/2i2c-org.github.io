@@ -13,7 +13,7 @@ The themes below offer a high-level snapshot of where we aim to evolve our offer
 > ⭐ Connect with us
 >
 > - [Give us feedback](https://docs.google.com/forms/u/1/d/1PXGM9_j0nyFLR1FEs7fz9x1vUuhs-J4IvoWGy5r-2aE/edit?fromCopy=true&ct=2) about our direction and how it can improve.
-> - [Fund parts of this work](mailto:hello@2i2c.org) if you're interested in making something happen.
+> - [Fund parts of this work](https://forms.fillout.com/t/uQHVMkgvsuus) if you're interested in making something happen.
 
 ## Demonstrable reliability of our infrastructure
 
@@ -39,7 +39,7 @@ This year, 2i2c has experimented with a **collaborative community funding model 
 
 As we develop this initiative, we’ll need to learn how to credit community partners who co-sponsor work and align our roadmap with the interests of the upstream communities we support.
 
-If you have suggestions for improving this process, or if any features interest your community, [reach out to us](mailto:hello@2i2c.org) to discuss joining other 2i2c communities in funding and accelerating their development.
+If you have suggestions for improving this process, or if any features interest your community, [reach out to us](https://forms.fillout.com/t/uQHVMkgvsuus) to discuss joining other 2i2c communities in funding and accelerating their development.
 
 ## Another update coming in Q4
 
