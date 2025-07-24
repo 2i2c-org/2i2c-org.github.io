@@ -7,7 +7,7 @@ date: 2025-04-16
 
 _As we head into Q2 of 2025, we continue to focus our work delivering on a small set of core themes that reflect our communities’ most pressing needs. As a part of this process, we want to continue sharing our platform and service goals in an effort to remain transparent, as well as to provide our communities with an opportunity to give us feedback on our direction, and on what’s important for them. See [last quarter’s product goals here](../q1-product-goals/index.md)._
 
-The following themes are not guarantees, but should provide a high level view on how we plan to improve our product and services offerings in the next quarter. **If your organization has funding available to support any of the enhancements below, [reach out to us](mailto:hello@2i2c.org) and we can discuss how you can shape our priorities and outcomes**.
+The following themes are not guarantees, but should provide a high level view on how we plan to improve our product and services offerings in the next quarter. **If your organization has funding available to support any of the enhancements below, [reach out to us](https://forms.fillout.com/t/uQHVMkgvsuus) and we can discuss how you can shape our priorities and outcomes**.
 
 ## Give administrators more control
 
