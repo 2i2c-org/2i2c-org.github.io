@@ -1,4 +1,132 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Community | 2i2c</title><link>https://2i2c.org/tag/community/</link><atom:link href="https://2i2c.org/tag/community/index.xml" rel="self" type="application/rss+xml"/><description>Community</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 11 Mar 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Community</title><link>https://2i2c.org/tag/community/</link></image><item><title>Harnessing Marine Open Data Science for Ocean Sustainability in Africa, South Asia and Latin America</title><link>https://2i2c.org/blog/2025/hackweek-shoutout/</link><pubDate>Tue, 11 Mar 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/hackweek-shoutout/</guid><description>&lt;p>&lt;em>Thank you to Emilio Mayorga for sharing this publication.&lt;/em>&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Community | 2i2c</title><link>https://2i2c.org/tag/community/</link><atom:link href="https://2i2c.org/tag/community/index.xml" rel="self" type="application/rss+xml"/><description>Community</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 19 Jul 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Community</title><link>https://2i2c.org/tag/community/</link></image><item><title>2i2c's submissions to JupyterCon 2025</title><link>https://2i2c.org/blog/2025/jupytercon-2025-submissions/</link><pubDate>Sat, 19 Jul 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/jupytercon-2025-submissions/</guid><description>&lt;p>We were excited to hear that
+&lt;a href="https://jupytercon.com" target="_blank" rel="noopener" >JupyterCon is happening again in 2025&lt;/a>. The Call for Proposals just wrapped up, and our team was involved in preparing and submitting several directly from 2i2c as well as from the ecosystem in general.&lt;/p>
+&lt;p>Enjoy brief summaries of the proposals we contributed to below.
+&lt;a href="" >Let us know&lt;/a> if you have ideas for future talks you want to hear from us?&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;strong>Note&lt;/strong>: Many of these submissions were written in collaboration with others in the open-source projects we participate in. Particularly, in
+&lt;a href="https://compass.hub.jupyter.org" target="_blank" rel="noopener" >JupyterHub&lt;/a> and
+&lt;a href="https://compass.jupyterbook.org" target="_blank" rel="noopener" >JupyterBook&lt;/a>.&lt;/p>
+&lt;/blockquote>
+&lt;h2 id="jupyterhub-a-multi-user-server-for-jupyter-notebooks">
+JupyterHub: A multi-user server for Jupyter notebooks
+&lt;a class="header-anchor" href="#jupyterhub-a-multi-user-server-for-jupyter-notebooks">#&lt;/a>
+&lt;/h2>&lt;p>This is how JupyterHub was described when it was announced in 2015, 10 years ago. The focus was on bringing Jupyter Notebooks to multiple users on shared infrastructure. The Jupyter Notebooks focus was so strong that Jupyter was even in the name of the project! Fast forward 10 years, &amp;amp; this is still the most common perception of JupyterHub.&lt;/p>
+&lt;p>However, this has not been true for a &lt;em>long&lt;/em> time now. Instead of setting up 5 different kinds of infrastructure to support your users based on what kind of &lt;em>interface&lt;/em> they like to use (
+&lt;a href="https://jupyterlab.readthedocs.io/" target="_blank" rel="noopener" >JupyterLab&lt;/a>,
+&lt;a href="https://posit.co/products/open-source/rstudio/" target="_blank" rel="noopener" >RStudio&lt;/a>, Linux Desktop tools like
+&lt;a href="https://qgis.org/" target="_blank" rel="noopener" >QGIS&lt;/a> or
+&lt;a href="https://napari.org/" target="_blank" rel="noopener" >Napari&lt;/a>,
+&lt;a href="https://code.visualstudio.com/" target="_blank" rel="noopener" >Visual Studio Code&lt;/a>, full &lt;code>ssh&lt;/code> (!?), etc) for their interactive computing, you can set up a JupyterHub that supports all of those! Meet your users where they are, rather than force them to conform to using only a specific set of tools.&lt;/p>
+&lt;p>Come to this talk to:&lt;/p>
+&lt;ul>
+&lt;li>See cool demos of various popular applications running on JupyterHub seamlessly&lt;/li>
+&lt;li>Understand the security model of JupyterHub &amp;amp; how that enables these cool demos&lt;/li>
+&lt;li>Learn how you can set up your own application to run in JupyterHub&lt;/li>
+&lt;li>Influence the future of how JupyterHub is marketed&lt;/li>
+&lt;/ul>
+&lt;h2 id="cloudy-with-a-chance-of-savings-per-user-usage-and-cost-monitoring-for-jupyterhubs-in-the-cloud">
+Cloudy with a Chance of Savings: Per-User Usage and Cost Monitoring for JupyterHubs in the Cloud
+&lt;a class="header-anchor" href="#cloudy-with-a-chance-of-savings-per-user-usage-and-cost-monitoring-for-jupyterhubs-in-the-cloud">#&lt;/a>
+&lt;/h2>&lt;p>Cloud cost monitoring is moving beyond just preventing runaway cost explosions – it&amp;rsquo;s about empowering JupyterHub administrators with the guardrails they need to run efficient, transparent, and sustainable infrastructures. A cloud cost bill can show a broad view of services and machines provisioned, but how can we provide granular insights into each user and the value they are deriving from the hub on an application level?&lt;/p>
+&lt;p>We&amp;rsquo;ve developed several open-source components towards answering this question:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Metric Collection&lt;/strong> –
+&lt;a href="https://prometheus.io/" target="_blank" rel="noopener" >Prometheus&lt;/a> collects resource usage metrics (including CPU, memory, and storage) from individual user pods via standard and custom exporters.&lt;/li>
+&lt;li>&lt;strong>Cost Estimation&lt;/strong> – Usage is correlated with AWS cost data to estimate per-user costs.&lt;/li>
+&lt;li>&lt;strong>Visualization&lt;/strong> –
+&lt;a href="https://grafana.com/" target="_blank" rel="noopener" >Grafana&lt;/a> dashboards display rich, interactive views of usage and cost data, making it easy to monitor trends, identify high-cost workloads, and generate reports for funders and decision-makers.&lt;/li>
+&lt;/ul>
+&lt;p>This approach delivers cloud observability and cost transparency that can be reliably deployed using
+&lt;a href="https://kubernetes.io/" target="_blank" rel="noopener" >Kubernetes&lt;/a> and integrated with
+&lt;a href="https://z2jh.jupyter.org/" target="_blank" rel="noopener" >Zero to JupyterHub&lt;/a> distributions.&lt;/p>
+&lt;h2 id="controlling-home-directory-costs-with-user-empathy-on-the-cloud-with-jupyterhub-home-nfs">
+Controlling home directory costs (with user empathy) on the cloud with jupyterhub-home-nfs
+&lt;a class="header-anchor" href="#controlling-home-directory-costs-with-user-empathy-on-the-cloud-with-jupyterhub-home-nfs">#&lt;/a>
+&lt;/h2>&lt;p>User home directories on JupyterHubs deployed in cloud providers has been a pain point for both end users and administrators. Administrators feel the pain of cloud costs for home directory storage (sometimes higher than compute!). No user wants to receive an email saying &amp;ldquo;well, this code you copy pasted downloaded 3TB of netcdf files into your home directory, and now we have used up our entire team&amp;rsquo;s cloud budget for the next 2 years&amp;rdquo; (true story).&lt;/p>
+&lt;p>The
+&lt;a href="https://github.com/2i2c-org/jupyterhub-home-nfs" target="_blank" rel="noopener" >jupyterhub-home-nfs&lt;/a> open source project is a JupyterHub native, cloud agnostic solution to these problems. Administrators can do per user limits, tune performance, report on usage and make cloud cost conscious choices around overprovisioning. It provides users empathetic guardrails to prevent them from overuse, rather than punitive gates that zap them after the fact.&lt;/p>
+&lt;p>In this short talk, we will:&lt;/p>
+&lt;ul>
+&lt;li>Describe the core of the problem, and how it manifests for users and admins.&lt;/li>
+&lt;li>Review current solutions and their limitations&lt;/li>
+&lt;li>Introduce jupyterhub-home-nfs and how it moves the solution space forward&lt;/li>
+&lt;li>Demo how this looks like for an end user&lt;/li>
+&lt;li>Talk about future direction, and opportunities for collaboration&lt;/li>
+&lt;/ul>
+&lt;h2 id="rebuilding-user-trust-in-mybinderorg">
+Rebuilding user trust in &lt;code>mybinder.org&lt;/code>
+&lt;a class="header-anchor" href="#rebuilding-user-trust-in-mybinderorg">#&lt;/a>
+&lt;/h2>&lt;p>Have you clicked a
+&lt;a href="https://mybinder.org/" target="_blank" rel="noopener" >mybinder.org&lt;/a> link, waited for it to start and gave up after it took far too long to start? Or just failed?&lt;/p>
+&lt;p>Have you stopped using mybinder.org for your tutorials, repositories and presentations because you could no longer rely on it to work each time?&lt;/p>
+&lt;p>mybinder.org is open infrastructure run by incredible volunteers (who go above and beyond constantly) in the Jupyter community. Is &amp;lsquo;slow fade into unreliability&amp;rsquo; just the fate of all openly run infrastructure?&lt;/p>
+&lt;p>But perhaps maybe, just maybe, you have tried doing that again recently, &amp;amp; noticed improvements! Launches are more reliable. Faster. The UI looks better. Maybe things are getting better?&lt;/p>
+&lt;p>This talk will go through the problems facing mybinder.org &amp;amp; what we are doing about it. Come to this talk to find out:&lt;/p>
+&lt;ol>
+&lt;li>How is mybinder.org run?&lt;/li>
+&lt;li>What are the structural issues facing open infrastructure services like mybinder.org?&lt;/li>
+&lt;li>What sustainability experiments are we running to improve reliability and rebuild user trust?&lt;/li>
+&lt;li>Has reliability actually improved?&lt;/li>
+&lt;li>How can I help?&lt;/li>
+&lt;/ol>
+&lt;h2 id="can-your-jupyterhub-handle-your-workload-performance-testing-with-jupyterhub-simulator">
+Can your JupyterHub handle your workload? Performance testing with &lt;code>jupyterhub-simulator&lt;/code>
+&lt;a class="header-anchor" href="#can-your-jupyterhub-handle-your-workload-performance-testing-with-jupyterhub-simulator">#&lt;/a>
+&lt;/h2>&lt;p>Your JupyterHub is all set up, and you&amp;rsquo;re excited to use it for your workshop of 60 students. Or your class of 600 students. Or your research group of 5 people with complex workflows.&lt;/p>
+&lt;p>You &lt;em>feel&lt;/em> your infrastructure should hold up fine, but do you &lt;em>know&lt;/em> if your infrastructure will hold up fine? Is that just excitement, or is there a little bit of nervousness in there too? Wouldn&amp;rsquo;t it be nice to test and know for sure?&lt;/p>
+&lt;p>&lt;code>jupyterhub-simulator&lt;/code> is an open source project that allows you to describe what you expect your users to be doing - starting servers, clicking on
+&lt;a href="https://github.com/jupyterhub/nbgitpuller" target="_blank" rel="noopener" >nbgitpuller&lt;/a> links, running notebooks, etc. Once you have described it, you can then simulate any number of users doing that workflow simultaneously, and verify that your JupyterHub can handle that workload. If it can&amp;rsquo;t, tweak your infrastructure and try again until it does!&lt;/p>
+&lt;p>In this talk you will learn:&lt;/p>
+&lt;ul>
+&lt;li>What is &lt;code>jupyterhub-simulator&lt;/code>?&lt;/li>
+&lt;li>How can I describe my expected workflow?&lt;/li>
+&lt;li>How can I test if N users can do this workflow all simultaneously?&lt;/li>
+&lt;li>How can I visualize the performance of my infrastructure so I can tweak its configuration and try the simulation again?&lt;/li>
+&lt;/ul>
+&lt;h2 id="not-just-for-notebooks-jupyterhub-in-2025">
+Not just for notebooks: JupyterHub in 2025
+&lt;a class="header-anchor" href="#not-just-for-notebooks-jupyterhub-in-2025">#&lt;/a>
+&lt;/h2>&lt;blockquote>
+&lt;p>JupyterHub: A multi-user server for Jupyter notebooks&lt;/p>
+&lt;/blockquote>
+&lt;p>This is how JupyterHub was described when it was announced in 2015, 10 years ago. The focus was on bringing Jupyter Notebooks to multiple users on shared infrastructure. The Jupyter Notebooks focus was so strong that Jupyter was even in the name of the project! Fast forward 10 years, &amp;amp; this is still the most common perception of JupyterHub.&lt;/p>
+&lt;p>However, this has not been true for a &lt;em>long&lt;/em> time now. Instead of setting up 5 different kinds of infrastructure to support your users based on what kind of &lt;em>interface&lt;/em> they like to use (
+&lt;a href="https://jupyterlab.readthedocs.io/" target="_blank" rel="noopener" >JupyterLab&lt;/a>,
+&lt;a href="https://posit.co/products/open-source/rstudio/" target="_blank" rel="noopener" >RStudio&lt;/a>, Linux Desktop tools like
+&lt;a href="https://qgis.org/" target="_blank" rel="noopener" >QGIS&lt;/a> or
+&lt;a href="https://napari.org/" target="_blank" rel="noopener" >Napari&lt;/a>,
+&lt;a href="https://code.visualstudio.com/" target="_blank" rel="noopener" >Visual Studio Code&lt;/a>, full &lt;code>ssh&lt;/code> (!?), etc) for their interactive computing, you can set up a JupyterHub that supports all of those! Meet your users where they are, rather than force them to conform to using only a specific set of tools.&lt;/p>
+&lt;p>Come to this talk to:&lt;/p>
+&lt;ul>
+&lt;li>See cool demos of various popular applications running on JupyterHub seamlessly&lt;/li>
+&lt;li>Understand the security model of JupyterHub &amp;amp; how that enables these cool demos&lt;/li>
+&lt;li>Learn how you can set up your own application to run in JupyterHub&lt;/li>
+&lt;li>Influence the future of how JupyterHub is marketed&lt;/li>
+&lt;/ul>
+&lt;h2 id="introducing-jupyter-book-20">
+Introducing Jupyter Book 2.0
+&lt;a class="header-anchor" href="#introducing-jupyter-book-20">#&lt;/a>
+&lt;/h2>&lt;p>This is a community talk from the
+&lt;a href="https://compass.jupyterbook.org/team" target="_blank" rel="noopener" >Jupyter Book team&lt;/a>, detailing the principles behind the new
+&lt;a href="https://mystmd.org/" target="_blank" rel="noopener" >MyST Document Engine&lt;/a> and
+&lt;a href="https://next.jupyterbook.org" target="_blank" rel="noopener" >Jupyter Book 2&amp;rsquo;s upcoming release&lt;/a>. We&amp;rsquo;ll share the text when the Jupyter Book team posts it publicly.&lt;/p>
+&lt;h2 id="you-dont-need-to-contribute-more-to-open-source-you-need-to-go-to-therapy">
+You don&amp;rsquo;t need to contribute more to open source, you need to go to therapy
+&lt;a class="header-anchor" href="#you-dont-need-to-contribute-more-to-open-source-you-need-to-go-to-therapy">#&lt;/a>
+&lt;/h2>&lt;p>Open source communities can be incredible and irreplaceable sources of human connection in our lives, offering a unique kind of fulfillment hard to find elsewhere. This feeling of fulfillment and approval can, for some people, be a soothing balm in an otherwise rough life. However, it has the be part of a healthy, balanced ecosystem of different kinds of connections offering different kinds of fulfillment . If a significant chunk of fulfillment in your life comes from the open source work you do, unbalanced by other sources, that can quickly become unhealthy for both you and the community. Disagreements are more likely to become high stakes. Interactions can quickly become emotionally charged and filled with hard to interpret subtext. This can both burn you out, and drive away potential new community members.&lt;/p>
+&lt;p>This talk explores the why &lt;em>emotional regulation&lt;/em> is a critical skill for participating in open source communities, and how therapy can be a tool for learning that skill. Come to learn:&lt;/p>
+&lt;ol>
+&lt;li>What is &lt;em>emotional regulation&lt;/em>?&lt;/li>
+&lt;li>Why should I care?&lt;/li>
+&lt;li>What is therapy and how can I access it?&lt;/li>
+&lt;li>Wait that&amp;rsquo;s not what I thought therapy was! Are you telling me Missy Armitage lied in &lt;em>Get Out&lt;/em>?!&lt;/li>
+&lt;li>What negative effects do &lt;em>communities&lt;/em> feel?&lt;/li>
+&lt;/ol>
+&lt;h2 id="what-2i2c-has-learned-while-trying-to-build-sustainable-relationships-with-jupyters-community">
+What 2i2c has learned while trying to build sustainable relationships with Jupyter&amp;rsquo;s community.
+&lt;a class="header-anchor" href="#what-2i2c-has-learned-while-trying-to-build-sustainable-relationships-with-jupyters-community">#&lt;/a>
+&lt;/h2>&lt;p>2i2c is a non-profit organization that fosters co-creation and collaboration between science communities and open source communities. We are deeply embedded in an international network of research and education communities, as well as open source communities that underlie their infrastructure (particularly in the Jupyter ecosystem). Our technical infrastructure is built entirely with open source components that we contribute to, but do not control. This is a really hard problem to solve!&lt;/p>
+&lt;p>We&amp;rsquo;ve learned a lot in the first four years of our existence. This talk will describe how our organization approaches a healthy and productive open source relationship with the Jupyter (and broader scientific python) ecosystem. It&amp;rsquo;ll cover some of the major mistakes we&amp;rsquo;ve made, lessons learned, and where we think we&amp;rsquo;ve had impact. We aim to make this talk full of practical learnings that others can follow in building sustainable open science organizations that contribute to a healthy and vibrant open source ecosystem. Our goal will be to provide inspiration to others that are interested in building on top of open source projects like Jupyter, and want to do so in a way that is healthy and sustainable.&lt;/p></description></item><item><title>Harnessing Marine Open Data Science for Ocean Sustainability in Africa, South Asia and Latin America</title><link>https://2i2c.org/blog/2025/hackweek-shoutout/</link><pubDate>Tue, 11 Mar 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/hackweek-shoutout/</guid><description>&lt;p>&lt;em>Thank you to Emilio Mayorga for sharing this publication.&lt;/em>&lt;/p>
 &lt;p>Several community members, including
 &lt;a href="https://github.com/paigem" target="_blank" rel="noopener" >Paige Martin&lt;/a> (Australian Climate Simulator),
 &lt;a href="https://github.com/eeholmes" target="_blank" rel="noopener" >Eli Holmes&lt;/a> (NOAA Fisheries), and
