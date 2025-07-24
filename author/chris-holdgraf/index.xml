@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Chris Holdgraf | 2i2c</title><link>https://2i2c.org/author/chris-holdgraf/</link><atom:link href="https://2i2c.org/author/chris-holdgraf/index.xml" rel="self" type="application/rss+xml"/><description>Chris Holdgraf</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 21 Jul 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/author/chris-holdgraf/avatar_hu239570f3b0123c4756b7a8f15caec1a2_32796_270x270_fill_q75_lanczos_center.jpg</url><title>Chris Holdgraf</title><link>https://2i2c.org/author/chris-holdgraf/</link></image><item><title>Chris Holdgraf</title><link>https://2i2c.org/author/chris-holdgraf/</link><pubDate>Mon, 21 Jul 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/author/chris-holdgraf/</guid><description>&lt;p>Chris is the Executive Director of
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Chris Holdgraf | 2i2c</title><link>https://2i2c.org/author/chris-holdgraf/</link><atom:link href="https://2i2c.org/author/chris-holdgraf/index.xml" rel="self" type="application/rss+xml"/><description>Chris Holdgraf</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 22 Jul 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/author/chris-holdgraf/avatar_hu239570f3b0123c4756b7a8f15caec1a2_32796_270x270_fill_q75_lanczos_center.jpg</url><title>Chris Holdgraf</title><link>https://2i2c.org/author/chris-holdgraf/</link></image><item><title>Chris Holdgraf</title><link>https://2i2c.org/author/chris-holdgraf/</link><pubDate>Tue, 22 Jul 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/author/chris-holdgraf/</guid><description>&lt;p>Chris is the Executive Director of
 &lt;a href="https://2i2c.org" target="_blank" rel="noopener" >2i2c&lt;/a>. He is on the
 &lt;a href="https://ec.jupyter.org" target="_blank" rel="noopener" >Jupyter Executive Council&lt;/a> as well as the
 &lt;a href="https://jupyterfoundation.org" target="_blank" rel="noopener" >Jupyter Foundation Board&lt;/a>. He has been a co-lead of several projects within the Jupyter ecosystem for over ten years (particularly the
@@ -14,10 +14,58 @@
 &lt;li>Jupyter Distinguished Contributor&lt;/li>
 &lt;li>Co-led JupyterHub, Binder, and Jupyter Book&lt;/li>
 &lt;li>Co-created the DataHub interactive computing service for the Data Science Education Program at UC Berkeley.&lt;/li>
-&lt;/ul></description></item><item><title>Product and team highlights from Q2 2025</title><link>https://2i2c.org/blog/2025/q2-highlights/</link><pubDate>Mon, 21 Jul 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/q2-highlights/</guid><description>&lt;p>This post highlights what stood out to us from last quarter and reflects on the
+&lt;/ul></description></item><item><title>Our Product and Service goals for Q3 2025</title><link>https://2i2c.org/blog/2025/q3-goals/</link><pubDate>Tue, 22 Jul 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/q3-goals/</guid><description>&lt;p>As we enter Q3 2025, our focus remains on enabling better cost controls for our communities and increasing flexibility for end-users. In line with our commitment to transparency, we’re sharing our platform and service objectives for the quarter and inviting feedback to ensure our direction reflects what matters most to the communities we serve. See our
+&lt;a href="https://2i2c.org/blog/2025/q2-product-goals/" target="_blank" rel="noopener" >product goals from the previous quarter here&lt;/a>.&lt;/p>
+&lt;p>The themes below offer a high-level snapshot of where we aim to evolve our offerings in the coming months.&lt;/p>
+&lt;blockquote>
+&lt;p>⭐ Connect with us&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="https://docs.google.com/forms/u/1/d/1PXGM9_j0nyFLR1FEs7fz9x1vUuhs-J4IvoWGy5r-2aE/edit?fromCopy=true&amp;amp;ct=2" target="_blank" rel="noopener" >Give us feedback&lt;/a> about our direction and how it can improve.&lt;/li>
+&lt;li>
+&lt;a href="https://forms.fillout.com/t/uQHVMkgvsuus" target="_blank" rel="noopener" >Fund parts of this work&lt;/a> if you&amp;rsquo;re interested in making something happen.&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;h2 id="demonstrable-reliability-of-our-infrastructure">
+Demonstrable reliability of our infrastructure
+&lt;a class="header-anchor" href="#demonstrable-reliability-of-our-infrastructure">#&lt;/a>
+&lt;/h2>&lt;p>Hub management has many moving parts, and things can go wrong. We want tighter control over the reliability of our infrastructure and better visibility into the status of our community hubs for administrators and members. We will take steps to improve &lt;strong>alerting&lt;/strong>, &lt;strong>uptime&lt;/strong>, and &lt;strong>overall platform reliability&lt;/strong>, as well as review our internal &lt;strong>incident response practices&lt;/strong>. Our goal is to improve the reliability and responsivity of our interactive computing hubs for both administrators and users throughout their community hub lifecycle.&lt;/p>
+&lt;h2 id="user-level-costs-monitoring-and-group-level-usage-monitoring">
+User-level costs monitoring and group-level usage monitoring
+&lt;a class="header-anchor" href="#user-level-costs-monitoring-and-group-level-usage-monitoring">#&lt;/a>
+&lt;/h2>&lt;p>We&amp;rsquo;ll build on our recent
+&lt;a href="https://2i2c.org/blog/2024/aws-cost-attribution/" target="_blank" rel="noopener" >Grafana dashboard usage monitoring&lt;/a> to add &lt;strong>usage monitoring for user groups&lt;/strong> and begin work on &lt;strong>user-level costs monitoring&lt;/strong>. These are steps toward group-level cost tracking, which will enable better management of team and departmental expenses, especially in large institutions.&lt;/p>
+&lt;h2 id="improving-our-incident-response-capability">
+Improving our Incident Response capability
+&lt;a class="header-anchor" href="#improving-our-incident-response-capability">#&lt;/a>
+&lt;/h2>&lt;p>As a special-case of doubling down on infrastructure reliability, we&amp;rsquo;re making a concerted effort to improve our incident response processes. This will allow us to respond more reliably and transparently to issues as they arise, and to give our communities confidence about the steps we&amp;rsquo;re taking to resolve them. Our goal is to improve response time and quality, and connect this with infrastructure reliability improvements.&lt;/p>
+&lt;h2 id="piloting-a-feature-co-funding-model">
+Piloting a feature co-funding model
+&lt;a class="header-anchor" href="#piloting-a-feature-co-funding-model">#&lt;/a>
+&lt;/h2>&lt;p>This year, 2i2c has experimented with a &lt;strong>collaborative community funding model for platform development&lt;/strong>. This is a way to share funding across communities, and to invite community champions to co-fund projects on the 2i2c roadmap. Our goal is to accelerate upstream development with funded time while minimizing costs for each community. Over the next quarter, we’ll share more details on how the program works, how communities can participate, and what we&amp;rsquo;re learning along the way.&lt;/p>
+&lt;p>&lt;strong>Early candidates for community funding:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Compute quotas&lt;/strong>: Building on our user and group management foundation, we aim to let admins assign compute quotas to users or groups, increasing cost control and easing departmental budgeting.&lt;/li>
+&lt;li>&lt;strong>Canvas authentication&lt;/strong>: Integrating with Canvas will enable management of users and groups within Canvas, while using the same data for usage and cost tracking.&lt;/li>
+&lt;li>&lt;strong>nbgitpuller UX improvements&lt;/strong>: Enhance nbgitpuller for sharing interactive projects via a simple link, focusing on error handling, conflict resolution, and per-user authentication for content retrieval.&lt;/li>
+&lt;/ul>
+&lt;p>As we develop this initiative, we’ll need to learn how to credit community partners who co-sponsor work and align our roadmap with the interests of the upstream communities we support.&lt;/p>
+&lt;p>If you have suggestions for improving this process, or if any features interest your community,
+&lt;a href="https://forms.fillout.com/t/uQHVMkgvsuus" target="_blank" rel="noopener" >reach out to us&lt;/a> to discuss joining other 2i2c communities in funding and accelerating their development.&lt;/p>
+&lt;h2 id="another-update-coming-in-q4">
+Another update coming in Q4
+&lt;a class="header-anchor" href="#another-update-coming-in-q4">#&lt;/a>
+&lt;/h2>&lt;p>Each quarter, we’ll share an update like this to outline our product priorities and track progress. When planning for Q4, we’ll review what we’ve accomplished and provide a community update. Stay tuned!&lt;/p>
+&lt;p>Meanwhile,
+&lt;a href="https://docs.google.com/forms/u/1/d/1PXGM9_j0nyFLR1FEs7fz9x1vUuhs-J4IvoWGy5r-2aE/edit?fromCopy=true&amp;amp;ct=2" target="_blank" rel="noopener" >let us know what you think&lt;/a> about our direction. Your feedback helps us provide the best value to our communities. Thank you!&lt;/p></description></item><item><title>Product and team highlights from Q2 2025</title><link>https://2i2c.org/blog/2025/q2-highlights/</link><pubDate>Mon, 21 Jul 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/q2-highlights/</guid><description>&lt;p>This post highlights what stood out to us from last quarter and reflects on the
 &lt;a href="https://2i2c.org/blog/2025/q2-product-goals/" target="_blank" rel="noopener" >targets we set at the start of the quarter&lt;/a>.&lt;/p>
-&lt;p>This quarter, our team learned the importance of shipping iteratively and inviting feedback frequently. In some cases, we learned this the hard way - having spent multiple cycles developing without feedback from community representatives. In other cases, we made rapid progress by working in collaboration with community members in our network. This quarter, we are leaning into this approach as we work towards &lt;strong>building a more standardized and sustainable service&lt;/strong> for our community network.&lt;/p>
-&lt;p>Here&amp;rsquo;s what stood out from the quarter:&lt;/p>
+&lt;p>This quarter, our team learned the importance of shipping iteratively and inviting feedback frequently. In some cases, we learned this the hard way - having spent multiple cycles developing without feedback from community representatives. In other cases, we made rapid progress by working in collaboration with community members in our network. next quarter, we are leaning into this approach as we work towards &lt;strong>building a more standardized and sustainable service&lt;/strong> for our community network.&lt;/p>
+&lt;p>We&amp;rsquo;ve experienced some disruption and more uncertainty due to the current scientific funding climate, and we&amp;rsquo;re working hard to iterate on this model with feedback from our communities to find a path towards sustainability. We&amp;rsquo;re confident that we&amp;rsquo;ll get there, and improving the value our network of community hubs is a key way to do so.&lt;/p>
+&lt;p>With that in mind, here&amp;rsquo;s what stood out from the quarter:&lt;/p>
+&lt;blockquote>
+&lt;p>⭐ Find
+&lt;a href="https://2i2c.org/blog/2025/jupytercon-2025-submissions/" >our JupyterCon 2025 submissions here&lt;/a> to see some other things we&amp;rsquo;re excited about sharing.&lt;/p>
+&lt;/blockquote>
 &lt;h2 id="group-level-resource-monitoring">
 Group-level resource monitoring
 &lt;a class="header-anchor" href="#group-level-resource-monitoring">#&lt;/a>
@@ -136,7 +184,7 @@ Concluding thoughts
 &lt;p>In Q2, we need to prioritize the refinement of our Business Development / Membership model and the system we use for growing and sustaining it. Our P&amp;amp;S team is now much more reliable at planning and delivering work, and our next bottleneck is having a business process that can reliably &lt;em>generate&lt;/em> work and revenue that sustains the organization. This will be a key focus in our Q2 planning.&lt;/p></description></item><item><title>Our Product and Service goals for Q2 2025</title><link>https://2i2c.org/blog/2025/q2-product-goals/</link><pubDate>Wed, 16 Apr 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/q2-product-goals/</guid><description>&lt;p>&lt;em>As we head into Q2 of 2025, we continue to focus our work delivering on a small set of core themes that reflect our communities’ most pressing needs. As a part of this process, we want to continue sharing our platform and service goals in an effort to remain transparent, as well as to provide our communities with an opportunity to give us feedback on our direction, and on what’s important for them. See
 &lt;a href="https://2i2c.org/blog/2025/q1-product-goals/" >last quarter’s product goals here&lt;/a>.&lt;/em>&lt;/p>
 &lt;p>The following themes are not guarantees, but should provide a high level view on how we plan to improve our product and services offerings in the next quarter. &lt;strong>If your organization has funding available to support any of the enhancements below,
-&lt;a href="" >reach out to us&lt;/a> and we can discuss how you can shape our priorities and outcomes&lt;/strong>.&lt;/p>
+&lt;a href="https://forms.fillout.com/t/uQHVMkgvsuus" target="_blank" rel="noopener" >reach out to us&lt;/a> and we can discuss how you can shape our priorities and outcomes&lt;/strong>.&lt;/p>
 &lt;h2 id="give-administrators-more-control">
 Give administrators more control
 &lt;a class="header-anchor" href="#give-administrators-more-control">#&lt;/a>
