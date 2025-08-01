@@ -3,6 +3,7 @@ title: Our Product and Service goals for Q3 2025
 authors:
 - Giuliano Maciocci
 - Chris Holdgraf
+categories: service
 date: 2025-07-22
 ---
 

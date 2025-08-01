@@ -1,7 +1,7 @@
 ---
 title: "Our Product and Service goals for Q2 2025"
 authors: ["Giuliano Maciocci", "Chris Holdgraf"]
-categories: [organization]
+categories: service
 date: 2025-04-16
 ---
 
