@@ -14,3 +14,7 @@ As part of this work, we decided to do a small [overhaul of repo2docker's docume
 ![Repo2Docker documentation overhaul](./featured.png "The new repo2docker landing page now looks more like an actual landing page!")
 
 We hope this makes repo2docker a more useful tool for everybody, and also gives us more confidence pointing our communities to the repo2docker documentation in their community workflows.
+
+## Acknowledgements
+
+This work was made possible in-part by funding and in-kind support from the [NASA VEDA project](https://www.earthdata.nasa.gov/data/tools/veda).
