@@ -1,4 +1,47 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Service | 2i2c</title><link>https://2i2c.org/category/service/</link><atom:link href="https://2i2c.org/category/service/index.xml" rel="self" type="application/rss+xml"/><description>Service</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 11 Jun 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Service</title><link>https://2i2c.org/category/service/</link></image><item><title>Announcing `jupyterhub-groups-exporter`: monitor usage based on JupyterHub group membership with Prometheus and Grafana</title><link>https://2i2c.org/blog/2025/jupyterhub-groups-exporter/</link><pubDate>Wed, 11 Jun 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/jupyterhub-groups-exporter/</guid><description>&lt;p>Managing user groups in JupyterHub can be a challenging task, especially in environments with dynamic user bases and complex group structures. This post describes how we can leverage the latest group management features in JupyterHub, along with Prometheus and Grafana, to monitor group-level resource usage effectively.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Service | 2i2c</title><link>https://2i2c.org/category/service/</link><atom:link href="https://2i2c.org/category/service/index.xml" rel="self" type="application/rss+xml"/><description>Service</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 22 Jul 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Service</title><link>https://2i2c.org/category/service/</link></image><item><title>Our Product and Service goals for Q3 2025</title><link>https://2i2c.org/blog/2025/q3-goals/</link><pubDate>Tue, 22 Jul 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/q3-goals/</guid><description>&lt;p>As we enter Q3 2025, our focus remains on enabling better cost controls for our communities and increasing flexibility for end-users. In line with our commitment to transparency, we’re sharing our platform and service objectives for the quarter and inviting feedback to ensure our direction reflects what matters most to the communities we serve. See our
+&lt;a href="https://2i2c.org/blog/2025/q2-product-goals/" target="_blank" rel="noopener" >product goals from the previous quarter here&lt;/a>.&lt;/p>
+&lt;p>The themes below offer a high-level snapshot of where we aim to evolve our offerings in the coming months.&lt;/p>
+&lt;blockquote>
+&lt;p>⭐ Connect with us&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="https://docs.google.com/forms/u/1/d/1PXGM9_j0nyFLR1FEs7fz9x1vUuhs-J4IvoWGy5r-2aE/edit?fromCopy=true&amp;amp;ct=2" target="_blank" rel="noopener" >Give us feedback&lt;/a> about our direction and how it can improve.&lt;/li>
+&lt;li>
+&lt;a href="https://forms.fillout.com/t/uQHVMkgvsuus" target="_blank" rel="noopener" >Fund parts of this work&lt;/a> if you&amp;rsquo;re interested in making something happen.&lt;/li>
+&lt;/ul>
+&lt;/blockquote>
+&lt;h2 id="demonstrable-reliability-of-our-infrastructure">
+Demonstrable reliability of our infrastructure
+&lt;a class="header-anchor" href="#demonstrable-reliability-of-our-infrastructure">#&lt;/a>
+&lt;/h2>&lt;p>Hub management has many moving parts, and things can go wrong. We want tighter control over the reliability of our infrastructure and better visibility into the status of our community hubs for administrators and members. We will take steps to improve &lt;strong>alerting&lt;/strong>, &lt;strong>uptime&lt;/strong>, and &lt;strong>overall platform reliability&lt;/strong>, as well as review our internal &lt;strong>incident response practices&lt;/strong>. Our goal is to improve the reliability and responsivity of our interactive computing hubs for both administrators and users throughout their community hub lifecycle.&lt;/p>
+&lt;h2 id="user-level-costs-monitoring-and-group-level-usage-monitoring">
+User-level costs monitoring and group-level usage monitoring
+&lt;a class="header-anchor" href="#user-level-costs-monitoring-and-group-level-usage-monitoring">#&lt;/a>
+&lt;/h2>&lt;p>We&amp;rsquo;ll build on our recent
+&lt;a href="https://2i2c.org/blog/2024/aws-cost-attribution/" target="_blank" rel="noopener" >Grafana dashboard usage monitoring&lt;/a> to add &lt;strong>usage monitoring for user groups&lt;/strong> and begin work on &lt;strong>user-level costs monitoring&lt;/strong>. These are steps toward group-level cost tracking, which will enable better management of team and departmental expenses, especially in large institutions.&lt;/p>
+&lt;h2 id="improving-our-incident-response-capability">
+Improving our Incident Response capability
+&lt;a class="header-anchor" href="#improving-our-incident-response-capability">#&lt;/a>
+&lt;/h2>&lt;p>As a special-case of doubling down on infrastructure reliability, we&amp;rsquo;re making a concerted effort to improve our incident response processes. This will allow us to respond more reliably and transparently to issues as they arise, and to give our communities confidence about the steps we&amp;rsquo;re taking to resolve them. Our goal is to improve response time and quality, and connect this with infrastructure reliability improvements.&lt;/p>
+&lt;h2 id="piloting-a-feature-co-funding-model">
+Piloting a feature co-funding model
+&lt;a class="header-anchor" href="#piloting-a-feature-co-funding-model">#&lt;/a>
+&lt;/h2>&lt;p>This year, 2i2c has experimented with a &lt;strong>collaborative community funding model for platform development&lt;/strong>. This is a way to share funding across communities, and to invite community champions to co-fund projects on the 2i2c roadmap. Our goal is to accelerate upstream development with funded time while minimizing costs for each community. Over the next quarter, we’ll share more details on how the program works, how communities can participate, and what we&amp;rsquo;re learning along the way.&lt;/p>
+&lt;p>&lt;strong>Early candidates for community funding:&lt;/strong>&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Compute quotas&lt;/strong>: Building on our user and group management foundation, we aim to let admins assign compute quotas to users or groups, increasing cost control and easing departmental budgeting.&lt;/li>
+&lt;li>&lt;strong>Canvas authentication&lt;/strong>: Integrating with Canvas will enable management of users and groups within Canvas, while using the same data for usage and cost tracking.&lt;/li>
+&lt;li>&lt;strong>nbgitpuller UX improvements&lt;/strong>: Enhance nbgitpuller for sharing interactive projects via a simple link, focusing on error handling, conflict resolution, and per-user authentication for content retrieval.&lt;/li>
+&lt;/ul>
+&lt;p>As we develop this initiative, we’ll need to learn how to credit community partners who co-sponsor work and align our roadmap with the interests of the upstream communities we support.&lt;/p>
+&lt;p>If you have suggestions for improving this process, or if any features interest your community,
+&lt;a href="https://forms.fillout.com/t/uQHVMkgvsuus" target="_blank" rel="noopener" >reach out to us&lt;/a> to discuss joining other 2i2c communities in funding and accelerating their development.&lt;/p>
+&lt;h2 id="another-update-coming-in-q4">
+Another update coming in Q4
+&lt;a class="header-anchor" href="#another-update-coming-in-q4">#&lt;/a>
+&lt;/h2>&lt;p>Each quarter, we’ll share an update like this to outline our product priorities and track progress. When planning for Q4, we’ll review what we’ve accomplished and provide a community update. Stay tuned!&lt;/p>
+&lt;p>Meanwhile,
+&lt;a href="https://docs.google.com/forms/u/1/d/1PXGM9_j0nyFLR1FEs7fz9x1vUuhs-J4IvoWGy5r-2aE/edit?fromCopy=true&amp;amp;ct=2" target="_blank" rel="noopener" >let us know what you think&lt;/a> about our direction. Your feedback helps us provide the best value to our communities. Thank you!&lt;/p></description></item><item><title>Announcing `jupyterhub-groups-exporter`: monitor usage based on JupyterHub group membership with Prometheus and Grafana</title><link>https://2i2c.org/blog/2025/jupyterhub-groups-exporter/</link><pubDate>Wed, 11 Jun 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/jupyterhub-groups-exporter/</guid><description>&lt;p>Managing user groups in JupyterHub can be a challenging task, especially in environments with dynamic user bases and complex group structures. This post describes how we can leverage the latest group management features in JupyterHub, along with Prometheus and Grafana, to monitor group-level resource usage effectively.&lt;/p>
 &lt;blockquote>
 &lt;p>⭐ &lt;strong>Members of 2i2c&amp;rsquo;s community network&lt;/strong> can use this feature in their hubs by
 &lt;a href="https://docs.2i2c.org/admin/howto/monitoring/cost-attribution/" target="_blank" rel="noopener" >following our cost attribution documentation&lt;/a>.&lt;/p>
@@ -222,7 +265,40 @@ Conclusion
 &lt;a href="https://jetstream-cloud.org/contact/index.html" target="_blank" rel="noopener" >Jetstream2 support process&lt;/a> was also a pleasant experience because they were super prompt in answering and they were very nice.&lt;/p>
 &lt;p>Jetstream2 has a big plus over the other cloud providers with its openness thought the ACCESS program. This is something very handy to researchers and less costly than other cloud providers. 2i2c being able to offer hubs though this ACCESS program makes things more accessible to more researchers and more cost efficient.&lt;/p>
 &lt;p>Higher complexity comes also with more control over the infrastructure which has its advantages.&lt;/p>
-&lt;p>Leaving the challenges apart, the experience was a nice one and the outcome was positive -&amp;gt; 2i2c is now able to deploy both mybinder.org-like hubs as well as persistent storage hubs on Jetstream2 hardware, from the same cloud-agnostic infrastructure.&lt;/p></description></item><item><title>Our product highlights from Q2 2025</title><link>https://2i2c.org/blog/2025/q1-product-highlights/</link><pubDate>Wed, 16 Apr 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/q1-product-highlights/</guid><description>&lt;p>&lt;em>These describe the major service improvements that we rolled out in Q1 2025. See this
+&lt;p>Leaving the challenges apart, the experience was a nice one and the outcome was positive -&amp;gt; 2i2c is now able to deploy both mybinder.org-like hubs as well as persistent storage hubs on Jetstream2 hardware, from the same cloud-agnostic infrastructure.&lt;/p></description></item><item><title>Our Product and Service goals for Q2 2025</title><link>https://2i2c.org/blog/2025/q2-product-goals/</link><pubDate>Wed, 16 Apr 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/q2-product-goals/</guid><description>&lt;p>&lt;em>As we head into Q2 of 2025, we continue to focus our work delivering on a small set of core themes that reflect our communities’ most pressing needs. As a part of this process, we want to continue sharing our platform and service goals in an effort to remain transparent, as well as to provide our communities with an opportunity to give us feedback on our direction, and on what’s important for them. See
+&lt;a href="https://2i2c.org/blog/2025/q1-product-goals/" >last quarter’s product goals here&lt;/a>.&lt;/em>&lt;/p>
+&lt;p>The following themes are not guarantees, but should provide a high level view on how we plan to improve our product and services offerings in the next quarter. &lt;strong>If your organization has funding available to support any of the enhancements below,
+&lt;a href="https://forms.fillout.com/t/uQHVMkgvsuus" target="_blank" rel="noopener" >reach out to us&lt;/a> and we can discuss how you can shape our priorities and outcomes&lt;/strong>.&lt;/p>
+&lt;h2 id="give-administrators-more-control">
+Give administrators more control
+&lt;a class="header-anchor" href="#give-administrators-more-control">#&lt;/a>
+&lt;/h2>&lt;p>The implementation of
+&lt;a href="https://2i2c.org/blog/2025/per-user-storage-quota-gcp/" target="_blank" rel="noopener" >per-user storage quotas&lt;/a> in Q1 was the start of a set of product initiatives aimed at giving hub administrators more control and peace of mind over unexpected cost overruns.&lt;/p>
+&lt;p>We aim to continue giving administrators more control by implementing the ability to &lt;strong>associate users with groups for usage monitoring&lt;/strong>, and as a foundation for future improvements which will deliver &lt;strong>group-level management of storage quotas,&lt;/strong> and later Compute and Dask quotas.&lt;/p>
+&lt;h2 id="improve-creating-and-sharing-custom-environments">
+Improve creating and sharing custom environments
+&lt;a class="header-anchor" href="#improve-creating-and-sharing-custom-environments">#&lt;/a>
+&lt;/h2>&lt;p>One of the wonderful things about shared open source JupyterHub infrastructure is that it allows community members to share their projects with each other in ways that ensure the work can be fully experienced by the recipient, complete with fully executable content.&lt;/p>
+&lt;p>In Q2, we aim to improve the ability for hub users to &lt;strong>build custom environments in their hubs&lt;/strong>, and later to easily &lt;strong>share those custom environments with others&lt;/strong>, ensuring their entire toolchain is replicated in full.&lt;/p>
+&lt;h2 id="out-of-the-box-jupyter-book-support">
+Out-of-the-box Jupyter Book support
+&lt;a class="header-anchor" href="#out-of-the-box-jupyter-book-support">#&lt;/a>
+&lt;/h2>&lt;p>We have been working on scoping and building a default JupyterBook implementation
+&lt;a href="http://mystmd.org" target="_blank" rel="noopener" >using the new MyST document engine&lt;/a>, aiming to deliver a default set of tools for &lt;strong>authoring and sharing documentation&lt;/strong>, &lt;strong>customizable landing pages&lt;/strong> and &lt;strong>interactive training materials&lt;/strong> out of the box with new hub deployments.&lt;/p>
+&lt;p>In Q1 we delivered improvements to the JupyterBook launching interface to allow for &lt;strong>automatic hub type detection&lt;/strong>, as well as &lt;strong>landing page components, theming capabilities, galleries and more&lt;/strong>. We aim to complete this work in Q2.&lt;/p>
+&lt;h2 id="a-better-onboarding-experience-for-our-communities">
+A better onboarding experience for our communities
+&lt;a class="header-anchor" href="#a-better-onboarding-experience-for-our-communities">#&lt;/a>
+&lt;/h2>&lt;p>As more communities in the research and education space join the 2i2c community network, it’s important for us to be ready to deliver the best value we can for them at scale. To that end, we’re &lt;strong>streamlining the processes we use to onboard our communities&lt;/strong>, improving the touchpoints through which we engage with them when they join our community network, and ensuring we create opportunities to better understand their needs in order to set them up for success with their hubs right from the start.&lt;/p>
+&lt;h2 id="improve-and-formalize-the-services-we-deliver-to-our-communities">
+Improve and formalize the services we deliver to our communities
+&lt;a class="header-anchor" href="#improve-and-formalize-the-services-we-deliver-to-our-communities">#&lt;/a>
+&lt;/h2>&lt;p>Together with an improved onboarding experience, we aim to improve how we deliver other key services to our communities, including &lt;strong>expert consulting, hub management, and technical support&lt;/strong>, with the aim to offer more scalable, high-value services to address the needs of our communities in a sustainable way.&lt;/p>
+&lt;p>Some of the goals of this service revamp will include improving triaging of support tickets, shortening our issue response time, and providing our community champions with dedicated expertise on subjects including open source science and tools, community participation in open science, fundraising and grantsmanship co-creation, engineering consultancy and more.&lt;/p>
+&lt;h2 id="another-update-coming-in-q3">
+Another update coming in Q3
+&lt;a class="header-anchor" href="#another-update-coming-in-q3">#&lt;/a>
+&lt;/h2>&lt;p>We’ll use this blog post as an informal roadmap of our product goals for the quarter, striving to advance as many of the outlined areas as possible. During our Q3 planning, we’ll reflect on the achievements made in line with this initiative and share a progress update with our community. Keep an eye out for more details!&lt;/p></description></item><item><title>Our product highlights from Q2 2025</title><link>https://2i2c.org/blog/2025/q1-product-highlights/</link><pubDate>Wed, 16 Apr 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/q1-product-highlights/</guid><description>&lt;p>&lt;em>These describe the major service improvements that we rolled out in Q1 2025. See this
 &lt;a href="https://2i2c.org/blog/2025/q1-product-goals/" >blog post describing our product enhancement goals in Q1 2025&lt;/a> for the targets we intended to hit this quarter. Below is a brief description of what we accomplished.&lt;/em>&lt;/p>
 &lt;h2 id="user-storage-quotas">
 User storage quotas

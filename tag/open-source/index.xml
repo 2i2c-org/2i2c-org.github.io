@@ -1,4 +1,24 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Open Source | 2i2c</title><link>https://2i2c.org/tag/open-source/</link><atom:link href="https://2i2c.org/tag/open-source/index.xml" rel="self" type="application/rss+xml"/><description>Open Source</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 19 Jul 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Open Source</title><link>https://2i2c.org/tag/open-source/</link></image><item><title>2i2c's submissions to JupyterCon 2025</title><link>https://2i2c.org/blog/2025/jupytercon-2025-submissions/</link><pubDate>Sat, 19 Jul 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/jupytercon-2025-submissions/</guid><description>&lt;p>We were excited to hear that
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Open Source | 2i2c</title><link>https://2i2c.org/tag/open-source/</link><atom:link href="https://2i2c.org/tag/open-source/index.xml" rel="self" type="application/rss+xml"/><description>Open Source</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 01 Aug 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Open Source</title><link>https://2i2c.org/tag/open-source/</link></image><item><title>Overhauling repo2docker's documentation</title><link>https://2i2c.org/blog/2025/repo2docker-docs/</link><pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/repo2docker-docs/</guid><description>&lt;p>Documentation is incredibly important for open source projects to communicate their value and show users how to make the most of their tools. However, it&amp;rsquo;s one of those things that often gets de-prioritized with all of the other work that needs to happen in a project.&lt;/p>
+&lt;p>We are heavy users of the
+&lt;a href="https://repo2docker.readthedocs.io" target="_blank" rel="noopener" >repo2docker project&lt;/a> in 2i2c&amp;rsquo;s service. It allows you to dynamically build an environment image that can by hosted in a cloud service like JupyterHub. It&amp;rsquo;s the underlying tool used by
+&lt;a href="https://binderhub.readthedocs.io" target="_blank" rel="noopener" >BinderHub&lt;/a>, and is the focus of recent work on enabling
+&lt;a href="https://2i2c.org/blog/2025/q1-product-goals/" >dynamic image building in a JupyterHub&lt;/a> (more on that to come).&lt;/p>
+&lt;p>As part of this work, we decided to do a small
+&lt;a href="https://github.com/jupyterhub/repo2docker/pull/1433" target="_blank" rel="noopener" >overhaul of repo2docker&amp;rsquo;s documentation&lt;/a>, with the goal of making it easier to discover, navigate, and learn from. Here&amp;rsquo;s how the landing page looks now!&lt;/p>
+&lt;p>
+&lt;figure id="figure-the-new-repo2docker-landing-page-now-looks-more-like-an-actual-landing-page">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./featured.png" alt="Repo2Docker documentation overhaul" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+The new repo2docker landing page now looks more like an actual landing page!
+&lt;/figcaption>&lt;/figure>
+&lt;/p>
+&lt;p>We hope this makes repo2docker a more useful tool for everybody, and also gives us more confidence pointing our communities to the repo2docker documentation in their community workflows.&lt;/p>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;p>This work was made possible in-part by funding and in-kind support from the
+&lt;a href="https://www.earthdata.nasa.gov/data/tools/veda" target="_blank" rel="noopener" >NASA VEDA project&lt;/a>.&lt;/p></description></item><item><title>2i2c's submissions to JupyterCon 2025</title><link>https://2i2c.org/blog/2025/jupytercon-2025-submissions/</link><pubDate>Sat, 19 Jul 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/jupytercon-2025-submissions/</guid><description>&lt;p>We were excited to hear that
 &lt;a href="https://jupytercon.com" target="_blank" rel="noopener" >JupyterCon is happening again in 2025&lt;/a>. The Call for Proposals just wrapped up, and our team was involved in preparing and submitting several directly from 2i2c as well as from the ecosystem in general.&lt;/p>
 &lt;p>Enjoy brief summaries of the proposals we contributed to below.
 &lt;a href="https://forms.fillout.com/t/uQHVMkgvsuus" target="_blank" rel="noopener" >Let us know&lt;/a> if you have ideas for future talks you want to hear from us?&lt;/p>
