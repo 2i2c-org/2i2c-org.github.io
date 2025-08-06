@@ -1,17 +1,17 @@
 ---
-title: "2i2c's submissions to JupyterCon 2025"
-subtitle: ""
-authors: ["The 2i2c team"]
-tags: ["open source", "jupyter", "community"]
-categories: ["impact"]
-date: "2025-07-19"
+title: 2i2c's submissions to JupyterCon 2025
+subtitle: ''
+authors: [The 2i2c team]
+tags: [open source, jupyter, community]
+categories: [impact]
+date: '2025-07-19'
 featured: false
 draft: false
 ---
 
 We were excited to hear that [JupyterCon is happening again in 2025](https://jupytercon.com). The Call for Proposals just wrapped up, and our team was involved in preparing and submitting several directly from 2i2c as well as from the ecosystem in general.
 
-Enjoy brief summaries of the proposals we contributed to below. [Let us know](https://forms.fillout.com/t/uQHVMkgvsuus) if you have ideas for future talks you want to hear from us? 
+Enjoy brief summaries of the proposals we contributed to below. [Let us know](https://forms.fillout.com/t/uQHVMkgvsuus) if you have ideas for future talks you want to hear from us?
 
 > **Note**: Many of these submissions were written in collaboration with others in the open-source projects we participate in. Particularly, in [JupyterHub](https://compass.hub.jupyter.org) and [JupyterBook](https://compass.jupyterbook.org).
 
@@ -67,10 +67,10 @@ But perhaps maybe, just maybe, you have tried doing that again recently, & notic
 This talk will go through the problems facing mybinder.org & what we are doing about it. Come to this talk to find out:
 
 1. How is mybinder.org run?
-2. What are the structural issues facing open infrastructure services like mybinder.org?
-3. What sustainability experiments are we running to improve reliability and rebuild user trust?
-4. Has reliability actually improved?
-5. How can I help?
+1. What are the structural issues facing open infrastructure services like mybinder.org?
+1. What sustainability experiments are we running to improve reliability and rebuild user trust?
+1. Has reliability actually improved?
+1. How can I help?
 
 ## Can your JupyterHub handle your workload? Performance testing with `jupyterhub-simulator`
 
@@ -108,18 +108,18 @@ This is a community talk from the [Jupyter Book team](https://compass.jupyterboo
 
 ## You don't need to contribute more to open source, you need to go to therapy
 
-Open source communities can be incredible and irreplaceable sources of human connection in our lives, offering a unique kind of fulfillment hard to find elsewhere. This feeling of fulfillment and approval can, for some people, be a soothing balm in an otherwise rough life. However, it has the be part of a healthy, balanced ecosystem of different kinds of connections offering different kinds of fulfillment . If a significant chunk of fulfillment in your life comes from the open source work you do, unbalanced by other sources, that can quickly become unhealthy for both you and the community.  Disagreements are more likely to become high stakes. Interactions can quickly become emotionally charged and filled with hard to interpret subtext. This can both burn you out, and drive away potential new community members. 
+Open source communities can be incredible and irreplaceable sources of human connection in our lives, offering a unique kind of fulfillment hard to find elsewhere. This feeling of fulfillment and approval can, for some people, be a soothing balm in an otherwise rough life. However, it has to be part of a healthy, balanced ecosystem of different kinds of connections offering different kinds of fulfillment. If a significant chunk of fulfillment in your life comes from the open source work you do, unbalanced by other sources, that can quickly become unhealthy for both you and the community. Disagreements are more likely to become high stakes. Interactions can quickly become emotionally charged and filled with hard to interpret subtext. This can both burn you out, and drive away potential new community members.
 
 This talk explores the why *emotional regulation* is a critical skill for participating in open source communities, and how therapy can be a tool for learning that skill. Come to learn:
 
 1. What is *emotional regulation*?
-2. Why should I care?
-3. What is therapy and how can I access it?
-4. Wait that's not what I thought therapy was! Are you telling me Missy Armitage lied in *Get Out*?!
-5. What negative effects do *communities* feel?
+1. Why should I care?
+1. What is therapy and how can I access it?
+1. Wait that's not what I thought therapy was! Are you telling me Missy Armitage lied in *Get Out*?!
+1. What negative effects do *communities* feel?
 
 ## What 2i2c has learned while trying to build sustainable relationships with Jupyter's community.
 
 2i2c is a non-profit organization that fosters co-creation and collaboration between science communities and open source communities. We are deeply embedded in an international network of research and education communities, as well as open source communities that underlie their infrastructure (particularly in the Jupyter ecosystem). Our technical infrastructure is built entirely with open source components that we contribute to, but do not control. This is a really hard problem to solve!
 
-We've learned a lot in the first four years of our existence. This talk will describe how our organization approaches a healthy and productive open source relationship with the Jupyter (and broader scientific python) ecosystem. It'll cover some of the major mistakes we've made, lessons learned, and where we think we've had impact. We aim to make this talk full of practical learnings that others can follow in building sustainable open science organizations that contribute to a healthy and vibrant open source ecosystem. Our goal will be to provide inspiration to others that are interested in building on top of open source projects like Jupyter, and want to do so in a way that is healthy and sustainable. 
+We've learned a lot in the first four years of our existence. This talk will describe how our organization approaches a healthy and productive open source relationship with the Jupyter (and broader scientific python) ecosystem. It'll cover some of the major mistakes we've made, lessons learned, and where we think we've had impact. We aim to make this talk full of practical learnings that others can follow in building sustainable open science organizations that contribute to a healthy and vibrant open source ecosystem. Our goal will be to provide inspiration to others that are interested in building on top of open source projects like Jupyter, and want to do so in a way that is healthy and sustainable.

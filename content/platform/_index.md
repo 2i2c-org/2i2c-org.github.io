@@ -8,11 +8,10 @@ aliases:
   - /service/
 
 sections:
-  
 
   - block: features
     design:
-      css_class: "bigtitle"
+      css_class: bigtitle
     content:
       title: Create a home with everything your community needs for data-driven discovery
       subtitle: We build and manage community hubs that provide access to all the tools needed to do their work, enabled with open infrastructure that ensures your [Right to Replicate](./right-to-replicate/).
@@ -21,15 +20,15 @@ sections:
         - icon: software
           icon_pack: custom
           name: Software & Tools
-          description: "Provide easy access to community software and tools."
+          description: Provide easy access to community software and tools.
         - icon: compute
           icon_pack: custom
           name: Compute & Data
-          description: "Provide the hardware and data resources available to your community."
+          description: Provide the hardware and data resources available to your community.
         - icon: content
           icon_pack: custom
           name: Computational Content
-          description: "Facilitate learning and sharing through community documentation."
+          description: Facilitate learning and sharing through community documentation.
   - block: markdown
     id: hub-services-intro
     content:
@@ -69,11 +68,11 @@ sections:
   - block: markdown
     id: hub-service-intro
     design:
-      css_class: "bigtitle"
+      css_class: bigtitle
     content:
       title: Standard hub features
       subtitle: Below we outline our standard hub configuration options, which can be usually be **deployed in 1 day or less**. Should your community require a more customized approach, don't hesitate to [contact us](../join/_index.md) to discuss your specific requirements.
-                
+
   - block: markdown
     content:
       title: Sign-in
@@ -81,7 +80,7 @@ sections:
         We support the following authentication and authorization options:
           - **GitHub** - with support for GitHub Organization and Teams
           - **CILogon** - with support for institutional logins, Google Auth, Microsoft, and ORCID
-          - **Shared Password** - simple authentication with a global shared password, ideal for workshops and webinar
+          - **Shared Password** - simple authentication with a global shared password, ideal for workshops and webinars
 
         <figure class="videofigure">
           {{< video src="videos/jupyterhub-admin.mp4">}}
@@ -94,7 +93,7 @@ sections:
   - block: features
     content:
       title: Compute
-      subtitle: | 
+      subtitle: |
         We offer a choice of CPU, Memory (from 4GB to 512GB) and GPU configurations for all types of workloads, with added support for Dask Gateway for task parallelization. 
 
         We can also co-locate your hub's compute next to your cloud data to improve performance and costs, with AWS and Google Cloud Platform supported out-of-the-box, and Azure configurations available on request.
@@ -103,33 +102,33 @@ sections:
         - icon: google-cloud
           icon_pack: custom
           name: Google Cloud
-          description: ""
-        - icon: azure 
+          description: ''
+        - icon: azure
           icon_pack: custom
           name: Microsoft Azure
-          description: ""
+          description: ''
         - icon: aws
-          icon_pack: custom 
+          icon_pack: custom
           name: Amazon Web Services
-          description: ""
+          description: ''
 
   - block: markdown
     content:
       title: Software Stack
-      subtitle: ""
+      subtitle: ''
       text: |
         2i2c supports a number of standard community-maintained images for research and education including Pangeo Notebook, SciPy, Julia, and Rocker with RStudio.
 
         Additionally, hub users can configure their hubs with any existing pre-built image hosted on [Docker Hub](https://hub.docker.com/) or [quay.io](https://quay.io).
 
         Hub administrators can also provide their own self-maintained images, should they wish to do so.
-        
+
         {{< softwarestacklogos >}}
 
   - block: markdown
     content:
       title: Storage
-      subtitle: ""
+      subtitle: ''
       text: |
         Hubs can be configured with a choice of persistent home directories and different levels of read-write permissions (admins only, or everyone).
 
@@ -138,7 +137,7 @@ sections:
   - block: markdown
     content:
       title: Sharing
-      subtitle: ""
+      subtitle: ''
       text: |
         Learning and discovery through interactive cloud computing are more powerful when shared.
 
@@ -155,7 +154,7 @@ sections:
   - block: markdown
     content:
       title: Reporting and quotas
-      subtitle: ""
+      subtitle: ''
       text: |
         Our hubs come standard with Grafana access to help users and administrators keep an eye on their usage and cost analytics, which together with configurable storage quotas help ensure that cost overruns and unexpected bill shocks are a thing of the past.
 
@@ -164,19 +163,17 @@ sections:
   - block: markdown
     content:
       title: Community branding and white labeling
-      subtitle: ""
+      subtitle: ''
       text: |
         Looking to customize your hub's look and feel to match your community? We can give your hub a unique look to match your message and mission, with a customizable landing page, branding, and announcements area.
 
   - block: markdown
     id: join
     content:
-      title: "Join our community network"
+      title: Join our community network
       subtitle: |
-        
-      text: |
+
+      text: |2-
 
         {{< cta cta_text="Join our network of communities" cta_link="/join" cta_new_tab="false" >}}
-
 ---
-

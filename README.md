@@ -116,6 +116,22 @@ We have some custom Hugo templates created for posting new jobs and a summary of
   - To mark a job as "open", make sure to put `open: true` in the posting metadata.
   - There's also a special shortcode to display relevant job metadata for a posting. This is at `layouts/shortcodes/job_details.html`.
 
+## Install pre-commit hooks
+
+This repository uses [pre-commit hooks](https://pre-commit.com/) to run a few processes any time a commit is made. To initialize pre-commit, run the following:
+
+```shell
+pip install pre-commit
+```
+
+Initialize pre-commit locally with the following:
+
+```shell
+pre-commit install
+```
+
+The next time you make a commit, pre-commit will run if necessary.
+
 ## This website's theme
 
 We are using the latest version of the [Hugo Blox theme](https://hugoblox.com/docs/) (used to be the "Wowchemy Academic Theme"). See its documentation for information about customization and usage.

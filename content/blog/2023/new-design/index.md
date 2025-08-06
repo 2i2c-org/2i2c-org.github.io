@@ -1,7 +1,7 @@
 ---
 title: A new design and logo for 2i2c
-subtitle: ""
-summary: ""
+subtitle: ''
+summary: ''
 authors:
   - Chris Holdgraf
   - Zack Adell
@@ -47,7 +47,7 @@ Our color is blue.
 Our community blue says the sky is not the limit. It's energetic and vibrant, just like the community we serve.
 And it's our primary colour, supported by a lively secondary palette that's as at home on digital platforms as it is on billboards.
 
-We've chosen two fonts to use in the majory of the text that we write.
+We've chosen two fonts to use in the majority of the text that we write.
 `Poppins` for big, bold sentences, and `Work Sans` for more versatile and everyday use.
 
 ![Examples of our two primary font choices](typography.png)

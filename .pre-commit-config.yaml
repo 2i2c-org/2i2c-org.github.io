@@ -5,3 +5,10 @@ repos:
   - id: oxipng
     # These are the recommended arguments in the oxipng repo
     args: ["-o", "4", "-i", "1", "--strip", "safe"]
+- repo: https://github.com/hukkin/mdformat
+  rev: 0.7.22
+  hooks:
+  - id: mdformat
+    files: ^content/.*\.md$
+    additional_dependencies:
+      - mdformat-myst
