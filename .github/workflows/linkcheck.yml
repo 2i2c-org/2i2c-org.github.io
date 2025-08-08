@@ -28,7 +28,7 @@ jobs:
       - name: Link Checker
         uses: lycheeverse/lychee-action@v1.5.4
         with:
-          args: --exclude https://fonts.gstatic.com --exclude twitter.com --exclude https://data8.org --exclude https://biorxiv.org --verbose --no-progress public/**/*.html  # fonts.gstatic.com is an expected fail and twitter returns "too many requests" errors
+          args: --exclude https://fonts.gstatic.com --exclude twitter.com --exclude https://data8.org --exclude https://biorxiv.org --exclude https://www.biorxiv.org --verbose --no-progress public/**/*.html  # fonts.gstatic.com is an expected fail and twitter returns "too many requests" errors, biorxiv refuses requests
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
 
