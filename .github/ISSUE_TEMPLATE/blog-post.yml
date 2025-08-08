@@ -1,0 +1,97 @@
+name: Blog Post Request
+description: Request a new blog post for the 2i2c website
+title: "Blog post: [Your Title Here]"
+labels: ["blog"]
+assignees: []
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please fill out the information below to help us create a post.
+
+  - type: input
+    id: title
+    attributes:
+      label: Title
+      description: The title of your blog post
+      placeholder: e.g., "Here's a useful thing we did!"
+    validations:
+      required: true
+
+  - type: textarea
+    id: authors
+    attributes:
+      label: Authors
+      description: List the authors of this blog post (one per line)
+      placeholder: |
+        - Chris Holdgraf
+        - Yuvi Panda
+    validations:
+      required: true
+
+  - type: input
+    id: date
+    attributes:
+      label: Date
+      description: Publication date (YYYY-MM-DD format)
+      placeholder: "2025-08-08"
+    validations:
+      required: true
+
+  - type: dropdown
+    id: category
+    attributes:
+      label: Category
+      description: Select the main category for this blog post
+      options:
+        - impact
+        - service
+        - organization
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: tags
+    attributes:
+      label: Tags
+      description: Select relevant tags for this blog post
+      options:
+        - label: open-source
+        - label: jupyter
+        - label: education
+        - label: geoscience
+        - label: product
+        - label: cloud
+        - label: bioscience
+        - label: hiring
+        - label: funding
+
+  - type: textarea
+    id: custom_tags
+    attributes:
+      label: Custom Tags
+      description: Add any additional tags not listed above (one per line, optional)
+      placeholder: |
+        - machine-learning
+        - workshop
+
+  - type: textarea
+    id: content
+    attributes:
+      label: Blog Post Content
+      description: The full content of your blog post (Markdown format)
+      placeholder: |
+        Write your blog post content here using Markdown formatting.
+        
+        ## Example Section
+        
+        This is an example of how to structure your content...
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Additional Notes
+      description: Any additional notes, special requirements, or implementation details
+      placeholder: e.g., "This needs to be published before the conference", "Include featured image", etc.
