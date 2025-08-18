@@ -90,6 +90,15 @@ body:
       required: true
 
   - type: textarea
+    id: acknowledgements
+    attributes:
+      label: Acknowledgements
+      description: Acknowledgements for contributors, funders, or collaborators (optional)
+      placeholder: |
+        We acknowledge the support of...
+        Special thanks to...
+
+  - type: textarea
     id: notes
     attributes:
       label: Additional Notes
