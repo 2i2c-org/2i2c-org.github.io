@@ -1,22 +1,15 @@
 name: Blog Post Request
 description: Request a new blog post for the 2i2c website
-title: "Blog post: [Your Title Here]"
+title: "[BLOG TITLE HERE]"
 labels: ["blog"]
 assignees: []
 body:
   - type: markdown
     attributes:
       value: |
-        Please fill out the information below to help us create a post.
-
-  - type: input
-    id: title
-    attributes:
-      label: Title
-      description: The title of your blog post
-      placeholder: e.g., "Here's a useful thing we did!"
-    validations:
-      required: true
+        Fill out the fields below as best you can.
+        **Don't worry about getting it perfect**.
+        Just bullet points is fine if that's all you have time / energy for.
 
   - type: textarea
     id: authors
@@ -28,6 +21,29 @@ body:
         - Yuvi Panda
     validations:
       required: true
+
+  - type: textarea
+    id: content
+    attributes:
+      label: Blog Post Content
+      description: The full content of your blog post (Markdown format)
+      placeholder: |
+        Write your blog post content here using Markdown formatting.
+        
+        ## Example Section
+        
+        This is an example of how to structure your content...
+    validations:
+      required: true
+
+  - type: textarea
+    id: acknowledgements
+    attributes:
+      label: Acknowledgements
+      description: Acknowledgements for contributors, funders, or collaborators (optional)
+      placeholder: |
+        We acknowledge the support of...
+        Special thanks to...
 
   - type: dropdown
     id: category
@@ -65,29 +81,6 @@ body:
       placeholder: |
         - machine-learning
         - workshop
-
-  - type: textarea
-    id: content
-    attributes:
-      label: Blog Post Content
-      description: The full content of your blog post (Markdown format)
-      placeholder: |
-        Write your blog post content here using Markdown formatting.
-        
-        ## Example Section
-        
-        This is an example of how to structure your content...
-    validations:
-      required: true
-
-  - type: textarea
-    id: acknowledgements
-    attributes:
-      label: Acknowledgements
-      description: Acknowledgements for contributors, funders, or collaborators (optional)
-      placeholder: |
-        We acknowledge the support of...
-        Special thanks to...
 
   - type: textarea
     id: notes
