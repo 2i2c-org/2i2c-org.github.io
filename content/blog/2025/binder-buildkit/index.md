@@ -14,4 +14,4 @@ authors:
   - Yuvi Panda
 ---
 
-A blog post on the Jupyter blog about a recent experiment to significantly reduce the cost of runnign a node on the mybinder.org federation.
+A blog post on the Jupyter blog about a recent experiment to significantly reduce the cost of running a node on the mybinder.org federation.

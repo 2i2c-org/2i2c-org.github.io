@@ -11,6 +11,10 @@ featured: false
 draft: false
 ---
 
+We're excited to announce out-of-the-box support for [Jupyter Book 2](https://next.jupyterbook.org) for our community members. This allows communities to create and share knowledge bases together for their community workflows. This post describes the motivation behind this new functionality, and how you can learn more about the project.
+
+> ⭐ **Members of 2i2c's community network** can use this feature in their hubs by following [our documentation and sharing guide](https://docs.2i2c.org/sharing/documentation/).
+
 A core component of our mission to make research and education more _impactful_, _accessible_, and _delightful_ is leveraging our unique [global network of communities][network] to make meaningful improvements to the open-source tools that power their work. Learning from one community can then provide value to our entire network, e.g., [our work with PACE on speeding up their CNN model training][pace-gpu].
 
 Central to our communities' work is the importance of sharing new findings, best practices, and community resources. Across our network, we have seen communities creating their own "books" that provide a home for this kind of content. Many of these books feature the concept of a "landing page" that welcomes new members, establishes an identity, and provides jumping-off points (or "calls to action") to more detailed resources.
@@ -32,7 +36,7 @@ Developing these new capabilities taught us a lot about what makes building "goo
 
 With these improvements, we have initiated a conversation about what a more unified "look and feel" for our network might entail, and how it might benefit our communities. Much more can be done to build on this first step, and we are eager to gather feedback on how to improve these features for users.
 
-To learn more about this work, consider exploring a minimal example on [our Showcase Hub](https://docs.showcase.2i2c.cloud/), and check out [our service guide][svc-guide]. [Let us know](https://airtable.com/appM2L2x1uglMU0hy/pagWPJDEKTlLd7uMP/form) what you think!
+To learn more about this work, consider exploring a minimal example on [our Showcase Hub](https://docs.showcase.2i2c.cloud/), and check out [our service guide][svc-guide]. [Let us know](https://docs.google.com/forms/d/e/1FAIpQLSff-u-sWFuwO1-VTgk2Ir7f1nfUUlLevQk_Vkk_jnmcI1nJnw/viewform) what you think!
 
 [pace-gpu]: ../../2024/pace-hackweek/index.md
 [open-tech]: ../community-ownership/index.md

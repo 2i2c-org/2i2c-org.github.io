@@ -24,7 +24,7 @@ We've recently been working to integrate [Jupyter Book 2][jb2] workflows with ou
 - The Jupyter Book is defined with a [Binder specification](https://repo2docker.readthedocs.io/en/latest/specification.html) that has a recipe for re-building the environment needed to run te book's content.
 - From the professor's book, the student can choose to launch an interactive Binder sessions on _their university's Binder_, allowing them to interact with the book's content on their own infrastructure.
 
-We want a workflow like this to be as seamless and un-complicated as possible. We also want it to follow the same fundamental workflow as the [nbgitpuller-based launch buttons](https://docs.2i2c.org/community/content/). Along the way, we realized that we needed to coordinate development across [Jupyter Book 2][jb2]], [JupyterHub](https://jupyter.readthedocs.io), and [BinderHub](https://binderhub.readthedocs.io).
+We want a workflow like this to be as seamless and un-complicated as possible. We also want it to follow the same fundamental workflow as the [nbgitpuller-based launch buttons](https://docs.2i2c.org/community/content/). Along the way, we realized that we needed to coordinate development across [Jupyter Book 2][jb2], [JupyterHub](https://jupyter.readthedocs.io), and [BinderHub](https://binderhub.readthedocs.io).
 
 {{< figure src="./featured.png" caption="The three projects (Jupyter Book, BinderHub, and JupyterHub) that needed to work together to enable 'bring your own binderhub' workflows." >}}
 

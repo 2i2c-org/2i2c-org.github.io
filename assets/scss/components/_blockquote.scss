@@ -1,0 +1,15 @@
+blockquote {
+  color: #222;
+  border-left: 3px solid #6b7280;
+  padding: 0.75em 1em;
+  background: rgba(107, 114, 128, 0.04);
+  margin: 1em 0;
+  border-top-left-radius: 0.5em;
+  border-bottom-left-radius: 0.5em;
+}
+
+body.dark blockquote {
+  color: #f3f3f3;
+  border-left-color: #9ca3af;
+  background: rgba(156, 163, 175, 0.13);
+} 
