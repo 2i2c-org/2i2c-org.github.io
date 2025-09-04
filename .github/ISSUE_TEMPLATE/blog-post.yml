@@ -7,8 +7,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Fill out the fields below as best you can.
-        **Don't worry about getting it perfect**.
+        Fill out the fields below as best you can. **Don't worry about getting it perfect**.
         Just bullet points is fine if that's all you have time / energy for.
 
   - type: textarea
@@ -26,13 +25,18 @@ body:
         
         - Because A
         - Because B
+
+        ## Links to learn more
+
+        - Link A
+        - Link B
     validations:
       required: true
 
   - type: markdown
     attributes:
       value: |
-        **Everything after here is optional!**
+        # Everything after here is optional!
 
         ---
 
