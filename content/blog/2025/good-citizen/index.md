@@ -1,6 +1,6 @@
 ---
-title: "The difference between upstream-led vs. stakeholder-led open source contributions"
-date: 2025-05-21
+title: "Our approach to providing directed and foundational contributions to open source communities"
+date: 2025-09-03
 authors:
   - Yuvi Panda
   - Chris Holdgraf
@@ -19,16 +19,12 @@ Over the past year, the 2i2c team has been thinking more deeply about our relati
 
 Along the way, we realized there are **two very different kinds of upstream contributions**:
 
-1. **Stakeholder-led contributions**: A contribution driven by the needs of a stakeholder (e.g., a 2i2c team member implementing a feature for our member communities).
-2. **Upstream-led contributions**: A contribution driven by the needs of the upstream community (e.g., a 2i2c team member reviewing a newcomer's pull request in an upstream repository).
+1. **Directed Contributions**: A contribution driven by the needs of our member communities and product roadmap. We call these "Directed" contributions because they address a targeted need driven by one stakeholder (us!).
+2. **Foundational contributions**: A contribution driven by the needs of the upstream community. We call these "Foundational contributions" because they're meant to provide the healthy foundation on which a community can operate and grow.
 
-And there's a special case of each type:
+Historically we have conflated these types of contributions, but we think it's key that we treat them differently.
 
-3. **Individual-led contributions**: A contribution driven by the needs of an individual person (e.g., a person scratching an itch by contributing to an upstream project).
-
-Historically we have conflated these types of contributions, but we think it's key that we treat them differently. Here's our current thinking on the difference between `stakeholder-led` and `upstream-led` contributions in upstream communities.
-
-## What is a stakeholder in an open source project?
+## Everybody has an open source hat and a stakeholder hat
 
 Open source teams[^inclusive] are usually two kinds of teams that overlap heavily:
 
@@ -43,17 +39,17 @@ However, for open source projects to be successful they also need their own uniq
 
 Thus, any open source stakeholder has two hats: they are both _representatives of a stakeholder_ and _members of an open source team_. While it's possible to _align the interests_ of these two groups, we think it's still important to _distinguish between them_.
 
-## What is a stakeholder-led open source contribution?
+## Directed Contributions benefit the stakeholder you represent
 
-A stakeholder-led contribution is _primarily_ driven by the needs of a stakeholder in an open source project. To use 2i2c as an example, let's take a quote from 2i2c's value proposition:
+A _Directed Contribution_ is primarily driven by the needs of a stakeholder in an open source project. To use 2i2c as an example, let's take a quote from 2i2c's value proposition:
 
 > 2i2c serves a global network of community hubs for interactive learning and discovery
 
-*Community* here does **not** refer to open source upstream software provider communities (like JupyterHub or Kubernetes), but instead to downstream _user communities_ (like [CryoCloud](https://cryointhecloud.com/) or [Openscapes](https://openscapes.org)).
+*Community* here does **not** refer to open source upstream software provider communities (like JupyterHub or Kubernetes), but instead to downstream _user communities_ (like [CryoCloud](https://cryointhecloud.com/), [Openscapes](https://openscapes.org), or [NASA VEDA](https://www.earthdata.nasa.gov/data/tools/veda)).
 
-When 2i2c makes a stakeholder-led contribution, it usually means we are trying to _deliver value to one or more of our member communities_ by making an upstream contribution.
+When 2i2c makes a Directed Contribution, it means we are trying to _deliver value to one or more of our member communities_ by making an upstream contribution.
 
-Satisfying community needs often involves directly working on the software they use. Driven by our [right to replicate](https://2i2c.org/right-to-replicate/) principles, this means we mostly work on software that is not proprietary to 2i2c nor solely owned by us permanently - but by contributing to an upstream software community. These are all stakeholder-led contributions.
+Satisfying community needs often involves directly working on the software they use. Driven by our [right to replicate](https://2i2c.org/right-to-replicate/) principles, this means we mostly work on software that is not proprietary to 2i2c nor solely owned by us permanently - but by contributing to an upstream software community. These are all Directed Contributions.
 
 Some illustrative examples:
 
@@ -61,54 +57,58 @@ Some illustrative examples:
 2. [Changing how `.pyc` files are kept in images](https://github.com/pangeo-data/pangeo-docker-images/pull/426) was work we did as a result of a support ticket investigating spawn timeout issues in the [LEAP](https://leap.columbia.edu/) hub.
 3. [Adding landing pages functionality to Jupyter Book and MyST](https://github.com/jupyter-book/myst-theme/pull/531) was work we did to support member communities like [CryoCloud](https://cryointhecloud.org) and [Project Pythia](https://cookbooks.projectpythia.org/).
 
-The fact that these are open source contributions is *incidental*. We are making open source contributions, but we are _primarily_ doing this work to deliver value to _our community network_. 
+The fact that these are open source contributions is *incidental*. We are _primarily_ doing this work to deliver value to _our community network_. 
 
-### How 2i2c wants to plan team work around stakeholder-led contributions
+### We plan Directed Contributions according to our roadmap and member feedback
 
-Stakeholder-led contributions naturally align with 2i2c's overall goals and strategy, so we can re-use our pre-existing product processes for planning and delivering on them. However, we also want to provide transparency to upstream communities so that they understand who is driving the contributions that we're making.
+Directed Contributions naturally align with 2i2c's overall goals and strategy, so we use our [product processes](https://compass.2i2c.org/product-and-services/) for planning and delivering on them. However, we also want to provide transparency to upstream communities so that they understand who is driving the contributions that we're making.
 
-With that in mind, here are a few ways that stakeholder-led contributions relate to our practices:
+With that in mind, here are a few ways that Directed Contributions relate to our practices:
 
-- Stakeholder-led contributions should be defined by our product roadmap and prioritization processes.
-- We should allocate engineering time to making these upstream contributions as part of our product lifecycle, and consider the extra coordination and communication work needed to work at the pace of the upstream community.
-- We should cross-link 2i2c product initiatives to upstream issues and pull-requests wherever we can to provide transparency about why we're making a contribution.
+- Directed Contributions should be defined by our product roadmap and prioritization processes.
+- We allocate engineering time for these upstream contributions as part of our product lifecycle, _including the extra coordination and communication work needed to work at the pace of the upstream community_.
+- We cross-link 2i2c product initiatives to upstream issues and pull-requests wherever we can to provide transparency about why we're making a contribution.
+- We communicate this work via our blog so that 2i2c's member communities know about the contributions we've made on their behalf.
 
-## What is an upstream-led open source contribution?
+## Foundational Contributions support a healthy open source community
 
 However, contributions can't always be driven by a stakeholder's needs or the open source team will not have an identity or support structure of its own. Here's another excerpt from our value proposition:
 
 > We need infrastructure services that are driven by community needs and values, that follow the same open source science practices we wish to see in others, and that believe in the power of shared community resources and knowledge.
 
-Being a "healthy upstream citizen" is core to 2i2c's mission, and is also a way to help communities we rely on remain healthy. This means that we need to allow some of our contributions be _upstream-led_ rather than _stakeholder-led_. This means doing things that keep the overall ecosystem healthy even if it does not *directly* address a specific member community need. The *presence* of a healthy open source ecosystem is a value to our member communities in-and-of itself.
+Being a "healthy upstream citizen" is core to 2i2c's mission, and is also a way to help communities we rely on remain healthy. Some of our contributions should be _Foundational_ rather than _Directed_. This means doing things that keep the overall ecosystem healthy even if it does not *directly* address a specific member community need. The *presence* of a healthy open source ecosystem is a value to our member communities in-and-of itself.
 
-Defining "upstream-led" needs is often difficult, because open source teams tend to have less structure and formally-stated goals and needs than most organizations. In 2i2c's case, we focus our upstream-led contributions around *maintaining the health of the open source ecosystem*. It includes things like:
+Defining "Foundational" needs is difficult, because open source teams tend to have less structure and formally-stated goals and needs than most organizations. In 2i2c's case, we focus our Foundational Contributions around *maintaining the health of the open source ecosystem*.
 
+It includes things like:
+
+1. Grow and guide new contributors to grow team capacity
 1. Help making releases
-2. Provide code review
-3. Help onboard new contributors to the project
-4. Fix broken CI
-5. Write documentation and tutorials
-6. Manage and run meetings
-7. Align open source teams on goals and strategy
+1. Provide code review
+1. Help onboard new contributors to the project
+1. Fix broken CI
+1. Write documentation and tutorials
+1. Manage and run meetings
+1. Align open source teams on goals and strategy
 
 However, the real point is that these actions need to be driven by _the upstream project's goals and needs_, not by 2i2c's needs.
 
-Here are a few common examples of contributions that are _not considered_ upstream-led for our team:
+Here are a few common examples of contributions that are _not considered_ Foundational for our team:
 
 1. Opening a PR to add a major feature to an upstream project.
 2. Creating a brand new project in an open source organization in order to scratch your own itch.
 3. Engaging in reactive open-source work that isn't driven by a clear strategy or goal (e.g., randomly responding to the last few GitHub issue comments you happened to notice)
 
-### How 2i2c plans work around upstream-led contributions
+### We plan Foundational Contributions alongside our engineering roadmap
 
-Upstream-led contributions are important to 2i2c both for strategic and tactical reasons. However, when left as unstructured time (as we have historically), it runs into all the problems of unstructured work - it happens in non-strategic ways, it isn't evenly balanced across team members, it is more or less accessible depending on your personal comfort level and skills, etc.
+Foundational Contributions are important to 2i2c both for strategic and tactical reasons. However, when left as unstructured time (as we have historically), it runs into all the problems of unstructured work - it happens in non-strategic ways, it isn't evenly balanced across team members, it is more or less accessible depending on your personal comfort level and skills, etc.
 
-With that in mind, here are a few ways that upstream-led contributions relate to our practices:
+With that in mind, here are a few ways that Foundational Contributions relate to our practices:
 
-- We need to _own upstream-led contributions as a team_, rather than asking individuals to identify and do this work on their own.
+- We need to _own Foundational Contributions as a team_, rather than asking individuals to identify and do this work on their own.
 - We need to define team _goals_ and _strategy_ to define the impact we want to have, and what kind of work leads to that impact.
-- We need a team system for identifying and prioritizing the most impactful upstream-led contributions to perform.
-- This system must spread the responsibility of upstream-led contributions across our whole product team.
+- We need a team system for identifying and prioritizing the most impactful Foundational Contributions to perform.
+- This system must spread the responsibility of Foundational Contributions across our whole product team.
 - It means we need to give people support and training to do this effectively. For example, helping team members grow into roles that involve upstream work, rotating certain types of contributions across team members, etc.
 - If a team member does significant upstream contribution work _outside_ of this system, it'll be on "their own" time rather than on 2i2c time.
 
