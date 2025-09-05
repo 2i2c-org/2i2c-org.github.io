@@ -10,7 +10,10 @@ categories:
   - impact
 ---
 
-Over the past year, the 2i2c team has been thinking more deeply about our relationship with our _upstream_ communities. Here are a few questions we've been grappling with:
+Any organization building on open source faces a fundamental tension: how do you serve the needs of your organizational stakeholders while also acting as a responsible steward of the upstream projects you depend on?
+This is harder than it looks - simply "making PRs" leaves a number of open source needs unaddressed, and can burn out both your team members and the open source maintainers. We think about this a lot at 2i2c, and want to share our framework to navigate this challenge intentionally.
+
+Here are a few questions we've been grappling with:
 
 - How do we tie general upstream maintenance to value delivered to our user communities?
 - How can we scope upstream support so that it doesn't detract from our service needs and product strategy?
@@ -85,7 +88,6 @@ It includes things like:
 1. Grow and guide new contributors to grow team capacity
 1. Help making releases
 1. Provide code review
-1. Help onboard new contributors to the project
 1. Fix broken CI
 1. Write documentation and tutorials
 1. Manage and run meetings
@@ -110,8 +112,9 @@ With that in mind, here are a few ways that Foundational Contributions relate to
 - We need a team system for identifying and prioritizing the most impactful Foundational Contributions to perform.
 - This system must spread the responsibility of Foundational Contributions across our whole product team.
 - It means we need to give people support and training to do this effectively. For example, helping team members grow into roles that involve upstream work, rotating certain types of contributions across team members, etc.
-- If a team member does significant upstream contribution work _outside_ of this system, it'll be on "their own" time rather than on 2i2c time.
+
+To ensure this work is intentional and equitable across our team, we encourage Foundational contributions to happen within this framework. Contributions that falls outside of it is treated as a valued, but separate, personal contribution.
 
 ## What's next
 
-This post laid out the big ideas that are driving 2i2c's approach to upstream contributions. We'll share some more specific experiments and team policies that we've designed to help us do our work impactfully and efficiently. More to come!
+By distinguishing between Directed and Foundational contributions, we can align and balance our immediate product needs with our long-term commitment to community health. We believe this framework allows organizations like ours to be better partners. We'd love feedback about this process, how we can improve it, and what others have learned along the way.
