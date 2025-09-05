@@ -7,6 +7,16 @@ It is built from the [academic hugo theme](https://github.com/HugoBlox).
 
 This website is **hosted** by GitHub Pages, and we use Netlify to display previews of the website from PRs.
 
+## How to create a new blog post
+
+Copy the blog post folder template at the path below:
+
+```
+content/blog/_template-post
+```
+
+It contains an `index.md` file that you can modify. Put it in the folder for the year in which you're posting (e.g.: `content/blog/2025/mypostfolder`).
+
 ## How to edit, build, and preview this website
 
 See [the Team Compass blog documentation](https://compass.2i2c.org/communication/blog/) for more information.
