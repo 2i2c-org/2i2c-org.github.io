@@ -1,5 +1,5 @@
 ---
-title: "Our approach to providing directed and foundational contributions to open source communities"
+title: "How organizations can support a healthy open source ecosystem through directed and foundational contributions"
 date: 2025-09-03
 authors:
   - Yuvi Panda
