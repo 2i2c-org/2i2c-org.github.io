@@ -1,6 +1,6 @@
 ---
 # THIS IS A TEMPLATE FOR COPY-PASTING TO MAKE IT EASIER TO CREATE BLOG POSTS
-title: Template blog post
+title: Enabling / creating / X outcome by doing Y thing
 date: "2999-01-01"
 authors:
   - Chris Holdgraf
@@ -12,6 +12,8 @@ tags:
 One or two sentences about what happened and who did it. Link to the appropriate people, orgs, etc!
 
 One or two sentences describing why this is important, why it's valuable, or what it means.
+
+_Embed any images, videos, or youtube videos that are relevant. Put images in a file in the same folder called `featured.png` so it shows up as a feature preview._
 
 ## Learn more
 
@@ -36,9 +38,23 @@ _Delete this section it's just here to help you get started._
 
 Here are a few example Hugo directives for quick reference.
 
+### Figures
+
 An example figure directive:
 
 {{< figure src="images/staging-hub-matrix.png" title="Our staging and support hub job matrix tells GitHub Actions to deploy staging and support upgrades that act as canaries and stop production deploys if they fail.">}}
+
+### Videos
+
+From YouTube:
+
+{{< youtube YjonPLxDiwM >}}
+
+Local Videos:
+
+{{< video src="videos/jupyterhub-admin.mp4">}}
+
+### Callouts and admonitions
 
 An example admonition / callout:
 
