@@ -439,10 +439,10 @@ A community experiment to provide reproducible environments for published pre-pr
 &lt;figure id="figure-the-biorxiv-binder-pilot-workflow-an-author-used-a-2i2c-managed-binderhub-to-generate-a-reproducible-environment-for-their-paper-they-included-a-link-to-this-environment-in-the-abstract-readers-could-click-this-link-and-be-taken-to-a-fully-interactive-environment-to-explore-the-ideas-in-the-paper-and-reproduce-its-computation">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="The Biorxiv Binder pilot workflow. An author used a 2i2c-managed BinderHub to generate a reproducible environment for their paper. They included a link to this environment in the abstract. Readers could click this link, and be taken to a fully interactive environment to explore the ideas in the paper and reproduce its computation." srcset="
-/blog/2025/frictionless-reproducibility/images/reproduce-biorxiv_huf604de85a68d50f7a40711968e3141fb_95205_3441b302dcaeeacf16df2b59218d7be8.webp 400w,
-/blog/2025/frictionless-reproducibility/images/reproduce-biorxiv_huf604de85a68d50f7a40711968e3141fb_95205_12bb4f6978b5b5a62c5ff0f4ac0c4057.webp 760w,
-/blog/2025/frictionless-reproducibility/images/reproduce-biorxiv_huf604de85a68d50f7a40711968e3141fb_95205_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2025/frictionless-reproducibility/images/reproduce-biorxiv_huf604de85a68d50f7a40711968e3141fb_95205_3441b302dcaeeacf16df2b59218d7be8.webp"
+/blog/2025/frictionless-reproducibility/images/reproduce-biorxiv_hu4a264c61637efbf8d7f2942ea4842e16_81975_c880c6edf541702d3444066f72a10e05.webp 400w,
+/blog/2025/frictionless-reproducibility/images/reproduce-biorxiv_hu4a264c61637efbf8d7f2942ea4842e16_81975_5b181b3431ea56b42eb92cace47a174f.webp 760w,
+/blog/2025/frictionless-reproducibility/images/reproduce-biorxiv_hu4a264c61637efbf8d7f2942ea4842e16_81975_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2025/frictionless-reproducibility/images/reproduce-biorxiv_hu4a264c61637efbf8d7f2942ea4842e16_81975_c880c6edf541702d3444066f72a10e05.webp"
 width="760"
 height="428"
 loading="lazy" data-zoomable />&lt;/div>
@@ -473,10 +473,10 @@ There are many publishing organizations innovating with open source
 &lt;figure id="figure-publishers-could-re-use-the-computational-environments-from-a-communitys-hub-resulting-in-a-de-duplication-of-infrastructure-and-effort-and-bridging-the-gap-between-where-a-community-does-its-work-and-where-it-submits-new-ideas-for-publication-note-these-are-hypothetical-for-now-but-we-think-publishing-platforms-like-these-are-a-good-starting-point">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Publishers could re-use the computational environments from a community&amp;#39;s hub, resulting in a de-duplication of infrastructure and effort, and bridging the gap between where a community does its work, and where it submits new ideas for publication. (note these are hypothetical for now, but we think publishing platforms like these are a good starting point!)" srcset="
-/blog/2025/frictionless-reproducibility/featured_hue27b97fe8afb5729ef57cb528de3f2b8_94917_d99920aeaec9917382ce149f3ce7d5a3.webp 400w,
-/blog/2025/frictionless-reproducibility/featured_hue27b97fe8afb5729ef57cb528de3f2b8_94917_e5e6ded3be27e1fb99f31ea2025fe129.webp 760w,
-/blog/2025/frictionless-reproducibility/featured_hue27b97fe8afb5729ef57cb528de3f2b8_94917_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2025/frictionless-reproducibility/featured_hue27b97fe8afb5729ef57cb528de3f2b8_94917_d99920aeaec9917382ce149f3ce7d5a3.webp"
+/blog/2025/frictionless-reproducibility/featured_hu264951e48eab912d65d96f304a781973_78955_697f770e880664f63e9ccf3d720f94da.webp 400w,
+/blog/2025/frictionless-reproducibility/featured_hu264951e48eab912d65d96f304a781973_78955_711db73ce17759ea694f6c540369cdd5.webp 760w,
+/blog/2025/frictionless-reproducibility/featured_hu264951e48eab912d65d96f304a781973_78955_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2025/frictionless-reproducibility/featured_hu264951e48eab912d65d96f304a781973_78955_697f770e880664f63e9ccf3d720f94da.webp"
 width="760"
 height="428"
 loading="lazy" data-zoomable />&lt;/div>
@@ -572,10 +572,10 @@ Credit
 &lt;figure id="figure-an-example-leaderboard-for-a-data-challenge-taken-from-the-cellmap-challengehttpscellmapchallengejaneliaorg-users-make-submissions-that-are-run-against-secure-and-private-infrastructure-and-data-and-provides-feedback-about-the-submissions-performance-learn-more-about-the-frx-challenges-project-here-https2i2corgfrx-challenges">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="An example leaderboard for a data challenge, taken from the [Cellmap Challenge](https://cellmapchallenge.janelia.org/). Users make submissions that are run against secure and private infrastructure and data, and provides feedback about the submission&amp;#39;s performance. Learn more about the FRX challenges project here: https://2i2c.org/frx-challenges/" srcset="
-/blog/2024/frx/images/leaderboard_hu0bc251dd6caf23590fd61cf61013dca1_1307009_5b46aa64a0a0ccda04e936b986eb85ec.webp 400w,
-/blog/2024/frx/images/leaderboard_hu0bc251dd6caf23590fd61cf61013dca1_1307009_be703c3a967b80309a261be425d99de3.webp 760w,
-/blog/2024/frx/images/leaderboard_hu0bc251dd6caf23590fd61cf61013dca1_1307009_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2024/frx/images/leaderboard_hu0bc251dd6caf23590fd61cf61013dca1_1307009_5b46aa64a0a0ccda04e936b986eb85ec.webp"
+/blog/2024/frx/images/leaderboard_hu1c5275577555814ddf920c106a29e815_883850_ee579eedac01dcd34d5748aaae5eb014.webp 400w,
+/blog/2024/frx/images/leaderboard_hu1c5275577555814ddf920c106a29e815_883850_692532b48c8d5ab59e590c0e714e84e9.webp 760w,
+/blog/2024/frx/images/leaderboard_hu1c5275577555814ddf920c106a29e815_883850_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2024/frx/images/leaderboard_hu1c5275577555814ddf920c106a29e815_883850_ee579eedac01dcd34d5748aaae5eb014.webp"
 width="75%"
 height="417"
 loading="lazy" data-zoomable />&lt;/div>
@@ -709,10 +709,10 @@ Credit
 &lt;figure id="figure-grafana-dashboard-showing-cloud-costs-broken-down-by-compute-storage-and-other-components-for-the-openscapeshttpsopenscapesorg-hub">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Screenshot of a graph showing total daily costs per component." srcset="
-/blog/2024/aws-cost-attribution/featured_hu3c57cea2eaf38f8a160eedbbc8d845ec_255975_942dbf5613c853c7fcd391661568abd2.webp 400w,
-/blog/2024/aws-cost-attribution/featured_hu3c57cea2eaf38f8a160eedbbc8d845ec_255975_664dc28ef86bcc1505966f108d9ee15e.webp 760w,
-/blog/2024/aws-cost-attribution/featured_hu3c57cea2eaf38f8a160eedbbc8d845ec_255975_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2024/aws-cost-attribution/featured_hu3c57cea2eaf38f8a160eedbbc8d845ec_255975_942dbf5613c853c7fcd391661568abd2.webp"
+/blog/2024/aws-cost-attribution/featured_hu0a1ce7d8654f8efa8d798b6fefc5ebab_212463_bd231e67cdeebc846a0c3ad021439e5f.webp 400w,
+/blog/2024/aws-cost-attribution/featured_hu0a1ce7d8654f8efa8d798b6fefc5ebab_212463_2f89930d0393a8dbc3970e24741294eb.webp 760w,
+/blog/2024/aws-cost-attribution/featured_hu0a1ce7d8654f8efa8d798b6fefc5ebab_212463_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2024/aws-cost-attribution/featured_hu0a1ce7d8654f8efa8d798b6fefc5ebab_212463_bd231e67cdeebc846a0c3ad021439e5f.webp"
 width="760"
 height="485"
 loading="lazy" data-zoomable />&lt;/div>
@@ -779,10 +779,10 @@ The UToronto hub landing page
 &lt;figure id="figure-utoronto-hub-usage">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="UToronto hub usage" srcset="
-/blog/2024/utoronto-storage-monitoring/usage_hub24b49e3dbbe87302b910464ba062032_42243_5e8673339a5b869bf960a52cc5ba289c.webp 400w,
-/blog/2024/utoronto-storage-monitoring/usage_hub24b49e3dbbe87302b910464ba062032_42243_972cdbbef94b1186805f39afef856de1.webp 760w,
-/blog/2024/utoronto-storage-monitoring/usage_hub24b49e3dbbe87302b910464ba062032_42243_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2024/utoronto-storage-monitoring/usage_hub24b49e3dbbe87302b910464ba062032_42243_5e8673339a5b869bf960a52cc5ba289c.webp"
+/blog/2024/utoronto-storage-monitoring/usage_hu6ed2c2eb2e5ce90c08322c45dfdcb7ee_34488_b1f40ae663fa914ef485f5f6c4fa0916.webp 400w,
+/blog/2024/utoronto-storage-monitoring/usage_hu6ed2c2eb2e5ce90c08322c45dfdcb7ee_34488_7767ad069a24cee752376284042add84.webp 760w,
+/blog/2024/utoronto-storage-monitoring/usage_hu6ed2c2eb2e5ce90c08322c45dfdcb7ee_34488_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2024/utoronto-storage-monitoring/usage_hu6ed2c2eb2e5ce90c08322c45dfdcb7ee_34488_b1f40ae663fa914ef485f5f6c4fa0916.webp"
 width="756"
 height="500"
 loading="lazy" data-zoomable />&lt;/div>
@@ -1010,10 +1010,10 @@ Credit
 &lt;figure id="figure-the-qgreenland-researcher-workshophttpsqgreenland-workshop-2023-researchergithubio">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="QGreenland Researcher Workshop" srcset="
-/blog/2023/qgis-greenland/featured_hu52f5227fdbc7d483fb6dc187b4a9eb93_223337_63636efae00e19afc0bcbdd4f04eb656.webp 400w,
-/blog/2023/qgis-greenland/featured_hu52f5227fdbc7d483fb6dc187b4a9eb93_223337_72463046c0b96c1e8771f1694c76eac1.webp 760w,
-/blog/2023/qgis-greenland/featured_hu52f5227fdbc7d483fb6dc187b4a9eb93_223337_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2023/qgis-greenland/featured_hu52f5227fdbc7d483fb6dc187b4a9eb93_223337_63636efae00e19afc0bcbdd4f04eb656.webp"
+/blog/2023/qgis-greenland/featured_hu9562f6f382c010541578bd7b61c7cb4a_187505_ba903db7827843ac9c98f5a33564cef8.webp 400w,
+/blog/2023/qgis-greenland/featured_hu9562f6f382c010541578bd7b61c7cb4a_187505_9436f231da2c0221d6b03477aee6170c.webp 760w,
+/blog/2023/qgis-greenland/featured_hu9562f6f382c010541578bd7b61c7cb4a_187505_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2023/qgis-greenland/featured_hu9562f6f382c010541578bd7b61c7cb4a_187505_ba903db7827843ac9c98f5a33564cef8.webp"
 width="760"
 height="498"
 loading="lazy" data-zoomable />&lt;/div>
@@ -1192,10 +1192,10 @@ Here are the major jobs in this workflow, and what each does:&lt;/p>
 &lt;figure id="figure-our-staging-and-support-hub-job-matrix-tells-github-actions-to-deploy-staging-and-support-upgrades-that-act-as-canaries-and-stop-production-deploys-if-they-fail">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Our staging and support hub job matrix tells GitHub Actions to deploy staging and support upgrades that act as canaries and stop production deploys if they fail." srcset="
-/blog/2022/ci-cd-improvements/images/staging-hub-matrix_hud4cf8f8cf4a6c8d8d79a9996348202b9_131909_d9a4e6bc16b2e2b445261d73e9c301b7.webp 400w,
-/blog/2022/ci-cd-improvements/images/staging-hub-matrix_hud4cf8f8cf4a6c8d8d79a9996348202b9_131909_0df0ec91484c3abf7475d91ac41c3f2b.webp 760w,
-/blog/2022/ci-cd-improvements/images/staging-hub-matrix_hud4cf8f8cf4a6c8d8d79a9996348202b9_131909_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2022/ci-cd-improvements/images/staging-hub-matrix_hud4cf8f8cf4a6c8d8d79a9996348202b9_131909_d9a4e6bc16b2e2b445261d73e9c301b7.webp"
+/blog/2022/ci-cd-improvements/images/staging-hub-matrix_hu7a1bb3fb06e3f581f944c2d267a10ff9_107479_ca59e5ca8dcd2b1ebeab736126bdfc9f.webp 400w,
+/blog/2022/ci-cd-improvements/images/staging-hub-matrix_hu7a1bb3fb06e3f581f944c2d267a10ff9_107479_c650383168feaeb478769bd20033f23c.webp 760w,
+/blog/2022/ci-cd-improvements/images/staging-hub-matrix_hu7a1bb3fb06e3f581f944c2d267a10ff9_107479_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2022/ci-cd-improvements/images/staging-hub-matrix_hu7a1bb3fb06e3f581f944c2d267a10ff9_107479_ca59e5ca8dcd2b1ebeab736126bdfc9f.webp"
 width="760"
 height="529"
 loading="lazy" data-zoomable />&lt;/div>
@@ -1221,10 +1221,10 @@ Our staging and support hub job matrix tells GitHub Actions to deploy staging an
 &lt;figure id="figure-our-production-hub-job-matrix-tells-github-actions-which-hubs-to-update-with-new-changes-these-are-triggered-if-a-clusters-stagingsupport-job-does-not-fail">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Our production hub job matrix tells GitHub Actions which hubs to update with new changes. These are triggered if a cluster&amp;#39;s staging/support job does not fail." srcset="
-/blog/2022/ci-cd-improvements/images/prod-hub-matrix_huaad8abc632f1aab6f15ac18c742ef022_37705_06aae9508934f7b72fad6d052d255cd1.webp 400w,
-/blog/2022/ci-cd-improvements/images/prod-hub-matrix_huaad8abc632f1aab6f15ac18c742ef022_37705_2a7d08ae1d0384ffdb745227486bb327.webp 760w,
-/blog/2022/ci-cd-improvements/images/prod-hub-matrix_huaad8abc632f1aab6f15ac18c742ef022_37705_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2022/ci-cd-improvements/images/prod-hub-matrix_huaad8abc632f1aab6f15ac18c742ef022_37705_06aae9508934f7b72fad6d052d255cd1.webp"
+/blog/2022/ci-cd-improvements/images/prod-hub-matrix_huad3521b0ae4afb8512dab5e3fdf016b6_36691_1ae3e22a321454a0fe1662b19a894e36.webp 400w,
+/blog/2022/ci-cd-improvements/images/prod-hub-matrix_huad3521b0ae4afb8512dab5e3fdf016b6_36691_bdf6ab31265f2e43b125c72339342841.webp 760w,
+/blog/2022/ci-cd-improvements/images/prod-hub-matrix_huad3521b0ae4afb8512dab5e3fdf016b6_36691_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2022/ci-cd-improvements/images/prod-hub-matrix_huad3521b0ae4afb8512dab5e3fdf016b6_36691_1ae3e22a321454a0fe1662b19a894e36.webp"
 width="760"
 height="515"
 loading="lazy" data-zoomable />&lt;/div>

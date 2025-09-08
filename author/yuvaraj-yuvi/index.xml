@@ -119,10 +119,10 @@ Deploying BinderHub on a single-node VM is cheaper and simpler
 &lt;figure id="figure-comparison-of-rough-monthly-costs-across-different-cloud-providers-for-similar-vm-instances-these-are-rough-estimates-based-on-cloud-provider-pricing-pages-for-an-on-demand-vm-with-around-190gb-ram-pricing-pages-hetzner-cloudhttpswwwhetznercomcloud-300-microsoft-azurehttpsazurecomeda6294b08dfa49639f74caad1630bbe4-1300-google-cloud-platformhttpscloudgooglecomproductscalculatorhlendlcjhdavjrwlrbevpeumpnqzawtvrrmkxuumtnalv0t0rnnu5pmhpav1eywlrnmfphsxppve1rqve9praigirdrtq3qtywqy1dnum5ltq3qkqtqtm3ms05mjbcqju1qjngrjg-1500-amazon-web-serviceshttpscalculatorawsestimateida3bddb8bdbfa2058b941b669e408141e7fd18da4-1600">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Comparison of rough monthly costs across different cloud providers for similar VM instances. These are rough estimates based on cloud provider pricing pages for an on-demand VM with around 190GB RAM. Pricing pages: [Hetzner Cloud](https://www.hetzner.com/cloud) ~$300, [Microsoft Azure](https://azure.com/e/da6294b08dfa49639f74caad1630bbe4) ~$1,300, [Google Cloud Platform](https://cloud.google.com/products/calculator?hl=en&amp;amp;dl=CjhDaVJrWlRBeVpEUmpNQzAwTVRrMkxUUmtNalV0T0RnNU5pMHpaV1EyWlRnMFpHSXpPVE1RQVE9PRAIGiRDRTQ3QTYwQy1DNUM5LTQ3QkQtQTM3MS05MjBCQjU1QjNGRjg) ~$1,500, [Amazon Web Services](https://calculator.aws/#/estimate?id=a3bddb8bdbfa2058b941b669e408141e7fd18da4) ~$1,600." srcset="
-/blog/2025/binder-singlenode/featured_hu51603921db60081a66cbc5b0a068d259_308887_9daba9f80271d1da5e14b46a3d641067.webp 400w,
-/blog/2025/binder-singlenode/featured_hu51603921db60081a66cbc5b0a068d259_308887_c2893908494f67146ba04b558b8584c1.webp 760w,
-/blog/2025/binder-singlenode/featured_hu51603921db60081a66cbc5b0a068d259_308887_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2025/binder-singlenode/featured_hu51603921db60081a66cbc5b0a068d259_308887_9daba9f80271d1da5e14b46a3d641067.webp"
+/blog/2025/binder-singlenode/featured_hu5599e630254656f9a400bcb8f9798a4e_195115_a97d3a2cc01d69e748ff6cdd73a8195e.webp 400w,
+/blog/2025/binder-singlenode/featured_hu5599e630254656f9a400bcb8f9798a4e_195115_70c7d648b80153fb33bd84196702bda4.webp 760w,
+/blog/2025/binder-singlenode/featured_hu5599e630254656f9a400bcb8f9798a4e_195115_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2025/binder-singlenode/featured_hu5599e630254656f9a400bcb8f9798a4e_195115_a97d3a2cc01d69e748ff6cdd73a8195e.webp"
 width="760"
 height="540"
 loading="lazy" data-zoomable />&lt;/div>
@@ -172,10 +172,10 @@ If your single VM is much cheaper, it might still be the cheapest option. In the
 &lt;figure id="figure-sessions-launched-on-mybinderorgs-federation-over-the-past-ten-days-the-yellow-area-represents-sessions-run-on-2i2cmybinderorg-they-now-make-up-the-majority-of-launches-on-mybinderorg-prior-to-this-gesismybinderorg-was-the-only-remaining-federation-member">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Sessions launched on mybinder.org&amp;#39;s federation over the past ten days. The yellow area represents sessions run on `2i2c.mybinder.org`. They now make up the majority of launches on mybinder.org. Prior to this, `gesis.mybinder.org` was the only remaining federation member." srcset="
-/blog/2025/binder-singlenode/images/grafana_hue0c246cc982879ed32a6360c39d9353a_621484_8b7db3ecb3259d2ccf6fed0acdab58fe.webp 400w,
-/blog/2025/binder-singlenode/images/grafana_hue0c246cc982879ed32a6360c39d9353a_621484_60d33ca4f5b10dd4a2e0daa491ee21c6.webp 760w,
-/blog/2025/binder-singlenode/images/grafana_hue0c246cc982879ed32a6360c39d9353a_621484_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2025/binder-singlenode/images/grafana_hue0c246cc982879ed32a6360c39d9353a_621484_8b7db3ecb3259d2ccf6fed0acdab58fe.webp"
+/blog/2025/binder-singlenode/images/grafana_hu475853c06f9a32183866c212d09dafeb_419800_3da468561744d0f716672253d58b10f0.webp 400w,
+/blog/2025/binder-singlenode/images/grafana_hu475853c06f9a32183866c212d09dafeb_419800_c6e0913b4252dd59d82a4055e9738576.webp 760w,
+/blog/2025/binder-singlenode/images/grafana_hu475853c06f9a32183866c212d09dafeb_419800_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2025/binder-singlenode/images/grafana_hu475853c06f9a32183866c212d09dafeb_419800_3da468561744d0f716672253d58b10f0.webp"
 width="760"
 height="455"
 loading="lazy" data-zoomable />&lt;/div>
@@ -372,10 +372,10 @@ Other updates
 &lt;figure id="figure-an-example-leaderboard-for-a-data-challenge-taken-from-the-cellmap-challengehttpscellmapchallengejaneliaorg-users-make-submissions-that-are-run-against-secure-and-private-infrastructure-and-data-and-provides-feedback-about-the-submissions-performance-learn-more-about-the-frx-challenges-project-here-https2i2corgfrx-challenges">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="An example leaderboard for a data challenge, taken from the [Cellmap Challenge](https://cellmapchallenge.janelia.org/). Users make submissions that are run against secure and private infrastructure and data, and provides feedback about the submission&amp;#39;s performance. Learn more about the FRX challenges project here: https://2i2c.org/frx-challenges/" srcset="
-/blog/2024/frx/images/leaderboard_hu0bc251dd6caf23590fd61cf61013dca1_1307009_5b46aa64a0a0ccda04e936b986eb85ec.webp 400w,
-/blog/2024/frx/images/leaderboard_hu0bc251dd6caf23590fd61cf61013dca1_1307009_be703c3a967b80309a261be425d99de3.webp 760w,
-/blog/2024/frx/images/leaderboard_hu0bc251dd6caf23590fd61cf61013dca1_1307009_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2024/frx/images/leaderboard_hu0bc251dd6caf23590fd61cf61013dca1_1307009_5b46aa64a0a0ccda04e936b986eb85ec.webp"
+/blog/2024/frx/images/leaderboard_hu1c5275577555814ddf920c106a29e815_883850_ee579eedac01dcd34d5748aaae5eb014.webp 400w,
+/blog/2024/frx/images/leaderboard_hu1c5275577555814ddf920c106a29e815_883850_692532b48c8d5ab59e590c0e714e84e9.webp 760w,
+/blog/2024/frx/images/leaderboard_hu1c5275577555814ddf920c106a29e815_883850_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2024/frx/images/leaderboard_hu1c5275577555814ddf920c106a29e815_883850_ee579eedac01dcd34d5748aaae5eb014.webp"
 width="75%"
 height="417"
 loading="lazy" data-zoomable />&lt;/div>
@@ -510,10 +510,10 @@ Credit
 &lt;figure id="figure-the-veda-dashboardhttpswwwearthdatanasagovdashboard">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Landing page of the public-facing NASA VEDA dashboard" srcset="
-/blog/2024/veda-devseed-collab/featured_hu39a7cc29a158ac2651b21d5a8118917f_3367824_71bfd2bbcb0414a641ccf9d2497f1383.webp 400w,
-/blog/2024/veda-devseed-collab/featured_hu39a7cc29a158ac2651b21d5a8118917f_3367824_a2f03ffcfc01d10b92d3b5359ab49521.webp 760w,
-/blog/2024/veda-devseed-collab/featured_hu39a7cc29a158ac2651b21d5a8118917f_3367824_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2024/veda-devseed-collab/featured_hu39a7cc29a158ac2651b21d5a8118917f_3367824_71bfd2bbcb0414a641ccf9d2497f1383.webp"
+/blog/2024/veda-devseed-collab/featured_hu24026c3ba79339d6cab1fefe6f955a05_2636756_0c346142ccc9fb3d33c505813b73ecdd.webp 400w,
+/blog/2024/veda-devseed-collab/featured_hu24026c3ba79339d6cab1fefe6f955a05_2636756_d1509b93338ce6bee9dcdedbe51f26c9.webp 760w,
+/blog/2024/veda-devseed-collab/featured_hu24026c3ba79339d6cab1fefe6f955a05_2636756_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2024/veda-devseed-collab/featured_hu24026c3ba79339d6cab1fefe6f955a05_2636756_0c346142ccc9fb3d33c505813b73ecdd.webp"
 width="760"
 height="490"
 loading="lazy" data-zoomable />&lt;/div>
@@ -578,10 +578,10 @@ Better Profile Selection
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Default profile list page" srcset="
-/blog/2024/veda-devseed-collab/old-profile_hu0c4ed8e23eda24477579f8c6de486cbb_251152_33f71f9278500a92b225887bc823fa03.webp 400w,
-/blog/2024/veda-devseed-collab/old-profile_hu0c4ed8e23eda24477579f8c6de486cbb_251152_21c5e15271c50f03d7308c09feec74d4.webp 760w,
-/blog/2024/veda-devseed-collab/old-profile_hu0c4ed8e23eda24477579f8c6de486cbb_251152_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2024/veda-devseed-collab/old-profile_hu0c4ed8e23eda24477579f8c6de486cbb_251152_33f71f9278500a92b225887bc823fa03.webp"
+/blog/2024/veda-devseed-collab/old-profile_hu10b987728cacc6727099b87fdcffde73_116187_f55ed283a1bbb45a4002b7db6646d205.webp 400w,
+/blog/2024/veda-devseed-collab/old-profile_hu10b987728cacc6727099b87fdcffde73_116187_a96b242c08a12d0156109234e3f2269d.webp 760w,
+/blog/2024/veda-devseed-collab/old-profile_hu10b987728cacc6727099b87fdcffde73_116187_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2024/veda-devseed-collab/old-profile_hu10b987728cacc6727099b87fdcffde73_116187_f55ed283a1bbb45a4002b7db6646d205.webp"
 width="734"
 height="760"
 loading="lazy" data-zoomable />&lt;/div>
@@ -631,10 +631,10 @@ Acknowledgements
 &lt;figure id="figure-surface-biology-and-geology-vitals-workshop">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Cover slide from the SBG Workshop" srcset="
-/blog/2024/openscapes-sbg-workshop/featured_huf29df529f4de839560527c41e2ef79d6_1556547_e60381fabc34b292288815fa849fa79a.webp 400w,
-/blog/2024/openscapes-sbg-workshop/featured_huf29df529f4de839560527c41e2ef79d6_1556547_41fe3b6a6008389ea8e4b365234393c4.webp 760w,
-/blog/2024/openscapes-sbg-workshop/featured_huf29df529f4de839560527c41e2ef79d6_1556547_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2024/openscapes-sbg-workshop/featured_huf29df529f4de839560527c41e2ef79d6_1556547_e60381fabc34b292288815fa849fa79a.webp"
+/blog/2024/openscapes-sbg-workshop/featured_hue819d1810c727f509c70882af2906386_1363058_81f857b51daa1aca4a2de354a9020ee1.webp 400w,
+/blog/2024/openscapes-sbg-workshop/featured_hue819d1810c727f509c70882af2906386_1363058_786bb3400878e74ec50331db2192a249.webp 760w,
+/blog/2024/openscapes-sbg-workshop/featured_hue819d1810c727f509c70882af2906386_1363058_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2024/openscapes-sbg-workshop/featured_hue819d1810c727f509c70882af2906386_1363058_81f857b51daa1aca4a2de354a9020ee1.webp"
 width="760"
 height="476"
 loading="lazy" data-zoomable />&lt;/div>
@@ -658,10 +658,10 @@ Surface Biology and Geology: VITALS Workshop
 &lt;figure id="figure-plot-of-the-canopy-water-content-over-the-jack-and-laura-dangermond-preserve-santa-barbara-ca-from-a-vitals-workshop-jupyter-notebookhttpsnasagithubiovitalspython03_emit_cwc_from_reflectancehtml">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Plot of the Canopy Water Content over the Jack and Laura Dangermond Preserve, Santa Barbara, CA." srcset="
-/blog/2024/openscapes-sbg-workshop/canopy-water-content_hu17534299388d7f44f9478d2afb93b75f_419573_0a946d0b9244cc5b48d856eb3e1682b1.webp 400w,
-/blog/2024/openscapes-sbg-workshop/canopy-water-content_hu17534299388d7f44f9478d2afb93b75f_419573_68a0faf5e752a866e2d6f354ded30654.webp 760w,
-/blog/2024/openscapes-sbg-workshop/canopy-water-content_hu17534299388d7f44f9478d2afb93b75f_419573_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2024/openscapes-sbg-workshop/canopy-water-content_hu17534299388d7f44f9478d2afb93b75f_419573_0a946d0b9244cc5b48d856eb3e1682b1.webp"
+/blog/2024/openscapes-sbg-workshop/canopy-water-content_hu0373bdfe9208f8ce22ea7a38db775ed2_317466_d893568d95e870664fbed01c909ac38f.webp 400w,
+/blog/2024/openscapes-sbg-workshop/canopy-water-content_hu0373bdfe9208f8ce22ea7a38db775ed2_317466_b8db493d7219802231e43b5f83cc2182.webp 760w,
+/blog/2024/openscapes-sbg-workshop/canopy-water-content_hu0373bdfe9208f8ce22ea7a38db775ed2_317466_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2024/openscapes-sbg-workshop/canopy-water-content_hu0373bdfe9208f8ce22ea7a38db775ed2_317466_d893568d95e870664fbed01c909ac38f.webp"
 width="739"
 height="601"
 loading="lazy" data-zoomable />&lt;/div>
@@ -685,10 +685,10 @@ Plot of the Canopy Water Content over the Jack and Laura Dangermond Preserve, Sa
 &lt;figure id="figure-feedback-from-brianna-lind-lp-daac">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Slack message from Bri Lind" srcset="
-/blog/2024/openscapes-sbg-workshop/slack_hu56599f01021c8680039361b5a15363da_65875_a971937fdc3274fd3b610b9624055556.webp 400w,
-/blog/2024/openscapes-sbg-workshop/slack_hu56599f01021c8680039361b5a15363da_65875_c701b6ceed40db32e36d0cc8c537fcc8.webp 760w,
-/blog/2024/openscapes-sbg-workshop/slack_hu56599f01021c8680039361b5a15363da_65875_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2024/openscapes-sbg-workshop/slack_hu56599f01021c8680039361b5a15363da_65875_a971937fdc3274fd3b610b9624055556.webp"
+/blog/2024/openscapes-sbg-workshop/slack_hu92a99c5a2eca92e535f899967fd8b202_53752_ba09f4df240787c9a04d2d27bc2c5a5b.webp 400w,
+/blog/2024/openscapes-sbg-workshop/slack_hu92a99c5a2eca92e535f899967fd8b202_53752_095056e86e2035dc6c4a5a38c3ed7a5a.webp 760w,
+/blog/2024/openscapes-sbg-workshop/slack_hu92a99c5a2eca92e535f899967fd8b202_53752_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2024/openscapes-sbg-workshop/slack_hu92a99c5a2eca92e535f899967fd8b202_53752_ba09f4df240787c9a04d2d27bc2c5a5b.webp"
 width="760"
 height="219"
 loading="lazy" data-zoomable />&lt;/div>
@@ -714,10 +714,10 @@ Acknowledgements
 &lt;figure id="figure-the-hhmi-spyglass-tutorialhttpsspyglasshhmi2i2ccloud">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="HHMI Spyglass tutorial" srcset="
-/blog/2024/hhmi-spyglass-mysql/featured_hu410b1218ee4391ecc35ef84ca9e97293_287716_86c408a60ebca8bf8dc746e1ea9819c3.webp 400w,
-/blog/2024/hhmi-spyglass-mysql/featured_hu410b1218ee4391ecc35ef84ca9e97293_287716_a54ca150839b6f45415b0c718177c538.webp 760w,
-/blog/2024/hhmi-spyglass-mysql/featured_hu410b1218ee4391ecc35ef84ca9e97293_287716_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2024/hhmi-spyglass-mysql/featured_hu410b1218ee4391ecc35ef84ca9e97293_287716_86c408a60ebca8bf8dc746e1ea9819c3.webp"
+/blog/2024/hhmi-spyglass-mysql/featured_huda5696297f7fdc49904c82761adc3edf_243308_598303ce9fab37b82985827d80811661.webp 400w,
+/blog/2024/hhmi-spyglass-mysql/featured_huda5696297f7fdc49904c82761adc3edf_243308_be7fedce8169ff93e4d1bb453a589d91.webp 760w,
+/blog/2024/hhmi-spyglass-mysql/featured_huda5696297f7fdc49904c82761adc3edf_243308_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2024/hhmi-spyglass-mysql/featured_huda5696297f7fdc49904c82761adc3edf_243308_598303ce9fab37b82985827d80811661.webp"
 width="760"
 height="498"
 loading="lazy" data-zoomable />&lt;/div>
@@ -999,10 +999,10 @@ Credit
 &lt;figure id="figure-the-qgreenland-researcher-workshophttpsqgreenland-workshop-2023-researchergithubio">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="QGreenland Researcher Workshop" srcset="
-/blog/2023/qgis-greenland/featured_hu52f5227fdbc7d483fb6dc187b4a9eb93_223337_63636efae00e19afc0bcbdd4f04eb656.webp 400w,
-/blog/2023/qgis-greenland/featured_hu52f5227fdbc7d483fb6dc187b4a9eb93_223337_72463046c0b96c1e8771f1694c76eac1.webp 760w,
-/blog/2023/qgis-greenland/featured_hu52f5227fdbc7d483fb6dc187b4a9eb93_223337_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2023/qgis-greenland/featured_hu52f5227fdbc7d483fb6dc187b4a9eb93_223337_63636efae00e19afc0bcbdd4f04eb656.webp"
+/blog/2023/qgis-greenland/featured_hu9562f6f382c010541578bd7b61c7cb4a_187505_ba903db7827843ac9c98f5a33564cef8.webp 400w,
+/blog/2023/qgis-greenland/featured_hu9562f6f382c010541578bd7b61c7cb4a_187505_9436f231da2c0221d6b03477aee6170c.webp 760w,
+/blog/2023/qgis-greenland/featured_hu9562f6f382c010541578bd7b61c7cb4a_187505_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2023/qgis-greenland/featured_hu9562f6f382c010541578bd7b61c7cb4a_187505_ba903db7827843ac9c98f5a33564cef8.webp"
 width="760"
 height="498"
 loading="lazy" data-zoomable />&lt;/div>

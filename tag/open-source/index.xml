@@ -480,10 +480,10 @@ Deploying BinderHub on a single-node VM is cheaper and simpler
 &lt;figure id="figure-comparison-of-rough-monthly-costs-across-different-cloud-providers-for-similar-vm-instances-these-are-rough-estimates-based-on-cloud-provider-pricing-pages-for-an-on-demand-vm-with-around-190gb-ram-pricing-pages-hetzner-cloudhttpswwwhetznercomcloud-300-microsoft-azurehttpsazurecomeda6294b08dfa49639f74caad1630bbe4-1300-google-cloud-platformhttpscloudgooglecomproductscalculatorhlendlcjhdavjrwlrbevpeumpnqzawtvrrmkxuumtnalv0t0rnnu5pmhpav1eywlrnmfphsxppve1rqve9praigirdrtq3qtywqy1dnum5ltq3qkqtqtm3ms05mjbcqju1qjngrjg-1500-amazon-web-serviceshttpscalculatorawsestimateida3bddb8bdbfa2058b941b669e408141e7fd18da4-1600">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Comparison of rough monthly costs across different cloud providers for similar VM instances. These are rough estimates based on cloud provider pricing pages for an on-demand VM with around 190GB RAM. Pricing pages: [Hetzner Cloud](https://www.hetzner.com/cloud) ~$300, [Microsoft Azure](https://azure.com/e/da6294b08dfa49639f74caad1630bbe4) ~$1,300, [Google Cloud Platform](https://cloud.google.com/products/calculator?hl=en&amp;amp;dl=CjhDaVJrWlRBeVpEUmpNQzAwTVRrMkxUUmtNalV0T0RnNU5pMHpaV1EyWlRnMFpHSXpPVE1RQVE9PRAIGiRDRTQ3QTYwQy1DNUM5LTQ3QkQtQTM3MS05MjBCQjU1QjNGRjg) ~$1,500, [Amazon Web Services](https://calculator.aws/#/estimate?id=a3bddb8bdbfa2058b941b669e408141e7fd18da4) ~$1,600." srcset="
-/blog/2025/binder-singlenode/featured_hu51603921db60081a66cbc5b0a068d259_308887_9daba9f80271d1da5e14b46a3d641067.webp 400w,
-/blog/2025/binder-singlenode/featured_hu51603921db60081a66cbc5b0a068d259_308887_c2893908494f67146ba04b558b8584c1.webp 760w,
-/blog/2025/binder-singlenode/featured_hu51603921db60081a66cbc5b0a068d259_308887_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2025/binder-singlenode/featured_hu51603921db60081a66cbc5b0a068d259_308887_9daba9f80271d1da5e14b46a3d641067.webp"
+/blog/2025/binder-singlenode/featured_hu5599e630254656f9a400bcb8f9798a4e_195115_a97d3a2cc01d69e748ff6cdd73a8195e.webp 400w,
+/blog/2025/binder-singlenode/featured_hu5599e630254656f9a400bcb8f9798a4e_195115_70c7d648b80153fb33bd84196702bda4.webp 760w,
+/blog/2025/binder-singlenode/featured_hu5599e630254656f9a400bcb8f9798a4e_195115_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2025/binder-singlenode/featured_hu5599e630254656f9a400bcb8f9798a4e_195115_a97d3a2cc01d69e748ff6cdd73a8195e.webp"
 width="760"
 height="540"
 loading="lazy" data-zoomable />&lt;/div>
@@ -533,10 +533,10 @@ If your single VM is much cheaper, it might still be the cheapest option. In the
 &lt;figure id="figure-sessions-launched-on-mybinderorgs-federation-over-the-past-ten-days-the-yellow-area-represents-sessions-run-on-2i2cmybinderorg-they-now-make-up-the-majority-of-launches-on-mybinderorg-prior-to-this-gesismybinderorg-was-the-only-remaining-federation-member">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Sessions launched on mybinder.org&amp;#39;s federation over the past ten days. The yellow area represents sessions run on `2i2c.mybinder.org`. They now make up the majority of launches on mybinder.org. Prior to this, `gesis.mybinder.org` was the only remaining federation member." srcset="
-/blog/2025/binder-singlenode/images/grafana_hue0c246cc982879ed32a6360c39d9353a_621484_8b7db3ecb3259d2ccf6fed0acdab58fe.webp 400w,
-/blog/2025/binder-singlenode/images/grafana_hue0c246cc982879ed32a6360c39d9353a_621484_60d33ca4f5b10dd4a2e0daa491ee21c6.webp 760w,
-/blog/2025/binder-singlenode/images/grafana_hue0c246cc982879ed32a6360c39d9353a_621484_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2025/binder-singlenode/images/grafana_hue0c246cc982879ed32a6360c39d9353a_621484_8b7db3ecb3259d2ccf6fed0acdab58fe.webp"
+/blog/2025/binder-singlenode/images/grafana_hu475853c06f9a32183866c212d09dafeb_419800_3da468561744d0f716672253d58b10f0.webp 400w,
+/blog/2025/binder-singlenode/images/grafana_hu475853c06f9a32183866c212d09dafeb_419800_c6e0913b4252dd59d82a4055e9738576.webp 760w,
+/blog/2025/binder-singlenode/images/grafana_hu475853c06f9a32183866c212d09dafeb_419800_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2025/binder-singlenode/images/grafana_hu475853c06f9a32183866c212d09dafeb_419800_3da468561744d0f716672253d58b10f0.webp"
 width="760"
 height="455"
 loading="lazy" data-zoomable />&lt;/div>
@@ -753,10 +753,10 @@ We&amp;rsquo;d love feedback
 &lt;figure id="figure-an-example-leaderboard-for-a-data-challenge-taken-from-the-cellmap-challengehttpscellmapchallengejaneliaorg-users-make-submissions-that-are-run-against-secure-and-private-infrastructure-and-data-and-provides-feedback-about-the-submissions-performance-learn-more-about-the-frx-challenges-project-here-https2i2corgfrx-challenges">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="An example leaderboard for a data challenge, taken from the [Cellmap Challenge](https://cellmapchallenge.janelia.org/). Users make submissions that are run against secure and private infrastructure and data, and provides feedback about the submission&amp;#39;s performance. Learn more about the FRX challenges project here: https://2i2c.org/frx-challenges/" srcset="
-/blog/2024/frx/images/leaderboard_hu0bc251dd6caf23590fd61cf61013dca1_1307009_5b46aa64a0a0ccda04e936b986eb85ec.webp 400w,
-/blog/2024/frx/images/leaderboard_hu0bc251dd6caf23590fd61cf61013dca1_1307009_be703c3a967b80309a261be425d99de3.webp 760w,
-/blog/2024/frx/images/leaderboard_hu0bc251dd6caf23590fd61cf61013dca1_1307009_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2024/frx/images/leaderboard_hu0bc251dd6caf23590fd61cf61013dca1_1307009_5b46aa64a0a0ccda04e936b986eb85ec.webp"
+/blog/2024/frx/images/leaderboard_hu1c5275577555814ddf920c106a29e815_883850_ee579eedac01dcd34d5748aaae5eb014.webp 400w,
+/blog/2024/frx/images/leaderboard_hu1c5275577555814ddf920c106a29e815_883850_692532b48c8d5ab59e590c0e714e84e9.webp 760w,
+/blog/2024/frx/images/leaderboard_hu1c5275577555814ddf920c106a29e815_883850_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2024/frx/images/leaderboard_hu1c5275577555814ddf920c106a29e815_883850_ee579eedac01dcd34d5748aaae5eb014.webp"
 width="75%"
 height="417"
 loading="lazy" data-zoomable />&lt;/div>
@@ -892,10 +892,10 @@ Credit
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Jupyter Book 2 logo" srcset="
-/blog/2024/jupyter-book-2/featured_hua33e8d2e3d9e7a1805c554d19769ecc0_9963_804acdd0a9c785816968a9611befcaa6.webp 400w,
-/blog/2024/jupyter-book-2/featured_hua33e8d2e3d9e7a1805c554d19769ecc0_9963_061a4c785abe99d31a2a316c14e43ea3.webp 760w,
-/blog/2024/jupyter-book-2/featured_hua33e8d2e3d9e7a1805c554d19769ecc0_9963_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2024/jupyter-book-2/featured_hua33e8d2e3d9e7a1805c554d19769ecc0_9963_804acdd0a9c785816968a9611befcaa6.webp"
+/blog/2024/jupyter-book-2/featured_hu9397abb9dc215fd1bcc8d6a18f27fb4c_8272_0f3fdc395470dff824d4ec5734091fa6.webp 400w,
+/blog/2024/jupyter-book-2/featured_hu9397abb9dc215fd1bcc8d6a18f27fb4c_8272_b4e8201419be0cac62b6b5b6eda55797.webp 760w,
+/blog/2024/jupyter-book-2/featured_hu9397abb9dc215fd1bcc8d6a18f27fb4c_8272_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2024/jupyter-book-2/featured_hu9397abb9dc215fd1bcc8d6a18f27fb4c_8272_0f3fdc395470dff824d4ec5734091fa6.webp"
 width="461"
 height="105"
 loading="lazy" data-zoomable />&lt;/div>
@@ -1073,10 +1073,10 @@ Acknowledgments
 &lt;figure id="figure-the-veda-dashboardhttpswwwearthdatanasagovdashboard">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Landing page of the public-facing NASA VEDA dashboard" srcset="
-/blog/2024/veda-devseed-collab/featured_hu39a7cc29a158ac2651b21d5a8118917f_3367824_71bfd2bbcb0414a641ccf9d2497f1383.webp 400w,
-/blog/2024/veda-devseed-collab/featured_hu39a7cc29a158ac2651b21d5a8118917f_3367824_a2f03ffcfc01d10b92d3b5359ab49521.webp 760w,
-/blog/2024/veda-devseed-collab/featured_hu39a7cc29a158ac2651b21d5a8118917f_3367824_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2024/veda-devseed-collab/featured_hu39a7cc29a158ac2651b21d5a8118917f_3367824_71bfd2bbcb0414a641ccf9d2497f1383.webp"
+/blog/2024/veda-devseed-collab/featured_hu24026c3ba79339d6cab1fefe6f955a05_2636756_0c346142ccc9fb3d33c505813b73ecdd.webp 400w,
+/blog/2024/veda-devseed-collab/featured_hu24026c3ba79339d6cab1fefe6f955a05_2636756_d1509b93338ce6bee9dcdedbe51f26c9.webp 760w,
+/blog/2024/veda-devseed-collab/featured_hu24026c3ba79339d6cab1fefe6f955a05_2636756_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2024/veda-devseed-collab/featured_hu24026c3ba79339d6cab1fefe6f955a05_2636756_0c346142ccc9fb3d33c505813b73ecdd.webp"
 width="760"
 height="490"
 loading="lazy" data-zoomable />&lt;/div>
@@ -1141,10 +1141,10 @@ Better Profile Selection
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Default profile list page" srcset="
-/blog/2024/veda-devseed-collab/old-profile_hu0c4ed8e23eda24477579f8c6de486cbb_251152_33f71f9278500a92b225887bc823fa03.webp 400w,
-/blog/2024/veda-devseed-collab/old-profile_hu0c4ed8e23eda24477579f8c6de486cbb_251152_21c5e15271c50f03d7308c09feec74d4.webp 760w,
-/blog/2024/veda-devseed-collab/old-profile_hu0c4ed8e23eda24477579f8c6de486cbb_251152_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2024/veda-devseed-collab/old-profile_hu0c4ed8e23eda24477579f8c6de486cbb_251152_33f71f9278500a92b225887bc823fa03.webp"
+/blog/2024/veda-devseed-collab/old-profile_hu10b987728cacc6727099b87fdcffde73_116187_f55ed283a1bbb45a4002b7db6646d205.webp 400w,
+/blog/2024/veda-devseed-collab/old-profile_hu10b987728cacc6727099b87fdcffde73_116187_a96b242c08a12d0156109234e3f2269d.webp 760w,
+/blog/2024/veda-devseed-collab/old-profile_hu10b987728cacc6727099b87fdcffde73_116187_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2024/veda-devseed-collab/old-profile_hu10b987728cacc6727099b87fdcffde73_116187_f55ed283a1bbb45a4002b7db6646d205.webp"
 width="734"
 height="760"
 loading="lazy" data-zoomable />&lt;/div>
@@ -1193,10 +1193,10 @@ Acknowledgements
 &lt;figure id="figure-the-hhmi-spyglass-tutorialhttpsspyglasshhmi2i2ccloud">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="HHMI Spyglass tutorial" srcset="
-/blog/2024/hhmi-spyglass-mysql/featured_hu410b1218ee4391ecc35ef84ca9e97293_287716_86c408a60ebca8bf8dc746e1ea9819c3.webp 400w,
-/blog/2024/hhmi-spyglass-mysql/featured_hu410b1218ee4391ecc35ef84ca9e97293_287716_a54ca150839b6f45415b0c718177c538.webp 760w,
-/blog/2024/hhmi-spyglass-mysql/featured_hu410b1218ee4391ecc35ef84ca9e97293_287716_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2024/hhmi-spyglass-mysql/featured_hu410b1218ee4391ecc35ef84ca9e97293_287716_86c408a60ebca8bf8dc746e1ea9819c3.webp"
+/blog/2024/hhmi-spyglass-mysql/featured_huda5696297f7fdc49904c82761adc3edf_243308_598303ce9fab37b82985827d80811661.webp 400w,
+/blog/2024/hhmi-spyglass-mysql/featured_huda5696297f7fdc49904c82761adc3edf_243308_be7fedce8169ff93e4d1bb453a589d91.webp 760w,
+/blog/2024/hhmi-spyglass-mysql/featured_huda5696297f7fdc49904c82761adc3edf_243308_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2024/hhmi-spyglass-mysql/featured_huda5696297f7fdc49904c82761adc3edf_243308_598303ce9fab37b82985827d80811661.webp"
 width="760"
 height="498"
 loading="lazy" data-zoomable />&lt;/div>
@@ -1312,10 +1312,10 @@ Day 1
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Screenshot of Project Pythia BinderHub service" srcset="
-/blog/2024/project-pythia-cookoff/binder_hu0f1435943be205bfe089bc611745838d_730215_52ded526fc23a12194465dad7e2d8892.webp 400w,
-/blog/2024/project-pythia-cookoff/binder_hu0f1435943be205bfe089bc611745838d_730215_f7d8b74175bf50d99da39ad808ada1ac.webp 760w,
-/blog/2024/project-pythia-cookoff/binder_hu0f1435943be205bfe089bc611745838d_730215_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2024/project-pythia-cookoff/binder_hu0f1435943be205bfe089bc611745838d_730215_52ded526fc23a12194465dad7e2d8892.webp"
+/blog/2024/project-pythia-cookoff/binder_huace4be54dd679dccbefe8a204243ae9f_316548_df8a60e24fed7ae98d7c9debdacd84cb.webp 400w,
+/blog/2024/project-pythia-cookoff/binder_huace4be54dd679dccbefe8a204243ae9f_316548_d4c17b4ebb63b573d14775841212814c.webp 760w,
+/blog/2024/project-pythia-cookoff/binder_huace4be54dd679dccbefe8a204243ae9f_316548_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2024/project-pythia-cookoff/binder_huace4be54dd679dccbefe8a204243ae9f_316548_df8a60e24fed7ae98d7c9debdacd84cb.webp"
 width="760"
 height="498"
 loading="lazy" data-zoomable />&lt;/div>
@@ -1350,10 +1350,10 @@ Day 2
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Screenshot of a side by side comparison of the Sphinx (left) and MyST (right) based cookbook." srcset="
-/blog/2024/project-pythia-cookoff/side-by-side_hu5546c2f3ef976b2376f1ff0dd4286970_2114038_4ff29c0c89df290ccb64b4b6e0f07f5d.webp 400w,
-/blog/2024/project-pythia-cookoff/side-by-side_hu5546c2f3ef976b2376f1ff0dd4286970_2114038_70463a97ed842099d3fae5acba3aede2.webp 760w,
-/blog/2024/project-pythia-cookoff/side-by-side_hu5546c2f3ef976b2376f1ff0dd4286970_2114038_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2024/project-pythia-cookoff/side-by-side_hu5546c2f3ef976b2376f1ff0dd4286970_2114038_4ff29c0c89df290ccb64b4b6e0f07f5d.webp"
+/blog/2024/project-pythia-cookoff/side-by-side_hu9cd3b350a3f864d97093bd955d197fa3_1447042_509dac579014377108a7eefe4a851c99.webp 400w,
+/blog/2024/project-pythia-cookoff/side-by-side_hu9cd3b350a3f864d97093bd955d197fa3_1447042_f00d1b26e9d5356ac678b757badb0a71.webp 760w,
+/blog/2024/project-pythia-cookoff/side-by-side_hu9cd3b350a3f864d97093bd955d197fa3_1447042_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2024/project-pythia-cookoff/side-by-side_hu9cd3b350a3f864d97093bd955d197fa3_1447042_509dac579014377108a7eefe4a851c99.webp"
 width="760"
 height="438"
 loading="lazy" data-zoomable />&lt;/div>
@@ -1626,10 +1626,10 @@ Credit
 &lt;figure id="figure-the-qgreenland-researcher-workshophttpsqgreenland-workshop-2023-researchergithubio">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="QGreenland Researcher Workshop" srcset="
-/blog/2023/qgis-greenland/featured_hu52f5227fdbc7d483fb6dc187b4a9eb93_223337_63636efae00e19afc0bcbdd4f04eb656.webp 400w,
-/blog/2023/qgis-greenland/featured_hu52f5227fdbc7d483fb6dc187b4a9eb93_223337_72463046c0b96c1e8771f1694c76eac1.webp 760w,
-/blog/2023/qgis-greenland/featured_hu52f5227fdbc7d483fb6dc187b4a9eb93_223337_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2023/qgis-greenland/featured_hu52f5227fdbc7d483fb6dc187b4a9eb93_223337_63636efae00e19afc0bcbdd4f04eb656.webp"
+/blog/2023/qgis-greenland/featured_hu9562f6f382c010541578bd7b61c7cb4a_187505_ba903db7827843ac9c98f5a33564cef8.webp 400w,
+/blog/2023/qgis-greenland/featured_hu9562f6f382c010541578bd7b61c7cb4a_187505_9436f231da2c0221d6b03477aee6170c.webp 760w,
+/blog/2023/qgis-greenland/featured_hu9562f6f382c010541578bd7b61c7cb4a_187505_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2023/qgis-greenland/featured_hu9562f6f382c010541578bd7b61c7cb4a_187505_ba903db7827843ac9c98f5a33564cef8.webp"
 width="760"
 height="498"
 loading="lazy" data-zoomable />&lt;/div>
@@ -1817,10 +1817,10 @@ Collaborate and follow along
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Timeline" srcset="
-/blog/2022/gesis-2i2c-collaboration-update/timeline_huf349230eacdca331b5924cfc1e190900_44466_4a589a8f6a8820fe798f80e3344efa26.webp 400w,
-/blog/2022/gesis-2i2c-collaboration-update/timeline_huf349230eacdca331b5924cfc1e190900_44466_01ee42ea3d744254e0efb955fb71e51e.webp 760w,
-/blog/2022/gesis-2i2c-collaboration-update/timeline_huf349230eacdca331b5924cfc1e190900_44466_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2022/gesis-2i2c-collaboration-update/timeline_huf349230eacdca331b5924cfc1e190900_44466_4a589a8f6a8820fe798f80e3344efa26.webp"
+/blog/2022/gesis-2i2c-collaboration-update/timeline_hudeeefb93f7f3a1e165384e58a83520c2_38800_b202cb12b799a3679bccc2f7a9c99bb7.webp 400w,
+/blog/2022/gesis-2i2c-collaboration-update/timeline_hudeeefb93f7f3a1e165384e58a83520c2_38800_20231ea28ed8e0417f6b5ace54172373.webp 760w,
+/blog/2022/gesis-2i2c-collaboration-update/timeline_hudeeefb93f7f3a1e165384e58a83520c2_38800_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2022/gesis-2i2c-collaboration-update/timeline_hudeeefb93f7f3a1e165384e58a83520c2_38800_b202cb12b799a3679bccc2f7a9c99bb7.webp"
 width="760"
 height="555"
 loading="lazy" data-zoomable />&lt;/div>

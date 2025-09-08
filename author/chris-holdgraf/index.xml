@@ -376,10 +376,10 @@ A community experiment to provide reproducible environments for published pre-pr
 &lt;figure id="figure-the-biorxiv-binder-pilot-workflow-an-author-used-a-2i2c-managed-binderhub-to-generate-a-reproducible-environment-for-their-paper-they-included-a-link-to-this-environment-in-the-abstract-readers-could-click-this-link-and-be-taken-to-a-fully-interactive-environment-to-explore-the-ideas-in-the-paper-and-reproduce-its-computation">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="The Biorxiv Binder pilot workflow. An author used a 2i2c-managed BinderHub to generate a reproducible environment for their paper. They included a link to this environment in the abstract. Readers could click this link, and be taken to a fully interactive environment to explore the ideas in the paper and reproduce its computation." srcset="
-/blog/2025/frictionless-reproducibility/images/reproduce-biorxiv_huf604de85a68d50f7a40711968e3141fb_95205_3441b302dcaeeacf16df2b59218d7be8.webp 400w,
-/blog/2025/frictionless-reproducibility/images/reproduce-biorxiv_huf604de85a68d50f7a40711968e3141fb_95205_12bb4f6978b5b5a62c5ff0f4ac0c4057.webp 760w,
-/blog/2025/frictionless-reproducibility/images/reproduce-biorxiv_huf604de85a68d50f7a40711968e3141fb_95205_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2025/frictionless-reproducibility/images/reproduce-biorxiv_huf604de85a68d50f7a40711968e3141fb_95205_3441b302dcaeeacf16df2b59218d7be8.webp"
+/blog/2025/frictionless-reproducibility/images/reproduce-biorxiv_hu4a264c61637efbf8d7f2942ea4842e16_81975_c880c6edf541702d3444066f72a10e05.webp 400w,
+/blog/2025/frictionless-reproducibility/images/reproduce-biorxiv_hu4a264c61637efbf8d7f2942ea4842e16_81975_5b181b3431ea56b42eb92cace47a174f.webp 760w,
+/blog/2025/frictionless-reproducibility/images/reproduce-biorxiv_hu4a264c61637efbf8d7f2942ea4842e16_81975_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2025/frictionless-reproducibility/images/reproduce-biorxiv_hu4a264c61637efbf8d7f2942ea4842e16_81975_c880c6edf541702d3444066f72a10e05.webp"
 width="760"
 height="428"
 loading="lazy" data-zoomable />&lt;/div>
@@ -410,10 +410,10 @@ There are many publishing organizations innovating with open source
 &lt;figure id="figure-publishers-could-re-use-the-computational-environments-from-a-communitys-hub-resulting-in-a-de-duplication-of-infrastructure-and-effort-and-bridging-the-gap-between-where-a-community-does-its-work-and-where-it-submits-new-ideas-for-publication-note-these-are-hypothetical-for-now-but-we-think-publishing-platforms-like-these-are-a-good-starting-point">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Publishers could re-use the computational environments from a community&amp;#39;s hub, resulting in a de-duplication of infrastructure and effort, and bridging the gap between where a community does its work, and where it submits new ideas for publication. (note these are hypothetical for now, but we think publishing platforms like these are a good starting point!)" srcset="
-/blog/2025/frictionless-reproducibility/featured_hue27b97fe8afb5729ef57cb528de3f2b8_94917_d99920aeaec9917382ce149f3ce7d5a3.webp 400w,
-/blog/2025/frictionless-reproducibility/featured_hue27b97fe8afb5729ef57cb528de3f2b8_94917_e5e6ded3be27e1fb99f31ea2025fe129.webp 760w,
-/blog/2025/frictionless-reproducibility/featured_hue27b97fe8afb5729ef57cb528de3f2b8_94917_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2025/frictionless-reproducibility/featured_hue27b97fe8afb5729ef57cb528de3f2b8_94917_d99920aeaec9917382ce149f3ce7d5a3.webp"
+/blog/2025/frictionless-reproducibility/featured_hu264951e48eab912d65d96f304a781973_78955_697f770e880664f63e9ccf3d720f94da.webp 400w,
+/blog/2025/frictionless-reproducibility/featured_hu264951e48eab912d65d96f304a781973_78955_711db73ce17759ea694f6c540369cdd5.webp 760w,
+/blog/2025/frictionless-reproducibility/featured_hu264951e48eab912d65d96f304a781973_78955_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2025/frictionless-reproducibility/featured_hu264951e48eab912d65d96f304a781973_78955_697f770e880664f63e9ccf3d720f94da.webp"
 width="760"
 height="428"
 loading="lazy" data-zoomable />&lt;/div>
@@ -551,10 +551,10 @@ Deploying BinderHub on a single-node VM is cheaper and simpler
 &lt;figure id="figure-comparison-of-rough-monthly-costs-across-different-cloud-providers-for-similar-vm-instances-these-are-rough-estimates-based-on-cloud-provider-pricing-pages-for-an-on-demand-vm-with-around-190gb-ram-pricing-pages-hetzner-cloudhttpswwwhetznercomcloud-300-microsoft-azurehttpsazurecomeda6294b08dfa49639f74caad1630bbe4-1300-google-cloud-platformhttpscloudgooglecomproductscalculatorhlendlcjhdavjrwlrbevpeumpnqzawtvrrmkxuumtnalv0t0rnnu5pmhpav1eywlrnmfphsxppve1rqve9praigirdrtq3qtywqy1dnum5ltq3qkqtqtm3ms05mjbcqju1qjngrjg-1500-amazon-web-serviceshttpscalculatorawsestimateida3bddb8bdbfa2058b941b669e408141e7fd18da4-1600">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Comparison of rough monthly costs across different cloud providers for similar VM instances. These are rough estimates based on cloud provider pricing pages for an on-demand VM with around 190GB RAM. Pricing pages: [Hetzner Cloud](https://www.hetzner.com/cloud) ~$300, [Microsoft Azure](https://azure.com/e/da6294b08dfa49639f74caad1630bbe4) ~$1,300, [Google Cloud Platform](https://cloud.google.com/products/calculator?hl=en&amp;amp;dl=CjhDaVJrWlRBeVpEUmpNQzAwTVRrMkxUUmtNalV0T0RnNU5pMHpaV1EyWlRnMFpHSXpPVE1RQVE9PRAIGiRDRTQ3QTYwQy1DNUM5LTQ3QkQtQTM3MS05MjBCQjU1QjNGRjg) ~$1,500, [Amazon Web Services](https://calculator.aws/#/estimate?id=a3bddb8bdbfa2058b941b669e408141e7fd18da4) ~$1,600." srcset="
-/blog/2025/binder-singlenode/featured_hu51603921db60081a66cbc5b0a068d259_308887_9daba9f80271d1da5e14b46a3d641067.webp 400w,
-/blog/2025/binder-singlenode/featured_hu51603921db60081a66cbc5b0a068d259_308887_c2893908494f67146ba04b558b8584c1.webp 760w,
-/blog/2025/binder-singlenode/featured_hu51603921db60081a66cbc5b0a068d259_308887_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2025/binder-singlenode/featured_hu51603921db60081a66cbc5b0a068d259_308887_9daba9f80271d1da5e14b46a3d641067.webp"
+/blog/2025/binder-singlenode/featured_hu5599e630254656f9a400bcb8f9798a4e_195115_a97d3a2cc01d69e748ff6cdd73a8195e.webp 400w,
+/blog/2025/binder-singlenode/featured_hu5599e630254656f9a400bcb8f9798a4e_195115_70c7d648b80153fb33bd84196702bda4.webp 760w,
+/blog/2025/binder-singlenode/featured_hu5599e630254656f9a400bcb8f9798a4e_195115_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2025/binder-singlenode/featured_hu5599e630254656f9a400bcb8f9798a4e_195115_a97d3a2cc01d69e748ff6cdd73a8195e.webp"
 width="760"
 height="540"
 loading="lazy" data-zoomable />&lt;/div>
@@ -604,10 +604,10 @@ If your single VM is much cheaper, it might still be the cheapest option. In the
 &lt;figure id="figure-sessions-launched-on-mybinderorgs-federation-over-the-past-ten-days-the-yellow-area-represents-sessions-run-on-2i2cmybinderorg-they-now-make-up-the-majority-of-launches-on-mybinderorg-prior-to-this-gesismybinderorg-was-the-only-remaining-federation-member">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Sessions launched on mybinder.org&amp;#39;s federation over the past ten days. The yellow area represents sessions run on `2i2c.mybinder.org`. They now make up the majority of launches on mybinder.org. Prior to this, `gesis.mybinder.org` was the only remaining federation member." srcset="
-/blog/2025/binder-singlenode/images/grafana_hue0c246cc982879ed32a6360c39d9353a_621484_8b7db3ecb3259d2ccf6fed0acdab58fe.webp 400w,
-/blog/2025/binder-singlenode/images/grafana_hue0c246cc982879ed32a6360c39d9353a_621484_60d33ca4f5b10dd4a2e0daa491ee21c6.webp 760w,
-/blog/2025/binder-singlenode/images/grafana_hue0c246cc982879ed32a6360c39d9353a_621484_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2025/binder-singlenode/images/grafana_hue0c246cc982879ed32a6360c39d9353a_621484_8b7db3ecb3259d2ccf6fed0acdab58fe.webp"
+/blog/2025/binder-singlenode/images/grafana_hu475853c06f9a32183866c212d09dafeb_419800_3da468561744d0f716672253d58b10f0.webp 400w,
+/blog/2025/binder-singlenode/images/grafana_hu475853c06f9a32183866c212d09dafeb_419800_c6e0913b4252dd59d82a4055e9738576.webp 760w,
+/blog/2025/binder-singlenode/images/grafana_hu475853c06f9a32183866c212d09dafeb_419800_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2025/binder-singlenode/images/grafana_hu475853c06f9a32183866c212d09dafeb_419800_3da468561744d0f716672253d58b10f0.webp"
 width="760"
 height="455"
 loading="lazy" data-zoomable />&lt;/div>
@@ -1106,10 +1106,10 @@ Community impact
 &lt;figure id="figure-you-can-see-an-interactive-version-of-these-numbers-in-our-platform-usage-dashboard-https2i2corgkpiscloud">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="You can see an interactive version of these numbers in our platform usage dashboard: https://2i2c.org/kpis/cloud/" srcset="
-/blog/2024/retrospective/images/maus_hua1746ea46db76af52c5d58175a3135ec_166180_ca73e7447718c356b6ab61db81bfc3f6.webp 400w,
-/blog/2024/retrospective/images/maus_hua1746ea46db76af52c5d58175a3135ec_166180_7e91e04f76a555dcf9db00c1a95c24c8.webp 760w,
-/blog/2024/retrospective/images/maus_hua1746ea46db76af52c5d58175a3135ec_166180_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2024/retrospective/images/maus_hua1746ea46db76af52c5d58175a3135ec_166180_ca73e7447718c356b6ab61db81bfc3f6.webp"
+/blog/2024/retrospective/images/maus_hu483458d45819eebdb9e9276a88dcf58f_105988_476d15d7f86bd66c1e8ba7e0025c096b.webp 400w,
+/blog/2024/retrospective/images/maus_hu483458d45819eebdb9e9276a88dcf58f_105988_713c67adf3569741f26c75a5a60aab27.webp 760w,
+/blog/2024/retrospective/images/maus_hu483458d45819eebdb9e9276a88dcf58f_105988_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2024/retrospective/images/maus_hu483458d45819eebdb9e9276a88dcf58f_105988_476d15d7f86bd66c1e8ba7e0025c096b.webp"
 width="75%"
 height="359"
 loading="lazy" data-zoomable />&lt;/div>
@@ -1199,10 +1199,10 @@ us resources to sustain and scale our service.&lt;/li>
 &lt;figure id="figure-funding-comes-from-the-open-science-initiativehttpswwwnavigationorggrantsopen-science-of-the-navigation-fund-which-is-dedicated-to-transforming-scientific-research-by-enhancing-collaboration-and-innovation-we-support-tools-and-approaches-that-move-beyond-traditional-practices-making-scientific-knowledge-more-accessible-and-impactful">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Funding comes from the [Open Science Initiative](https://www.navigation.org/grants/open-science) of The Navigation Fund, which is &amp;#39;...dedicated to transforming scientific research by enhancing collaboration and innovation. We support tools and approaches that move beyond traditional practices, making scientific knowledge more accessible and impactful.&amp;#39;" srcset="
-/blog/2024/funding-navigation/images/tnf-logo_hud47d9f5d817d791cebe61dfc80ed5765_25854_19f9428eb4618cefc8ef7f1872cf76d2.webp 400w,
-/blog/2024/funding-navigation/images/tnf-logo_hud47d9f5d817d791cebe61dfc80ed5765_25854_0a4781fd39f46cdd48a751ee027b2ad8.webp 760w,
-/blog/2024/funding-navigation/images/tnf-logo_hud47d9f5d817d791cebe61dfc80ed5765_25854_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2024/funding-navigation/images/tnf-logo_hud47d9f5d817d791cebe61dfc80ed5765_25854_19f9428eb4618cefc8ef7f1872cf76d2.webp"
+/blog/2024/funding-navigation/images/tnf-logo_hu06f6004545acd7c58f4bbf0dd3a80800_16965_7fc90f4c99552c72f0ee28010fe9d16b.webp 400w,
+/blog/2024/funding-navigation/images/tnf-logo_hu06f6004545acd7c58f4bbf0dd3a80800_16965_acc8b24cd8202e0a4ca78c8b97b33b07.webp 760w,
+/blog/2024/funding-navigation/images/tnf-logo_hu06f6004545acd7c58f4bbf0dd3a80800_16965_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2024/funding-navigation/images/tnf-logo_hu06f6004545acd7c58f4bbf0dd3a80800_16965_7fc90f4c99552c72f0ee28010fe9d16b.webp"
 width="75%"
 height="365"
 loading="lazy" data-zoomable />&lt;/div>
@@ -1227,10 +1227,10 @@ us resources to sustain and scale our service.&lt;/li>
 &lt;figure id="figure-an-example-leaderboard-for-a-data-challenge-taken-from-the-cellmap-challengehttpscellmapchallengejaneliaorg-users-make-submissions-that-are-run-against-secure-and-private-infrastructure-and-data-and-provides-feedback-about-the-submissions-performance-learn-more-about-the-frx-challenges-project-here-https2i2corgfrx-challenges">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="An example leaderboard for a data challenge, taken from the [Cellmap Challenge](https://cellmapchallenge.janelia.org/). Users make submissions that are run against secure and private infrastructure and data, and provides feedback about the submission&amp;#39;s performance. Learn more about the FRX challenges project here: https://2i2c.org/frx-challenges/" srcset="
-/blog/2024/frx/images/leaderboard_hu0bc251dd6caf23590fd61cf61013dca1_1307009_5b46aa64a0a0ccda04e936b986eb85ec.webp 400w,
-/blog/2024/frx/images/leaderboard_hu0bc251dd6caf23590fd61cf61013dca1_1307009_be703c3a967b80309a261be425d99de3.webp 760w,
-/blog/2024/frx/images/leaderboard_hu0bc251dd6caf23590fd61cf61013dca1_1307009_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2024/frx/images/leaderboard_hu0bc251dd6caf23590fd61cf61013dca1_1307009_5b46aa64a0a0ccda04e936b986eb85ec.webp"
+/blog/2024/frx/images/leaderboard_hu1c5275577555814ddf920c106a29e815_883850_ee579eedac01dcd34d5748aaae5eb014.webp 400w,
+/blog/2024/frx/images/leaderboard_hu1c5275577555814ddf920c106a29e815_883850_692532b48c8d5ab59e590c0e714e84e9.webp 760w,
+/blog/2024/frx/images/leaderboard_hu1c5275577555814ddf920c106a29e815_883850_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2024/frx/images/leaderboard_hu1c5275577555814ddf920c106a29e815_883850_ee579eedac01dcd34d5748aaae5eb014.webp"
 width="75%"
 height="417"
 loading="lazy" data-zoomable />&lt;/div>
@@ -1293,10 +1293,10 @@ Acknowledgements
 &lt;figure id="figure-funding-comes-from-the-open-science-programhttpschanzuckerbergcomscienceprograms-resourcesopen-science-at-czi-which-aims-to-support-a-diverse-scientific-community-working-in-the-open-to-accelerate-our-understanding-of-human-health-and-disease-we-invest-in-tools-platforms-and-organizations-that-help-expand-participation-and-access-to-the-scientific-process-by-making-it-open-and-reproducible-and-helping-scientists-build-on-each-others-work">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Funding comes from the [Open Science Program](https://chanzuckerberg.com/science/programs-resources/open-science/) at CZI, which aims to &amp;#39;...support a diverse scientific community working in the open to accelerate our understanding of human health and disease. We invest in tools, platforms, and organizations that help expand participation and access to the scientific process by making it open and reproducible, and helping scientists build on each others’ work.&amp;#39;" srcset="
-/blog/2024/funding-czi/images/czi-logo_huba4d078e2ba9f46d28f922ad4d1087d3_69548_1dfe7e00b29dfa01e6eb9f9068221452.webp 400w,
-/blog/2024/funding-czi/images/czi-logo_huba4d078e2ba9f46d28f922ad4d1087d3_69548_18e4bb06878136856f970f412cbc474d.webp 760w,
-/blog/2024/funding-czi/images/czi-logo_huba4d078e2ba9f46d28f922ad4d1087d3_69548_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2024/funding-czi/images/czi-logo_huba4d078e2ba9f46d28f922ad4d1087d3_69548_1dfe7e00b29dfa01e6eb9f9068221452.webp"
+/blog/2024/funding-czi/images/czi-logo_hu8d3bae804c2797e8c24a643b52df5222_53852_3bad88e81656e703652947402f853c23.webp 400w,
+/blog/2024/funding-czi/images/czi-logo_hu8d3bae804c2797e8c24a643b52df5222_53852_0558b09069fb3682fe17db85568ae10c.webp 760w,
+/blog/2024/funding-czi/images/czi-logo_hu8d3bae804c2797e8c24a643b52df5222_53852_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2024/funding-czi/images/czi-logo_hu8d3bae804c2797e8c24a643b52df5222_53852_3bad88e81656e703652947402f853c23.webp"
 width="75%"
 height="399"
 loading="lazy" data-zoomable />&lt;/div>
@@ -1427,10 +1427,10 @@ However, with this post we&amp;rsquo;d like to share the community funding model
 &lt;figure id="figure-a-model-of-the-funding-and-service-relationships-we-aim-to-build">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="A model of the funding and service relationships we aim to build." srcset="
-/blog/2024/funding-community-networks/funding-diagram_huef6171770d3f945ecb769945214c72b6_199419_15fb78a5d9701ec09c6da27bef81f993.webp 400w,
-/blog/2024/funding-community-networks/funding-diagram_huef6171770d3f945ecb769945214c72b6_199419_9c621de6bd73688bee874c1c42f00cc1.webp 760w,
-/blog/2024/funding-community-networks/funding-diagram_huef6171770d3f945ecb769945214c72b6_199419_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2024/funding-community-networks/funding-diagram_huef6171770d3f945ecb769945214c72b6_199419_15fb78a5d9701ec09c6da27bef81f993.webp"
+/blog/2024/funding-community-networks/funding-diagram_hu03104e3329f60536c0d9cac31ab009cf_113717_75288fec891167d72970cf5d6c05681d.webp 400w,
+/blog/2024/funding-community-networks/funding-diagram_hu03104e3329f60536c0d9cac31ab009cf_113717_a4a200a963dac9b7889f9db6602dfb18.webp 760w,
+/blog/2024/funding-community-networks/funding-diagram_hu03104e3329f60536c0d9cac31ab009cf_113717_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2024/funding-community-networks/funding-diagram_hu03104e3329f60536c0d9cac31ab009cf_113717_75288fec891167d72970cf5d6c05681d.webp"
 width="760"
 height="357"
 loading="lazy" data-zoomable />&lt;/div>
@@ -2051,10 +2051,10 @@ Meet Our New Logo and design system
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Our square logo" srcset="
-/blog/2023/new-design/logo_hu4b1ba28ad2c4eaf9785142092e05725a_6084_599a7e67d2e19dcc8fdbf3897322f786.webp 400w,
-/blog/2023/new-design/logo_hu4b1ba28ad2c4eaf9785142092e05725a_6084_de35ddd4c0b8eb404e9b2dfccbda78a2.webp 760w,
-/blog/2023/new-design/logo_hu4b1ba28ad2c4eaf9785142092e05725a_6084_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2023/new-design/logo_hu4b1ba28ad2c4eaf9785142092e05725a_6084_599a7e67d2e19dcc8fdbf3897322f786.webp"
+/blog/2023/new-design/logo_hu8fbfbe36da3efb766b43fe939cc064d6_2589_18d63144cbd324a1ceb9e14cf1709356.webp 400w,
+/blog/2023/new-design/logo_hu8fbfbe36da3efb766b43fe939cc064d6_2589_b42f1a4723f97232019c88b7ddec2e46.webp 760w,
+/blog/2023/new-design/logo_hu8fbfbe36da3efb766b43fe939cc064d6_2589_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2023/new-design/logo_hu8fbfbe36da3efb766b43fe939cc064d6_2589_18d63144cbd324a1ceb9e14cf1709356.webp"
 width="194"
 height="194"
 loading="lazy" data-zoomable />&lt;/div>
@@ -2064,10 +2064,10 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Our wide logo" srcset="
-/blog/2023/new-design/logo-wide_huaf4493fbfee4d08d84313627317adb52_32618_da4744ee2dcdaee0625e8d4fc6aeff97.webp 400w,
-/blog/2023/new-design/logo-wide_huaf4493fbfee4d08d84313627317adb52_32618_25be109cfcb33a84ad4c9777478cf682.webp 760w,
-/blog/2023/new-design/logo-wide_huaf4493fbfee4d08d84313627317adb52_32618_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2023/new-design/logo-wide_huaf4493fbfee4d08d84313627317adb52_32618_da4744ee2dcdaee0625e8d4fc6aeff97.webp"
+/blog/2023/new-design/logo-wide_hub646ed832318eca84c20b2d69731c405_12206_5ec910812c1f77900e2be5558b1ba1be.webp 400w,
+/blog/2023/new-design/logo-wide_hub646ed832318eca84c20b2d69731c405_12206_dfc595c50eef325b539c8ddd78405ad2.webp 760w,
+/blog/2023/new-design/logo-wide_hub646ed832318eca84c20b2d69731c405_12206_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2023/new-design/logo-wide_hub646ed832318eca84c20b2d69731c405_12206_5ec910812c1f77900e2be5558b1ba1be.webp"
 width="760"
 height="213"
 loading="lazy" data-zoomable />&lt;/div>
@@ -2082,10 +2082,10 @@ It brings us closer together.&lt;/p>
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Primary color palette" srcset="
-/blog/2023/new-design/logo-colors-primary_hu8f08abf1be051cf92fadc45a99db4ee5_61417_a5916a4edb4fbe1f113fa64a3a353fd5.webp 400w,
-/blog/2023/new-design/logo-colors-primary_hu8f08abf1be051cf92fadc45a99db4ee5_61417_bfe99e87c23dad05b74a33b2a440ea5d.webp 760w,
-/blog/2023/new-design/logo-colors-primary_hu8f08abf1be051cf92fadc45a99db4ee5_61417_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2023/new-design/logo-colors-primary_hu8f08abf1be051cf92fadc45a99db4ee5_61417_a5916a4edb4fbe1f113fa64a3a353fd5.webp"
+/blog/2023/new-design/logo-colors-primary_hu04e8c7f8ff494896e02d5377f3431ba1_31284_d0987a0fab296fa56cb1cb44902c0578.webp 400w,
+/blog/2023/new-design/logo-colors-primary_hu04e8c7f8ff494896e02d5377f3431ba1_31284_93f87f1073fa608a97afc342d1ba52c2.webp 760w,
+/blog/2023/new-design/logo-colors-primary_hu04e8c7f8ff494896e02d5377f3431ba1_31284_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2023/new-design/logo-colors-primary_hu04e8c7f8ff494896e02d5377f3431ba1_31284_d0987a0fab296fa56cb1cb44902c0578.webp"
 width="760"
 height="379"
 loading="lazy" data-zoomable />&lt;/div>
@@ -2095,10 +2095,10 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Secondary color palette" srcset="
-/blog/2023/new-design/logo-colors-secondary_hue4bf68ff6c4bf9fbf0266a9975751419_107284_354ba5e1e00405a7c86209257e5f8a21.webp 400w,
-/blog/2023/new-design/logo-colors-secondary_hue4bf68ff6c4bf9fbf0266a9975751419_107284_07cc320ac2ccf9c6a4deef1af0ddde12.webp 760w,
-/blog/2023/new-design/logo-colors-secondary_hue4bf68ff6c4bf9fbf0266a9975751419_107284_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2023/new-design/logo-colors-secondary_hue4bf68ff6c4bf9fbf0266a9975751419_107284_354ba5e1e00405a7c86209257e5f8a21.webp"
+/blog/2023/new-design/logo-colors-secondary_hubd76cae690a0c031fa0d8ccff93645f8_46064_cac430a7d82273b52e897297794316b3.webp 400w,
+/blog/2023/new-design/logo-colors-secondary_hubd76cae690a0c031fa0d8ccff93645f8_46064_d97a0cca3ab0b3f1564e625583632d46.webp 760w,
+/blog/2023/new-design/logo-colors-secondary_hubd76cae690a0c031fa0d8ccff93645f8_46064_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2023/new-design/logo-colors-secondary_hubd76cae690a0c031fa0d8ccff93645f8_46064_cac430a7d82273b52e897297794316b3.webp"
 width="760"
 height="379"
 loading="lazy" data-zoomable />&lt;/div>
@@ -2114,10 +2114,10 @@ And it&amp;rsquo;s our primary colour, supported by a lively secondary palette t
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Examples of our two primary font choices" srcset="
-/blog/2023/new-design/typography_huba304df044ee39957b75e420c71bb61a_78587_8805b4d1366569ce0f52983afc09943d.webp 400w,
-/blog/2023/new-design/typography_huba304df044ee39957b75e420c71bb61a_78587_fe1c15a936c29f793e28c984aeb66450.webp 760w,
-/blog/2023/new-design/typography_huba304df044ee39957b75e420c71bb61a_78587_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2023/new-design/typography_huba304df044ee39957b75e420c71bb61a_78587_8805b4d1366569ce0f52983afc09943d.webp"
+/blog/2023/new-design/typography_hu1025cdee0b378cb9780a4d041a387b0f_44573_2297a983267710b55676c8cf6486579a.webp 400w,
+/blog/2023/new-design/typography_hu1025cdee0b378cb9780a4d041a387b0f_44573_7f4b639c1f42b27e100d3e439f3ffcad.webp 760w,
+/blog/2023/new-design/typography_hu1025cdee0b378cb9780a4d041a387b0f_44573_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2023/new-design/typography_hu1025cdee0b378cb9780a4d041a387b0f_44573_2297a983267710b55676c8cf6486579a.webp"
 width="760"
 height="252"
 loading="lazy" data-zoomable />&lt;/div>
@@ -2129,10 +2129,10 @@ For example, in our new social media header:&lt;/p>
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Twitter header image" srcset="
-/blog/2023/new-design/header-twitter_hufaa3bbb80b158db2966163075fade432_168031_434944ab65a8f3aa2f8c3675390fc599.webp 400w,
-/blog/2023/new-design/header-twitter_hufaa3bbb80b158db2966163075fade432_168031_e129a218cb25a9b6e9991cb77df4c4de.webp 760w,
-/blog/2023/new-design/header-twitter_hufaa3bbb80b158db2966163075fade432_168031_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2023/new-design/header-twitter_hufaa3bbb80b158db2966163075fade432_168031_434944ab65a8f3aa2f8c3675390fc599.webp"
+/blog/2023/new-design/header-twitter_hud0e5b3f1408a671aba832891517b14bc_60234_9522f0abd74212be93bbe05768cbcba4.webp 400w,
+/blog/2023/new-design/header-twitter_hud0e5b3f1408a671aba832891517b14bc_60234_3e56b6071c8d88e613707255b03b2179.webp 760w,
+/blog/2023/new-design/header-twitter_hud0e5b3f1408a671aba832891517b14bc_60234_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2023/new-design/header-twitter_hud0e5b3f1408a671aba832891517b14bc_60234_9522f0abd74212be93bbe05768cbcba4.webp"
 width="760"
 height="253"
 loading="lazy" data-zoomable />&lt;/div>
@@ -2223,10 +2223,10 @@ This will allow users to provide structured support requests directly to our tea
 &lt;figure id="figure-our-fancy-new-support-button">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Our fancy new support button!" srcset="
-/blog/2023/2023-q1-update/support-button_hu3af886a5aee4620b217234a080986c9b_77578_b7df963678a03e66dcd5f869446a4aae.webp 400w,
-/blog/2023/2023-q1-update/support-button_hu3af886a5aee4620b217234a080986c9b_77578_219e5934964e4e57afd753de94f89bcb.webp 760w,
-/blog/2023/2023-q1-update/support-button_hu3af886a5aee4620b217234a080986c9b_77578_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2023/2023-q1-update/support-button_hu3af886a5aee4620b217234a080986c9b_77578_b7df963678a03e66dcd5f869446a4aae.webp"
+/blog/2023/2023-q1-update/support-button_huc6edb6fc8aa30b7e67f78e518989373a_56211_0ed26ef9f563f0dc976ee4d02c001ce3.webp 400w,
+/blog/2023/2023-q1-update/support-button_huc6edb6fc8aa30b7e67f78e518989373a_56211_8db53f3f77821bda9f9eca01d90e927f.webp 760w,
+/blog/2023/2023-q1-update/support-button_huc6edb6fc8aa30b7e67f78e518989373a_56211_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2023/2023-q1-update/support-button_huc6edb6fc8aa30b7e67f78e518989373a_56211_0ed26ef9f563f0dc976ee4d02c001ce3.webp"
 width="500"
 height="736"
 loading="lazy" data-zoomable />&lt;/div>
@@ -2443,10 +2443,10 @@ We had just finished
 &lt;figure id="figure-our-2x2-matrix-of-service-offerings-and-prices-created-at-the-end-of-2021-see-the-documentationhttpsdocs2i2corg-for-more-details">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Our 2x2 matrix of service offerings and prices created at the end of 2021. See [the documentation](https://docs.2i2c.org/) for more details." srcset="
-/blog/2023/2022-year-in-review/service-offerings_hu380975a03d55e12f00562505784a580e_91526_df3cdc0a2fb3fa7b3a5f25766db1b375.webp 400w,
-/blog/2023/2022-year-in-review/service-offerings_hu380975a03d55e12f00562505784a580e_91526_276547040d3c2dcf148220224955aaa9.webp 760w,
-/blog/2023/2022-year-in-review/service-offerings_hu380975a03d55e12f00562505784a580e_91526_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2023/2022-year-in-review/service-offerings_hu380975a03d55e12f00562505784a580e_91526_df3cdc0a2fb3fa7b3a5f25766db1b375.webp"
+/blog/2023/2022-year-in-review/service-offerings_hud86bb36b87665d8af5b9475bb4af827d_70357_ca07880d61fe95c1e2530320063223d4.webp 400w,
+/blog/2023/2022-year-in-review/service-offerings_hud86bb36b87665d8af5b9475bb4af827d_70357_f76fd27d82d63db094825cdaf4a98bd1.webp 760w,
+/blog/2023/2022-year-in-review/service-offerings_hud86bb36b87665d8af5b9475bb4af827d_70357_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2023/2022-year-in-review/service-offerings_hud86bb36b87665d8af5b9475bb4af827d_70357_ca07880d61fe95c1e2530320063223d4.webp"
 width="75%"
 height="379"
 loading="lazy" data-zoomable />&lt;/div>
@@ -2479,10 +2479,10 @@ Here&amp;rsquo;s a plot of our monthly non-grant revenue over the last several m
 &lt;figure id="figure-our-monthly-non-grant-revenue-over-the-last-several-months-june-is-much-larger-because-we-filled-a-backlog-of-invoices-from-previous-months-that-werent-billed-yet">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Our monthly non-grant revenue over the last several months. June is much larger because we filled a backlog of invoices from previous months that weren&amp;#39;t billed yet." srcset="
-/blog/2023/2022-year-in-review/monthly-revenue_hu54bb69a72de8f8f00991bf5f8446c367_14564_400019ec2bbabaceaaa0eb48453f6c93.webp 400w,
-/blog/2023/2022-year-in-review/monthly-revenue_hu54bb69a72de8f8f00991bf5f8446c367_14564_816a9d6535853484eb04d6fb59290eb3.webp 760w,
-/blog/2023/2022-year-in-review/monthly-revenue_hu54bb69a72de8f8f00991bf5f8446c367_14564_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2023/2022-year-in-review/monthly-revenue_hu54bb69a72de8f8f00991bf5f8446c367_14564_400019ec2bbabaceaaa0eb48453f6c93.webp"
+/blog/2023/2022-year-in-review/monthly-revenue_hu52f3d4af599b8e1f34d9708deec9db23_10871_5415cfc779ac7efa966b4f4ea0d9c931.webp 400w,
+/blog/2023/2022-year-in-review/monthly-revenue_hu52f3d4af599b8e1f34d9708deec9db23_10871_c35678ad000b0ba462007f9c960f9542.webp 760w,
+/blog/2023/2022-year-in-review/monthly-revenue_hu52f3d4af599b8e1f34d9708deec9db23_10871_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2023/2022-year-in-review/monthly-revenue_hu52f3d4af599b8e1f34d9708deec9db23_10871_5415cfc779ac7efa966b4f4ea0d9c931.webp"
 width="75%"
 height="336"
 loading="lazy" data-zoomable />&lt;/div>
@@ -2547,10 +2547,10 @@ See
 &lt;figure id="figure-upstream-issues-opened-by-a-team-member-that-were-closed-in-2022">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Upstream issues opened by a team member that were closed in 2022." srcset="
-/blog/2023/2022-year-in-review/upstream-contributions_hu0ced2fe85e9629baf091260e1d1ea161_15760_fe8779ee5f44fe423358cee0aca2444c.webp 400w,
-/blog/2023/2022-year-in-review/upstream-contributions_hu0ced2fe85e9629baf091260e1d1ea161_15760_5e2b53c98d558cdb5e361816d687c538.webp 760w,
-/blog/2023/2022-year-in-review/upstream-contributions_hu0ced2fe85e9629baf091260e1d1ea161_15760_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2023/2022-year-in-review/upstream-contributions_hu0ced2fe85e9629baf091260e1d1ea161_15760_fe8779ee5f44fe423358cee0aca2444c.webp"
+/blog/2023/2022-year-in-review/upstream-contributions_hu1b9709167dd33b4eeab235a03d00b820_10660_611c6fc32c4ed94a301b5068c436bcf9.webp 400w,
+/blog/2023/2022-year-in-review/upstream-contributions_hu1b9709167dd33b4eeab235a03d00b820_10660_689eb8f10a38b27bce3b7c2e3755323e.webp 760w,
+/blog/2023/2022-year-in-review/upstream-contributions_hu1b9709167dd33b4eeab235a03d00b820_10660_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2023/2022-year-in-review/upstream-contributions_hu1b9709167dd33b4eeab235a03d00b820_10660_611c6fc32c4ed94a301b5068c436bcf9.webp"
 width="75%"
 height="272"
 loading="lazy" data-zoomable />&lt;/div>
@@ -2745,10 +2745,10 @@ Collaborate and follow along
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Timeline" srcset="
-/blog/2022/gesis-2i2c-collaboration-update/timeline_huf349230eacdca331b5924cfc1e190900_44466_4a589a8f6a8820fe798f80e3344efa26.webp 400w,
-/blog/2022/gesis-2i2c-collaboration-update/timeline_huf349230eacdca331b5924cfc1e190900_44466_01ee42ea3d744254e0efb955fb71e51e.webp 760w,
-/blog/2022/gesis-2i2c-collaboration-update/timeline_huf349230eacdca331b5924cfc1e190900_44466_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2022/gesis-2i2c-collaboration-update/timeline_huf349230eacdca331b5924cfc1e190900_44466_4a589a8f6a8820fe798f80e3344efa26.webp"
+/blog/2022/gesis-2i2c-collaboration-update/timeline_hudeeefb93f7f3a1e165384e58a83520c2_38800_b202cb12b799a3679bccc2f7a9c99bb7.webp 400w,
+/blog/2022/gesis-2i2c-collaboration-update/timeline_hudeeefb93f7f3a1e165384e58a83520c2_38800_20231ea28ed8e0417f6b5ace54172373.webp 760w,
+/blog/2022/gesis-2i2c-collaboration-update/timeline_hudeeefb93f7f3a1e165384e58a83520c2_38800_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2022/gesis-2i2c-collaboration-update/timeline_hudeeefb93f7f3a1e165384e58a83520c2_38800_b202cb12b799a3679bccc2f7a9c99bb7.webp"
 width="760"
 height="555"
 loading="lazy" data-zoomable />&lt;/div>
