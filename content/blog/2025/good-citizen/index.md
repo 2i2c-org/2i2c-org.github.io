@@ -1,5 +1,5 @@
 ---
-title: "How organizations can support a healthy open source ecosystem through directed and foundational contributions"
+title: "On being a good open source citizen: supporting a healthy ecosystem through directed and foundational contributions"
 date: 2025-09-03
 authors:
   - Yuvi Panda
