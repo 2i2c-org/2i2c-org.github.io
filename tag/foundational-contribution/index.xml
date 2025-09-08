@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Foundational-Contribution | 2i2c</title><link>https://2i2c.org/tag/foundational-contribution/</link><atom:link href="https://2i2c.org/tag/foundational-contribution/index.xml" rel="self" type="application/rss+xml"/><description>Foundational-Contribution</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 03 Sep 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Foundational-Contribution</title><link>https://2i2c.org/tag/foundational-contribution/</link></image><item><title>Sharing JupyterHub's vision for more flexible application deployment at the doepy talk series.</title><link>https://2i2c.org/blog/2025/doepy-yuvi/</link><pubDate>Wed, 03 Sep 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/doepy-yuvi/</guid><description>&lt;p>Our Technical Lead
+&lt;a href="" >Yuvi Panda&lt;/a> recently gave a talk at the
+&lt;a href="https://meetup.doepy.org/" target="_blank" rel="noopener" >doepy meetup&lt;/a> about JupyterHub&amp;rsquo;s interest in moving beyond the &amp;ldquo;single-user notebook application&amp;rdquo; and towards a more flexible approach to enabling administrators to deploy many different types of applications and environments.&lt;/p>
+&lt;p>Check out a video of the talk here:&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/vsbHMvvsFw8?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+>&lt;/iframe>
+&lt;/div>
+&lt;p>This is an important step for the JupyterHub project in order to support the many different kinds of workflows that data scientists need to use in their work. We hope that this generates more interest in the JupyterHub project and gives us useful feedback to guide the team&amp;rsquo;s understanding of this direction.&lt;/p>
+&lt;h2 id="learn-more">
+Learn more
+&lt;a class="header-anchor" href="#learn-more">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;a href="https://www.youtube.com/watch?v=vsbHMvvsFw8" target="_blank" rel="noopener" >YouTube video of this talk&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://jupyter.zulipchat.com/#narrow/channel/469744-jupyterhub/topic/JupyterHub.20in.202025.3A.20Not.20just.20for.20Jupyter.20Notebooks/near/537708184" target="_blank" rel="noopener" >Jupyter Chat about this talk&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://www.linkedin.com/feed/update/urn:li:activity:7364763956525092868" target="_blank" rel="noopener" >LinkedIn post announcing the talk&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://www.linkedin.com/posts/cameron-riddell_we-dont-use-this-code-loved-having-yuvi-activity-7369421556516601859-qOxw?utm_medium=ios_app&amp;amp;rcm=ACoAADSgbM8BXeDyQi3bGVtD7qmmJg9b20KhG6A&amp;amp;utm_source=social_share_send&amp;amp;utm_campaign=copy_link" target="_blank" rel="noopener" >LinkedIn post describing the talk&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>Thanks to
+&lt;a href="https://meetup.doepy.org/" target="_blank" rel="noopener" >the doepy team&lt;/a> for inviting Yuvi to give this talk.&lt;/li>
+&lt;li>Thanks to
+&lt;a href="https://hub.jupyter.org" target="_blank" rel="noopener" >the JupyterHub team&lt;/a> for working with us on this strategy.&lt;/li>
+&lt;li>This work was funded in-part by fees from
+&lt;a href="https://2i2c.org/communities" target="_blank" rel="noopener" >2i2c&amp;rsquo;s network of member communities&lt;/a>.&lt;/li>
+&lt;/ul></description></item><item><title>Giving CCAD more control over data science infrastructure via a Catalyst Project hardware exchange</title><link>https://2i2c.org/blog/2025/catalyst-hardware-exchange/</link><pubDate>Tue, 02 Sep 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/catalyst-hardware-exchange/</guid><description>&lt;p>2i2c has successfully completed a hardware exchange with Universidad Nacional de Córdoba&amp;rsquo;s
+&lt;a href="https://supercomputo.unc.edu.ar/" target="_blank" rel="noopener" >Centro de Computación de Alto Desempeño (CCAD)&lt;/a> through funding from the
+&lt;a href="https://catalystproject.cloud/" target="_blank" rel="noopener" >Catalyst Project&lt;/a>. CCAD used funding to purchase new on-prem computing infrastructure, significantly expanding their computing capabilities.&lt;/p>
+&lt;p>This exchange reduces CCAD&amp;rsquo;s reliance on ongoing cloud funding while giving them direct control over their infrastructure. The new hardware will support a scalable JupyterHub deployment and provide valuable training opportunities for researchers who may work with local computing resources.&lt;/p>
+&lt;h2 id="learn-more">
+Learn more
+&lt;a class="header-anchor" href="#learn-more">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;a href="https://supercomputo.unc.edu.ar/2025/09/02/colgando-a-boogie/" target="_blank" rel="noopener" >CCAD&amp;rsquo;s blog post about the hardware deployment&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://catalystproject.cloud/" target="_blank" rel="noopener" >The Catalyst Project&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;a href="https://chanzuckerberg.com/" target="_blank" rel="noopener" >Chan Zuckerberg Initiative&lt;/a> for their
+&lt;a href="https://zenodo.org/records/7025288" target="_blank" rel="noopener" >Catalyst Project award&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://supercomputo.unc.edu.ar/" target="_blank" rel="noopener" >CCAD&lt;/a> for their collaboration on this hardware exchange&lt;/li>
+&lt;/ul></description></item></channel></rss>
