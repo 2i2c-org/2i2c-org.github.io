@@ -2,6 +2,7 @@
 {{ if hasPrefix .RelPermalink "/blog/" }}
 {{ partial "post_links" }}
 {{ end }}
+{{ partial "backlinks" . }}
 <!-- END CUSTOM POST LINKS TEXT -->
 {{ partial "page_edit" . }}
 {{ partial "tags" . }}

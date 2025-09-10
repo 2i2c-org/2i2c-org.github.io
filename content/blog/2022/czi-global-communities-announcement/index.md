@@ -14,7 +14,7 @@ draft: false
 ---
 
 
-We are excited to announce that the team and proposal [described in this blog post](https://2i2c.org/blog/2022/czi-global-communities-proposal/) has been awarded funding by the [Chan Zuckerberg Initiative](https://chanzuckerberg.com/)!
+We are excited to announce that the team and proposal [described in this blog post](https://2i2c.org/blog/2022/czi-global-communities-proposal/) has been awarded funding by the [Chan Zuckerberg Initiative](../../../collaborators/czi.md)!
 
 _This announcement may be cross-posted on the websites of several collaborating organizations of this grant. **Para leer este post en español, [vea el blog de MetaDocencia](https://www.metadocencia.org/post/infraestructura-nube/)**._
 
