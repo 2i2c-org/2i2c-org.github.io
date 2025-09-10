@@ -7,9 +7,38 @@ body:
   - type: markdown
     attributes:
       value: |
-        Fill out the fields below as best you can.
-        **Don't worry about getting it perfect**.
+        Fill out the fields below as best you can. **Don't worry about getting it perfect**.
         Just bullet points is fine if that's all you have time / energy for.
+
+  - type: textarea
+    id: content
+    attributes:
+      label: Content information
+      description: Any information that helps us write a post. Bullets are fine, try following the template below.
+      value: |
+        ## What happened
+        
+        - This happened
+        - This happened
+
+        ## Why is it valuable
+        
+        - Because A
+        - Because B
+
+        ## Links to learn more
+
+        - Link A
+        - Link B
+    validations:
+      required: true
+
+  - type: markdown
+    attributes:
+      value: |
+        # Everything after here is optional!
+
+        ---
 
   - type: textarea
     id: authors
@@ -19,22 +48,22 @@ body:
       placeholder: |
         - Chris Holdgraf
         - Yuvi Panda
-    validations:
-      required: true
 
   - type: textarea
-    id: content
+    id: date
     attributes:
-      label: Blog Post Content
-      description: The full content of your blog post (Markdown format)
+      label: "Date for the post"
+      description: "Is there a date associated with this post? (optional)"
       placeholder: |
-        Write your blog post content here using Markdown formatting.
-        
-        ## Example Section
-        
-        This is an example of how to structure your content...
-    validations:
-      required: true
+        2025-08-01
+
+  - type: textarea
+    id: media
+    attributes:
+      label: Media and images
+      description: Have any images we can use in the post?
+      placeholder: |
+        Drag and drop images here!
 
   - type: textarea
     id: acknowledgements
