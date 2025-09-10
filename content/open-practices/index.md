@@ -1,30 +1,19 @@
 # Open practices at 2i2c
 
+We believe that open science requires open practices - here are a few ways we lean into open practices and support open communities at 2i2c.
+See [our open source strategy](https://compass.2i2c.org/open-source/strategy/#upstream-first) for more details about the practices we follow.
+
+## Support open technology with our service
+
+- Build our services with open technology and [commit to licensing practices that prevent negative outcomes](../open-technology/index.md).
+- Give communities the [Right to Replicate their infrastructure without 2i2c](../right-to-replicate/index.md).
+
 ## Be an excellent upstream citizen
 
-- Be [intentional about our upstream support](../blog/2025/)
+- Provide both [Directed and Foundational open source contributions](../blog/2025/good-citizen/index.md).
+- Take an [Upstream-first approach to improving our infrastructure](https://compass.2i2c.org/open-source/strategy/#upstream-first) so that others benefit from our effort.
+
 ## Do our work openly and transparently
 
-- Who funded the work
-- Outcomes that came from it
-- Imperfect and in-progress work
-
-To sustain and grow our operations, 2i2c receives funding from the following sources:
-
-- **Revenue from managed services**. We build self-sustaining cloud services that generate revenue through management and support contracts. See [our services page](/platform) for more information.
-- **Project-focused grants**. We lead and collaborate on several projects that involve developing and supporting infrastructure for research and education. See [our projects page](/projects) for more information.
-- **Core organizational support**. We raise core funding that covers the costs of strategically-critical roles that are not easily linked to specific deliverables and contracts.
-
-{{% callout %}}
-
-[2i2c's Financial and Sustainability Strategy page](https://compass.2i2c.org/finance/strategy.html) has our full financial sustainability strategy.
-
-[Our accounting dashboards](https://2i2c.org/kpis/finances) have all our latest costs and revenue.
-
-{{% /callout %}}
-
-
-## Major sources of funding
-
-<!-- This is in layouts/shortcodes/list-funders.html -->
-{{% list-funders %}}
+- Be transparent about [organizations that support and fund us](../about/funding/index.md).
+- Show our work and priorities by [communicating in-progress work on our blog](../blog/2025/communications-strategy/index.md), even if it's in an imperfect state.
