@@ -1,4 +1,6 @@
-# Join our mailing list
+---
+title: Join our mailing list
+---
 
 Our mailing list shares the most important information with our community, and is easier to keep up with than the [large number of blog posts we share](../blog/2025/communications-strategy/index.md). Here's what to expect:
 
