@@ -1,6 +1,6 @@
 ---
 title: We're going to try blogging about our work more often
-date: 2025-08-30
+date: 2025-09-10
 authors:
   - Chris Holdgraf
 tags:
@@ -26,5 +26,4 @@ So, we're going to try an expriment that is [inspired by Simon Willison's blog](
 - Occasionally, share posts that help readers navigate this stream of short impact posts. We'll use [our Mailing List](TODO: Add link) for this, so click that link if you'd like to sign up.
 
 Our hope is that this will give us a steady stream of posts that show what we've been up to, as well as a way to navigate those posts via our mailing lists for the folks that don't want to spend all day combing through our blog. :-)
-
 
