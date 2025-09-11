@@ -6,10 +6,9 @@ labels: ["blog"]
 assignees: []
 ---
 
-<!-- Fill out the fields below as best you can. Don't worry about getting it perfect. Just bullet points is fine if that's all you have time / energy for. -->
-
-## Content information
-<!-- Any information that helps us write a post. Bullets are fine, try following the template below. -->
+<!--
+  Fill out the fields below as best you can. Don't worry about getting it perfect. Just bullet points is fine if that's all you have time / energy for.
+-->
 
 ### What happened
 
@@ -30,41 +29,35 @@ assignees: []
 
 <!-- Everything after here is optional! -->
 
-## Authors
-<!-- List the authors of this blog post (one per line) e.g.:
+### Authors
+<!-- List the authors of this blog post (one per line) -->
 
-- Chris Holdgraf
-- Yuvi Panda
+-
+- 
 
--->
-
-
-## Date for the post
+### Date for the post
 <!-- Is there a date associated with this post? (optional) -->
 
 YYYY-MM-DD
 
-## Media and images
+### Media and images
 <!-- Have any images we can use in the post? Drag and drop here! -->
 
 
-## Acknowledgements
-<!-- Acknowledgements for contributors, funders, or collaborators (optional). e.g.:
+### Acknowledgements
+<!-- Acknowledgements for contributors, funders, or collaborators (optional). -->
 
-- Organization A
-- Funder B
-- Collaborator C
+-
+-
 
--->
-
-## Category
+### Category
 <!-- Select the main category for this blog post: impact, service, or organization -->
 
 - [ ] impact
 - [ ] service
 - [ ] organization
 
-## Tags
+### Tags
 <!-- Select relevant tags for this blog post by checking the boxes or listing them -->
 
 - [ ] open-source
@@ -76,19 +69,11 @@ YYYY-MM-DD
 - [ ] bioscience
 - [ ] hiring
 - [ ] funding
+- [ ] _Edit to add a custom tag_
 
-### Custom Tags
-<!-- Add any additional tags not listed above (one per line, optional). E.g.:
-
-- machine-learning
-- workshop
-
--->
-
-
-## Additional Notes
+### Additional Notes
 <!--
   Any additional notes, special requirements, or implementation details.
   e.g., "This needs to be published before the conference", "Include featured image", etc.
- -->
+-->
 
