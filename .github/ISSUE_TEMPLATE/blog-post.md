@@ -1,6 +1,6 @@
 ---
-name: Blog Post Request
-about: Request a new blog post for the 2i2c website
+name: Blog post information
+about: Capture information we can use for a blog post
 title: "[BLOG TITLE HERE]"
 labels: ["blog"]
 assignees: []
