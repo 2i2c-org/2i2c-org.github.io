@@ -1,4 +1,11 @@
 ---
+# TO ADD A NEW COLLABORATOR
+# - Create a new folder for that collaborator, keep the name short.
+# - Add `index.md` with 2-3 sentences about what that collaborator does.
+# - Add an image called featured.png/jpeg with their logo
+# - Use `tags:` to mark them as `funder`, `member`, or `collaborator`
+# - Reference the collaborator in a post like: ../../collaborators/czi/index.md
+
 title: Our Collaborators
 type: landing
 

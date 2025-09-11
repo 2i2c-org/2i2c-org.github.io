@@ -1,6 +1,6 @@
 ---
 # Page title
-title: Community impact TODO update this to focus on the impact stories TODO add a case studies page
+title: Case studies
 # Page type - we want a landing page (such as a homepage)
 type: landing
 
@@ -10,62 +10,6 @@ sections:
     id: numbers
     content:
       title: We serve an international network of communities that create and share knowledge
-      subtitle: 
-      text: |
-
-        <style>
-        figure.map {
-          margin-bottom: 0;
-        }
-
-        figure.map img {
-          border: none;
-          width: 66%;
-        }
-        figure.map figcaption {
-          margin: 1em auto;
-        }
-
-        .showcase:nth-child(even) div.row {
-            display: flex;
-            flex-direction: row-reverse;
-        }
-        </style>
-
-        <figure class="map">
-          {{< figure src="/images/communities/map-of-communities.png" >}}
-
-          <figcaption>
-            Active communities in our network.
-            See <a href="https://2i2c.org/kpis/cloud/#geographic-map-of-community-locations">our interactive map of active communities</a> for the latest data.
-          </figcaption>
-        </figure>
-
-        <div class="row">
-            <div id="stats" class="section-heading d-flex flex-wrap col-12 mb-3">
-                <div class="stat col-3">
-                    <h5 class="card-title text-uppercase text-muted mb-0">Communities</h5>
-                    <span class="h2 font-weight-bold mb-0">>90</span>
-                </div>
-                <div class="stat col-3">
-                    <h5 class="card-title text-uppercase text-muted mb-0">Active users</h5>
-                    <span class="h2 font-weight-bold mb-0">>6500</span>
-                </div>
-                <div class="stat col-3">
-                    <h5 class="card-title text-uppercase text-muted mb-0">Countries</h5>
-                    <span class="h2 font-weight-bold mb-0">>15</span>
-                </div>
-                <div class="stat col-3">
-                    <h5 class="card-title text-uppercase text-muted mb-0">Upstream PRs</h5>
-                    <span class="h2 font-weight-bold mb-0">>2000</span>
-                </div>
-            </div>
-        </div>
-
-        <div class="cta-group" class="margin: 0 auto;">
-
-        </div>
-        
 
   - block: portfolio
     id: posts
