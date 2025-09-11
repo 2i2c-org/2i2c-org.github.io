@@ -1,5 +1,5 @@
 ---
-name: Blog post information
+name: 📖 Blog post information
 about: Capture information we can use for a blog post
 title: "[BLOG TITLE HERE]"
 labels: ["blog"]
