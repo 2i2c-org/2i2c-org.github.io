@@ -27,7 +27,7 @@
           {{ if .Params.tags }}
             <span style="float: right;">
               {{ range .Params.tags }}
-                <a href="/blog/tag/{{ . | urlize }}/" style="display: inline-block; background: #f0f0f0; color: #666; padding: 1px 6px; margin-left: 3px; border-radius: 8px; font-size: 0.65em; text-decoration: none; border: 1px solid #ddd;">{{ . }}</a>
+                <a href="/tag/{{ . | urlize }}/" style="display: inline-block; background: #f0f0f0; color: #666; padding: 1px 6px; margin-left: 3px; border-radius: 8px; font-size: 0.65em; text-decoration: none; border: 1px solid #ddd;">{{ . }}</a>
               {{ end }}
             </span>
           {{ end }}

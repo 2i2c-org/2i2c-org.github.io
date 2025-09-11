@@ -1,6 +1,6 @@
 ---
 # Page title
-title: Community impact
+title: Community impact TODO update this to focus on the impact stories TODO add a case studies page
 # Page type - we want a landing page (such as a homepage)
 type: landing
 

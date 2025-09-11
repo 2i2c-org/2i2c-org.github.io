@@ -6,20 +6,27 @@ sections:
   - block: markdown
     content:
       title: Our Collaborators
-      subtitle: Organizations and funders that 2i2c has collaborated with to advance interactive computing in research and education
-      text: |
-        This is a collection of organizations that we've acknowledged in our contributions and impact posts from the [2i2c blog](https://2i2c.org/blog). Our goal is to share credit and highlight the collaborative way that we do our work.
+      subtitle: These are organizations we've acknowledged in [our impact posts](https://2i2c.org/tag/impact) from the [2i2c blog](https://2i2c.org/blog). This is usually because of _funding_ or _collaborating on_ impact that 2i2c has had. Click each box to see the list of posts where they've been credited. We hope this shares credit and highlights the collaborative way that we do our work.       
 
   - block: portfolio
     content:
-      title: Major Funders and Partners
       filters:
         folders:
           - collaborators
         exclude_featured: false
       count: 0
+      buttons:
+        - name: All
+          tag: '*'
+        - name: Funders
+          tag: funder
+        - name: Members
+          tag: member
+        - name: Collaborators
+          tag: collaborator
     design:
       columns: '3'
       view: masonry
       flip_alt_rows: false
+      css_class: collaborators-gallery
 ---

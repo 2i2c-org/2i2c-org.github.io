@@ -10,27 +10,41 @@
 
 [[main]]
   name = "Impact"
-  url = "communities/"
   weight = 11
 
 [[main]]
-  name = "Service Principles"
+  name = "Impact stories"
+  url = "impact/"
+  weight = 11
+
+[[main]]
+  name = "Member communities"
+  url = "network/"
+  weight = 11
+  
+[[main]]
+  name = "Collaborators and funders"
+  url = "collaborators/"
+  weight = 11
+
+[[main]]
+  name = "Our Principles"
   weight = 12
 
 [[main]]
-  parent = "Service Principles"
+  parent = "Our Principles"
   name = "Open Practices"
   url = "open-practices/"
   weight = 11
 
 [[main]]
-  parent = "Service Principles"
+  parent = "Our Principles"
   name = "Right to Replicate"
   url = "right-to-replicate/"
   weight = 13
 
 [[main]]
-  parent = "Service Principles"
+  parent = "Our Principles"
   name = "Commitment to Open Technology"
   url = "open-technology/"
   weight = 13
