@@ -124,12 +124,12 @@
   weight = 80
 
 [[main_right]]
-  name = 'Join Us'
+  name = 'Membership'
   url = "/join"
-  weight = 100
+  weight = 90
 
 [[main_right]]
   name = 'Service Docs'
   url = "https://docs.2i2c.org"
-  weight = 90
+  weight = 100
 
