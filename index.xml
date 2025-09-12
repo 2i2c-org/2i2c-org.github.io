@@ -7350,40 +7350,11 @@ float: left;
 &lt;li>Guidance for how you can help our open science and open source network.&lt;/li>
 &lt;/ul>
 &lt;p>To sign up, just provide some basic information below:&lt;/p>
-&lt;!-- Fixes for dark mode because the mailchimp embed breaks it -->
-&lt;link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
-&lt;style type="text/css">
-#mc_embed_signup{
-border: 1px solid black;
-border-radius: 1em;
-background:#fff;
-clear: left;
-font: 14px Helvetica,Arial,sans-serif;
-width: 600px;
-margin-top: 0;
-}
-#mc_embed_signup_scroll {
-color: black;
-}
-#mc_embed_signup_scroll, #mc_embed_signup_scroll h2 {
-color: black;
-}
-#mc_embed_signup_scroll input {
-background-color: white;
-color: black;
+&lt;style>
+iframe.ml-iframe {
+width: 100%;
+border: none;
+height: 100vh;
 }
 &lt;/style>
-&lt;div id="mc_embed_shell">
-&lt;div id="mc_embed_signup">
-&lt;form action="https://2i2c.us2.list-manage.com/subscribe/post?u=494ab59616acdfc381a699b44&amp;amp;id=94ce07e556&amp;amp;f_id=008ff1e3f0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
-&lt;div id="mc_embed_signup_scroll">&lt;h2>Subscribe&lt;/h2>
-&lt;div class="indicates-required">&lt;span class="asterisk">*&lt;/span> indicates required&lt;/div>
-&lt;div class="mc-field-group">&lt;label for="mce-EMAIL">Email Address &lt;span class="asterisk">*&lt;/span>&lt;/label>&lt;input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required="" value="">&lt;/div>&lt;div class="mc-field-group">&lt;label for="mce-FNAME">First Name &lt;/label>&lt;input type="text" name="FNAME" class=" text" id="mce-FNAME" value="">&lt;/div>&lt;div class="mc-field-group">&lt;label for="mce-LNAME">Last Name &lt;/label>&lt;input type="text" name="LNAME" class=" text" id="mce-LNAME" value="">&lt;/div>&lt;div class="mc-field-group">&lt;label for="mce-MMERGE6">Institution &lt;/label>&lt;input type="text" name="MMERGE6" class=" text" id="mce-MMERGE6" value="">&lt;/div>
-&lt;div id="mce-responses" class="clear">
-&lt;div class="response" id="mce-error-response" style="display: none;">&lt;/div>
-&lt;div class="response" id="mce-success-response" style="display: none;">&lt;/div>
-&lt;/div>&lt;div style="position: absolute; left: -5000px;" aria-hidden="true">&lt;input type="text" name="b_494ab59616acdfc381a699b44_94ce07e556" tabindex="-1" value="">&lt;/div>&lt;div class="clear">&lt;input type="submit" name="subscribe" id="mc-embedded-subscribe" class="button" value="Subscribe">&lt;/div>
-&lt;/div>
-&lt;/form>
-&lt;/div>
-&lt;script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js">&lt;/script>&lt;script type="text/javascript">(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[6]='MMERGE6';ftypes[6]='text';fnames[3]='MMERGE3';ftypes[3]='text';}(jQuery));var $mcj = jQuery.noConflict(true);&lt;/script>&lt;/div></description></item><item><title>Open Source</title><link>https://2i2c.org/projects/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://2i2c.org/projects/</guid><description/></item><item><title>Our Founding Team</title><link>https://2i2c.org/founders/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://2i2c.org/founders/</guid><description/></item><item><title>Our organization</title><link>https://2i2c.org/organization/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://2i2c.org/organization/</guid><description/></item></channel></rss>
+&lt;iframe class="ml-iframe" src="https://2i2c.us2.list-manage.com/subscribe?u=494ab59616acdfc381a699b44&amp;id=94ce07e556" /></description></item><item><title>Open Source</title><link>https://2i2c.org/projects/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://2i2c.org/projects/</guid><description/></item><item><title>Our Founding Team</title><link>https://2i2c.org/founders/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://2i2c.org/founders/</guid><description/></item><item><title>Our organization</title><link>https://2i2c.org/organization/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://2i2c.org/organization/</guid><description/></item></channel></rss>
