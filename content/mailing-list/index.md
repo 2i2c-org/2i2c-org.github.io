@@ -19,4 +19,4 @@ To sign up, just provide some basic information below:
   }
 </style>
 
-<iframe class="ml-iframe" src="https://2i2c.us2.list-manage.com/subscribe?u=494ab59616acdfc381a699b44&id=94ce07e556" />
+<iframe class="ml-iframe" src="https://2i2c.us2.list-manage.com/subscribe?u=494ab59616acdfc381a699b44&id=94ce07e556"></iframe>

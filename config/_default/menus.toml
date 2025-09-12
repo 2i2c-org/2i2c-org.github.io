@@ -113,27 +113,23 @@
   weight = 70
 
   [[main]]
+  name = 'Blog'
+  url = "/blog"
+  weight = 90
+
+  [[main]]
   parent = "about"
   name = "Donate to 2i2c"
   url = "donate/"
   weight = 80
 
 [[main_right]]
-  name = 'join us'
+  name = 'Join Us'
   url = "/join"
   weight = 100
 
 [[main_right]]
-  name = 'blog'
-  url = "/blog"
-  weight = 90
-
-[[main_right]]
-  name = 'docs'
+  name = 'Service Docs'
   url = "https://docs.2i2c.org"
   weight = 90
 
-[[main_right]]
-  name = 'support'
-  url = "https://docs.2i2c.org/support"
-  weight = 80
