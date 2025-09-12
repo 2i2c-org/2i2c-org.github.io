@@ -9,8 +9,9 @@
   {{ $relativePathFromBlog := printf "../../../collaborators/%s" $pageName }}
   {{ $relativeMatch := in .RawContent $relativePathFromBlog }}
   {{ $markdownMatch := in .RawContent (printf "../../../collaborators/%s.md" $pageName) }}
+  {{ $indexMarkdownMatch := in .RawContent (printf "../../../collaborators/%s/index.md" $pageName) }}
 
-  {{ if or $absoluteMatch $relativeMatch $markdownMatch }}
+  {{ if or $absoluteMatch $relativeMatch $markdownMatch $indexMarkdownMatch }}
     {{ if ne .Permalink $.Permalink }}
       {{ $inboundLinks = $inboundLinks | append . }}
     {{ end }}

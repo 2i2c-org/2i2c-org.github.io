@@ -1,12 +1,13 @@
 ---
 title: Gordon and Betty Moore Foundation
-summary: The Gordon and Betty Moore Foundation has supported 2i2c through the Pangeo Climate Data Lab, providing funding for cloud infrastructure development and climate science research.
-date: 2024-12-10
 tags:
   - funder
+show_date: false
 ---
 
-The [Gordon and Betty Moore Foundation](https://www.moore.org/) fosters path-breaking scientific discovery, environmental conservation, patient care improvements, and preservation of the special character of the San Francisco Bay Area. Founded by Intel co-founder Gordon Moore and his wife Betty, the foundation advances environmental conservation, scientific research, and patient care improvements.
+![](featured.png)
+
+The [Gordon and Betty Moore Foundation](https://www.moore.org/) is a private foundation that supports scientific discovery, environmental conservation, and patient care improvements.
 
 ## Grants from this funder
 

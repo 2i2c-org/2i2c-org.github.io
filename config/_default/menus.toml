@@ -83,12 +83,6 @@
   weight = 16
 
   [[main]]
-    parent = "about"
-    name = "Projects we support"
-    url = "projects/"
-    weight = 20
-
-  [[main]]
   parent = "about"
   name = "Origin story"
   url = "founders/"
@@ -106,22 +100,16 @@
   url = "jobs/"
   weight = 60
 
-  [[main]]
-  parent = "about"
-  name = "Mailing List"
-  url = "mailing-list/"
-  weight = 70
 
   [[main]]
   name = 'Blog'
   url = "/blog"
   weight = 90
 
-  [[main]]
-  parent = "about"
-  name = "Donate to 2i2c"
-  url = "donate/"
-  weight = 80
+[[main_right]]
+  name = "Mailing List"
+  url = "mailing-list/"
+  weight = 70
 
 [[main_right]]
   name = 'Membership'
@@ -129,7 +117,7 @@
   weight = 90
 
 [[main_right]]
-  name = 'Service Docs'
+  name = 'Docs'
   url = "https://docs.2i2c.org"
   weight = 100
 
