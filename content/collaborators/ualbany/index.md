@@ -3,6 +3,7 @@ title: University at Albany
 tags:
   - collaborator
 show_date: false
+show_author: false
 ---
 
 ![](featured.png)
