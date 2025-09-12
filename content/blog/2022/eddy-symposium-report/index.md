@@ -18,7 +18,7 @@ draft: false
 
 ![Eddy Symposium Hero Image](cover-featured.jpg)
 
-2i2c supported and participated in the [3rd Eddy Cross Disciplinary Symposium](https://cpaess.ucar.edu/meetings/eddy-symposium-2022) held recently in Vail Colorado. The event was hosted by the Cooperative Programs for the Advancement of Earth System Science ([CPAESS](https://cpaess.ucar.edu/)) team at the University Corporation for Atmospheric Research ([UCAR](https://www.ucar.edu/)) with support from NASA.
+2i2c supported and participated in the [3rd Eddy Cross Disciplinary Symposium](https://cpaess.ucar.edu/meetings/eddy-symposium-2022) held recently in Vail Colorado. The event was hosted by the Cooperative Programs for the Advancement of Earth System Science ([CPAESS](https://cpaess.ucar.edu/)) team at the [University Corporation for Atmospheric Research (UCAR)](../../../collaborators/ucar/) with support from NASA.
 
 ## Context
 

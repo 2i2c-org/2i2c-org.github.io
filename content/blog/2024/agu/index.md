@@ -40,13 +40,13 @@ This presentation will provide an overview of Project Pythia's extensive educati
 ### Authors
 
 - [John Clyne](https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/15277) - NSF National Center for Atmospheric Research (first author)
-- [Drew Camron](https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1112151) - University Corporation for Atmospheric Research
+- [Drew Camron](https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1112151) - [University Corporation for Atmospheric Research](../../collaborators/pythia/)
 - [Orhan Eroglu](https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1104277) - NSF National Center for Atmospheric Research
-- [Robert Ford](https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1266060) - University at Albany State University of New York
+- [Robert Ford](https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1266060) - [University at Albany State University of New York](../../collaborators/pythia/)
 - [Julia Kent](https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/796821) - NSF National Center for Atmospheric Research
-- [Ryan May](https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/529702) - University Corporation for Atmospheric Research
+- [Ryan May](https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/529702) - [University Corporation for Atmospheric Research](../../collaborators/pythia/)
 - [James Munroe](https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1317099) - 2i2c / Code for Science and Society
-- [Brian E J Rose](https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/10645) - SUNY at Albany
+- [Brian E J Rose](https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/10645) - [SUNY at Albany](../../collaborators/pythia/)
 
 ## ED31G-2277 PACE Hackweek: An open community keeping up with PACE
 
@@ -143,15 +143,15 @@ Here we will outline the stack of technologies and infrastructure enabling cookb
 
 ### Authors
 
-- [Brian E J Rose](https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/10645) - University at Albany State University of New York (first author)
-- [Drew Camron](https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1112151) - University Corporation for Atmospheric Research
+- [Brian E J Rose](https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/10645) - [University at Albany State University of New York](../../collaborators/pythia/) (first author)
+- [Drew Camron](https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1112151) - [University Corporation for Atmospheric Research](../../collaborators/pythia/)
 - [John Clyne](https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/15277) - NCAR
 - [Orhan Eroglu](https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1104277) - NSF National Center for Atmospheric Research
-- [Robert Ford](https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1266060) - University at Albany State University of New York
+- [Robert Ford](https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1266060) - [University at Albany State University of New York](../../collaborators/pythia/)
 - [Julia Kent](https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/796821) - NSF National Center for Atmospheric Research
-- [Ryan May](https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/529702) - University Corporation for Atmospheric Research
+- [Ryan May](https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/529702) - [University Corporation for Atmospheric Research](../../collaborators/pythia/)
 - [James Munroe](https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1317099) - 2i2c / Code for Science and Society
-- [Kevin Tyle](https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/218622) - SUNY at Albany
+- [Kevin Tyle](https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/218622) - [SUNY at Albany](../../collaborators/pythia/)
 
 ## U13A-2350 Supporting NASA Earthdata users in the Cloud: NASA Openscapes JupyterHub and User Onboarding & Fledging
 

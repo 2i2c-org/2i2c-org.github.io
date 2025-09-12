@@ -6,6 +6,4 @@ tags:
   - collaborator
 ---
 
-[NumFOCUS](https://numfocus.org) is a nonprofit organization that supports and promotes world-class, innovative, open source scientific software. NumFOCUS provided original support for Outreachy internships in the Jupyter ecosystem, contributing to efforts to broaden participation and inclusion in open source development.
-
-Through their support of diversity initiatives, NumFOCUS has helped grow the Jupyter community beyond traditional participants and fostered more inclusive open source development practices.
+[NumFOCUS](https://numfocus.org) is a nonprofit organization that supports and promotes world-class, innovative, open source scientific software. NumFOCUS serves as a fiscal sponsor for many of the scientific computing tools that form the foundation of contemporary data science and scientific computing in Python, R, and Julia.

@@ -7,6 +7,9 @@ tags:
   - funding
 categories:
   - organization
+image:
+  # The filename of the image within the page's folder.
+  filename: "featured.jpg"
 featured: false
 draft: false
 ---

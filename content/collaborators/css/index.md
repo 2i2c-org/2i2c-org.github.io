@@ -6,6 +6,4 @@ tags:
   - collaborator
 ---
 
-[Code for Science and Society](https://codeforscience.org/) is a nonprofit organization that supports open source projects for science. Through NSF award 2324304, CS&S provided tailored compute services and on-site support for Project Pythia educational initiatives.
-
-CS&S works to advance scientific research through sustainable development of open source tools and infrastructure, supporting the broader scientific computing community.
+[Code for Science & Society](https://codeforscience.org/) is a nonprofit organization that works to advance the power of data to improve the social and economic lives of all people. They empower communities to work together and build innovative technology for the public good, serving as fiscal sponsor for various projects including 2i2c.

@@ -6,6 +6,8 @@ tags:
   - funder
 ---
 
-The [Alfred P. Sloan Foundation](https://sloan.org/) has been a key supporter of 2i2c's work on advancing scholarly publishing and reproducible research through the Executable Books Project. The Sloan Foundation provided grant funding to develop tools for building beautiful, publication-quality books and documents from computational content, including Jupyter Book and MyST Markdown.
+The [Alfred P. Sloan Foundation](https://sloan.org/) is a philanthropic, not-for-profit grantmaking institution that supports research and education in science, technology, engineering, mathematics, and economics. Founded in 1934 by Alfred Pritchard Sloan Jr., then-President and Chief Executive Officer of the General Motors Corporation, the foundation makes grants to support high-quality, impartial scientific research and to advance public understanding of science.
 
-The Alfred P. Sloan Foundation is a philanthropic, not-for-profit grantmaking institution that supports research and education in science, technology, engineering, mathematics, and economics.
+## Grants from this funder
+
+- **Executable Books Project**: Grant funding to develop tools for building beautiful, publication-quality books and documents from computational content, including Jupyter Book and MyST Markdown

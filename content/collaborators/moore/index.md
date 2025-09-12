@@ -6,6 +6,8 @@ tags:
   - funder
 ---
 
-The [Gordon and Betty Moore Foundation](https://www.moore.org/) has been a key supporter of 2i2c's work in climate science through the Pangeo project. In 2020, 2i2c received $500,000 over two years from the Climate Data Lab at Columbia University for managing and developing cloud infrastructure for the Pangeo Project.
+The [Gordon and Betty Moore Foundation](https://www.moore.org/) fosters path-breaking scientific discovery, environmental conservation, patient care improvements, and preservation of the special character of the San Francisco Bay Area. Founded by Intel co-founder Gordon Moore and his wife Betty, the foundation advances environmental conservation, scientific research, and patient care improvements.
 
-The Gordon and Betty Moore Foundation fosters path-breaking scientific discovery, environmental conservation, patient care improvements, and preservation of the special character of the San Francisco Bay Area.
+## Grants from this funder
+
+- **Pangeo Climate Data Lab (2020)**: $500,000 over two years for managing and developing cloud infrastructure for the Pangeo Project through Columbia University
