@@ -7,7 +7,7 @@ categories: service
 date: 2025-07-22
 ---
 
-As we enter Q3 2025, our focus remains on enabling better cost controls for our communities and increasing flexibility for end-users. In line with our commitment to transparency, we’re sharing our platform and service objectives for the quarter and inviting feedback to ensure our direction reflects what matters most to the communities we serve. See our [product goals from the previous quarter here](https://2i2c.org/blog/2025/q2-product-goals/).
+As we enter Q3 2025, our focus remains on enabling better cost controls for our communities and increasing flexibility for end-users. In line with our commitment to transparency, we’re sharing our platform and service objectives for the quarter and inviting feedback to ensure our direction reflects what matters most to the communities we serve. See our [product goals from the previous quarter here](../q2-product-goals/index.md).
 
 The themes below offer a high-level snapshot of where we aim to evolve our offerings in the coming months.
 

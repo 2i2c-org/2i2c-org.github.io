@@ -66,7 +66,7 @@ These are large-scale organizational and strategic efforts that impact all of 2i
 
 **We're refining our strategy**: We've begun a process of revisiting and refining our strategy after a year of major operations, see [our strategic update blog post for more information](../strategic-update/).
 
-**We completed the [CSCCE](https://cscce.org) community management training**. Two of our team members (James and Sarah) both completed a several-week community management course that was offered in partnership with [CZI](https://chanzuckerberg.org).
+**We completed the [CSCCE](https://cscce.org) community management training**. Two of our team members (James and Sarah) both completed a several-week community management course that was offered in partnership with [CZI](../../../collaborators/czi.md).
 
 **Our team member Sarah began a part-time role as the JupyterHub Community Strategic Lead**. Sarah will be leading community strategy efforts within JupyterHub for the next two years thanks to a grant to the JupyterHub team from CZI. [Check out this issue to follow our progress](https://github.com/jupyterhub/team-compass/issues/536).
 

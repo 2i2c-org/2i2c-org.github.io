@@ -15,6 +15,10 @@ assignees: []
 - This happened
 - This happened
 
+### Any pull quotes?
+
+<!-- Pull quotes are the most impactful thing we can communicate! -->
+
 ### Why is it valuable
 
 - Because A

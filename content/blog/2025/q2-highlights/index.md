@@ -52,3 +52,7 @@ As 2i2c has grown over the past few years, it organically developed internal pro
 ## Another update coming in Q3
 
 We'll be announcing the focus for our next quarter in a follow-up post, so stay tuned for our next roadmap update, and don't forget to [let us know what you think](https://docs.google.com/forms/d/e/1FAIpQLSfo6JFr9L5gEFpk_QjoR23YZ9GHXYaO-3WZWZV3qRz8pj7dbg/viewform?usp=dialog) of our direction - we welcome your feedback!
+
+## Acknowledgements
+
+- Thanks to [The Navigation Fund](../../../collaborators/navigation/index.md) for core support to 2i2c which funds this strategic and organizational work.

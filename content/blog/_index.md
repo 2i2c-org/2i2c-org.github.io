@@ -1,5 +1,5 @@
 ---
-title: Recent blog posts
+title: 2i2c's blog
 ---
 
 <style>

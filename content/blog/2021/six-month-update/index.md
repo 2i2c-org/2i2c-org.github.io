@@ -37,7 +37,7 @@ We will continue refining the code in this repository as we learn more from our 
 ## JupyterHub for geospatial analytics - A collaboration with Pangeo
 
 As [originally announced on the Pangeo blog](https://medium.com/pangeo/pangeo-2-0-2bedf099582d), 2i2c is forging a collaboration with [the Pangeo project](https://pangeo.io) around operating and developing cloud infrastructure for large-scale geospatial analytics!
-This collaboration is funded through a grant from the Moore Foundation (via Pangeo investigator Ryan Abernathey).
+This collaboration is funded through a grant from the [Moore Foundation](../../../collaborators/moore/) (via Pangeo investigator Ryan Abernathey).
 
 Over the coming months, 2i2c plans to assume operation of infrastructure underlying the Pangeo project, allowing the Pangeo team to focus their efforts on their core scientific and development missions.
 Because Pangeo's infrastructure is already running on a fully open source stack with JupyterHub, our first step will simply be to shift control over this infrastructure to 2i2c engineers.

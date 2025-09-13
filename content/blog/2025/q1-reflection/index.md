@@ -79,3 +79,7 @@ Finally, we were slower than expected in defining the team structure of BD, due 
 Overall, I consider this quarter a success, given that we are operating with new systems for planning and executing work, as well as a new team structure. We didn't accomplish everything we set out to do in Q1 2025, but I think that's OK for our first quarterly cycle. In Q2 I expect us to be better at scoping the work we aim to accomplish, as well as holding ourselves accountable for getting it done.
 
 In Q2, we need to prioritize the refinement of our Business Development / Membership model and the system we use for growing and sustaining it. Our P&S team is now much more reliable at planning and delivering work, and our next bottleneck is having a business process that can reliably _generate_ work and revenue that sustains the organization. This will be a key focus in our Q2 planning.
+
+## Acknowledgements
+
+- Thanks to [The Navigation Fund](../../../collaborators/navigation/index.md) for core support to 2i2c which funds this strategic and organizational work.
