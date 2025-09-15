@@ -20,14 +20,8 @@ sections:
           text-align: left;
         }
         </style>
-        <div class="collaborators-explanation">
+        These are organizations<sup><a href="#explanation">[1]</a></sup> we've acknowledged in the [2i2c blog](https://2i2c.org/blog) as part of our [commitment to collaborative practices](../open-practices). Click each logo to see a list of [impact posts](https://2i2c.org/category/impact) from that collaborator.
 
-        These are organizations we've acknowledged in the [2i2c blog](https://2i2c.org/blog) as part of our [commitment to collaborative practices](../open-practices). Click each logo to see a list of [impact posts](https://2i2c.org/category/impact) from that collaborator.
-        **Members** are part of [our member network](../members/) that contribute extra funding and time.
-        **Collaborators** are non-members we collaborate with for shared impact.
-        **Funders** primarily have impact by funding initiatives that we benefit from.
-
-        </div>
 
   - block: portfolio
     content:
@@ -50,4 +44,24 @@ sections:
       view: masonry
       flip_alt_rows: false
       css_class: collaborators-gallery
+  - block: markdown
+    content:
+      text: |
+        <style>
+        .collaborators-explanation {
+          font-size: .9em;
+          text-align: left;
+        }
+        </style>
+        <div class="collaborators-explanation" id="explanation">
+        
+        _How we define types of collaborators_.
+
+        **Members** are part of [our member network](../members/) that contribute extra funding and time. These are for contirbutions beyond the [Foundational impact](../blog/2025/good-citizen/) that membership fees support.
+        
+        **Funders** primarily have impact by funding initiatives that we benefit from. We include funders when they directly benefit 2i2c or a project on which we collaborate, but not every funder for every member and collaborator that supports us.
+        
+        **Collaborators** are non-members we collaborate with for shared impact. These are often themselves made up of many organizations and individuals working together. In general, we try to highlight multi-stakeholder collaborations rather than the individual organizations within them.
+
+        </div>
 ---
