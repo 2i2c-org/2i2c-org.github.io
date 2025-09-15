@@ -13,7 +13,21 @@ sections:
   - block: markdown
     content:
       title: Our Collaborators
-      subtitle: These are organizations we've acknowledged in [our impact posts](https://2i2c.org/category/impact) from the [2i2c blog](https://2i2c.org/blog). This is usually because of _funding_ or _collaborating on_ impact that 2i2c has had, as part of our [commitment to collaborative practices](../open-practices).
+      text: |
+        <style>
+        .collaborators-explanation {
+          font-size: .75em;
+          text-align: left;
+        }
+        </style>
+        <div class="collaborators-explanation">
+
+        These are organizations we've acknowledged in the [2i2c blog](https://2i2c.org/blog) as part of our [commitment to collaborative practices](../open-practices). Click each logo to see a list of [impact posts](https://2i2c.org/category/impact) from that collaborator.
+        **Members** are part of [our member network](../members/) that contribute extra funding and time.
+        **Collaborators** are non-members we collaborate with for shared impact.
+        **Funders** primarily have impact by funding initiatives that we benefit from.
+
+        </div>
 
   - block: portfolio
     content:
