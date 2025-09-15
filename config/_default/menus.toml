@@ -107,11 +107,6 @@
   weight = 90
 
 [[main_right]]
-  name = "Mailing List"
-  url = "mailing-list/"
-  weight = 70
-
-[[main_right]]
   name = 'Membership'
   url = "/join"
   weight = 90
