@@ -27,6 +27,6 @@ This is an important step for the JupyterHub project in order to support the man
 
 ## Acknowledgements
 
-- Thanks to [the doepy team](https://meetup.doepy.org/) for inviting Yuvi to give this talk.
-- Thanks to [the JupyterHub team](../../../collaborators/jupyterhub/) for working with us on this strategy.
-- This work was funded in-part by fees from [2i2c's network of member communities](https://2i2c.org/communities).
+- [The doepy team](https://meetup.doepy.org/) for inviting Yuvi to give this talk.
+- [The JupyterHub team](../../../collaborators/jupyterhub/) for working with us on this strategy.
+- [2i2c's network of member communities](../../../members) whose fees support our Foundational open source engagement.
