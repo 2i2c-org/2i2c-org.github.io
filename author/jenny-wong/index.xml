@@ -83,7 +83,12 @@ Future work
 &lt;li>introducing group-level resource quotas.&lt;/li>
 &lt;/ul>
 &lt;p>What do you think? How would you like to see JupyterHub&amp;rsquo;s group management features evolve? Have you tried deploying this yourself?
-&lt;a href="https://docs.google.com/forms/d/e/1FAIpQLSff-u-sWFuwO1-VTgk2Ir7f1nfUUlLevQk_Vkk_jnmcI1nJnw/viewform?usp=header" target="_blank" rel="noopener" >We welcome your feedback&lt;/a> and feel free to open GitHub issues or make contributions to the repositories mentioned in this post.&lt;/p></description></item><item><title>Jenny Wong</title><link>https://2i2c.org/author/jenny-wong/</link><pubDate>Wed, 11 Jun 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/author/jenny-wong/</guid><description>&lt;p>Jenny is an Open Source Applications Engineer focused on delivering the Platform and Services roadmap for 2i2c. Her previous work has included the CZI-funded Catalyst Project, an initiative aiming to provide research communities in Latin America and Africa with access to large-scale scientific infrastructure. She&amp;rsquo;s built community-based training materials for interactive cloud-native workflows. Jenny is responsible for building user-centered open source applications that ensure the alignment of Product and Services value streams to the needs of the communities we serve.&lt;/p>
+&lt;a href="https://docs.google.com/forms/d/e/1FAIpQLSff-u-sWFuwO1-VTgk2Ir7f1nfUUlLevQk_Vkk_jnmcI1nJnw/viewform?usp=header" target="_blank" rel="noopener" >We welcome your feedback&lt;/a> and feel free to open GitHub issues or make contributions to the repositories mentioned in this post.&lt;/p>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;p>Thanks to the
+&lt;a href="https://2i2c.org/collaborators/jupyterhub/" >JupyterHub project&lt;/a> for their collaboration and review of this work.&lt;/p></description></item><item><title>Jenny Wong</title><link>https://2i2c.org/author/jenny-wong/</link><pubDate>Wed, 11 Jun 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/author/jenny-wong/</guid><description>&lt;p>Jenny is an Open Source Applications Engineer focused on delivering the Platform and Services roadmap for 2i2c. Her previous work has included the CZI-funded Catalyst Project, an initiative aiming to provide research communities in Latin America and Africa with access to large-scale scientific infrastructure. She&amp;rsquo;s built community-based training materials for interactive cloud-native workflows. Jenny is responsible for building user-centered open source applications that ensure the alignment of Product and Services value streams to the needs of the communities we serve.&lt;/p>
 &lt;p>As a former research software engineer, Jenny has considerable experience supporting researchers with writing documentation, creating video tutorials, and designing and delivering training for advanced research computing. Jenny is also a qualified Software Carpentries Instructor.&lt;/p>
 &lt;p>Jenny&amp;rsquo;s background is in mathematics, with a special interest in geophysical fluid dynamics. She obtained a PhD in the subject with her thesis titled &amp;ldquo;A slurry model of the F-layer in the Earth&amp;rsquo;s core&amp;rdquo;.&lt;/p></description></item><item><title>Announcing the Jupyter Book 2 alpha</title><link>https://2i2c.org/blog/2024/jupyter-book-2/</link><pubDate>Mon, 18 Nov 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/jupyter-book-2/</guid><description>&lt;p>&lt;em>Cross-posted from the
 &lt;a href="https://blog.jupyterbook.org/" target="_blank" rel="noopener" >Jupyter Book blog&lt;/a>. Note that some MyST functionality is not supported on the 2i2c website – please see the original post for previews.&lt;/em>&lt;/p>
@@ -199,6 +204,15 @@ Jupyter Book 2 vs MyST-MD
 &lt;a class="header-anchor" href="#jupyter-book-2-vs-myst-md">#&lt;/a>
 &lt;/h2>&lt;p>At this early stage, the new Jupyter Book application &lt;code>jupyter book&lt;/code> behaves identically to the &lt;code>mystmd&lt;/code> engine that it is built upon; as outlined in
 &lt;a href="https://executablebooks.org/en/latest/blog/2024-05-20-jupyter-book-myst/" target="_blank" rel="noopener" >our Jupyter Book 2 plan&lt;/a>, we intend for Jupyter Book to be an &amp;ldquo;opinionated distribution&amp;rdquo; of &lt;code>mystmd&lt;/code> that shares the same configuration format and CLI. This contrasts with Jupyter Book 1, which was built on top of the Sphinx documentation engine, but offered its own CLI and configuration files. In future, the &lt;code>jupyter book&lt;/code> and &lt;code>mystmd&lt;/code> CLIs may diverge from one another, but we expect that this will be handled in a graceful manner: &lt;code>mystmd&lt;/code> commands should always be compatible with the &lt;code>jupyter book&lt;/code> application.&lt;/p>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>Thanks to
+&lt;a href="https://2i2c.org/collaborators/pythia/" >Project Pythia&lt;/a> for funding some of our ongoing work on Jupyter Book.&lt;/li>
+&lt;li>Thanks to the
+&lt;a href="https://2i2c.org/collaborators/jupyter-book/" >Jupyter Book community&lt;/a> for their collaboration.&lt;/li>
+&lt;/ul>
 &lt;div class="footnotes" role="doc-endnotes">
 &lt;hr>
 &lt;ol>
@@ -264,7 +278,12 @@ Next steps
 &lt;h2 id="acknowledgements">
 Acknowledgements
 &lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
-&lt;/h2>&lt;p>Thank you to Erik for spearheading the rollout effort and to the rest of the 2i2c team for their support. We are especially grateful to the Openscapes and Cryocloud communities for providing valuable insights during the prototyping and testing phase.&lt;/p></description></item><item><title>Introducing the Catalyst Project Community Partner Highlights</title><link>https://2i2c.org/blog/2024/catalyst-partner-highlights/</link><pubDate>Thu, 31 Oct 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/catalyst-partner-highlights/</guid><description>&lt;p>&lt;em>Cross-posted from the
+&lt;/h2>&lt;ul>
+&lt;li>Thank you to Erik for spearheading the rollout effort and to the rest of the 2i2c team for their support.&lt;/li>
+&lt;li>Thanks to
+&lt;a href="https://2i2c.org/collaborators/openscapes/" >Openscapes&lt;/a> and
+&lt;a href="https://2i2c.org/collaborators/cryocloud/" >Cryocloud&lt;/a> communities for providing valuable insights during the prototyping and testing phase, and for funding part of this work.&lt;/li>
+&lt;/ul></description></item><item><title>Introducing the Catalyst Project Community Partner Highlights</title><link>https://2i2c.org/blog/2024/catalyst-partner-highlights/</link><pubDate>Thu, 31 Oct 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/catalyst-partner-highlights/</guid><description>&lt;p>&lt;em>Cross-posted from the
 &lt;a href="https://catalystproject.cloud/blog.html" target="_blank" rel="noopener" >Catalyst Project blog&lt;/a>&lt;/em>&lt;/p>
 &lt;p>
 &lt;figure id="figure-catalyst-project-community-partners-using-accessible-cloud-infrastructure-for-open-science-leadership-and-training-clockwise-from-top-left-nnb-ccghttpswwwnnbunammx-musthttpswwwmustacmw-cicadahttpscicadauy-and-iner-photos-courtesy-of-shirley-alquicira-hernández-bennett-kankuzi-maría-inés-fariello-rico-and-yalbi-i-balderas-martinez">
@@ -368,7 +387,15 @@ About the blog posts – Acknowledgements
 &lt;a class="header-anchor" href="#about-the-blog-posts--acknowledgements">#&lt;/a>
 &lt;/h2>&lt;p>Creating a series of blog posts to highlight the work of the Catalyst Community Partners was a collaborative effort involving staff from CSCCE, 2i2c, OLS, and MetaDocencia. Specifically, Lou Woodley, Katie Pratt, Jenny Wong, and Tajuddeen Gwadabe conceived the idea during our regular Catalyst Project “website team” meetings, and developed a strategy for reaching out to community partners to gather information.&lt;/p>
 &lt;p>Katie then led that outreach, which involved a representative of each Community Partners completing a Google Form to answer three key questions and sharing a photo (or a selection of photos) to use on the blog. Katie curated all of the information, edited together the blog posts, and secured sign-off from all of the partners. Sabrina López and her team at MetaDocencia coordinated the translation of the posts from English to Spanish, and Jenny formatted and published them on the website.&lt;/p>
-&lt;p>We’re grateful to the Community Partners for generously sharing more about their work – and we look forward to highlighting more Catalyst Project Community Partners soon!&lt;/p></description></item><item><title>MyST Mini-Hackathon with the DeepLabCut Team</title><link>https://2i2c.org/blog/2024/deeplabcut-myst-hackathon/</link><pubDate>Mon, 02 Sep 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/deeplabcut-myst-hackathon/</guid><description>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>Thanks to the
+&lt;a href="https://2i2c.org/collaborators/catalyst/" >Catalyst Community Partners&lt;/a> for generously sharing more about their work.&lt;/li>
+&lt;li>Thanks to
+&lt;a href="https://2i2c.org/collaborators/czi/" >CZI&lt;/a> for funding this work.&lt;/li>
+&lt;/ul></description></item><item><title>MyST Mini-Hackathon with the DeepLabCut Team</title><link>https://2i2c.org/blog/2024/deeplabcut-myst-hackathon/</link><pubDate>Mon, 02 Sep 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/deeplabcut-myst-hackathon/</guid><description>
 &lt;h2 id="the-deeplabcut-team">
 The DeepLabCut Team
 &lt;a class="header-anchor" href="#the-deeplabcut-team">#&lt;/a>
@@ -428,8 +455,12 @@ Summary
 &lt;h2 id="acknowledgments">
 Acknowledgments
 &lt;a class="header-anchor" href="#acknowledgments">#&lt;/a>
-&lt;/h2>&lt;p>We would like to thank the
-&lt;a href="http://www.mackenziemathislab.org/" target="_blank" rel="noopener" >Mackenzie Mathis Lab&lt;/a> for hosting Chris Holdgraf at EPFL, Lausanne, Switzerland.&lt;/p></description></item><item><title>NeuroHackademy Summer School Reflections</title><link>https://2i2c.org/blog/2024/neurohackademy-summer-school-reflections/</link><pubDate>Mon, 19 Aug 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/neurohackademy-summer-school-reflections/</guid><description>&lt;p>&lt;em>Thank you to Ariel Rokem and Noah Benson for guest writing this blog post!&lt;/em>&lt;/p>
+&lt;/h2>&lt;ul>
+&lt;li>Thank to the
+&lt;a href="http://www.mackenziemathislab.org/" target="_blank" rel="noopener" >Mackenzie Mathis Lab&lt;/a> for hosting Chris Holdgraf at EPFL, Lausanne, Switzerland.&lt;/li>
+&lt;li>Thanks to the
+&lt;a href="https://2i2c.org/collaborators/jupyter-book/" >Jupyter Book team&lt;/a> for collaborating on this with us.&lt;/li>
+&lt;/ul></description></item><item><title>NeuroHackademy Summer School Reflections</title><link>https://2i2c.org/blog/2024/neurohackademy-summer-school-reflections/</link><pubDate>Mon, 19 Aug 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/neurohackademy-summer-school-reflections/</guid><description>&lt;p>&lt;em>Thank you to Ariel Rokem and Noah Benson for guest writing this blog post!&lt;/em>&lt;/p>
 &lt;p>
 &lt;figure id="figure-group-photo-from-neurohackademy-2024">
 &lt;div class="d-flex justify-content-center">
@@ -519,9 +550,9 @@ Acknowledgements
 &lt;li>
 &lt;a href="http://escience.washington.edu/" target="_blank" rel="noopener" >University of Washington eScience Institute&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="http://www.moore.org/" target="_blank" rel="noopener" >Gordon and Betty Moore Foundation&lt;/a>&lt;/li>
+&lt;a href="https://2i2c.org/collaborators/moore/" >Gordon and Betty Moore Foundation&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="http://sloan.org/" target="_blank" rel="noopener" >Alfred P. Sloan Foundation&lt;/a>&lt;/li>
+&lt;a href="https://2i2c.org/collaborators/sloan/" >Alfred P. Sloan Foundation&lt;/a>&lt;/li>
 &lt;li>
 &lt;a href="http://www.washington.edu/" target="_blank" rel="noopener" >University of Washington&lt;/a>&lt;/li>
 &lt;li>
@@ -634,7 +665,7 @@ The
 &lt;/figcaption>&lt;/figure>
 &lt;/p>
 &lt;p>The 2i2c team are proud to continue our strong working collaboration with
-&lt;a href="https://developmentseed.org/" target="_blank" rel="noopener" >Development Seed&lt;/a>, following our previous work on launching the
+&lt;a href="https://2i2c.org/collaborators/devseed/" >Development Seed&lt;/a>, following our previous work on launching the
 &lt;a href="https://2i2c.org/blog/2023/us-ghg-center-launches/" >US GHG center&lt;/a> (also see the
 &lt;a href="https://developmentseed.org/blog/2023-12-14-ghg-center" target="_blank" rel="noopener" >Development Seed blog post&lt;/a>). Together with scientists at NASA in our regular sync touchpoints, we have recently delivered a tranche of improvements to
 &lt;a href="https://www.earthdata.nasa.gov/esds/veda" target="_blank" rel="noopener" >the Visualization, Exploration and Data Analysis (VEDA) project&lt;/a>.&lt;/p>
@@ -937,12 +968,13 @@ Acknowledgements
 &lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
 &lt;/h2>&lt;ul>
 &lt;li>
-&lt;a href="https://www.hhmi.org/" target="_blank" rel="noopener" >Howard Hughes Medical Institute&lt;/a>&lt;/li>
+&lt;a href="https://2i2c.org/collaborators/hhmi/" >Howard Hughes Medical Institute&lt;/a>&lt;/li>
 &lt;li>National Institute of Mental Health (NIMH), grant number RF1MH130623&lt;/li>
 &lt;li>
 &lt;a href="https://github.com/jupyterhub/kubespawner" target="_blank" rel="noopener" >kubespawner&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://github.com/jupyterhub/zero-to-jupyterhub-k8s/" target="_blank" rel="noopener" >zero-to-jupyterhub-k8s&lt;/a>&lt;/li>
+&lt;a href="https://github.com/jupyterhub/zero-to-jupyterhub-k8s/" target="_blank" rel="noopener" >zero-to-jupyterhub-k8s&lt;/a> and the
+&lt;a href="https://2i2c.org/collaborators/jupyterhub/" >JupyterHub community&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>We need to improve the diversity of our leadership</title><link>https://2i2c.org/blog/2024/dei-leadership-strategy/</link><pubDate>Fri, 28 Jun 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/dei-leadership-strategy/</guid><description>&lt;p>As an organization committed to broadening access to interactive computing for global communities, we believe that a team embedded with diverse insights and lived experiences can more effectively advocate for underrepresented voices in our socio-technical partnerships.
 A diversity of team experiences helps us deliver a service that broadens and empowers participation in open-source science for all communities and leads to
 &lt;a href="https://hbr.org/2016/11/why-diverse-teams-are-smarter" target="_blank" rel="noopener" >more effective teams that make better decisions&lt;/a>.&lt;/p>
@@ -1088,9 +1120,9 @@ Acknowledgements
 &lt;li>
 &lt;a href="http://escience.washington.edu/" target="_blank" rel="noopener" >University of Washington eScience Institute&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="http://www.moore.org/" target="_blank" rel="noopener" >Gordon and Betty Moore Foundation&lt;/a>&lt;/li>
+&lt;a href="https://2i2c.org/collaborators/moore/" >Gordon and Betty Moore Foundation&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="http://sloan.org/" target="_blank" rel="noopener" >Alfred P. Sloan Foundation&lt;/a>&lt;/li>
+&lt;a href="https://2i2c.org/collaborators/sloan/" >Alfred P. Sloan Foundation&lt;/a>&lt;/li>
 &lt;li>
 &lt;a href="http://www.washington.edu/" target="_blank" rel="noopener" >University of Washington&lt;/a>&lt;/li>
 &lt;li>
@@ -1141,7 +1173,8 @@ Acknowledgements
 &lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
 &lt;/h2>&lt;p>2i2c would like to credit the following individuals for their great efforts supporting this workshop:&lt;/p>
 &lt;ul>
-&lt;li>Sanjay Bhangar (Development seed)&lt;/li>
+&lt;li>Sanjay Bhangar (
+&lt;a href="https://2i2c.org/collaborators/devseed/" >Development seed&lt;/a>)&lt;/li>
 &lt;li>Slesa Adhikari (NASA IMPACT)&lt;/li>
 &lt;/ul></description></item><item><title>Hacking the Project Pythia Cook-off with MyST Markdown</title><link>https://2i2c.org/blog/2024/project-pythia-cookoff/</link><pubDate>Tue, 18 Jun 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/project-pythia-cookoff/</guid><description>&lt;p>
 &lt;figure id="figure-photo-courtesy-of-dr-debanjana-das">
@@ -1163,8 +1196,10 @@ What did 2i2c do?
 &lt;/h2>&lt;p>Jenny, James and Angus from the 2i2c team participated in the annual
 &lt;a href="https://projectpythia.org/pythia-cookoff-2024/" target="_blank" rel="noopener" >Project Pythia Cook-off 2024&lt;/a>, a hackathon where cookbook authors and collaborators can spend dedicated time on creating and maintaining their content using
 &lt;a href="https://jupyterbook.org/en/stable/intro.html" target="_blank" rel="noopener" >Jupyter Book&lt;/a> and deploying their cookbooks with GitHub actions.&lt;/p>
-&lt;p>2i2c teamed up with the infrastructure breakout group during the hackathon, led by Katelyn FitzGerald (UCAR) and Kevin Tyle (University at Albany), and members of the
-&lt;a href="https://curvenote.com/" target="_blank" rel="noopener" >Curvenote&lt;/a> team also joined the group.&lt;/p>
+&lt;p>2i2c teamed up with the infrastructure breakout group during the hackathon, led by Katelyn FitzGerald (
+&lt;a href="https://2i2c.org/collaborators/pythia/" >UCAR&lt;/a>) and Kevin Tyle (
+&lt;a href="https://2i2c.org/collaborators/pythia/" >University at Albany&lt;/a>), and members of the
+&lt;a href="https://curvenote.com" target="_blank" rel="noopener" >Curvenote&lt;/a> team also joined the group.&lt;/p>
 &lt;h2 id="day-1">
 Day 1
 &lt;a class="header-anchor" href="#day-1">#&lt;/a>
@@ -1254,10 +1289,17 @@ Day 4
 Acknowledgements
 &lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
 &lt;/h2>&lt;ul>
-&lt;li>University at Albany (NSF award 2324302): Led the funding acquisition, helped organize and facilitate the event&lt;/li>
-&lt;li>UCAR (NSF award 2324303): Led the planning and logistics for the event&lt;/li>
+&lt;li>
+&lt;a href="https://2i2c.org/collaborators/pythia/" >University at Albany&lt;/a> (NSF award 2324302): Led the funding acquisition, helped organize and facilitate the event&lt;/li>
+&lt;li>
+&lt;a href="https://2i2c.org/collaborators/pythia/" >UCAR&lt;/a> (NSF award 2324303): Led the planning and logistics for the event&lt;/li>
+&lt;li>
+&lt;a href="https://2i2c.org/collaborators/pythia/" >Project Pythia&lt;/a> for organizing this workshop.&lt;/li>
+&lt;li>
+&lt;a href="https://2i2c.org/collaborators/jupyter-book/" >Jupyter Book&lt;/a> for providing development and collaboration at this workshop.&lt;/li>
 &lt;li>2i2c / Code for Science and Society (NSF award 2324304): Provided tailored compute services and on-site support&lt;/li>
-&lt;li>Curvenote: Contributed engineering cycles to MyST MD development.&lt;/li>
+&lt;li>
+&lt;a href="https://curvenote.com" target="_blank" rel="noopener" >Curvenote&lt;/a>: Contributed engineering cycles to MyST MD development.&lt;/li>
 &lt;/ul></description></item><item><title>Low storage alerting for the UToronto cluster</title><link>https://2i2c.org/blog/2024/utoronto-storage-monitoring/</link><pubDate>Fri, 14 Jun 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/utoronto-storage-monitoring/</guid><description>&lt;p>
 &lt;figure id="figure-the-utoronto-hub-landing-page">
 &lt;div class="d-flex justify-content-center">
@@ -1306,7 +1348,10 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;h2 id="acknowledgements">
 Acknowledgements
 &lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
-&lt;/h2>&lt;p>This work was supported by National Institute of Mental Health (NIMH), grant number RF1MH130623.&lt;/p></description></item><item><title>Researchers at LEAP-Pangeo investigate overlooked sub-grid air-sea heat flux in climate models</title><link>https://2i2c.org/blog/2024/leap-pangeo-paper/</link><pubDate>Tue, 21 May 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/leap-pangeo-paper/</guid><description>&lt;p>
+&lt;/h2>&lt;ul>
+&lt;li>Thanks to
+&lt;a href="https://2i2c.org/collaborators/hhmi/" >HHMI&lt;/a> for funding and collaborating on this work.&lt;/li>
+&lt;/ul></description></item><item><title>Researchers at LEAP-Pangeo investigate overlooked sub-grid air-sea heat flux in climate models</title><link>https://2i2c.org/blog/2024/leap-pangeo-paper/</link><pubDate>Tue, 21 May 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/leap-pangeo-paper/</guid><description>&lt;p>
 &lt;figure id="figure-figure-from-the-preprinthttpsdoiorg1031223x5wq47-showing-large-and-small-scale-air-sea-fluxes-are-separated-by-julius-busecke-et-al-licensed-under-cc-by-40httpcreativecommonsorglicensesby40">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Figure from the preprint showing large and small scale air-sea fluxes are separated" srcset="
@@ -1328,6 +1373,11 @@ Figure from the
 &lt;p>See Julius&amp;rsquo;
 &lt;a href="https://x.com/JuliusBusecke/status/1792930908900630735" target="_blank" rel="noopener" >social media post&lt;/a> for a more bite-sized outline of the work done.&lt;/p>
 &lt;p>Well done all! 🎉&lt;/p>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;p>This research was conducted using the
+&lt;a href="https://2i2c.org/collaborators/pangeo/" >Pangeo&lt;/a> ecosystem and infrastructure provided by 2i2c.&lt;/p>
 &lt;div class="footnotes" role="doc-endnotes">
 &lt;hr>
 &lt;ol>
@@ -1355,7 +1405,8 @@ The
 &lt;a href="https://qgreenland-workshop-2023-researcher.github.io/" target="_blank" rel="noopener" >QGreenland Researcher Workshop&lt;/a>
 &lt;/figcaption>&lt;/figure>
 &lt;/p>
-&lt;p>JupyterHub is a versatile platform that can serve a desktop with Geospatial Information Systems (GIS) software in the cloud. This was demonstrated by the QGreenland Researcher Workshop that was hosted by the NASA CryoCloud hub. The hands-on workshop trained 25-30 researchers, from Germany, India, France, Canada, Poland and the United States, on how to work with geospatial data in an open science framework.&lt;/p>
+&lt;p>JupyterHub is a versatile platform that can serve a desktop with Geospatial Information Systems (GIS) software in the cloud. This was demonstrated by the QGreenland Researcher Workshop that was hosted by the NASA
+&lt;a href="https://2i2c.org/collaborators/cryocloud/" >CryoCloud&lt;/a> hub. The hands-on workshop trained 25-30 researchers, from Germany, India, France, Canada, Poland and the United States, on how to work with geospatial data in an open science framework.&lt;/p>
 &lt;h2 id="qgreenland-overview">
 QGreenland Overview
 &lt;a class="header-anchor" href="#qgreenland-overview">#&lt;/a>
@@ -1368,7 +1419,8 @@ Workshop Success
 &lt;ul>
 &lt;li>Accessibility: Participants from across the world could access the same powerful GIS tools through a web browser, eliminating the need for complex local installations while enhancing reproducibility&lt;/li>
 &lt;li>Cloud block storage: Using a JupyterHub in the cloud allowed for faster data access than a traditional NFS file store by provisioning each user with an elastic block store disk, reducing load times from 5 minutes to under 3 seconds.&lt;/li>
-&lt;li>Cost Efficiency: Utilizing the CryoCloud JupyterHub instance managed by 2i2c drastically cut down setup costs and time, with only minimal cloud operating expenses of roughly $1/person/day.&lt;/li>
+&lt;li>Cost Efficiency: Utilizing the
+&lt;a href="https://2i2c.org/collaborators/cryocloud/" >CryoCloud&lt;/a> JupyterHub instance managed by 2i2c drastically cut down setup costs and time, with only minimal cloud operating expenses of roughly $1/person/day.&lt;/li>
 &lt;/ul>
 &lt;h2 id="conclusion">
 Conclusion
@@ -1414,4 +1466,4 @@ loading="lazy" data-zoomable />&lt;/div>
 Acknowledgements
 &lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
 &lt;/h2>&lt;p>This effort is funded by 2i2c together with UC Berkeley and
-&lt;a href="https://www.cloudbank.org/about" target="_blank" rel="noopener" >CloudBank&lt;/a>.&lt;/p></description></item></channel></rss>
+&lt;a href="https://2i2c.org/collaborators/cloudbank/" >CloudBank&lt;/a>.&lt;/p></description></item></channel></rss>

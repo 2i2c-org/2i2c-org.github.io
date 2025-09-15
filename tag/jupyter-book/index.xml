@@ -1,4 +1,6 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Jupyter Book | 2i2c</title><link>https://2i2c.org/tag/jupyter-book/</link><atom:link href="https://2i2c.org/tag/jupyter-book/index.xml" rel="self" type="application/rss+xml"/><description>Jupyter Book</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 23 May 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Jupyter Book</title><link>https://2i2c.org/tag/jupyter-book/</link></image><item><title>Jupyter Book at the Scientific Python 2025 Developer Summit</title><link>https://2i2c.org/blog/2025/scientific-python-summit/</link><pubDate>Fri, 23 May 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/scientific-python-summit/</guid><description>&lt;p>A post on the Jupyter Book blog about the recent Scientific Python 2025 Developer Summit.&lt;/p></description></item><item><title>Launching Jupyter Book for 2i2c Communities</title><link>https://2i2c.org/blog/2025/jb-for-communities/</link><pubDate>Thu, 08 May 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/jb-for-communities/</guid><description>&lt;p>We&amp;rsquo;re excited to announce out-of-the-box support for
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Jupyter Book | 2i2c</title><link>https://2i2c.org/tag/jupyter-book/</link><atom:link href="https://2i2c.org/tag/jupyter-book/index.xml" rel="self" type="application/rss+xml"/><description>Jupyter Book</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 23 May 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Jupyter Book</title><link>https://2i2c.org/tag/jupyter-book/</link></image><item><title>Jupyter Book at the Scientific Python 2025 Developer Summit</title><link>https://2i2c.org/blog/2025/scientific-python-summit/</link><pubDate>Fri, 23 May 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/scientific-python-summit/</guid><description>&lt;p>Chris and Angus recently attended the Scientific Python 2025 Developer Summit on behalf of
+&lt;a href="https://2i2c.org/collaborators/jupyter-book/" >Jupyter Book&lt;/a>, here&amp;rsquo;s
+&lt;a href="https://blog.jupyterbook.org/posts/2025-05-23-scientific-python-dev-summit" target="_blank" rel="noopener" >a brief blog post about their experience&lt;/a> written with the Jupyter Book team.&lt;/p></description></item><item><title>Launching Jupyter Book for 2i2c Communities</title><link>https://2i2c.org/blog/2025/jb-for-communities/</link><pubDate>Thu, 08 May 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/jb-for-communities/</guid><description>&lt;p>We&amp;rsquo;re excited to announce out-of-the-box support for
 &lt;a href="https://next.jupyterbook.org" target="_blank" rel="noopener" >Jupyter Book 2&lt;/a> for our community members. This allows communities to create and share knowledge bases together for their community workflows. This post describes the motivation behind this new functionality, and how you can learn more about the project.&lt;/p>
 &lt;blockquote>
 &lt;p>⭐ &lt;strong>Members of 2i2c&amp;rsquo;s community network&lt;/strong> can use this feature in their hubs by following
@@ -53,8 +55,10 @@ What did 2i2c do?
 &lt;/h2>&lt;p>Jenny, James and Angus from the 2i2c team participated in the annual
 &lt;a href="https://projectpythia.org/pythia-cookoff-2024/" target="_blank" rel="noopener" >Project Pythia Cook-off 2024&lt;/a>, a hackathon where cookbook authors and collaborators can spend dedicated time on creating and maintaining their content using
 &lt;a href="https://jupyterbook.org/en/stable/intro.html" target="_blank" rel="noopener" >Jupyter Book&lt;/a> and deploying their cookbooks with GitHub actions.&lt;/p>
-&lt;p>2i2c teamed up with the infrastructure breakout group during the hackathon, led by Katelyn FitzGerald (UCAR) and Kevin Tyle (University at Albany), and members of the
-&lt;a href="https://curvenote.com/" target="_blank" rel="noopener" >Curvenote&lt;/a> team also joined the group.&lt;/p>
+&lt;p>2i2c teamed up with the infrastructure breakout group during the hackathon, led by Katelyn FitzGerald (
+&lt;a href="https://2i2c.org/collaborators/pythia/" >UCAR&lt;/a>) and Kevin Tyle (
+&lt;a href="https://2i2c.org/collaborators/pythia/" >University at Albany&lt;/a>), and members of the
+&lt;a href="https://curvenote.com" target="_blank" rel="noopener" >Curvenote&lt;/a> team also joined the group.&lt;/p>
 &lt;h2 id="day-1">
 Day 1
 &lt;a class="header-anchor" href="#day-1">#&lt;/a>
@@ -144,10 +148,26 @@ Day 4
 Acknowledgements
 &lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
 &lt;/h2>&lt;ul>
-&lt;li>University at Albany (NSF award 2324302): Led the funding acquisition, helped organize and facilitate the event&lt;/li>
-&lt;li>UCAR (NSF award 2324303): Led the planning and logistics for the event&lt;/li>
+&lt;li>
+&lt;a href="https://2i2c.org/collaborators/pythia/" >University at Albany&lt;/a> (NSF award 2324302): Led the funding acquisition, helped organize and facilitate the event&lt;/li>
+&lt;li>
+&lt;a href="https://2i2c.org/collaborators/pythia/" >UCAR&lt;/a> (NSF award 2324303): Led the planning and logistics for the event&lt;/li>
+&lt;li>
+&lt;a href="https://2i2c.org/collaborators/pythia/" >Project Pythia&lt;/a> for organizing this workshop.&lt;/li>
+&lt;li>
+&lt;a href="https://2i2c.org/collaborators/jupyter-book/" >Jupyter Book&lt;/a> for providing development and collaboration at this workshop.&lt;/li>
 &lt;li>2i2c / Code for Science and Society (NSF award 2324304): Provided tailored compute services and on-site support&lt;/li>
-&lt;li>Curvenote: Contributed engineering cycles to MyST MD development.&lt;/li>
+&lt;li>
+&lt;a href="https://curvenote.com" target="_blank" rel="noopener" >Curvenote&lt;/a>: Contributed engineering cycles to MyST MD development.&lt;/li>
 &lt;/ul></description></item><item><title>Jupyter Book 2.0 will use MyST</title><link>https://2i2c.org/blog/2024/myst-jupyter-book/</link><pubDate>Tue, 21 May 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/myst-jupyter-book/</guid><description>&lt;p>See
 &lt;a href="https://executablebooks.org/en/latest/blog/2024-05-20-jupyter-book-myst/" target="_blank" rel="noopener" >the Executable Books blog&lt;/a> for a post on the future directions of the Jupyter Book project, which will be built on top of the
-&lt;a href="https://mystmd.org" target="_blank" rel="noopener" >MyST Markdown engine&lt;/a>.&lt;/p></description></item></channel></rss>
+&lt;a href="https://mystmd.org" target="_blank" rel="noopener" >MyST Markdown engine&lt;/a>.&lt;/p>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>This post relates to our ongoing collaboration with the
+&lt;a href="https://2i2c.org/collaborators/jupyter-book/" >Jupyter Book&lt;/a> project.&lt;/li>
+&lt;li>Thanks to
+&lt;a href="https://2i2c.org/collaborators/pythia/" >Project Pythia&lt;/a> for funding part of our work on Jupyter Book.&lt;/li>
+&lt;/ul></description></item></channel></rss>

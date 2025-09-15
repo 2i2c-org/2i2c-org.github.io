@@ -18,8 +18,10 @@ What did 2i2c do?
 &lt;/h2>&lt;p>Jenny, James and Angus from the 2i2c team participated in the annual
 &lt;a href="https://projectpythia.org/pythia-cookoff-2024/" target="_blank" rel="noopener" >Project Pythia Cook-off 2024&lt;/a>, a hackathon where cookbook authors and collaborators can spend dedicated time on creating and maintaining their content using
 &lt;a href="https://jupyterbook.org/en/stable/intro.html" target="_blank" rel="noopener" >Jupyter Book&lt;/a> and deploying their cookbooks with GitHub actions.&lt;/p>
-&lt;p>2i2c teamed up with the infrastructure breakout group during the hackathon, led by Katelyn FitzGerald (UCAR) and Kevin Tyle (University at Albany), and members of the
-&lt;a href="https://curvenote.com/" target="_blank" rel="noopener" >Curvenote&lt;/a> team also joined the group.&lt;/p>
+&lt;p>2i2c teamed up with the infrastructure breakout group during the hackathon, led by Katelyn FitzGerald (
+&lt;a href="https://2i2c.org/collaborators/pythia/" >UCAR&lt;/a>) and Kevin Tyle (
+&lt;a href="https://2i2c.org/collaborators/pythia/" >University at Albany&lt;/a>), and members of the
+&lt;a href="https://curvenote.com" target="_blank" rel="noopener" >Curvenote&lt;/a> team also joined the group.&lt;/p>
 &lt;h2 id="day-1">
 Day 1
 &lt;a class="header-anchor" href="#day-1">#&lt;/a>
@@ -109,8 +111,15 @@ Day 4
 Acknowledgements
 &lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
 &lt;/h2>&lt;ul>
-&lt;li>University at Albany (NSF award 2324302): Led the funding acquisition, helped organize and facilitate the event&lt;/li>
-&lt;li>UCAR (NSF award 2324303): Led the planning and logistics for the event&lt;/li>
+&lt;li>
+&lt;a href="https://2i2c.org/collaborators/pythia/" >University at Albany&lt;/a> (NSF award 2324302): Led the funding acquisition, helped organize and facilitate the event&lt;/li>
+&lt;li>
+&lt;a href="https://2i2c.org/collaborators/pythia/" >UCAR&lt;/a> (NSF award 2324303): Led the planning and logistics for the event&lt;/li>
+&lt;li>
+&lt;a href="https://2i2c.org/collaborators/pythia/" >Project Pythia&lt;/a> for organizing this workshop.&lt;/li>
+&lt;li>
+&lt;a href="https://2i2c.org/collaborators/jupyter-book/" >Jupyter Book&lt;/a> for providing development and collaboration at this workshop.&lt;/li>
 &lt;li>2i2c / Code for Science and Society (NSF award 2324304): Provided tailored compute services and on-site support&lt;/li>
-&lt;li>Curvenote: Contributed engineering cycles to MyST MD development.&lt;/li>
+&lt;li>
+&lt;a href="https://curvenote.com" target="_blank" rel="noopener" >Curvenote&lt;/a>: Contributed engineering cycles to MyST MD development.&lt;/li>
 &lt;/ul></description></item></channel></rss>

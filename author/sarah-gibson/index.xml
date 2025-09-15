@@ -4,7 +4,14 @@
 &lt;a href="https://github.com/2i2c-org/jupyterhub-home-nfs" target="_blank" rel="noopener" >&lt;code>jupyterhub-home-nfs&lt;/code>&lt;/a> and our alerting system through
 &lt;a href="https://prometheus.io/docs/alerting/latest/alertmanager/" target="_blank" rel="noopener" >Prometheus Alertmanager&lt;/a>, are vendor agnostic and work right out of the box with the new architecture!&lt;/p>
 &lt;p>If you would like to try this feature on your 2i2c-managed JupyterHub,
-&lt;a href="https://docs.2i2c.org/support/" target="_blank" rel="noopener" >please get in touch&lt;/a>.&lt;/p></description></item><item><title>Sarah Gibson</title><link>https://2i2c.org/author/sarah-gibson/</link><pubDate>Tue, 25 Feb 2025 14:18:04 +0000</pubDate><guid>https://2i2c.org/author/sarah-gibson/</guid><description>&lt;p>Sarah Gibson was an Open Source Infrastructure Engineer at 2i2c. She is an open source contributor and advocate.
+&lt;a href="https://docs.2i2c.org/support/" target="_blank" rel="noopener" >please get in touch&lt;/a>.&lt;/p>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;p>This project was developed and deployed in collaboration with
+&lt;a href="https://developmentseed.org/team/tarashish-mishra/" target="_blank" rel="noopener" >Tarashish Mishra&lt;/a> from
+&lt;a href="https://2i2c.org/collaborators/devseed/" >Development Seed&lt;/a>, funded through the
+&lt;a href="https://2i2c.org/collaborators/nasa-veda/" >NASA VEDA project&lt;/a>.&lt;/p></description></item><item><title>Sarah Gibson</title><link>https://2i2c.org/author/sarah-gibson/</link><pubDate>Tue, 25 Feb 2025 14:18:04 +0000</pubDate><guid>https://2i2c.org/author/sarah-gibson/</guid><description>&lt;p>Sarah Gibson was an Open Source Infrastructure Engineer at 2i2c. She is an open source contributor and advocate.
 She holds more than two years of experience as a Research Engineer at a national institute for data science and artificial intelligence, as well as holding a core contributor role in the open source projects
 &lt;a href="https://jupyter.org/binder" target="_blank" rel="noopener" >Binder&lt;/a>,
 &lt;a href="https://jupyter.org/hub" target="_blank" rel="noopener" >JupyterHub&lt;/a>, and
@@ -40,13 +47,13 @@ Note that this feature is currently available to AWS hosted hubs only and will b
 &lt;a href="https://docs.2i2c.org/support/" target="_blank" rel="noopener" >please get in touch&lt;/a>.&lt;/p>
 &lt;p>This project can also be used with &lt;em>any&lt;/em> Kubernetes-based JupyterHub, as per our
 &lt;a href="https://2i2c.org/right-to-replicate/" target="_blank" rel="noopener" >Right to Replicate policy&lt;/a>, so please try it out on your own deployment and let us know what you think!&lt;/p>
-&lt;h2 id="credit">
-Credit
-&lt;a class="header-anchor" href="#credit">#&lt;/a>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
 &lt;/h2>&lt;p>This project was developed and deployed in collaboration with
 &lt;a href="https://developmentseed.org/team/tarashish-mishra/" target="_blank" rel="noopener" >Tarashish Mishra&lt;/a> from
-&lt;a href="https://developmentseed.org" target="_blank" rel="noopener" >Development Seed&lt;/a>, funded through the
-&lt;a href="https://www.earthdata.nasa.gov/data/tools/veda" target="_blank" rel="noopener" >NASA VEDA project&lt;/a>.&lt;/p></description></item><item><title>Tech update: Multiple JupyterHubs, multiple clusters, one repository.</title><link>https://2i2c.org/blog/2022/ci-cd-improvements/</link><pubDate>Tue, 19 Apr 2022 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2022/ci-cd-improvements/</guid><description>&lt;p>2i2c manages the configuration and deployment of multiple Kubernetes clusters and JupyterHubs from
+&lt;a href="https://2i2c.org/collaborators/devseed/" >Development Seed&lt;/a>, funded through the
+&lt;a href="https://2i2c.org/collaborators/nasa-veda/" >NASA VEDA project&lt;/a>.&lt;/p></description></item><item><title>Tech update: Multiple JupyterHubs, multiple clusters, one repository.</title><link>https://2i2c.org/blog/2022/ci-cd-improvements/</link><pubDate>Tue, 19 Apr 2022 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2022/ci-cd-improvements/</guid><description>&lt;p>2i2c manages the configuration and deployment of multiple Kubernetes clusters and JupyterHubs from
 &lt;a href="https://github.com/2i2c-org/infrastructure" target="_blank" rel="noopener" >a single open infrastructure repository&lt;/a>.
 This is a challenging problem, as it requires us to centralize information about a number of &lt;em>independent&lt;/em> cloud services, and deploy them in an efficient and reliable manner.
 Our initial attempt at this had a number of inefficiencies, and we recently completed an overhaul of its configuration and deployment infrastructure.&lt;/p>
@@ -240,4 +247,9 @@ This approach allows each community to focus on it&amp;rsquo;s core strengths: P
 In some areas we are still experimenting with different collaboration models to ensure that the needs of the Pangeo community are met in a way that is also sustainable for 2i2c.
 Over the coming weeks, you may see some conversations (and threads for feedback!) about different support and operations models that work best for the community.
 We are excited to use this as an opportunity to learn more about how to serve more complex and diverse communities like Pangeo.&lt;/p>
-&lt;p>We are extremely grateful to the Pangeo project for giving us the opportunity to serve their community, and we look forward to a long partnership ahead! &amp;#x1f680;&lt;/p></description></item></channel></rss>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;p>We are extremely grateful to the
+&lt;a href="https://2i2c.org/collaborators/pangeo/" >Pangeo project&lt;/a> for giving us the opportunity to serve their community, as well as the
+&lt;a href="https://2i2c.org/collaborators/moore/" >Moore Foundation&lt;/a> for funding this work. We look forward to a long partnership ahead! &amp;#x1f680;&lt;/p></description></item></channel></rss>

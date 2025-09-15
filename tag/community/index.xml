@@ -156,7 +156,15 @@ What 2i2c has learned while trying to build sustainable relationships with Jupyt
 &lt;p>We&amp;rsquo;re hopeful that this is a way for 2i2c to scale its impact and lean into its
 &lt;a href="https://2i2c.org/open-technology/" >commitment to open technology&lt;/a>. Chris intends to keep writing about his personal experience via
 &lt;a href="https://chrisholdgraf.com" target="_blank" rel="noopener" >his blog&lt;/a>, and we&amp;rsquo;ll provide updates here for major developments that are relevant to 2i2c&amp;rsquo;s network of communities.
-We&amp;rsquo;re proud to have Chris in this role, and excited for his contributions to the Jupyter community!&lt;/p></description></item><item><title>Researchers at LEAP-Pangeo investigate overlooked sub-grid air-sea heat flux in climate models</title><link>https://2i2c.org/blog/2024/leap-pangeo-paper/</link><pubDate>Tue, 21 May 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/leap-pangeo-paper/</guid><description>&lt;p>
+We&amp;rsquo;re proud to have Chris in this role, and excited for his contributions to the Jupyter community!&lt;/p>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>Strategic open source support like this is supported by a grant from
+&lt;a href="https://2i2c.org/collaborators/navigation/" >The Navigation Fund&lt;/a> and fees from
+&lt;a href="https://2i2c.org/members/" >our member organizations&lt;/a>.&lt;/li>
+&lt;/ul></description></item><item><title>Researchers at LEAP-Pangeo investigate overlooked sub-grid air-sea heat flux in climate models</title><link>https://2i2c.org/blog/2024/leap-pangeo-paper/</link><pubDate>Tue, 21 May 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/leap-pangeo-paper/</guid><description>&lt;p>
 &lt;figure id="figure-figure-from-the-preprinthttpsdoiorg1031223x5wq47-showing-large-and-small-scale-air-sea-fluxes-are-separated-by-julius-busecke-et-al-licensed-under-cc-by-40httpcreativecommonsorglicensesby40">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Figure from the preprint showing large and small scale air-sea fluxes are separated" srcset="
@@ -178,6 +186,11 @@ Figure from the
 &lt;p>See Julius&amp;rsquo;
 &lt;a href="https://x.com/JuliusBusecke/status/1792930908900630735" target="_blank" rel="noopener" >social media post&lt;/a> for a more bite-sized outline of the work done.&lt;/p>
 &lt;p>Well done all! 🎉&lt;/p>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;p>This research was conducted using the
+&lt;a href="https://2i2c.org/collaborators/pangeo/" >Pangeo&lt;/a> ecosystem and infrastructure provided by 2i2c.&lt;/p>
 &lt;div class="footnotes" role="doc-endnotes">
 &lt;hr>
 &lt;ol>
@@ -287,6 +300,11 @@ How do I actually implement any of this?
 &lt;a class="header-anchor" href="#how-do-i-actually-implement-any-of-this">#&lt;/a>
 &lt;/h2>&lt;p>The ideas in this post are principles and goals to strive for. They also touch on very complex subjects, and following them all perfectly is unrealistic given the state of most organizations. The point is not to define a specific roadmap of actions that must be followed, but to note a few major anti-patterns and ways to avoid them. Fundamentally, your goal should be to &lt;strong>build trust with a community&lt;/strong> and to &lt;strong>live up to the community&amp;rsquo;s mission and values&lt;/strong>. Do what you can, and be honest and open with others in your efforts. A little bit of transparency and effort goes a long way.&lt;/p>
 &lt;p>As for 2i2c, we hope to use the ideas in this post to define a strategy and set of policies for how to engage with directed funding for open source. We&amp;rsquo;ll share new ideas in the coming weeks.&lt;/p>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;p>This post draws on our practical experience in collaborative funding arrangements, including our partnership with
+&lt;a href="https://2i2c.org/collaborators/gesis/" >GESIS&lt;/a> to make improvements in Binder and JupyterHub infrastructure.&lt;/p>
 &lt;h2 id="references-and-more-reading">
 References and more reading
 &lt;a class="header-anchor" href="#references-and-more-reading">#&lt;/a>

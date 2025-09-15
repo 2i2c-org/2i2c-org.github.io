@@ -34,8 +34,8 @@ Acknowledgements
 &lt;/h2>&lt;ul>
 &lt;li>
 &lt;a href="https://jetstream-cloud.org/" target="_blank" rel="noopener" >Jetstream2&lt;/a>: Explore ACCESS allocation and Julian Pistorius for technical support&lt;/li>
-&lt;li>
-&lt;a href="https://projectpythia.org/" target="_blank" rel="noopener" >Project Pythia&lt;/a> (NSF award 2324302)&lt;/li>
+&lt;li>Thanks to
+&lt;a href="https://2i2c.org/collaborators/pythia/" >Project Pythia&lt;/a> for funding and collaborating with us on this work.&lt;/li>
 &lt;li>
 &lt;a href="https://www.zonca.dev/posts/2024-12-11-jetstream_kubernetes_magnum" target="_blank" rel="noopener" >Andrea Zonca&lt;/a> for preliminary work on Kubernetes deployments on Jetstream 2&lt;/li>
 &lt;/ul></description></item><item><title>NASA VEDA &amp; 2i2c Update for Q4 2024 (Oct-Dec 2024)</title><link>https://2i2c.org/blog/2025/veda-update-q4-2024/</link><pubDate>Tue, 07 Jan 2025 15:18:37 -0800</pubDate><guid>https://2i2c.org/blog/2025/veda-update-q4-2024/</guid><description>&lt;p>A non-exhaustive list of things 2i2c and
@@ -93,6 +93,15 @@ Other updates
 &lt;li>We are very close to
 &lt;a href="https://github.com/2i2c-org/infrastructure/issues/5209" target="_blank" rel="noopener" >rolling out JupyterHub 5.0&lt;/a> and associated changes across all our hubs, which will enable us to eventually offer per-group shared directories!
 &lt;a href="https://github.com/NASA-IMPACT/veda-jupyterhub/issues/61" target="_blank" rel="noopener" >Tracking Issue&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>Thanks to the
+&lt;a href="https://2i2c.org/collaborators/nasa-veda/" >NASA VEDA project&lt;/a> for thir ongoing support for this work.&lt;/li>
+&lt;li>Thanks to
+&lt;a href="https://2i2c.org/collaborators/devseed/" >DevSeet&lt;/a> for their collaboration and leadership on this project.&lt;/li>
 &lt;/ul></description></item><item><title>2i2c communities at AGU 2024</title><link>https://2i2c.org/blog/2024/agu/</link><pubDate>Mon, 09 Dec 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/agu/</guid><description>&lt;p>We are proud to share that several of 2i2c&amp;rsquo;s community partners are presenting their work at AGU 2024! In each case, 2i2c&amp;rsquo;s infrastructure plays a part in helping communities create and share knowledge, and grow their community. As an organization rooted in community-centric practices, we are particularly excited to see 2i2c represented &amp;ldquo;indirectly&amp;rdquo; at this conference, and to see ourselves as a supporting role enabling the impact of others.&lt;/p>
 &lt;p>Here&amp;rsquo;s a summary and links to all of the sessions. See below for a brief overview of seach one.&lt;/p>
 &lt;ul>
@@ -132,19 +141,23 @@ Authors
 &lt;li>
 &lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/15277" target="_blank" rel="noopener" >John Clyne&lt;/a> - NSF National Center for Atmospheric Research (first author)&lt;/li>
 &lt;li>
-&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1112151" target="_blank" rel="noopener" >Drew Camron&lt;/a> - University Corporation for Atmospheric Research&lt;/li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1112151" target="_blank" rel="noopener" >Drew Camron&lt;/a> -
+&lt;a href="https://2i2c.org/collaborators/pythia/" >University Corporation for Atmospheric Research&lt;/a>&lt;/li>
 &lt;li>
 &lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1104277" target="_blank" rel="noopener" >Orhan Eroglu&lt;/a> - NSF National Center for Atmospheric Research&lt;/li>
 &lt;li>
-&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1266060" target="_blank" rel="noopener" >Robert Ford&lt;/a> - University at Albany State University of New York&lt;/li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1266060" target="_blank" rel="noopener" >Robert Ford&lt;/a> -
+&lt;a href="https://2i2c.org/collaborators/pythia/" >University at Albany State University of New York&lt;/a>&lt;/li>
 &lt;li>
 &lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/796821" target="_blank" rel="noopener" >Julia Kent&lt;/a> - NSF National Center for Atmospheric Research&lt;/li>
 &lt;li>
-&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/529702" target="_blank" rel="noopener" >Ryan May&lt;/a> - University Corporation for Atmospheric Research&lt;/li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/529702" target="_blank" rel="noopener" >Ryan May&lt;/a> -
+&lt;a href="https://2i2c.org/collaborators/pythia/" >University Corporation for Atmospheric Research&lt;/a>&lt;/li>
 &lt;li>
 &lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1317099" target="_blank" rel="noopener" >James Munroe&lt;/a> - 2i2c / Code for Science and Society&lt;/li>
 &lt;li>
-&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/10645" target="_blank" rel="noopener" >Brian E J Rose&lt;/a> - SUNY at Albany&lt;/li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/10645" target="_blank" rel="noopener" >Brian E J Rose&lt;/a> -
+&lt;a href="https://2i2c.org/collaborators/pythia/" >SUNY at Albany&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h2 id="ed31g-2277-pace-hackweek-an-open-community-keeping-up-with-pace">
 ED31G-2277 PACE Hackweek: An open community keeping up with PACE
@@ -154,7 +167,8 @@ ED31G-2277 PACE Hackweek: An open community keeping up with PACE
 &lt;h3 id="abstract-1">
 Abstract
 &lt;a class="header-anchor" href="#abstract-1">#&lt;/a>
-&lt;/h3>&lt;p>The NASA Plankton, Aerosol, Cloud, ocean Ecosystem (PACE) mission, while bringing NASA&amp;rsquo;s Earth System Observatory &lt;em>up to speed&lt;/em> with aquatic, atmospheric, and terrestrial science capabilities, is also providing data records of the Earth System for the next generation of scientists &lt;em>to grow into&lt;/em>. The goal of the PACE Hackweek, supported by the Ocean Carbon &amp;amp; Biogeochemistry program and hosted at the University of Maryland Baltimore County in August 2024, was to enrich and support the practice of open science by both emerging and established researchers. Cloud-compute resources for the event were provided by CryoCloud, a NASA funded collaboration between ICESat-2 and the International Interactive Computing Collaboration (2i2c) to provide cryosphere researchers with a shared JupyterHub. We, the hackweek mentors, were buoyed by the NASA Openscapes program and adopted its mantra of striving toward &amp;ldquo;a kinder science for future us.&amp;rdquo; Participants faced two novelties: the &amp;ldquo;firehose&amp;rdquo; of data from the PACE instrument array (a hyper-spectral imaging spectrometer, a wide-swath hyper-angular polarimeter, and a narrow-swath spectro-polarimeter), and the distribution of PACE collections through the NASA Earthdata Cloud (a first for the Ocean Biology Distributed Active Archive Center). We present our approach and the challenges undertaken to hold an in-person, social coding event with 45 participants that provided a collaborative, supportive launchpad for doing open science with PACE. All lectures and tutorials produced for the event are freely available for examination and reuse. Our results additionally include highlights from the demonstration projects pursued by event participants and results from two post-event, qualitative surveys. One anonymous survey gathered participant feedback that will inform plans for growing these 45 participants into a lasting, open community. A separate, anonymous survey recorded participant demographics in order to evaluate our efforts at increasing diversity within the community of PACE data users. Key points of discussion include participant views, informed by our event, on whether and how the NASA Earthdata Cloud is a significant resource for the practice of open science with PACE, and how a shared JupyterHub can further the practice of open science by the community it serves.&lt;/p>
+&lt;/h3>&lt;p>The NASA Plankton, Aerosol, Cloud, ocean Ecosystem (PACE) mission, while bringing NASA&amp;rsquo;s Earth System Observatory &lt;em>up to speed&lt;/em> with aquatic, atmospheric, and terrestrial science capabilities, is also providing data records of the Earth System for the next generation of scientists &lt;em>to grow into&lt;/em>. The goal of the PACE Hackweek, supported by the Ocean Carbon &amp;amp; Biogeochemistry program and hosted at the University of Maryland Baltimore County in August 2024, was to enrich and support the practice of open science by both emerging and established researchers. Cloud-compute resources for the event were provided by
+&lt;a href="https://2i2c.org/collaborators/cryocloud/" >CryoCloud&lt;/a>, a NASA funded collaboration between ICESat-2 and the International Interactive Computing Collaboration (2i2c) to provide cryosphere researchers with a shared JupyterHub. We, the hackweek mentors, were buoyed by the NASA Openscapes program and adopted its mantra of striving toward &amp;ldquo;a kinder science for future us.&amp;rdquo; Participants faced two novelties: the &amp;ldquo;firehose&amp;rdquo; of data from the PACE instrument array (a hyper-spectral imaging spectrometer, a wide-swath hyper-angular polarimeter, and a narrow-swath spectro-polarimeter), and the distribution of PACE collections through the NASA Earthdata Cloud (a first for the Ocean Biology Distributed Active Archive Center). We present our approach and the challenges undertaken to hold an in-person, social coding event with 45 participants that provided a collaborative, supportive launchpad for doing open science with PACE. All lectures and tutorials produced for the event are freely available for examination and reuse. Our results additionally include highlights from the demonstration projects pursued by event participants and results from two post-event, qualitative surveys. One anonymous survey gathered participant feedback that will inform plans for growing these 45 participants into a lasting, open community. A separate, anonymous survey recorded participant demographics in order to evaluate our efforts at increasing diversity within the community of PACE data users. Key points of discussion include participant views, informed by our event, on whether and how the NASA Earthdata Cloud is a significant resource for the practice of open science with PACE, and how a shared JupyterHub can further the practice of open science by the community it serves.&lt;/p>
 &lt;h3 id="authors-1">
 Authors
 &lt;a class="header-anchor" href="#authors-1">#&lt;/a>
@@ -228,36 +242,50 @@ Authors
 &lt;li>
 &lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1267904" target="_blank" rel="noopener" >Brianna Rita Pagán&lt;/a> - NASA Goddard Space Flight Center; ADNET Systems Inc. Greenbelt (first author)&lt;/li>
 &lt;/ul>
-&lt;h2 id="introducing-geolab---an-earthscope-jupyterhub-for-enabling-collaborative-cloud-native-geophysical-data-analysis-and-skill-development-workshops">
-Introducing GeoLab - An EarthScope JupyterHub for Enabling Collaborative Cloud-Native Geophysical Data Analysis and Skill Development Workshops
-&lt;a class="header-anchor" href="#introducing-geolab---an-earthscope-jupyterhub-for-enabling-collaborative-cloud-native-geophysical-data-analysis-and-skill-development-workshops">#&lt;/a>
+&lt;h2 id="introducing-geolab---an-earthscopecollaboratorsearthscope-jupyterhub-for-enabling-collaborative-cloud-native-geophysical-data-analysis-and-skill-development-workshops">
+Introducing GeoLab - An
+&lt;a href="https://2i2c.org/collaborators/earthscope/" >EarthScope&lt;/a> JupyterHub for Enabling Collaborative Cloud-Native Geophysical Data Analysis and Skill Development Workshops
+&lt;a class="header-anchor" href="#introducing-geolab---an-earthscopecollaboratorsearthscope-jupyterhub-for-enabling-collaborative-cloud-native-geophysical-data-analysis-and-skill-development-workshops">#&lt;/a>
 &lt;/h2>&lt;p>
 &lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1645291" target="_blank" rel="noopener" >Link to session&lt;/a>&lt;/p>
 &lt;h3 id="abstract-4">
 Abstract
 &lt;a class="header-anchor" href="#abstract-4">#&lt;/a>
-&lt;/h3>&lt;p>The EarthScope Consortium manages NSF&amp;rsquo;s GAGE and SAGE facilities and makes all of its geophysical data available in a commercial cloud system. This enables EarthScope and the communities it supports to leverage the abundant computational resources and cost-effective benefits of adopting data-proximate workflows with direct access to large, analysis-ready geophysical data sets.&lt;/p>
-&lt;p>In recent years, JupyterHub environments have gained popularity with data enthusiasts for their ability to provide open access to powerful compute resources. As part of a broad effort to support communities with intuitive resources to quickly adapt their workflows to the cloud, EarthScope has partnered with 2i2c to operate a scalable JupyterHub environment in AWS that will provide equitable access to cloud compute resources for researchers, educators, and the general public. GeoLab, the EarthScope hub, is aligned with related open science initiatives to establish rigorous and transparent standards for reproducible, data-intensive workflows. In addition to promoting interdisciplinary and inter-institutional collaborative work between researchers in GeoLab, EarthScope is developing and hosting workshops that can support both in-person and asynchronous learning modules that will train users how to utilize these new resources and transition their work to the cloud. We are excited to invite all geophysical data users to participate in the vigorous growth of this new platform and collaborate with adjacent open-science compute hub initiatives.&lt;/p>
+&lt;/h3>&lt;p>The
+&lt;a href="https://2i2c.org/collaborators/earthscope/" >EarthScope&lt;/a> Consortium manages NSF&amp;rsquo;s GAGE and SAGE facilities and makes all of its geophysical data available in a commercial cloud system. This enables
+&lt;a href="https://2i2c.org/collaborators/earthscope/" >EarthScope&lt;/a> and the communities it supports to leverage the abundant computational resources and cost-effective benefits of adopting data-proximate workflows with direct access to large, analysis-ready geophysical data sets.&lt;/p>
+&lt;p>In recent years, JupyterHub environments have gained popularity with data enthusiasts for their ability to provide open access to powerful compute resources. As part of a broad effort to support communities with intuitive resources to quickly adapt their workflows to the cloud,
+&lt;a href="https://2i2c.org/collaborators/earthscope/" >EarthScope&lt;/a> has partnered with 2i2c to operate a scalable JupyterHub environment in AWS that will provide equitable access to cloud compute resources for researchers, educators, and the general public. GeoLab, the
+&lt;a href="https://2i2c.org/collaborators/earthscope/" >EarthScope&lt;/a> hub, is aligned with related open science initiatives to establish rigorous and transparent standards for reproducible, data-intensive workflows. In addition to promoting interdisciplinary and inter-institutional collaborative work between researchers in GeoLab,
+&lt;a href="https://2i2c.org/collaborators/earthscope/" >EarthScope&lt;/a> is developing and hosting workshops that can support both in-person and asynchronous learning modules that will train users how to utilize these new resources and transition their work to the cloud. We are excited to invite all geophysical data users to participate in the vigorous growth of this new platform and collaborate with adjacent open-science compute hub initiatives.&lt;/p>
 &lt;h3 id="authors-4">
 Authors
 &lt;a class="header-anchor" href="#authors-4">#&lt;/a>
 &lt;/h3>&lt;ul>
 &lt;li>
-&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/74000" target="_blank" rel="noopener" >Robert T Weekly&lt;/a> - EarthScope Consortium (first author)&lt;/li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/74000" target="_blank" rel="noopener" >Robert T Weekly&lt;/a> -
+&lt;a href="https://2i2c.org/collaborators/earthscope/" >EarthScope Consortium&lt;/a> (first author)&lt;/li>
 &lt;li>
-&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/84732" target="_blank" rel="noopener" >Tammy K Bravo&lt;/a> - EarthScope Consortium&lt;/li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/84732" target="_blank" rel="noopener" >Tammy K Bravo&lt;/a> -
+&lt;a href="https://2i2c.org/collaborators/earthscope/" >EarthScope Consortium&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/38950" target="_blank" rel="noopener" >Jerry A Carter&lt;/a> - EarthScope Consortium&lt;/li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/38950" target="_blank" rel="noopener" >Jerry A Carter&lt;/a> -
+&lt;a href="https://2i2c.org/collaborators/earthscope/" >EarthScope Consortium&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1522227" target="_blank" rel="noopener" >Tim Dittmann&lt;/a> - EarthScope Consortium&lt;/li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1522227" target="_blank" rel="noopener" >Tim Dittmann&lt;/a> -
+&lt;a href="https://2i2c.org/collaborators/earthscope/" >EarthScope Consortium&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1293466" target="_blank" rel="noopener" >Alex Hamilton&lt;/a> - EarthScope Consortium&lt;/li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1293466" target="_blank" rel="noopener" >Alex Hamilton&lt;/a> -
+&lt;a href="https://2i2c.org/collaborators/earthscope/" >EarthScope Consortium&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/57436" target="_blank" rel="noopener" >David Mencin&lt;/a> - EarthScope Consortium&lt;/li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/57436" target="_blank" rel="noopener" >David Mencin&lt;/a> -
+&lt;a href="https://2i2c.org/collaborators/earthscope/" >EarthScope Consortium&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/13120" target="_blank" rel="noopener" >Chad Trabant&lt;/a> - EarthScope Consortium&lt;/li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/13120" target="_blank" rel="noopener" >Chad Trabant&lt;/a> -
+&lt;a href="https://2i2c.org/collaborators/earthscope/" >EarthScope Consortium&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1526474" target="_blank" rel="noopener" >Sarah Wilson&lt;/a> - EarthScope Consortium&lt;/li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1526474" target="_blank" rel="noopener" >Sarah Wilson&lt;/a> -
+&lt;a href="https://2i2c.org/collaborators/earthscope/" >EarthScope Consortium&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h2 id="u13a-2349-sharing-recipes-for-cloud-computing-the-project-pythia-cookbook-initiative">
 U13A-2349 Sharing recipes for cloud computing: the Project Pythia Cookbook Initiative
@@ -275,23 +303,28 @@ Authors
 &lt;a class="header-anchor" href="#authors-5">#&lt;/a>
 &lt;/h3>&lt;ul>
 &lt;li>
-&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/10645" target="_blank" rel="noopener" >Brian E J Rose&lt;/a> - University at Albany State University of New York (first author)&lt;/li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/10645" target="_blank" rel="noopener" >Brian E J Rose&lt;/a> -
+&lt;a href="https://2i2c.org/collaborators/pythia/" >University at Albany State University of New York&lt;/a> (first author)&lt;/li>
 &lt;li>
-&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1112151" target="_blank" rel="noopener" >Drew Camron&lt;/a> - University Corporation for Atmospheric Research&lt;/li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1112151" target="_blank" rel="noopener" >Drew Camron&lt;/a> -
+&lt;a href="https://2i2c.org/collaborators/pythia/" >University Corporation for Atmospheric Research&lt;/a>&lt;/li>
 &lt;li>
 &lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/15277" target="_blank" rel="noopener" >John Clyne&lt;/a> - NCAR&lt;/li>
 &lt;li>
 &lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1104277" target="_blank" rel="noopener" >Orhan Eroglu&lt;/a> - NSF National Center for Atmospheric Research&lt;/li>
 &lt;li>
-&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1266060" target="_blank" rel="noopener" >Robert Ford&lt;/a> - University at Albany State University of New York&lt;/li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1266060" target="_blank" rel="noopener" >Robert Ford&lt;/a> -
+&lt;a href="https://2i2c.org/collaborators/pythia/" >University at Albany State University of New York&lt;/a>&lt;/li>
 &lt;li>
 &lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/796821" target="_blank" rel="noopener" >Julia Kent&lt;/a> - NSF National Center for Atmospheric Research&lt;/li>
 &lt;li>
-&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/529702" target="_blank" rel="noopener" >Ryan May&lt;/a> - University Corporation for Atmospheric Research&lt;/li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/529702" target="_blank" rel="noopener" >Ryan May&lt;/a> -
+&lt;a href="https://2i2c.org/collaborators/pythia/" >University Corporation for Atmospheric Research&lt;/a>&lt;/li>
 &lt;li>
 &lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1317099" target="_blank" rel="noopener" >James Munroe&lt;/a> - 2i2c / Code for Science and Society&lt;/li>
 &lt;li>
-&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/218622" target="_blank" rel="noopener" >Kevin Tyle&lt;/a> - SUNY at Albany&lt;/li>
+&lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/218622" target="_blank" rel="noopener" >Kevin Tyle&lt;/a> -
+&lt;a href="https://2i2c.org/collaborators/pythia/" >SUNY at Albany&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h2 id="u13a-2350-supporting-nasa-earthdata-users-in-the-cloud-nasa-openscapes-jupyterhub-and-user-onboarding--fledging">
 U13A-2350 Supporting NASA Earthdata users in the Cloud: NASA Openscapes JupyterHub and User Onboarding &amp;amp; Fledging
@@ -370,7 +403,9 @@ Authors
 &lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1565568" target="_blank" rel="noopener" >Samuel Krasnoff&lt;/a> - Lamont -Doherty Earth Observatory&lt;/li>
 &lt;li>
 &lt;a href="https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/880" target="_blank" rel="noopener" >Abani K Patra&lt;/a> - University at Buffalo&lt;/li>
-&lt;/ul></description></item><item><title>Pancakes are the future of geophysical data processing</title><link>https://2i2c.org/blog/2024/external-earthscope-pancakes/</link><pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/external-earthscope-pancakes/</guid><description/></item><item><title>Keeping PACE with GPU enabled compute to detect global cloud cover using satellite data</title><link>https://2i2c.org/blog/2024/pace-hackweek/</link><pubDate>Mon, 12 Aug 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/pace-hackweek/</guid><description>&lt;p>
+&lt;/ul></description></item><item><title>From the GeoLab team - Pancakes are the future of geophysical data processing</title><link>https://2i2c.org/blog/2024/external-earthscope-pancakes/</link><pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/external-earthscope-pancakes/</guid><description>&lt;p>Our partner
+&lt;a href="https://2i2c.org/collaborators/earthscope/" >EarthScope&lt;/a> published a
+&lt;a href="https://www.earthscope.org/news/pancakes-are-the-future-of-geophysical-data-processing/" target="_blank" rel="noopener" >blog post about their cloud stack&lt;/a> which includes heavy mention of 2i2c&amp;rsquo;s infrastructure model. Check it out!&lt;/p></description></item><item><title>Keeping PACE with GPU enabled compute to detect global cloud cover using satellite data</title><link>https://2i2c.org/blog/2024/pace-hackweek/</link><pubDate>Mon, 12 Aug 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/pace-hackweek/</guid><description>&lt;p>
 &lt;figure id="figure-left-bw-model-inputs-and-right-color-model-outputs-of-a-simple-multi-layer-perceptronhttpspacehackweekgithubiopace-2024presentationshackweekml_cloud_maskhtmla-simple-multi-layer-perceptron-for-detecting-cloud-cover">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="(left, b&amp;amp;amp;w) Model inputs and (right, color) model outputs of a simple multi-layer perceptron" srcset="
@@ -503,7 +538,7 @@ The
 &lt;/figcaption>&lt;/figure>
 &lt;/p>
 &lt;p>The 2i2c team are proud to continue our strong working collaboration with
-&lt;a href="https://developmentseed.org/" target="_blank" rel="noopener" >Development Seed&lt;/a>, following our previous work on launching the
+&lt;a href="https://2i2c.org/collaborators/devseed/" >Development Seed&lt;/a>, following our previous work on launching the
 &lt;a href="https://2i2c.org/blog/2023/us-ghg-center-launches/" >US GHG center&lt;/a> (also see the
 &lt;a href="https://developmentseed.org/blog/2023-12-14-ghg-center" target="_blank" rel="noopener" >Development Seed blog post&lt;/a>). Together with scientists at NASA in our regular sync touchpoints, we have recently delivered a tranche of improvements to
 &lt;a href="https://www.earthdata.nasa.gov/esds/veda" target="_blank" rel="noopener" >the Visualization, Exploration and Data Analysis (VEDA) project&lt;/a>.&lt;/p>
@@ -811,7 +846,8 @@ Acknowledgements
 &lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
 &lt;/h2>&lt;p>2i2c would like to credit the following individuals for their great efforts supporting this workshop:&lt;/p>
 &lt;ul>
-&lt;li>Sanjay Bhangar (Development seed)&lt;/li>
+&lt;li>Sanjay Bhangar (
+&lt;a href="https://2i2c.org/collaborators/devseed/" >Development seed&lt;/a>)&lt;/li>
 &lt;li>Slesa Adhikari (NASA IMPACT)&lt;/li>
 &lt;/ul></description></item><item><title>Researchers at LEAP-Pangeo investigate overlooked sub-grid air-sea heat flux in climate models</title><link>https://2i2c.org/blog/2024/leap-pangeo-paper/</link><pubDate>Tue, 21 May 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/leap-pangeo-paper/</guid><description>&lt;p>
 &lt;figure id="figure-figure-from-the-preprinthttpsdoiorg1031223x5wq47-showing-large-and-small-scale-air-sea-fluxes-are-separated-by-julius-busecke-et-al-licensed-under-cc-by-40httpcreativecommonsorglicensesby40">
@@ -835,6 +871,11 @@ Figure from the
 &lt;p>See Julius&amp;rsquo;
 &lt;a href="https://x.com/JuliusBusecke/status/1792930908900630735" target="_blank" rel="noopener" >social media post&lt;/a> for a more bite-sized outline of the work done.&lt;/p>
 &lt;p>Well done all! 🎉&lt;/p>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;p>This research was conducted using the
+&lt;a href="https://2i2c.org/collaborators/pangeo/" >Pangeo&lt;/a> ecosystem and infrastructure provided by 2i2c.&lt;/p>
 &lt;div class="footnotes" role="doc-endnotes">
 &lt;hr>
 &lt;ol>
@@ -1006,6 +1047,12 @@ Openness: Amplified Knowledge Sharing
 &lt;li>designed to be a &lt;em>digital public good.&lt;/em>&lt;/li>
 &lt;/ol>
 &lt;p>Research, data and recommendations developed by scientists and engineers that influence policies set by democratic governments should be accessible by voters. No entity should own the ways humans communicate and learn about the Earth system. The U.S. Greenhouse Gas Center&amp;rsquo;s generous approach to digital infrastructure &amp;ndash; an open toolchain adjacent to open data &amp;ndash; is vital for democracy and should be replicated across government agencies worldwide.&lt;/p>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;p>This work was developed in collaboration with
+&lt;a href="https://2i2c.org/collaborators/devseed/" >Development Seed&lt;/a> and
+&lt;a href="https://2i2c.org/collaborators/nasa-veda/" >NASA VEDA&lt;/a>, key partners in building the U.S. Greenhouse Gas Center&amp;rsquo;s open source science infrastructure.&lt;/p>
 &lt;h2 id="references">
 References
 &lt;a class="header-anchor" href="#references">#&lt;/a>
@@ -1057,7 +1104,8 @@ The
 &lt;a href="https://qgreenland-workshop-2023-researcher.github.io/" target="_blank" rel="noopener" >QGreenland Researcher Workshop&lt;/a>
 &lt;/figcaption>&lt;/figure>
 &lt;/p>
-&lt;p>JupyterHub is a versatile platform that can serve a desktop with Geospatial Information Systems (GIS) software in the cloud. This was demonstrated by the QGreenland Researcher Workshop that was hosted by the NASA CryoCloud hub. The hands-on workshop trained 25-30 researchers, from Germany, India, France, Canada, Poland and the United States, on how to work with geospatial data in an open science framework.&lt;/p>
+&lt;p>JupyterHub is a versatile platform that can serve a desktop with Geospatial Information Systems (GIS) software in the cloud. This was demonstrated by the QGreenland Researcher Workshop that was hosted by the NASA
+&lt;a href="https://2i2c.org/collaborators/cryocloud/" >CryoCloud&lt;/a> hub. The hands-on workshop trained 25-30 researchers, from Germany, India, France, Canada, Poland and the United States, on how to work with geospatial data in an open science framework.&lt;/p>
 &lt;h2 id="qgreenland-overview">
 QGreenland Overview
 &lt;a class="header-anchor" href="#qgreenland-overview">#&lt;/a>
@@ -1070,7 +1118,8 @@ Workshop Success
 &lt;ul>
 &lt;li>Accessibility: Participants from across the world could access the same powerful GIS tools through a web browser, eliminating the need for complex local installations while enhancing reproducibility&lt;/li>
 &lt;li>Cloud block storage: Using a JupyterHub in the cloud allowed for faster data access than a traditional NFS file store by provisioning each user with an elastic block store disk, reducing load times from 5 minutes to under 3 seconds.&lt;/li>
-&lt;li>Cost Efficiency: Utilizing the CryoCloud JupyterHub instance managed by 2i2c drastically cut down setup costs and time, with only minimal cloud operating expenses of roughly $1/person/day.&lt;/li>
+&lt;li>Cost Efficiency: Utilizing the
+&lt;a href="https://2i2c.org/collaborators/cryocloud/" >CryoCloud&lt;/a> JupyterHub instance managed by 2i2c drastically cut down setup costs and time, with only minimal cloud operating expenses of roughly $1/person/day.&lt;/li>
 &lt;/ul>
 &lt;h2 id="conclusion">
 Conclusion
@@ -1093,7 +1142,9 @@ Acknowledgements
 &lt;a href="https://book.cryointhecloud.com" target="_blank" rel="noopener" >CryoCloud JupyterBook&lt;/a> (2023.01.26). Zenodo.
 &lt;a href="https://doi.org/10.5281/zenodo.7576602" target="_blank" rel="noopener" >10.5281/zenodo.7576602&lt;/a>&lt;/li>
 &lt;/ul>
-&lt;p>* Denotes co-equal lead authorship&lt;/p></description></item><item><title>The why, what, and how of our NASA Openscapes cloud infrastructure: 2i2c JupyterHub and corn environment</title><link>https://2i2c.org/blog/2022/external-openscapes-corn/</link><pubDate>Thu, 17 Nov 2022 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2022/external-openscapes-corn/</guid><description/></item><item><title>Reflections on the Jack Eddy Symposium</title><link>https://2i2c.org/blog/2022/eddy-symposium-report/</link><pubDate>Thu, 14 Jul 2022 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2022/eddy-symposium-report/</guid><description>
+&lt;p>* Denotes co-equal lead authorship&lt;/p></description></item><item><title>The why, what, and how of our NASA Openscapes cloud infrastructure: 2i2c JupyterHub and corn environment</title><link>https://2i2c.org/blog/2022/external-openscapes-corn/</link><pubDate>Thu, 17 Nov 2022 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2022/external-openscapes-corn/</guid><description>&lt;p>We recently shared a demo of our infrastructure stack with the
+&lt;a href="https://2i2c.org/collaborators/openscapes/" >OpenScapes community&lt;/a>. Check out
+&lt;a href="https://openscapes.org/blog/2022-11-17-nasa-earthdata-cloud-infrastructure/" target="_blank" rel="noopener" >the blog post about it here&lt;/a>.&lt;/p></description></item><item><title>Reflections on the Jack Eddy Symposium</title><link>https://2i2c.org/blog/2022/eddy-symposium-report/</link><pubDate>Thu, 14 Jul 2022 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2022/eddy-symposium-report/</guid><description>
 &lt;h1 id="reflections-on-the-jack-eddy-symposium">
 Reflections on the Jack Eddy Symposium
 &lt;a class="header-anchor" href="#reflections-on-the-jack-eddy-symposium">#&lt;/a>
@@ -1112,8 +1163,8 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;/p>
 &lt;p>2i2c supported and participated in the
 &lt;a href="https://cpaess.ucar.edu/meetings/eddy-symposium-2022" target="_blank" rel="noopener" >3rd Eddy Cross Disciplinary Symposium&lt;/a> held recently in Vail Colorado. The event was hosted by the Cooperative Programs for the Advancement of Earth System Science (
-&lt;a href="https://cpaess.ucar.edu/" target="_blank" rel="noopener" >CPAESS&lt;/a>) team at the University Corporation for Atmospheric Research (
-&lt;a href="https://www.ucar.edu/" target="_blank" rel="noopener" >UCAR&lt;/a>) with support from NASA.&lt;/p>
+&lt;a href="https://cpaess.ucar.edu/" target="_blank" rel="noopener" >CPAESS&lt;/a>) team at the
+&lt;a href="https://www.ucar.edu/" target="_blank" rel="noopener" >University Corporation for Atmospheric Research (UCAR)&lt;/a> with support from NASA.&lt;/p>
 &lt;h2 id="context">
 Context
 &lt;a class="header-anchor" href="#context">#&lt;/a>
@@ -1193,4 +1244,9 @@ This approach allows each community to focus on it&amp;rsquo;s core strengths: P
 In some areas we are still experimenting with different collaboration models to ensure that the needs of the Pangeo community are met in a way that is also sustainable for 2i2c.
 Over the coming weeks, you may see some conversations (and threads for feedback!) about different support and operations models that work best for the community.
 We are excited to use this as an opportunity to learn more about how to serve more complex and diverse communities like Pangeo.&lt;/p>
-&lt;p>We are extremely grateful to the Pangeo project for giving us the opportunity to serve their community, and we look forward to a long partnership ahead! &amp;#x1f680;&lt;/p></description></item></channel></rss>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;p>We are extremely grateful to the
+&lt;a href="https://2i2c.org/collaborators/pangeo/" >Pangeo project&lt;/a> for giving us the opportunity to serve their community, as well as the
+&lt;a href="https://2i2c.org/collaborators/moore/" >Moore Foundation&lt;/a> for funding this work. We look forward to a long partnership ahead! &amp;#x1f680;&lt;/p></description></item></channel></rss>

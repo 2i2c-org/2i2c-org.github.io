@@ -16,8 +16,8 @@ Acknowledgements
 &lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
 &lt;/h2>&lt;ul>
 &lt;li>
-&lt;a href="https://chanzuckerberg.com/" target="_blank" rel="noopener" >Chan Zuckerberg Initiative&lt;/a> for their
-&lt;a href="https://zenodo.org/records/7025288" target="_blank" rel="noopener" >Catalyst Project award&lt;/a>&lt;/li>
+&lt;a href="https://2i2c.org/collaborators/czi/" >Chan Zuckerberg Initiative&lt;/a> for their
+&lt;a href="https://2i2c.org/collaborators/catalyst/" >Catalyst Project award&lt;/a>&lt;/li>
 &lt;li>
 &lt;a href="https://supercomputo.unc.edu.ar/" target="_blank" rel="noopener" >CCAD&lt;/a> for their collaboration on this hardware exchange&lt;/li>
 &lt;/ul></description></item><item><title>James Munroe</title><link>https://2i2c.org/author/james-munroe/</link><pubDate>Tue, 02 Sep 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/author/james-munroe/</guid><description>&lt;p>James is Senior Product Manager, Open Science Enablement for 2i2c. Coming from a background as an associate professor in the Department of Physics and Physical Oceanography at
@@ -60,8 +60,8 @@ Acknowledgements
 &lt;/h2>&lt;ul>
 &lt;li>
 &lt;a href="https://jetstream-cloud.org/" target="_blank" rel="noopener" >Jetstream2&lt;/a>: Explore ACCESS allocation and Julian Pistorius for technical support&lt;/li>
-&lt;li>
-&lt;a href="https://projectpythia.org/" target="_blank" rel="noopener" >Project Pythia&lt;/a> (NSF award 2324302)&lt;/li>
+&lt;li>Thanks to
+&lt;a href="https://2i2c.org/collaborators/pythia/" >Project Pythia&lt;/a> for funding and collaborating with us on this work.&lt;/li>
 &lt;li>
 &lt;a href="https://www.zonca.dev/posts/2024-12-11-jetstream_kubernetes_magnum" target="_blank" rel="noopener" >Andrea Zonca&lt;/a> for preliminary work on Kubernetes deployments on Jetstream 2&lt;/li>
 &lt;/ul></description></item><item><title>Enabling neuroscience in the cloud with HHMI Spyglass and MySQL on JupyterHub</title><link>https://2i2c.org/blog/2024/hhmi-spyglass-mysql/</link><pubDate>Fri, 05 Jul 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/hhmi-spyglass-mysql/</guid><description>&lt;p>
@@ -151,12 +151,13 @@ Acknowledgements
 &lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
 &lt;/h2>&lt;ul>
 &lt;li>
-&lt;a href="https://www.hhmi.org/" target="_blank" rel="noopener" >Howard Hughes Medical Institute&lt;/a>&lt;/li>
+&lt;a href="https://2i2c.org/collaborators/hhmi/" >Howard Hughes Medical Institute&lt;/a>&lt;/li>
 &lt;li>National Institute of Mental Health (NIMH), grant number RF1MH130623&lt;/li>
 &lt;li>
 &lt;a href="https://github.com/jupyterhub/kubespawner" target="_blank" rel="noopener" >kubespawner&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://github.com/jupyterhub/zero-to-jupyterhub-k8s/" target="_blank" rel="noopener" >zero-to-jupyterhub-k8s&lt;/a>&lt;/li>
+&lt;a href="https://github.com/jupyterhub/zero-to-jupyterhub-k8s/" target="_blank" rel="noopener" >zero-to-jupyterhub-k8s&lt;/a> and the
+&lt;a href="https://2i2c.org/collaborators/jupyterhub/" >JupyterHub community&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>Hacking the Project Pythia Cook-off with MyST Markdown</title><link>https://2i2c.org/blog/2024/project-pythia-cookoff/</link><pubDate>Tue, 18 Jun 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/project-pythia-cookoff/</guid><description>&lt;p>
 &lt;figure id="figure-photo-courtesy-of-dr-debanjana-das">
 &lt;div class="d-flex justify-content-center">
@@ -177,8 +178,10 @@ What did 2i2c do?
 &lt;/h2>&lt;p>Jenny, James and Angus from the 2i2c team participated in the annual
 &lt;a href="https://projectpythia.org/pythia-cookoff-2024/" target="_blank" rel="noopener" >Project Pythia Cook-off 2024&lt;/a>, a hackathon where cookbook authors and collaborators can spend dedicated time on creating and maintaining their content using
 &lt;a href="https://jupyterbook.org/en/stable/intro.html" target="_blank" rel="noopener" >Jupyter Book&lt;/a> and deploying their cookbooks with GitHub actions.&lt;/p>
-&lt;p>2i2c teamed up with the infrastructure breakout group during the hackathon, led by Katelyn FitzGerald (UCAR) and Kevin Tyle (University at Albany), and members of the
-&lt;a href="https://curvenote.com/" target="_blank" rel="noopener" >Curvenote&lt;/a> team also joined the group.&lt;/p>
+&lt;p>2i2c teamed up with the infrastructure breakout group during the hackathon, led by Katelyn FitzGerald (
+&lt;a href="https://2i2c.org/collaborators/pythia/" >UCAR&lt;/a>) and Kevin Tyle (
+&lt;a href="https://2i2c.org/collaborators/pythia/" >University at Albany&lt;/a>), and members of the
+&lt;a href="https://curvenote.com" target="_blank" rel="noopener" >Curvenote&lt;/a> team also joined the group.&lt;/p>
 &lt;h2 id="day-1">
 Day 1
 &lt;a class="header-anchor" href="#day-1">#&lt;/a>
@@ -268,10 +271,17 @@ Day 4
 Acknowledgements
 &lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
 &lt;/h2>&lt;ul>
-&lt;li>University at Albany (NSF award 2324302): Led the funding acquisition, helped organize and facilitate the event&lt;/li>
-&lt;li>UCAR (NSF award 2324303): Led the planning and logistics for the event&lt;/li>
+&lt;li>
+&lt;a href="https://2i2c.org/collaborators/pythia/" >University at Albany&lt;/a> (NSF award 2324302): Led the funding acquisition, helped organize and facilitate the event&lt;/li>
+&lt;li>
+&lt;a href="https://2i2c.org/collaborators/pythia/" >UCAR&lt;/a> (NSF award 2324303): Led the planning and logistics for the event&lt;/li>
+&lt;li>
+&lt;a href="https://2i2c.org/collaborators/pythia/" >Project Pythia&lt;/a> for organizing this workshop.&lt;/li>
+&lt;li>
+&lt;a href="https://2i2c.org/collaborators/jupyter-book/" >Jupyter Book&lt;/a> for providing development and collaboration at this workshop.&lt;/li>
 &lt;li>2i2c / Code for Science and Society (NSF award 2324304): Provided tailored compute services and on-site support&lt;/li>
-&lt;li>Curvenote: Contributed engineering cycles to MyST MD development.&lt;/li>
+&lt;li>
+&lt;a href="https://curvenote.com" target="_blank" rel="noopener" >Curvenote&lt;/a>: Contributed engineering cycles to MyST MD development.&lt;/li>
 &lt;/ul></description></item><item><title>Technical Content Specialist</title><link>https://2i2c.org/jobs/2023/technical-content-specialist/</link><pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate><guid>https://2i2c.org/jobs/2023/technical-content-specialist/</guid><description>&lt;p>2i2c manages, supports, and builds community-centric infrastructure for interactive computing in the cloud with partner communities in research and education.&lt;/p>
 &lt;p>We’re looking for a Technical Content Specialist that will create and curate documentation that supports interactive computing and cloud based open science. It intersects job titles such as “technical writer” and “content creator” while emphasizing previous experience working with open source science and related tools and a desire to share that knowledge.&lt;/p>
 &lt;!-- Insert metadata for this job -->
