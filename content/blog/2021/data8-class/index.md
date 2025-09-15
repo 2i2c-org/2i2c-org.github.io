@@ -21,4 +21,4 @@ Giving people curricula, content, and infrastructure goes a long way to adoption
 
 ## Acknowledgements
 
-This effort is funded by 2i2c together with UC Berkeley and [CloudBank](https://www.cloudbank.org/about).
+This effort is funded by 2i2c together with UC Berkeley and [CloudBank](../../../collaborators/cloudbank/).

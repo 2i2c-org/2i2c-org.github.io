@@ -10,27 +10,50 @@
 
 [[main]]
   name = "Impact"
-  url = "communities/"
   weight = 11
 
 [[main]]
-  name = "Service Principles"
+  name = "Our impact stories"
+  parent = "Impact"
+  url = "impact/"
+  weight = 11
+
+[[main]]
+  name = "Case studies"
+  parent = "Impact"
+  url = "case-studies/"
+  weight = 14
+
+[[main]]
+  name = "Our member communities"
+  parent = "Impact"
+  url = "members/"
+  weight = 12
+  
+[[main]]
+  name = "Our collaborators and funders"
+  parent = "Impact"
+  url = "collaborators/"
+  weight = 13
+
+[[main]]
+  name = "Our Principles"
   weight = 12
 
 [[main]]
-  parent = "Service Principles"
+  parent = "Our Principles"
   name = "Open Practices"
   url = "open-practices/"
   weight = 11
 
 [[main]]
-  parent = "Service Principles"
+  parent = "Our Principles"
   name = "Right to Replicate"
   url = "right-to-replicate/"
   weight = 13
 
 [[main]]
-  parent = "Service Principles"
+  parent = "Our Principles"
   name = "Commitment to Open Technology"
   url = "open-technology/"
   weight = 13
@@ -60,12 +83,6 @@
   weight = 16
 
   [[main]]
-    parent = "about"
-    name = "Projects we support"
-    url = "projects/"
-    weight = 20
-
-  [[main]]
   parent = "about"
   name = "Origin story"
   url = "founders/"
@@ -84,29 +101,16 @@
   weight = 60
 
   [[main]]
-  parent = "about"
-  name = "Mailing List"
-  url = "mailing-list/"
-  weight = 70
-
-  [[main]]
   name = 'Blog'
   url = "/blog"
   weight = 90
 
-  [[main]]
-  parent = "about"
-  name = "Donate to 2i2c"
-  url = "donate/"
-  weight = 80
-
 [[main_right]]
-  name = 'Join Us'
+  name = 'Membership'
   url = "/join"
-  weight = 100
-
-[[main_right]]
-  name = 'Service Docs'
-  url = "https://docs.2i2c.org"
   weight = 90
 
+[[main_right]]
+  name = 'Docs'
+  url = "https://docs.2i2c.org"
+  weight = 100

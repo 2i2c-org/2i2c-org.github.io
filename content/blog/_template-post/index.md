@@ -6,7 +6,7 @@ authors:
   - Chris Holdgraf
 category: impact
 tags:
-  - open-source
+  - open source
 ---
 
 One or two sentences about what happened and who did it. Link to the appropriate people, orgs, etc!
@@ -22,44 +22,3 @@ _Embed any images, videos, or youtube videos that are relevant. Put images in a 
 ## Acknowledgements
 
 - Bulleted list of people and organizations to thank, with links to their spaces.
-
-## Extra appendix: Example from Yuvi's doepy talk
-
-_Delete this section it's just here to help you get started._
-
-Here's an example from a recent talk that Yuvi gave:
-
-- Here's the GitHub issue: https://github.com/2i2c-org/2i2c-org.github.io/issues/470
-- Here's the blog post that followed: ./content/blog/2025/doepy-yuvi/index.md
-
-## Extra Appendix: Example content for Hugo directives
-
-_Delete this section it's just here to help you get started._
-
-Here are a few example Hugo directives for quick reference.
-
-### Figures
-
-An example figure directive:
-
-{{< figure src="images/staging-hub-matrix.png" title="Our staging and support hub job matrix tells GitHub Actions to deploy staging and support upgrades that act as canaries and stop production deploys if they fail.">}}
-
-### Videos
-
-From YouTube:
-
-{{< youtube YjonPLxDiwM >}}
-
-Local Videos:
-
-{{< video src="videos/jupyterhub-admin.mp4">}}
-
-### Callouts and admonitions
-
-An example admonition / callout:
-
-{{% callout %}}
-
-Here's some markdown in my callout!
-
-{{% /callout %}}

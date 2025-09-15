@@ -54,4 +54,6 @@ We're confident that this is a natural part of being a small and growing organiz
 
 _Note: if you'd like to work with [makeadifference.digital](https://www.makeadifference.digital), you can reach out to them at [`hello@makeadifference.digital`](mailto:hello@makeadifference.digital)_.
 
-{{% about-us %}}
+## Acknowledgments
+
+- Support for organizational and strategic work like this is provided by a grant from [CZI](../../../collaborators/czi/).

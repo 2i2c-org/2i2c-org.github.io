@@ -1,0 +1,23 @@
+{{ $collaborators := where site.RegularPages "Section" "collaborators" }}
+<div class="row">
+  {{ range $collaborators }}
+    <div class="col-md-6 col-lg-4 mb-4">
+      <div class="card h-100">
+        <div class="card-body">
+          <h5 class="card-title">
+            <a href="{{ .RelPermalink }}" class="text-decoration-none">{{ .Title }}</a>
+          </h5>
+          <p class="card-text">{{ .Summary | truncate 150 }}</p>
+          {{ if .Params.tags }}
+            <div class="mb-2">
+              {{ range .Params.tags }}
+                <span class="badge bg-secondary me-1">{{ . }}</span>
+              {{ end }}
+            </div>
+          {{ end }}
+          <a href="{{ .RelPermalink }}" class="btn btn-outline-primary btn-sm">Learn more</a>
+        </div>
+      </div>
+    </div>
+  {{ end }}
+</div>

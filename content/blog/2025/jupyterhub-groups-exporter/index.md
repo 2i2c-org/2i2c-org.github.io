@@ -84,3 +84,7 @@ Future directions for this work include:
 - introducing group-level resource quotas.
 
 What do you think? How would you like to see JupyterHub's group management features evolve? Have you tried deploying this yourself? [We welcome your feedback](https://docs.google.com/forms/d/e/1FAIpQLSff-u-sWFuwO1-VTgk2Ir7f1nfUUlLevQk_Vkk_jnmcI1nJnw/viewform?usp=header) and feel free to open GitHub issues or make contributions to the repositories mentioned in this post.
+
+## Acknowledgements
+
+Thanks to the [JupyterHub project](../../../collaborators/jupyterhub) for their collaboration and review of this work.

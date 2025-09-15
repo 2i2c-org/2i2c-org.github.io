@@ -60,6 +60,6 @@ Importantly, we wish to do this work in a way that centers the communities we wo
 We will explore ways to run these services and workshops so that they are transparent, inclusive, and give agency to the communities they support.
 Ultimately, we hope that this can be an extensible model for many more communities in the future.
 
-> If you're interested in this work, would like to discuss its ideas, or think something similar might be useful for your community, please reach out!
-> 
-> {{< cta cta_text="Send us an email" cta_link="mailto:hello@2i2c.org" cta_new_tab="true" >}}
+## Acknowledgements
+
+- Thanks to [CZI](../../../collaborators/czi) for the opportunity to submit this proposal.

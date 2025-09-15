@@ -1,7 +1,7 @@
 ---
 title: "Our product goals for Q1 2025"
 authors: ["Chris Holdgraf", "Giuliano Maccioci"]
-tags: [open-source]
+tags: [open source]
 categories: [organization]
 date: 2025-02-01
 ---
@@ -57,3 +57,7 @@ Finally, we've audited our ongoing support practices and realized that we aren't
 ## Another update coming in Q2
 
 Our aim is to use this blog post as a guide for the quarter, and to make progress in as many areas above as we can. As part of our Q2 planning process, we'll provide a retrospective on the accomplishments we've made towards this effort, and will provide an update for our community on our progress. Stay tuned for more!
+
+## Acknowledgements
+
+- Our strategic and organization-level work is supported by a grant from [The Navigation Fund](../../../collaborators/navigation/) and fees from [our member organizations](../../../members/).

@@ -65,3 +65,6 @@ Here's the video below for quick reference:
 <iframe src="https://player.vimeo.com/video/944769875#t=400s?h=e0f92e7926" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
 <p><a href="https://vimeo.com/944769875">Data Sharing and Analysis in Collaborative Open Research Environments</a> from <a href="https://vimeo.com/user219434759">Michael Markie</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
 
+## Acknowledgments
+
+- Support for organizational and strategic work like this is provided by a grant from [CZI](../../../collaborators/czi/) and fees from [our Member Communities](../../../members/).

@@ -88,7 +88,7 @@ However, this configuration does not include permanently store the database itse
 
 ## Acknowledgements
 
-- [Howard Hughes Medical Institute](https://www.hhmi.org/)
+- [Howard Hughes Medical Institute](../../../collaborators/hhmi/)
 - National Institute of Mental Health (NIMH), grant number RF1MH130623
 - [kubespawner](https://github.com/jupyterhub/kubespawner)
-- [zero-to-jupyterhub-k8s](https://github.com/jupyterhub/zero-to-jupyterhub-k8s/)
+- [zero-to-jupyterhub-k8s](https://github.com/jupyterhub/zero-to-jupyterhub-k8s/) and the [JupyterHub community](../../../collaborators/jupyterhub/)

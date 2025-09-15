@@ -64,6 +64,6 @@ This is still the **very early stages** of the project, and we imagine it will e
 
 ## Acknowledgements
 
-Thanks to the Howard Hughes Medical Institute (HHMI) for collaborating with us on the [Cellmap Challenge](https://cellmapchallenge.janelia.org/), which led to the creation of this project.
+Thanks to the [Howard Hughes Medical Institute](../../../collaborators/hhmi/) (HHMI) for collaborating with us on the [Cellmap Challenge](https://cellmapchallenge.janelia.org/), which led to the creation of this project.
 
 Thanks to Kristen Ratan and [Strategies for Open Science](https://strategiesos.org/about/) (Stratos) for enabling this collaboration, and providing strategic guidance and support.

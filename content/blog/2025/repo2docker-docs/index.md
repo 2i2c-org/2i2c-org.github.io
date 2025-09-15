@@ -3,7 +3,8 @@ title: Overhauling repo2docker's documentation
 date: 2025-08-01
 author: Chris Holdgraf
 categories: impact
-tags: open-source
+tags:
+  - open source
 ---
 
 Documentation is incredibly important for open source projects to communicate their value and show users how to make the most of their tools. However, it's one of those things that often gets de-prioritized with all of the other work that needs to happen in a project.
@@ -18,4 +19,5 @@ We hope this makes repo2docker a more useful tool for everybody, and also gives 
 
 ## Acknowledgements
 
-This work was made possible in-part by funding and in-kind support from the [NASA VEDA project](https://www.earthdata.nasa.gov/data/tools/veda).
+- Thanks to the [NASA VEDA project](../../../collaborators/nasa-veda/) for providing funding and collaboration for this work.
+- Thanks to the [JupyterHub community](../../../collaborators/jupyterhub/) for collaboration and review of this work.

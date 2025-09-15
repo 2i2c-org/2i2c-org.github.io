@@ -50,3 +50,6 @@ We think there's a lot more potential in these kinds of workflows, and are eager
 
 [jb2]: https://next.jupyterbook.org/
 
+## Acknowledgements
+
+Thanks to the [JupyterHub](../../../collaborators/jupyterhub/) and [Jupyter Book](../../../collaborators/jupyter-book/) communities for collaboration and review on this work.

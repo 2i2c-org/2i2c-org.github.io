@@ -40,3 +40,7 @@ Some of the goals of this service revamp will include improving triaging of supp
 ## Another update coming in Q3
 
 We’ll use this blog post as an informal roadmap of our product goals for the quarter, striving to advance as many of the outlined areas as possible. During our Q3 planning, we’ll reflect on the achievements made in line with this initiative and share a progress update with our community. Keep an eye out for more details\!  
+
+## Acknowledgements
+
+- Our strategic and organization-level work is supported by a grant from [The Navigation Fund](../../../collaborators/navigation/) and fees from [our member organizations](../../../members/).

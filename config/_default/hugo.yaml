@@ -63,3 +63,9 @@ sitemap:
   _merge: deep
 minify:
   _merge: deep
+cascade:
+  - _target:
+      path: /collaborators/**
+    params:
+      profile: false
+      show_date: false
