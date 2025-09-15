@@ -19,3 +19,7 @@ This funding covers some core operations of 2i2c as well as engineering capacity
 Below is a link to the 3-page grant narrative that summarizes some of our major progress and milestones from year two:
 
 https://zenodo.org/record/7319289
+
+## Acknowledgements
+
+- Thanks to [CZI](../../../collaborators/czi/) for funding this work.

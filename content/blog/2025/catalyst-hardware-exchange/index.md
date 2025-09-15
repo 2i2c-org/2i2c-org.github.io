@@ -23,5 +23,5 @@ This exchange reduces CCAD's reliance on ongoing cloud funding while giving them
 
 ## Acknowledgements
 
-- [Chan Zuckerberg Initiative](https://chanzuckerberg.com/) for their [Catalyst Project award](https://zenodo.org/records/7025288)
+- [Chan Zuckerberg Initiative](../../../collaborators/czi) for their [Catalyst Project award](../../../collaborators/catalyst/)
 - [CCAD](https://supercomputo.unc.edu.ar/) for their collaboration on this hardware exchange

@@ -27,8 +27,14 @@
           <a href="{{ .RelPermalink }}">{{ .Title }}</a>
           {{ if .Params.tags }}
             <span style="float: right;">
-              {{ range .Params.tags }}
-                <a href="/tag/{{ . | urlize }}/" style="display: inline-block; background: #f0f0f0; color: #666; padding: 1px 6px; margin-left: 3px; border-radius: 8px; font-size: 0.65em; text-decoration: none; border: 1px solid #ddd;">{{ . }}</a>
+              {{ $tags := .Params.tags }}
+              {{/* Handle both array and string formats for tags field - some posts may have "tags: value" vs "tags: [value1, value2]" */}}
+              {{ if reflect.IsSlice $tags }}
+                {{ range $tags }}
+                  <a href="/tag/{{ . | urlize }}/" style="display: inline-block; background: #f0f0f0; color: #666; padding: 1px 6px; margin-left: 3px; border-radius: 8px; font-size: 0.65em; text-decoration: none; border: 1px solid #ddd;">{{ . }}</a>
+                {{ end }}
+              {{ else }}
+                <a href="/tag/{{ $tags | urlize }}/" style="display: inline-block; background: #f0f0f0; color: #666; padding: 1px 6px; margin-left: 3px; border-radius: 8px; font-size: 0.65em; text-decoration: none; border: 1px solid #ddd;">{{ $tags }}</a>
               {{ end }}
             </span>
           {{ end }}

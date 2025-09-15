@@ -47,3 +47,7 @@ If you have suggestions for improving this process, or if any features interest 
 Each quarter, we’ll share an update like this to outline our product priorities and track progress. When planning for Q4, we’ll review what we’ve accomplished and provide a community update. Stay tuned!
 
 Meanwhile, [let us know what you think](https://docs.google.com/forms/u/1/d/1PXGM9_j0nyFLR1FEs7fz9x1vUuhs-J4IvoWGy5r-2aE/edit?fromCopy=true&ct=2) about our direction. Your feedback helps us provide the best value to our communities. Thank you!
+
+## Acknowledgements
+
+- Our strategic and organization-level work is supported by a grant from [The Navigation Fund](../../../collaborators/navigation/) and fees from [our member organizations](../../../members/).

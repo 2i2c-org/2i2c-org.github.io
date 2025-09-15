@@ -87,3 +87,7 @@ Jetstream2 has a big plus over the other cloud providers with its openness thoug
 Higher complexity comes also with more control over the infrastructure which has its advantages.
 
 Leaving the challenges apart, the experience was a nice one and the outcome was positive -> 2i2c is now able to deploy both mybinder.org-like hubs as well as persistent storage hubs on Jetstream2 hardware, from the same cloud-agnostic infrastructure.
+
+## Acknowledgements
+
+Thanks to [Project Pythia](../../../collaborators/pythia/) for funding and collaborating with us on this work.
