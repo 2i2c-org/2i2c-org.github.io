@@ -1,5 +1,5 @@
 ---
-title: Incident Report - UC Merced Hub slowdown from a spike in log-ins
+title: "Incident Report: UC Merced Hub slowdown from a spike in log-ins"
 date: "2025-09-15"
 category: incident-report
 ---
