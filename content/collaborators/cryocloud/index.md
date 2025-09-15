@@ -1,7 +1,7 @@
 ---
 title: CryoCloud
 tags:
-  - collaborator
+  - member
 show_date: false
 ---
 

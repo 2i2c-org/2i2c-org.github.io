@@ -1,7 +1,7 @@
 ---
 title: EarthScope Consortium
 tags:
-  - collaborator
+  - member
 show_date: false
 ---
 

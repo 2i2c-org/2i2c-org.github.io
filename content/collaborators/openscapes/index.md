@@ -2,6 +2,7 @@
 title: Openscapes
 tags:
   - collaborator
+  - member
 show_date: false
 ---
 
