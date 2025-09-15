@@ -13,7 +13,7 @@
   weight = 11
 
 [[main]]
-  name = "Impact we enable"
+  name = "Our impact stories"
   parent = "Impact"
   url = "impact/"
   weight = 11
@@ -22,16 +22,16 @@
   name = "Case studies"
   parent = "Impact"
   url = "case-studies/"
-  weight = 12
+  weight = 14
 
 [[main]]
-  name = "Member communities"
+  name = "Our member communities"
   parent = "Impact"
   url = "members/"
   weight = 12
   
 [[main]]
-  name = "Collaborators and funders"
+  name = "Our collaborators and funders"
   parent = "Impact"
   url = "collaborators/"
   weight = 13
@@ -99,7 +99,6 @@
   name = "Jobs at 2i2c"
   url = "jobs/"
   weight = 60
-
 
   [[main]]
   name = 'Blog'

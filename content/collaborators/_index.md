@@ -13,7 +13,7 @@ sections:
   - block: markdown
     content:
       title: Our Collaborators
-      subtitle: These are organizations we've acknowledged in [our impact posts](https://2i2c.org/tag/impact) from the [2i2c blog](https://2i2c.org/blog). This is usually because of _funding_ or _collaborating on_ impact that 2i2c has had. Click each box to see the list of posts where they've been credited. We hope this shares credit and highlights the collaborative way that we do our work.       
+      subtitle: These are organizations we've acknowledged in [our impact posts](https://2i2c.org/category/impact) from the [2i2c blog](https://2i2c.org/blog). This is usually because of _funding_ or _collaborating on_ impact that 2i2c has had, as part of our [commitment to collaborative practices](../open-practices).
 
   - block: portfolio
     content:
