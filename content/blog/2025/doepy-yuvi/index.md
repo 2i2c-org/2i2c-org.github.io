@@ -6,7 +6,7 @@ authors:
   - Yuvi Panda
 category: impact
 tags:
-  - open-source
+  - open source
   - foundational-contribution
 ---
 

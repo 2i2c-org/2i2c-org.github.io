@@ -1,7 +1,7 @@
 ---
 title: "Our product goals for Q1 2025"
 authors: ["Chris Holdgraf", "Giuliano Maccioci"]
-tags: [open-source]
+tags: [open source]
 categories: [organization]
 date: 2025-02-01
 ---

@@ -6,7 +6,7 @@ authors:
   - James Munroe
 category: impact
 tags:
-  - open-source
+  - open source
   - cloud
   - foundational-contribution
   - sovereignty

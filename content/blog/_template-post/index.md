@@ -6,7 +6,7 @@ authors:
   - Chris Holdgraf
 category: impact
 tags:
-  - open-source
+  - open source
 ---
 
 One or two sentences about what happened and who did it. Link to the appropriate people, orgs, etc!
