@@ -134,4 +134,6 @@ Check out his blog post: [The why, what, and how of our NASA Openscapes cloud in
 Many thanks to the 2i2c team, our partner communities, our funders, and the many others that have provided us support and guidance.
 We hope that this update provides a helpful idea of our priorities and major efforts, and we look forward to giving you a new update in Q2!
 
-{{% about-us %}}
+## Acknowledgments
+
+- Support for organizational and strategic work like this is provided by a grant from [CZI](../../../collaborators/czi/) and fees from [our Member Communities](../../../members/).

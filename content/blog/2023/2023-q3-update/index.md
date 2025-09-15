@@ -131,4 +131,6 @@ We hope that this has been an informative update from our team, and we appreciat
 We think that the tensions described in this post are healthy - they're reflective of an organization that is growing and reaching organizational milestones.
 We're excited to tackle them and to continue growing our impact and partnerships.
 
-{{% about-us %}}
+## Acknowledgments
+
+- Support for organizational and strategic work like this is provided by a grant from [CZI](../../../collaborators/czi/) and fees from [our Member Communities](../../../members/).

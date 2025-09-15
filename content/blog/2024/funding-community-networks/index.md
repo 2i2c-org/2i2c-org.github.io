@@ -40,3 +40,7 @@ If you're interested in collaborating on this, send an e-mail to [`partnerships@
 ## Learn more
 
 You can find more information about this fundraising and service strategy in [our Team Compass documentation](https://compass.2i2c.org/partnerships/fundraising/).
+
+## Acknowledgments
+
+- Support for organizational and strategic work like this is provided by a grant from [CZI](../../../collaborators/czi/).

@@ -19,3 +19,7 @@ The project recently began publishing [ARM-compatible images](https://github.com
 A part of 2i2c's mission is supporting upstream communities that we rely on, especially where the upstream project has limited resources. For this reason, we've decided to support Jupyter Docker Stack's ARM building costs, with a total budget of `$2000` (approximately `$150` per month). As a regular user and beneficiary of the Jupyter Docker Stacks, we believe it's important to contribute to the maintenance and sustainability of this crucial piece of infrastructure that benefits the entire Jupyter community.
 
 We hope this support helps the Docker Stacks project remain healthy, and continue providing high-quality, multi-architecture images that work across different computing platforms. We'll revisit this decision as the landscape of technology providers changes and other options arise.
+
+## Acknowledgments
+
+- Thanks to [Project Jupyter](../../../collaborators/jupyter/) (particularly the `jupyter-stacks` team) for this project.

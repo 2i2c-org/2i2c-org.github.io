@@ -25,7 +25,7 @@ draft: false
 
 Jenny, James and Angus from the 2i2c team participated in the annual [Project Pythia Cook-off 2024](https://projectpythia.org/pythia-cookoff-2024/), a hackathon where cookbook authors and collaborators can spend dedicated time on creating and maintaining their content using [Jupyter Book](https://jupyterbook.org/en/stable/intro.html) and deploying their cookbooks with GitHub actions.
 
-2i2c teamed up with the infrastructure breakout group during the hackathon, led by Katelyn FitzGerald ([UCAR](../../collaborators/pythia/)) and Kevin Tyle ([University at Albany](../../collaborators/pythia/)), and members of the [Curvenote](../../collaborators/curvenote/) team also joined the group.
+2i2c teamed up with the infrastructure breakout group during the hackathon, led by Katelyn FitzGerald ([UCAR](../../collaborators/pythia/)) and Kevin Tyle ([University at Albany](../../collaborators/pythia/)), and members of the [Curvenote](https://curvenote.com) team also joined the group.
 
 ## Day 1
 
@@ -84,5 +84,7 @@ Beyond the Project Pythia Cook-off, the breakout group will continue conversatio
 
 - [University at Albany](../../collaborators/pythia/) (NSF award 2324302): Led the funding acquisition, helped organize and facilitate the event
 - [UCAR](../../collaborators/pythia/) (NSF award 2324303): Led the planning and logistics for the event
+- [Project Pythia](../../../collaborators/pythia) for organizing this workshop.
+- [Jupyter Book](../../../collaborators/jupyter-book/) for providing development and collaboration at this workshop.
 - 2i2c / Code for Science and Society (NSF award 2324304): Provided tailored compute services and on-site support
-- Curvenote: Contributed engineering cycles to MyST MD development.
+- [Curvenote](https://curvenote.com): Contributed engineering cycles to MyST MD development.

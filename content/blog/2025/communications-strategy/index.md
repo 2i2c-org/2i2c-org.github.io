@@ -27,3 +27,6 @@ So, we're going to try an expriment that is [inspired by Simon Willison's blog](
 
 Our hope is that this will give us a steady stream of posts that show what we've been up to, as well as a way to navigate those posts via our mailing lists for the folks that don't want to spend all day combing through our blog. :-)
 
+## Acknowledgments
+
+- Support for organizational and strategic work like this is provided by a grant from [The Navigation Fund](../../../collaborators/navigation/).

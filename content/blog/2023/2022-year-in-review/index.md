@@ -159,4 +159,6 @@ For example: How can we accept funding to do open source work in a way that does
 Thanks for reading this update about our work in 2022.
 We're excited about what we've accomplished thus far, as well how we hope to expand our impact in the near future.
 
-{{% about-us %}}
+## Acknowledgments
+
+- Support for organizational and strategic work like this is provided by a grant from [CZI](../../../collaborators/czi/) and fees from [our Member Communities](../../../members/).

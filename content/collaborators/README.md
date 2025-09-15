@@ -1,3 +1,9 @@
+---
+# This excludes the README from our build
+_build:
+  render: never
+  list: never
+---
 # Information about our collaborators section
 
 ## Who is a collaborator?

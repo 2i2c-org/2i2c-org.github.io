@@ -38,3 +38,7 @@ By timeboxing myself, I didn't upset our sprint cadence and was able to continue
 ## Moving forward
 
 While we have been *implicitly* trying to solve whole classes of issues rather than individual instances of an issue as a team for a while, I want us to *explicitly* do it from now on. Communicating this out to our communities is an important part of that, as is internal team training. This blog post is the former, and we are continually working on the latter :)
+
+## Acknowledgements
+
+- Thanks to the [OpenScapes](../../../collaborators/openscapes/) and [CryoCloud](../../../collaborators/cryocloud/) communities for working with us closely on infrastructure to identify improvements like this.
