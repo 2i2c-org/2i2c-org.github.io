@@ -1,26 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cloud | 2i2c</title><link>https://2i2c.org/tag/cloud/</link><atom:link href="https://2i2c.org/tag/cloud/index.xml" rel="self" type="application/rss+xml"/><description>Cloud</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 02 Sep 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Cloud</title><link>https://2i2c.org/tag/cloud/</link></image><item><title>Giving CCAD more control over data science infrastructure via a Catalyst Project hardware exchange</title><link>https://2i2c.org/blog/2025/catalyst-hardware-exchange/</link><pubDate>Tue, 02 Sep 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/catalyst-hardware-exchange/</guid><description>&lt;p>2i2c has successfully completed a hardware exchange with Universidad Nacional de Córdoba&amp;rsquo;s
-&lt;a href="https://supercomputo.unc.edu.ar/" target="_blank" rel="noopener" >Centro de Computación de Alto Desempeño (CCAD)&lt;/a> through funding from the
-&lt;a href="https://catalystproject.cloud/" target="_blank" rel="noopener" >Catalyst Project&lt;/a>. CCAD used funding to purchase new on-prem computing infrastructure, significantly expanding their computing capabilities.&lt;/p>
-&lt;p>This exchange reduces CCAD&amp;rsquo;s reliance on ongoing cloud funding while giving them direct control over their infrastructure. The new hardware will support a scalable JupyterHub deployment and provide valuable training opportunities for researchers who may work with local computing resources.&lt;/p>
-&lt;h2 id="learn-more">
-Learn more
-&lt;a class="header-anchor" href="#learn-more">#&lt;/a>
-&lt;/h2>&lt;ul>
-&lt;li>
-&lt;a href="https://supercomputo.unc.edu.ar/2025/09/02/colgando-a-boogie/" target="_blank" rel="noopener" >CCAD&amp;rsquo;s blog post about the hardware deployment&lt;/a>&lt;/li>
-&lt;li>
-&lt;a href="https://catalystproject.cloud/" target="_blank" rel="noopener" >The Catalyst Project&lt;/a>&lt;/li>
-&lt;/ul>
-&lt;h2 id="acknowledgements">
-Acknowledgements
-&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
-&lt;/h2>&lt;ul>
-&lt;li>
-&lt;a href="https://2i2c.org/collaborators/czi/" >Chan Zuckerberg Initiative&lt;/a> for their
-&lt;a href="https://2i2c.org/collaborators/catalyst/" >Catalyst Project award&lt;/a>&lt;/li>
-&lt;li>
-&lt;a href="https://supercomputo.unc.edu.ar/" target="_blank" rel="noopener" >CCAD&lt;/a> for their collaboration on this hardware exchange&lt;/li>
-&lt;/ul></description></item><item><title>Incident report: UC Merced user throttling during class startup</title><link>https://2i2c.org/blog/2025/incident-ucmerced-user-throttling/</link><pubDate>Fri, 29 Aug 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/incident-ucmerced-user-throttling/</guid><description>&lt;p>On August 29, 2025 our cloud infrastructure team experienced an incident with the UC Merced community hub when students tried to login simultaneously at the start of class. For more detailed technical information about this incident, see our
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cloud | 2i2c</title><link>https://2i2c.org/tag/cloud/</link><atom:link href="https://2i2c.org/tag/cloud/index.xml" rel="self" type="application/rss+xml"/><description>Cloud</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 16 Sep 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Cloud</title><link>https://2i2c.org/tag/cloud/</link></image><item><title>Incident report: UC Merced user throttling during class startup</title><link>https://2i2c.org/blog/2025/incident-ucmerced-user-throttling/</link><pubDate>Tue, 16 Sep 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/incident-ucmerced-user-throttling/</guid><description>&lt;p>On August 29, 2025 our cloud infrastructure team experienced an incident with the UC Merced community hub when students tried to login simultaneously at the start of class. For more detailed technical information about this incident, see our
 &lt;a href="https://github.com/2i2c-org/incident-reports/blob/main/reports/2025-08-29-ucmerced-too-many-users-throttled.pdf" target="_blank" rel="noopener" >full incident report&lt;/a>.&lt;/p>
 &lt;h2 id="what-happened">
 What happened
@@ -55,6 +33,28 @@ Acknowledgements
 &lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
 &lt;/h2>&lt;ul>
 &lt;li>Thanks to UC Merced students and instructors for reporting the issue through our support system.&lt;/li>
+&lt;/ul></description></item><item><title>Giving CCAD more control over data science infrastructure via a Catalyst Project hardware exchange</title><link>https://2i2c.org/blog/2025/catalyst-hardware-exchange/</link><pubDate>Tue, 02 Sep 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/catalyst-hardware-exchange/</guid><description>&lt;p>2i2c has successfully completed a hardware exchange with Universidad Nacional de Córdoba&amp;rsquo;s
+&lt;a href="https://supercomputo.unc.edu.ar/" target="_blank" rel="noopener" >Centro de Computación de Alto Desempeño (CCAD)&lt;/a> through funding from the
+&lt;a href="https://catalystproject.cloud/" target="_blank" rel="noopener" >Catalyst Project&lt;/a>. CCAD used funding to purchase new on-prem computing infrastructure, significantly expanding their computing capabilities.&lt;/p>
+&lt;p>This exchange reduces CCAD&amp;rsquo;s reliance on ongoing cloud funding while giving them direct control over their infrastructure. The new hardware will support a scalable JupyterHub deployment and provide valuable training opportunities for researchers who may work with local computing resources.&lt;/p>
+&lt;h2 id="learn-more">
+Learn more
+&lt;a class="header-anchor" href="#learn-more">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;a href="https://supercomputo.unc.edu.ar/2025/09/02/colgando-a-boogie/" target="_blank" rel="noopener" >CCAD&amp;rsquo;s blog post about the hardware deployment&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://catalystproject.cloud/" target="_blank" rel="noopener" >The Catalyst Project&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;a href="https://2i2c.org/collaborators/czi/" >Chan Zuckerberg Initiative&lt;/a> for their
+&lt;a href="https://2i2c.org/collaborators/catalyst/" >Catalyst Project award&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://supercomputo.unc.edu.ar/" target="_blank" rel="noopener" >CCAD&lt;/a> for their collaboration on this hardware exchange&lt;/li>
 &lt;/ul></description></item><item><title>Tech update: Multiple JupyterHubs, multiple clusters, one repository.</title><link>https://2i2c.org/blog/2022/ci-cd-improvements/</link><pubDate>Tue, 19 Apr 2022 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2022/ci-cd-improvements/</guid><description>&lt;p>2i2c manages the configuration and deployment of multiple Kubernetes clusters and JupyterHubs from
 &lt;a href="https://github.com/2i2c-org/infrastructure" target="_blank" rel="noopener" >a single open infrastructure repository&lt;/a>.
 This is a challenging problem, as it requires us to centralize information about a number of &lt;em>independent&lt;/em> cloud services, and deploy them in an efficient and reliable manner.
