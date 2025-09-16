@@ -1,7 +1,7 @@
 ---
 title: "Incident report: UC Merced user throttling during class startup"
-date: "2025-08-29"
-category: incident-report
+date: "2025-09-16"
+categories: incident-report
 tags:
   - cloud
   - open-source

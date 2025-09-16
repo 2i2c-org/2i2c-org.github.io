@@ -4,7 +4,7 @@ date: "2025-09-02"
 authors:
   - Chris Holdgraf
   - James Munroe
-category: impact
+categories: impact
 tags:
   - open source
   - cloud

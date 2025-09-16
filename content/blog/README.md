@@ -73,7 +73,7 @@ Each post has one category and multiple tags. Categories describe the post's int
 ---
 title: Post title
 date: "2025-01-01"
-category: updates
+categories: updates
 tags:
   - open source
   - geoscience

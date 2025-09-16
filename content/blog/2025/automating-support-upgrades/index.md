@@ -1,7 +1,7 @@
 ---
 title: Solving classes of problems, rather than just an instance of a problem (with an example)
 date: "2025-06-09"
-category: updates
+categories: updates
 authors:
   - Yuvi Panda
 tags:

@@ -3,7 +3,7 @@
 # folder name: incident-short-title/
 title: "Incident report: Brief description of the incident"
 date: "2999-01-01"
-category: incident-report
+categories: incident-report
 tags:
   - cloud
 ---
