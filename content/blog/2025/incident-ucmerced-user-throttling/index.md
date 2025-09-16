@@ -27,8 +27,8 @@ On August 29, 2025 our cloud infrastructure team experienced an incident with th
 ## Resolution
 
 We implemented several fixes:
-- Increased the concurrent spawn limit from 64 to 100, this will cost more in cloud but result in fewer scale-up events.
-- Put UC Merced users on larger nodes to reduce the number of node spinups needed
+- Increased the concurrent spawn limit from 64 to 100.
+- Put UC Merced users on larger nodes to reduce the number of node spinups needed. this will cost more in cloud but result in fewer scale-up events.
 - Created action items to improve logging, alerting, and monitoring for similar incidents
 
 ## Acknowledgements
