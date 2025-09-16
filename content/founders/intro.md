@@ -9,4 +9,4 @@ title = "Our founding team"
   columns = "1"
 +++
 
-2i2c was founded by leaders in the research, education, and open source community. We have [years of experience in deploying infrastructure for interactive computing](#projects), as well as integrating that infrastructure into institutional pedagogy and research efforts. In addition, we are core contributors to many large open source projects in the Jupyter community.
+2i2c was founded by leaders in the research, education, and open source community. We have [years of experience in deploying infrastructure for interactive computing](founders#projects), as well as integrating that infrastructure into institutional pedagogy and research efforts. In addition, we are core contributors to many large open source projects in the Jupyter community.
