@@ -191,6 +191,41 @@ Acknowledgements
 &lt;a href="https://2i2c.org/collaborators/catalyst/" >Catalyst Project award&lt;/a>&lt;/li>
 &lt;li>
 &lt;a href="https://supercomputo.unc.edu.ar/" target="_blank" rel="noopener" >CCAD&lt;/a> for their collaboration on this hardware exchange&lt;/li>
+&lt;/ul></description></item><item><title>Incident report: UC Merced user throttling during class startup</title><link>https://2i2c.org/blog/2025/incident-ucmerced-user-throttling/</link><pubDate>Fri, 29 Aug 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/incident-ucmerced-user-throttling/</guid><description>&lt;p>On August 29, 2025 our cloud infrastructure team experienced an incident with the UC Merced community hub when students tried to login simultaneously at the start of class. For more detailed technical information about this incident, see our
+&lt;a href="https://github.com/2i2c-org/incident-reports/blob/main/reports/2025-08-29-ucmerced-too-many-users-throttled.pdf" target="_blank" rel="noopener" >full incident report&lt;/a>.&lt;/p>
+&lt;h2 id="what-happened">
+What happened
+&lt;a class="header-anchor" href="#what-happened">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>Students experienced issues when trying to login to the hub at the same time during the start of class.&lt;/li>
+&lt;li>The concurrent spawn limit was reached quickly due to the large number of users starting up simultaneously.&lt;/li>
+&lt;li>New nodes had to be brought up by the autoscaler, which took roughly 10 minutes from start to end.&lt;/li>
+&lt;li>Users who tried again after 1 minute weren&amp;rsquo;t guaranteed to get their servers started immediately since new nodes were still spinning up.&lt;/li>
+&lt;li>This was an &amp;ldquo;expected&amp;rdquo; scale-up event but the lack of clear messaging caused users to interpret it as instability.&lt;/li>
+&lt;/ul>
+&lt;h2 id="what-we-learned">
+What we learned
+&lt;a class="header-anchor" href="#what-we-learned">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>We need better communication so users understand when infrastructure slowness is &amp;ldquo;expected&amp;rdquo; vs. &amp;ldquo;unstable&amp;rdquo;.&lt;/li>
+&lt;li>We need better alerting for concurrent user startup throttling - we found out about this issue from users rather than automated monitoring.&lt;/li>
+&lt;li>We learned that JupyterHub&amp;rsquo;s metrics don&amp;rsquo;t properly expose &lt;code>429 status&lt;/code> codes in our dashboards.&lt;/li>
+&lt;li>This will happen again if we don&amp;rsquo;t have proper scaling limits and node provisioning strategies for sudden user influxes.&lt;/li>
+&lt;/ul>
+&lt;h2 id="resolution">
+Resolution
+&lt;a class="header-anchor" href="#resolution">#&lt;/a>
+&lt;/h2>&lt;p>We implemented several fixes:&lt;/p>
+&lt;ul>
+&lt;li>Increased the concurrent spawn limit from 64 to 100.&lt;/li>
+&lt;li>Put UC Merced users on larger nodes to reduce the number of node spinups needed. this will cost more in cloud but result in fewer scale-up events.&lt;/li>
+&lt;li>Created action items to improve logging, alerting, and monitoring for similar incidents&lt;/li>
+&lt;/ul>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>Thanks to UC Merced students and instructors for reporting the issue through our support system.&lt;/li>
 &lt;/ul></description></item><item><title>Overhauling repo2docker's documentation</title><link>https://2i2c.org/blog/2025/repo2docker-docs/</link><pubDate>Fri, 01 Aug 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/repo2docker-docs/</guid><description>&lt;p>Documentation is incredibly important for open source projects to communicate their value and show users how to make the most of their tools. However, it&amp;rsquo;s one of those things that often gets de-prioritized with all of the other work that needs to happen in a project.&lt;/p>
 &lt;p>We are heavy users of the
 &lt;a href="https://repo2docker.readthedocs.io" target="_blank" rel="noopener" >repo2docker project&lt;/a> in 2i2c&amp;rsquo;s service. It allows you to dynamically build an environment image that can by hosted in a cloud service like JupyterHub. It&amp;rsquo;s the underlying tool used by
