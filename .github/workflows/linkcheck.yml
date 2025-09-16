@@ -30,16 +30,16 @@ jobs:
         with:
           args: |
             # fonts.gstatic.com is an expected fail
-            --exclude https://fonts.gstatic.com \
+            --exclude https://fonts.gstatic.com
             # "%oo many requests" errors
-            --exclude twitter.com \
+            --exclude twitter.com
             # 403 Forbidden errors
-            --exclude https://data8.org \
+            --exclude https://data8.org
             # 403 Forbidden errors
-            --exclude https://biorxiv.org \
-            --exclude https://www.biorxiv.org \
-            --verbose \
-            --no-progress \
+            --exclude https://biorxiv.org
+            --exclude https://www.biorxiv.org
+            --verbose
+            --no-progress
             public/**/*.html
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
