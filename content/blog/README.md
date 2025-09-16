@@ -25,9 +25,15 @@ Follow these steps:
 
 Here's an example from a recent talk that Yuvi gave:
 
-- Here's the GitHub issue: https://github.com/2i2c-org/2i2c-org.github.io/issues/470
-- Here's the blog post that followed: ../../content/blog/2025/doepy-yuvi/index.md
+- Example GitHub issue: https://github.com/2i2c-org/2i2c-org.github.io/issues/470
+- The blog post that followed: ../../content/blog/2025/doepy-yuvi/index.md
 
+### Example incident report
+
+Incident reports are a way to provide transparency about what happened and what we learned as we run infrastructure. We create incident reports at https://github.com/2i2c-org/incident-reports so blog post GitHub issues don't need to have any content other than a link to the report.
+
+- Example incident report issue: https://github.com/2i2c-org/2i2c-org.github.io/issues/482
+- The blog post that followed: ../../content/blog/2025/incident-ucmerced-throttling
 ## How to write our Hugo directives
 
 Here are a few example Hugo directives for quick reference.
