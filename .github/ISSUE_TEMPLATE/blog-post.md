@@ -29,55 +29,13 @@ assignees: []
 - Link A
 - Link B
 
----
-
-<!-- Everything after here is optional! -->
-
-### Authors
-<!-- List the authors of this blog post (one per line) -->
-
--
-- 
-
-### Date for the post
-<!-- Is there a date associated with this post? (optional) -->
-
-YYYY-MM-DD
-
 ### Media and images
-<!-- Have any images we can use in the post? Drag and drop here! -->
+<!-- (optional) Have any images we can use in the post? Drag and drop here! -->
 
 
 ### Acknowledgements
-<!-- Acknowledgements for contributors, funders, or collaborators (optional). -->
+<!-- (optional) acknowledgements for contributors, funders, or collaborators. -->
 
 -
 -
-
-### Category
-<!-- Select the main category for this blog post: impact, service, or organization -->
-
-- [ ] impact
-- [ ] service
-- [ ] organization
-
-### Tags
-<!-- Select relevant tags for this blog post by checking the boxes or listing them -->
-
-- [ ] open-source
-- [ ] jupyter
-- [ ] education
-- [ ] geoscience
-- [ ] product
-- [ ] cloud
-- [ ] bioscience
-- [ ] hiring
-- [ ] funding
-- [ ] _Edit to add a custom tag_
-
-### Additional Notes
-<!--
-  Any additional notes, special requirements, or implementation details.
-  e.g., "This needs to be published before the conference", "Include featured image", etc.
--->
 
