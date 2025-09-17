@@ -1,8 +1,6 @@
 ---
 title: Reducing base infrastructure costs on AWS with smarter instance types
 date: "2025-09-17"
-authors:
-  - Yuvi Panda
 categories:
 - service
 tags:
