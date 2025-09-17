@@ -14,7 +14,7 @@ We've been working to reduce the base costs of running our cloud infrastructure 
 
 ![EC2 cost reduction over time for one community](featured.png)
 
-The graph above shows the impact on EC2 node costs specifically (this doesn't include the entire cost of always-on infrastructure, but represents a significant portion). We've already rolled this change out to all new clusters and the Berkeley GeoJupyter cluster, with measurable cost savings.
+The graph above shows the impact on EC2 node costs specifically (this doesn't include the entire cost of always-on infrastructure, but represents a significant portion). We are rolling out this change to all _new_ clusters, and starting to work through our pre-existing AWS clusters.
 
 ## Learn more
 
