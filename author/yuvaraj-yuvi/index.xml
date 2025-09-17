@@ -1,36 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Yuvaraj (Yuvi) | 2i2c</title><link>https://2i2c.org/author/yuvaraj-yuvi/</link><atom:link href="https://2i2c.org/author/yuvaraj-yuvi/index.xml" rel="self" type="application/rss+xml"/><description>Yuvaraj (Yuvi)</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 17 Sep 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/author/yuvaraj-yuvi/avatar_huc33b170c6d7c951ba6ff8e7ef074ee49_9242_270x270_fill_q75_lanczos_center.jpeg</url><title>Yuvaraj (Yuvi)</title><link>https://2i2c.org/author/yuvaraj-yuvi/</link></image><item><title>Reducing base infrastructure costs on AWS with smarter instance types</title><link>https://2i2c.org/blog/2025/aws-cost-reduction/</link><pubDate>Wed, 17 Sep 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/aws-cost-reduction/</guid><description>&lt;p>We&amp;rsquo;ve been working to reduce the base costs of running our cloud infrastructure on AWS by switching to more efficient instance types for our core nodes. This is the core infrastructure we use to ensure hubs are &amp;ldquo;always available&amp;rdquo; for users, even when no one is actively using a hub. By moving from older &lt;code>r5.xlarge&lt;/code> instances to newer, more efficient &lt;code>r8i-flex.large&lt;/code> instances, we&amp;rsquo;ve significantly reduced these baseline costs while maintaining the same level of service. Here&amp;rsquo;s a plot of daily savings for the
-&lt;a href="https://2i2c.org/collaborators/geojupyter/" >GeoJupyter community&lt;/a>.&lt;/p>
-&lt;p>
-&lt;figure >
-&lt;div class="d-flex justify-content-center">
-&lt;div class="w-100" >&lt;img alt="EC2 cost reduction over time for one community" srcset="
-/blog/2025/aws-cost-reduction/featured_hu7020069b8cb86380af07e0c76d10ae22_44063_6cfebe5fd1227d9e39bfa9b7b43d8015.webp 400w,
-/blog/2025/aws-cost-reduction/featured_hu7020069b8cb86380af07e0c76d10ae22_44063_d67ff55e7e94adb95f8c97e3f035ef37.webp 760w,
-/blog/2025/aws-cost-reduction/featured_hu7020069b8cb86380af07e0c76d10ae22_44063_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2025/aws-cost-reduction/featured_hu7020069b8cb86380af07e0c76d10ae22_44063_6cfebe5fd1227d9e39bfa9b7b43d8015.webp"
-width="760"
-height="394"
-loading="lazy" data-zoomable />&lt;/div>
-&lt;/div>&lt;/figure>
-&lt;/p>
-&lt;p>The graph above shows the impact on EC2 node costs specifically (this doesn&amp;rsquo;t include the entire cost of always-on infrastructure, but represents a significant portion). We are rolling out this change to all &lt;em>new&lt;/em> clusters, and starting to work through our pre-existing AWS clusters.&lt;/p>
-&lt;h2 id="learn-more">
-Learn more
-&lt;a class="header-anchor" href="#learn-more">#&lt;/a>
-&lt;/h2>&lt;ul>
-&lt;li>
-&lt;a href="https://github.com/2i2c-org/infrastructure/pull/6721" target="_blank" rel="noopener" >Pull request implementing the instance type changes&lt;/a>&lt;/li>
-&lt;li>
-&lt;a href="https://github.com/2i2c-org/infrastructure/issues/6756" target="_blank" rel="noopener" >Our rollout plan for existing clusters&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Yuvaraj (Yuvi)</title><link>https://2i2c.org/author/yuvaraj-yuvi/</link><pubDate>Wed, 17 Sep 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/author/yuvaraj-yuvi/</guid><description>&lt;p>Building participatory open infrastructure for scientific &amp;amp; educational use cases. A Project Jupyter team member working on infrastructure related projects. Ex Wikimedia and ex-GNOME. Let&amp;rsquo;s eliminate accidental complexities wherever we find them.&lt;/p>
-&lt;p>&lt;strong>Highlights&lt;/strong>:&lt;/p>
-&lt;ul>
-&lt;li>10+ years experience building open infrastructure for scientific and educational communities&lt;/li>
-&lt;li>Jupyter Distinguished Contributor&lt;/li>
-&lt;li>Leader in the JupyterHub and Binder projects&lt;/li>
-&lt;li>Served as the Infrastructure Architect behind UC Berkeley’s scalable DataHub&lt;/li>
-&lt;li>Former ops engineer at Wikimedia and GNOME.&lt;/li>
-&lt;/ul></description></item><item><title>On being a good open source citizen: supporting a healthy ecosystem through directed and foundational contributions</title><link>https://2i2c.org/blog/2025/good-citizen/</link><pubDate>Wed, 03 Sep 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/good-citizen/</guid><description>&lt;p>Any organization building on open source faces a fundamental tension: how do you serve the needs of your organizational stakeholders while also acting as a responsible steward of the upstream projects you depend on?
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Yuvaraj (Yuvi) | 2i2c</title><link>https://2i2c.org/author/yuvaraj-yuvi/</link><atom:link href="https://2i2c.org/author/yuvaraj-yuvi/index.xml" rel="self" type="application/rss+xml"/><description>Yuvaraj (Yuvi)</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 03 Sep 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/author/yuvaraj-yuvi/avatar_huc33b170c6d7c951ba6ff8e7ef074ee49_9242_270x270_fill_q75_lanczos_center.jpeg</url><title>Yuvaraj (Yuvi)</title><link>https://2i2c.org/author/yuvaraj-yuvi/</link></image><item><title>On being a good open source citizen: supporting a healthy ecosystem through directed and foundational contributions</title><link>https://2i2c.org/blog/2025/good-citizen/</link><pubDate>Wed, 03 Sep 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/good-citizen/</guid><description>&lt;p>Any organization building on open source faces a fundamental tension: how do you serve the needs of your organizational stakeholders while also acting as a responsible steward of the upstream projects you depend on?
 This is harder than it looks - simply &amp;ldquo;making PRs&amp;rdquo; leaves a number of open source needs unaddressed, and can burn out both your team members and the open source maintainers. We think about this a lot at 2i2c, and want to share our framework to navigate this challenge intentionally.&lt;/p>
 &lt;p>Here are a few questions we&amp;rsquo;ve been grappling with:&lt;/p>
 &lt;ul>
@@ -178,6 +146,14 @@ Acknowledgements
 &lt;a href="https://2i2c.org/collaborators/jupyterhub/" >The JupyterHub team&lt;/a> for working with us on this strategy.&lt;/li>
 &lt;li>
 &lt;a href="https://2i2c.org/members/" >2i2c&amp;rsquo;s network of member communities&lt;/a> whose fees support our Foundational open source engagement.&lt;/li>
+&lt;/ul></description></item><item><title>Yuvaraj (Yuvi)</title><link>https://2i2c.org/author/yuvaraj-yuvi/</link><pubDate>Wed, 03 Sep 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/author/yuvaraj-yuvi/</guid><description>&lt;p>Building participatory open infrastructure for scientific &amp;amp; educational use cases. A Project Jupyter team member working on infrastructure related projects. Ex Wikimedia and ex-GNOME. Let&amp;rsquo;s eliminate accidental complexities wherever we find them.&lt;/p>
+&lt;p>&lt;strong>Highlights&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>10+ years experience building open infrastructure for scientific and educational communities&lt;/li>
+&lt;li>Jupyter Distinguished Contributor&lt;/li>
+&lt;li>Leader in the JupyterHub and Binder projects&lt;/li>
+&lt;li>Served as the Infrastructure Architect behind UC Berkeley’s scalable DataHub&lt;/li>
+&lt;li>Former ops engineer at Wikimedia and GNOME.&lt;/li>
 &lt;/ul></description></item><item><title>Solving classes of problems, rather than just an instance of a problem (with an example)</title><link>https://2i2c.org/blog/2025/automating-support-upgrades/</link><pubDate>Mon, 09 Jun 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/automating-support-upgrades/</guid><description>
 &lt;h2 id="the-problem">
 The Problem
