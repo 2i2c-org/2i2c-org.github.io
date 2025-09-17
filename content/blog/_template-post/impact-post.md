@@ -4,9 +4,10 @@ title: Enabling / creating / X outcome by doing Y thing
 date: "2999-01-01"
 authors:
   - Chris Holdgraf
-categories: impact
+categories:
+- impact
 tags:
-  - open source
+- open source
 ---
 
 One or two sentences about what happened and who did it. Link to the appropriate people, orgs, etc!

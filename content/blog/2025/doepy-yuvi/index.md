@@ -4,7 +4,8 @@ date: "2025-09-03"
 authors:
   - Chris Holdgraf
   - Yuvi Panda
-categories: impact
+categories:
+  - impact
 tags:
   - open source
   - foundational-contribution
