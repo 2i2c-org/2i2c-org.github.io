@@ -3,9 +3,10 @@
 # folder name: incident-short-title/
 title: "Incident report: Brief description of the incident"
 date: "2999-01-01"
-categories: incident-report
+categories:
+- incident-report
 tags:
-  - cloud
+- cloud
 ---
 
 On MMMM DD, YYYY our cloud infrastructure team experienced an incident with the XXXXX community hub. [See this issue for the full report](LINK TO ISSUE IN 2i2c-org/incident-reports).

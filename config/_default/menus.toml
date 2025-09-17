@@ -13,7 +13,7 @@
   weight = 11
 
 [[main]]
-  name = "Our impact stories"
+  name = "Impact stories"
   parent = "Impact"
   url = "impact/"
   weight = 11
@@ -25,13 +25,13 @@
   weight = 14
 
 [[main]]
-  name = "Our member communities"
+  name = "Member communities"
   parent = "Impact"
   url = "members/"
   weight = 12
   
 [[main]]
-  name = "Our collaborators and funders"
+  name = "Collaborators and funders"
   parent = "Impact"
   url = "collaborators/"
   weight = 13
