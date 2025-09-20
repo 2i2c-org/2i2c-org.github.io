@@ -3,7 +3,7 @@
 title: Enabling / creating / X outcome by doing Y thing
 date: "2999-01-01"
 authors:
-  - Chris Holdgraf
+  - <pull from issue>
 categories:
 - impact
 tags:
