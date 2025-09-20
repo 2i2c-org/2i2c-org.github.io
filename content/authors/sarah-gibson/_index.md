@@ -46,11 +46,10 @@ social:
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Product and Services Team
-
+- Alumni
 ---
 
-Sarah Gibson is an Open Source Infrastructure Engineer at 2i2c, an open source contributor and advocate.
+Sarah Gibson was an Open Source Infrastructure Engineer at 2i2c. She is an open source contributor and advocate.
 She holds more than two years of experience as a Research Engineer at a national institute for data science and artificial intelligence, as well as holding a core contributor role in the open source projects [Binder](https://jupyter.org/binder), [JupyterHub](https://jupyter.org/hub), and [_The Turing Way_](https://the-turing-way.org).
 Sarah is passionate about working with domain experts to leverage cloud computing in order to accelerate cutting-edge, data-intensive research and disseminating the results in an open, reproducible and reusable manner.
 

@@ -15,7 +15,7 @@ draft: false
 
 ![QGreenland Researcher Workshop](featured.png "The [QGreenland Researcher Workshop](https://qgreenland-workshop-2023-researcher.github.io/)")
 
-JupyterHub is a versatile platform that can serve a desktop with Geospatial Information Systems (GIS) software in the cloud. This was demonstrated by the QGreenland Researcher Workshop that was hosted by the NASA CryoCloud hub. The hands-on workshop trained 25-30 researchers, from Germany, India, France, Canada, Poland and the United States, on how to work with geospatial data in an open science framework.
+JupyterHub is a versatile platform that can serve a desktop with Geospatial Information Systems (GIS) software in the cloud. This was demonstrated by the QGreenland Researcher Workshop that was hosted by the NASA [CryoCloud](../../collaborators/cryocloud/) hub. The hands-on workshop trained 25-30 researchers, from Germany, India, France, Canada, Poland and the United States, on how to work with geospatial data in an open science framework.
 
 ## QGreenland Overview
 
@@ -27,7 +27,7 @@ The QGreenland workshop demonstrated several key benefits of using JupyterHub fo
 
 - Accessibility: Participants from across the world could access the same powerful GIS tools through a web browser, eliminating the need for complex local installations while enhancing reproducibility
 - Cloud block storage: Using a JupyterHub in the cloud allowed for faster data access than a traditional NFS file store by provisioning each user with an elastic block store disk, reducing load times from 5 minutes to under 3 seconds.
-- Cost Efficiency: Utilizing the CryoCloud JupyterHub instance managed by 2i2c drastically cut down setup costs and time, with only minimal cloud operating expenses of roughly $1/person/day.
+- Cost Efficiency: Utilizing the [CryoCloud](../../collaborators/cryocloud/) JupyterHub instance managed by 2i2c drastically cut down setup costs and time, with only minimal cloud operating expenses of roughly $1/person/day.
 
 ## Conclusion
 
@@ -40,6 +40,6 @@ The success of the QGreenland workshop underscores the potential of integrating 
 - [Trey Stafford](https://cires.colorado.edu/people/trey-stafford)[(CIRES)](https://cires.colorado.edu/)
 - [Matthew Fisher](https://cires.colorado.edu/people/matthew-fisher)[(CIRES)](https://cires.colorado.edu/)
 - *Fisher, M., *T. Stafford, T. Moon, and A. Thurber (2023). QGreenland (v3) [software], National Snow and Ice Data Center.
-- Snow, Tasha, Millstein, Joanna, Scheick, Jessica, Sauthoff, Wilson, Leong, Wei Ji, Colliander, James, Pérez, Fernando, James Munroe, Felikson, Denis, Sutterley, Tyler, & Siegfried, Matthew. (2023). [CryoCloud JupyterBook](https://book.cryointhecloud.com/intro.html) (2023.01.26). Zenodo. [10.5281/zenodo.7576602](https://doi.org/10.5281/zenodo.7576602)
+- Snow, Tasha, Millstein, Joanna, Scheick, Jessica, Sauthoff, Wilson, Leong, Wei Ji, Colliander, James, Pérez, Fernando, James Munroe, Felikson, Denis, Sutterley, Tyler, & Siegfried, Matthew. (2023). [CryoCloud JupyterBook](https://book.cryointhecloud.com) (2023.01.26). Zenodo. [10.5281/zenodo.7576602](https://doi.org/10.5281/zenodo.7576602)
 
 \* Denotes co-equal lead authorship

@@ -119,6 +119,10 @@ The U.S. GHG Center's interactive computing platform is **open source science in
 
 Research, data and recommendations developed by scientists and engineers that influence policies set by democratic governments should be accessible by voters. No entity should own the ways humans communicate and learn about the Earth system. The U.S. Greenhouse Gas Center's generous approach to digital infrastructure -- an open toolchain adjacent to open data -- is vital for democracy and should be replicated across government agencies worldwide.
 
+## Acknowledgements
+
+This work was developed in collaboration with [Development Seed](../../../collaborators/devseed/) and [NASA VEDA](../../../collaborators/nasa-veda/), key partners in building the U.S. Greenhouse Gas Center's open source science infrastructure.
+
 ## References
 
 [^fourier2013]: Mémoire sur les températures du globe terrestre et des espaces planétaires. in _Oeuvres de Fourier: Publiées par les soins de Gaston Darboux_ (eds. Fourier, J. B. J. & Darboux, J. G.) vol. 2 95–126 (Cambridge University Press, 2013).

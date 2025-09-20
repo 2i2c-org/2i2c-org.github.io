@@ -24,5 +24,5 @@ Hub administrators have [built a customized software environment](https://github
 
 2i2c would like to credit the following individuals for their great efforts supporting this workshop:
 
-- Sanjay Bhangar (Development seed)
+- Sanjay Bhangar ([Development seed](../../../collaborators/devseed/))
 - Slesa Adhikari (NASA IMPACT)

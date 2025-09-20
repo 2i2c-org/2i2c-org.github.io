@@ -32,6 +32,6 @@ If you would like to try this on your 2i2c-managed hub, [please get in touch](ht
 
 This project can also be used with _any_ Kubernetes-based JupyterHub, as per our [Right to Replicate policy](https://2i2c.org/right-to-replicate/), so please try it out on your own deployment and let us know what you think!
 
-## Credit
+## Acknowledgements
 
-This project was developed and deployed in collaboration with [Tarashish Mishra](https://developmentseed.org/team/tarashish-mishra/) from [Development Seed](https://developmentseed.org), funded through the [NASA VEDA project](https://www.earthdata.nasa.gov/data/tools/veda).
+This project was developed and deployed in collaboration with [Tarashish Mishra](https://developmentseed.org/team/tarashish-mishra/) from [Development Seed](../../../collaborators/devseed/), funded through the [NASA VEDA project](../../../collaborators/nasa-veda/).

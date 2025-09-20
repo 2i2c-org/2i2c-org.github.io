@@ -20,5 +20,9 @@ See Julius' [social media post](https://x.com/JuliusBusecke/status/1792930908900
 
 Well done all! 🎉
 
+## Acknowledgements
+
+This research was conducted using the [Pangeo](../../../collaborators/pangeo/) ecosystem and infrastructure provided by 2i2c.
+
 [^1]: NSF Science and Technology Center (STC) Learning the Earth with Artificial intelligence and Physics (LEAP) (Award # 2019625)
 [^2]: https://doi.org/10.31223/X5WQ47

@@ -137,3 +137,6 @@ Doing so would allow community members to **build an environment needed to repro
 
 **Where we'd like to improve reproducibility**. We'd like to build on last year's work to make streamline the experience of generating sharable Binder links for a user's work so that others in a community can reproduce their results with custom environments rather than the standardized community environments. We'd also like to make it possible for members to **share external Binder links** so that non-members can reproduce and interact with their ideas, in a way that minimizes the risk of abuse or runaway cloud costs.
 
+## Acknowledgements
+
+- The ideas in this posts were refined and developed with collaboration from others on the [Jupyter Book project](../../../collaborators/jupyter-book/).

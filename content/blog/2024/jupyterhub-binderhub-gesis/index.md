@@ -21,7 +21,7 @@ draft: false
 
 But, mybinder.org (and the [BinderHub](https://github.com/jupyterhub/binderhub/) software that powers it) is built for *sharing* your work after you are done with it, *not* for actively doing work. BinderHubs often do not have persistent storage nor persistent user identity, and UX is centered around *ephemeral* interactivity that can be shared with others (via a link), rather than *persistent* interactivity that a single user repeatedly comes back to. [JupyterHub](https://jupyter.org/hub) is more commonly used for this kinda workflow, but doesn't currently have the ability for users to easily build their own environments. Admins who are *running* the JupyterHub can make [multiple environments](https://z2jh.jupyter.org/en/stable/jupyterhub/customizing/user-environment.html#using-multiple-profiles-to-let-users-select-their-environment) available for users to choose from, but this still puts admins in the critical path for environment customization.
 
-Our [collaboration](https://2i2c.org/blog/2022/gesis-2i2c-collaboration-update/) with [GESIS](http://notebooks.gesis.org), [NFDI4DS](https://www.nfdi4datascience.de), and [CESSDA](https://www.cessda.eu), aims to bring this flexibility to JupyterHub directly. We aim to empower users to decide for themselves which applications and dependencies are installed on a per-project basis. Our work enables communities with heterogeneous requirements to share a single Hub. Our approach frees administrators from being overwhelmed by installation requests and transforms the JupyterHub platform into a platform for collaborative computational reproducibility. In this update, we report on our progress and upcoming steps in this project.
+Our [collaboration](https://2i2c.org/blog/2022/gesis-2i2c-collaboration-update/) with [GESIS](../../../collaborators/gesis/), [NFDI4DS](https://www.nfdi4datascience.de), and [CESSDA](https://www.cessda.eu), aims to bring this flexibility to JupyterHub directly. We aim to empower users to decide for themselves which applications and dependencies are installed on a per-project basis. Our work enables communities with heterogeneous requirements to share a single Hub. Our approach frees administrators from being overwhelmed by installation requests and transforms the JupyterHub platform into a platform for collaborative computational reproducibility. In this update, we report on our progress and upcoming steps in this project.
 
 ## What does a BinderHub do, exactly?
 
@@ -107,6 +107,8 @@ While these did slow down the implementation of the project, it has allowed us t
 We have a demo of this running at [imagebuilding-demo.2i2c.cloud](https://imagebuilding-demo.2i2c.cloud), but unfortunately as we are still fine-tuning `cryptnono` config, at this moment it is not open to the public. Please [contact me](mailto:yuvipanda@2i2c.org) with your GitHub account if you want access, and promise to not be a cryptominer and you shall be granted access.
 
 Want to set this up on your own JupyterHub? There is some [work in progress](https://github.com/2i2c-org/binderhub-service/pull/72) documentation and more is being worked on. Drop a line in the linked pull request and we'll be happy to help. The eventual goal is for *anyone* to be able to simply follow documentation and set this up for themselves.
+
+We also have user facing documentation on using this service on [docs.2i2c.org](https://docs.2i2c.org/user/topics/dynamic-imagebuilding/#dynamic-image-building).
 
 ## Future work
 

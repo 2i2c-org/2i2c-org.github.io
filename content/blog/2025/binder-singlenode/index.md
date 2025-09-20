@@ -105,3 +105,8 @@ If you're generally interested in supporting `mybinder.org` with cloud resources
 {{% callout note %}}
 If you're interested in supporting `mybinder.org` with cloud resources, financial resources, or human resources, please see the [Support Binder](https://mybinder.readthedocs.io/en/latest/about/support.html) page for how you can help.
 {{% /callout %}}
+
+## Acknowledgements
+
+- Thanks to the [JupyterHub community](../../../collaborators/jupyterhub/) for helping us set up this new node.
+- Thanks to [our member communities](../../../members/) whose fees currently support this work.

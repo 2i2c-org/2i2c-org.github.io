@@ -121,6 +121,10 @@ The ideas in this post are principles and goals to strive for. They also touch o
 
 As for 2i2c, we hope to use the ideas in this post to define a strategy and set of policies for how to engage with directed funding for open source. We'll share new ideas in the coming weeks.
 
+## Acknowledgements
+
+This post draws on our practical experience in collaborative funding arrangements, including our partnership with [GESIS](../../../collaborators/gesis/) to make improvements in Binder and JupyterHub infrastructure.
+
 ## References and more reading
 
 There are many resources that discuss how to equitably and inclusively seek funding as part of collaborations[^slack]. Here are a few that I found useful in writing this blog post:

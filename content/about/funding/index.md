@@ -1,4 +1,6 @@
 +++
+show_date = false
+
 [[funders]]
   image = "/blog/2024/funding-czi/images/czi-logo.png"
   

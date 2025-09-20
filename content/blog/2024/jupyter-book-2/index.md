@@ -101,3 +101,8 @@ At this early stage, the new Jupyter Book application `jupyter book` behaves ide
 [plan]: https://executablebooks.org/en/latest/blog/2024-05-20-jupyter-book-myst/
 
 [^jb-eb]: Jupyter Book project has historically been a _technical_ project of the Executable Books organisation. In 2024, the establishment of a Jupyter subproject means that the Jupyter Book project now has its own identity outside of Executable Books.
+
+## Acknowledgements
+
+- Thanks to [Project Pythia](../../../collaborators/pythia/) for funding some of our ongoing work on Jupyter Book.
+- Thanks to the [Jupyter Book community](../../../collaborators/jupyter-book/) for their collaboration.

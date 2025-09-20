@@ -16,6 +16,10 @@ role: Open Source Applications Engineer
 organizations:
 - name: 2i2c
   url: "https://2i2c.org"
+- name: Project Jupyter
+  url: "https://jupyter.org"
+- name: Jupyter Book
+  url: "https://jupyterbook.org"
 
 # Short bio (displayed in user profile at end of posts)
 bio:
@@ -24,6 +28,8 @@ bio:
 interests: 
   - MyST Markdown
   - Reproducible Research
+  - Python Packaging
+  - Numerical Programming
 
 # Social/Academic Networking
 # For available icons, see: https://sourcethemes.com/academic/docs/page-builder/#icons
@@ -52,4 +58,4 @@ user_groups:
 - Product and Services Team
 ---
 
-Angus Hollands is an Open Source Applications Engineer at 2i2c. He was previously a post-doctoral researcher in the Computational High Energy Physics group at Princeton University. He has a long-standing history of working collaboratively in open source projects, such as Executable Books, Jupyter, scikit-hep, and Blender. He is motivated by open-source, open-science, and the FAIR principles to build a more accessible, empowering future for scientific research and publication. His scientific background is in nuclear structure, in which he studied a PhD at the University of Birmingham.
+Angus Hollands is an Open Source Applications Engineer at 2i2c. He was previously a post-doctoral researcher in the Computational High Energy Physics group at Princeton University. He has a long-standing history of working collaboratively in open source projects, such as Executable Books, Jupyter, scikit-hep, and Blender. He is motivated by open-source, open-science, and the FAIR principles to build a more accessible, empowering future for scientific research and publication. He obtained his PhD in nuclear structure from the University of Birmingham, and later worked as a postdoctoral researcher for the Princeton Institute for Computational Science and Engineering (PICSciE).

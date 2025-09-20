@@ -95,3 +95,7 @@ You can also say hello to us on Twitter at [@2i2c_org](https://twitter.com/2i2c_
 ## Wrapping up
 
 We are excited about 2i2c, and believe that it is the right kind of organization to create to support research and education, as well as open source communities in interactive computing. The road ahead is a difficult one, but we're confident that we will hit our stride quickly. Stay tuned for more updates to come.
+
+## Acknowledgements
+
+- Support for organizational and strategic work like this is provided by a grant from [CZI](../../../collaborators/czi/).

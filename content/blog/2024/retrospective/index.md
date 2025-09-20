@@ -107,3 +107,6 @@ Overall, 2024 has been a challenging, but also a rewarding year for our team. We
 
 I'm incredibly proud of 2i2c's team for all of their hard work this year, and also honored to be working with a network of communities that care about open infrastructure and its value for creating and sharing knowledge with the world. Here's to another year of impact!
 
+## Acknowledgments
+
+- Support for organizational and strategic work like this is provided by a grant from [The Navigation Fund](../../../collaborators/navigation/) and [CZI](../../../collaborators/czi/).

@@ -54,4 +54,5 @@ We will work on rolling out this service to GCP hosted clusters in future. Stay 
 
 ## Acknowledgements
 
-Thank you to Erik for spearheading the rollout effort and to the rest of the 2i2c team for their support. We are especially grateful to the Openscapes and Cryocloud communities for providing valuable insights during the prototyping and testing phase.
+- Thank you to Erik for spearheading the rollout effort and to the rest of the 2i2c team for their support.
+- Thanks to [Openscapes](../../../collaborators/openscapes/) and [Cryocloud](../../../collaborators/cryocloud/) communities for providing valuable insights during the prototyping and testing phase, and for funding part of this work.

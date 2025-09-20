@@ -38,7 +38,7 @@ We are working with **the Pangeo Community** to migrate the Pangeo JupyterHub de
 
 ### Executable Books / Jupyter Book
 
-We are nearing the final year of a grant from the Sloan Foundation to support development on the [Executable Books Project](https://executablebooks.org). As such, we have begun shifting our attention to [create a strategy for sustaining the project's community beyond this grant](https://github.com/executablebooks/meta/issues/493). In the coming months we plan on prioritizing improving our documentation (both for users and developers), as well as improving the general maintainability and quality of our codebases.
+We are nearing the final year of a grant from the [Sloan Foundation](../../../collaborators/sloan/) to support development on the [Executable Books Project](https://executablebooks.org). As such, we have begun shifting our attention to [create a strategy for sustaining the project's community beyond this grant](https://github.com/executablebooks/meta/issues/493). In the coming months we plan on prioritizing improving our documentation (both for users and developers), as well as improving the general maintainability and quality of our codebases.
 
 ### JupyterHub community support
 

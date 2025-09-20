@@ -1,0 +1,46 @@
+{{ if eq .Section "collaborators" }}
+{{ $inboundLinks := slice }}
+{{ $targetPath := .RelPermalink | plainify }}
+
+{{ range where site.RegularPages "Section" "blog" }}
+  {{ $absoluteMatch := in .RawContent $targetPath }}
+  {{ $pathParts := split $targetPath "/" }}
+  {{ $pageName := index $pathParts 2 }}
+  {{ $relativePathFromBlog := printf "../../../collaborators/%s" $pageName }}
+  {{ $relativeMatch := in .RawContent $relativePathFromBlog }}
+  {{ $markdownMatch := in .RawContent (printf "../../../collaborators/%s.md" $pageName) }}
+  {{ $indexMarkdownMatch := in .RawContent (printf "../../../collaborators/%s/index.md" $pageName) }}
+
+  {{ if or $absoluteMatch $relativeMatch $markdownMatch $indexMarkdownMatch }}
+    {{ if ne .Permalink $.Permalink }}
+      {{ $inboundLinks = $inboundLinks | append . }}
+    {{ end }}
+  {{ end }}
+{{ end }}
+
+{{ if gt (len $inboundLinks) 0 }}
+  <div class="backlinks">
+    <h3>Blog posts involving this collaborator</h3>
+    <ul>
+      {{ range $inboundLinks }}
+        <li>
+          <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+          {{ if .Params.tags }}
+            <span style="float: right;">
+              {{ $tags := .Params.tags }}
+              {{/* Handle both array and string formats for tags field - some posts may have "tags: value" vs "tags: [value1, value2]" */}}
+              {{ if reflect.IsSlice $tags }}
+                {{ range $tags }}
+                  <a href="/tag/{{ . | urlize }}/" style="display: inline-block; background: #f0f0f0; color: #666; padding: 1px 6px; margin-left: 3px; border-radius: 8px; font-size: 0.65em; text-decoration: none; border: 1px solid #ddd;">{{ . }}</a>
+                {{ end }}
+              {{ else }}
+                <a href="/tag/{{ $tags | urlize }}/" style="display: inline-block; background: #f0f0f0; color: #666; padding: 1px 6px; margin-left: 3px; border-radius: 8px; font-size: 0.65em; text-decoration: none; border: 1px solid #ddd;">{{ $tags }}</a>
+              {{ end }}
+            </span>
+          {{ end }}
+        </li>
+      {{ end }}
+    </ul>
+  </div>
+{{ end }}
+{{ end }}

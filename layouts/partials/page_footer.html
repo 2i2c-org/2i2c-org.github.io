@@ -1,0 +1,19 @@
+<!-- CUSTOM POST LINKS TEXT - THIS IS OUR EDIT-->
+{{ if hasPrefix .RelPermalink "/blog/" }}
+{{ partial "post_links" }}
+{{ end }}
+{{ partial "backlinks" . }}
+<!-- END CUSTOM POST LINKS TEXT -->
+{{ partial "page_edit" . }}
+{{ partial "tags" . }}
+{{ partial "components/page_sharer" . }}
+{{ partial "page_author" . }}
+{{ partial "comments" . }}
+
+{{ if .Params.pager }}
+<div class="article-widget">
+  {{ partial "components/pager" . }}
+</div>
+{{ end }}
+
+{{ partial "page_related" . }}

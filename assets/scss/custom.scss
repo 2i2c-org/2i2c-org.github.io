@@ -7,6 +7,7 @@
 // Re-usable components across pages
 @import "components/admonitions.scss";
 @import "components/buttons.scss";
+@import "components/blockquote.scss";
 
 // CSS for shortcodes we create
 @import "shortcodes/servicetech.scss";
@@ -19,9 +20,10 @@
 // Page-specific SCSS
 @import "pages/about";
 @import "pages/blog-posts";
+@import "pages/collaborators";
 @import "pages/home";
 @import "pages/jobs";
+@import "pages/platform";
 @import "pages/projects";
 @import "pages/right-to-replicate";
-@import "pages/platform";
 
