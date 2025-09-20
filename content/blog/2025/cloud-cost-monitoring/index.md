@@ -1,6 +1,6 @@
 ---
 title: Enabling transparent cloud cost monitoring with user-level dashboards
-date: "2024-09-20"
+date: "2025-09-20"
 categories:
 - service
 tags:
