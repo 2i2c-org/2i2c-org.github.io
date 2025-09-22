@@ -14,16 +14,20 @@ Over the past few months we've been running an experiment to be more thoughtful 
 
 > **Note**: This document is not about "Directed" upstream contributions we make as part of our own product work. It is about the Foundational contributions we make so that open source communities are healthier and more impactful. See this post about [Directed and Foundational contributions](../good-citizen/index.md).
 
-## Why have an institutional goal for upstream contributions?
+## The challenge: Why scattered individual efforts aren't enough
 
 Healthy open source communities rely on both individual and institutional contributions. 
 2i2c [aims to be an *excellent "upstream citizen"*](../good-citizen/index.md), so we need a structured approach with intentional goals for what we want to achieve, and *why* it is the right use of our time.
 
-Without a goal and plan for upstream contribution, the best outcome we can hope for is the scattered efforts of a few individuals (with all the associated pitfalls of the [Tyranny of Structurelessness](https://www.jofreeman.com/joreen/tyranny.htm)), rather than a team. The worst outcome is that our outsized ability to make contributions prevents a community from having its own momentum and direction, and turns 2i2c into the sole stakeholder that can develop and maintain an upstream project such that we functionally take it over.
+Without a coordinated approach, we risk two problematic outcomes:
 
-By intentionally setting our goals for upstream engagement, our member communities and open source communities can hold us accountable if we're taking actions that are either contrary to, or out of scope of, our goals. Here is our current thinking:
+**Best case**: Scattered, individual efforts that are subject to the [Tyranny of Structurelessness](https://www.jofreeman.com/joreen/tyranny.htm). In this case, we help at the margins but not in a meaningful way.
 
-## 2i2c's Long Term Goal for upstream engagement
+**Worst case**: Our organizational capacity inadvertently dominates communities, making 2i2c the sole stakeholder capable of meaningful development and maintenance. In this case, we functionally take over the project.
+
+By setting explicit goals, both our member communities and upstream projects can hold us accountable for actions that strengthen rather than undermine community health.
+
+## Our long-term goal: Multi-stakeholder, resilient communities
 
 With this in mind, we've chosen to use the following *outcomes*, which represent our major goals for upstream contribution:
 
@@ -45,9 +49,9 @@ With this in mind, we've chosen to use the following *outcomes*, which represent
 
 We want to build team processes that help upstream communities make progress towards this goal, so everyone can (and does) equitably participate in upstream communities with the support they need. 
 
-## Our current objectives to accomplish this goal
+## Two concrete objectives for accomplishing this goal
 
-This is a long-term goal, and we've adopted a few objectives to work towards. We're focusing on the JupyterHub community for now, and are exploring how to adapt this for other upstream communities we participate in:
+Starting with [JupyterHub](../../../collaborators/jupyterhub/), we've identified two objectives that will guide our work:
 
 <div class="pull-quote">
 
@@ -57,13 +61,13 @@ This is a long-term goal, and we've adopted a few objectives to work towards. We
 
 </div>
 
-We've chosen these two objectives because we believe we can meaningfully make progress on both of them, and do so by equitably changing our internal processes so 2i2c staff can meaningfully contribute _within their work hours_ towards these goals.
+We've chosen these objectives because we believe that (1) they have impact, (2) we can make meaningful progress on them, and (3) we can integrate this work into our regular workflow (during work hours, not volunteer time).
 
-Below, we'll define a few activities that fall into these objectives. We'll also define a few **Key Performance Indicators** (KPIs) for each type of activity. We believe it's important to have a definition and a measure of progress to help us understand if we're on the right track and learning the right things.
+For each activity below, we've brainstormed some Key Performance Indicators (KPIs) to track progress and ensure we're learning effectively.
 
-## Activities that feed into these objectives
+## Four strategic activities we'll pilot
 
-We'd like to experiment with the following 4 activities to try[^all]:
+We'll experiment with these four activities[^all]:
 
 - [**Review pull requests from non-maintainers**](#review-prs)
 - [**Issue Triage office hours**](#issue-triage)
@@ -147,7 +151,7 @@ Making releases is often a thankless task, but is important to the health of any
 1. Number of releases performed by 2i2c engineers
 2. Number of releases performed by others with sponsorship / mentorship from 2i2c engineers
 
-## What projects do we focus on?
+## Criteria for upstream projects to support
 
 Our long term goal applies to *any* upstream community that:
 
@@ -157,11 +161,13 @@ Our long term goal applies to *any* upstream community that:
 
 For example, Kubernetes satisfies (1) but not (2) or (3), while JupyterLab meets (1) and (2) but not (3) (presently). Currently this policy as-written only applies to the JupyterHub community, but that is subject to change as our organization changes.
 
-## Team Responsibility
+## How we'll implement this
+
+### Who is responsible
 
 Implementation of this policy is a responsibility of [2i2c's Product & Services team](https://compass.2i2c.org/product-and-services/). These activities will need to be integrated into the day to day working practices of this team, so it doesn't become an external shadow process that only some team members do.
 
-## How will we fund this?
+### How we'll fund this work
 
 Foundational upstream support requires a lot of work and expertise, and we imagine funding this with a combination of two things:
 
@@ -170,7 +176,7 @@ Foundational upstream support requires a lot of work and expertise, and we imagi
 
 That said, we still need to explore what these efforts cost to us, as well as various mechanisms we can identify to recover those costs.
 
-## Next steps
+## Next step: Learning in public
 
 We're excited to experiment with a more effective and healthy system for upstream contribution, and are eager to learn. We'll share our experiences as we run this system, in the hopes that others can learn from (and comment on!) our process.
 
