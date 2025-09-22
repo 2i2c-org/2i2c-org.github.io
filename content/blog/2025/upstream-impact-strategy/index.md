@@ -39,7 +39,7 @@ With this in mind, we've chosen to use the following *outcomes*, which represent
 </style>
 <div class="pull-quote">
 
-> We want the Jupyter[^0] community to be a *multi-stakeholder*[^1], *diverse*[^2] community with very high [*bus factor*](https://en.wikipedia.org/wiki/Bus_factor), because we believe this is a critical pre-requisite for advancing [our mission and value proposition](https://compass.2i2c.org/organization/mission/).
+> We want the Jupyter[^0] community to be a *multi-stakeholder*[^1], *diverse*[^2] community with a very high [*bus factor*](https://en.wikipedia.org/wiki/Bus_factor), because we believe this is a critical pre-requisite for advancing [our mission and value proposition](https://compass.2i2c.org/organization/mission/).
 
 </div>
 
