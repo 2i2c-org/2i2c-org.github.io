@@ -1,5 +1,5 @@
 ---
-title: "Systematizing our Foundational open source contributions"
+title: "From scattered effort to strategic impact: How we're systematizing our Foundational open source contributions"
 date: 2025-09-20
 authors:
   - Yuvi Panda
@@ -59,7 +59,7 @@ This is a long-term goal, and we've adopted a few objectives to work towards. We
 
 We've chosen these two objectives because we believe we can meaningfully make progress on both of them, and do so by equitably changing our internal processes so 2i2c staff can meaningfully contribute _within their work hours_ towards these goals.
 
-Below, we'll define a few activities that fall into these objectives below. We'll also define a few **Key Performance Indicators** (KPIs) for each type of activity. We believe it's important to have a definition and a measure of progress to help us understand if we're on the right track and learning the right things.
+Below, we'll define a few activities that fall into these objectives. We'll also define a few **Key Performance Indicators** (KPIs) for each type of activity. We believe it's important to have a definition and a measure of progress to help us understand if we're on the right track and learning the right things.
 
 ## Activities that feed into these objectives
 
@@ -117,7 +117,7 @@ Beyond just contributions, OSS communities must also grow their _contributors_ i
 
 {{< figure src="https://imgs.xkcd.com/comics/dependency.png" alt="XKCD comic about dependency" link="https://xkcd.com/2347/" caption="XKCD comic about dependency" >}}
 
-But growing new maintainers takes time and effort. Not just on behalf of the person who is trying to be the maintainer, but on existing maintainers who have to spend time mentoring and sponsoring this person. The focus on sponsorship is very imporant, for excellent reasons [laid out by Lara Hogan](https://larahogan.me/blog/what-sponsorship-looks-like/). This work also takes a long time to manifest - closer to a year than a month.
+But growing new maintainers takes time and effort. Not just on behalf of the person who is trying to be the maintainer, but on existing maintainers who have to spend time mentoring and sponsoring this person. The focus on sponsorship is very important, for excellent reasons [laid out by Lara Hogan](https://larahogan.me/blog/what-sponsorship-looks-like/). This work also takes a long time to manifest - closer to a year than a month.
 
 We shall build structures to identify potential maintainers, and build long term pathways for them to do work in the community to gain maintainership status. As JupyterHub doesn't have an explicit 'how to become a maintainer' pathway we could just follow, we will build our own process via these focus areas:
 
@@ -126,7 +126,7 @@ We shall build structures to identify potential maintainers, and build long term
 3. Build pathways for candidates to do (2) as appropriate.
 4. Continue to iteratively do these until candidates have done 'enough' work in the upstream community to gain maintainership status.
 
-This work is essentially nebulous, but very worthwhile. We will need to co-ordinate this particular effort more closely with community leaders, and recognize this takes a long time to actualize.
+This work is essentially nebulous, but very worthwhile. We will need to coordinate this particular effort more closely with community leaders, and recognize this takes a long time to actualize.
 
 In the Jupyter community, maintainership status is tied to individuals, not to organizations they work for. This means that nobody should get maintainership status *simply* because they work for any specific organization (such as 2i2c). We should look for a diverse set of candidates, ideally funded by different organizations, who are also *interested* in becoming maintainers.
 
@@ -140,7 +140,7 @@ This measurement moves slowly, but is very clearly impactful:
 
 ### Increase bus factor and diversity of people making releases
 
-Making releases is often a thankless task, but is important to the health of any community. It involves co-ordinating testing, writing changelogs, understanding if any special upgrade instructions need to be provided, etc. Institutions can help here, by dedicating time for people in the team to perform this task on a regular cadence. To advance the 'multi-stakeholder' and 'high bus factor' aspects of our goal, we will also make every attempt to have many different people do releases, both via mentorship and sponsorship. This will get integrated into our regular workstreams.
+Making releases is often a thankless task, but is important to the health of any community. It involves coordinating testing, writing changelogs, understanding if any special upgrade instructions need to be provided, etc. Institutions can help here, by dedicating time for people in the team to perform this task on a regular cadence. To advance the 'multi-stakeholder' and 'high bus factor' aspects of our goal, we will also make every attempt to have many different people do releases, both via mentorship and sponsorship. This will get integrated into our regular workstreams.
 
 #### KPIs
 
@@ -172,7 +172,7 @@ That said, we still need to explore what these efforts cost to us, as well as va
 
 ## Next steps
 
-We're excited to experiment with a more effective and health system for upstream contribution, and are eager to learn. We'll share our experiences as we run this system, in the hopes that others can learn from (and comment on!) our process.
+We're excited to experiment with a more effective and healthy system for upstream contribution, and are eager to learn. We'll share our experiences as we run this system, in the hopes that others can learn from (and comment on!) our process.
 
 ## Acknowledgements
 
