@@ -65,14 +65,14 @@ Below, we'll define a few activities that fall into these objectives. We'll also
 
 We'd like to experiment with the following 4 activities to try[^all]:
 
-- [**Review pull requests from non-maintainers**](https://2i2c.org/blog/2025/upstream-impact-strategy/#review-pull-requests-from-non-maintainers)
-- [**Issue Triage office hours**](https://2i2c.org/blog/2025/upstream-impact-strategy/#issue-triage-office-hours)
-- [**Sponsoring and Mentoring new Maintainers**](https://2i2c.org/blog/2025/upstream-impact-strategy/#sponsoring-and-mentoring-new-maintainers)
-- [**Increase bus factor and diversity of people making releases**](https://2i2c.org/blog/2025/upstream-impact-strategy/#increase-bus-factor-and-diversity-of-people-making-releases)
+- [**Review pull requests from non-maintainers**](#review-prs)
+- [**Issue Triage office hours**](#issue-triage)
+- [**Sponsoring and Mentoring new Maintainers**](#mentoring-maintainers)
+- [**Increase bus factor and diversity of people making releases**](#release-diversity)
 
 [^all]: **Implementation note**: We will not start doing **all** these immediately! We will consult with the rest of the team, and start these 1 at a time so we can build these processes sustainably and equitably.
 
-### Review Pull Requests from non-maintainers
+### Review Pull Requests from non-maintainers {#review-prs}
 
 Imagine two different scenarios:
 
@@ -96,7 +96,7 @@ We're imagining two KPIs for this activity:
 1. Number of PRs merged (or closed) through our sprint planning activity.
 2. Number of *returning* contributors whose PRs were reviewed by us.
 
-### Issue Triage office hours
+### Issue Triage office hours {#issue-triage}
 
 Issue Triage is the process of combing through an upstream repository's issue tracker, engaging productively with new issues, refining them to be high-quality and actionable, and choosing to signal boost important ones for team action.
 This is hard for newcomers, as it often requires deep knowledge of various components to understand how to direct an issue or refine it.
@@ -111,7 +111,7 @@ We'll begin by using this to upskill our _own 2i2c team members_ in more effecti
 
 [^triage]: This requires a definition of "an issue that has been triaged", and to our knowledge no such definition exists. We'd like to learn how to measure something abstract like "issue triage" - perhaps it is something specific putting it on a board for further action or applying a label, or something more abstract like "increasing how clear and actionable the issue is". We'll explore this when we start to make progress towards this objective.
 
-### Sponsoring and Mentoring new Maintainers
+### Sponsoring and Mentoring new Maintainers {#mentoring-maintainers}
 
 Beyond just contributions, OSS communities must also grow their _contributors_ into a pool of _maintainers_, or they will die. 
 
@@ -138,7 +138,7 @@ This measurement moves slowly, but is very clearly impactful:
 
 1. Number of people who have become maintainers due to our concerted efforts.
 
-### Increase bus factor and diversity of people making releases
+### Increase bus factor and diversity of people making releases {#release-diversity}
 
 Making releases is often a thankless task, but is important to the health of any community. It involves coordinating testing, writing changelogs, understanding if any special upgrade instructions need to be provided, etc. Institutions can help here, by dedicating time for people in the team to perform this task on a regular cadence. To advance the 'multi-stakeholder' and 'high bus factor' aspects of our goal, we will also make every attempt to have many different people do releases, both via mentorship and sponsorship. This will get integrated into our regular workstreams.
 
