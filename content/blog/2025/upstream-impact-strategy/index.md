@@ -90,7 +90,7 @@ Beyond just contributions, OSS communities must also grow their _contributors_ i
 
 But growing new maintainers takes time and effort. Not just on behalf of the person who is trying to be the maintainer, but on existing maintainers who have to spend time mentoring and sponsoring this person. The focus on sponsorship is very imporant, for excellent reasons [laid out by Lara Hogan](https://larahogan.me/blog/what-sponsorship-looks-like/). This work also takes a long time to manifest - closer to a year than a month.
 
-We shall build structures to identify potential maintainers, and build long term pathways for them to do work in the community to gain maintainership status. Given JupyterHub doesn't have an explicit 'how to become a maintainer' pathway, we shall instead focus on:
+We shall build structures to identify potential maintainers, and build long term pathways for them to do work in the community to gain maintainership status. As JupyterHub doesn't have an explicit 'how to become a maintainer' pathway we could just follow, we will build our own process via these focus areas:
 
 1. Identifying potential candidates for maintainership
 2. Identifying potential community work they can do to help get involved (contributing bug fixes, code reviewing, issue triage, helping answer questions, contributing code / documentation, release management, etc)
