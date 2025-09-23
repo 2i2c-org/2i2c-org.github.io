@@ -11,7 +11,9 @@ draft: false
 One of 2i2c's goals is to **make the cloud safe for science**.
 A big part of this is making the black box of commercial cloud infrastructure more predictable and reliable, while running a network of community hubs that all operate autonomously.
 
-As part of this effort, we've created a **status page for 2i2c's network of community hubs**. This is a source of truth to provide a high-level picture of the stability of our infrastructure, and to give us a heads up when things aren't working as expected.
+As part of this effort, we've created a **status page for 2i2c's network of community hubs**. This is a source of truth to provide a high-level picture of the stability of our infrastructure, and to give us a heads up when things aren't working as expected. You can check it out at:
+
+👉 [**`status.2i2c.org`**](https:status.2i2c.org)
 
 {{< figure src="featured.png" caption="The 2i2c Status Page gives communities a high-level view of the uptime for our entire network of community hubs.">}}
 
