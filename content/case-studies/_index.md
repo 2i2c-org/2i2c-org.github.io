@@ -68,14 +68,14 @@ sections:
     content:
       title: "Research communication: The spyglass toolbox demonstration hub"
       subtitle: |
-        [Spyglass](https://github.com/LorenFrankLab/spyglass) is a framework for reproducible and shareable neuroscience research produced by [Loren Frank's lab](https://github.com/LorenFrankLab) at the University of California, San Francisco. They recently released [a preprint about their toolbox](https://www.biorxiv.org/content/10.1101/2024.01.25.577295v3), and are using a 2i2c hub to provide accessible interactive cloud environments that demonstrate its functionality and helps researchers get started.
+        [Spyglass](https://github.com/LorenFrankLab/spyglass) is a framework for reproducible and shareable neuroscience research produced by [Loren Frank's lab](https://github.com/LorenFrankLab) at the University of California, San Francisco. They recently released [a preprint about their toolbox](https://www.biorxiv.org/content/10.1101/2024.01.25.577295v4), and are using a 2i2c hub to provide accessible interactive cloud environments that demonstrate its functionality and helps researchers get started.
       text: |
 
 
         {{< figure src="/images/communities/spyglass-landing.png" >}}
         {{< figure src="/images/communities/spyglass-demo.png" >}}
 
-        [Spyglass project page](https://lorenfranklab.github.io/spyglass/latest/) | [Biorxiv article](https://www.biorxiv.org/content/10.1101/2024.01.25.577295v1)
+        [Spyglass project page](https://lorenfranklab.github.io/spyglass/latest/) | [Biorxiv article](https://www.biorxiv.org/content/10.1101/2024.01.25.577295v4)
 
   - block: markdown
     id: join
