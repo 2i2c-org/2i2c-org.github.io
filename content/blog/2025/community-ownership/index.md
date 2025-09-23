@@ -74,4 +74,4 @@ We hope that these ideas both clarify our intent and the reason that we think it
 
 ---
 
-**Acknowledgements**: _The creation of this policy and the rationale behind it was led by [Yuvi Panda](../../../authors/yuvi-panda/) with feedback from 2i2c's team. This blog post was co-written with [Chris Holdgraf](../../../authors/chris-holdgraf)._
+**Acknowledgements**: _The creation of this policy and the rationale behind it was led by [Yuvi Panda](../../../authors/yuvi-panda/) with feedback from 2i2c's team. This blog post was co-written with [Chris Holdgraf](../../../authors/chris-holdgraf). Strategic work like this is supported by a grant from [The Navigation Fund](../../../collaborators/navigation/)_.

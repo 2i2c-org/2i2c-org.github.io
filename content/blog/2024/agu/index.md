@@ -40,13 +40,13 @@ This presentation will provide an overview of Project Pythia's extensive educati
 ### Authors
 
 - [John Clyne](https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/15277) - NSF National Center for Atmospheric Research (first author)
-- [Drew Camron](https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1112151) - University Corporation for Atmospheric Research
+- [Drew Camron](https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1112151) - [University Corporation for Atmospheric Research](../../collaborators/pythia/)
 - [Orhan Eroglu](https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1104277) - NSF National Center for Atmospheric Research
-- [Robert Ford](https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1266060) - University at Albany State University of New York
+- [Robert Ford](https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1266060) - [University at Albany State University of New York](../../collaborators/pythia/)
 - [Julia Kent](https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/796821) - NSF National Center for Atmospheric Research
-- [Ryan May](https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/529702) - University Corporation for Atmospheric Research
+- [Ryan May](https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/529702) - [University Corporation for Atmospheric Research](../../collaborators/pythia/)
 - [James Munroe](https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1317099) - 2i2c / Code for Science and Society
-- [Brian E J Rose](https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/10645) - SUNY at Albany
+- [Brian E J Rose](https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/10645) - [SUNY at Albany](../../collaborators/pythia/)
 
 ## ED31G-2277 PACE Hackweek: An open community keeping up with PACE
 
@@ -54,7 +54,7 @@ This presentation will provide an overview of Project Pythia's extensive educati
 
 ### Abstract
 
-The NASA Plankton, Aerosol, Cloud, ocean Ecosystem (PACE) mission, while bringing NASA's Earth System Observatory _up to speed_ with aquatic, atmospheric, and terrestrial science capabilities, is also providing data records of the Earth System for the next generation of scientists _to grow into_. The goal of the PACE Hackweek, supported by the Ocean Carbon & Biogeochemistry program and hosted at the University of Maryland Baltimore County in August 2024, was to enrich and support the practice of open science by both emerging and established researchers. Cloud-compute resources for the event were provided by CryoCloud, a NASA funded collaboration between ICESat-2 and the International Interactive Computing Collaboration (2i2c) to provide cryosphere researchers with a shared JupyterHub. We, the hackweek mentors, were buoyed by the NASA Openscapes program and adopted its mantra of striving toward "a kinder science for future us." Participants faced two novelties: the "firehose" of data from the PACE instrument array (a hyper-spectral imaging spectrometer, a wide-swath hyper-angular polarimeter, and a narrow-swath spectro-polarimeter), and the distribution of PACE collections through the NASA Earthdata Cloud (a first for the Ocean Biology Distributed Active Archive Center). We present our approach and the challenges undertaken to hold an in-person, social coding event with 45 participants that provided a collaborative, supportive launchpad for doing open science with PACE. All lectures and tutorials produced for the event are freely available for examination and reuse. Our results additionally include highlights from the demonstration projects pursued by event participants and results from two post-event, qualitative surveys. One anonymous survey gathered participant feedback that will inform plans for growing these 45 participants into a lasting, open community. A separate, anonymous survey recorded participant demographics in order to evaluate our efforts at increasing diversity within the community of PACE data users. Key points of discussion include participant views, informed by our event, on whether and how the NASA Earthdata Cloud is a significant resource for the practice of open science with PACE, and how a shared JupyterHub can further the practice of open science by the community it serves.
+The NASA Plankton, Aerosol, Cloud, ocean Ecosystem (PACE) mission, while bringing NASA's Earth System Observatory _up to speed_ with aquatic, atmospheric, and terrestrial science capabilities, is also providing data records of the Earth System for the next generation of scientists _to grow into_. The goal of the PACE Hackweek, supported by the Ocean Carbon & Biogeochemistry program and hosted at the University of Maryland Baltimore County in August 2024, was to enrich and support the practice of open science by both emerging and established researchers. Cloud-compute resources for the event were provided by [CryoCloud](../../collaborators/cryocloud/), a NASA funded collaboration between ICESat-2 and the International Interactive Computing Collaboration (2i2c) to provide cryosphere researchers with a shared JupyterHub. We, the hackweek mentors, were buoyed by the NASA Openscapes program and adopted its mantra of striving toward "a kinder science for future us." Participants faced two novelties: the "firehose" of data from the PACE instrument array (a hyper-spectral imaging spectrometer, a wide-swath hyper-angular polarimeter, and a narrow-swath spectro-polarimeter), and the distribution of PACE collections through the NASA Earthdata Cloud (a first for the Ocean Biology Distributed Active Archive Center). We present our approach and the challenges undertaken to hold an in-person, social coding event with 45 participants that provided a collaborative, supportive launchpad for doing open science with PACE. All lectures and tutorials produced for the event are freely available for examination and reuse. Our results additionally include highlights from the demonstration projects pursued by event participants and results from two post-event, qualitative surveys. One anonymous survey gathered participant feedback that will inform plans for growing these 45 participants into a lasting, open community. A separate, anonymous survey recorded participant demographics in order to evaluate our efforts at increasing diversity within the community of PACE data users. Key points of discussion include participant views, informed by our event, on whether and how the NASA Earthdata Cloud is a significant resource for the practice of open science with PACE, and how a shared JupyterHub can further the practice of open science by the community it serves.
 
 ### Authors
 
@@ -108,26 +108,26 @@ This talk will explore real-life examples of these barriers and highlight succes
 
 - [Brianna Rita Pagán](https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1267904) - NASA Goddard Space Flight Center; ADNET Systems Inc. Greenbelt (first author)
 
-## Introducing GeoLab - An EarthScope JupyterHub for Enabling Collaborative Cloud-Native Geophysical Data Analysis and Skill Development Workshops
+## Introducing GeoLab - An [EarthScope](../../collaborators/earthscope/) JupyterHub for Enabling Collaborative Cloud-Native Geophysical Data Analysis and Skill Development Workshops
 
 [Link to session](https://agu.confex.com/agu/agu24/meetingapp.cgi/Paper/1645291)
 
 ### Abstract
 
-The EarthScope Consortium manages NSF's GAGE and SAGE facilities and makes all of its geophysical data available in a commercial cloud system. This enables EarthScope and the communities it supports to leverage the abundant computational resources and cost-effective benefits of adopting data-proximate workflows with direct access to large, analysis-ready geophysical data sets.
+The [EarthScope](../../collaborators/earthscope/) Consortium manages NSF's GAGE and SAGE facilities and makes all of its geophysical data available in a commercial cloud system. This enables [EarthScope](../../collaborators/earthscope/) and the communities it supports to leverage the abundant computational resources and cost-effective benefits of adopting data-proximate workflows with direct access to large, analysis-ready geophysical data sets.
 
-In recent years, JupyterHub environments have gained popularity with data enthusiasts for their ability to provide open access to powerful compute resources. As part of a broad effort to support communities with intuitive resources to quickly adapt their workflows to the cloud, EarthScope has partnered with 2i2c to operate a scalable JupyterHub environment in AWS that will provide equitable access to cloud compute resources for researchers, educators, and the general public. GeoLab, the EarthScope hub, is aligned with related open science initiatives to establish rigorous and transparent standards for reproducible, data-intensive workflows. In addition to promoting interdisciplinary and inter-institutional collaborative work between researchers in GeoLab, EarthScope is developing and hosting workshops that can support both in-person and asynchronous learning modules that will train users how to utilize these new resources and transition their work to the cloud. We are excited to invite all geophysical data users to participate in the vigorous growth of this new platform and collaborate with adjacent open-science compute hub initiatives.
+In recent years, JupyterHub environments have gained popularity with data enthusiasts for their ability to provide open access to powerful compute resources. As part of a broad effort to support communities with intuitive resources to quickly adapt their workflows to the cloud, [EarthScope](../../collaborators/earthscope/) has partnered with 2i2c to operate a scalable JupyterHub environment in AWS that will provide equitable access to cloud compute resources for researchers, educators, and the general public. GeoLab, the [EarthScope](../../collaborators/earthscope/) hub, is aligned with related open science initiatives to establish rigorous and transparent standards for reproducible, data-intensive workflows. In addition to promoting interdisciplinary and inter-institutional collaborative work between researchers in GeoLab, [EarthScope](../../collaborators/earthscope/) is developing and hosting workshops that can support both in-person and asynchronous learning modules that will train users how to utilize these new resources and transition their work to the cloud. We are excited to invite all geophysical data users to participate in the vigorous growth of this new platform and collaborate with adjacent open-science compute hub initiatives.
 
 ### Authors
 
-- [Robert T Weekly](https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/74000) - EarthScope Consortium (first author)
-- [Tammy K Bravo](https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/84732) - EarthScope Consortium
-- [Jerry A Carter](https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/38950) - EarthScope Consortium
-- [Tim Dittmann](https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1522227) - EarthScope Consortium
-- [Alex Hamilton](https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1293466) - EarthScope Consortium
-- [David Mencin](https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/57436) - EarthScope Consortium
-- [Chad Trabant](https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/13120) - EarthScope Consortium
-- [Sarah Wilson](https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1526474) - EarthScope Consortium
+- [Robert T Weekly](https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/74000) - [EarthScope Consortium](../../collaborators/earthscope/) (first author)
+- [Tammy K Bravo](https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/84732) - [EarthScope Consortium](../../collaborators/earthscope/)
+- [Jerry A Carter](https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/38950) - [EarthScope Consortium](../../collaborators/earthscope/)
+- [Tim Dittmann](https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1522227) - [EarthScope Consortium](../../collaborators/earthscope/)
+- [Alex Hamilton](https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1293466) - [EarthScope Consortium](../../collaborators/earthscope/)
+- [David Mencin](https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/57436) - [EarthScope Consortium](../../collaborators/earthscope/)
+- [Chad Trabant](https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/13120) - [EarthScope Consortium](../../collaborators/earthscope/)
+- [Sarah Wilson](https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1526474) - [EarthScope Consortium](../../collaborators/earthscope/)
 
 ## U13A-2349 Sharing recipes for cloud computing: the Project Pythia Cookbook Initiative
 
@@ -143,15 +143,15 @@ Here we will outline the stack of technologies and infrastructure enabling cookb
 
 ### Authors
 
-- [Brian E J Rose](https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/10645) - University at Albany State University of New York (first author)
-- [Drew Camron](https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1112151) - University Corporation for Atmospheric Research
+- [Brian E J Rose](https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/10645) - [University at Albany State University of New York](../../collaborators/pythia/) (first author)
+- [Drew Camron](https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1112151) - [University Corporation for Atmospheric Research](../../collaborators/pythia/)
 - [John Clyne](https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/15277) - NCAR
 - [Orhan Eroglu](https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1104277) - NSF National Center for Atmospheric Research
-- [Robert Ford](https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1266060) - University at Albany State University of New York
+- [Robert Ford](https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1266060) - [University at Albany State University of New York](../../collaborators/pythia/)
 - [Julia Kent](https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/796821) - NSF National Center for Atmospheric Research
-- [Ryan May](https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/529702) - University Corporation for Atmospheric Research
+- [Ryan May](https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/529702) - [University Corporation for Atmospheric Research](../../collaborators/pythia/)
 - [James Munroe](https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/1317099) - 2i2c / Code for Science and Society
-- [Kevin Tyle](https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/218622) - SUNY at Albany
+- [Kevin Tyle](https://agu.confex.com/agu/agu24/meetingapp.cgi/Person/218622) - [SUNY at Albany](../../collaborators/pythia/)
 
 ## U13A-2350 Supporting NASA Earthdata users in the Cloud: NASA Openscapes JupyterHub and User Onboarding & Fledging
 

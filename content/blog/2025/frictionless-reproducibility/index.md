@@ -12,7 +12,7 @@ tags:
   - reproducibility
 --- 
 
-Last December I had an opportunity to discuss the current and future state of the open publishing ecosystem at a workshop hosted by [HHMI](https://www.hhmi.org)[^followup]. While 2i2c doesn't primarily focus on "publishing" workflows, we do support communities on a journey that often _leads to publishing_, and we make choices about technology in our [community hub platform](../../../platform/) that can support different kinds of publishing outcomes.
+Last December I had an opportunity to discuss the current and future state of the open publishing ecosystem at a workshop hosted by [HHMI](../../../collaborators/hhmi/)[^followup]. While 2i2c doesn't primarily focus on "publishing" workflows, we do support communities on a journey that often _leads to publishing_, and we make choices about technology in our [community hub platform](../../../platform/) that can support different kinds of publishing outcomes.
 
 [^followup]: There's a [follow-up meeting](https://incentivizingopen.org/2025/03/new-paradigms-in-research-communication-continuing-thediscussion/) for those who are interested.
 
@@ -81,3 +81,8 @@ One thing seems clear - there is an imperative to make reproducibility and inter
 2i2c often plays a role in _bridging user communities and open source communities_ through cycles of development and collaboration, perhaps we could do the same for the publishing community. We'd like to explore some tooling improvements that lay a foundation for these workflows, and will report back on our experiments in the coming months.
 
 **If you are interested in collaborating**, <a href="mailto:hello@2i2c.org">please reach out</a>. We'd love to hear from organizations from the scholarly publishing community to understand where these ideas have holes or need significant new development. I'd also love feedback on sustainability models to ensure these services can be relied on as part of the publishing ecosystem. In the meantime, hopefully these ideas serve as an inspiration for what is possible, and where we might be heading with 2i2c's service and the broader publishing ecosystem.
+
+## Acknowledgements
+
+- [HHMI](../../../collaborators/hhmi/) for organizing and hosting this workshop.
+- [the Jupyter Book community](../../../collaborators/jupyter-book/) for their collaboration and feedback on these ideas.

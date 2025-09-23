@@ -8,5 +8,6 @@ categories:
   - impact
 featured: false
 draft: false
-external_link: https://openscapes.org/blog/2022-11-17-nasa-earthdata-cloud-infrastructure/
 ---
+
+We recently shared a demo of our infrastructure stack with the [OpenScapes community](../../../collaborators/openscapes). Check out [the blog post about it here](https://openscapes.org/blog/2022-11-17-nasa-earthdata-cloud-infrastructure/).

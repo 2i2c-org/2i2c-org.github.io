@@ -61,3 +61,7 @@ Here are a few major examples:
 There is a lot more planned for 2i2c, and if you're curious to see what we're up to, we invite you to [check out our team compass](https://compass.2i2c.org) to learn about our practices, and [watch our activity on GitHub](https://github.com/2i2c-org/) to see our work.
 
 Many thanks to the amazing 2i2c team, and the multiple open source and scholarly communities that we collaborate with to make all of this possible. In addition, we are grateful to [our funders](/organization/funding.md) for making this possible. We are looking forward to Q2! 🎉
+
+## Acknowledgments
+
+- Support for organizational and strategic work like this is provided by a grant from [CZI](../../../collaborators/czi/) and fees from [our Member Communities](../../../members/).

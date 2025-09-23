@@ -7,7 +7,7 @@ categories: service
 date: 2025-07-22
 ---
 
-As we enter Q3 2025, our focus remains on enabling better cost controls for our communities and increasing flexibility for end-users. In line with our commitment to transparency, we’re sharing our platform and service objectives for the quarter and inviting feedback to ensure our direction reflects what matters most to the communities we serve. See our [product goals from the previous quarter here](https://2i2c.org/blog/2025/q2-product-goals/).
+As we enter Q3 2025, our focus remains on enabling better cost controls for our communities and increasing flexibility for end-users. In line with our commitment to transparency, we’re sharing our platform and service objectives for the quarter and inviting feedback to ensure our direction reflects what matters most to the communities we serve. See our [product goals from the previous quarter here](../q2-product-goals/index.md).
 
 The themes below offer a high-level snapshot of where we aim to evolve our offerings in the coming months.
 
@@ -47,3 +47,7 @@ If you have suggestions for improving this process, or if any features interest 
 Each quarter, we’ll share an update like this to outline our product priorities and track progress. When planning for Q4, we’ll review what we’ve accomplished and provide a community update. Stay tuned!
 
 Meanwhile, [let us know what you think](https://docs.google.com/forms/u/1/d/1PXGM9_j0nyFLR1FEs7fz9x1vUuhs-J4IvoWGy5r-2aE/edit?fromCopy=true&ct=2) about our direction. Your feedback helps us provide the best value to our communities. Thank you!
+
+## Acknowledgements
+
+- Our strategic and organization-level work is supported by a grant from [The Navigation Fund](../../../collaborators/navigation/) and fees from [our member organizations](../../../members/).

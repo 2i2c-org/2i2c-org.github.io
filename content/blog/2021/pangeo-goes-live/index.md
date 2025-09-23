@@ -13,7 +13,7 @@ featured: false
 draft: false
 ---
 
- [Pangeo Cloud](https://pangeo.io/cloud.html) is an experimental service providing public cloud-based data-science environments for data-intensive geoscience research.
+[Pangeo Cloud](https://pangeo.io/cloud.html) is an experimental service providing public cloud-based data-science environments for data-intensive geoscience research.
 We have recently finished re-creating the [Pangeo](http://pangeo.io/) community JupyterHub hosted on GCP in the [2i2c-org/infrastructure](https://github.com/2i2c-org/infrastructure) repository.
 This is a huge milestone in our partnership with Pangeo to provide expertise and operations of cloud-based, vendor-agnostic Jupyter infrastructure and workflows.
 
@@ -54,4 +54,6 @@ In some areas we are still experimenting with different collaboration models to 
 Over the coming weeks, you may see some conversations (and threads for feedback!) about different support and operations models that work best for the community.
 We are excited to use this as an opportunity to learn more about how to serve more complex and diverse communities like Pangeo.
 
-We are extremely grateful to the Pangeo project for giving us the opportunity to serve their community, and we look forward to a long partnership ahead! :rocket:
+## Acknowledgements
+
+We are extremely grateful to the [Pangeo project](../../../collaborators/pangeo) for giving us the opportunity to serve their community, as well as the [Moore Foundation](../../../collaborators/moore) for funding this work. We look forward to a long partnership ahead! :rocket:

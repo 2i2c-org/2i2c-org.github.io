@@ -8,11 +8,11 @@ categories:
   - impact
 featured: false
 draft: false
-external_link: https://blog.jupyterbook.org/posts/2025-05-23-scientific-python-dev-summit
+external_link:
 authors:
   - Chris Holdgraf
   - Angus Hollands
   - Franklin Koch
 ---
 
-A post on the Jupyter Book blog about the recent Scientific Python 2025 Developer Summit.
+Chris and Angus recently attended the Scientific Python 2025 Developer Summit on behalf of [Jupyter Book](../../../collaborators/jupyter-book/), here's [a brief blog post about their experience](https://blog.jupyterbook.org/posts/2025-05-23-scientific-python-dev-summit) written with the Jupyter Book team.

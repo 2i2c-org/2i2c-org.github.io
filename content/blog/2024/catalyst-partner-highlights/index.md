@@ -101,4 +101,7 @@ Creating a series of blog posts to highlight the work of the Catalyst Community 
 
 Katie then led that outreach, which involved a representative of each Community Partners completing a Google Form to answer three key questions and sharing a photo (or a selection of photos) to use on the blog. Katie curated all of the information, edited together the blog posts, and secured sign-off from all of the partners. Sabrina López and her team at MetaDocencia coordinated the translation of the posts from English to Spanish, and Jenny formatted and published them on the website.
 
-We’re grateful to the Community Partners for generously sharing more about their work – and we look forward to highlighting more Catalyst Project Community Partners soon!
+## Acknowledgements
+
+- Thanks to the [Catalyst Community Partners](../../../collaborators/catalyst/) for generously sharing more about their work.
+- Thanks to [CZI](../../../collaborators/czi/) for funding this work.

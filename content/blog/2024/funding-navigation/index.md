@@ -7,11 +7,14 @@ tags:
   - funding
 categories:
   - organization
+image:
+  # The filename of the image within the page's folder.
+  filename: "featured.jpg"
 featured: false
 draft: false
 ---
 
-We are proud to announce that 2i2c has received financial support from [The Navigation Fund](https://www.navigation.org/) to assist us in our mission to design and build a sustainable and scalable model for helping communities create and share knowledge with open infrastructure.
+We are proud to announce that 2i2c has received financial support from [The Navigation Fund](../../../collaborators/navigation/index.md) to assist us in our mission to design and build a sustainable and scalable model for helping communities create and share knowledge with open infrastructure.
 
 {{< figure
   src="images/tnf-logo.png"

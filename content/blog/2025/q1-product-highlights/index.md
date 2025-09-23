@@ -69,3 +69,6 @@ Finally, below are a few other blog posts where we’ve documented major impact 
 
 - [Announcing our formal commitment to open technology](https://2i2c.org/blog/2025/community-ownership/)
 
+## Acknowledgements
+
+- Our strategic and organization-level work is supported by a grant from [The Navigation Fund](../../../collaborators/navigation/) and fees from [our member organizations](../../../members/).

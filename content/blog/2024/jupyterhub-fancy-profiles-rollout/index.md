@@ -44,6 +44,6 @@ As with everything we build at 2i2c (per our [right to replicate](https://2i2c.o
 
 ## Credit
 
-- The project was initiated with funding generously provided by [GESIS](http://gesis.org) in cooperation with NFDI4DS (project number: [460234259](https://gepris.dfg.de/gepris/projekt/460234259?context=projekt&task=showDetail&id=460234259&)) and [CESSDA](https://www.cessda.eu) (see our [earlier blog post](https://2i2c.org/blog/2024/jupyterhub-binderhub-gesis/)).
+- The project was initiated with funding generously provided by [GESIS](../../../collaborators/gesis/) (see our [earlier blog post](../../2024/jupyterhub-binderhub-gesis/index.md)).
 - [Sanjay Bhangar](https://developmentseed.org/team/sanjay-bhangar/) and [Oliver Roick](https://oliverroick.net/) from [Development Seed](https://developmentseed.org/) for advocating for this project and contributing heavily to it.
-- The [NASA VEDA](https://www.earthdata.nasa.gov/data/tools/veda) project (in particular, [Brian Freitag](https://github.com/freitagb/) and [Alex Mandel](https://github.com/wildintellect)), for continued funding (in the form of engineering time) plus being early adopters!
+- The [NASA VEDA](../../../collaborators/nasa-veda/) project (in particular, [Brian Freitag](https://github.com/freitagb/) and [Alex Mandel](https://github.com/wildintellect)), for continued funding (in the form of engineering time) plus being early adopters!

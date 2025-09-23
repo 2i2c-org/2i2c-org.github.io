@@ -11,7 +11,7 @@ featured: false
 draft: false
 ---
 
-We are proud to announce that 2i2c has received financial support from [The Chan Zuckerberg Initiative](https://chanzuckerberg.com/) to sustain our efforts at helping open science communities create and share knowledge with open infrastructure.
+We are proud to announce that 2i2c has received financial support from [The Chan Zuckerberg Initiative](../../../collaborators/czi/) to sustain our efforts at helping open science communities create and share knowledge with open infrastructure.
 
 {{< figure
   src="images/czi-logo.png"

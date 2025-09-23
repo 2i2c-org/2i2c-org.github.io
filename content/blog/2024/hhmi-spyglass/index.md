@@ -17,4 +17,4 @@ draft: false
 
 ## Acknowledgements
 
-This work was supported by National Institute of Mental Health (NIMH), grant number RF1MH130623.
+- Thanks to [HHMI](../../../collaborators/hhmi/) for funding and collaborating on this work.

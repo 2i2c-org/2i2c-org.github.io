@@ -18,6 +18,16 @@ jobs:
           submodules: true  # Fetch Hugo themes (true OR recursive)
           fetch-depth: 0    # Fetch all history for .GitInfo and .Lastmod
 
+      - name: Setup Python
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      - name: Install Python dependencies and extract org logos
+        run: |
+          pip install -r requirements.txt
+          python scripts/extract_org_logos.py
+
       - name: Setup Hugo
         uses: peaceiris/actions-hugo@v2
         with:

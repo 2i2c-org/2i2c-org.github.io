@@ -46,4 +46,5 @@ Hackathons are a great way for quickly imparting knowledge and gathering feedbac
 
 ## Acknowledgments
 
-We would like to thank the [Mackenzie Mathis Lab](http://www.mackenziemathislab.org/) for hosting Chris Holdgraf at EPFL, Lausanne, Switzerland.
+- Thank to the [Mackenzie Mathis Lab](http://www.mackenziemathislab.org/) for hosting Chris Holdgraf at EPFL, Lausanne, Switzerland.
+- Thanks to the [Jupyter Book team](../../../collaborators/jupyter-book/) for collaborating on this with us.

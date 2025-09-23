@@ -18,3 +18,7 @@ One of Chris' goals is to be a transparent source of information about what the 
 
 We're hopeful that this is a way for 2i2c to scale its impact and lean into its [commitment to open technology](/open-technology/). Chris intends to keep writing about his personal experience via [his blog](https://chrisholdgraf.com), and we'll provide updates here for major developments that are relevant to 2i2c's network of communities.
 We're proud to have Chris in this role, and excited for his contributions to the Jupyter community!
+
+## Acknowledgements
+
+- Strategic open source support like this is supported by a grant from [The Navigation Fund](../../../collaborators/navigation/) and fees from [our member organizations](../../../members/).

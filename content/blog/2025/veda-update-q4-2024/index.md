@@ -58,3 +58,8 @@ Tarashish from Development Seed is again responsible for most of the work here, 
 
 - We participated heavily in an evaluation process for the authentication and authorization solution to be used across NASA VEDA! [Tracking Issue](https://github.com/NASA-IMPACT/veda-jupyterhub/issues/57)
 - We are very close to [rolling out JupyterHub 5.0](https://github.com/2i2c-org/infrastructure/issues/5209) and associated changes across all our hubs, which will enable us to eventually offer per-group shared directories! [Tracking Issue](https://github.com/NASA-IMPACT/veda-jupyterhub/issues/61)
+
+## Acknowledgements
+
+- Thanks to the [NASA VEDA project](../../../collaborators/nasa-veda/) for thir ongoing support for this work.
+- Thanks to [DevSeet](../../../collaborators/devseed/) for their collaboration and leadership on this project.

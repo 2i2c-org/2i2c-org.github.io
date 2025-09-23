@@ -16,3 +16,8 @@ draft: false
 ---
 
 See [the Executable Books blog](https://executablebooks.org/en/latest/blog/2024-05-20-jupyter-book-myst/) for a post on the future directions of the Jupyter Book project, which will be built on top of the [MyST Markdown engine](https://mystmd.org).
+
+## Acknowledgements
+
+- This post relates to our ongoing collaboration with the [Jupyter Book](../../../collaborators/jupyter-book/) project.
+- Thanks to [Project Pythia](../../../collaborators/pythia/) for funding part of our work on Jupyter Book.
