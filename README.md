@@ -23,6 +23,10 @@ See [the Team Compass blog documentation](https://compass.2i2c.org/communication
 
 ## Website-specific features
 
+### Add a Feedback button to a page or post
+
+Use the `{{< feedback >}}` short-code to add a button that provides a feedback link for the current page. See more information in [our feedback process docs](https://docs.google.com/document/d/1bH5fN2lXcZ-vjQ4Pb4lfaeQbmoCBkN1QYjA7ZaxkmsY/edit?tab=t.dxyyjksnpswv#heading=h.kh8meot2eulc).
+
 ### Automatic GitHub link shortening
 
 This theme will automatically shorten GitHub links and add a little GitHub icon to the front. For example, see the [Jack Eddy Symposium blog post](https://2i2c.org/blog/2022/eddy-symposium-report/).
