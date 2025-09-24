@@ -9,7 +9,7 @@ draft: false
 ---
 
 One of 2i2c's goals is to **make the cloud safe for science**.
-A big part of this is making the black box of commercial cloud infrastructure more predictable and reliable, while running a network of community hubs that all operate autonomously.
+A big part of this is making the black box of commercial cloud infrastructure more predictable and reliable for our member communities, across our network of community hubs that all operate autonomously.
 
 {{< feedback >}}
 
