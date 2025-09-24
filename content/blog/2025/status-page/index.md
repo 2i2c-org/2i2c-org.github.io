@@ -19,7 +19,7 @@ As part of this effort, we've created a **status page for 2i2c's network of comm
 
 {{< figure src="featured.png" caption="The 2i2c Status Page gives communities a high-level view of the uptime for our entire network of community hubs.">}}
 
-As part of this process, we've also [streamlined our incident response processes](https://github.com/2i2c-org/team-compass/pull/1021) in order to more quickly respond to outages when they occur (ideally, before a community has even noticed!).
+While we make status more visible, we're also [streamlining our incident response processes](https://github.com/2i2c-org/team-compass/pull/1021) in order to more quickly respond to outages when they occur (ideally, before a community has even noticed!).
 
 There are still plenty of improvements we'd like to make: for example, we're focusing on major outages right now, but would like to extend some level of reporting for _degraded_ service, like unexpectedly slow start times.
 
