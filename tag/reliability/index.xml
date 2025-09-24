@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Reliability | 2i2c</title><link>https://2i2c.org/tag/reliability/</link><atom:link href="https://2i2c.org/tag/reliability/index.xml" rel="self" type="application/rss+xml"/><description>Reliability</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 23 Sep 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Reliability</title><link>https://2i2c.org/tag/reliability/</link></image><item><title>Demonstrating our infrastructure's reliability with a hub status page for our communities</title><link>https://2i2c.org/blog/2025/status-page/</link><pubDate>Tue, 23 Sep 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/status-page/</guid><description>&lt;p>One of 2i2c&amp;rsquo;s goals is to &lt;strong>make the cloud safe for science&lt;/strong>.
+A big part of this is making the black box of commercial cloud infrastructure more predictable and reliable for our member communities, across our network of community hubs that all operate autonomously.&lt;/p>
+&lt;a href="https://docs.google.com/forms/d/e/1FAIpQLSff-u-sWFuwO1-VTgk2Ir7f1nfUUlLevQk_Vkk_jnmcI1nJnw/viewform?usp=pp_url&amp;amp;entry.648332035=https://2i2c.org/blog/2025/status-page/" target="_blank" rel="noopener" class="text-decoration-none">
+&lt;div class="alert alert-info d-flex align-items-start p-3" role="button" style="transition: all 0.2s ease;" onmouseover="this.style.backgroundColor='#b3e5fc'" onmouseout="this.style.backgroundColor=''" onfocus="this.style.backgroundColor='#b3e5fc'" onblur="this.style.backgroundColor=''">
+&lt;div class="fw-bold mb-1">&lt;span style="font-weight:bold">Give us feedback!&lt;/span> Click here to provide feedback that will help us make this more impactful.&lt;/div>
+&lt;/div>
+&lt;/a>
+&lt;p>To that end, we&amp;rsquo;ve created a &lt;strong>status page for 2i2c&amp;rsquo;s network of community hubs&lt;/strong>. This is a source of truth to provide a high-level picture of the stability of our infrastructure, let a community know if their hub is experiencing a problem, and to give us a heads up when things aren&amp;rsquo;t working as expected. You can check it out at:&lt;/p>
+&lt;p>👉
+&lt;a href="https:status.2i2c.org" target="_blank" rel="noopener" >&lt;strong>&lt;code>status.2i2c.org&lt;/code>&lt;/strong>&lt;/a>&lt;/p>
+&lt;figure id="figure-the-2i2c-status-page-gives-communities-a-high-level-view-of-the-uptime-for-our-entire-network-of-community-hubs">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="The 2i2c Status Page gives communities a high-level view of the uptime for our entire network of community hubs." srcset="
+/blog/2025/status-page/featured_hudcfdf27a10fbca3598dd77978ccf2720_32254_65a3e43ecff516e4749f4c8de6cece80.webp 400w,
+/blog/2025/status-page/featured_hudcfdf27a10fbca3598dd77978ccf2720_32254_b5951eee6a91520a1d5155144fcbfbc5.webp 760w,
+/blog/2025/status-page/featured_hudcfdf27a10fbca3598dd77978ccf2720_32254_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2025/status-page/featured_hudcfdf27a10fbca3598dd77978ccf2720_32254_65a3e43ecff516e4749f4c8de6cece80.webp"
+width="760"
+height="476"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+The 2i2c Status Page gives communities a high-level view of the uptime for our entire network of community hubs.
+&lt;/figcaption>&lt;/figure>
+&lt;p>While we make status more visible, we&amp;rsquo;re also
+&lt;a href="https://github.com/2i2c-org/team-compass/pull/1021" target="_blank" rel="noopener" >streamlining our incident response processes&lt;/a> in order to more quickly respond to outages when they occur (ideally, before a community has even noticed!).&lt;/p>
+&lt;p>There are still plenty of improvements we&amp;rsquo;d like to make: for example, we&amp;rsquo;re focusing on major outages right now, but would like to extend some level of reporting for &lt;em>degraded&lt;/em> service, like unexpectedly slow start times.&lt;/p>
+&lt;h2 id="learn-more">
+Learn more
+&lt;a class="header-anchor" href="#learn-more">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>👉
+&lt;a href="https://2i2c-hubs.trust.pagerduty.com/posts/dashboard" target="_blank" rel="noopener" >The status page&lt;/a>&lt;/li>
+&lt;li>👉
+&lt;a href="https://docs.2i2c.org/admin/reliability/status-page/" target="_blank" rel="noopener" >The status page documentation&lt;/a>&lt;/li>
+&lt;li>👉
+&lt;a href="https://github.com/2i2c-org/team-compass/pull/1021" target="_blank" rel="noopener" >Our new process for incident response&lt;/a>&lt;/li>
+&lt;li>👉 Follow an
+&lt;a href="https://github.com/2i2c-org/infrastructure/issues/6417" target="_blank" rel="noopener" >in-progress initiative to improve the reliability of our infrastructure&lt;/a>&lt;/li>
+&lt;/ul></description></item></channel></rss>
