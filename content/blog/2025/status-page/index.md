@@ -13,7 +13,7 @@ A big part of this is making the black box of commercial cloud infrastructure mo
 
 {{< feedback >}}
 
-As part of this effort, we've created a **status page for 2i2c's network of community hubs**. This is a source of truth to provide a high-level picture of the stability of our infrastructure, and to give us a heads up when things aren't working as expected. You can check it out at:
+To that end, we've created a **status page for 2i2c's network of community hubs**. This is a source of truth to provide a high-level picture of the stability of our infrastructure, let a community know if their hub is experiencing a problem, and to give us a heads up when things aren't working as expected. You can check it out at:
 
 👉 [**`status.2i2c.org`**](https:status.2i2c.org)
 
