@@ -32,7 +32,7 @@ permalinks:
   tags: '/tag/:slug/'
   categories: '/category/:slug/'
   publication_types: '/publication-type/:slug/'
-disableAliases: true
+disableAliases: false # This makes Hugo generate HTML redirects instead of server-side ones
 outputs:
   home: [HTML, RSS, JSON, WebAppManifest, headers, redirects]
   section: [HTML, RSS]
