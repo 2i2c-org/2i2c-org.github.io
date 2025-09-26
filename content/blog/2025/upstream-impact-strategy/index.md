@@ -10,7 +10,7 @@ categories:
 ---
 
 
-Over the past few months we've been running an experiment to be more thoughtful about our goals, strategy, and systems for supporting upstream communities _as a team_. This is a summary of the major ideas behind our current plan. It includes a few team targets and practices that we'll pilot over the next year. We'll revisit this as we learn more. 
+Over the past year we've been running an experiment to be more thoughtful about our goals, strategy, and systems for supporting upstream communities _as a team_. This is a summary of the major ideas behind our current plan. It includes a few team targets and practices that we'll pilot over the next year. We'll revisit this as we learn more. 
 
 > **Note**: This document is not about "Directed" upstream contributions we make as part of our own product work. It is about the Foundational contributions we make so that open source communities are healthier and more impactful. See this post about [Directed and Foundational contributions](../good-citizen/index.md).
 
@@ -121,7 +121,7 @@ Beyond just contributions, OSS communities must also grow their _contributors_ i
 
 {{< figure src="https://imgs.xkcd.com/comics/dependency.png" alt="XKCD comic about dependency" link="https://xkcd.com/2347/" caption="XKCD comic about dependency" >}}
 
-But growing new maintainers takes time and effort. Not just on behalf of the person who is trying to be the maintainer, but on existing maintainers who have to spend time mentoring and sponsoring this person. The focus on sponsorship is very important, for excellent reasons [laid out by Lara Hogan](https://larahogan.me/blog/what-sponsorship-looks-like/). This work also takes a long time to manifest - closer to a year than a month.
+But growing new maintainers takes time and effort. Not just on behalf of the person who is trying to be the maintainer, but on existing maintainers who have to spend time mentoring and sponsoring this person. The focus on sponsorship is very important, for excellent reasons [laid out by Lara Hogan](https://larahogan.me/blog/what-sponsorship-looks-like/). This work also takes a long time to manifest - closer to years than months.
 
 We shall build structures to identify potential maintainers, and build long term pathways for them to do work in the community to gain maintainership status. As JupyterHub doesn't have an explicit 'how to become a maintainer' pathway we could just follow, we will build our own process via these focus areas:
 
@@ -183,5 +183,6 @@ We're excited to experiment with a more effective and healthy system for upstrea
 ## Acknowledgements
 
 - [@MinRK](https://github.com/minrk) and - [@bsipocz](https://github.com/bsipocz) for helping review a draft of this!
+- [@choldgraf](../../../authors/chris-holdgraf/_index.md) for feedback, guidance, and editing for this post and the team practices in it.
 - [JupyterHub](../../../collaborators/jupyterhub/), [JupyterBook](../../../collaborators/jupyter-book/), and [Project Jupyter](../../../collaborators/jupyter/) for teaching us a lot about open source over the years.
 
