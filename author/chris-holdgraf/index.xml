@@ -16,7 +16,7 @@
 &lt;li>Co-created the DataHub interactive computing service for the Data Science Education Program at UC Berkeley.&lt;/li>
 &lt;/ul></description></item><item><title>Updates from Chris' position on the Jupyter Executive Council and Foundation Board</title><link>https://2i2c.org/blog/2025/executive-council-updates/</link><pubDate>Tue, 23 Sep 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/executive-council-updates/</guid><description>&lt;p>This is a running blog post for Chris to share out community updates from his time on the
 &lt;a href="https://ec.jupyter.org/" target="_blank" rel="noopener" >Jupyter Executive Council&lt;/a>. See
-&lt;a href="" >context for this page&lt;/a>.&lt;/p>
+&lt;a href="#context" >context for this page&lt;/a>.&lt;/p>
 &lt;h2 id="updates-for-the-jupyter-community-from-chris">
 Updates for the Jupyter community from Chris
 &lt;a class="header-anchor" href="#updates-for-the-jupyter-community-from-chris">#&lt;/a>
@@ -56,7 +56,7 @@ Blog posts about Chris&amp;rsquo; experience on the executive council
 &lt;/h2>&lt;p>In early 2025, Chris was
 &lt;a href="https://2i2c.org/blog/2025/jupyter-executive-council/" >elected to the Jupyter Executive Council&lt;/a>.
 We&amp;rsquo;re tracking these efforts because providing leadership and community support to open source projects is a
-&lt;a href="https://2i2c.org/blog/2025/foundational-contributions/" >key Foundational contribution&lt;/a> we wish to make for open source projects. 2i2c makes time for team members to contribute upstream in strategic ways like this as part of our
+&lt;a href="https://2i2c.org/blog/2025/good-citizen/" >key Foundational contribution&lt;/a> we wish to make for open source projects. 2i2c makes time for team members to contribute upstream in strategic ways like this as part of our
 &lt;a href="https://2i2c.org/open-practices/" >commitment to open practices&lt;/a>. However, this kind of work is very difficult to track! This blog post is an attempt at putting these efforts into one place for us to track and for others to discover.&lt;/p>
 &lt;h2 id="acknowledgements">
 Acknowledgements
@@ -64,7 +64,7 @@ Acknowledgements
 &lt;/h2>&lt;ul>
 &lt;li>
 &lt;a href="https://2i2c.org/members/" >2i2c&amp;rsquo;s member communities&lt;/a> support
-&lt;a href="https://2i2c.org/blog/2025/foundational-contributions/" >Foundation open source contributions&lt;/a> like this with their membership fees.&lt;/li>
+&lt;a href="https://2i2c.org/blog/2025/good-citizen/" >Foundation open source contributions&lt;/a> like this with their membership fees.&lt;/li>
 &lt;li>
 &lt;a href="https://2i2c.org/collaborators/navigation/" >The Navigation Fund&lt;/a> provides strategic funding support for 2i2c which covers major open source leadership contributions like this.&lt;/li>
 &lt;/ul></description></item><item><title>We're going to try blogging about our work more often</title><link>https://2i2c.org/blog/2025/communications-strategy/</link><pubDate>Wed, 10 Sep 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/communications-strategy/</guid><description>&lt;p>At 2i2c, we aim to be an exemplar organization in working openly, supporting open science, and supporting open source communities in everything that we do.
@@ -90,7 +90,7 @@ Acknowledgments
 &lt;/h2>&lt;ul>
 &lt;li>Support for organizational and strategic work like this is provided by a grant from
 &lt;a href="https://2i2c.org/collaborators/navigation/" >The Navigation Fund&lt;/a>.&lt;/li>
-&lt;/ul></description></item><item><title>On being a good open source citizen: supporting a healthy ecosystem through directed and foundational contributions</title><link>https://2i2c.org/blog/2025/foundational-contributions/</link><pubDate>Wed, 03 Sep 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/foundational-contributions/</guid><description>&lt;p>Any organization building on open source faces a fundamental tension: how do you serve the needs of your organizational stakeholders while also acting as a responsible steward of the upstream projects you depend on?
+&lt;/ul></description></item><item><title>On being a good open source citizen: supporting a healthy ecosystem through directed and foundational contributions</title><link>https://2i2c.org/blog/2025/good-citizen/</link><pubDate>Wed, 03 Sep 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/good-citizen/</guid><description>&lt;p>Any organization building on open source faces a fundamental tension: how do you serve the needs of your organizational stakeholders while also acting as a responsible steward of the upstream projects you depend on?
 This is harder than it looks - simply &amp;ldquo;making PRs&amp;rdquo; leaves a number of open source needs unaddressed, and can burn out both your team members and the open source maintainers. We think about this a lot at 2i2c, and want to share our framework to navigate this challenge intentionally.&lt;/p>
 &lt;p>Here are a few questions we&amp;rsquo;ve been grappling with:&lt;/p>
 &lt;ul>
@@ -105,6 +105,10 @@ This is harder than it looks - simply &amp;ldquo;making PRs&amp;rdquo; leaves a 
 &lt;li>&lt;strong>Foundational contributions&lt;/strong>: A contribution driven by the needs of the upstream community. We call these &amp;ldquo;Foundational contributions&amp;rdquo; because they&amp;rsquo;re meant to provide the healthy foundation on which a community can operate and grow.&lt;/li>
 &lt;/ol>
 &lt;p>Historically we have conflated these types of contributions, but we think it&amp;rsquo;s key that we treat them differently.&lt;/p>
+&lt;blockquote>
+&lt;p>&lt;strong>Note&lt;/strong>: For a more practical guide that describes the systems we&amp;rsquo;ve set up to accomplish &lt;em>Foundational&lt;/em> upstream contributions, see
+&lt;a href="https://2i2c.org/blog/2025/foundational-contributions/" >From scattered effort to strategic impact: How we&amp;rsquo;re systematizing our Foundational open source contributions&lt;/a>.&lt;/p>
+&lt;/blockquote>
 &lt;h2 id="everybody-has-an-open-source-hat-and-a-stakeholder-hat">
 Everybody has an open source hat and a stakeholder hat
 &lt;a class="header-anchor" href="#everybody-has-an-open-source-hat-and-a-stakeholder-hat">#&lt;/a>
