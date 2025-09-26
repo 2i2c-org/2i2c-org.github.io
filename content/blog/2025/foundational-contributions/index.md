@@ -8,6 +8,8 @@ tags:
   - open source
 categories:
   - impact
+aliases:
+  - /blog/2025/good-citizen/
 ---
 
 Any organization building on open source faces a fundamental tension: how do you serve the needs of your organizational stakeholders while also acting as a responsible steward of the upstream projects you depend on?

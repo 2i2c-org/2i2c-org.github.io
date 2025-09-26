@@ -37,7 +37,7 @@ def load_yaml_file(filepath):
     except Exception:
         return None
 
-def extract_org_from_values(values_config):
+def extract_org_from_values(values_config, hub_domain):
     """Extract org info from values file."""
     try:
         org = values_config.get('jupyterhub', {}).get('custom', {}).get('homepage', {}).get('templateVars', {}).get('org', {})
@@ -48,7 +48,7 @@ def extract_org_from_values(values_config):
                 return None
             return {
                 'name': name,
-                'url': org.get('url'),
+                'url': f'https://{hub_domain}' if hub_domain else org.get('url'),
                 'logo_url': org.get('logo_url')
             }
     except Exception:
@@ -58,25 +58,26 @@ def extract_org_from_values(values_config):
 def process_clusters(clusters_dir):
     """Process all clusters and extract org info."""
     orgs = []
-    
+
     for cluster_dir in clusters_dir.iterdir():
         if not cluster_dir.is_dir():
             continue
-            
+
         cluster_file = cluster_dir / "cluster.yaml"
         cluster_config = load_yaml_file(cluster_file)
-        
+
         if not cluster_config:
             continue
-            
+
         for hub in cluster_config.get('hubs', []):
+            hub_domain = hub.get('domain')
             for values_file in hub.get('helm_chart_values_files', []):
                 if values_file.endswith('.values.yaml'):
                     values_path = cluster_dir / values_file
                     values_config = load_yaml_file(values_path)
-                    
+
                     if values_config:
-                        org_info = extract_org_from_values(values_config)
+                        org_info = extract_org_from_values(values_config, hub_domain)
                         if org_info:
                             orgs.append(org_info)
     

@@ -1,0 +1,10 @@
+{{/* Hugo shortcode for generating a feedback callout with button */}}
+{{ $url := .Get "url" | default .Page.Permalink }}
+{{ $feedbackForm := "https://docs.google.com/forms/d/e/1FAIpQLSff-u-sWFuwO1-VTgk2Ir7f1nfUUlLevQk_Vkk_jnmcI1nJnw/viewform?usp=pp_url&entry.648332035=" }}
+{{ $fullUrl := printf "%s%s" $feedbackForm $url }}
+
+<a href="{{ $fullUrl }}" target="_blank" rel="noopener" class="text-decoration-none">
+  <div class="alert alert-info d-flex align-items-start p-3" role="button" style="transition: all 0.2s ease; box-shadow: 0 2px 4px rgba(0,0,0,0.1);" onmouseover="this.style.backgroundColor='#b3e5fc'; this.style.boxShadow='0 4px 8px rgba(0,0,0,0.15)'; this.style.transform='translateY(-1px)'" onmouseout="this.style.backgroundColor=''; this.style.boxShadow='0 2px 4px rgba(0,0,0,0.1)'; this.style.transform='translateY(0)'" onfocus="this.style.backgroundColor='#b3e5fc'; this.style.boxShadow='0 4px 8px rgba(0,0,0,0.15)'; this.style.transform='translateY(-1px)'" onblur="this.style.backgroundColor=''; this.style.boxShadow='0 2px 4px rgba(0,0,0,0.1)'; this.style.transform='translateY(0)'">
+    <div class="fw-bold mb-1"><span style="font-weight:bold">Give us feedback!</span> Click here to provide feedback that will help us make this more impactful.</div>
+  </div>
+</a>
