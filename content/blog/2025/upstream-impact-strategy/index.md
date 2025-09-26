@@ -1,6 +1,6 @@
 ---
 title: "From scattered effort to strategic impact: How we're systematizing our Foundational open source contributions"
-date: 2025-09-20
+date: 2025-09-26
 authors:
   - Yuvi Panda
 tags:
@@ -10,9 +10,9 @@ categories:
 ---
 
 
-Over the past year we've been running an experiment to be more thoughtful about our goals, strategy, and systems for supporting upstream communities _as a team_. This is a summary of the major ideas behind our current plan. It includes a few team targets and practices that we'll pilot over the next year. We'll revisit this as we learn more. 
+Over the past year we've experimented with being more strategic about supporting upstream communities _as a team_. This is a summary of the major ideas behind our current plan. It includes a few team targets and practices that we'll pilot over the next year. We'll revisit this as we learn more. 
 
-> **Note**: This document is not about "Directed" upstream contributions we make as part of our own product work. It is about the Foundational contributions we make so that open source communities are healthier and more impactful. See this post about [Directed and Foundational contributions](../good-citizen/index.md).
+> **Note**: This document is not about _Directed_ upstream contributions we make as part of our own product work. It is about the _Foundational_ contributions we make so that open source communities are healthier and more impactful. See this post about [Directed and Foundational contributions](../good-citizen/index.md).
 
 ## The challenge: Why scattered individual efforts aren't enough
 
