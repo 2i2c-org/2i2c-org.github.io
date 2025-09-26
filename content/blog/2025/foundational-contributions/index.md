@@ -1,122 +1,188 @@
 ---
-title: "On being a good open source citizen: supporting a healthy ecosystem through directed and foundational contributions"
-date: 2025-09-03
+title: "From scattered effort to strategic impact: How we're systematizing our Foundational open source contributions"
+date: 2025-09-26
 authors:
   - Yuvi Panda
-  - Chris Holdgraf
 tags:
   - open source
 categories:
   - impact
-aliases:
-  - /blog/2025/good-citizen/
 ---
 
-Any organization building on open source faces a fundamental tension: how do you serve the needs of your organizational stakeholders while also acting as a responsible steward of the upstream projects you depend on?
-This is harder than it looks - simply "making PRs" leaves a number of open source needs unaddressed, and can burn out both your team members and the open source maintainers. We think about this a lot at 2i2c, and want to share our framework to navigate this challenge intentionally.
 
-Here are a few questions we've been grappling with:
+Over the past year we've experimented with being more strategic about supporting upstream communities _as a team_. This post summarizes our current plan, including team targets and practices we'll continue to pilot. We'll revisit this as we learn more. 
 
-- How do we tie general upstream maintenance to value delivered to our user communities?
-- How can we scope upstream support so that it doesn't detract from our service needs and product strategy?
-- How can we encourage team members to work on the most impactful aspects of upstream support?
-- How can we intentionally and equitably support open source communities as a team, rather than a collection of individuals?
+> **Note**: This document is about the _Foundational_ contributions we make so that open source communities are healthier and more impactful. It is not about _Directed_ upstream contributions we make as part of our own product work. See [On being a good open source citizen: supporting a healthy ecosystem through directed and foundational contributions](../good-citizen/index.md).
 
-Along the way, we realized there are **two very different kinds of upstream contributions**:
+## The challenge: Why scattered individual efforts aren't enough
 
-1. **Directed Contributions**: A contribution driven by the needs of our member communities and product roadmap. We call these "Directed" contributions because they address a targeted need driven by one stakeholder (us!).
-2. **Foundational contributions**: A contribution driven by the needs of the upstream community. We call these "Foundational contributions" because they're meant to provide the healthy foundation on which a community can operate and grow.
+Healthy open source communities rely on both individual and institutional contributions. 
+2i2c [aims to be an *excellent "upstream citizen"*](../good-citizen/index.md), so we need a structured approach with clear goals and rationale for why it's the best use of our team's time.
 
-Historically we have conflated these types of contributions, but we think it's key that we treat them differently.
+Without a coordinated approach, we risk two problematic outcomes:
 
-## Everybody has an open source hat and a stakeholder hat
+**Best case**: Scattered, individual efforts that are subject to the [Tyranny of Structurelessness](https://www.jofreeman.com/joreen/tyranny.htm). We help at the margins but not meaningfully.
 
-Open source teams[^inclusive] are usually two kinds of teams that overlap heavily:
+**Worst case**: Our organizational capacity inadvertently dominates communities, making 2i2c the sole stakeholder capable of meaningful development and maintenance. We _functionally take over the project_.
 
-[^inclusive]: By "open source" we are focusing on multi-stakeholder open source projects with participatory and inclusive leadership and contributions. This wouldn't apply to an organization- or person-specific open source project.
+By setting explicit goals, both our member communities and upstream projects can hold us accountable for actions that strengthen rather than undermine community health.
 
-1. A collection of _stakeholders working together_ on the open source project, each with their own goals and interests.
-2. An _open source team_ with a shared goal and strategy for the open source project.
+## Our long-term goal: Multi-stakeholder, resilient communities
 
-In this case, stakeholders can be individuals or companies. They use and contribute to the open source project because it advances their own interests. For example, an enthusiast contributing to a project because it brings them joy, or a company contributing to a project because they build a product that depends on the open source technology.
+With this in mind, we've chosen the following *outcomes* as our major goals for upstream contribution:
 
-However, for open source projects to be successful they also need their own unique identity, goals, strategy for impact, and system of work. This allows a diverse collection of stakeholders to _work together effectively_ and _create impactful technology_. This team is made up of the same stakeholders described above, but with a responsibility to lead and support the open source team, rather than just serve their individual interests as stakeholders.
+<style>
+  .pull-quote blockquote {
+     font-size:1.2em;
+     font-style:italic;
+  }
+</style>
+<div class="pull-quote">
 
-Thus, any open source stakeholder has two hats: they are both _representatives of a stakeholder_ and _members of an open source team_. While it's possible to _align the interests_ of these two groups, we think it's still important to _distinguish between them_.
+> We want the Jupyter[^0] community to be a *multi-stakeholder*[^1], *diverse*[^2] community with a very high [*bus factor*](https://en.wikipedia.org/wiki/Bus_factor), because we believe this is a critical pre-requisite for advancing [our mission and value proposition](https://compass.2i2c.org/organization/mission/).
 
-## Directed Contributions benefit the stakeholder you represent
+</div>
 
-A _Directed Contribution_ is primarily driven by the needs of a stakeholder in an open source project. To use 2i2c as an example, let's take a quote from 2i2c's value proposition:
+[^0]: Currently this is particularly JupyterHub and Jupyter-wide leadership. We're [exploring how to incorporate JupyterBook into our service](../jb-for-communities/index.md) and are thus investing Foundation contributions there as well.
+[^1]: With different kinds and sizes of organizations (companies, non-profits, universities, etc) and individuals being stakeholders. We want to avoid a single organization monopolizing power within any community.
+[^2]: Across the power spectrum - from users to bug reporters to casual contributors to maintainers to people on governance duty
 
-> 2i2c serves a global network of community hubs for interactive learning and discovery
+We want to build team processes that help upstream communities make progress towards this goal, so everyone can equitably participate with the support they need. 
 
-*Community* here does **not** refer to open source upstream software provider communities (like JupyterHub or Kubernetes), but instead to downstream _user communities_ (like [CryoCloud](../../collaborators/cryocloud/), [Openscapes](https://openscapes.org), or [NASA VEDA](https://www.earthdata.nasa.gov/data/tools/veda)).
+## Two key objectives
 
-When 2i2c makes a Directed Contribution, it means we are trying to _deliver value to one or more of our member communities_ by making an upstream contribution.
+Starting with [JupyterHub](../../../collaborators/jupyterhub/), we've identified two objectives that will guide our work:
 
-Satisfying community needs often involves directly working on the software they use. Driven by our [right to replicate](https://2i2c.org/right-to-replicate/) principles, this means we mostly work on software that is not proprietary to 2i2c nor solely owned by us permanently - but by contributing to an upstream software community. These are all Directed Contributions.
+<div class="pull-quote">
 
-Some illustrative examples:
+> **Objective 1**: Increase the number of casual but returning contributors to the JupyterHub community
+>
+> **Objective 2**: Increase the number of total maintainers in the JupyterHub community
 
-1. [Allow login to be gated on OAuth2 granted scopes](https://github.com/jupyterhub/oauthenticator/pull/719) was a feature we added to support one of our communities' auth flow ([EarthScope](../../collaborators/earthscope/))
-2. [Changing how `.pyc` files are kept in images](https://github.com/pangeo-data/pangeo-docker-images/pull/426) was work we did as a result of a support ticket investigating spawn timeout issues in the [LEAP](https://leap.columbia.edu/) hub.
-3. [Adding landing pages functionality to Jupyter Book and MyST](https://github.com/jupyter-book/myst-theme/pull/531) was work we did to support member communities like [CryoCloud](../../collaborators/cryocloud/) and [Project Pythia](../../../collaborators/pythia/).
+</div>
 
-The fact that these are open source contributions is *incidental*. We are _primarily_ doing this work to deliver value to _our community network_. 
+We've chosen these objectives because (1) they have impact, (2) we can make meaningful progress on them, and (3) we can integrate this work into our team's workflow.
 
-### We plan Directed Contributions according to our roadmap and member feedback
+For each activity below, we've brainstormed some Key Performance Indicators (KPIs) to track progress and ensure we're learning effectively.
 
-Directed Contributions naturally align with 2i2c's overall goals and strategy, so we use our [product processes](https://compass.2i2c.org/product-and-services/) for planning and delivering on them. However, we also want to provide transparency to upstream communities so that they understand who is driving the contributions that we're making.
+## Four pilot activities
 
-With that in mind, here are a few ways that Directed Contributions relate to our practices:
+We'll experiment with these four activities[^all]:
 
-- Directed Contributions should be defined by our product roadmap and prioritization processes.
-- We allocate engineering time for these upstream contributions as part of our product lifecycle, _including the extra coordination and communication work needed to work at the pace of the upstream community_.
-- We cross-link 2i2c product initiatives to upstream issues and pull-requests wherever we can to provide transparency about why we're making a contribution.
-- We communicate this work via our blog so that 2i2c's member communities know about the contributions we've made on their behalf.
+- [**Review pull requests from non-maintainers**](#review-prs)
+- [**Issue Triage office hours**](#issue-triage)
+- [**Sponsoring and Mentoring new Maintainers**](#mentoring-maintainers)
+- [**Increase bus factor and diversity of people making releases**](#release-diversity)
 
-## Foundational Contributions support a healthy open source community
+[^all]: **Implementation note**: We will not start doing **all** these immediately! We will consult with the rest of the team, and start these 1 at a time so we can build these processes sustainably and equitably.
 
-However, contributions can't always be driven by a stakeholder's needs or the open source team will not have an identity or support structure of its own. Here's another excerpt from our value proposition:
+### Review Pull Requests from non-maintainers {#review-prs}
 
-> We need infrastructure services that are driven by community needs and values, that follow the same open source science practices we wish to see in others, and that believe in the power of shared community resources and knowledge.
+Imagine two different scenarios:
 
-Being a "healthy upstream citizen" is core to 2i2c's mission, and is also a way to help communities we rely on remain healthy. Some of our contributions should be _Foundational_ rather than _Directed_. This means doing things that keep the overall ecosystem healthy even if it does not *directly* address a specific member community need. The *presence* of a healthy open source ecosystem is a value to our member communities in-and-of itself.
+1. You casually contribute a PR to some OSS project. Someone responds the next day, you have a pleasant back and forth, and it gets merged (or rejected) within a few days.
+2. You casually contribute a PR to some OSS project. Nobody responds for a year. Eventually someone leaves a comment. You have forgotten everything, and don't even respond. Much later, your PR gets closed as stale.
 
-Defining "Foundational" needs is difficult, because open source teams tend to have less structure and formally-stated goals and needs than most organizations. In 2i2c's case, we focus our Foundational Contributions around *maintaining the health of the open source ecosystem*.
+Which experience will encourage you to come back and contribute again?
 
-It includes things like:
+It's clearly (1). We should use our institutional capacity to bring the community closer to (1).
 
-1. Grow and guide new contributors to grow team capacity
-1. Help making releases
-1. Provide code review
-1. Fix broken CI
-1. Write documentation and tutorials
-1. Manage and run meetings
-1. Align open source teams on goals and strategy
+We'll accomplish this by including the following work item in every sprint:
 
-However, the real point is that these actions need to be driven by _the upstream project's goals and needs_, not by 2i2c's needs.
+> `Review of N PRs by non-maintainers of JupyterHub`
 
-Here are a few common examples of contributions that are _not considered_ Foundational for our team:
+We will build skills (via pairing, training, etc) inside 2i2c, as not everyone will feel comfortable reviewing pull requests for all projects, nor have rights to merge or close PRs. We may also do additional work like new contributor drives, better documentation, and policy advocacy. We will include pull requests of all types, not just code contributions. 
 
-1. Opening a PR to add a major feature to an upstream project.
-2. Creating a brand new project in an open source organization in order to scratch your own itch.
-3. Engaging in reactive open-source work that isn't driven by a clear strategy or goal (e.g., randomly responding to the last few GitHub issue comments you happened to notice)
+#### KPIs
 
-### We plan Foundational Contributions alongside our engineering roadmap
+We imagine two KPIs for this activity:
 
-Foundational Contributions are important to 2i2c both for strategic and tactical reasons. However, when left as unstructured time (as we have historically), it runs into all the problems of unstructured work - it happens in non-strategic ways, it isn't evenly balanced across team members, it is more or less accessible depending on your personal comfort level and skills, etc.
+1. Number of PRs merged (or closed) through our sprint planning activity.
+2. Number of *returning* contributors whose PRs were reviewed by us.
 
-With that in mind, here are a few ways that Foundational Contributions relate to our practices:
+### Issue Triage office hours {#issue-triage}
 
-- We need to _own Foundational Contributions as a team_, rather than asking individuals to identify and do this work on their own.
-- We need to define team _goals_ and _strategy_ to define the impact we want to have, and what kind of work leads to that impact.
-- We need a team system for identifying and prioritizing the most impactful Foundational Contributions to perform.
-- This system must spread the responsibility of Foundational Contributions across our whole product team.
-- It means we need to give people support and training to do this effectively. For example, helping team members grow into roles that involve upstream work, rotating certain types of contributions across team members, etc.
+Issue Triage involves combing through an upstream repository's issue tracker, engaging with new issues, refining them to be actionable, and signal boosting important ones for team action.
+This is hard for newcomers, as it often requires deep knowledge of various components to understand how to direct an issue or refine it.
+It's also challenging for team members still learning open source community dynamics. We'd like to upskill our team members within 2i2c and our upstream open source communities.
 
-To ensure this work is intentional and equitable across our team, we encourage Foundational contributions to happen within this framework. Contributions that falls outside of it is treated as a valued, but separate, personal contribution.
+As part of our sprints, we will run regular "Issue Triage" office hours.
+We'll begin by upskilling our _own 2i2c team members_ in effective issue triaging. We'll then explore opening issue triage sessions to the broader upstream community.
 
-## What's next
+#### KPIs
 
-By distinguishing between Directed and Foundational contributions, we can align and balance our immediate product needs with our long-term commitment to community health. We believe this framework allows organizations like ours to be better partners. We'd love feedback about this process, how we can improve it, and what others have learned along the way.
+1. Number of issues triaged by 2i2c team members.[^triage]
+
+[^triage]: This requires a definition of "an issue that has been triaged", and to our knowledge no such definition exists. We'd like to learn how to measure something abstract like "issue triage" - perhaps it is something specific putting it on a board for further action or applying a label, or something more abstract like "increasing how clear and actionable the issue is". We'll explore this when we start to make progress towards this objective.
+
+### Sponsoring and Mentoring new Maintainers {#mentoring-maintainers}
+
+OSS communities must grow their _contributors_ into _maintainers_, or they will die. 
+
+{{< figure src="https://imgs.xkcd.com/comics/dependency.png" alt="XKCD comic about dependency" link="https://xkcd.com/2347/" caption="XKCD comic about dependency" >}}
+
+Growing new maintainers takes time and effort from both the potential maintainer and existing maintainers who mentor and sponsor them. The focus on sponsorship is important, as [laid out by Lara Hogan](https://larahogan.me/blog/what-sponsorship-looks-like/). This work takes years, not months, to manifest.
+
+We will build structures to identify potential maintainers and create pathways for them to gain maintainership status. As JupyterHub lacks an explicit maintainer pathway, we will build our own process via these focus areas:
+
+1. Identifying potential candidates for maintainership
+2. Identifying potential community work they can do to help get involved (contributing bug fixes, code reviewing, issue triage, helping answer questions, contributing code / documentation, release management, etc)
+3. Build pathways for candidates to do (2) as appropriate.
+4. Iteratively continue until candidates have done 'enough' work to gain maintainership status.
+
+This work is nebulous but worthwhile. We will coordinate this effort closely with community leaders, recognizing it takes time to actualize.
+
+In the Jupyter community, maintainership status is tied to individuals, not to organizations they work for. Nobody should get maintainership status *simply* because they work for a specific organization (such as 2i2c). We should look for diverse candidates, ideally funded by different organizations, who are *interested* in becoming maintainers.
+
+> **Note**: We'd also like to start with individuals [in our **collaborator network**](../../../collaborators/_index.md). For example, we're using an engagement between [NASA VEDA](../../../collaborators/nasa-veda/) and [Development Seed](../../../collaborators/devseed/) to onboard several team members into these projects.
+
+#### KPI
+
+This measurement moves slowly, but is very clearly impactful:
+
+1. Number of people who have become maintainers due to our concerted efforts.
+
+### Increase bus factor and diversity of people making releases {#release-diversity}
+
+Making releases is often thankless but important to community health. It involves coordinating testing, writing changelogs, and providing upgrade instructions. Institutions can help by dedicating team time to perform this task regularly. To advance the 'multi-stakeholder' and 'high bus factor' aspects of our goal, we will have many different people do releases, via mentorship and sponsorship. This will integrate into our regular workstreams.
+
+#### KPIs
+
+1. Number of releases performed by 2i2c engineers
+2. Number of releases performed by others with sponsorship / mentorship from 2i2c engineers
+
+## Criteria for upstream projects to support
+
+Our long-term goal applies to upstream communities that:
+
+1. We strategically *depend* on to serve [our member communities](../../../members/) as part of [our community hub service](../../../platform/_index.md)
+2. We *need* to help sustain, given upstream community dynamics
+3. We have the *ability* to help sustain
+
+For example, Kubernetes satisfies (1) but not (2) or (3), while JupyterLab meets (1) and (2) but not (3) (presently). Currently this policy only applies to JupyterHub, but may change as our organization evolves.
+
+## How we'll implement this
+
+### Who is responsible
+
+Implementation is the responsibility of [2i2c's Product & Services team](https://compass.2i2c.org/product-and-services/). These activities must integrate into the team's daily practices, not become an external shadow process for some members.
+
+### How we'll fund this work
+
+Foundational upstream support requires significant work and expertise. We plan to fund this through:
+
+- Fees from [our member communities](../../../members/). A percentage of our membership fees includes covering the cost of Foundational contributions like this.
+- Targeted contributions from [some of our collaborators](../../../collaborators/). Some collaborators have funds and want to support open source at a foundational level, in some cases we use funds from these collaborators to cover our costs.
+
+We still need to explore what these efforts cost and mechanisms to recover those costs.
+
+## Next step: Learning in public
+
+We're excited to experiment with more effective upstream contribution and eager to learn. We'll share our experiences so others can learn from and comment on our process.
+
+## Acknowledgements
+
+- [@MinRK](https://github.com/minrk) and - [@bsipocz](https://github.com/bsipocz) for helping review a draft of this!
+- [@choldgraf](../../../authors/chris-holdgraf/_index.md) for feedback, guidance, and editing for this post and the team practices in it.
+- [JupyterHub](../../../collaborators/jupyterhub/), [JupyterBook](../../../collaborators/jupyter-book/), and [Project Jupyter](../../../collaborators/jupyter/) for teaching us a lot about open source over the years.
+
