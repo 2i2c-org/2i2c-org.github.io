@@ -35,9 +35,9 @@ Chris blogs now and then to share his thoughts, important announcements, and pro
 {#context}
 
 In early 2025, Chris was [elected to the Jupyter Executive Council](../jupyter-executive-council/index.md). 
-We're tracking these efforts because providing leadership and community support to open source projects is a [key Foundational contribution](../foundational-contributions/index.md) we wish to make for open source projects. 2i2c makes time for team members to contribute upstream in strategic ways like this as part of our [commitment to open practices](../../../open-practices/index.md). However, this kind of work is very difficult to track! This blog post is an attempt at putting these efforts into one place for us to track and for others to discover.
+We're tracking these efforts because providing leadership and community support to open source projects is a [key Foundational contribution](../good-citizen/index.md) we wish to make for open source projects. 2i2c makes time for team members to contribute upstream in strategic ways like this as part of our [commitment to open practices](../../../open-practices/index.md). However, this kind of work is very difficult to track! This blog post is an attempt at putting these efforts into one place for us to track and for others to discover.
 
 ## Acknowledgements
 
-- [2i2c's member communities](../../../members/index.md) support [Foundation open source contributions](../foundational-contributions/index.md) like this with their membership fees.
+- [2i2c's member communities](../../../members/index.md) support [Foundation open source contributions](../good-citizen/index.md) like this with their membership fees.
 - [The Navigation Fund](../../../collaborators/navigation/) provides strategic funding support for 2i2c which covers major open source leadership contributions like this.
