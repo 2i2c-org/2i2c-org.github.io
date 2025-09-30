@@ -1,18 +1,18 @@
 ---
 # THIS IS A TEMPLATE FOR COPY-PASTING TO MAKE IT EASIER TO CREATE BLOG POSTS
-title: Enabling / creating / X outcome by doing Y thing
+title: How to do XYZ thing for Y outcome
 date: "2999-01-01"
 authors:
   - Chris Holdgraf
 categories:
-- impact
+- learning
 tags:
 - open source
 ---
 
-One or two sentences about what happened and who did it. Link to the appropriate people, orgs, etc!
+One or two sentences setting context about a common problem.
 
-One or two sentences describing why this is important, why it's valuable, or what it means.
+One to many sections describing something we've tried and what we've learned in solving that problem.
 
 _Embed any images, videos, or youtube videos that are relevant. Put images in a file in the same folder called `featured.png` so it shows up as a feature preview._
 
@@ -26,5 +26,4 @@ _Embed any images, videos, or youtube videos that are relevant. Put images in a 
 
 ## EXTRA EXAMPLES
 
-- Service post: blog/2025/status-page/index.md
-- Impact post: blog/2025/hackweek-shoutout/index.md
+Here's a blog post with an example of what we're looking for: content/blog/2025/github-action-secrets-forked-repositories/index.md

@@ -28,3 +28,7 @@ On MMMM DD, YYYY our cloud infrastructure team experienced an incident with the 
 
 - Thanks to ___ for helping us identify the problem.
 - Thanks to ___ for helping us implement a solution.
+
+## EXTRA EXAMPLES
+
+- content/blog/2025/incident-ucmerced-user-throttling/index.md
