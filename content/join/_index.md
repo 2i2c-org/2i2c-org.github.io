@@ -18,5 +18,5 @@ title: Join our network of community hubs.
     height: 100em;
   }
 </style>
-<iframe class="sales-iframe" src="https://sales.2i2c.org/2i2c-uk-rse-2025">
+<iframe class="sales-iframe" src="https://sales.2i2c.org/service-description">
 </iframe>
