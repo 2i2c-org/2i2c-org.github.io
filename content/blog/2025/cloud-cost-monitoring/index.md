@@ -1,6 +1,6 @@
 ---
 title: Enabling transparent cloud cost monitoring with user-level dashboards
-date: "2025-10-02"
+date: "2025-09-30"
 authors:
   - Chris Holdgraf
   - Jenny Wong
