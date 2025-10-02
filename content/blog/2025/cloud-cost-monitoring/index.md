@@ -26,9 +26,8 @@ The user-level cost breakdown allows communities to identify individual usage tr
 
 - [Community Hub Guide](https://docs.2i2c.org/admin/howto/monitoring/cost-users/)
 
-
 ## Acknowledgements
 
-- [Development Seed](../../collaborators/devseed/) for working on this with us.
+- Tarashish @ [Development Seed](../../collaborators/devseed/) for working on this with us.
 - [NASA VEDA](../../collaborators/nasa-veda/) for funding much of this work.
 - [Openscapes](../../collaborators/openscapes/) and [Earthscope](../../collaborators/earthscope/) for giving us close feedback.
