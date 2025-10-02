@@ -1,6 +1,9 @@
 ---
 title: Enabling transparent cloud cost monitoring with user-level dashboards
-date: "2025-09-20"
+date: "2025-10-02"
+authors:
+  - Chris Holdgraf
+  - Jenny Wong
 categories:
 - service
 tags:
@@ -9,7 +12,7 @@ tags:
 - transparency
 ---
 
-We've been working on new functionality that gives communities **dashboards to monitor their cloud usage and costs at a per-user level**. We're getting close to making this widely available for community hubs, and wanted to share a few dashboards for feedback.
+We are excited to announce that **dashboards to monitor cloud usage and costs at a per-user level** are now available!
 
 A key goal of 2i2c is to make the cloud safe for science. By providing transparent cost monitoring, we give communities the confidence that they won't face unexpected bills and can better understand how their usage patterns translate to cloud costs. This visibility is especially valuable in our shared platform model, where each community gets their own independent hub while benefiting from shared infrastructure expertise.
 
@@ -17,9 +20,12 @@ A key goal of 2i2c is to make the cloud safe for science. By providing transpare
 
 The user-level cost breakdown allows communities to identify individual usage trends and manage their resources more effectively. Communities can now see exactly how their computational work translates to cloud spending, enabling better resource planning and budget management.
 
+{{< feedback >}}
+
 ## Learn more
 
-- [Pull request with implementation documentation](https://github.com/2i2c-org/docs/pull/269#pullrequestreview-3242224272)
+- [Community Hub Guide](https://docs.2i2c.org/admin/howto/monitoring/cost-users/)
+
 
 ## Acknowledgements
 
