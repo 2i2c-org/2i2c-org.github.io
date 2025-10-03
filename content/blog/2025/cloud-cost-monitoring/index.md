@@ -30,4 +30,4 @@ The user-level cost breakdown allows communities to identify individual usage tr
 
 - Tarashish @ [Development Seed](../../collaborators/devseed/) for working on this with us.
 - [NASA VEDA](../../collaborators/nasa-veda/) for funding much of this work.
-- Andy @ [Openscapes](../../collaborators/openscapes/) and Sarah @ [Earthscope](../../collaborators/earthscope/) for giving us close feedback.
+- Andy @ [Openscapes](../../collaborators/openscapes/), Alex @ Development Seed and Sarah @ [Earthscope](../../collaborators/earthscope/) for giving us close feedback.
