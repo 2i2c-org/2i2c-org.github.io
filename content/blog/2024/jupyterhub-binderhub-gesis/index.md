@@ -6,7 +6,7 @@ authors:
   - Yuvi Panda
 tags:
   - jupyterhub
-  - open source
+  - open-source
 categories:
   - service
 date: 2024-01-03T16:56:14-08:00

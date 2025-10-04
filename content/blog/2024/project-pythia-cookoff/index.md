@@ -6,8 +6,8 @@ authors:
   - James Munroe
   - Angus Hollands
 tags:
-  - open source
-  - Jupyter Book
+  - open-source
+  - jupyter-book
   - geospatial
 categories:
   - impact

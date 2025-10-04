@@ -4,7 +4,7 @@ date: 2025-05-08
 authors:
   - Angus Hollands
 tags:
-  - jupyter book
+  - jupyter-book
 categories:
   - service
 featured: false

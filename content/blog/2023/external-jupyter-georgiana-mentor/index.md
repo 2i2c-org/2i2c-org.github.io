@@ -5,7 +5,7 @@ summary: ""
 authors:
   - Georgiana Dolocan
 tags:
-  - open source
+  - open-source
 categories:
   - impact
 date: 2023-06-30

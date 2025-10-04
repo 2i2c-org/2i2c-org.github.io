@@ -1,15 +1,15 @@
 ---
 title: Enabling transparent cloud cost monitoring with user-level dashboards
-date: "2025-09-30"
+date: 2025-09-30
 authors:
   - Chris Holdgraf
   - Jenny Wong
 categories:
-- service
+  - service
 tags:
-- open source
-- cloud costs
-- transparency
+  - open-source
+  - cloud-costs
+  - transparency
 ---
 
 We are excited to announce that **dashboards to monitor cloud usage and costs at a per-user level** are now available!

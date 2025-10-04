@@ -4,7 +4,7 @@ date: 2024-11-18
 authors:
   - Jenny Wong
 tags:
-  - open source
+  - open-source
 categories:
   - impact
 featured: false

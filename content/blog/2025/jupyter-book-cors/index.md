@@ -5,7 +5,7 @@ authors:
   - Chris Holdgraf
   - Angus Hollands
 tags:
-  - open source
+  - open-source
 categories:
   - impact
 featured: false

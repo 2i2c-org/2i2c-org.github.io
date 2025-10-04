@@ -2,7 +2,7 @@
 title: Openscapes goes to the White House!
 date: 2024-09-23
 tags:
-  - open source
+  - open-source
 categories:
   - impact
 featured: false

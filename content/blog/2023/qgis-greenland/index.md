@@ -6,7 +6,7 @@ authors:
   - Jenny Wong
 tags:
   - geoscience
-  - open source
+  - open-source
 categories:
   - service
 featured: false

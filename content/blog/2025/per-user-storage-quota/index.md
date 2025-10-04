@@ -5,7 +5,7 @@ summary: ""
 authors:
   - Sarah Gibson
 tags:
-  - open source
+  - open-source
   - storage
 categories:
   - service

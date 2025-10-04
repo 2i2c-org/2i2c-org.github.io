@@ -7,7 +7,7 @@ authors:
 tags:
   - funding
   - community
-  - open culture
+  - open-culture
   - sustainability
 categories:
   - organization

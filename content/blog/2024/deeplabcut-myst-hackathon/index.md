@@ -7,7 +7,7 @@ authors:
   - Chris Holdgraf
 tags:
   - bioscience
-  - open source
+  - open-source
 categories:
   - impact
 featured: false

@@ -5,7 +5,7 @@ authors:
   - Georgiana Dolocan
   - James Munroe
 tags:
-  - open source
+  - open-source
   - geoscience
 categories:
   - service

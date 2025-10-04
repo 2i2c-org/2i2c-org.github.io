@@ -3,7 +3,7 @@ title: "The why, what, and how of our NASA Openscapes cloud infrastructure: 2i2c
 date: 2022-11-17
 tags:
   - geoscience
-  - open source
+  - open-source
 categories:
   - impact
 featured: false

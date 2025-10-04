@@ -7,8 +7,8 @@ authors:
   - Chris Holdgraf
   - Rowan Cockett
 tags:
-  - open source
-  - Jupyter Book
+  - open-source
+  - jupyter-book
 categories:
   - impact
 featured: false

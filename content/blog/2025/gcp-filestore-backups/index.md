@@ -5,7 +5,7 @@ summary: ""
 authors:
   - Sarah Gibson
 tags:
-  - open source
+  - open-source
 categories:
   - service
 date: 2025-02-07T13:08:22+00:00

@@ -7,7 +7,7 @@ authors:
   - Jenny Wong
 tags:
   - bioscience
-  - open source
+  - open-source
 categories:
   - impact
 featured: false

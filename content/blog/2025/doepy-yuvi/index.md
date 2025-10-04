@@ -7,7 +7,7 @@ authors:
 categories:
   - impact
 tags:
-  - open source
+  - open-source
   - foundational-contribution
 ---
 

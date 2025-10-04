@@ -1,10 +1,14 @@
 ---
-title: "Updates from Chris' position on the Jupyter Executive Council and Foundation Board"
+title: Updates from Chris' position on the Jupyter Executive Council and Foundation Board
 subtitle: ""
-authors: ["Chris Holdgraf"]
-tags: ["open source", "jupyter"]
-categories: ["impact"]
-date: "2025-09-23"
+authors:
+  - Chris Holdgraf
+tags:
+  - open-source
+  - jupyter
+categories:
+  - impact
+date: 2025-09-23
 featured: false
 draft: false
 ---
