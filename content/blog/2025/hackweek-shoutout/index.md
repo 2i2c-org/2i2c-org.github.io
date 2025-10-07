@@ -4,12 +4,11 @@ subtitle: ""
 authors:
   - April Johnson
 tags:
-  - oceanography
-  - climate
+  - earth-science
   - open-source
   - community
 categories:
-  - impact
+  - community-impact
 date: 2025-03-11
 featured: false
 draft: false

@@ -7,7 +7,7 @@ authors:
 tags:
   - open-source
 categories:
-  - impact
+  - upstream-impact
 aliases:
   - /blog/2025/foundational-contributions/
 ---

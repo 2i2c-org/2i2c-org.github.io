@@ -1,12 +1,10 @@
 ---
-# THIS IS A TEMPLATE FOR COPY-PASTING TO MAKE IT EASIER TO CREATE BLOG POSTS
-# folder name: incident-short-title/
 title: "Incident report: Brief description of the incident"
-date: "2999-01-01"
+date: 2999-01-01
 categories:
-- incident-report
+  - service-enhancements
 tags:
-- cloud
+  - incident-report
 ---
 
 On MMMM DD, YYYY our cloud infrastructure team experienced an incident with the XXXXX community hub. [See this issue for the full report](LINK TO ISSUE IN 2i2c-org/incident-reports).

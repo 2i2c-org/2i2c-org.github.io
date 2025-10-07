@@ -6,7 +6,7 @@ authors:
   - Chris Holdgraf
   - Danielle Robinson
 tags:
-  - governance
+  - sustainability
 categories:
   - organization
 date: 2021-09-30

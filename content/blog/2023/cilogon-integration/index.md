@@ -7,7 +7,7 @@ authors:
 tags:
   - open-source
 categories:
-  - service
+  - service-enhancements
 date: 2023-02-24
 featured: false
 draft: false

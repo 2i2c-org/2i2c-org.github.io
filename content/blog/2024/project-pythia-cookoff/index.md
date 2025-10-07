@@ -7,10 +7,10 @@ authors:
   - Angus Hollands
 tags:
   - open-source
-  - jupyter-book
-  - geospatial
+  - jupyterbook
+  - earth-science
 categories:
-  - impact
+  - community-impact
 featured: false
 draft: false
 ---

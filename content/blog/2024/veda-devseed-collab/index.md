@@ -5,10 +5,10 @@ authors:
   - Yuvi Panda
   - Jenny Wong
 tags:
-  - geoscience
+  - earth-science
   - open-source
 categories:
-  - impact
+  - community-impact
 featured: false
 draft: false
 ---

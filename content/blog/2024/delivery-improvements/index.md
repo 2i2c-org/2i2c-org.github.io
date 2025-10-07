@@ -6,7 +6,7 @@ authors:
   - Chris Holdgraf
   - Harold Campbell
 tags:
-  - culture
+  - community
 categories:
   - organization
 featured: false

@@ -4,9 +4,9 @@ date: 2025-05-08
 authors:
   - Angus Hollands
 tags:
-  - jupyter-book
+  - jupyterbook
 categories:
-  - service
+  - service-enhancements
 featured: false
 draft: false
 ---

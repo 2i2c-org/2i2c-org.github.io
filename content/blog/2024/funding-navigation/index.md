@@ -4,7 +4,7 @@ date: 2024-12-08
 authors:
   - Chris Holdgraf
 tags:
-  - funding
+  - sustainability
 categories:
   - organization
 image:

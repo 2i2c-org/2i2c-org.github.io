@@ -1,10 +1,12 @@
 ---
 title: Our Product and Service goals for Q3 2025
 authors:
-- Giuliano Maciocci
-- Chris Holdgraf
-categories: service
+  - Giuliano Maciocci
+  - Chris Holdgraf
+categories: service-enhancements
 date: 2025-07-22
+tags:
+  - update
 ---
 
 As we enter Q3 2025, our focus remains on enabling better cost controls for our communities and increasing flexibility for end-users. In line with our commitment to transparency, we’re sharing our platform and service objectives for the quarter and inviting feedback to ensure our direction reflects what matters most to the communities we serve. See our [product goals from the previous quarter here](../q2-product-goals/index.md).

@@ -1,15 +1,12 @@
 ---
 title: Giving CCAD more control over data science infrastructure via a Catalyst Project hardware exchange
-date: "2025-09-02"
+date: 2025-09-02
 authors:
   - Chris Holdgraf
   - James Munroe
 categories:
-  - impact
+  - community-impact
 tags:
-  - open-source
-  - cloud
-  - foundational-contribution
   - sovereignty
 ---
 

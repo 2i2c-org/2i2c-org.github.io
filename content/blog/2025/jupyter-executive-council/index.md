@@ -8,7 +8,7 @@ tags:
   - jupyter
   - community
 categories:
-  - impact
+  - upstream-impact
 date: 2025-03-10
 featured: false
 draft: false

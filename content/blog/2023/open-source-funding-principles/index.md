@@ -5,10 +5,8 @@ summary: ""
 authors:
   - Chris Holdgraf
 tags:
-  - funding
-  - community
-  - open-culture
   - sustainability
+  - community
 categories:
   - organization
 date: 2023-01-08

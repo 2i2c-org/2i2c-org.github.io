@@ -5,9 +5,9 @@ summary: ""
 authors:
   - Chris Holdgraf
 tags:
-  - bioscience
+  - biology
 categories:
-  - impact
+  - community-impact
 date: 2022-12-20
 featured: false
 draft: false

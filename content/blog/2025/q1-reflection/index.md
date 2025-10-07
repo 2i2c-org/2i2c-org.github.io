@@ -1,8 +1,12 @@
 ---
 title: "2025-Q1 reflection: Building a foundation for our new platform and membership model"
-authors: ["Chris Holdgraf"]
-categories: [organization]
+authors:
+  - Chris Holdgraf
+categories:
+  - organization
 date: 2025-04-16
+tags:
+  - update
 ---
 
 _This is a summary of major progress we made in Q1 of 2025. Its goal is to summarize our major accomplishments and important context before we prioritize for Q2. We hope this gives our community stakeholders a more strategic-level insight into our progress and organizational plans. See [our Product Highlights for 2025Q1](../q1-product-highlights/index.md) for a product-focused review.  Please [give us feedback](mailto:hello@2i2c.org) for how we can provide more useful information._

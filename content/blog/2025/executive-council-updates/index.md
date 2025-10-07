@@ -7,7 +7,7 @@ tags:
   - open-source
   - jupyter
 categories:
-  - impact
+  - upstream-impact
 date: 2025-09-23
 featured: false
 draft: false

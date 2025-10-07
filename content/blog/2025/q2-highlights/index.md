@@ -1,11 +1,13 @@
 ---
 authors:
-- Giuliano Maciocci
-- Chris Holdgraf
-- April Johnson
+  - Giuliano Maciocci
+  - Chris Holdgraf
+  - April Johnson
 date: 2025-07-21
 categories: organization
 title: Product and team highlights from Q2 2025
+tags:
+  - update
 ---
 
 

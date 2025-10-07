@@ -4,7 +4,7 @@ date: 2024-12-06
 tags:
   - open-source
 categories:
-  - service
+  - service-enhancements
 authors:
   - Chris Holdgraf
   - Yuvi Panda

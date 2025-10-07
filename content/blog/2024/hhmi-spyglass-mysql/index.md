@@ -6,10 +6,10 @@ authors:
   - James Munroe
   - Jenny Wong
 tags:
-  - bioscience
+  - biology
   - open-source
 categories:
-  - impact
+  - community-impact
 featured: false
 draft: false
 ---

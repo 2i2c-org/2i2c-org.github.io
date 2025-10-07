@@ -1,8 +1,12 @@
 ---
-title: "Our Product and Service goals for Q2 2025"
-authors: ["Giuliano Maciocci", "Chris Holdgraf"]
-categories: service
+title: Our Product and Service goals for Q2 2025
+authors:
+  - Giuliano Maciocci
+  - Chris Holdgraf
+categories: organization
 date: 2025-04-16
+tags:
+  - update
 ---
 
 _As we head into Q2 of 2025, we continue to focus our work delivering on a small set of core themes that reflect our communities’ most pressing needs. As a part of this process, we want to continue sharing our platform and service goals in an effort to remain transparent, as well as to provide our communities with an opportunity to give us feedback on our direction, and on what’s important for them. See [last quarter’s product goals here](../q1-product-goals/index.md)._

@@ -4,7 +4,7 @@ date: 2024-09-23
 tags:
   - open-source
 categories:
-  - impact
+  - community-impact
 featured: false
 draft: false
 ---

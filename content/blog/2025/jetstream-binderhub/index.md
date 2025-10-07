@@ -6,9 +6,9 @@ authors:
   - James Munroe
 tags:
   - open-source
-  - geoscience
+  - earth-science
 categories:
-  - service
+  - service-enhancements
 featured: false
 draft: false
 ---

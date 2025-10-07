@@ -1,12 +1,13 @@
 ---
 title: Solving classes of problems, rather than just an instance of a problem (with an example)
-date: "2025-06-09"
+date: 2025-06-09
 categories:
-  - service
+  - service-enhancements
 authors:
   - Yuvi Panda
 tags:
-  - engineering
+  - community
+  - reliability
 ---
 
 ## The Problem

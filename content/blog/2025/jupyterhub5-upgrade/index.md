@@ -6,7 +6,7 @@ authors:
 tags:
   - jupyterhub
 categories:
-  - service
+  - service-enhancements
 featured: false
 draft: false
 ---

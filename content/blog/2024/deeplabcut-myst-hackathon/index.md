@@ -6,10 +6,10 @@ authors:
   - Angus Hollands
   - Chris Holdgraf
 tags:
-  - bioscience
+  - biology
   - open-source
 categories:
-  - impact
+  - community-impact
 featured: false
 draft: false
 ---

@@ -5,7 +5,7 @@ lastmod: 2024-05-06
 authors:
   - Chris Holdgraf
 tags:
-  - product
+  - leadership
 categories:
   - organization
 featured: false

@@ -5,7 +5,7 @@ summary: ""
 authors:
   - Chris Holdgraf
 tags:
-  - bioscience
+  - biology
 categories:
   - organization
 date: 2022-11-13

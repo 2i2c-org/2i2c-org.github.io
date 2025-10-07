@@ -4,7 +4,6 @@ date: 2999-01-01
 authors:
   - <pull from issue>
 categories:
-  - impact
 tags:
   - open-source
 ---

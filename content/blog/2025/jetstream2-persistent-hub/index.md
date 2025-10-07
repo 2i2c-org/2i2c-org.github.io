@@ -6,7 +6,7 @@ authors:
 tags:
   - open-source
 categories:
-  - service
+  - service-enhancements
 featured: false
 draft: false
 ---

@@ -2,7 +2,7 @@
 title: Overhauling repo2docker's documentation
 date: 2025-08-01
 author: Chris Holdgraf
-categories: impact
+categories: upstream-impact
 tags:
   - open-source
 ---

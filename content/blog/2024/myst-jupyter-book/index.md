@@ -8,9 +8,9 @@ authors:
   - Rowan Cockett
 tags:
   - open-source
-  - jupyter-book
+  - jupyterbook
 categories:
-  - impact
+  - upstream-impact
 featured: false
 draft: false
 ---

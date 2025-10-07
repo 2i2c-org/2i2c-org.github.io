@@ -2,10 +2,10 @@
 title: Jupyter Book at the Scientific Python 2025 Developer Summit
 date: 2025-05-23
 tags:
-  - jupyter-book
+  - jupyterbook
   - open-source
 categories:
-  - impact
+  - upstream-impact
 featured: false
 draft: false
 external_link:
