@@ -4,12 +4,11 @@ date: "2025-09-30"
 authors:
   - Chris Holdgraf
 categories:
-- service
+- upstream-impact
 tags:
 - learning
-- open source
-- github actions
-- continuous integration
+- how-to
+- open-source
 ---
 
 If you've worked with GitHub Actions in open source projects, you might encounter a hard-to-debug error where repository secrets are simply _empty_. That's probably because the PR is from a forked repository! Here's a little learning we had after losing a bunch of time figuring this out:

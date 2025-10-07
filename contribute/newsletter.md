@@ -13,6 +13,8 @@ In [Month] we focused on [big theme that stands out and major takeaways]. We [ac
 [/Intro]
 
 [Highlights]
+<p class="category-label [category]">[category nam with spaces not -]</p>
+
 ## [Title of Featured Post N (1-3 total)]
 
 [Description - 1-3 sentences describing what happened, why it matters, and any important information a user would want to know.]
