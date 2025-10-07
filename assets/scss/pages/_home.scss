@@ -27,3 +27,62 @@ ul.cta-group {
     max-height: 80vh;
     overflow-y: auto;
 }
+
+// Blog cards grid - responsive layout for recent posts
+.blog-cards-grid {
+    .archive {
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+
+        // 2 cards on tablets+
+        @media (min-width: 768px) {
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+}
+
+// Recent posts in a single row on medium+ screens
+.recent-posts-row {
+    .col-12 {
+        .card {
+            display: flex;
+            flex-direction: column;
+
+            .card-image {
+                height: 200px;
+                overflow: hidden;
+                flex-shrink: 0;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+
+            .card-text {
+                flex-grow: 1;
+            }
+        }
+
+        // Single row on medium and larger screens
+        @media (min-width: 768px) {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+            align-items: stretch;
+
+            .card {
+                flex: 1;
+                min-width: 0; // Prevent flex items from overflowing
+                margin-bottom: 0;
+            }
+
+            .see-all {
+                flex-basis: 100%; // Force see-all to take full width and wrap to new line
+                margin-top: 0;
+            }
+        }
+    }
+}
