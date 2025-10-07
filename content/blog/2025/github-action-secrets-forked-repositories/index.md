@@ -1,6 +1,6 @@
 ---
 title: GitHub Action secrets are only available from non-forked repositories!
-date: "2025-09-30"
+date: "2025-10-08"
 authors:
   - Chris Holdgraf
 categories:
