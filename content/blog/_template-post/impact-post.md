@@ -21,3 +21,8 @@ _Embed any images, videos, or youtube videos that are relevant. Put images in a 
 ## Acknowledgements
 
 - Bulleted list of people and organizations to thank, with links to their spaces.
+
+## EXTRA EXAMPLES
+
+- Service post: blog/2025/status-page/index.md
+- Impact post: blog/2025/hackweek-shoutout/index.md
