@@ -1,8 +1,6 @@
 ---
 title: Openscapes is hiring a new team member
 date: 2025-10-07
-authors:
-  - 2i2c
 categories:
   - community-impact
 tags:
