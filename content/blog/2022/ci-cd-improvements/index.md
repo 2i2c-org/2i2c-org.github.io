@@ -5,9 +5,10 @@ summary: ""
 authors:
   - Sarah Gibson
 tags:
-  - cloud
+  - devops
+  - reliability
 categories:
-  - service
+  - service-enhancements
 date: 2022-04-19
 featured: false
 draft: false

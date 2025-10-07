@@ -2,10 +2,10 @@
 title: Simplifying and speeding up Binder builds with BuildKit
 date: 2025-03-03
 tags:
-  - upstream
-  - open source
+  - reliability
+  - open-source
 categories:
-  - impact
+  - upstream-impact
 featured: false
 draft: false
 authors:

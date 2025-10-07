@@ -2,9 +2,9 @@
 title: Hub Champion Training Reflections (English)
 date: 2024-09-04
 tags:
-  - bioscience
+  - biology
 categories:
-  - impact
+  - community-impact
 featured: false
 draft: false
 ---

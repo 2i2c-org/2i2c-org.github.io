@@ -79,7 +79,7 @@ sections:
         folders:
           - blog
         # These are the tags that will show up in the list
-        tags: ["geoscience", "bioscience", "education", "open source"]
+        tags: ["earth-science", "biology", "education", "open source"]
         author: ""
         publication_type: ""
         featured_only: false
@@ -95,14 +95,14 @@ sections:
       buttons:
         - name: All
           tag: '*'
-        - name: Geoscience
-          tag: geoscience
-        - name: Bioscience
-          tag: bioscience
+        - name: Earth Science
+          tag: earth-science
+        - name: Biology
+          tag: biology
         - name: Education
           tag: education
         - name: Open Source
-          tag: open source
+          tag: open-source
     design:
       # Choose a listing view
       view: masonry

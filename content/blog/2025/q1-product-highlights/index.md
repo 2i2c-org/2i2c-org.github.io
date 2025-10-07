@@ -1,8 +1,13 @@
 ---
-title: "Our product highlights from Q2 2025"
-authors: ["Chris Holdgraf", "Giuliano Maccioci"]
-categories: [service]
+title: Our product highlights from Q2 2025
+authors:
+  - Chris Holdgraf
+  - Giuliano Maccioci
+categories:
+  - organization
 date: 2025-04-16
+tags:
+  - update
 ---
 
 _These describe the major service improvements that we rolled out in Q1 2025. See this [blog post describing our product enhancement goals in Q1 2025](../q1-product-goals/index.md) for the targets we intended to hit this quarter. Below is a brief description of what we accomplished._

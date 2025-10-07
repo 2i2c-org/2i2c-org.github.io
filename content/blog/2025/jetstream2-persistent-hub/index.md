@@ -4,9 +4,9 @@ date: 2025-04-28
 authors:
   - Georgiana Dolocan
 tags:
-  - open source
+  - open-source
 categories:
-  - service
+  - service-enhancements
 featured: false
 draft: false
 ---

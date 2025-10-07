@@ -4,9 +4,9 @@ date: 2024-05-21
 authors:
   - Jenny Wong
 tags:
-  - bioscience
+  - biology
 categories:
-  - impact
+  - community-impact
 featured: false
 draft: false
 ---

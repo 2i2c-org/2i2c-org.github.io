@@ -5,9 +5,9 @@ authors:
   - Chris Holdgraf
   - Angus Hollands
 tags:
-  - open source
+  - open-source
 categories:
-  - impact
+  - upstream-impact
 featured: false
 draft: false
 ---

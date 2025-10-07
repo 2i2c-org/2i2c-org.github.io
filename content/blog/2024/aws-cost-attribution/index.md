@@ -6,7 +6,7 @@ authors:
 tags:
   - monitoring
 categories:
-  - service
+  - service-enhancements
 featured: false
 draft: false
 ---

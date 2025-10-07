@@ -5,10 +5,10 @@ summary: ""
 authors:
   - Sarah Gibson
 tags:
-  - open source
-  - storage
+  - open-source
+  - data
 categories:
-  - service
+  - service-enhancements
 date: 2025-01-28T09:57:28+00:00
 lastmod: 2025-01-28T10:10:14+00:00
 featured: false

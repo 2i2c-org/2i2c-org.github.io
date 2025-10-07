@@ -1,9 +1,11 @@
 ---
-title: "Demonstrating our infrastructure's reliability with a hub status page for our communities"
+title: Demonstrating our infrastructure's reliability with a hub status page for our communities
 subtitle: ""
-tags: ["reliability"]
-categories: ["service"]
-date: "2025-09-23"
+tags:
+  - reliability
+categories:
+  - service-enhancements
+date: 2025-09-23
 featured: false
 draft: false
 ---

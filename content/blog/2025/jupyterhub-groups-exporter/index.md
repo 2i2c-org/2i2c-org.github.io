@@ -1,10 +1,14 @@
 ---
 title: "Announcing `jupyterhub-groups-exporter`: monitor usage based on JupyterHub group membership with Prometheus and Grafana"
 subtitle: ""
-authors: ["Jenny Wong"]
-tags: ["jupyterhub", "prometheus", "grafana", "kubernetes"]
-categories: ["Service"]
-date: "2025-06-11"
+authors:
+  - Jenny Wong
+tags:
+  - jupyterhub
+  - monitoring
+categories:
+  - service-enhancements
+date: 2025-06-11
 featured: false
 draft: false
 ---

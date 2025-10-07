@@ -4,7 +4,7 @@ date: 2025-09-10
 authors:
   - Chris Holdgraf
 tags:
-  - open source
+  - open-source
 categories:
   - organization
 featured: false

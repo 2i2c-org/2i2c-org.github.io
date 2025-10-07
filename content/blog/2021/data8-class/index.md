@@ -6,7 +6,7 @@ authors:
 tags:
   - education
 categories:
-  - impact
+  - community-impact
 featured: false
 draft: false
 ---

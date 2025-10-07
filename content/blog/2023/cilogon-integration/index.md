@@ -5,9 +5,9 @@ summary: The following is a summary of how CILogon is used at 2i2c, how the inte
 authors:
   - Georgiana Dolocan
 tags:
-  - open source
+  - open-source
 categories:
-  - service
+  - service-enhancements
 date: 2023-02-24
 featured: false
 draft: false

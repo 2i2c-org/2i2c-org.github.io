@@ -2,9 +2,9 @@
 title: From the GeoLab team - Pancakes are the future of geophysical data processing
 date: 2024-10-01
 tags:
-  - geoscience
+  - earth-science
 categories:
-  - impact
+  - community-impact
 featured: false
 draft: false
 ---

@@ -4,10 +4,10 @@ date: 2024-06-21
 authors:
   - Jenny Wong
 tags:
-  - bioscience
+  - biology
   - education
 categories:
-  - impact
+  - community-impact
 featured: false
 draft: false
 ---

@@ -5,9 +5,9 @@ summary: ""
 authors:
   - Georgiana Dolocan
 tags:
-  - open source
+  - open-source
 categories:
-  - impact
+  - upstream-impact
 date: 2023-06-30
 featured: false
 draft: false

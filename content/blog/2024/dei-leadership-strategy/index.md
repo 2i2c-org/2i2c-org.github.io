@@ -5,7 +5,7 @@ authors:
   - Chris Holdgraf
   - Jenny Wong
 tags:
-  - culture
+  - community
 categories:
   - organization
 featured: false

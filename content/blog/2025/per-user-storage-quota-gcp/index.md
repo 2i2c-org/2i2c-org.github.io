@@ -5,9 +5,9 @@ summary: ""
 authors:
   - Sarah Gibson
 tags:
-  - open source
+  - open-source
 categories:
-  - service
+  - service-enhancements
 date: 2025-02-25T14:18:04+00:00
 lastmod: 2025-02-25T14:18:04+00:00
 featured: false

@@ -5,7 +5,7 @@ summary: ""
 authors:
   - Chris Holdgraf
 tags:
-  - year-in-review
+  - report
 categories:
   - organization
 date: 2023-01-04

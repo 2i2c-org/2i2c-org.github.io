@@ -6,7 +6,7 @@ authors:
   - Chris Holdgraf
 tags:
   - sustainability
-  - funding
+  - sustainability
 categories:
   - organization
 featured: false

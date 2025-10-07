@@ -1,10 +1,15 @@
 ---
-title: "2i2c's submissions to JupyterCon 2025"
+title: 2i2c's submissions to JupyterCon 2025
 subtitle: ""
-authors: ["The 2i2c team"]
-tags: ["open source", "jupyter", "community"]
-categories: ["impact"]
-date: "2025-07-19"
+authors:
+  - The 2i2c team
+tags:
+  - open-source
+  - jupyter
+  - community
+categories:
+  - upstream-impact
+date: 2025-07-19
 featured: false
 draft: false
 ---

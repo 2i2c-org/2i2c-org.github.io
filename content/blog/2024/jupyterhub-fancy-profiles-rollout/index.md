@@ -6,9 +6,9 @@ authors:
   - Yuvi Panda
 tags:
   - jupyterhub
-  - open source
+  - open-source
 categories:
-  - service
+  - service-enhancements
 date: 2024-11-18T12:55:20-0800
 lastmod: 2024-11-18T12:55:20-0800
 featured: false

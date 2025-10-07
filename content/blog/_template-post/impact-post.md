@@ -1,13 +1,11 @@
 ---
-# THIS IS A TEMPLATE FOR COPY-PASTING TO MAKE IT EASIER TO CREATE BLOG POSTS
 title: Enabling / creating / X outcome by doing Y thing
-date: "2999-01-01"
+date: 2999-01-01
 authors:
-  - Chris Holdgraf
+  - <pull from issue>
 categories:
-- impact
 tags:
-- open source
+  - open-source
 ---
 
 One or two sentences about what happened and who did it. Link to the appropriate people, orgs, etc!
