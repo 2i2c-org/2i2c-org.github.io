@@ -14,65 +14,6 @@ Acknowledgements
 &lt;/h2>&lt;ul>
 &lt;li>
 &lt;a href="https://2i2c.org/collaborators/openscapes/" >Openscapes&lt;/a> for their continued work in empowering the research community&lt;/li>
-&lt;/ul></description></item><item><title>More transparency and control for your cloud infrastructure | 2i2c September 2025 Community Update</title><link>https://2i2c.org/blog/2025/newsletter-09/</link><pubDate>Wed, 01 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/newsletter-09/</guid><description>&lt;p>September was a big month for giving our communities better visibility into their infrastructure. We shipped
-&lt;a href="https://2i2c.org/blog/2025/cloud-cost-monitoring/" target="_blank" rel="noopener" >per-user cost dashboards&lt;/a>, launched a
-&lt;a href="https://2i2c.org/blog/2025/status-page/" target="_blank" rel="noopener" >status page at status.2i2c.org&lt;/a>, and
-&lt;a href="https://2i2c.org/blog/2025/aws-cost-reduction/" target="_blank" rel="noopener" >cut baseline AWS costs&lt;/a> by switching to more efficient instance types. We also helped CCAD gain
-&lt;a href="https://2i2c.org/blog/2025/catalyst-hardware-exchange/" target="_blank" rel="noopener" >more control over their computing infrastructure&lt;/a> through a hardware exchange, and shared our thinking about
-&lt;a href="https://2i2c.org/blog/2025/good-citizen/" target="_blank" rel="noopener" >being responsible open source citizens&lt;/a>. Here&amp;rsquo;s what stood out:&lt;/p>
-&lt;h2 id="enabling-transparent-cloud-cost-monitoring-with-user-level-dashboards">
-Enabling transparent cloud cost monitoring with user-level dashboards
-&lt;a class="header-anchor" href="#enabling-transparent-cloud-cost-monitoring-with-user-level-dashboards">#&lt;/a>
-&lt;/h2>&lt;p>We shipped dashboards that let communities monitor cloud usage and costs at a per-user level. This gives communities confidence they won&amp;rsquo;t face unexpected bills and helps them understand how their usage patterns translate to cloud costs. Communities can now see exactly how their computational work translates to spending, enabling better resource planning and budget management.&lt;/p>
-&lt;figure>
-&lt;img src="https://2i2c.org/blog/2025/cloud-cost-monitoring/featured.png" alt="Cloud cost monitoring dashboard showing user-level usage and cost breakdowns">
-&lt;figcaption>The new cost monitoring dashboard shows per-user breakdowns of cloud usage and costs.&lt;/figcaption>
-&lt;/figure>
-&lt;p>Read more 👉
-&lt;a href="https://2i2c.org/blog/2025/cloud-cost-monitoring/" target="_blank" rel="noopener" >2i2c.org/blog/2025/cloud-cost-monitoring/&lt;/a>&lt;/p>
-&lt;h2 id="demonstrating-our-infrastructures-reliability-with-a-hub-status-page-for-our-communities">
-Demonstrating our infrastructure&amp;rsquo;s reliability with a hub status page for our communities
-&lt;a class="header-anchor" href="#demonstrating-our-infrastructures-reliability-with-a-hub-status-page-for-our-communities">#&lt;/a>
-&lt;/h2>&lt;p>We launched a status page at status.2i2c.org that gives communities a high-level view of our infrastructure&amp;rsquo;s stability. This is a single source of truth for understanding whether your hub is experiencing problems and helps us respond to outages faster—ideally before communities even notice. We&amp;rsquo;re also streamlining our incident response processes to make outages less frequent and shorter when they do occur.&lt;/p>
-&lt;figure>
-&lt;img src="https://2i2c.org/blog/2025/status-page/featured.png" alt="The 2i2c status page showing uptime status for the network of community hubs">
-&lt;figcaption>The 2i2c Status Page gives communities a high-level view of uptime across our entire network.&lt;/figcaption>
-&lt;/figure>
-&lt;p>Read more 👉
-&lt;a href="https://2i2c.org/blog/2025/status-page/" target="_blank" rel="noopener" >2i2c.org/blog/2025/status-page/&lt;/a>&lt;/p>
-&lt;h2 id="reducing-base-infrastructure-costs-on-aws-with-smarter-instance-types">
-Reducing base infrastructure costs on AWS with smarter instance types
-&lt;a class="header-anchor" href="#reducing-base-infrastructure-costs-on-aws-with-smarter-instance-types">#&lt;/a>
-&lt;/h2>&lt;p>We reduced the baseline costs of running our AWS infrastructure by switching from older r5.xlarge instances to newer, more efficient r8i-flex.large instances. These are the core nodes that keep hubs &amp;ldquo;always available&amp;rdquo; for users. The graph below shows daily savings for one community—we&amp;rsquo;re rolling this out to all new clusters and gradually migrating existing ones.&lt;/p>
-&lt;figure>
-&lt;img src="https://2i2c.org/blog/2025/aws-cost-reduction/featured.png" alt="Graph showing EC2 cost reduction over time for one community">
-&lt;figcaption>Daily EC2 cost savings from switching to more efficient instance types.&lt;/figcaption>
-&lt;/figure>
-&lt;p>Read more 👉
-&lt;a href="https://2i2c.org/blog/2025/aws-cost-reduction/" target="_blank" rel="noopener" >2i2c.org/blog/2025/aws-cost-reduction/&lt;/a>&lt;/p>
-&lt;hr>
-&lt;p>&lt;em>Here&amp;rsquo;s a list of all the blog posts we published in September 2025.&lt;/em>&lt;/p>
-&lt;ul>
-&lt;li>Sep 02, 2025 -
-&lt;a href="https://2i2c.org/blog/2025/catalyst-hardware-exchange/" target="_blank" rel="noopener" >Giving CCAD more control over data science infrastructure via a Catalyst Project hardware exchange&lt;/a>&lt;/li>
-&lt;li>Sep 03, 2025 -
-&lt;a href="https://2i2c.org/blog/2025/good-citizen/" target="_blank" rel="noopener" >On being a good open source citizen: supporting a healthy ecosystem through directed and foundational contributions&lt;/a>&lt;/li>
-&lt;li>Sep 03, 2025 -
-&lt;a href="https://2i2c.org/blog/2025/doepy-yuvi/" target="_blank" rel="noopener" >Sharing JupyterHub&amp;rsquo;s vision for more flexible application deployment at the doepy talk series.&lt;/a>&lt;/li>
-&lt;li>Sep 10, 2025 -
-&lt;a href="https://2i2c.org/blog/2025/communications-strategy/" target="_blank" rel="noopener" >We&amp;rsquo;re going to try blogging about our work more often&lt;/a>&lt;/li>
-&lt;li>Sep 16, 2025 -
-&lt;a href="https://2i2c.org/blog/2025/incident-ucmerced-user-throttling/" target="_blank" rel="noopener" >Incident report: UC Merced user throttling during class startup&lt;/a>&lt;/li>
-&lt;li>Sep 17, 2025 -
-&lt;a href="https://2i2c.org/blog/2025/aws-cost-reduction/" target="_blank" rel="noopener" >Reducing base infrastructure costs on AWS with smarter instance types&lt;/a>&lt;/li>
-&lt;li>Sep 23, 2025 -
-&lt;a href="https://2i2c.org/blog/2025/executive-council-updates/" target="_blank" rel="noopener" >Updates from Chris&amp;rsquo; position on the Jupyter Executive Council and Foundation Board&lt;/a>&lt;/li>
-&lt;li>Sep 23, 2025 -
-&lt;a href="https://2i2c.org/blog/2025/status-page/" target="_blank" rel="noopener" >Demonstrating our infrastructure&amp;rsquo;s reliability with a hub status page for our communities&lt;/a>&lt;/li>
-&lt;li>Sep 26, 2025 -
-&lt;a href="https://2i2c.org/blog/2025/foundational-contributions/" target="_blank" rel="noopener" >From scattered effort to strategic impact: How we&amp;rsquo;re systematizing our Foundational open source contributions&lt;/a>&lt;/li>
-&lt;li>Sep 30, 2025 -
-&lt;a href="https://2i2c.org/blog/2025/cloud-cost-monitoring/" target="_blank" rel="noopener" >Enabling transparent cloud cost monitoring with user-level dashboards&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>Enabling transparent cloud cost monitoring with user-level dashboards</title><link>https://2i2c.org/blog/2025/cloud-cost-monitoring/</link><pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/cloud-cost-monitoring/</guid><description>&lt;p>We are excited to announce that &lt;strong>dashboards to monitor cloud usage and costs at a per-user level&lt;/strong> are now available! See the
 &lt;a href="https://docs.2i2c.org/admin/howto/monitoring/cost-users/" target="_blank" rel="noopener" >cost monitoring documentation&lt;/a> for more information.&lt;/p>
 &lt;p>A key goal of 2i2c is to make the cloud safe for science. By providing transparent cost monitoring, we give communities the confidence that they won&amp;rsquo;t face unexpected bills and can better understand how their usage patterns translate to cloud costs. This visibility is especially valuable in our shared platform model, where each community gets their own independent hub while benefiting from shared infrastructure expertise.&lt;/p>
