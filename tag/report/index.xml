@@ -555,6 +555,184 @@ Acknowledgments
 &lt;li>Support for organizational and strategic work like this is provided by a grant from
 &lt;a href="https://2i2c.org/collaborators/czi/" >CZI&lt;/a> and fees from
 &lt;a href="https://2i2c.org/members/" >our Member Communities&lt;/a>.&lt;/li>
+&lt;/ul></description></item><item><title>2022 in review: growing our partner communities and expanding our operations</title><link>https://2i2c.org/blog/2023/2022-year-in-review/</link><pubDate>Wed, 04 Jan 2023 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2023/2022-year-in-review/</guid><description>&lt;p>2022 was a busy year for 2i2c - we not only grew our operations as well as our organization, but also grew our understanding of our mission and where we can have impact.
+This is a brief reflection on this experience, and an attempt to identify our opportunities for impact and growth in 2023.&lt;/p>
+&lt;h2 id="our-major-goals-in-2022">
+Our major goals in 2022
+&lt;a class="header-anchor" href="#our-major-goals-in-2022">#&lt;/a>
+&lt;/h2>&lt;p>We wrapped up 2021 with two major new changes.
+We had just finished
+&lt;a href="https://2i2c.org/blog/2021/q3-update/" target="_blank" rel="noopener" >moving fiscal sponsors&lt;/a> and had just finished a prototype of our
+&lt;a href="https://docs.2i2c.org/" target="_blank" rel="noopener" >alpha service offerings&lt;/a>.&lt;/p>
+&lt;figure id="figure-our-2x2-matrix-of-service-offerings-and-prices-created-at-the-end-of-2021-see-the-documentationhttpsdocs2i2corg-for-more-details">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Our 2x2 matrix of service offerings and prices created at the end of 2021. See [the documentation](https://docs.2i2c.org/) for more details." srcset="
+/blog/2023/2022-year-in-review/service-offerings_hud86bb36b87665d8af5b9475bb4af827d_70357_ca07880d61fe95c1e2530320063223d4.webp 400w,
+/blog/2023/2022-year-in-review/service-offerings_hud86bb36b87665d8af5b9475bb4af827d_70357_f76fd27d82d63db094825cdaf4a98bd1.webp 760w,
+/blog/2023/2022-year-in-review/service-offerings_hud86bb36b87665d8af5b9475bb4af827d_70357_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2023/2022-year-in-review/service-offerings_hud86bb36b87665d8af5b9475bb4af827d_70357_ca07880d61fe95c1e2530320063223d4.webp"
+width="75%"
+height="379"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+Our 2x2 matrix of service offerings and prices created at the end of 2021. See
+&lt;a href="https://docs.2i2c.org/" target="_blank" rel="noopener" >the documentation&lt;/a> for more details.
+&lt;/figcaption>&lt;/figure>
+&lt;p>Our biggest challenge in 2022 was to &lt;strong>identify the bottlenecks in this service model&lt;/strong>, and to begin &lt;strong>building the infrastructure to operate and scale it&lt;/strong>.
+This included team infrastructure, technical infrastructure, and administrative infrastructure.&lt;/p>
+&lt;p>Let&amp;rsquo;s see what we did to accomplish this goal.&lt;/p>
+&lt;h2 id="highlights-from-2022">
+Highlights from 2022
+&lt;a class="header-anchor" href="#highlights-from-2022">#&lt;/a>
+&lt;/h2>&lt;p>In 2022, we &lt;strong>thoughtfully grew the number of communities we worked with&lt;/strong>, and used this to make iterative improvements in our model.
+As a result, we learned some important things and made significant improvements to our service model and infrastructure.
+Here are a few highlights.&lt;/p>
+&lt;h3 id="we-grew-the-number-of-our-partner-communities">
+We grew the number of our partner communities
+&lt;a class="header-anchor" href="#we-grew-the-number-of-our-partner-communities">#&lt;/a>
+&lt;/h3>&lt;p>As noted above, we needed to grow the number and diversity of communities we worked with to understand where our model needed to change.
+At the end of 2022, we now have &lt;strong>43 community partner hubs across 17 clusters&lt;/strong> (and at least one on AWS, Azure, and Google Cloud).
+This amounts to roughly &lt;strong>~2,500 active users&lt;/strong> each week.
+We also ran more dedicated infrastructure for more than &lt;strong>11 workshops and events&lt;/strong>.&lt;/p>
+&lt;h3 id="we-grew-our-revenue-from-community-partnerships">
+We grew our revenue from community partnerships
+&lt;a class="header-anchor" href="#we-grew-our-revenue-from-community-partnerships">#&lt;/a>
+&lt;/h3>&lt;p>One of our goals is to reach self-sustainability without requiring grant funding for most of the communities we serve.
+In 2022 we built administrative infrastructure to more efficiently recover monthly costs, and were able to bring in funding for our team from community partnerships.
+Here&amp;rsquo;s a plot of our monthly non-grant revenue over the last several months:&lt;/p>
+&lt;figure id="figure-our-monthly-non-grant-revenue-over-the-last-several-months-june-is-much-larger-because-we-filled-a-backlog-of-invoices-from-previous-months-that-werent-billed-yet">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Our monthly non-grant revenue over the last several months. June is much larger because we filled a backlog of invoices from previous months that weren&amp;#39;t billed yet." srcset="
+/blog/2023/2022-year-in-review/monthly-revenue_hu52f3d4af599b8e1f34d9708deec9db23_10871_5415cfc779ac7efa966b4f4ea0d9c931.webp 400w,
+/blog/2023/2022-year-in-review/monthly-revenue_hu52f3d4af599b8e1f34d9708deec9db23_10871_c35678ad000b0ba462007f9c960f9542.webp 760w,
+/blog/2023/2022-year-in-review/monthly-revenue_hu52f3d4af599b8e1f34d9708deec9db23_10871_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2023/2022-year-in-review/monthly-revenue_hu52f3d4af599b8e1f34d9708deec9db23_10871_5415cfc779ac7efa966b4f4ea0d9c931.webp"
+width="75%"
+height="336"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+Our monthly non-grant revenue over the last several months. June is much larger because we filled a backlog of invoices from previous months that weren&amp;rsquo;t billed yet.
+&lt;/figcaption>&lt;/figure>
+&lt;h3 id="we-got-grant-funding-to-serve-communities-in-latin-america-and-africa">
+We got grant funding to serve communities in Latin America and Africa
+&lt;a class="header-anchor" href="#we-got-grant-funding-to-serve-communities-in-latin-america-and-africa">#&lt;/a>
+&lt;/h3>&lt;p>We also learned that some partnerships may &lt;em>require&lt;/em> subsidization from a third party, such as historically marginalized communities and those without dedicated resources.
+To explore sustainable ways to serve these communities, we applied for and received a new grant to serve communities in Latin America and Africa!
+Here&amp;rsquo;s the
+&lt;a href="" >blog post announcing this grant&lt;/a> and our
+&lt;a href="" >open grant narrative from the proposal&lt;/a>.&lt;/p>
+&lt;h3 id="we-improved-our-continuous-integration-and-deployment-system">
+We improved our continuous integration and deployment system
+&lt;a class="header-anchor" href="#we-improved-our-continuous-integration-and-deployment-system">#&lt;/a>
+&lt;/h3>&lt;p>Our ability to sustainably grow our service requires being able to &lt;em>technically&lt;/em> serve many communities from a relatively small team.
+We centralized and standardized configuration and operations of many community hubs in one transparent space for all of our partner communities.
+This allowed us to more easily grow the number of communities we served from one repository.
+You can
+&lt;a href="https://2i2c.org/blog/2022/ci-cd-improvements/" target="_blank" rel="noopener" >read a write-up about these improvements in this blog post&lt;/a>.&lt;/p>
+&lt;h3 id="we-defined-a-shared-responsibility-model">
+We defined a Shared Responsibility Model
+&lt;a class="header-anchor" href="#we-defined-a-shared-responsibility-model">#&lt;/a>
+&lt;/h3>&lt;p>Our goal is to frame each community hub as a partnership with a clear breakdown of responsibility to give communities more agency over the infrastructure and service.
+The Shared Responsibility Model provides a framework for assigning responsibility for various tasks with our partner communities.
+See
+&lt;a href="https://docs.2i2c.org/about/service/shared-responsibility.html" target="_blank" rel="noopener" >our Shared Responsibility Model docs here&lt;/a>.&lt;/p>
+&lt;h3 id="we-defined-a-formal-incident-response-process">
+We defined a formal Incident Response process
+&lt;a class="header-anchor" href="#we-defined-a-formal-incident-response-process">#&lt;/a>
+&lt;/h3>&lt;p>Cloud infrastructure inevitably degrades over time, and running ongoing services is largely about quickly responding to issues and resolving them quickly.
+To do so, we need clear processes to follow in order to quickly identify and respond to major incidents in the infrastructure.
+Our Incident Response process defines formal team roles and alerting mechanisms that are served by
+&lt;a href="https://www.pagerduty.com/" target="_blank" rel="noopener" >PagerDuty&lt;/a>, following best-practices in industry.
+This will make our service more reliable and make our processes more transparent for our partner communities.
+&lt;a href="https://compass.2i2c.org/projects/managed-hubs/incidents.html" target="_blank" rel="noopener" >Here&amp;rsquo;s our current incident response process&lt;/a>.&lt;/p>
+&lt;h3 id="we-expanded-our-service-offerings-to-include-community-and-workflow-guidance">
+We expanded our service offerings to include community and workflow guidance
+&lt;a class="header-anchor" href="#we-expanded-our-service-offerings-to-include-community-and-workflow-guidance">#&lt;/a>
+&lt;/h3>&lt;p>We recognized that many communities need more than just infrastructure running in the cloud - they will also benefit from usecase and community guidance.
+We&amp;rsquo;re exploring a new range of roles that we could fill, starting with hiring a new team member to help us lead these efforts.
+&lt;a href="https://2i2c.org/blog/2022/job-product-community-lead/" target="_blank" rel="noopener" >Here&amp;rsquo;s a blog post about the Product and Community Lead&lt;/a>.&lt;/p>
+&lt;h3 id="we-began-a-collaboration-with-gesis-to-develop-environment-building-in-jupyterhub">
+We began a collaboration with GESIS to develop environment building in JupyterHub
+&lt;a class="header-anchor" href="#we-began-a-collaboration-with-gesis-to-develop-environment-building-in-jupyterhub">#&lt;/a>
+&lt;/h3>&lt;p>This marks our first efforts into &lt;em>development-focused work&lt;/em> as opposed to operating cloud infrastructure.
+We will use this experience to learn how to pair focused development with cloud operations (more on that below).
+It will also make it more likely that we can implement often-requested improvements to the JupyterHub / BinderHub ecosystems.
+&lt;a href="https://2i2c.org/blog/2022/gesis-2i2c-collaboration-update/" target="_blank" rel="noopener" >Here&amp;rsquo;s a blog post about this collaboration&lt;/a>.&lt;/p>
+&lt;h3 id="we-helped-maintain-several-upstream-open-source-projects">
+We helped maintain several upstream open source projects
+&lt;a class="header-anchor" href="#we-helped-maintain-several-upstream-open-source-projects">#&lt;/a>
+&lt;/h3>&lt;p>We made a number of contributions to key open source communities as part of our organizational mission.
+These spanned technical improvements as well as organizational and community efforts.
+One highlight is that several team members have participated in
+&lt;a href="https://blog.jupyter.org/introducing-jupyterhubs-outreachy-interns-december-2022-cohort-23aaf4613556" target="_blank" rel="noopener" >JupyterHub&amp;rsquo;s latest round of Outreachy interns&lt;/a>.&lt;br>
+See
+&lt;a href="https://jupyterhub-team-compass.readthedocs.io/en/latest/resources/community-strategy.html" target="_blank" rel="noopener" >the JupyterHub community strategy&lt;/a> page for more information.&lt;/p>
+&lt;p>As a brief summary, here is a plot of the issues in key open source repositories that were closed in 2022 that were authored by a 2i2c team member.&lt;/p>
+&lt;figure id="figure-upstream-issues-opened-by-a-team-member-that-were-closed-in-2022">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Upstream issues opened by a team member that were closed in 2022." srcset="
+/blog/2023/2022-year-in-review/upstream-contributions_hu1b9709167dd33b4eeab235a03d00b820_10660_611c6fc32c4ed94a301b5068c436bcf9.webp 400w,
+/blog/2023/2022-year-in-review/upstream-contributions_hu1b9709167dd33b4eeab235a03d00b820_10660_689eb8f10a38b27bce3b7c2e3755323e.webp 760w,
+/blog/2023/2022-year-in-review/upstream-contributions_hu1b9709167dd33b4eeab235a03d00b820_10660_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2023/2022-year-in-review/upstream-contributions_hu1b9709167dd33b4eeab235a03d00b820_10660_611c6fc32c4ed94a301b5068c436bcf9.webp"
+width="75%"
+height="272"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+Upstream issues opened by a team member that were closed in 2022.
+&lt;/figcaption>&lt;/figure>
+&lt;h3 id="we-refined-our-organizational-strategy">
+We refined our organizational strategy
+&lt;a class="header-anchor" href="#we-refined-our-organizational-strategy">#&lt;/a>
+&lt;/h3>&lt;p>Finally, the experience from this year gave us a lot to think about regarding our role and potential for impact in the research and education ecosystem and the open source community.
+We
+&lt;a href="https://2i2c.org/blog/2022/strategic-update/" target="_blank" rel="noopener" >updated our strategy&lt;/a> in order to focus on a more holistic and collaborative approach to the work with our partner communities.
+We&amp;rsquo;ll continue to refine this strategy moving forward.&lt;/p>
+&lt;h2 id="things-to-accomplish-in-2023">
+Things to accomplish in 2023
+&lt;a class="header-anchor" href="#things-to-accomplish-in-2023">#&lt;/a>
+&lt;/h2>&lt;p>We&amp;rsquo;re excited about all of the progress we made in 2022, and to continue that progress in 2023.
+Here are a few areas where we wish to focus our efforts as we begin the new year to keep this momentum going.&lt;/p>
+&lt;h3 id="sharpen-our-shared-responsibility-model">
+Sharpen our Shared Responsibility Model
+&lt;a class="header-anchor" href="#sharpen-our-shared-responsibility-model">#&lt;/a>
+&lt;/h3>&lt;p>Our Shared Responsibility Model is in a kind of &amp;ldquo;alpha&amp;rdquo; phase right now. We have some of the high-level skeleton there, but there&amp;rsquo;s a lot of detail to fill in. Thus far, communities have really liked the idea but we need to make it clearer how we break-down specific jobs and how to decide when to give more or less responsibility to another community.
+We&amp;rsquo;d also like to define more intersection points with our partner communities at the level of strategic and service planning so that our communities have a say in our vision and strategic plan.&lt;/p>
+&lt;h3 id="grow-our-community-support-operations">
+Grow our community support operations
+&lt;a class="header-anchor" href="#grow-our-community-support-operations">#&lt;/a>
+&lt;/h3>&lt;p>We&amp;rsquo;ve begun exploring how to support communities in their &lt;em>usage&lt;/em> of cloud infrastructure, but still have a long way to go to understand what role we should play here.
+For example, how can we assist communities in cloud workflows without becoming domain experts ourselves?
+How can we guide communities in a sustainable and scalable way?
+How can we recover the costs of doing this work?
+We hope to use our experiences in
+&lt;a href="" >our upcoming project to serve communities in Latin America and Africa&lt;/a> to explore these questions.&lt;/p>
+&lt;h3 id="define-a-cost-recovery-model-that-balances-sustainability-and-accessibility">
+Define a cost recovery model that balances sustainability and accessibility
+&lt;a class="header-anchor" href="#define-a-cost-recovery-model-that-balances-sustainability-and-accessibility">#&lt;/a>
+&lt;/h3>&lt;p>Our current cost recovery model is intentionally very simple - we charge a fixed monthly cost for human time, and pass-through cloud costs directly.
+We charge a bit more for more complex deployments and use-cases.&lt;/p>
+&lt;p>However, we&amp;rsquo;ve learned that this is both too expensive for simple deployments, and too cheap for really complex deployments.
+It&amp;rsquo;s also inaccessible to organizations that do not have the resources to pay, which correlates heavily with historically marginalized communities.
+We&amp;rsquo;ll need to refine this model to be both scalable and sustainable, but also accessible to the variety of communities we want to serve.&lt;/p>
+&lt;h3 id="incorporate-a-dedicated-software-development-practice-that-aligns-with-open-values">
+Incorporate a dedicated software development practice that aligns with open values
+&lt;a class="header-anchor" href="#incorporate-a-dedicated-software-development-practice-that-aligns-with-open-values">#&lt;/a>
+&lt;/h3>&lt;p>In 2022 we learned that our position in &lt;em>running&lt;/em> infrastructure in the cloud gives us visibility into the ways that researchers and educators want open source tools to be &lt;em>improved&lt;/em>.
+In some cases our partner organizations are also willing to contribute resources to help make this happen, or we can identify third parties to fund development work.&lt;/p>
+&lt;p>Thus far we have focused our efforts on &lt;em>deploying and managing&lt;/em> cloud infrastructure.
+We do make improvements to software as a part of this, but there&amp;rsquo;s a big difference between running a cloud service and making significant &lt;em>enhancements&lt;/em> to software.&lt;/p>
+&lt;p>We&amp;rsquo;d like to use our position to help funnel more resources into open source development, but there are a few tricky things to figure out.
+For example: How can we accept funding to do open source work in a way that doesn&amp;rsquo;t effectively make us sole decision-makers or gatekeepers for doing development? How can we incorporate software development team practices into a team that has thus-far focused on operating cloud infrastructure?&lt;/p>
+&lt;p>Thanks for reading this update about our work in 2022.
+We&amp;rsquo;re excited about what we&amp;rsquo;ve accomplished thus far, as well how we hope to expand our impact in the near future.&lt;/p>
+&lt;h2 id="acknowledgments">
+Acknowledgments
+&lt;a class="header-anchor" href="#acknowledgments">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>Support for organizational and strategic work like this is provided by a grant from
+&lt;a href="https://2i2c.org/collaborators/czi/" >CZI&lt;/a> and fees from
+&lt;a href="https://2i2c.org/members/" >our Member Communities&lt;/a>.&lt;/li>
 &lt;/ul></description></item><item><title>Celebrating our progress in Q3 2022</title><link>https://2i2c.org/blog/2022/q3-update/</link><pubDate>Sun, 16 Oct 2022 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2022/q3-update/</guid><description>&lt;p>Quarter 3 of 2022 has wrapped up, and the 2i2c team has been busy making improvements across our infrastructure, organization, and operations.
 This is a quick post to celebrate the work we&amp;rsquo;ve done over the past three months, and to briefly share what we&amp;rsquo;re working on next.&lt;/p>
 &lt;p>Below we&amp;rsquo;ll provide a brief update about major developments this quarter, broken down by functional areas of 2i2c.&lt;/p>
@@ -1185,4 +1363,102 @@ Creating a Code of Conduct is a crucial part of defining our organizational and 
 Keep in touch
 &lt;a class="header-anchor" href="#keep-in-touch">#&lt;/a>
 &lt;/h2>&lt;p>Now that we are improving our organizational foundation, we will try to post more frequent updates and discussions about what we are up to.
-We hope for 2i2c to be a model organization in participatory, collaborative, transparent operations, and we look forward to working with you all in the future on this journey.&lt;/p></description></item></channel></rss>
+We hope for 2i2c to be a model organization in participatory, collaborative, transparent operations, and we look forward to working with you all in the future on this journey.&lt;/p></description></item><item><title>Hello World</title><link>https://2i2c.org/blog/2021/hello-world/</link><pubDate>Tue, 10 Nov 2020 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2021/hello-world/</guid><description>&lt;p>👋 hey everyone!&lt;/p>
+&lt;p>We&amp;rsquo;d like to announce the creation of a new non-profit organization&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup> that we call &lt;strong>2i2c&lt;/strong>.&lt;/p>
+&lt;p>2i2c stands for &lt;strong>The International Interactive Computing Collaboration&lt;/strong>. It is a non-profit dedicated to making open tools for interactive computing more accessible and more powerful for the research and education communities.&lt;/p>
+&lt;p>This is a short post about why we created 2i2c, what we hope that it will do, and what we are up to next. If you&amp;rsquo;d prefer to watch a video instead of read a blog post, check out
+&lt;a href="https://cfp.jupytercon.com/2020/schedule/presentation/209/2i2c-sustaining-open-source-through-hosted-jupyter-infrastructure-for-research-and-education/" target="_blank" rel="noopener" >this talk about 2i2c&lt;/a> at JupyterCon 2020:&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/YjonPLxDiwM?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+>&lt;/iframe>
+&lt;/div>
+&lt;h2 id="why-create-2i2c">
+Why create 2i2c?
+&lt;a class="header-anchor" href="#why-create-2i2c">#&lt;/a>
+&lt;/h2>&lt;p>The founding team of 2i2c has spent the last several years running projects that use interactive computing for research and education, including
+&lt;a href="" >bringing data science education to thousands of students&lt;/a>, connecting
+&lt;a href="" >geospatial researchers with large datasets and computational resources in the cloud&lt;/a>, and providing
+&lt;a href="" >federated online environment hubs to schools across Canada&lt;/a>, to name a few.&lt;/p>
+&lt;p>Over time we realized that, while infrastructure for interactive computing could be a huge benefit to research and education, it also required a fair amount of expertise to configure, deploy, and develop. We wished for other organizations to enjoy the same success that we had found, but learned that for many, deploying their own infrastructure was a non-starter to adoption. Instead, many were turning to proprietary or vendor-specific tooling.&lt;/p>
+&lt;p>We created 2i2c so that these organizations can use entirely open-source tools without hiring and training their own dev-ops and infrastructure talent, and so that &lt;em>development&lt;/em> and &lt;em>support&lt;/em> of open tools for interactive computing continues to represent the interests of research and education.&lt;/p>
+&lt;h2 id="why-a-non-profit">
+Why a non-profit?
+&lt;a class="header-anchor" href="#why-a-non-profit">#&lt;/a>
+&lt;/h2>&lt;p>It may sound strange to create a non-profit initiative when there are many VC-funded startups and large tech companies offering notebook services these days. However, we think that a non-profit organization is the right approach to balance the interests of all the stakeholders that we wish to serve. We hope that 2i2c will be a partner to:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Research and educational communities&lt;/strong>, who can rely on 2i2c to provide them cutting-edge infrastructure for interactive computing that is 💯 open source.&lt;/li>
+&lt;li>&lt;strong>Researchers and educators who need development&lt;/strong>, who can rely on 2i2c as a collaborator that offers development and expertise in open-source infrastructure to push the cutting edge of interactive computing in the cloud.&lt;/li>
+&lt;li>&lt;strong>Open source communities&lt;/strong>, who can count on 2i2c support and grow the communities that underlie the tools that we deploy.&lt;/li>
+&lt;li>&lt;strong>Cloud providers&lt;/strong>, who wish to help the research and educational community via their infrastructure.&lt;/li>
+&lt;li>&lt;strong>Supporters of open source&lt;/strong> who wish to support interactive computing for research and education via a non-profit dedicated to exactly this mission.&lt;/li>
+&lt;/ul>
+&lt;p>As a non-profit initiative, 2i2c is dedicated to supporting an ecosystem of tools and stakeholders across the open source community, and to ensuring that those tools are well-suited for research and education. We believe strongly in mission-driven work, and non-profit status will ensure that the work that we do is always aligned with our mission and values.&lt;/p>
+&lt;h2 id="what-are-we-going-to-do">
+What are we going to do?
+&lt;a class="header-anchor" href="#what-are-we-going-to-do">#&lt;/a>
+&lt;/h2>&lt;p>With all of that in mind, what is 2i2c actually going to do? We are still working out the details, but here&amp;rsquo;s a rough picture:&lt;/p>
+&lt;p>Offer
+&lt;a href="" >&lt;strong>hosted interactive computing environments on cloud infrastructure&lt;/strong>&lt;/a>. These will
+&lt;a href="https://2i2c.org/right-to-replicate/" >be entirely open source&lt;/a> and vendor-neutral, and customizable for the communities that are using them. They&amp;rsquo;ll be offered either as a fee-for-service model and/or subsidized through grants and donations. We wish to build upon the success of JupyterHub as a gateway to computational resources and environments, learning environments, and communities of users. For more information about the vision and values of our hosted infrastructure, see
+&lt;a href="https://2i2c.org/right-to-replicate/" >the 2i2c &lt;strong>Right to Replicate&lt;/strong> document&lt;/a>.&lt;/p>
+&lt;p>Provide
+&lt;a href="" >&lt;strong>collaboration and development for interactive computing in research and education&lt;/strong>&lt;/a>. Beyond providing hub infrastructure, there are many ways in which solving problems in research and education can lead to better tools, infrastructure, and workflows in the open source community. For example - how can we generalize a community&amp;rsquo;s solution to scalable computing so that it can be useful for other use-cases as well? We hope that 2i2c can be an aggregator and integrator of many perspectives in research and education, and build tools that are maximally useful across communities.&lt;/p>
+&lt;p>Provide
+&lt;a href="" >&lt;strong>core development and community support&lt;/strong>&lt;/a> for open source projects that we use. While many organizations &lt;em>use&lt;/em> Jupyter technology in their projects, it is also crucial that they &lt;em>give back&lt;/em> to those tools in order to keep the ecosystem healthy. As a mission-driven non-profit, 2i2c has a core goal in not only deploying and customizing open source tools, but also providing core support for them.&lt;/p>
+&lt;h2 id="next-steps">
+Next steps
+&lt;a class="header-anchor" href="#next-steps">#&lt;/a>
+&lt;/h2>&lt;p>2i2c is a young organization, but we already have a few exciting ideas to work towards in the coming months. Here&amp;rsquo;s an idea of what we&amp;rsquo;ll be up to next.&lt;/p>
+&lt;p>Our first step is to &lt;strong>understand how interactive computing can best-serve the research and education communities&lt;/strong>. We know that interactive computing tools work in our specific use-cases, but how do these generalize to other domains or types of organizations? Moreover, how can we improve the open source tools to make them even more customizable for each community?&lt;/p>
+&lt;p>We&amp;rsquo;ll begin answering this question through several focused JupyterHub pilots aimed at different use-cases across research and education:&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>A &amp;ldquo;Hubs for All&amp;rdquo; pilot for education&lt;/strong>. This will focus on making standard educational environments via JupyterHub accessible to a broad range of educational institutions, in particular, traditionally under-resourced institutions such as community colleges, state colleges, and HBCUs.&lt;/li>
+&lt;li>&lt;strong>Research-focused hubs for earth analytics&lt;/strong>. Research requires more complex and customized infrastructure than education, and so we are piloting hub infrastructure for a few specific research communities to understand how we can meet their needs. We will use this to better-understand how 2i2c and support a diverse research community in the future.&lt;/li>
+&lt;li>&lt;strong>JupyterHub development for the Pangeo Project&lt;/strong>. Pangeo has been a collaborator of 2i2c since day one, and we love its vision for large-scale earth analytics via cloud infrastructure. We plan to work closely with Pangeo leadership to work on early development of tools aimed at facilitating scalable computing for research on Pangeo infrastructure. More information about this to come soon.&lt;/li>
+&lt;/ol>
+&lt;p>We&amp;rsquo;ll also use these pilots to &lt;strong>develop an organizational sustainability model&lt;/strong> around this infrastructure. It takes expertise to manage and develop cloud infrastructure, and 2i2c wishes to pay market rates for its engineers. How can 2i2c offer services and development in a way that is sustainable both for itself and for other institutions? We&amp;rsquo;ll use these pilots to create a plan for both sustaining and scaling 2i2c&amp;rsquo;s ability to serve institutions and teams.&lt;/p>
+&lt;h2 id="what-do-we-need">
+What do we need?
+&lt;a class="header-anchor" href="#what-do-we-need">#&lt;/a>
+&lt;/h2>&lt;p>As a non-profit initiative, 2i2c has a long road ahead of it. We cannot take venture capital funding, so we have to raise funds the old-fashioned way. This means that:&lt;/p>
+&lt;ul>
+&lt;li>If you are at an organization interested in purchasing hosted JupyterHub environments from 2i2c, please
+&lt;a href="" >send us an email &lt;i class="fas fa-envelope">&lt;/i>&lt;/a>.&lt;/li>
+&lt;li>If you are a funder or are otherwise interested in supporting 2i2c with a donation or grant, please
+&lt;a href="" >send us an email &lt;i class="fas fa-envelope">&lt;/i>&lt;/a>.&lt;/li>
+&lt;li>If you have experience in sustaining service-based organizations such as 2i2c, and wish to offer your expertise or guidance, please
+&lt;a href="" >send us an email &lt;i class="fas fa-envelope">&lt;/i>&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;p>Moreover, we&amp;rsquo;ll likely be hiring in the coming months for open source engineers, with a focus on data science, interactive computing, and the cloud. If you&amp;rsquo;re interested in working for an organization like 2i2c, please
+&lt;a href="" >send us an email &lt;i class="fas fa-envelope">&lt;/i>&lt;/a>, and keep an eye on this space as we will post more information soon.&lt;/p>
+&lt;h2 id="get-involved">
+Get involved
+&lt;a class="header-anchor" href="#get-involved">#&lt;/a>
+&lt;/h2>&lt;p>If you&amp;rsquo;d like to get involved with the 2i2c team and community, we recommend two pathways for doing so.&lt;/p>
+&lt;p>
+&lt;a href="https://docs.google.com/forms/d/e/1FAIpQLSdW_bhVrXfgRYa9Ct6w399KQPILbU_3nKUF_tgnGZJbs91SXg/viewform?usp=sf_link" target="_blank" rel="noopener" >Subscribe to our mailing list&lt;/a>. We&amp;rsquo;ll use this to periodically send updates about what 2i2c is up to.&lt;/p>
+&lt;p>
+&lt;a href="https://forms.gle/f3rmHZCijK3bYAaA8" target="_blank" rel="noopener" >Join the 2i2c Slack&lt;/a>. We use Slack for team conversation, as well as for real-time conversations about tools, practices, and ideas around interactive computing for research and education.&lt;/p>
+&lt;p>You can also say hello to us on Twitter at
+&lt;a href="https://twitter.com/2i2c_org" target="_blank" rel="noopener" >@2i2c_org&lt;/a>.&lt;/p>
+&lt;h2 id="wrapping-up">
+Wrapping up
+&lt;a class="header-anchor" href="#wrapping-up">#&lt;/a>
+&lt;/h2>&lt;p>We are excited about 2i2c, and believe that it is the right kind of organization to create to support research and education, as well as open source communities in interactive computing. The road ahead is a difficult one, but we&amp;rsquo;re confident that we will hit our stride quickly. Stay tuned for more updates to come.&lt;/p>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>Support for organizational and strategic work like this is provided by a grant from
+&lt;a href="https://2i2c.org/collaborators/czi/" >CZI&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>&lt;strong>EDIT 08-2021: We are now a fiscally-sponsored project of
+&lt;a href="https://codeforscience.org" target="_blank" rel="noopener" >Code for Science and Society&lt;/a> and ICSI is no longer our host organization. We are leaving this section here for archival purposes, and to give credit to ICSI for their help in launching 2i2c&lt;/strong>. 2i2c&amp;rsquo;s host organization is the
+&lt;a href="http://www.icsi.berkeley.edu/" target="_blank" rel="noopener" >International Computer Science Institute&lt;/a>, a 501(c)(3) charitable organization. We thank ICSI for its collaboration and leadership in launching 2i2c!&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></description></item></channel></rss>

@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Leadership | 2i2c</title><link>https://2i2c.org/tag/leadership/</link><atom:link href="https://2i2c.org/tag/leadership/index.xml" rel="self" type="application/rss+xml"/><description>Leadership</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 03 Sep 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Leadership</title><link>https://2i2c.org/tag/leadership/</link></image><item><title>Sharing JupyterHub's vision for more flexible application deployment at the doepy talk series.</title><link>https://2i2c.org/blog/2025/doepy-yuvi/</link><pubDate>Wed, 03 Sep 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/doepy-yuvi/</guid><description>&lt;p>Our Technical Lead
+&lt;a href="" >Yuvi Panda&lt;/a> recently gave a talk at the
+&lt;a href="https://meetup.doepy.org/" target="_blank" rel="noopener" >doepy meetup&lt;/a> about JupyterHub&amp;rsquo;s interest in moving beyond the &amp;ldquo;single-user notebook application&amp;rdquo; and towards a more flexible approach to enabling administrators to deploy many different types of applications and environments.&lt;/p>
+&lt;p>Check out a video of the talk here:&lt;/p>
+&lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
+&lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/vsbHMvvsFw8?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
+>&lt;/iframe>
+&lt;/div>
+&lt;p>This is an important step for the JupyterHub project in order to support the many different kinds of workflows that data scientists need to use in their work. We hope that this generates more interest in the JupyterHub project and gives us useful feedback to guide the team&amp;rsquo;s understanding of this direction.&lt;/p>
+&lt;h2 id="learn-more">
+Learn more
+&lt;a class="header-anchor" href="#learn-more">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;a href="https://www.youtube.com/watch?v=vsbHMvvsFw8" target="_blank" rel="noopener" >YouTube video of this talk&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://jupyter.zulipchat.com/#narrow/channel/469744-jupyterhub/topic/JupyterHub.20in.202025.3A.20Not.20just.20for.20Jupyter.20Notebooks/near/537708184" target="_blank" rel="noopener" >Jupyter Chat about this talk&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://www.linkedin.com/feed/update/urn:li:activity:7364763956525092868" target="_blank" rel="noopener" >LinkedIn post announcing the talk&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://www.linkedin.com/posts/cameron-riddell_we-dont-use-this-code-loved-having-yuvi-activity-7369421556516601859-qOxw?utm_medium=ios_app&amp;amp;rcm=ACoAADSgbM8BXeDyQi3bGVtD7qmmJg9b20KhG6A&amp;amp;utm_source=social_share_send&amp;amp;utm_campaign=copy_link" target="_blank" rel="noopener" >LinkedIn post describing the talk&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;a href="https://meetup.doepy.org/" target="_blank" rel="noopener" >The doepy team&lt;/a> for inviting Yuvi to give this talk.&lt;/li>
+&lt;li>
+&lt;a href="https://2i2c.org/collaborators/jupyterhub/" >The JupyterHub team&lt;/a> for working with us on this strategy.&lt;/li>
+&lt;li>
+&lt;a href="https://2i2c.org/members/" >2i2c&amp;rsquo;s network of member communities&lt;/a> whose fees support our Foundational open source engagement.&lt;/li>
+&lt;/ul></description></item><item><title>An update to 2i2c's value proposition</title><link>https://2i2c.org/blog/2024/value-proposition/</link><pubDate>Mon, 06 May 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/value-proposition/</guid><description>&lt;p>2i2c recently finished
+&lt;a href="https://2i2c.org/report-czi-2021" target="_blank" rel="noopener" >it&amp;rsquo;s three year retrospective&lt;/a> after closing out its original seed grant.
+As part of this process, we&amp;rsquo;re revisiting our organizational strategy, structure, and overall plan, in order to incorporate the learning that we&amp;rsquo;ve done over our first three years.&lt;/p>
+&lt;p>Our &lt;strong>value proposition&lt;/strong> is a key framing for 2i2c&amp;rsquo;s intended impact, key stakeholders, and platform strategy.
+We recently completed a team exercise to refine this statement for 2i2c, and are excited to share it with you below:&lt;/p>
+&lt;style>
+.pull-quote {
+padding-left: 1rem;
+border-left: .25rem solid #1d4ef5;
+margin-bottom: 1rem;
+}
+.pull-title {
+font-size: 1.5rem;
+margin-bottom: .5rem;
+font-weight: bold;
+}
+.pull-subtitle {
+font-size: 1rem;
+font-style: italic;
+}
+&lt;/style>
+&lt;div class="pull-quote">
+&lt;p class="pull-title">
+A global network of community hubs for interactive learning and discovery
+&lt;/p>
+&lt;p class="pull-subtitle">
+Our interactive computing platform gives your community a digital home to create and share knowledge, and a global network of communities to learn from.
+&lt;/p>
+&lt;/div>
+&lt;p>This is an exciting direction that leans into and builds upon the way we&amp;rsquo;ve described our service so far.
+It recognizes that the value in our service doesn&amp;rsquo;t end with simple access to an interactive computing environment, but lies in how that environment&amp;rsquo;s tools empower a community to create and share knowledge with one another.&lt;/p>
+&lt;p>We believe that this is an exciting direction to build towards, because it is based in the value of the collection of communities we serve, and the way that this network can be greater than the sum of its parts.
+We&amp;rsquo;re excited to lean into this direction in how we shape our platform, what open source contributions we make, and where we aim to have impact in the coming years.&lt;/p>
+&lt;p>To begin, we&amp;rsquo;ve interwoven some ideas from this value proposition into 2i2c.org, and the way that we describe our service.
+We&amp;rsquo;d love feedback from anyone who has an idea, a critique, or &amp;ldquo;yes, and&amp;rdquo; to share.&lt;/p>
+&lt;h2 id="a-recent-talk-with-this-value-proposition">
+A recent talk with this value proposition
+&lt;a class="header-anchor" href="#a-recent-talk-with-this-value-proposition">#&lt;/a>
+&lt;/h2>&lt;p>As part of this work, 2i2c&amp;rsquo;s Executive Director,
+&lt;a href="" >Chris Holdgraf&lt;/a>, gave a talk about 2i2c to the
+&lt;a href="https://incentivizingopen.org" target="_blank" rel="noopener" >Incentivizing Open and Collaborative Research&lt;/a> (ICOR) community. Here are some links in case others are interested:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="https://docs.google.com/presentation/d/1C-TNSI2h0181y6-z5tL9AWSRsWp9IfZqCDtcIZEs1MM/edit?usp=sharing" target="_blank" rel="noopener" >Slides for viewing&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://incentivizingopen.org/2024/05/data-sharing-and-analysis-in-collaborative-open-research-environments/" target="_blank" rel="noopener" >More information for the talk&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://vimeo.com/944769875#t=400s" target="_blank" rel="noopener" >Video link&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;p>Here&amp;rsquo;s the video below for quick reference:&lt;/p>
+&lt;iframe src="https://player.vimeo.com/video/944769875#t=400s?h=e0f92e7926" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen>&lt;/iframe>
+&lt;p>&lt;a href="https://vimeo.com/944769875">Data Sharing and Analysis in Collaborative Open Research Environments&lt;/a> from &lt;a href="https://vimeo.com/user219434759">Michael Markie&lt;/a> on &lt;a href="https://vimeo.com">Vimeo&lt;/a>.&lt;/p>
+&lt;h2 id="acknowledgments">
+Acknowledgments
+&lt;a class="header-anchor" href="#acknowledgments">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>Support for organizational and strategic work like this is provided by a grant from
+&lt;a href="https://2i2c.org/collaborators/czi/" >CZI&lt;/a> and fees from
+&lt;a href="https://2i2c.org/members/" >our Member Communities&lt;/a>.&lt;/li>
+&lt;/ul></description></item></channel></rss>

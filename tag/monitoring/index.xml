@@ -1,4 +1,94 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Monitoring | 2i2c</title><link>https://2i2c.org/tag/monitoring/</link><atom:link href="https://2i2c.org/tag/monitoring/index.xml" rel="self" type="application/rss+xml"/><description>Monitoring</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 15 Nov 2024 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Monitoring</title><link>https://2i2c.org/tag/monitoring/</link></image><item><title>Track and manage cloud costs using Grafana</title><link>https://2i2c.org/blog/2024/aws-cost-attribution/</link><pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/aws-cost-attribution/</guid><description>&lt;p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Monitoring | 2i2c</title><link>https://2i2c.org/tag/monitoring/</link><atom:link href="https://2i2c.org/tag/monitoring/index.xml" rel="self" type="application/rss+xml"/><description>Monitoring</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 11 Jun 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Monitoring</title><link>https://2i2c.org/tag/monitoring/</link></image><item><title>Announcing `jupyterhub-groups-exporter`: monitor usage based on JupyterHub group membership with Prometheus and Grafana</title><link>https://2i2c.org/blog/2025/jupyterhub-groups-exporter/</link><pubDate>Wed, 11 Jun 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/jupyterhub-groups-exporter/</guid><description>&lt;p>Managing user groups in JupyterHub can be a challenging task, especially in environments with dynamic user bases and complex group structures. This post describes how we can leverage the latest group management features in JupyterHub, along with Prometheus and Grafana, to monitor group-level resource usage effectively.&lt;/p>
+&lt;blockquote>
+&lt;p>⭐ &lt;strong>Members of 2i2c&amp;rsquo;s community network&lt;/strong> can use this feature in their hubs by
+&lt;a href="https://docs.2i2c.org/admin/howto/monitoring/cost-attribution/" target="_blank" rel="noopener" >following our cost attribution documentation&lt;/a>.&lt;/p>
+&lt;/blockquote>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./featured.png" alt="Grafana User Group Diagnostics Dashboard showing a memory usage over time with each line aggregating usage over a different user group." loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;h2 id="motivation">
+Motivation
+&lt;a class="header-anchor" href="#motivation">#&lt;/a>
+&lt;/h2>&lt;p>Hub admins have a strong impetus to monitor usage and costs by user groups
+because it allows them to advocate for better funding and cost recovery models based on data-driven insights. Group-level resource monitoring can help them to answer questions like:&lt;/p>
+&lt;ul>
+&lt;li>How many people participated in our workshop group?&lt;/li>
+&lt;li>How much GPU compute is our power user group using?&lt;/li>
+&lt;li>Is our resource usage cost-effective for X group persona or Y group persona?&lt;/li>
+&lt;/ul>
+&lt;p>Current methods and workarounds include:&lt;/p>
+&lt;ul>
+&lt;li>ring-fencing resources for specific user groups personas, e.g. creating a separate hub for a workshop group, or creating a separate Dask cluster for a power user group, which increases the admin burden of managing multiple hub instances&lt;/li>
+&lt;li>writing custom scripts to aggregate per user metrics, that are already available, into groups – which can be time-consuming and error-prone&lt;/li>
+&lt;/ul>
+&lt;h2 id="jupyterhub-and-user-groups">
+JupyterHub and user groups
+&lt;a class="header-anchor" href="#jupyterhub-and-user-groups">#&lt;/a>
+&lt;/h2>&lt;p>Recent key developments upstream in JupyterHub for groups management, such as
+&lt;a href="https://jupyterhub.readthedocs.io/en/latest/reference/authenticators.html#authenticator-managed-group-membership" target="_blank" rel="noopener" >Authenticator managed group membership&lt;/a>, makes this piece of work a prime and timely opportunity to be tackled. For more technical details of these upstream contributions, see GitHub PRs
+&lt;a href="https://github.com/jupyterhub/oauthenticator/pull/735" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> jupyterhub/oauthenticator#735&lt;/a> and
+&lt;a href="https://github.com/jupyterhub/oauthenticator/pull/498" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> jupyterhub/oauthenticator#498&lt;/a>.&lt;/p>
+&lt;p>Users can access JupyterHub using a variety of authentication methods. Authentication providers like GitHub have built-in user management features that allow admins to create and manage user groups. These groups can then be configured in JupyterHub to authorize access to the hub, as well as control access to certain hardware profiles.&lt;/p>
+&lt;p>Following the key upstream contributions above, we can leverage
+&lt;a href="https://jupyterhub.readthedocs.io/en/stable/reference/authenticators.html#authenticator-managed-group-membership" target="_blank" rel="noopener" >Authenticator-managed group membership&lt;/a> to automatically pass user group memberships from the authentication layer to JupyterHub itself. This allows us to capitalize on JupyterHub&amp;rsquo;s REST API to retrieve user group memberships from other
+&lt;a href="https://jupyterhub.readthedocs.io/en/latest/reference/services.html" target="_blank" rel="noopener" >services&lt;/a>, such as exporting them as Prometheus metrics.&lt;/p>
+&lt;h2 id="exporting-user-group-memberships-to-prometheus">
+Exporting user group memberships to Prometheus
+&lt;a class="header-anchor" href="#exporting-user-group-memberships-to-prometheus">#&lt;/a>
+&lt;/h2>&lt;p>The
+&lt;a href="https://github.com/2i2c-org/jupyterhub-groups-exporter" target="_blank" rel="noopener" >&lt;code>jupyterhub-groups-exporter&lt;/code>&lt;/a> project provides a
+&lt;a href="https://jupyterhub.readthedocs.io/en/latest/reference/services.html" target="_blank" rel="noopener" >service&lt;/a> that integrates with JupyterHub to export user group memberships as Prometheus metrics. This component is readily deployable as part of any JupyterHub instance, such as a standalone deployment or a Zero to JupyterHub deployment on Kubernetes.&lt;/p>
+&lt;p>The exporter provides a
+&lt;a href="https://prometheus.io/docs/concepts/metric_types/" target="_blank" rel="noopener" >Gauge metric&lt;/a> called &lt;code>jupyterhub_user_group_info&lt;/code>, which contain the following labels:&lt;/p>
+&lt;ul>
+&lt;li>&lt;code>namespace&lt;/code> – the Kubernetes namespace where the JupyterHub is deployed&lt;/li>
+&lt;li>&lt;code>usergroup&lt;/code> – the name of the user group&lt;/li>
+&lt;li>&lt;code>username&lt;/code> – the unescaped username of the user&lt;/li>
+&lt;li>&lt;code>username_escape&lt;/code> – the escaped username&lt;/li>
+&lt;/ul>
+&lt;p>Escaped usernames are useful because Kubernetes pods have characterset limits for valid pod label names (this limit does not apply to pod annotations). Storing both types of usernames allows us to join escaped versions with their more human-readable unescaped usernames.&lt;/p>
+&lt;p>Exposing this metric as an endpoint for Prometheus to scrape allows us to query and join groups data with a range of usage metrics to gain powerful group-level insights. Here is an example PromQL query that retrieves the memory usage by user group:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-promql" data-lang="promql">&lt;span class="line">&lt;span class="cl">&lt;span class="k">sum&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nv">container_memory_working_set_bytes&lt;/span>&lt;span class="p">{&lt;/span>&lt;span class="nl">name&lt;/span>&lt;span class="o">!=&lt;/span>&lt;span class="p">&amp;#34;&amp;#34;,&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nl">pod&lt;/span>&lt;span class="o">=~&lt;/span>&lt;span class="p">&amp;#34;&lt;/span>&lt;span class="s">jupyter-.*&lt;/span>&lt;span class="p">&amp;#34;,&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nl">namespace&lt;/span>&lt;span class="o">=~&lt;/span>&lt;span class="p">&amp;#34;&lt;/span>&lt;span class="s">$hub_name&lt;/span>&lt;span class="p">&amp;#34;}&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="o">*&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">on&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="nv">namespace&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nv">pod&lt;/span>&lt;span class="o">)&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">group_left&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="nv">annotation_hub_jupyter_org_username&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nv">usergroup&lt;/span>&lt;span class="o">)&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="k">group&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nv">kube_pod_annotations&lt;/span>&lt;span class="p">{&lt;/span>&lt;span class="nl">namespace&lt;/span>&lt;span class="o">=~&lt;/span>&lt;span class="p">&amp;#34;&lt;/span>&lt;span class="s">$hub_name&lt;/span>&lt;span class="p">&amp;#34;,&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nl">annotation_hub_jupyter_org_username&lt;/span>&lt;span class="o">=~&lt;/span>&lt;span class="p">&amp;#34;&lt;/span>&lt;span class="s">.*&lt;/span>&lt;span class="p">&amp;#34;,&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nl">pod&lt;/span>&lt;span class="o">=~&lt;/span>&lt;span class="p">&amp;#34;&lt;/span>&lt;span class="s">jupyter-.*&lt;/span>&lt;span class="p">&amp;#34;}&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="o">)&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">by&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="nv">pod&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nv">namespace&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nv">annotation_hub_jupyter_org_username&lt;/span>&lt;span class="o">)&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="o">*&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">on&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="nv">namespace&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nv">annotation_hub_jupyter_org_username&lt;/span>&lt;span class="o">)&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">group_left&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="nv">usergroup&lt;/span>&lt;span class="o">)&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="k">group&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="kr">label_replace&lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="nv">jupyterhub_user_group_info&lt;/span>&lt;span class="p">{&lt;/span>&lt;span class="nl">namespace&lt;/span>&lt;span class="o">=~&lt;/span>&lt;span class="p">&amp;#34;&lt;/span>&lt;span class="s">$hub_name&lt;/span>&lt;span class="p">&amp;#34;,&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nl">username&lt;/span>&lt;span class="o">=~&lt;/span>&lt;span class="p">&amp;#34;&lt;/span>&lt;span class="s">.*&lt;/span>&lt;span class="p">&amp;#34;,&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nl">usergroup&lt;/span>&lt;span class="o">=~&lt;/span>&lt;span class="p">&amp;#34;&lt;/span>&lt;span class="s">$user_group&lt;/span>&lt;span class="p">&amp;#34;},&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="p">&amp;#34;&lt;/span>&lt;span class="s">annotation_hub_jupyter_org_username&lt;/span>&lt;span class="p">&amp;#34;,&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="p">&amp;#34;&lt;/span>&lt;span class="s">$1&lt;/span>&lt;span class="p">&amp;#34;,&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="p">&amp;#34;&lt;/span>&lt;span class="s">username&lt;/span>&lt;span class="p">&amp;#34;,&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="p">&amp;#34;&lt;/span>&lt;span class="s">(.+)&lt;/span>&lt;span class="p">&amp;#34;&lt;/span>&lt;span class="o">)&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="o">)&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">by&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="nv">annotation_hub_jupyter_org_username&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nv">usergroup&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nv">namespace&lt;/span>&lt;span class="o">)&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="w">&lt;/span>&lt;span class="o">)&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="k">by&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="o">(&lt;/span>&lt;span class="nv">usergroup&lt;/span>&lt;span class="p">,&lt;/span>&lt;span class="w"> &lt;/span>&lt;span class="nv">namespace&lt;/span>&lt;span class="o">)&lt;/span>&lt;span class="w">
+&lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>
+&lt;h2 id="visualizing-user-group-resource-usage-with-grafana">
+Visualizing user group resource usage with Grafana
+&lt;a class="header-anchor" href="#visualizing-user-group-resource-usage-with-grafana">#&lt;/a>
+&lt;/h2>&lt;p>The PromQL query above is rather long and complex to construct! However, you can benefit from an
+&lt;a href="https://github.com/jupyterhub/grafana-dashboards/pull/149" target="_blank" rel="noopener" >upstream contribution&lt;/a> to the
+&lt;a href="https://github.com/jupyterhub/grafana-dashboards" target="_blank" rel="noopener" >jupyterhub/grafana-dashboards&lt;/a> project where we have encapsulated the PromQL queries as Jsonnet code and represented them as Grafana Dashboard visualizations (also known as
+&lt;a href="https://grafana.github.io/grafonnet/index.html" target="_blank" rel="noopener" >Grafonnet&lt;/a>). If you have a Kubernetes cluster running JupyterHub, try deploying these Grafana Dashboards and let us know what you think!&lt;/p>
+&lt;p>Our particular PromQL query above is visualized in the Grafana Dashboard &lt;strong>User Groups Diagnostics&lt;/strong> under the &lt;strong>Memory Usage&lt;/strong> panel (see also the corresponding screenshot at the top of this post). This is equivalent to its counterpart &lt;strong>User Diagnostics&lt;/strong> dashboard, but with resource usage visualized on a &lt;em>per-group&lt;/em> level rather than a per-user level &amp;#x1f389;&lt;/p>
+&lt;h2 id="future-work">
+Future work
+&lt;a class="header-anchor" href="#future-work">#&lt;/a>
+&lt;/h2>&lt;p>We have laid the foundation for joining user group data to usage metrics with Prometheus by extracting memberships from JupyterHub&amp;rsquo;s database. This unlocks potent ways in which observability systems can be extended to group-level reporting and monitoring.&lt;/p>
+&lt;p>Future directions for this work include:&lt;/p>
+&lt;ul>
+&lt;li>visualising cloud cost by user group in Grafana&lt;/li>
+&lt;li>developing more group-level reporting and monitoring dashboards&lt;/li>
+&lt;li>introducing group-level resource quotas.&lt;/li>
+&lt;/ul>
+&lt;p>What do you think? How would you like to see JupyterHub&amp;rsquo;s group management features evolve? Have you tried deploying this yourself?
+&lt;a href="https://docs.google.com/forms/d/e/1FAIpQLSff-u-sWFuwO1-VTgk2Ir7f1nfUUlLevQk_Vkk_jnmcI1nJnw/viewform?usp=header" target="_blank" rel="noopener" >We welcome your feedback&lt;/a> and feel free to open GitHub issues or make contributions to the repositories mentioned in this post.&lt;/p>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;p>Thanks to the
+&lt;a href="https://2i2c.org/collaborators/jupyterhub/" >JupyterHub project&lt;/a> for their collaboration and review of this work.&lt;/p></description></item><item><title>Track and manage cloud costs using Grafana</title><link>https://2i2c.org/blog/2024/aws-cost-attribution/</link><pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/aws-cost-attribution/</guid><description>&lt;p>
 &lt;figure id="figure-grafana-dashboard-showing-cloud-costs-broken-down-by-compute-storage-and-other-components-for-the-openscapeshttpsopenscapesorg-hub">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Screenshot of a graph showing total daily costs per component." srcset="
