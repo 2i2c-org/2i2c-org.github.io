@@ -5,9 +5,10 @@ summary: ""
 authors:
   - Yuvi Panda
 tags:
-  - geoscience
+  - earth-science
+  - open-source
 categories:
-  - impact
+  - upstream-impact
 date: 2025-01-07T15:18:37-08:00
 lastmod: 2025-01-07T15:18:37-08:00
 featured: false

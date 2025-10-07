@@ -5,9 +5,9 @@ authors:
   - Yuvi Panda
   - Chris Holdgraf
 tags:
-  - open source
+  - open-source
 categories:
-  - impact
+  - upstream-impact
 featured: false
 draft: false
 ---

@@ -5,9 +5,9 @@ authors:
   - Yuvi Panda
   - Chris Holdgraf
 tags:
-  - open source
+  - open-source
 categories:
-  - impact
+  - upstream-impact
 aliases:
   - /blog/2025/foundational-contributions/
 ---

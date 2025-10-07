@@ -1,10 +1,15 @@
 ---
-title: "Chris is joining Project Jupyter's Executive Council"
+title: Chris is joining Project Jupyter's Executive Council
 subtitle: ""
-authors: ["Chris Holdgraf"]
-tags: ["open source", "jupyter", "community"]
-categories: ["impact"]
-date: "2025-03-10"
+authors:
+  - Chris Holdgraf
+tags:
+  - open-source
+  - jupyter
+  - community
+categories:
+  - upstream-impact
+date: 2025-03-10
 featured: false
 draft: false
 ---

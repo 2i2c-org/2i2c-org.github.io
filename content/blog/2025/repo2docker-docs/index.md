@@ -2,9 +2,9 @@
 title: Overhauling repo2docker's documentation
 date: 2025-08-01
 author: Chris Holdgraf
-categories: impact
+categories: upstream-impact
 tags:
-  - open source
+  - open-source
 ---
 
 Documentation is incredibly important for open source projects to communicate their value and show users how to make the most of their tools. However, it's one of those things that often gets de-prioritized with all of the other work that needs to happen in a project.

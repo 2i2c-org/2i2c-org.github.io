@@ -7,9 +7,9 @@ authors:
   - Arnim Bleier
   - Chris Holdgraf
 tags:
-  - open source
+  - open-source
 categories:
-  - impact
+  - upstream-impact
 date: 2022-11-28
 featured: false
 draft: false

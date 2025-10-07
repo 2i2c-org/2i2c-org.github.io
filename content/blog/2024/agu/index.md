@@ -2,10 +2,10 @@
 title: 2i2c communities at AGU 2024
 date: 2024-12-09
 tags:
-  - geoscience
+  - earth-science
   - education
 categories:
-  - impact
+  - community-impact
 authors:
   - Chris Holdgraf
 ---

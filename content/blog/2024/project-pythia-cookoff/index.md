@@ -6,11 +6,11 @@ authors:
   - James Munroe
   - Angus Hollands
 tags:
-  - open source
-  - Jupyter Book
-  - geospatial
+  - open-source
+  - jupyterbook
+  - earth-science
 categories:
-  - impact
+  - community-impact
 featured: false
 draft: false
 ---

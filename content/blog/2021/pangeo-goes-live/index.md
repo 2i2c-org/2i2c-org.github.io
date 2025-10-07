@@ -5,9 +5,9 @@ summary: "2i2c are pleased to announce that the first Pangeo JupyterHub is now l
 authors:
   - Sarah Gibson
 tags:
-  - geoscience
+  - earth-science
 categories:
-  - impact
+  - community-impact
 date: 2021-11-16
 featured: false
 draft: false

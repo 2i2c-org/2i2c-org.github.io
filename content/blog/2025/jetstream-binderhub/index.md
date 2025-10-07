@@ -5,10 +5,10 @@ authors:
   - Georgiana Dolocan
   - James Munroe
 tags:
-  - open source
-  - geoscience
+  - open-source
+  - earth-science
 categories:
-  - service
+  - service-enhancements
 featured: false
 draft: false
 ---

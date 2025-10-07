@@ -5,9 +5,9 @@ summary: ""
 authors:
   - James Colliander
 tags:
-  - geoscience
+  - earth-science
 categories:
-  - impact
+  - community-impact
 date: 2023-12-05
 featured: false
 draft: false

@@ -7,10 +7,10 @@ authors:
   - Chris Holdgraf
   - Rowan Cockett
 tags:
-  - open source
-  - Jupyter Book
+  - open-source
+  - jupyterbook
 categories:
-  - impact
+  - upstream-impact
 featured: false
 draft: false
 ---

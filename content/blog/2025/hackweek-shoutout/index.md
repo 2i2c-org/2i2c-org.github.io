@@ -1,10 +1,15 @@
 ---
-title: "Harnessing Marine Open Data Science for Ocean Sustainability in Africa, South Asia and Latin America"
+title: Harnessing Marine Open Data Science for Ocean Sustainability in Africa, South Asia and Latin America
 subtitle: ""
-authors: ["April Johnson"]
-tags: ["oceanography", "climate", "open source", "community"]
-categories: ["impact"]
-date: "2025-03-11"
+authors:
+  - April Johnson
+tags:
+  - earth-science
+  - open-source
+  - community
+categories:
+  - community-impact
+date: 2025-03-11
 featured: false
 draft: false
 ---

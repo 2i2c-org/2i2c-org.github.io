@@ -4,9 +4,9 @@ date: 2025-09-26
 authors:
   - Yuvi Panda
 tags:
-  - open source
+  - open-source
 categories:
-  - impact
+  - upstream-impact
 ---
 
 

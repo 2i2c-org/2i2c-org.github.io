@@ -3,7 +3,7 @@ date: 2025-02-15
 title: Where we hope to improve our service for creating and sharing knowledge.
 draft: true
 categories:
-  - service
+  - service-enhancements
 tags:
   - brainstorm
 authors:

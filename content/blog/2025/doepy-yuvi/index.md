@@ -1,14 +1,14 @@
 ---
-title: "Sharing JupyterHub's vision for more flexible application deployment at the doepy talk series."
-date: "2025-09-03"
+title: Sharing JupyterHub's vision for more flexible application deployment at the doepy talk series.
+date: 2025-09-03
 authors:
   - Chris Holdgraf
   - Yuvi Panda
 categories:
-  - impact
+  - upstream-impact
 tags:
-  - open source
-  - foundational-contribution
+  - leadership
+  - open-source
 ---
 
 Our Technical Lead [Yuvi Panda](../../authors/yuvi-panda/_index.md) recently gave a talk at the [doepy meetup](https://meetup.doepy.org/) about JupyterHub's interest in moving beyond the "single-user notebook application" and towards a more flexible approach to enabling administrators to deploy many different types of applications and environments.

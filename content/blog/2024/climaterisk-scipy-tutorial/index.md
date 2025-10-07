@@ -4,10 +4,10 @@ date: 2024-07-08
 authors:
   - Jenny Wong
 tags:
-  - geoscience
+  - earth-science
   - education
 categories:
-  - impact
+  - community-impact
 featured: false
 draft: false
 ---

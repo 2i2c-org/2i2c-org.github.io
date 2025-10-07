@@ -4,9 +4,9 @@ date: 2024-11-18
 authors:
   - Jenny Wong
 tags:
-  - open source
+  - open-source
 categories:
-  - impact
+  - upstream-impact
 featured: false
 draft: false
 ---

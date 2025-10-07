@@ -6,7 +6,7 @@ authors:
 tags:
   - education
 categories:
-  - service
+  - service-enhancements
 featured: false
 draft: false
 ---

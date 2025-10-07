@@ -5,7 +5,7 @@ summary: ""
 authors:
   - Chris Holdgraf
 tags:
-  - funding
+  - sustainability
 categories:
   - organization
 date: 2020-11-19
