@@ -38,7 +38,7 @@ GitHub provides a [`pull_request_target` workflow](https://docs.github.com/en/re
 
 As a result, **only use secrets that you're OK with being public**. In this case, we generated a read-only token with restricted permissions. However, this is still kinda risky so use at your own peril.
 
-If your repository workflows _require_ a secret that _absolutely cannot be public_ (e..g, a publishing key for a package repository), try a method like the following:
+If your repository workflows _require_ a secret that _absolutely cannot be public_ (e.g., a publishing key for a package repository), try a method like the following:
 
 ### Using GitHub Environments for granular control
 
