@@ -45,6 +45,7 @@ Work from our collaborators and member communities that we've enabled.
 
 - Community success stories
 - Hackweeks and events
+- Announcements and offers from collaborators
 
 #### `upstream-impact`
 
