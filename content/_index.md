@@ -47,7 +47,7 @@ sections:
 
         {{< servicetech >}}
        
-        2i2c's [community membership model](./join/_index.md) gives communities access to our [hub platform and services](/platform) so that your community can create an share knowledge with your own open infrastructure. We serve [over 90 member communities](./members/index.md) in research and education. See [our community impact stories](/communities) for inspiration.
+        Membership in 2i2c's [community network](./join/_index.md) provides access to our [hub platform and services](/platform) so your community can create an share knowledge with your own open infrastructure. We serve [over 90 communities](./members/index.md) in research and education. See [our community impact stories](/communities) for inspiration.
         
 
         <style>
@@ -77,7 +77,7 @@ sections:
   - block: collection
     id: posts
     content:
-      title: Blog updates
+      title: From our blog
       subtitle: The [2i2c blog](./blog/_index.md) shares our recent enhancements and impact.
       count: 3
       filters:

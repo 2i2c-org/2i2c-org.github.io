@@ -13,9 +13,9 @@ In [Month] we focused on [big theme that stands out and major takeaways]. We [ac
 [/Intro]
 
 [Highlights]
-<p class="category-label [category]">[category nam with spaces not -]</p>
+## [Category]
 
-## [Title of Featured Post N (1-3 total)]
+### [Title of Featured Post in category (1-3 total)]
 
 [Description - 1-3 sentences describing what happened, why it matters, and any important information a user would want to know.]
 
@@ -30,6 +30,13 @@ Read more 👉 [url-without-https://](url)
 
 ## [Title of Featured Post N+1 etc]
 [/Highlights]
+
+[Community]
+## From the community
+
+- [community] did [thing with link to their post]
+- [open source project] released [link to release of version NN]
+[/Community]
 ---
 
 _Here's a list of all the blog posts we published in [Month Year]._
