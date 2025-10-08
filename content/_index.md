@@ -41,15 +41,14 @@ sections:
   - block: markdown
     id: service
     content:
-      title: We help communities build their own interactive computing hub in the cloud with open infrastructure
+      title: We give communities a digital hub with the tools, resources, and data for their workflows
       subtitle: 
       text: |
 
         {{< servicetech >}}
-
-        2i2c stands for **the International Interactive Computing Collaboration**. Our [community hub platform and consultancy services](/platform) ensure your community makes the best use of open infrastructure for interactive computing in the cloud.
-
-        We serve **over 90 communities across the globe** with **over 7000 active users** dedicated to creating and sharing knowledge. See [our community impact stories](/communities) for inspiration.
+       
+        Membership in 2i2c's [community network](./join/_index.md) provides access to our [hub platform and services](/platform) so your community can create an share knowledge with your own open infrastructure. We serve [over 90 communities](./members/index.md) in research and education. See [our community impact stories](/communities) for inspiration.
+        
 
         <style>
           #who-logos {
@@ -74,6 +73,29 @@ sections:
         </ul>
 
         {{< cta cta_text="Join our network of community hubs" cta_link="/join" cta_new_tab="false" >}}
+
+  - block: collection
+    id: posts
+    content:
+      title: From our blog
+      subtitle: The [2i2c blog](./blog/_index.md) shares our recent enhancements and impact.
+      count: 3
+      filters:
+        folders:
+          - blog
+        exclude_featured: false
+        exclude_future: false
+        exclude_past: false
+      offset: 0
+      order: desc
+      archive:
+        enable: true
+        text: View all blog posts
+        link: /blog/
+    design:
+      view: masonry
+      columns: '1'
+      css_class: 'recent-posts-row'
 
   - block: markdown
     id: jupyterhub
@@ -206,7 +228,7 @@ sections:
     id: learnplatform
     content:
       title: Learn more about our platform.
-      subtitle: 
+      subtitle:
       text: |
 
         {{< cta cta_text="Learn about our interactive computing platform" cta_link="/platform" cta_new_tab="false" >}}
