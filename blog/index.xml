@@ -1,4 +1,49 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2i2c's blog | 2i2c</title><link>https://2i2c.org/blog/</link><atom:link href="https://2i2c.org/blog/index.xml" rel="self" type="application/rss+xml"/><description>2i2c's blog</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2999 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>2i2c's blog</title><link>https://2i2c.org/blog/</link></image><item><title>Openscapes is hiring a new team member</title><link>https://2i2c.org/blog/2025/openscapes-is-hiring-a-new-team-member/</link><pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/openscapes-is-hiring-a-new-team-member/</guid><description>&lt;p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2i2c's blog | 2i2c</title><link>https://2i2c.org/blog/</link><atom:link href="https://2i2c.org/blog/index.xml" rel="self" type="application/rss+xml"/><description>2i2c's blog</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2999 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>2i2c's blog</title><link>https://2i2c.org/blog/</link></image><item><title>GitHub Action secrets are only available from non-forked repositories!</title><link>https://2i2c.org/blog/2025/github-action-secrets-forked-repositories/</link><pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/github-action-secrets-forked-repositories/</guid><description>&lt;p>If you&amp;rsquo;ve worked with GitHub Actions in open source projects, you might encounter a hard-to-debug error where repository secrets are simply &lt;em>empty&lt;/em>. That&amp;rsquo;s probably because the PR is from a forked repository! Here&amp;rsquo;s a little learning we had after losing a bunch of time figuring this out:&lt;/p>
+&lt;h2 id="our-pr-from-a-fork-was-using-empty-strings-for-repository-secrets">
+Our PR from a fork was using empty strings for repository secrets
+&lt;a class="header-anchor" href="#our-pr-from-a-fork-was-using-empty-strings-for-repository-secrets">#&lt;/a>
+&lt;/h2>&lt;p>
+&lt;a href="https://github.com/executablebooks/github-activity" target="_blank" rel="noopener" >&lt;code>github-activity&lt;/code>&lt;/a> is a tool we help maintain for
+&lt;a href="https://github-activity.readthedocs.io/en/latest/#how-we-define-contributors-in-the-reports" target="_blank" rel="noopener" >generating changelogs from a wider variety of contributions&lt;/a> than GitHub&amp;rsquo;s defaults. We needed to set a secret to raise the API rate limits for the tool&amp;rsquo;s tests. These tests pull data from repositories outside of the &lt;code>github-activity&lt;/code> repository itself, which quickly hit GitHub&amp;rsquo;s rate limits without authentication.&lt;/p>
+&lt;p>The problem seemed straightforward at first: we added the secret, but the workflow was acting as if the secret didn&amp;rsquo;t exist at all. After updating the code to explicitly check for empty strings, we discovered the authentication token was actually &lt;em>an empty string&lt;/em>, even though it had been set.&lt;/p>
+&lt;p>After some debugging, we uncovered the root cause: &lt;strong>the PR was opened from a fork of &lt;code>github-activity&lt;/code>&lt;/strong>. GitHub intentionally
+&lt;a href="https://docs.github.com/en/actions/how-tos/write-workflows/choose-what-workflows-do/use-secrets" target="_blank" rel="noopener" >makes secrets appear as empty strings when a PR originates from a forked repository&lt;/a>. This is a security measure to prevent unauthorized access to sensitive credentials.&lt;/p>
+&lt;h2 id="a-quick-fix-re-open-the-pr-from-the-base-repository">
+A quick fix: re-open the PR from the base repository
+&lt;a class="header-anchor" href="#a-quick-fix-re-open-the-pr-from-the-base-repository">#&lt;/a>
+&lt;/h2>&lt;p>The immediate fix was simple: re-open the PR from a branch in the base repository rather than from the fork. This worked perfectly, but it&amp;rsquo;s not a sustainable solution for open source projects that rely on community contributions from forks.
+We don&amp;rsquo;t want to create a dynamic where maintainers have different PR workflows because they&amp;rsquo;re operating on the base repository.&lt;/p>
+&lt;h2 id="how-use-secrets-with-forked-repositories-in-a-safe-ish-way">
+How use secrets with forked repositories in a safe-ish way
+&lt;a class="header-anchor" href="#how-use-secrets-with-forked-repositories-in-a-safe-ish-way">#&lt;/a>
+&lt;/h2>&lt;p>If you need to make secrets available to PRs from forks, there are a few approaches we learned about, each with security trade-offs:&lt;/p>
+&lt;h3 id="the-pull_request_target-workflow">
+The &lt;code>pull_request_target&lt;/code> workflow
+&lt;a class="header-anchor" href="#the-pull_request_target-workflow">#&lt;/a>
+&lt;/h3>&lt;p>GitHub provides a
+&lt;a href="https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/enabling-features-for-your-repository/managing-github-actions-settings-for-a-repository#controlling-changes-from-forks-to-workflows-in-public-repositories" target="_blank" rel="noopener" >&lt;code>pull_request_target&lt;/code> workflow&lt;/a> that can access secrets even when triggered by forked PRs. In this case, GitHub will &lt;strong>always run the test suite on &lt;code>main&lt;/code>&lt;/strong>, instead of any changes your PR introduces.&lt;/p>
+&lt;p>&lt;strong>Why this is dangerous&lt;/strong>: malicious actors could add &lt;em>code&lt;/em> to a PR that exfiltrates your secrets (for example, Python code that prints &lt;code>os.environ[&amp;quot;MY_SECRET&amp;quot;]&lt;/code>).&lt;/p>
+&lt;p>As a result, &lt;strong>only use secrets that you&amp;rsquo;re OK with being public&lt;/strong>. In this case, we generated a read-only token with restricted permissions. However, this is still kinda risky so use at your own peril.&lt;/p>
+&lt;p>If your repository workflows &lt;em>require&lt;/em> a secret that &lt;em>absolutely cannot be public&lt;/em> (e.g., a publishing key for a package repository), try a method like the following:&lt;/p>
+&lt;h3 id="using-github-environments-for-granular-control">
+Using GitHub Environments for granular control
+&lt;a class="header-anchor" href="#using-github-environments-for-granular-control">#&lt;/a>
+&lt;/h3>&lt;p>A safer approach is to use
+&lt;a href="https://docs.github.com/en/actions/how-tos/deploy/configure-and-manage-deployments/manage-environments" target="_blank" rel="noopener" >GitHub Environments&lt;/a>, which let you restrict which secrets are available to specific jobs. This way, you can ensure that only non-critical secrets (like those needed for testing) are available to jobs that run on forked PRs, while keeping sensitive secrets (like PyPI publishing tokens) restricted to trusted contexts.&lt;/p>
+&lt;p>This is the approach we implemented in &lt;code>github-activity&lt;/code>, and it provides a good balance between security and community contribution workflows. We created a separate environment for publishing to PyPI so that its secret is never available to the job that runs with &lt;code>pull_request_target&lt;/code>.&lt;/p>
+&lt;h2 id="we-hope-this-saves-you-time">
+We hope this saves you time!
+&lt;a class="header-anchor" href="#we-hope-this-saves-you-time">#&lt;/a>
+&lt;/h2>&lt;p>Hopefully this learning is useful to others who run into the same confusing behavior. We&amp;rsquo;ve added a few improvements to &lt;code>github-activity&lt;/code> to more reliably check for empty strings to surface this kind of condition, but knowing the basic behavior of GitHub environments and forked PRs is even better.&lt;/p>
+&lt;h2 id="learn-more">
+Learn more
+&lt;a class="header-anchor" href="#learn-more">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;a href="https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/enabling-features-for-your-repository/managing-github-actions-settings-for-a-repository#controlling-changes-from-forks-to-workflows-in-public-repositories" target="_blank" rel="noopener" >GitHub documentation on controlling changes from forks to workflows&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://docs.github.com/en/actions/how-tos/deploy/configure-and-manage-deployments/manage-environments" target="_blank" rel="noopener" >GitHub Environments for deployment&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Openscapes is hiring a new team member</title><link>https://2i2c.org/blog/2025/openscapes-is-hiring-a-new-team-member/</link><pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/openscapes-is-hiring-a-new-team-member/</guid><description>&lt;p>
 &lt;a href="https://2i2c.org/collaborators/openscapes/" >Openscapes&lt;/a> is hiring a &lt;strong>NASA Openscapes Suborbital Team Member&lt;/strong> to engage with NASA suborbital science teams and support open science practices. This is a &lt;strong>part-time contract position (20 hrs/week) starting as early as December 1, 2025&lt;/strong>, with a 6-month initial term and potential for extension.
 The position is fully remote ($100/hr) with applications due by &lt;strong>October 26, 2025&lt;/strong>.&lt;/p>
 &lt;h2 id="learn-more">
