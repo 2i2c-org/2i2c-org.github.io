@@ -17,7 +17,7 @@ Port scanning is a common part of network-based exploits, and many server hosts 
 
 ## Why this matters
 
-As providers of public compute, it's our responsibility to make sure people can't use our infrastructure to abuse others. This is part of being responsible citizens of the internet. It also saves us time in dealing with outages because cloud providers (understandably) block access because they suspect there is abuse.
+As providers of public compute, it's our responsibility to make sure people can't use our infrastructure to abuse others. This is part of being responsible citizens of the internet. It also saves us time in dealing with outages because cloud providers (understandably) block access when they suspect there is abuse.
 
 Hetzner and similar hosts have many benefits (including [significant cost savings](../binder-singlenode/)), and tools like tcpflowkiller help keep hubs and binders running smoothly on such hosts, which have different abuse policies than the big commercial cloud providers.
 
