@@ -1,6 +1,6 @@
 ---
 # THIS IS A TEMPLATE FOR COPY-PASTING TO MAKE IT EASIER TO CREATE BLOG POSTS
-title: How to do XYZ thing for Y outcome
+title: "TIL: How to do XYZ thing for Y outcome"
 date: "2999-01-01"
 authors:
   - Chris Holdgraf
