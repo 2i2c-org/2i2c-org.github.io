@@ -1,4 +1,53 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2i2c's blog | 2i2c</title><link>https://2i2c.org/blog/</link><atom:link href="https://2i2c.org/blog/index.xml" rel="self" type="application/rss+xml"/><description>2i2c's blog</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2999 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>2i2c's blog</title><link>https://2i2c.org/blog/</link></image><item><title>TIL: GitHub Action secrets are only available from non-forked repositories</title><link>https://2i2c.org/blog/2025/github-action-secrets-forked-repositories/</link><pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/github-action-secrets-forked-repositories/</guid><description>&lt;p>If you&amp;rsquo;ve worked with GitHub Actions in open source projects, you might encounter a hard-to-debug error where repository secrets are simply &lt;em>empty&lt;/em>. That&amp;rsquo;s probably because the PR is from a forked repository! Here&amp;rsquo;s a little learning we had after losing a bunch of time figuring this out:&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2i2c's blog | 2i2c</title><link>https://2i2c.org/blog/</link><atom:link href="https://2i2c.org/blog/index.xml" rel="self" type="application/rss+xml"/><description>2i2c's blog</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2999 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>2i2c's blog</title><link>https://2i2c.org/blog/</link></image><item><title>Impact report from 2i2c's Binder federation instance</title><link>https://2i2c.org/blog/2025/binder-report-q3/</link><pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/binder-report-q3/</guid><description>&lt;p>The
+&lt;a href="https://mybinder.org" target="_blank" rel="noopener" >mybinder.org&lt;/a> service provides reproducible and interactive computational environments for the open science community. It is financially supported by a
+&lt;a href="https://mybinder.readthedocs.io/en/latest/about/federation.html" target="_blank" rel="noopener" >federation of BinderHubs&lt;/a>.
+2i2c is part of the team that manages mybinder.org, and we&amp;rsquo;re committed to supporting this critical infrastructure for open science and reproducibility.&lt;/p>
+&lt;p>We developed a more
+&lt;a href="" >cost-efficient process for deploying BinderHub on a single VM&lt;/a> and are now running a BinderHub at
+&lt;a href="https://2i2c.mybinder.org" target="_blank" rel="noopener" >2i2c.mybinder.org&lt;/a>.
+This post highlights the impact we&amp;rsquo;ve had through our support of the mybinder.org federation, we&amp;rsquo;ll update it periodically.&lt;/p>
+&lt;h2 id="usage-over-time">
+Usage over time
+&lt;a class="header-anchor" href="#usage-over-time">#&lt;/a>
+&lt;/h2>
+&lt;figure id="figure-weekly-launches-on-mybinderorg-launches-from-2i2cmybinderorg-are-in-red-source-mybinder-analytics-dashboardhttpshubjupyterorgbinder-data">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./featured.png" alt="Weekly launches on mybinder.org Launches from `2i2c.mybinder.org` are in red. Source: [mybinder analytics dashboard](https://hub.jupyter.org/binder-data/)." loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+Weekly launches on mybinder.org Launches from &lt;code>2i2c.mybinder.org&lt;/code> are in red. Source:
+&lt;a href="https://hub.jupyter.org/binder-data/" target="_blank" rel="noopener" >mybinder analytics dashboard&lt;/a>.
+&lt;/figcaption>&lt;/figure>
+&lt;p>&lt;strong>In Q1 of 2025&lt;/strong>, &lt;code>2i2c.mybinder.org&lt;/code> launched &lt;strong>417,048 reproducible sessions&lt;/strong>. In this time, mybinder.org was primarily driven by our
+&lt;a href="" >new Hetzner node&lt;/a> as we worked with GESIS to stabilize their own BinderHub instance.&lt;/p>
+&lt;p>&lt;strong>In Q2 of 2025&lt;/strong>, &lt;code>2i2c.mybinder.org&lt;/code> launched &lt;strong>249,750 reproducible sessions&lt;/strong>. In this time, we worked with
+&lt;a href="https://2i2c.org/collaborators/gesis/" >GESIS&lt;/a> to deploy their BinderHub instance on the same Hetzner node setup, which let us distribute more of Binder&amp;rsquo;s load onto them.&lt;/p>
+&lt;h2 id="where-weve-made-improvements">
+Where we&amp;rsquo;ve made improvements
+&lt;a class="header-anchor" href="#where-weve-made-improvements">#&lt;/a>
+&lt;/h2>&lt;p>As part of this effort, we&amp;rsquo;ve made several improvements to the Binder and JupyterHub ecosystem. Here are a few links where you can read more:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="" >Deploying BinderHub on a single VM with k3s&lt;/a> - Our approach to making BinderHub deployment cheaper and simpler&lt;/li>
+&lt;li>
+&lt;a href="" >Hetzner cloud infrastructure experience&lt;/a> - Cost-effective cloud hosting for mybinder.org&lt;/li>
+&lt;li>
+&lt;a href="https://hub.jupyter.org/binder-data/" target="_blank" rel="noopener" >Improving Binder&amp;rsquo;s usage dashboard&lt;/a> - This helps us create posts like these and is useful to others as well.&lt;/li>
+&lt;li>
+&lt;a href="" >Integrating BinderHub with JupyterHub&lt;/a> - Working with
+&lt;a href="https://2i2c.org/collaborators/gesis/" >GESIS&lt;/a> to bring Binder&amp;rsquo;s dynamic image building capabilities to persistent JupyterHubs, empowering users to manage their own environments&lt;/li>
+&lt;/ul>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;p>This work is made possible by:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="https://2i2c.org/collaborators/gesis/" >GESIS&lt;/a> for their continued support as mybinder.org federation members&lt;/li>
+&lt;li>The
+&lt;a href="https://2i2c.org/collaborators/jupyterhub/" >JupyterHub community&lt;/a> for collaboration and support&lt;/li>
+&lt;li>Our
+&lt;a href="https://2i2c.org/members/" >member communities&lt;/a> whose fees support this work&lt;/li>
+&lt;/ul></description></item><item><title>TIL: GitHub Action secrets are only available from non-forked repositories</title><link>https://2i2c.org/blog/2025/github-action-secrets-forked-repositories/</link><pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/github-action-secrets-forked-repositories/</guid><description>&lt;p>If you&amp;rsquo;ve worked with GitHub Actions in open source projects, you might encounter a hard-to-debug error where repository secrets are simply &lt;em>empty&lt;/em>. That&amp;rsquo;s probably because the PR is from a forked repository! Here&amp;rsquo;s a little learning we had after losing a bunch of time figuring this out:&lt;/p>
 &lt;h2 id="our-pr-from-a-fork-was-using-empty-strings-for-repository-secrets">
 Our PR from a fork was using empty strings for repository secrets
 &lt;a class="header-anchor" href="#our-pr-from-a-fork-was-using-empty-strings-for-repository-secrets">#&lt;/a>
