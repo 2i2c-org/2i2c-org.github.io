@@ -32,6 +32,7 @@ As part of this effort, we've made several improvements to the Binder and Jupyte
 
 - [Deploying BinderHub on a single VM with k3s](../binder-singlenode/) - Our approach to making BinderHub deployment cheaper and simpler
 - [Hetzner cloud infrastructure experience](../jetstream-binderhub/) - Cost-effective cloud hosting for mybinder.org
+- [Combating TCP scanning abuse on mybinder.org](../mybinder-antiabuse-scanning/) - Developing anti-abuse tools to prevent an abuse use-case.
 - [Improving Binder's usage dashboard](https://hub.jupyter.org/binder-data/) - This helps us create posts like these and is useful to others as well.
 - [Integrating BinderHub with JupyterHub](../../2024/jupyterhub-binderhub-gesis/) - Working with [GESIS](../../collaborators/gesis/) to bring Binder's dynamic image building capabilities to persistent JupyterHubs, empowering users to manage their own environments 
 
