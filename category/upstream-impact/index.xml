@@ -280,7 +280,48 @@ You don&amp;rsquo;t need to contribute more to open source, you need to go to th
 What 2i2c has learned while trying to build sustainable relationships with Jupyter&amp;rsquo;s community.
 &lt;a class="header-anchor" href="#what-2i2c-has-learned-while-trying-to-build-sustainable-relationships-with-jupyters-community">#&lt;/a>
 &lt;/h2>&lt;p>2i2c is a non-profit organization that fosters co-creation and collaboration between science communities and open source communities. We are deeply embedded in an international network of research and education communities, as well as open source communities that underlie their infrastructure (particularly in the Jupyter ecosystem). Our technical infrastructure is built entirely with open source components that we contribute to, but do not control. This is a really hard problem to solve!&lt;/p>
-&lt;p>We&amp;rsquo;ve learned a lot in the first four years of our existence. This talk will describe how our organization approaches a healthy and productive open source relationship with the Jupyter (and broader scientific python) ecosystem. It&amp;rsquo;ll cover some of the major mistakes we&amp;rsquo;ve made, lessons learned, and where we think we&amp;rsquo;ve had impact. We aim to make this talk full of practical learnings that others can follow in building sustainable open science organizations that contribute to a healthy and vibrant open source ecosystem. Our goal will be to provide inspiration to others that are interested in building on top of open source projects like Jupyter, and want to do so in a way that is healthy and sustainable.&lt;/p></description></item><item><title>Jupyter Book at the Scientific Python 2025 Developer Summit</title><link>https://2i2c.org/blog/2025/scientific-python-summit/</link><pubDate>Fri, 23 May 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/scientific-python-summit/</guid><description>&lt;p>Chris and Angus recently attended the Scientific Python 2025 Developer Summit on behalf of
+&lt;p>We&amp;rsquo;ve learned a lot in the first four years of our existence. This talk will describe how our organization approaches a healthy and productive open source relationship with the Jupyter (and broader scientific python) ecosystem. It&amp;rsquo;ll cover some of the major mistakes we&amp;rsquo;ve made, lessons learned, and where we think we&amp;rsquo;ve had impact. We aim to make this talk full of practical learnings that others can follow in building sustainable open science organizations that contribute to a healthy and vibrant open source ecosystem. Our goal will be to provide inspiration to others that are interested in building on top of open source projects like Jupyter, and want to do so in a way that is healthy and sustainable.&lt;/p></description></item><item><title>Open slides: Jupyter Book 2 and MyST at the UC Berkeley Data Science Education Summit</title><link>https://2i2c.org/blog/2025/jb2-berkeley-dsep/</link><pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/jb2-berkeley-dsep/</guid><description>&lt;p>Chris gave a talk about Jupyter Book 2 and MyST at the
+&lt;a href="https://data.berkeley.edu/dsep" target="_blank" rel="noopener" >UC Berkeley Data Science Education Program&lt;/a>&amp;rsquo;s annual meeting. It covered the next direction for the Jupyter Book project, and its recent adoption of the
+&lt;a href="https://mystmd.org" target="_blank" rel="noopener" >MyST Document Engine&lt;/a> for Jupyter Book 2.&lt;/p>
+&lt;p>You can
+&lt;a href="https://docs.google.com/presentation/d/1rHQudFtfk8ATu3Pmc1lFGDDAlCmAo8KGIk7ybTbTw6c/edit?slide=id.g2f14b3524cb_0_886#slide=id.g2f14b3524cb_0_886" target="_blank" rel="noopener" >view the full slide deck here&lt;/a>.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Slide from the presentation showing Jupyter Book 2 and MyST overview" srcset="
+/blog/2025/jb2-berkeley-dsep/featured_hu8430e0e9c10e10455f83c8ebe9d339d9_187852_6bbb6be570447b58bf1c8b32ded77fd2.webp 400w,
+/blog/2025/jb2-berkeley-dsep/featured_hu8430e0e9c10e10455f83c8ebe9d339d9_187852_7a0803bf6b1b290b1a3508b649c80e45.webp 760w,
+/blog/2025/jb2-berkeley-dsep/featured_hu8430e0e9c10e10455f83c8ebe9d339d9_187852_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2025/jb2-berkeley-dsep/featured_hu8430e0e9c10e10455f83c8ebe9d339d9_187852_6bbb6be570447b58bf1c8b32ded77fd2.webp"
+width="760"
+height="424"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;h2 id="learn-more">
+Learn more
+&lt;a class="header-anchor" href="#learn-more">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;a href="https://docs.google.com/presentation/d/1rHQudFtfk8ATu3Pmc1lFGDDAlCmAo8KGIk7ybTbTw6c/edit?slide=id.g2f14b3524cb_0_886#slide=id.g2f14b3524cb_0_886" target="_blank" rel="noopener" >View the full slide deck&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://blog.jupyterbook.org/posts/2024-11-15-jupyter-book-2-alpha/" target="_blank" rel="noopener" >Learn about Jupyter Book 2&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://2i2c.org/blog/2025/jb-for-communities/" >See how we&amp;rsquo;re using Jupyter Book for communities&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://next.jupyterbook.org/" target="_blank" rel="noopener" >Jupyter Book 2 documentation&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>Thanks to
+&lt;a href="https://2i2c.org/collaborators/pythia/" >Project Pythia&lt;/a> for funding some of our work on the Jupyter Book and MyST ecosystem&lt;/li>
+&lt;li>Thanks to
+&lt;a href="https://2i2c.org/collaborators/cloudbank/" >CloudBank&lt;/a> for collaborating with us on adapting and deploying Jupyter Book for education and organizing this summit&lt;/li>
+&lt;li>Thanks to the
+&lt;a href="https://2i2c.org/collaborators/jupyter-book/" >Jupyter Book project&lt;/a> for collaborating with us on these strategic efforts over the last years&lt;/li>
+&lt;/ul></description></item><item><title>Jupyter Book at the Scientific Python 2025 Developer Summit</title><link>https://2i2c.org/blog/2025/scientific-python-summit/</link><pubDate>Fri, 23 May 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/scientific-python-summit/</guid><description>&lt;p>Chris and Angus recently attended the Scientific Python 2025 Developer Summit on behalf of
 &lt;a href="https://2i2c.org/collaborators/jupyter-book/" >Jupyter Book&lt;/a>, here&amp;rsquo;s
 &lt;a href="https://blog.jupyterbook.org/posts/2025-05-23-scientific-python-dev-summit" target="_blank" rel="noopener" >a brief blog post about their experience&lt;/a> written with the Jupyter Book team.&lt;/p></description></item><item><title>Chris is joining Project Jupyter's Executive Council</title><link>https://2i2c.org/blog/2025/jupyter-executive-council/</link><pubDate>Mon, 10 Mar 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/jupyter-executive-council/</guid><description>&lt;p>We are proud to announce that 2i2c&amp;rsquo;s Executive Director, Chris Holdgraf, was
 &lt;a href="https://blog.jupyter.org/project-jupyters-2025-executive-council-elections-605b183ec64c" target="_blank" rel="noopener" >recently elected to Jupyter&amp;rsquo;s Executive Council&lt;/a>. The 2i2c team discussed whether Chris should run for this position last year, and concluded that it was a way for our non-profit to both support Jupyter&amp;rsquo;s mission at a strategic level, and represent the interests of research and education communities in Jupyter&amp;rsquo;s direction. Chris wrote
