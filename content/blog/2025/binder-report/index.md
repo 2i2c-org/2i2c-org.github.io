@@ -20,7 +20,9 @@ This post highlights the impact we've had through our support of the mybinder.or
 
 ## Usage over time
 
-{{< figure src="./featured.png" title="Weekly launches on mybinder.org Launches from `2i2c.mybinder.org` are in red. Source: [mybinder analytics dashboard](https://hub.jupyter.org/binder-data/).">}}
+![Binder launches](featured.png)
+
+*Here are weekly launches on mybinder.org. Launches from `2i2c.mybinder.org` are in red. Source: [mybinder analytics dashboard](https://hub.jupyter.org/binder-data/).*
 
 **In Q1 of 2025**, `2i2c.mybinder.org` launched **417,048 reproducible sessions**. In this time, mybinder.org was primarily driven by our [new Hetzner node](../binder-singlenode/) as we worked with GESIS to stabilize their own BinderHub instance.
 
