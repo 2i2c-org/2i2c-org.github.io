@@ -1,4 +1,46 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Yuvaraj (Yuvi) | 2i2c</title><link>https://2i2c.org/author/yuvaraj-yuvi/</link><atom:link href="https://2i2c.org/author/yuvaraj-yuvi/index.xml" rel="self" type="application/rss+xml"/><description>Yuvaraj (Yuvi)</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 08 Oct 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/author/yuvaraj-yuvi/avatar_huc33b170c6d7c951ba6ff8e7ef074ee49_9242_270x270_fill_q75_lanczos_center.jpeg</url><title>Yuvaraj (Yuvi)</title><link>https://2i2c.org/author/yuvaraj-yuvi/</link></image><item><title>Combating tcp scanning on mybinder.org with the tcpflowkiller</title><link>https://2i2c.org/blog/2025/mybinder-antiabuse-scanning/</link><pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/mybinder-antiabuse-scanning/</guid><description>&lt;p>We&amp;rsquo;ve deployed a new tool to &lt;code>mybinder.org&lt;/code> that automatically detects and stops port scanning activity, helping us maintain service reliability while being responsible citizens of the internet.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Yuvaraj (Yuvi) | 2i2c</title><link>https://2i2c.org/author/yuvaraj-yuvi/</link><atom:link href="https://2i2c.org/author/yuvaraj-yuvi/index.xml" rel="self" type="application/rss+xml"/><description>Yuvaraj (Yuvi)</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 14 Oct 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/author/yuvaraj-yuvi/avatar_huc33b170c6d7c951ba6ff8e7ef074ee49_9242_270x270_fill_q75_lanczos_center.jpeg</url><title>Yuvaraj (Yuvi)</title><link>https://2i2c.org/author/yuvaraj-yuvi/</link></image><item><title>Fixing the mybinder.org usage analytics archive</title><link>https://2i2c.org/blog/2025/mybinder-analytics-fix/</link><pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/mybinder-analytics-fix/</guid><description>&lt;p>The analytics archive at &lt;code>archive.analytics.mybinder.org&lt;/code> powers the
+&lt;a href="https://hub.jupyter.org/binder-data/" target="_blank" rel="noopener" >mybinder.org usage dashboards&lt;/a> and provides a
+&lt;a href="https://github.com/jupyterhub/binder-data" target="_blank" rel="noopener" >daily-published dataset&lt;/a> that researchers and communities use to understand how Binder is being used across different domains and scientific communities.&lt;/p>
+&lt;p>While updating our
+&lt;a href="" >quarterly Binder impact report&lt;/a>, we discovered the archive index page had stopped updating. The analytics publisher was writing index files to temporary storage before uploading to Google Cloud Storage, but for some reason the upload step stopped working. We
+&lt;a href="https://github.com/jupyterhub/mybinder.org-deploy/pull/3462" target="_blank" rel="noopener" >deployed a fix&lt;/a> that eliminates the temporary files entirely - the code now generates the HTML index as a string in memory and uploads directly.&lt;/p>
+&lt;figure id="figure-the-mybinderorg-analytics-archivehttpsarchiveanalyticsmybinderorg-shows-a-list-of-daily-usage-reports-that-anybody-can-download">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./featured.png" alt="The [mybinder.org analytics archive](https://archive.analytics.mybinder.org) shows a list of daily usage reports that anybody can download." loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+The
+&lt;a href="https://archive.analytics.mybinder.org" target="_blank" rel="noopener" >mybinder.org analytics archive&lt;/a> shows a list of daily usage reports that anybody can download.
+&lt;/figcaption>&lt;/figure>
+&lt;p>Fortunately, we didn&amp;rsquo;t lose any data! Thanks to some smart design decisions, the daily analytics files were being collected properly the entire time, only the index page listing them was broken. You can find
+&lt;a href="https://archive.analytics.mybinder.org" target="_blank" rel="noopener" >the full archive here&lt;/a>.&lt;/p>
+&lt;h2 id="learn-more">
+Learn more
+&lt;a class="header-anchor" href="#learn-more">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;a href="https://github.com/jupyterhub/mybinder.org-deploy/pull/3462" target="_blank" rel="noopener" >Pull request with the fix&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://hub.jupyter.org/binder-data/" target="_blank" rel="noopener" >mybinder.org usage dashboards&lt;/a>&lt;/li>
+&lt;li>The
+&lt;a href="https://github.com/jupyterhub/binder-data" target="_blank" rel="noopener" >&lt;code>binder-data/&lt;/code> repository&lt;/a> is where we aggregate and publish archive data to be more accessible.&lt;/li>
+&lt;li>
+&lt;a href="" >Our quarterly impact report from mybinder.org&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>Thanks to the
+&lt;a href="https://2i2c.org/collaborators/jupyterhub/" >JupyterHub community&lt;/a> for their collaboration on mybinder.org infrastructure&lt;/li>
+&lt;/ul></description></item><item><title>Yuvaraj (Yuvi)</title><link>https://2i2c.org/author/yuvaraj-yuvi/</link><pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/author/yuvaraj-yuvi/</guid><description>&lt;p>Building participatory open infrastructure for scientific &amp;amp; educational use cases. A Project Jupyter team member working on infrastructure related projects. Ex Wikimedia and ex-GNOME. Let&amp;rsquo;s eliminate accidental complexities wherever we find them.&lt;/p>
+&lt;p>&lt;strong>Highlights&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>10+ years experience building open infrastructure for scientific and educational communities&lt;/li>
+&lt;li>Jupyter Distinguished Contributor&lt;/li>
+&lt;li>Leader in the JupyterHub and Binder projects&lt;/li>
+&lt;li>Served as the Infrastructure Architect behind UC Berkeley’s scalable DataHub&lt;/li>
+&lt;li>Former ops engineer at Wikimedia and GNOME.&lt;/li>
+&lt;/ul></description></item><item><title>Combating tcp scanning on mybinder.org with the tcpflowkiller</title><link>https://2i2c.org/blog/2025/mybinder-antiabuse-scanning/</link><pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/mybinder-antiabuse-scanning/</guid><description>&lt;p>We&amp;rsquo;ve deployed a new tool to &lt;code>mybinder.org&lt;/code> that automatically detects and stops port scanning activity, helping us maintain service reliability while being responsible citizens of the internet.&lt;/p>
 &lt;p>Port scanning is a common part of network-based exploits, and many server hosts prohibit this activity (including Hetzner, where the 2i2c &lt;code>mybinder.org&lt;/code> infrastructure lives). We developed a little tool called
 &lt;a href="https://github.com/cryptnono/cryptnono/pull/46" target="_blank" rel="noopener" >tcpflowkiller&lt;/a> as part of the
 &lt;a href="https://github.com/cryptnono/cryptnono" target="_blank" rel="noopener" >cryptnono&lt;/a> project (our anti-abuse set of tools for hosted JupyterHub and Binder infrastructure) to automatically kill processes that exhibit port scanning behavior. This reduces the likelihood of triggering our server host&amp;rsquo;s abuse policies and helps keep &lt;code>mybinder.org&lt;/code> running reliably.&lt;/p>
@@ -31,14 +73,6 @@ Acknowledgements
 &lt;li>Thanks to
 &lt;a href="https://2i2c.org/collaborators/gesis/" >GESIS&lt;/a> for their continued support of &lt;code>mybinder.org&lt;/code> and to
 &lt;a href="https://github.com/rgaiacs" target="_blank" rel="noopener" >Raniere Silva&lt;/a> for collaborating on this deployment with us.&lt;/li>
-&lt;/ul></description></item><item><title>Yuvaraj (Yuvi)</title><link>https://2i2c.org/author/yuvaraj-yuvi/</link><pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/author/yuvaraj-yuvi/</guid><description>&lt;p>Building participatory open infrastructure for scientific &amp;amp; educational use cases. A Project Jupyter team member working on infrastructure related projects. Ex Wikimedia and ex-GNOME. Let&amp;rsquo;s eliminate accidental complexities wherever we find them.&lt;/p>
-&lt;p>&lt;strong>Highlights&lt;/strong>:&lt;/p>
-&lt;ul>
-&lt;li>10+ years experience building open infrastructure for scientific and educational communities&lt;/li>
-&lt;li>Jupyter Distinguished Contributor&lt;/li>
-&lt;li>Leader in the JupyterHub and Binder projects&lt;/li>
-&lt;li>Served as the Infrastructure Architect behind UC Berkeley’s scalable DataHub&lt;/li>
-&lt;li>Former ops engineer at Wikimedia and GNOME.&lt;/li>
 &lt;/ul></description></item><item><title>From scattered effort to strategic impact: How we're systematizing our Foundational open source contributions</title><link>https://2i2c.org/blog/2025/foundational-contributions/</link><pubDate>Fri, 26 Sep 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/foundational-contributions/</guid><description>&lt;p>Over the past year we&amp;rsquo;ve experimented with being more strategic about supporting upstream communities &lt;em>as a team&lt;/em>. This post summarizes our current plan, including team targets and practices we&amp;rsquo;ll continue to pilot. We&amp;rsquo;ll revisit this as we learn more.&lt;/p>
 &lt;blockquote>
 &lt;p>&lt;strong>Note&lt;/strong>: This document is about the &lt;em>Foundational&lt;/em> contributions we make so that open source communities are healthier and more impactful. It is not about &lt;em>Directed&lt;/em> upstream contributions we make as part of our own product work. See

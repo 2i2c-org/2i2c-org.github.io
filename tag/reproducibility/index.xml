@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Reproducibility | 2i2c</title><link>https://2i2c.org/tag/reproducibility/</link><atom:link href="https://2i2c.org/tag/reproducibility/index.xml" rel="self" type="application/rss+xml"/><description>Reproducibility</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 14 Oct 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Reproducibility</title><link>https://2i2c.org/tag/reproducibility/</link></image><item><title>Impact report from 2i2c's Binder federation instance</title><link>https://2i2c.org/blog/2025/binder-report-q3/</link><pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/binder-report-q3/</guid><description>&lt;p>The
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Reproducibility | 2i2c</title><link>https://2i2c.org/tag/reproducibility/</link><atom:link href="https://2i2c.org/tag/reproducibility/index.xml" rel="self" type="application/rss+xml"/><description>Reproducibility</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 14 Oct 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Reproducibility</title><link>https://2i2c.org/tag/reproducibility/</link></image><item><title>Impact report from 2i2c's Binder federation instance</title><link>https://2i2c.org/blog/2025/binder-report/</link><pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/binder-report/</guid><description>&lt;p>The
 &lt;a href="https://mybinder.org" target="_blank" rel="noopener" >mybinder.org&lt;/a> service provides reproducible and interactive computational environments for the open science community. It is financially supported by a
 &lt;a href="https://mybinder.readthedocs.io/en/latest/about/federation.html" target="_blank" rel="noopener" >federation of BinderHubs&lt;/a>.
 2i2c is part of the team that manages mybinder.org, and we&amp;rsquo;re committed to supporting this critical infrastructure for open science and reproducibility.&lt;/p>
@@ -9,18 +9,28 @@ This post highlights the impact we&amp;rsquo;ve had through our support of the m
 &lt;h2 id="usage-over-time">
 Usage over time
 &lt;a class="header-anchor" href="#usage-over-time">#&lt;/a>
-&lt;/h2>
-&lt;figure id="figure-weekly-launches-on-mybinderorg-launches-from-2i2cmybinderorg-are-in-red-source-mybinder-analytics-dashboardhttpshubjupyterorgbinder-data">
+&lt;/h2>&lt;p>
+&lt;figure >
 &lt;div class="d-flex justify-content-center">
-&lt;div class="w-100" >&lt;img src="./featured.png" alt="Weekly launches on mybinder.org Launches from `2i2c.mybinder.org` are in red. Source: [mybinder analytics dashboard](https://hub.jupyter.org/binder-data/)." loading="lazy" data-zoomable />&lt;/div>
-&lt;/div>&lt;figcaption>
-Weekly launches on mybinder.org Launches from &lt;code>2i2c.mybinder.org&lt;/code> are in red. Source:
-&lt;a href="https://hub.jupyter.org/binder-data/" target="_blank" rel="noopener" >mybinder analytics dashboard&lt;/a>.
-&lt;/figcaption>&lt;/figure>
+&lt;div class="w-100" >&lt;img alt="Binder launches" srcset="
+/blog/2025/binder-report/featured_hu0f9f1ae8d80fa109b602b80004fe12f0_156400_bd3dc558251d8d2f9ceb45632df1537f.webp 400w,
+/blog/2025/binder-report/featured_hu0f9f1ae8d80fa109b602b80004fe12f0_156400_43138623992843945bb647029e00a3e0.webp 760w,
+/blog/2025/binder-report/featured_hu0f9f1ae8d80fa109b602b80004fe12f0_156400_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2025/binder-report/featured_hu0f9f1ae8d80fa109b602b80004fe12f0_156400_bd3dc558251d8d2f9ceb45632df1537f.webp"
+width="760"
+height="673"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>&lt;em>Here are weekly launches on mybinder.org. Launches from &lt;code>2i2c.mybinder.org&lt;/code> are in red. Source:
+&lt;a href="https://hub.jupyter.org/binder-data/" target="_blank" rel="noopener" >mybinder analytics dashboard&lt;/a>.&lt;/em>&lt;/p>
 &lt;p>&lt;strong>In Q1 of 2025&lt;/strong>, &lt;code>2i2c.mybinder.org&lt;/code> launched &lt;strong>417,048 reproducible sessions&lt;/strong>. In this time, mybinder.org was primarily driven by our
 &lt;a href="" >new Hetzner node&lt;/a> as we worked with GESIS to stabilize their own BinderHub instance.&lt;/p>
 &lt;p>&lt;strong>In Q2 of 2025&lt;/strong>, &lt;code>2i2c.mybinder.org&lt;/code> launched &lt;strong>249,750 reproducible sessions&lt;/strong>. In this time, we worked with
 &lt;a href="https://2i2c.org/collaborators/gesis/" >GESIS&lt;/a> to deploy their BinderHub instance on the same Hetzner node setup, which let us distribute more of Binder&amp;rsquo;s load onto them.&lt;/p>
+&lt;p>&lt;strong>In Q3 of 2025&lt;/strong>, &lt;code>2i2c.mybinder.org&lt;/code> launched &lt;strong>118,083 reproducible sessions&lt;/strong>. We experienced a typical summer dip in sessions, had to
+&lt;a href="" >fix the analytics dashboard&lt;/a> as well as
+&lt;a href="" >fix a TCP scanning abuse case&lt;/a> that briefly brought down the 2i2c node.&lt;/p>
 &lt;h2 id="where-weve-made-improvements">
 Where we&amp;rsquo;ve made improvements
 &lt;a class="header-anchor" href="#where-weve-made-improvements">#&lt;/a>
