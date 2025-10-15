@@ -14,12 +14,13 @@ tags:
 
 The analytics archive at `archive.analytics.mybinder.org` powers the [mybinder.org usage dashboards](https://hub.jupyter.org/binder-data/) and provides a [daily-published dataset](https://github.com/jupyterhub/binder-data) that researchers and communities use to understand how Binder is being used across different domains and scientific communities.
 
-We recently discovered the archive was down while updating our [quarterly Binder impact report](../binder-report/), then [identified the issue and deployed a fix](https://github.com/jupyterhub/mybinder.org-deploy/pull/3462), ensuring that it continues to deploy usage data about mybinder.org for the public to use.
-Fortunately, the design of the analytics archive meant that we didn't lose any data in the process! You can find [the full archive here](https://archive.analytics.mybinder.org).
+While updating our [quarterly Binder impact report](../binder-report-q3/), we discovered the archive index page had stopped updating. The analytics publisher was writing index files to temporary storage before uploading to Google Cloud Storage, but for some reason the upload step stopped working. We [deployed a fix](https://github.com/jupyterhub/mybinder.org-deploy/pull/3462) that eliminates the temporary files entirely - the code now generates the HTML index as a string in memory and uploads directly.
 
-{{< figure src="./featured.png" title="The mybinder.org analytics archive shows a list of daily usage reports that anybody can download.">}}
 
-This is a key resource for Binder to demonstrate its transparency and impact, and to be a useful for others to understand how Binder is used for open science.
+{{< figure src="./featured.png" title="The [mybinder.org analytics archive](https://archive.analytics.mybinder.org) shows a list of daily usage reports that anybody can download.">}}
+
+Fortunately, we didn't lose any data! Thanks to some smart design decisions, the daily analytics files were being collected properly the entire time, only the index page listing them was broken. You can find [the full archive here](https://archive.analytics.mybinder.org).
+
 
 ## Learn more
 
