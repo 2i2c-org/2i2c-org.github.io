@@ -1,4 +1,29 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Community-Impact | 2i2c</title><link>https://2i2c.org/category/community-impact/</link><atom:link href="https://2i2c.org/category/community-impact/index.xml" rel="self" type="application/rss+xml"/><description>Community-Impact</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 07 Oct 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Community-Impact</title><link>https://2i2c.org/category/community-impact/</link></image><item><title>Openscapes is hiring a new team member</title><link>https://2i2c.org/blog/2025/openscapes-is-hiring-a-new-team-member/</link><pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/openscapes-is-hiring-a-new-team-member/</guid><description>&lt;p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Community-Impact | 2i2c</title><link>https://2i2c.org/category/community-impact/</link><atom:link href="https://2i2c.org/category/community-impact/index.xml" rel="self" type="application/rss+xml"/><description>Community-Impact</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 21 Oct 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Community-Impact</title><link>https://2i2c.org/category/community-impact/</link></image><item><title>A helpful contribution to our JupyterHub SSH README from OpenScapes</title><link>https://2i2c.org/blog/2025/openscapes-readme-contribution/</link><pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/openscapes-readme-contribution/</guid><description>&lt;p>We love when collaborators contribute back to the tools we maintain! Andy Teucher from
+&lt;a href="https://2i2c.org/collaborators/openscapes/" >OpenScapes&lt;/a> recently
+&lt;a href="https://github.com/yuvipanda/jupyter-sshd-proxy/pull/11" target="_blank" rel="noopener" >fixed a documentation issue&lt;/a> in &lt;code>jupyter-sshd-proxy&lt;/code> that benefits everyone using the tool.&lt;/p>
+&lt;p>
+&lt;a href="https://github.com/yuvipanda/jupyter-sshd-proxy" target="_blank" rel="noopener" >&lt;code>jupyter-sshd-proxy&lt;/code>&lt;/a> is a tool originally created by Yuvi to help 2i2c communities connect to their JupyterHub instances via SSH. Andy ran into an issue when using it with the VS Code fork that uses the
+&lt;a href="https://github.com/jeanp413/open-remote-ssh" target="_blank" rel="noopener" >&lt;code>open-remote-ssh&lt;/code>&lt;/a> extension - it failed unless double quotes were used around the authorization token in the &lt;code>ProxyCommand&lt;/code>.&lt;/p>
+&lt;p>Through experimentation, Andy figured out the fix and
+&lt;a href="https://github.com/yuvipanda/jupyter-sshd-proxy/pull/11" target="_blank" rel="noopener" >contributed it back to the README&lt;/a>. Now everyone using this tool will have clearer documentation.&lt;/p>
+&lt;p>While small, we think this is a nice example of a
+&lt;a href="https://2i2c.org/blog/2025/foundational-contributions/" >&amp;ldquo;Foundational contributions&amp;rdquo;&lt;/a> from a community:&lt;/p>
+&lt;ul>
+&lt;li>2i2c creates and maintains open source tools to help our communities&lt;/li>
+&lt;li>Our communities use those tools and run into issues&lt;/li>
+&lt;li>They debug, figure out solutions, and contribute improvements back&lt;/li>
+&lt;li>Everyone benefits from the improvements&lt;/li>
+&lt;/ul>
+&lt;p>This is exactly how we want 2i2c to help our communities - by making it easy for them to contribute back to the ecosystem and strengthen the tools everyone relies on.&lt;/p>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>Thanks to
+&lt;a href="https://github.com/ateucher" target="_blank" rel="noopener" >Andy Teucher&lt;/a> for the contribution and debugging!&lt;/li>
+&lt;li>Thanks to
+&lt;a href="https://2i2c.org/collaborators/openscapes/" >OpenScapes&lt;/a> for being great collaborators places where can work with people like Andy&lt;/li>
+&lt;/ul></description></item><item><title>Openscapes is hiring a new team member</title><link>https://2i2c.org/blog/2025/openscapes-is-hiring-a-new-team-member/</link><pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/openscapes-is-hiring-a-new-team-member/</guid><description>&lt;p>
 &lt;a href="https://2i2c.org/collaborators/openscapes/" >Openscapes&lt;/a> is hiring a &lt;strong>NASA Openscapes Suborbital Team Member&lt;/strong> to engage with NASA suborbital science teams and support open science practices. This is a &lt;strong>part-time contract position (20 hrs/week) starting as early as December 1, 2025&lt;/strong>, with a 6-month initial term and potential for extension.
 The position is fully remote ($100/hr) with applications due by &lt;strong>October 26, 2025&lt;/strong>.&lt;/p>
 &lt;h2 id="learn-more">

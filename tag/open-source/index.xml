@@ -1,4 +1,86 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Open-Source | 2i2c</title><link>https://2i2c.org/tag/open-source/</link><atom:link href="https://2i2c.org/tag/open-source/index.xml" rel="self" type="application/rss+xml"/><description>Open-Source</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 14 Oct 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Open-Source</title><link>https://2i2c.org/tag/open-source/</link></image><item><title>Fixing the mybinder.org usage analytics archive</title><link>https://2i2c.org/blog/2025/mybinder-analytics-fix/</link><pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/mybinder-analytics-fix/</guid><description>&lt;p>The analytics archive at &lt;code>archive.analytics.mybinder.org&lt;/code> powers the
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Open-Source | 2i2c</title><link>https://2i2c.org/tag/open-source/</link><atom:link href="https://2i2c.org/tag/open-source/index.xml" rel="self" type="application/rss+xml"/><description>Open-Source</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 21 Oct 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Open-Source</title><link>https://2i2c.org/tag/open-source/</link></image><item><title>A helpful contribution to our JupyterHub SSH README from OpenScapes</title><link>https://2i2c.org/blog/2025/openscapes-readme-contribution/</link><pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/openscapes-readme-contribution/</guid><description>&lt;p>We love when collaborators contribute back to the tools we maintain! Andy Teucher from
+&lt;a href="https://2i2c.org/collaborators/openscapes/" >OpenScapes&lt;/a> recently
+&lt;a href="https://github.com/yuvipanda/jupyter-sshd-proxy/pull/11" target="_blank" rel="noopener" >fixed a documentation issue&lt;/a> in &lt;code>jupyter-sshd-proxy&lt;/code> that benefits everyone using the tool.&lt;/p>
+&lt;p>
+&lt;a href="https://github.com/yuvipanda/jupyter-sshd-proxy" target="_blank" rel="noopener" >&lt;code>jupyter-sshd-proxy&lt;/code>&lt;/a> is a tool originally created by Yuvi to help 2i2c communities connect to their JupyterHub instances via SSH. Andy ran into an issue when using it with the VS Code fork that uses the
+&lt;a href="https://github.com/jeanp413/open-remote-ssh" target="_blank" rel="noopener" >&lt;code>open-remote-ssh&lt;/code>&lt;/a> extension - it failed unless double quotes were used around the authorization token in the &lt;code>ProxyCommand&lt;/code>.&lt;/p>
+&lt;p>Through experimentation, Andy figured out the fix and
+&lt;a href="https://github.com/yuvipanda/jupyter-sshd-proxy/pull/11" target="_blank" rel="noopener" >contributed it back to the README&lt;/a>. Now everyone using this tool will have clearer documentation.&lt;/p>
+&lt;p>While small, we think this is a nice example of a
+&lt;a href="https://2i2c.org/blog/2025/foundational-contributions/" >&amp;ldquo;Foundational contributions&amp;rdquo;&lt;/a> from a community:&lt;/p>
+&lt;ul>
+&lt;li>2i2c creates and maintains open source tools to help our communities&lt;/li>
+&lt;li>Our communities use those tools and run into issues&lt;/li>
+&lt;li>They debug, figure out solutions, and contribute improvements back&lt;/li>
+&lt;li>Everyone benefits from the improvements&lt;/li>
+&lt;/ul>
+&lt;p>This is exactly how we want 2i2c to help our communities - by making it easy for them to contribute back to the ecosystem and strengthen the tools everyone relies on.&lt;/p>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>Thanks to
+&lt;a href="https://github.com/ateucher" target="_blank" rel="noopener" >Andy Teucher&lt;/a> for the contribution and debugging!&lt;/li>
+&lt;li>Thanks to
+&lt;a href="https://2i2c.org/collaborators/openscapes/" >OpenScapes&lt;/a> for being great collaborators places where can work with people like Andy&lt;/li>
+&lt;/ul></description></item><item><title>TIL: A few ways to track web traffic for open source projects</title><link>https://2i2c.org/blog/2025/web-traffic-tracking-open-source/</link><pubDate>Sun, 19 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/web-traffic-tracking-open-source/</guid><description>&lt;p>Understanding how people discover and navigate your project&amp;rsquo;s web presence is valuable for open source communities, but there are a lot of options out there and many maintainers may not know about them. Recently Chris did some research to improve the web analytics for
+&lt;a href="https://jupyter.org" target="_blank" rel="noopener" >Jupyter&lt;/a>, and learned about several options for tracking web traffic&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>. Here&amp;rsquo;s a quick report of what stood out.&lt;/p>
+&lt;h2 id="three-analytics-tools-we-found-helpful">
+Three analytics tools we found helpful
+&lt;a class="header-anchor" href="#three-analytics-tools-we-found-helpful">#&lt;/a>
+&lt;/h2>&lt;p>&lt;strong>
+&lt;a href="https://plausible.io/" target="_blank" rel="noopener" >Plausible.io&lt;/a>&lt;/strong> - A privacy-friendly, GDPR-compliant analytics service&lt;/p>
+&lt;ul>
+&lt;li>Clean interface with public dashboards (see
+&lt;a href="https://plausible.io/jupyter.org" target="_blank" rel="noopener" >Jupyter&amp;rsquo;s dashboard&lt;/a>)&lt;/li>
+&lt;li>Paid service but offers 15% discount for open source projects&lt;/li>
+&lt;li>Cost scales with traffic volume. It can get expensive for a project as big as Jupyter!&lt;/li>
+&lt;li>This is the service we ultimately ended up using&amp;hellip;&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>
+&lt;a href="https://docs.readthedocs.com/platform/stable/traffic-analytics.html" target="_blank" rel="noopener" >ReadTheDocs Analytics&lt;/a>&lt;/strong> - Built-in traffic tracking for documentation sites&lt;/p>
+&lt;ul>
+&lt;li>Available as a free add-on for ReadTheDocs projects, it provides traffic data specific to documentation pages.&lt;/li>
+&lt;li>There&amp;rsquo;s no additional cost if already using ReadTheDocs, though if you&amp;rsquo;re on a business plan you may need to pay for it.&lt;/li>
+&lt;li>The analytics are a bit barebones, but quite useful for learning where your readers are navigating.&lt;/li>
+&lt;li>Enable in &lt;code>Settings&lt;/code> &amp;gt; &lt;code>Addons&lt;/code> &amp;gt; &lt;code>Analytics&lt;/code>.&lt;/li>
+&lt;/ul>
+&lt;p>&lt;strong>
+&lt;a href="https://docs.github.com/en/repositories/viewing-activity-and-data-for-your-repository/viewing-traffic-to-a-repository" target="_blank" rel="noopener" >GitHub Repository Analytics&lt;/a>&lt;/strong> - Native analytics in GitHub.&lt;/p>
+&lt;ul>
+&lt;li>Shows clones, views, and referring sites. This is also fairly barebones, but it&amp;rsquo;s really useful to see who is actually looking at your repository.&lt;/li>
+&lt;li>Free for all GitHub repositories.&lt;/li>
+&lt;li>Access via &lt;code>Insights&lt;/code> &amp;gt; &lt;code>Traffic&lt;/code> on any repository.&lt;/li>
+&lt;/ul>
+&lt;h2 id="learn-more">
+Learn more
+&lt;a class="header-anchor" href="#learn-more">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;a href="https://github.com/jupyter/jupyter.github.io/issues/815" target="_blank" rel="noopener" >GitHub issue coordinating Jupyter&amp;rsquo;s analytics work&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://plausible.io/jupyter.org" target="_blank" rel="noopener" >Plausible.io public dashboard for jupyter.org&lt;/a> (this might be down for now, but we&amp;rsquo;re working to bring it back up)&lt;/li>
+&lt;li>
+&lt;a href="https://docs.readthedocs.com/platform/stable/traffic-analytics.html" target="_blank" rel="noopener" >ReadTheDocs Analytics documentation&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://docs.github.com/en/rest/metrics/traffic?apiVersion=2022-11-28" target="_blank" rel="noopener" >GitHub Traffic Analytics API&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;p>Thanks in particular to
+&lt;a href="https://github.com/jasongrout" target="_blank" rel="noopener" >Jason Grout&lt;/a> from the
+&lt;a href="https://2i2c.org/collaborators/jupyter/" >Jupyter Executive Council&lt;/a> for collaborating on this investigation and helping test these tools.&lt;/p>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>Chris has been
+&lt;a href="" >serving on the Jupyter Executive Council&lt;/a> as a
+&lt;a href="" >Foundational contribution&lt;/a>. This was related to that effort!&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></description></item><item><title>Fixing the mybinder.org usage analytics archive</title><link>https://2i2c.org/blog/2025/mybinder-analytics-fix/</link><pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/mybinder-analytics-fix/</guid><description>&lt;p>The analytics archive at &lt;code>archive.analytics.mybinder.org&lt;/code> powers the
 &lt;a href="https://hub.jupyter.org/binder-data/" target="_blank" rel="noopener" >mybinder.org usage dashboards&lt;/a> and provides a
 &lt;a href="https://github.com/jupyterhub/binder-data" target="_blank" rel="noopener" >daily-published dataset&lt;/a> that researchers and communities use to understand how Binder is being used across different domains and scientific communities.&lt;/p>
 &lt;p>While updating our
