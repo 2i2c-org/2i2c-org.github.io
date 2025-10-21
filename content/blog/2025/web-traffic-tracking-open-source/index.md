@@ -10,8 +10,9 @@ tags:
 - open-source
 ---
 
-Understanding how people discover and navigate your project's web presence is valuable for open source communities. Chris has been [serving on the Jupyter Executive Council](../executive-council-updates/) as a [Foundational contribution](../foundational-contributions/). As part of this work, we did some research to improve their web analytics, and learned about several free and low-cost options for tracking web traffic.
-Here's a quick report of what stood out.
+Understanding how people discover and navigate your project's web presence is valuable for open source communities, but there are a lot of options out there and many maintainers may not know about them. Recently Chris did some research to improve the web analytics for [Jupyter](https://jupyter.org), and learned about several options for tracking web traffic[^1]. Here's a quick report of what stood out. 
+
+[^1]: Chris has been [serving on the Jupyter Executive Council](../executive-council-updates/) as a [Foundational contribution](../foundational-contributions/). This was related to that effort!
 
 ## Three analytics tools we found helpful
 
@@ -41,4 +42,4 @@ Here's a quick report of what stood out.
 
 ## Acknowledgements
 
-Thanks in particular to [Jason Grout](https://github.com/jasongrout) from [Jupyter EC](/collaborators/jupyter/) for collaborating on this investigation and helping test these tools.
+Thanks in particular to [Jason Grout](https://github.com/jasongrout) from the [Jupyter Executive Council](/collaborators/jupyter/) for collaborating on this investigation and helping test these tools.
