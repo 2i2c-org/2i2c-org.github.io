@@ -1,4 +1,69 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Organization | 2i2c</title><link>https://2i2c.org/category/organization/</link><atom:link href="https://2i2c.org/category/organization/index.xml" rel="self" type="application/rss+xml"/><description>Organization</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 15 Oct 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Organization</title><link>https://2i2c.org/category/organization/</link></image><item><title>Celebrating BIDS as 2i2c's first premier member at UC Berkeley</title><link>https://2i2c.org/blog/2025/bids-premier-membership-event/</link><pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/bids-premier-membership-event/</guid><description>&lt;p>We&amp;rsquo;re celebrating
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Organization | 2i2c</title><link>https://2i2c.org/category/organization/</link><atom:link href="https://2i2c.org/category/organization/index.xml" rel="self" type="application/rss+xml"/><description>Organization</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 22 Oct 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Organization</title><link>https://2i2c.org/category/organization/</link></image><item><title>A thank you to CZI for its impact on 2i2c and Jupyter</title><link>https://2i2c.org/blog/2025/czi-retrospective/</link><pubDate>Wed, 22 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/czi-retrospective/</guid><description>&lt;p>As I attend the
+&lt;a href="https://chanzuckerberg.com/science/programs-resources/open-science/" target="_blank" rel="noopener" >CZI Open Science&lt;/a> 2025 meeting, it’s a good moment to reflect on the many ways CZI has positively impacted both 2i2c and the Jupyter Project.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="" srcset="
+/blog/2025/czi-retrospective/featured_hu4b15a9956c47a7ddfe5d0ed882b19b9a_35602_88d7f2172655d1104b8412a7a835b4e8.webp 400w,
+/blog/2025/czi-retrospective/featured_hu4b15a9956c47a7ddfe5d0ed882b19b9a_35602_a3c28a81bc5b1955a51321ea2f296345.webp 760w,
+/blog/2025/czi-retrospective/featured_hu4b15a9956c47a7ddfe5d0ed882b19b9a_35602_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2025/czi-retrospective/featured_hu4b15a9956c47a7ddfe5d0ed882b19b9a_35602_88d7f2172655d1104b8412a7a835b4e8.webp"
+width="760"
+height="421"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>The funders who support organizations like 2i2c and Jupyter have a difficult task. In the day-to-day work of building open infrastructure, it’s easy to focus on the next challenge or grant, and lose sight of the cumulative, long-term impact of strategic support. This post is an attempt to pause and celebrate that impact.&lt;/p>
+&lt;p>CZI has played a unique role in the open source and open science ecosystem since its creation. It has taken an approach to funding and coalition-building that has genuinely changed how many think about supporting open source. Their model has driven an incredible amount of impact, and I&amp;rsquo;m very grateful for our collaboration.&lt;/p>
+&lt;p>Here are a few ways their support has stood out.&lt;/p>
+&lt;p>&lt;em>This was collected quickly, so please let us know of other ways we may have missed! And most importantly, we&amp;rsquo;re only trying to gather a high level view here, so we&amp;rsquo;re including many efforts where all the work was led by teams and organizations &lt;em>other&lt;/em> than 2i2c/Jupyter. The
+&lt;a href="https://jupyter.org" target="_blank" rel="noopener" >Jupyter Community&lt;/a> has many leaders that are part of this effort as well.&lt;/em>&lt;/p>
+&lt;h2 id="strengthening-the-foundations-of-jupyter">
+Strengthening the foundations of Jupyter
+&lt;a class="header-anchor" href="#strengthening-the-foundations-of-jupyter">#&lt;/a>
+&lt;/h2>&lt;p>Through its Essential Open Source Software for Science (EOSS) program, CZI has funded several initiatives in the
+&lt;a href="https://jupyter.org" target="_blank" rel="noopener" >Jupyter ecosystem&lt;/a> that have strengthened the project in foundational ways. Here are a few that stand out:&lt;/p>
+&lt;p>&lt;strong>JupyterHub&amp;rsquo;s Contributor in Residence:&lt;/strong> Allowed JupyterHub to
+&lt;a href="https://blog.jupyter.org/lessons-learned-from-jupyters-contributor-in-residence-pilot-427e2b361a7b" target="_blank" rel="noopener" >explore a new maintenance and community support model&lt;/a> and support maintainer growth. Georgiana&amp;rsquo;s journey from this program to becoming 2i2c&amp;rsquo;s first engineer shows how CZI&amp;rsquo;s investment in people creates lasting impact.&lt;/p>
+&lt;p>&lt;strong>Community Strategic Lead:&lt;/strong> Focused on
+&lt;a href="https://chanzuckerberg.com/eoss/proposals/jupyterhub-community-strategic-lead/" target="_blank" rel="noopener" >diversity, equity, and inclusion at a strategic level&lt;/a>. This created space for us to rethink &lt;em>how&lt;/em> we build our teams to be more accessible and equitable. It helped us create pathways for underrepresented groups to become community leaders and led to a key partnership with
+&lt;a href="https://book.the-turing-way.org/" target="_blank" rel="noopener" >The Turing Way&lt;/a>.&lt;/p>
+&lt;p>&lt;strong>Real-Time Collaboration:&lt;/strong> Built the foundation for
+&lt;a href="https://chanzuckerberg.com/eoss/proposals/real-time-collaboration-in-jupyter/" target="_blank" rel="noopener" >collaborative notebook editing&lt;/a>, which is very useful for remote scientific collaboration. This was complex technical work that involved collaboration with many stakeholders. It laid a foundation that Jupyter continues to build upon, and may facilitate AI-based workflows in unexpected ways.&lt;/p>
+&lt;p>&lt;strong>Jupyter Accessibility:&lt;/strong> Funded key improvements in
+&lt;a href="https://jupyter-accessibility.readthedocs.io/en/latest/funding/czi-grant-roadmap.html" target="_blank" rel="noopener" >accessibility for JupyterLab and the broader Jupyter stack&lt;/a>, including WCAG compliance, automated testing, and documentation. This was one of the first times an open source community received significant support for accessibility and internationalization, highlighting CZI&amp;rsquo;s leadership.&lt;/p>
+&lt;p>They also enabled a wide variety of contributions throughout the Jupyter ecosystem that can be traced back to the capacity that CZI&amp;rsquo;s funding provided for core support alongside broader initiatives.&lt;/p>
+&lt;h2 id="enabling-2i2c-to-grow-from-an-idea-to-an-organization">
+Enabling 2i2c to grow from an idea to an organization
+&lt;a class="header-anchor" href="#enabling-2i2c-to-grow-from-an-idea-to-an-organization">#&lt;/a>
+&lt;/h2>&lt;p>CZI also played a key role in 2i2c&amp;rsquo;s birth, growth, direction, and impact. When 2i2c was only an idea, the possibily of initial support from CZI was pivotal in helping us turn it into a reality. Then as the organization took shape and started to grow, this support gave us the strategic capacity to develop key frameworks for
+&lt;a href="" >healthy open source contribution practices&lt;/a>,
+&lt;a href="" >our value propositions&lt;/a>, and ideas around
+&lt;a href="" >community network funding&lt;/a>. It was a stepping stone towards building out our own
+&lt;a href="https://2i2c.org/join" target="_blank" rel="noopener" >sustainability model via membership&lt;/a>.&lt;/p>
+&lt;p>Here are a few milestone moments:&lt;/p>
+&lt;p>&lt;strong>Our Seed funding (2020)&lt;/strong> CZI provided core support to bootstrap 2i2c from its inception, funding organizational capacity rather than just technical deliverables. This was critical, enabling strategic partnerships, community coordination, and 2i2c&amp;rsquo;s first hires (Georgiana Dolocan, formerly the CZI-funded
+&lt;a href="https://blog.jupyter.org/the-jupyterhub-and-binder-contributor-in-residence-56708d1e3069" target="_blank" rel="noopener" >JupyterHub Contributor in Residence&lt;/a>, and Chris Holdgraf, 2i2c&amp;rsquo;s Executive Director). This was the primary funding that drove our creation and operations for the first three years. We
+&lt;a href="https://2i2c.org/report-czi-2021" target="_blank" rel="noopener" >published a comprehensive report and retrospective&lt;/a> documenting the impact of this seed funding.&lt;/p>
+&lt;p>&lt;strong>Catalyzing Global Communities (2022)&lt;/strong> This collaborative grant brought together six organizations (2i2c, The Carpentries, CSCCE, IOI, MetaDocencia, Open Life Science) to
+&lt;a href="" >provide cloud infrastructure and training for communities in Latin America and Africa&lt;/a>. The project emphasized &amp;ldquo;train the trainers&amp;rdquo; approaches and community co-leadership. It was a much bigger challenge than we all realized, and the relationships between our organizations grew stronger as a result.&lt;/p>
+&lt;p>&lt;strong>Strategic Support for Sustainability (2024)&lt;/strong> CZI provided a
+&lt;a href="" >bridge funding gift to sustain 2i2c&amp;rsquo;s mission&lt;/a> during a critical growth phase. This gave us the runway to refine our service model and explore paths to financial sustainability. Combined with funding from
+&lt;a href="" >The Navigation Fund&lt;/a>, this gave 2i2c approximately two years for strategic planning.&lt;/p>
+&lt;h3 id="what-makes-czis-approach-different">
+What Makes CZI&amp;rsquo;s Approach Different?
+&lt;a class="header-anchor" href="#what-makes-czis-approach-different">#&lt;/a>
+&lt;/h3>&lt;p>Here are a few things that have stood out to me about CZI&amp;rsquo;s unique approach to funding:&lt;/p>
+&lt;p>&lt;strong>Funding the foundation of open infrastructure:&lt;/strong> Through its EOSS program, CZI recognized that science was building on open source infrastructure that was often under-supported. Explicitly targeting that foundation demonstrated the need to fund core technology, not just new innovation.&lt;/p>
+&lt;p>&lt;strong>Funding communities, not just code:&lt;/strong> CZI made efforts to support projects that invested in social infrastructure, recognizing that building open source is a deeply social process that needs social skills and capacity to succeed.&lt;/p>
+&lt;p>&lt;strong>Funding connections in a network:&lt;/strong> CZI took a network approach, actively building connections &lt;em>between&lt;/em> its grantees. It flew us together annually for its open science meeting, made targeted efforts for collaborative grants, and connected grantees to work together.&lt;/p>
+&lt;p>&lt;strong>Actively growing that network:&lt;/strong> CZI made clear efforts to bring in new participants, particularly from communities in Latin America and Africa, and was thoughtful about respecting the agency and leadership of these communities.&lt;/p>
+&lt;p>&lt;strong>Developing its own expertise and understanding:&lt;/strong> CZI also &lt;em>builds its own tooling&lt;/em>, often in partnership with open source projects. This gives its team empathy for our challenges and a deeper institutional understanding of the open source world, leading to more impactful contributions.&lt;/p>
+&lt;h2 id="thank-you-czi">
+Thank You, CZI
+&lt;a class="header-anchor" href="#thank-you-czi">#&lt;/a>
+&lt;/h2>&lt;p>We&amp;rsquo;re profoundly grateful to CZI for their support for 2i2c, Jupyter, and the broader open source ecosystem. Their investments have enabled Jupyter to serve millions of scientists more effectively, allowed 2i2c to grow from an idea to the organization it is today, and enabled contributions that benefit the entire open science ecosystem.&lt;/p>
+&lt;p>Thanks, CZI, for all the work you&amp;rsquo;ve done!&lt;/p></description></item><item><title>Celebrating BIDS as 2i2c's first premier member at UC Berkeley</title><link>https://2i2c.org/blog/2025/bids-premier-membership-event/</link><pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/bids-premier-membership-event/</guid><description>&lt;p>We&amp;rsquo;re celebrating
 &lt;a href="https://2i2c.org/collaborators/bids/" >BIDS (the Berkeley Institute for Data Science)&lt;/a> as 2i2c&amp;rsquo;s first premier member at an event at UC Berkeley on &lt;strong>Thursday, October 15th&lt;/strong>. If you&amp;rsquo;re in the Berkeley area, we&amp;rsquo;d love for you to join us!
 &lt;a href="https://events.berkeley.edu/BIDS/event/306419-ospo-monthly-meetup-launching-the-bids-membership-of-" target="_blank" rel="noopener" >Event page here&lt;/a>.&lt;/p>
 &lt;p>This is a milestone for 2i2c and demonstrates BIDS&amp;rsquo;s commitment to open infrastructure and partnership. As our first premier member under our
