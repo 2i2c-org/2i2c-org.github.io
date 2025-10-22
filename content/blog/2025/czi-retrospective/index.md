@@ -67,4 +67,6 @@ Here are a few things that have stood out to me about CZI's unique approach to f
 
 We're profoundly grateful to CZI for their support for 2i2c, Jupyter, and the broader open source ecosystem. Their investments have enabled Jupyter to serve millions of scientists more effectively, allowed 2i2c to grow from an idea to the organization it is today, and enabled contributions that benefit the entire open science ecosystem.
 
+![](chris-fernando.jpg)
+
 Thanks, CZI, for all the work you've done!
