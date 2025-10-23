@@ -11,7 +11,7 @@ tags:
 
 Openscapes recently hosted a workshop attended by 401 participants from 68 countries to learn how to use airborne data and machine learning for environmental research!
 
-The impact of 2i2c's service meant that participants from all over the world could easily access a stanardized compute and NASA Earthdata data in the cloud for a seamless learning experience.
+The impact of 2i2c's service meant that participants from all over the world could easily access standardized compute and NASA Earthdata data in the cloud for a seamless learning experience.
 
 ## Learn more
 
