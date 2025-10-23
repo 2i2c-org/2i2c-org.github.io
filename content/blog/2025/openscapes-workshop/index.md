@@ -4,14 +4,16 @@ date: 2025-10-23
 authors:
   - Jenny Wong
 categories:
-  - impact
+  - community-impact
 tags:
   - open-source
 ---
 
 Openscapes recently hosted a workshop attended by 401 participants from 68 countries to learn how to use airborne data and machine learning for environmental research!
 
-The impact of 2i2c's service meant that participants from all over the world could easily access standardized compute and NASA Earthdata data in the cloud for a seamless learning experience.
+They gave participants computational environments on a community hub managed by 2i2c to teach skills in data science like image classification with airborne spectroscopy and accessing data from NASA JPL [AVIRIS-NG data](https://www.earthdata.nasa.gov/data/projects/aviris) from Earthdata cloud.
+
+We're proud to enable participants from all over the world to easily access standardized compute and NASA Earthdata data in the cloud for a seamless learning experience.
 
 ## Learn more
 
@@ -19,7 +21,7 @@ The impact of 2i2c's service meant that participants from all over the world cou
 
 ## Acknowledgements
 
-- Thank you to the [Openscapes](https://openscapes.org/) team for sharing this post with us, and
+- Thank you to the [Openscapes](../../../collaborators/openscapes/) team for sharing this post with us, and
 
   - Michele Thornton
   - Rupesh Shrestha
