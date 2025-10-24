@@ -27,3 +27,4 @@ We're proud to enable participants from all over the world to easily access stan
   - Rupesh Shrestha
 
   for authoring the blog post.
+- NASA Openscapes mentors for running a great workshop
