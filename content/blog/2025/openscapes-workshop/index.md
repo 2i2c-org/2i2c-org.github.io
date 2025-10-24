@@ -9,7 +9,7 @@ tags:
   - open-source
 ---
 
-Openscapes recently hosted a workshop attended by 401 participants from 68 countries to learn how to use airborne data and machine learning for environmental research!
+NASA Openscapes mentors recently hosted a workshop attended by 401 participants from 68 countries to learn how to use airborne data and machine learning for environmental research!
 
 They gave participants computational environments on a community hub managed by 2i2c to teach skills in data science like image classification with airborne spectroscopy and accessing data from NASA JPL [AVIRIS-NG data](https://www.earthdata.nasa.gov/data/projects/aviris) from Earthdata cloud.
 
