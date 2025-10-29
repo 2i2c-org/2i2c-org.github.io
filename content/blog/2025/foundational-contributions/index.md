@@ -31,17 +31,7 @@ By setting explicit goals, both our member communities and upstream projects can
 
 With this in mind, we've chosen the following *outcomes* as our major goals for upstream contribution:
 
-<style>
-  .pull-quote blockquote {
-     font-size:1.2em;
-     font-style:italic;
-  }
-</style>
-<div class="pull-quote">
-
 > We want the Jupyter[^0] community to be a *multi-stakeholder*[^1], *diverse*[^2] community with a very high [*bus factor*](https://en.wikipedia.org/wiki/Bus_factor), because we believe this is a critical pre-requisite for advancing [our mission and value proposition](https://compass.2i2c.org/organization/mission/).
-
-</div>
 
 [^0]: Currently this is particularly JupyterHub and Jupyter-wide leadership. We're [exploring how to incorporate JupyterBook into our service](../jb-for-communities/index.md) and are thus investing Foundation contributions there as well.
 [^1]: With different kinds and sizes of organizations (companies, non-profits, universities, etc) and individuals being stakeholders. We want to avoid a single organization monopolizing power within any community.
@@ -53,13 +43,14 @@ We want to build team processes that help upstream communities make progress tow
 
 Starting with [JupyterHub](../../../collaborators/jupyterhub/), we've identified two objectives that will guide our work:
 
-<div class="pull-quote">
-
+<style>
+  blockquote {
+    font-size: 1.4em;
+  }
+  </style>
 > **Objective 1**: Increase the number of casual but returning contributors to the JupyterHub community
 >
 > **Objective 2**: Increase the number of total maintainers in the JupyterHub community
-
-</div>
 
 We've chosen these objectives because (1) they have impact, (2) we can make meaningful progress on them, and (3) we can integrate this work into our team's workflow.
 

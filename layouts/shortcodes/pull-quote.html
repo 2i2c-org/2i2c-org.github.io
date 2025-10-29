@@ -1,0 +1,27 @@
+{{/*
+    Hugo shortcode for generating a styled pull quote
+
+    Usage:
+    {{% pull-quote %}}
+    Your quote content here (supports markdown)
+    {{% /pull-quote %}}
+
+    Or with citation:
+    {{% pull-quote cite="Jane Doe" %}}
+    Your quote content here
+    {{% /pull-quote %}}
+
+    Parameters:
+    - cite: Citation text (optional, supports markdown)
+
+    Note: For titles with subtitles and a left border, use the fancy-title shortcode instead.
+*/}}
+
+{{ $cite := .Get "cite" }}
+
+<blockquote class="pull-quote">
+  <p>{{ .Inner | markdownify }}</p>
+  {{ if $cite }}
+  <cite>{{ $cite | markdownify }}</cite>
+  {{ end }}
+</blockquote>

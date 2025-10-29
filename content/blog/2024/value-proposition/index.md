@@ -19,26 +19,26 @@ Our **value proposition** is a key framing for 2i2c's intended impact, key stake
 We recently completed a team exercise to refine this statement for 2i2c, and are excited to share it with you below:
 
 <style>
-  .pull-quote {
+  .fancy-title {
     padding-left: 1rem;
     border-left: .25rem solid #1d4ef5;
     margin-bottom: 1rem;
   }
-  .pull-title {
+  .fancy-title-title {
     font-size: 1.5rem;
     margin-bottom: .5rem;
     font-weight: bold;
   }
-  .pull-subtitle {
+  .fancy-title-subtitle {
     font-size: 1rem;
     font-style: italic;
   }
 </style>
-<div class="pull-quote">
-  <p class="pull-title">
+<div class="fancy-title">
+  <p class="fancy-title-title">
   A global network of community hubs for interactive learning and discovery
   </p>
-  <p class="pull-subtitle">
+  <p class="fancy-title-subtitle">
   Our interactive computing platform gives your community a digital home to create and share knowledge, and a global network of communities to learn from.
   </p>
 </div>
