@@ -11,3 +11,4 @@ The [Berkeley Institute for Data Science](https://bids.berkeley.edu/) is a resea
 
 - [BlueSky](https://bsky.app/profile/ucbids.bsky.social)
 - [LinkedIn](https://www.linkedin.com/company/berkeley-institute-for-data-science-bids/)
+- [Newsletter](https://bids.berkeley.edu/join/mailing-lists)
