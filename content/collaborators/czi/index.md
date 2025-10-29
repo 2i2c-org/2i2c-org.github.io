@@ -9,6 +9,8 @@ show_date: false
 
 The [Chan Zuckerberg Initiative](https://chanzuckerberg.com/) is a philanthropic organization that supports open source software development and scientific research to advance human health and education.
 
+BlueSky: [@cziscience.bsky.social](https://bsky.app/profile/cziscience.bsky.social)
+
 ## Grants from this funder
 
 - **Core Support (2021)**: [2i2c receives core support from CZI](../../blog/2021/czi-core-support/) - ~$1.4M over three years to establish 2i2c's foundational operations
