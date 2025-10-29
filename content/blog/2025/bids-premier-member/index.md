@@ -1,6 +1,5 @@
 ---
 title: BIDS joins as 2i2c's first premier member organization
-subtitle: ""
 authors:
   - Chris Holdgraf
 tags:
@@ -9,7 +8,7 @@ tags:
   - open-source
   - community
 categories:
-  - organization
+  - community-impact
 date: 2025-10-29
 featured: false
 draft: false
