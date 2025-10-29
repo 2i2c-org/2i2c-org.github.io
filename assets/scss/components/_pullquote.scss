@@ -1,0 +1,32 @@
+// For use with {{% pull-quote %}} shortcode
+// HTML here: layouts/shortcodes/pull-quote.html
+.pull-quote {
+  // Differentiate with margin and padding instead of background/border
+  margin: 2rem 0;
+  padding: 1rem 2rem;
+  border-radius: .5rem;
+
+  // Style the quote text
+  p {
+    // Larger font for emphasis
+    font-size: 1.3rem;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 1.6;
+    margin: 0;
+  }
+
+  // Style the citation
+  cite {
+    display: block;
+    text-align: right; // Right-aligned citation
+    font-style: normal;
+    font-size: 0.85rem; // Smaller font
+    margin-top: 0.5rem;
+
+    // Add an em-dash before the name
+    &::before {
+      content: "— ";
+    }
+  }
+}
