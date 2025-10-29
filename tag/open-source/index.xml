@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Open-Source | 2i2c</title><link>https://2i2c.org/tag/open-source/</link><atom:link href="https://2i2c.org/tag/open-source/index.xml" rel="self" type="application/rss+xml"/><description>Open-Source</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 23 Oct 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Open-Source</title><link>https://2i2c.org/tag/open-source/</link></image><item><title>NASA Openscapes mentors run airborne data machine learning workshop with 401 participants from 68 countries</title><link>https://2i2c.org/blog/2025/openscapes-workshop/</link><pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/openscapes-workshop/</guid><description>&lt;p>NASA Openscapes mentors recently hosted a workshop attended by 401 participants from 68 countries to learn how to use airborne data and machine learning for environmental research!&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Open Source | 2i2c</title><link>https://2i2c.org/tag/open-source/</link><atom:link href="https://2i2c.org/tag/open-source/index.xml" rel="self" type="application/rss+xml"/><description>Open Source</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 23 Oct 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Open Source</title><link>https://2i2c.org/tag/open-source/</link></image><item><title>NASA Openscapes mentors run airborne data machine learning workshop with 401 participants from 68 countries</title><link>https://2i2c.org/blog/2025/openscapes-workshop/</link><pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/openscapes-workshop/</guid><description>&lt;p>NASA Openscapes mentors recently hosted a workshop attended by 401 participants from 68 countries to learn how to use airborne data and machine learning for environmental research!&lt;/p>
 &lt;p>They gave participants computational environments on a community hub managed by 2i2c to teach skills in data science like image classification with airborne spectroscopy and accessing data from NASA JPL
 &lt;a href="https://www.earthdata.nasa.gov/data/projects/aviris" target="_blank" rel="noopener" >AVIRIS-NG data&lt;/a> from Earthdata cloud.&lt;/p>
 &lt;p>We&amp;rsquo;re proud to enable participants from all over the world to easily access standardized compute and NASA Earthdata data in the cloud for a seamless learning experience.&lt;/p>
@@ -2872,4 +2872,43 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;/p>
 &lt;p>After a few months working on this project, we are even more excited about the potential for dynamically building environments in a JupyterHub. We believe that it adds a new class of workflows to JupyterHubs that were not possible before, and will be immediately useful to the hundreds of communities that deploy JupyterHub for their communities.&lt;/p></description></item><item><title>The why, what, and how of our NASA Openscapes cloud infrastructure: 2i2c JupyterHub and corn environment</title><link>https://2i2c.org/blog/2022/external-openscapes-corn/</link><pubDate>Thu, 17 Nov 2022 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2022/external-openscapes-corn/</guid><description>&lt;p>We recently shared a demo of our infrastructure stack with the
 &lt;a href="https://2i2c.org/collaborators/openscapes/" >OpenScapes community&lt;/a>. Check out
-&lt;a href="https://openscapes.org/blog/2022-11-17-nasa-earthdata-cloud-infrastructure/" target="_blank" rel="noopener" >the blog post about it here&lt;/a>.&lt;/p></description></item></channel></rss>
+&lt;a href="https://openscapes.org/blog/2022-11-17-nasa-earthdata-cloud-infrastructure/" target="_blank" rel="noopener" >the blog post about it here&lt;/a>.&lt;/p></description></item><item><title>Enabling / creating / X outcome by doing Y thing</title><link>https://2i2c.org/blog/_template-post/impact-post/</link><pubDate>Wed, 01 Jan 1000 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/_template-post/impact-post/</guid><description>&lt;p>One or two sentences about what happened and who did it. Link to the appropriate people, orgs, etc!&lt;/p>
+&lt;p>One or two sentences describing why this is important, why it&amp;rsquo;s valuable, or what it means.&lt;/p>
+&lt;p>&lt;em>Embed any images, videos, or youtube videos that are relevant. Put images in a file in the same folder called &lt;code>featured.png&lt;/code> so it shows up as a feature preview.&lt;/em>&lt;/p>
+&lt;h2 id="learn-more">
+Learn more
+&lt;a class="header-anchor" href="#learn-more">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>Bulleted list of URLs where readers can learn more or follow along.&lt;/li>
+&lt;/ul>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>Bulleted list of people and organizations to thank, with links to their spaces.&lt;/li>
+&lt;/ul>
+&lt;h2 id="extra-examples">
+EXTRA EXAMPLES
+&lt;a class="header-anchor" href="#extra-examples">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>Service post: blog/2025/status-page/index.md&lt;/li>
+&lt;li>Impact post: blog/2025/hackweek-shoutout/index.md&lt;/li>
+&lt;/ul></description></item><item><title>TIL: How to do XYZ thing for Y outcome</title><link>https://2i2c.org/blog/_template-post/learning-post/</link><pubDate>Wed, 01 Jan 1000 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/_template-post/learning-post/</guid><description>&lt;p>One or two sentences setting context about a common problem.&lt;/p>
+&lt;p>One to many sections describing something we&amp;rsquo;ve tried and what we&amp;rsquo;ve learned in solving that problem.&lt;/p>
+&lt;p>&lt;em>Embed any images, videos, or youtube videos that are relevant. Put images in a file in the same folder called &lt;code>featured.png&lt;/code> so it shows up as a feature preview.&lt;/em>&lt;/p>
+&lt;h2 id="learn-more">
+Learn more
+&lt;a class="header-anchor" href="#learn-more">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>Bulleted list of URLs where readers can learn more or follow along.&lt;/li>
+&lt;/ul>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>Bulleted list of people and organizations to thank, with links to their spaces.&lt;/li>
+&lt;/ul>
+&lt;h2 id="extra-examples">
+EXTRA EXAMPLES
+&lt;a class="header-anchor" href="#extra-examples">#&lt;/a>
+&lt;/h2>&lt;p>Here&amp;rsquo;s a blog post with an example of what we&amp;rsquo;re looking for: content/blog/2025/github-action-secrets-forked-repositories/index.md&lt;/p></description></item></channel></rss>

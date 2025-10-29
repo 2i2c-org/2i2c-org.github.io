@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2i2c</title><link>https://2i2c.org/</link><atom:link href="https://2i2c.org/index.xml" rel="self" type="application/rss+xml"/><description>2i2c</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jan 2999 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>2i2c</title><link>https://2i2c.org/</link></image><item><title>NASA Openscapes mentors run airborne data machine learning workshop with 401 participants from 68 countries</title><link>https://2i2c.org/blog/2025/openscapes-workshop/</link><pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/openscapes-workshop/</guid><description>&lt;p>NASA Openscapes mentors recently hosted a workshop attended by 401 participants from 68 countries to learn how to use airborne data and machine learning for environmental research!&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2i2c</title><link>https://2i2c.org/</link><atom:link href="https://2i2c.org/index.xml" rel="self" type="application/rss+xml"/><description>2i2c</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 23 Oct 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>2i2c</title><link>https://2i2c.org/</link></image><item><title>NASA Openscapes mentors run airborne data machine learning workshop with 401 participants from 68 countries</title><link>https://2i2c.org/blog/2025/openscapes-workshop/</link><pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/openscapes-workshop/</guid><description>&lt;p>NASA Openscapes mentors recently hosted a workshop attended by 401 participants from 68 countries to learn how to use airborne data and machine learning for environmental research!&lt;/p>
 &lt;p>They gave participants computational environments on a community hub managed by 2i2c to teach skills in data science like image classification with airborne spectroscopy and accessing data from NASA JPL
 &lt;a href="https://www.earthdata.nasa.gov/data/projects/aviris" target="_blank" rel="noopener" >AVIRIS-NG data&lt;/a> from Earthdata cloud.&lt;/p>
 &lt;p>We&amp;rsquo;re proud to enable participants from all over the world to easily access standardized compute and NASA Earthdata data in the cloud for a seamless learning experience.&lt;/p>
@@ -8183,7 +8183,76 @@ How 2i2c infrastructure ensures this right
 &lt;p>We MUST NOT directly depend on proprietary cloud vendor specific products or APIs. Instead, we use cloud-managed open source software, or hide the dependency behind a layer of abstraction. This ensures that communities can port their infrastructure to any cloud provider of their choice, or run it on their own hardware with purely open source software.&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;p>This set of commitments acts as a business continuity plan for our partner communities, ensuring 2i2c will follow best practices within the open source, open education and open research ecosystems.&lt;/p></description></item><item><title/><link>https://2i2c.org/about/funding/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://2i2c.org/about/funding/</guid><description>
+&lt;p>This set of commitments acts as a business continuity plan for our partner communities, ensuring 2i2c will follow best practices within the open source, open education and open research ecosystems.&lt;/p></description></item><item><title>Enabling / creating / X outcome by doing Y thing</title><link>https://2i2c.org/blog/_template-post/impact-post/</link><pubDate>Wed, 01 Jan 1000 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/_template-post/impact-post/</guid><description>&lt;p>One or two sentences about what happened and who did it. Link to the appropriate people, orgs, etc!&lt;/p>
+&lt;p>One or two sentences describing why this is important, why it&amp;rsquo;s valuable, or what it means.&lt;/p>
+&lt;p>&lt;em>Embed any images, videos, or youtube videos that are relevant. Put images in a file in the same folder called &lt;code>featured.png&lt;/code> so it shows up as a feature preview.&lt;/em>&lt;/p>
+&lt;h2 id="learn-more">
+Learn more
+&lt;a class="header-anchor" href="#learn-more">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>Bulleted list of URLs where readers can learn more or follow along.&lt;/li>
+&lt;/ul>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>Bulleted list of people and organizations to thank, with links to their spaces.&lt;/li>
+&lt;/ul>
+&lt;h2 id="extra-examples">
+EXTRA EXAMPLES
+&lt;a class="header-anchor" href="#extra-examples">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>Service post: blog/2025/status-page/index.md&lt;/li>
+&lt;li>Impact post: blog/2025/hackweek-shoutout/index.md&lt;/li>
+&lt;/ul></description></item><item><title>Incident report: Brief description of the incident</title><link>https://2i2c.org/blog/_template-post/incident-report/</link><pubDate>Wed, 01 Jan 1000 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/_template-post/incident-report/</guid><description>&lt;p>On MMMM DD, YYYY our cloud infrastructure team experienced an incident with the XXXXX community hub. [See this issue for the full report](LINK TO ISSUE IN 2i2c-org/incident-reports).&lt;/p>
+&lt;h2 id="what-happened">
+What happened
+&lt;a class="header-anchor" href="#what-happened">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>___ thing happened.&lt;/li>
+&lt;li>This resulted in ___.&lt;/li>
+&lt;li>It happened because ___.&lt;/li>
+&lt;li>It was resolved by ___.&lt;/li>
+&lt;/ul>
+&lt;h2 id="what-we-learned">
+What we learned
+&lt;a class="header-anchor" href="#what-we-learned">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>We need to ___.&lt;/li>
+&lt;li>We learned that ___.&lt;/li>
+&lt;li>This will happen again if ___.&lt;/li>
+&lt;/ul>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>Thanks to ___ for helping us identify the problem.&lt;/li>
+&lt;li>Thanks to ___ for helping us implement a solution.&lt;/li>
+&lt;/ul>
+&lt;h2 id="extra-examples">
+EXTRA EXAMPLES
+&lt;a class="header-anchor" href="#extra-examples">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>content/blog/2025/incident-ucmerced-user-throttling/index.md&lt;/li>
+&lt;/ul></description></item><item><title>TIL: How to do XYZ thing for Y outcome</title><link>https://2i2c.org/blog/_template-post/learning-post/</link><pubDate>Wed, 01 Jan 1000 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/_template-post/learning-post/</guid><description>&lt;p>One or two sentences setting context about a common problem.&lt;/p>
+&lt;p>One to many sections describing something we&amp;rsquo;ve tried and what we&amp;rsquo;ve learned in solving that problem.&lt;/p>
+&lt;p>&lt;em>Embed any images, videos, or youtube videos that are relevant. Put images in a file in the same folder called &lt;code>featured.png&lt;/code> so it shows up as a feature preview.&lt;/em>&lt;/p>
+&lt;h2 id="learn-more">
+Learn more
+&lt;a class="header-anchor" href="#learn-more">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>Bulleted list of URLs where readers can learn more or follow along.&lt;/li>
+&lt;/ul>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>Bulleted list of people and organizations to thank, with links to their spaces.&lt;/li>
+&lt;/ul>
+&lt;h2 id="extra-examples">
+EXTRA EXAMPLES
+&lt;a class="header-anchor" href="#extra-examples">#&lt;/a>
+&lt;/h2>&lt;p>Here&amp;rsquo;s a blog post with an example of what we&amp;rsquo;re looking for: content/blog/2025/github-action-secrets-forked-repositories/index.md&lt;/p></description></item><item><title/><link>https://2i2c.org/about/funding/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://2i2c.org/about/funding/</guid><description>
 &lt;h1 id="how-we-are-funded">
 How we are funded
 &lt;a class="header-anchor" href="#how-we-are-funded">#&lt;/a>
@@ -8256,7 +8325,58 @@ border-radius: .25rem;
 &lt;a href="https://investinopen.org/blog/jrost-rapid-response-fund-awardees/" target="_blank" rel="noopener" >a $5,000 grant&lt;/a> to fund JupyterHub cloud infrastructure for projects that did not have their own cloud funding.&lt;/p>
 &lt;/div>
 &lt;/div>
-&lt;/div></description></item><item><title/><link>https://2i2c.org/open-technology/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://2i2c.org/open-technology/</guid><description>
+&lt;/div></description></item><item><title/><link>https://2i2c.org/blog/idea/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/idea/</guid><description>
+&lt;h1 id="submit-a-blog-idea">
+Submit a blog idea
+&lt;a class="header-anchor" href="#submit-a-blog-idea">#&lt;/a>
+&lt;/h1>&lt;p>We use our blog to
+&lt;a href="https://2i2c.org/blog/2025/communications-strategy/" >highlight the impact we&amp;rsquo;ve had&lt;/a>.
+Many of these ideas come directly from member and upstream communities! &lt;strong>We strongly encourage any of our collaborators to submit an idea for a blog post by clicking the button below&lt;/strong>.&lt;/p>
+&lt;!-- This is so the article metadata doesn't show up at the top of the page -->
+&lt;style>
+.article-metadata {
+display: none;
+}
+&lt;/style>
+&lt;ul class="cta-group">
+&lt;li>
+&lt;a href="https://github.com/2i2c-org/2i2c-org.github.io/issues/new?template=blog-post.md" target="_blank" rel="noopener" class="btn btn-primary px-3 py-3">Submit a blog idea&lt;/a>
+&lt;/li>
+&lt;/ul>
+&lt;p>We want our blog posts to be short, direct, and low-effort (see our
+&lt;a href="" >blog guide&lt;/a> for guidance).
+Time-box yourself at 2-3 minutes, don&amp;rsquo;t worry if it isn&amp;rsquo;t perfect!&lt;/p>
+&lt;p>If you&amp;rsquo;d like to fill in the template and share it via Slack or e-mail, that&amp;rsquo;s fine too!
+Here&amp;rsquo;s a markdown block you can copy.&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-md" data-lang="md">&lt;span class="line">&lt;span class="cl">&lt;span class="gu">### What happened
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gu">&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">-&lt;/span> This happened
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">-&lt;/span> This happened
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gu">### Any pull quotes?
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gu">&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c">&amp;lt;!-- Pull quotes are the most impactful thing we can communicate! --&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gu">### Why is it valuable
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gu">&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">-&lt;/span> Because A
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">-&lt;/span> Because B
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gu">### Links to learn more
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gu">&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">-&lt;/span> Link A
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">-&lt;/span> Link B
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gu">### Media and images
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gu">&lt;/span>&lt;span class="c">&amp;lt;!-- (optional) Have any images we can use in the post? Drag and drop here! --&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gu">### Acknowledgements
+&lt;/span>&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="gu">&lt;/span>&lt;span class="c">&amp;lt;!-- (optional) acknowledgements for contributors, funders, or collaborators. --&amp;gt;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">-&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">-
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div></description></item><item><title/><link>https://2i2c.org/open-technology/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://2i2c.org/open-technology/</guid><description>
 &lt;h1 id="our-commitment-to-open-technology">
 Our commitment to open technology
 &lt;a class="header-anchor" href="#our-commitment-to-open-technology">#&lt;/a>
@@ -8345,6 +8465,8 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;/p>
 &lt;p>The
 &lt;a href="https://chanzuckerberg.com/" target="_blank" rel="noopener" >Chan Zuckerberg Initiative&lt;/a> is a philanthropic organization that supports open source software development and scientific research to advance human health and education.&lt;/p>
+&lt;p>BlueSky:
+&lt;a href="https://bsky.app/profile/cziscience.bsky.social" target="_blank" rel="noopener" >@cziscience.bsky.social&lt;/a>&lt;/p>
 &lt;h2 id="grants-from-this-funder">
 Grants from this funder
 &lt;a class="header-anchor" href="#grants-from-this-funder">#&lt;/a>
@@ -8883,16 +9005,6 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;div class="col-sm-6 col-md-4 col-lg-3">
 &lt;div class="card border-0" style="background-color: #f8f9fa;">
 &lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
-&lt;a href="https://elac.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
-&lt;img src="https://2i2c.org/members/images/east_los_angeles_college.svg" alt="East Los Angeles College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
-&lt;small class="text-dark fw-medium">East Los Angeles College&lt;/small>
-&lt;/a>
-&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;div class="col-sm-6 col-md-4 col-lg-3">
-&lt;div class="card border-0" style="background-color: #f8f9fa;">
-&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
 &lt;a href="https://elcamino.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/el_camino_college.png" alt="El Camino College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">El Camino College&lt;/small>
@@ -9013,36 +9125,6 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;div class="col-sm-6 col-md-4 col-lg-3">
 &lt;div class="card border-0" style="background-color: #f8f9fa;">
 &lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
-&lt;a href="https://lacc.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
-&lt;img src="https://2i2c.org/members/images/los_angeles_city_college.svg" alt="Los Angeles City College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
-&lt;small class="text-dark fw-medium">Los Angeles City College&lt;/small>
-&lt;/a>
-&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;div class="col-sm-6 col-md-4 col-lg-3">
-&lt;div class="card border-0" style="background-color: #f8f9fa;">
-&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
-&lt;a href="https://lahc.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
-&lt;img src="https://2i2c.org/members/images/los_angeles_harbor_college.svg" alt="Los Angeles Harbor College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
-&lt;small class="text-dark fw-medium">Los Angeles Harbor College&lt;/small>
-&lt;/a>
-&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;div class="col-sm-6 col-md-4 col-lg-3">
-&lt;div class="card border-0" style="background-color: #f8f9fa;">
-&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
-&lt;a href="https://lavc.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
-&lt;img src="https://2i2c.org/members/images/los_angeles_valley_college.svg" alt="Los Angeles Valley College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
-&lt;small class="text-dark fw-medium">Los Angeles Valley College&lt;/small>
-&lt;/a>
-&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;div class="col-sm-6 col-md-4 col-lg-3">
-&lt;div class="card border-0" style="background-color: #f8f9fa;">
-&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
 &lt;a href="https://mendocino.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/mendocino_college.png" alt="Mendocino College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">Mendocino College&lt;/small>
@@ -9096,6 +9178,16 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;a href="https://must.af.catalystproject.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/must.png" alt="MUST" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">MUST&lt;/small>
+&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="col-sm-6 col-md-4 col-lg-3">
+&lt;div class="card border-0" style="background-color: #f8f9fa;">
+&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
+&lt;a href="https://staging.hub.disasters.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
+&lt;img src="https://2i2c.org/members/images/nasa_disasters_program.png" alt="NASA Disasters Program" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
+&lt;small class="text-dark fw-medium">NASA Disasters Program&lt;/small>
 &lt;/a>
 &lt;/div>
 &lt;/div>
@@ -9316,16 +9408,6 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;a href="https://virginia.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/university_of_virginia.png" alt="University of Virginia" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">University of Virginia&lt;/small>
-&lt;/a>
-&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;div class="col-sm-6 col-md-4 col-lg-3">
-&lt;div class="card border-0" style="background-color: #f8f9fa;">
-&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
-&lt;a href="https://wlac.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
-&lt;img src="https://2i2c.org/members/images/west_los_angeles_college.svg" alt="West Los Angeles College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
-&lt;small class="text-dark fw-medium">West Los Angeles College&lt;/small>
 &lt;/a>
 &lt;/div>
 &lt;/div>

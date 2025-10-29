@@ -1374,4 +1374,34 @@ If you know of a community that would like 2i2c to
 &lt;a href="" >send us an email&lt;/a>.&lt;/p>
 &lt;p>&lt;em>&lt;strong>Acknowledgements&lt;/strong>: The infrastructure described in this post was developed by
 &lt;a href="" >the 2i2c engineering team&lt;/a>, and this post was edited by
-&lt;a href="" >Chris Holdgraf&lt;/a>.&lt;/em>&lt;/p></description></item></channel></rss>
+&lt;a href="" >Chris Holdgraf&lt;/a>.&lt;/em>&lt;/p></description></item><item><title>Incident report: Brief description of the incident</title><link>https://2i2c.org/blog/_template-post/incident-report/</link><pubDate>Wed, 01 Jan 1000 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/_template-post/incident-report/</guid><description>&lt;p>On MMMM DD, YYYY our cloud infrastructure team experienced an incident with the XXXXX community hub. [See this issue for the full report](LINK TO ISSUE IN 2i2c-org/incident-reports).&lt;/p>
+&lt;h2 id="what-happened">
+What happened
+&lt;a class="header-anchor" href="#what-happened">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>___ thing happened.&lt;/li>
+&lt;li>This resulted in ___.&lt;/li>
+&lt;li>It happened because ___.&lt;/li>
+&lt;li>It was resolved by ___.&lt;/li>
+&lt;/ul>
+&lt;h2 id="what-we-learned">
+What we learned
+&lt;a class="header-anchor" href="#what-we-learned">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>We need to ___.&lt;/li>
+&lt;li>We learned that ___.&lt;/li>
+&lt;li>This will happen again if ___.&lt;/li>
+&lt;/ul>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>Thanks to ___ for helping us identify the problem.&lt;/li>
+&lt;li>Thanks to ___ for helping us implement a solution.&lt;/li>
+&lt;/ul>
+&lt;h2 id="extra-examples">
+EXTRA EXAMPLES
+&lt;a class="header-anchor" href="#extra-examples">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>content/blog/2025/incident-ucmerced-user-throttling/index.md&lt;/li>
+&lt;/ul></description></item></channel></rss>

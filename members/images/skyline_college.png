@@ -73,7 +73,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					   aria-expanded="false">Admissions</a>
 					<div class="dropdown-menu" >
 					<a class="dropdown-item" href="https://skylinecollege.edu/admissions">Admissions &amp; Records</a>
-						<a class="dropdown-item" href="https://skylinecollege.edu/admissions/apply.php">Apply / Enrollment Steps</a>	
+						<a class="dropdown-item" href="https://skylinecollege.edu/admissions/apply.php">Apply | Enrollment Steps</a>	
 						<a class="dropdown-item" href="https://skylinecollege.edu/placement">Assessment</a>				
 						<a class="dropdown-item" href="https://skylinecollege.edu/outreach">Outreach: Discover Skyline</a>
 						<a class="dropdown-item" href="https://skylinecollege.edu/fees/">Fees &amp; Payment</a>
@@ -178,7 +178,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 					<div class="dropdown-menu" >
 						<a class="dropdown-item" href="https://smccd.instructure.com">Canvas</a>
 						<a class="dropdown-item" href="https://smccd.onelogin.com/portal">OneLogin</a>						
-						<a class="dropdown-item" href="https://skyline.programmapper.com">Program Mapper</a>
+						<!-- <a class="dropdown-item" href="https://skyline.programmapper.com">Program Mapper</a> -->
 						<a class="dropdown-item" href="http://mail.my.smccd.edu/">Student Email</a>
 						<a class="dropdown-item" href="https://jobs.skylinecollege.edu">Student Job Board</a>
 						<a class="dropdown-item" href="https://webschedule.smccd.edu/">WebSchedule</a>
