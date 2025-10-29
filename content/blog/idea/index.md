@@ -1,8 +1,8 @@
 ---
+title: Give us an idea for the 2i2c blog
 date: none
 last_updated: none
 ---
-# Submit a blog idea
 
 We use our blog to [highlight the impact we've had](../2025/communications-strategy/index.md). 
 Many of these ideas come directly from member and upstream communities! **We strongly encourage any of our collaborators to submit an idea for a blog post by clicking the button below**.
