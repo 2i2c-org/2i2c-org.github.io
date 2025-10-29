@@ -21,7 +21,13 @@ We're thrilled to announce that the [Berkeley Institute for Data Science (BIDS)]
 
 ## What this partnership means
 
-BIDS will act as a **lighthouse collaborator**, helping us design our member network services and relationships. This gives us a foundation for both technical and social collaboration, and we hope it opens doors to deeper partnerships across the Berkeley community.
+As our **founding premier member**, BIDS is financially supporting 2i2c while helping us design our member network services and relationships. Together, we'll work on:
+
+- **Co-designing member services** - BIDS will provide feedback and guidance as we develop how our member network operates
+- **Technical collaboration** - Partnering on JupyterHub development, cloud infrastructure improvements, and other open source projects
+- **Strategic input** - Advising on 2i2c's direction and approach to strengthening open source communities
+
+This gives us a foundation for both technical and social collaboration, and we hope it opens doors to deeper partnerships across the Berkeley community.
 
 {{% pull-quote cite="[Kirstie Whitaker](https://www.linkedin.com/in/kirstiewhitaker), BIDS Executive Director"%}}
 Berkeley has long been a leader in open source software development. This partnership lets us share our knowledge and support community development of open source infrastructure across institutions.
@@ -29,9 +35,9 @@ Berkeley has long been a leader in open source software development. This partne
 
 ## Why we're excited about this
 
-**For open source:** [BIDS](/collaborators/bids/) has been a leader in supporting open source and cross-disciplinary open science for many years—contributing to projects like NumPy, scikit-image, NetworkX, and [JupyterHub](/collaborators/jupyterhub/). Their feedback and partnership will help us improve our impact across the entire ecosystem.
+**For open source:** [BIDS](/collaborators/bids/) has been a leader in supporting open source and cross-disciplinary open science for many years - helping to shape projects like NumPy, scikit-image, NetworkX, and [JupyterHub](/collaborators/jupyterhub/). Their feedback and partnership will help us improve our impact across the entire ecosystem.
 
-**For sustainability:** This is the first member of our new [membership model](../../../join/), which is a key part of our long-term sustainability strategy. It demonstrates that organizations value what we're building and want to invest in shared open source infrastructure.
+**For sustainability:** This is the first paying member of our new [membership model](../../../join/), which is a key part of our long-term sustainability strategy. It demonstrates that organizations value what we're building and want to invest in shared open source infrastructure.
 
 **For 2i2c:** [BIDS](/collaborators/bids/) has been part of our story from the beginning, and this partnership recognizes the continuing influence and support we've received from the organization.
 
