@@ -476,7 +476,7 @@ Group-level resource monitoring
 &lt;a href="https://2i2c.org/blog/2025/jupyterhub-groups-exporter/" target="_blank" rel="noopener" >jupyterhub-groups-exporter&lt;/a>, allowing hub administrators to leverage the latest group management features in JupyterHub to monitor group-level resource usage effectively, making it easier to identify usage patterns across teams and departments.&lt;/p>
 &lt;blockquote>
 &lt;p>⭐ Members of 2i2c&amp;rsquo;s community network can learn how to use this in
-&lt;a href="https://docs.2i2c.org/admin/howto/monitoring/grafana-dashboards/#getting-a-grafana-account" target="_blank" rel="noopener" >our user guide to usage monitoring&lt;/a>. See this
+&lt;a href="https://docs.2i2c.org/admin/monitoring/grafana-dashboards#getting-a-grafana-account" target="_blank" rel="noopener" >our user guide to usage monitoring&lt;/a>. See this
 &lt;a href="https://2i2c.org/blog/2025/jupyterhub-groups-exporter/" target="_blank" rel="noopener" >blog post announcing &lt;code>jupyterhub-groups-exporter&lt;/code>&lt;/a>.&lt;/p>
 &lt;/blockquote>
 &lt;h2 id="improve-creating-and-sharing-custom-environments">
@@ -484,10 +484,10 @@ Improve creating and sharing custom environments
 &lt;a class="header-anchor" href="#improve-creating-and-sharing-custom-environments">#&lt;/a>
 &lt;/h2>&lt;p>Last year we introduced
 &lt;a href="https://2i2c.org/blog/2024/jupyterhub-fancy-profiles-rollout/" target="_blank" rel="noopener" >customizable servers via profile lists&lt;/a>. We&amp;rsquo;re building on that - servers can now be configured to
-&lt;a href="https://docs.2i2c.org/user/topics/dynamic-imagebuilding/" target="_blank" rel="noopener" >allow users to dynamically specify, build, and share their own custom environment images&lt;/a> without the need for a hub administrator. This will allow community champions with diverse user bases to give their users greater flexibility to support a wide variety of custom computational workflows, accelerating knowledge discovery and sharing. Look out for a blog post on this development in the coming weeks and months.&lt;/p>
+&lt;a href="https://docs.2i2c.org/user/environment/dynamic-imagebuilding" target="_blank" rel="noopener" >allow users to dynamically specify, build, and share their own custom environment images&lt;/a> without the need for a hub administrator. This will allow community champions with diverse user bases to give their users greater flexibility to support a wide variety of custom computational workflows, accelerating knowledge discovery and sharing. Look out for a blog post on this development in the coming weeks and months.&lt;/p>
 &lt;blockquote>
 &lt;p>⭐ Members of 2i2c&amp;rsquo;s community network can learn how to use this in our &lt;strong>
-&lt;a href="https://docs.2i2c.org/user/topics/dynamic-imagebuilding/" target="_blank" rel="noopener" >dynamic image building quick start guide&lt;/a>&lt;/strong>.&lt;/p>
+&lt;a href="https://docs.2i2c.org/user/environment/dynamic-imagebuilding" target="_blank" rel="noopener" >dynamic image building quick start guide&lt;/a>&lt;/strong>.&lt;/p>
 &lt;/blockquote>
 &lt;h2 id="co-located-narrative-content-with-out-of-the-box-jupyter-book-support">
 Co-located narrative content with out-of-the-box Jupyter Book support
@@ -496,7 +496,7 @@ Co-located narrative content with out-of-the-box Jupyter Book support
 &lt;a href="http://next.jupyterbook.org" target="_blank" rel="noopener" >Jupyter Book 2&lt;/a> for all of our member communities. Our communities can rapidly build interactive starter documentation and provide users with a rich, interactive, and informative onboarding experience. With a suite of customizable landing-page layouts, colour themes, and component galleries ready to match a community&amp;rsquo;s branding, it&amp;rsquo;s now easier than ever to couple a hub with its own co-located narrative content.&lt;/p>
 &lt;blockquote>
 &lt;p>⭐ Members of 2i2c&amp;rsquo;s community network can learn how to use this in
-&lt;a href="https://docs.2i2c.org/admin/howto/monitoring/cost-attribution/" target="_blank" rel="noopener" >our user guide to documentation and sharing&lt;/a>. See
+&lt;a href="https://docs.2i2c.org/admin/monitoring/cost-users" target="_blank" rel="noopener" >our user guide to documentation and sharing&lt;/a>. See
 &lt;a href="https://2i2c.org/blog/2025/jb-for-communities/" target="_blank" rel="noopener" >this blog post for an announcement&lt;/a>.&lt;/p>
 &lt;/blockquote>
 &lt;h2 id="a-better-onboarding-experience-for-our-communities">
@@ -1849,7 +1849,7 @@ Acknowledgments
 &lt;a href="https://2i2c.org/members/" >our Member Communities&lt;/a>.&lt;/li>
 &lt;/ul></description></item><item><title>Principles and considerations for ethically accepting funding for open source</title><link>https://2i2c.org/blog/2023/open-source-funding-principles/</link><pubDate>Sun, 08 Jan 2023 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2023/open-source-funding-principles/</guid><description>&lt;p>&lt;em>This is a brainstorm to consider the principles and guidelines that 2i2c should follow in defining its strategy towards open source communities.
 See
-&lt;a href="https://compass.2i2c.org/open-source/index.html" target="_blank" rel="noopener" >our open source policy documentation&lt;/a> for the product of this brainstorm.&lt;/em>&lt;/p>
+&lt;a href="https://compass.2i2c.org/open-source/" target="_blank" rel="noopener" >our open source policy documentation&lt;/a> for the product of this brainstorm.&lt;/em>&lt;/p>
 &lt;p>Over the past year the 2i2c team has focused its efforts on deploying, configuring, running, and managing cloud infrastructure that supports open source workflows in research and education. We&amp;rsquo;ve also done a lot of &lt;em>upstream contribution&lt;/em> as a part of our work.&lt;/p>
 &lt;p>However, we have shied away from taking direct funding for direct development work in open source projects. This is for two primary reasons:&lt;/p>
 &lt;ol>
@@ -2057,7 +2057,7 @@ We defined a Shared Responsibility Model
 &lt;/h3>&lt;p>Our goal is to frame each community hub as a partnership with a clear breakdown of responsibility to give communities more agency over the infrastructure and service.
 The Shared Responsibility Model provides a framework for assigning responsibility for various tasks with our partner communities.
 See
-&lt;a href="https://docs.2i2c.org/about/service/shared-responsibility.html" target="_blank" rel="noopener" >our Shared Responsibility Model docs here&lt;/a>.&lt;/p>
+&lt;a href="https://docs.2i2c.org/community-lead/about/shared-responsibility" target="_blank" rel="noopener" >our Shared Responsibility Model docs here&lt;/a>.&lt;/p>
 &lt;h3 id="we-defined-a-formal-incident-response-process">
 We defined a formal Incident Response process
 &lt;a class="header-anchor" href="#we-defined-a-formal-incident-response-process">#&lt;/a>
@@ -2066,7 +2066,7 @@ To do so, we need clear processes to follow in order to quickly identify and res
 Our Incident Response process defines formal team roles and alerting mechanisms that are served by
 &lt;a href="https://www.pagerduty.com/" target="_blank" rel="noopener" >PagerDuty&lt;/a>, following best-practices in industry.
 This will make our service more reliable and make our processes more transparent for our partner communities.
-&lt;a href="https://compass.2i2c.org/projects/managed-hubs/incidents.html" target="_blank" rel="noopener" >Here&amp;rsquo;s our current incident response process&lt;/a>.&lt;/p>
+&lt;a href="https://compass.2i2c.org/projects/managed-hubs/incidents" target="_blank" rel="noopener" >Here&amp;rsquo;s our current incident response process&lt;/a>.&lt;/p>
 &lt;h3 id="we-expanded-our-service-offerings-to-include-community-and-workflow-guidance">
 We expanded our service offerings to include community and workflow guidance
 &lt;a class="header-anchor" href="#we-expanded-our-service-offerings-to-include-community-and-workflow-guidance">#&lt;/a>
@@ -2216,15 +2216,8 @@ Community impact
 &lt;li>Allen Institute Summer Workshop on the Dynamic Brain
 &lt;a href="https://github.com/2i2c-org/infrastructure/issues/1621" target="_blank" rel="noopener" >infrastructure#1621&lt;/a>&lt;/li>
 &lt;/ul>
-&lt;p>For a recap of one of these events, see our recent
-&lt;a href="https://2i2c.org/blog/2022/eddy-symposium-report" target="_blank" rel="noopener" >blog post on the Jack Eddy symposium&lt;/a>.&lt;/p>
-&lt;div class="alert alert-note">
-&lt;div>
-If you are interested in partnering with 2i2c to have your own managed JupyterHub, please contact us at &lt;code>partnerships@2i2c.org&lt;/code>.
-We have a shared cluster on Google Cloud, with plans to deploy one on AWS soon, and dedicated clusters can be run on any major cloud provider. Please see
-&lt;p>&lt;a href="https://docs.2i2c.org/about/service/index.html" target="_blank" rel="noopener" >our service documentation&lt;/a> for more details.&lt;/p>
-&lt;/div>
-&lt;/div>
+&lt;p>Please see
+&lt;a href="https://docs.2i2c.org/community-lead/about/service-model" target="_blank" rel="noopener" >our service documentation&lt;/a> for more details.&lt;/p>
 &lt;h2 id="organization-wide-updates">
 Organization wide updates
 &lt;a class="header-anchor" href="#organization-wide-updates">#&lt;/a>
@@ -2253,7 +2246,7 @@ Service improvements
 Here&amp;rsquo;s a brief breakdown:&lt;/p>
 &lt;p>&lt;strong>We expanded our shared clusters to new cloud providers and regions&lt;/strong>. We now have shared clusters already deployed on Google Cloud Platform on &lt;code>us-central1-b&lt;/code> and &lt;code>europe-west2&lt;/code>.&lt;/p>
 &lt;p>&lt;strong>We defined an incident commander process&lt;/strong>. This will allow us to coordinate and respond to major outages in our cloud infrastructure more efficiently. See
-&lt;a href="https://compass.2i2c.org/projects/managed-hubs/incidents.html" target="_blank" rel="noopener" >our incident response documentation&lt;/a> for more information.&lt;/p>
+&lt;a href="https://compass.2i2c.org/projects/managed-hubs/incidents" target="_blank" rel="noopener" >our incident response documentation&lt;/a> for more information.&lt;/p>
 &lt;p>&lt;strong>We improved our cloud usage monitoring infrastructure&lt;/strong>. We&amp;rsquo;ve deployed
 &lt;a href="https://github.com/2i2c-org/infrastructure/issues/328" target="_blank" rel="noopener" >a centralized Grafana Dashboard&lt;/a> that aggregates cloud usage across all of our partner communities, and allows us to keep track of any unexpected behavior or outages across them all.&lt;/p>
 &lt;h2 id="where-were-focusing-next">
@@ -2277,7 +2270,7 @@ Thanks
 &lt;div>
 If you are interested in partnering with 2i2c to have your own managed JupyterHub, please contact us at &lt;code>partnerships@2i2c.org&lt;/code>.
 We have a shared cluster on Google Cloud, with plans to deploy one on AWS soon, and dedicated clusters can be run on any major cloud provider. Please see
-&lt;p>&lt;a href="https://docs.2i2c.org/about/service/index.html" target="_blank" rel="noopener" >our service documentation&lt;/a> for more details.&lt;/p>
+&lt;p>&lt;a href="https://docs.2i2c.org/community-lead/about/service-model" target="_blank" rel="noopener" >our service documentation&lt;/a> for more details.&lt;/p>
 &lt;/div>
 &lt;/div></description></item><item><title>One year later: an update of 2i2c's mission, strategy, and impact</title><link>https://2i2c.org/blog/2022/strategic-update/</link><pubDate>Sun, 09 Oct 2022 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2022/strategic-update/</guid><description>&lt;p>&lt;em>This post is an exploration of 2i2c&amp;rsquo;s current strategy and direction after a year of major operations. It is a brainstorm from the Executive Director, shared as a blog post to invite feedback and provide transparency into our current thinking. Its goal is to explore the context of 2i2c&amp;rsquo;s stakeholders and their needs, and identify an opportunity and plan for having a positive impact with these communities. It is not a concrete proposal but a snapshot of thinking in time meant to trigger reflection. Over time we will incorporate some of these ideas
 &lt;a href="https://compass.2i2c.org/" target="_blank" rel="noopener" >into our Team Compass&lt;/a>.&lt;/em>&lt;/p>
@@ -2565,7 +2558,7 @@ Here are a few highlights:&lt;/p>
 Communities we&amp;rsquo;ve served and lessons learned
 &lt;a class="header-anchor" href="#communities-weve-served-and-lessons-learned">#&lt;/a>
 &lt;/h2>&lt;p>As described in
-&lt;a href="https://compass.2i2c.org/organization/strategy.html" target="_blank" rel="noopener" >our Managed Hub Services strategy&lt;/a>, our goals for this phase of our organization are to balance &lt;em>serving communities of practice&lt;/em> and &lt;em>learning where we can improve our infrastructure and practices&lt;/em>.
+&lt;a href="https://compass.2i2c.org/organization/strategy" target="_blank" rel="noopener" >our Managed Hub Services strategy&lt;/a>, our goals for this phase of our organization are to balance &lt;em>serving communities of practice&lt;/em> and &lt;em>learning where we can improve our infrastructure and practices&lt;/em>.
 With that in mind, here are a few highlights of communities we&amp;rsquo;ve served, and what we&amp;rsquo;ve learned from it:&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>We grew a hub for
@@ -2648,7 +2641,7 @@ This will also mean defining goals and a strategy to meet these goals over time.
 How does 2i2c provide mentorship/onboarding?
 &lt;a class="header-anchor" href="#how-does-2i2c-provide-mentorshiponboarding">#&lt;/a>
 &lt;/h2>&lt;p>You can find
-&lt;a href="https://compass.2i2c.org/get-started.html" target="_blank" rel="noopener" >our onboarding process in our Team Compass&lt;/a>.
+&lt;a href="https://compass.2i2c.org/get-started" target="_blank" rel="noopener" >our onboarding process in our Team Compass&lt;/a>.
 This roughly comes down to choosing an &amp;ldquo;Onboarding Champion&amp;rdquo; for the new team member, to help walk them through our team processes and get them access to the right information and accounts.
 However, 2i2c is quite young, so has only had a few iterations in onboarding new team members.
 We look forward to improving this process further via this new hire.&lt;/p>
@@ -2694,7 +2687,7 @@ For example, many universities require a &lt;em>university email&lt;/em> in orde
 We have worked together for many years in open source communities, but there&amp;rsquo;s a new degree of complexity when you&amp;rsquo;re all working on the &lt;em>same&lt;/em> service and development efforts.
 Throw in a largely asynchronous team split across many time zones, and there are a lot of coordination and planning challenges to overcome.
 We have tried many things over the past year (see
-&lt;a href="https://compass.2i2c.org/practices/index.html" target="_blank" rel="noopener" >our latest team practices in the team compass&lt;/a>, but there is still a lot of improvement to make.&lt;/li>
+&lt;a href="https://compass.2i2c.org/practices/" target="_blank" rel="noopener" >our latest team practices in the team compass&lt;/a>, but there is still a lot of improvement to make.&lt;/li>
 &lt;/ol>
 &lt;h2 id="how-crucial-is-a-deep-seated-knowledge-of-jupyter-for-this-role">
 How crucial is a deep-seated knowledge of Jupyter for this role?
@@ -2895,10 +2888,10 @@ Managed JupyterHub Service
 &lt;li>&lt;strong>User environment management&lt;/strong>. We want communities to have control over the environments that are available on their hubs. We also want to encourage that our communities follow community standards for reproducible environments that can be re-used elsewhere. For this reason, we&amp;rsquo;ve improved the
 &lt;a href="https://github.com/jupyterhub/repo2docker-action" target="_blank" rel="noopener" >repo2docker GitHub action&lt;/a> to work with more image registries, and created a
 &lt;a href="https://github.com/2i2c-org/hub-user-image-template" target="_blank" rel="noopener" >2i2c user image template repository&lt;/a> for users to re-use for their hubs. See
-&lt;a href="https://docs.2i2c.org/admin/howto/environment.html#bring-your-own-docker-image" target="_blank" rel="noopener" >the User Environment docs&lt;/a> for more information.&lt;/li>
+&lt;a href="https://docs.2i2c.org/admin/environment/hub-user-image-template-guide" target="_blank" rel="noopener" >the User Environment docs&lt;/a> for more information.&lt;/li>
 &lt;li>&lt;strong>Support and collaboration roles&lt;/strong>. In addition to technology changes, we have developed an alpha-level support and collaboration model for the communities we serve. Most relevant for our communities is the &lt;strong>community representative&lt;/strong> role, who acts as the main point of contact with 2i2c engineers, and leads administrators on the hub to guide its customization for the community it serves. See
-&lt;a href="https://docs.2i2c.org/about/roles.html" target="_blank" rel="noopener" >the user roles documentation&lt;/a> for more information. We have also begun prototyping a
-&lt;a href="https://docs.2i2c.org/support.html" target="_blank" rel="noopener" >FreshDesk support model&lt;/a> and team processes around monitoring our support channels and responding to requests and incidents.&lt;/li>
+&lt;a href="https://docs.2i2c.org/community-lead/about/shared-responsibility" target="_blank" rel="noopener" >the user roles documentation&lt;/a> for more information. We have also begun prototyping a
+&lt;a href="https://docs.2i2c.org/support" target="_blank" rel="noopener" >FreshDesk support model&lt;/a> and team processes around monitoring our support channels and responding to requests and incidents.&lt;/li>
 &lt;/ul>
 &lt;h3 id="pangeo">
 Pangeo
@@ -2926,8 +2919,7 @@ Organizational foundations
 &lt;a href="https://2i2c.org/posts/2021/css-announce/" target="_blank" rel="noopener" >a fiscal sponsorship with Code for Science and Society&lt;/a>&lt;/strong>. This provides a new organizational and legal home for 2i2c after spending nearly a year receiving
 &lt;a href="https://www.icsi.berkeley.edu/icsi/news/2021/08/2i2c-new-chapter" target="_blank" rel="noopener" >critical strategic and start-up support&lt;/a> from our previous host,
 &lt;a href="https://www.icsi.berkeley.edu" target="_blank" rel="noopener" >ICSI&lt;/a>. We are excited to work with CS&amp;amp;S to create the business infrastructure that will power our managed JupyterHubs service.&lt;/p>
-&lt;p>The 2i2c team has also been &lt;strong>improving our team planning and coordination processes&lt;/strong>, so that we can more effectively execute on our mission. As a distributed team, we have the challenge of building processes for team communication, coordination, and planning that are distributed and asynchronous. If you&amp;rsquo;re curious, you can learn more about our coordination processes in
-&lt;a href="https://compass.2i2c.org/practices/development.html" target="_blank" rel="noopener" >our Team Compass&lt;/a>.&lt;/p>
+&lt;p>The 2i2c team has also been &lt;strong>improving our team planning and coordination processes&lt;/strong>, so that we can more effectively execute on our mission. As a distributed team, we have the challenge of building processes for team communication, coordination, and planning that are distributed and asynchronous.&lt;/p>
 &lt;p>We have &lt;strong>improved our organization-wide documentation&lt;/strong> in order to make it easier to navigate between 2i2c&amp;rsquo;s various sources of information. We hope that this provides more transparency into what 2i2c is up to and how it is structured, and that it allows us to build more connections between our projects and the broader community. Check out the new documentation landing site at
 &lt;a href="https://docs.2i2c.org" target="_blank" rel="noopener" >docs.2i2c.org&lt;/a>.&lt;/p>
 &lt;h2 id="whats-next">
@@ -3052,12 +3044,12 @@ Governance and a code of conduct
 &lt;a class="header-anchor" href="#governance-and-a-code-of-conduct">#&lt;/a>
 &lt;/h2>&lt;p>Finally, while it&amp;rsquo;s easy to get lost in technology and collaborations, 2i2c has also made important steps towards defining a stable and transparent organizational model moving forward.
 2i2c now
-&lt;a href="https://compass.2i2c.org/about/structure.html#steering-council" target="_blank" rel="noopener" >has a Steering Council&lt;/a> and an
-&lt;a href="https://compass.2i2c.org/about/structure.html" target="_blank" rel="noopener" >early organizational structure&lt;/a>.
+&lt;a href="https://compass.2i2c.org/about/structure#steering-council" target="_blank" rel="noopener" >has a Steering Council&lt;/a> and an
+&lt;a href="https://compass.2i2c.org/about/structure" target="_blank" rel="noopener" >early organizational structure&lt;/a>.
 In addition,
-&lt;a href="https://compass.2i2c.org/organization/strategy.html" target="_blank" rel="noopener" >we&amp;rsquo;ve defined a one-year bootstrap strategy&lt;/a> that we&amp;rsquo;ll use to guide our path in the first year of 2i2c&amp;rsquo;s existence.&lt;/p>
+&lt;a href="https://compass.2i2c.org/organization/strategy" target="_blank" rel="noopener" >we&amp;rsquo;ve defined a one-year bootstrap strategy&lt;/a> that we&amp;rsquo;ll use to guide our path in the first year of 2i2c&amp;rsquo;s existence.&lt;/p>
 &lt;p>Finally, one of the first acts of the Steering Council has been to
-&lt;a href="https://compass.2i2c.org/code-of-conduct/index.html" target="_blank" rel="noopener" >adopt a Code of Conduct&lt;/a>.
+&lt;a href="https://compass.2i2c.org/code-of-conduct/" target="_blank" rel="noopener" >adopt a Code of Conduct&lt;/a>.
 This is a set of guidelines, and a process for resolving incidents, that makes our community more inclusive, equitable, and enjoyable for all.
 Creating a Code of Conduct is a crucial part of defining our organizational and community culture, and we&amp;rsquo;re excited to have some explicit guidelines to support our interactions in the future!&lt;/p>
 &lt;h2 id="keep-in-touch">

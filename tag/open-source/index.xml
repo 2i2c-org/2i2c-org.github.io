@@ -477,7 +477,7 @@ Learn more
 &lt;li>
 &lt;a href="https://docs.github.com/en/actions/how-tos/deploy/configure-and-manage-deployments/manage-environments" target="_blank" rel="noopener" >GitHub Environments for deployment&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>Enabling transparent cloud cost monitoring with user-level dashboards</title><link>https://2i2c.org/blog/2025/cloud-cost-monitoring/</link><pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/cloud-cost-monitoring/</guid><description>&lt;p>We are excited to announce that &lt;strong>dashboards to monitor cloud usage and costs at a per-user level&lt;/strong> are now available! See the
-&lt;a href="https://docs.2i2c.org/admin/howto/monitoring/cost-users/" target="_blank" rel="noopener" >cost monitoring documentation&lt;/a> for more information.&lt;/p>
+&lt;a href="https://docs.2i2c.org/admin/monitoring/cost-users" target="_blank" rel="noopener" >cost monitoring documentation&lt;/a> for more information.&lt;/p>
 &lt;p>A key goal of 2i2c is to make the cloud safe for science. By providing transparent cost monitoring, we give communities the confidence that they won&amp;rsquo;t face unexpected bills and can better understand how their usage patterns translate to cloud costs. This visibility is especially valuable in our shared platform model, where each community gets their own independent hub while benefiting from shared infrastructure expertise.&lt;/p>
 &lt;p>
 &lt;figure >
@@ -503,7 +503,7 @@ Learn more
 &lt;a class="header-anchor" href="#learn-more">#&lt;/a>
 &lt;/h2>&lt;ul>
 &lt;li>
-&lt;a href="https://docs.2i2c.org/admin/howto/monitoring/cost-users/" target="_blank" rel="noopener" >Cost monitoring documentation&lt;/a>&lt;/li>
+&lt;a href="https://docs.2i2c.org/admin/monitoring/cost-users" target="_blank" rel="noopener" >Cost monitoring documentation&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h2 id="acknowledgements">
 Acknowledgements
@@ -1191,8 +1191,8 @@ And although the initial exercise of reading about each of them independently wa
 This post is about Jetstream2, 2i2c persistent hub offerings, and the learning that took place in the process.&lt;/p>
 &lt;blockquote>
 &lt;p>⭐ &lt;strong>Members of 2i2c&amp;rsquo;s community network&lt;/strong> can determine their eligibility and learn about JetStream2 in
-&lt;a href="https://docs.2i2c.org/about/distributions/#jetstream2" target="_blank" rel="noopener" >our supported cloud providers documentation&lt;/a>. If needed,
-&lt;a href="https://docs.2i2c.org/support/" target="_blank" rel="noopener" >reach out to 2i2c for support&lt;/a>.&lt;/p>
+&lt;a href="https://docs.2i2c.org/community-lead/about/cloud-providers#jetstream2" target="_blank" rel="noopener" >our supported cloud providers documentation&lt;/a>. If needed,
+&lt;a href="https://docs.2i2c.org/support" target="_blank" rel="noopener" >reach out to 2i2c for support&lt;/a>.&lt;/p>
 &lt;/blockquote>
 &lt;h2 id="context">
 Context
@@ -1345,7 +1345,7 @@ Acknowledgements
 &lt;a href="https://github.com/2i2c-org/jupyterhub-home-nfs" target="_blank" rel="noopener" >&lt;code>jupyterhub-home-nfs&lt;/code>&lt;/a> and our alerting system through
 &lt;a href="https://prometheus.io/docs/alerting/latest/alertmanager/" target="_blank" rel="noopener" >Prometheus Alertmanager&lt;/a>, are vendor agnostic and work right out of the box with the new architecture!&lt;/p>
 &lt;p>If you would like to try this feature on your 2i2c-managed JupyterHub,
-&lt;a href="https://docs.2i2c.org/support/" target="_blank" rel="noopener" >please get in touch&lt;/a>.&lt;/p>
+&lt;a href="https://docs.2i2c.org/support" target="_blank" rel="noopener" >please get in touch&lt;/a>.&lt;/p>
 &lt;h2 id="acknowledgements">
 Acknowledgements
 &lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
@@ -1398,7 +1398,7 @@ Acknowledgements
 &lt;a href="https://cloud.google.com/sdk/gcloud" target="_blank" rel="noopener" >&lt;code>gcloud&lt;/code> tool&lt;/a> to regularly request backups be made of the Filestore hosting JupyterHub&amp;rsquo;s user home directories, by default on a daily basis. The script also manages retention of these backups by checking how recently the last backup was made, and the age of existing backups, by default deleting any backup older than 5 days.&lt;/p>
 &lt;p>Having these backups enabled means that, in the unlikely and unfortunate case of data loss or corruption, we can reinstate the home directories of the hub to a relatively recent state that is at a maximum of 1 day prior to the incident.&lt;/p>
 &lt;p>We have deployed &lt;code>gcp-filestore-backups&lt;/code> to all our GCP hubs presently running, with a retention period of 2 days. If you would like to discuss this further with us,
-&lt;a href="https://docs.2i2c.org/support/" target="_blank" rel="noopener" >please get in touch!&lt;/a>&lt;/p>
+&lt;a href="https://docs.2i2c.org/support" target="_blank" rel="noopener" >please get in touch!&lt;/a>&lt;/p>
 &lt;p>As ever, this project has been developed openly in line with our
 &lt;a href="https://2i2c.org/right-to-replicate/" target="_blank" rel="noopener" >Right to Replicate&lt;/a> so you can deploy it against your own infrastructure!&lt;/p></description></item><item><title>Our product goals for Q1 2025</title><link>https://2i2c.org/blog/2025/q1-product-goals/</link><pubDate>Sat, 01 Feb 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/q1-product-goals/</guid><description>&lt;p>&lt;em>This quarterly post is coming out a little bit late - our goal was to post this in early January, but the year has been more complicated than we bargained for :-)&lt;/em>&lt;/p>
 &lt;p>Over the past year, 2i2c has made team-wide efforts to improve our product planning and delivery. A key part of this is re-organizing an integrated
@@ -1636,7 +1636,7 @@ Note that this feature is currently available to AWS hosted hubs only and will b
 &lt;a href="https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/7/html/storage_administration_guide/ch-xfs" target="_blank" rel="noopener" >XFS&lt;/a> as the underlying filesystem. Storage quota is enforced through XFS&amp;rsquo;s native quota management utility &lt;code>xfs_quota&lt;/code>.&lt;/p>
 &lt;p>Since this feature moves our infrastructure away from managed filesystems (such as AWS&amp;rsquo;s Elastic File System) that cannot support per-user storage quotas, we have also developed monitoring and alerting mechanisms that will let us know when the disks are getting full, and automated back-ups for disaster recovery.&lt;/p>
 &lt;p>If you would like to try this on your 2i2c-managed hub,
-&lt;a href="https://docs.2i2c.org/support/" target="_blank" rel="noopener" >please get in touch&lt;/a>.&lt;/p>
+&lt;a href="https://docs.2i2c.org/support" target="_blank" rel="noopener" >please get in touch&lt;/a>.&lt;/p>
 &lt;p>This project can also be used with &lt;em>any&lt;/em> Kubernetes-based JupyterHub, as per our
 &lt;a href="https://2i2c.org/right-to-replicate/" target="_blank" rel="noopener" >Right to Replicate policy&lt;/a>, so please try it out on your own deployment and let us know what you think!&lt;/p>
 &lt;h2 id="acknowledgements">
@@ -1661,7 +1661,7 @@ Allowing readers to &amp;ldquo;bring their own Binders&amp;rdquo;
 &lt;li>From the professor&amp;rsquo;s book, the student can choose to launch an interactive Binder sessions on &lt;em>their university&amp;rsquo;s Binder&lt;/em>, allowing them to interact with the book&amp;rsquo;s content on their own infrastructure.&lt;/li>
 &lt;/ul>
 &lt;p>We want a workflow like this to be as seamless and un-complicated as possible. We also want it to follow the same fundamental workflow as the
-&lt;a href="https://docs.2i2c.org/community/content/" target="_blank" rel="noopener" >nbgitpuller-based launch buttons&lt;/a>. Along the way, we realized that we needed to coordinate development across
+&lt;a href="https://docs.2i2c.org/user/sharing/files" target="_blank" rel="noopener" >nbgitpuller-based launch buttons&lt;/a>. Along the way, we realized that we needed to coordinate development across
 &lt;a href="https://next.jupyterbook.org/" target="_blank" rel="noopener" >Jupyter Book 2&lt;/a>,
 &lt;a href="https://jupyter.readthedocs.io" target="_blank" rel="noopener" >JupyterHub&lt;/a>, and
 &lt;a href="https://binderhub.readthedocs.io" target="_blank" rel="noopener" >BinderHub&lt;/a>.&lt;/p>
@@ -2711,7 +2711,7 @@ Want to try this out?
 &lt;p>Want to set this up on your own JupyterHub? There is some
 &lt;a href="https://github.com/2i2c-org/binderhub-service/pull/72" target="_blank" rel="noopener" >work in progress&lt;/a> documentation and more is being worked on. Drop a line in the linked pull request and we&amp;rsquo;ll be happy to help. The eventual goal is for &lt;em>anyone&lt;/em> to be able to simply follow documentation and set this up for themselves.&lt;/p>
 &lt;p>We also have user facing documentation on using this service on
-&lt;a href="https://docs.2i2c.org/user/topics/dynamic-imagebuilding/#dynamic-image-building" target="_blank" rel="noopener" >docs.2i2c.org&lt;/a>.&lt;/p>
+&lt;a href="https://docs.2i2c.org/user/environment/dynamic-imagebuilding#dynamic-image-building" target="_blank" rel="noopener" >docs.2i2c.org&lt;/a>.&lt;/p>
 &lt;h2 id="future-work">
 Future work
 &lt;a class="header-anchor" href="#future-work">#&lt;/a>

@@ -227,7 +227,7 @@ Previous years
 &lt;li>
 &lt;a href="https://github.com/jupyterhub/nbgitpuller" target="_blank" rel="noopener" >&lt;code>nbgitpuller&lt;/code>&lt;/a> allows students to synchronise lesson content with an organizational GitHub repository that is collaboratively maintained by the lesson instructors.&lt;/li>
 &lt;li>
-&lt;a href="https://docs.2i2c.org/user/topics/data/sharing/" target="_blank" rel="noopener" >Shared data file storage&lt;/a> with read-only access for learners and read-write access for instructors&lt;/li>
+&lt;a href="https://docs.2i2c.org/user/data/sharing" target="_blank" rel="noopener" >Shared data file storage&lt;/a> with read-only access for learners and read-write access for instructors&lt;/li>
 &lt;li>Access to an abundance of neuroimaging data hosted in cloud object storage
 &lt;ul>
 &lt;li>
@@ -259,7 +259,7 @@ This year
 Next year
 &lt;a class="header-anchor" href="#next-year">#&lt;/a>
 &lt;/h3>&lt;p>One thing we have learned is that 2i2c automatically
-&lt;a href="https://docs.2i2c.org/admin/howto/control-user-server/#stop-user-servers-after-inactivity" target="_blank" rel="noopener" >shuts down a user server after one hour of inactivity&lt;/a> by default to ensure efficient resource usage and limit runaway cloud costs. Naturally, we are seeing increasing demand from learners for longer and more complex analyses. In response to this, we are keen to explore how the
+&lt;a href="https://docs.2i2c.org/admin/user-management/control-user-server#stop-user-servers-after-inactivity" target="_blank" rel="noopener" >shuts down a user server after one hour of inactivity&lt;/a> by default to ensure efficient resource usage and limit runaway cloud costs. Naturally, we are seeing increasing demand from learners for longer and more complex analyses. In response to this, we are keen to explore how the
 &lt;a href="https://github.com/minrk/jupyter-keepalive" target="_blank" rel="noopener" >&lt;code>jupyter-keepalive&lt;/code>&lt;/a> extension can keep the server alive for long-running processes.&lt;/p>
 &lt;p>We are pleased that learners have made great progress in making use of cloud-native, open-source workflows for analyzing human neuroscience data. We are keen to benefit from lessons learned this year and are looking forward to collaborating with 2i2c once again to deliver the NeuroHackademy Summer School in 2025.&lt;/p>
 &lt;p>Watch this space next year!&lt;/p>

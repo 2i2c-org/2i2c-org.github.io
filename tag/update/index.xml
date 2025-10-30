@@ -66,7 +66,7 @@ Group-level resource monitoring
 &lt;a href="https://2i2c.org/blog/2025/jupyterhub-groups-exporter/" target="_blank" rel="noopener" >jupyterhub-groups-exporter&lt;/a>, allowing hub administrators to leverage the latest group management features in JupyterHub to monitor group-level resource usage effectively, making it easier to identify usage patterns across teams and departments.&lt;/p>
 &lt;blockquote>
 &lt;p>⭐ Members of 2i2c&amp;rsquo;s community network can learn how to use this in
-&lt;a href="https://docs.2i2c.org/admin/howto/monitoring/grafana-dashboards/#getting-a-grafana-account" target="_blank" rel="noopener" >our user guide to usage monitoring&lt;/a>. See this
+&lt;a href="https://docs.2i2c.org/admin/monitoring/grafana-dashboards#getting-a-grafana-account" target="_blank" rel="noopener" >our user guide to usage monitoring&lt;/a>. See this
 &lt;a href="https://2i2c.org/blog/2025/jupyterhub-groups-exporter/" target="_blank" rel="noopener" >blog post announcing &lt;code>jupyterhub-groups-exporter&lt;/code>&lt;/a>.&lt;/p>
 &lt;/blockquote>
 &lt;h2 id="improve-creating-and-sharing-custom-environments">
@@ -74,10 +74,10 @@ Improve creating and sharing custom environments
 &lt;a class="header-anchor" href="#improve-creating-and-sharing-custom-environments">#&lt;/a>
 &lt;/h2>&lt;p>Last year we introduced
 &lt;a href="https://2i2c.org/blog/2024/jupyterhub-fancy-profiles-rollout/" target="_blank" rel="noopener" >customizable servers via profile lists&lt;/a>. We&amp;rsquo;re building on that - servers can now be configured to
-&lt;a href="https://docs.2i2c.org/user/topics/dynamic-imagebuilding/" target="_blank" rel="noopener" >allow users to dynamically specify, build, and share their own custom environment images&lt;/a> without the need for a hub administrator. This will allow community champions with diverse user bases to give their users greater flexibility to support a wide variety of custom computational workflows, accelerating knowledge discovery and sharing. Look out for a blog post on this development in the coming weeks and months.&lt;/p>
+&lt;a href="https://docs.2i2c.org/user/environment/dynamic-imagebuilding" target="_blank" rel="noopener" >allow users to dynamically specify, build, and share their own custom environment images&lt;/a> without the need for a hub administrator. This will allow community champions with diverse user bases to give their users greater flexibility to support a wide variety of custom computational workflows, accelerating knowledge discovery and sharing. Look out for a blog post on this development in the coming weeks and months.&lt;/p>
 &lt;blockquote>
 &lt;p>⭐ Members of 2i2c&amp;rsquo;s community network can learn how to use this in our &lt;strong>
-&lt;a href="https://docs.2i2c.org/user/topics/dynamic-imagebuilding/" target="_blank" rel="noopener" >dynamic image building quick start guide&lt;/a>&lt;/strong>.&lt;/p>
+&lt;a href="https://docs.2i2c.org/user/environment/dynamic-imagebuilding" target="_blank" rel="noopener" >dynamic image building quick start guide&lt;/a>&lt;/strong>.&lt;/p>
 &lt;/blockquote>
 &lt;h2 id="co-located-narrative-content-with-out-of-the-box-jupyter-book-support">
 Co-located narrative content with out-of-the-box Jupyter Book support
@@ -86,7 +86,7 @@ Co-located narrative content with out-of-the-box Jupyter Book support
 &lt;a href="http://next.jupyterbook.org" target="_blank" rel="noopener" >Jupyter Book 2&lt;/a> for all of our member communities. Our communities can rapidly build interactive starter documentation and provide users with a rich, interactive, and informative onboarding experience. With a suite of customizable landing-page layouts, colour themes, and component galleries ready to match a community&amp;rsquo;s branding, it&amp;rsquo;s now easier than ever to couple a hub with its own co-located narrative content.&lt;/p>
 &lt;blockquote>
 &lt;p>⭐ Members of 2i2c&amp;rsquo;s community network can learn how to use this in
-&lt;a href="https://docs.2i2c.org/admin/howto/monitoring/cost-attribution/" target="_blank" rel="noopener" >our user guide to documentation and sharing&lt;/a>. See
+&lt;a href="https://docs.2i2c.org/admin/monitoring/cost-users" target="_blank" rel="noopener" >our user guide to documentation and sharing&lt;/a>. See
 &lt;a href="https://2i2c.org/blog/2025/jb-for-communities/" target="_blank" rel="noopener" >this blog post for an announcement&lt;/a>.&lt;/p>
 &lt;/blockquote>
 &lt;h2 id="a-better-onboarding-experience-for-our-communities">

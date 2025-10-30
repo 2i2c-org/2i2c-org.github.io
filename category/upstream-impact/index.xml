@@ -664,7 +664,7 @@ Allowing readers to &amp;ldquo;bring their own Binders&amp;rdquo;
 &lt;li>From the professor&amp;rsquo;s book, the student can choose to launch an interactive Binder sessions on &lt;em>their university&amp;rsquo;s Binder&lt;/em>, allowing them to interact with the book&amp;rsquo;s content on their own infrastructure.&lt;/li>
 &lt;/ul>
 &lt;p>We want a workflow like this to be as seamless and un-complicated as possible. We also want it to follow the same fundamental workflow as the
-&lt;a href="https://docs.2i2c.org/community/content/" target="_blank" rel="noopener" >nbgitpuller-based launch buttons&lt;/a>. Along the way, we realized that we needed to coordinate development across
+&lt;a href="https://docs.2i2c.org/user/sharing/files" target="_blank" rel="noopener" >nbgitpuller-based launch buttons&lt;/a>. Along the way, we realized that we needed to coordinate development across
 &lt;a href="https://next.jupyterbook.org/" target="_blank" rel="noopener" >Jupyter Book 2&lt;/a>,
 &lt;a href="https://jupyter.readthedocs.io" target="_blank" rel="noopener" >JupyterHub&lt;/a>, and
 &lt;a href="https://binderhub.readthedocs.io" target="_blank" rel="noopener" >BinderHub&lt;/a>.&lt;/p>

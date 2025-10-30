@@ -46,7 +46,7 @@ Note that this feature is currently available to AWS hosted hubs only and will b
 &lt;a href="https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/7/html/storage_administration_guide/ch-xfs" target="_blank" rel="noopener" >XFS&lt;/a> as the underlying filesystem. Storage quota is enforced through XFS&amp;rsquo;s native quota management utility &lt;code>xfs_quota&lt;/code>.&lt;/p>
 &lt;p>Since this feature moves our infrastructure away from managed filesystems (such as AWS&amp;rsquo;s Elastic File System) that cannot support per-user storage quotas, we have also developed monitoring and alerting mechanisms that will let us know when the disks are getting full, and automated back-ups for disaster recovery.&lt;/p>
 &lt;p>If you would like to try this on your 2i2c-managed hub,
-&lt;a href="https://docs.2i2c.org/support/" target="_blank" rel="noopener" >please get in touch&lt;/a>.&lt;/p>
+&lt;a href="https://docs.2i2c.org/support" target="_blank" rel="noopener" >please get in touch&lt;/a>.&lt;/p>
 &lt;p>This project can also be used with &lt;em>any&lt;/em> Kubernetes-based JupyterHub, as per our
 &lt;a href="https://2i2c.org/right-to-replicate/" target="_blank" rel="noopener" >Right to Replicate policy&lt;/a>, so please try it out on your own deployment and let us know what you think!&lt;/p>
 &lt;h2 id="acknowledgements">

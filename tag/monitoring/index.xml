@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Monitoring | 2i2c</title><link>https://2i2c.org/tag/monitoring/</link><atom:link href="https://2i2c.org/tag/monitoring/index.xml" rel="self" type="application/rss+xml"/><description>Monitoring</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 11 Jun 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Monitoring</title><link>https://2i2c.org/tag/monitoring/</link></image><item><title>Announcing `jupyterhub-groups-exporter`: monitor usage based on JupyterHub group membership with Prometheus and Grafana</title><link>https://2i2c.org/blog/2025/jupyterhub-groups-exporter/</link><pubDate>Wed, 11 Jun 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/jupyterhub-groups-exporter/</guid><description>&lt;p>Managing user groups in JupyterHub can be a challenging task, especially in environments with dynamic user bases and complex group structures. This post describes how we can leverage the latest group management features in JupyterHub, along with Prometheus and Grafana, to monitor group-level resource usage effectively.&lt;/p>
 &lt;blockquote>
 &lt;p>⭐ &lt;strong>Members of 2i2c&amp;rsquo;s community network&lt;/strong> can use this feature in their hubs by
-&lt;a href="https://docs.2i2c.org/admin/howto/monitoring/cost-attribution/" target="_blank" rel="noopener" >following our cost attribution documentation&lt;/a>.&lt;/p>
+&lt;a href="https://docs.2i2c.org/admin/monitoring/cost-users" target="_blank" rel="noopener" >following our cost attribution documentation&lt;/a>.&lt;/p>
 &lt;/blockquote>
 &lt;p>
 &lt;figure >
@@ -114,7 +114,7 @@ Note that this feature is currently available to AWS hosted hubs only and will b
 Accessing the cloud cost dashboard
 &lt;a class="header-anchor" href="#accessing-the-cloud-cost-dashboard">#&lt;/a>
 &lt;/h2>&lt;p>Community Champions can view the Cloud Cost dashboard from their Grafana instance (please see the
-&lt;a href="https://docs.2i2c.org/admin/howto/monitoring/grafana-dashboards/#getting-a-grafana-account" target="_blank" rel="noopener" >Service Guide&lt;/a> for how to gain access).&lt;/p>
+&lt;a href="https://docs.2i2c.org/admin/monitoring/grafana-dashboards#getting-a-grafana-account" target="_blank" rel="noopener" >Service Guide&lt;/a> for how to gain access).&lt;/p>
 &lt;p>From the main menu of Grafana, navigate to &lt;em>Dashboards &amp;gt; Cloud cost dashboards &amp;gt; Cloud cost attribution&lt;/em> to view the dashboard.&lt;/p>
 &lt;h2 id="understanding-the-cloud-cost-dashboard">
 Understanding the cloud cost dashboard
@@ -131,13 +131,13 @@ Understanding the cloud cost dashboard
 &lt;source src="https://2i2c.org/blog/2024/aws-cost-attribution/demo.mp4" type="video/mp4">
 &lt;/video>
 &lt;p>For more detailed information on the data that each panel displays, please consult our
-&lt;a href="https://docs.2i2c.org/admin/howto/monitoring/cost-attribution/#understanding-the-cloud-cost-dashboard" target="_blank" rel="noopener" >Service Guide&lt;/a> for reference.&lt;/p>
+&lt;a href="https://docs.2i2c.org/admin/monitoring/cost-users#understanding-the-cloud-cost-dashboard" target="_blank" rel="noopener" >Service Guide&lt;/a> for reference.&lt;/p>
 &lt;h2 id="sharing-cost-reports">
 Sharing cost reports
 &lt;a class="header-anchor" href="#sharing-cost-reports">#&lt;/a>
 &lt;/h2>&lt;p>The dashboard can be shared with other community members and stakeholders so they can understand usage and cost patterns. Community Champions can export data to a CSV file, or they can generate a snapshot of the Grafana dashboard and share a public link.&lt;/p>
 &lt;p>For instructions on how to export data from the dashboard, please see our
-&lt;a href="https://docs.2i2c.org/admin/howto/monitoring/cost-attribution/#sharing-cost-reports" target="_blank" rel="noopener" >Service Guide&lt;/a> for reference.&lt;/p>
+&lt;a href="https://docs.2i2c.org/admin/monitoring/cost-users#sharing-cost-reports" target="_blank" rel="noopener" >Service Guide&lt;/a> for reference.&lt;/p>
 &lt;h2 id="next-steps">
 Next steps
 &lt;a class="header-anchor" href="#next-steps">#&lt;/a>

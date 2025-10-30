@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Service-Enhancements | 2i2c</title><link>https://2i2c.org/category/service-enhancements/</link><atom:link href="https://2i2c.org/category/service-enhancements/index.xml" rel="self" type="application/rss+xml"/><description>Service-Enhancements</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 30 Sep 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Service-Enhancements</title><link>https://2i2c.org/category/service-enhancements/</link></image><item><title>Enabling transparent cloud cost monitoring with user-level dashboards</title><link>https://2i2c.org/blog/2025/cloud-cost-monitoring/</link><pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/cloud-cost-monitoring/</guid><description>&lt;p>We are excited to announce that &lt;strong>dashboards to monitor cloud usage and costs at a per-user level&lt;/strong> are now available! See the
-&lt;a href="https://docs.2i2c.org/admin/howto/monitoring/cost-users/" target="_blank" rel="noopener" >cost monitoring documentation&lt;/a> for more information.&lt;/p>
+&lt;a href="https://docs.2i2c.org/admin/monitoring/cost-users" target="_blank" rel="noopener" >cost monitoring documentation&lt;/a> for more information.&lt;/p>
 &lt;p>A key goal of 2i2c is to make the cloud safe for science. By providing transparent cost monitoring, we give communities the confidence that they won&amp;rsquo;t face unexpected bills and can better understand how their usage patterns translate to cloud costs. This visibility is especially valuable in our shared platform model, where each community gets their own independent hub while benefiting from shared infrastructure expertise.&lt;/p>
 &lt;p>
 &lt;figure >
@@ -25,7 +25,7 @@ Learn more
 &lt;a class="header-anchor" href="#learn-more">#&lt;/a>
 &lt;/h2>&lt;ul>
 &lt;li>
-&lt;a href="https://docs.2i2c.org/admin/howto/monitoring/cost-users/" target="_blank" rel="noopener" >Cost monitoring documentation&lt;/a>&lt;/li>
+&lt;a href="https://docs.2i2c.org/admin/monitoring/cost-users" target="_blank" rel="noopener" >Cost monitoring documentation&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h2 id="acknowledgements">
 Acknowledgements
@@ -71,7 +71,7 @@ Learn more
 &lt;li>👉
 &lt;a href="https://2i2c-hubs.trust.pagerduty.com/posts/dashboard" target="_blank" rel="noopener" >The status page&lt;/a>&lt;/li>
 &lt;li>👉
-&lt;a href="https://docs.2i2c.org/admin/reliability/status-page/" target="_blank" rel="noopener" >The status page documentation&lt;/a>&lt;/li>
+&lt;a href="https://docs.2i2c.org/admin/reliability/status-page" target="_blank" rel="noopener" >The status page documentation&lt;/a>&lt;/li>
 &lt;li>👉
 &lt;a href="https://github.com/2i2c-org/team-compass/pull/1021" target="_blank" rel="noopener" >Our new process for incident response&lt;/a>&lt;/li>
 &lt;li>👉 Follow an
@@ -189,7 +189,7 @@ Acknowledgements
 &lt;/ul></description></item><item><title>Announcing `jupyterhub-groups-exporter`: monitor usage based on JupyterHub group membership with Prometheus and Grafana</title><link>https://2i2c.org/blog/2025/jupyterhub-groups-exporter/</link><pubDate>Wed, 11 Jun 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/jupyterhub-groups-exporter/</guid><description>&lt;p>Managing user groups in JupyterHub can be a challenging task, especially in environments with dynamic user bases and complex group structures. This post describes how we can leverage the latest group management features in JupyterHub, along with Prometheus and Grafana, to monitor group-level resource usage effectively.&lt;/p>
 &lt;blockquote>
 &lt;p>⭐ &lt;strong>Members of 2i2c&amp;rsquo;s community network&lt;/strong> can use this feature in their hubs by
-&lt;a href="https://docs.2i2c.org/admin/howto/monitoring/cost-attribution/" target="_blank" rel="noopener" >following our cost attribution documentation&lt;/a>.&lt;/p>
+&lt;a href="https://docs.2i2c.org/admin/monitoring/cost-users" target="_blank" rel="noopener" >following our cost attribution documentation&lt;/a>.&lt;/p>
 &lt;/blockquote>
 &lt;p>
 &lt;figure >
@@ -325,7 +325,7 @@ Acknowledgements
 &lt;a href="https://next.jupyterbook.org" target="_blank" rel="noopener" >Jupyter Book 2&lt;/a> for our community members. This allows communities to create and share knowledge bases together for their community workflows. This post describes the motivation behind this new functionality, and how you can learn more about the project.&lt;/p>
 &lt;blockquote>
 &lt;p>⭐ &lt;strong>Members of 2i2c&amp;rsquo;s community network&lt;/strong> can use this feature in their hubs by following
-&lt;a href="https://docs.2i2c.org/sharing/documentation/" target="_blank" rel="noopener" >our documentation and sharing guide&lt;/a>.&lt;/p>
+&lt;a href="https://docs.2i2c.org/user/sharing/documentation" target="_blank" rel="noopener" >our documentation and sharing guide&lt;/a>.&lt;/p>
 &lt;/blockquote>
 &lt;p>A core component of our mission to make research and education more &lt;em>impactful&lt;/em>, &lt;em>accessible&lt;/em>, and &lt;em>delightful&lt;/em> is leveraging our unique
 &lt;a href="https://2i2c.org/communities/" target="_blank" rel="noopener" >global network of communities&lt;/a> to make meaningful improvements to the open-source tools that power their work. Learning from one community can then provide value to our entire network, e.g.,
@@ -350,12 +350,12 @@ Acknowledgements
 &lt;p>To take advantage of this feature, communities can use the
 &lt;a href="https://github.com/2i2c-org/community-docs-template" target="_blank" rel="noopener" >&lt;code>2i2c-org/community-docs-template&lt;/code>&lt;/a> to deploy a Jupyter Book site to GitHub Pages. This template demonstrates simple usage of Jupyter Book 2 for computational content and landing page creation, and establishes the necessary CD workflows for web publication. Meanwhile, 2i2c can update our domain name management to point the &lt;code>docs.hub.2i2c.cloud&lt;/code> nested subdomain to the newly deployed documentation.&lt;/p>
 &lt;p>For more information, see
-&lt;a href="https://docs.2i2c.org/community/content/#deploy-documentation-with-jupyter-book" target="_blank" rel="noopener" >our community documentation for deploying Jupyter Books&lt;/a>.&lt;/p>
+&lt;a href="https://docs.2i2c.org/user/sharing/documentation" target="_blank" rel="noopener" >our community documentation for deploying Jupyter Books&lt;/a>.&lt;/p>
 &lt;p>Developing these new capabilities taught us a lot about what makes building &amp;ldquo;good&amp;rdquo; community documentation so difficult. A wide range of bespoke website-building tools and integration quirks previously made it challenging for communities to both keep documentation current with internal changes and keep up with necessary software updates. We also learned that by trading bespoke complexity for simplicity and readability, we could build a solution that scales to multiple communities, with a consequently reduced maintenance burden.&lt;/p>
 &lt;p>With these improvements, we have initiated a conversation about what a more unified &amp;ldquo;look and feel&amp;rdquo; for our network might entail, and how it might benefit our communities. Much more can be done to build on this first step, and we are eager to gather feedback on how to improve these features for users.&lt;/p>
 &lt;p>To learn more about this work, consider exploring a minimal example on
 &lt;a href="https://docs.showcase.2i2c.cloud/" target="_blank" rel="noopener" >our Showcase Hub&lt;/a>, and check out
-&lt;a href="https://docs.2i2c.org/community/content/#deploy-documentation-with-jupyter-book" target="_blank" rel="noopener" >our service guide&lt;/a>.
+&lt;a href="https://docs.2i2c.org/user/sharing/documentation" target="_blank" rel="noopener" >our service guide&lt;/a>.
 &lt;a href="https://docs.google.com/forms/d/e/1FAIpQLSff-u-sWFuwO1-VTgk2Ir7f1nfUUlLevQk_Vkk_jnmcI1nJnw/viewform" target="_blank" rel="noopener" >Let us know&lt;/a> what you think!&lt;/p></description></item><item><title>Offering Jetstream2-powered hub support at 2i2c</title><link>https://2i2c.org/blog/2025/jetstream2-persistent-hub/</link><pubDate>Mon, 28 Apr 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/jetstream2-persistent-hub/</guid><description>&lt;p>When we first committed to offer
 &lt;a href="https://jetstream-cloud.org/index.html" target="_blank" rel="noopener" >Jetstream2&lt;/a> support at 2i2c, Jetstream2,
 &lt;a href="https://docs.openstack.org/magnum/latest/" target="_blank" rel="noopener" >Magnum&lt;/a>,
@@ -365,8 +365,8 @@ And although the initial exercise of reading about each of them independently wa
 This post is about Jetstream2, 2i2c persistent hub offerings, and the learning that took place in the process.&lt;/p>
 &lt;blockquote>
 &lt;p>⭐ &lt;strong>Members of 2i2c&amp;rsquo;s community network&lt;/strong> can determine their eligibility and learn about JetStream2 in
-&lt;a href="https://docs.2i2c.org/about/distributions/#jetstream2" target="_blank" rel="noopener" >our supported cloud providers documentation&lt;/a>. If needed,
-&lt;a href="https://docs.2i2c.org/support/" target="_blank" rel="noopener" >reach out to 2i2c for support&lt;/a>.&lt;/p>
+&lt;a href="https://docs.2i2c.org/community-lead/about/cloud-providers#jetstream2" target="_blank" rel="noopener" >our supported cloud providers documentation&lt;/a>. If needed,
+&lt;a href="https://docs.2i2c.org/support" target="_blank" rel="noopener" >reach out to 2i2c for support&lt;/a>.&lt;/p>
 &lt;/blockquote>
 &lt;h2 id="context">
 Context
@@ -471,7 +471,7 @@ Acknowledgements
 &lt;a href="https://github.com/2i2c-org/jupyterhub-home-nfs" target="_blank" rel="noopener" >&lt;code>jupyterhub-home-nfs&lt;/code>&lt;/a> and our alerting system through
 &lt;a href="https://prometheus.io/docs/alerting/latest/alertmanager/" target="_blank" rel="noopener" >Prometheus Alertmanager&lt;/a>, are vendor agnostic and work right out of the box with the new architecture!&lt;/p>
 &lt;p>If you would like to try this feature on your 2i2c-managed JupyterHub,
-&lt;a href="https://docs.2i2c.org/support/" target="_blank" rel="noopener" >please get in touch&lt;/a>.&lt;/p>
+&lt;a href="https://docs.2i2c.org/support" target="_blank" rel="noopener" >please get in touch&lt;/a>.&lt;/p>
 &lt;h2 id="acknowledgements">
 Acknowledgements
 &lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
@@ -639,7 +639,7 @@ Acknowledgements
 &lt;a href="https://cloud.google.com/sdk/gcloud" target="_blank" rel="noopener" >&lt;code>gcloud&lt;/code> tool&lt;/a> to regularly request backups be made of the Filestore hosting JupyterHub&amp;rsquo;s user home directories, by default on a daily basis. The script also manages retention of these backups by checking how recently the last backup was made, and the age of existing backups, by default deleting any backup older than 5 days.&lt;/p>
 &lt;p>Having these backups enabled means that, in the unlikely and unfortunate case of data loss or corruption, we can reinstate the home directories of the hub to a relatively recent state that is at a maximum of 1 day prior to the incident.&lt;/p>
 &lt;p>We have deployed &lt;code>gcp-filestore-backups&lt;/code> to all our GCP hubs presently running, with a retention period of 2 days. If you would like to discuss this further with us,
-&lt;a href="https://docs.2i2c.org/support/" target="_blank" rel="noopener" >please get in touch!&lt;/a>&lt;/p>
+&lt;a href="https://docs.2i2c.org/support" target="_blank" rel="noopener" >please get in touch!&lt;/a>&lt;/p>
 &lt;p>As ever, this project has been developed openly in line with our
 &lt;a href="https://2i2c.org/right-to-replicate/" target="_blank" rel="noopener" >Right to Replicate&lt;/a> so you can deploy it against your own infrastructure!&lt;/p></description></item><item><title>Enforcing per-user storage quotas with `jupyterhub-home-nfs`</title><link>https://2i2c.org/blog/2025/per-user-storage-quota/</link><pubDate>Tue, 28 Jan 2025 09:57:28 +0000</pubDate><guid>https://2i2c.org/blog/2025/per-user-storage-quota/</guid><description>&lt;p>When sharing a storage disk between users, as is usually the case in a JupyterHub deployment, it is important to put in guardrails so that one user cannot eat up the whole storage capacity from the rest of the users.
 To this end, 2i2c in close collaboration with
@@ -655,7 +655,7 @@ Note that this feature is currently available to AWS hosted hubs only and will b
 &lt;a href="https://docs.redhat.com/en/documentation/red_hat_enterprise_linux/7/html/storage_administration_guide/ch-xfs" target="_blank" rel="noopener" >XFS&lt;/a> as the underlying filesystem. Storage quota is enforced through XFS&amp;rsquo;s native quota management utility &lt;code>xfs_quota&lt;/code>.&lt;/p>
 &lt;p>Since this feature moves our infrastructure away from managed filesystems (such as AWS&amp;rsquo;s Elastic File System) that cannot support per-user storage quotas, we have also developed monitoring and alerting mechanisms that will let us know when the disks are getting full, and automated back-ups for disaster recovery.&lt;/p>
 &lt;p>If you would like to try this on your 2i2c-managed hub,
-&lt;a href="https://docs.2i2c.org/support/" target="_blank" rel="noopener" >please get in touch&lt;/a>.&lt;/p>
+&lt;a href="https://docs.2i2c.org/support" target="_blank" rel="noopener" >please get in touch&lt;/a>.&lt;/p>
 &lt;p>This project can also be used with &lt;em>any&lt;/em> Kubernetes-based JupyterHub, as per our
 &lt;a href="https://2i2c.org/right-to-replicate/" target="_blank" rel="noopener" >Right to Replicate policy&lt;/a>, so please try it out on your own deployment and let us know what you think!&lt;/p>
 &lt;h2 id="acknowledgements">
@@ -841,7 +841,7 @@ Note that this feature is currently available to AWS hosted hubs only and will b
 Accessing the cloud cost dashboard
 &lt;a class="header-anchor" href="#accessing-the-cloud-cost-dashboard">#&lt;/a>
 &lt;/h2>&lt;p>Community Champions can view the Cloud Cost dashboard from their Grafana instance (please see the
-&lt;a href="https://docs.2i2c.org/admin/howto/monitoring/grafana-dashboards/#getting-a-grafana-account" target="_blank" rel="noopener" >Service Guide&lt;/a> for how to gain access).&lt;/p>
+&lt;a href="https://docs.2i2c.org/admin/monitoring/grafana-dashboards#getting-a-grafana-account" target="_blank" rel="noopener" >Service Guide&lt;/a> for how to gain access).&lt;/p>
 &lt;p>From the main menu of Grafana, navigate to &lt;em>Dashboards &amp;gt; Cloud cost dashboards &amp;gt; Cloud cost attribution&lt;/em> to view the dashboard.&lt;/p>
 &lt;h2 id="understanding-the-cloud-cost-dashboard">
 Understanding the cloud cost dashboard
@@ -858,13 +858,13 @@ Understanding the cloud cost dashboard
 &lt;source src="https://2i2c.org/blog/2024/aws-cost-attribution/demo.mp4" type="video/mp4">
 &lt;/video>
 &lt;p>For more detailed information on the data that each panel displays, please consult our
-&lt;a href="https://docs.2i2c.org/admin/howto/monitoring/cost-attribution/#understanding-the-cloud-cost-dashboard" target="_blank" rel="noopener" >Service Guide&lt;/a> for reference.&lt;/p>
+&lt;a href="https://docs.2i2c.org/admin/monitoring/cost-users#understanding-the-cloud-cost-dashboard" target="_blank" rel="noopener" >Service Guide&lt;/a> for reference.&lt;/p>
 &lt;h2 id="sharing-cost-reports">
 Sharing cost reports
 &lt;a class="header-anchor" href="#sharing-cost-reports">#&lt;/a>
 &lt;/h2>&lt;p>The dashboard can be shared with other community members and stakeholders so they can understand usage and cost patterns. Community Champions can export data to a CSV file, or they can generate a snapshot of the Grafana dashboard and share a public link.&lt;/p>
 &lt;p>For instructions on how to export data from the dashboard, please see our
-&lt;a href="https://docs.2i2c.org/admin/howto/monitoring/cost-attribution/#sharing-cost-reports" target="_blank" rel="noopener" >Service Guide&lt;/a> for reference.&lt;/p>
+&lt;a href="https://docs.2i2c.org/admin/monitoring/cost-users#sharing-cost-reports" target="_blank" rel="noopener" >Service Guide&lt;/a> for reference.&lt;/p>
 &lt;h2 id="next-steps">
 Next steps
 &lt;a class="header-anchor" href="#next-steps">#&lt;/a>
@@ -1083,7 +1083,7 @@ Want to try this out?
 &lt;p>Want to set this up on your own JupyterHub? There is some
 &lt;a href="https://github.com/2i2c-org/binderhub-service/pull/72" target="_blank" rel="noopener" >work in progress&lt;/a> documentation and more is being worked on. Drop a line in the linked pull request and we&amp;rsquo;ll be happy to help. The eventual goal is for &lt;em>anyone&lt;/em> to be able to simply follow documentation and set this up for themselves.&lt;/p>
 &lt;p>We also have user facing documentation on using this service on
-&lt;a href="https://docs.2i2c.org/user/topics/dynamic-imagebuilding/#dynamic-image-building" target="_blank" rel="noopener" >docs.2i2c.org&lt;/a>.&lt;/p>
+&lt;a href="https://docs.2i2c.org/user/environment/dynamic-imagebuilding#dynamic-image-building" target="_blank" rel="noopener" >docs.2i2c.org&lt;/a>.&lt;/p>
 &lt;h2 id="future-work">
 Future work
 &lt;a class="header-anchor" href="#future-work">#&lt;/a>

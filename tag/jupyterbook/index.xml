@@ -45,7 +45,7 @@ Acknowledgements
 &lt;a href="https://next.jupyterbook.org" target="_blank" rel="noopener" >Jupyter Book 2&lt;/a> for our community members. This allows communities to create and share knowledge bases together for their community workflows. This post describes the motivation behind this new functionality, and how you can learn more about the project.&lt;/p>
 &lt;blockquote>
 &lt;p>⭐ &lt;strong>Members of 2i2c&amp;rsquo;s community network&lt;/strong> can use this feature in their hubs by following
-&lt;a href="https://docs.2i2c.org/sharing/documentation/" target="_blank" rel="noopener" >our documentation and sharing guide&lt;/a>.&lt;/p>
+&lt;a href="https://docs.2i2c.org/user/sharing/documentation" target="_blank" rel="noopener" >our documentation and sharing guide&lt;/a>.&lt;/p>
 &lt;/blockquote>
 &lt;p>A core component of our mission to make research and education more &lt;em>impactful&lt;/em>, &lt;em>accessible&lt;/em>, and &lt;em>delightful&lt;/em> is leveraging our unique
 &lt;a href="https://2i2c.org/communities/" target="_blank" rel="noopener" >global network of communities&lt;/a> to make meaningful improvements to the open-source tools that power their work. Learning from one community can then provide value to our entire network, e.g.,
@@ -70,12 +70,12 @@ Acknowledgements
 &lt;p>To take advantage of this feature, communities can use the
 &lt;a href="https://github.com/2i2c-org/community-docs-template" target="_blank" rel="noopener" >&lt;code>2i2c-org/community-docs-template&lt;/code>&lt;/a> to deploy a Jupyter Book site to GitHub Pages. This template demonstrates simple usage of Jupyter Book 2 for computational content and landing page creation, and establishes the necessary CD workflows for web publication. Meanwhile, 2i2c can update our domain name management to point the &lt;code>docs.hub.2i2c.cloud&lt;/code> nested subdomain to the newly deployed documentation.&lt;/p>
 &lt;p>For more information, see
-&lt;a href="https://docs.2i2c.org/community/content/#deploy-documentation-with-jupyter-book" target="_blank" rel="noopener" >our community documentation for deploying Jupyter Books&lt;/a>.&lt;/p>
+&lt;a href="https://docs.2i2c.org/user/sharing/documentation" target="_blank" rel="noopener" >our community documentation for deploying Jupyter Books&lt;/a>.&lt;/p>
 &lt;p>Developing these new capabilities taught us a lot about what makes building &amp;ldquo;good&amp;rdquo; community documentation so difficult. A wide range of bespoke website-building tools and integration quirks previously made it challenging for communities to both keep documentation current with internal changes and keep up with necessary software updates. We also learned that by trading bespoke complexity for simplicity and readability, we could build a solution that scales to multiple communities, with a consequently reduced maintenance burden.&lt;/p>
 &lt;p>With these improvements, we have initiated a conversation about what a more unified &amp;ldquo;look and feel&amp;rdquo; for our network might entail, and how it might benefit our communities. Much more can be done to build on this first step, and we are eager to gather feedback on how to improve these features for users.&lt;/p>
 &lt;p>To learn more about this work, consider exploring a minimal example on
 &lt;a href="https://docs.showcase.2i2c.cloud/" target="_blank" rel="noopener" >our Showcase Hub&lt;/a>, and check out
-&lt;a href="https://docs.2i2c.org/community/content/#deploy-documentation-with-jupyter-book" target="_blank" rel="noopener" >our service guide&lt;/a>.
+&lt;a href="https://docs.2i2c.org/user/sharing/documentation" target="_blank" rel="noopener" >our service guide&lt;/a>.
 &lt;a href="https://docs.google.com/forms/d/e/1FAIpQLSff-u-sWFuwO1-VTgk2Ir7f1nfUUlLevQk_Vkk_jnmcI1nJnw/viewform" target="_blank" rel="noopener" >Let us know&lt;/a> what you think!&lt;/p></description></item><item><title>Hacking the Project Pythia Cook-off with MyST Markdown</title><link>https://2i2c.org/blog/2024/project-pythia-cookoff/</link><pubDate>Tue, 18 Jun 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/project-pythia-cookoff/</guid><description>&lt;p>
 &lt;figure id="figure-photo-courtesy-of-dr-debanjana-das">
 &lt;div class="d-flex justify-content-center">
