@@ -50,7 +50,6 @@ We also ran hubs for several **community events**:
 - Allen Institute Summer Workshop on the Dynamic Brain [infrastructure#1621](https://github.com/2i2c-org/infrastructure/issues/1621)
 
 Please see [our service documentation](https://docs.2i2c.org/community-lead/about/service-model) for more details.
-{{% /callout %}}
 
 ## Organization wide updates
 
