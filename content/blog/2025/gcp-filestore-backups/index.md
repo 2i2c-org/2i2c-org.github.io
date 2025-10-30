@@ -21,6 +21,6 @@ We have developed the [`gcp-filestore-backups` project](https://github.com/2i2c-
 
 Having these backups enabled means that, in the unlikely and unfortunate case of data loss or corruption, we can reinstate the home directories of the hub to a relatively recent state that is at a maximum of 1 day prior to the incident.
 
-We have deployed `gcp-filestore-backups` to all our GCP hubs presently running, with a retention period of 2 days. If you would like to discuss this further with us, [please get in touch!](https://docs.2i2c.org/support/)
+We have deployed `gcp-filestore-backups` to all our GCP hubs presently running, with a retention period of 2 days. If you would like to discuss this further with us, [please get in touch!](https://docs.2i2c.org/support)
 
 As ever, this project has been developed openly in line with our [Right to Replicate](https://2i2c.org/right-to-replicate/) so you can deploy it against your own infrastructure!

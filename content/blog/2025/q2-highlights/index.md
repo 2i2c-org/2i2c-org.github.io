@@ -25,19 +25,19 @@ With that in mind, here's what stood out from the quarter:
 
 Building on our previous work delivering [usage monitoring using Prometheus and Grafana](https://2i2c.org/blog/2024/aws-cost-attribution/), we've released [jupyterhub-groups-exporter](https://2i2c.org/blog/2025/jupyterhub-groups-exporter/), allowing hub administrators to leverage the latest group management features in JupyterHub to monitor group-level resource usage effectively, making it easier to identify usage patterns across teams and departments.
 
-> ⭐ Members of 2i2c's community network can learn how to use this in [our user guide to usage monitoring](https://docs.2i2c.org/admin/howto/monitoring/grafana-dashboards/#getting-a-grafana-account). See this [blog post announcing `jupyterhub-groups-exporter`](https://2i2c.org/blog/2025/jupyterhub-groups-exporter/).
+> ⭐ Members of 2i2c's community network can learn how to use this in [our user guide to usage monitoring](https://docs.2i2c.org/admin/monitoring/grafana-dashboards#getting-a-grafana-account). See this [blog post announcing `jupyterhub-groups-exporter`](https://2i2c.org/blog/2025/jupyterhub-groups-exporter/).
 
 ## Improve creating and sharing custom environments
 
-Last year we introduced [customizable servers via profile lists](https://2i2c.org/blog/2024/jupyterhub-fancy-profiles-rollout/). We're building on that - servers can now be configured to [allow users to dynamically specify, build, and share their own custom environment images](https://docs.2i2c.org/user/topics/dynamic-imagebuilding/) without the need for a hub administrator. This will allow community champions with diverse user bases to give their users greater flexibility to support a wide variety of custom computational workflows, accelerating knowledge discovery and sharing. Look out for a blog post on this development in the coming weeks and months.
+Last year we introduced [customizable servers via profile lists](https://2i2c.org/blog/2024/jupyterhub-fancy-profiles-rollout/). We're building on that - servers can now be configured to [allow users to dynamically specify, build, and share their own custom environment images](https://docs.2i2c.org/user/environment/dynamic-imagebuilding) without the need for a hub administrator. This will allow community champions with diverse user bases to give their users greater flexibility to support a wide variety of custom computational workflows, accelerating knowledge discovery and sharing. Look out for a blog post on this development in the coming weeks and months.
 
-> ⭐ Members of 2i2c's community network can learn how to use this in our **[dynamic image building quick start guide](https://docs.2i2c.org/user/topics/dynamic-imagebuilding/)**.
+> ⭐ Members of 2i2c's community network can learn how to use this in our **[dynamic image building quick start guide](https://docs.2i2c.org/user/environment/dynamic-imagebuilding)**.
 
 ## Co-located narrative content with out-of-the-box Jupyter Book support
 
 Central to our communities' work is sharing new findings, best practices, and community resources. To facilitate that, we've added support for [Jupyter Book 2](http://next.jupyterbook.org) for all of our member communities. Our communities can rapidly build interactive starter documentation and provide users with a rich, interactive, and informative onboarding experience. With a suite of customizable landing-page layouts, colour themes, and component galleries ready to match a community's branding, it's now easier than ever to couple a hub with its own co-located narrative content.
 
-> ⭐ Members of 2i2c's community network can learn how to use this in [our user guide to documentation and sharing](https://docs.2i2c.org/admin/howto/monitoring/cost-attribution/). See [this blog post for an announcement](https://2i2c.org/blog/2025/jb-for-communities/).
+> ⭐ Members of 2i2c's community network can learn how to use this in [our user guide to documentation and sharing](https://docs.2i2c.org/admin/monitoring/cost-users). See [this blog post for an announcement](https://2i2c.org/blog/2025/jb-for-communities/).
 
 ## A better onboarding experience for our communities
 

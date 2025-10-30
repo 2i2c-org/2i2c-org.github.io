@@ -15,7 +15,7 @@ draft: false
 
 Managing user groups in JupyterHub can be a challenging task, especially in environments with dynamic user bases and complex group structures. This post describes how we can leverage the latest group management features in JupyterHub, along with Prometheus and Grafana, to monitor group-level resource usage effectively.
 
-> ⭐ **Members of 2i2c's community network** can use this feature in their hubs by [following our cost attribution documentation](https://docs.2i2c.org/admin/howto/monitoring/cost-attribution/).
+> ⭐ **Members of 2i2c's community network** can use this feature in their hubs by [following our cost attribution documentation](https://docs.2i2c.org/admin/monitoring/cost-users).
 
 ![Grafana User Group Diagnostics Dashboard showing a memory usage over time with each line aggregating usage over a different user group.](./featured.png)
 

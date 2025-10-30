@@ -74,7 +74,7 @@ You can [read a write-up about these improvements in this blog post](https://2i2
 
 Our goal is to frame each community hub as a partnership with a clear breakdown of responsibility to give communities more agency over the infrastructure and service.
 The Shared Responsibility Model provides a framework for assigning responsibility for various tasks with our partner communities.
-See [our Shared Responsibility Model docs here](https://docs.2i2c.org/about/service/shared-responsibility.html).
+See [our Shared Responsibility Model docs here](https://docs.2i2c.org/community-lead/about/shared-responsibility).
 
 ### We defined a formal Incident Response process
 
@@ -82,7 +82,7 @@ Cloud infrastructure inevitably degrades over time, and running ongoing services
 To do so, we need clear processes to follow in order to quickly identify and respond to major incidents in the infrastructure.
 Our Incident Response process defines formal team roles and alerting mechanisms that are served by [PagerDuty](https://www.pagerduty.com/), following best-practices in industry.
 This will make our service more reliable and make our processes more transparent for our partner communities.
-[Here's our current incident response process](https://compass.2i2c.org/projects/managed-hubs/incidents.html).
+[Here's our current incident response process](https://compass.2i2c.org/projects/managed-hubs/incidents).
 
 ### We expanded our service offerings to include community and workflow guidance
 
