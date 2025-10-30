@@ -15,7 +15,7 @@ draft: false
 ---
 
 _This is a brainstorm to consider the principles and guidelines that 2i2c should follow in defining its strategy towards open source communities.
-See [our open source policy documentation](https://compass.2i2c.org/open-source/index.html) for the product of this brainstorm._
+See [our open source policy documentation](https://compass.2i2c.org/open-source/) for the product of this brainstorm._
 
 Over the past year the 2i2c team has focused its efforts on deploying, configuring, running, and managing cloud infrastructure that supports open source workflows in research and education. We've also done a lot of _upstream contribution_ as a part of our work.
 

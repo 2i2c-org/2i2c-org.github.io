@@ -35,7 +35,7 @@ NeuroHackademy has been an early adopter of the cloud-based JupyterHub model, se
 In terms of the software environment, the following tools and features that have benefited the event over the years include
 
 - [`nbgitpuller`](https://github.com/jupyterhub/nbgitpuller) allows students to synchronise lesson content with an organizational GitHub repository that is collaboratively maintained by the lesson instructors.
-- [Shared data file storage](https://docs.2i2c.org/user/topics/data/sharing/) with read-only access for learners and read-write access for instructors
+- [Shared data file storage](https://docs.2i2c.org/user/data/sharing) with read-only access for learners and read-write access for instructors
 - Access to an abundance of neuroimaging data hosted in cloud object storage
   - [The Human Connectome Project](https://www.humanconnectome.org/)
   - [The Natural Scenes Dataset](https://naturalscenesdataset.org/)
@@ -53,7 +53,7 @@ This year 2i2c supported the following tools and features for NeuroHackademy
 
 ### Next year
 
-One thing we have learned is that 2i2c automatically [shuts down a user server after one hour of inactivity](https://docs.2i2c.org/admin/howto/control-user-server/#stop-user-servers-after-inactivity) by default to ensure efficient resource usage and limit runaway cloud costs. Naturally, we are seeing increasing demand from learners for longer and more complex analyses. In response to this, we are keen to explore how the [`jupyter-keepalive`](https://github.com/minrk/jupyter-keepalive) extension can keep the server alive for long-running processes.
+One thing we have learned is that 2i2c automatically [shuts down a user server after one hour of inactivity](https://docs.2i2c.org/admin/user-management/control-user-server#stop-user-servers-after-inactivity) by default to ensure efficient resource usage and limit runaway cloud costs. Naturally, we are seeing increasing demand from learners for longer and more complex analyses. In response to this, we are keen to explore how the [`jupyter-keepalive`](https://github.com/minrk/jupyter-keepalive) extension can keep the server alive for long-running processes.
 
 We are pleased that learners have made great progress in making use of cloud-native, open-source workflows for analyzing human neuroscience data. We are keen to benefit from lessons learned this year and are looking forward to collaborating with 2i2c once again to deliver the NeuroHackademy Summer School in 2025.
 

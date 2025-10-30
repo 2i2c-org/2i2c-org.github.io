@@ -21,7 +21,7 @@ Note that this feature is currently available to AWS hosted hubs only and will b
 
 ## Accessing the cloud cost dashboard
 
-Community Champions can view the Cloud Cost dashboard from their Grafana instance (please see the [Service Guide](https://docs.2i2c.org/admin/howto/monitoring/grafana-dashboards/#getting-a-grafana-account) for how to gain access).
+Community Champions can view the Cloud Cost dashboard from their Grafana instance (please see the [Service Guide](https://docs.2i2c.org/admin/monitoring/grafana-dashboards#getting-a-grafana-account) for how to gain access).
 
 From the main menu of Grafana, navigate to *Dashboards > Cloud cost dashboards > Cloud cost attribution* to view the dashboard.
 
@@ -38,13 +38,13 @@ The dashboard is made of several panels:
 
 {{< video autoplay="true" loop="true" src="demo.mp4" >}}
 
-For more detailed information on the data that each panel displays, please consult our [Service Guide](https://docs.2i2c.org/admin/howto/monitoring/cost-attribution/#understanding-the-cloud-cost-dashboard) for reference.
+For more detailed information on the data that each panel displays, please consult our [Service Guide](https://docs.2i2c.org/admin/monitoring/cost-users#understanding-the-cloud-cost-dashboard) for reference.
 
 ## Sharing cost reports
 
 The dashboard can be shared with other community members and stakeholders so they can understand usage and cost patterns. Community Champions can export data to a CSV file, or they can generate a snapshot of the Grafana dashboard and share a public link.
 
-For instructions on how to export data from the dashboard, please see our [Service Guide](https://docs.2i2c.org/admin/howto/monitoring/cost-attribution/#sharing-cost-reports) for reference.
+For instructions on how to export data from the dashboard, please see our [Service Guide](https://docs.2i2c.org/admin/monitoring/cost-users#sharing-cost-reports) for reference.
 
 ## Next steps
 

@@ -49,11 +49,7 @@ We also ran hubs for several **community events**:
 - Eddy Symposium: [infrastructure#467](https://github.com/2i2c-org/team-compass/issues/467)
 - Allen Institute Summer Workshop on the Dynamic Brain [infrastructure#1621](https://github.com/2i2c-org/infrastructure/issues/1621)
 
-For a recap of one of these events, see our recent [blog post on the Jack Eddy symposium](https://2i2c.org/blog/2022/eddy-symposium-report).
-
-{{% callout note %}}
-If you are interested in partnering with 2i2c to have your own managed JupyterHub, please contact us at `partnerships@2i2c.org`.
-We have a shared cluster on Google Cloud, with plans to deploy one on AWS soon, and dedicated clusters can be run on any major cloud provider. Please see [our service documentation](https://docs.2i2c.org/about/service/index.html) for more details.
+Please see [our service documentation](https://docs.2i2c.org/community-lead/about/service-model) for more details.
 {{% /callout %}}
 
 ## Organization wide updates
@@ -84,7 +80,7 @@ Here's a brief breakdown:
 
 **We expanded our shared clusters to new cloud providers and regions**. We now have shared clusters already deployed on Google Cloud Platform on `us-central1-b` and `europe-west2`.
 
-**We defined an incident commander process**. This will allow us to coordinate and respond to major outages in our cloud infrastructure more efficiently. See [our incident response documentation](https://compass.2i2c.org/projects/managed-hubs/incidents.html) for more information.
+**We defined an incident commander process**. This will allow us to coordinate and respond to major outages in our cloud infrastructure more efficiently. See [our incident response documentation](https://compass.2i2c.org/projects/managed-hubs/incidents) for more information.
 
 **We improved our cloud usage monitoring infrastructure**. We've deployed [a centralized Grafana Dashboard](https://github.com/2i2c-org/infrastructure/issues/328) that aggregates cloud usage across all of our partner communities, and allows us to keep track of any unexpected behavior or outages across them all.
 
@@ -107,5 +103,5 @@ Many thanks to the 2i2c team, our partner communities, our funders, and the many
 
 {{% callout note %}}
 If you are interested in partnering with 2i2c to have your own managed JupyterHub, please contact us at `partnerships@2i2c.org`.
-We have a shared cluster on Google Cloud, with plans to deploy one on AWS soon, and dedicated clusters can be run on any major cloud provider. Please see [our service documentation](https://docs.2i2c.org/about/service/index.html) for more details.
+We have a shared cluster on Google Cloud, with plans to deploy one on AWS soon, and dedicated clusters can be run on any major cloud provider. Please see [our service documentation](https://docs.2i2c.org/community-lead/about/service-model) for more details.
 {{% /callout %}}

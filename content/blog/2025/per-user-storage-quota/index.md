@@ -28,7 +28,7 @@ Under the hood, the Helm chart runs [NFS Ganesha](https://github.com/nfs-ganesha
 
 Since this feature moves our infrastructure away from managed filesystems (such as AWS's Elastic File System) that cannot support per-user storage quotas, we have also developed monitoring and alerting mechanisms that will let us know when the disks are getting full, and automated back-ups for disaster recovery.
 
-If you would like to try this on your 2i2c-managed hub, [please get in touch](https://docs.2i2c.org/support/).
+If you would like to try this on your 2i2c-managed hub, [please get in touch](https://docs.2i2c.org/support).
 
 This project can also be used with _any_ Kubernetes-based JupyterHub, as per our [Right to Replicate policy](https://2i2c.org/right-to-replicate/), so please try it out on your own deployment and let us know what you think!
 

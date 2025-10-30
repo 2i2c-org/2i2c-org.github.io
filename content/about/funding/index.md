@@ -33,7 +33,7 @@ To sustain and grow our operations, 2i2c receives funding from the following sou
 
 {{% callout %}}
 
-[2i2c's Financial and Sustainability Strategy page](https://compass.2i2c.org/finance/strategy.html) has our full financial sustainability strategy.
+[2i2c's Financial and Sustainability Strategy page](https://compass.2i2c.org/finance/strategy) has our full financial sustainability strategy.
 
 [Our accounting dashboards](https://2i2c.org/kpis/finances) have all our latest costs and revenue.
 

@@ -28,6 +28,6 @@ There are still plenty of improvements we'd like to make: for example, we're foc
 ## Learn more
 
 - 👉 [The status page](https://2i2c-hubs.trust.pagerduty.com/posts/dashboard)
-- 👉 [The status page documentation](https://docs.2i2c.org/admin/reliability/status-page/)
+- 👉 [The status page documentation](https://docs.2i2c.org/admin/reliability/status-page)
 - 👉 [Our new process for incident response](https://github.com/2i2c-org/team-compass/pull/1021)
 - 👉 Follow an [in-progress initiative to improve the reliability of our infrastructure](https://github.com/2i2c-org/infrastructure/issues/6417)

@@ -13,7 +13,7 @@ draft: false
 
 We're excited to announce out-of-the-box support for [Jupyter Book 2](https://next.jupyterbook.org) for our community members. This allows communities to create and share knowledge bases together for their community workflows. This post describes the motivation behind this new functionality, and how you can learn more about the project.
 
-> ⭐ **Members of 2i2c's community network** can use this feature in their hubs by following [our documentation and sharing guide](https://docs.2i2c.org/sharing/documentation/).
+> ⭐ **Members of 2i2c's community network** can use this feature in their hubs by following [our documentation and sharing guide](https://docs.2i2c.org/user/sharing/documentation).
 
 A core component of our mission to make research and education more _impactful_, _accessible_, and _delightful_ is leveraging our unique [global network of communities][network] to make meaningful improvements to the open-source tools that power their work. Learning from one community can then provide value to our entire network, e.g., [our work with PACE on speeding up their CNN model training][pace-gpu].
 
@@ -40,7 +40,7 @@ To learn more about this work, consider exploring a minimal example on [our Show
 
 [pace-gpu]: ../../2024/pace-hackweek/index.md
 [open-tech]: ../community-ownership/index.md
-[svc-guide]: https://docs.2i2c.org/community/content/#deploy-documentation-with-jupyter-book
+[svc-guide]: https://docs.2i2c.org/user/sharing/documentation
 [network]: https://2i2c.org/communities/
 [jb-next]: https://next.jupyterbook.org
 [initiative]: https://github.com/2i2c-org/infrastructure/issues/5045
