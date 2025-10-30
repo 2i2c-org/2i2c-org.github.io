@@ -1,4 +1,49 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2i2c</title><link>https://2i2c.org/</link><atom:link href="https://2i2c.org/index.xml" rel="self" type="application/rss+xml"/><description>2i2c</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 29 Oct 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>2i2c</title><link>https://2i2c.org/</link></image><item><title>BIDS joins as 2i2c's first premier member organization</title><link>https://2i2c.org/blog/2025/bids-premier-member/</link><pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/bids-premier-member/</guid><description>&lt;p>We&amp;rsquo;re thrilled to announce that the
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2i2c</title><link>https://2i2c.org/</link><atom:link href="https://2i2c.org/index.xml" rel="self" type="application/rss+xml"/><description>2i2c</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 30 Oct 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>2i2c</title><link>https://2i2c.org/</link></image><item><title>2i2c Supports the Science Platforms Coordination IHDEA Working Group</title><link>https://2i2c.org/blog/2025/ihdea-working-group/</link><pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/ihdea-working-group/</guid><description>&lt;p>The Science Platforms Coordination IHDEA working group (which includes our own
+&lt;a href="https://2i2c.org/author/jim-colliander/" >Jim Colliander&lt;/a>) is developing international standard software computing environments for Heliophysics. The working group recently presented their work at two major conferences:
+&lt;a href="https://ml-helio.github.io/" target="_blank" rel="noopener" >ML-Helio&lt;/a> in Madrid and
+&lt;a href="https://dash2025.space.swri.edu/" target="_blank" rel="noopener" >DASH/IHDEA&lt;/a> in San Antonio.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="DASH conference logo featuring stylized text and heliophysics imagery" srcset="
+/blog/2025/ihdea-working-group/featured_hu27c4fd91eab23a43f3d74f7a504ce6e6_9358_4ca8832585b372f3e42bd994a2a0d3ec.webp 400w,
+/blog/2025/ihdea-working-group/featured_hu27c4fd91eab23a43f3d74f7a504ce6e6_9358_a335e79d6f0f759380fc39545fdf2d25.webp 760w,
+/blog/2025/ihdea-working-group/featured_hu27c4fd91eab23a43f3d74f7a504ce6e6_9358_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2025/ihdea-working-group/featured_hu27c4fd91eab23a43f3d74f7a504ce6e6_9358_4ca8832585b372f3e42bd994a2a0d3ec.webp"
+width="400"
+height="123"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;em>The DASH/IHDEA 2025 conference brings together the heliophysics community to advance data, analysis, and software standards&lt;/em>&lt;/p>
+&lt;p>When the working group received $2k from NASA SMCE for cloud infrastructure, they were already member organizations of 2i2c. This meant we could quickly stand up a
+&lt;a href="https://2i2c.org/collaborators/jupyterhub/" >JupyterHub&lt;/a> with their Heliophysics-tailored environments for the conferences:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Easy access&lt;/strong> - Shared password authentication for conference attendees&lt;/li>
+&lt;li>&lt;strong>Persistent storage&lt;/strong> - Work saved across sessions&lt;/li>
+&lt;li>&lt;strong>Serious compute&lt;/strong> - Up to 119 GB RAM and 15 CPUs (much more than a typical laptop!)&lt;/li>
+&lt;/ul>
+&lt;p>The team successfully demonstrated how cloud resources can enable computational work that laptops simply can&amp;rsquo;t handle, and conference attendees responded positively to the presentations.&lt;/p>
+&lt;h2 id="why-were-excited-about-this">
+Why we&amp;rsquo;re excited about this
+&lt;a class="header-anchor" href="#why-were-excited-about-this">#&lt;/a>
+&lt;/h2>&lt;p>This showcases a key benefit we want to create with 2i2c membership: &lt;strong>reducing the accidental complexity of leveraging the cloud&lt;/strong>. Because the working group was already a member organization, deploying and managing infrastructure for the conferences was straightforward once they secured cloud funding. No lengthy setup, no new contracts - just quick deployment of the tools they needed.&lt;/p>
+&lt;h2 id="learn-more">
+Learn more
+&lt;a class="header-anchor" href="#learn-more">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;a href="https://ml-helio.github.io/" target="_blank" rel="noopener" >ML-Helio Conference&lt;/a> - Machine learning in heliophysics&lt;/li>
+&lt;li>
+&lt;a href="https://dash2025.space.swri.edu/" target="_blank" rel="noopener" >DASH/IHDEA Conference&lt;/a> - Data, analysis, and software in heliophysics&lt;/li>
+&lt;/ul>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>NASA SMCE for providing $2k funding and AWS infrastructure&lt;/li>
+&lt;li>Shawn Polson for being the community champion leading this effort&lt;/li>
+&lt;li>The IHDEA working group for their collaborative partnership in advancing Heliophysics research infrastructure&lt;/li>
+&lt;/ul></description></item><item><title>BIDS joins as 2i2c's first premier member organization</title><link>https://2i2c.org/blog/2025/bids-premier-member/</link><pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/bids-premier-member/</guid><description>&lt;p>We&amp;rsquo;re thrilled to announce that the
 &lt;a href="https://2i2c.org/collaborators/bids/" >Berkeley Institute for Data Science (BIDS)&lt;/a> has joined as 2i2c&amp;rsquo;s first premier member organization! This partnership marks a significant milestone in our sustainability strategy and recognizes a relationship that&amp;rsquo;s been central to 2i2c&amp;rsquo;s story from the very beginning.&lt;/p>
 &lt;p>
 &lt;figure >
@@ -9012,16 +9057,6 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;div class="col-sm-6 col-md-4 col-lg-3">
 &lt;div class="card border-0" style="background-color: #f8f9fa;">
 &lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
-&lt;a href="https://staging.climatematch.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
-&lt;img src="https://2i2c.org/members/images/climatematch_academy.png" alt="ClimateMatch Academy" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
-&lt;small class="text-dark fw-medium">ClimateMatch Academy&lt;/small>
-&lt;/a>
-&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;div class="col-sm-6 col-md-4 col-lg-3">
-&lt;div class="card border-0" style="background-color: #f8f9fa;">
-&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
 &lt;a href="https://csm.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/college_of_san_mateo.jpg" alt="College of San Mateo" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">College of San Mateo&lt;/small>
@@ -9275,6 +9310,16 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;a href="https://must.af.catalystproject.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/must.png" alt="MUST" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">MUST&lt;/small>
+&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="col-sm-6 col-md-4 col-lg-3">
+&lt;div class="card border-0" style="background-color: #f8f9fa;">
+&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
+&lt;a href="https://staging.hub.disasters.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
+&lt;img src="https://2i2c.org/members/images/nasa_disasters_program.png" alt="NASA Disasters Program" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
+&lt;small class="text-dark fw-medium">NASA Disasters Program&lt;/small>
 &lt;/a>
 &lt;/div>
 &lt;/div>
