@@ -1,8 +1,6 @@
 ---
 title: 2i2c Supports the Science Platforms Coordination IHDEA Working Group
 date: 2025-10-30
-authors:
-  - Shawn Polson
 tags:
   - open-source
   - community
@@ -38,4 +36,5 @@ This showcases a key benefit we want to create with 2i2c membership: **reducing 
 ## Acknowledgements
 
 - NASA SMCE for providing $2k funding and AWS infrastructure
+- Shawn Polson for being the community champion leading this effort
 - The IHDEA working group for their collaborative partnership in advancing Heliophysics research infrastructure
