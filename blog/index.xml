@@ -1,4 +1,30 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2i2c's blog | 2i2c</title><link>https://2i2c.org/blog/</link><atom:link href="https://2i2c.org/blog/index.xml" rel="self" type="application/rss+xml"/><description>2i2c's blog</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 30 Oct 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>2i2c's blog</title><link>https://2i2c.org/blog/</link></image><item><title>2i2c Supports the Science Platforms Coordination IHDEA Working Group</title><link>https://2i2c.org/blog/2025/ihdea-working-group/</link><pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/ihdea-working-group/</guid><description>&lt;p>The Science Platforms Coordination IHDEA working group (which includes our own
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2i2c's blog | 2i2c</title><link>https://2i2c.org/blog/</link><atom:link href="https://2i2c.org/blog/index.xml" rel="self" type="application/rss+xml"/><description>2i2c's blog</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 06 Nov 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>2i2c's blog</title><link>https://2i2c.org/blog/</link></image><item><title>Community learning: Hub config to pass oauth tokens into user environments</title><link>https://2i2c.org/blog/2025/communities-learning-from-one-another/</link><pubDate>Thu, 06 Nov 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/communities-learning-from-one-another/</guid><description>&lt;p>One of our favorite things to see: communities learning from and building on each other&amp;rsquo;s work!&lt;/p>
+&lt;p>
+&lt;a href="https://ops.maap-project.org/" target="_blank" rel="noopener" >MAAP&lt;/a> recently
+&lt;a href="https://github.com/2i2c-org/infrastructure/pull/7068" target="_blank" rel="noopener" >contributed infrastructure configuration&lt;/a> inspired by
+&lt;a href="https://github.com/2i2c-org/infrastructure/blob/0046e14a68d7af9e353c494ee6ad39beb0ce970a/config/clusters/earthscope/common.values.yaml#L29" target="_blank" rel="noopener" >EarthScope&amp;rsquo;s approach&lt;/a> to handling authentication tokens. Both communities need to pass OAuth tokens into user environments so their SDKs can access protected data - and MAAP adapted EarthScope&amp;rsquo;s pattern to fit their needs.&lt;/p>
+&lt;p>This is the kind of peer-to-peer knowledge sharing we hope to foster with our
+&lt;a href="https://github.com/2i2c-org/infrastructure" target="_blank" rel="noopener" >open infrastructure model&lt;/a>. When infrastructure is open and communities can see each other&amp;rsquo;s solutions, they can adapt and build on proven approaches rather than starting from scratch.&lt;/p>
+&lt;h2 id="learn-more">
+Learn more
+&lt;a class="header-anchor" href="#learn-more">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;a href="https://github.com/2i2c-org/infrastructure/pull/7068" target="_blank" rel="noopener" >MAAP&amp;rsquo;s PR&lt;/a> adapting the configuration&lt;/li>
+&lt;li>
+&lt;a href="https://github.com/2i2c-org/infrastructure/blob/0046e14a68d7af9e353c494ee6ad39beb0ce970a/config/clusters/earthscope/common.values.yaml#L29" target="_blank" rel="noopener" >EarthScope&amp;rsquo;s original config&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://github.com/2i2c-org/infrastructure" target="_blank" rel="noopener" >Our infrastructure repository&lt;/a> where all community configurations live&lt;/li>
+&lt;/ul>
+&lt;h2 id="acknowledgments">
+Acknowledgments
+&lt;a class="header-anchor" href="#acknowledgments">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;a href="https://ops.maap-project.org/" target="_blank" rel="noopener" >MAAP team&lt;/a> for adapting and contributing this configuration&lt;/li>
+&lt;li>
+&lt;a href="https://2i2c.org/collaborators/earthscope/" >EarthScope Consortium&lt;/a> for the original implementation&lt;/li>
+&lt;/ul></description></item><item><title>2i2c Supports the Science Platforms Coordination IHDEA Working Group</title><link>https://2i2c.org/blog/2025/ihdea-working-group/</link><pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/ihdea-working-group/</guid><description>&lt;p>The Science Platforms Coordination IHDEA working group (which includes our own
 &lt;a href="https://2i2c.org/author/jim-colliander/" >Jim Colliander&lt;/a>) is developing international standard software computing environments for Heliophysics. The working group recently presented their work at two major conferences:
 &lt;a href="https://ml-helio.github.io/" target="_blank" rel="noopener" >ML-Helio&lt;/a> in Madrid and
 &lt;a href="https://dash2025.space.swri.edu/" target="_blank" rel="noopener" >DASH/IHDEA&lt;/a> in San Antonio.&lt;/p>
@@ -58,7 +84,7 @@ height="428"
 loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;/figure>
 &lt;em>BIDS Executive Director Kirstie Whitaker and 2i2c Executive Director Chris Holdgraf discuss the partnership at the
-&lt;a href="" >membership launch event&lt;/a>.&lt;/em>&lt;/p>
+&lt;a href="https://2i2c.org/blog/2025/bids-premier-member/../bids-premier-membership-event/" >membership launch event&lt;/a>.&lt;/em>&lt;/p>
 &lt;h2 id="what-this-partnership-means">
 What this partnership means
 &lt;a class="header-anchor" href="#what-this-partnership-means">#&lt;/a>
@@ -165,19 +191,19 @@ Strengthening the foundations of Jupyter
 Enabling 2i2c to grow from an idea to an organization
 &lt;a class="header-anchor" href="#enabling-2i2c-to-grow-from-an-idea-to-an-organization">#&lt;/a>
 &lt;/h2>&lt;p>CZI also played a key role in 2i2c&amp;rsquo;s birth, growth, direction, and impact. When 2i2c was only an idea, the possibily of initial support from CZI was pivotal in helping us turn it into a reality. Then as the organization took shape and started to grow, this support gave us the strategic capacity to develop key frameworks for
-&lt;a href="" >healthy open source contribution practices&lt;/a>,
-&lt;a href="" >our value propositions&lt;/a>, and ideas around
-&lt;a href="" >community network funding&lt;/a>. It was a stepping stone towards building out our own
+&lt;a href="https://2i2c.org/blog/2025/czi-retrospective/../../2025/good-citizen/" >healthy open source contribution practices&lt;/a>,
+&lt;a href="https://2i2c.org/blog/2025/czi-retrospective/../../2024/value-proposition/" >our value propositions&lt;/a>, and ideas around
+&lt;a href="https://2i2c.org/blog/2025/czi-retrospective/../../2024/funding-community-networks/" >community network funding&lt;/a>. It was a stepping stone towards building out our own
 &lt;a href="https://2i2c.org/join" target="_blank" rel="noopener" >sustainability model via membership&lt;/a>.&lt;/p>
 &lt;p>Here are a few milestone moments:&lt;/p>
 &lt;p>&lt;strong>Our Seed funding (2020)&lt;/strong> CZI provided core support to bootstrap 2i2c from its inception, funding organizational capacity rather than just technical deliverables. This was critical, enabling strategic partnerships, community coordination, and 2i2c&amp;rsquo;s first hires (Georgiana Dolocan, formerly the CZI-funded
 &lt;a href="https://blog.jupyter.org/the-jupyterhub-and-binder-contributor-in-residence-56708d1e3069" target="_blank" rel="noopener" >JupyterHub Contributor in Residence&lt;/a>, and Chris Holdgraf, 2i2c&amp;rsquo;s Executive Director). This was the primary funding that drove our creation and operations for the first three years. We
 &lt;a href="https://2i2c.org/report-czi-2021" target="_blank" rel="noopener" >published a comprehensive report and retrospective&lt;/a> documenting the impact of this seed funding.&lt;/p>
 &lt;p>&lt;strong>Catalyzing Global Communities (2022)&lt;/strong> This collaborative grant brought together six organizations (2i2c, The Carpentries, CSCCE, IOI, MetaDocencia, Open Life Science) to
-&lt;a href="" >provide cloud infrastructure and training for communities in Latin America and Africa&lt;/a>. The project emphasized &amp;ldquo;train the trainers&amp;rdquo; approaches and community co-leadership. It was a much bigger challenge than we all realized, and the relationships between our organizations grew stronger as a result.&lt;/p>
+&lt;a href="https://2i2c.org/blog/2025/czi-retrospective/../../2022/czi-global-communities-proposal/" >provide cloud infrastructure and training for communities in Latin America and Africa&lt;/a>. The project emphasized &amp;ldquo;train the trainers&amp;rdquo; approaches and community co-leadership. It was a much bigger challenge than we all realized, and the relationships between our organizations grew stronger as a result.&lt;/p>
 &lt;p>&lt;strong>Strategic Support for Sustainability (2024)&lt;/strong> CZI provided a
-&lt;a href="" >bridge funding gift to sustain 2i2c&amp;rsquo;s mission&lt;/a> during a critical growth phase. This gave us the runway to refine our service model and explore paths to financial sustainability. Combined with funding from
-&lt;a href="" >The Navigation Fund&lt;/a>, this gave 2i2c approximately two years for strategic planning.&lt;/p>
+&lt;a href="https://2i2c.org/blog/2025/czi-retrospective/../../2024/funding-czi/" >bridge funding gift to sustain 2i2c&amp;rsquo;s mission&lt;/a> during a critical growth phase. This gave us the runway to refine our service model and explore paths to financial sustainability. Combined with funding from
+&lt;a href="https://2i2c.org/blog/2025/czi-retrospective/../../2024/funding-navigation/" >The Navigation Fund&lt;/a>, this gave 2i2c approximately two years for strategic planning.&lt;/p>
 &lt;h3 id="what-makes-czis-approach-different">
 What Makes CZI&amp;rsquo;s Approach Different?
 &lt;a class="header-anchor" href="#what-makes-czis-approach-different">#&lt;/a>
@@ -299,8 +325,8 @@ Acknowledgements
 &lt;ol>
 &lt;li id="fn:1">
 &lt;p>Chris has been
-&lt;a href="" >serving on the Jupyter Executive Council&lt;/a> as a
-&lt;a href="" >Foundational contribution&lt;/a>. This was related to that effort!&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;a href="https://2i2c.org/blog/2025/web-traffic-tracking-open-source/../executive-council-updates/" >serving on the Jupyter Executive Council&lt;/a> as a
+&lt;a href="https://2i2c.org/blog/2025/web-traffic-tracking-open-source/../foundational-contributions/" >Foundational contribution&lt;/a>. This was related to that effort!&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;/div></description></item><item><title>Celebrating BIDS as 2i2c's first premier member at UC Berkeley</title><link>https://2i2c.org/blog/2025/bids-premier-membership-event/</link><pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/bids-premier-membership-event/</guid><description>&lt;p>We&amp;rsquo;re celebrating
@@ -339,7 +365,7 @@ Acknowledgements
 &lt;a href="https://hub.jupyter.org/binder-data/" target="_blank" rel="noopener" >mybinder.org usage dashboards&lt;/a> and provides a
 &lt;a href="https://github.com/jupyterhub/binder-data" target="_blank" rel="noopener" >daily-published dataset&lt;/a> that researchers and communities use to understand how Binder is being used across different domains and scientific communities.&lt;/p>
 &lt;p>While updating our
-&lt;a href="" >quarterly Binder impact report&lt;/a>, we discovered the archive index page had stopped updating. The analytics publisher was writing index files to temporary storage before uploading to Google Cloud Storage, but for some reason the upload step stopped working. We
+&lt;a href="https://2i2c.org/blog/2025/mybinder-analytics-fix/../binder-report-q3/" >quarterly Binder impact report&lt;/a>, we discovered the archive index page had stopped updating. The analytics publisher was writing index files to temporary storage before uploading to Google Cloud Storage, but for some reason the upload step stopped working. We
 &lt;a href="https://github.com/jupyterhub/mybinder.org-deploy/pull/3462" target="_blank" rel="noopener" >deployed a fix&lt;/a> that eliminates the temporary files entirely - the code now generates the HTML index as a string in memory and uploads directly.&lt;/p>
 &lt;figure id="figure-the-mybinderorg-analytics-archivehttpsarchiveanalyticsmybinderorg-shows-a-list-of-daily-usage-reports-that-anybody-can-download">
 &lt;div class="d-flex justify-content-center">
@@ -361,7 +387,7 @@ Learn more
 &lt;li>The
 &lt;a href="https://github.com/jupyterhub/binder-data" target="_blank" rel="noopener" >&lt;code>binder-data/&lt;/code> repository&lt;/a> is where we aggregate and publish archive data to be more accessible.&lt;/li>
 &lt;li>
-&lt;a href="" >Our quarterly impact report from mybinder.org&lt;/a>&lt;/li>
+&lt;a href="https://2i2c.org/blog/2025/mybinder-analytics-fix/../binder-report-q3/" >Our quarterly impact report from mybinder.org&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h2 id="acknowledgements">
 Acknowledgements
@@ -374,7 +400,7 @@ Acknowledgements
 &lt;a href="https://mybinder.readthedocs.io/en/latest/about/federation.html" target="_blank" rel="noopener" >federation of BinderHubs&lt;/a>.
 2i2c is part of the team that manages mybinder.org, and we&amp;rsquo;re committed to supporting this critical infrastructure for open science and reproducibility.&lt;/p>
 &lt;p>We developed a more
-&lt;a href="" >cost-efficient process for deploying BinderHub on a single VM&lt;/a> and are now running a BinderHub at
+&lt;a href="https://2i2c.org/blog/2025/binder-report/../binder-singlenode/" >cost-efficient process for deploying BinderHub on a single VM&lt;/a> and are now running a BinderHub at
 &lt;a href="https://2i2c.mybinder.org" target="_blank" rel="noopener" >2i2c.mybinder.org&lt;/a>.
 This post highlights the impact we&amp;rsquo;ve had through our support of the mybinder.org federation, we&amp;rsquo;ll update it periodically.&lt;/p>
 &lt;h2 id="usage-over-time">
@@ -396,27 +422,27 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;p>&lt;em>Here are weekly launches on mybinder.org. Launches from &lt;code>2i2c.mybinder.org&lt;/code> are in red. Source:
 &lt;a href="https://hub.jupyter.org/binder-data/" target="_blank" rel="noopener" >mybinder analytics dashboard&lt;/a>.&lt;/em>&lt;/p>
 &lt;p>&lt;strong>In Q1 of 2025&lt;/strong>, &lt;code>2i2c.mybinder.org&lt;/code> launched &lt;strong>417,048 reproducible sessions&lt;/strong>. In this time, mybinder.org was primarily driven by our
-&lt;a href="" >new Hetzner node&lt;/a> as we worked with GESIS to stabilize their own BinderHub instance.&lt;/p>
+&lt;a href="https://2i2c.org/blog/2025/binder-report/../binder-singlenode/" >new Hetzner node&lt;/a> as we worked with GESIS to stabilize their own BinderHub instance.&lt;/p>
 &lt;p>&lt;strong>In Q2 of 2025&lt;/strong>, &lt;code>2i2c.mybinder.org&lt;/code> launched &lt;strong>249,750 reproducible sessions&lt;/strong>. In this time, we worked with
 &lt;a href="https://2i2c.org/collaborators/gesis/" >GESIS&lt;/a> to deploy their BinderHub instance on the same Hetzner node setup, which let us distribute more of Binder&amp;rsquo;s load onto them.&lt;/p>
 &lt;p>&lt;strong>In Q3 of 2025&lt;/strong>, &lt;code>2i2c.mybinder.org&lt;/code> launched &lt;strong>118,083 reproducible sessions&lt;/strong>. We experienced a typical summer dip in sessions, had to
-&lt;a href="" >fix the analytics dashboard&lt;/a> as well as
-&lt;a href="" >fix a TCP scanning abuse case&lt;/a> that briefly brought down the 2i2c node.&lt;/p>
+&lt;a href="https://2i2c.org/blog/2025/binder-report/../mybinder-analytics-fix/" >fix the analytics dashboard&lt;/a> as well as
+&lt;a href="https://2i2c.org/blog/2025/binder-report/../mybinder-antiabuse-scanning/" >fix a TCP scanning abuse case&lt;/a> that briefly brought down the 2i2c node.&lt;/p>
 &lt;h2 id="where-weve-made-improvements">
 Where we&amp;rsquo;ve made improvements
 &lt;a class="header-anchor" href="#where-weve-made-improvements">#&lt;/a>
 &lt;/h2>&lt;p>As part of this effort, we&amp;rsquo;ve made several improvements to the Binder and JupyterHub ecosystem. Here are a few links where you can read more:&lt;/p>
 &lt;ul>
 &lt;li>
-&lt;a href="" >Deploying BinderHub on a single VM with k3s&lt;/a> - Our approach to making BinderHub deployment cheaper and simpler&lt;/li>
+&lt;a href="https://2i2c.org/blog/2025/binder-report/../binder-singlenode/" >Deploying BinderHub on a single VM with k3s&lt;/a> - Our approach to making BinderHub deployment cheaper and simpler&lt;/li>
 &lt;li>
-&lt;a href="" >Hetzner cloud infrastructure experience&lt;/a> - Cost-effective cloud hosting for mybinder.org&lt;/li>
+&lt;a href="https://2i2c.org/blog/2025/binder-report/../jetstream-binderhub/" >Hetzner cloud infrastructure experience&lt;/a> - Cost-effective cloud hosting for mybinder.org&lt;/li>
 &lt;li>
-&lt;a href="" >Combating TCP scanning abuse on mybinder.org&lt;/a> - Developing anti-abuse tools to prevent an abuse use-case.&lt;/li>
+&lt;a href="https://2i2c.org/blog/2025/binder-report/../mybinder-antiabuse-scanning/" >Combating TCP scanning abuse on mybinder.org&lt;/a> - Developing anti-abuse tools to prevent an abuse use-case.&lt;/li>
 &lt;li>
 &lt;a href="https://hub.jupyter.org/binder-data/" target="_blank" rel="noopener" >Improving Binder&amp;rsquo;s usage dashboard&lt;/a> - This helps us create posts like these and is useful to others as well.&lt;/li>
 &lt;li>
-&lt;a href="" >Integrating BinderHub with JupyterHub&lt;/a> - Working with
+&lt;a href="https://2i2c.org/blog/2025/binder-report/../../2024/jupyterhub-binderhub-gesis/" >Integrating BinderHub with JupyterHub&lt;/a> - Working with
 &lt;a href="https://2i2c.org/collaborators/gesis/" >GESIS&lt;/a> to bring Binder&amp;rsquo;s dynamic image building capabilities to persistent JupyterHubs, empowering users to manage their own environments&lt;/li>
 &lt;/ul>
 &lt;h2 id="acknowledgements">
@@ -439,7 +465,7 @@ Why this matters
 &lt;a class="header-anchor" href="#why-this-matters">#&lt;/a>
 &lt;/h2>&lt;p>As providers of public compute, it&amp;rsquo;s our responsibility to make sure people can&amp;rsquo;t use our infrastructure to abuse others. This is part of being responsible citizens of the internet. It also saves us time in dealing with outages because cloud providers (understandably) block access when they suspect there is abuse.&lt;/p>
 &lt;p>Hetzner and similar hosts have many benefits (including
-&lt;a href="" >significant cost savings&lt;/a>), and tools like tcpflowkiller help keep hubs and binders running smoothly on such hosts, which have different abuse policies than the big commercial cloud providers.&lt;/p>
+&lt;a href="https://2i2c.org/blog/2025/mybinder-antiabuse-scanning/../binder-singlenode/" >significant cost savings&lt;/a>), and tools like tcpflowkiller help keep hubs and binders running smoothly on such hosts, which have different abuse policies than the big commercial cloud providers.&lt;/p>
 &lt;p>AWS and other cloud providers have proprietary ways to combat abuse (like
 &lt;a href="https://docs.aws.amazon.com/guardduty/latest/ug/what-is-guardduty.html" target="_blank" rel="noopener" >AWS GuardDuty&lt;/a>). We could have spent our time investing in developing rules there. Instead, contributing to cryptnono helps provide the same set of features in a cloud-agnostic way, in line with
 &lt;a href="https://2i2c.org/open-practices/" target="_blank" rel="noopener" >our principles&lt;/a> of supporting open infrastructure that gives communities control over their infrastructure.&lt;/p>
@@ -1066,7 +1092,7 @@ What&amp;rsquo;s next
 &lt;/li>
 &lt;/ol>
 &lt;/div></description></item><item><title>Sharing JupyterHub's vision for more flexible application deployment at the doepy talk series.</title><link>https://2i2c.org/blog/2025/doepy-yuvi/</link><pubDate>Wed, 03 Sep 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/doepy-yuvi/</guid><description>&lt;p>Our Technical Lead
-&lt;a href="" >Yuvi Panda&lt;/a> recently gave a talk at the
+&lt;a href="https://2i2c.org/blog/2025/doepy-yuvi/../../authors/yuvi-panda/_index.md" >Yuvi Panda&lt;/a> recently gave a talk at the
 &lt;a href="https://meetup.doepy.org/" target="_blank" rel="noopener" >doepy meetup&lt;/a> about JupyterHub&amp;rsquo;s interest in moving beyond the &amp;ldquo;single-user notebook application&amp;rdquo; and towards a more flexible approach to enabling administrators to deploy many different types of applications and environments.&lt;/p>
 &lt;p>Check out a video of the talk here:&lt;/p>
 &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
@@ -1712,7 +1738,7 @@ Acknowledgements
 &lt;/h2>&lt;p>Thanks to
 &lt;a href="https://2i2c.org/collaborators/pythia/" >Project Pythia&lt;/a> for funding and collaborating with us on this work.&lt;/p></description></item><item><title>2025-Q1 reflection: Building a foundation for our new platform and membership model</title><link>https://2i2c.org/blog/2025/q1-reflection/</link><pubDate>Wed, 16 Apr 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/q1-reflection/</guid><description>&lt;p>&lt;em>This is a summary of major progress we made in Q1 of 2025. Its goal is to summarize our major accomplishments and important context before we prioritize for Q2. We hope this gives our community stakeholders a more strategic-level insight into our progress and organizational plans. See
 &lt;a href="https://2i2c.org/blog/2025/q1-product-highlights/" >our Product Highlights for 2025Q1&lt;/a> for a product-focused review. Please
-&lt;a href="" >give us feedback&lt;/a> for how we can provide more useful information.&lt;/em>&lt;/p>
+&lt;a href="https://2i2c.org/blog/2025/q1-reflection/mailto:hello@2i2c.org" >give us feedback&lt;/a> for how we can provide more useful information.&lt;/em>&lt;/p>
 &lt;p>Heading into Q1 2025, we had just completed an organizational re-structuring into new functional areas. These were
 &lt;a href="https://compass.2i2c.org/product-and-services/" target="_blank" rel="noopener" >Products and Services&lt;/a>,
 &lt;a href="https://compass.2i2c.org/biz-dev/" target="_blank" rel="noopener" >Business Development&lt;/a>, and
@@ -1971,7 +1997,7 @@ Project Pythia and the &amp;ldquo;Jupyter notebook obsolescence&amp;rdquo; probl
 &lt;/h2>&lt;p>
 &lt;a href="https://projectpythia.org/" target="_blank" rel="noopener" >Project Pythia&lt;/a> provides educational resources for essential software tools that enable open, reproducible and scalable geoscience, such as the
 &lt;a href="https://pangeo.io" target="_blank" rel="noopener" >Pangeo&lt;/a> stack of packages (Xarray, Dask, Jupyter). Their &lt;em>Cookbooks&lt;/em> are crowdsourced, community-curated, and open-source collections of Jupyter notebooks that demonstrate how to use these tools for cloud-native, geoscientific workflows (see our
-&lt;a href="" >Project Pythia Cookoff&lt;/a> blog post). However, &amp;ldquo;Jupyter notebook obsolescence&amp;rdquo; is a common problem: tutorials that were created a few years ago may no longer work due to changes in the software ecosystem and hampers the reproducibility of scientific results. A reproducible execution environment and the infrastructure to support it are essential for the long-term sustainability of these educational resources.&lt;/p>
+&lt;a href="https://2i2c.org/content/blog/2024/project-pythia-cookoff/index.md" >Project Pythia Cookoff&lt;/a> blog post). However, &amp;ldquo;Jupyter notebook obsolescence&amp;rdquo; is a common problem: tutorials that were created a few years ago may no longer work due to changes in the software ecosystem and hampers the reproducibility of scientific results. A reproducible execution environment and the infrastructure to support it are essential for the long-term sustainability of these educational resources.&lt;/p>
 &lt;h2 id="leveraging-nsf-funded-cyberinfrastructure-for-binderhub">
 Leveraging NSF-funded cyberinfrastructure for BinderHub
 &lt;a class="header-anchor" href="#leveraging-nsf-funded-cyberinfrastructure-for-binderhub">#&lt;/a>
@@ -2165,7 +2191,7 @@ Give communities more visibility and control over their hub setup and costs
 Standardize our hub service menu of options and prices
 &lt;a class="header-anchor" href="#standardize-our-hub-service-menu-of-options-and-prices">#&lt;/a>
 &lt;/h2>&lt;p>A key goal of our
-&lt;a href="" >Navigation Fund grant&lt;/a> is to streamline ourselves into a few repeatable, scalable service offerings at different price points. This will allow us to more easily support new communities and provide a more consistent experience for users.&lt;/p>
+&lt;a href="https://2i2c.org/blog/2025/q1-product-goals/../2024/funding-navigation/index.md" >Navigation Fund grant&lt;/a> is to streamline ourselves into a few repeatable, scalable service offerings at different price points. This will allow us to more easily support new communities and provide a more consistent experience for users.&lt;/p>
 &lt;p>&lt;strong>In Q1 2025&lt;/strong> we&amp;rsquo;d like to define a starting point that we can begin to iterate on. We&amp;rsquo;ll define a new set of pricing based around a tiered service model, and decide on an initial set of features and services to include with each. Our goal will be to have something defined quickly so that we can iterate a few times with community feedback before the quarter is over.&lt;/p>
 &lt;h2 id="standardize-our-community-support-services">
 Standardize our community support services
@@ -2304,7 +2330,7 @@ Others can join the mybinder.org federation using this approach as well
 Anybody want to fund this?
 &lt;a class="header-anchor" href="#anybody-want-to-fund-this">#&lt;/a>
 &lt;/h2>&lt;p>If you&amp;rsquo;re interested in making open science infrastructure like Binder more scalable and sustainable, we&amp;rsquo;d love to find more resources to both sustain this node and cover more development time to run this experiment.
-&lt;a href="" >Feel free to reach out here&lt;/a>.&lt;/p>
+&lt;a href="https://2i2c.org/blog/2025/binder-singlenode/mailto:hello@2i2c.org" >Feel free to reach out here&lt;/a>.&lt;/p>
 &lt;p>If you have access to VMs and object storage, and are interested in running a mybinder.org federation member using the methods described here, check out
 &lt;a href="https://github.com/jupyterhub/mybinder.org-deploy/blob/72a1a34509e2c43aec788f602250c58d9d849a13/docs/source/deployment/k3s.md" target="_blank" rel="noopener" >our brief guide for deploying a BinderHub with K3s&lt;/a>.&lt;/p>
 &lt;p>If you&amp;rsquo;re generally interested in supporting &lt;code>mybinder.org&lt;/code> with cloud resources, financial resources, or human resources, please see the
@@ -2516,7 +2542,7 @@ Who is this for?
 We&amp;rsquo;d love feedback
 &lt;a class="header-anchor" href="#wed-love-feedback">#&lt;/a>
 &lt;/h2>&lt;p>We hope that these ideas both clarify our intent and the reason that we think it&amp;rsquo;s important. We&amp;rsquo;d love feedback about early refinements to these principles in order to make them more effective, as well as ways that we can provide more community oversight and participation in evolving these policies moving forward. If you have any thoughts to share, please send feedback via e-mail
-&lt;a href="" >hello@2i2c.org&lt;/a>.&lt;/p>
+&lt;a href="https://2i2c.org/blog/2025/community-ownership/mailto:hello@2i2c.org" >hello@2i2c.org&lt;/a>.&lt;/p>
 &lt;hr>
 &lt;p>&lt;strong>Acknowledgements&lt;/strong>: &lt;em>The creation of this policy and the rationale behind it was led by
 &lt;a href="https://2i2c.org/author/yuvaraj-yuvi/" >Yuvi Panda&lt;/a> with feedback from 2i2c&amp;rsquo;s team. This blog post was co-written with
@@ -3406,7 +3432,7 @@ Catalyst Project community partners using accessible cloud infrastructure for op
 &lt;p>A key part of the project is engaging with Community Partners in Africa and Latin America: Institutions, organizations, and individuals who are undertaking bioscientific research projects that require cloud computing infrastructure. As collaborators on the Catalyst Project, Community Partners can access and use 2i2c’s open science cloud services, and also receive training from 2i2c, The Carpentries, MetaDocencia, and OLS to support their work.
 &lt;a href="https://catalystproject.cloud/current-community-partners.html" target="_blank" rel="noopener" >Community Partners&lt;/a> also play a vital role in shaping an evolving governance model for the Catalyst Project to help sustain, scale, and maximize impact in Latin America, Africa, and under-served communities around the world.&lt;/p>
 &lt;p>In a new collection of blog posts (that we hope will expand over the next couple of months!) we’re highlighting the work of the Catalyst Project Community Partners. This post is a gateway to learning more about the Catalyst Project and its Community Partners. If you have any questions or feedback about the project, please
-&lt;a href="" >send an email to the core team&lt;/a>.&lt;/p>
+&lt;a href="https://2i2c.org/blog/2024/catalyst-partner-highlights/mailto:catalyst-project-core-team@googlegroups.com" >send an email to the core team&lt;/a>.&lt;/p>
 &lt;h2 id="highlighting-the-catalyst-project-community-partners">
 Highlighting the Catalyst Project Community Partners
 &lt;a class="header-anchor" href="#highlighting-the-catalyst-project-community-partners">#&lt;/a>
@@ -3504,7 +3530,7 @@ Funding comes from the
 &lt;a href="https://chanzuckerberg.com/science/programs-resources/open-science/" target="_blank" rel="noopener" >Open Science Program&lt;/a> at CZI, which aims to &amp;lsquo;&amp;hellip;support a diverse scientific community working in the open to accelerate our understanding of human health and disease. We invest in tools, platforms, and organizations that help expand participation and access to the scientific process by making it open and reproducible, and helping scientists build on each others’ work.&amp;rsquo;
 &lt;/figcaption>&lt;/figure>
 &lt;p>This builds upon
-&lt;a href="" >previous core support provided by CZI&lt;/a>, and provides an additional &lt;strong>~$700K over 1 year&lt;/strong> to help 2i2c sustain its mission. We are deeply grateful to CZI for their support, and this funding provides key runway for 2i2c to serve its community network and explore a sustainable and scalable model for impact.&lt;/p></description></item><item><title>From the GeoLab team - Pancakes are the future of geophysical data processing</title><link>https://2i2c.org/blog/2024/external-earthscope-pancakes/</link><pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/external-earthscope-pancakes/</guid><description>&lt;p>Our partner
+&lt;a href="https://2i2c.org/blog/2024/funding-czi/../../2021/czi-core-support/" >previous core support provided by CZI&lt;/a>, and provides an additional &lt;strong>~$700K over 1 year&lt;/strong> to help 2i2c sustain its mission. We are deeply grateful to CZI for their support, and this funding provides key runway for 2i2c to serve its community network and explore a sustainable and scalable model for impact.&lt;/p></description></item><item><title>From the GeoLab team - Pancakes are the future of geophysical data processing</title><link>https://2i2c.org/blog/2024/external-earthscope-pancakes/</link><pubDate>Tue, 01 Oct 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/external-earthscope-pancakes/</guid><description>&lt;p>Our partner
 &lt;a href="https://2i2c.org/collaborators/earthscope/" >EarthScope&lt;/a> published a
 &lt;a href="https://www.earthscope.org/news/pancakes-are-the-future-of-geophysical-data-processing/" target="_blank" rel="noopener" >blog post about their cloud stack&lt;/a> which includes heavy mention of 2i2c&amp;rsquo;s infrastructure model. Check it out!&lt;/p></description></item><item><title>Openscapes goes to the White House!</title><link>https://2i2c.org/blog/2024/external-openscapes-whitehouse/</link><pubDate>Mon, 23 Sep 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/external-openscapes-whitehouse/</guid><description>&lt;p>Our partner
 &lt;a href="https://2i2c.org/collaborators/openscapes/" >OpenScapes&lt;/a> recently took a trip to the White House to advocate for Open Science and the Open Source ecosystem, check out
@@ -4158,7 +4184,7 @@ The importance of diverse &lt;em>leadership&lt;/em>
 &lt;/h2>&lt;p>However, over the past few months, we have reflected on our organization&amp;rsquo;s structure and future plans. In particular, we recognize that there is a worrying lack of women in staff leadership roles. This imbalance does not live up to our values of diversity in our team and service.&lt;/p>
 &lt;p>We need to do better.&lt;/p>
 &lt;p>2i2c is at a moment of maturation and growth as an organization, kicked off by
-&lt;a href="" >our organizational audit from 2023&lt;/a> as well as
+&lt;a href="https://2i2c.org/blog/2024/dei-leadership-strategy/../2023/organizational-report/index.md" >our organizational audit from 2023&lt;/a> as well as
 &lt;a href="https://2i2c.org/blog/2024/report-czi/" >our three-year retrospective&lt;/a>.
 We believe that improving the diversity of leadership throughout the organization is a necessary part of that maturation over the next three years.&lt;/p>
 &lt;p>Below are a few ideas for how we aim to make improvements, and we invite feedback from others who are interested in helping us improve this aspect of our organization.&lt;/p>
@@ -4229,7 +4255,7 @@ Can I use this ephemeral hub service?
 &lt;li>For the
 &lt;a href="https://hub.big.binder.opensci.2i2c.cloud/" target="_blank" rel="noopener" >big BinderHub&lt;/a> you will need to be member of a NASA community. This requires a GitHub account for membership of the GitHub Team
 &lt;a href="https://github.com/orgs/2i2c-nasa-binder-access/teams/big-binder-team" target="_blank" rel="noopener" >2i2c-nasa-binder-access:big-binder-team&lt;/a> for authorization. Please send us an email at
-&lt;a href="" >binder-requests@2i2c.org&lt;/a> to be added to the GitHub Team.&lt;/li>
+&lt;a href="https://2i2c.org/blog/2024/nasa-ephemeral-hubs/mailto:binder-requests@2i2c.org" >binder-requests@2i2c.org&lt;/a> to be added to the GitHub Team.&lt;/li>
 &lt;/ul>
 &lt;h2 id="acknowledgements">
 Acknowledgements
@@ -4390,7 +4416,7 @@ Day 2
 &lt;li>&lt;input disabled="" type="checkbox"> Cookbooks frequently cross-referenced materials from other cookbooks to build upon pre-existing knowledge, but this was not easy to author and the reader experience was not as smooth as it could be.&lt;/li>
 &lt;/ul>
 &lt;p>Following the announcement that
-&lt;a href="" >Jupyter Book 2.0 will use MyST&lt;/a> last month, Rowan (Curvenote) and Angus (2i2c) delivered a compelling demonstration of the
+&lt;a href="https://2i2c.org/blog/2024/project-pythia-cookoff/../myst-jupyter-book/index" >Jupyter Book 2.0 will use MyST&lt;/a> last month, Rowan (Curvenote) and Angus (2i2c) delivered a compelling demonstration of the
 &lt;a href="https://mystmd.org/" target="_blank" rel="noopener" >MyST&lt;/a> ecosystem centered around modern web-first technologies (JavaScript/TypeScript) that offers improved interactivity and accessibility.&lt;/p>
 &lt;p>In the second half of the day, we decided to use the hackathon to explore migrating the Pythia cookbooks from using a Sphinx-based to a MyST-based document structure and engine. Within one afternoon, the group migrated four cookbooks to use MyST MD&lt;/p>
 &lt;ol>
@@ -4491,7 +4517,7 @@ We are seeking community leaders to collaborate
 &lt;/h2>&lt;p>If you&amp;rsquo;re part of one or more communities that would benefit from cloud infrastructure for creating and sharing knowledge, and believe a network like this would benefit you, please reach out!
 We are seeking leaders collaborate in designing service for networks like the ones described above, and identifying potential funding sources for it.&lt;/p>
 &lt;p>If you&amp;rsquo;re interested in collaborating on this, send an e-mail to
-&lt;a href="" >&lt;code>partnerships@2i2c.org&lt;/code>&lt;/a>.&lt;/p>
+&lt;a href="https://2i2c.org/blog/2024/funding-community-networks/mailto:partnerships@2i2c.org" >&lt;code>partnerships@2i2c.org&lt;/code>&lt;/a>.&lt;/p>
 &lt;h2 id="learn-more">
 Learn more
 &lt;a class="header-anchor" href="#learn-more">#&lt;/a>
@@ -4642,7 +4668,7 @@ We&amp;rsquo;d love feedback from anyone who has an idea, a critique, or &amp;ld
 A recent talk with this value proposition
 &lt;a class="header-anchor" href="#a-recent-talk-with-this-value-proposition">#&lt;/a>
 &lt;/h2>&lt;p>As part of this work, 2i2c&amp;rsquo;s Executive Director,
-&lt;a href="" >Chris Holdgraf&lt;/a>, gave a talk about 2i2c to the
+&lt;a href="https://2i2c.org/content/authors/chris-holdgraf/" >Chris Holdgraf&lt;/a>, gave a talk about 2i2c to the
 &lt;a href="https://incentivizingopen.org" target="_blank" rel="noopener" >Incentivizing Open and Collaborative Research&lt;/a> (ICOR) community. Here are some links in case others are interested:&lt;/p>
 &lt;ul>
 &lt;li>
@@ -4663,15 +4689,15 @@ Acknowledgments
 &lt;a href="https://2i2c.org/collaborators/czi/" >CZI&lt;/a> and fees from
 &lt;a href="https://2i2c.org/members/" >our Member Communities&lt;/a>.&lt;/li>
 &lt;/ul></description></item><item><title>Improvements to our team's planning and delivery</title><link>https://2i2c.org/blog/2024/delivery-improvements/</link><pubDate>Mon, 15 Apr 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/delivery-improvements/</guid><description>&lt;p>&lt;em>This is a follow-up to
-&lt;a href="" >our 2023 report of organizational strengths and weaknesses&lt;/a>, describing some improvements we&amp;rsquo;ve made on our team&amp;rsquo;s coordination and delivery&lt;/em>.&lt;/p>
+&lt;a href="https://2i2c.org/blog/2024/delivery-improvements/../../2023/organizational-report" >our 2023 report of organizational strengths and weaknesses&lt;/a>, describing some improvements we&amp;rsquo;ve made on our team&amp;rsquo;s coordination and delivery&lt;/em>.&lt;/p>
 &lt;p>In 2023, we
-&lt;a href="" >released a report describing our organizational strengths and weaknesses&lt;/a>.
+&lt;a href="https://2i2c.org/blog/2024/delivery-improvements/../../2023/organizational-report" >released a report describing our organizational strengths and weaknesses&lt;/a>.
 This uncovered a key challenge for our team: &lt;strong>improving our coordination and delivery&lt;/strong>.
 Over the previous two years, our service had grown significantly in its scope and complexity.
 We were working on more than 7 active grants and were serving more than 70 active communities with around 7,000 monthly active users.&lt;/p>
 &lt;p>This was taxing our small team, and we found ourselves struggling to efficiently deliver on our work.
 For example, a
-&lt;a href="" >collaboration with GESIS to bring image building functionality to JupyterHub&lt;/a> took longer than we wished, and we felt that our planning and execution was not transparent enough to their team. In addition, in
+&lt;a href="https://2i2c.org/blog/2024/delivery-improvements/../../2024/jupyterhub-binderhub-gesis" >collaboration with GESIS to bring image building functionality to JupyterHub&lt;/a> took longer than we wished, and we felt that our planning and execution was not transparent enough to their team. In addition, in
 &lt;a href="https://catalystproject.cloud" target="_blank" rel="noopener" >a collaboration to serve communities in Latin America and Africa&lt;/a> we felt that 2i2c was not responsive enough to onboarding and deploying infrastructure for new communities.&lt;/p>
 &lt;h2 id="steps-weve-taken-to-improve-delivery">
 Steps we&amp;rsquo;ve taken to improve delivery
@@ -4799,7 +4825,7 @@ Because 2i2c community infrastructure is managed in a central location, we were 
 By working with the JupyterHub community and pushing changes upstream, we&amp;rsquo;ve resolved this issue for &lt;em>any&lt;/em> user of &lt;code>jupyter-server-proxy&lt;/code>, not just 2i2c&amp;rsquo;s own ecosystem.
 In particular, because of 2i2c&amp;rsquo;s position running hubs for many communities via Kubernetes, we were able to identify a solution that did not require every user image to be updated (as described in section &lt;strong>For JupyterHub admins of Z2JH installations&lt;/strong>).&lt;/p>
 &lt;p>We believe that all of these lead to a healthier, safer ecosystem of open source tools ❤️.&lt;/p></description></item><item><title>A three year retrospective report of 2i2c's impact</title><link>https://2i2c.org/blog/2024/report-czi/</link><pubDate>Fri, 01 Mar 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/report-czi/</guid><description>&lt;p>We&amp;rsquo;re pleased to share a three-year retrospective report that was created to close-out 2i2c&amp;rsquo;s original
-&lt;a href="" >seed funding grant provided by the Chan Zuckerberg Initiative&lt;/a>.&lt;/p>
+&lt;a href="https://2i2c.org/blog/2024/report-czi/../../2021/czi-core-support/" >seed funding grant provided by the Chan Zuckerberg Initiative&lt;/a>.&lt;/p>
 &lt;style>
 figure {
 margin: 0 !important;
@@ -4965,7 +4991,7 @@ Want to try this out?
 &lt;a class="header-anchor" href="#want-to-try-this-out">#&lt;/a>
 &lt;/h2>&lt;p>We have a demo of this running at
 &lt;a href="https://imagebuilding-demo.2i2c.cloud" target="_blank" rel="noopener" >imagebuilding-demo.2i2c.cloud&lt;/a>, but unfortunately as we are still fine-tuning &lt;code>cryptnono&lt;/code> config, at this moment it is not open to the public. Please
-&lt;a href="" >contact me&lt;/a> with your GitHub account if you want access, and promise to not be a cryptominer and you shall be granted access.&lt;/p>
+&lt;a href="https://2i2c.org/blog/2024/jupyterhub-binderhub-gesis/mailto:yuvipanda@2i2c.org" >contact me&lt;/a> with your GitHub account if you want access, and promise to not be a cryptominer and you shall be granted access.&lt;/p>
 &lt;p>Want to set this up on your own JupyterHub? There is some
 &lt;a href="https://github.com/2i2c-org/binderhub-service/pull/72" target="_blank" rel="noopener" >work in progress&lt;/a> documentation and more is being worked on. Drop a line in the linked pull request and we&amp;rsquo;ll be happy to help. The eventual goal is for &lt;em>anyone&lt;/em> to be able to simply follow documentation and set this up for themselves.&lt;/p>
 &lt;p>We also have user facing documentation on using this service on
@@ -5257,7 +5283,7 @@ We are hoping to sharpen up the timing of events throughout the process, includi
 Three New Jobs Posted
 &lt;a class="header-anchor" href="#three-new-jobs-posted">#&lt;/a>
 &lt;/h3>&lt;p>In October, we began a short hiring push to address many of the organizational challenges noted in
-&lt;a href="" >our organizational structure and strategy audit&lt;/a>.
+&lt;a href="https://2i2c.org/blog/2023/update-october/../organizational-report/" >our organizational structure and strategy audit&lt;/a>.
 We aim to have each of these positions filled by the end of the year and begin incorporating new team members into our organization.
 Here&amp;rsquo;s a list of the three job postings:&lt;/p>
 &lt;ul>
@@ -5280,7 +5306,7 @@ We&amp;rsquo;ll provide more updates for the community as this work continues.&l
 Continued Onboarding of Communities in Our Catalyst Project Collaboration
 &lt;a class="header-anchor" href="#continued-onboarding-of-communities-in-our-catalyst-project-collaboration">#&lt;/a>
 &lt;/h3>&lt;p>We continued onboarding communities onto infrastructure managed by 2i2c as part of a
-&lt;a href="" >CZI-funded project to serve communities in Latin America and Africa&lt;/a>.
+&lt;a href="https://2i2c.org/blog/2023/update-october/../../2022/czi-global-communities-announcement/" >CZI-funded project to serve communities in Latin America and Africa&lt;/a>.
 The grant team began its operations last April and spent the first several months creating an onboarding pipeline and rubric for identifying and connecting with communities.
 As of October, we&amp;rsquo;ve onboarded our first few communities - there is still a lot of content, training material, and documentation to create, and we will begin iterating on this in collaboration with our early-adopted communities in Q4 2023 and Q1 2024.&lt;/p>
 &lt;h2 id="partnerships-and-impact">
@@ -5363,7 +5389,7 @@ We&amp;rsquo;re confident that this is a natural part of being a small and growi
 &lt;a href="https://www.makeadifference.digital" target="_blank" rel="noopener" >makeadifference.digital&lt;/a> in guiding us through this work.&lt;/p>
 &lt;p>&lt;em>Note: if you&amp;rsquo;d like to work with
 &lt;a href="https://www.makeadifference.digital" target="_blank" rel="noopener" >makeadifference.digital&lt;/a>, you can reach out to them at
-&lt;a href="" >&lt;code>hello@makeadifference.digital&lt;/code>&lt;/a>&lt;/em>.&lt;/p>
+&lt;a href="https://2i2c.org/blog/2023/organizational-report/mailto:hello@makeadifference.digital" >&lt;code>hello@makeadifference.digital&lt;/code>&lt;/a>&lt;/em>.&lt;/p>
 &lt;h2 id="acknowledgments">
 Acknowledgments
 &lt;a class="header-anchor" href="#acknowledgments">#&lt;/a>
@@ -5877,7 +5903,7 @@ See
 &lt;li>While 2i2c is aligned with the interests of open communities, we are still a distinct organization with our own mission and strategy. We want to be conscious that 2i2c team members have &lt;em>more than one hat&lt;/em>, and that their 2i2c hat is necessarily not the same thing as their open source hat. As such, we don&amp;rsquo;t want to leverage our &amp;ldquo;other hats&amp;rdquo; to drive resources to 2i2c without being thoughtful about it.&lt;/li>
 &lt;/ol>
 &lt;p>In the last year we&amp;rsquo;ve found that running infrastructure for research and education gives us great visibility into the kinds of things that these communities want to do, and ways to improve the infrastructure. It also means we can potentially be a conduit of &lt;em>resources&lt;/em> from those communities into open source development workflows. For example, we recently
-&lt;a href="" >partnered with GESIS to make improvements in Binder and JupyterHub&lt;/a>.&lt;/p>
+&lt;a href="https://2i2c.org/blog/2023/open-source-funding-principles/../../2022/gesis-2i2c-collaboration-update/" >partnered with GESIS to make improvements in Binder and JupyterHub&lt;/a>.&lt;/p>
 &lt;p>So, this post is a brainstorm to identify some of the major considerations that we should take before agreeing to this kind of work. Its goals is to drive policy that streamlines our ability to seek and accept funding for open source work. It tries to answer this question:&lt;/p>
 &lt;blockquote>
 &lt;p>How can a stakeholder accept funding on behalf of an open source community in a way that is inclusive, equitable, and effective.&lt;/p>
@@ -6061,8 +6087,8 @@ We got grant funding to serve communities in Latin America and Africa
 &lt;/h3>&lt;p>We also learned that some partnerships may &lt;em>require&lt;/em> subsidization from a third party, such as historically marginalized communities and those without dedicated resources.
 To explore sustainable ways to serve these communities, we applied for and received a new grant to serve communities in Latin America and Africa!
 Here&amp;rsquo;s the
-&lt;a href="" >blog post announcing this grant&lt;/a> and our
-&lt;a href="" >open grant narrative from the proposal&lt;/a>.&lt;/p>
+&lt;a href="https://2i2c.org/blog/2023/2022-year-in-review/../../2022/czi-global-communities-announcement/" >blog post announcing this grant&lt;/a> and our
+&lt;a href="https://2i2c.org/blog/2023/2022-year-in-review/../../2022/czi-global-communities-proposal/" >open grant narrative from the proposal&lt;/a>.&lt;/p>
 &lt;h3 id="we-improved-our-continuous-integration-and-deployment-system">
 We improved our continuous integration and deployment system
 &lt;a class="header-anchor" href="#we-improved-our-continuous-integration-and-deployment-system">#&lt;/a>
@@ -6148,7 +6174,7 @@ For example, how can we assist communities in cloud workflows without becoming d
 How can we guide communities in a sustainable and scalable way?
 How can we recover the costs of doing this work?
 We hope to use our experiences in
-&lt;a href="" >our upcoming project to serve communities in Latin America and Africa&lt;/a> to explore these questions.&lt;/p>
+&lt;a href="https://2i2c.org/blog/2023/2022-year-in-review/../../2022/czi-global-communities-announcement/" >our upcoming project to serve communities in Latin America and Africa&lt;/a> to explore these questions.&lt;/p>
 &lt;h3 id="define-a-cost-recovery-model-that-balances-sustainability-and-accessibility">
 Define a cost recovery model that balances sustainability and accessibility
 &lt;a class="header-anchor" href="#define-a-cost-recovery-model-that-balances-sustainability-and-accessibility">#&lt;/a>
@@ -6213,7 +6239,7 @@ Where to follow along
 &lt;blockquote>
 &lt;p>💡 Follow our work!
 &lt;a href="http://eepurl.com/hjHbff" target="_blank" rel="noopener" >Sign up for our mailing list&lt;/a> for updates about 2i2c.
-&lt;a href="" >Send us an e-mail about collaborating or partnering&lt;/a> on a project.
+&lt;a href="https://2i2c.org/blog/2022/czi-global-communities-announcement/mailto:hello@2i2c.org" >Send us an e-mail about collaborating or partnering&lt;/a> on a project.
 See our
 &lt;a href="https://docs.2i2c.org" target="_blank" rel="noopener" >Service Documentation&lt;/a> or our
 &lt;a href="https://compass.2i2c.org" target="_blank" rel="noopener" >Team Compass&lt;/a> to learn about our service and organization.&lt;/p>
@@ -6395,7 +6421,7 @@ Organization wide updates
 &lt;a href="https://2i2c.org/author/jim-colliander/" target="_blank" rel="noopener" >&lt;strong>Jim Colliander&lt;/strong>&lt;/a> will lead efforts around &lt;em>partnerships and sustainability&lt;/em>. We also
 &lt;a href="https://github.com/2i2c-org/team-compass/issues/436" target="_blank" rel="noopener" >updated our Hiring and Candidate Search documentation&lt;/a> in the process.&lt;/p>
 &lt;p>&lt;strong>We&amp;rsquo;re refining our strategy&lt;/strong>: We&amp;rsquo;ve begun a process of revisiting and refining our strategy after a year of major operations, see
-&lt;a href="" >our strategic update blog post for more information&lt;/a>.&lt;/p>
+&lt;a href="https://2i2c.org/blog/2022/q3-update/../strategic-update/" >our strategic update blog post for more information&lt;/a>.&lt;/p>
 &lt;p>&lt;strong>We completed the
 &lt;a href="https://cscce.org" target="_blank" rel="noopener" >CSCCE&lt;/a> community management training&lt;/strong>. Two of our team members (James and Sarah) both completed a several-week community management course that was offered in partnership with
 &lt;a href="https://2i2c.org/collaborators/czi/" >CZI&lt;/a>.&lt;/p>
@@ -6904,10 +6930,10 @@ Finally, it allows us to make &lt;em>targeted deploys&lt;/em> more effectively, 
 If you have any ideas of how we could further improve this infrastructure, please reach out on GitHub!
 If you know of a community that would like 2i2c to
 &lt;a href="https://2i2c.org/service/" target="_blank" rel="noopener" >manage a hub for your community&lt;/a>, please
-&lt;a href="" >send us an email&lt;/a>.&lt;/p>
+&lt;a href="https://2i2c.org/blog/2022/ci-cd-improvements/mailto:hello@2i2c.org" >send us an email&lt;/a>.&lt;/p>
 &lt;p>&lt;em>&lt;strong>Acknowledgements&lt;/strong>: The infrastructure described in this post was developed by
-&lt;a href="" >the 2i2c engineering team&lt;/a>, and this post was edited by
-&lt;a href="" >Chris Holdgraf&lt;/a>.&lt;/em>&lt;/p></description></item><item><title>Celebrating our progress in Q1 2022</title><link>https://2i2c.org/blog/2022/q1-update/</link><pubDate>Mon, 04 Apr 2022 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2022/q1-update/</guid><description>&lt;p>Quarter 1 of 2022 just wrapped up, and the 2i2c team has been busy making improvements across our infrastructure, organization, and operations.
+&lt;a href="https://2i2c.org/organization/team.md" >the 2i2c engineering team&lt;/a>, and this post was edited by
+&lt;a href="https://2i2c.org/author/chris-holdgraf" >Chris Holdgraf&lt;/a>.&lt;/em>&lt;/p></description></item><item><title>Celebrating our progress in Q1 2022</title><link>https://2i2c.org/blog/2022/q1-update/</link><pubDate>Mon, 04 Apr 2022 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2022/q1-update/</guid><description>&lt;p>Quarter 1 of 2022 just wrapped up, and the 2i2c team has been busy making improvements across our infrastructure, organization, and operations.
 This is a quick post to celebrate the work we&amp;rsquo;ve done over the past three months, and to briefly share what we&amp;rsquo;re working on next.&lt;/p>
 &lt;p>These are the main highlights from this quarter - if you&amp;rsquo;d like to check out more of the work that we&amp;rsquo;ve done, see:&lt;/p>
 &lt;ul>
@@ -6975,7 +7001,7 @@ Here are a few major examples:&lt;/p>
 &lt;a href="https://compass.2i2c.org" target="_blank" rel="noopener" >check out our team compass&lt;/a> to learn about our practices, and
 &lt;a href="https://github.com/2i2c-org/" target="_blank" rel="noopener" >watch our activity on GitHub&lt;/a> to see our work.&lt;/p>
 &lt;p>Many thanks to the amazing 2i2c team, and the multiple open source and scholarly communities that we collaborate with to make all of this possible. In addition, we are grateful to
-&lt;a href="" >our funders&lt;/a> for making this possible. We are looking forward to Q2! 🎉&lt;/p>
+&lt;a href="https://2i2c.org/organization/funding.md" >our funders&lt;/a> for making this possible. We are looking forward to Q2! 🎉&lt;/p>
 &lt;h2 id="acknowledgments">
 Acknowledgments
 &lt;a class="header-anchor" href="#acknowledgments">#&lt;/a>
@@ -7153,7 +7179,7 @@ More details to come about this, and we&amp;rsquo;ll start sending out communica
 Why a new role?
 &lt;a class="header-anchor" href="#why-a-new-role">#&lt;/a>
 &lt;/h2>&lt;p>When 2i2c began a year ago, we hired a team of engineers that had experience in cloud infrastructure, Jupyter, and open source ecosystems. In that time, we&amp;rsquo;ve built out the infrastructure foundation for scalable interactive computing environments that are customizable for the community, and respects their
-&lt;a href="" >Right to Replicate&lt;/a>.&lt;/p>
+&lt;a href="https://2i2c.org/content/right-to-replicate/" >Right to Replicate&lt;/a>.&lt;/p>
 &lt;p>However, solely providing infrastructure is not enough. Working with the modern open source stack, using the cloud to its advantage, and bringing these tools into specific domains requires a lot of extra experience and expertise. We believe that 2i2c is in a good position to &lt;strong>provide guidance and support to leaders in the communities that we serve&lt;/strong>, allowing them to get up-to-speed with the infrastructure more effectively so that they can have an impact.&lt;/p>
 &lt;p>Moreover, we&amp;rsquo;ve also learned that it&amp;rsquo;s crucial to &lt;strong>develop infrastructure in collaboration with the communities that we&amp;rsquo;re serving&lt;/strong>. A team of engineers tends to focus on code and infrastructure, and having a role that focuses on connecting with communities will give them an excellent perspective on what those communities need.&lt;/p>
 &lt;p>We hope that this role will combine these two aspects to create a culture of learning, sharing, and guiding between 2i2c&amp;rsquo;s team and the communities that we work with.&lt;/p>
@@ -7203,7 +7229,7 @@ Research in the cloud
 &lt;/h2>&lt;p>In addition to educational use-cases, we ran several pilots for research communities in order to leverage cloud infrastructure for scaling their work or collaborating more effectively.&lt;/p>
 &lt;p>&lt;strong>We migrated Pangeo’s cloud infrastructure to be run via 2i2c.&lt;/strong> The
 &lt;a href="https://pangeo.io" target="_blank" rel="noopener" >Pangeo Community&lt;/a> had been operating and developing their own JupyterHub for several years, but were looking for another organization to provide more reliable/sustained operations and support for their Pangeo Cloud Service. This year we migrated the service
-&lt;a href="" >to run off of 2i2c’s deployment infrastructure&lt;/a>.&lt;/p>
+&lt;a href="https://2i2c.org/posts/2021/pangeo-goes-live/" >to run off of 2i2c’s deployment infrastructure&lt;/a>.&lt;/p>
 &lt;p>&lt;strong>A scalable cloud hub for a SWOT satellite team&lt;/strong>. The
 &lt;a href="https://meom-group.github.io/projects/swot-st/" target="_blank" rel="noopener" >MEOM research group at Grenoble&lt;/a> is doing work with the
 &lt;a href="https://swot.jpl.nasa.gov/" target="_blank" rel="noopener" >NASA SWOT satellite project&lt;/a>. However, the datasets generated from this project are huge, and only storable via the cloud. We&amp;rsquo;ve set up a JupyterHub to provide cloud-based access to this data, running a Pangeo-like environment.&lt;/p>
@@ -7291,7 +7317,7 @@ Acknowledgements
 &lt;a href="https://github.com/search?q=org:2i2c-org&amp;#43;type:issue&amp;#43;is:closed&amp;#43;closed:2021-06-01..2021-10-01&amp;#43;-label:%22type:&amp;#43;team-sync%22&amp;#43;is:issue&amp;amp;type=issues" target="_blank" rel="noopener" >Here&amp;rsquo;s a list of issues we&amp;rsquo;ve closed in ~Q3&lt;/a>.&lt;/p>
 &lt;/blockquote>
 &lt;p>It is amazing how quickly 4 months goes by when you&amp;rsquo;re building an organization from scratch! It seems like only a few weeks ago that we were recapping the beginning of the year in
-&lt;a href="" >our last community update&lt;/a>. Since then, we have been hard at work to make 2i2c&amp;rsquo;s organizational and infrastructure more robust and sustainable.&lt;/p>
+&lt;a href="https://2i2c.org/blog/2021/q3-update/../six-month-update" >our last community update&lt;/a>. Since then, we have been hard at work to make 2i2c&amp;rsquo;s organizational and infrastructure more robust and sustainable.&lt;/p>
 &lt;p>There are several major strategic areas where 2i2c aims to have impact, and we&amp;rsquo;ve split this community update along each of these major areas below. We&amp;rsquo;ll cover major highlights, challenges we&amp;rsquo;ve faced, and where we&amp;rsquo;re going next.&lt;/p>
 &lt;h2 id="highlights">
 Highlights
@@ -7366,7 +7392,7 @@ Get involved
 &lt;a class="header-anchor" href="#get-involved">#&lt;/a>
 &lt;/h2>&lt;p>Thanks for your interest in 2i2c and the mission that it hopes to accomplish.
 We hope that this update has been informative and interesting, and we welcome feedback about any of the information provided. If you&amp;rsquo;d like to help with any of the challenges or efforts described above, we welcome all forms of collaboration, and are happy to chat. Please drop us a line at
-&lt;a href="" >&lt;code>hello@2i2c.org&lt;/code>&lt;/a> or
+&lt;a href="https://2i2c.org/blog/2021/q3-update/mailto:hello@2i2c.org" >&lt;code>hello@2i2c.org&lt;/code>&lt;/a> or
 &lt;a href="https://2i2c.org/#contact" target="_blank" rel="noopener" >contact us about joining our Slack community&lt;/a>. Thanks for reading!&lt;/p></description></item><item><title>2i2c launches next phase in partnership with CS&amp;S</title><link>https://2i2c.org/blog/2021/css-announce/</link><pubDate>Thu, 30 Sep 2021 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2021/css-announce/</guid><description>&lt;p>&lt;em>This post was originally written for the
 &lt;a href="https://blog.codeforscience.org/" target="_blank" rel="noopener" >&lt;strong>CS&amp;amp;S blog&lt;/strong>&lt;/a>.&lt;/em>&lt;/p>
 &lt;p>
@@ -7384,24 +7410,24 @@ We hope that this update has been informative and interesting, and we welcome fe
 &lt;a href="https://blog.codeforscience.org/cs-s-launches-digital-infrastructure-incubator/" target="_blank" rel="noopener" >Digital Infrastructure Incubator program&lt;/a>.&lt;/p>
 &lt;p>Achieving this mission will involve innovation at an infrastructure level, a business model level, and an open source community strategy level, and will be carried out over the coming years. 2i2c’s next steps are to run pilot JupyterHub infrastructure for select communities of practice in research and education, in order to better understand their needs and how these needs fit in with 2i2c’s developing sustainability model. They will also build infrastructure to deploy and customize a federation of JupyterHubs that are community-specific, and that run entirely on open source infrastructure.&lt;/p>
 &lt;p>If you believe that your community would benefit from a hub like this, please
-&lt;a href="" >reach out to the 2i2c team&lt;/a>, or
+&lt;a href="https://2i2c.org/blog/2021/css-announce/mailto:hello@2i2c.org" >reach out to the 2i2c team&lt;/a>, or
 &lt;a href="https://2i2c.org/#contact" target="_blank" rel="noopener" >join their mailing list&lt;/a>. Stay tuned as 2i2c builds its sustainable, scalable, and community-driven platform for interactive computing in the cloud.&lt;/p></description></item><item><title>Pilot hubs, new collaborations, and new team members - A six month update</title><link>https://2i2c.org/blog/2021/six-month-update/</link><pubDate>Tue, 25 May 2021 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2021/six-month-update/</guid><description>&lt;p>It has been about six months since 2i2c first began operations (after receiving
-&lt;a href="" >funding from the Chan Zuckerberg Initiative&lt;/a>).
+&lt;a href="https://2i2c.org/blog/2021/six-month-update/../czi-core-support" >funding from the Chan Zuckerberg Initiative&lt;/a>).
 In that time we&amp;rsquo;ve made progress along several directions, and wish to use this blog post to provide updates about the ways in which 2i2c has evolved over the first months of its existence.&lt;/p>
 &lt;p>Below are a few major updates from the 2i2c community - as always, if you want to learn more about 2i2c, keep an eye
-&lt;a href="" >on our blog&lt;/a> or subscribe to the
-&lt;a href="" >2i2c mailing list&lt;/a>.&lt;/p>
+&lt;a href="https://2i2c.org/posts" >on our blog&lt;/a> or subscribe to the
+&lt;a href="https://2i2c.org/#contact" >2i2c mailing list&lt;/a>.&lt;/p>
 &lt;h2 id="early-pilot-jupyterhub-infrastructure">
 Early pilot JupyterHub infrastructure
 &lt;a class="header-anchor" href="#early-pilot-jupyterhub-infrastructure">#&lt;/a>
 &lt;/h2>&lt;p>First off - we have been making progress building out our JupyterHub deployment infrastructure for 2i2c.
 One of our major organizational goals is to build a sustainable service
-&lt;a href="" >managing open source cloud infrastructure&lt;/a> for interactive computing.
+&lt;a href="https://2i2c.org/infrastructure" >managing open source cloud infrastructure&lt;/a> for interactive computing.
 This service will provide hosted, customized JupyterHubs for communities of practice in research and education.
 They&amp;rsquo;ll be built entirely with open source tools that are community-driven, and that
 &lt;a href="https://2i2c.org/right-to-replicate/" >respect the community&amp;rsquo;s Right to Replicate&lt;/a>.&lt;/p>
 &lt;p>In order to accomplish this, 2i2c is running several pilots with partners and interested organizations, supported by our
-&lt;a href="" >funding from CZI&lt;/a>, as well as from
+&lt;a href="https://2i2c.org/blog/czi-core-support" >funding from CZI&lt;/a>, as well as from
 &lt;a href="https://investinopen.org/blog/jrost-rapid-response-fund-awardees/" target="_blank" rel="noopener" >the JROST rapid response fund&lt;/a>.
 These pilots are meant to be learning opportunities to understand what kind of infrastructure and service it needs to build moving forward.&lt;/p>
 &lt;p>The
@@ -7446,7 +7472,7 @@ New team members
 &lt;a class="header-anchor" href="#new-team-members">#&lt;/a>
 &lt;/h2>&lt;p>We&amp;rsquo;ve also welcomed two new members to the 2i2c core team! 🎉&lt;/p>
 &lt;p>These individuals will both work towards
-&lt;a href="" >2i2c&amp;rsquo;s major projects&lt;/a>, and collaborate together on running our 2i2c Pilot Hub infrastructure.
+&lt;a href="https://2i2c.org/projects" >2i2c&amp;rsquo;s major projects&lt;/a>, and collaborate together on running our 2i2c Pilot Hub infrastructure.
 Here&amp;rsquo;s a bit about each new team member.&lt;/p>
 &lt;ul>
 &lt;li>
@@ -7503,7 +7529,7 @@ Acknowledgements
 &lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
 &lt;/h2>&lt;p>This effort is funded by 2i2c together with UC Berkeley and
 &lt;a href="https://2i2c.org/collaborators/cloudbank/" >CloudBank&lt;/a>.&lt;/p></description></item><item><title>2i2c receives core support from CZI</title><link>https://2i2c.org/blog/2021/czi-core-support/</link><pubDate>Thu, 19 Nov 2020 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2021/czi-core-support/</guid><description>&lt;p>Last week we
-&lt;a href="" >announced the creation of 2i2c&lt;/a>, a non-profit initiative dedicated to improving and facilitating access to infrastructure for interactive computing workflows in research and education. Today we are thrilled to announce that 2i2c has received core support from the
+&lt;a href="https://2i2c.org/posts/2021/hello-world/" >announced the creation of 2i2c&lt;/a>, a non-profit initiative dedicated to improving and facilitating access to infrastructure for interactive computing workflows in research and education. Today we are thrilled to announce that 2i2c has received core support from the
 &lt;a href="https://2i2c.org/collaborators/czi/" >Chan Zuckerberg Initiative&lt;/a>. You can find
 &lt;a href="https://cziscience.medium.com/scaling-open-infrastructure-and-reproducibility-in-biomedicine-69546a399747" target="_blank" rel="noopener" >CZI&amp;rsquo;s announcement here&lt;/a>.&lt;/p>
 &lt;p>This funding totals around $1.4m over three years. It provides crucial core support for 2i2c as it bootstraps itself into existence. We are so thankful to CZI for this support. 🎉🙏✨&lt;/p>
@@ -7522,14 +7548,14 @@ The big picture
 Goal 1: Build capacity for Jupyter in research and education
 &lt;a class="header-anchor" href="#goal-1-build-capacity-for-jupyter-in-research-and-education">#&lt;/a>
 &lt;/h2>&lt;p>The primary goal of this funding is to build more capacity for Jupyter&amp;rsquo;s engagement in research and education. This funding will primarily support
-&lt;a href="" >Chris Holdgraf&lt;/a> to build strategic partnerships and collaborations, find opportunities for Jupyter infrastructure to benefit research and education, coordinate activity in the Jupyter project that benefits these communities, and secure more funding for development, maintenance, and support for Jupyter technology.&lt;/p>
+&lt;a href="https://2i2c.org/author/chris-holdgraf" >Chris Holdgraf&lt;/a> to build strategic partnerships and collaborations, find opportunities for Jupyter infrastructure to benefit research and education, coordinate activity in the Jupyter project that benefits these communities, and secure more funding for development, maintenance, and support for Jupyter technology.&lt;/p>
 &lt;p>We are grateful to CZI for this funding because strategy, leadership, and community support are often difficult to fund from grants that are focused on technical deliverables. By funding strategic growth and capacity building, CZI is helping 2i2c lay a strong foundation from which it can have a greater impact.&lt;/p>
 &lt;h2 id="goal-2-support-hosted-jupyter-infrastructure-for-research-and-education">
 Goal 2: Support hosted Jupyter infrastructure for research and education
 &lt;a class="header-anchor" href="#goal-2-support-hosted-jupyter-infrastructure-for-research-and-education">#&lt;/a>
 &lt;/h2>&lt;p>2i2c will offer hosted
-&lt;a href="" >interactive computing infrastructure&lt;/a> utilizing the Jupyter ecosystem. It will both deploy and operate this infrastructure for researchers and educators, as well as perform core development to ensure that it serves these communities well. Funding from this grant will support 2i2c&amp;rsquo;s first hire -
-&lt;a href="" >Georgiana Dolocan&lt;/a> as an &lt;strong>Open Source Infrastructure Engineer&lt;/strong>. Georgiana has been the
+&lt;a href="https://2i2c.org/infrastructure" >interactive computing infrastructure&lt;/a> utilizing the Jupyter ecosystem. It will both deploy and operate this infrastructure for researchers and educators, as well as perform core development to ensure that it serves these communities well. Funding from this grant will support 2i2c&amp;rsquo;s first hire -
+&lt;a href="https://2i2c.org/author/georgiana-dolocan" >Georgiana Dolocan&lt;/a> as an &lt;strong>Open Source Infrastructure Engineer&lt;/strong>. Georgiana has been the
 &lt;a href="https://blog.jupyter.org/the-jupyterhub-and-binder-contributor-in-residence-56708d1e3069" target="_blank" rel="noopener" >JupyterHub Contributor in Residence&lt;/a> for the past year, and we are so excited for her to join 2i2c!&lt;/p>
 &lt;p>Georgiana will begin by supporting several pilot hubs that are run by 2i2c for community colleges, universities, and research institutions. She will help these organizations accomplish their mission through 2i2c infrastructure, and will develop these technologies so they are stable, scalable, and serve a diverse set of needs in research and education. This will hopefully set the foundation for 2i2c to sustainably offer this hub infrastructure to a wider audience in the future.&lt;/p>
 &lt;p>This is the next step in Georgiana&amp;rsquo;s journey through the Jupyter ecosystem that began with
@@ -7542,8 +7568,8 @@ Goal 2: Support hosted Jupyter infrastructure for research and education
 What&amp;rsquo;s next
 &lt;a class="header-anchor" href="#whats-next">#&lt;/a>
 &lt;/h2>&lt;p>With this core support, 2i2c turns towards its
-&lt;a href="" >JupyterHub pilot deployments&lt;/a> to build early prototypes that serve research and education, and to build organizational models that sustain these hubs and their development. If you or your organization think you’d be a good fit for these pilots, please
-&lt;a href="" >reach out to 2i2c&lt;/a> and let us know!&lt;/p>
+&lt;a href="https://2i2c.org/infrastructure/#kinds-of-hubs" >JupyterHub pilot deployments&lt;/a> to build early prototypes that serve research and education, and to build organizational models that sustain these hubs and their development. If you or your organization think you’d be a good fit for these pilots, please
+&lt;a href="https://2i2c.org/blog/2021/czi-core-support/mailto:hello@2i2c.org" >reach out to 2i2c&lt;/a> and let us know!&lt;/p>
 &lt;p>Many thanks again to CZI for this support - we believe that it is an excellent investment in the Jupyter community and in open source communities more generally. We also believe it will lead to major advancements in supporting interactive computing workflows for research and education. We look forward to what the next three years will bring!&lt;/p></description></item><item><title>Hello World</title><link>https://2i2c.org/blog/2021/hello-world/</link><pubDate>Tue, 10 Nov 2020 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2021/hello-world/</guid><description>&lt;p>👋 hey everyone!&lt;/p>
 &lt;p>We&amp;rsquo;d like to announce the creation of a new non-profit organization&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup> that we call &lt;strong>2i2c&lt;/strong>.&lt;/p>
 &lt;p>2i2c stands for &lt;strong>The International Interactive Computing Collaboration&lt;/strong>. It is a non-profit dedicated to making open tools for interactive computing more accessible and more powerful for the research and education communities.&lt;/p>
@@ -7557,9 +7583,9 @@ What&amp;rsquo;s next
 Why create 2i2c?
 &lt;a class="header-anchor" href="#why-create-2i2c">#&lt;/a>
 &lt;/h2>&lt;p>The founding team of 2i2c has spent the last several years running projects that use interactive computing for research and education, including
-&lt;a href="" >bringing data science education to thousands of students&lt;/a>, connecting
-&lt;a href="" >geospatial researchers with large datasets and computational resources in the cloud&lt;/a>, and providing
-&lt;a href="" >federated online environment hubs to schools across Canada&lt;/a>, to name a few.&lt;/p>
+&lt;a href="https://2i2c.org/founders#datahub" >bringing data science education to thousands of students&lt;/a>, connecting
+&lt;a href="https://2i2c.org/founders#pangeo" >geospatial researchers with large datasets and computational resources in the cloud&lt;/a>, and providing
+&lt;a href="https://2i2c.org/founders#syzygy" >federated online environment hubs to schools across Canada&lt;/a>, to name a few.&lt;/p>
 &lt;p>Over time we realized that, while infrastructure for interactive computing could be a huge benefit to research and education, it also required a fair amount of expertise to configure, deploy, and develop. We wished for other organizations to enjoy the same success that we had found, but learned that for many, deploying their own infrastructure was a non-starter to adoption. Instead, many were turning to proprietary or vendor-specific tooling.&lt;/p>
 &lt;p>We created 2i2c so that these organizations can use entirely open-source tools without hiring and training their own dev-ops and infrastructure talent, and so that &lt;em>development&lt;/em> and &lt;em>support&lt;/em> of open tools for interactive computing continues to represent the interests of research and education.&lt;/p>
 &lt;h2 id="why-a-non-profit">
@@ -7579,13 +7605,13 @@ What are we going to do?
 &lt;a class="header-anchor" href="#what-are-we-going-to-do">#&lt;/a>
 &lt;/h2>&lt;p>With all of that in mind, what is 2i2c actually going to do? We are still working out the details, but here&amp;rsquo;s a rough picture:&lt;/p>
 &lt;p>Offer
-&lt;a href="" >&lt;strong>hosted interactive computing environments on cloud infrastructure&lt;/strong>&lt;/a>. These will
+&lt;a href="https://2i2c.org/infrastructure" >&lt;strong>hosted interactive computing environments on cloud infrastructure&lt;/strong>&lt;/a>. These will
 &lt;a href="https://2i2c.org/right-to-replicate/" >be entirely open source&lt;/a> and vendor-neutral, and customizable for the communities that are using them. They&amp;rsquo;ll be offered either as a fee-for-service model and/or subsidized through grants and donations. We wish to build upon the success of JupyterHub as a gateway to computational resources and environments, learning environments, and communities of users. For more information about the vision and values of our hosted infrastructure, see
 &lt;a href="https://2i2c.org/right-to-replicate/" >the 2i2c &lt;strong>Right to Replicate&lt;/strong> document&lt;/a>.&lt;/p>
 &lt;p>Provide
-&lt;a href="" >&lt;strong>collaboration and development for interactive computing in research and education&lt;/strong>&lt;/a>. Beyond providing hub infrastructure, there are many ways in which solving problems in research and education can lead to better tools, infrastructure, and workflows in the open source community. For example - how can we generalize a community&amp;rsquo;s solution to scalable computing so that it can be useful for other use-cases as well? We hope that 2i2c can be an aggregator and integrator of many perspectives in research and education, and build tools that are maximally useful across communities.&lt;/p>
+&lt;a href="https://2i2c.org/infrastructure#research-development-hubs" >&lt;strong>collaboration and development for interactive computing in research and education&lt;/strong>&lt;/a>. Beyond providing hub infrastructure, there are many ways in which solving problems in research and education can lead to better tools, infrastructure, and workflows in the open source community. For example - how can we generalize a community&amp;rsquo;s solution to scalable computing so that it can be useful for other use-cases as well? We hope that 2i2c can be an aggregator and integrator of many perspectives in research and education, and build tools that are maximally useful across communities.&lt;/p>
 &lt;p>Provide
-&lt;a href="" >&lt;strong>core development and community support&lt;/strong>&lt;/a> for open source projects that we use. While many organizations &lt;em>use&lt;/em> Jupyter technology in their projects, it is also crucial that they &lt;em>give back&lt;/em> to those tools in order to keep the ecosystem healthy. As a mission-driven non-profit, 2i2c has a core goal in not only deploying and customizing open source tools, but also providing core support for them.&lt;/p>
+&lt;a href="https://2i2c.org/service/#jupyter" >&lt;strong>core development and community support&lt;/strong>&lt;/a> for open source projects that we use. While many organizations &lt;em>use&lt;/em> Jupyter technology in their projects, it is also crucial that they &lt;em>give back&lt;/em> to those tools in order to keep the ecosystem healthy. As a mission-driven non-profit, 2i2c has a core goal in not only deploying and customizing open source tools, but also providing core support for them.&lt;/p>
 &lt;h2 id="next-steps">
 Next steps
 &lt;a class="header-anchor" href="#next-steps">#&lt;/a>
@@ -7604,14 +7630,14 @@ What do we need?
 &lt;/h2>&lt;p>As a non-profit initiative, 2i2c has a long road ahead of it. We cannot take venture capital funding, so we have to raise funds the old-fashioned way. This means that:&lt;/p>
 &lt;ul>
 &lt;li>If you are at an organization interested in purchasing hosted JupyterHub environments from 2i2c, please
-&lt;a href="" >send us an email &lt;i class="fas fa-envelope">&lt;/i>&lt;/a>.&lt;/li>
+&lt;a href="https://2i2c.org/blog/2021/hello-world/mailto:hello@2i2c.org" >send us an email &lt;i class="fas fa-envelope">&lt;/i>&lt;/a>.&lt;/li>
 &lt;li>If you are a funder or are otherwise interested in supporting 2i2c with a donation or grant, please
-&lt;a href="" >send us an email &lt;i class="fas fa-envelope">&lt;/i>&lt;/a>.&lt;/li>
+&lt;a href="https://2i2c.org/blog/2021/hello-world/mailto:hello@2i2c.org" >send us an email &lt;i class="fas fa-envelope">&lt;/i>&lt;/a>.&lt;/li>
 &lt;li>If you have experience in sustaining service-based organizations such as 2i2c, and wish to offer your expertise or guidance, please
-&lt;a href="" >send us an email &lt;i class="fas fa-envelope">&lt;/i>&lt;/a>.&lt;/li>
+&lt;a href="https://2i2c.org/blog/2021/hello-world/mailto:hello@2i2c.org" >send us an email &lt;i class="fas fa-envelope">&lt;/i>&lt;/a>.&lt;/li>
 &lt;/ul>
 &lt;p>Moreover, we&amp;rsquo;ll likely be hiring in the coming months for open source engineers, with a focus on data science, interactive computing, and the cloud. If you&amp;rsquo;re interested in working for an organization like 2i2c, please
-&lt;a href="" >send us an email &lt;i class="fas fa-envelope">&lt;/i>&lt;/a>, and keep an eye on this space as we will post more information soon.&lt;/p>
+&lt;a href="https://2i2c.org/blog/2021/hello-world/mailto:hello@2i2c.org" >send us an email &lt;i class="fas fa-envelope">&lt;/i>&lt;/a>, and keep an eye on this space as we will post more information soon.&lt;/p>
 &lt;h2 id="get-involved">
 Get involved
 &lt;a class="header-anchor" href="#get-involved">#&lt;/a>
@@ -7726,7 +7752,7 @@ display: none;
 &lt;/li>
 &lt;/ul>
 &lt;p>We want our blog posts to be short, direct, and low-effort (see our
-&lt;a href="" >blog guide&lt;/a> for guidance).
+&lt;a href="https://2i2c.org/blog/idea/../../../contribute/blog.md" >blog guide&lt;/a> for guidance).
 Time-box yourself at 2-3 minutes, don&amp;rsquo;t worry if it isn&amp;rsquo;t perfect!&lt;/p>
 &lt;p>If you&amp;rsquo;d like to fill in the template and share it via Slack or e-mail, that&amp;rsquo;s fine too!
 Here&amp;rsquo;s a markdown block you can copy.&lt;/p>

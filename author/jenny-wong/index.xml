@@ -379,7 +379,7 @@ Catalyst Project community partners using accessible cloud infrastructure for op
 &lt;p>A key part of the project is engaging with Community Partners in Africa and Latin America: Institutions, organizations, and individuals who are undertaking bioscientific research projects that require cloud computing infrastructure. As collaborators on the Catalyst Project, Community Partners can access and use 2i2c’s open science cloud services, and also receive training from 2i2c, The Carpentries, MetaDocencia, and OLS to support their work.
 &lt;a href="https://catalystproject.cloud/current-community-partners.html" target="_blank" rel="noopener" >Community Partners&lt;/a> also play a vital role in shaping an evolving governance model for the Catalyst Project to help sustain, scale, and maximize impact in Latin America, Africa, and under-served communities around the world.&lt;/p>
 &lt;p>In a new collection of blog posts (that we hope will expand over the next couple of months!) we’re highlighting the work of the Catalyst Project Community Partners. This post is a gateway to learning more about the Catalyst Project and its Community Partners. If you have any questions or feedback about the project, please
-&lt;a href="" >send an email to the core team&lt;/a>.&lt;/p>
+&lt;a href="https://2i2c.org/blog/2024/catalyst-partner-highlights/mailto:catalyst-project-core-team@googlegroups.com" >send an email to the core team&lt;/a>.&lt;/p>
 &lt;h2 id="highlighting-the-catalyst-project-community-partners">
 Highlighting the Catalyst Project Community Partners
 &lt;a class="header-anchor" href="#highlighting-the-catalyst-project-community-partners">#&lt;/a>
@@ -1062,7 +1062,7 @@ The importance of diverse &lt;em>leadership&lt;/em>
 &lt;/h2>&lt;p>However, over the past few months, we have reflected on our organization&amp;rsquo;s structure and future plans. In particular, we recognize that there is a worrying lack of women in staff leadership roles. This imbalance does not live up to our values of diversity in our team and service.&lt;/p>
 &lt;p>We need to do better.&lt;/p>
 &lt;p>2i2c is at a moment of maturation and growth as an organization, kicked off by
-&lt;a href="" >our organizational audit from 2023&lt;/a> as well as
+&lt;a href="https://2i2c.org/blog/2024/dei-leadership-strategy/../2023/organizational-report/index.md" >our organizational audit from 2023&lt;/a> as well as
 &lt;a href="https://2i2c.org/blog/2024/report-czi/" >our three-year retrospective&lt;/a>.
 We believe that improving the diversity of leadership throughout the organization is a necessary part of that maturation over the next three years.&lt;/p>
 &lt;p>Below are a few ideas for how we aim to make improvements, and we invite feedback from others who are interested in helping us improve this aspect of our organization.&lt;/p>
@@ -1133,7 +1133,7 @@ Can I use this ephemeral hub service?
 &lt;li>For the
 &lt;a href="https://hub.big.binder.opensci.2i2c.cloud/" target="_blank" rel="noopener" >big BinderHub&lt;/a> you will need to be member of a NASA community. This requires a GitHub account for membership of the GitHub Team
 &lt;a href="https://github.com/orgs/2i2c-nasa-binder-access/teams/big-binder-team" target="_blank" rel="noopener" >2i2c-nasa-binder-access:big-binder-team&lt;/a> for authorization. Please send us an email at
-&lt;a href="" >binder-requests@2i2c.org&lt;/a> to be added to the GitHub Team.&lt;/li>
+&lt;a href="https://2i2c.org/blog/2024/nasa-ephemeral-hubs/mailto:binder-requests@2i2c.org" >binder-requests@2i2c.org&lt;/a> to be added to the GitHub Team.&lt;/li>
 &lt;/ul>
 &lt;h2 id="acknowledgements">
 Acknowledgements
@@ -1294,7 +1294,7 @@ Day 2
 &lt;li>&lt;input disabled="" type="checkbox"> Cookbooks frequently cross-referenced materials from other cookbooks to build upon pre-existing knowledge, but this was not easy to author and the reader experience was not as smooth as it could be.&lt;/li>
 &lt;/ul>
 &lt;p>Following the announcement that
-&lt;a href="" >Jupyter Book 2.0 will use MyST&lt;/a> last month, Rowan (Curvenote) and Angus (2i2c) delivered a compelling demonstration of the
+&lt;a href="https://2i2c.org/blog/2024/project-pythia-cookoff/../myst-jupyter-book/index" >Jupyter Book 2.0 will use MyST&lt;/a> last month, Rowan (Curvenote) and Angus (2i2c) delivered a compelling demonstration of the
 &lt;a href="https://mystmd.org/" target="_blank" rel="noopener" >MyST&lt;/a> ecosystem centered around modern web-first technologies (JavaScript/TypeScript) that offers improved interactivity and accessibility.&lt;/p>
 &lt;p>In the second half of the day, we decided to use the hackathon to explore migrating the Pythia cookbooks from using a Sphinx-based to a MyST-based document structure and engine. Within one afternoon, the group migrated four cookbooks to use MyST MD&lt;/p>
 &lt;ol>

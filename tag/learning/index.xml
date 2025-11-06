@@ -1,4 +1,30 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Learning | 2i2c</title><link>https://2i2c.org/tag/learning/</link><atom:link href="https://2i2c.org/tag/learning/index.xml" rel="self" type="application/rss+xml"/><description>Learning</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 21 Oct 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Learning</title><link>https://2i2c.org/tag/learning/</link></image><item><title>Communities learning from one another - Project Pythia and ICESat-2 Hackweeks</title><link>https://2i2c.org/blog/2025/pythia-icesat2-synergy/</link><pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/pythia-icesat2-synergy/</guid><description>&lt;p>We wanted to share a short vignette about two of our communities learning from one another.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Learning | 2i2c</title><link>https://2i2c.org/tag/learning/</link><atom:link href="https://2i2c.org/tag/learning/index.xml" rel="self" type="application/rss+xml"/><description>Learning</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 06 Nov 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Learning</title><link>https://2i2c.org/tag/learning/</link></image><item><title>Community learning: Hub config to pass oauth tokens into user environments</title><link>https://2i2c.org/blog/2025/communities-learning-from-one-another/</link><pubDate>Thu, 06 Nov 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/communities-learning-from-one-another/</guid><description>&lt;p>One of our favorite things to see: communities learning from and building on each other&amp;rsquo;s work!&lt;/p>
+&lt;p>
+&lt;a href="https://ops.maap-project.org/" target="_blank" rel="noopener" >MAAP&lt;/a> recently
+&lt;a href="https://github.com/2i2c-org/infrastructure/pull/7068" target="_blank" rel="noopener" >contributed infrastructure configuration&lt;/a> inspired by
+&lt;a href="https://github.com/2i2c-org/infrastructure/blob/0046e14a68d7af9e353c494ee6ad39beb0ce970a/config/clusters/earthscope/common.values.yaml#L29" target="_blank" rel="noopener" >EarthScope&amp;rsquo;s approach&lt;/a> to handling authentication tokens. Both communities need to pass OAuth tokens into user environments so their SDKs can access protected data - and MAAP adapted EarthScope&amp;rsquo;s pattern to fit their needs.&lt;/p>
+&lt;p>This is the kind of peer-to-peer knowledge sharing we hope to foster with our
+&lt;a href="https://github.com/2i2c-org/infrastructure" target="_blank" rel="noopener" >open infrastructure model&lt;/a>. When infrastructure is open and communities can see each other&amp;rsquo;s solutions, they can adapt and build on proven approaches rather than starting from scratch.&lt;/p>
+&lt;h2 id="learn-more">
+Learn more
+&lt;a class="header-anchor" href="#learn-more">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;a href="https://github.com/2i2c-org/infrastructure/pull/7068" target="_blank" rel="noopener" >MAAP&amp;rsquo;s PR&lt;/a> adapting the configuration&lt;/li>
+&lt;li>
+&lt;a href="https://github.com/2i2c-org/infrastructure/blob/0046e14a68d7af9e353c494ee6ad39beb0ce970a/config/clusters/earthscope/common.values.yaml#L29" target="_blank" rel="noopener" >EarthScope&amp;rsquo;s original config&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://github.com/2i2c-org/infrastructure" target="_blank" rel="noopener" >Our infrastructure repository&lt;/a> where all community configurations live&lt;/li>
+&lt;/ul>
+&lt;h2 id="acknowledgments">
+Acknowledgments
+&lt;a class="header-anchor" href="#acknowledgments">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;a href="https://ops.maap-project.org/" target="_blank" rel="noopener" >MAAP team&lt;/a> for adapting and contributing this configuration&lt;/li>
+&lt;li>
+&lt;a href="https://2i2c.org/collaborators/earthscope/" >EarthScope Consortium&lt;/a> for the original implementation&lt;/li>
+&lt;/ul></description></item><item><title>Communities learning from one another - Project Pythia and ICESat-2 Hackweeks</title><link>https://2i2c.org/blog/2025/pythia-icesat2-synergy/</link><pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/pythia-icesat2-synergy/</guid><description>&lt;p>We wanted to share a short vignette about two of our communities learning from one another.&lt;/p>
 &lt;p>At the latest
 &lt;a href="https://docs.google.com/document/d/e/2PACX-1vQWQrgHs_G5XyNH5GTFYydH_woUZcyZibdxPUWLpqFUYs20WM93kdx5onwOaizC_3-tfnbreMNQbYAp/pub" target="_blank" rel="noopener" >Project Pythia community meeting&lt;/a>,
 &lt;a href="https://2i2c.org/collaborators/pythia/" >Project Pythia&lt;/a> met with representatives from

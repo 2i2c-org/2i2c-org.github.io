@@ -1,4 +1,30 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Community | 2i2c</title><link>https://2i2c.org/tag/community/</link><atom:link href="https://2i2c.org/tag/community/index.xml" rel="self" type="application/rss+xml"/><description>Community</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 30 Oct 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Community</title><link>https://2i2c.org/tag/community/</link></image><item><title>2i2c Supports the Science Platforms Coordination IHDEA Working Group</title><link>https://2i2c.org/blog/2025/ihdea-working-group/</link><pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/ihdea-working-group/</guid><description>&lt;p>The Science Platforms Coordination IHDEA working group (which includes our own
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Community | 2i2c</title><link>https://2i2c.org/tag/community/</link><atom:link href="https://2i2c.org/tag/community/index.xml" rel="self" type="application/rss+xml"/><description>Community</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 06 Nov 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Community</title><link>https://2i2c.org/tag/community/</link></image><item><title>Community learning: Hub config to pass oauth tokens into user environments</title><link>https://2i2c.org/blog/2025/communities-learning-from-one-another/</link><pubDate>Thu, 06 Nov 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/communities-learning-from-one-another/</guid><description>&lt;p>One of our favorite things to see: communities learning from and building on each other&amp;rsquo;s work!&lt;/p>
+&lt;p>
+&lt;a href="https://ops.maap-project.org/" target="_blank" rel="noopener" >MAAP&lt;/a> recently
+&lt;a href="https://github.com/2i2c-org/infrastructure/pull/7068" target="_blank" rel="noopener" >contributed infrastructure configuration&lt;/a> inspired by
+&lt;a href="https://github.com/2i2c-org/infrastructure/blob/0046e14a68d7af9e353c494ee6ad39beb0ce970a/config/clusters/earthscope/common.values.yaml#L29" target="_blank" rel="noopener" >EarthScope&amp;rsquo;s approach&lt;/a> to handling authentication tokens. Both communities need to pass OAuth tokens into user environments so their SDKs can access protected data - and MAAP adapted EarthScope&amp;rsquo;s pattern to fit their needs.&lt;/p>
+&lt;p>This is the kind of peer-to-peer knowledge sharing we hope to foster with our
+&lt;a href="https://github.com/2i2c-org/infrastructure" target="_blank" rel="noopener" >open infrastructure model&lt;/a>. When infrastructure is open and communities can see each other&amp;rsquo;s solutions, they can adapt and build on proven approaches rather than starting from scratch.&lt;/p>
+&lt;h2 id="learn-more">
+Learn more
+&lt;a class="header-anchor" href="#learn-more">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;a href="https://github.com/2i2c-org/infrastructure/pull/7068" target="_blank" rel="noopener" >MAAP&amp;rsquo;s PR&lt;/a> adapting the configuration&lt;/li>
+&lt;li>
+&lt;a href="https://github.com/2i2c-org/infrastructure/blob/0046e14a68d7af9e353c494ee6ad39beb0ce970a/config/clusters/earthscope/common.values.yaml#L29" target="_blank" rel="noopener" >EarthScope&amp;rsquo;s original config&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://github.com/2i2c-org/infrastructure" target="_blank" rel="noopener" >Our infrastructure repository&lt;/a> where all community configurations live&lt;/li>
+&lt;/ul>
+&lt;h2 id="acknowledgments">
+Acknowledgments
+&lt;a class="header-anchor" href="#acknowledgments">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;a href="https://ops.maap-project.org/" target="_blank" rel="noopener" >MAAP team&lt;/a> for adapting and contributing this configuration&lt;/li>
+&lt;li>
+&lt;a href="https://2i2c.org/collaborators/earthscope/" >EarthScope Consortium&lt;/a> for the original implementation&lt;/li>
+&lt;/ul></description></item><item><title>2i2c Supports the Science Platforms Coordination IHDEA Working Group</title><link>https://2i2c.org/blog/2025/ihdea-working-group/</link><pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/ihdea-working-group/</guid><description>&lt;p>The Science Platforms Coordination IHDEA working group (which includes our own
 &lt;a href="https://2i2c.org/author/jim-colliander/" >Jim Colliander&lt;/a>) is developing international standard software computing environments for Heliophysics. The working group recently presented their work at two major conferences:
 &lt;a href="https://ml-helio.github.io/" target="_blank" rel="noopener" >ML-Helio&lt;/a> in Madrid and
 &lt;a href="https://dash2025.space.swri.edu/" target="_blank" rel="noopener" >DASH/IHDEA&lt;/a> in San Antonio.&lt;/p>
@@ -58,7 +84,7 @@ height="428"
 loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;/figure>
 &lt;em>BIDS Executive Director Kirstie Whitaker and 2i2c Executive Director Chris Holdgraf discuss the partnership at the
-&lt;a href="" >membership launch event&lt;/a>.&lt;/em>&lt;/p>
+&lt;a href="https://2i2c.org/blog/2025/bids-premier-member/../bids-premier-membership-event/" >membership launch event&lt;/a>.&lt;/em>&lt;/p>
 &lt;h2 id="what-this-partnership-means">
 What this partnership means
 &lt;a class="header-anchor" href="#what-this-partnership-means">#&lt;/a>
@@ -171,8 +197,8 @@ Acknowledgements
 &lt;ol>
 &lt;li id="fn:1">
 &lt;p>Chris has been
-&lt;a href="" >serving on the Jupyter Executive Council&lt;/a> as a
-&lt;a href="" >Foundational contribution&lt;/a>. This was related to that effort!&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;a href="https://2i2c.org/blog/2025/web-traffic-tracking-open-source/../executive-council-updates/" >serving on the Jupyter Executive Council&lt;/a> as a
+&lt;a href="https://2i2c.org/blog/2025/web-traffic-tracking-open-source/../foundational-contributions/" >Foundational contribution&lt;/a>. This was related to that effort!&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
 &lt;/div></description></item><item><title>Celebrating BIDS as 2i2c's first premier member at UC Berkeley</title><link>https://2i2c.org/blog/2025/bids-premier-membership-event/</link><pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/bids-premier-membership-event/</guid><description>&lt;p>We&amp;rsquo;re celebrating
@@ -456,7 +482,7 @@ The importance of diverse &lt;em>leadership&lt;/em>
 &lt;/h2>&lt;p>However, over the past few months, we have reflected on our organization&amp;rsquo;s structure and future plans. In particular, we recognize that there is a worrying lack of women in staff leadership roles. This imbalance does not live up to our values of diversity in our team and service.&lt;/p>
 &lt;p>We need to do better.&lt;/p>
 &lt;p>2i2c is at a moment of maturation and growth as an organization, kicked off by
-&lt;a href="" >our organizational audit from 2023&lt;/a> as well as
+&lt;a href="https://2i2c.org/blog/2024/dei-leadership-strategy/../2023/organizational-report/index.md" >our organizational audit from 2023&lt;/a> as well as
 &lt;a href="https://2i2c.org/blog/2024/report-czi/" >our three-year retrospective&lt;/a>.
 We believe that improving the diversity of leadership throughout the organization is a necessary part of that maturation over the next three years.&lt;/p>
 &lt;p>Below are a few ideas for how we aim to make improvements, and we invite feedback from others who are interested in helping us improve this aspect of our organization.&lt;/p>
@@ -523,15 +549,15 @@ Acknowledgements
 &lt;/li>
 &lt;/ol>
 &lt;/div></description></item><item><title>Improvements to our team's planning and delivery</title><link>https://2i2c.org/blog/2024/delivery-improvements/</link><pubDate>Mon, 15 Apr 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/delivery-improvements/</guid><description>&lt;p>&lt;em>This is a follow-up to
-&lt;a href="" >our 2023 report of organizational strengths and weaknesses&lt;/a>, describing some improvements we&amp;rsquo;ve made on our team&amp;rsquo;s coordination and delivery&lt;/em>.&lt;/p>
+&lt;a href="https://2i2c.org/blog/2024/delivery-improvements/../../2023/organizational-report" >our 2023 report of organizational strengths and weaknesses&lt;/a>, describing some improvements we&amp;rsquo;ve made on our team&amp;rsquo;s coordination and delivery&lt;/em>.&lt;/p>
 &lt;p>In 2023, we
-&lt;a href="" >released a report describing our organizational strengths and weaknesses&lt;/a>.
+&lt;a href="https://2i2c.org/blog/2024/delivery-improvements/../../2023/organizational-report" >released a report describing our organizational strengths and weaknesses&lt;/a>.
 This uncovered a key challenge for our team: &lt;strong>improving our coordination and delivery&lt;/strong>.
 Over the previous two years, our service had grown significantly in its scope and complexity.
 We were working on more than 7 active grants and were serving more than 70 active communities with around 7,000 monthly active users.&lt;/p>
 &lt;p>This was taxing our small team, and we found ourselves struggling to efficiently deliver on our work.
 For example, a
-&lt;a href="" >collaboration with GESIS to bring image building functionality to JupyterHub&lt;/a> took longer than we wished, and we felt that our planning and execution was not transparent enough to their team. In addition, in
+&lt;a href="https://2i2c.org/blog/2024/delivery-improvements/../../2024/jupyterhub-binderhub-gesis" >collaboration with GESIS to bring image building functionality to JupyterHub&lt;/a> took longer than we wished, and we felt that our planning and execution was not transparent enough to their team. In addition, in
 &lt;a href="https://catalystproject.cloud" target="_blank" rel="noopener" >a collaboration to serve communities in Latin America and Africa&lt;/a> we felt that 2i2c was not responsive enough to onboarding and deploying infrastructure for new communities.&lt;/p>
 &lt;h2 id="steps-weve-taken-to-improve-delivery">
 Steps we&amp;rsquo;ve taken to improve delivery
@@ -637,7 +663,7 @@ See
 &lt;li>While 2i2c is aligned with the interests of open communities, we are still a distinct organization with our own mission and strategy. We want to be conscious that 2i2c team members have &lt;em>more than one hat&lt;/em>, and that their 2i2c hat is necessarily not the same thing as their open source hat. As such, we don&amp;rsquo;t want to leverage our &amp;ldquo;other hats&amp;rdquo; to drive resources to 2i2c without being thoughtful about it.&lt;/li>
 &lt;/ol>
 &lt;p>In the last year we&amp;rsquo;ve found that running infrastructure for research and education gives us great visibility into the kinds of things that these communities want to do, and ways to improve the infrastructure. It also means we can potentially be a conduit of &lt;em>resources&lt;/em> from those communities into open source development workflows. For example, we recently
-&lt;a href="" >partnered with GESIS to make improvements in Binder and JupyterHub&lt;/a>.&lt;/p>
+&lt;a href="https://2i2c.org/blog/2023/open-source-funding-principles/../../2022/gesis-2i2c-collaboration-update/" >partnered with GESIS to make improvements in Binder and JupyterHub&lt;/a>.&lt;/p>
 &lt;p>So, this post is a brainstorm to identify some of the major considerations that we should take before agreeing to this kind of work. Its goals is to drive policy that streamlines our ability to seek and accept funding for open source work. It tries to answer this question:&lt;/p>
 &lt;blockquote>
 &lt;p>How can a stakeholder accept funding on behalf of an open source community in a way that is inclusive, equitable, and effective.&lt;/p>
