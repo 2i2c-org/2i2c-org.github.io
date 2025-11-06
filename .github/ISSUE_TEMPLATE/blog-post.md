@@ -6,36 +6,38 @@ labels: ["blog"]
 assignees: []
 ---
 
-<!--
-  Fill out the fields below as best you can. Don't worry about getting it perfect. Just bullet points is fine if that's all you have time / energy for.
--->
+<!-- Do your best to fill this out. Just bullet points is fine! -->
 
-### What happened
+### What happened?
 
 - This happened
 - This happened
 
-### Any pull quotes?
-
-<!-- Pull quotes are the most impactful thing we can communicate! -->
-
-### Why is it valuable
+### Why should we be excited about it?
 
 - Because A
 - Because B
 
-### Links to learn more
+### Where can we learn more?
 
 - Link A
 - Link B
 
+---
+
+<!-- BONUS SECTION: These are optional, but super helpful if you have time! -->
 ### Media and images
-<!-- (optional) Have any images we can use in the post? Drag and drop here! -->
+<!-- Drag/drop any images we can use in the post! -->
 
 
 ### Acknowledgements
-<!-- (optional) acknowledgements for contributors, funders, or collaborators. -->
+<!-- Give a shout-out to any person or org that particularly helped. -->
 
--
--
 
+---
+
+<!-- Ignore this part, it's just a checklist for us to follow-up on -->
+- [ ] Post published.
+- [ ] Shared on socials
+- [ ] Shared in the team Slack.
+- [ ] (If applicable) Emailed to the partner/community member who was featured.
