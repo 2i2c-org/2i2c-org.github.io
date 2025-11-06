@@ -10,6 +10,35 @@
 
 {{/* This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix. */}}
 
-<a {{ if strings.HasPrefix .Destination "http" }}href="{{ .Destination | safeURL }}" target="_blank" rel="noopener" {{ else if strings.HasPrefix .Destination "#" }}href="{{ .Destination | safeURL }}" {{ else }} href="{{ (.Page.GetPage .Destination).RelPermalink | safeURL }}" {{ end }} {{ with .Title}} title="{{ . }}"{{ end }}>
-  {{- $title | safeHTML -}}
-</a>
+{{- $destination := "" -}}
+{{- if strings.HasPrefix .Destination "http" -}}
+  {{- $destination = .Destination -}}
+  <a href="{{ $destination | safeURL }}" target="_blank" rel="noopener" {{ with .Title}} title="{{ . }}"{{ end }}>
+    {{- $title | safeHTML -}}
+  </a>
+{{- else if strings.HasPrefix .Destination "#" -}}
+  {{- $destination = .Destination -}}
+  <a href="{{ $destination | safeURL }}" {{ with .Title}} title="{{ . }}"{{ end }}>
+    {{- $title | safeHTML -}}
+  </a>
+{{- else -}}
+  {{- /* Try to get as a page first, otherwise treat as a resource */ -}}
+  {{- $page := .Page.GetPage .Destination -}}
+  {{- if $page -}}
+    <a href="{{ $page.RelPermalink | safeURL }}" {{ with .Title}} title="{{ . }}"{{ end }}>
+      {{- $title | safeHTML -}}
+    </a>
+  {{- else -}}
+    {{- /* It's a resource like an image, PDF, or SVG - use relative path or relURL */ -}}
+    {{- if strings.HasPrefix .Destination "/" -}}
+      {{- $destination = .Destination -}}
+    {{- else if strings.HasPrefix .Destination "./" -}}
+      {{- $destination = printf "%s%s" .Page.RelPermalink (strings.TrimPrefix "./" .Destination) -}}
+    {{- else -}}
+      {{- $destination = printf "%s%s" .Page.RelPermalink .Destination -}}
+    {{- end -}}
+    <a href="{{ $destination | safeURL }}" {{ with .Title}} title="{{ . }}"{{ end }}>
+      {{- $title | safeHTML -}}
+    </a>
+  {{- end -}}
+{{- end -}}
