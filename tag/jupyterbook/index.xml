@@ -1,4 +1,29 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Jupyterbook | 2i2c</title><link>https://2i2c.org/tag/jupyterbook/</link><atom:link href="https://2i2c.org/tag/jupyterbook/index.xml" rel="self" type="application/rss+xml"/><description>Jupyterbook</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sat, 01 Nov 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Jupyterbook</title><link>https://2i2c.org/tag/jupyterbook/</link></image><item><title>Refactoring Jupyter Book 2 documentation ahead of a major release</title><link>https://2i2c.org/blog/2025/jupyter-book-docs-refactor/</link><pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/jupyter-book-docs-refactor/</guid><description>&lt;p>Documentation is what turns open source code into products that people actually want to use. We recently spent a few days refactoring the
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Jupyterbook | 2i2c</title><link>https://2i2c.org/tag/jupyterbook/</link><atom:link href="https://2i2c.org/tag/jupyterbook/index.xml" rel="self" type="application/rss+xml"/><description>Jupyterbook</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 12 Nov 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Jupyterbook</title><link>https://2i2c.org/tag/jupyterbook/</link></image><item><title>Creating a re-usable redirect generator for Jupyter Book 1 migrations</title><link>https://2i2c.org/blog/2025/jb1-redirect-generator/</link><pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/jb1-redirect-generator/</guid><description>&lt;p>When migrating documentation from
+&lt;a href="https://2i2c.org/collaborators/jupyter-book/" >Jupyter Book&lt;/a> 1 to Jupyter Book 2, URL structures change dramatically and break external links. We spent some time createing a re-usable tool to solve this problem across multiple projects.&lt;/p>
+&lt;p>You can check out the tool below:&lt;/p>
+&lt;p>
+&lt;a href="https://github.com/jupyter-book/jb1-redirect-generator" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> jupyter-book/jb1-redirect-generator&lt;/a>&lt;/p>
+&lt;p>It&amp;rsquo;s designed to be run in a self-contained way by putting the dependencies in &lt;code>script&lt;/code> metadata at the top.
+This means you can run it like this:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">uv run https://raw.githubusercontent.com/jupyter-book/jb1-redirect-generator/main/generate_redirects.py
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>This let&amp;rsquo;s you generate redirects from JB1 -&amp;gt; JB2 URL structures and dump them in a &lt;code>_build/html&lt;/code> folder with your JB2 built pages.&lt;/p>
+&lt;p>We tested this out by converting the
+&lt;a href="https://jupyter.org/governance" target="_blank" rel="noopener" >Jupyter Governance docs&lt;/a> to Jupyter Book 2 and running it there.
+You can find a noxfile that runs these commands here:&lt;/p>
+&lt;p>
+&lt;a href="https://github.com/jupyter/governance/blob/bcdae30efdecbe75bc4751ef1fe1e602fe82ee10/noxfile.py#L25-L37" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> jupyter/governance/blob/bcdae30efdecbe75bc4751ef1fe1e602fe82ee10/noxfile.py#L25-L37&lt;/a>&lt;/p>
+&lt;p>And its use in a GitHub Workflow here:&lt;/p>
+&lt;p>
+&lt;a href="https://github.com/jupyter/governance/blob/bcdae30efdecbe75bc4751ef1fe1e602fe82ee10/.github/workflows/deploy.yml#L39-L44" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> jupyter/governance/blob/bcdae30efdecbe75bc4751ef1fe1e602fe82ee10/.github/workflows/deploy.yml#L39-L44&lt;/a>&lt;/p>
+&lt;h2 id="learn-more">
+Learn more
+&lt;a class="header-anchor" href="#learn-more">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;a href="https://github.com/jupyter-book/jb1-redirect-generator" target="_blank" rel="noopener" >jb1-redirect-generator repository&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://github.com/jupyter/governance/pull/307" target="_blank" rel="noopener" >Jupyter governance PR using the new script&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Refactoring Jupyter Book 2 documentation ahead of a major release</title><link>https://2i2c.org/blog/2025/jupyter-book-docs-refactor/</link><pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/jupyter-book-docs-refactor/</guid><description>&lt;p>Documentation is what turns open source code into products that people actually want to use. We recently spent a few days refactoring the
 &lt;a href="https://2i2c.org/collaborators/jupyter-book/" >Jupyter Book&lt;/a> documentation to prepare for the upcoming Jupyter Book 2 release, and we&amp;rsquo;re excited about how much clearer the docs have become!&lt;/p>
 &lt;h2 id="what-we-did">
 What we did

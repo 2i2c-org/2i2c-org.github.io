@@ -1,4 +1,29 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2i2c</title><link>https://2i2c.org/</link><atom:link href="https://2i2c.org/index.xml" rel="self" type="application/rss+xml"/><description>2i2c</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 06 Nov 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>2i2c</title><link>https://2i2c.org/</link></image><item><title>Community learning: Hub config to pass oauth tokens into user environments</title><link>https://2i2c.org/blog/2025/communities-learning-from-one-another/</link><pubDate>Thu, 06 Nov 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/communities-learning-from-one-another/</guid><description>&lt;p>One of our favorite things to see: communities learning from and building on each other&amp;rsquo;s work!&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2i2c</title><link>https://2i2c.org/</link><atom:link href="https://2i2c.org/index.xml" rel="self" type="application/rss+xml"/><description>2i2c</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 12 Nov 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>2i2c</title><link>https://2i2c.org/</link></image><item><title>Creating a re-usable redirect generator for Jupyter Book 1 migrations</title><link>https://2i2c.org/blog/2025/jb1-redirect-generator/</link><pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/jb1-redirect-generator/</guid><description>&lt;p>When migrating documentation from
+&lt;a href="https://2i2c.org/collaborators/jupyter-book/" >Jupyter Book&lt;/a> 1 to Jupyter Book 2, URL structures change dramatically and break external links. We spent some time createing a re-usable tool to solve this problem across multiple projects.&lt;/p>
+&lt;p>You can check out the tool below:&lt;/p>
+&lt;p>
+&lt;a href="https://github.com/jupyter-book/jb1-redirect-generator" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> jupyter-book/jb1-redirect-generator&lt;/a>&lt;/p>
+&lt;p>It&amp;rsquo;s designed to be run in a self-contained way by putting the dependencies in &lt;code>script&lt;/code> metadata at the top.
+This means you can run it like this:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-bash" data-lang="bash">&lt;span class="line">&lt;span class="cl">uv run https://raw.githubusercontent.com/jupyter-book/jb1-redirect-generator/main/generate_redirects.py
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>This let&amp;rsquo;s you generate redirects from JB1 -&amp;gt; JB2 URL structures and dump them in a &lt;code>_build/html&lt;/code> folder with your JB2 built pages.&lt;/p>
+&lt;p>We tested this out by converting the
+&lt;a href="https://jupyter.org/governance" target="_blank" rel="noopener" >Jupyter Governance docs&lt;/a> to Jupyter Book 2 and running it there.
+You can find a noxfile that runs these commands here:&lt;/p>
+&lt;p>
+&lt;a href="https://github.com/jupyter/governance/blob/bcdae30efdecbe75bc4751ef1fe1e602fe82ee10/noxfile.py#L25-L37" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> jupyter/governance/blob/bcdae30efdecbe75bc4751ef1fe1e602fe82ee10/noxfile.py#L25-L37&lt;/a>&lt;/p>
+&lt;p>And its use in a GitHub Workflow here:&lt;/p>
+&lt;p>
+&lt;a href="https://github.com/jupyter/governance/blob/bcdae30efdecbe75bc4751ef1fe1e602fe82ee10/.github/workflows/deploy.yml#L39-L44" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> jupyter/governance/blob/bcdae30efdecbe75bc4751ef1fe1e602fe82ee10/.github/workflows/deploy.yml#L39-L44&lt;/a>&lt;/p>
+&lt;h2 id="learn-more">
+Learn more
+&lt;a class="header-anchor" href="#learn-more">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;a href="https://github.com/jupyter-book/jb1-redirect-generator" target="_blank" rel="noopener" >jb1-redirect-generator repository&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://github.com/jupyter/governance/pull/307" target="_blank" rel="noopener" >Jupyter governance PR using the new script&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Community learning: Hub config to pass oauth tokens into user environments</title><link>https://2i2c.org/blog/2025/communities-learning-from-one-another/</link><pubDate>Thu, 06 Nov 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/communities-learning-from-one-another/</guid><description>&lt;p>One of our favorite things to see: communities learning from and building on each other&amp;rsquo;s work!&lt;/p>
 &lt;p>
 &lt;a href="https://ops.maap-project.org/" target="_blank" rel="noopener" >MAAP&lt;/a> recently
 &lt;a href="https://github.com/2i2c-org/infrastructure/pull/7068" target="_blank" rel="noopener" >contributed infrastructure configuration&lt;/a> inspired by
@@ -9146,6 +9171,16 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;div class="col-sm-6 col-md-4 col-lg-3">
 &lt;div class="card border-0" style="background-color: #f8f9fa;">
 &lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
+&lt;a href="https://dvc.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
+&lt;img src="https://2i2c.org/members/images/diablo_valley_college.png" alt="Diablo Valley College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
+&lt;small class="text-dark fw-medium">Diablo Valley College&lt;/small>
+&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="col-sm-6 col-md-4 col-lg-3">
+&lt;div class="card border-0" style="background-color: #f8f9fa;">
+&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
 &lt;a href="https://elac.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/east_los_angeles_college.svg" alt="East Los Angeles College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">East Los Angeles College&lt;/small>
@@ -9376,16 +9411,6 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;div class="col-sm-6 col-md-4 col-lg-3">
 &lt;div class="card border-0" style="background-color: #f8f9fa;">
 &lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
-&lt;a href="https://staging.hub.disasters.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
-&lt;img src="https://2i2c.org/members/images/nasa_disasters_program.png" alt="NASA Disasters Program" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
-&lt;small class="text-dark fw-medium">NASA Disasters Program&lt;/small>
-&lt;/a>
-&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;div class="col-sm-6 col-md-4 col-lg-3">
-&lt;div class="card border-0" style="background-color: #f8f9fa;">
-&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
 &lt;a href="https://staging.neurohackademy.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/neurohackademy.png" alt="neurohackademy" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">neurohackademy&lt;/small>
@@ -9446,39 +9471,9 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;div class="col-sm-6 col-md-4 col-lg-3">
 &lt;div class="card border-0" style="background-color: #f8f9fa;">
 &lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
-&lt;a href="https://sjcc.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
-&lt;img src="https://2i2c.org/members/images/san_jose_community_college.png" alt="San Jose Community College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
-&lt;small class="text-dark fw-medium">San Jose Community College&lt;/small>
-&lt;/a>
-&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;div class="col-sm-6 col-md-4 col-lg-3">
-&lt;div class="card border-0" style="background-color: #f8f9fa;">
-&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
 &lt;a href="https://sjsu.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/san_jose_state_university.svg" alt="San Jose State University" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">San Jose State University&lt;/small>
-&lt;/a>
-&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;div class="col-sm-6 col-md-4 col-lg-3">
-&lt;div class="card border-0" style="background-color: #f8f9fa;">
-&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
-&lt;a href="https://sbcc.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
-&lt;img src="https://2i2c.org/members/images/santa_barbara_city_college.png" alt="Santa Barbara City College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
-&lt;small class="text-dark fw-medium">Santa Barbara City College&lt;/small>
-&lt;/a>
-&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;div class="col-sm-6 col-md-4 col-lg-3">
-&lt;div class="card border-0" style="background-color: #f8f9fa;">
-&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
-&lt;a href="https://sbcc-dev.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
-&lt;img src="https://2i2c.org/members/images/santa_barbara_city_college_dev.png" alt="Santa Barbara City College Dev" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
-&lt;small class="text-dark fw-medium">Santa Barbara City College Dev&lt;/small>
 &lt;/a>
 &lt;/div>
 &lt;/div>
