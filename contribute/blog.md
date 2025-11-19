@@ -17,7 +17,7 @@ See the **Tags and categories** section below for inspiration about what to blog
 Copy the blog post folder template at the path below:
 
 ```
-content/blog/_template-post
+content/blog/_templates/[post-type]/index.md
 ```
 
 It contains an `index.md` file that you can modify. Put it in the folder for the year in which you're posting (e.g.: `content/blog/2025/mypostfolder`).
@@ -101,3 +101,62 @@ _Tags are more fluid, you can add as many to a post as you like._
 #### Domains
 - `earth-science` - (here are common ones, add new domain tags as you wish)
 - `biology`
+
+## How to write blog posts
+
+Follow these steps:
+
+- **Find a GitHub issue**. An issue should describe the most important points to convey in a post. Read it, and any linked material inside, to learn what it's about.
+- **Choose a template**. Copy one of the `content/blog/_templates/[posttype]/` folders into the appopriate year folder, and modify the folder name. 
+- **Read the template guidance**. Each template file has suggestions for its structure, as well as links to example posts - reda those posts to understand what we're going for.
+- **Generate a post draft**. The post should be short, to the point, and scannable. Use quick and accessible language, keep posts around 100-300 words.
+- **Add collaborator links**. Scan the post for mention of collaborating people and organizations - check the `/content/collaborators` folder to see if an entry exists for any you notice. If so, add a link to that folder entry.
+
+
+### How to add a category and tags
+
+Each post has one category and multiple tags. Categories describe the post's intent, and tags cover its main themes or topics. You add them to the frontmatter of posts like so:
+
+```markdown
+---
+title: Post title
+date: "2025-01-01"
+categories:
+- updates
+tags:
+- open source
+- geoscience
+---
+```
+
+We use **lowercase formatting** as well as **spaces instead of hyphens** for both tags and categories. For example, `open source`, not `open-source` and not `Open Source`.
+
+## Hugo directives you can use in our blog
+
+Here are a few example Hugo directives for quick reference.
+
+### Figures
+
+An example figure directive:
+
+{{< figure src="images/staging-hub-matrix.png" title="Our staging and support hub job matrix tells GitHub Actions to deploy staging and support upgrades that act as canaries and stop production deploys if they fail.">}}
+
+### Videos
+
+From YouTube:
+
+{{< youtube YjonPLxDiwM >}}
+
+Local Videos:
+
+{{< video src="videos/jupyterhub-admin.mp4">}}
+
+### Callouts and admonitions
+
+An example admonition / callout:
+
+{{% callout %}}
+
+Here's some markdown in my callout!
+
+{{% /callout %}}
