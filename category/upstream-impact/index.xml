@@ -1,4 +1,60 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Upstream-Impact | 2i2c</title><link>https://2i2c.org/category/upstream-impact/</link><atom:link href="https://2i2c.org/category/upstream-impact/index.xml" rel="self" type="application/rss+xml"/><description>Upstream-Impact</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 12 Nov 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Upstream-Impact</title><link>https://2i2c.org/category/upstream-impact/</link></image><item><title>Creating a re-usable redirect generator for Jupyter Book 1 migrations</title><link>https://2i2c.org/blog/2025/jb1-redirect-generator/</link><pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/jb1-redirect-generator/</guid><description>&lt;p>When migrating documentation from
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Upstream-Impact | 2i2c</title><link>https://2i2c.org/category/upstream-impact/</link><atom:link href="https://2i2c.org/category/upstream-impact/index.xml" rel="self" type="application/rss+xml"/><description>Upstream-Impact</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 19 Nov 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Upstream-Impact</title><link>https://2i2c.org/category/upstream-impact/</link></image><item><title>Yuvi on scaling maintainer intuition to facilitate PR review with PR triage boards</title><link>https://2i2c.org/blog/2025/pr-triage-boards/</link><pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/pr-triage-boards/</guid><description>&lt;p>Yuvi has a recent post on the
+&lt;a href="https://jupyter.org" target="_blank" rel="noopener" >Jupyter blog&lt;/a> on how his &amp;ldquo;maintainer intuition&amp;rdquo; about reviewable pull requests grew into the open-source
+&lt;a href="https://github.com/jupyter/pr-triage-board-bot" target="_blank" rel="noopener" >&lt;code>pr-triage-board-bot&lt;/code>&lt;/a>, a reusable workflow that keeps GitHub Project boards curated for the JupyterHub, JupyterLab, and GeoJupyter communities.
+&lt;a href="https://2i2c.org/blog/2025/pr-triage-boards/../foundational-contributions/" >Foundational contributions&lt;/a> are rellay important to 2i2c. This is a great example of building clever technical systems that help maintainers prioritize the social work of facilitating contributions to keep ecosystems healthy.&lt;/p>
+&lt;figure id="figure-the-jupyterhub-pr-triage-boardhttpsgithubcomorgsjupyterhubprojects4views9">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="The [JupyterHub PR Triage board](https://github.com/orgs/jupyterhub/projects/4/views/9)." srcset="
+/blog/2025/pr-triage-boards/featured_hu42e3292f220b90b3776c7d0485ebe6f6_578487_0f0a6e755f2ce0c16c487d7c7d936d24.webp 400w,
+/blog/2025/pr-triage-boards/featured_hu42e3292f220b90b3776c7d0485ebe6f6_578487_db6b5eae52bd3533a354139bfb522b31.webp 760w,
+/blog/2025/pr-triage-boards/featured_hu42e3292f220b90b3776c7d0485ebe6f6_578487_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2025/pr-triage-boards/featured_hu42e3292f220b90b3776c7d0485ebe6f6_578487_0f0a6e755f2ce0c16c487d7c7d936d24.webp"
+width="760"
+height="367"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+The
+&lt;a href="https://github.com/orgs/jupyterhub/projects/4/views/9" target="_blank" rel="noopener" >JupyterHub PR Triage board&lt;/a>.
+&lt;/figcaption>&lt;/figure>
+&lt;p>Yuvi frames the problem here:&lt;/p>
+&lt;blockquote>
+&lt;p>Reviewing PRs is a critical way that maintainers keep an open source project moving forward, but identifying PRs that can productively be merged is hard.&lt;/p>
+&lt;/blockquote>
+&lt;p>And notes that &lt;em>human scalability&lt;/em> is often a big bottleneck:&lt;/p>
+&lt;blockquote>
+&lt;p>One key bottleneck we identified in the process was Step 2. In particular, I was relying on my maintainer intuition to pick a single PR that I believe can be merged, so others in the team can do review work. I started exploring what this intuition is, and if it can be scaled.&lt;/p>
+&lt;/blockquote>
+&lt;p>Here&amp;rsquo;s his list of &amp;ldquo;intuitions&amp;rdquo; that he uses to choose PRs to work on:&lt;/p>
+&lt;blockquote>
+&lt;ol>
+&lt;li>PRs that aren’t too big, and are a reasonable size that can be merged within a 2 week window&lt;/li>
+&lt;li>CI tests passing, so at least our automated checks haven’t caught any issues with it
+Features or bug fixes that I believe add value to the project and move us in the right direction towards being able to support our users as they need (this is the hardest!)&lt;/li>
+&lt;li>If the author of the PR is a newish contributor, as I want to encourage them to stick around by being responsive to their gift. All PRs are gifts that we may or may not choose to accept, but should do so with grace.&lt;/li>
+&lt;li>How long ago the PR was opened. There is such a big difference between a response to your PR 2 days after you make it vs 2 months vs 2 years. I prioritized newer PRs.&lt;/li>
+&lt;li>What kind of contribution is it primarily? Different engineers on our team have different skillsets (JS, Python, etc) and I wanted to match the PR to what the engineer preferred code reviewing.&lt;/li>
+&lt;/ol>
+&lt;/blockquote>
+&lt;p>And the board essentially tries to capture many of these intuitions by signal-boosting them in one place:&lt;/p>
+&lt;blockquote>
+&lt;p>we can roughly say ‘Pick a PR that looks good to you from the top of the “First Time Contributor” or “Seasoned Contributor” list’, and that relieves me from being the bottleneck quite a bit.&lt;/p>
+&lt;/blockquote>
+&lt;p>Read more in the original article:
+&lt;a href="https://blog.jupyter.org/scaling-maintainer-intuition-with-pull-request-triage-boards-779f2387498b" target="_blank" rel="noopener" >Scaling &amp;ldquo;Maintainer Intuition&amp;rdquo; with Pull Request Triage Boards&lt;/a>.&lt;/p>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;a href="https://2i2c.org/collaborators/jupyter/" >Project Jupyter&lt;/a> for trusting us to incubate and now donate the bot code to the broader ecosystem.&lt;/li>
+&lt;li>
+&lt;a href="https://2i2c.org/collaborators/jupyterhub/" >JupyterHub&lt;/a> and
+&lt;a href="https://2i2c.org/collaborators/geojupyter/" >GeoJupyter&lt;/a> contributors who tested the triage views and fed real maintainer workflows back into the design.&lt;/li>
+&lt;li>
+&lt;a href="https://github.com/jasongrout" target="_blank" rel="noopener" >Jason Grout&lt;/a>,
+&lt;a href="https://github.com/rgaiacs" target="_blank" rel="noopener" >Raniere Silva&lt;/a>, and
+&lt;a href="https://github.com/mfisher87" target="_blank" rel="noopener" >Matt Fisher&lt;/a> for spotting the experiment early and helping it land across multiple orgs.&lt;/li>
+&lt;/ul></description></item><item><title>Creating a re-usable redirect generator for Jupyter Book 1 migrations</title><link>https://2i2c.org/blog/2025/jb1-redirect-generator/</link><pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/jb1-redirect-generator/</guid><description>&lt;p>When migrating documentation from
 &lt;a href="https://2i2c.org/collaborators/jupyter-book/" >Jupyter Book&lt;/a> 1 to Jupyter Book 2, URL structures change dramatically and break external links. We spent some time createing a re-usable tool to solve this problem across multiple projects.&lt;/p>
 &lt;p>You can check out the tool below:&lt;/p>
 &lt;p>

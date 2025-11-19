@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Foo | 2i2c</title><link>https://2i2c.org/author/foo/</link><atom:link href="https://2i2c.org/author/foo/index.xml" rel="self" type="application/rss+xml"/><description>Foo</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 01 Jan 1000 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Foo</title><link>https://2i2c.org/author/foo/</link></image><item><title>[Person's name] on [Topic]</title><link>https://2i2c.org/blog/_templates/reference-post/</link><pubDate>Wed, 01 Jan 1000 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/_templates/reference-post/</guid><description>&lt;p>One or two sentences describing a piece of content that you&amp;rsquo;d like to reference, its main takeaway, its author, and why it&amp;rsquo;s worth reading (add a link to it and the author&amp;rsquo;s name).&lt;/p>
+&lt;p>Some things that stood out to us:&lt;/p>
+&lt;p>Quotes, images, etc from the post that you&amp;rsquo;d like to highlight. Just one or two is fine, but add as much as you like. Make sure you&amp;rsquo;re using exact quotes!&lt;/p>
+&lt;p>They mention ____ about ____&lt;/p>
+&lt;blockquote>
+&lt;p>Pull quote&lt;/p>
+&lt;/blockquote>
+&lt;p>They also talk about ____&lt;/p>
+&lt;blockquote>
+&lt;p>Pull quote&lt;/p>
+&lt;/blockquote>
+&lt;p>Read more in the original article:
+&lt;a href="https://2i2c.org/blog/_templates/reference-post/[link]" >article title&lt;/a>.&lt;/p>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>Bulleted list of people and organizations to thank, with links to their spaces.&lt;/li>
+&lt;/ul></description></item></channel></rss>

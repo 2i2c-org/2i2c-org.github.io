@@ -1,4 +1,60 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2i2c's blog | 2i2c</title><link>https://2i2c.org/blog/</link><atom:link href="https://2i2c.org/blog/index.xml" rel="self" type="application/rss+xml"/><description>2i2c's blog</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 17 Nov 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>2i2c's blog</title><link>https://2i2c.org/blog/</link></image><item><title>Debisree Ray on her positive JupyterCon 2025 experience</title><link>https://2i2c.org/blog/2025/jupytercon-debisree-reflection/</link><pubDate>Mon, 17 Nov 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/jupytercon-debisree-reflection/</guid><description>&lt;p>We spotted
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2i2c's blog | 2i2c</title><link>https://2i2c.org/blog/</link><atom:link href="https://2i2c.org/blog/index.xml" rel="self" type="application/rss+xml"/><description>2i2c's blog</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 19 Nov 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>2i2c's blog</title><link>https://2i2c.org/blog/</link></image><item><title>Yuvi on scaling maintainer intuition to facilitate PR review with PR triage boards</title><link>https://2i2c.org/blog/2025/pr-triage-boards/</link><pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/pr-triage-boards/</guid><description>&lt;p>Yuvi has a recent post on the
+&lt;a href="https://jupyter.org" target="_blank" rel="noopener" >Jupyter blog&lt;/a> on how his &amp;ldquo;maintainer intuition&amp;rdquo; about reviewable pull requests grew into the open-source
+&lt;a href="https://github.com/jupyter/pr-triage-board-bot" target="_blank" rel="noopener" >&lt;code>pr-triage-board-bot&lt;/code>&lt;/a>, a reusable workflow that keeps GitHub Project boards curated for the JupyterHub, JupyterLab, and GeoJupyter communities.
+&lt;a href="https://2i2c.org/blog/2025/pr-triage-boards/../foundational-contributions/" >Foundational contributions&lt;/a> are rellay important to 2i2c. This is a great example of building clever technical systems that help maintainers prioritize the social work of facilitating contributions to keep ecosystems healthy.&lt;/p>
+&lt;figure id="figure-the-jupyterhub-pr-triage-boardhttpsgithubcomorgsjupyterhubprojects4views9">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="The [JupyterHub PR Triage board](https://github.com/orgs/jupyterhub/projects/4/views/9)." srcset="
+/blog/2025/pr-triage-boards/featured_hu42e3292f220b90b3776c7d0485ebe6f6_578487_0f0a6e755f2ce0c16c487d7c7d936d24.webp 400w,
+/blog/2025/pr-triage-boards/featured_hu42e3292f220b90b3776c7d0485ebe6f6_578487_db6b5eae52bd3533a354139bfb522b31.webp 760w,
+/blog/2025/pr-triage-boards/featured_hu42e3292f220b90b3776c7d0485ebe6f6_578487_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2025/pr-triage-boards/featured_hu42e3292f220b90b3776c7d0485ebe6f6_578487_0f0a6e755f2ce0c16c487d7c7d936d24.webp"
+width="760"
+height="367"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+The
+&lt;a href="https://github.com/orgs/jupyterhub/projects/4/views/9" target="_blank" rel="noopener" >JupyterHub PR Triage board&lt;/a>.
+&lt;/figcaption>&lt;/figure>
+&lt;p>Yuvi frames the problem here:&lt;/p>
+&lt;blockquote>
+&lt;p>Reviewing PRs is a critical way that maintainers keep an open source project moving forward, but identifying PRs that can productively be merged is hard.&lt;/p>
+&lt;/blockquote>
+&lt;p>And notes that &lt;em>human scalability&lt;/em> is often a big bottleneck:&lt;/p>
+&lt;blockquote>
+&lt;p>One key bottleneck we identified in the process was Step 2. In particular, I was relying on my maintainer intuition to pick a single PR that I believe can be merged, so others in the team can do review work. I started exploring what this intuition is, and if it can be scaled.&lt;/p>
+&lt;/blockquote>
+&lt;p>Here&amp;rsquo;s his list of &amp;ldquo;intuitions&amp;rdquo; that he uses to choose PRs to work on:&lt;/p>
+&lt;blockquote>
+&lt;ol>
+&lt;li>PRs that aren’t too big, and are a reasonable size that can be merged within a 2 week window&lt;/li>
+&lt;li>CI tests passing, so at least our automated checks haven’t caught any issues with it
+Features or bug fixes that I believe add value to the project and move us in the right direction towards being able to support our users as they need (this is the hardest!)&lt;/li>
+&lt;li>If the author of the PR is a newish contributor, as I want to encourage them to stick around by being responsive to their gift. All PRs are gifts that we may or may not choose to accept, but should do so with grace.&lt;/li>
+&lt;li>How long ago the PR was opened. There is such a big difference between a response to your PR 2 days after you make it vs 2 months vs 2 years. I prioritized newer PRs.&lt;/li>
+&lt;li>What kind of contribution is it primarily? Different engineers on our team have different skillsets (JS, Python, etc) and I wanted to match the PR to what the engineer preferred code reviewing.&lt;/li>
+&lt;/ol>
+&lt;/blockquote>
+&lt;p>And the board essentially tries to capture many of these intuitions by signal-boosting them in one place:&lt;/p>
+&lt;blockquote>
+&lt;p>we can roughly say ‘Pick a PR that looks good to you from the top of the “First Time Contributor” or “Seasoned Contributor” list’, and that relieves me from being the bottleneck quite a bit.&lt;/p>
+&lt;/blockquote>
+&lt;p>Read more in the original article:
+&lt;a href="https://blog.jupyter.org/scaling-maintainer-intuition-with-pull-request-triage-boards-779f2387498b" target="_blank" rel="noopener" >Scaling &amp;ldquo;Maintainer Intuition&amp;rdquo; with Pull Request Triage Boards&lt;/a>.&lt;/p>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;a href="https://2i2c.org/collaborators/jupyter/" >Project Jupyter&lt;/a> for trusting us to incubate and now donate the bot code to the broader ecosystem.&lt;/li>
+&lt;li>
+&lt;a href="https://2i2c.org/collaborators/jupyterhub/" >JupyterHub&lt;/a> and
+&lt;a href="https://2i2c.org/collaborators/geojupyter/" >GeoJupyter&lt;/a> contributors who tested the triage views and fed real maintainer workflows back into the design.&lt;/li>
+&lt;li>
+&lt;a href="https://github.com/jasongrout" target="_blank" rel="noopener" >Jason Grout&lt;/a>,
+&lt;a href="https://github.com/rgaiacs" target="_blank" rel="noopener" >Raniere Silva&lt;/a>, and
+&lt;a href="https://github.com/mfisher87" target="_blank" rel="noopener" >Matt Fisher&lt;/a> for spotting the experiment early and helping it land across multiple orgs.&lt;/li>
+&lt;/ul></description></item><item><title>Debisree Ray on her positive JupyterCon 2025 experience</title><link>https://2i2c.org/blog/2025/jupytercon-debisree-reflection/</link><pubDate>Mon, 17 Nov 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/jupytercon-debisree-reflection/</guid><description>&lt;p>We spotted
 &lt;a href="https://medium.com/womenintechnology/reflections-from-jupytercon-2025-8ace9e6b27ab" target="_blank" rel="noopener" >a great post by Debisree Ray about JupyterCon 2025&lt;/a> on the
 &lt;a href="https://medium.com/womenintechnology" target="_blank" rel="noopener" >Women in Technology blog&lt;/a>. It&amp;rsquo;s full of thoughtful reflections about the community and the conference, and we wanted to share a few highlights.&lt;/p>
 &lt;p>
@@ -7779,7 +7835,25 @@ Acknowledgements
 &lt;a href="http://www.icsi.berkeley.edu/" target="_blank" rel="noopener" >International Computer Science Institute&lt;/a>, a 501(c)(3) charitable organization. We thank ICSI for its collaboration and leadership in launching 2i2c!&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/div></description></item><item><title>Enabling / creating / X outcome by doing Y thing</title><link>https://2i2c.org/blog/_template-post/impact-post/</link><pubDate>Wed, 01 Jan 1000 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/_template-post/impact-post/</guid><description>&lt;p>One or two sentences about what happened and who did it. Link to the appropriate people, orgs, etc!&lt;/p>
+&lt;/div></description></item><item><title>[Person's name] on [Topic]</title><link>https://2i2c.org/blog/_templates/reference-post/</link><pubDate>Wed, 01 Jan 1000 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/_templates/reference-post/</guid><description>&lt;p>One or two sentences describing a piece of content that you&amp;rsquo;d like to reference, its main takeaway, its author, and why it&amp;rsquo;s worth reading (add a link to it and the author&amp;rsquo;s name).&lt;/p>
+&lt;p>Some things that stood out to us:&lt;/p>
+&lt;p>Quotes, images, etc from the post that you&amp;rsquo;d like to highlight. Just one or two is fine, but add as much as you like. Make sure you&amp;rsquo;re using exact quotes!&lt;/p>
+&lt;p>They mention ____ about ____&lt;/p>
+&lt;blockquote>
+&lt;p>Pull quote&lt;/p>
+&lt;/blockquote>
+&lt;p>They also talk about ____&lt;/p>
+&lt;blockquote>
+&lt;p>Pull quote&lt;/p>
+&lt;/blockquote>
+&lt;p>Read more in the original article:
+&lt;a href="https://2i2c.org/blog/_templates/reference-post/[link]" >article title&lt;/a>.&lt;/p>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>Bulleted list of people and organizations to thank, with links to their spaces.&lt;/li>
+&lt;/ul></description></item><item><title>Enabling / creating / X outcome by doing Y thing</title><link>https://2i2c.org/blog/_templates/impact-post/</link><pubDate>Wed, 01 Jan 1000 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/_templates/impact-post/</guid><description>&lt;p>One or two sentences about what happened and who did it. Link to the appropriate people, orgs, etc!&lt;/p>
 &lt;p>One or two sentences describing why this is important, why it&amp;rsquo;s valuable, or what it means.&lt;/p>
 &lt;p>&lt;em>Embed any images, videos, or youtube videos that are relevant. Put images in a file in the same folder called &lt;code>featured.png&lt;/code> so it shows up as a feature preview.&lt;/em>&lt;/p>
 &lt;h2 id="learn-more">
@@ -7800,7 +7874,7 @@ EXTRA EXAMPLES
 &lt;/h2>&lt;ul>
 &lt;li>Service post: blog/2025/status-page/index.md&lt;/li>
 &lt;li>Impact post: blog/2025/hackweek-shoutout/index.md&lt;/li>
-&lt;/ul></description></item><item><title>Incident report: Brief description of the incident</title><link>https://2i2c.org/blog/_template-post/incident-report/</link><pubDate>Wed, 01 Jan 1000 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/_template-post/incident-report/</guid><description>&lt;p>On MMMM DD, YYYY our cloud infrastructure team experienced an incident with the XXXXX community hub. [See this issue for the full report](LINK TO ISSUE IN 2i2c-org/incident-reports).&lt;/p>
+&lt;/ul></description></item><item><title>Incident report: Brief description of the incident</title><link>https://2i2c.org/blog/_templates/incident-report/</link><pubDate>Wed, 01 Jan 1000 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/_templates/incident-report/</guid><description>&lt;p>On MMMM DD, YYYY our cloud infrastructure team experienced an incident with the XXXXX community hub. [See this issue for the full report](LINK TO ISSUE IN 2i2c-org/incident-reports).&lt;/p>
 &lt;h2 id="what-happened">
 What happened
 &lt;a class="header-anchor" href="#what-happened">#&lt;/a>
@@ -7830,7 +7904,7 @@ EXTRA EXAMPLES
 &lt;a class="header-anchor" href="#extra-examples">#&lt;/a>
 &lt;/h2>&lt;ul>
 &lt;li>content/blog/2025/incident-ucmerced-user-throttling/index.md&lt;/li>
-&lt;/ul></description></item><item><title>TIL: How to do XYZ thing for Y outcome</title><link>https://2i2c.org/blog/_template-post/learning-post/</link><pubDate>Wed, 01 Jan 1000 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/_template-post/learning-post/</guid><description>&lt;p>One or two sentences setting context about a common problem.&lt;/p>
+&lt;/ul></description></item><item><title>TIL: How to do XYZ thing for Y outcome</title><link>https://2i2c.org/blog/_templates/learning-post/</link><pubDate>Wed, 01 Jan 1000 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/_templates/learning-post/</guid><description>&lt;p>One or two sentences setting context about a common problem.&lt;/p>
 &lt;p>One to many sections describing something we&amp;rsquo;ve tried and what we&amp;rsquo;ve learned in solving that problem.&lt;/p>
 &lt;p>&lt;em>Embed any images, videos, or youtube videos that are relevant. Put images in a file in the same folder called &lt;code>featured.png&lt;/code> so it shows up as a feature preview.&lt;/em>&lt;/p>
 &lt;h2 id="learn-more">

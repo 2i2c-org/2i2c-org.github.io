@@ -55,7 +55,25 @@ Acknowledgements
 &lt;a href="https://2i2c.org/blog/2025/web-traffic-tracking-open-source/../foundational-contributions/" >Foundational contribution&lt;/a>. This was related to that effort!&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/div></description></item><item><title>TIL: How to do XYZ thing for Y outcome</title><link>https://2i2c.org/blog/_template-post/learning-post/</link><pubDate>Wed, 01 Jan 1000 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/_template-post/learning-post/</guid><description>&lt;p>One or two sentences setting context about a common problem.&lt;/p>
+&lt;/div></description></item><item><title>[Person's name] on [Topic]</title><link>https://2i2c.org/blog/_templates/reference-post/</link><pubDate>Wed, 01 Jan 1000 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/_templates/reference-post/</guid><description>&lt;p>One or two sentences describing a piece of content that you&amp;rsquo;d like to reference, its main takeaway, its author, and why it&amp;rsquo;s worth reading (add a link to it and the author&amp;rsquo;s name).&lt;/p>
+&lt;p>Some things that stood out to us:&lt;/p>
+&lt;p>Quotes, images, etc from the post that you&amp;rsquo;d like to highlight. Just one or two is fine, but add as much as you like. Make sure you&amp;rsquo;re using exact quotes!&lt;/p>
+&lt;p>They mention ____ about ____&lt;/p>
+&lt;blockquote>
+&lt;p>Pull quote&lt;/p>
+&lt;/blockquote>
+&lt;p>They also talk about ____&lt;/p>
+&lt;blockquote>
+&lt;p>Pull quote&lt;/p>
+&lt;/blockquote>
+&lt;p>Read more in the original article:
+&lt;a href="https://2i2c.org/blog/_templates/reference-post/[link]" >article title&lt;/a>.&lt;/p>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>Bulleted list of people and organizations to thank, with links to their spaces.&lt;/li>
+&lt;/ul></description></item><item><title>TIL: How to do XYZ thing for Y outcome</title><link>https://2i2c.org/blog/_templates/learning-post/</link><pubDate>Wed, 01 Jan 1000 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/_templates/learning-post/</guid><description>&lt;p>One or two sentences setting context about a common problem.&lt;/p>
 &lt;p>One to many sections describing something we&amp;rsquo;ve tried and what we&amp;rsquo;ve learned in solving that problem.&lt;/p>
 &lt;p>&lt;em>Embed any images, videos, or youtube videos that are relevant. Put images in a file in the same folder called &lt;code>featured.png&lt;/code> so it shows up as a feature preview.&lt;/em>&lt;/p>
 &lt;h2 id="learn-more">
