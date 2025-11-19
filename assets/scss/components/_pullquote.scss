@@ -4,7 +4,8 @@
   // Differentiate with margin and padding instead of background/border
   margin: 2rem 0;
   padding: 1rem 2rem;
-  border-radius: .5rem;
+  background: none;
+  border: none;
 
   // Style the quote text
   p {
@@ -21,7 +22,7 @@
     display: block;
     text-align: right; // Right-aligned citation
     font-style: normal;
-    font-size: 0.85rem; // Smaller font
+    font-size: 1rem; // Smaller font
     margin-top: 0.5rem;
 
     // Add an em-dash before the name

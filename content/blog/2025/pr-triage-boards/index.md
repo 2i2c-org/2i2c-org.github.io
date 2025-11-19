@@ -14,6 +14,12 @@ Yuvi has a recent post on the [Jupyter blog](https://jupyter.org) on how his "ma
 
 {{< figure src="featured.png" title="The [JupyterHub PR Triage board](https://github.com/orgs/jupyterhub/projects/4/views/9)." >}}
 
+Our favorite quote shares the vibe and cultural principles that drive this effort:
+
+{{< pull-quote cite="[Yuvi](../../../authors/yuvi-panda/)">}}
+If the author of the PR is a newish contributor, as I want to encourage them to stick around by being responsive to their gift. All PRs are gifts that we may or may not choose to accept, but should do so with grace.
+{{< /pull-quote >}}
+
 Yuvi frames the problem here:
 
 > Reviewing PRs is a critical way that maintainers keep an open source project moving forward, but identifying PRs that can productively be merged is hard.

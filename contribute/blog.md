@@ -160,3 +160,11 @@ An example admonition / callout:
 Here's some markdown in my callout!
 
 {{% /callout %}}
+
+### Pull quotes
+
+An example pull quote
+
+{{% pull-quote cite="Author name"%}}
+Here's a pull quote.
+{{% /pull-quote %}}
