@@ -15,6 +15,10 @@ We are excited to announce that we have extended our cloud cost dashboards to su
 
 ![Group cloud cost dashboard showing cost breakdowns by user groups](featured.png)
 
+{{% callout %}}
+Available for dedicated AWS clusters only (and excluding CloudBank managed accounts). Other deployments on GCP will be supported in the future.
+{{% /callout %}}
+
 ## Learn more
 
 - Take a look at the [Community Hub Guide](https://docs.2i2c.org/admin/monitoring/cost-users-groups/#group-cloud-costs) to see what's new
