@@ -1,12 +1,11 @@
 ---
-title: Extending cloud cost dashboards to display user groups with Grafana
-date: 2025-11-24
+title: Adding User Group Insights to Cloud Cost Dashboards with Grafana
 authors:
   - Jenny Wong
 categories: service-enhancements
 tags:
   - announcement
-  - cloud-costs
+  - cloud costs
   - monitoring
   - open source
 ---
