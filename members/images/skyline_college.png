@@ -18,7 +18,10 @@
       <link href="//skylinecollege.edu/dist/theme-smcccd/plugins/jQuery.mmenu/src/css/jquery.mmenu.all.css" rel="stylesheet">
       <link href="//skylinecollege.edu/dist/theme-smcccd/plugins/clingify/clingify.css" rel="stylesheet">
       <link href="//fonts.googleapis.com/css?family=Noto+Sans:400,700,400italic,700italic" rel="stylesheet">
-      <link href="//skylinecollege.edu/dist/css/skyline-2017.css" rel="stylesheet"><!-- OVERRIDES CSS --> 
+      <link href="//skylinecollege.edu/dist/css/skyline-2017.css" rel="stylesheet">
+      <link rel="stylesheet" href="https://use.typekit.net/drf3ngp.css">
+
+<!-- OVERRIDES CSS --> 
 <!-- 5.3.22 VisionPoint Skyline College Campaign Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
 new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],

@@ -1,4 +1,48 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Jenny Wong | 2i2c</title><link>https://2i2c.org/author/jenny-wong/</link><atom:link href="https://2i2c.org/author/jenny-wong/index.xml" rel="self" type="application/rss+xml"/><description>Jenny Wong</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 23 Oct 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/author/jenny-wong/avatar_huc2333c99a5a6960f14279231c17feb93_40255_270x270_fill_q75_lanczos_center.jpg</url><title>Jenny Wong</title><link>https://2i2c.org/author/jenny-wong/</link></image><item><title>Jenny Wong</title><link>https://2i2c.org/author/jenny-wong/</link><pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/author/jenny-wong/</guid><description>&lt;p>Jenny is an Open Source Applications Engineer focused on delivering the Platform and Services roadmap for 2i2c. Her previous work has included the CZI-funded Catalyst Project, an initiative aiming to provide research communities in Latin America and Africa with access to large-scale scientific infrastructure. She&amp;rsquo;s built community-based training materials for interactive cloud-native workflows. Jenny is responsible for building user-centered open source applications that ensure the alignment of Product and Services value streams to the needs of the communities we serve.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Jenny Wong | 2i2c</title><link>https://2i2c.org/author/jenny-wong/</link><atom:link href="https://2i2c.org/author/jenny-wong/index.xml" rel="self" type="application/rss+xml"/><description>Jenny Wong</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Nov 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/author/jenny-wong/avatar_huc2333c99a5a6960f14279231c17feb93_40255_270x270_fill_q75_lanczos_center.jpg</url><title>Jenny Wong</title><link>https://2i2c.org/author/jenny-wong/</link></image><item><title>Adding User Group Insights to Cloud Cost Dashboards with Grafana</title><link>https://2i2c.org/blog/2025/cloud-cost-groups/</link><pubDate>Mon, 24 Nov 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/cloud-cost-groups/</guid><description>&lt;p>We are excited to announce that we have extended our cloud cost dashboards to support display costs filtered by user groups using Grafana! This new feature allows administrators to monitor and manage cloud expenses based on user group memberships in JupyterHub.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Group cloud cost dashboard showing cost breakdowns by user groups" srcset="
+/blog/2025/cloud-cost-groups/featured_hu34fd6e3a049030056ef3072c1a0427ac_131153_3e9e0130f0df351c1ba68cf8ac8772c0.webp 400w,
+/blog/2025/cloud-cost-groups/featured_hu34fd6e3a049030056ef3072c1a0427ac_131153_ea495cf6613eae40c2db0a49fdb91b83.webp 760w,
+/blog/2025/cloud-cost-groups/featured_hu34fd6e3a049030056ef3072c1a0427ac_131153_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/2025/cloud-cost-groups/featured_hu34fd6e3a049030056ef3072c1a0427ac_131153_3e9e0130f0df351c1ba68cf8ac8772c0.webp"
+width="760"
+height="388"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;h2 id="learn-more">
+Learn more
+&lt;a class="header-anchor" href="#learn-more">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>Take a look at the
+&lt;a href="https://docs.2i2c.org/admin/monitoring/cost-users-groups/#group-cloud-costs" target="_blank" rel="noopener" >Community Hub Guide&lt;/a> to see what&amp;rsquo;s new&lt;/li>
+&lt;li>Check out the documentation of the
+&lt;a href="https://jupyterhub-cost-monitoring.readthedocs.io/en/latest/" target="_blank" rel="noopener" >2i2c-org/jupyterhub-cost-monitoring&lt;/a> project to see how it all works&lt;/li>
+&lt;li>
+&lt;a href="https://2i2c.org/author/jenny-wong/" >Jenny&lt;/a> recently presented her work on the cost monitoring system at
+&lt;a href="https://events.linuxfoundation.org/jupytercon/" target="_blank" rel="noopener" >JupyterCon 2025&lt;/a> earlier this month. Watch a
+&lt;a href="https://youtu.be/M5x3bTgRzVs?si=P2c3Ngb8v7f4ks0I" target="_blank" rel="noopener" >video&lt;/a> or look at the
+&lt;a href="https://docs.google.com/presentation/d/1N8V7dna1atpRmcbpgZ0-VL5cbOQfwYfXTstudT2ierY/edit?usp=sharing" target="_blank" rel="noopener" >slides&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;a href="https://docs.google.com/forms/d/e/1FAIpQLSff-u-sWFuwO1-VTgk2Ir7f1nfUUlLevQk_Vkk_jnmcI1nJnw/viewform?usp=pp_url&amp;amp;entry.648332035=https://2i2c.org/blog/2025/cloud-cost-groups/" target="_blank" rel="noopener" class="text-decoration-none">
+&lt;div class="alert alert-info d-flex align-items-start p-3" role="button" style="transition: all 0.2s ease; box-shadow: 0 2px 4px rgba(0,0,0,0.1);" onmouseover="this.style.backgroundColor='#b3e5fc'; this.style.boxShadow='0 4px 8px rgba(0,0,0,0.15)'; this.style.transform='translateY(-1px)'" onmouseout="this.style.backgroundColor=''; this.style.boxShadow='0 2px 4px rgba(0,0,0,0.1)'; this.style.transform='translateY(0)'" onfocus="this.style.backgroundColor='#b3e5fc'; this.style.boxShadow='0 4px 8px rgba(0,0,0,0.15)'; this.style.transform='translateY(-1px)'" onblur="this.style.backgroundColor=''; this.style.boxShadow='0 2px 4px rgba(0,0,0,0.1)'; this.style.transform='translateY(0)'">
+&lt;div class="fw-bold mb-1">&lt;span style="font-weight:bold">Give us feedback!&lt;/span> Click here to provide feedback that will help us make this more impactful.&lt;/div>
+&lt;/div>
+&lt;/a>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;a href="https://github.com/sunu" target="_blank" rel="noopener" >Tarashish&lt;/a> @
+&lt;a href="https://2i2c.org/collaborators/devseed/" >Development Seed&lt;/a> for collaborating on this project with us.&lt;/li>
+&lt;li>
+&lt;a href="https://2i2c.org/collaborators/nasa-veda/" >NASA VEDA&lt;/a> and the DSE Team at NASA MSFC ODSI for funding much of this work.&lt;/li>
+&lt;li>
+&lt;a href="https://github.com/kyle-lesinger" target="_blank" rel="noopener" >Kyle Lesinger&lt;/a> from the Disasters community for providing valuable feedback and bug reports during development.&lt;/li>
+&lt;/ul></description></item><item><title>Jenny Wong</title><link>https://2i2c.org/author/jenny-wong/</link><pubDate>Mon, 24 Nov 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/author/jenny-wong/</guid><description>&lt;p>Jenny is an Open Source Applications Engineer focused on delivering the Platform and Services roadmap for 2i2c. Her previous work has included the CZI-funded Catalyst Project, an initiative aiming to provide research communities in Latin America and Africa with access to large-scale scientific infrastructure. She&amp;rsquo;s built community-based training materials for interactive cloud-native workflows. Jenny is responsible for building user-centered open source applications that ensure the alignment of Product and Services value streams to the needs of the communities we serve.&lt;/p>
 &lt;p>As a former research software engineer, Jenny has considerable experience supporting researchers with writing documentation, creating video tutorials, and designing and delivering training for advanced research computing. Jenny is also a qualified Software Carpentries Instructor.&lt;/p>
 &lt;p>Jenny&amp;rsquo;s background is in mathematics, with a special interest in geophysical fluid dynamics. She obtained a PhD in the subject with her thesis titled &amp;ldquo;A slurry model of the F-layer in the Earth&amp;rsquo;s core&amp;rdquo;.&lt;/p></description></item><item><title>NASA Openscapes mentors run airborne data machine learning workshop with 401 participants from 68 countries</title><link>https://2i2c.org/blog/2025/openscapes-workshop/</link><pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/openscapes-workshop/</guid><description>&lt;p>NASA Openscapes mentors recently hosted a workshop attended by 401 participants from 68 countries to learn how to use airborne data and machine learning for environmental research!&lt;/p>
 &lt;p>They gave participants computational environments on a community hub managed by 2i2c to teach skills in data science like image classification with airborne spectroscopy and accessing data from NASA JPL
