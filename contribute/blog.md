@@ -84,7 +84,7 @@ _Tags are more fluid, you can add as many to a post as you like._
 - `sustainability` - about funding or capacity building
 - `reliability` - about infrastructure reliability
 - `monitoring` - about visibility and monitoring of cloud infrastructure
-- `cloud-costs` - about cloud costs
+- `cloud costs` - about cloud costs
 - `communication` - about communicating ideas
 - `reproducibility` - about enabling reproducible computation
 - `computation` - about enabling computation and scaling
@@ -99,7 +99,7 @@ _Tags are more fluid, you can add as many to a post as you like._
 - `binder`
 
 #### Domains
-- `earth-science` - (here are common ones, add new domain tags as you wish)
+- `eart -science` - (here are common ones, add new domain tags as you wish)
 - `biology`
 
 ## How to write blog posts
