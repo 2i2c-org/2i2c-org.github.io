@@ -30,7 +30,7 @@ It contains an `index.md` file that you can modify. Put it in the folder for the
 
 _Categories are non-overlapping, every post must have one category._
 
-#### `service-enhancements`
+#### `service enhancements`
 
 Hub improvements and infrastructure that benefits members
 
@@ -39,7 +39,7 @@ Hub improvements and infrastructure that benefits members
 - Technical migrations
 - Performance improvements
 
-#### `community-impact`
+#### `community impact`
 
 Work from our collaborators and member communities that we've enabled.
 
@@ -47,7 +47,7 @@ Work from our collaborators and member communities that we've enabled.
 - Hackweeks and events
 - Announcements and offers from collaborators
 
-#### `upstream-impact`
+#### `upstream impact`
 
 Strengthening the open source ecosystem
 
