@@ -18,7 +18,7 @@ We are excited to announce that we have extended our cloud cost dashboards to su
 
 - Take a look at the [Community Hub Guide](https://docs.2i2c.org/admin/monitoring/cost-users-groups/#group-cloud-costs) to see what's new
 - Check out the documentation of the [2i2c-org/jupyterhub-cost-monitoring](https://jupyterhub-cost-monitoring.readthedocs.io/en/latest/) project to see how it all works
-- [Jenny](../../../authors/jenny-wong/_index.md) recently presented her work on the cost monitoring system at JupyterCon 2025 earlier this month. Watch a [video](https://youtu.be/M5x3bTgRzVs?si=P2c3Ngb8v7f4ks0I) or look at the [slides](https://docs.google.com/presentation/d/1N8V7dna1atpRmcbpgZ0-VL5cbOQfwYfXTstudT2ierY/edit?usp=sharing).
+- [Jenny](../../../authors/jenny-wong/_index.md) recently presented her work on the cost monitoring system at [JupyterCon 2025](https://events.linuxfoundation.org/jupytercon/) earlier this month. Watch a [video](https://youtu.be/M5x3bTgRzVs?si=P2c3Ngb8v7f4ks0I) or look at the [slides](https://docs.google.com/presentation/d/1N8V7dna1atpRmcbpgZ0-VL5cbOQfwYfXTstudT2ierY/edit?usp=sharing).
 
 {{< feedback >}}
 
