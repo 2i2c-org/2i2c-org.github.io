@@ -1,5 +1,6 @@
 ---
 title: Hub Champion Training Reflections (English)
+slug: "external-hub-champion-training"
 date: 2024-09-04
 tags:
   - biology

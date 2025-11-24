@@ -1,5 +1,6 @@
 ---
 title: "Announcing `jupyterhub-groups-exporter`: monitor usage based on JupyterHub group membership with Prometheus and Grafana"
+slug: "jupyterhub-groups-exporter"
 subtitle: ""
 authors:
   - Jenny Wong

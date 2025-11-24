@@ -1,5 +1,6 @@
 ---
 title: "One year later: an update of 2i2c's mission, strategy, and impact"
+slug: "strategic-update"
 subtitle: ""
 summary: ""
 authors:
@@ -25,7 +26,7 @@ And a description about our immediate activities to make things a bit more concr
 
 > 2i2c designs, develops, and operates JupyterHubs in the cloud for communities of practice in research & education. It builds and supports open source infrastructure that serves these communities.
 
-Around a year ago [we began our pilot JupyterHubs project](http://2i2c.org/blog/2021/six-month-update/) to learn more about our biggest challenges and opportunities in making interactive computing more accessible and useful for research and education.
+Around a year ago [we began our pilot JupyterHubs project](http://2i2c.org/blog/six-month-update/) to learn more about our biggest challenges and opportunities in making interactive computing more accessible and useful for research and education.
 While both of these statements are still accurate, over the past year we've also learned more about the value that 2i2c provides. This post is an exploration of how these statements and our strategy may evolve in the near future.
 
 ## What did we miss with our original strategy?

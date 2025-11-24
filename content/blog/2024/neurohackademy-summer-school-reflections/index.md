@@ -1,5 +1,6 @@
 ---
 title: NeuroHackademy Summer School Reflections
+slug: "neurohackademy-summer-school-reflections"
 date: 2024-08-19
 authors:
   - Ariel Rokem

@@ -1,5 +1,6 @@
 ---
 title: Improvements to our team's planning and delivery
+slug: "delivery-improvements"
 date: 2024-04-15
 lastmod: 2024-04-15
 authors:

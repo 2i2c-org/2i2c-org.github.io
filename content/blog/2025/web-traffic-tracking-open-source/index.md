@@ -1,5 +1,6 @@
 ---
 title: "TIL: A few ways to track web traffic for open source projects"
+slug: "web-traffic-tracking-open-source"
 date: "2025-10-19"
 authors:
   - Chris Holdgraf

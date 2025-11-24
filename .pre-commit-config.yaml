@@ -5,3 +5,12 @@ repos:
   - id: oxipng
     # These are the recommended arguments in the oxipng repo
     args: ["-o", "4", "--alpha", "--strip", "safe"]
+
+- repo: local
+  hooks:
+  - id: add-blog-slugs
+    name: Add slugs to blog posts
+    entry: python scripts/add_slugs_to_blog_posts.py
+    language: system
+    files: ^content/blog/.*/index\.md$
+    pass_filenames: false

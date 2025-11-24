@@ -1,5 +1,6 @@
 ---
 title: "TIL: GitHub Action secrets are only available from non-forked repositories"
+slug: "github-action-secrets-forked-repositories"
 date: "2025-10-08"
 authors:
   - Chris Holdgraf

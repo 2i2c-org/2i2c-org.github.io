@@ -1,5 +1,6 @@
 ---
 title: "Open slides: Jupyter Book 2 and MyST at the UC Berkeley Data Science Education Summit"
+slug: "jb2-berkeley-dsep"
 date: 2025-07-01
 authors:
   - Chris Holdgraf

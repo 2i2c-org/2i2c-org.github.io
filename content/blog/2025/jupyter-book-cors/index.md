@@ -1,5 +1,6 @@
 ---
 title: "Designing for an ecosystem: a case study in cross-project open source contribution"
+slug: "jupyter-book-cors"
 date: 2025-01-21
 authors:
   - Chris Holdgraf

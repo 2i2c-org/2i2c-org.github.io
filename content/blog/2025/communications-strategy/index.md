@@ -1,5 +1,6 @@
 ---
 title: We're going to try blogging about our work more often
+slug: "communications-strategy"
 date: 2025-09-10
 authors:
   - Chris Holdgraf

@@ -1,5 +1,6 @@
 ---
 title: Hello World
+slug: "hello-world"
 subtitle: ""
 summary: ""
 authors:

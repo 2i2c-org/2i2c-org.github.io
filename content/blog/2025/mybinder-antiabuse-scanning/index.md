@@ -1,5 +1,6 @@
 ---
 title: Combating tcp scanning on mybinder.org with the tcpflowkiller
+slug: "mybinder-antiabuse-scanning"
 date: 2025-10-08
 authors:
   - Yuvi Panda

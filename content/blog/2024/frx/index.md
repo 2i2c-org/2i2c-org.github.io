@@ -1,5 +1,6 @@
 ---
 title: "`frx-challenges`: A new tool to host data challenges for Frictionless Research Exchanges"
+slug: "frx"
 date: 2024-12-06
 tags:
   - open-source

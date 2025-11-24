@@ -1,5 +1,6 @@
 ---
 title: From the GeoLab team - Pancakes are the future of geophysical data processing
+slug: "external-earthscope-pancakes"
 date: 2024-10-01
 tags:
   - earth-science

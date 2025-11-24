@@ -1,6 +1,7 @@
 ---
 date: 2025-02-15
 title: Where we hope to improve our service for creating and sharing knowledge.
+slug: "knowledge-cycle"
 draft: true
 categories:
   - service-enhancements

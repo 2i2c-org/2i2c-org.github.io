@@ -1,5 +1,6 @@
 ---
 title: "Yuvi on scaling maintainer intuition to facilitate PR review with PR triage boards"
+slug: "pr-triage-boards"
 date: "2025-11-19"
 categories:
 - upstream-impact

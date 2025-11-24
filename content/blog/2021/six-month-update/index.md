@@ -1,5 +1,6 @@
 ---
 title: Pilot hubs, new collaborations, and new team members - A six month update
+slug: "six-month-update"
 summary: ""
 authors:
   - Chris Holdgraf

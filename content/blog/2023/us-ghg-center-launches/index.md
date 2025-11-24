@@ -1,5 +1,6 @@
 ---
 title: "Digital public goods for Earth system management: U.S. Greenhouse Gas Center launches"
+slug: "us-ghg-center-launches"
 subtitle: ""
 summary: ""
 authors:

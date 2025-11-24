@@ -1,5 +1,6 @@
 ---
 title: Updates from Chris' position on the Jupyter Executive Council and Foundation Board
+slug: "executive-council-updates"
 subtitle: ""
 authors:
   - Chris Holdgraf
@@ -29,11 +30,11 @@ Chris aims to write monthly updates for Jupyter's community in the [Jupyter Comm
 Chris blogs now and then to share his thoughts, important announcements, and provide major updates from his perspective on the executive council. Here are the posts that have come out of this effort.
 
 - [Your Ideas, Our Support: Jupyter Community Call For Funding Proposals](https://blog.jupyter.org/your-ideas-our-support-jupyter-community-call-for-funding-proposals-f4642590ae76?source=collection_home_page----95916e268740-----0-----------------------------------)
-- [Why open source foundations try to fund systems, not development](https://chrisholdgraf.com/blog/2025/fund-systems-not-developmend) - May 31, 2025
-- [Jupyter can align the needs of its community and its foundation by enabling contribution](https://chrisholdgraf.com/blog/2025/more-contributors) - Mar 22, 2025
-- [The relationship between the Jupyter Executive Council, Software Steering Council, and Foundation](https://chrisholdgraf.com/blog/2025/jupyter-org-structure) - Mar 02, 2025
-- [Ways the Jupyter Foundation could support open source projects](https://chrisholdgraf.com/blog/2025/os-support) - Feb 26, 2025
-- [Running for the Jupyter Executive Council](https://chrisholdgraf.com/blog/2025/jec) - Jan 14, 2025
+- [Why open source foundations try to fund systems, not development](https://chrisholdgraf.com/blog/fund-systems-not-developmend) - May 31, 2025
+- [Jupyter can align the needs of its community and its foundation by enabling contribution](https://chrisholdgraf.com/blog/more-contributors) - Mar 22, 2025
+- [The relationship between the Jupyter Executive Council, Software Steering Council, and Foundation](https://chrisholdgraf.com/blog/jupyter-org-structure) - Mar 02, 2025
+- [Ways the Jupyter Foundation could support open source projects](https://chrisholdgraf.com/blog/os-support) - Feb 26, 2025
+- [Running for the Jupyter Executive Council](https://chrisholdgraf.com/blog/jec) - Jan 14, 2025
 
 ## 2i2c's commitment to supporting open source communities
 {#context}

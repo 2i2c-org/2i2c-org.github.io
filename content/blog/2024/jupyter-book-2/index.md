@@ -1,5 +1,6 @@
 ---
 title: Announcing the Jupyter Book 2 alpha
+slug: "jupyter-book-2"
 date: 2024-11-18
 authors:
   - Jenny Wong

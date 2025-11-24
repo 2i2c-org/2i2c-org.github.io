@@ -1,5 +1,6 @@
 ---
 title: "Integrating BinderHub with JupyterHub: Empowering users to manage their own environments"
+slug: "jupyterhub-binderhub-gesis"
 subtitle: ""
 summary: ""
 authors:
@@ -21,7 +22,7 @@ draft: false
 
 But, mybinder.org (and the [BinderHub](https://github.com/jupyterhub/binderhub/) software that powers it) is built for *sharing* your work after you are done with it, *not* for actively doing work. BinderHubs often do not have persistent storage nor persistent user identity, and UX is centered around *ephemeral* interactivity that can be shared with others (via a link), rather than *persistent* interactivity that a single user repeatedly comes back to. [JupyterHub](https://jupyter.org/hub) is more commonly used for this kinda workflow, but doesn't currently have the ability for users to easily build their own environments. Admins who are *running* the JupyterHub can make [multiple environments](https://z2jh.jupyter.org/en/stable/jupyterhub/customizing/user-environment.html#using-multiple-profiles-to-let-users-select-their-environment) available for users to choose from, but this still puts admins in the critical path for environment customization.
 
-Our [collaboration](https://2i2c.org/blog/2022/gesis-2i2c-collaboration-update/) with [GESIS](../../../collaborators/gesis/), [NFDI4DS](https://www.nfdi4datascience.de), and [CESSDA](https://www.cessda.eu), aims to bring this flexibility to JupyterHub directly. We aim to empower users to decide for themselves which applications and dependencies are installed on a per-project basis. Our work enables communities with heterogeneous requirements to share a single Hub. Our approach frees administrators from being overwhelmed by installation requests and transforms the JupyterHub platform into a platform for collaborative computational reproducibility. In this update, we report on our progress and upcoming steps in this project.
+Our [collaboration](https://2i2c.org/blog/gesis-2i2c-collaboration-update/) with [GESIS](../../../collaborators/gesis/), [NFDI4DS](https://www.nfdi4datascience.de), and [CESSDA](https://www.cessda.eu), aims to bring this flexibility to JupyterHub directly. We aim to empower users to decide for themselves which applications and dependencies are installed on a per-project basis. Our work enables communities with heterogeneous requirements to share a single Hub. Our approach frees administrators from being overwhelmed by installation requests and transforms the JupyterHub platform into a platform for collaborative computational reproducibility. In this update, we report on our progress and upcoming steps in this project.
 
 ## What does a BinderHub do, exactly?
 

@@ -1,5 +1,6 @@
 ---
 title: Towards frictionless, portable, and sustainable reproducibility with Binder
+slug: "frictionless-reproducibility"
 date: 2025-02-10
 authors:
   - Chris Holdgraf
@@ -10,8 +11,7 @@ categories:
 tags:
   - binder
   - reproducibility
---- 
-
+---
 Last December I had an opportunity to discuss the current and future state of the open publishing ecosystem at a workshop hosted by [HHMI](../../../collaborators/hhmi/)[^followup]. While 2i2c doesn't primarily focus on "publishing" workflows, we do support communities on a journey that often _leads to publishing_, and we make choices about technology in our [community hub platform](../../../platform/) that can support different kinds of publishing outcomes.
 
 [^followup]: There's a [follow-up meeting](https://incentivizingopen.org/2025/03/new-paradigms-in-research-communication-continuing-thediscussion/) for those who are interested.

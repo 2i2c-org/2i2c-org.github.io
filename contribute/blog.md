@@ -20,7 +20,7 @@ Copy the blog post folder template at the path below:
 content/blog/_templates/[post-type]/index.md
 ```
 
-It contains an `index.md` file that you can modify. Put it in the folder for the year in which you're posting (e.g.: `content/blog/2025/mypostfolder`).
+It contains an `index.md` file that you can modify. Put it in the folder for the year in which you're posting (e.g.: `content/blog/mypostfolder`).
 
 ## Tags and categories: how to choose
 

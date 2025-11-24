@@ -1,5 +1,6 @@
 ---
 title: Enabling / creating / X outcome by doing Y thing
+slug: "impact-post"
 date: 1000-01-01
 authors:
   - <pull from issue>

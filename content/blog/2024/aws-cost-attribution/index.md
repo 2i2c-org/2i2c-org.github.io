@@ -1,5 +1,6 @@
 ---
 title: Track and manage cloud costs using Grafana
+slug: "aws-cost-attribution"
 date: 2024-11-15
 authors:
   - Jenny Wong

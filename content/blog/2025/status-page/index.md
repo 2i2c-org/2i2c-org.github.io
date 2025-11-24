@@ -1,5 +1,6 @@
 ---
 title: Demonstrating our infrastructure's reliability with a hub status page for our communities
+slug: "status-page"
 subtitle: ""
 tags:
   - reliability

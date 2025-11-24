@@ -1,5 +1,6 @@
 ---
 title: "[Person's name] on [Topic]"
+slug: "reference-post"
 date: "1000-01-01"
 authors:
   - Foo

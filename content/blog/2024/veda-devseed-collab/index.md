@@ -1,5 +1,6 @@
 ---
 title: Collaborating with Development Seed to deliver cyberinfrastructure for NASA VEDA
+slug: "veda-devseed-collab"
 date: 2024-07-12
 authors:
   - Yuvi Panda

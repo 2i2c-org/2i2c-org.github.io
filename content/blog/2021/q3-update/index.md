@@ -1,5 +1,6 @@
 ---
 title: "Community update Q3 2021: A new fiscal sponsor, improving our infrastructure, nearing an alpha launch."
+slug: "2021-q3-update"
 subtitle: ""
 summary: ""
 authors:

@@ -1,5 +1,6 @@
 ---
 title: "Incident report: Brief description of the incident"
+slug: "incident-report"
 date: 1000-01-01
 categories:
   - service-enhancements
@@ -29,4 +30,4 @@ On MMMM DD, YYYY our cloud infrastructure team experienced an incident with the 
 
 ## EXTRA EXAMPLES
 
-- content/blog/2025/incident-ucmerced-user-throttling/index.md
+- content/blog/incident-ucmerced-user-throttling/index.md

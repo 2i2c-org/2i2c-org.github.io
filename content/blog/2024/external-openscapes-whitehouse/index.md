@@ -1,5 +1,6 @@
 ---
 title: Openscapes goes to the White House!
+slug: "external-openscapes-whitehouse"
 date: 2024-09-23
 tags:
   - open-source

@@ -1,5 +1,6 @@
 ---
 title: Enabling transparent cloud cost monitoring with user-level dashboards
+slug: "cloud-cost-monitoring"
 date: 2025-09-30
 authors:
   - Chris Holdgraf

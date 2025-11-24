@@ -1,5 +1,6 @@
 ---
 title: "The why, what, and how of our NASA Openscapes cloud infrastructure: 2i2c JupyterHub and corn environment"
+slug: "external-openscapes-corn"
 date: 2022-11-17
 tags:
   - earth-science

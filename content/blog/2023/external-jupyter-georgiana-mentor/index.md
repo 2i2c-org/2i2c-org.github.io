@@ -1,5 +1,6 @@
 ---
 title: "On the Jupyter Blog: From intern to mentor."
+slug: "external-jupyter-georgiana-mentor"
 subtitle: ""
 summary: ""
 authors:

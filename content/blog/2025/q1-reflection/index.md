@@ -1,5 +1,6 @@
 ---
 title: "2025-Q1 reflection: Building a foundation for our new platform and membership model"
+slug: "q1-reflection"
 authors:
   - Chris Holdgraf
 categories:
@@ -11,7 +12,7 @@ tags:
 
 _This is a summary of major progress we made in Q1 of 2025. Its goal is to summarize our major accomplishments and important context before we prioritize for Q2. We hope this gives our community stakeholders a more strategic-level insight into our progress and organizational plans. See [our Product Highlights for 2025Q1](../q1-product-highlights/index.md) for a product-focused review.  Please [give us feedback](mailto:hello@2i2c.org) for how we can provide more useful information._
 
-Heading into Q1 2025, we had just completed an organizational re-structuring into new functional areas. These were [Products and Services](https://compass.2i2c.org/product-and-services/), [Business Development](https://compass.2i2c.org/biz-dev/), and [Delivery and Team Enablement](https://compass.2i2c.org/delivery-enablement/). Our [support from The Navigation Fund](https://2i2c.org/blog/2024/funding-navigation/) began in January 2025, and we re-organized around the goals defined in that report. Q1 2025 was the first quarterly cycle under this new system.
+Heading into Q1 2025, we had just completed an organizational re-structuring into new functional areas. These were [Products and Services](https://compass.2i2c.org/product-and-services/), [Business Development](https://compass.2i2c.org/biz-dev/), and [Delivery and Team Enablement](https://compass.2i2c.org/delivery-enablement/). Our [support from The Navigation Fund](https://2i2c.org/blog/funding-navigation/) began in January 2025, and we re-organized around the goals defined in that report. Q1 2025 was the first quarterly cycle under this new system.
 
 Our primary Q1 2025 goal was to build a solid organizational foundation that will enable us to iterate on our product and business model in Q2. We successfully completed our reorganization into dedicated Business Development and Product teams, and implemented a new quarterly target-setting process across the organization. There are still some key remaining areas to make progress, and we need to ensure that key KPIs and team responsibilities are solidified quickly in Q2.
 

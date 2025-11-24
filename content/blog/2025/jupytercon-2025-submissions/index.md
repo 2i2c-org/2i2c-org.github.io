@@ -1,5 +1,6 @@
 ---
 title: 2i2c's submissions to JupyterCon 2025
+slug: "jupytercon-2025-submissions"
 subtitle: ""
 authors:
   - The 2i2c team

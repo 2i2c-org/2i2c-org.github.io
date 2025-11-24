@@ -1,5 +1,6 @@
 ---
 title: Openscapes is hiring a new team member
+slug: "openscapes-is-hiring-a-new-team-member"
 date: 2025-10-07
 categories:
   - community-impact

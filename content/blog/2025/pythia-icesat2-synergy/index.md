@@ -1,5 +1,6 @@
 ---
 title: Communities learning from one another - Project Pythia and ICESat-2 Hackweeks
+slug: "pythia-icesat2-synergy"
 subtitle: ""
 tags:
   - community

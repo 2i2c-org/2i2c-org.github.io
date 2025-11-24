@@ -1,5 +1,6 @@
 ---
 title: Enforcing per-user storage quotas with `jupyterhub-home-nfs`
+slug: "per-user-storage-quota"
 subtitle: ""
 summary: ""
 authors:

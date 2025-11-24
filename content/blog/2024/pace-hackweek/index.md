@@ -1,5 +1,6 @@
 ---
 title: Keeping PACE with GPU enabled compute to detect global cloud cover using satellite data
+slug: "pace-hackweek"
 date: 2024-08-12
 authors:
   - Jenny Wong

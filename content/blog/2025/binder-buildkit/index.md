@@ -1,5 +1,6 @@
 ---
 title: Simplifying and speeding up Binder builds with BuildKit
+slug: "binder-buildkit"
 date: 2025-03-03
 tags:
   - reliability

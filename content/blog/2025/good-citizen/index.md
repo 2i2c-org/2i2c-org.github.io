@@ -1,5 +1,6 @@
 ---
 title: "On being a good open source citizen: supporting a healthy ecosystem through directed and foundational contributions"
+slug: "good-citizen"
 date: 2025-09-03
 authors:
   - Yuvi Panda
@@ -9,7 +10,7 @@ tags:
 categories:
   - organization
 aliases:
-  - /blog/2025/foundational-contributions/
+  - /blog/foundational-contributions/
 ---
 
 Any organization building on open source faces a fundamental tension: how do you serve the needs of your organizational stakeholders while also acting as a responsible steward of the upstream projects you depend on?

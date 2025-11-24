@@ -1,5 +1,6 @@
 ---
 title: Principles and considerations for ethically accepting funding for open source
+slug: "open-source-funding-principles"
 subtitle: ""
 summary: ""
 authors:

@@ -1,5 +1,6 @@
 ---
 title: Howard Hughes Medical Institute publishes preprint on Spyglass, a framework for reproducible and shareable neuroscience research
+slug: "hhmi-spyglass"
 date: 2024-05-21
 authors:
   - Jenny Wong

@@ -1,5 +1,6 @@
 ---
 title: "Offering Jetstream2-powered hub support at 2i2c"
+slug: "jetstream2-persistent-hub"
 date: 2025-04-28
 authors:
   - Georgiana Dolocan

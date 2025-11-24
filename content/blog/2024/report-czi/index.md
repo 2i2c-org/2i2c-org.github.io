@@ -1,5 +1,6 @@
 ---
 title: A three year retrospective report of 2i2c's impact
+slug: "report-czi"
 subtitle: ""
 summary: ""
 authors:

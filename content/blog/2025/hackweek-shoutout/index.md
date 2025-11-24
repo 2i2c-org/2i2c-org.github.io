@@ -1,5 +1,6 @@
 ---
 title: Harnessing Marine Open Data Science for Ocean Sustainability in Africa, South Asia and Latin America
+slug: "hackweek-shoutout"
 subtitle: ""
 authors:
   - April Johnson

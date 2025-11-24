@@ -1,5 +1,6 @@
 ---
 title: "2i2c’s first year, part 1: exploring Jupyter services."
+slug: "2021-review-services"
 subtitle: ""
 summary: ""
 authors:

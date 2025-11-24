@@ -1,5 +1,6 @@
 ---
 title: Fixing the mybinder.org usage analytics archive
+slug: "mybinder-analytics-fix"
 date: 2025-10-14
 authors:
   - Yuvi Panda

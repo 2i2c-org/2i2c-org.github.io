@@ -1,5 +1,6 @@
 ---
 title: "Community Update: October 2023"
+slug: "update-october"
 subtitle: ""
 summary: ""
 authors:

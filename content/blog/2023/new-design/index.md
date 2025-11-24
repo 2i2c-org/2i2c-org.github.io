@@ -1,5 +1,6 @@
 ---
 title: A new design and logo for 2i2c
+slug: "new-design"
 subtitle: ""
 summary: ""
 authors:

@@ -1,5 +1,6 @@
 ---
 title: Towards scalable and sustainable networks of community hubs
+slug: "funding-community-networks"
 date: 2024-06-18
 lastmod: 2024-06-18
 authors:

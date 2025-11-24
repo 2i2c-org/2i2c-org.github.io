@@ -1,5 +1,6 @@
 ---
 title: "New job posting: Product and Community Lead."
+slug: "job-product-community-lead"
 subtitle: ""
 summary: ""
 authors:

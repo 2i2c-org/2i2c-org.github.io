@@ -1,5 +1,6 @@
 ---
 title: 2i2c supports Jupyter Docker Stacks ARM builds
+slug: "docker-stacks-support"
 date: 2023-12-01
 authors:
   - Chris Holdgraf

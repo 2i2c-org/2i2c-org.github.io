@@ -1,5 +1,6 @@
 ---
 title: Sharing JupyterHub's vision for more flexible application deployment at the doepy talk series.
+slug: "doepy-yuvi"
 date: 2025-09-03
 authors:
   - Chris Holdgraf

@@ -1,5 +1,6 @@
 ---
 title: "Launching Jupyter Book for 2i2c Communities"
+slug: "jb-for-communities"
 date: 2025-05-08
 authors:
   - Angus Hollands

@@ -1,5 +1,6 @@
 ---
 title: "Creating a re-usable redirect generator for Jupyter Book 1 migrations"
+slug: "jb1-redirect-generator"
 date: "2025-11-12"
 authors:
   - Chris Holdgraf

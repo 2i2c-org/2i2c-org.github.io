@@ -1,5 +1,6 @@
 ---
 title: Solving classes of problems, rather than just an instance of a problem (with an example)
+slug: "automating-support-upgrades"
 date: 2025-06-09
 categories:
   - service-enhancements
