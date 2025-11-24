@@ -90,7 +90,7 @@ _Tags are more fluid, you can add as many to a post as you like._
 - `computation` - about enabling computation and scaling
 - `data` - about reading and using data in the cloud
 - `sovereignty` - about giving communities control and enabling Right to Replicate
-- `open-source` - anything that involves upstream tools or contributions (use heavily!)
+- `open source` - anything that involves upstream tools or contributions (use heavily!)
 
 #### Technologies
 - `jupyter` (for project-wide information)
