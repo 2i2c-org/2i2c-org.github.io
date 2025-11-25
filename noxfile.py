@@ -9,6 +9,8 @@ import nox
 
 # Hugo version to download from GitHub releases
 HUGO_VERSION = "0.125.3"
+# Lychee version to download from GitHub releases
+LYCHEE_VERSION = "0.21.0"
 
 nox.options.default_venv_backend = "uv"
 nox.options.reuse_existing_virtualenvs = True
@@ -23,8 +25,28 @@ def docs(session):
     hugo_path = install_hugo(session)
 
     # Build the site
-    session.run(hugo_path, external=True)
+    session.run(hugo_path, "--cleanDestinationDir", external=True)
 
+@nox.session(name="linkcheck")
+def linkcheck(session):
+    """Build the site and run lychee link checker against the built output."""
+    hugo_path = install_hugo(session)
+    lychee_path = install_lychee(session)
+
+    # Build the site
+    session.run(hugo_path, "--cleanDestinationDir", external=True)
+
+    # Run link checker offline against the generated site
+    session.run(
+        lychee_path,
+        "--offline",
+        "--accept",
+        "200,301,302",
+        "--max-concurrency",
+        "50",
+        "public",
+        external=True,
+    )
 
 @nox.session(name="docs-live")
 def docs_live(session):
@@ -112,3 +134,60 @@ def install_hugo(session):
 
     session.log(f"Hugo {HUGO_VERSION} installed successfully at {hugo_path}")
     return str(hugo_path)
+
+
+def get_lychee_download_url(version):
+    """Get the download URL for Lychee based on the current platform."""
+    system = platform.system().lower()
+    machine = platform.machine().lower()
+
+    if system == "darwin":
+        arch = "arm64-macos" if machine in ("arm64", "aarch64") else "x86_64-macos"
+        filename = f"lychee-{arch}.tar.gz"
+    elif system == "linux":
+        if machine in ("x86_64", "amd64"):
+            filename = f"lychee-{version}-x86_64-unknown-linux-gnu.tar.gz"
+        elif machine in ("arm64", "aarch64"):
+            filename = f"lychee-{version}-aarch64-unknown-linux-gnu.tar.gz"
+        else:
+            raise RuntimeError(f"Unsupported Linux architecture: {machine}")
+    else:
+        raise RuntimeError(f"Unsupported operating system: {system}")
+
+    base_url = "https://github.com/lycheeverse/lychee/releases/download"
+    tag = f"lychee-v{version}"
+    return f"{base_url}/{tag}/{filename}"
+
+
+def install_lychee(session):
+    """Download and install Lychee if not already present in the session."""
+    bin_dir = Path(session.virtualenv.location) / "bin"
+    bin_dir.mkdir(exist_ok=True)
+    lychee_path = bin_dir / "lychee"
+
+    if lychee_path.exists():
+        session.log(f"Lychee already installed at {lychee_path}")
+        return str(lychee_path)
+
+    download_url = get_lychee_download_url(LYCHEE_VERSION)
+    session.log(f"Downloading Lychee {LYCHEE_VERSION} from {download_url}")
+
+    download_path = bin_dir / "lychee.tar.gz"
+    urllib.request.urlretrieve(download_url, download_path)
+
+    session.log("Extracting Lychee binary...")
+    with tarfile.open(download_path, "r:gz") as tar:
+        for member in tar.getmembers():
+            if member.name.endswith("/lychee"):
+                member.name = "lychee"
+                tar.extract(member, path=bin_dir)
+                break
+            if member.name == "lychee":
+                tar.extract(member, path=bin_dir)
+                break
+
+    lychee_path.chmod(0o755)
+    download_path.unlink()
+
+    session.log(f"Lychee {LYCHEE_VERSION} installed successfully at {lychee_path}")
+    return str(lychee_path)
