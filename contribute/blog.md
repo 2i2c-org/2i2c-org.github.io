@@ -20,7 +20,7 @@ Copy the blog post folder template at the path below:
 content/blog/_templates/[post-type]/index.md
 ```
 
-It contains an `index.md` file that you can modify. Put it in the folder for the year in which you're posting (e.g.: `content/blog/mypostfolder`).
+It contains an `index.md` file that you can modify. Put it in the folder for the year in which you're posting (e.g.: `content/blog/2025/mypostfolder`). Even though URLs no longer include the year, we still organize posts by year in the content tree.
 
 ## Tags and categories: how to choose
 
@@ -107,7 +107,7 @@ _Tags are more fluid, you can add as many to a post as you like._
 Follow these steps:
 
 - **Find a GitHub issue**. An issue should describe the most important points to convey in a post. Read it, and any linked material inside, to learn what it's about.
-- **Choose a template**. Copy one of the `content/blog/_templates/[posttype]/` folders into the appopriate year folder, and modify the folder name. 
+- **Choose a template**. Copy one of the `content/blog/_templates/[posttype]/` folders into the appropriate year folder, and modify the folder name. 
 - **Read the template guidance**. Each template file has suggestions for its structure, as well as links to example posts - reda those posts to understand what we're going for.
 - **Generate a post draft**. The post should be short, to the point, and scannable. Use quick and accessible language, keep posts around 100-300 words.
 - **Add collaborator links**. Scan the post for mention of collaborating people and organizations - check the `/content/collaborators` folder to see if an entry exists for any you notice. If so, add a link to that folder entry.

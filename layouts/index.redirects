@@ -44,9 +44,9 @@ Template variables used:
 
 {{- /* PART 2: Auto-generate redirects for blog posts from year-based structure */ -}}
 {{- /* First, check for duplicate slugs and fail the build if found */ -}}
-{{- /* Build a map of slug -> array of file paths using scratch */ -}}
+{{- /* Build a map of slug -> array of file paths */ -}}
 {{- /* Only check published posts (skip drafts, future posts, and special pages) */ -}}
-{{- $scratch := newScratch -}}
+{{- $slugMap := dict -}}
 {{- $blogPosts := where site.RegularPages "Section" "blog" -}}
 {{- $blogPosts = where $blogPosts ".Draft" false -}}
 {{- range $blogPosts -}}
@@ -54,18 +54,18 @@ Template variables used:
 {{- $urlSlug := .RelPermalink -}}
 {{- /* Skip special pages */ -}}
 {{- if and (ne $urlSlug "") (not (in $urlSlug "/blog/_index")) (not (in $urlSlug "/blog/idea")) -}}
-{{- $existing := $scratch.Get $urlSlug -}}
+{{- $existing := index $slugMap $urlSlug -}}
 {{- if $existing -}}
-{{- $scratch.Set $urlSlug ($existing | append .File.Path) -}}
+{{- $slugMap = merge $slugMap (dict $urlSlug ($existing | append .File.Path)) -}}
 {{- else -}}
-{{- $scratch.Set $urlSlug (slice .File.Path) -}}
+{{- $slugMap = merge $slugMap (dict $urlSlug (slice .File.Path)) -}}
 {{- end -}}
 {{- end -}}
 {{- end -}}
 
 {{- /* Check for any URL that has multiple files */ -}}
 {{- $duplicateErrors := slice -}}
-{{- range $url, $paths := $scratch.Values -}}
+{{- range $url, $paths := $slugMap -}}
 {{- if gt (len $paths) 1 -}}
 {{- $duplicateErrors = $duplicateErrors | append (printf "  %s found in:\n    - %s" $url (delimit $paths "\n    - ")) -}}
 {{- end -}}

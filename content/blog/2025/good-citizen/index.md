@@ -9,8 +9,6 @@ tags:
   - open-source
 categories:
   - organization
-aliases:
-  - /blog/foundational-contributions/
 ---
 
 Any organization building on open source faces a fundamental tension: how do you serve the needs of your organizational stakeholders while also acting as a responsible steward of the upstream projects you depend on?
