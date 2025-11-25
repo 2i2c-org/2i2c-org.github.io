@@ -30,7 +30,7 @@ It contains an `index.md` file that you can modify. Put it in the folder for the
 
 _Categories are non-overlapping, every post must have one category._
 
-#### `service-enhancements`
+#### `service enhancements`
 
 Hub improvements and infrastructure that benefits members
 
@@ -39,7 +39,7 @@ Hub improvements and infrastructure that benefits members
 - Technical migrations
 - Performance improvements
 
-#### `community-impact`
+#### `community impact`
 
 Work from our collaborators and member communities that we've enabled.
 
@@ -47,7 +47,7 @@ Work from our collaborators and member communities that we've enabled.
 - Hackweeks and events
 - Announcements and offers from collaborators
 
-#### `upstream-impact`
+#### `upstream impact`
 
 Strengthening the open source ecosystem
 
@@ -84,13 +84,13 @@ _Tags are more fluid, you can add as many to a post as you like._
 - `sustainability` - about funding or capacity building
 - `reliability` - about infrastructure reliability
 - `monitoring` - about visibility and monitoring of cloud infrastructure
-- `cloud-costs` - about cloud costs
+- `cloud costs` - about cloud costs
 - `communication` - about communicating ideas
 - `reproducibility` - about enabling reproducible computation
 - `computation` - about enabling computation and scaling
 - `data` - about reading and using data in the cloud
 - `sovereignty` - about giving communities control and enabling Right to Replicate
-- `open-source` - anything that involves upstream tools or contributions (use heavily!)
+- `open source` - anything that involves upstream tools or contributions (use heavily!)
 
 #### Technologies
 - `jupyter` (for project-wide information)
@@ -99,7 +99,7 @@ _Tags are more fluid, you can add as many to a post as you like._
 - `binder`
 
 #### Domains
-- `earth-science` - (here are common ones, add new domain tags as you wish)
+- `eart -science` - (here are common ones, add new domain tags as you wish)
 - `biology`
 
 ## How to write blog posts
