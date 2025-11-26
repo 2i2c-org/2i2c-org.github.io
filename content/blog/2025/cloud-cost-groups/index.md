@@ -1,6 +1,7 @@
 ---
 title: Adding User Group Insights to Cloud Cost Dashboards with Grafana
 date: 2025-11-24
+slug: "cloud-cost-groups"
 authors:
   - Jenny Wong
 categories: service enhancements

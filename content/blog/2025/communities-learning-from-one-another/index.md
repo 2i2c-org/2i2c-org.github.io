@@ -1,5 +1,6 @@
 ---
 title: "Community learning: Hub config to pass oauth tokens into user environments"
+slug: "communities-learning-from-one-another"
 date: 2025-11-06
 authors:
   - Chris Holdgraf

@@ -1,5 +1,6 @@
 ---
 title: NeuroHackademy Summer School Reflections
+slug: "neurohackademy-summer-school-reflections"
 date: 2024-08-19
 authors:
   - Ariel Rokem
@@ -30,7 +31,7 @@ In 2020, the event had to rapidly pivot to an online format, and this format was
 
 ### Previous years
 
-NeuroHackademy has been an early adopter of the cloud-based JupyterHub model, setting up its first hub using the zero-to-jupyterhub guide in 2018. NeuroHackademy partnered with 2i2c as soon as it was founded, and 2i2c has operated a JupyterHub for the last 3 years. The hub provides an interactive computing platform for learners, and implements the "digital watering hole" for practical and immediate access to a range of cloud-based datasets in human neuroscience (see [blog post](blog/2024/NeuroHackademy-summer-school/index.md) announcing support for this year's event).
+NeuroHackademy has been an early adopter of the cloud-based JupyterHub model, setting up its first hub using the zero-to-jupyterhub guide in 2018. NeuroHackademy partnered with 2i2c as soon as it was founded, and 2i2c has operated a JupyterHub for the last 3 years. The hub provides an interactive computing platform for learners, and implements the "digital watering hole" for practical and immediate access to a range of cloud-based datasets in human neuroscience (see [blog post](neurohackademy-summer-school/index.md) announcing support for this year's event).
 
 In terms of the software environment, the following tools and features that have benefited the event over the years include
 
@@ -46,7 +47,7 @@ In terms of the software environment, the following tools and features that have
 
 This year 2i2c supported the following tools and features for NeuroHackademy
 
-- A "Bring your own image" option where users can pull any image hosted on a container registry into the hub. See our [Integrating BinderHub with JupyterHub: Empowering users to manage their own environments](blog/2024/jupyterhub-binderhub-gesis) blog post for more details.
+- A "Bring your own image" option where users can pull any image hosted on a container registry into the hub. See our [Integrating BinderHub with JupyterHub: Empowering users to manage their own environments](jupyterhub-binderhub-gesis/index.md) blog post for more details.
 - [`repo2docker`](https://github.com/jupyterhub/repo2docker) and GitHub actions to build and prototype images from a repository.
 - The support services provided by 2i2c and the ability for instructors to [open pull requests on 2i2c infrastructure](https://infrastructure.2i2c.org/contributing/community-partner/) for speedy resolution.
 - GPU instances to support more compute intensive workloads for machine learning.

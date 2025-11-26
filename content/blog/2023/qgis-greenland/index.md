@@ -1,5 +1,6 @@
 ---
 title: A QGIS desktop in the cloud with JupyterHub
+slug: "qgis-greenland"
 date: 2023-08-05
 authors:
   - Yuvi Panda

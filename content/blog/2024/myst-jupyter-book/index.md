@@ -1,5 +1,6 @@
 ---
 title: Jupyter Book 2.0 will use MyST
+slug: "myst-jupyter-book"
 date: 2024-05-21
 lastmod: 2024-05-21
 authors:

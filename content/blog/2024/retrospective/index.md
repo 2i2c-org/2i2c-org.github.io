@@ -1,5 +1,6 @@
 ---
 title: "2024 impact report: new team structure, new funding, and growth in our network"
+slug: "retrospective"
 date: 2024-12-08
 authors:
   - Chris Holdgraf
@@ -23,8 +24,8 @@ At an organizational level, this year had a lot of introspection and planning, a
 
 **We've raised another $2.2M in funding** to support our efforts in scaling and sustaining our network of community hubs. This gives us roughly another 2 years of projected runway (with some assumptions about revenue from contracts and grants). Below are two posts that describe two major awards we were awarded in Q3 and Q4 of this year:
 
-- **[A one-year award from the Chan Zuckerberg Initiative](/blog/2024/funding-czi/)**.
-- **[A two-year award from The Navigation Fund](/blog/2024/funding-navigation/)**.
+- **[A one-year award from the Chan Zuckerberg Initiative](blog/2024/funding-czi/index.md)**.
+- **[A two-year award from The Navigation Fund](blog/2024/funding-navigation/index.md)**.
 
 **We've designed and hired several strategic and systems-level roles** to give our team support and direction as it grows. Here's a brief summary:
 
@@ -60,14 +61,14 @@ Beyond the numbers, we also re-focused our team on reporting impact stories from
 
 Here are a few community highlights from this year:
 
-- We served around 20 communities from Latin America and Africa for the [**Catalyst project**](https://2i2c.org/blog/2024/catalyst-partner-highlights/)
+- We served around 20 communities from Latin America and Africa for the [**Catalyst project**](blog/2024/catalyst-partner-highlights/index.md)
 - Our community partner [**Openscapes** were invited to the White House](https://openscapes.org/events/2024-09-26-openscapes-whitehouse/) to discuss the importance of open science
-- The [**NeuroHackademy** used our infrastructure](http://2i2c.org/blog/2024/neurohackademy-summer-school-reflections/) to support their annual summer school
-- We enabled [ephemeral and sharable interactive computing environments for the **Amerigeo workshop**](http://2i2c.org/blog/2024/amerigeo-workshop/) in the geospatial community
-- We ran a [pilot for an **HHMI-affiliated open source project called Spyglass**](https://2i2c.org/blog/2024/hhmi-spyglass-mysql/) for reproducing their pre-print with a live interactive environment using BinderHub to support publishing infrastructure
-- We began a [collaboration with **Development Seed** around the **NASA VEDA** project](https://2i2c.org/blog/2024/veda-devseed-collab/), to support them with interactive cloud environments for geospatial research
-- Several members in our community network [showed off their work at **AGU 2024**](https://2i2c.org/blog/2024/agu/)
-- We [co-organized a workshop alongside **Project Pythia**](https://2i2c.org/blog/2024/project-pythia-cookoff/) to create computational narrative content for geospatial analytics, and upgrade their stack to Jupyter Book 2.0
+- The [**NeuroHackademy** used our infrastructure](blog/2024/neurohackademy-summer-school-reflections/index.md) to support their annual summer school
+- We enabled [ephemeral and sharable interactive computing environments for the **Amerigeo workshop**](blog/2024/amerigeo-workshop/index.md) in the geospatial community
+- We ran a [pilot for an **HHMI-affiliated open source project called Spyglass**](blog/2024/hhmi-spyglass-mysql/index.md) for reproducing their pre-print with a live interactive environment using BinderHub to support publishing infrastructure
+- We began a [collaboration with **Development Seed** around the **NASA VEDA** project](blog/2024/veda-devseed-collab/index.md), to support them with interactive cloud environments for geospatial research
+- Several members in our community network [showed off their work at **AGU 2024**](blog/2024/agu/index.md)
+- We [co-organized a workshop alongside **Project Pythia**](blog/2024/project-pythia-cookoff/index.md) to create computational narrative content for geospatial analytics, and upgrade their stack to Jupyter Book 2.0
 
 ## Open source technology enhancements
 
@@ -79,20 +80,20 @@ https://compass.2i2c.org/open-source/key-communities/
 
 Here are a few highlights where we focused our effort this year - each of these efforts required both development with and for our community network, as well as upstream contributions and support:
 
-- We released [**JupyterHub Fancy Profiles**](https://2i2c.org/blog/2024/jupyterhub-fancy-profiles-rollout/), which allows for a more flexible and modern interface to launch environments with JupyterHub.
+- We released [**JupyterHub Fancy Profiles**](blog/2024/jupyterhub-fancy-profiles-rollout/index.md), which allows for a more flexible and modern interface to launch environments with JupyterHub.
 
-- We used this to allow users to [**build and launch custom environments in JupyterHub**](https://2i2c.org/blog/2024/nasa-ephemeral-hubs/) in a way that users can also share with others.
+- We used this to allow users to [**build and launch custom environments in JupyterHub**](blog/2024/nasa-ephemeral-hubs/index.md) in a way that users can also share with others.
 
-- We've added a Grafana dashboard for [**resource and cost monitoring with JupyterHub**](https://2i2c.org/blog/2024/aws-cost-attribution/) to give communities more visibility over their projected cloud costs.
+- We've added a Grafana dashboard for [**resource and cost monitoring with JupyterHub**](blog/2024/aws-cost-attribution/index.md) to give communities more visibility over their projected cloud costs.
 
-- We began [**incorporating Jupyter Book 2.0 workflows into our community hubs**](https://2i2c.org/blog/2024/project-pythia-cookoff/) and laid a foundation for enabling our communuty networks to communicate with one another more effectively using the new MyST document engine. Read more in our [blog post about Jupyter Book 2.0](https://2i2c.org/blog/2024/jupyter-book-2/).
+- We began [**incorporating Jupyter Book 2.0 workflows into our community hubs**](blog/2024/project-pythia-cookoff/index.md) and laid a foundation for enabling our communuty networks to communicate with one another more effectively using the new MyST document engine. Read more in our [blog post about Jupyter Book 2.0](blog/2024/jupyter-book-2/index.md).
 
-- We built [**`frx-challenges`**](https://2i2c.org/blog/2024/frx/), a tool to help communities host data challenges with secure, automated evaluation of submissions. This was built in collaboration with the [**HHMI Cellmap Challenge**](https://cellmapchallenge.janelia.org/) competition.
+- We built [**`frx-challenges`**](blog/2024/frx/index.md), a tool to help communities host data challenges with secure, automated evaluation of submissions. This was built in collaboration with the [**HHMI Cellmap Challenge**](https://cellmapchallenge.janelia.org/) competition.
 
 
 ## Looking to next year
 
-2025 is going to be a critical year for 2i2c to build upon the work we began in 2024 to achieve a more sustainable and scalable community model. Here are the main areas that will guide our work in the new year and into 2026, pulled from our [recent proposal from The Navigation Fund](/blog/2024/funding-navigation/index.md):
+2025 is going to be a critical year for 2i2c to build upon the work we began in 2024 to achieve a more sustainable and scalable community model. Here are the main areas that will guide our work in the new year and into 2026, pulled from our [recent proposal from The Navigation Fund](blog/2024/funding-navigation/index.md):
 
 - **Goal #1: Delivery**. Develop the operating structure and team skills to
 efficiently scale our product and service delivery.

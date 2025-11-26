@@ -1,5 +1,6 @@
 ---
 title: Enforcing per-user storage quotas now available on GCP
+slug: "per-user-storage-quota-gcp"
 subtitle: ""
 summary: ""
 authors:
@@ -19,7 +20,7 @@ image:
 projects: []
 ---
 
-Building upon our previous work developing [per-user storage quotas for our AWS infrastructure](https://2i2c.org/blog/2025/per-user-storage-quota/), we are pleased to announce that this feature is now available for GCP-hosted hubs!
+Building upon our previous work developing [per-user storage quotas for our AWS infrastructure](blog/2025/per-user-storage-quota/index.md), we are pleased to announce that this feature is now available for GCP-hosted hubs!
 
 To provide this feature on this vendor, we have updated our infrastructure provisioning system to create persistent disks, and enable automatic backups of the disk for disaster recovery purposes. However, the systems we had already developed for AWS, such as [`jupyterhub-home-nfs`](https://github.com/2i2c-org/jupyterhub-home-nfs) and our alerting system through [Prometheus Alertmanager](https://prometheus.io/docs/alerting/latest/alertmanager/), are vendor agnostic and work right out of the box with the new architecture!
 

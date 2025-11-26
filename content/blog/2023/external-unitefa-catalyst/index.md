@@ -1,5 +1,6 @@
 ---
 title: UNITEFA forms the first community of the Catalyst Project at UNC, through the CCAD (in Spanish)
+slug: "external-unitefa-catalyst"
 date: 2023-10-23
 tags:
   - biology

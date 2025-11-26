@@ -1,5 +1,6 @@
 ---
 title: Openscapes Host a Surface Biology and Geology Workshop with Shared Password Feature
+slug: "openscapes-sbg-workshop"
 date: 2024-07-09
 authors:
   - Yuvi Panda

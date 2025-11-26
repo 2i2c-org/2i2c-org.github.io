@@ -1,5 +1,6 @@
 ---
 title: 2i2c receives core support from CZI
+slug: "czi-core-support"
 subtitle: ""
 summary: ""
 authors:

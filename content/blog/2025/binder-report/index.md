@@ -1,5 +1,6 @@
 ---
 title: Impact report from 2i2c's Binder federation instance
+slug: "binder-report"
 date: 2025-10-14
 authors:
   - The 2i2c Team

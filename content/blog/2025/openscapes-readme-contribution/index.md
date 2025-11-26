@@ -1,5 +1,6 @@
 ---
 title: A helpful contribution to our JupyterHub SSH README from OpenScapes
+slug: "openscapes-readme-contribution"
 date: 2025-10-21
 categories: community-impact
 tags:

@@ -4,7 +4,7 @@ title: Our member communities
 
 This is a list of organizations with communities currently in our member network, and a resource for community members to quickly find and access their hub URL[^1].
 
-_Member organizations support [2i2c's impact](../impact/index.md) and our [commitment to open practices](../open-practices/index.md) with membership fees. Each member gets one or more [community hubs run by our team](../platform/_index.md). Our [collaborators page](../collaborators/_index.md) lists members that have contributed additional resources for [Directed and Foundational open source contributions](../blog/2025/good-citizen/index.md)._
+_Member organizations support [2i2c's impact](../impact/index.md) and our [commitment to open practices](../open-practices/index.md) with membership fees. Each member gets one or more [community hubs run by our team](../platform/_index.md). Our [collaborators page](../collaborators/_index.md) lists members that have contributed additional resources for [Directed and Foundational open source contributions](blog/2025/good-citizen/index.md)._
 
 {{< cta cta_text="Join our member network" cta_link="/join/" >}}
 

@@ -1,5 +1,6 @@
 ---
 title: A thank you to CZI for its impact on 2i2c and Jupyter
+slug: "czi-retrospective"
 date: 2025-10-22
 authors:
   - Chris Holdgraf

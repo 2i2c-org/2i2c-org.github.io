@@ -1,5 +1,6 @@
 ---
 title: GESIS - 2i2c collaborate to build a persistent BinderHub experience
+slug: "gesis-2i2c-collaboration-update"
 subtitle: ""
 summary: ""
 authors:

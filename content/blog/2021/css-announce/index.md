@@ -1,5 +1,6 @@
 ---
 title: 2i2c launches next phase in partnership with CS&S
+slug: "css-announce"
 subtitle: ""
 summary: ""
 authors:

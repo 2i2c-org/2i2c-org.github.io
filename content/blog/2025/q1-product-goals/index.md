@@ -1,5 +1,6 @@
 ---
 title: Our product goals for Q1 2025
+slug: "q1-product-goals"
 authors:
   - Chris Holdgraf
   - Giuliano Maccioci

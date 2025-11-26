@@ -1,5 +1,6 @@
 ---
 title: "2022 in review: growing our partner communities and expanding our operations"
+slug: "2022-year-in-review"
 subtitle: ""
 summary: ""
 authors:
@@ -19,7 +20,7 @@ This is a brief reflection on this experience, and an attempt to identify our op
 ## Our major goals in 2022
 
 We wrapped up 2021 with two major new changes.
-We had just finished [moving fiscal sponsors](https://2i2c.org/blog/2021/q3-update/) and had just finished a prototype of our [alpha service offerings](https://docs.2i2c.org/).
+We had just finished [moving fiscal sponsors](blog/2021/q3-update/index.md) and had just finished a prototype of our [alpha service offerings](https://docs.2i2c.org/).
 
 {{< figure
   src="service-offerings.png"
@@ -68,7 +69,7 @@ Here's the [blog post announcing this grant](../../2022/czi-global-communities-a
 Our ability to sustainably grow our service requires being able to _technically_ serve many communities from a relatively small team.
 We centralized and standardized configuration and operations of many community hubs in one transparent space for all of our partner communities. 
 This allowed us to more easily grow the number of communities we served from one repository.
-You can [read a write-up about these improvements in this blog post](https://2i2c.org/blog/2022/ci-cd-improvements/).
+You can [read a write-up about these improvements in this blog post](blog/2022/ci-cd-improvements/index.md).
 
 ### We defined a Shared Responsibility Model
 
@@ -88,14 +89,14 @@ This will make our service more reliable and make our processes more transparent
 
 We recognized that many communities need more than just infrastructure running in the cloud - they will also benefit from usecase and community guidance.
 We're exploring a new range of roles that we could fill, starting with hiring a new team member to help us lead these efforts.
-[Here's a blog post about the Product and Community Lead](https://2i2c.org/blog/2022/job-product-community-lead/).
+[Here's a blog post about the Product and Community Lead](blog/2022/job-product-community-lead/index.md).
 
 ### We began a collaboration with GESIS to develop environment building in JupyterHub
 
 This marks our first efforts into _development-focused work_ as opposed to operating cloud infrastructure.
 We will use this experience to learn how to pair focused development with cloud operations (more on that below).
 It will also make it more likely that we can implement often-requested improvements to the JupyterHub / BinderHub ecosystems.
-[Here's a blog post about this collaboration](https://2i2c.org/blog/2022/gesis-2i2c-collaboration-update/).
+[Here's a blog post about this collaboration](blog/2022/gesis-2i2c-collaboration-update/index.md).
 
 ### We helped maintain several upstream open source projects
 
@@ -115,7 +116,7 @@ As a brief summary, here is a plot of the issues in key open source repositories
 ### We refined our organizational strategy
 
 Finally, the experience from this year gave us a lot to think about regarding our role and potential for impact in the research and education ecosystem and the open source community.
-We [updated our strategy](https://2i2c.org/blog/2022/strategic-update/) in order to focus on a more holistic and collaborative approach to the work with our partner communities.
+We [updated our strategy](blog/2022/strategic-update/index.md) in order to focus on a more holistic and collaborative approach to the work with our partner communities.
 We'll continue to refine this strategy moving forward.
 
 ## Things to accomplish in 2023

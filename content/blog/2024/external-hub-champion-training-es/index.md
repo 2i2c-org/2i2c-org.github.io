@@ -1,5 +1,6 @@
 ---
 title: Reflexiones sobre la formación de Campeones y Campeonas del Hub (Español)
+slug: "external-hub-champion-training-es"
 date: 2024-09-04
 tags:
   - biology

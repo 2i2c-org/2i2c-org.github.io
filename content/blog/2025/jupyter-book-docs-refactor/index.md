@@ -1,5 +1,6 @@
 ---
 title: Refactoring Jupyter Book 2 documentation ahead of a major release
+slug: "jupyter-book-docs-refactor"
 date: 2025-11-01
 authors:
   - Chris Holdgraf

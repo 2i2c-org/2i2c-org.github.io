@@ -1,5 +1,6 @@
 ---
 title: "Tech update: Multiple JupyterHubs, multiple clusters, one repository."
+slug: "ci-cd-improvements"
 subtitle: How we optimised and parallelised deployments of multiple JupyterHubs across multiple clusters in GitHub.
 summary: ""
 authors:

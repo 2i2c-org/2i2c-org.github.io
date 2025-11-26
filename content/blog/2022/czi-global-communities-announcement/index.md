@@ -1,5 +1,6 @@
 ---
 title: "New project: Open science cloud infrastructure and training for communities in Latin America and Africa"
+slug: "czi-global-communities-announcement"
 subtitle: ""
 summary: ""
 authors:
@@ -14,7 +15,7 @@ draft: false
 ---
 
 
-We are excited to announce that the team and proposal [described in this blog post](https://2i2c.org/blog/2022/czi-global-communities-proposal/) has been awarded funding by the [Chan Zuckerberg Initiative](../../../collaborators/czi/)! We informally call this project [The Catalyst Project](../../../collaborators/catalyst/index.md).
+We are excited to announce that the team and proposal [described in this blog post](blog/2022/czi-global-communities-proposal/index.md) has been awarded funding by the [Chan Zuckerberg Initiative](../../../collaborators/czi/)! We informally call this project [The Catalyst Project](../../../collaborators/catalyst/index.md).
 
 _This announcement may be cross-posted on the websites of several collaborating organizations of this grant. **Para leer este post en español, [vea el blog de MetaDocencia](https://www.metadocencia.org/post/infraestructura-nube/)**._
 
@@ -23,7 +24,7 @@ Our goal is to create a collaborative cloud infrastructure service that enables 
 2i2c will be providing cloud infrastructure operation and support for the communities that we partner with in this effort.
 We will also assist with creating content to teach cloud-native workflows and assist community leaders in learning this content so that they can share these skills with others.
 
-This is a collaborative effort between [2i2c](http://2i2c.org), [The Carpentries](https://carpentries.org/), [CSCCE](http://cscce.org), [Invest in Open Infrastructure](https://investinopen.org), [MetaDocencia](https://metadocencia.org), and [Open Life Science](http://openlifesci.org). For more detailed information, see [the blog post with our full grant narrative](https://2i2c.org/blog/2022/czi-global-communities-proposal/).
+This is a collaborative effort between [2i2c](http://2i2c.org), [The Carpentries](https://carpentries.org/), [CSCCE](http://cscce.org), [Invest in Open Infrastructure](https://investinopen.org), [MetaDocencia](https://metadocencia.org), and [Open Life Science](http://openlifesci.org). For more detailed information, see [the blog post with our full grant narrative](blog/2022/czi-global-communities-proposal/index.md).
 
 ## We are hiring
 

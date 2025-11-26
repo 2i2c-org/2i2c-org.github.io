@@ -1,5 +1,6 @@
 ---
 title: Jupyter Book at the Scientific Python 2025 Developer Summit
+slug: "scientific-python-summit"
 date: 2025-05-23
 tags:
   - jupyterbook

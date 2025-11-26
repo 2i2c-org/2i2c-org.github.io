@@ -1,5 +1,6 @@
 ---
 title: 2i2c Supports the Science Platforms Coordination IHDEA Working Group
+slug: "ihdea-working-group"
 date: 2025-10-30
 tags:
   - open-source

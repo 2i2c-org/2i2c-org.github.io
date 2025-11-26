@@ -1,5 +1,6 @@
 ---
 title: CILogon usage at 2i2c
+slug: "cilogon-integration"
 subtitle: ""
 summary: The following is a summary of how CILogon is used at 2i2c, how the integration works and a celebration of the partnership.
 authors:

@@ -1,5 +1,6 @@
 ---
 title: "Incident report: UC Merced user throttling during class startup"
+slug: "incident-ucmerced-user-throttling"
 date: 2025-09-16
 categories:
   - service-enhancements

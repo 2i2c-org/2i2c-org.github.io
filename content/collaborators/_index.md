@@ -57,7 +57,7 @@ sections:
         
         _How we define types of collaborators_.
 
-        **Members** are part of [our member network](../members/) that contribute extra funding and time. These are for contirbutions beyond the [Foundational impact](../blog/2025/good-citizen/) that membership fees support.
+        **Members** are part of [our member network](../members/) that contribute extra funding and time. These are for contirbutions beyond the [Foundational impact](blog/2025/good-citizen/index.md) that membership fees support.
         
         **Funders** primarily have impact by funding initiatives that we benefit from. We include funders when they directly benefit 2i2c or a project on which we collaborate, but not every funder for every member and collaborator that supports us.
         

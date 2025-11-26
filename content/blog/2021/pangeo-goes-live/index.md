@@ -1,5 +1,6 @@
 ---
 title: Pangeo Cloud goes live on 2i2c!
+slug: "pangeo-goes-live"
 subtitle: ""
 summary: "2i2c are pleased to announce that the first Pangeo JupyterHub is now live on 2i2c-operated infrastructure! :tada: "
 authors:

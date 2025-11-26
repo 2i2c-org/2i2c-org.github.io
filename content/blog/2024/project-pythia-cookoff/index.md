@@ -1,5 +1,6 @@
 ---
 title: Hacking the Project Pythia Cook-off with MyST Markdown
+slug: "project-pythia-cookoff"
 date: 2024-06-18
 authors:
   - Jenny Wong

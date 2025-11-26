@@ -1,5 +1,6 @@
 ---
 title: Collaborating with Development Seed to deliver cyberinfrastructure for NASA VEDA
+slug: "veda-devseed-collab"
 date: 2024-07-12
 authors:
   - Yuvi Panda
@@ -17,7 +18,7 @@ draft: false
 
 ![Landing page of the public-facing NASA VEDA dashboard](featured.png "The [VEDA dashboard](https://www.earthdata.nasa.gov/dashboard/)")
 
-The 2i2c team are proud to continue our strong working collaboration with [Development Seed](../../../collaborators/devseed/), following our previous work on launching the [US GHG center](blog/2023/us-ghg-center-launches/index) (also see the [Development Seed blog post](https://developmentseed.org/blog/2023-12-14-ghg-center)). Together with scientists at NASA in our regular sync touchpoints, we have recently delivered a tranche of improvements to [the Visualization, Exploration and Data Analysis (VEDA) project](https://www.earthdata.nasa.gov/esds/veda).
+The 2i2c team are proud to continue our strong working collaboration with [Development Seed](../../../collaborators/devseed/), following our previous work on launching the [US GHG center](../2023/us-ghg-center-launches/index.md) (also see the [Development Seed blog post](https://developmentseed.org/blog/2023-12-14-ghg-center)). Together with scientists at NASA in our regular sync touchpoints, we have recently delivered a tranche of improvements to [the Visualization, Exploration and Data Analysis (VEDA) project](https://www.earthdata.nasa.gov/esds/veda).
 
 This platform is designed to thread open-source components together to consolidate GIS delivery mechanisms, processing, analysis and visualization tools, and presented in a collaborative interactive computing environment. All code repositories and associated resources stemming from this work are available on the [VEDA GitHub page](https://github.com/NASA-IMPACT/VEDA/wiki).
 
@@ -47,7 +48,7 @@ We are also excited to see recent work in this space [from QuantStack and Simula
 
 ## Better Profile Selection
 
-This is a continuation of our [GESIS collaboration](blog/2024/jupyterhub-binderhub-gesis/index). In the path to deploying dynamic image building to end users, we wanted to stabilize [jupyterhub-fancy-profiles](https://github.com/yuvipanda/jupyterhub-fancy-profiles) enough to deploy to users of VEDA (and eventually everyone else). This is the primary interface users see *after* they log in to JupyterHub, and was ripe for UX improvements. The default interface looks like this:
+This is a continuation of our [GESIS collaboration](jupyterhub-binderhub-gesis/index.md). In the path to deploying dynamic image building to end users, we wanted to stabilize [jupyterhub-fancy-profiles](https://github.com/yuvipanda/jupyterhub-fancy-profiles) enough to deploy to users of VEDA (and eventually everyone else). This is the primary interface users see *after* they log in to JupyterHub, and was ripe for UX improvements. The default interface looks like this:
 
 ![Default profile list page](old-profile.png)
 
@@ -62,7 +63,7 @@ This is currently deployed to a staging hub and has helped us shake out a lot of
 
 ## Supporting workshops
 
-End users benefiting from our work is what ultimately gives meaning to our work. To that end, we were very happy to support running workshops during this collaboration – see our related blog post [US Greenhouse Gas Center supports summer school at CIRA](blog/2024/ghg-summer-school/index) for more information.
+End users benefiting from our work is what ultimately gives meaning to our work. To that end, we were very happy to support running workshops during this collaboration – see our related blog post [US Greenhouse Gas Center supports summer school at CIRA](ghg-summer-school/index.md) for more information.
 
 ## Ongoing Collaboration
 

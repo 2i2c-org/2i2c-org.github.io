@@ -1,5 +1,6 @@
 ---
 title: Our Product and Service goals for Q2 2025
+slug: "q2-product-goals"
 authors:
   - Giuliano Maciocci
   - Chris Holdgraf
@@ -15,7 +16,7 @@ The following themes are not guarantees, but should provide a high level view on
 
 ## Give administrators more control
 
-The implementation of [per-user storage quotas](https://2i2c.org/blog/2025/per-user-storage-quota-gcp/) in Q1 was the start of a set of product initiatives aimed at giving hub administrators more control and peace of mind over unexpected cost overruns. 
+The implementation of [per-user storage quotas](blog/2025/per-user-storage-quota-gcp/index.md) in Q1 was the start of a set of product initiatives aimed at giving hub administrators more control and peace of mind over unexpected cost overruns. 
 
 We aim to continue giving administrators more control by implementing the ability to **associate users with groups for usage monitoring**, and as a foundation for future improvements which will deliver **group-level management of storage quotas,** and later Compute and Dask quotas. 
 

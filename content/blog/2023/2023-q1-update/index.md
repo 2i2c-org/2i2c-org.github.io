@@ -1,5 +1,6 @@
 ---
 title: "Community update Q1 2023: Growing our community partner network and our team"
+slug: "2023-q1-update"
 subtitle: ""
 summary: ""
 authors:
@@ -47,7 +48,7 @@ This quarter, we decided to streamline our authentication process by dropping th
 💡 _Learn more_
 
 - See [CILogon's write up about it's partnership with 2i2c](https://www.ncsa.illinois.edu/security-made-simple-with-ncsas-cilogon/)
-- See [our blog post about our use of CILogon](https://2i2c.org/blog/2023/cilogon-integration/)
+- See [our blog post about our use of CILogon](blog/2023/cilogon-integration/index.md)
 
 ### We exposed user activity dashboards in JupyterHub so communities know how many people are using the service
 
@@ -106,7 +107,7 @@ We define [several key open source communities](https://compass.2i2c.org/organiz
 
 💡 _Learn more_
 
-Check out _[Principles and considerations for ethically accepting funding for open source](https://2i2c.org/blog/2023/open-source-funding-principles/)_ for our first take on this, and [our Open Source Strategy](https://compass.2i2c.org/open-source/strategy/) page for our current team policies around this.
+Check out _[Principles and considerations for ethically accepting funding for open source](blog/2023/open-source-funding-principles/index.md)_ for our first take on this, and [our Open Source Strategy](https://compass.2i2c.org/open-source/strategy/) page for our current team policies around this.
 
 ### We responded to a NASA RFI on "Scientific Data and Computing Architecture to Support Open Science"
 
@@ -127,7 +128,7 @@ To help us manage this system, we've [created a new Engineering Manager Role](ht
 ### OpenScapes wrote up a blog post about our cloud service collaboration
 
 We got a nice shout-out from Luis Lopez at the OpenScapes project, describing the benefits of the cloud service that we run for their communities.
-Check out his blog post: [The why, what, and how of our NASA Openscapes cloud infrastructure: 2i2c JupyterHub and corn environment](https://www.openscapes.org/blog/2022/11/17/nasa-earthdata-cloud-infrastructure/#cloud-optimized-data-formats).
+Check out his blog post: [The why, what, and how of our NASA Openscapes cloud infrastructure: 2i2c JupyterHub and corn environment](https://www.openscapes.org/blog/11/17/nasa-earthdata-cloud-infrastructure/#cloud-optimized-data-formats).
 
 ## Onward to Q2
 

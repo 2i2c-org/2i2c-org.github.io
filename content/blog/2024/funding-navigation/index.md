@@ -1,5 +1,6 @@
 ---
 title: Financial support from The Navigation Fund for identifying and building a scalable sustainability model
+slug: "funding-navigation"
 date: 2024-12-08
 authors:
   - Chris Holdgraf

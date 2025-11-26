@@ -1,5 +1,6 @@
 ---
 title: NASA Openscapes mentors run airborne data machine learning workshop with 401 participants from 68 countries
+slug: "openscapes-workshop"
 date: 2025-10-23
 authors:
   - Jenny Wong

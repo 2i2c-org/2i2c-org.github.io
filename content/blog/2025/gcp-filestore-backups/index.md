@@ -1,5 +1,6 @@
 ---
 title: Announcing backups for GCP-hosted hubs!
+slug: "gcp-filestore-backups"
 subtitle: ""
 summary: ""
 authors:

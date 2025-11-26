@@ -1,5 +1,6 @@
 ---
 title: Our product highlights from Q2 2025
+slug: "q1-product-highlights"
 authors:
   - Chris Holdgraf
   - Giuliano Maccioci
@@ -16,11 +17,11 @@ _These describe the major service improvements that we rolled out in Q1 2025. Se
 
 A key part of 2i2c’s service is **making the cloud safe to try**. One of the biggest concerns from our communities is that their cloud costs will be unexpectedly high. This quarter we decided to make cloud storage a bit safer. Storage can get expensive, especially when a user accidentally downloads a particularly large file - they may not even realize that doing so incurs an extra cost. For this reason, we added the ability to limit user storage on JupyterHubs:
 
-[Enforcing per-user storage quotas with `jupyterhub-home-nfs`](https://2i2c.org/blog/2025/per-user-storage-quota/)
+[Enforcing per-user storage quotas with `jupyterhub-home-nfs`](blog/2025/per-user-storage-quota/index.md)
 
 We initially deployed this feature on our AWS hubs, and followed up by deploying it on GCP hubs as well. Any community with a hub on AWS and GCP now has the ability to limit the storage that their users receive, greatly increasing our communities’ control over their costs.  
    
-[Enforcing per-user storage quotas now available on GCP](https://2i2c.org/blog/2025/per-user-storage-quota-gcp/)
+[Enforcing per-user storage quotas now available on GCP](blog/2025/per-user-storage-quota-gcp/index.md)
 
 _**Thanks to** [DevSeed](https://developmentseed.org/) for collaboration on this work, in addition to the [NASA VEDA project](https://www.earthdata.nasa.gov/data/tools/veda) for funding this effort._
 
@@ -28,13 +29,13 @@ _**Thanks to** [DevSeed](https://developmentseed.org/) for collaboration on this
 
 Another concern communities have is “what happens if something breaks and I lose data?” Cloud providers offer a number of ways to recover from disasters like this, and we did some work enabling this for GCP so that communities have disaster recovery options available to them.
 
-[Announcing backups for GCP-hosted hubs!](https://2i2c.org/blog/2025/gcp-filestore-backups/)
+[Announcing backups for GCP-hosted hubs!](blog/2025/gcp-filestore-backups/index.md)
 
 ## Deploying JupyterHub on public infrastructure
 
 Deploying Kubernetes and JupyterHub on publicly-managed infrastructure could be an excellent way to reduce the perceived risk of depending on large tech companies for their key workflows, and potentially reduce costs by using federal infrastructure that can be paid with special grant funding. We built team expertise in deploying and running JupyterHub and BinderHub on JetStream2, and have promising results that we hope to build upon in Q2.
 
-[Open infrastructure for collaborative geoscience with Project Pythia: Learning how to deploy a BinderHub on Jetstream2](https://2i2c.org/blog/2025/jetstream-binderhub/)
+[Open infrastructure for collaborative geoscience with Project Pythia: Learning how to deploy a BinderHub on Jetstream2](blog/2025/jetstream-binderhub/index.md)
 
 _**Thanks to** [Jetstream2](https://jetstream-cloud.org/) for an ACCESS allocation, to Julian Pistorius for technical support, to [Project Pythia](https://projectpythia.org/) (NSF award 2324302) for funding this work, and to [Andrea Zonca](https://www.zonca.dev/posts/2024-12-11-jetstream_kubernetes_magnum) for preliminary work on Kubernetes deployments on Jetstream 2._
 
@@ -42,13 +43,13 @@ _**Thanks to** [Jetstream2](https://jetstream-cloud.org/) for an ACCESS allocati
 
 We upgraded all of 2i2c’s community hubs to use JupyterHub 5.0. This brings in a bunch of security improvements, bugfixes, and enhancements. You can find links to the highlights and changelog in our blog post below.
 
-[2i2c hubs now run JupyterHub 5.0](https://2i2c.org/blog/2025/jupyterhub5-upgrade/)
+[2i2c hubs now run JupyterHub 5.0](blog/2025/jupyterhub5-upgrade/index.md)
 
 ## Reproducible environments for community members
 
 Finally, we did a bit of product brainstorming around enabling communities to bring their environments with them when they publish. We are interested in making it easy to re-use a community’s hub infrastructure to provide the reproducible environments needed for publishing or communicating their work externally. Here’s a brief brainstorm for what this could look like:
 
-[Towards frictionless, portable, and sustainable reproducibility with Binder](https://2i2c.org/blog/2025/frictionless-reproducibility/)
+[Towards frictionless, portable, and sustainable reproducibility with Binder](blog/2025/frictionless-reproducibility/index.md)
 
 ## Improving the UX and flexibility of community documentation with MyST
 
@@ -60,19 +61,19 @@ Finally, below are a few other blog posts where we’ve documented major impact 
 
 **Community impact**
 
-- [Harnessing Marine Open Data Science for Ocean Sustainability in Africa, South Asia and Latin America](https://2i2c.org/blog/2025/hackweek-shoutout/)  
-- [NASA VEDA & 2i2c Update for Q4 2024 (Oct-Dec 2024)](https://2i2c.org/blog/2025/veda-update-q4-2024/)
+- [Harnessing Marine Open Data Science for Ocean Sustainability in Africa, South Asia and Latin America](blog/2025/hackweek-shoutout/index.md)  
+- [NASA VEDA & 2i2c Update for Q4 2024 (Oct-Dec 2024)](blog/2025/veda-update-q4-2024/index.md)
 
 **Open Source impact**
 
-- [Chris is joining Project Jupyter's Executive Council](https://2i2c.org/blog/2025/jupyter-executive-council/)  
+- [Chris is joining Project Jupyter's Executive Council](blog/2025/jupyter-executive-council/index.md)  
 - [Simplifying and speeding up Binder builds with BuildKit](https://blog.jupyter.org/simplifying-and-speeding-up-binder-builds-with-buildkit-d44f96582994)  
-- [2i2c joins the mybinder.org federation with a cheaper and faster way to deploy Binderhub](https://2i2c.org/blog/2025/binder-singlenode/)  
-- [Designing for an ecosystem: a case study in cross-project open source contribution](https://2i2c.org/blog/2025/jupyter-book-cors/)
+- [2i2c joins the mybinder.org federation with a cheaper and faster way to deploy Binderhub](blog/2025/binder-singlenode/index.md)  
+- [Designing for an ecosystem: a case study in cross-project open source contribution](blog/2025/jupyter-book-cors/index.md)
 
 **Organizational updates**
 
-- [Announcing our formal commitment to open technology](https://2i2c.org/blog/2025/community-ownership/)
+- [Announcing our formal commitment to open technology](blog/2025/community-ownership/index.md)
 
 ## Acknowledgements
 

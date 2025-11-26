@@ -1,5 +1,6 @@
 ---
 title: "Open organizational report: Strengths and challenges for 2i2c's team"
+slug: "organizational-report"
 subtitle: ""
 summary: ""
 authors:

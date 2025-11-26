@@ -1,5 +1,6 @@
 ---
 title: Debisree Ray on her positive JupyterCon 2025 experience
+slug: "jupytercon-debisree-reflection"
 date: 2025-11-17
 categories:
   - community-impact

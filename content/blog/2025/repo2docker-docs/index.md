@@ -1,5 +1,6 @@
 ---
 title: Overhauling repo2docker's documentation
+slug: "repo2docker-docs"
 date: 2025-08-01
 author: Chris Holdgraf
 categories: upstream-impact

@@ -1,5 +1,6 @@
 ---
 title: Announcing our formal commitment to open technology
+slug: "community-ownership"
 date: 2025-01-15
 authors:
   - Yuvi Panda

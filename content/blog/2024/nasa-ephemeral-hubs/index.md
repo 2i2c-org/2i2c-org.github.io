@@ -1,5 +1,6 @@
 ---
 title: Ephemeral Interactive Computing for NASA Communities
+slug: "nasa-ephemeral-hubs"
 date: 2024-06-27
 authors:
   - Jenny Wong
@@ -29,7 +30,7 @@ These services enrich the interactive computing ecosystem for NASA communities b
 
 ## How did we do it?
 
-Ephemeral interactive computing services benefited from some of our previous development work in collaboration with GESIS (see our [detailed blog post](/blog/2024/jupyterhub-binderhub-gesis/index) for more information). The research and development of this project achieved wide-reaching impact across many NASA communities we currently serve, including [TOPST ScienceCore](https://www.nasa.gov/centers-and-facilities/marshall/nasa-boosts-open-science-through-innovative-training/), [Openscapes](/blog/2024/openscapes-sbg-workshop), [US Greenhouse Gas Center](/blog/2024/ghg-summer-school), [VEDA](https://www.earthdata.nasa.gov/esds/veda) and [CryoCloud](https://cryointhecloud.com/); as well as networks beyond the NASA scope, such as the NSF-funded [Project Pythia](https://projectpythia.org/) and HHMI-funded[Spyglass](https://lorenfranklab.github.io/spyglass/latest/) projects.
+Ephemeral interactive computing services benefited from some of our previous development work in collaboration with GESIS (see our [detailed blog post](blog/2024/jupyterhub-binderhub-gesis/index.mdindex) for more information). The research and development of this project achieved wide-reaching impact across many NASA communities we currently serve, including [TOPST ScienceCore](https://www.nasa.gov/centers-and-facilities/marshall/nasa-boosts-open-science-through-innovative-training/), [Openscapes](blog/2024/openscapes-sbg-workshop/index.md), [US Greenhouse Gas Center](blog/2024/ghg-summer-school/index.md), [VEDA](https://www.earthdata.nasa.gov/esds/veda) and [CryoCloud](https://cryointhecloud.com/); as well as networks beyond the NASA scope, such as the NSF-funded [Project Pythia](https://projectpythia.org/) and HHMI-funded[Spyglass](https://lorenfranklab.github.io/spyglass/latest/) projects.
 
 ## What next?
 

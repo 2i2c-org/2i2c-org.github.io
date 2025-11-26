@@ -1,5 +1,6 @@
 ---
 title: MyST Mini-Hackathon with the DeepLabCut Team
+slug: "deeplabcut-myst-hackathon"
 date: 2024-09-02
 authors:
   - Jenny Wong

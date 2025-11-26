@@ -1,5 +1,6 @@
 ---
 title: 2i2c communities at AGU 2024
+slug: "agu"
 date: 2024-12-09
 tags:
   - earth-science

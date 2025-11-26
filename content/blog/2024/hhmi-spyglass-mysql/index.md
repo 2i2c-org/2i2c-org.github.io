@@ -1,5 +1,6 @@
 ---
 title: Enabling neuroscience in the cloud with HHMI Spyglass and MySQL on JupyterHub
+slug: "hhmi-spyglass-mysql"
 date: 2024-07-05
 authors:
   - Yuvi Panda

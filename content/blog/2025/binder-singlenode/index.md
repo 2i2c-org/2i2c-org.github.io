@@ -1,5 +1,6 @@
 ---
 title: 2i2c joins the mybinder.org federation with a cheaper and faster way to deploy Binderhub
+slug: "binder-singlenode"
 date: 2025-01-29
 authors:
   - Yuvi Panda

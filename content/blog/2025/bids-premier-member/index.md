@@ -1,5 +1,6 @@
 ---
 title: BIDS joins as 2i2c's first premier member organization
+slug: "bids-premier-member"
 authors:
   - Chris Holdgraf
 tags:

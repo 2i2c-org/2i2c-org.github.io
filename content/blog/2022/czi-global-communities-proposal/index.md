@@ -1,5 +1,6 @@
 ---
 title: "Open grant narrative: A Collaborative Interactive Computing Service Model for Global Communities"
+slug: "czi-global-communities-proposal"
 subtitle: ""
 summary: ""
 authors:

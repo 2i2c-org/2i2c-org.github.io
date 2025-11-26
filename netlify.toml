@@ -1,5 +1,5 @@
 [build]
-  command = "pip install -r requirements.txt && python scripts/extract_org_logos.py && hugo --gc --minify -b $URL"
+  command = "python scripts/add_slugs_to_blog_posts.py && pip install -r requirements.txt && python scripts/extract_org_logos.py && hugo --gc --minify -b $URL"
   publish = "public"
 
 [build.environment]
@@ -10,10 +10,10 @@
   HUGO_ENV = "production"
 
 [context.deploy-preview]
-  command = "pip install -r requirements.txt && python scripts/extract_org_logos.py && hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
+  command = "python scripts/add_slugs_to_blog_posts.py && pip install -r requirements.txt && python scripts/extract_org_logos.py && hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
 
 [context.branch-deploy]
-  command = "pip install -r requirements.txt && python scripts/extract_org_logos.py && hugo --gc --minify -b $DEPLOY_PRIME_URL"
+  command = "python scripts/add_slugs_to_blog_posts.py && pip install -r requirements.txt && python scripts/extract_org_logos.py && hugo --gc --minify -b $DEPLOY_PRIME_URL"
 
 [[plugins]]
   package = "netlify-plugin-hugo-cache-resources"

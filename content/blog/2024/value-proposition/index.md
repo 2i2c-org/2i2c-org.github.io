@@ -1,5 +1,6 @@
 ---
 title: An update to 2i2c's value proposition
+slug: "value-proposition"
 date: 2024-05-06
 lastmod: 2024-05-06
 authors:

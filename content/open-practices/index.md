@@ -30,7 +30,7 @@ sections:
     content:
       title: Co-create our impact with other communities
       text: |
-        - Take an [upstream first](https://compass.2i2c.org/open-source/strategy/#upstream-first) approach and provide both [Directed and Foundational open source contributions](../blog/2025/good-citizen/index.md) that [we own as a team](../blog/2025/upstream-impact-strategy/index.md).
+        - Take an [upstream first](https://compass.2i2c.org/open-source/strategy/#upstream-first) approach and provide both [Directed and Foundational open source contributions](blog/2025/good-citizen/index.md) that [we own as a team](blog/2025/upstream-impact-strategy/index.md).
         - Acknowledge the [contributions that our collaborators and funders have made](../collaborators/_index.md) in our work.
         
         {{< cta cta_text="See our collaborators and funders" cta_link="/collaborators" >}}
@@ -43,7 +43,7 @@ sections:
       title: Do our work openly and transparently
       text: |
         - Be transparent about [organizations that support and fund us](../about/funding/index.md).
-        - Show our work and priorities by [communicating in-progress work on our blog](../blog/2025/communications-strategy/index.md), even if it's in an imperfect state.
+        - Show our work and priorities by [communicating in-progress work on our blog](blog/2025/communications-strategy/index.md), even if it's in an imperfect state.
         
         {{< cta cta_text="See our progress on our blog" cta_link="/blog" >}}
 

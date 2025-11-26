@@ -6,7 +6,7 @@ Use the `{{< feedback >}}` short-code to add a button that provides a feedback l
 
 ## Automatic GitHub link shortening
 
-This theme will automatically shorten GitHub links and add a little GitHub icon to the front. For example, see the [Jack Eddy Symposium blog post](https://2i2c.org/blog/2022/eddy-symposium-report/).
+This theme will automatically shorten GitHub links and add a little GitHub icon to the front. For example, see the [Jack Eddy Symposium blog post](blog/2022/eddy-symposium-report/index.md).
 
 ## How to add an external blog post
 
@@ -30,7 +30,7 @@ This content will be displayed as a summary of the post in the blog landing page
 ```
 
 Note that all other metadata fields are the same as any other blog post.
-See [this blog post as an example](content/blog/2025/binder-buildkit/index.md).
+See [this blog post as an example](contentblog/2025/binder-buildkit/index.md).
 
 ## Broken link checking
 

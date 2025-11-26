@@ -1,5 +1,6 @@
 ---
 title: Giving CCAD more control over data science infrastructure via a Catalyst Project hardware exchange
+slug: "catalyst-hardware-exchange"
 date: 2025-09-02
 authors:
   - Chris Holdgraf

@@ -1,5 +1,6 @@
 ---
 title: "Celebrating BIDS as 2i2c's first premier member at UC Berkeley"
+slug: "bids-premier-membership-event"
 date: 2025-10-15
 authors:
   - Chris Holdgraf

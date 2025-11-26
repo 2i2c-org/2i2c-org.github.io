@@ -1,5 +1,6 @@
 ---
 title: "Grant progress report: CZI Foundational grant year 2"
+slug: "czi-year2-progress-report"
 subtitle: ""
 summary: ""
 authors:

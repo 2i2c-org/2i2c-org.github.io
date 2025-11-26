@@ -1,5 +1,6 @@
 ---
 title: "Open infrastructure for collaborative geoscience with Project Pythia: Learning how to deploy a BinderHub on Jetstream2"
+slug: "jetstream-binderhub"
 date: 2025-02-12
 authors:
   - Georgiana Dolocan
@@ -15,7 +16,7 @@ draft: false
 
 ## Project Pythia and the "Jupyter notebook obsolescence" problem
 
-[Project Pythia](https://projectpythia.org/) provides educational resources for essential software tools that enable open, reproducible and scalable geoscience, such as the [Pangeo](https://pangeo.io) stack of packages (Xarray, Dask, Jupyter). Their *Cookbooks* are crowdsourced, community-curated, and open-source collections of Jupyter notebooks that demonstrate how to use these tools for cloud-native, geoscientific workflows (see our [Project Pythia Cookoff](/content/blog/2024/project-pythia-cookoff/index.md) blog post). However, "Jupyter notebook obsolescence" is a common problem: tutorials that were created a few years ago may no longer work due to changes in the software ecosystem and hampers the reproducibility of scientific results. A reproducible execution environment and the infrastructure to support it are essential for the long-term sustainability of these educational resources.
+[Project Pythia](https://projectpythia.org/) provides educational resources for essential software tools that enable open, reproducible and scalable geoscience, such as the [Pangeo](https://pangeo.io) stack of packages (Xarray, Dask, Jupyter). Their *Cookbooks* are crowdsourced, community-curated, and open-source collections of Jupyter notebooks that demonstrate how to use these tools for cloud-native, geoscientific workflows (see our [Project Pythia Cookoff](/contentblog/2024/project-pythia-cookoff/index.md) blog post). However, "Jupyter notebook obsolescence" is a common problem: tutorials that were created a few years ago may no longer work due to changes in the software ecosystem and hampers the reproducibility of scientific results. A reproducible execution environment and the infrastructure to support it are essential for the long-term sustainability of these educational resources.
 
 ## Leveraging NSF-funded cyberinfrastructure for BinderHub
 

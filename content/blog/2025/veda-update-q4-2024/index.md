@@ -1,5 +1,6 @@
 ---
 title: NASA VEDA & 2i2c Update for Q4 2024 (Oct-Dec 2024)
+slug: "veda-update-q4-2024"
 subtitle: ""
 summary: ""
 authors:
@@ -35,9 +36,9 @@ We will continue doing work on `jupyterhub-home-nfs` in the upcoming quarter! If
 
 [Tracking Issue](https://github.com/NASA-IMPACT/veda-jupyterhub/issues/58)
 
-We covered this more extensively in [another blog post](https://2i2c.org/blog/2024/jupyterhub-fancy-profiles-rollout/), so go read that!
+We covered this more extensively in [another blog post](blog/2024/jupyterhub-fancy-profiles-rollout/index.md), so go read that!
 
-This work in particular is a good demonstrator of 2i2c's value - it started off with a [grant from GESIS](https://2i2c.org/blog/2024/jupyterhub-binderhub-gesis/), and now with support from [NASA IMPACT](https://impact.earthdata.nasa.gov/) we are able to bring it to a *lot* of communities, not just the ones that funded it.
+This work in particular is a good demonstrator of 2i2c's value - it started off with a [grant from GESIS](blog/2024/jupyterhub-binderhub-gesis/index.md), and now with support from [NASA IMPACT](https://impact.earthdata.nasa.gov/) we are able to bring it to a *lot* of communities, not just the ones that funded it.
 
 Ongoing work here will focus on improving the UX as well as better documentation so users can actually use it!
 
@@ -45,7 +46,7 @@ Ongoing work here will focus on improving the UX as well as better documentation
 
 [Tracking Issue](https://github.com/NASA-IMPACT/veda-jupyterhub/issues/59)
 
-We had worked in the past with many communities in enabling [QGIS on the Cloud](https://2i2c.org/blog/2023/qgis-greenland/), and this quarter we got closer to enabling a contextual 'Open in QGIS' button in the [VEDA Dashboard](https://www.earthdata.nasa.gov/dashboard/)! Here is a quick demo:
+We had worked in the past with many communities in enabling [QGIS on the Cloud](blog/2023/qgis-greenland/index.md), and this quarter we got closer to enabling a contextual 'Open in QGIS' button in the [VEDA Dashboard](https://www.earthdata.nasa.gov/dashboard/)! Here is a quick demo:
 
 <video src="./open-in-qgis.mp4" muted controls></video>
 

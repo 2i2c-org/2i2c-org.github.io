@@ -1,5 +1,6 @@
 ---
 title: "From scattered effort to strategic impact: How we're systematizing our Foundational open source contributions"
+slug: "foundational-contributions"
 date: 2025-09-26
 authors:
   - Yuvi Panda

@@ -1,5 +1,6 @@
 ---
 title: Reducing base infrastructure costs on AWS with smarter instance types
+slug: "aws-cost-reduction"
 date: 2025-09-17
 categories:
   - service-enhancements

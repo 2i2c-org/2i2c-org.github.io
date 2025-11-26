@@ -1,5 +1,6 @@
 ---
 title: Reflections on the Jack Eddy Symposium
+slug: "eddy-symposium-report"
 subtitle: ""
 summary: ""
 authors:

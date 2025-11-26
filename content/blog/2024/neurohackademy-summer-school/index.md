@@ -1,5 +1,6 @@
 ---
 title: Neurohackademy Summer School in Neuroimaging and Data Science 2024
+slug: "neurohackademy-summer-school"
 date: 2024-06-21
 authors:
   - Jenny Wong

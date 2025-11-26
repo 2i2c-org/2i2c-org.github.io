@@ -1,5 +1,6 @@
 ---
 title: Low storage alerting for the UToronto cluster
+slug: "utoronto-storage-monitoring"
 date: 2024-06-14
 authors:
   - Jenny Wong

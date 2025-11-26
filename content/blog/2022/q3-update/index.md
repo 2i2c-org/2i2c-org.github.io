@@ -1,5 +1,6 @@
 ---
 title: Celebrating our progress in Q3 2022
+slug: "2022-q3-update"
 subtitle: ""
 summary: ""
 authors:
