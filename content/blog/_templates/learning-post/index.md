@@ -26,4 +26,4 @@ _Embed any images, videos, or youtube videos that are relevant. Put images in a 
 
 ## EXTRA EXAMPLES
 
-Here's a blog post with an example of what we're looking for: content/blog/github-action-secrets-forked-repositories/index.md
+Here's a blog post with an example of what we're looking for: contentblog/2025/github-action-secrets-forked-repositories/index.mdindex.md

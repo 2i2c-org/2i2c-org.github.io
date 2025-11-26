@@ -47,7 +47,7 @@ With that in mind, here are a few highlights of communities we've served, and wh
 
 Beyond our technical and community impact work, we've made a lot of significant organizational improvements as well.
 
-- **We designed a [new role in Product and Community Management](https://2i2c.org/blog/job-product-community-lead/)**. We're excited for this new hire to spearhead efforts in guiding and developing relationships with the communities we serve, as well as guiding and collaborating with our engineering team in developing our services. 
+- **We designed a [new role in Product and Community Management](blog/2022/job-product-community-lead/index.md)**. We're excited for this new hire to spearhead efforts in guiding and developing relationships with the communities we serve, as well as guiding and collaborating with our engineering team in developing our services. 
 - **We designed [a new Project Manager role](https://github.com/2i2c-org/team-compass/issues/382)**. Our engineering team had been operating as a largely autonomous and independent group, but we've realized that we would benefit from someone to help coordinate our actions and plans, especially as we balance more operations/support issues in addition to new development. This new role is an experiment at growing this capacity within our team, in the hopes that we can dedicate a team member to it in the future.
 
 ## What's next

@@ -14,7 +14,7 @@ featured: false
 draft: false
 ---
 
-Yesterday we had a quick "drop-in" session to take questions about 2i2c's [job posting for a Product and Community Lead](/blog/job-product-community-lead).
+Yesterday we had a quick "drop-in" session to take questions about 2i2c's [job posting for a Product and Community Lead](blog/2022/job-product-community-lead/index.md).
 We spent the hour discussing a number of questions that others had about the position.
 Below is a short overview of the questions and some responses, for those who were not able to attend.
 These responses are a bit rough, since they are mostly off-the-cuff based on the questions asked.

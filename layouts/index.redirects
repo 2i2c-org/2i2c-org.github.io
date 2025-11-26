@@ -35,10 +35,12 @@ Template variables used:
 ================================================================================
 */ -}}
 
+{{ printf "\n" }}
+
 {{- /* PART 1: Preserve existing alias-based redirects from front matter */ -}}
 {{- range $page := where site.AllPages ".Aliases" "!=" nil -}}
 {{- range $page.Aliases }}
-{{ .|relLangURL }} {{ $page.RelPermalink -}}
+{{- printf "%s %s\n" (. | relLangURL) $page.RelPermalink -}}
 {{- end }}
 {{- end -}}
 
@@ -53,7 +55,7 @@ Template variables used:
 {{- /* Extract the actual URL slug from RelPermalink since .Slug is empty for index.md files */ -}}
 {{- $urlSlug := .RelPermalink -}}
 {{- /* Skip special pages */ -}}
-{{- if and (ne $urlSlug "") (not (in $urlSlug "/blog/_index")) (not (in $urlSlug "/blog/idea")) -}}
+{{- if and (ne $urlSlug "") (not (in $urlSlug "/blog/_index")) (not (in $urlSlug "/blog/idea")) (not (in .File.Dir "/_templates/")) -}}
 {{- $existing := index $slugMap $urlSlug -}}
 {{- if $existing -}}
 {{- $slugMap = merge $slugMap (dict $urlSlug ($existing | append .File.Path)) -}}
@@ -79,10 +81,10 @@ Template variables used:
 {{- range $blogPosts -}}
 {{- $year := .Date.Format "2006" -}}
 {{- $urlSlug := .RelPermalink -}}
-{{- if and (ne $urlSlug "") (not (in $urlSlug "/blog/_index")) (not (in $urlSlug "/blog/idea")) -}}
+{{- if and (ne $urlSlug "") (not (in $urlSlug "/blog/_index")) (not (in $urlSlug "/blog/idea")) (not (in .File.Dir "/_templates/")) -}}
 {{- /* Extract the folder name (parent dir) for the old URL structure */ -}}
-{{- $pathParts := split .File.Dir "/" -}}
+{{- $pathParts := split (strings.TrimSuffix "/" .File.Dir) "/" -}}
 {{- $folderSlug := index $pathParts (sub (len $pathParts) 1) -}}
-/blog/{{ $year }}/{{ $folderSlug }}/ {{ .RelPermalink -}}
+{{- printf "/blog/%s/%s/ %s\n" $year $folderSlug $urlSlug -}}
 {{- end }}
 {{- end -}}

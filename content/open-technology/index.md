@@ -1,6 +1,6 @@
 # Our commitment to open technology
 
-This page describes 2i2c's commitment to developing and contributing to infrastructure that is open source now and into the future. More context can be found [in this blog post](../blog/community-ownership).
+This page describes 2i2c's commitment to developing and contributing to infrastructure that is open source now and into the future. More context can be found [in this blog post](blog/2025/community-ownership/index.md).
 
 _Definitions of MUST, MUST NOT, SHOULD, MAY, etc are defined in [RFC 2119](https://tools.ietf.org/html/rfc2119)_
 
@@ -16,4 +16,4 @@ _Definitions of MUST, MUST NOT, SHOULD, MAY, etc are defined in [RFC 2119](https
 [^governance]: This sets an intentionally-high bar for modifying this policy. In 2025 we aim to re-establish our steering council along with a community advisory board that is tasked with defining policy like this. In the interrim, we choose `2/3 of the organization` to be a reasonably high bar for changing this policy
 [^cla]: Protects from the most common "bait and switch" licensing problem, where being the sole copyright owner of a project allows us to change the license in the future because we've retained ownership over all the code.
 
-These commitments ensure 2i2c's ongoing support for open source technology and community-owned infrastructure, and constrain us from _changing_ this commitment in a way that would harm our communities. We hope that this builds trust with our communities to rely on 2i2c as a provider and a steward of their infrastructure. [See this blog post for more context](../blog/community-ownership)
+These commitments ensure 2i2c's ongoing support for open source technology and community-owned infrastructure, and constrain us from _changing_ this commitment in a way that would harm our communities. We hope that this builds trust with our communities to rely on 2i2c as a provider and a steward of their infrastructure. [See this blog post for more context](blog/2025/community-ownership/index.md)

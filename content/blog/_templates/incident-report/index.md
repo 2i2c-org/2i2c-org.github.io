@@ -30,4 +30,4 @@ On MMMM DD, YYYY our cloud infrastructure team experienced an incident with the 
 
 ## EXTRA EXAMPLES
 
-- content/blog/incident-ucmerced-user-throttling/index.md
+- contentblog/2025/incident-ucmerced-user-throttling/index.mdindex.md

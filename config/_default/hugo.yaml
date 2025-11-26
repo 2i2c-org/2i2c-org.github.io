@@ -49,6 +49,14 @@ taxonomies:
   author: authors
 markup:
   _merge: deep
+  goldmark:
+    renderer:
+      unsafe: true
+    renderHooks:
+      link:
+        enableDefault: true
+      image:
+        enableDefault: true
 related:
   threshold: 80
   includeNewer: true

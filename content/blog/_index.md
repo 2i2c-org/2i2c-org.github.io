@@ -13,7 +13,7 @@ title: 2i2c's blog
 
 <div class="category-labels">
 
-_We use this space to [share progress and impact](../blog/communications-strategy). Check out [our monthly newsletter](../mailing-list/index.md) for monthly summaries. You can [submit a blog idea here](./idea/index.md)._
+_We use this space to [share progress and impact](blog/2025/communications-strategy/index.md). Check out [our monthly newsletter](../mailing-list/index.md) for monthly summaries. You can [submit a blog idea here](./idea/index.md)._
 
 [Organization Updates](/categories/organization) | [Service Updates](/categories/service-enhancements) | [Community Impact](/categories/community-impact) | [Open Source Impact](/categories/upstream-impact)
 

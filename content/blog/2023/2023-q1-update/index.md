@@ -48,7 +48,7 @@ This quarter, we decided to streamline our authentication process by dropping th
 💡 _Learn more_
 
 - See [CILogon's write up about it's partnership with 2i2c](https://www.ncsa.illinois.edu/security-made-simple-with-ncsas-cilogon/)
-- See [our blog post about our use of CILogon](https://2i2c.org/blog/cilogon-integration/)
+- See [our blog post about our use of CILogon](blog/2023/cilogon-integration/index.md)
 
 ### We exposed user activity dashboards in JupyterHub so communities know how many people are using the service
 
@@ -107,7 +107,7 @@ We define [several key open source communities](https://compass.2i2c.org/organiz
 
 💡 _Learn more_
 
-Check out _[Principles and considerations for ethically accepting funding for open source](https://2i2c.org/blog/open-source-funding-principles/)_ for our first take on this, and [our Open Source Strategy](https://compass.2i2c.org/open-source/strategy/) page for our current team policies around this.
+Check out _[Principles and considerations for ethically accepting funding for open source](blog/2023/open-source-funding-principles/index.md)_ for our first take on this, and [our Open Source Strategy](https://compass.2i2c.org/open-source/strategy/) page for our current team policies around this.
 
 ### We responded to a NASA RFI on "Scientific Data and Computing Architecture to Support Open Science"
 

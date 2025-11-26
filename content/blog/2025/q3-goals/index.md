@@ -25,7 +25,7 @@ Hub management has many moving parts, and things can go wrong. We want tighter c
 
 ## User-level costs monitoring and group-level usage monitoring
 
-We'll build on our recent [Grafana dashboard usage monitoring](https://2i2c.org/blog/aws-cost-attribution/) to add **usage monitoring for user groups** and begin work on **user-level costs monitoring**. These are steps toward group-level cost tracking, which will enable better management of team and departmental expenses, especially in large institutions.
+We'll build on our recent [Grafana dashboard usage monitoring](blog/2024/aws-cost-attribution/index.md) to add **usage monitoring for user groups** and begin work on **user-level costs monitoring**. These are steps toward group-level cost tracking, which will enable better management of team and departmental expenses, especially in large institutions.
 
 ## Improving our Incident Response capability
 

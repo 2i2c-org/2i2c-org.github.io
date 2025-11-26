@@ -25,7 +25,7 @@ For example, we've used the following pillars in describing our service:
 1. **Partnership** – our communities are partners working towards shared impact, not customers to grow revenue.
 1. **Sustainability** – our service should have a self-sustaining model that ensures continuity, growth, and funder independence.
 
-We've also invested in creating an inclusive organizational culture via documents like [our Team Compass](https://compass.2i2c.org) and [our Code of Conduct](https://compass.2i2c.org/code-of-conduct/)[^include]. We've experimented with inclusive hiring practices to encourage a diverse pool of applicants for our open positions, such as [running open office hours for job postings](https://2i2c.org/blog/product-community-lead-drop-in-notes/) in the hopes that this would encourage more people to apply who might otherwise have been hesitant (something that often correlates with people from historically marginalized communities).
+We've also invested in creating an inclusive organizational culture via documents like [our Team Compass](https://compass.2i2c.org) and [our Code of Conduct](https://compass.2i2c.org/code-of-conduct/)[^include]. We've experimented with inclusive hiring practices to encourage a diverse pool of applicants for our open positions, such as [running open office hours for job postings](blog/2022/product-community-lead-drop-in-notes/index.md) in the hopes that this would encourage more people to apply who might otherwise have been hesitant (something that often correlates with people from historically marginalized communities).
 
 [^include]: We often refer to the [Project Include](https://projectinclude.org) documentation in creating an inclusive culture and set of policies. 
 

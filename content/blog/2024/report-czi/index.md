@@ -15,7 +15,7 @@ featured: false
 draft: false
 ---
 
-We're pleased to share a three-year retrospective report that was created to close-out 2i2c's original [seed funding grant provided by the Chan Zuckerberg Initiative](/blog/czi-core-support/).
+We're pleased to share a three-year retrospective report that was created to close-out 2i2c's original [seed funding grant provided by the Chan Zuckerberg Initiative](blog/2021/czi-core-support/index.md).
 
 - See the Zenodo entry here: <a href="https://doi.org/10.5281/zenodo.10790818"><img src="https://zenodo.org/badge/DOI/10.5281/zenodo.10790818.svg" alt="DOI" style="margin:0;display:inline-flex;"></a>
 - [See the MyST website for the report at `2i2c.org/report-czi-2021`](https://2i2c.org/report-czi-2021).

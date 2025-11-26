@@ -23,7 +23,7 @@ On most research oriented JupyterHub installations, users would like to customiz
 
 The profile list is the de-facto "logged in homepage" for these users, as that is what they see after they have logged in.
 
-In collaboration with [Development Seed](https://developmentseed.org/), funded by our [earlier grant](https://2i2c.org/blog/jupyterhub-binderhub-gesis/) from [GESIS](https://www.gesis.org/home) as well as the [NASA VEDA project](https://www.earthdata.nasa.gov/data/tools/veda), we have been building the [`jupyterhub-fancy-profiles`](https://github.com/2i2c-org/jupyterhub-fancy-profiles) project to improve this experience.
+In collaboration with [Development Seed](https://developmentseed.org/), funded by our [earlier grant](blog/2024/jupyterhub-binderhub-gesis/index.md) from [GESIS](https://www.gesis.org/home) as well as the [NASA VEDA project](https://www.earthdata.nasa.gov/data/tools/veda), we have been building the [`jupyterhub-fancy-profiles`](https://github.com/2i2c-org/jupyterhub-fancy-profiles) project to improve this experience.
 
 ![image](./fancy-profiles.png)
 (Profile List for the NASA VEDA JupyterHub with `jupyterhub-fancy-profiles`)
@@ -33,7 +33,7 @@ Last week, we rolled this new experience out to all 2i2c managed JupyterHubs! He
 1. Descriptions for choices in the dropdowns, making it much easier for users to know what they are getting with each environment (or resource selection).
 2. Fully backwards compatible with the existing KubeSpawner profile list implementation. In our PR to [roll this out](https://github.com/2i2c-org/infrastructure/pull/5083) to all hubs, you notice that we didn't have to change the structure of any profile lists! So you can safely roll this out to your hubs too without needing to fundamentally change how your profiles are set up.
 3. It is a modern web app (built with [react](https://react.dev/)), just like the JupyterHub admin panel. This allows us to evolve and satisfy user needs much faster, as well as expanding the pool of people who can contribute to the project!
-4. Support for dynamically building images using [mybinder.org](https://mybinder.org) style repositories! It talks to the [binderhub](https://github.com/jupyterhub/binderhub/) API so users can build reproducible environments as they wish without admin involvement nor needing to fully understand how docker and containers work. Our [earlier blog post](https://2i2c.org/blog/jupyterhub-binderhub-gesis/) has more information.
+4. Support for dynamically building images using [mybinder.org](https://mybinder.org) style repositories! It talks to the [binderhub](https://github.com/jupyterhub/binderhub/) API so users can build reproducible environments as they wish without admin involvement nor needing to fully understand how docker and containers work. Our [earlier blog post](blog/2024/jupyterhub-binderhub-gesis/index.md) has more information.
 
    ![image](./fancy-profiles-build.png)
 

@@ -12,7 +12,7 @@ tags:
 ---
 
 
-This post highlights what stood out to us from last quarter and reflects on the [targets we set at the start of the quarter](https://2i2c.org/blog/q2-product-goals/).
+This post highlights what stood out to us from last quarter and reflects on the [targets we set at the start of the quarter](blog/2025/q2-product-goals/index.md).
 
 This quarter, our team learned the importance of shipping iteratively and inviting feedback frequently. In some cases, we learned this the hard way - having spent multiple cycles developing without feedback from community representatives. In other cases, we made rapid progress by working in collaboration with community members in our network. next quarter, we are leaning into this approach as we work towards **building a more standardized and sustainable service** for our community network.
 
@@ -24,13 +24,13 @@ With that in mind, here's what stood out from the quarter:
 
 ## Group-level resource monitoring
 
-Building on our previous work delivering [usage monitoring using Prometheus and Grafana](https://2i2c.org/blog/aws-cost-attribution/), we've released [jupyterhub-groups-exporter](https://2i2c.org/blog/jupyterhub-groups-exporter/), allowing hub administrators to leverage the latest group management features in JupyterHub to monitor group-level resource usage effectively, making it easier to identify usage patterns across teams and departments.
+Building on our previous work delivering [usage monitoring using Prometheus and Grafana](blog/2024/aws-cost-attribution/index.md), we've released [jupyterhub-groups-exporter](blog/2025/jupyterhub-groups-exporter/index.md), allowing hub administrators to leverage the latest group management features in JupyterHub to monitor group-level resource usage effectively, making it easier to identify usage patterns across teams and departments.
 
-> ⭐ Members of 2i2c's community network can learn how to use this in [our user guide to usage monitoring](https://docs.2i2c.org/admin/monitoring/grafana-dashboards#getting-a-grafana-account). See this [blog post announcing `jupyterhub-groups-exporter`](https://2i2c.org/blog/jupyterhub-groups-exporter/).
+> ⭐ Members of 2i2c's community network can learn how to use this in [our user guide to usage monitoring](https://docs.2i2c.org/admin/monitoring/grafana-dashboards#getting-a-grafana-account). See this [blog post announcing `jupyterhub-groups-exporter`](blog/2025/jupyterhub-groups-exporter/index.md).
 
 ## Improve creating and sharing custom environments
 
-Last year we introduced [customizable servers via profile lists](https://2i2c.org/blog/jupyterhub-fancy-profiles-rollout/). We're building on that - servers can now be configured to [allow users to dynamically specify, build, and share their own custom environment images](https://docs.2i2c.org/user/environment/dynamic-imagebuilding) without the need for a hub administrator. This will allow community champions with diverse user bases to give their users greater flexibility to support a wide variety of custom computational workflows, accelerating knowledge discovery and sharing. Look out for a blog post on this development in the coming weeks and months.
+Last year we introduced [customizable servers via profile lists](blog/2024/jupyterhub-fancy-profiles-rollout/index.md). We're building on that - servers can now be configured to [allow users to dynamically specify, build, and share their own custom environment images](https://docs.2i2c.org/user/environment/dynamic-imagebuilding) without the need for a hub administrator. This will allow community champions with diverse user bases to give their users greater flexibility to support a wide variety of custom computational workflows, accelerating knowledge discovery and sharing. Look out for a blog post on this development in the coming weeks and months.
 
 > ⭐ Members of 2i2c's community network can learn how to use this in our **[dynamic image building quick start guide](https://docs.2i2c.org/user/environment/dynamic-imagebuilding)**.
 
@@ -38,7 +38,7 @@ Last year we introduced [customizable servers via profile lists](https://2i2c.or
 
 Central to our communities' work is sharing new findings, best practices, and community resources. To facilitate that, we've added support for [Jupyter Book 2](http://next.jupyterbook.org) for all of our member communities. Our communities can rapidly build interactive starter documentation and provide users with a rich, interactive, and informative onboarding experience. With a suite of customizable landing-page layouts, colour themes, and component galleries ready to match a community's branding, it's now easier than ever to couple a hub with its own co-located narrative content.
 
-> ⭐ Members of 2i2c's community network can learn how to use this in [our user guide to documentation and sharing](https://docs.2i2c.org/admin/monitoring/cost-users). See [this blog post for an announcement](https://2i2c.org/blog/jb-for-communities/).
+> ⭐ Members of 2i2c's community network can learn how to use this in [our user guide to documentation and sharing](https://docs.2i2c.org/admin/monitoring/cost-users). See [this blog post for an announcement](blog/2025/jb-for-communities/index.md).
 
 ## A better onboarding experience for our communities
 
