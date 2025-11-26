@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Devops | 2i2c</title><link>https://2i2c.org/tag/devops/</link><atom:link href="https://2i2c.org/tag/devops/index.xml" rel="self" type="application/rss+xml"/><description>Devops</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 19 Apr 2022 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Devops</title><link>https://2i2c.org/tag/devops/</link></image><item><title>Tech update: Multiple JupyterHubs, multiple clusters, one repository.</title><link>https://2i2c.org/blog/2022/ci-cd-improvements/</link><pubDate>Tue, 19 Apr 2022 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2022/ci-cd-improvements/</guid><description>&lt;p>2i2c manages the configuration and deployment of multiple Kubernetes clusters and JupyterHubs from
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Devops | 2i2c</title><link>https://2i2c.org/tag/devops/</link><atom:link href="https://2i2c.org/tag/devops/index.xml" rel="self" type="application/rss+xml"/><description>Devops</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 19 Apr 2022 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Devops</title><link>https://2i2c.org/tag/devops/</link></image><item><title>Tech update: Multiple JupyterHubs, multiple clusters, one repository.</title><link>https://2i2c.org/blog/ci-cd-improvements/</link><pubDate>Tue, 19 Apr 2022 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/ci-cd-improvements/</guid><description>&lt;p>2i2c manages the configuration and deployment of multiple Kubernetes clusters and JupyterHubs from
 &lt;a href="https://github.com/2i2c-org/infrastructure" target="_blank" rel="noopener" >a single open infrastructure repository&lt;/a>.
 This is a challenging problem, as it requires us to centralize information about a number of &lt;em>independent&lt;/em> cloud services, and deploy them in an efficient and reliable manner.
 Our initial attempt at this had a number of inefficiencies, and we recently completed an overhaul of its configuration and deployment infrastructure.&lt;/p>
@@ -85,10 +85,10 @@ Here are the major jobs in this workflow, and what each does:&lt;/p>
 &lt;figure id="figure-our-staging-and-support-hub-job-matrix-tells-github-actions-to-deploy-staging-and-support-upgrades-that-act-as-canaries-and-stop-production-deploys-if-they-fail">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Our staging and support hub job matrix tells GitHub Actions to deploy staging and support upgrades that act as canaries and stop production deploys if they fail." srcset="
-/blog/2022/ci-cd-improvements/images/staging-hub-matrix_hu7a1bb3fb06e3f581f944c2d267a10ff9_107479_ca59e5ca8dcd2b1ebeab736126bdfc9f.webp 400w,
-/blog/2022/ci-cd-improvements/images/staging-hub-matrix_hu7a1bb3fb06e3f581f944c2d267a10ff9_107479_c650383168feaeb478769bd20033f23c.webp 760w,
-/blog/2022/ci-cd-improvements/images/staging-hub-matrix_hu7a1bb3fb06e3f581f944c2d267a10ff9_107479_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2022/ci-cd-improvements/images/staging-hub-matrix_hu7a1bb3fb06e3f581f944c2d267a10ff9_107479_ca59e5ca8dcd2b1ebeab736126bdfc9f.webp"
+/blog/ci-cd-improvements/images/staging-hub-matrix_hu7a1bb3fb06e3f581f944c2d267a10ff9_107479_ca59e5ca8dcd2b1ebeab736126bdfc9f.webp 400w,
+/blog/ci-cd-improvements/images/staging-hub-matrix_hu7a1bb3fb06e3f581f944c2d267a10ff9_107479_c650383168feaeb478769bd20033f23c.webp 760w,
+/blog/ci-cd-improvements/images/staging-hub-matrix_hu7a1bb3fb06e3f581f944c2d267a10ff9_107479_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/ci-cd-improvements/images/staging-hub-matrix_hu7a1bb3fb06e3f581f944c2d267a10ff9_107479_ca59e5ca8dcd2b1ebeab736126bdfc9f.webp"
 width="760"
 height="529"
 loading="lazy" data-zoomable />&lt;/div>
@@ -114,10 +114,10 @@ Our staging and support hub job matrix tells GitHub Actions to deploy staging an
 &lt;figure id="figure-our-production-hub-job-matrix-tells-github-actions-which-hubs-to-update-with-new-changes-these-are-triggered-if-a-clusters-stagingsupport-job-does-not-fail">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Our production hub job matrix tells GitHub Actions which hubs to update with new changes. These are triggered if a cluster&amp;#39;s staging/support job does not fail." srcset="
-/blog/2022/ci-cd-improvements/images/prod-hub-matrix_huad3521b0ae4afb8512dab5e3fdf016b6_36691_1ae3e22a321454a0fe1662b19a894e36.webp 400w,
-/blog/2022/ci-cd-improvements/images/prod-hub-matrix_huad3521b0ae4afb8512dab5e3fdf016b6_36691_bdf6ab31265f2e43b125c72339342841.webp 760w,
-/blog/2022/ci-cd-improvements/images/prod-hub-matrix_huad3521b0ae4afb8512dab5e3fdf016b6_36691_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2022/ci-cd-improvements/images/prod-hub-matrix_huad3521b0ae4afb8512dab5e3fdf016b6_36691_1ae3e22a321454a0fe1662b19a894e36.webp"
+/blog/ci-cd-improvements/images/prod-hub-matrix_huad3521b0ae4afb8512dab5e3fdf016b6_36691_1ae3e22a321454a0fe1662b19a894e36.webp 400w,
+/blog/ci-cd-improvements/images/prod-hub-matrix_huad3521b0ae4afb8512dab5e3fdf016b6_36691_bdf6ab31265f2e43b125c72339342841.webp 760w,
+/blog/ci-cd-improvements/images/prod-hub-matrix_huad3521b0ae4afb8512dab5e3fdf016b6_36691_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/ci-cd-improvements/images/prod-hub-matrix_huad3521b0ae4afb8512dab5e3fdf016b6_36691_1ae3e22a321454a0fe1662b19a894e36.webp"
 width="760"
 height="515"
 loading="lazy" data-zoomable />&lt;/div>
@@ -147,7 +147,7 @@ Finally, it allows us to make &lt;em>targeted deploys&lt;/em> more effectively, 
 If you have any ideas of how we could further improve this infrastructure, please reach out on GitHub!
 If you know of a community that would like 2i2c to
 &lt;a href="https://2i2c.org/service/" target="_blank" rel="noopener" >manage a hub for your community&lt;/a>, please
-&lt;a href="https://2i2c.org/blog/2022/ci-cd-improvements/mailto:hello@2i2c.org" >send us an email&lt;/a>.&lt;/p>
+&lt;a href="https://2i2c.org/blog/ci-cd-improvements/mailto:hello@2i2c.org" >send us an email&lt;/a>.&lt;/p>
 &lt;p>&lt;em>&lt;strong>Acknowledgements&lt;/strong>: The infrastructure described in this post was developed by
 &lt;a href="https://2i2c.org/organization/team.md" >the 2i2c engineering team&lt;/a>, and this post was edited by
 &lt;a href="https://2i2c.org/author/chris-holdgraf" >Chris Holdgraf&lt;/a>.&lt;/em>&lt;/p></description></item></channel></rss>

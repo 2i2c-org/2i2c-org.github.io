@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Binder | 2i2c</title><link>https://2i2c.org/tag/binder/</link><atom:link href="https://2i2c.org/tag/binder/index.xml" rel="self" type="application/rss+xml"/><description>Binder</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 14 Oct 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Binder</title><link>https://2i2c.org/tag/binder/</link></image><item><title>Fixing the mybinder.org usage analytics archive</title><link>https://2i2c.org/blog/2025/mybinder-analytics-fix/</link><pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/mybinder-analytics-fix/</guid><description>&lt;p>The analytics archive at &lt;code>archive.analytics.mybinder.org&lt;/code> powers the
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Binder | 2i2c</title><link>https://2i2c.org/tag/binder/</link><atom:link href="https://2i2c.org/tag/binder/index.xml" rel="self" type="application/rss+xml"/><description>Binder</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 14 Oct 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Binder</title><link>https://2i2c.org/tag/binder/</link></image><item><title>Fixing the mybinder.org usage analytics archive</title><link>https://2i2c.org/blog/mybinder-analytics-fix/</link><pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/mybinder-analytics-fix/</guid><description>&lt;p>The analytics archive at &lt;code>archive.analytics.mybinder.org&lt;/code> powers the
 &lt;a href="https://hub.jupyter.org/binder-data/" target="_blank" rel="noopener" >mybinder.org usage dashboards&lt;/a> and provides a
 &lt;a href="https://github.com/jupyterhub/binder-data" target="_blank" rel="noopener" >daily-published dataset&lt;/a> that researchers and communities use to understand how Binder is being used across different domains and scientific communities.&lt;/p>
 &lt;p>While updating our
-&lt;a href="https://2i2c.org/blog/2025/mybinder-analytics-fix/../binder-report-q3/" >quarterly Binder impact report&lt;/a>, we discovered the archive index page had stopped updating. The analytics publisher was writing index files to temporary storage before uploading to Google Cloud Storage, but for some reason the upload step stopped working. We
+&lt;a href="https://2i2c.org/blog/mybinder-analytics-fix/../binder-report-q3/" >quarterly Binder impact report&lt;/a>, we discovered the archive index page had stopped updating. The analytics publisher was writing index files to temporary storage before uploading to Google Cloud Storage, but for some reason the upload step stopped working. We
 &lt;a href="https://github.com/jupyterhub/mybinder.org-deploy/pull/3462" target="_blank" rel="noopener" >deployed a fix&lt;/a> that eliminates the temporary files entirely - the code now generates the HTML index as a string in memory and uploads directly.&lt;/p>
 &lt;figure id="figure-the-mybinderorg-analytics-archivehttpsarchiveanalyticsmybinderorg-shows-a-list-of-daily-usage-reports-that-anybody-can-download">
 &lt;div class="d-flex justify-content-center">
@@ -24,7 +24,7 @@ Learn more
 &lt;li>The
 &lt;a href="https://github.com/jupyterhub/binder-data" target="_blank" rel="noopener" >&lt;code>binder-data/&lt;/code> repository&lt;/a> is where we aggregate and publish archive data to be more accessible.&lt;/li>
 &lt;li>
-&lt;a href="https://2i2c.org/blog/2025/mybinder-analytics-fix/../binder-report-q3/" >Our quarterly impact report from mybinder.org&lt;/a>&lt;/li>
+&lt;a href="https://2i2c.org/blog/mybinder-analytics-fix/../binder-report-q3/" >Our quarterly impact report from mybinder.org&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h2 id="acknowledgements">
 Acknowledgements
@@ -32,12 +32,12 @@ Acknowledgements
 &lt;/h2>&lt;ul>
 &lt;li>Thanks to the
 &lt;a href="https://2i2c.org/collaborators/jupyterhub/" >JupyterHub community&lt;/a> for their collaboration on mybinder.org infrastructure&lt;/li>
-&lt;/ul></description></item><item><title>Impact report from 2i2c's Binder federation instance</title><link>https://2i2c.org/blog/2025/binder-report/</link><pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/binder-report/</guid><description>&lt;p>The
+&lt;/ul></description></item><item><title>Impact report from 2i2c's Binder federation instance</title><link>https://2i2c.org/blog/binder-report/</link><pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/binder-report/</guid><description>&lt;p>The
 &lt;a href="https://mybinder.org" target="_blank" rel="noopener" >mybinder.org&lt;/a> service provides reproducible and interactive computational environments for the open science community. It is financially supported by a
 &lt;a href="https://mybinder.readthedocs.io/en/latest/about/federation.html" target="_blank" rel="noopener" >federation of BinderHubs&lt;/a>.
 2i2c is part of the team that manages mybinder.org, and we&amp;rsquo;re committed to supporting this critical infrastructure for open science and reproducibility.&lt;/p>
 &lt;p>We developed a more
-&lt;a href="https://2i2c.org/blog/2025/binder-report/../binder-singlenode/" >cost-efficient process for deploying BinderHub on a single VM&lt;/a> and are now running a BinderHub at
+&lt;a href="https://2i2c.org/blog/binder-report/../binder-singlenode/" >cost-efficient process for deploying BinderHub on a single VM&lt;/a> and are now running a BinderHub at
 &lt;a href="https://2i2c.mybinder.org" target="_blank" rel="noopener" >2i2c.mybinder.org&lt;/a>.
 This post highlights the impact we&amp;rsquo;ve had through our support of the mybinder.org federation, we&amp;rsquo;ll update it periodically.&lt;/p>
 &lt;h2 id="usage-over-time">
@@ -47,10 +47,10 @@ Usage over time
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Binder launches" srcset="
-/blog/2025/binder-report/featured_hu0f9f1ae8d80fa109b602b80004fe12f0_156400_bd3dc558251d8d2f9ceb45632df1537f.webp 400w,
-/blog/2025/binder-report/featured_hu0f9f1ae8d80fa109b602b80004fe12f0_156400_43138623992843945bb647029e00a3e0.webp 760w,
-/blog/2025/binder-report/featured_hu0f9f1ae8d80fa109b602b80004fe12f0_156400_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2025/binder-report/featured_hu0f9f1ae8d80fa109b602b80004fe12f0_156400_bd3dc558251d8d2f9ceb45632df1537f.webp"
+/blog/binder-report/featured_hu0f9f1ae8d80fa109b602b80004fe12f0_156400_bd3dc558251d8d2f9ceb45632df1537f.webp 400w,
+/blog/binder-report/featured_hu0f9f1ae8d80fa109b602b80004fe12f0_156400_43138623992843945bb647029e00a3e0.webp 760w,
+/blog/binder-report/featured_hu0f9f1ae8d80fa109b602b80004fe12f0_156400_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/binder-report/featured_hu0f9f1ae8d80fa109b602b80004fe12f0_156400_bd3dc558251d8d2f9ceb45632df1537f.webp"
 width="760"
 height="673"
 loading="lazy" data-zoomable />&lt;/div>
@@ -59,27 +59,27 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;p>&lt;em>Here are weekly launches on mybinder.org. Launches from &lt;code>2i2c.mybinder.org&lt;/code> are in red. Source:
 &lt;a href="https://hub.jupyter.org/binder-data/" target="_blank" rel="noopener" >mybinder analytics dashboard&lt;/a>.&lt;/em>&lt;/p>
 &lt;p>&lt;strong>In Q1 of 2025&lt;/strong>, &lt;code>2i2c.mybinder.org&lt;/code> launched &lt;strong>417,048 reproducible sessions&lt;/strong>. In this time, mybinder.org was primarily driven by our
-&lt;a href="https://2i2c.org/blog/2025/binder-report/../binder-singlenode/" >new Hetzner node&lt;/a> as we worked with GESIS to stabilize their own BinderHub instance.&lt;/p>
+&lt;a href="https://2i2c.org/blog/binder-report/../binder-singlenode/" >new Hetzner node&lt;/a> as we worked with GESIS to stabilize their own BinderHub instance.&lt;/p>
 &lt;p>&lt;strong>In Q2 of 2025&lt;/strong>, &lt;code>2i2c.mybinder.org&lt;/code> launched &lt;strong>249,750 reproducible sessions&lt;/strong>. In this time, we worked with
 &lt;a href="https://2i2c.org/collaborators/gesis/" >GESIS&lt;/a> to deploy their BinderHub instance on the same Hetzner node setup, which let us distribute more of Binder&amp;rsquo;s load onto them.&lt;/p>
 &lt;p>&lt;strong>In Q3 of 2025&lt;/strong>, &lt;code>2i2c.mybinder.org&lt;/code> launched &lt;strong>118,083 reproducible sessions&lt;/strong>. We experienced a typical summer dip in sessions, had to
-&lt;a href="https://2i2c.org/blog/2025/binder-report/../mybinder-analytics-fix/" >fix the analytics dashboard&lt;/a> as well as
-&lt;a href="https://2i2c.org/blog/2025/binder-report/../mybinder-antiabuse-scanning/" >fix a TCP scanning abuse case&lt;/a> that briefly brought down the 2i2c node.&lt;/p>
+&lt;a href="https://2i2c.org/blog/binder-report/../mybinder-analytics-fix/" >fix the analytics dashboard&lt;/a> as well as
+&lt;a href="https://2i2c.org/blog/binder-report/../mybinder-antiabuse-scanning/" >fix a TCP scanning abuse case&lt;/a> that briefly brought down the 2i2c node.&lt;/p>
 &lt;h2 id="where-weve-made-improvements">
 Where we&amp;rsquo;ve made improvements
 &lt;a class="header-anchor" href="#where-weve-made-improvements">#&lt;/a>
 &lt;/h2>&lt;p>As part of this effort, we&amp;rsquo;ve made several improvements to the Binder and JupyterHub ecosystem. Here are a few links where you can read more:&lt;/p>
 &lt;ul>
 &lt;li>
-&lt;a href="https://2i2c.org/blog/2025/binder-report/../binder-singlenode/" >Deploying BinderHub on a single VM with k3s&lt;/a> - Our approach to making BinderHub deployment cheaper and simpler&lt;/li>
+&lt;a href="https://2i2c.org/blog/binder-report/../binder-singlenode/" >Deploying BinderHub on a single VM with k3s&lt;/a> - Our approach to making BinderHub deployment cheaper and simpler&lt;/li>
 &lt;li>
-&lt;a href="https://2i2c.org/blog/2025/binder-report/../jetstream-binderhub/" >Hetzner cloud infrastructure experience&lt;/a> - Cost-effective cloud hosting for mybinder.org&lt;/li>
+&lt;a href="https://2i2c.org/blog/binder-report/../jetstream-binderhub/" >Hetzner cloud infrastructure experience&lt;/a> - Cost-effective cloud hosting for mybinder.org&lt;/li>
 &lt;li>
-&lt;a href="https://2i2c.org/blog/2025/binder-report/../mybinder-antiabuse-scanning/" >Combating TCP scanning abuse on mybinder.org&lt;/a> - Developing anti-abuse tools to prevent an abuse use-case.&lt;/li>
+&lt;a href="https://2i2c.org/blog/binder-report/../mybinder-antiabuse-scanning/" >Combating TCP scanning abuse on mybinder.org&lt;/a> - Developing anti-abuse tools to prevent an abuse use-case.&lt;/li>
 &lt;li>
 &lt;a href="https://hub.jupyter.org/binder-data/" target="_blank" rel="noopener" >Improving Binder&amp;rsquo;s usage dashboard&lt;/a> - This helps us create posts like these and is useful to others as well.&lt;/li>
 &lt;li>
-&lt;a href="https://2i2c.org/blog/2025/binder-report/../../2024/jupyterhub-binderhub-gesis/" >Integrating BinderHub with JupyterHub&lt;/a> - Working with
+&lt;a href="https://2i2c.org/blog/binder-report/../../2024/jupyterhub-binderhub-gesis/" >Integrating BinderHub with JupyterHub&lt;/a> - Working with
 &lt;a href="https://2i2c.org/collaborators/gesis/" >GESIS&lt;/a> to bring Binder&amp;rsquo;s dynamic image building capabilities to persistent JupyterHubs, empowering users to manage their own environments&lt;/li>
 &lt;/ul>
 &lt;h2 id="acknowledgements">
@@ -93,7 +93,7 @@ Acknowledgements
 &lt;a href="https://2i2c.org/collaborators/jupyterhub/" >JupyterHub community&lt;/a> for collaboration and support&lt;/li>
 &lt;li>Our
 &lt;a href="https://2i2c.org/members/" >member communities&lt;/a> whose fees support this work&lt;/li>
-&lt;/ul></description></item><item><title>Combating tcp scanning on mybinder.org with the tcpflowkiller</title><link>https://2i2c.org/blog/2025/mybinder-antiabuse-scanning/</link><pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/mybinder-antiabuse-scanning/</guid><description>&lt;p>We&amp;rsquo;ve deployed a new tool to &lt;code>mybinder.org&lt;/code> that automatically detects and stops port scanning activity, helping us maintain service reliability while being responsible citizens of the internet.&lt;/p>
+&lt;/ul></description></item><item><title>Combating tcp scanning on mybinder.org with the tcpflowkiller</title><link>https://2i2c.org/blog/mybinder-antiabuse-scanning/</link><pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/mybinder-antiabuse-scanning/</guid><description>&lt;p>We&amp;rsquo;ve deployed a new tool to &lt;code>mybinder.org&lt;/code> that automatically detects and stops port scanning activity, helping us maintain service reliability while being responsible citizens of the internet.&lt;/p>
 &lt;p>Port scanning is a common part of network-based exploits, and many server hosts prohibit this activity (including Hetzner, where the 2i2c &lt;code>mybinder.org&lt;/code> infrastructure lives). We developed a little tool called
 &lt;a href="https://github.com/cryptnono/cryptnono/pull/46" target="_blank" rel="noopener" >tcpflowkiller&lt;/a> as part of the
 &lt;a href="https://github.com/cryptnono/cryptnono" target="_blank" rel="noopener" >cryptnono&lt;/a> project (our anti-abuse set of tools for hosted JupyterHub and Binder infrastructure) to automatically kill processes that exhibit port scanning behavior. This reduces the likelihood of triggering our server host&amp;rsquo;s abuse policies and helps keep &lt;code>mybinder.org&lt;/code> running reliably.&lt;/p>
@@ -102,7 +102,7 @@ Why this matters
 &lt;a class="header-anchor" href="#why-this-matters">#&lt;/a>
 &lt;/h2>&lt;p>As providers of public compute, it&amp;rsquo;s our responsibility to make sure people can&amp;rsquo;t use our infrastructure to abuse others. This is part of being responsible citizens of the internet. It also saves us time in dealing with outages because cloud providers (understandably) block access when they suspect there is abuse.&lt;/p>
 &lt;p>Hetzner and similar hosts have many benefits (including
-&lt;a href="https://2i2c.org/blog/2025/mybinder-antiabuse-scanning/../binder-singlenode/" >significant cost savings&lt;/a>), and tools like tcpflowkiller help keep hubs and binders running smoothly on such hosts, which have different abuse policies than the big commercial cloud providers.&lt;/p>
+&lt;a href="https://2i2c.org/blog/mybinder-antiabuse-scanning/../binder-singlenode/" >significant cost savings&lt;/a>), and tools like tcpflowkiller help keep hubs and binders running smoothly on such hosts, which have different abuse policies than the big commercial cloud providers.&lt;/p>
 &lt;p>AWS and other cloud providers have proprietary ways to combat abuse (like
 &lt;a href="https://docs.aws.amazon.com/guardduty/latest/ug/what-is-guardduty.html" target="_blank" rel="noopener" >AWS GuardDuty&lt;/a>). We could have spent our time investing in developing rules there. Instead, contributing to cryptnono helps provide the same set of features in a cloud-agnostic way, in line with
 &lt;a href="https://2i2c.org/open-practices/" target="_blank" rel="noopener" >our principles&lt;/a> of supporting open infrastructure that gives communities control over their infrastructure.&lt;/p>
@@ -126,7 +126,7 @@ Acknowledgements
 &lt;li>Thanks to
 &lt;a href="https://2i2c.org/collaborators/gesis/" >GESIS&lt;/a> for their continued support of &lt;code>mybinder.org&lt;/code> and to
 &lt;a href="https://github.com/rgaiacs" target="_blank" rel="noopener" >Raniere Silva&lt;/a> for collaborating on this deployment with us.&lt;/li>
-&lt;/ul></description></item><item><title>Towards frictionless, portable, and sustainable reproducibility with Binder</title><link>https://2i2c.org/blog/2025/frictionless-reproducibility/</link><pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/frictionless-reproducibility/</guid><description>&lt;p>Last December I had an opportunity to discuss the current and future state of the open publishing ecosystem at a workshop hosted by
+&lt;/ul></description></item><item><title>Towards frictionless, portable, and sustainable reproducibility with Binder</title><link>https://2i2c.org/blog/frictionless-reproducibility/</link><pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/frictionless-reproducibility/</guid><description>&lt;p>Last December I had an opportunity to discuss the current and future state of the open publishing ecosystem at a workshop hosted by
 &lt;a href="https://2i2c.org/collaborators/hhmi/" >HHMI&lt;/a>&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>. While 2i2c doesn&amp;rsquo;t primarily focus on &amp;ldquo;publishing&amp;rdquo; workflows, we do support communities on a journey that often &lt;em>leads to publishing&lt;/em>, and we make choices about technology in our
 &lt;a href="https://2i2c.org/platform/" >community hub platform&lt;/a> that can support different kinds of publishing outcomes.&lt;/p>
 &lt;p>After listening to folks across the open science and publishing ecosystem, I noticed a common challenge:&lt;/p>
@@ -139,20 +139,20 @@ Acknowledgements
 A community experiment to provide reproducible environments for published pre-prints
 &lt;a class="header-anchor" href="#a-community-experiment-to-provide-reproducible-environments-for-published-pre-prints">#&lt;/a>
 &lt;/h2>&lt;p>Many of 2i2c&amp;rsquo;s communities already care about reproducibility and sharing their computational narratives. That&amp;rsquo;s one reason that we&amp;rsquo;ve
-&lt;a href="https://2i2c.org/blog/2024/jupyterhub-binderhub-gesis/" >been improving reproducible environment sharing with Binder&lt;/a>,
-&lt;a href="https://2i2c.org/blog/2024/project-pythia-cookoff/" >integrating Jupyter Book into our community cloud platform&lt;/a>, and
-&lt;a href="https://2i2c.org/blog/2025/binder-singlenode/" >supporting the mybinder.org federation&lt;/a>.&lt;/p>
+&lt;a href="https://2i2c.org/blog/jupyterhub-binderhub-gesis/" >been improving reproducible environment sharing with Binder&lt;/a>,
+&lt;a href="https://2i2c.org/blog/project-pythia-cookoff/" >integrating Jupyter Book into our community cloud platform&lt;/a>, and
+&lt;a href="https://2i2c.org/blog/binder-singlenode/" >supporting the mybinder.org federation&lt;/a>.&lt;/p>
 &lt;p>However, communities often want to &lt;strong>publish&lt;/strong> rather than just &lt;strong>share&lt;/strong>. Publishing is more structured, invites particular kinds of feedback, and requires more Quality Assurance. There&amp;rsquo;s a huge ecosystem of publishers and services that support formal publishing, and they ensure things like discoverability, long-term archivability, versioning, peer review, DOI referencing, etc.&lt;/p>
 &lt;p>We recently piloted
-&lt;a href="https://2i2c.org/blog/2024/hhmi-spyglass-mysql/" >running a BinderHub for Biorxiv publications with the Loren Frank lab and HHMI&lt;/a>, and found this to be a nice proof-of-concept. While the &amp;ldquo;published article&amp;rdquo; lives on
+&lt;a href="https://2i2c.org/blog/hhmi-spyglass-mysql/" >running a BinderHub for Biorxiv publications with the Loren Frank lab and HHMI&lt;/a>, and found this to be a nice proof-of-concept. While the &amp;ldquo;published article&amp;rdquo; lives on
 &lt;a href="https://www.biorxiv.org/" target="_blank" rel="noopener" >Biorxiv&lt;/a>, the computational infrastructure and environment is provided by a BinderHub (in this case managed by 2i2c, but anybody could manage a hub in this way).&lt;/p>
 &lt;figure id="figure-the-biorxiv-binder-pilot-workflow-an-author-used-a-2i2c-managed-binderhub-to-generate-a-reproducible-environment-for-their-paper-they-included-a-link-to-this-environment-in-the-abstract-readers-could-click-this-link-and-be-taken-to-a-fully-interactive-environment-to-explore-the-ideas-in-the-paper-and-reproduce-its-computation">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="The Biorxiv Binder pilot workflow. An author used a 2i2c-managed BinderHub to generate a reproducible environment for their paper. They included a link to this environment in the abstract. Readers could click this link, and be taken to a fully interactive environment to explore the ideas in the paper and reproduce its computation." srcset="
-/blog/2025/frictionless-reproducibility/images/reproduce-biorxiv_hu4a264c61637efbf8d7f2942ea4842e16_81975_c880c6edf541702d3444066f72a10e05.webp 400w,
-/blog/2025/frictionless-reproducibility/images/reproduce-biorxiv_hu4a264c61637efbf8d7f2942ea4842e16_81975_5b181b3431ea56b42eb92cace47a174f.webp 760w,
-/blog/2025/frictionless-reproducibility/images/reproduce-biorxiv_hu4a264c61637efbf8d7f2942ea4842e16_81975_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2025/frictionless-reproducibility/images/reproduce-biorxiv_hu4a264c61637efbf8d7f2942ea4842e16_81975_c880c6edf541702d3444066f72a10e05.webp"
+/blog/frictionless-reproducibility/images/reproduce-biorxiv_hu4a264c61637efbf8d7f2942ea4842e16_81975_c880c6edf541702d3444066f72a10e05.webp 400w,
+/blog/frictionless-reproducibility/images/reproduce-biorxiv_hu4a264c61637efbf8d7f2942ea4842e16_81975_5b181b3431ea56b42eb92cace47a174f.webp 760w,
+/blog/frictionless-reproducibility/images/reproduce-biorxiv_hu4a264c61637efbf8d7f2942ea4842e16_81975_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/frictionless-reproducibility/images/reproduce-biorxiv_hu4a264c61637efbf8d7f2942ea4842e16_81975_c880c6edf541702d3444066f72a10e05.webp"
 width="760"
 height="428"
 loading="lazy" data-zoomable />&lt;/div>
@@ -183,10 +183,10 @@ There are many publishing organizations innovating with open source
 &lt;figure id="figure-publishers-could-re-use-the-computational-environments-from-a-communitys-hub-resulting-in-a-de-duplication-of-infrastructure-and-effort-and-bridging-the-gap-between-where-a-community-does-its-work-and-where-it-submits-new-ideas-for-publication-note-these-are-hypothetical-for-now-but-we-think-publishing-platforms-like-these-are-a-good-starting-point">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Publishers could re-use the computational environments from a community&amp;#39;s hub, resulting in a de-duplication of infrastructure and effort, and bridging the gap between where a community does its work, and where it submits new ideas for publication. (note these are hypothetical for now, but we think publishing platforms like these are a good starting point!)" srcset="
-/blog/2025/frictionless-reproducibility/featured_hu264951e48eab912d65d96f304a781973_78955_697f770e880664f63e9ccf3d720f94da.webp 400w,
-/blog/2025/frictionless-reproducibility/featured_hu264951e48eab912d65d96f304a781973_78955_711db73ce17759ea694f6c540369cdd5.webp 760w,
-/blog/2025/frictionless-reproducibility/featured_hu264951e48eab912d65d96f304a781973_78955_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2025/frictionless-reproducibility/featured_hu264951e48eab912d65d96f304a781973_78955_697f770e880664f63e9ccf3d720f94da.webp"
+/blog/frictionless-reproducibility/featured_hu264951e48eab912d65d96f304a781973_78955_697f770e880664f63e9ccf3d720f94da.webp 400w,
+/blog/frictionless-reproducibility/featured_hu264951e48eab912d65d96f304a781973_78955_711db73ce17759ea694f6c540369cdd5.webp 760w,
+/blog/frictionless-reproducibility/featured_hu264951e48eab912d65d96f304a781973_78955_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/frictionless-reproducibility/featured_hu264951e48eab912d65d96f304a781973_78955_697f770e880664f63e9ccf3d720f94da.webp"
 width="760"
 height="428"
 loading="lazy" data-zoomable />&lt;/div>

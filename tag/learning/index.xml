@@ -1,14 +1,14 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Learning | 2i2c</title><link>https://2i2c.org/tag/learning/</link><atom:link href="https://2i2c.org/tag/learning/index.xml" rel="self" type="application/rss+xml"/><description>Learning</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 19 Nov 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Learning</title><link>https://2i2c.org/tag/learning/</link></image><item><title>Yuvi on scaling maintainer intuition to facilitate PR review with PR triage boards</title><link>https://2i2c.org/blog/2025/pr-triage-boards/</link><pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/pr-triage-boards/</guid><description>&lt;p>Yuvi has a recent post on the
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Learning | 2i2c</title><link>https://2i2c.org/tag/learning/</link><atom:link href="https://2i2c.org/tag/learning/index.xml" rel="self" type="application/rss+xml"/><description>Learning</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 19 Nov 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Learning</title><link>https://2i2c.org/tag/learning/</link></image><item><title>Yuvi on scaling maintainer intuition to facilitate PR review with PR triage boards</title><link>https://2i2c.org/blog/pr-triage-boards/</link><pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/pr-triage-boards/</guid><description>&lt;p>Yuvi has a recent post on the
 &lt;a href="https://jupyter.org" target="_blank" rel="noopener" >Jupyter blog&lt;/a> on how his &amp;ldquo;maintainer intuition&amp;rdquo; about reviewable pull requests grew into the open-source
 &lt;a href="https://github.com/jupyter/pr-triage-board-bot" target="_blank" rel="noopener" >&lt;code>pr-triage-board-bot&lt;/code>&lt;/a>, a reusable workflow that keeps GitHub Project boards curated for the JupyterHub, JupyterLab, and GeoJupyter communities.
-&lt;a href="https://2i2c.org/blog/2025/pr-triage-boards/../foundational-contributions/" >Foundational contributions&lt;/a> are rellay important to 2i2c. This is a great example of building clever technical systems that help maintainers prioritize the social work of facilitating contributions to keep ecosystems healthy.&lt;/p>
+&lt;a href="https://2i2c.org/blog/pr-triage-boards/../foundational-contributions/" >Foundational contributions&lt;/a> are rellay important to 2i2c. This is a great example of building clever technical systems that help maintainers prioritize the social work of facilitating contributions to keep ecosystems healthy.&lt;/p>
 &lt;figure id="figure-the-jupyterhub-pr-triage-boardhttpsgithubcomorgsjupyterhubprojects4views9">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="The [JupyterHub PR Triage board](https://github.com/orgs/jupyterhub/projects/4/views/9)." srcset="
-/blog/2025/pr-triage-boards/featured_hu42e3292f220b90b3776c7d0485ebe6f6_578487_0f0a6e755f2ce0c16c487d7c7d936d24.webp 400w,
-/blog/2025/pr-triage-boards/featured_hu42e3292f220b90b3776c7d0485ebe6f6_578487_db6b5eae52bd3533a354139bfb522b31.webp 760w,
-/blog/2025/pr-triage-boards/featured_hu42e3292f220b90b3776c7d0485ebe6f6_578487_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2025/pr-triage-boards/featured_hu42e3292f220b90b3776c7d0485ebe6f6_578487_0f0a6e755f2ce0c16c487d7c7d936d24.webp"
+/blog/pr-triage-boards/featured_hu42e3292f220b90b3776c7d0485ebe6f6_578487_0f0a6e755f2ce0c16c487d7c7d936d24.webp 400w,
+/blog/pr-triage-boards/featured_hu42e3292f220b90b3776c7d0485ebe6f6_578487_db6b5eae52bd3533a354139bfb522b31.webp 760w,
+/blog/pr-triage-boards/featured_hu42e3292f220b90b3776c7d0485ebe6f6_578487_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/pr-triage-boards/featured_hu42e3292f220b90b3776c7d0485ebe6f6_578487_0f0a6e755f2ce0c16c487d7c7d936d24.webp"
 width="760"
 height="367"
 loading="lazy" data-zoomable />&lt;/div>
@@ -59,7 +59,7 @@ Acknowledgements
 &lt;a href="https://github.com/jasongrout" target="_blank" rel="noopener" >Jason Grout&lt;/a>,
 &lt;a href="https://github.com/rgaiacs" target="_blank" rel="noopener" >Raniere Silva&lt;/a>, and
 &lt;a href="https://github.com/mfisher87" target="_blank" rel="noopener" >Matt Fisher&lt;/a> for spotting the experiment early and helping it land across multiple orgs.&lt;/li>
-&lt;/ul></description></item><item><title>Creating a re-usable redirect generator for Jupyter Book 1 migrations</title><link>https://2i2c.org/blog/2025/jb1-redirect-generator/</link><pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/jb1-redirect-generator/</guid><description>&lt;p>When migrating documentation from
+&lt;/ul></description></item><item><title>Creating a re-usable redirect generator for Jupyter Book 1 migrations</title><link>https://2i2c.org/blog/jb1-redirect-generator/</link><pubDate>Wed, 12 Nov 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/jb1-redirect-generator/</guid><description>&lt;p>When migrating documentation from
 &lt;a href="https://2i2c.org/collaborators/jupyter-book/" >Jupyter Book&lt;/a> 1 to Jupyter Book 2, URL structures change dramatically and break external links. We spent some time createing a re-usable tool to solve this problem across multiple projects.&lt;/p>
 &lt;p>You can check out the tool below:&lt;/p>
 &lt;p>
@@ -84,7 +84,7 @@ Learn more
 &lt;a href="https://github.com/jupyter-book/jb1-redirect-generator" target="_blank" rel="noopener" >jb1-redirect-generator repository&lt;/a>&lt;/li>
 &lt;li>
 &lt;a href="https://github.com/jupyter/governance/pull/307" target="_blank" rel="noopener" >Jupyter governance PR using the new script&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Community learning: Hub config to pass oauth tokens into user environments</title><link>https://2i2c.org/blog/2025/communities-learning-from-one-another/</link><pubDate>Thu, 06 Nov 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/communities-learning-from-one-another/</guid><description>&lt;p>One of our favorite things to see: communities learning from and building on each other&amp;rsquo;s work!&lt;/p>
+&lt;/ul></description></item><item><title>Community learning: Hub config to pass oauth tokens into user environments</title><link>https://2i2c.org/blog/communities-learning-from-one-another/</link><pubDate>Thu, 06 Nov 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/communities-learning-from-one-another/</guid><description>&lt;p>One of our favorite things to see: communities learning from and building on each other&amp;rsquo;s work!&lt;/p>
 &lt;p>
 &lt;a href="https://ops.maap-project.org/" target="_blank" rel="noopener" >MAAP&lt;/a> recently
 &lt;a href="https://github.com/2i2c-org/infrastructure/pull/7068" target="_blank" rel="noopener" >contributed infrastructure configuration&lt;/a> inspired by
@@ -110,7 +110,7 @@ Acknowledgments
 &lt;a href="https://ops.maap-project.org/" target="_blank" rel="noopener" >MAAP team&lt;/a> for adapting and contributing this configuration&lt;/li>
 &lt;li>
 &lt;a href="https://2i2c.org/collaborators/earthscope/" >EarthScope Consortium&lt;/a> for the original implementation&lt;/li>
-&lt;/ul></description></item><item><title>Refactoring Jupyter Book 2 documentation ahead of a major release</title><link>https://2i2c.org/blog/2025/jupyter-book-docs-refactor/</link><pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/jupyter-book-docs-refactor/</guid><description>&lt;p>Documentation is what turns open source code into products that people actually want to use. We recently spent a few days refactoring the
+&lt;/ul></description></item><item><title>Refactoring Jupyter Book 2 documentation ahead of a major release</title><link>https://2i2c.org/blog/jupyter-book-docs-refactor/</link><pubDate>Sat, 01 Nov 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/jupyter-book-docs-refactor/</guid><description>&lt;p>Documentation is what turns open source code into products that people actually want to use. We recently spent a few days refactoring the
 &lt;a href="https://2i2c.org/collaborators/jupyter-book/" >Jupyter Book&lt;/a> documentation to prepare for the upcoming Jupyter Book 2 release, and we&amp;rsquo;re excited about how much clearer the docs have become!&lt;/p>
 &lt;h2 id="what-we-did">
 What we did
@@ -151,7 +151,7 @@ Acknowledgements
 &lt;a href="https://2i2c.org/collaborators/pythia/" >Project Pythia&lt;/a>,
 &lt;a href="https://2i2c.org/collaborators/cryocloud/" >CryoCloud&lt;/a>, and the Berkeley educational projects are our primary member communities using MyST and
 &lt;a href="https://2i2c.org/collaborators/jupyter-book/" >Jupyter Book&lt;/a>. Their support covers the cost of these kinds of foundational contributions.&lt;/li>
-&lt;/ul></description></item><item><title>Communities learning from one another - Project Pythia and ICESat-2 Hackweeks</title><link>https://2i2c.org/blog/2025/pythia-icesat2-synergy/</link><pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/pythia-icesat2-synergy/</guid><description>&lt;p>We wanted to share a short vignette about two of our communities learning from one another.&lt;/p>
+&lt;/ul></description></item><item><title>Communities learning from one another - Project Pythia and ICESat-2 Hackweeks</title><link>https://2i2c.org/blog/pythia-icesat2-synergy/</link><pubDate>Tue, 21 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/pythia-icesat2-synergy/</guid><description>&lt;p>We wanted to share a short vignette about two of our communities learning from one another.&lt;/p>
 &lt;p>At the latest
 &lt;a href="https://docs.google.com/document/d/e/2PACX-1vQWQrgHs_G5XyNH5GTFYydH_woUZcyZibdxPUWLpqFUYs20WM93kdx5onwOaizC_3-tfnbreMNQbYAp/pub" target="_blank" rel="noopener" >Project Pythia community meeting&lt;/a>,
 &lt;a href="https://2i2c.org/collaborators/pythia/" >Project Pythia&lt;/a> met with representatives from
@@ -168,7 +168,7 @@ Learn more about these communities
 &lt;a href="https://cookbooks.projectpythia.org/" target="_blank" rel="noopener" >Project Pythia Cookbooks&lt;/a> - Domain-specific example workflows for geoscience&lt;/li>
 &lt;li>
 &lt;a href="https://icesat-2.hackweek.io/" target="_blank" rel="noopener" >ICESat-2 Hackweeks&lt;/a> - Collaborative learning events combining tutorials, peer learning, and team projects&lt;/li>
-&lt;/ul></description></item><item><title>TIL: GitHub Action secrets are only available from non-forked repositories</title><link>https://2i2c.org/blog/2025/github-action-secrets-forked-repositories/</link><pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/github-action-secrets-forked-repositories/</guid><description>&lt;p>If you&amp;rsquo;ve worked with GitHub Actions in open source projects, you might encounter a hard-to-debug error where repository secrets are simply &lt;em>empty&lt;/em>. That&amp;rsquo;s probably because the PR is from a forked repository! Here&amp;rsquo;s a little learning we had after losing a bunch of time figuring this out:&lt;/p>
+&lt;/ul></description></item><item><title>TIL: GitHub Action secrets are only available from non-forked repositories</title><link>https://2i2c.org/blog/github-action-secrets-forked-repositories/</link><pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/github-action-secrets-forked-repositories/</guid><description>&lt;p>If you&amp;rsquo;ve worked with GitHub Actions in open source projects, you might encounter a hard-to-debug error where repository secrets are simply &lt;em>empty&lt;/em>. That&amp;rsquo;s probably because the PR is from a forked repository! Here&amp;rsquo;s a little learning we had after losing a bunch of time figuring this out:&lt;/p>
 &lt;h2 id="our-pr-from-a-fork-was-using-empty-strings-for-repository-secrets">
 Our PR from a fork was using empty strings for repository secrets
 &lt;a class="header-anchor" href="#our-pr-from-a-fork-was-using-empty-strings-for-repository-secrets">#&lt;/a>

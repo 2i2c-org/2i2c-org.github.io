@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Communication | 2i2c</title><link>https://2i2c.org/tag/communication/</link><atom:link href="https://2i2c.org/tag/communication/index.xml" rel="self" type="application/rss+xml"/><description>Communication</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jul 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Communication</title><link>https://2i2c.org/tag/communication/</link></image><item><title>Open slides: Jupyter Book 2 and MyST at the UC Berkeley Data Science Education Summit</title><link>https://2i2c.org/blog/2025/jb2-berkeley-dsep/</link><pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/jb2-berkeley-dsep/</guid><description>&lt;p>Chris gave a talk about Jupyter Book 2 and MyST at the
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Communication | 2i2c</title><link>https://2i2c.org/tag/communication/</link><atom:link href="https://2i2c.org/tag/communication/index.xml" rel="self" type="application/rss+xml"/><description>Communication</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Jul 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Communication</title><link>https://2i2c.org/tag/communication/</link></image><item><title>Open slides: Jupyter Book 2 and MyST at the UC Berkeley Data Science Education Summit</title><link>https://2i2c.org/blog/jb2-berkeley-dsep/</link><pubDate>Tue, 01 Jul 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/jb2-berkeley-dsep/</guid><description>&lt;p>Chris gave a talk about Jupyter Book 2 and MyST at the
 &lt;a href="https://data.berkeley.edu/dsep" target="_blank" rel="noopener" >UC Berkeley Data Science Education Program&lt;/a>&amp;rsquo;s annual meeting. It covered the next direction for the Jupyter Book project, and its recent adoption of the
 &lt;a href="https://mystmd.org" target="_blank" rel="noopener" >MyST Document Engine&lt;/a> for Jupyter Book 2.&lt;/p>
 &lt;p>You can
@@ -7,10 +7,10 @@
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Slide from the presentation showing Jupyter Book 2 and MyST overview" srcset="
-/blog/2025/jb2-berkeley-dsep/featured_hu8430e0e9c10e10455f83c8ebe9d339d9_187852_6bbb6be570447b58bf1c8b32ded77fd2.webp 400w,
-/blog/2025/jb2-berkeley-dsep/featured_hu8430e0e9c10e10455f83c8ebe9d339d9_187852_7a0803bf6b1b290b1a3508b649c80e45.webp 760w,
-/blog/2025/jb2-berkeley-dsep/featured_hu8430e0e9c10e10455f83c8ebe9d339d9_187852_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2025/jb2-berkeley-dsep/featured_hu8430e0e9c10e10455f83c8ebe9d339d9_187852_6bbb6be570447b58bf1c8b32ded77fd2.webp"
+/blog/jb2-berkeley-dsep/featured_hu8430e0e9c10e10455f83c8ebe9d339d9_187852_6bbb6be570447b58bf1c8b32ded77fd2.webp 400w,
+/blog/jb2-berkeley-dsep/featured_hu8430e0e9c10e10455f83c8ebe9d339d9_187852_7a0803bf6b1b290b1a3508b649c80e45.webp 760w,
+/blog/jb2-berkeley-dsep/featured_hu8430e0e9c10e10455f83c8ebe9d339d9_187852_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/jb2-berkeley-dsep/featured_hu8430e0e9c10e10455f83c8ebe9d339d9_187852_6bbb6be570447b58bf1c8b32ded77fd2.webp"
 width="760"
 height="424"
 loading="lazy" data-zoomable />&lt;/div>
@@ -25,7 +25,7 @@ Learn more
 &lt;li>
 &lt;a href="https://blog.jupyterbook.org/posts/2024-11-15-jupyter-book-2-alpha/" target="_blank" rel="noopener" >Learn about Jupyter Book 2&lt;/a>&lt;/li>
 &lt;li>
-&lt;a href="https://2i2c.org/blog/2025/jb-for-communities/" >See how we&amp;rsquo;re using Jupyter Book for communities&lt;/a>&lt;/li>
+&lt;a href="https://2i2c.org/blog/jb-for-communities/" >See how we&amp;rsquo;re using Jupyter Book for communities&lt;/a>&lt;/li>
 &lt;li>
 &lt;a href="https://next.jupyterbook.org/" target="_blank" rel="noopener" >Jupyter Book 2 documentation&lt;/a>&lt;/li>
 &lt;/ul>

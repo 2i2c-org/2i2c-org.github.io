@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Reliability | 2i2c</title><link>https://2i2c.org/tag/reliability/</link><atom:link href="https://2i2c.org/tag/reliability/index.xml" rel="self" type="application/rss+xml"/><description>Reliability</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 14 Oct 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Reliability</title><link>https://2i2c.org/tag/reliability/</link></image><item><title>Fixing the mybinder.org usage analytics archive</title><link>https://2i2c.org/blog/2025/mybinder-analytics-fix/</link><pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/mybinder-analytics-fix/</guid><description>&lt;p>The analytics archive at &lt;code>archive.analytics.mybinder.org&lt;/code> powers the
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Reliability | 2i2c</title><link>https://2i2c.org/tag/reliability/</link><atom:link href="https://2i2c.org/tag/reliability/index.xml" rel="self" type="application/rss+xml"/><description>Reliability</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 14 Oct 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Reliability</title><link>https://2i2c.org/tag/reliability/</link></image><item><title>Fixing the mybinder.org usage analytics archive</title><link>https://2i2c.org/blog/mybinder-analytics-fix/</link><pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/mybinder-analytics-fix/</guid><description>&lt;p>The analytics archive at &lt;code>archive.analytics.mybinder.org&lt;/code> powers the
 &lt;a href="https://hub.jupyter.org/binder-data/" target="_blank" rel="noopener" >mybinder.org usage dashboards&lt;/a> and provides a
 &lt;a href="https://github.com/jupyterhub/binder-data" target="_blank" rel="noopener" >daily-published dataset&lt;/a> that researchers and communities use to understand how Binder is being used across different domains and scientific communities.&lt;/p>
 &lt;p>While updating our
-&lt;a href="https://2i2c.org/blog/2025/mybinder-analytics-fix/../binder-report-q3/" >quarterly Binder impact report&lt;/a>, we discovered the archive index page had stopped updating. The analytics publisher was writing index files to temporary storage before uploading to Google Cloud Storage, but for some reason the upload step stopped working. We
+&lt;a href="https://2i2c.org/blog/mybinder-analytics-fix/../binder-report-q3/" >quarterly Binder impact report&lt;/a>, we discovered the archive index page had stopped updating. The analytics publisher was writing index files to temporary storage before uploading to Google Cloud Storage, but for some reason the upload step stopped working. We
 &lt;a href="https://github.com/jupyterhub/mybinder.org-deploy/pull/3462" target="_blank" rel="noopener" >deployed a fix&lt;/a> that eliminates the temporary files entirely - the code now generates the HTML index as a string in memory and uploads directly.&lt;/p>
 &lt;figure id="figure-the-mybinderorg-analytics-archivehttpsarchiveanalyticsmybinderorg-shows-a-list-of-daily-usage-reports-that-anybody-can-download">
 &lt;div class="d-flex justify-content-center">
@@ -24,7 +24,7 @@ Learn more
 &lt;li>The
 &lt;a href="https://github.com/jupyterhub/binder-data" target="_blank" rel="noopener" >&lt;code>binder-data/&lt;/code> repository&lt;/a> is where we aggregate and publish archive data to be more accessible.&lt;/li>
 &lt;li>
-&lt;a href="https://2i2c.org/blog/2025/mybinder-analytics-fix/../binder-report-q3/" >Our quarterly impact report from mybinder.org&lt;/a>&lt;/li>
+&lt;a href="https://2i2c.org/blog/mybinder-analytics-fix/../binder-report-q3/" >Our quarterly impact report from mybinder.org&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h2 id="acknowledgements">
 Acknowledgements
@@ -32,7 +32,7 @@ Acknowledgements
 &lt;/h2>&lt;ul>
 &lt;li>Thanks to the
 &lt;a href="https://2i2c.org/collaborators/jupyterhub/" >JupyterHub community&lt;/a> for their collaboration on mybinder.org infrastructure&lt;/li>
-&lt;/ul></description></item><item><title>Combating tcp scanning on mybinder.org with the tcpflowkiller</title><link>https://2i2c.org/blog/2025/mybinder-antiabuse-scanning/</link><pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/mybinder-antiabuse-scanning/</guid><description>&lt;p>We&amp;rsquo;ve deployed a new tool to &lt;code>mybinder.org&lt;/code> that automatically detects and stops port scanning activity, helping us maintain service reliability while being responsible citizens of the internet.&lt;/p>
+&lt;/ul></description></item><item><title>Combating tcp scanning on mybinder.org with the tcpflowkiller</title><link>https://2i2c.org/blog/mybinder-antiabuse-scanning/</link><pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/mybinder-antiabuse-scanning/</guid><description>&lt;p>We&amp;rsquo;ve deployed a new tool to &lt;code>mybinder.org&lt;/code> that automatically detects and stops port scanning activity, helping us maintain service reliability while being responsible citizens of the internet.&lt;/p>
 &lt;p>Port scanning is a common part of network-based exploits, and many server hosts prohibit this activity (including Hetzner, where the 2i2c &lt;code>mybinder.org&lt;/code> infrastructure lives). We developed a little tool called
 &lt;a href="https://github.com/cryptnono/cryptnono/pull/46" target="_blank" rel="noopener" >tcpflowkiller&lt;/a> as part of the
 &lt;a href="https://github.com/cryptnono/cryptnono" target="_blank" rel="noopener" >cryptnono&lt;/a> project (our anti-abuse set of tools for hosted JupyterHub and Binder infrastructure) to automatically kill processes that exhibit port scanning behavior. This reduces the likelihood of triggering our server host&amp;rsquo;s abuse policies and helps keep &lt;code>mybinder.org&lt;/code> running reliably.&lt;/p>
@@ -41,7 +41,7 @@ Why this matters
 &lt;a class="header-anchor" href="#why-this-matters">#&lt;/a>
 &lt;/h2>&lt;p>As providers of public compute, it&amp;rsquo;s our responsibility to make sure people can&amp;rsquo;t use our infrastructure to abuse others. This is part of being responsible citizens of the internet. It also saves us time in dealing with outages because cloud providers (understandably) block access when they suspect there is abuse.&lt;/p>
 &lt;p>Hetzner and similar hosts have many benefits (including
-&lt;a href="https://2i2c.org/blog/2025/mybinder-antiabuse-scanning/../binder-singlenode/" >significant cost savings&lt;/a>), and tools like tcpflowkiller help keep hubs and binders running smoothly on such hosts, which have different abuse policies than the big commercial cloud providers.&lt;/p>
+&lt;a href="https://2i2c.org/blog/mybinder-antiabuse-scanning/../binder-singlenode/" >significant cost savings&lt;/a>), and tools like tcpflowkiller help keep hubs and binders running smoothly on such hosts, which have different abuse policies than the big commercial cloud providers.&lt;/p>
 &lt;p>AWS and other cloud providers have proprietary ways to combat abuse (like
 &lt;a href="https://docs.aws.amazon.com/guardduty/latest/ug/what-is-guardduty.html" target="_blank" rel="noopener" >AWS GuardDuty&lt;/a>). We could have spent our time investing in developing rules there. Instead, contributing to cryptnono helps provide the same set of features in a cloud-agnostic way, in line with
 &lt;a href="https://2i2c.org/open-practices/" target="_blank" rel="noopener" >our principles&lt;/a> of supporting open infrastructure that gives communities control over their infrastructure.&lt;/p>
@@ -65,9 +65,9 @@ Acknowledgements
 &lt;li>Thanks to
 &lt;a href="https://2i2c.org/collaborators/gesis/" >GESIS&lt;/a> for their continued support of &lt;code>mybinder.org&lt;/code> and to
 &lt;a href="https://github.com/rgaiacs" target="_blank" rel="noopener" >Raniere Silva&lt;/a> for collaborating on this deployment with us.&lt;/li>
-&lt;/ul></description></item><item><title>Demonstrating our infrastructure's reliability with a hub status page for our communities</title><link>https://2i2c.org/blog/2025/status-page/</link><pubDate>Tue, 23 Sep 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/status-page/</guid><description>&lt;p>One of 2i2c&amp;rsquo;s goals is to &lt;strong>make the cloud safe for science&lt;/strong>.
+&lt;/ul></description></item><item><title>Demonstrating our infrastructure's reliability with a hub status page for our communities</title><link>https://2i2c.org/blog/status-page/</link><pubDate>Tue, 23 Sep 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/status-page/</guid><description>&lt;p>One of 2i2c&amp;rsquo;s goals is to &lt;strong>make the cloud safe for science&lt;/strong>.
 A big part of this is making the black box of commercial cloud infrastructure more predictable and reliable for our member communities, across our network of community hubs that all operate autonomously.&lt;/p>
-&lt;a href="https://docs.google.com/forms/d/e/1FAIpQLSff-u-sWFuwO1-VTgk2Ir7f1nfUUlLevQk_Vkk_jnmcI1nJnw/viewform?usp=pp_url&amp;amp;entry.648332035=https://2i2c.org/blog/2025/status-page/" target="_blank" rel="noopener" class="text-decoration-none">
+&lt;a href="https://docs.google.com/forms/d/e/1FAIpQLSff-u-sWFuwO1-VTgk2Ir7f1nfUUlLevQk_Vkk_jnmcI1nJnw/viewform?usp=pp_url&amp;amp;entry.648332035=https://2i2c.org/blog/status-page/" target="_blank" rel="noopener" class="text-decoration-none">
 &lt;div class="alert alert-info d-flex align-items-start p-3" role="button" style="transition: all 0.2s ease; box-shadow: 0 2px 4px rgba(0,0,0,0.1);" onmouseover="this.style.backgroundColor='#b3e5fc'; this.style.boxShadow='0 4px 8px rgba(0,0,0,0.15)'; this.style.transform='translateY(-1px)'" onmouseout="this.style.backgroundColor=''; this.style.boxShadow='0 2px 4px rgba(0,0,0,0.1)'; this.style.transform='translateY(0)'" onfocus="this.style.backgroundColor='#b3e5fc'; this.style.boxShadow='0 4px 8px rgba(0,0,0,0.15)'; this.style.transform='translateY(-1px)'" onblur="this.style.backgroundColor=''; this.style.boxShadow='0 2px 4px rgba(0,0,0,0.1)'; this.style.transform='translateY(0)'">
 &lt;div class="fw-bold mb-1">&lt;span style="font-weight:bold">Give us feedback!&lt;/span> Click here to provide feedback that will help us make this more impactful.&lt;/div>
 &lt;/div>
@@ -78,10 +78,10 @@ A big part of this is making the black box of commercial cloud infrastructure mo
 &lt;figure id="figure-the-2i2c-status-page-gives-communities-a-high-level-view-of-the-uptime-for-our-entire-network-of-community-hubs">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="The 2i2c Status Page gives communities a high-level view of the uptime for our entire network of community hubs." srcset="
-/blog/2025/status-page/featured_hudcfdf27a10fbca3598dd77978ccf2720_32254_65a3e43ecff516e4749f4c8de6cece80.webp 400w,
-/blog/2025/status-page/featured_hudcfdf27a10fbca3598dd77978ccf2720_32254_b5951eee6a91520a1d5155144fcbfbc5.webp 760w,
-/blog/2025/status-page/featured_hudcfdf27a10fbca3598dd77978ccf2720_32254_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2025/status-page/featured_hudcfdf27a10fbca3598dd77978ccf2720_32254_65a3e43ecff516e4749f4c8de6cece80.webp"
+/blog/status-page/featured_hudcfdf27a10fbca3598dd77978ccf2720_32254_65a3e43ecff516e4749f4c8de6cece80.webp 400w,
+/blog/status-page/featured_hudcfdf27a10fbca3598dd77978ccf2720_32254_b5951eee6a91520a1d5155144fcbfbc5.webp 760w,
+/blog/status-page/featured_hudcfdf27a10fbca3598dd77978ccf2720_32254_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/status-page/featured_hudcfdf27a10fbca3598dd77978ccf2720_32254_65a3e43ecff516e4749f4c8de6cece80.webp"
 width="760"
 height="476"
 loading="lazy" data-zoomable />&lt;/div>
@@ -103,7 +103,7 @@ Learn more
 &lt;a href="https://github.com/2i2c-org/team-compass/pull/1021" target="_blank" rel="noopener" >Our new process for incident response&lt;/a>&lt;/li>
 &lt;li>👉 Follow an
 &lt;a href="https://github.com/2i2c-org/infrastructure/issues/6417" target="_blank" rel="noopener" >in-progress initiative to improve the reliability of our infrastructure&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Solving classes of problems, rather than just an instance of a problem (with an example)</title><link>https://2i2c.org/blog/2025/automating-support-upgrades/</link><pubDate>Mon, 09 Jun 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/automating-support-upgrades/</guid><description>
+&lt;/ul></description></item><item><title>Solving classes of problems, rather than just an instance of a problem (with an example)</title><link>https://2i2c.org/blog/automating-support-upgrades/</link><pubDate>Mon, 09 Jun 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/automating-support-upgrades/</guid><description>
 &lt;h2 id="the-problem">
 The Problem
 &lt;a class="header-anchor" href="#the-problem">#&lt;/a>
@@ -148,7 +148,7 @@ Acknowledgements
 &lt;li>Thanks to the
 &lt;a href="https://2i2c.org/collaborators/openscapes/" >OpenScapes&lt;/a> and
 &lt;a href="https://2i2c.org/collaborators/cryocloud/" >CryoCloud&lt;/a> communities for working with us closely on infrastructure to identify improvements like this.&lt;/li>
-&lt;/ul></description></item><item><title>Simplifying and speeding up Binder builds with BuildKit</title><link>https://2i2c.org/blog/2025/binder-buildkit/</link><pubDate>Mon, 03 Mar 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/binder-buildkit/</guid><description>&lt;p>Chris and Yuvi recently wrote
+&lt;/ul></description></item><item><title>Simplifying and speeding up Binder builds with BuildKit</title><link>https://2i2c.org/blog/binder-buildkit/</link><pubDate>Mon, 03 Mar 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/binder-buildkit/</guid><description>&lt;p>Chris and Yuvi recently wrote
 &lt;a href="https://blog.jupyter.org/simplifying-and-speeding-up-binder-builds-with-buildkit-d44f96582994" target="_blank" rel="noopener" >a blog post on the Jupyter blog&lt;/a> about a recent experiment to significantly reduce the cost of running a node on the mybinder.org federation.&lt;/p>
 &lt;h2 id="acknowledgements">
 Acknowledgements
@@ -158,7 +158,7 @@ Acknowledgements
 &lt;a href="https://2i2c.org/collaborators/pythia/" >Project Pythia&lt;/a> provides support for some of our work with the Binder project.&lt;/li>
 &lt;li>
 &lt;a href="https://2i2c.org/collaborators/jupyterhub/" >JupyterHub&lt;/a> for working with us to get this new node deployed for mybinder.org.&lt;/li>
-&lt;/ul></description></item><item><title>Tech update: Multiple JupyterHubs, multiple clusters, one repository.</title><link>https://2i2c.org/blog/2022/ci-cd-improvements/</link><pubDate>Tue, 19 Apr 2022 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2022/ci-cd-improvements/</guid><description>&lt;p>2i2c manages the configuration and deployment of multiple Kubernetes clusters and JupyterHubs from
+&lt;/ul></description></item><item><title>Tech update: Multiple JupyterHubs, multiple clusters, one repository.</title><link>https://2i2c.org/blog/ci-cd-improvements/</link><pubDate>Tue, 19 Apr 2022 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/ci-cd-improvements/</guid><description>&lt;p>2i2c manages the configuration and deployment of multiple Kubernetes clusters and JupyterHubs from
 &lt;a href="https://github.com/2i2c-org/infrastructure" target="_blank" rel="noopener" >a single open infrastructure repository&lt;/a>.
 This is a challenging problem, as it requires us to centralize information about a number of &lt;em>independent&lt;/em> cloud services, and deploy them in an efficient and reliable manner.
 Our initial attempt at this had a number of inefficiencies, and we recently completed an overhaul of its configuration and deployment infrastructure.&lt;/p>
@@ -245,10 +245,10 @@ Here are the major jobs in this workflow, and what each does:&lt;/p>
 &lt;figure id="figure-our-staging-and-support-hub-job-matrix-tells-github-actions-to-deploy-staging-and-support-upgrades-that-act-as-canaries-and-stop-production-deploys-if-they-fail">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Our staging and support hub job matrix tells GitHub Actions to deploy staging and support upgrades that act as canaries and stop production deploys if they fail." srcset="
-/blog/2022/ci-cd-improvements/images/staging-hub-matrix_hu7a1bb3fb06e3f581f944c2d267a10ff9_107479_ca59e5ca8dcd2b1ebeab736126bdfc9f.webp 400w,
-/blog/2022/ci-cd-improvements/images/staging-hub-matrix_hu7a1bb3fb06e3f581f944c2d267a10ff9_107479_c650383168feaeb478769bd20033f23c.webp 760w,
-/blog/2022/ci-cd-improvements/images/staging-hub-matrix_hu7a1bb3fb06e3f581f944c2d267a10ff9_107479_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2022/ci-cd-improvements/images/staging-hub-matrix_hu7a1bb3fb06e3f581f944c2d267a10ff9_107479_ca59e5ca8dcd2b1ebeab736126bdfc9f.webp"
+/blog/ci-cd-improvements/images/staging-hub-matrix_hu7a1bb3fb06e3f581f944c2d267a10ff9_107479_ca59e5ca8dcd2b1ebeab736126bdfc9f.webp 400w,
+/blog/ci-cd-improvements/images/staging-hub-matrix_hu7a1bb3fb06e3f581f944c2d267a10ff9_107479_c650383168feaeb478769bd20033f23c.webp 760w,
+/blog/ci-cd-improvements/images/staging-hub-matrix_hu7a1bb3fb06e3f581f944c2d267a10ff9_107479_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/ci-cd-improvements/images/staging-hub-matrix_hu7a1bb3fb06e3f581f944c2d267a10ff9_107479_ca59e5ca8dcd2b1ebeab736126bdfc9f.webp"
 width="760"
 height="529"
 loading="lazy" data-zoomable />&lt;/div>
@@ -274,10 +274,10 @@ Our staging and support hub job matrix tells GitHub Actions to deploy staging an
 &lt;figure id="figure-our-production-hub-job-matrix-tells-github-actions-which-hubs-to-update-with-new-changes-these-are-triggered-if-a-clusters-stagingsupport-job-does-not-fail">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Our production hub job matrix tells GitHub Actions which hubs to update with new changes. These are triggered if a cluster&amp;#39;s staging/support job does not fail." srcset="
-/blog/2022/ci-cd-improvements/images/prod-hub-matrix_huad3521b0ae4afb8512dab5e3fdf016b6_36691_1ae3e22a321454a0fe1662b19a894e36.webp 400w,
-/blog/2022/ci-cd-improvements/images/prod-hub-matrix_huad3521b0ae4afb8512dab5e3fdf016b6_36691_bdf6ab31265f2e43b125c72339342841.webp 760w,
-/blog/2022/ci-cd-improvements/images/prod-hub-matrix_huad3521b0ae4afb8512dab5e3fdf016b6_36691_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2022/ci-cd-improvements/images/prod-hub-matrix_huad3521b0ae4afb8512dab5e3fdf016b6_36691_1ae3e22a321454a0fe1662b19a894e36.webp"
+/blog/ci-cd-improvements/images/prod-hub-matrix_huad3521b0ae4afb8512dab5e3fdf016b6_36691_1ae3e22a321454a0fe1662b19a894e36.webp 400w,
+/blog/ci-cd-improvements/images/prod-hub-matrix_huad3521b0ae4afb8512dab5e3fdf016b6_36691_bdf6ab31265f2e43b125c72339342841.webp 760w,
+/blog/ci-cd-improvements/images/prod-hub-matrix_huad3521b0ae4afb8512dab5e3fdf016b6_36691_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/ci-cd-improvements/images/prod-hub-matrix_huad3521b0ae4afb8512dab5e3fdf016b6_36691_1ae3e22a321454a0fe1662b19a894e36.webp"
 width="760"
 height="515"
 loading="lazy" data-zoomable />&lt;/div>
@@ -307,7 +307,7 @@ Finally, it allows us to make &lt;em>targeted deploys&lt;/em> more effectively, 
 If you have any ideas of how we could further improve this infrastructure, please reach out on GitHub!
 If you know of a community that would like 2i2c to
 &lt;a href="https://2i2c.org/service/" target="_blank" rel="noopener" >manage a hub for your community&lt;/a>, please
-&lt;a href="https://2i2c.org/blog/2022/ci-cd-improvements/mailto:hello@2i2c.org" >send us an email&lt;/a>.&lt;/p>
+&lt;a href="https://2i2c.org/blog/ci-cd-improvements/mailto:hello@2i2c.org" >send us an email&lt;/a>.&lt;/p>
 &lt;p>&lt;em>&lt;strong>Acknowledgements&lt;/strong>: The infrastructure described in this post was developed by
 &lt;a href="https://2i2c.org/organization/team.md" >the 2i2c engineering team&lt;/a>, and this post was edited by
 &lt;a href="https://2i2c.org/author/chris-holdgraf" >Chris Holdgraf&lt;/a>.&lt;/em>&lt;/p></description></item></channel></rss>

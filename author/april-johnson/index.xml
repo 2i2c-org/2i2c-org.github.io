@@ -4,31 +4,31 @@
 &lt;li>20+ years growing and guiding technology organizations&lt;/li>
 &lt;li>Ex-Global Head of Transformation at Thoughtworks (Europe, Latin America, India, North America, and Asia)&lt;/li>
 &lt;li>expertise in human-centered design, agility, people leadership, change, leading remote and asynchronous agile teams, coaching, and non-profit development.&lt;/li>
-&lt;/ul></description></item><item><title>Product and team highlights from Q2 2025</title><link>https://2i2c.org/blog/2025/q2-highlights/</link><pubDate>Mon, 21 Jul 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/q2-highlights/</guid><description>&lt;p>This post highlights what stood out to us from last quarter and reflects on the
-&lt;a href="https://2i2c.org/blog/2025/q2-product-goals/" target="_blank" rel="noopener" >targets we set at the start of the quarter&lt;/a>.&lt;/p>
+&lt;/ul></description></item><item><title>Product and team highlights from Q2 2025</title><link>https://2i2c.org/blog/q2-highlights/</link><pubDate>Mon, 21 Jul 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/q2-highlights/</guid><description>&lt;p>This post highlights what stood out to us from last quarter and reflects on the
+&lt;a href="https://2i2c.org/blog/q2-product-goals/" >targets we set at the start of the quarter&lt;/a>.&lt;/p>
 &lt;p>This quarter, our team learned the importance of shipping iteratively and inviting feedback frequently. In some cases, we learned this the hard way - having spent multiple cycles developing without feedback from community representatives. In other cases, we made rapid progress by working in collaboration with community members in our network. next quarter, we are leaning into this approach as we work towards &lt;strong>building a more standardized and sustainable service&lt;/strong> for our community network.&lt;/p>
 &lt;p>We&amp;rsquo;ve experienced some disruption and more uncertainty due to the current scientific funding climate, and we&amp;rsquo;re working hard to iterate on this model with feedback from our communities to find a path towards sustainability. We&amp;rsquo;re confident that we&amp;rsquo;ll get there, and improving the value our network of community hubs is a key way to do so.&lt;/p>
 &lt;p>With that in mind, here&amp;rsquo;s what stood out from the quarter:&lt;/p>
 &lt;blockquote>
 &lt;p>⭐ Find
-&lt;a href="https://2i2c.org/blog/2025/jupytercon-2025-submissions/" >our JupyterCon 2025 submissions here&lt;/a> to see some other things we&amp;rsquo;re excited about sharing.&lt;/p>
+&lt;a href="https://2i2c.org/blog/jupytercon-2025-submissions/" >our JupyterCon 2025 submissions here&lt;/a> to see some other things we&amp;rsquo;re excited about sharing.&lt;/p>
 &lt;/blockquote>
 &lt;h2 id="group-level-resource-monitoring">
 Group-level resource monitoring
 &lt;a class="header-anchor" href="#group-level-resource-monitoring">#&lt;/a>
 &lt;/h2>&lt;p>Building on our previous work delivering
-&lt;a href="https://2i2c.org/blog/2024/aws-cost-attribution/" target="_blank" rel="noopener" >usage monitoring using Prometheus and Grafana&lt;/a>, we&amp;rsquo;ve released
-&lt;a href="https://2i2c.org/blog/2025/jupyterhub-groups-exporter/" target="_blank" rel="noopener" >jupyterhub-groups-exporter&lt;/a>, allowing hub administrators to leverage the latest group management features in JupyterHub to monitor group-level resource usage effectively, making it easier to identify usage patterns across teams and departments.&lt;/p>
+&lt;a href="https://2i2c.org/blog/aws-cost-attribution/" >usage monitoring using Prometheus and Grafana&lt;/a>, we&amp;rsquo;ve released
+&lt;a href="https://2i2c.org/blog/jupyterhub-groups-exporter/" >jupyterhub-groups-exporter&lt;/a>, allowing hub administrators to leverage the latest group management features in JupyterHub to monitor group-level resource usage effectively, making it easier to identify usage patterns across teams and departments.&lt;/p>
 &lt;blockquote>
 &lt;p>⭐ Members of 2i2c&amp;rsquo;s community network can learn how to use this in
 &lt;a href="https://docs.2i2c.org/admin/monitoring/grafana-dashboards#getting-a-grafana-account" target="_blank" rel="noopener" >our user guide to usage monitoring&lt;/a>. See this
-&lt;a href="https://2i2c.org/blog/2025/jupyterhub-groups-exporter/" target="_blank" rel="noopener" >blog post announcing &lt;code>jupyterhub-groups-exporter&lt;/code>&lt;/a>.&lt;/p>
+&lt;a href="https://2i2c.org/blog/jupyterhub-groups-exporter/" >blog post announcing &lt;code>jupyterhub-groups-exporter&lt;/code>&lt;/a>.&lt;/p>
 &lt;/blockquote>
 &lt;h2 id="improve-creating-and-sharing-custom-environments">
 Improve creating and sharing custom environments
 &lt;a class="header-anchor" href="#improve-creating-and-sharing-custom-environments">#&lt;/a>
 &lt;/h2>&lt;p>Last year we introduced
-&lt;a href="https://2i2c.org/blog/2024/jupyterhub-fancy-profiles-rollout/" target="_blank" rel="noopener" >customizable servers via profile lists&lt;/a>. We&amp;rsquo;re building on that - servers can now be configured to
+&lt;a href="https://2i2c.org/blog/jupyterhub-fancy-profiles-rollout/" >customizable servers via profile lists&lt;/a>. We&amp;rsquo;re building on that - servers can now be configured to
 &lt;a href="https://docs.2i2c.org/user/environment/dynamic-imagebuilding" target="_blank" rel="noopener" >allow users to dynamically specify, build, and share their own custom environment images&lt;/a> without the need for a hub administrator. This will allow community champions with diverse user bases to give their users greater flexibility to support a wide variety of custom computational workflows, accelerating knowledge discovery and sharing. Look out for a blog post on this development in the coming weeks and months.&lt;/p>
 &lt;blockquote>
 &lt;p>⭐ Members of 2i2c&amp;rsquo;s community network can learn how to use this in our &lt;strong>
@@ -42,7 +42,7 @@ Co-located narrative content with out-of-the-box Jupyter Book support
 &lt;blockquote>
 &lt;p>⭐ Members of 2i2c&amp;rsquo;s community network can learn how to use this in
 &lt;a href="https://docs.2i2c.org/admin/monitoring/cost-users" target="_blank" rel="noopener" >our user guide to documentation and sharing&lt;/a>. See
-&lt;a href="https://2i2c.org/blog/2025/jb-for-communities/" target="_blank" rel="noopener" >this blog post for an announcement&lt;/a>.&lt;/p>
+&lt;a href="https://2i2c.org/blog/jb-for-communities/" >this blog post for an announcement&lt;/a>.&lt;/p>
 &lt;/blockquote>
 &lt;h2 id="a-better-onboarding-experience-for-our-communities">
 A better onboarding experience for our communities
@@ -70,7 +70,7 @@ Acknowledgements
 &lt;/h2>&lt;ul>
 &lt;li>Thanks to
 &lt;a href="https://2i2c.org/collaborators/navigation/" >The Navigation Fund&lt;/a> for core support to 2i2c which funds this strategic and organizational work.&lt;/li>
-&lt;/ul></description></item><item><title>Harnessing Marine Open Data Science for Ocean Sustainability in Africa, South Asia and Latin America</title><link>https://2i2c.org/blog/2025/hackweek-shoutout/</link><pubDate>Tue, 11 Mar 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/hackweek-shoutout/</guid><description>&lt;p>&lt;em>Thank you to Emilio Mayorga for sharing this publication.&lt;/em>&lt;/p>
+&lt;/ul></description></item><item><title>Harnessing Marine Open Data Science for Ocean Sustainability in Africa, South Asia and Latin America</title><link>https://2i2c.org/blog/hackweek-shoutout/</link><pubDate>Tue, 11 Mar 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/hackweek-shoutout/</guid><description>&lt;p>&lt;em>Thank you to Emilio Mayorga for sharing this publication.&lt;/em>&lt;/p>
 &lt;p>Several community members, including
 &lt;a href="https://github.com/paigem" target="_blank" rel="noopener" >Paige Martin&lt;/a> (Australian Climate Simulator),
 &lt;a href="https://github.com/eeholmes" target="_blank" rel="noopener" >Eli Holmes&lt;/a> (NOAA Fisheries), and

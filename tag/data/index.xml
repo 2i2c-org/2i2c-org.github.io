@@ -1,8 +1,8 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Data | 2i2c</title><link>https://2i2c.org/tag/data/</link><atom:link href="https://2i2c.org/tag/data/index.xml" rel="self" type="application/rss+xml"/><description>Data</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 14 Oct 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Data</title><link>https://2i2c.org/tag/data/</link></image><item><title>Fixing the mybinder.org usage analytics archive</title><link>https://2i2c.org/blog/2025/mybinder-analytics-fix/</link><pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/mybinder-analytics-fix/</guid><description>&lt;p>The analytics archive at &lt;code>archive.analytics.mybinder.org&lt;/code> powers the
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Data | 2i2c</title><link>https://2i2c.org/tag/data/</link><atom:link href="https://2i2c.org/tag/data/index.xml" rel="self" type="application/rss+xml"/><description>Data</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 14 Oct 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Data</title><link>https://2i2c.org/tag/data/</link></image><item><title>Fixing the mybinder.org usage analytics archive</title><link>https://2i2c.org/blog/mybinder-analytics-fix/</link><pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/mybinder-analytics-fix/</guid><description>&lt;p>The analytics archive at &lt;code>archive.analytics.mybinder.org&lt;/code> powers the
 &lt;a href="https://hub.jupyter.org/binder-data/" target="_blank" rel="noopener" >mybinder.org usage dashboards&lt;/a> and provides a
 &lt;a href="https://github.com/jupyterhub/binder-data" target="_blank" rel="noopener" >daily-published dataset&lt;/a> that researchers and communities use to understand how Binder is being used across different domains and scientific communities.&lt;/p>
 &lt;p>While updating our
-&lt;a href="https://2i2c.org/blog/2025/mybinder-analytics-fix/../binder-report-q3/" >quarterly Binder impact report&lt;/a>, we discovered the archive index page had stopped updating. The analytics publisher was writing index files to temporary storage before uploading to Google Cloud Storage, but for some reason the upload step stopped working. We
+&lt;a href="https://2i2c.org/blog/mybinder-analytics-fix/../binder-report-q3/" >quarterly Binder impact report&lt;/a>, we discovered the archive index page had stopped updating. The analytics publisher was writing index files to temporary storage before uploading to Google Cloud Storage, but for some reason the upload step stopped working. We
 &lt;a href="https://github.com/jupyterhub/mybinder.org-deploy/pull/3462" target="_blank" rel="noopener" >deployed a fix&lt;/a> that eliminates the temporary files entirely - the code now generates the HTML index as a string in memory and uploads directly.&lt;/p>
 &lt;figure id="figure-the-mybinderorg-analytics-archivehttpsarchiveanalyticsmybinderorg-shows-a-list-of-daily-usage-reports-that-anybody-can-download">
 &lt;div class="d-flex justify-content-center">
@@ -24,7 +24,7 @@ Learn more
 &lt;li>The
 &lt;a href="https://github.com/jupyterhub/binder-data" target="_blank" rel="noopener" >&lt;code>binder-data/&lt;/code> repository&lt;/a> is where we aggregate and publish archive data to be more accessible.&lt;/li>
 &lt;li>
-&lt;a href="https://2i2c.org/blog/2025/mybinder-analytics-fix/../binder-report-q3/" >Our quarterly impact report from mybinder.org&lt;/a>&lt;/li>
+&lt;a href="https://2i2c.org/blog/mybinder-analytics-fix/../binder-report-q3/" >Our quarterly impact report from mybinder.org&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h2 id="acknowledgements">
 Acknowledgements
@@ -32,7 +32,7 @@ Acknowledgements
 &lt;/h2>&lt;ul>
 &lt;li>Thanks to the
 &lt;a href="https://2i2c.org/collaborators/jupyterhub/" >JupyterHub community&lt;/a> for their collaboration on mybinder.org infrastructure&lt;/li>
-&lt;/ul></description></item><item><title>Enforcing per-user storage quotas with `jupyterhub-home-nfs`</title><link>https://2i2c.org/blog/2025/per-user-storage-quota/</link><pubDate>Tue, 28 Jan 2025 09:57:28 +0000</pubDate><guid>https://2i2c.org/blog/2025/per-user-storage-quota/</guid><description>&lt;p>When sharing a storage disk between users, as is usually the case in a JupyterHub deployment, it is important to put in guardrails so that one user cannot eat up the whole storage capacity from the rest of the users.
+&lt;/ul></description></item><item><title>Enforcing per-user storage quotas with `jupyterhub-home-nfs`</title><link>https://2i2c.org/blog/per-user-storage-quota/</link><pubDate>Tue, 28 Jan 2025 09:57:28 +0000</pubDate><guid>https://2i2c.org/blog/per-user-storage-quota/</guid><description>&lt;p>When sharing a storage disk between users, as is usually the case in a JupyterHub deployment, it is important to put in guardrails so that one user cannot eat up the whole storage capacity from the rest of the users.
 To this end, 2i2c in close collaboration with
 &lt;a href="https://developmentseed.org" target="_blank" rel="noopener" >Development Seed&lt;/a> have developed the
 &lt;a href="https://github.com/2i2c-org/jupyterhub-home-nfs" target="_blank" rel="noopener" >&lt;code>jupyterhub-home-nfs&lt;/code> project&lt;/a> which is a Helm chart that permits enforcing per-user quotas on the storage space.&lt;/p>

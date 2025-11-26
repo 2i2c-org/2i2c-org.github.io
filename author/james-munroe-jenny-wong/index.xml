@@ -1,11 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>James Munroe, Jenny Wong | 2i2c</title><link>https://2i2c.org/author/james-munroe-jenny-wong/</link><atom:link href="https://2i2c.org/author/james-munroe-jenny-wong/index.xml" rel="self" type="application/rss+xml"/><description>James Munroe, Jenny Wong</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 05 Aug 2024 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>James Munroe, Jenny Wong</title><link>https://2i2c.org/author/james-munroe-jenny-wong/</link></image><item><title>Ephemeral Interactive Computing for the AmeriGEO Workshop</title><link>https://2i2c.org/blog/2024/amerigeo-workshop/</link><pubDate>Mon, 05 Aug 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/amerigeo-workshop/</guid><description>&lt;p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>James Munroe, Jenny Wong | 2i2c</title><link>https://2i2c.org/author/james-munroe-jenny-wong/</link><atom:link href="https://2i2c.org/author/james-munroe-jenny-wong/index.xml" rel="self" type="application/rss+xml"/><description>James Munroe, Jenny Wong</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 05 Aug 2024 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>James Munroe, Jenny Wong</title><link>https://2i2c.org/author/james-munroe-jenny-wong/</link></image><item><title>Ephemeral Interactive Computing for the AmeriGEO Workshop</title><link>https://2i2c.org/blog/amerigeo-workshop/</link><pubDate>Mon, 05 Aug 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/amerigeo-workshop/</guid><description>&lt;p>
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Video presentation of the RStudio environment used for the workshop." srcset="
-/blog/2024/amerigeo-workshop/rstudio_hu0c068fc734631bc73313d8e13b30607e_982879_c5c3f1371490cba5ca388fc0a084dc10.webp 400w,
-/blog/2024/amerigeo-workshop/rstudio_hu0c068fc734631bc73313d8e13b30607e_982879_6c0030c834c734ef7ae7d3ac958ac49a.webp 760w,
-/blog/2024/amerigeo-workshop/rstudio_hu0c068fc734631bc73313d8e13b30607e_982879_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2024/amerigeo-workshop/rstudio_hu0c068fc734631bc73313d8e13b30607e_982879_c5c3f1371490cba5ca388fc0a084dc10.webp"
+/blog/amerigeo-workshop/rstudio_hu0c068fc734631bc73313d8e13b30607e_982879_c5c3f1371490cba5ca388fc0a084dc10.webp 400w,
+/blog/amerigeo-workshop/rstudio_hu0c068fc734631bc73313d8e13b30607e_982879_6c0030c834c734ef7ae7d3ac958ac49a.webp 760w,
+/blog/amerigeo-workshop/rstudio_hu0c068fc734631bc73313d8e13b30607e_982879_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/amerigeo-workshop/rstudio_hu0c068fc734631bc73313d8e13b30607e_982879_c5c3f1371490cba5ca388fc0a084dc10.webp"
 width="760"
 height="428"
 loading="lazy" data-zoomable />&lt;/div>
@@ -20,7 +20,7 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;a href="http://www.ciesin.columbia.edu/" target="_blank" rel="noopener" >CIESIN&lt;/a>, Columbia University, New York). Juan presented interactive R code, with explanatory content written in Quarto, for hotspot vulnerability analysis for floods and landslides focused on Ecuador using earth observation data and socioeconomic data to develop an index of vulnerability. Check out their
 &lt;a href="https://github.com/ciesin-geospatial/TOPSTSCHOOL-water" target="_blank" rel="noopener" >GitHub repo&lt;/a> and
 &lt;a href="https://tinyurl.com/TOPSTSCHOOL" target="_blank" rel="noopener" >explore interactively yourself&lt;/a> on our BinderHub (see our blog post for more details of how to access the BinderHub deployments to provide
-&lt;a href="https://2i2c.org/blog/2024/nasa-ephemeral-hubs/" >Ephemeral Interactive Computing for NASA Communities&lt;/a>).&lt;/p>
+&lt;a href="https://2i2c.org/blog/nasa-ephemeral-hubs/" >Ephemeral Interactive Computing for NASA Communities&lt;/a>).&lt;/p>
 &lt;p>Over 100 participants were able to access the interactive workshop on our infrastructure, with 8 GB of RAM per user to facilitate the processing of large amounts of earth data. We are pleased that the workshop was successful and the platform was able to provide a great experience for participants. After the workshop, Kytt reported that&lt;/p>
 &lt;blockquote>
 &lt;p>The technology worked as expected and we didn&amp;rsquo;t run into 1 major technical problem. Thank you so much for that!&amp;quot;.&lt;/p>

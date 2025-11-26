@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cloud-Costs | 2i2c</title><link>https://2i2c.org/tag/cloud-costs/</link><atom:link href="https://2i2c.org/tag/cloud-costs/index.xml" rel="self" type="application/rss+xml"/><description>Cloud-Costs</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Nov 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Cloud-Costs</title><link>https://2i2c.org/tag/cloud-costs/</link></image><item><title>Adding User Group Insights to Cloud Cost Dashboards with Grafana</title><link>https://2i2c.org/blog/2025/cloud-cost-groups/</link><pubDate>Mon, 24 Nov 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/cloud-cost-groups/</guid><description>&lt;p>We are excited to announce that we have extended our cloud cost dashboards to support display costs filtered by user groups using Grafana! This new feature allows administrators to monitor and manage cloud expenses based on user group memberships in JupyterHub.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Cloud-Costs | 2i2c</title><link>https://2i2c.org/tag/cloud-costs/</link><atom:link href="https://2i2c.org/tag/cloud-costs/index.xml" rel="self" type="application/rss+xml"/><description>Cloud-Costs</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Nov 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Cloud-Costs</title><link>https://2i2c.org/tag/cloud-costs/</link></image><item><title>Adding User Group Insights to Cloud Cost Dashboards with Grafana</title><link>https://2i2c.org/blog/cloud-cost-groups/</link><pubDate>Mon, 24 Nov 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/cloud-cost-groups/</guid><description>&lt;p>We are excited to announce that we have extended our cloud cost dashboards to support display costs filtered by user groups using Grafana! This new feature allows administrators to monitor and manage cloud expenses based on user group memberships in JupyterHub.&lt;/p>
 &lt;p>
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Group cloud cost dashboard showing cost breakdowns by user groups" srcset="
-/blog/2025/cloud-cost-groups/featured_hu34fd6e3a049030056ef3072c1a0427ac_131153_3e9e0130f0df351c1ba68cf8ac8772c0.webp 400w,
-/blog/2025/cloud-cost-groups/featured_hu34fd6e3a049030056ef3072c1a0427ac_131153_ea495cf6613eae40c2db0a49fdb91b83.webp 760w,
-/blog/2025/cloud-cost-groups/featured_hu34fd6e3a049030056ef3072c1a0427ac_131153_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2025/cloud-cost-groups/featured_hu34fd6e3a049030056ef3072c1a0427ac_131153_3e9e0130f0df351c1ba68cf8ac8772c0.webp"
+/blog/cloud-cost-groups/featured_hu34fd6e3a049030056ef3072c1a0427ac_131153_3e9e0130f0df351c1ba68cf8ac8772c0.webp 400w,
+/blog/cloud-cost-groups/featured_hu34fd6e3a049030056ef3072c1a0427ac_131153_ea495cf6613eae40c2db0a49fdb91b83.webp 760w,
+/blog/cloud-cost-groups/featured_hu34fd6e3a049030056ef3072c1a0427ac_131153_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/cloud-cost-groups/featured_hu34fd6e3a049030056ef3072c1a0427ac_131153_3e9e0130f0df351c1ba68cf8ac8772c0.webp"
 width="760"
 height="388"
 loading="lazy" data-zoomable />&lt;/div>
@@ -31,7 +31,7 @@ Learn more
 &lt;a href="https://youtu.be/M5x3bTgRzVs?si=P2c3Ngb8v7f4ks0I" target="_blank" rel="noopener" >video&lt;/a> or look at the
 &lt;a href="https://docs.google.com/presentation/d/1N8V7dna1atpRmcbpgZ0-VL5cbOQfwYfXTstudT2ierY/edit?usp=sharing" target="_blank" rel="noopener" >slides&lt;/a>.&lt;/li>
 &lt;/ul>
-&lt;a href="https://docs.google.com/forms/d/e/1FAIpQLSff-u-sWFuwO1-VTgk2Ir7f1nfUUlLevQk_Vkk_jnmcI1nJnw/viewform?usp=pp_url&amp;amp;entry.648332035=https://2i2c.org/blog/2025/cloud-cost-groups/" target="_blank" rel="noopener" class="text-decoration-none">
+&lt;a href="https://docs.google.com/forms/d/e/1FAIpQLSff-u-sWFuwO1-VTgk2Ir7f1nfUUlLevQk_Vkk_jnmcI1nJnw/viewform?usp=pp_url&amp;amp;entry.648332035=https://2i2c.org/blog/cloud-cost-groups/" target="_blank" rel="noopener" class="text-decoration-none">
 &lt;div class="alert alert-info d-flex align-items-start p-3" role="button" style="transition: all 0.2s ease; box-shadow: 0 2px 4px rgba(0,0,0,0.1);" onmouseover="this.style.backgroundColor='#b3e5fc'; this.style.boxShadow='0 4px 8px rgba(0,0,0,0.15)'; this.style.transform='translateY(-1px)'" onmouseout="this.style.backgroundColor=''; this.style.boxShadow='0 2px 4px rgba(0,0,0,0.1)'; this.style.transform='translateY(0)'" onfocus="this.style.backgroundColor='#b3e5fc'; this.style.boxShadow='0 4px 8px rgba(0,0,0,0.15)'; this.style.transform='translateY(-1px)'" onblur="this.style.backgroundColor=''; this.style.boxShadow='0 2px 4px rgba(0,0,0,0.1)'; this.style.transform='translateY(0)'">
 &lt;div class="fw-bold mb-1">&lt;span style="font-weight:bold">Give us feedback!&lt;/span> Click here to provide feedback that will help us make this more impactful.&lt;/div>
 &lt;/div>
@@ -47,24 +47,24 @@ Acknowledgements
 &lt;a href="https://2i2c.org/collaborators/nasa-veda/" >NASA VEDA&lt;/a> and the DSE Team at NASA MSFC ODSI for funding much of this work.&lt;/li>
 &lt;li>
 &lt;a href="https://github.com/kyle-lesinger" target="_blank" rel="noopener" >Kyle Lesinger&lt;/a> from the Disasters community for providing valuable feedback and bug reports during development.&lt;/li>
-&lt;/ul></description></item><item><title>Enabling transparent cloud cost monitoring with user-level dashboards</title><link>https://2i2c.org/blog/2025/cloud-cost-monitoring/</link><pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/cloud-cost-monitoring/</guid><description>&lt;p>We are excited to announce that &lt;strong>dashboards to monitor cloud usage and costs at a per-user level&lt;/strong> are now available! See the
+&lt;/ul></description></item><item><title>Enabling transparent cloud cost monitoring with user-level dashboards</title><link>https://2i2c.org/blog/cloud-cost-monitoring/</link><pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/cloud-cost-monitoring/</guid><description>&lt;p>We are excited to announce that &lt;strong>dashboards to monitor cloud usage and costs at a per-user level&lt;/strong> are now available! See the
 &lt;a href="https://docs.2i2c.org/admin/monitoring/cost-users" target="_blank" rel="noopener" >cost monitoring documentation&lt;/a> for more information.&lt;/p>
 &lt;p>A key goal of 2i2c is to make the cloud safe for science. By providing transparent cost monitoring, we give communities the confidence that they won&amp;rsquo;t face unexpected bills and can better understand how their usage patterns translate to cloud costs. This visibility is especially valuable in our shared platform model, where each community gets their own independent hub while benefiting from shared infrastructure expertise.&lt;/p>
 &lt;p>
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Cloud cost monitoring dashboard showing user-level usage and cost breakdowns" srcset="
-/blog/2025/cloud-cost-monitoring/featured_huf9d99e2c2d9f92e6fb1ca11e35925122_105209_bffe70397663ee858f707dbe4e8bdf6e.webp 400w,
-/blog/2025/cloud-cost-monitoring/featured_huf9d99e2c2d9f92e6fb1ca11e35925122_105209_b402739945113f1c9b3937c35a1f3200.webp 760w,
-/blog/2025/cloud-cost-monitoring/featured_huf9d99e2c2d9f92e6fb1ca11e35925122_105209_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2025/cloud-cost-monitoring/featured_huf9d99e2c2d9f92e6fb1ca11e35925122_105209_bffe70397663ee858f707dbe4e8bdf6e.webp"
+/blog/cloud-cost-monitoring/featured_huf9d99e2c2d9f92e6fb1ca11e35925122_105209_bffe70397663ee858f707dbe4e8bdf6e.webp 400w,
+/blog/cloud-cost-monitoring/featured_huf9d99e2c2d9f92e6fb1ca11e35925122_105209_b402739945113f1c9b3937c35a1f3200.webp 760w,
+/blog/cloud-cost-monitoring/featured_huf9d99e2c2d9f92e6fb1ca11e35925122_105209_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/cloud-cost-monitoring/featured_huf9d99e2c2d9f92e6fb1ca11e35925122_105209_bffe70397663ee858f707dbe4e8bdf6e.webp"
 width="760"
 height="427"
 loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;/figure>
 &lt;/p>
 &lt;p>The user-level cost breakdown allows communities to identify individual usage trends and manage their resources more effectively. Communities can now see exactly how their computational work translates to cloud spending, enabling better resource planning and budget management.&lt;/p>
-&lt;a href="https://docs.google.com/forms/d/e/1FAIpQLSff-u-sWFuwO1-VTgk2Ir7f1nfUUlLevQk_Vkk_jnmcI1nJnw/viewform?usp=pp_url&amp;amp;entry.648332035=https://2i2c.org/blog/2025/cloud-cost-monitoring/" target="_blank" rel="noopener" class="text-decoration-none">
+&lt;a href="https://docs.google.com/forms/d/e/1FAIpQLSff-u-sWFuwO1-VTgk2Ir7f1nfUUlLevQk_Vkk_jnmcI1nJnw/viewform?usp=pp_url&amp;amp;entry.648332035=https://2i2c.org/blog/cloud-cost-monitoring/" target="_blank" rel="noopener" class="text-decoration-none">
 &lt;div class="alert alert-info d-flex align-items-start p-3" role="button" style="transition: all 0.2s ease; box-shadow: 0 2px 4px rgba(0,0,0,0.1);" onmouseover="this.style.backgroundColor='#b3e5fc'; this.style.boxShadow='0 4px 8px rgba(0,0,0,0.15)'; this.style.transform='translateY(-1px)'" onmouseout="this.style.backgroundColor=''; this.style.boxShadow='0 2px 4px rgba(0,0,0,0.1)'; this.style.transform='translateY(0)'" onfocus="this.style.backgroundColor='#b3e5fc'; this.style.boxShadow='0 4px 8px rgba(0,0,0,0.15)'; this.style.transform='translateY(-1px)'" onblur="this.style.backgroundColor=''; this.style.boxShadow='0 2px 4px rgba(0,0,0,0.1)'; this.style.transform='translateY(0)'">
 &lt;div class="fw-bold mb-1">&lt;span style="font-weight:bold">Give us feedback!&lt;/span> Click here to provide feedback that will help us make this more impactful.&lt;/div>
 &lt;/div>
@@ -87,16 +87,16 @@ Acknowledgements
 &lt;li>Andy @
 &lt;a href="https://2i2c.org/collaborators/openscapes/" >Openscapes&lt;/a>, Alex @ Development Seed and Sarah @
 &lt;a href="https://2i2c.org/collaborators/earthscope/" >Earthscope&lt;/a> for giving us close feedback.&lt;/li>
-&lt;/ul></description></item><item><title>Reducing base infrastructure costs on AWS with smarter instance types</title><link>https://2i2c.org/blog/2025/aws-cost-reduction/</link><pubDate>Wed, 17 Sep 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/aws-cost-reduction/</guid><description>&lt;p>We&amp;rsquo;ve been working to reduce the base costs of running our cloud infrastructure on AWS by switching to more efficient instance types for our core nodes. This is the core infrastructure we use to ensure hubs are &amp;ldquo;always available&amp;rdquo; for users, even when no one is actively using a hub. By moving from older &lt;code>r5.xlarge&lt;/code> instances to newer, more efficient &lt;code>r8i-flex.large&lt;/code> instances, we&amp;rsquo;ve significantly reduced these baseline costs while maintaining the same level of service. Here&amp;rsquo;s a plot of daily savings for the
+&lt;/ul></description></item><item><title>Reducing base infrastructure costs on AWS with smarter instance types</title><link>https://2i2c.org/blog/aws-cost-reduction/</link><pubDate>Wed, 17 Sep 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/aws-cost-reduction/</guid><description>&lt;p>We&amp;rsquo;ve been working to reduce the base costs of running our cloud infrastructure on AWS by switching to more efficient instance types for our core nodes. This is the core infrastructure we use to ensure hubs are &amp;ldquo;always available&amp;rdquo; for users, even when no one is actively using a hub. By moving from older &lt;code>r5.xlarge&lt;/code> instances to newer, more efficient &lt;code>r8i-flex.large&lt;/code> instances, we&amp;rsquo;ve significantly reduced these baseline costs while maintaining the same level of service. Here&amp;rsquo;s a plot of daily savings for the
 &lt;a href="https://2i2c.org/collaborators/geojupyter/" >GeoJupyter community&lt;/a>.&lt;/p>
 &lt;p>
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="EC2 cost reduction over time for one community" srcset="
-/blog/2025/aws-cost-reduction/featured_hu7020069b8cb86380af07e0c76d10ae22_44063_6cfebe5fd1227d9e39bfa9b7b43d8015.webp 400w,
-/blog/2025/aws-cost-reduction/featured_hu7020069b8cb86380af07e0c76d10ae22_44063_d67ff55e7e94adb95f8c97e3f035ef37.webp 760w,
-/blog/2025/aws-cost-reduction/featured_hu7020069b8cb86380af07e0c76d10ae22_44063_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2025/aws-cost-reduction/featured_hu7020069b8cb86380af07e0c76d10ae22_44063_6cfebe5fd1227d9e39bfa9b7b43d8015.webp"
+/blog/aws-cost-reduction/featured_hu7020069b8cb86380af07e0c76d10ae22_44063_6cfebe5fd1227d9e39bfa9b7b43d8015.webp 400w,
+/blog/aws-cost-reduction/featured_hu7020069b8cb86380af07e0c76d10ae22_44063_d67ff55e7e94adb95f8c97e3f035ef37.webp 760w,
+/blog/aws-cost-reduction/featured_hu7020069b8cb86380af07e0c76d10ae22_44063_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/aws-cost-reduction/featured_hu7020069b8cb86380af07e0c76d10ae22_44063_6cfebe5fd1227d9e39bfa9b7b43d8015.webp"
 width="760"
 height="394"
 loading="lazy" data-zoomable />&lt;/div>

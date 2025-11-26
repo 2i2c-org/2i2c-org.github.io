@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Jupyterhub | 2i2c</title><link>https://2i2c.org/tag/jupyterhub/</link><atom:link href="https://2i2c.org/tag/jupyterhub/index.xml" rel="self" type="application/rss+xml"/><description>Jupyterhub</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 06 Nov 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Jupyterhub</title><link>https://2i2c.org/tag/jupyterhub/</link></image><item><title>Community learning: Hub config to pass oauth tokens into user environments</title><link>https://2i2c.org/blog/2025/communities-learning-from-one-another/</link><pubDate>Thu, 06 Nov 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/communities-learning-from-one-another/</guid><description>&lt;p>One of our favorite things to see: communities learning from and building on each other&amp;rsquo;s work!&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Jupyterhub | 2i2c</title><link>https://2i2c.org/tag/jupyterhub/</link><atom:link href="https://2i2c.org/tag/jupyterhub/index.xml" rel="self" type="application/rss+xml"/><description>Jupyterhub</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 06 Nov 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Jupyterhub</title><link>https://2i2c.org/tag/jupyterhub/</link></image><item><title>Community learning: Hub config to pass oauth tokens into user environments</title><link>https://2i2c.org/blog/communities-learning-from-one-another/</link><pubDate>Thu, 06 Nov 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/communities-learning-from-one-another/</guid><description>&lt;p>One of our favorite things to see: communities learning from and building on each other&amp;rsquo;s work!&lt;/p>
 &lt;p>
 &lt;a href="https://ops.maap-project.org/" target="_blank" rel="noopener" >MAAP&lt;/a> recently
 &lt;a href="https://github.com/2i2c-org/infrastructure/pull/7068" target="_blank" rel="noopener" >contributed infrastructure configuration&lt;/a> inspired by
@@ -24,7 +24,7 @@ Acknowledgments
 &lt;a href="https://ops.maap-project.org/" target="_blank" rel="noopener" >MAAP team&lt;/a> for adapting and contributing this configuration&lt;/li>
 &lt;li>
 &lt;a href="https://2i2c.org/collaborators/earthscope/" >EarthScope Consortium&lt;/a> for the original implementation&lt;/li>
-&lt;/ul></description></item><item><title>2i2c Supports the Science Platforms Coordination IHDEA Working Group</title><link>https://2i2c.org/blog/2025/ihdea-working-group/</link><pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/ihdea-working-group/</guid><description>&lt;p>The Science Platforms Coordination IHDEA working group (which includes our own
+&lt;/ul></description></item><item><title>2i2c Supports the Science Platforms Coordination IHDEA Working Group</title><link>https://2i2c.org/blog/ihdea-working-group/</link><pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/ihdea-working-group/</guid><description>&lt;p>The Science Platforms Coordination IHDEA working group (which includes our own
 &lt;a href="https://2i2c.org/author/jim-colliander/" >Jim Colliander&lt;/a>) is developing international standard software computing environments for Heliophysics. The working group recently presented their work at two major conferences:
 &lt;a href="https://ml-helio.github.io/" target="_blank" rel="noopener" >ML-Helio&lt;/a> in Madrid and
 &lt;a href="https://dash2025.space.swri.edu/" target="_blank" rel="noopener" >DASH/IHDEA&lt;/a> in San Antonio.&lt;/p>
@@ -32,10 +32,10 @@ Acknowledgments
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="DASH conference logo featuring stylized text and heliophysics imagery" srcset="
-/blog/2025/ihdea-working-group/featured_hu27c4fd91eab23a43f3d74f7a504ce6e6_9358_4ca8832585b372f3e42bd994a2a0d3ec.webp 400w,
-/blog/2025/ihdea-working-group/featured_hu27c4fd91eab23a43f3d74f7a504ce6e6_9358_a335e79d6f0f759380fc39545fdf2d25.webp 760w,
-/blog/2025/ihdea-working-group/featured_hu27c4fd91eab23a43f3d74f7a504ce6e6_9358_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2025/ihdea-working-group/featured_hu27c4fd91eab23a43f3d74f7a504ce6e6_9358_4ca8832585b372f3e42bd994a2a0d3ec.webp"
+/blog/ihdea-working-group/featured_hu27c4fd91eab23a43f3d74f7a504ce6e6_9358_4ca8832585b372f3e42bd994a2a0d3ec.webp 400w,
+/blog/ihdea-working-group/featured_hu27c4fd91eab23a43f3d74f7a504ce6e6_9358_a335e79d6f0f759380fc39545fdf2d25.webp 760w,
+/blog/ihdea-working-group/featured_hu27c4fd91eab23a43f3d74f7a504ce6e6_9358_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/ihdea-working-group/featured_hu27c4fd91eab23a43f3d74f7a504ce6e6_9358_4ca8832585b372f3e42bd994a2a0d3ec.webp"
 width="400"
 height="123"
 loading="lazy" data-zoomable />&lt;/div>
@@ -69,7 +69,7 @@ Acknowledgements
 &lt;li>NASA SMCE for providing $2k funding and AWS infrastructure&lt;/li>
 &lt;li>Shawn Polson for being the community champion leading this effort&lt;/li>
 &lt;li>The IHDEA working group for their collaborative partnership in advancing Heliophysics research infrastructure&lt;/li>
-&lt;/ul></description></item><item><title>Announcing `jupyterhub-groups-exporter`: monitor usage based on JupyterHub group membership with Prometheus and Grafana</title><link>https://2i2c.org/blog/2025/jupyterhub-groups-exporter/</link><pubDate>Wed, 11 Jun 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/jupyterhub-groups-exporter/</guid><description>&lt;p>Managing user groups in JupyterHub can be a challenging task, especially in environments with dynamic user bases and complex group structures. This post describes how we can leverage the latest group management features in JupyterHub, along with Prometheus and Grafana, to monitor group-level resource usage effectively.&lt;/p>
+&lt;/ul></description></item><item><title>Announcing `jupyterhub-groups-exporter`: monitor usage based on JupyterHub group membership with Prometheus and Grafana</title><link>https://2i2c.org/blog/jupyterhub-groups-exporter/</link><pubDate>Wed, 11 Jun 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/jupyterhub-groups-exporter/</guid><description>&lt;p>Managing user groups in JupyterHub can be a challenging task, especially in environments with dynamic user bases and complex group structures. This post describes how we can leverage the latest group management features in JupyterHub, along with Prometheus and Grafana, to monitor group-level resource usage effectively.&lt;/p>
 &lt;blockquote>
 &lt;p>⭐ &lt;strong>Members of 2i2c&amp;rsquo;s community network&lt;/strong> can use this feature in their hubs by
 &lt;a href="https://docs.2i2c.org/admin/monitoring/cost-users" target="_blank" rel="noopener" >following our cost attribution documentation&lt;/a>.&lt;/p>
@@ -159,7 +159,7 @@ Future work
 Acknowledgements
 &lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
 &lt;/h2>&lt;p>Thanks to the
-&lt;a href="https://2i2c.org/collaborators/jupyterhub/" >JupyterHub project&lt;/a> for their collaboration and review of this work.&lt;/p></description></item><item><title>2i2c hubs now run JupyterHub 5.0</title><link>https://2i2c.org/blog/2025/jupyterhub5-upgrade/</link><pubDate>Fri, 17 Jan 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/jupyterhub5-upgrade/</guid><description>&lt;p>We are excited to announce that all 2i2c hubs now run JupyterHub 5.0!&lt;/p>
+&lt;a href="https://2i2c.org/collaborators/jupyterhub/" >JupyterHub project&lt;/a> for their collaboration and review of this work.&lt;/p></description></item><item><title>2i2c hubs now run JupyterHub 5.0</title><link>https://2i2c.org/blog/jupyterhub5-upgrade/</link><pubDate>Fri, 17 Jan 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/jupyterhub5-upgrade/</guid><description>&lt;p>We are excited to announce that all 2i2c hubs now run JupyterHub 5.0!&lt;/p>
 &lt;p>This is an upgrade that brings some exciting new features and improvements. Some of the highlights include:&lt;/p>
 &lt;ol>
 &lt;li>The possibility to enable
@@ -171,7 +171,7 @@ Acknowledgements
 &lt;a href="https://github.com/NASA-IMPACT/veda-jupyterhub/issues/61" target="_blank" rel="noopener" >Tracking Issue&lt;/a>.&lt;/p>
 &lt;p>Checkout the
 &lt;a href="https://jupyterhub.readthedocs.io/en/latest/howto/upgrading-v5.html" target="_blank" rel="noopener" >JupyterHub 5.0 migration&lt;/a> docs or the
-&lt;a href="https://jupyterhub.readthedocs.io/en/5.0.0/reference/changelog.html#id3" target="_blank" rel="noopener" >changelog&lt;/a> for more details.&lt;/p></description></item><item><title>Improving the logged in home page experience in JupyterHub with `jupyterhub-fancy-profiles`</title><link>https://2i2c.org/blog/2024/jupyterhub-fancy-profiles-rollout/</link><pubDate>Mon, 18 Nov 2024 12:55:20 -0800</pubDate><guid>https://2i2c.org/blog/2024/jupyterhub-fancy-profiles-rollout/</guid><description>&lt;p>On most research oriented JupyterHub installations, users would like to customize their server (the environment, resources available, etc) after logging in. In Kubernetes based JupyterHub environments, a
+&lt;a href="https://jupyterhub.readthedocs.io/en/5.0.0/reference/changelog.html#id3" target="_blank" rel="noopener" >changelog&lt;/a> for more details.&lt;/p></description></item><item><title>Improving the logged in home page experience in JupyterHub with `jupyterhub-fancy-profiles`</title><link>https://2i2c.org/blog/jupyterhub-fancy-profiles-rollout/</link><pubDate>Mon, 18 Nov 2024 12:55:20 -0800</pubDate><guid>https://2i2c.org/blog/jupyterhub-fancy-profiles-rollout/</guid><description>&lt;p>On most research oriented JupyterHub installations, users would like to customize their server (the environment, resources available, etc) after logging in. In Kubernetes based JupyterHub environments, a
 &lt;a href="https://z2jh.jupyter.org/en/latest/jupyterhub/customizing/user-environment.html#using-multiple-profiles-to-let-users-select-their-environment" target="_blank" rel="noopener" >profile list&lt;/a> provides this functionality.&lt;/p>
 &lt;p>
 &lt;figure >
@@ -182,7 +182,7 @@ Acknowledgements
 &lt;p>The profile list is the de-facto &amp;ldquo;logged in homepage&amp;rdquo; for these users, as that is what they see after they have logged in.&lt;/p>
 &lt;p>In collaboration with
 &lt;a href="https://developmentseed.org/" target="_blank" rel="noopener" >Development Seed&lt;/a>, funded by our
-&lt;a href="https://2i2c.org/blog/2024/jupyterhub-binderhub-gesis/" target="_blank" rel="noopener" >earlier grant&lt;/a> from
+&lt;a href="https://2i2c.org/blog/jupyterhub-binderhub-gesis/" >earlier grant&lt;/a> from
 &lt;a href="https://www.gesis.org/home" target="_blank" rel="noopener" >GESIS&lt;/a> as well as the
 &lt;a href="https://www.earthdata.nasa.gov/data/tools/veda" target="_blank" rel="noopener" >NASA VEDA project&lt;/a>, we have been building the
 &lt;a href="https://github.com/2i2c-org/jupyterhub-fancy-profiles" target="_blank" rel="noopener" >&lt;code>jupyterhub-fancy-profiles&lt;/code>&lt;/a> project to improve this experience.&lt;/p>
@@ -209,7 +209,7 @@ Acknowledgements
 &lt;p>Support for dynamically building images using
 &lt;a href="https://mybinder.org" target="_blank" rel="noopener" >mybinder.org&lt;/a> style repositories! It talks to the
 &lt;a href="https://github.com/jupyterhub/binderhub/" target="_blank" rel="noopener" >binderhub&lt;/a> API so users can build reproducible environments as they wish without admin involvement nor needing to fully understand how docker and containers work. Our
-&lt;a href="https://2i2c.org/blog/2024/jupyterhub-binderhub-gesis/" target="_blank" rel="noopener" >earlier blog post&lt;/a> has more information.&lt;/p>
+&lt;a href="https://2i2c.org/blog/jupyterhub-binderhub-gesis/" >earlier blog post&lt;/a> has more information.&lt;/p>
 &lt;p>
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
@@ -232,7 +232,7 @@ Credit
 &lt;/h2>&lt;ul>
 &lt;li>The project was initiated with funding generously provided by
 &lt;a href="https://2i2c.org/collaborators/gesis/" >GESIS&lt;/a> (see our
-&lt;a href="https://2i2c.org/blog/2024/jupyterhub-binderhub-gesis/" >earlier blog post&lt;/a>).&lt;/li>
+&lt;a href="https://2i2c.org/blog/jupyterhub-binderhub-gesis/" >earlier blog post&lt;/a>).&lt;/li>
 &lt;li>
 &lt;a href="https://developmentseed.org/team/sanjay-bhangar/" target="_blank" rel="noopener" >Sanjay Bhangar&lt;/a> and
 &lt;a href="https://oliverroick.net/" target="_blank" rel="noopener" >Oliver Roick&lt;/a> from
@@ -241,7 +241,7 @@ Credit
 &lt;a href="https://2i2c.org/collaborators/nasa-veda/" >NASA VEDA&lt;/a> project (in particular,
 &lt;a href="https://github.com/freitagb/" target="_blank" rel="noopener" >Brian Freitag&lt;/a> and
 &lt;a href="https://github.com/wildintellect" target="_blank" rel="noopener" >Alex Mandel&lt;/a>), for continued funding (in the form of engineering time) plus being early adopters!&lt;/li>
-&lt;/ul></description></item><item><title>Integrating BinderHub with JupyterHub: Empowering users to manage their own environments</title><link>https://2i2c.org/blog/2024/jupyterhub-binderhub-gesis/</link><pubDate>Wed, 03 Jan 2024 16:56:14 -0800</pubDate><guid>https://2i2c.org/blog/2024/jupyterhub-binderhub-gesis/</guid><description>&lt;p>&lt;em>Thanks to
+&lt;/ul></description></item><item><title>Integrating BinderHub with JupyterHub: Empowering users to manage their own environments</title><link>https://2i2c.org/blog/jupyterhub-binderhub-gesis/</link><pubDate>Wed, 03 Jan 2024 16:56:14 -0800</pubDate><guid>https://2i2c.org/blog/jupyterhub-binderhub-gesis/</guid><description>&lt;p>&lt;em>Thanks to
 &lt;a href="https://www.gesis.org/en/institute/staff/person/arnim.bleier" target="_blank" rel="noopener" >Arnim Bleier&lt;/a>,
 &lt;a href="https://jnywong.github.io/" target="_blank" rel="noopener" >Jenny Wong&lt;/a>,
 &lt;a href="https://github.com/GeorgianaElena" target="_blank" rel="noopener" >Georgiana Elena&lt;/a>,
@@ -256,7 +256,7 @@ Credit
 &lt;a href="https://jupyter.org/hub" target="_blank" rel="noopener" >JupyterHub&lt;/a> is more commonly used for this kinda workflow, but doesn&amp;rsquo;t currently have the ability for users to easily build their own environments. Admins who are &lt;em>running&lt;/em> the JupyterHub can make
 &lt;a href="https://z2jh.jupyter.org/en/stable/jupyterhub/customizing/user-environment.html#using-multiple-profiles-to-let-users-select-their-environment" target="_blank" rel="noopener" >multiple environments&lt;/a> available for users to choose from, but this still puts admins in the critical path for environment customization.&lt;/p>
 &lt;p>Our
-&lt;a href="https://2i2c.org/blog/2022/gesis-2i2c-collaboration-update/" target="_blank" rel="noopener" >collaboration&lt;/a> with
+&lt;a href="https://2i2c.org/blog/gesis-2i2c-collaboration-update/" >collaboration&lt;/a> with
 &lt;a href="https://2i2c.org/collaborators/gesis/" >GESIS&lt;/a>,
 &lt;a href="https://www.nfdi4datascience.de" target="_blank" rel="noopener" >NFDI4DS&lt;/a>, and
 &lt;a href="https://www.cessda.eu" target="_blank" rel="noopener" >CESSDA&lt;/a>, aims to bring this flexibility to JupyterHub directly. We aim to empower users to decide for themselves which applications and dependencies are installed on a per-project basis. Our work enables communities with heterogeneous requirements to share a single Hub. Our approach frees administrators from being overwhelmed by installation requests and transforms the JupyterHub platform into a platform for collaborative computational reproducibility. In this update, we report on our progress and upcoming steps in this project.&lt;/p>
@@ -385,7 +385,7 @@ Want to try this out?
 &lt;a class="header-anchor" href="#want-to-try-this-out">#&lt;/a>
 &lt;/h2>&lt;p>We have a demo of this running at
 &lt;a href="https://imagebuilding-demo.2i2c.cloud" target="_blank" rel="noopener" >imagebuilding-demo.2i2c.cloud&lt;/a>, but unfortunately as we are still fine-tuning &lt;code>cryptnono&lt;/code> config, at this moment it is not open to the public. Please
-&lt;a href="https://2i2c.org/blog/2024/jupyterhub-binderhub-gesis/mailto:yuvipanda@2i2c.org" >contact me&lt;/a> with your GitHub account if you want access, and promise to not be a cryptominer and you shall be granted access.&lt;/p>
+&lt;a href="https://2i2c.org/blog/jupyterhub-binderhub-gesis/mailto:yuvipanda@2i2c.org" >contact me&lt;/a> with your GitHub account if you want access, and promise to not be a cryptominer and you shall be granted access.&lt;/p>
 &lt;p>Want to set this up on your own JupyterHub? There is some
 &lt;a href="https://github.com/2i2c-org/binderhub-service/pull/72" target="_blank" rel="noopener" >work in progress&lt;/a> documentation and more is being worked on. Drop a line in the linked pull request and we&amp;rsquo;ll be happy to help. The eventual goal is for &lt;em>anyone&lt;/em> to be able to simply follow documentation and set this up for themselves.&lt;/p>
 &lt;p>We also have user facing documentation on using this service on

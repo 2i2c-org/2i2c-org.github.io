@@ -1,13 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Fernando Pérez | 2i2c</title><link>https://2i2c.org/author/fernando-perez/</link><atom:link href="https://2i2c.org/author/fernando-perez/index.xml" rel="self" type="application/rss+xml"/><description>Fernando Pérez</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 22 Oct 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/author/fernando-perez/avatar_huaf17ee5018fd1087b0fc38febea4333e_8437_270x270_fill_q75_lanczos_center.jpg</url><title>Fernando Pérez</title><link>https://2i2c.org/author/fernando-perez/</link></image><item><title>A thank you to CZI for its impact on 2i2c and Jupyter</title><link>https://2i2c.org/blog/2025/czi-retrospective/</link><pubDate>Wed, 22 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/czi-retrospective/</guid><description>&lt;p>As I attend the
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Fernando Pérez | 2i2c</title><link>https://2i2c.org/author/fernando-perez/</link><atom:link href="https://2i2c.org/author/fernando-perez/index.xml" rel="self" type="application/rss+xml"/><description>Fernando Pérez</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 22 Oct 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/author/fernando-perez/avatar_huaf17ee5018fd1087b0fc38febea4333e_8437_270x270_fill_q75_lanczos_center.jpg</url><title>Fernando Pérez</title><link>https://2i2c.org/author/fernando-perez/</link></image><item><title>A thank you to CZI for its impact on 2i2c and Jupyter</title><link>https://2i2c.org/blog/czi-retrospective/</link><pubDate>Wed, 22 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/czi-retrospective/</guid><description>&lt;p>As I attend the
 &lt;a href="https://chanzuckerberg.com/science/programs-resources/open-science/" target="_blank" rel="noopener" >CZI Open Science&lt;/a> 2025 meeting, it’s a good moment to reflect on the many ways CZI has positively impacted both 2i2c and the Jupyter Project.&lt;/p>
 &lt;p>
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="" srcset="
-/blog/2025/czi-retrospective/featured_hu4b15a9956c47a7ddfe5d0ed882b19b9a_35602_88d7f2172655d1104b8412a7a835b4e8.webp 400w,
-/blog/2025/czi-retrospective/featured_hu4b15a9956c47a7ddfe5d0ed882b19b9a_35602_a3c28a81bc5b1955a51321ea2f296345.webp 760w,
-/blog/2025/czi-retrospective/featured_hu4b15a9956c47a7ddfe5d0ed882b19b9a_35602_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2025/czi-retrospective/featured_hu4b15a9956c47a7ddfe5d0ed882b19b9a_35602_88d7f2172655d1104b8412a7a835b4e8.webp"
+/blog/czi-retrospective/featured_hu4b15a9956c47a7ddfe5d0ed882b19b9a_35602_88d7f2172655d1104b8412a7a835b4e8.webp 400w,
+/blog/czi-retrospective/featured_hu4b15a9956c47a7ddfe5d0ed882b19b9a_35602_a3c28a81bc5b1955a51321ea2f296345.webp 760w,
+/blog/czi-retrospective/featured_hu4b15a9956c47a7ddfe5d0ed882b19b9a_35602_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/czi-retrospective/featured_hu4b15a9956c47a7ddfe5d0ed882b19b9a_35602_88d7f2172655d1104b8412a7a835b4e8.webp"
 width="760"
 height="421"
 loading="lazy" data-zoomable />&lt;/div>
@@ -37,19 +37,19 @@ Strengthening the foundations of Jupyter
 Enabling 2i2c to grow from an idea to an organization
 &lt;a class="header-anchor" href="#enabling-2i2c-to-grow-from-an-idea-to-an-organization">#&lt;/a>
 &lt;/h2>&lt;p>CZI also played a key role in 2i2c&amp;rsquo;s birth, growth, direction, and impact. When 2i2c was only an idea, the possibily of initial support from CZI was pivotal in helping us turn it into a reality. Then as the organization took shape and started to grow, this support gave us the strategic capacity to develop key frameworks for
-&lt;a href="https://2i2c.org/blog/2025/czi-retrospective/../../2025/good-citizen/" >healthy open source contribution practices&lt;/a>,
-&lt;a href="https://2i2c.org/blog/2025/czi-retrospective/../../2024/value-proposition/" >our value propositions&lt;/a>, and ideas around
-&lt;a href="https://2i2c.org/blog/2025/czi-retrospective/../../2024/funding-community-networks/" >community network funding&lt;/a>. It was a stepping stone towards building out our own
+&lt;a href="https://2i2c.org/blog/czi-retrospective/../../2025/good-citizen/" >healthy open source contribution practices&lt;/a>,
+&lt;a href="https://2i2c.org/blog/czi-retrospective/../../2024/value-proposition/" >our value propositions&lt;/a>, and ideas around
+&lt;a href="https://2i2c.org/blog/czi-retrospective/../../2024/funding-community-networks/" >community network funding&lt;/a>. It was a stepping stone towards building out our own
 &lt;a href="https://2i2c.org/join" target="_blank" rel="noopener" >sustainability model via membership&lt;/a>.&lt;/p>
 &lt;p>Here are a few milestone moments:&lt;/p>
 &lt;p>&lt;strong>Our Seed funding (2020)&lt;/strong> CZI provided core support to bootstrap 2i2c from its inception, funding organizational capacity rather than just technical deliverables. This was critical, enabling strategic partnerships, community coordination, and 2i2c&amp;rsquo;s first hires (Georgiana Dolocan, formerly the CZI-funded
 &lt;a href="https://blog.jupyter.org/the-jupyterhub-and-binder-contributor-in-residence-56708d1e3069" target="_blank" rel="noopener" >JupyterHub Contributor in Residence&lt;/a>, and Chris Holdgraf, 2i2c&amp;rsquo;s Executive Director). This was the primary funding that drove our creation and operations for the first three years. We
 &lt;a href="https://2i2c.org/report-czi-2021" target="_blank" rel="noopener" >published a comprehensive report and retrospective&lt;/a> documenting the impact of this seed funding.&lt;/p>
 &lt;p>&lt;strong>Catalyzing Global Communities (2022)&lt;/strong> This collaborative grant brought together six organizations (2i2c, The Carpentries, CSCCE, IOI, MetaDocencia, Open Life Science) to
-&lt;a href="https://2i2c.org/blog/2025/czi-retrospective/../../2022/czi-global-communities-proposal/" >provide cloud infrastructure and training for communities in Latin America and Africa&lt;/a>. The project emphasized &amp;ldquo;train the trainers&amp;rdquo; approaches and community co-leadership. It was a much bigger challenge than we all realized, and the relationships between our organizations grew stronger as a result.&lt;/p>
+&lt;a href="https://2i2c.org/blog/czi-retrospective/../../2022/czi-global-communities-proposal/" >provide cloud infrastructure and training for communities in Latin America and Africa&lt;/a>. The project emphasized &amp;ldquo;train the trainers&amp;rdquo; approaches and community co-leadership. It was a much bigger challenge than we all realized, and the relationships between our organizations grew stronger as a result.&lt;/p>
 &lt;p>&lt;strong>Strategic Support for Sustainability (2024)&lt;/strong> CZI provided a
-&lt;a href="https://2i2c.org/blog/2025/czi-retrospective/../../2024/funding-czi/" >bridge funding gift to sustain 2i2c&amp;rsquo;s mission&lt;/a> during a critical growth phase. This gave us the runway to refine our service model and explore paths to financial sustainability. Combined with funding from
-&lt;a href="https://2i2c.org/blog/2025/czi-retrospective/../../2024/funding-navigation/" >The Navigation Fund&lt;/a>, this gave 2i2c approximately two years for strategic planning.&lt;/p>
+&lt;a href="https://2i2c.org/blog/czi-retrospective/../../2024/funding-czi/" >bridge funding gift to sustain 2i2c&amp;rsquo;s mission&lt;/a> during a critical growth phase. This gave us the runway to refine our service model and explore paths to financial sustainability. Combined with funding from
+&lt;a href="https://2i2c.org/blog/czi-retrospective/../../2024/funding-navigation/" >The Navigation Fund&lt;/a>, this gave 2i2c approximately two years for strategic planning.&lt;/p>
 &lt;h3 id="what-makes-czis-approach-different">
 What Makes CZI&amp;rsquo;s Approach Different?
 &lt;a class="header-anchor" href="#what-makes-czis-approach-different">#&lt;/a>
@@ -67,10 +67,10 @@ Thank You, CZI
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="" srcset="
-/blog/2025/czi-retrospective/chris-fernando_huf9bfa379e9f41692b17413d59fb58130_29702_d6b358b9298eeb7676c7d53cb2805bc5.webp 400w,
-/blog/2025/czi-retrospective/chris-fernando_huf9bfa379e9f41692b17413d59fb58130_29702_cf7a3d6665a08ac37896e2cbc2690212.webp 760w,
-/blog/2025/czi-retrospective/chris-fernando_huf9bfa379e9f41692b17413d59fb58130_29702_1200x1200_fit_q75_h2_lanczos.webp 1200w"
-src="https://2i2c.org/blog/2025/czi-retrospective/chris-fernando_huf9bfa379e9f41692b17413d59fb58130_29702_d6b358b9298eeb7676c7d53cb2805bc5.webp"
+/blog/czi-retrospective/chris-fernando_huf9bfa379e9f41692b17413d59fb58130_29702_d6b358b9298eeb7676c7d53cb2805bc5.webp 400w,
+/blog/czi-retrospective/chris-fernando_huf9bfa379e9f41692b17413d59fb58130_29702_cf7a3d6665a08ac37896e2cbc2690212.webp 760w,
+/blog/czi-retrospective/chris-fernando_huf9bfa379e9f41692b17413d59fb58130_29702_1200x1200_fit_q75_h2_lanczos.webp 1200w"
+src="https://2i2c.org/blog/czi-retrospective/chris-fernando_huf9bfa379e9f41692b17413d59fb58130_29702_d6b358b9298eeb7676c7d53cb2805bc5.webp"
 width="293"
 height="220"
 loading="lazy" data-zoomable />&lt;/div>

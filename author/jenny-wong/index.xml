@@ -1,12 +1,12 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Jenny Wong | 2i2c</title><link>https://2i2c.org/author/jenny-wong/</link><atom:link href="https://2i2c.org/author/jenny-wong/index.xml" rel="self" type="application/rss+xml"/><description>Jenny Wong</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Nov 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/author/jenny-wong/avatar_huc2333c99a5a6960f14279231c17feb93_40255_270x270_fill_q75_lanczos_center.jpg</url><title>Jenny Wong</title><link>https://2i2c.org/author/jenny-wong/</link></image><item><title>Adding User Group Insights to Cloud Cost Dashboards with Grafana</title><link>https://2i2c.org/blog/2025/cloud-cost-groups/</link><pubDate>Mon, 24 Nov 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/cloud-cost-groups/</guid><description>&lt;p>We are excited to announce that we have extended our cloud cost dashboards to support display costs filtered by user groups using Grafana! This new feature allows administrators to monitor and manage cloud expenses based on user group memberships in JupyterHub.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Jenny Wong | 2i2c</title><link>https://2i2c.org/author/jenny-wong/</link><atom:link href="https://2i2c.org/author/jenny-wong/index.xml" rel="self" type="application/rss+xml"/><description>Jenny Wong</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Nov 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/author/jenny-wong/avatar_huc2333c99a5a6960f14279231c17feb93_40255_270x270_fill_q75_lanczos_center.jpg</url><title>Jenny Wong</title><link>https://2i2c.org/author/jenny-wong/</link></image><item><title>Adding User Group Insights to Cloud Cost Dashboards with Grafana</title><link>https://2i2c.org/blog/cloud-cost-groups/</link><pubDate>Mon, 24 Nov 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/cloud-cost-groups/</guid><description>&lt;p>We are excited to announce that we have extended our cloud cost dashboards to support display costs filtered by user groups using Grafana! This new feature allows administrators to monitor and manage cloud expenses based on user group memberships in JupyterHub.&lt;/p>
 &lt;p>
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Group cloud cost dashboard showing cost breakdowns by user groups" srcset="
-/blog/2025/cloud-cost-groups/featured_hu34fd6e3a049030056ef3072c1a0427ac_131153_3e9e0130f0df351c1ba68cf8ac8772c0.webp 400w,
-/blog/2025/cloud-cost-groups/featured_hu34fd6e3a049030056ef3072c1a0427ac_131153_ea495cf6613eae40c2db0a49fdb91b83.webp 760w,
-/blog/2025/cloud-cost-groups/featured_hu34fd6e3a049030056ef3072c1a0427ac_131153_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2025/cloud-cost-groups/featured_hu34fd6e3a049030056ef3072c1a0427ac_131153_3e9e0130f0df351c1ba68cf8ac8772c0.webp"
+/blog/cloud-cost-groups/featured_hu34fd6e3a049030056ef3072c1a0427ac_131153_3e9e0130f0df351c1ba68cf8ac8772c0.webp 400w,
+/blog/cloud-cost-groups/featured_hu34fd6e3a049030056ef3072c1a0427ac_131153_ea495cf6613eae40c2db0a49fdb91b83.webp 760w,
+/blog/cloud-cost-groups/featured_hu34fd6e3a049030056ef3072c1a0427ac_131153_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/cloud-cost-groups/featured_hu34fd6e3a049030056ef3072c1a0427ac_131153_3e9e0130f0df351c1ba68cf8ac8772c0.webp"
 width="760"
 height="388"
 loading="lazy" data-zoomable />&lt;/div>
@@ -31,7 +31,7 @@ Learn more
 &lt;a href="https://youtu.be/M5x3bTgRzVs?si=P2c3Ngb8v7f4ks0I" target="_blank" rel="noopener" >video&lt;/a> or look at the
 &lt;a href="https://docs.google.com/presentation/d/1N8V7dna1atpRmcbpgZ0-VL5cbOQfwYfXTstudT2ierY/edit?usp=sharing" target="_blank" rel="noopener" >slides&lt;/a>.&lt;/li>
 &lt;/ul>
-&lt;a href="https://docs.google.com/forms/d/e/1FAIpQLSff-u-sWFuwO1-VTgk2Ir7f1nfUUlLevQk_Vkk_jnmcI1nJnw/viewform?usp=pp_url&amp;amp;entry.648332035=https://2i2c.org/blog/2025/cloud-cost-groups/" target="_blank" rel="noopener" class="text-decoration-none">
+&lt;a href="https://docs.google.com/forms/d/e/1FAIpQLSff-u-sWFuwO1-VTgk2Ir7f1nfUUlLevQk_Vkk_jnmcI1nJnw/viewform?usp=pp_url&amp;amp;entry.648332035=https://2i2c.org/blog/cloud-cost-groups/" target="_blank" rel="noopener" class="text-decoration-none">
 &lt;div class="alert alert-info d-flex align-items-start p-3" role="button" style="transition: all 0.2s ease; box-shadow: 0 2px 4px rgba(0,0,0,0.1);" onmouseover="this.style.backgroundColor='#b3e5fc'; this.style.boxShadow='0 4px 8px rgba(0,0,0,0.15)'; this.style.transform='translateY(-1px)'" onmouseout="this.style.backgroundColor=''; this.style.boxShadow='0 2px 4px rgba(0,0,0,0.1)'; this.style.transform='translateY(0)'" onfocus="this.style.backgroundColor='#b3e5fc'; this.style.boxShadow='0 4px 8px rgba(0,0,0,0.15)'; this.style.transform='translateY(-1px)'" onblur="this.style.backgroundColor=''; this.style.boxShadow='0 2px 4px rgba(0,0,0,0.1)'; this.style.transform='translateY(0)'">
 &lt;div class="fw-bold mb-1">&lt;span style="font-weight:bold">Give us feedback!&lt;/span> Click here to provide feedback that will help us make this more impactful.&lt;/div>
 &lt;/div>
@@ -49,7 +49,7 @@ Acknowledgements
 &lt;a href="https://github.com/kyle-lesinger" target="_blank" rel="noopener" >Kyle Lesinger&lt;/a> from the Disasters community for providing valuable feedback and bug reports during development.&lt;/li>
 &lt;/ul></description></item><item><title>Jenny Wong</title><link>https://2i2c.org/author/jenny-wong/</link><pubDate>Mon, 24 Nov 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/author/jenny-wong/</guid><description>&lt;p>Jenny is an Open Source Applications Engineer focused on delivering the Platform and Services roadmap for 2i2c. Her previous work has included the CZI-funded Catalyst Project, an initiative aiming to provide research communities in Latin America and Africa with access to large-scale scientific infrastructure. She&amp;rsquo;s built community-based training materials for interactive cloud-native workflows. Jenny is responsible for building user-centered open source applications that ensure the alignment of Product and Services value streams to the needs of the communities we serve.&lt;/p>
 &lt;p>As a former research software engineer, Jenny has considerable experience supporting researchers with writing documentation, creating video tutorials, and designing and delivering training for advanced research computing. Jenny is also a qualified Software Carpentries Instructor.&lt;/p>
-&lt;p>Jenny&amp;rsquo;s background is in mathematics, with a special interest in geophysical fluid dynamics. She obtained a PhD in the subject with her thesis titled &amp;ldquo;A slurry model of the F-layer in the Earth&amp;rsquo;s core&amp;rdquo;.&lt;/p></description></item><item><title>NASA Openscapes mentors run airborne data machine learning workshop with 401 participants from 68 countries</title><link>https://2i2c.org/blog/2025/openscapes-workshop/</link><pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/openscapes-workshop/</guid><description>&lt;p>NASA Openscapes mentors recently hosted a workshop attended by 401 participants from 68 countries to learn how to use airborne data and machine learning for environmental research!&lt;/p>
+&lt;p>Jenny&amp;rsquo;s background is in mathematics, with a special interest in geophysical fluid dynamics. She obtained a PhD in the subject with her thesis titled &amp;ldquo;A slurry model of the F-layer in the Earth&amp;rsquo;s core&amp;rdquo;.&lt;/p></description></item><item><title>NASA Openscapes mentors run airborne data machine learning workshop with 401 participants from 68 countries</title><link>https://2i2c.org/blog/openscapes-workshop/</link><pubDate>Thu, 23 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/openscapes-workshop/</guid><description>&lt;p>NASA Openscapes mentors recently hosted a workshop attended by 401 participants from 68 countries to learn how to use airborne data and machine learning for environmental research!&lt;/p>
 &lt;p>They gave participants computational environments on a community hub managed by 2i2c to teach skills in data science like image classification with airborne spectroscopy and accessing data from NASA JPL
 &lt;a href="https://www.earthdata.nasa.gov/data/projects/aviris" target="_blank" rel="noopener" >AVIRIS-NG data&lt;/a> from Earthdata cloud.&lt;/p>
 &lt;p>We&amp;rsquo;re proud to enable participants from all over the world to easily access standardized compute and NASA Earthdata data in the cloud for a seamless learning experience.&lt;/p>
@@ -74,24 +74,24 @@ Acknowledgements
 &lt;li>
 &lt;p>NASA Openscapes mentors for running a great workshop&lt;/p>
 &lt;/li>
-&lt;/ul></description></item><item><title>Enabling transparent cloud cost monitoring with user-level dashboards</title><link>https://2i2c.org/blog/2025/cloud-cost-monitoring/</link><pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/cloud-cost-monitoring/</guid><description>&lt;p>We are excited to announce that &lt;strong>dashboards to monitor cloud usage and costs at a per-user level&lt;/strong> are now available! See the
+&lt;/ul></description></item><item><title>Enabling transparent cloud cost monitoring with user-level dashboards</title><link>https://2i2c.org/blog/cloud-cost-monitoring/</link><pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/cloud-cost-monitoring/</guid><description>&lt;p>We are excited to announce that &lt;strong>dashboards to monitor cloud usage and costs at a per-user level&lt;/strong> are now available! See the
 &lt;a href="https://docs.2i2c.org/admin/monitoring/cost-users" target="_blank" rel="noopener" >cost monitoring documentation&lt;/a> for more information.&lt;/p>
 &lt;p>A key goal of 2i2c is to make the cloud safe for science. By providing transparent cost monitoring, we give communities the confidence that they won&amp;rsquo;t face unexpected bills and can better understand how their usage patterns translate to cloud costs. This visibility is especially valuable in our shared platform model, where each community gets their own independent hub while benefiting from shared infrastructure expertise.&lt;/p>
 &lt;p>
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Cloud cost monitoring dashboard showing user-level usage and cost breakdowns" srcset="
-/blog/2025/cloud-cost-monitoring/featured_huf9d99e2c2d9f92e6fb1ca11e35925122_105209_bffe70397663ee858f707dbe4e8bdf6e.webp 400w,
-/blog/2025/cloud-cost-monitoring/featured_huf9d99e2c2d9f92e6fb1ca11e35925122_105209_b402739945113f1c9b3937c35a1f3200.webp 760w,
-/blog/2025/cloud-cost-monitoring/featured_huf9d99e2c2d9f92e6fb1ca11e35925122_105209_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2025/cloud-cost-monitoring/featured_huf9d99e2c2d9f92e6fb1ca11e35925122_105209_bffe70397663ee858f707dbe4e8bdf6e.webp"
+/blog/cloud-cost-monitoring/featured_huf9d99e2c2d9f92e6fb1ca11e35925122_105209_bffe70397663ee858f707dbe4e8bdf6e.webp 400w,
+/blog/cloud-cost-monitoring/featured_huf9d99e2c2d9f92e6fb1ca11e35925122_105209_b402739945113f1c9b3937c35a1f3200.webp 760w,
+/blog/cloud-cost-monitoring/featured_huf9d99e2c2d9f92e6fb1ca11e35925122_105209_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/cloud-cost-monitoring/featured_huf9d99e2c2d9f92e6fb1ca11e35925122_105209_bffe70397663ee858f707dbe4e8bdf6e.webp"
 width="760"
 height="427"
 loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;/figure>
 &lt;/p>
 &lt;p>The user-level cost breakdown allows communities to identify individual usage trends and manage their resources more effectively. Communities can now see exactly how their computational work translates to cloud spending, enabling better resource planning and budget management.&lt;/p>
-&lt;a href="https://docs.google.com/forms/d/e/1FAIpQLSff-u-sWFuwO1-VTgk2Ir7f1nfUUlLevQk_Vkk_jnmcI1nJnw/viewform?usp=pp_url&amp;amp;entry.648332035=https://2i2c.org/blog/2025/cloud-cost-monitoring/" target="_blank" rel="noopener" class="text-decoration-none">
+&lt;a href="https://docs.google.com/forms/d/e/1FAIpQLSff-u-sWFuwO1-VTgk2Ir7f1nfUUlLevQk_Vkk_jnmcI1nJnw/viewform?usp=pp_url&amp;amp;entry.648332035=https://2i2c.org/blog/cloud-cost-monitoring/" target="_blank" rel="noopener" class="text-decoration-none">
 &lt;div class="alert alert-info d-flex align-items-start p-3" role="button" style="transition: all 0.2s ease; box-shadow: 0 2px 4px rgba(0,0,0,0.1);" onmouseover="this.style.backgroundColor='#b3e5fc'; this.style.boxShadow='0 4px 8px rgba(0,0,0,0.15)'; this.style.transform='translateY(-1px)'" onmouseout="this.style.backgroundColor=''; this.style.boxShadow='0 2px 4px rgba(0,0,0,0.1)'; this.style.transform='translateY(0)'" onfocus="this.style.backgroundColor='#b3e5fc'; this.style.boxShadow='0 4px 8px rgba(0,0,0,0.15)'; this.style.transform='translateY(-1px)'" onblur="this.style.backgroundColor=''; this.style.boxShadow='0 2px 4px rgba(0,0,0,0.1)'; this.style.transform='translateY(0)'">
 &lt;div class="fw-bold mb-1">&lt;span style="font-weight:bold">Give us feedback!&lt;/span> Click here to provide feedback that will help us make this more impactful.&lt;/div>
 &lt;/div>
@@ -114,7 +114,7 @@ Acknowledgements
 &lt;li>Andy @
 &lt;a href="https://2i2c.org/collaborators/openscapes/" >Openscapes&lt;/a>, Alex @ Development Seed and Sarah @
 &lt;a href="https://2i2c.org/collaborators/earthscope/" >Earthscope&lt;/a> for giving us close feedback.&lt;/li>
-&lt;/ul></description></item><item><title>Announcing `jupyterhub-groups-exporter`: monitor usage based on JupyterHub group membership with Prometheus and Grafana</title><link>https://2i2c.org/blog/2025/jupyterhub-groups-exporter/</link><pubDate>Wed, 11 Jun 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/jupyterhub-groups-exporter/</guid><description>&lt;p>Managing user groups in JupyterHub can be a challenging task, especially in environments with dynamic user bases and complex group structures. This post describes how we can leverage the latest group management features in JupyterHub, along with Prometheus and Grafana, to monitor group-level resource usage effectively.&lt;/p>
+&lt;/ul></description></item><item><title>Announcing `jupyterhub-groups-exporter`: monitor usage based on JupyterHub group membership with Prometheus and Grafana</title><link>https://2i2c.org/blog/jupyterhub-groups-exporter/</link><pubDate>Wed, 11 Jun 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/jupyterhub-groups-exporter/</guid><description>&lt;p>Managing user groups in JupyterHub can be a challenging task, especially in environments with dynamic user bases and complex group structures. This post describes how we can leverage the latest group management features in JupyterHub, along with Prometheus and Grafana, to monitor group-level resource usage effectively.&lt;/p>
 &lt;blockquote>
 &lt;p>⭐ &lt;strong>Members of 2i2c&amp;rsquo;s community network&lt;/strong> can use this feature in their hubs by
 &lt;a href="https://docs.2i2c.org/admin/monitoring/cost-users" target="_blank" rel="noopener" >following our cost attribution documentation&lt;/a>.&lt;/p>
@@ -204,16 +204,16 @@ Future work
 Acknowledgements
 &lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
 &lt;/h2>&lt;p>Thanks to the
-&lt;a href="https://2i2c.org/collaborators/jupyterhub/" >JupyterHub project&lt;/a> for their collaboration and review of this work.&lt;/p></description></item><item><title>Announcing the Jupyter Book 2 alpha</title><link>https://2i2c.org/blog/2024/jupyter-book-2/</link><pubDate>Mon, 18 Nov 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/jupyter-book-2/</guid><description>&lt;p>&lt;em>Cross-posted from the
+&lt;a href="https://2i2c.org/collaborators/jupyterhub/" >JupyterHub project&lt;/a> for their collaboration and review of this work.&lt;/p></description></item><item><title>Announcing the Jupyter Book 2 alpha</title><link>https://2i2c.org/blog/jupyter-book-2/</link><pubDate>Mon, 18 Nov 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/jupyter-book-2/</guid><description>&lt;p>&lt;em>Cross-posted from the
 &lt;a href="https://blog.jupyterbook.org/" target="_blank" rel="noopener" >Jupyter Book blog&lt;/a>. Note that some MyST functionality is not supported on the 2i2c website – please see the original post for previews.&lt;/em>&lt;/p>
 &lt;p>
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Jupyter Book 2 logo" srcset="
-/blog/2024/jupyter-book-2/featured_hu9397abb9dc215fd1bcc8d6a18f27fb4c_8272_0f3fdc395470dff824d4ec5734091fa6.webp 400w,
-/blog/2024/jupyter-book-2/featured_hu9397abb9dc215fd1bcc8d6a18f27fb4c_8272_b4e8201419be0cac62b6b5b6eda55797.webp 760w,
-/blog/2024/jupyter-book-2/featured_hu9397abb9dc215fd1bcc8d6a18f27fb4c_8272_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2024/jupyter-book-2/featured_hu9397abb9dc215fd1bcc8d6a18f27fb4c_8272_0f3fdc395470dff824d4ec5734091fa6.webp"
+/blog/jupyter-book-2/featured_hu9397abb9dc215fd1bcc8d6a18f27fb4c_8272_0f3fdc395470dff824d4ec5734091fa6.webp 400w,
+/blog/jupyter-book-2/featured_hu9397abb9dc215fd1bcc8d6a18f27fb4c_8272_b4e8201419be0cac62b6b5b6eda55797.webp 760w,
+/blog/jupyter-book-2/featured_hu9397abb9dc215fd1bcc8d6a18f27fb4c_8272_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/jupyter-book-2/featured_hu9397abb9dc215fd1bcc8d6a18f27fb4c_8272_0f3fdc395470dff824d4ec5734091fa6.webp"
 width="461"
 height="105"
 loading="lazy" data-zoomable />&lt;/div>
@@ -334,14 +334,14 @@ Acknowledgements
 &lt;p>Jupyter Book project has historically been a &lt;em>technical&lt;/em> project of the Executable Books organisation. In 2024, the establishment of a Jupyter subproject means that the Jupyter Book project now has its own identity outside of Executable Books.&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/div></description></item><item><title>Track and manage cloud costs using Grafana</title><link>https://2i2c.org/blog/2024/aws-cost-attribution/</link><pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/aws-cost-attribution/</guid><description>&lt;p>
+&lt;/div></description></item><item><title>Track and manage cloud costs using Grafana</title><link>https://2i2c.org/blog/aws-cost-attribution/</link><pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/aws-cost-attribution/</guid><description>&lt;p>
 &lt;figure id="figure-grafana-dashboard-showing-cloud-costs-broken-down-by-compute-storage-and-other-components-for-the-openscapeshttpsopenscapesorg-hub">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Screenshot of a graph showing total daily costs per component." srcset="
-/blog/2024/aws-cost-attribution/featured_hu0a1ce7d8654f8efa8d798b6fefc5ebab_212463_bd231e67cdeebc846a0c3ad021439e5f.webp 400w,
-/blog/2024/aws-cost-attribution/featured_hu0a1ce7d8654f8efa8d798b6fefc5ebab_212463_2f89930d0393a8dbc3970e24741294eb.webp 760w,
-/blog/2024/aws-cost-attribution/featured_hu0a1ce7d8654f8efa8d798b6fefc5ebab_212463_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2024/aws-cost-attribution/featured_hu0a1ce7d8654f8efa8d798b6fefc5ebab_212463_bd231e67cdeebc846a0c3ad021439e5f.webp"
+/blog/aws-cost-attribution/featured_hu0a1ce7d8654f8efa8d798b6fefc5ebab_212463_bd231e67cdeebc846a0c3ad021439e5f.webp 400w,
+/blog/aws-cost-attribution/featured_hu0a1ce7d8654f8efa8d798b6fefc5ebab_212463_2f89930d0393a8dbc3970e24741294eb.webp 760w,
+/blog/aws-cost-attribution/featured_hu0a1ce7d8654f8efa8d798b6fefc5ebab_212463_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/aws-cost-attribution/featured_hu0a1ce7d8654f8efa8d798b6fefc5ebab_212463_bd231e67cdeebc846a0c3ad021439e5f.webp"
 width="760"
 height="485"
 loading="lazy" data-zoomable />&lt;/div>
@@ -374,7 +374,7 @@ Understanding the cloud cost dashboard
 &lt;li>Daily costs per component per hub (opt-in only).&lt;/li>
 &lt;/ul>
 &lt;video mute autoplay loop >
-&lt;source src="https://2i2c.org/blog/2024/aws-cost-attribution/demo.mp4" type="video/mp4">
+&lt;source src="https://2i2c.org/blog/aws-cost-attribution/demo.mp4" type="video/mp4">
 &lt;/video>
 &lt;p>For more detailed information on the data that each panel displays, please consult our
 &lt;a href="https://docs.2i2c.org/admin/monitoring/cost-users#understanding-the-cloud-cost-dashboard" target="_blank" rel="noopener" >Service Guide&lt;/a> for reference.&lt;/p>
@@ -397,16 +397,16 @@ Acknowledgements
 &lt;li>Thanks to
 &lt;a href="https://2i2c.org/collaborators/openscapes/" >Openscapes&lt;/a> and
 &lt;a href="https://2i2c.org/collaborators/cryocloud/" >Cryocloud&lt;/a> communities for providing valuable insights during the prototyping and testing phase, and for funding part of this work.&lt;/li>
-&lt;/ul></description></item><item><title>Introducing the Catalyst Project Community Partner Highlights</title><link>https://2i2c.org/blog/2024/catalyst-partner-highlights/</link><pubDate>Thu, 31 Oct 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/catalyst-partner-highlights/</guid><description>&lt;p>&lt;em>Cross-posted from the
+&lt;/ul></description></item><item><title>Introducing the Catalyst Project Community Partner Highlights</title><link>https://2i2c.org/blog/catalyst-partner-highlights/</link><pubDate>Thu, 31 Oct 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/catalyst-partner-highlights/</guid><description>&lt;p>&lt;em>Cross-posted from the
 &lt;a href="https://catalystproject.cloud/blog.html" target="_blank" rel="noopener" >Catalyst Project blog&lt;/a>&lt;/em>&lt;/p>
 &lt;p>
 &lt;figure id="figure-catalyst-project-community-partners-using-accessible-cloud-infrastructure-for-open-science-leadership-and-training-clockwise-from-top-left-nnb-ccghttpswwwnnbunammx-musthttpswwwmustacmw-cicadahttpscicadauy-and-iner-photos-courtesy-of-shirley-alquicira-hernández-bennett-kankuzi-maría-inés-fariello-rico-and-yalbi-i-balderas-martinez">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Photos of people using their laptops to access cloud computing." srcset="
-/blog/2024/catalyst-partner-highlights/featured_hue9753c412a3ed68416bfa4126f876f6f_511886_24ca20d655f971af01585017117713ee.webp 400w,
-/blog/2024/catalyst-partner-highlights/featured_hue9753c412a3ed68416bfa4126f876f6f_511886_610f50ec4d5a9dd93ac1b90d629b0710.webp 760w,
-/blog/2024/catalyst-partner-highlights/featured_hue9753c412a3ed68416bfa4126f876f6f_511886_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2024/catalyst-partner-highlights/featured_hue9753c412a3ed68416bfa4126f876f6f_511886_24ca20d655f971af01585017117713ee.webp"
+/blog/catalyst-partner-highlights/featured_hue9753c412a3ed68416bfa4126f876f6f_511886_24ca20d655f971af01585017117713ee.webp 400w,
+/blog/catalyst-partner-highlights/featured_hue9753c412a3ed68416bfa4126f876f6f_511886_610f50ec4d5a9dd93ac1b90d629b0710.webp 760w,
+/blog/catalyst-partner-highlights/featured_hue9753c412a3ed68416bfa4126f876f6f_511886_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/catalyst-partner-highlights/featured_hue9753c412a3ed68416bfa4126f876f6f_511886_24ca20d655f971af01585017117713ee.webp"
 width="720"
 height="550"
 loading="lazy" data-zoomable />&lt;/div>
@@ -428,7 +428,7 @@ Catalyst Project community partners using accessible cloud infrastructure for op
 &lt;p>A key part of the project is engaging with Community Partners in Africa and Latin America: Institutions, organizations, and individuals who are undertaking bioscientific research projects that require cloud computing infrastructure. As collaborators on the Catalyst Project, Community Partners can access and use 2i2c’s open science cloud services, and also receive training from 2i2c, The Carpentries, MetaDocencia, and OLS to support their work.
 &lt;a href="https://catalystproject.cloud/current-community-partners.html" target="_blank" rel="noopener" >Community Partners&lt;/a> also play a vital role in shaping an evolving governance model for the Catalyst Project to help sustain, scale, and maximize impact in Latin America, Africa, and under-served communities around the world.&lt;/p>
 &lt;p>In a new collection of blog posts (that we hope will expand over the next couple of months!) we’re highlighting the work of the Catalyst Project Community Partners. This post is a gateway to learning more about the Catalyst Project and its Community Partners. If you have any questions or feedback about the project, please
-&lt;a href="https://2i2c.org/blog/2024/catalyst-partner-highlights/mailto:catalyst-project-core-team@googlegroups.com" >send an email to the core team&lt;/a>.&lt;/p>
+&lt;a href="https://2i2c.org/blog/catalyst-partner-highlights/mailto:catalyst-project-core-team@googlegroups.com" >send an email to the core team&lt;/a>.&lt;/p>
 &lt;h2 id="highlighting-the-catalyst-project-community-partners">
 Highlighting the Catalyst Project Community Partners
 &lt;a class="header-anchor" href="#highlighting-the-catalyst-project-community-partners">#&lt;/a>
@@ -509,7 +509,7 @@ Acknowledgements
 &lt;a href="https://2i2c.org/collaborators/catalyst/" >Catalyst Community Partners&lt;/a> for generously sharing more about their work.&lt;/li>
 &lt;li>Thanks to
 &lt;a href="https://2i2c.org/collaborators/czi/" >CZI&lt;/a> for funding this work.&lt;/li>
-&lt;/ul></description></item><item><title>MyST Mini-Hackathon with the DeepLabCut Team</title><link>https://2i2c.org/blog/2024/deeplabcut-myst-hackathon/</link><pubDate>Mon, 02 Sep 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/deeplabcut-myst-hackathon/</guid><description>
+&lt;/ul></description></item><item><title>MyST Mini-Hackathon with the DeepLabCut Team</title><link>https://2i2c.org/blog/deeplabcut-myst-hackathon/</link><pubDate>Mon, 02 Sep 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/deeplabcut-myst-hackathon/</guid><description>
 &lt;h2 id="the-deeplabcut-team">
 The DeepLabCut Team
 &lt;a class="header-anchor" href="#the-deeplabcut-team">#&lt;/a>
@@ -574,15 +574,15 @@ Acknowledgments
 &lt;a href="http://www.mackenziemathislab.org/" target="_blank" rel="noopener" >Mackenzie Mathis Lab&lt;/a> for hosting Chris Holdgraf at EPFL, Lausanne, Switzerland.&lt;/li>
 &lt;li>Thanks to the
 &lt;a href="https://2i2c.org/collaborators/jupyter-book/" >Jupyter Book team&lt;/a> for collaborating on this with us.&lt;/li>
-&lt;/ul></description></item><item><title>NeuroHackademy Summer School Reflections</title><link>https://2i2c.org/blog/2024/neurohackademy-summer-school-reflections/</link><pubDate>Mon, 19 Aug 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/neurohackademy-summer-school-reflections/</guid><description>&lt;p>&lt;em>Thank you to Ariel Rokem and Noah Benson for guest writing this blog post!&lt;/em>&lt;/p>
+&lt;/ul></description></item><item><title>NeuroHackademy Summer School Reflections</title><link>https://2i2c.org/blog/neurohackademy-summer-school-reflections/</link><pubDate>Mon, 19 Aug 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/neurohackademy-summer-school-reflections/</guid><description>&lt;p>&lt;em>Thank you to Ariel Rokem and Noah Benson for guest writing this blog post!&lt;/em>&lt;/p>
 &lt;p>
 &lt;figure id="figure-group-photo-from-neurohackademy-2024">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Group photo from NeuroHackademy 2024" srcset="
-/blog/2024/neurohackademy-summer-school-reflections/featured_huecb6f4e8562771129f15ce610a4fee00_4920150_d9c8d4b3def41206a1ceaedc8148d686.webp 400w,
-/blog/2024/neurohackademy-summer-school-reflections/featured_huecb6f4e8562771129f15ce610a4fee00_4920150_3b7acc562ced4c059e8f97c68962370a.webp 760w,
-/blog/2024/neurohackademy-summer-school-reflections/featured_huecb6f4e8562771129f15ce610a4fee00_4920150_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2024/neurohackademy-summer-school-reflections/featured_huecb6f4e8562771129f15ce610a4fee00_4920150_d9c8d4b3def41206a1ceaedc8148d686.webp"
+/blog/neurohackademy-summer-school-reflections/featured_huecb6f4e8562771129f15ce610a4fee00_4920150_d9c8d4b3def41206a1ceaedc8148d686.webp 400w,
+/blog/neurohackademy-summer-school-reflections/featured_huecb6f4e8562771129f15ce610a4fee00_4920150_3b7acc562ced4c059e8f97c68962370a.webp 760w,
+/blog/neurohackademy-summer-school-reflections/featured_huecb6f4e8562771129f15ce610a4fee00_4920150_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/neurohackademy-summer-school-reflections/featured_huecb6f4e8562771129f15ce610a4fee00_4920150_d9c8d4b3def41206a1ceaedc8148d686.webp"
 width="760"
 height="339"
 loading="lazy" data-zoomable />&lt;/div>
@@ -610,7 +610,7 @@ Collaboration with 2i2c
 Previous years
 &lt;a class="header-anchor" href="#previous-years">#&lt;/a>
 &lt;/h3>&lt;p>NeuroHackademy has been an early adopter of the cloud-based JupyterHub model, setting up its first hub using the zero-to-jupyterhub guide in 2018. NeuroHackademy partnered with 2i2c as soon as it was founded, and 2i2c has operated a JupyterHub for the last 3 years. The hub provides an interactive computing platform for learners, and implements the &amp;ldquo;digital watering hole&amp;rdquo; for practical and immediate access to a range of cloud-based datasets in human neuroscience (see
-&lt;a href="https://2i2c.org/blog/2024/neurohackademy-summer-school/" >blog post&lt;/a> announcing support for this year&amp;rsquo;s event).&lt;/p>
+&lt;a href="https://2i2c.org/blog/neurohackademy-summer-school/" >blog post&lt;/a> announcing support for this year&amp;rsquo;s event).&lt;/p>
 &lt;p>In terms of the software environment, the following tools and features that have benefited the event over the years include&lt;/p>
 &lt;ul>
 &lt;li>
@@ -637,7 +637,7 @@ This year
 &lt;/h3>&lt;p>This year 2i2c supported the following tools and features for NeuroHackademy&lt;/p>
 &lt;ul>
 &lt;li>A &amp;ldquo;Bring your own image&amp;rdquo; option where users can pull any image hosted on a container registry into the hub. See our
-&lt;a href="https://2i2c.org/blog/2024/jupyterhub-binderhub-gesis/" >Integrating BinderHub with JupyterHub: Empowering users to manage their own environments&lt;/a> blog post for more details.&lt;/li>
+&lt;a href="https://2i2c.org/blog/jupyterhub-binderhub-gesis/" >Integrating BinderHub with JupyterHub: Empowering users to manage their own environments&lt;/a> blog post for more details.&lt;/li>
 &lt;li>
 &lt;a href="https://github.com/jupyterhub/repo2docker" target="_blank" rel="noopener" >&lt;code>repo2docker&lt;/code>&lt;/a> and GitHub actions to build and prototype images from a repository.&lt;/li>
 &lt;li>The support services provided by 2i2c and the ability for instructors to
@@ -684,14 +684,14 @@ References
 &lt;a href="https://github.com/NeuroHackademy2024" target="_blank" rel="noopener" >NeuroHackademy2024 GitHub Organization&lt;/a>&lt;/li>
 &lt;li>
 &lt;a href="https://doi.org/10.1007/s12021-024-09666-6" target="_blank" rel="noopener" >Hands-On Neuroinformatics Education at the Crossroads of Online and In-Person: Lessons Learned from NeuroHackademy&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Keeping PACE with GPU enabled compute to detect global cloud cover using satellite data</title><link>https://2i2c.org/blog/2024/pace-hackweek/</link><pubDate>Mon, 12 Aug 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/pace-hackweek/</guid><description>&lt;p>
+&lt;/ul></description></item><item><title>Keeping PACE with GPU enabled compute to detect global cloud cover using satellite data</title><link>https://2i2c.org/blog/pace-hackweek/</link><pubDate>Mon, 12 Aug 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/pace-hackweek/</guid><description>&lt;p>
 &lt;figure id="figure-left-bw-model-inputs-and-right-color-model-outputs-of-a-simple-multi-layer-perceptronhttpspacehackweekgithubiopace-2024presentationshackweekml_cloud_maskhtmla-simple-multi-layer-perceptron-for-detecting-cloud-cover">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="(left, b&amp;amp;amp;w) Model inputs and (right, color) model outputs of a simple multi-layer perceptron" srcset="
-/blog/2024/pace-hackweek/cloud-cover-data_hua0335f94820be0055f8450212e11126d_932348_8a93d91e70c837a116e513bc14230bd2.webp 400w,
-/blog/2024/pace-hackweek/cloud-cover-data_hua0335f94820be0055f8450212e11126d_932348_271163ff4ce9b3b6d887787d3e0f3c12.webp 760w,
-/blog/2024/pace-hackweek/cloud-cover-data_hua0335f94820be0055f8450212e11126d_932348_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2024/pace-hackweek/cloud-cover-data_hua0335f94820be0055f8450212e11126d_932348_8a93d91e70c837a116e513bc14230bd2.webp"
+/blog/pace-hackweek/cloud-cover-data_hua0335f94820be0055f8450212e11126d_932348_8a93d91e70c837a116e513bc14230bd2.webp 400w,
+/blog/pace-hackweek/cloud-cover-data_hua0335f94820be0055f8450212e11126d_932348_271163ff4ce9b3b6d887787d3e0f3c12.webp 760w,
+/blog/pace-hackweek/cloud-cover-data_hua0335f94820be0055f8450212e11126d_932348_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/pace-hackweek/cloud-cover-data_hua0335f94820be0055f8450212e11126d_932348_8a93d91e70c837a116e513bc14230bd2.webp"
 width="760"
 height="384"
 loading="lazy" data-zoomable />&lt;/div>
@@ -739,10 +739,10 @@ Conclusion
 &lt;figure id="figure-the-power-of-open-infrastructure-beyond-2i2c-operated-hubs">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="A slack thread demonstrating the power of open infrastructure beyond 2i2c-operated hubs" srcset="
-/blog/2024/pace-hackweek/slack-noaa_hu8140b1a5049e83ecae06aa169fa86758_81075_bfe16d82bcc453e2160013774ed93e25.webp 400w,
-/blog/2024/pace-hackweek/slack-noaa_hu8140b1a5049e83ecae06aa169fa86758_81075_56e73ec80e3330e7c6df94d73d120496.webp 760w,
-/blog/2024/pace-hackweek/slack-noaa_hu8140b1a5049e83ecae06aa169fa86758_81075_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2024/pace-hackweek/slack-noaa_hu8140b1a5049e83ecae06aa169fa86758_81075_bfe16d82bcc453e2160013774ed93e25.webp"
+/blog/pace-hackweek/slack-noaa_hu8140b1a5049e83ecae06aa169fa86758_81075_bfe16d82bcc453e2160013774ed93e25.webp 400w,
+/blog/pace-hackweek/slack-noaa_hu8140b1a5049e83ecae06aa169fa86758_81075_56e73ec80e3330e7c6df94d73d120496.webp 760w,
+/blog/pace-hackweek/slack-noaa_hu8140b1a5049e83ecae06aa169fa86758_81075_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/pace-hackweek/slack-noaa_hu8140b1a5049e83ecae06aa169fa86758_81075_bfe16d82bcc453e2160013774ed93e25.webp"
 width="506"
 height="327"
 loading="lazy" data-zoomable />&lt;/div>
@@ -761,15 +761,15 @@ References and Acknowledgments
 &lt;a href="https://cryointhecloud.com/" target="_blank" rel="noopener" >CryoCloud&lt;/a>)&lt;/li>
 &lt;li>
 &lt;a href="https://pacehackweek.github.io/pace-2024/intro.html" target="_blank" rel="noopener" >PACE Hackweek Jupyter Book&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Collaborating with Development Seed to deliver cyberinfrastructure for NASA VEDA</title><link>https://2i2c.org/blog/2024/veda-devseed-collab/</link><pubDate>Fri, 12 Jul 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/veda-devseed-collab/</guid><description>&lt;p>&lt;em>Thank you to Sajjad Anwar and Sanjay Bhangar for contributing to this post.&lt;/em>&lt;/p>
+&lt;/ul></description></item><item><title>Collaborating with Development Seed to deliver cyberinfrastructure for NASA VEDA</title><link>https://2i2c.org/blog/veda-devseed-collab/</link><pubDate>Fri, 12 Jul 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/veda-devseed-collab/</guid><description>&lt;p>&lt;em>Thank you to Sajjad Anwar and Sanjay Bhangar for contributing to this post.&lt;/em>&lt;/p>
 &lt;p>
 &lt;figure id="figure-the-veda-dashboardhttpswwwearthdatanasagovdashboard">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Landing page of the public-facing NASA VEDA dashboard" srcset="
-/blog/2024/veda-devseed-collab/featured_hu24026c3ba79339d6cab1fefe6f955a05_2636756_0c346142ccc9fb3d33c505813b73ecdd.webp 400w,
-/blog/2024/veda-devseed-collab/featured_hu24026c3ba79339d6cab1fefe6f955a05_2636756_d1509b93338ce6bee9dcdedbe51f26c9.webp 760w,
-/blog/2024/veda-devseed-collab/featured_hu24026c3ba79339d6cab1fefe6f955a05_2636756_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2024/veda-devseed-collab/featured_hu24026c3ba79339d6cab1fefe6f955a05_2636756_0c346142ccc9fb3d33c505813b73ecdd.webp"
+/blog/veda-devseed-collab/featured_hu24026c3ba79339d6cab1fefe6f955a05_2636756_0c346142ccc9fb3d33c505813b73ecdd.webp 400w,
+/blog/veda-devseed-collab/featured_hu24026c3ba79339d6cab1fefe6f955a05_2636756_d1509b93338ce6bee9dcdedbe51f26c9.webp 760w,
+/blog/veda-devseed-collab/featured_hu24026c3ba79339d6cab1fefe6f955a05_2636756_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/veda-devseed-collab/featured_hu24026c3ba79339d6cab1fefe6f955a05_2636756_0c346142ccc9fb3d33c505813b73ecdd.webp"
 width="760"
 height="490"
 loading="lazy" data-zoomable />&lt;/div>
@@ -780,7 +780,7 @@ The
 &lt;/p>
 &lt;p>The 2i2c team are proud to continue our strong working collaboration with
 &lt;a href="https://2i2c.org/collaborators/devseed/" >Development Seed&lt;/a>, following our previous work on launching the
-&lt;a href="https://2i2c.org/blog/2023/us-ghg-center-launches/" >US GHG center&lt;/a> (also see the
+&lt;a href="https://2i2c.org/blog/veda-devseed-collab/../2023/us-ghg-center-launches/index.md" >US GHG center&lt;/a> (also see the
 &lt;a href="https://developmentseed.org/blog/2023-12-14-ghg-center" target="_blank" rel="noopener" >Development Seed blog post&lt;/a>). Together with scientists at NASA in our regular sync touchpoints, we have recently delivered a tranche of improvements to
 &lt;a href="https://www.earthdata.nasa.gov/esds/veda" target="_blank" rel="noopener" >the Visualization, Exploration and Data Analysis (VEDA) project&lt;/a>.&lt;/p>
 &lt;p>This platform is designed to thread open-source components together to consolidate GIS delivery mechanisms, processing, analysis and visualization tools, and presented in a collaborative interactive computing environment. All code repositories and associated resources stemming from this work are available on the
@@ -816,7 +816,7 @@ Opening specific visualizations in QGIS via URL
 &lt;a href="https://github.com/jupyterhub/jupyter-remote-desktop-proxy" target="_blank" rel="noopener" >jupyter-remote-desktop-proxy&lt;/a>. In particular, it allows creation of shareable links that when clicked, opens specific datasets and layers in QGIS in a JupyterHub! You can see this in action:&lt;/p>
 &lt;figure>
 &lt;video mute autoplay loop >
-&lt;source src="https://2i2c.org/blog/2024/veda-devseed-collab/qgis.mp4" type="video/mp4">
+&lt;source src="https://2i2c.org/blog/veda-devseed-collab/qgis.mp4" type="video/mp4">
 &lt;/video>
 &lt;figcaption>Launching QGIS on a Linux desktop served by the VEDA JupyterHub&lt;/figcaption>
 &lt;/figure>
@@ -828,16 +828,16 @@ Opening specific visualizations in QGIS via URL
 Better Profile Selection
 &lt;a class="header-anchor" href="#better-profile-selection">#&lt;/a>
 &lt;/h2>&lt;p>This is a continuation of our
-&lt;a href="https://2i2c.org/blog/2024/jupyterhub-binderhub-gesis/" >GESIS collaboration&lt;/a>. In the path to deploying dynamic image building to end users, we wanted to stabilize
+&lt;a href="https://2i2c.org/blog/jupyterhub-binderhub-gesis/" >GESIS collaboration&lt;/a>. In the path to deploying dynamic image building to end users, we wanted to stabilize
 &lt;a href="https://github.com/yuvipanda/jupyterhub-fancy-profiles" target="_blank" rel="noopener" >jupyterhub-fancy-profiles&lt;/a> enough to deploy to users of VEDA (and eventually everyone else). This is the primary interface users see &lt;em>after&lt;/em> they log in to JupyterHub, and was ripe for UX improvements. The default interface looks like this:&lt;/p>
 &lt;p>
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Default profile list page" srcset="
-/blog/2024/veda-devseed-collab/old-profile_hu10b987728cacc6727099b87fdcffde73_116187_f55ed283a1bbb45a4002b7db6646d205.webp 400w,
-/blog/2024/veda-devseed-collab/old-profile_hu10b987728cacc6727099b87fdcffde73_116187_a96b242c08a12d0156109234e3f2269d.webp 760w,
-/blog/2024/veda-devseed-collab/old-profile_hu10b987728cacc6727099b87fdcffde73_116187_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2024/veda-devseed-collab/old-profile_hu10b987728cacc6727099b87fdcffde73_116187_f55ed283a1bbb45a4002b7db6646d205.webp"
+/blog/veda-devseed-collab/old-profile_hu10b987728cacc6727099b87fdcffde73_116187_f55ed283a1bbb45a4002b7db6646d205.webp 400w,
+/blog/veda-devseed-collab/old-profile_hu10b987728cacc6727099b87fdcffde73_116187_a96b242c08a12d0156109234e3f2269d.webp 760w,
+/blog/veda-devseed-collab/old-profile_hu10b987728cacc6727099b87fdcffde73_116187_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/veda-devseed-collab/old-profile_hu10b987728cacc6727099b87fdcffde73_116187_f55ed283a1bbb45a4002b7db6646d205.webp"
 width="734"
 height="760"
 loading="lazy" data-zoomable />&lt;/div>
@@ -846,7 +846,7 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;p>The revamped one is much more streamlined and looks like this:&lt;/p>
 &lt;figure>
 &lt;video mute autoplay loop >
-&lt;source src="https://2i2c.org/blog/2024/veda-devseed-collab/new-profile.mp4" type="video/mp4">
+&lt;source src="https://2i2c.org/blog/veda-devseed-collab/new-profile.mp4" type="video/mp4">
 &lt;/video>
 &lt;figcaption>Revamped Profile Screen&lt;/figcaption>
 &lt;/figure>
@@ -855,7 +855,7 @@ loading="lazy" data-zoomable />&lt;/div>
 Supporting workshops
 &lt;a class="header-anchor" href="#supporting-workshops">#&lt;/a>
 &lt;/h2>&lt;p>End users benefiting from our work is what ultimately gives meaning to our work. To that end, we were very happy to support running workshops during this collaboration – see our related blog post
-&lt;a href="https://2i2c.org/blog/2024/ghg-summer-school/" >US Greenhouse Gas Center supports summer school at CIRA&lt;/a> for more information.&lt;/p>
+&lt;a href="https://2i2c.org/blog/ghg-summer-school/" >US Greenhouse Gas Center supports summer school at CIRA&lt;/a> for more information.&lt;/p>
 &lt;h2 id="ongoing-collaboration">
 Ongoing Collaboration
 &lt;a class="header-anchor" href="#ongoing-collaboration">#&lt;/a>
@@ -882,15 +882,15 @@ Acknowledgements
 &lt;a href="https://oliverroick.net/" target="_blank" rel="noopener" >Oliver Roick&lt;/a>,
 &lt;a href="https://slesa.com.np/" target="_blank" rel="noopener" >Slesa Adhikari&lt;/a> and
 &lt;a href="https://developmentseed.org/team/sanjay-bhangar" target="_blank" rel="noopener" >Sanjay Bhangar&lt;/a> for various code contributions towards these objectives&lt;/li>
-&lt;/ul></description></item><item><title>Openscapes Host a Surface Biology and Geology Workshop with Shared Password Feature</title><link>https://2i2c.org/blog/2024/openscapes-sbg-workshop/</link><pubDate>Tue, 09 Jul 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/openscapes-sbg-workshop/</guid><description>&lt;p>&lt;em>Thanks to Brianna Lind, Julia Lowndes and Andy Teucher for contributing to this blog post!&lt;/em>&lt;/p>
+&lt;/ul></description></item><item><title>Openscapes Host a Surface Biology and Geology Workshop with Shared Password Feature</title><link>https://2i2c.org/blog/openscapes-sbg-workshop/</link><pubDate>Tue, 09 Jul 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/openscapes-sbg-workshop/</guid><description>&lt;p>&lt;em>Thanks to Brianna Lind, Julia Lowndes and Andy Teucher for contributing to this blog post!&lt;/em>&lt;/p>
 &lt;p>
 &lt;figure id="figure-surface-biology-and-geology-vitals-workshop">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Cover slide from the SBG Workshop" srcset="
-/blog/2024/openscapes-sbg-workshop/featured_hue819d1810c727f509c70882af2906386_1363058_81f857b51daa1aca4a2de354a9020ee1.webp 400w,
-/blog/2024/openscapes-sbg-workshop/featured_hue819d1810c727f509c70882af2906386_1363058_786bb3400878e74ec50331db2192a249.webp 760w,
-/blog/2024/openscapes-sbg-workshop/featured_hue819d1810c727f509c70882af2906386_1363058_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2024/openscapes-sbg-workshop/featured_hue819d1810c727f509c70882af2906386_1363058_81f857b51daa1aca4a2de354a9020ee1.webp"
+/blog/openscapes-sbg-workshop/featured_hue819d1810c727f509c70882af2906386_1363058_81f857b51daa1aca4a2de354a9020ee1.webp 400w,
+/blog/openscapes-sbg-workshop/featured_hue819d1810c727f509c70882af2906386_1363058_786bb3400878e74ec50331db2192a249.webp 760w,
+/blog/openscapes-sbg-workshop/featured_hue819d1810c727f509c70882af2906386_1363058_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/openscapes-sbg-workshop/featured_hue819d1810c727f509c70882af2906386_1363058_81f857b51daa1aca4a2de354a9020ee1.webp"
 width="760"
 height="476"
 loading="lazy" data-zoomable />&lt;/div>
@@ -914,10 +914,10 @@ Surface Biology and Geology: VITALS Workshop
 &lt;figure id="figure-plot-of-the-canopy-water-content-over-the-jack-and-laura-dangermond-preserve-santa-barbara-ca-from-a-vitals-workshop-jupyter-notebookhttpsnasagithubiovitalspython03_emit_cwc_from_reflectancehtml">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Plot of the Canopy Water Content over the Jack and Laura Dangermond Preserve, Santa Barbara, CA." srcset="
-/blog/2024/openscapes-sbg-workshop/canopy-water-content_hu0373bdfe9208f8ce22ea7a38db775ed2_317466_d893568d95e870664fbed01c909ac38f.webp 400w,
-/blog/2024/openscapes-sbg-workshop/canopy-water-content_hu0373bdfe9208f8ce22ea7a38db775ed2_317466_b8db493d7219802231e43b5f83cc2182.webp 760w,
-/blog/2024/openscapes-sbg-workshop/canopy-water-content_hu0373bdfe9208f8ce22ea7a38db775ed2_317466_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2024/openscapes-sbg-workshop/canopy-water-content_hu0373bdfe9208f8ce22ea7a38db775ed2_317466_d893568d95e870664fbed01c909ac38f.webp"
+/blog/openscapes-sbg-workshop/canopy-water-content_hu0373bdfe9208f8ce22ea7a38db775ed2_317466_d893568d95e870664fbed01c909ac38f.webp 400w,
+/blog/openscapes-sbg-workshop/canopy-water-content_hu0373bdfe9208f8ce22ea7a38db775ed2_317466_b8db493d7219802231e43b5f83cc2182.webp 760w,
+/blog/openscapes-sbg-workshop/canopy-water-content_hu0373bdfe9208f8ce22ea7a38db775ed2_317466_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/openscapes-sbg-workshop/canopy-water-content_hu0373bdfe9208f8ce22ea7a38db775ed2_317466_d893568d95e870664fbed01c909ac38f.webp"
 width="739"
 height="601"
 loading="lazy" data-zoomable />&lt;/div>
@@ -941,10 +941,10 @@ Plot of the Canopy Water Content over the Jack and Laura Dangermond Preserve, Sa
 &lt;figure id="figure-feedback-from-brianna-lind-lp-daac">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Slack message from Bri Lind" srcset="
-/blog/2024/openscapes-sbg-workshop/slack_hu92a99c5a2eca92e535f899967fd8b202_53752_ba09f4df240787c9a04d2d27bc2c5a5b.webp 400w,
-/blog/2024/openscapes-sbg-workshop/slack_hu92a99c5a2eca92e535f899967fd8b202_53752_095056e86e2035dc6c4a5a38c3ed7a5a.webp 760w,
-/blog/2024/openscapes-sbg-workshop/slack_hu92a99c5a2eca92e535f899967fd8b202_53752_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2024/openscapes-sbg-workshop/slack_hu92a99c5a2eca92e535f899967fd8b202_53752_ba09f4df240787c9a04d2d27bc2c5a5b.webp"
+/blog/openscapes-sbg-workshop/slack_hu92a99c5a2eca92e535f899967fd8b202_53752_ba09f4df240787c9a04d2d27bc2c5a5b.webp 400w,
+/blog/openscapes-sbg-workshop/slack_hu92a99c5a2eca92e535f899967fd8b202_53752_095056e86e2035dc6c4a5a38c3ed7a5a.webp 760w,
+/blog/openscapes-sbg-workshop/slack_hu92a99c5a2eca92e535f899967fd8b202_53752_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/openscapes-sbg-workshop/slack_hu92a99c5a2eca92e535f899967fd8b202_53752_ba09f4df240787c9a04d2d27bc2c5a5b.webp"
 width="760"
 height="219"
 loading="lazy" data-zoomable />&lt;/div>
@@ -966,7 +966,7 @@ Acknowledgements
 &lt;a href="https://www.jpl.nasa.gov/" target="_blank" rel="noopener" >NASA JPL&lt;/a>&lt;/li>
 &lt;li>
 &lt;a href="https://science.nasa.gov/researchers/" target="_blank" rel="noopener" >NASA ROSES funding&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Determining Climate Risks with NASA Earthdata Cloud at Scipy 2024</title><link>https://2i2c.org/blog/2024/climaterisk-scipy-tutorial/</link><pubDate>Mon, 08 Jul 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/climaterisk-scipy-tutorial/</guid><description>&lt;p>&lt;em>Determining Climate Risks with NASA Earthdata Cloud&lt;/em> is a
+&lt;/ul></description></item><item><title>Determining Climate Risks with NASA Earthdata Cloud at Scipy 2024</title><link>https://2i2c.org/blog/climaterisk-scipy-tutorial/</link><pubDate>Mon, 08 Jul 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/climaterisk-scipy-tutorial/</guid><description>&lt;p>&lt;em>Determining Climate Risks with NASA Earthdata Cloud&lt;/em> is a
 &lt;a href="https://www.nasa.gov/centers-and-facilities/marshall/nasa-boosts-open-science-through-innovative-training/" target="_blank" rel="noopener" >ScienceCore&lt;/a> curriculum module that comprises part of NASA&amp;rsquo;s
 &lt;a href="https://science.nasa.gov/open-science-overview" target="_blank" rel="noopener" >Open Science&lt;/a> and
 &lt;a href="https://nasa.github.io/Transform-to-Open-Science/" target="_blank" rel="noopener" >Transform to Open Science (TOPS)&lt;/a> initiatives.
@@ -975,7 +975,7 @@ The aim of this module is to deliver a hands-on experience with &amp;ldquo;data-
 &lt;a href="https://www.metadocencia.org/" target="_blank" rel="noopener" >MetaDocencia&lt;/a>.&lt;/p>
 &lt;p>This module was delivered as a
 &lt;a href="https://cfp.scipy.org/2024/talk/3DVH7S/" target="_blank" rel="noopener" >SciPy tutorial&lt;/a> at this year&amp;rsquo;s conference. 2i2c have been working closely with the organizers to provide the hub infrastructure for the tutorial, including enabling a shared password for easy authentication (see our
-&lt;a href="https://2i2c.org/blog/2024/openscapes-sbg-workshop/" >Openscapes post&lt;/a> for more about this feature) and operating a small binder service for participants to view content after the event.&lt;/p>
+&lt;a href="https://2i2c.org/blog/climaterisk-scipy-tutorial/blog/2024/openscapes-sbg-workshop/index.mdindex" >Openscapes post&lt;/a> for more about this feature) and operating a small binder service for participants to view content after the event.&lt;/p>
 &lt;p>You can take a look at the tutorial on the
 &lt;a href="https://binder.opensci.2i2c.cloud/v2/gh/ScienceCore/scipy-2024-climaterisk/HEAD?labpath=00_Introduction_Setup%2F01_Initial_Setup.ipynb" target="_blank" rel="noopener" >NASA ephemeral hub&lt;/a>!&lt;/p>
 &lt;p>The event was well-attended, with 40 learners taking part. Special thanks go to the organizers
@@ -995,14 +995,14 @@ Acknowledgements
 &lt;a href="https://www.linkedin.com/in/karthikvenkataramani/" target="_blank" rel="noopener" >Karthik Venkataramani&lt;/a>&lt;/li>
 &lt;li>
 &lt;a href="https://github.com/patriloto" target="_blank" rel="noopener" >Patricia A. Loto&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Enabling neuroscience in the cloud with HHMI Spyglass and MySQL on JupyterHub</title><link>https://2i2c.org/blog/2024/hhmi-spyglass-mysql/</link><pubDate>Fri, 05 Jul 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/hhmi-spyglass-mysql/</guid><description>&lt;p>
+&lt;/ul></description></item><item><title>Enabling neuroscience in the cloud with HHMI Spyglass and MySQL on JupyterHub</title><link>https://2i2c.org/blog/hhmi-spyglass-mysql/</link><pubDate>Fri, 05 Jul 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/hhmi-spyglass-mysql/</guid><description>&lt;p>
 &lt;figure id="figure-the-hhmi-spyglass-tutorialhttpsspyglasshhmi2i2ccloud">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="HHMI Spyglass tutorial" srcset="
-/blog/2024/hhmi-spyglass-mysql/featured_huda5696297f7fdc49904c82761adc3edf_243308_598303ce9fab37b82985827d80811661.webp 400w,
-/blog/2024/hhmi-spyglass-mysql/featured_huda5696297f7fdc49904c82761adc3edf_243308_be7fedce8169ff93e4d1bb453a589d91.webp 760w,
-/blog/2024/hhmi-spyglass-mysql/featured_huda5696297f7fdc49904c82761adc3edf_243308_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2024/hhmi-spyglass-mysql/featured_huda5696297f7fdc49904c82761adc3edf_243308_598303ce9fab37b82985827d80811661.webp"
+/blog/hhmi-spyglass-mysql/featured_huda5696297f7fdc49904c82761adc3edf_243308_598303ce9fab37b82985827d80811661.webp 400w,
+/blog/hhmi-spyglass-mysql/featured_huda5696297f7fdc49904c82761adc3edf_243308_be7fedce8169ff93e4d1bb453a589d91.webp 760w,
+/blog/hhmi-spyglass-mysql/featured_huda5696297f7fdc49904c82761adc3edf_243308_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/hhmi-spyglass-mysql/featured_huda5696297f7fdc49904c82761adc3edf_243308_598303ce9fab37b82985827d80811661.webp"
 width="760"
 height="498"
 loading="lazy" data-zoomable />&lt;/div>
@@ -1017,7 +1017,7 @@ Spyglass
 &lt;/h2>&lt;p>
 &lt;a href="https://github.com/LorenFrankLab/spyglass" target="_blank" rel="noopener" >Spyglass&lt;/a> is a framework for reproducible and shareable neuroscience research produced by
 &lt;a href="https://github.com/LorenFrankLab" target="_blank" rel="noopener" >Loren Frank’s lab&lt;/a> at the University of California, San Francisco. Check out our
-&lt;a href="https://2i2c.org/blog/2024/hhmi-spyglass/" >blog post about the release of their preprint&lt;/a> to read more about the methods.&lt;/p>
+&lt;a href="https://2i2c.org/blog/hhmi-spyglass/" >blog post about the release of their preprint&lt;/a> to read more about the methods.&lt;/p>
 &lt;p>This post focuses on the complex data storage needed for the project, which can be difficult to set up locally or at scale in the cloud. In particular, the analysis needed a MySQL database for reproducibility. This is a fairly common task across many fields. The aim of 2i2c is to enable researchers to focus on the essential complexity of what they were doing, i.e. the science, without managing the accidental complexity of how to do it &amp;ndash; in this case, setting up databases.&lt;/p>
 &lt;p>We describe how you can do this too for your own JupyterHubs. Since 2i2c commits to running our infrastructure in line with open-source values as much as possible, you can also directly see the
 &lt;a href="https://github.com/2i2c-org/infrastructure/blob/99071c38712ef8e6bed6609117ca4b894b89ae5c/config/clusters/hhmi/spyglass.values.yaml#L76" target="_blank" rel="noopener" >configuration for the hub&lt;/a> referenced in the paper.&lt;/p>
@@ -1089,7 +1089,7 @@ Acknowledgements
 &lt;li>
 &lt;a href="https://github.com/jupyterhub/zero-to-jupyterhub-k8s/" target="_blank" rel="noopener" >zero-to-jupyterhub-k8s&lt;/a> and the
 &lt;a href="https://2i2c.org/collaborators/jupyterhub/" >JupyterHub community&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>We need to improve the diversity of our leadership</title><link>https://2i2c.org/blog/2024/dei-leadership-strategy/</link><pubDate>Fri, 28 Jun 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/dei-leadership-strategy/</guid><description>&lt;p>As an organization committed to broadening access to interactive computing for global communities, we believe that a team embedded with diverse insights and lived experiences can more effectively advocate for underrepresented voices in our socio-technical partnerships.
+&lt;/ul></description></item><item><title>We need to improve the diversity of our leadership</title><link>https://2i2c.org/blog/dei-leadership-strategy/</link><pubDate>Fri, 28 Jun 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/dei-leadership-strategy/</guid><description>&lt;p>As an organization committed to broadening access to interactive computing for global communities, we believe that a team embedded with diverse insights and lived experiences can more effectively advocate for underrepresented voices in our socio-technical partnerships.
 A diversity of team experiences helps us deliver a service that broadens and empowers participation in open-source science for all communities and leads to
 &lt;a href="https://hbr.org/2016/11/why-diverse-teams-are-smarter" target="_blank" rel="noopener" >more effective teams that make better decisions&lt;/a>.&lt;/p>
 &lt;p>As a young and growing organization, we have had mixed success in building diversity within our team.
@@ -1104,29 +1104,29 @@ For example, we&amp;rsquo;ve used the following pillars in describing our servic
 &lt;p>We&amp;rsquo;ve also invested in creating an inclusive organizational culture via documents like
 &lt;a href="https://compass.2i2c.org" target="_blank" rel="noopener" >our Team Compass&lt;/a> and
 &lt;a href="https://compass.2i2c.org/code-of-conduct/" target="_blank" rel="noopener" >our Code of Conduct&lt;/a>&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>. We&amp;rsquo;ve experimented with inclusive hiring practices to encourage a diverse pool of applicants for our open positions, such as
-&lt;a href="https://2i2c.org/blog/2022/product-community-lead-drop-in-notes/" target="_blank" rel="noopener" >running open office hours for job postings&lt;/a> in the hopes that this would encourage more people to apply who might otherwise have been hesitant (something that often correlates with people from historically marginalized communities).&lt;/p>
+&lt;a href="https://2i2c.org/blog/product-community-lead-drop-in-notes/" >running open office hours for job postings&lt;/a> in the hopes that this would encourage more people to apply who might otherwise have been hesitant (something that often correlates with people from historically marginalized communities).&lt;/p>
 &lt;h2 id="the-importance-of-diverse-_leadership_">
 The importance of diverse &lt;em>leadership&lt;/em>
 &lt;a class="header-anchor" href="#the-importance-of-diverse-_leadership_">#&lt;/a>
 &lt;/h2>&lt;p>However, over the past few months, we have reflected on our organization&amp;rsquo;s structure and future plans. In particular, we recognize that there is a worrying lack of women in staff leadership roles. This imbalance does not live up to our values of diversity in our team and service.&lt;/p>
 &lt;p>We need to do better.&lt;/p>
 &lt;p>2i2c is at a moment of maturation and growth as an organization, kicked off by
-&lt;a href="https://2i2c.org/blog/2024/dei-leadership-strategy/../2023/organizational-report/index.md" >our organizational audit from 2023&lt;/a> as well as
-&lt;a href="https://2i2c.org/blog/2024/report-czi/" >our three-year retrospective&lt;/a>.
+&lt;a href="https://2i2c.org/blog/dei-leadership-strategy/../2023/organizational-report/index.md" >our organizational audit from 2023&lt;/a> as well as
+&lt;a href="https://2i2c.org/blog/report-czi/" >our three-year retrospective&lt;/a>.
 We believe that improving the diversity of leadership throughout the organization is a necessary part of that maturation over the next three years.&lt;/p>
 &lt;p>Below are a few ideas for how we aim to make improvements, and we invite feedback from others who are interested in helping us improve this aspect of our organization.&lt;/p>
 &lt;h2 id="what-we-plan-to-do">
 What we plan to do
 &lt;a class="header-anchor" href="#what-we-plan-to-do">#&lt;/a>
 &lt;/h2>&lt;p>Over the next few months, we will work on a long-term DEI strategy in tandem with our sustainability strategy as we work
-&lt;a href="https://2i2c.org/blog/2024/funding-community-networks/" >towards scalable and sustainable networks of community hubs&lt;/a>.&lt;/p>
+&lt;a href="https://2i2c.org/blog/funding-community-networks/" >towards scalable and sustainable networks of community hubs&lt;/a>.&lt;/p>
 &lt;p>Here are some steps we aim to take to improve the diversity of our leadership across the organization:&lt;/p>
 &lt;ol>
 &lt;li>&lt;strong>Define our goals for diversity&lt;/strong>. First, we need a better understanding of the most important axes of diversity that we wish to design around. Gender is clearly a critical gap to cover, but there are many other important axes of diversity as well. For example, as an organization that serves a global community, it is important that we have global perspectives represented in our leadership.&lt;/li>
 &lt;li>&lt;strong>Define mechanisms for leadership and governance that includes representation along these axes&lt;/strong>. Leadership at a staff level is one way to ensure representation of diverse perspectives, but there are many other ways to bring voices into the conversation. We aim to explore new ways of bringing diverse voices into the strategic direction of the organization and provide mechanisms for holding us accountable to our values. For example, we intend to grow a &lt;em>board&lt;/em> to guide 2i2c&amp;rsquo;s strategy and hold its Executive Director accountable for achieving impact - this is another opportunity to bring diverse perspectives into our leadership.&lt;/li>
 &lt;li>&lt;strong>Make a plan for improving leadership diversity within our team&lt;/strong>. Whatever mechanisms we create for diverse leadership, we know that one of them needs to be improving our diversity at a staff leadership level. Our staff are the ones that spend the most time working on - and have the most leverage over - our strategy and mission, and it&amp;rsquo;s important that our staff leadership is a good representation of the diverse perspectives of the communities we serve. This might mean investing more heavily in reaching broad applicant pools for new positions, seeking external consultation for how we can avoid unintentionally sending exclusionary signals to others in our communications and outreach and developing incentives to retain our talent over time.&lt;/li>
 &lt;li>&lt;strong>Continue improving our systems of delivery and work&lt;/strong>. Finally, we believe that a crucial aspect of improving the diversity in our organization is to continue transforming our systems for delivery, reliability, and accountability across the organization. This effort is a crucial step for fostering an inclusive and equitable culture. We have
-&lt;a href="https://2i2c.org/blog/2024/delivery-improvements/" >made a lot of progress in improving our delivery systems&lt;/a> and will continue this improvement as an organization.&lt;/li>
+&lt;a href="https://2i2c.org/blog/delivery-improvements/" >made a lot of progress in improving our delivery systems&lt;/a> and will continue this improvement as an organization.&lt;/li>
 &lt;/ol>
 &lt;p>We hope that this post both makes transparent a distinct lack of diversity within our organizational leadership and provides clarity for some of our plans to improve.
 We are excited about the organization that we have built so far, as well as being fiercely proud of our open-source culture and development practises.
@@ -1139,7 +1139,7 @@ We still know that we must do better, and we&amp;rsquo;re fully committed to doi
 &lt;a href="https://projectinclude.org" target="_blank" rel="noopener" >Project Include&lt;/a> documentation in creating an inclusive culture and set of policies.&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/div></description></item><item><title>Ephemeral Interactive Computing for NASA Communities</title><link>https://2i2c.org/blog/2024/nasa-ephemeral-hubs/</link><pubDate>Thu, 27 Jun 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/nasa-ephemeral-hubs/</guid><description>&lt;p>We are pleased to announce that we have deployed two ephemeral hubs for NASA communities!&lt;/p>
+&lt;/div></description></item><item><title>Ephemeral Interactive Computing for NASA Communities</title><link>https://2i2c.org/blog/nasa-ephemeral-hubs/</link><pubDate>Thu, 27 Jun 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/nasa-ephemeral-hubs/</guid><description>&lt;p>We are pleased to announce that we have deployed two ephemeral hubs for NASA communities!&lt;/p>
 &lt;h2 id="what-did-we-do">
 What did we do?
 &lt;a class="header-anchor" href="#what-did-we-do">#&lt;/a>
@@ -1160,10 +1160,10 @@ What did we do?
 How did we do it?
 &lt;a class="header-anchor" href="#how-did-we-do-it">#&lt;/a>
 &lt;/h2>&lt;p>Ephemeral interactive computing services benefited from some of our previous development work in collaboration with GESIS (see our
-&lt;a href="https://2i2c.org/blog/2024/jupyterhub-binderhub-gesis/" >detailed blog post&lt;/a> for more information). The research and development of this project achieved wide-reaching impact across many NASA communities we currently serve, including
+&lt;a href="https://2i2c.org/blog/nasa-ephemeral-hubs/blog/2024/jupyterhub-binderhub-gesis/index.mdindex" >detailed blog post&lt;/a> for more information). The research and development of this project achieved wide-reaching impact across many NASA communities we currently serve, including
 &lt;a href="https://www.nasa.gov/centers-and-facilities/marshall/nasa-boosts-open-science-through-innovative-training/" target="_blank" rel="noopener" >TOPST ScienceCore&lt;/a>,
-&lt;a href="https://2i2c.org/blog/2024/openscapes-sbg-workshop/" >Openscapes&lt;/a>,
-&lt;a href="https://2i2c.org/blog/2024/ghg-summer-school/" >US Greenhouse Gas Center&lt;/a>,
+&lt;a href="https://2i2c.org/blog/openscapes-sbg-workshop/" >Openscapes&lt;/a>,
+&lt;a href="https://2i2c.org/blog/ghg-summer-school/" >US Greenhouse Gas Center&lt;/a>,
 &lt;a href="https://www.earthdata.nasa.gov/esds/veda" target="_blank" rel="noopener" >VEDA&lt;/a> and
 &lt;a href="https://cryointhecloud.com/" target="_blank" rel="noopener" >CryoCloud&lt;/a>; as well as networks beyond the NASA scope, such as the NSF-funded
 &lt;a href="https://projectpythia.org/" target="_blank" rel="noopener" >Project Pythia&lt;/a> and HHMI-funded
@@ -1182,21 +1182,21 @@ Can I use this ephemeral hub service?
 &lt;li>For the
 &lt;a href="https://hub.big.binder.opensci.2i2c.cloud/" target="_blank" rel="noopener" >big BinderHub&lt;/a> you will need to be member of a NASA community. This requires a GitHub account for membership of the GitHub Team
 &lt;a href="https://github.com/orgs/2i2c-nasa-binder-access/teams/big-binder-team" target="_blank" rel="noopener" >2i2c-nasa-binder-access:big-binder-team&lt;/a> for authorization. Please send us an email at
-&lt;a href="https://2i2c.org/blog/2024/nasa-ephemeral-hubs/mailto:binder-requests@2i2c.org" >binder-requests@2i2c.org&lt;/a> to be added to the GitHub Team.&lt;/li>
+&lt;a href="https://2i2c.org/blog/nasa-ephemeral-hubs/mailto:binder-requests@2i2c.org" >binder-requests@2i2c.org&lt;/a> to be added to the GitHub Team.&lt;/li>
 &lt;/ul>
 &lt;h2 id="acknowledgements">
 Acknowledgements
 &lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
 &lt;/h2>&lt;ul>
 &lt;li>NASA NSPIRES F.15 High Priority Open-Source Science Award NNH22ZDA001N-HPOSS&lt;/li>
-&lt;/ul></description></item><item><title>Neurohackademy Summer School in Neuroimaging and Data Science 2024</title><link>https://2i2c.org/blog/2024/neurohackademy-summer-school/</link><pubDate>Fri, 21 Jun 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/neurohackademy-summer-school/</guid><description>&lt;p>
+&lt;/ul></description></item><item><title>Neurohackademy Summer School in Neuroimaging and Data Science 2024</title><link>https://2i2c.org/blog/neurohackademy-summer-school/</link><pubDate>Fri, 21 Jun 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/neurohackademy-summer-school/</guid><description>&lt;p>
 &lt;figure id="figure-neurohackademy-summer-schoolhttpsneurohackademyorg">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Landing page of the Neurohackademy Summer School website" srcset="
-/blog/2024/neurohackademy-summer-school/featured_hu1407b37436d36983b293b82682368c44_1577145_a369b47b7aa7f955400b7fd0997eb469.webp 400w,
-/blog/2024/neurohackademy-summer-school/featured_hu1407b37436d36983b293b82682368c44_1577145_3ae80ab519c8c6c39c0b0848d85adda8.webp 760w,
-/blog/2024/neurohackademy-summer-school/featured_hu1407b37436d36983b293b82682368c44_1577145_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2024/neurohackademy-summer-school/featured_hu1407b37436d36983b293b82682368c44_1577145_a369b47b7aa7f955400b7fd0997eb469.webp"
+/blog/neurohackademy-summer-school/featured_hu1407b37436d36983b293b82682368c44_1577145_a369b47b7aa7f955400b7fd0997eb469.webp 400w,
+/blog/neurohackademy-summer-school/featured_hu1407b37436d36983b293b82682368c44_1577145_3ae80ab519c8c6c39c0b0848d85adda8.webp 760w,
+/blog/neurohackademy-summer-school/featured_hu1407b37436d36983b293b82682368c44_1577145_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/neurohackademy-summer-school/featured_hu1407b37436d36983b293b82682368c44_1577145_a369b47b7aa7f955400b7fd0997eb469.webp"
 width="760"
 height="469"
 loading="lazy" data-zoomable />&lt;/div>
@@ -1245,14 +1245,14 @@ Acknowledgements
 &lt;a href="https://www.nimh.nih.gov/" target="_blank" rel="noopener" >National Institute of Mental Health&lt;/a>&lt;/li>
 &lt;li>
 &lt;a href="https://www.nsf.gov/" target="_blank" rel="noopener" >National Science Foundation&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>US Greenhouse Gas Center supports summer school at CIRA</title><link>https://2i2c.org/blog/2024/ghg-summer-school/</link><pubDate>Thu, 20 Jun 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/ghg-summer-school/</guid><description>&lt;p>
+&lt;/ul></description></item><item><title>US Greenhouse Gas Center supports summer school at CIRA</title><link>https://2i2c.org/blog/ghg-summer-school/</link><pubDate>Thu, 20 Jun 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/ghg-summer-school/</guid><description>&lt;p>
 &lt;figure id="figure-summer-school-for-inverse-modeling-of-greenhouse-gases-2024">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Summer school for inverse modeling of greenhouse gases 2024" srcset="
-/blog/2024/ghg-summer-school/featured_hu910bfdf83fbf7c9eab4e8bb2082bdb51_881389_bb5617210c332c674e7b8d13d11f36dd.webp 400w,
-/blog/2024/ghg-summer-school/featured_hu910bfdf83fbf7c9eab4e8bb2082bdb51_881389_9a919b8ecb9303737e1adc44b7652fe3.webp 760w,
-/blog/2024/ghg-summer-school/featured_hu910bfdf83fbf7c9eab4e8bb2082bdb51_881389_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2024/ghg-summer-school/featured_hu910bfdf83fbf7c9eab4e8bb2082bdb51_881389_bb5617210c332c674e7b8d13d11f36dd.webp"
+/blog/ghg-summer-school/featured_hu910bfdf83fbf7c9eab4e8bb2082bdb51_881389_bb5617210c332c674e7b8d13d11f36dd.webp 400w,
+/blog/ghg-summer-school/featured_hu910bfdf83fbf7c9eab4e8bb2082bdb51_881389_9a919b8ecb9303737e1adc44b7652fe3.webp 760w,
+/blog/ghg-summer-school/featured_hu910bfdf83fbf7c9eab4e8bb2082bdb51_881389_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/ghg-summer-school/featured_hu910bfdf83fbf7c9eab4e8bb2082bdb51_881389_bb5617210c332c674e7b8d13d11f36dd.webp"
 width="760"
 height="484"
 loading="lazy" data-zoomable />&lt;/div>
@@ -1264,17 +1264,17 @@ Summer school for inverse modeling of greenhouse gases 2024
 &lt;a href="https://www.cira.colostate.edu/" target="_blank" rel="noopener" >CIRA&lt;/a>) is an interdisciplinary cooperation between NOAA research scientists and Colorado State University. CIRA is hosting a
 &lt;a href="https://www.cira.colostate.edu/conferences/rmtgw/" target="_blank" rel="noopener" >summer school&lt;/a> for inverse modeling of greenhouse gases using atmospheric data assimilation techniques. The
 &lt;a href="https://earth.gov/ghgcenter" target="_blank" rel="noopener" >US Greenhouse Gas Center&lt;/a> is supporting the workshop by providing 40+ attendees access to their interactive computing hub operated by 2i2c (see
-&lt;a href="https://2i2c.org/blog/2023/us-ghg-center-launches/" >our blog post about their launch&lt;/a>).&lt;/p>
+&lt;a href="https://2i2c.org/blog/ghg-summer-school/blog/2023/us-ghg-center-launches/index.mdindex" >our blog post about their launch&lt;/a>).&lt;/p>
 &lt;p>Hub administrators have
 &lt;a href="https://github.com/NASA-IMPACT/ssim-ghg-workshop-2024-python-image" target="_blank" rel="noopener" >built a customized software environment&lt;/a> with container technology for use at the workshop. In doing so, this bypasses the need for participants to individually install software on their own machines and the online hub provides a &lt;em>consistent&lt;/em> and &lt;em>reproducible&lt;/em> interactive computing environment that is easily &lt;em>accessible&lt;/em> and &lt;em>scalable&lt;/em>.&lt;/p>
 &lt;p>
 &lt;figure id="figure-login-screen-of-the-ghg-hub-showing-the-custom-built-ssim-ghg-image-option">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Login screen of the GHG hub showing the custom built SSIM-GHG image option." srcset="
-/blog/2024/ghg-summer-school/ghg-hub_hu1407b37436d36983b293b82682368c44_266729_f3db3a3eff9a7520e5096c6f79193712.webp 400w,
-/blog/2024/ghg-summer-school/ghg-hub_hu1407b37436d36983b293b82682368c44_266729_c96acc1e28fe6f859f9fdeb219f4ad5a.webp 760w,
-/blog/2024/ghg-summer-school/ghg-hub_hu1407b37436d36983b293b82682368c44_266729_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2024/ghg-summer-school/ghg-hub_hu1407b37436d36983b293b82682368c44_266729_f3db3a3eff9a7520e5096c6f79193712.webp"
+/blog/ghg-summer-school/ghg-hub_hu1407b37436d36983b293b82682368c44_266729_f3db3a3eff9a7520e5096c6f79193712.webp 400w,
+/blog/ghg-summer-school/ghg-hub_hu1407b37436d36983b293b82682368c44_266729_c96acc1e28fe6f859f9fdeb219f4ad5a.webp 760w,
+/blog/ghg-summer-school/ghg-hub_hu1407b37436d36983b293b82682368c44_266729_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/ghg-summer-school/ghg-hub_hu1407b37436d36983b293b82682368c44_266729_f3db3a3eff9a7520e5096c6f79193712.webp"
 width="760"
 height="469"
 loading="lazy" data-zoomable />&lt;/div>
@@ -1290,7 +1290,7 @@ Acknowledgements
 &lt;li>Sanjay Bhangar (
 &lt;a href="https://2i2c.org/collaborators/devseed/" >Development seed&lt;/a>)&lt;/li>
 &lt;li>Slesa Adhikari (NASA IMPACT)&lt;/li>
-&lt;/ul></description></item><item><title>Hacking the Project Pythia Cook-off with MyST Markdown</title><link>https://2i2c.org/blog/2024/project-pythia-cookoff/</link><pubDate>Tue, 18 Jun 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/project-pythia-cookoff/</guid><description>&lt;p>
+&lt;/ul></description></item><item><title>Hacking the Project Pythia Cook-off with MyST Markdown</title><link>https://2i2c.org/blog/project-pythia-cookoff/</link><pubDate>Tue, 18 Jun 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/project-pythia-cookoff/</guid><description>&lt;p>
 &lt;figure id="figure-photo-courtesy-of-dr-debanjana-das">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img src="./cover-featured.png" alt="Group selfie of Project Pythia Cook-off participants." loading="lazy" data-zoomable />&lt;/div>
@@ -1322,10 +1322,10 @@ Day 1
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Screenshot of Project Pythia BinderHub service" srcset="
-/blog/2024/project-pythia-cookoff/binder_huace4be54dd679dccbefe8a204243ae9f_316548_df8a60e24fed7ae98d7c9debdacd84cb.webp 400w,
-/blog/2024/project-pythia-cookoff/binder_huace4be54dd679dccbefe8a204243ae9f_316548_d4c17b4ebb63b573d14775841212814c.webp 760w,
-/blog/2024/project-pythia-cookoff/binder_huace4be54dd679dccbefe8a204243ae9f_316548_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2024/project-pythia-cookoff/binder_huace4be54dd679dccbefe8a204243ae9f_316548_df8a60e24fed7ae98d7c9debdacd84cb.webp"
+/blog/project-pythia-cookoff/binder_huace4be54dd679dccbefe8a204243ae9f_316548_df8a60e24fed7ae98d7c9debdacd84cb.webp 400w,
+/blog/project-pythia-cookoff/binder_huace4be54dd679dccbefe8a204243ae9f_316548_d4c17b4ebb63b573d14775841212814c.webp 760w,
+/blog/project-pythia-cookoff/binder_huace4be54dd679dccbefe8a204243ae9f_316548_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/project-pythia-cookoff/binder_huace4be54dd679dccbefe8a204243ae9f_316548_df8a60e24fed7ae98d7c9debdacd84cb.webp"
 width="760"
 height="498"
 loading="lazy" data-zoomable />&lt;/div>
@@ -1343,7 +1343,7 @@ Day 2
 &lt;li>&lt;input disabled="" type="checkbox"> Cookbooks frequently cross-referenced materials from other cookbooks to build upon pre-existing knowledge, but this was not easy to author and the reader experience was not as smooth as it could be.&lt;/li>
 &lt;/ul>
 &lt;p>Following the announcement that
-&lt;a href="https://2i2c.org/blog/2024/project-pythia-cookoff/../myst-jupyter-book/index" >Jupyter Book 2.0 will use MyST&lt;/a> last month, Rowan (Curvenote) and Angus (2i2c) delivered a compelling demonstration of the
+&lt;a href="https://2i2c.org/blog/project-pythia-cookoff/../myst-jupyter-book/index" >Jupyter Book 2.0 will use MyST&lt;/a> last month, Rowan (Curvenote) and Angus (2i2c) delivered a compelling demonstration of the
 &lt;a href="https://mystmd.org/" target="_blank" rel="noopener" >MyST&lt;/a> ecosystem centered around modern web-first technologies (JavaScript/TypeScript) that offers improved interactivity and accessibility.&lt;/p>
 &lt;p>In the second half of the day, we decided to use the hackathon to explore migrating the Pythia cookbooks from using a Sphinx-based to a MyST-based document structure and engine. Within one afternoon, the group migrated four cookbooks to use MyST MD&lt;/p>
 &lt;ol>
@@ -1360,10 +1360,10 @@ Day 2
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Screenshot of a side by side comparison of the Sphinx (left) and MyST (right) based cookbook." srcset="
-/blog/2024/project-pythia-cookoff/side-by-side_hu9cd3b350a3f864d97093bd955d197fa3_1447042_509dac579014377108a7eefe4a851c99.webp 400w,
-/blog/2024/project-pythia-cookoff/side-by-side_hu9cd3b350a3f864d97093bd955d197fa3_1447042_f00d1b26e9d5356ac678b757badb0a71.webp 760w,
-/blog/2024/project-pythia-cookoff/side-by-side_hu9cd3b350a3f864d97093bd955d197fa3_1447042_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2024/project-pythia-cookoff/side-by-side_hu9cd3b350a3f864d97093bd955d197fa3_1447042_509dac579014377108a7eefe4a851c99.webp"
+/blog/project-pythia-cookoff/side-by-side_hu9cd3b350a3f864d97093bd955d197fa3_1447042_509dac579014377108a7eefe4a851c99.webp 400w,
+/blog/project-pythia-cookoff/side-by-side_hu9cd3b350a3f864d97093bd955d197fa3_1447042_f00d1b26e9d5356ac678b757badb0a71.webp 760w,
+/blog/project-pythia-cookoff/side-by-side_hu9cd3b350a3f864d97093bd955d197fa3_1447042_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/project-pythia-cookoff/side-by-side_hu9cd3b350a3f864d97093bd955d197fa3_1447042_509dac579014377108a7eefe4a851c99.webp"
 width="760"
 height="438"
 loading="lazy" data-zoomable />&lt;/div>
@@ -1389,7 +1389,7 @@ Day 3
 &lt;a href="https://mystmd.org/guide/external-references#tbl-syntax-xref" target="_blank" rel="noopener" >simple markdown syntax for hover-references&lt;/a>.&lt;/li>
 &lt;/ul>
 &lt;video mute autoplay loop >
-&lt;source src="https://2i2c.org/blog/2024/project-pythia-cookoff/hover-ref.mp4" type="video/mp4">
+&lt;source src="https://2i2c.org/blog/project-pythia-cookoff/hover-ref.mp4" type="video/mp4">
 &lt;/video>
 &lt;h2 id="day-4">
 Day 4
@@ -1414,7 +1414,7 @@ Acknowledgements
 &lt;li>2i2c / Code for Science and Society (NSF award 2324304): Provided tailored compute services and on-site support&lt;/li>
 &lt;li>
 &lt;a href="https://curvenote.com" target="_blank" rel="noopener" >Curvenote&lt;/a>: Contributed engineering cycles to MyST MD development.&lt;/li>
-&lt;/ul></description></item><item><title>Low storage alerting for the UToronto cluster</title><link>https://2i2c.org/blog/2024/utoronto-storage-monitoring/</link><pubDate>Fri, 14 Jun 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/utoronto-storage-monitoring/</guid><description>&lt;p>
+&lt;/ul></description></item><item><title>Low storage alerting for the UToronto cluster</title><link>https://2i2c.org/blog/utoronto-storage-monitoring/</link><pubDate>Fri, 14 Jun 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/utoronto-storage-monitoring/</guid><description>&lt;p>
 &lt;figure id="figure-the-utoronto-hub-landing-page">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img src="./cover-featured.png" alt="The UToronto hub landing page" loading="lazy" data-zoomable />&lt;/div>
@@ -1430,24 +1430,24 @@ The UToronto hub landing page
 &lt;figure id="figure-utoronto-hub-usage">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="UToronto hub usage" srcset="
-/blog/2024/utoronto-storage-monitoring/usage_hu6ed2c2eb2e5ce90c08322c45dfdcb7ee_34488_b1f40ae663fa914ef485f5f6c4fa0916.webp 400w,
-/blog/2024/utoronto-storage-monitoring/usage_hu6ed2c2eb2e5ce90c08322c45dfdcb7ee_34488_7767ad069a24cee752376284042add84.webp 760w,
-/blog/2024/utoronto-storage-monitoring/usage_hu6ed2c2eb2e5ce90c08322c45dfdcb7ee_34488_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2024/utoronto-storage-monitoring/usage_hu6ed2c2eb2e5ce90c08322c45dfdcb7ee_34488_b1f40ae663fa914ef485f5f6c4fa0916.webp"
+/blog/utoronto-storage-monitoring/usage_hu6ed2c2eb2e5ce90c08322c45dfdcb7ee_34488_b1f40ae663fa914ef485f5f6c4fa0916.webp 400w,
+/blog/utoronto-storage-monitoring/usage_hu6ed2c2eb2e5ce90c08322c45dfdcb7ee_34488_7767ad069a24cee752376284042add84.webp 760w,
+/blog/utoronto-storage-monitoring/usage_hu6ed2c2eb2e5ce90c08322c45dfdcb7ee_34488_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/utoronto-storage-monitoring/usage_hu6ed2c2eb2e5ce90c08322c45dfdcb7ee_34488_b1f40ae663fa914ef485f5f6c4fa0916.webp"
 width="756"
 height="500"
 loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;figcaption>
 UToronto hub usage
 &lt;/figcaption>&lt;/figure>
-&lt;/p></description></item><item><title>Howard Hughes Medical Institute publishes preprint on Spyglass, a framework for reproducible and shareable neuroscience research</title><link>https://2i2c.org/blog/2024/hhmi-spyglass/</link><pubDate>Tue, 21 May 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/hhmi-spyglass/</guid><description>&lt;p>
+&lt;/p></description></item><item><title>Howard Hughes Medical Institute publishes preprint on Spyglass, a framework for reproducible and shareable neuroscience research</title><link>https://2i2c.org/blog/hhmi-spyglass/</link><pubDate>Tue, 21 May 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/hhmi-spyglass/</guid><description>&lt;p>
 &lt;figure id="figure-spyglasshttpsgithubcomlorenfranklabspyglass-landing-page">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Spyglass landing page" srcset="
-/blog/2024/hhmi-spyglass/featured_hu9bbdd91483aa7d8a05b53d4fefa551f9_403364_4662f31a035cb3116c48097b09e1331d.webp 400w,
-/blog/2024/hhmi-spyglass/featured_hu9bbdd91483aa7d8a05b53d4fefa551f9_403364_3c6468acdb2ef24c0c8f2dda2d6ae2c8.webp 760w,
-/blog/2024/hhmi-spyglass/featured_hu9bbdd91483aa7d8a05b53d4fefa551f9_403364_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2024/hhmi-spyglass/featured_hu9bbdd91483aa7d8a05b53d4fefa551f9_403364_4662f31a035cb3116c48097b09e1331d.webp"
+/blog/hhmi-spyglass/featured_hu9bbdd91483aa7d8a05b53d4fefa551f9_403364_4662f31a035cb3116c48097b09e1331d.webp 400w,
+/blog/hhmi-spyglass/featured_hu9bbdd91483aa7d8a05b53d4fefa551f9_403364_3c6468acdb2ef24c0c8f2dda2d6ae2c8.webp 760w,
+/blog/hhmi-spyglass/featured_hu9bbdd91483aa7d8a05b53d4fefa551f9_403364_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/hhmi-spyglass/featured_hu9bbdd91483aa7d8a05b53d4fefa551f9_403364_4662f31a035cb3116c48097b09e1331d.webp"
 width="760"
 height="423"
 loading="lazy" data-zoomable />&lt;/div>
@@ -1465,14 +1465,14 @@ Acknowledgements
 &lt;/h2>&lt;ul>
 &lt;li>Thanks to
 &lt;a href="https://2i2c.org/collaborators/hhmi/" >HHMI&lt;/a> for funding and collaborating on this work.&lt;/li>
-&lt;/ul></description></item><item><title>Researchers at LEAP-Pangeo investigate overlooked sub-grid air-sea heat flux in climate models</title><link>https://2i2c.org/blog/2024/leap-pangeo-paper/</link><pubDate>Tue, 21 May 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/leap-pangeo-paper/</guid><description>&lt;p>
+&lt;/ul></description></item><item><title>Researchers at LEAP-Pangeo investigate overlooked sub-grid air-sea heat flux in climate models</title><link>https://2i2c.org/blog/leap-pangeo-paper/</link><pubDate>Tue, 21 May 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/leap-pangeo-paper/</guid><description>&lt;p>
 &lt;figure id="figure-figure-from-the-preprinthttpsdoiorg1031223x5wq47-showing-large-and-small-scale-air-sea-fluxes-are-separated-by-julius-busecke-et-al-licensed-under-cc-by-40httpcreativecommonsorglicensesby40">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Figure from the preprint showing large and small scale air-sea fluxes are separated" srcset="
-/blog/2024/leap-pangeo-paper/cover-featured_hu6edb8577905cfaa5c2fc46afdd58c36d_413101_25f661e46a188a929e897b02fefa0cec.webp 400w,
-/blog/2024/leap-pangeo-paper/cover-featured_hu6edb8577905cfaa5c2fc46afdd58c36d_413101_9415a82d3fdc1acbd0d9fedb1275e252.webp 760w,
-/blog/2024/leap-pangeo-paper/cover-featured_hu6edb8577905cfaa5c2fc46afdd58c36d_413101_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2024/leap-pangeo-paper/cover-featured_hu6edb8577905cfaa5c2fc46afdd58c36d_413101_25f661e46a188a929e897b02fefa0cec.webp"
+/blog/leap-pangeo-paper/cover-featured_hu6edb8577905cfaa5c2fc46afdd58c36d_413101_25f661e46a188a929e897b02fefa0cec.webp 400w,
+/blog/leap-pangeo-paper/cover-featured_hu6edb8577905cfaa5c2fc46afdd58c36d_413101_9415a82d3fdc1acbd0d9fedb1275e252.webp 760w,
+/blog/leap-pangeo-paper/cover-featured_hu6edb8577905cfaa5c2fc46afdd58c36d_413101_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/leap-pangeo-paper/cover-featured_hu6edb8577905cfaa5c2fc46afdd58c36d_413101_25f661e46a188a929e897b02fefa0cec.webp"
 width="760"
 height="328"
 loading="lazy" data-zoomable />&lt;/div>
@@ -1503,14 +1503,14 @@ Acknowledgements
 &lt;a href="https://doi.org/10.31223/X5WQ47" target="_blank" rel="noopener" >doi.org/10.31223/X5WQ47&lt;/a>&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/div></description></item><item><title>A QGIS desktop in the cloud with JupyterHub</title><link>https://2i2c.org/blog/2023/qgis-greenland/</link><pubDate>Sat, 05 Aug 2023 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2023/qgis-greenland/</guid><description>&lt;p>
+&lt;/div></description></item><item><title>A QGIS desktop in the cloud with JupyterHub</title><link>https://2i2c.org/blog/qgis-greenland/</link><pubDate>Sat, 05 Aug 2023 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/qgis-greenland/</guid><description>&lt;p>
 &lt;figure id="figure-the-qgreenland-researcher-workshophttpsqgreenland-workshop-2023-researchergithubio">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="QGreenland Researcher Workshop" srcset="
-/blog/2023/qgis-greenland/featured_hu9562f6f382c010541578bd7b61c7cb4a_187505_ba903db7827843ac9c98f5a33564cef8.webp 400w,
-/blog/2023/qgis-greenland/featured_hu9562f6f382c010541578bd7b61c7cb4a_187505_9436f231da2c0221d6b03477aee6170c.webp 760w,
-/blog/2023/qgis-greenland/featured_hu9562f6f382c010541578bd7b61c7cb4a_187505_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2023/qgis-greenland/featured_hu9562f6f382c010541578bd7b61c7cb4a_187505_ba903db7827843ac9c98f5a33564cef8.webp"
+/blog/qgis-greenland/featured_hu9562f6f382c010541578bd7b61c7cb4a_187505_ba903db7827843ac9c98f5a33564cef8.webp 400w,
+/blog/qgis-greenland/featured_hu9562f6f382c010541578bd7b61c7cb4a_187505_9436f231da2c0221d6b03477aee6170c.webp 760w,
+/blog/qgis-greenland/featured_hu9562f6f382c010541578bd7b61c7cb4a_187505_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/qgis-greenland/featured_hu9562f6f382c010541578bd7b61c7cb4a_187505_ba903db7827843ac9c98f5a33564cef8.webp"
 width="760"
 height="498"
 loading="lazy" data-zoomable />&lt;/div>
@@ -1557,14 +1557,14 @@ Acknowledgements
 &lt;a href="https://book.cryointhecloud.com" target="_blank" rel="noopener" >CryoCloud JupyterBook&lt;/a> (2023.01.26). Zenodo.
 &lt;a href="https://doi.org/10.5281/zenodo.7576602" target="_blank" rel="noopener" >10.5281/zenodo.7576602&lt;/a>&lt;/li>
 &lt;/ul>
-&lt;p>* Denotes co-equal lead authorship&lt;/p></description></item><item><title>2i2c partners with UC Berkeley and CloudBank to provide data science education hubs for community colleges in California</title><link>https://2i2c.org/blog/2021/data8-class/</link><pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2021/data8-class/</guid><description>&lt;p>
+&lt;p>* Denotes co-equal lead authorship&lt;/p></description></item><item><title>2i2c partners with UC Berkeley and CloudBank to provide data science education hubs for community colleges in California</title><link>https://2i2c.org/blog/data8-class/</link><pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/data8-class/</guid><description>&lt;p>
 &lt;figure id="figure-data8httpsgithubcomdata-8-mit-licensed">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Data8 logo" srcset="
-/blog/2021/data8-class/cover-featured_huc6bf006b003e9c744576be05eabc8a75_44823_04d7b3cbc986a925ba5eac5df0a83ec3.webp 400w,
-/blog/2021/data8-class/cover-featured_huc6bf006b003e9c744576be05eabc8a75_44823_0fb7904aec63401bf0640b6074214300.webp 760w,
-/blog/2021/data8-class/cover-featured_huc6bf006b003e9c744576be05eabc8a75_44823_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2021/data8-class/cover-featured_huc6bf006b003e9c744576be05eabc8a75_44823_04d7b3cbc986a925ba5eac5df0a83ec3.webp"
+/blog/data8-class/cover-featured_huc6bf006b003e9c744576be05eabc8a75_44823_04d7b3cbc986a925ba5eac5df0a83ec3.webp 400w,
+/blog/data8-class/cover-featured_huc6bf006b003e9c744576be05eabc8a75_44823_0fb7904aec63401bf0640b6074214300.webp 760w,
+/blog/data8-class/cover-featured_huc6bf006b003e9c744576be05eabc8a75_44823_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/data8-class/cover-featured_huc6bf006b003e9c744576be05eabc8a75_44823_04d7b3cbc986a925ba5eac5df0a83ec3.webp"
 width="280"
 height="280"
 loading="lazy" data-zoomable />&lt;/div>

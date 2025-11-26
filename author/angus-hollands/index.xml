@@ -1,6 +1,6 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Angus Hollands | 2i2c</title><link>https://2i2c.org/author/angus-hollands/</link><atom:link href="https://2i2c.org/author/angus-hollands/index.xml" rel="self" type="application/rss+xml"/><description>Angus Hollands</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 23 May 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/author/angus-hollands/avatar_hu20f69ef59c88298f5eb2ca612e2f5d16_48021_270x270_fill_q75_lanczos_center.jpg</url><title>Angus Hollands</title><link>https://2i2c.org/author/angus-hollands/</link></image><item><title>Angus Hollands</title><link>https://2i2c.org/author/angus-hollands/</link><pubDate>Fri, 23 May 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/author/angus-hollands/</guid><description>&lt;p>Angus Hollands is an Open Source Applications Engineer at 2i2c. He was previously a post-doctoral researcher in the Computational High Energy Physics group at Princeton University. He has a long-standing history of working collaboratively in open source projects, such as Executable Books, Jupyter, scikit-hep, and Blender. He is motivated by open-source, open-science, and the FAIR principles to build a more accessible, empowering future for scientific research and publication. He obtained his PhD in nuclear structure from the University of Birmingham, and later worked as a postdoctoral researcher for the Princeton Institute for Computational Science and Engineering (PICSciE).&lt;/p></description></item><item><title>Jupyter Book at the Scientific Python 2025 Developer Summit</title><link>https://2i2c.org/blog/2025/scientific-python-summit/</link><pubDate>Fri, 23 May 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/scientific-python-summit/</guid><description>&lt;p>Chris and Angus recently attended the Scientific Python 2025 Developer Summit on behalf of
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Angus Hollands | 2i2c</title><link>https://2i2c.org/author/angus-hollands/</link><atom:link href="https://2i2c.org/author/angus-hollands/index.xml" rel="self" type="application/rss+xml"/><description>Angus Hollands</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 23 May 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/author/angus-hollands/avatar_hu20f69ef59c88298f5eb2ca612e2f5d16_48021_270x270_fill_q75_lanczos_center.jpg</url><title>Angus Hollands</title><link>https://2i2c.org/author/angus-hollands/</link></image><item><title>Angus Hollands</title><link>https://2i2c.org/author/angus-hollands/</link><pubDate>Fri, 23 May 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/author/angus-hollands/</guid><description>&lt;p>Angus Hollands is an Open Source Applications Engineer at 2i2c. He was previously a post-doctoral researcher in the Computational High Energy Physics group at Princeton University. He has a long-standing history of working collaboratively in open source projects, such as Executable Books, Jupyter, scikit-hep, and Blender. He is motivated by open-source, open-science, and the FAIR principles to build a more accessible, empowering future for scientific research and publication. He obtained his PhD in nuclear structure from the University of Birmingham, and later worked as a postdoctoral researcher for the Princeton Institute for Computational Science and Engineering (PICSciE).&lt;/p></description></item><item><title>Jupyter Book at the Scientific Python 2025 Developer Summit</title><link>https://2i2c.org/blog/scientific-python-summit/</link><pubDate>Fri, 23 May 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/scientific-python-summit/</guid><description>&lt;p>Chris and Angus recently attended the Scientific Python 2025 Developer Summit on behalf of
 &lt;a href="https://2i2c.org/collaborators/jupyter-book/" >Jupyter Book&lt;/a>, here&amp;rsquo;s
-&lt;a href="https://blog.jupyterbook.org/posts/2025-05-23-scientific-python-dev-summit" target="_blank" rel="noopener" >a brief blog post about their experience&lt;/a> written with the Jupyter Book team.&lt;/p></description></item><item><title>Launching Jupyter Book for 2i2c Communities</title><link>https://2i2c.org/blog/2025/jb-for-communities/</link><pubDate>Thu, 08 May 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/jb-for-communities/</guid><description>&lt;p>We&amp;rsquo;re excited to announce out-of-the-box support for
+&lt;a href="https://blog.jupyterbook.org/posts/2025-05-23-scientific-python-dev-summit" target="_blank" rel="noopener" >a brief blog post about their experience&lt;/a> written with the Jupyter Book team.&lt;/p></description></item><item><title>Launching Jupyter Book for 2i2c Communities</title><link>https://2i2c.org/blog/jb-for-communities/</link><pubDate>Thu, 08 May 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/jb-for-communities/</guid><description>&lt;p>We&amp;rsquo;re excited to announce out-of-the-box support for
 &lt;a href="https://next.jupyterbook.org" target="_blank" rel="noopener" >Jupyter Book 2&lt;/a> for our community members. This allows communities to create and share knowledge bases together for their community workflows. This post describes the motivation behind this new functionality, and how you can learn more about the project.&lt;/p>
 &lt;blockquote>
 &lt;p>⭐ &lt;strong>Members of 2i2c&amp;rsquo;s community network&lt;/strong> can use this feature in their hubs by following
@@ -8,10 +8,10 @@
 &lt;/blockquote>
 &lt;p>A core component of our mission to make research and education more &lt;em>impactful&lt;/em>, &lt;em>accessible&lt;/em>, and &lt;em>delightful&lt;/em> is leveraging our unique
 &lt;a href="https://2i2c.org/communities/" target="_blank" rel="noopener" >global network of communities&lt;/a> to make meaningful improvements to the open-source tools that power their work. Learning from one community can then provide value to our entire network, e.g.,
-&lt;a href="https://2i2c.org/blog/2024/pace-hackweek/" >our work with PACE on speeding up their CNN model training&lt;/a>.&lt;/p>
+&lt;a href="https://2i2c.org/blog/pace-hackweek/" >our work with PACE on speeding up their CNN model training&lt;/a>.&lt;/p>
 &lt;p>Central to our communities&amp;rsquo; work is the importance of sharing new findings, best practices, and community resources. Across our network, we have seen communities creating their own &amp;ldquo;books&amp;rdquo; that provide a home for this kind of content. Many of these books feature the concept of a &amp;ldquo;landing page&amp;rdquo; that welcomes new members, establishes an identity, and provides jumping-off points (or &amp;ldquo;calls to action&amp;rdquo;) to more detailed resources.&lt;/p>
 &lt;p>Until now, each community has been required to undertake this work independently. 2i2c believes that by
-&lt;a href="https://2i2c.org/blog/2025/community-ownership/" >building upon existing open-source tools&lt;/a> like
+&lt;a href="https://2i2c.org/blog/community-ownership/" >building upon existing open-source tools&lt;/a> like
 &lt;a href="https://next.jupyterbook.org" target="_blank" rel="noopener" >Jupyter Book 2&lt;/a>, we can help communities focus on the &lt;em>content&lt;/em> of their home, rather than spending time worrying about its &lt;em>appearance&lt;/em>. To that end, we have been working on
 &lt;a href="https://github.com/2i2c-org/infrastructure/issues/5045" target="_blank" rel="noopener" >an initiative&lt;/a> to allow communities to rapidly build interactive starter documentation and provide users with a rich, interactive, and informative onboarding experience. Through this initiative, we have:&lt;/p>
 &lt;ul>
@@ -35,7 +35,7 @@
 &lt;p>To learn more about this work, consider exploring a minimal example on
 &lt;a href="https://docs.showcase.2i2c.cloud/" target="_blank" rel="noopener" >our Showcase Hub&lt;/a>, and check out
 &lt;a href="https://docs.2i2c.org/user/sharing/documentation" target="_blank" rel="noopener" >our service guide&lt;/a>.
-&lt;a href="https://docs.google.com/forms/d/e/1FAIpQLSff-u-sWFuwO1-VTgk2Ir7f1nfUUlLevQk_Vkk_jnmcI1nJnw/viewform" target="_blank" rel="noopener" >Let us know&lt;/a> what you think!&lt;/p></description></item><item><title>Designing for an ecosystem: a case study in cross-project open source contribution</title><link>https://2i2c.org/blog/2025/jupyter-book-cors/</link><pubDate>Tue, 21 Jan 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/jupyter-book-cors/</guid><description>&lt;p>A key challenge in the open source space is that projects are often independent and autonomous, with relatively few formal ways to collaborate and coordinate efforts. While this usually isn&amp;rsquo;t a big deal, it means that there is a missed opportunity to grow the impact of an ecosystem because it requires coordinated development among multiple stakeholders within it.&lt;/p>
+&lt;a href="https://docs.google.com/forms/d/e/1FAIpQLSff-u-sWFuwO1-VTgk2Ir7f1nfUUlLevQk_Vkk_jnmcI1nJnw/viewform" target="_blank" rel="noopener" >Let us know&lt;/a> what you think!&lt;/p></description></item><item><title>Designing for an ecosystem: a case study in cross-project open source contribution</title><link>https://2i2c.org/blog/jupyter-book-cors/</link><pubDate>Tue, 21 Jan 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/jupyter-book-cors/</guid><description>&lt;p>A key challenge in the open source space is that projects are often independent and autonomous, with relatively few formal ways to collaborate and coordinate efforts. While this usually isn&amp;rsquo;t a big deal, it means that there is a missed opportunity to grow the impact of an ecosystem because it requires coordinated development among multiple stakeholders within it.&lt;/p>
 &lt;p>This is one of the reasons we created 2i2c&amp;rsquo;s open community hub platform. By deploying a single platform that utilizes entirely open infrastructure that we contribute back to, we have visibility over a variety of projects along with the need to combine them together for a specific end-user outcome. One-such development scenario recently came up involving
 &lt;a href="https://next.jupyterbook.org/" target="_blank" rel="noopener" >Jupyter Book 2&lt;/a> and
 &lt;a href="https://jupyterhub.org/" target="_blank" rel="noopener" >JupyterHub&lt;/a>.&lt;/p>
@@ -93,7 +93,7 @@ Acknowledgements
 &lt;p>This actually required an interesting bit of team discussion that was much easier with a few 2i2c staff on the JupyterHub team. The original request from Angus was interpreted as opening up the &lt;em>entire hub API&lt;/em> to external requests (which is a bad idea!) but we were able to quickly discuss this with the JupyterHub team to clarify that this was only about a very specific API endpoint. This is the kind of communication loop that often goes haywire when you have people contributing to a project without historical relationships to the project&amp;rsquo;s maintainers.&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/div></description></item><item><title>MyST Mini-Hackathon with the DeepLabCut Team</title><link>https://2i2c.org/blog/2024/deeplabcut-myst-hackathon/</link><pubDate>Mon, 02 Sep 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/deeplabcut-myst-hackathon/</guid><description>
+&lt;/div></description></item><item><title>MyST Mini-Hackathon with the DeepLabCut Team</title><link>https://2i2c.org/blog/deeplabcut-myst-hackathon/</link><pubDate>Mon, 02 Sep 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/deeplabcut-myst-hackathon/</guid><description>
 &lt;h2 id="the-deeplabcut-team">
 The DeepLabCut Team
 &lt;a class="header-anchor" href="#the-deeplabcut-team">#&lt;/a>
@@ -158,7 +158,7 @@ Acknowledgments
 &lt;a href="http://www.mackenziemathislab.org/" target="_blank" rel="noopener" >Mackenzie Mathis Lab&lt;/a> for hosting Chris Holdgraf at EPFL, Lausanne, Switzerland.&lt;/li>
 &lt;li>Thanks to the
 &lt;a href="https://2i2c.org/collaborators/jupyter-book/" >Jupyter Book team&lt;/a> for collaborating on this with us.&lt;/li>
-&lt;/ul></description></item><item><title>Hacking the Project Pythia Cook-off with MyST Markdown</title><link>https://2i2c.org/blog/2024/project-pythia-cookoff/</link><pubDate>Tue, 18 Jun 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/project-pythia-cookoff/</guid><description>&lt;p>
+&lt;/ul></description></item><item><title>Hacking the Project Pythia Cook-off with MyST Markdown</title><link>https://2i2c.org/blog/project-pythia-cookoff/</link><pubDate>Tue, 18 Jun 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/project-pythia-cookoff/</guid><description>&lt;p>
 &lt;figure id="figure-photo-courtesy-of-dr-debanjana-das">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img src="./cover-featured.png" alt="Group selfie of Project Pythia Cook-off participants." loading="lazy" data-zoomable />&lt;/div>
@@ -190,10 +190,10 @@ Day 1
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Screenshot of Project Pythia BinderHub service" srcset="
-/blog/2024/project-pythia-cookoff/binder_huace4be54dd679dccbefe8a204243ae9f_316548_df8a60e24fed7ae98d7c9debdacd84cb.webp 400w,
-/blog/2024/project-pythia-cookoff/binder_huace4be54dd679dccbefe8a204243ae9f_316548_d4c17b4ebb63b573d14775841212814c.webp 760w,
-/blog/2024/project-pythia-cookoff/binder_huace4be54dd679dccbefe8a204243ae9f_316548_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2024/project-pythia-cookoff/binder_huace4be54dd679dccbefe8a204243ae9f_316548_df8a60e24fed7ae98d7c9debdacd84cb.webp"
+/blog/project-pythia-cookoff/binder_huace4be54dd679dccbefe8a204243ae9f_316548_df8a60e24fed7ae98d7c9debdacd84cb.webp 400w,
+/blog/project-pythia-cookoff/binder_huace4be54dd679dccbefe8a204243ae9f_316548_d4c17b4ebb63b573d14775841212814c.webp 760w,
+/blog/project-pythia-cookoff/binder_huace4be54dd679dccbefe8a204243ae9f_316548_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/project-pythia-cookoff/binder_huace4be54dd679dccbefe8a204243ae9f_316548_df8a60e24fed7ae98d7c9debdacd84cb.webp"
 width="760"
 height="498"
 loading="lazy" data-zoomable />&lt;/div>
@@ -211,7 +211,7 @@ Day 2
 &lt;li>&lt;input disabled="" type="checkbox"> Cookbooks frequently cross-referenced materials from other cookbooks to build upon pre-existing knowledge, but this was not easy to author and the reader experience was not as smooth as it could be.&lt;/li>
 &lt;/ul>
 &lt;p>Following the announcement that
-&lt;a href="https://2i2c.org/blog/2024/project-pythia-cookoff/../myst-jupyter-book/index" >Jupyter Book 2.0 will use MyST&lt;/a> last month, Rowan (Curvenote) and Angus (2i2c) delivered a compelling demonstration of the
+&lt;a href="https://2i2c.org/blog/project-pythia-cookoff/../myst-jupyter-book/index" >Jupyter Book 2.0 will use MyST&lt;/a> last month, Rowan (Curvenote) and Angus (2i2c) delivered a compelling demonstration of the
 &lt;a href="https://mystmd.org/" target="_blank" rel="noopener" >MyST&lt;/a> ecosystem centered around modern web-first technologies (JavaScript/TypeScript) that offers improved interactivity and accessibility.&lt;/p>
 &lt;p>In the second half of the day, we decided to use the hackathon to explore migrating the Pythia cookbooks from using a Sphinx-based to a MyST-based document structure and engine. Within one afternoon, the group migrated four cookbooks to use MyST MD&lt;/p>
 &lt;ol>
@@ -228,10 +228,10 @@ Day 2
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Screenshot of a side by side comparison of the Sphinx (left) and MyST (right) based cookbook." srcset="
-/blog/2024/project-pythia-cookoff/side-by-side_hu9cd3b350a3f864d97093bd955d197fa3_1447042_509dac579014377108a7eefe4a851c99.webp 400w,
-/blog/2024/project-pythia-cookoff/side-by-side_hu9cd3b350a3f864d97093bd955d197fa3_1447042_f00d1b26e9d5356ac678b757badb0a71.webp 760w,
-/blog/2024/project-pythia-cookoff/side-by-side_hu9cd3b350a3f864d97093bd955d197fa3_1447042_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/blog/2024/project-pythia-cookoff/side-by-side_hu9cd3b350a3f864d97093bd955d197fa3_1447042_509dac579014377108a7eefe4a851c99.webp"
+/blog/project-pythia-cookoff/side-by-side_hu9cd3b350a3f864d97093bd955d197fa3_1447042_509dac579014377108a7eefe4a851c99.webp 400w,
+/blog/project-pythia-cookoff/side-by-side_hu9cd3b350a3f864d97093bd955d197fa3_1447042_f00d1b26e9d5356ac678b757badb0a71.webp 760w,
+/blog/project-pythia-cookoff/side-by-side_hu9cd3b350a3f864d97093bd955d197fa3_1447042_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/project-pythia-cookoff/side-by-side_hu9cd3b350a3f864d97093bd955d197fa3_1447042_509dac579014377108a7eefe4a851c99.webp"
 width="760"
 height="438"
 loading="lazy" data-zoomable />&lt;/div>
@@ -257,7 +257,7 @@ Day 3
 &lt;a href="https://mystmd.org/guide/external-references#tbl-syntax-xref" target="_blank" rel="noopener" >simple markdown syntax for hover-references&lt;/a>.&lt;/li>
 &lt;/ul>
 &lt;video mute autoplay loop >
-&lt;source src="https://2i2c.org/blog/2024/project-pythia-cookoff/hover-ref.mp4" type="video/mp4">
+&lt;source src="https://2i2c.org/blog/project-pythia-cookoff/hover-ref.mp4" type="video/mp4">
 &lt;/video>
 &lt;h2 id="day-4">
 Day 4
@@ -282,7 +282,7 @@ Acknowledgements
 &lt;li>2i2c / Code for Science and Society (NSF award 2324304): Provided tailored compute services and on-site support&lt;/li>
 &lt;li>
 &lt;a href="https://curvenote.com" target="_blank" rel="noopener" >Curvenote&lt;/a>: Contributed engineering cycles to MyST MD development.&lt;/li>
-&lt;/ul></description></item><item><title>Jupyter Book 2.0 will use MyST</title><link>https://2i2c.org/blog/2024/myst-jupyter-book/</link><pubDate>Tue, 21 May 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2024/myst-jupyter-book/</guid><description>&lt;p>See
+&lt;/ul></description></item><item><title>Jupyter Book 2.0 will use MyST</title><link>https://2i2c.org/blog/myst-jupyter-book/</link><pubDate>Tue, 21 May 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/myst-jupyter-book/</guid><description>&lt;p>See
 &lt;a href="https://executablebooks.org/en/latest/blog/2024-05-20-jupyter-book-myst/" target="_blank" rel="noopener" >the Executable Books blog&lt;/a> for a post on the future directions of the Jupyter Book project, which will be built on top of the
 &lt;a href="https://mystmd.org" target="_blank" rel="noopener" >MyST Markdown engine&lt;/a>.&lt;/p>
 &lt;h2 id="acknowledgements">

@@ -8,8 +8,8 @@
 &lt;li>Led the open science product Executable Research Article&lt;/li>
 &lt;li>Led Qualcomm to $65M platform sale&lt;/li>
 &lt;li>Contributed significantly to mobile design and innovation at Adobe.&lt;/li>
-&lt;/ul></description></item><item><title>Our Product and Service goals for Q3 2025</title><link>https://2i2c.org/blog/2025/q3-goals/</link><pubDate>Tue, 22 Jul 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/q3-goals/</guid><description>&lt;p>As we enter Q3 2025, our focus remains on enabling better cost controls for our communities and increasing flexibility for end-users. In line with our commitment to transparency, we’re sharing our platform and service objectives for the quarter and inviting feedback to ensure our direction reflects what matters most to the communities we serve. See our
-&lt;a href="https://2i2c.org/blog/2025/q2-product-goals/" >product goals from the previous quarter here&lt;/a>.&lt;/p>
+&lt;/ul></description></item><item><title>Our Product and Service goals for Q3 2025</title><link>https://2i2c.org/blog/q3-goals/</link><pubDate>Tue, 22 Jul 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/q3-goals/</guid><description>&lt;p>As we enter Q3 2025, our focus remains on enabling better cost controls for our communities and increasing flexibility for end-users. In line with our commitment to transparency, we’re sharing our platform and service objectives for the quarter and inviting feedback to ensure our direction reflects what matters most to the communities we serve. See our
+&lt;a href="https://2i2c.org/blog/q2-product-goals/" >product goals from the previous quarter here&lt;/a>.&lt;/p>
 &lt;p>The themes below offer a high-level snapshot of where we aim to evolve our offerings in the coming months.&lt;/p>
 &lt;blockquote>
 &lt;p>⭐ Connect with us&lt;/p>
@@ -28,7 +28,7 @@ Demonstrable reliability of our infrastructure
 User-level costs monitoring and group-level usage monitoring
 &lt;a class="header-anchor" href="#user-level-costs-monitoring-and-group-level-usage-monitoring">#&lt;/a>
 &lt;/h2>&lt;p>We&amp;rsquo;ll build on our recent
-&lt;a href="https://2i2c.org/blog/2024/aws-cost-attribution/" target="_blank" rel="noopener" >Grafana dashboard usage monitoring&lt;/a> to add &lt;strong>usage monitoring for user groups&lt;/strong> and begin work on &lt;strong>user-level costs monitoring&lt;/strong>. These are steps toward group-level cost tracking, which will enable better management of team and departmental expenses, especially in large institutions.&lt;/p>
+&lt;a href="https://2i2c.org/blog/aws-cost-attribution/" >Grafana dashboard usage monitoring&lt;/a> to add &lt;strong>usage monitoring for user groups&lt;/strong> and begin work on &lt;strong>user-level costs monitoring&lt;/strong>. These are steps toward group-level cost tracking, which will enable better management of team and departmental expenses, especially in large institutions.&lt;/p>
 &lt;h2 id="improving-our-incident-response-capability">
 Improving our Incident Response capability
 &lt;a class="header-anchor" href="#improving-our-incident-response-capability">#&lt;/a>
@@ -59,31 +59,31 @@ Acknowledgements
 &lt;li>Our strategic and organization-level work is supported by a grant from
 &lt;a href="https://2i2c.org/collaborators/navigation/" >The Navigation Fund&lt;/a> and fees from
 &lt;a href="https://2i2c.org/members/" >our member organizations&lt;/a>.&lt;/li>
-&lt;/ul></description></item><item><title>Product and team highlights from Q2 2025</title><link>https://2i2c.org/blog/2025/q2-highlights/</link><pubDate>Mon, 21 Jul 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/q2-highlights/</guid><description>&lt;p>This post highlights what stood out to us from last quarter and reflects on the
-&lt;a href="https://2i2c.org/blog/2025/q2-product-goals/" target="_blank" rel="noopener" >targets we set at the start of the quarter&lt;/a>.&lt;/p>
+&lt;/ul></description></item><item><title>Product and team highlights from Q2 2025</title><link>https://2i2c.org/blog/q2-highlights/</link><pubDate>Mon, 21 Jul 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/q2-highlights/</guid><description>&lt;p>This post highlights what stood out to us from last quarter and reflects on the
+&lt;a href="https://2i2c.org/blog/q2-product-goals/" >targets we set at the start of the quarter&lt;/a>.&lt;/p>
 &lt;p>This quarter, our team learned the importance of shipping iteratively and inviting feedback frequently. In some cases, we learned this the hard way - having spent multiple cycles developing without feedback from community representatives. In other cases, we made rapid progress by working in collaboration with community members in our network. next quarter, we are leaning into this approach as we work towards &lt;strong>building a more standardized and sustainable service&lt;/strong> for our community network.&lt;/p>
 &lt;p>We&amp;rsquo;ve experienced some disruption and more uncertainty due to the current scientific funding climate, and we&amp;rsquo;re working hard to iterate on this model with feedback from our communities to find a path towards sustainability. We&amp;rsquo;re confident that we&amp;rsquo;ll get there, and improving the value our network of community hubs is a key way to do so.&lt;/p>
 &lt;p>With that in mind, here&amp;rsquo;s what stood out from the quarter:&lt;/p>
 &lt;blockquote>
 &lt;p>⭐ Find
-&lt;a href="https://2i2c.org/blog/2025/jupytercon-2025-submissions/" >our JupyterCon 2025 submissions here&lt;/a> to see some other things we&amp;rsquo;re excited about sharing.&lt;/p>
+&lt;a href="https://2i2c.org/blog/jupytercon-2025-submissions/" >our JupyterCon 2025 submissions here&lt;/a> to see some other things we&amp;rsquo;re excited about sharing.&lt;/p>
 &lt;/blockquote>
 &lt;h2 id="group-level-resource-monitoring">
 Group-level resource monitoring
 &lt;a class="header-anchor" href="#group-level-resource-monitoring">#&lt;/a>
 &lt;/h2>&lt;p>Building on our previous work delivering
-&lt;a href="https://2i2c.org/blog/2024/aws-cost-attribution/" target="_blank" rel="noopener" >usage monitoring using Prometheus and Grafana&lt;/a>, we&amp;rsquo;ve released
-&lt;a href="https://2i2c.org/blog/2025/jupyterhub-groups-exporter/" target="_blank" rel="noopener" >jupyterhub-groups-exporter&lt;/a>, allowing hub administrators to leverage the latest group management features in JupyterHub to monitor group-level resource usage effectively, making it easier to identify usage patterns across teams and departments.&lt;/p>
+&lt;a href="https://2i2c.org/blog/aws-cost-attribution/" >usage monitoring using Prometheus and Grafana&lt;/a>, we&amp;rsquo;ve released
+&lt;a href="https://2i2c.org/blog/jupyterhub-groups-exporter/" >jupyterhub-groups-exporter&lt;/a>, allowing hub administrators to leverage the latest group management features in JupyterHub to monitor group-level resource usage effectively, making it easier to identify usage patterns across teams and departments.&lt;/p>
 &lt;blockquote>
 &lt;p>⭐ Members of 2i2c&amp;rsquo;s community network can learn how to use this in
 &lt;a href="https://docs.2i2c.org/admin/monitoring/grafana-dashboards#getting-a-grafana-account" target="_blank" rel="noopener" >our user guide to usage monitoring&lt;/a>. See this
-&lt;a href="https://2i2c.org/blog/2025/jupyterhub-groups-exporter/" target="_blank" rel="noopener" >blog post announcing &lt;code>jupyterhub-groups-exporter&lt;/code>&lt;/a>.&lt;/p>
+&lt;a href="https://2i2c.org/blog/jupyterhub-groups-exporter/" >blog post announcing &lt;code>jupyterhub-groups-exporter&lt;/code>&lt;/a>.&lt;/p>
 &lt;/blockquote>
 &lt;h2 id="improve-creating-and-sharing-custom-environments">
 Improve creating and sharing custom environments
 &lt;a class="header-anchor" href="#improve-creating-and-sharing-custom-environments">#&lt;/a>
 &lt;/h2>&lt;p>Last year we introduced
-&lt;a href="https://2i2c.org/blog/2024/jupyterhub-fancy-profiles-rollout/" target="_blank" rel="noopener" >customizable servers via profile lists&lt;/a>. We&amp;rsquo;re building on that - servers can now be configured to
+&lt;a href="https://2i2c.org/blog/jupyterhub-fancy-profiles-rollout/" >customizable servers via profile lists&lt;/a>. We&amp;rsquo;re building on that - servers can now be configured to
 &lt;a href="https://docs.2i2c.org/user/environment/dynamic-imagebuilding" target="_blank" rel="noopener" >allow users to dynamically specify, build, and share their own custom environment images&lt;/a> without the need for a hub administrator. This will allow community champions with diverse user bases to give their users greater flexibility to support a wide variety of custom computational workflows, accelerating knowledge discovery and sharing. Look out for a blog post on this development in the coming weeks and months.&lt;/p>
 &lt;blockquote>
 &lt;p>⭐ Members of 2i2c&amp;rsquo;s community network can learn how to use this in our &lt;strong>
@@ -97,7 +97,7 @@ Co-located narrative content with out-of-the-box Jupyter Book support
 &lt;blockquote>
 &lt;p>⭐ Members of 2i2c&amp;rsquo;s community network can learn how to use this in
 &lt;a href="https://docs.2i2c.org/admin/monitoring/cost-users" target="_blank" rel="noopener" >our user guide to documentation and sharing&lt;/a>. See
-&lt;a href="https://2i2c.org/blog/2025/jb-for-communities/" target="_blank" rel="noopener" >this blog post for an announcement&lt;/a>.&lt;/p>
+&lt;a href="https://2i2c.org/blog/jb-for-communities/" >this blog post for an announcement&lt;/a>.&lt;/p>
 &lt;/blockquote>
 &lt;h2 id="a-better-onboarding-experience-for-our-communities">
 A better onboarding experience for our communities
@@ -125,15 +125,15 @@ Acknowledgements
 &lt;/h2>&lt;ul>
 &lt;li>Thanks to
 &lt;a href="https://2i2c.org/collaborators/navigation/" >The Navigation Fund&lt;/a> for core support to 2i2c which funds this strategic and organizational work.&lt;/li>
-&lt;/ul></description></item><item><title>Our Product and Service goals for Q2 2025</title><link>https://2i2c.org/blog/2025/q2-product-goals/</link><pubDate>Wed, 16 Apr 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/2025/q2-product-goals/</guid><description>&lt;p>&lt;em>As we head into Q2 of 2025, we continue to focus our work delivering on a small set of core themes that reflect our communities’ most pressing needs. As a part of this process, we want to continue sharing our platform and service goals in an effort to remain transparent, as well as to provide our communities with an opportunity to give us feedback on our direction, and on what’s important for them. See
-&lt;a href="https://2i2c.org/blog/2025/q1-product-goals/" >last quarter’s product goals here&lt;/a>.&lt;/em>&lt;/p>
+&lt;/ul></description></item><item><title>Our Product and Service goals for Q2 2025</title><link>https://2i2c.org/blog/q2-product-goals/</link><pubDate>Wed, 16 Apr 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/q2-product-goals/</guid><description>&lt;p>&lt;em>As we head into Q2 of 2025, we continue to focus our work delivering on a small set of core themes that reflect our communities’ most pressing needs. As a part of this process, we want to continue sharing our platform and service goals in an effort to remain transparent, as well as to provide our communities with an opportunity to give us feedback on our direction, and on what’s important for them. See
+&lt;a href="https://2i2c.org/blog/q1-product-goals/" >last quarter’s product goals here&lt;/a>.&lt;/em>&lt;/p>
 &lt;p>The following themes are not guarantees, but should provide a high level view on how we plan to improve our product and services offerings in the next quarter. &lt;strong>If your organization has funding available to support any of the enhancements below,
 &lt;a href="https://forms.fillout.com/t/uQHVMkgvsuus" target="_blank" rel="noopener" >reach out to us&lt;/a> and we can discuss how you can shape our priorities and outcomes&lt;/strong>.&lt;/p>
 &lt;h2 id="give-administrators-more-control">
 Give administrators more control
 &lt;a class="header-anchor" href="#give-administrators-more-control">#&lt;/a>
 &lt;/h2>&lt;p>The implementation of
-&lt;a href="https://2i2c.org/blog/2025/per-user-storage-quota-gcp/" target="_blank" rel="noopener" >per-user storage quotas&lt;/a> in Q1 was the start of a set of product initiatives aimed at giving hub administrators more control and peace of mind over unexpected cost overruns.&lt;/p>
+&lt;a href="https://2i2c.org/blog/per-user-storage-quota-gcp/" >per-user storage quotas&lt;/a> in Q1 was the start of a set of product initiatives aimed at giving hub administrators more control and peace of mind over unexpected cost overruns.&lt;/p>
 &lt;p>We aim to continue giving administrators more control by implementing the ability to &lt;strong>associate users with groups for usage monitoring&lt;/strong>, and as a foundation for future improvements which will deliver &lt;strong>group-level management of storage quotas,&lt;/strong> and later Compute and Dask quotas.&lt;/p>
 &lt;h2 id="improve-creating-and-sharing-custom-environments">
 Improve creating and sharing custom environments
