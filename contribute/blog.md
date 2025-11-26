@@ -168,3 +168,10 @@ An example pull quote
 {{% pull-quote cite="Author name"%}}
 Here's a pull quote.
 {{% /pull-quote %}}
+
+### Feedback
+
+A callout for feedback via a Google Form pre-filled with the blog URL
+
+{{< feedback >}}
+
