@@ -14,3 +14,6 @@ repos:
     language: system
     files: ^content/blog/.*/index\.md$
     pass_filenames: false
+
+ci:
+  skip: [oxipng]
