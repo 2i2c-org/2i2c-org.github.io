@@ -32,4 +32,4 @@ Available for dedicated AWS clusters only (and excluding CloudBank managed accou
 
 - [Tarashish](https://github.com/sunu) @ [Development Seed](../../collaborators/devseed/) for collaborating on this project with us.
 - [NASA VEDA](../../collaborators/nasa-veda/) and the DSE Team at NASA MSFC ODSI for funding much of this work.
-- [Kyle Lesinger](https://github.com/kyle-lesinger) from the Disasters community for providing valuable feedback and bug reports during development.
+- [Kyle Lesinger](https://github.com/kyle-lesinger) from the NASA MSFC Office of Data Science and Informatics for providing valuable feedback and bug reports during development.
