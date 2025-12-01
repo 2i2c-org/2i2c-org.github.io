@@ -46,7 +46,7 @@ Acknowledgements
 &lt;li>
 &lt;a href="https://2i2c.org/collaborators/nasa-veda/" >NASA VEDA&lt;/a> and the DSE Team at NASA MSFC ODSI for funding much of this work.&lt;/li>
 &lt;li>
-&lt;a href="https://github.com/kyle-lesinger" target="_blank" rel="noopener" >Kyle Lesinger&lt;/a> from the Disasters community for providing valuable feedback and bug reports during development.&lt;/li>
+&lt;a href="https://github.com/kyle-lesinger" target="_blank" rel="noopener" >Kyle Lesinger&lt;/a> from the NASA MSFC Office of Data Science and Informatics for providing valuable feedback and bug reports during development.&lt;/li>
 &lt;/ul></description></item><item><title>Yuvi on scaling maintainer intuition to facilitate PR review with PR triage boards</title><link>https://2i2c.org/blog/pr-triage-boards/</link><pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/pr-triage-boards/</guid><description>&lt;p>Yuvi has a recent post on the
 &lt;a href="https://jupyter.org" target="_blank" rel="noopener" >Jupyter blog&lt;/a> on how his &amp;ldquo;maintainer intuition&amp;rdquo; about reviewable pull requests grew into the open-source
 &lt;a href="https://github.com/jupyter/pr-triage-board-bot" target="_blank" rel="noopener" >&lt;code>pr-triage-board-bot&lt;/code>&lt;/a>, a reusable workflow that keeps GitHub Project boards curated for the JupyterHub, JupyterLab, and GeoJupyter communities.

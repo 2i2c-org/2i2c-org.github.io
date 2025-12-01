@@ -46,7 +46,7 @@ Acknowledgements
 &lt;li>
 &lt;a href="https://2i2c.org/collaborators/nasa-veda/" >NASA VEDA&lt;/a> and the DSE Team at NASA MSFC ODSI for funding much of this work.&lt;/li>
 &lt;li>
-&lt;a href="https://github.com/kyle-lesinger" target="_blank" rel="noopener" >Kyle Lesinger&lt;/a> from the Disasters community for providing valuable feedback and bug reports during development.&lt;/li>
+&lt;a href="https://github.com/kyle-lesinger" target="_blank" rel="noopener" >Kyle Lesinger&lt;/a> from the NASA MSFC Office of Data Science and Informatics for providing valuable feedback and bug reports during development.&lt;/li>
 &lt;/ul></description></item><item><title>Enabling transparent cloud cost monitoring with user-level dashboards</title><link>https://2i2c.org/blog/cloud-cost-monitoring/</link><pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/cloud-cost-monitoring/</guid><description>&lt;p>We are excited to announce that &lt;strong>dashboards to monitor cloud usage and costs at a per-user level&lt;/strong> are now available! See the
 &lt;a href="https://docs.2i2c.org/admin/monitoring/cost-users" target="_blank" rel="noopener" >cost monitoring documentation&lt;/a> for more information.&lt;/p>
 &lt;p>A key goal of 2i2c is to make the cloud safe for science. By providing transparent cost monitoring, we give communities the confidence that they won&amp;rsquo;t face unexpected bills and can better understand how their usage patterns translate to cloud costs. This visibility is especially valuable in our shared platform model, where each community gets their own independent hub while benefiting from shared infrastructure expertise.&lt;/p>
