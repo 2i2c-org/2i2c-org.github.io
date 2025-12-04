@@ -20,6 +20,7 @@ This is a running blog post for Chris to share out community updates from his ti
 
 Chris aims to write monthly updates for Jupyter's community in the [Jupyter Community Forum](https://discourse.jupyter.org/c/governance/executive-council/51) to share his perspective on what the council is up to. We'll update this index post as new posts are available.
 
+- [November 2025](https://discourse.jupyter.org/t/chris-update-for-september-october-november-2025-wow-three-months-passed/38204)
 - [August 2025](https://discourse.jupyter.org/t/chris-update-for-august-2025-community-proposals-are-live/37879)
 - [July 2025](https://discourse.jupyter.org/t/chris-update-for-july-2025-towards-community-led-funding-proposals/37424/2)
 - [June 2025](https://discourse.jupyter.org/t/chris-jec-and-board-experience-for-june-2025/36488/1)
