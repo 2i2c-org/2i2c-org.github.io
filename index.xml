@@ -1,4 +1,10 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2i2c</title><link>https://2i2c.org/</link><atom:link href="https://2i2c.org/index.xml" rel="self" type="application/rss+xml"/><description>2i2c</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 24 Nov 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>2i2c</title><link>https://2i2c.org/</link></image><item><title>Adding User Group Insights to Cloud Cost Dashboards with Grafana</title><link>https://2i2c.org/blog/cloud-cost-groups/</link><pubDate>Mon, 24 Nov 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/cloud-cost-groups/</guid><description>&lt;p>We are excited to announce that we have extended our cloud cost dashboards to support display costs filtered by user groups using Grafana! This new feature allows administrators to monitor and manage cloud expenses based on user group memberships in JupyterHub.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2i2c</title><link>https://2i2c.org/</link><atom:link href="https://2i2c.org/index.xml" rel="self" type="application/rss+xml"/><description>2i2c</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 30 Nov 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>2i2c</title><link>https://2i2c.org/</link></image><item><title>Supporting NASA Openscapes Champions with Cloud Infrastructure</title><link>https://2i2c.org/blog/nasa-openscapes-champions-2025/</link><pubDate>Sun, 30 Nov 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/nasa-openscapes-champions-2025/</guid><description>&lt;p>
+&lt;a href="https://2i2c.org/collaborators/openscapes/" >Openscapes&lt;/a> ran a NASA Champions program in November, bringing 30 participants together to learn about NASA Earthdata and the earthaccess Python library. We provided JupyterHub infrastructure for hands-on breakout sessions - a good example of using shared infrastructure to facilitate learning and collaboration in remote events.&lt;/p>
+&lt;p>They used their JupyterHub for co-working, where participants practiced streaming techniques for accessing cloud data without downloading. Multiple NASA Data Centers (NSIDC, ORNL, ASDC, PO.DAAC) collaborated to co-teach using the shared environment, succeeding despite the event happening the day after a government shutdown.&lt;/p>
+&lt;p>They also used this to grow the OpenScapes community by getting attendees to join their slack and sign up for
+&lt;a href="https://openscapes.org/events/2025-12-15-earthaccess-hackday/" target="_blank" rel="noopener" >their December Earth Access hack day&lt;/a>. It&amp;rsquo;s a great example of leveraging shared community infrastructure to help newcomers learn quickly and join a science community.&lt;/p>
+&lt;p>Read their
+&lt;a href="https://openscapes.org/blog/2025-11-27-nasa-champions-2025-summary/" target="_blank" rel="noopener" >full event summary&lt;/a> to learn how they structured the program and engaged their community.&lt;/p></description></item><item><title>Adding User Group Insights to Cloud Cost Dashboards with Grafana</title><link>https://2i2c.org/blog/cloud-cost-groups/</link><pubDate>Mon, 24 Nov 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/cloud-cost-groups/</guid><description>&lt;p>We are excited to announce that we have extended our cloud cost dashboards to support display costs filtered by user groups using Grafana! This new feature allows administrators to monitor and manage cloud expenses based on user group memberships in JupyterHub.&lt;/p>
 &lt;p>
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
@@ -9374,6 +9380,26 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;div class="col-sm-6 col-md-4 col-lg-3">
 &lt;div class="card border-0" style="background-color: #f8f9fa;">
 &lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
+&lt;a href="https://evc.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
+&lt;img src="https://2i2c.org/members/images/evergreen_valley_college.png" alt="Evergreen Valley College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
+&lt;small class="text-dark fw-medium">Evergreen Valley College&lt;/small>
+&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="col-sm-6 col-md-4 col-lg-3">
+&lt;div class="card border-0" style="background-color: #f8f9fa;">
+&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
+&lt;a href="https://foothill.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
+&lt;img src="https://2i2c.org/members/images/foothill_college.png" alt="Foothill College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
+&lt;small class="text-dark fw-medium">Foothill College&lt;/small>
+&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="col-sm-6 col-md-4 col-lg-3">
+&lt;div class="card border-0" style="background-color: #f8f9fa;">
+&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
 &lt;a href="https://fresno.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/fresno_city_college.png" alt="Fresno City College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">Fresno City College&lt;/small>
@@ -9524,6 +9550,16 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;div class="col-sm-6 col-md-4 col-lg-3">
 &lt;div class="card border-0" style="background-color: #f8f9fa;">
 &lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
+&lt;a href="https://mission.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
+&lt;img src="https://2i2c.org/members/images/mission_college_santa_clara.jpg" alt="Mission College Santa Clara" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
+&lt;small class="text-dark fw-medium">Mission College Santa Clara&lt;/small>
+&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="col-sm-6 col-md-4 col-lg-3">
+&lt;div class="card border-0" style="background-color: #f8f9fa;">
+&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
 &lt;a href="https://moreno.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/moreno_valley_college.png" alt="Moreno Valley College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">Moreno Valley College&lt;/small>
@@ -9587,6 +9623,16 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;a href="https://saddleback.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/saddleback_college.svg" alt="Saddleback College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">Saddleback College&lt;/small>
+&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="col-sm-6 col-md-4 col-lg-3">
+&lt;div class="card border-0" style="background-color: #f8f9fa;">
+&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
+&lt;a href="https://sjcc.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
+&lt;img src="https://2i2c.org/members/images/san_jose_community_college.png" alt="San Jose Community College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
+&lt;small class="text-dark fw-medium">San Jose Community College&lt;/small>
 &lt;/a>
 &lt;/div>
 &lt;/div>
