@@ -30,6 +30,14 @@ JupyterCon recently shared the videos of all talks, so here's a quick run-down o
 
 [Lightning Talk: Controlling Home Directory Costs (with User Empathy) on the Cloud](https://jupytercon2025.sched.com/event/1jNQC) - Yuvi Panda shares practical strategies for managing home directory storage costs while keeping user experience in mind, using `jupyterhub-home-nfs`.
 
+---
+
+Finally, there were also several talks that weren't _by_ 2i2c team members, but were partially _enabled_ by 2i2c's collaboration. We're particularly proud of these, because it's an example of us bringing others into the ecosystem and empowering them to contribute.
+
 ## Understanding the JupyterHub community
 
 [Findings from the Voices of JupyterHub report](https://www.youtube.com/watch?v=NnsD_Ly49Z0) - This community strategy talk shares insights from conversations with JupyterHub users and operators about their needs and challenges. It's not given by a 2i2c team member, but many of us have been involved in guiding (and being participants in!) this project.
+
+## Pythia sharing their MyST journey
+
+## How CryoCloud built a healthy open science community
