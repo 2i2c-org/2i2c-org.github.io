@@ -38,6 +38,9 @@ jobs:
       - name: Build
         run: hugo --minify
 
+      - name: Generate blog post redirects for GitHub Pages
+        run: python scripts/generate-blog-aliases.py
+
       # Only deploy to gh-pages if we are pushed to `main` branch
       - if: ${{ github.ref == 'refs/heads/main' }}
         name: Deploy

@@ -21,11 +21,20 @@ def docs(session):
     """Build the Hugo documentation site.
 
     Downloads Hugo Extended v{HUGO_VERSION} from GitHub releases if not cached.
+    Generates blog post redirects for GitHub Pages compatibility.
     """
     hugo_path = install_hugo(session)
 
     # Build the site
     session.run(hugo_path, "--cleanDestinationDir", external=True)
+
+    # Generate blog post redirects (year-based URLs -> slug-only URLs)
+    # This is needed because GitHub Pages doesn't support server-side redirects
+    session.run("python", "scripts/generate-blog-aliases.py", external=True)
+
+    # Print the path to the built docs
+    built_path = Path("public").resolve()
+    session.log(f"✨ Site built successfully at: {built_path}")
 
 @nox.session(name="linkcheck")
 def linkcheck(session):
@@ -35,6 +44,9 @@ def linkcheck(session):
 
     # Build the site
     session.run(hugo_path, "--cleanDestinationDir", external=True)
+
+    # Generate blog post redirects
+    session.run("python", "scripts/generate-blog-aliases.py", external=True)
 
     # Run link checker offline against the generated site
     session.run(
