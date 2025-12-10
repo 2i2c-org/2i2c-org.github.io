@@ -1,10 +1,7 @@
 ---
-title: "2i2c at JupyterCon 2025: Helping Communities Navigate the Interactive Computing Ecosystem"
-slug: "jupytercon-2025-reflections"
+title: "2i2c at JupyterCon 2025: Helping communities navigate the Interactive Computing ecosystem"
+slug: "jupytercon-2025-talks"
 date: 2025-11-20
-authors:
-  - Yuvi Panda
-  - Chris Holdgraf
 categories:
   - organization
 tags:
@@ -21,13 +18,13 @@ JupyterCon recently shared the videos of all talks, so here's a quick run-down o
 
 ## Building computational narratives with Jupyter Book
 
-[Introducing Jupyter Book 2: Next-generation Tools for Creating Computational Narratives](https://www.youtube.com/watch?v=3MUSteQFGq8&t=850s) - Chris Holdgraf and Rowan Cockett ([Curvenote](https://curvenote.com)) introduce the next generation of [Jupyter Book](/collaborators/jupyter-book/), built on modern tooling and designed for creating rich computational narratives.
+[Introducing Jupyter Book 2: Next-generation Tools for Creating Computational Narratives](https://www.youtube.com/watch?v=3MUSteQFGq8&t=850s) - Chris Holdgraf and Rowan Cockett ([Curvenote](https://curvenote.com)) introduce the next generation of [Jupyter Book](../../../collaborators/jupyter-book/), built on modern tooling and designed for creating rich computational narratives.
 
 [Tutorial: Build-a-Jupyter Book With the Turing Way](https://jupytercon2025.sched.com/event/1jNKI) - Angus Hollands co-led this hands-on tutorial teaching participants how to create their own Jupyter Books using examples from the Turing Way.
 
 ## JupyterHub's evolution and sustainable operations
 
-[Not Just for Notebooks: JupyterHub in 2025](https://www.youtube.com/watch?v=-wwia9YzHO) - Yuvi Panda explores how [JupyterHub](/collaborators/jupyterhub/) is evolving beyond just notebooks to support a wider range of interactive computing workflows.
+[Not Just for Notebooks: JupyterHub in 2025](https://www.youtube.com/watch?v=-wwia9YzHO) - Yuvi Panda explores how [JupyterHub](../../../collaborators/jupyterhub/) is evolving beyond just notebooks to support a wider range of interactive computing workflows.
 
 [Cloudy With a Chance of Savings: Per-User Usage and Cost Monitoring for JupyterHubs in the Cloud](https://www.youtube.com/watch?v=M5x3bTgRzVs) - Jenny Wong presents our recent work improving tools and approaches for monitoring per-user cloud costs in JupyterHub deployments, helping communities operate more sustainably.
 

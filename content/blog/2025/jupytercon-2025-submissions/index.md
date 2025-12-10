@@ -15,6 +15,8 @@ featured: false
 draft: false
 ---
 
+_**Update**: The talks are now live! See this [blog post with links to our videos](../jupytercon-talks/index.md)._
+
 We were excited to hear that [JupyterCon is happening again in 2025](https://jupytercon.com). The Call for Proposals just wrapped up, and our team was involved in preparing and submitting several directly from 2i2c as well as from the ecosystem in general.
 
 Enjoy brief summaries of the proposals we contributed to below. [Let us know](https://forms.fillout.com/t/uQHVMkgvsuus) if you have ideas for future talks you want to hear from us? 
