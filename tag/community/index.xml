@@ -4,7 +4,33 @@
 &lt;p>They also used this to grow the OpenScapes community by getting attendees to join their slack and sign up for
 &lt;a href="https://openscapes.org/events/2025-12-15-earthaccess-hackday/" target="_blank" rel="noopener" >their December Earth Access hack day&lt;/a>. It&amp;rsquo;s a great example of leveraging shared community infrastructure to help newcomers learn quickly and join a science community.&lt;/p>
 &lt;p>Read their
-&lt;a href="https://openscapes.org/blog/2025-11-27-nasa-champions-2025-summary/" target="_blank" rel="noopener" >full event summary&lt;/a> to learn how they structured the program and engaged their community.&lt;/p></description></item><item><title>Yuvi on scaling maintainer intuition to facilitate PR review with PR triage boards</title><link>https://2i2c.org/blog/pr-triage-boards/</link><pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/pr-triage-boards/</guid><description>&lt;p>Yuvi has a recent post on the
+&lt;a href="https://openscapes.org/blog/2025-11-27-nasa-champions-2025-summary/" target="_blank" rel="noopener" >full event summary&lt;/a> to learn how they structured the program and engaged their community.&lt;/p></description></item><item><title>2i2c at JupyterCon 2025: Helping communities navigate the Interactive Computing ecosystem</title><link>https://2i2c.org/blog/jupytercon-2025-talks/</link><pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/jupytercon-2025-talks/</guid><description>&lt;p>This year several team members attended
+&lt;a href="https://jupytercon.com" target="_blank" rel="noopener" >JupyterCon 2025&lt;/a> to show off our own work and the upstream work that we&amp;rsquo;ve been doing in open source.
+JupyterCon recently shared the videos of all talks, so here&amp;rsquo;s a quick run-down of 2i2c&amp;rsquo;s contributions and where you can watch more.&lt;/p>
+&lt;h2 id="building-computational-narratives-with-jupyter-book">
+Building computational narratives with Jupyter Book
+&lt;a class="header-anchor" href="#building-computational-narratives-with-jupyter-book">#&lt;/a>
+&lt;/h2>&lt;p>
+&lt;a href="https://www.youtube.com/watch?v=3MUSteQFGq8&amp;amp;t=850s" target="_blank" rel="noopener" >Introducing Jupyter Book 2: Next-generation Tools for Creating Computational Narratives&lt;/a> - Chris Holdgraf and Rowan Cockett (
+&lt;a href="https://curvenote.com" target="_blank" rel="noopener" >Curvenote&lt;/a>) introduce the next generation of
+&lt;a href="https://2i2c.org/collaborators/jupyter-book/" >Jupyter Book&lt;/a>, built on modern tooling and designed for creating rich computational narratives.&lt;/p>
+&lt;p>
+&lt;a href="https://jupytercon2025.sched.com/event/1jNKI" target="_blank" rel="noopener" >Tutorial: Build-a-Jupyter Book With the Turing Way&lt;/a> - Angus Hollands co-led this hands-on tutorial teaching participants how to create their own Jupyter Books using examples from the Turing Way.&lt;/p>
+&lt;h2 id="jupyterhubs-evolution-and-sustainable-operations">
+JupyterHub&amp;rsquo;s evolution and sustainable operations
+&lt;a class="header-anchor" href="#jupyterhubs-evolution-and-sustainable-operations">#&lt;/a>
+&lt;/h2>&lt;p>
+&lt;a href="https://www.youtube.com/watch?v=-wwia9YzHO" target="_blank" rel="noopener" >Not Just for Notebooks: JupyterHub in 2025&lt;/a> - Yuvi Panda explores how
+&lt;a href="https://2i2c.org/collaborators/jupyterhub/" >JupyterHub&lt;/a> is evolving beyond just notebooks to support a wider range of interactive computing workflows.&lt;/p>
+&lt;p>
+&lt;a href="https://www.youtube.com/watch?v=M5x3bTgRzVs" target="_blank" rel="noopener" >Cloudy With a Chance of Savings: Per-User Usage and Cost Monitoring for JupyterHubs in the Cloud&lt;/a> - Jenny Wong presents our recent work improving tools and approaches for monitoring per-user cloud costs in JupyterHub deployments, helping communities operate more sustainably.&lt;/p>
+&lt;p>
+&lt;a href="https://jupytercon2025.sched.com/event/1jNQC" target="_blank" rel="noopener" >Lightning Talk: Controlling Home Directory Costs (with User Empathy) on the Cloud&lt;/a> - Yuvi Panda shares practical strategies for managing home directory storage costs while keeping user experience in mind, using &lt;code>jupyterhub-home-nfs&lt;/code>.&lt;/p>
+&lt;h2 id="understanding-the-jupyterhub-community">
+Understanding the JupyterHub community
+&lt;a class="header-anchor" href="#understanding-the-jupyterhub-community">#&lt;/a>
+&lt;/h2>&lt;p>
+&lt;a href="https://www.youtube.com/watch?v=NnsD_Ly49Z0" target="_blank" rel="noopener" >Findings from the Voices of JupyterHub report&lt;/a> - This community strategy talk shares insights from conversations with JupyterHub users and operators about their needs and challenges. It&amp;rsquo;s not given by a 2i2c team member, but many of us have been involved in guiding (and being participants in!) this project.&lt;/p></description></item><item><title>Yuvi on scaling maintainer intuition to facilitate PR review with PR triage boards</title><link>https://2i2c.org/blog/pr-triage-boards/</link><pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/pr-triage-boards/</guid><description>&lt;p>Yuvi has a recent post on the
 &lt;a href="https://jupyter.org" target="_blank" rel="noopener" >Jupyter blog&lt;/a> on how his &amp;ldquo;maintainer intuition&amp;rdquo; about reviewable pull requests grew into the open-source
 &lt;a href="https://github.com/jupyter/pr-triage-board-bot" target="_blank" rel="noopener" >&lt;code>pr-triage-board-bot&lt;/code>&lt;/a>, a reusable workflow that keeps GitHub Project boards curated for the JupyterHub, JupyterLab, and GeoJupyter communities.
 &lt;a href="https://2i2c.org/blog/pr-triage-boards/../foundational-contributions/" >Foundational contributions&lt;/a> are rellay important to 2i2c. This is a great example of building clever technical systems that help maintainers prioritize the social work of facilitating contributions to keep ecosystems healthy.&lt;/p>
@@ -402,7 +428,9 @@ Acknowledgements
 &lt;/h2>&lt;ul>
 &lt;li>
 &lt;a href="https://2i2c.org/collaborators/openscapes/" >Openscapes&lt;/a> for their continued work in empowering the research community&lt;/li>
-&lt;/ul></description></item><item><title>2i2c's submissions to JupyterCon 2025</title><link>https://2i2c.org/blog/jupytercon-2025-submissions/</link><pubDate>Sat, 19 Jul 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/jupytercon-2025-submissions/</guid><description>&lt;p>We were excited to hear that
+&lt;/ul></description></item><item><title>2i2c's submissions to JupyterCon 2025</title><link>https://2i2c.org/blog/jupytercon-2025-submissions/</link><pubDate>Sat, 19 Jul 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/jupytercon-2025-submissions/</guid><description>&lt;p>&lt;em>&lt;strong>Update&lt;/strong>: The talks are now live! See this
+&lt;a href="https://2i2c.org/blog/jupytercon-2025-talks/" >blog post with links to our videos&lt;/a>.&lt;/em>&lt;/p>
+&lt;p>We were excited to hear that
 &lt;a href="https://jupytercon.com" target="_blank" rel="noopener" >JupyterCon is happening again in 2025&lt;/a>. The Call for Proposals just wrapped up, and our team was involved in preparing and submitting several directly from 2i2c as well as from the ecosystem in general.&lt;/p>
 &lt;p>Enjoy brief summaries of the proposals we contributed to below.
 &lt;a href="https://forms.fillout.com/t/uQHVMkgvsuus" target="_blank" rel="noopener" >Let us know&lt;/a> if you have ideas for future talks you want to hear from us?&lt;/p>

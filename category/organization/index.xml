@@ -1,4 +1,30 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Organization | 2i2c</title><link>https://2i2c.org/category/organization/</link><atom:link href="https://2i2c.org/category/organization/index.xml" rel="self" type="application/rss+xml"/><description>Organization</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 22 Oct 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Organization</title><link>https://2i2c.org/category/organization/</link></image><item><title>A thank you to CZI for its impact on 2i2c and Jupyter</title><link>https://2i2c.org/blog/czi-retrospective/</link><pubDate>Wed, 22 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/czi-retrospective/</guid><description>&lt;p>As I attend the
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Organization | 2i2c</title><link>https://2i2c.org/category/organization/</link><atom:link href="https://2i2c.org/category/organization/index.xml" rel="self" type="application/rss+xml"/><description>Organization</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 20 Nov 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Organization</title><link>https://2i2c.org/category/organization/</link></image><item><title>2i2c at JupyterCon 2025: Helping communities navigate the Interactive Computing ecosystem</title><link>https://2i2c.org/blog/jupytercon-2025-talks/</link><pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/jupytercon-2025-talks/</guid><description>&lt;p>This year several team members attended
+&lt;a href="https://jupytercon.com" target="_blank" rel="noopener" >JupyterCon 2025&lt;/a> to show off our own work and the upstream work that we&amp;rsquo;ve been doing in open source.
+JupyterCon recently shared the videos of all talks, so here&amp;rsquo;s a quick run-down of 2i2c&amp;rsquo;s contributions and where you can watch more.&lt;/p>
+&lt;h2 id="building-computational-narratives-with-jupyter-book">
+Building computational narratives with Jupyter Book
+&lt;a class="header-anchor" href="#building-computational-narratives-with-jupyter-book">#&lt;/a>
+&lt;/h2>&lt;p>
+&lt;a href="https://www.youtube.com/watch?v=3MUSteQFGq8&amp;amp;t=850s" target="_blank" rel="noopener" >Introducing Jupyter Book 2: Next-generation Tools for Creating Computational Narratives&lt;/a> - Chris Holdgraf and Rowan Cockett (
+&lt;a href="https://curvenote.com" target="_blank" rel="noopener" >Curvenote&lt;/a>) introduce the next generation of
+&lt;a href="https://2i2c.org/collaborators/jupyter-book/" >Jupyter Book&lt;/a>, built on modern tooling and designed for creating rich computational narratives.&lt;/p>
+&lt;p>
+&lt;a href="https://jupytercon2025.sched.com/event/1jNKI" target="_blank" rel="noopener" >Tutorial: Build-a-Jupyter Book With the Turing Way&lt;/a> - Angus Hollands co-led this hands-on tutorial teaching participants how to create their own Jupyter Books using examples from the Turing Way.&lt;/p>
+&lt;h2 id="jupyterhubs-evolution-and-sustainable-operations">
+JupyterHub&amp;rsquo;s evolution and sustainable operations
+&lt;a class="header-anchor" href="#jupyterhubs-evolution-and-sustainable-operations">#&lt;/a>
+&lt;/h2>&lt;p>
+&lt;a href="https://www.youtube.com/watch?v=-wwia9YzHO" target="_blank" rel="noopener" >Not Just for Notebooks: JupyterHub in 2025&lt;/a> - Yuvi Panda explores how
+&lt;a href="https://2i2c.org/collaborators/jupyterhub/" >JupyterHub&lt;/a> is evolving beyond just notebooks to support a wider range of interactive computing workflows.&lt;/p>
+&lt;p>
+&lt;a href="https://www.youtube.com/watch?v=M5x3bTgRzVs" target="_blank" rel="noopener" >Cloudy With a Chance of Savings: Per-User Usage and Cost Monitoring for JupyterHubs in the Cloud&lt;/a> - Jenny Wong presents our recent work improving tools and approaches for monitoring per-user cloud costs in JupyterHub deployments, helping communities operate more sustainably.&lt;/p>
+&lt;p>
+&lt;a href="https://jupytercon2025.sched.com/event/1jNQC" target="_blank" rel="noopener" >Lightning Talk: Controlling Home Directory Costs (with User Empathy) on the Cloud&lt;/a> - Yuvi Panda shares practical strategies for managing home directory storage costs while keeping user experience in mind, using &lt;code>jupyterhub-home-nfs&lt;/code>.&lt;/p>
+&lt;h2 id="understanding-the-jupyterhub-community">
+Understanding the JupyterHub community
+&lt;a class="header-anchor" href="#understanding-the-jupyterhub-community">#&lt;/a>
+&lt;/h2>&lt;p>
+&lt;a href="https://www.youtube.com/watch?v=NnsD_Ly49Z0" target="_blank" rel="noopener" >Findings from the Voices of JupyterHub report&lt;/a> - This community strategy talk shares insights from conversations with JupyterHub users and operators about their needs and challenges. It&amp;rsquo;s not given by a 2i2c team member, but many of us have been involved in guiding (and being participants in!) this project.&lt;/p></description></item><item><title>A thank you to CZI for its impact on 2i2c and Jupyter</title><link>https://2i2c.org/blog/czi-retrospective/</link><pubDate>Wed, 22 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/czi-retrospective/</guid><description>&lt;p>As I attend the
 &lt;a href="https://chanzuckerberg.com/science/programs-resources/open-science/" target="_blank" rel="noopener" >CZI Open Science&lt;/a> 2025 meeting, it’s a good moment to reflect on the many ways CZI has positively impacted both 2i2c and the Jupyter Project.&lt;/p>
 &lt;p>
 &lt;figure >
