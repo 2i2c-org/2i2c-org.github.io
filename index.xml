@@ -75,11 +75,27 @@ JupyterHub&amp;rsquo;s evolution and sustainable operations
 &lt;a href="https://www.youtube.com/watch?v=M5x3bTgRzVs" target="_blank" rel="noopener" >Cloudy With a Chance of Savings: Per-User Usage and Cost Monitoring for JupyterHubs in the Cloud&lt;/a> - Jenny Wong presents our recent work improving tools and approaches for monitoring per-user cloud costs in JupyterHub deployments, helping communities operate more sustainably.&lt;/p>
 &lt;p>
 &lt;a href="https://jupytercon2025.sched.com/event/1jNQC" target="_blank" rel="noopener" >Lightning Talk: Controlling Home Directory Costs (with User Empathy) on the Cloud&lt;/a> - Yuvi Panda shares practical strategies for managing home directory storage costs while keeping user experience in mind, using &lt;code>jupyterhub-home-nfs&lt;/code>.&lt;/p>
+&lt;hr>
+&lt;p>Finally, there were also several talks that weren&amp;rsquo;t &lt;em>by&lt;/em> 2i2c team members, but were partially &lt;em>enabled&lt;/em> by 2i2c&amp;rsquo;s collaboration. We&amp;rsquo;re particularly proud of these, because it&amp;rsquo;s an example of us bringing others into the ecosystem and empowering them to contribute.&lt;/p>
 &lt;h2 id="understanding-the-jupyterhub-community">
 Understanding the JupyterHub community
 &lt;a class="header-anchor" href="#understanding-the-jupyterhub-community">#&lt;/a>
 &lt;/h2>&lt;p>
-&lt;a href="https://www.youtube.com/watch?v=NnsD_Ly49Z0" target="_blank" rel="noopener" >Findings from the Voices of JupyterHub report&lt;/a> - This community strategy talk shares insights from conversations with JupyterHub users and operators about their needs and challenges. It&amp;rsquo;s not given by a 2i2c team member, but many of us have been involved in guiding (and being participants in!) this project.&lt;/p></description></item><item><title>Yuvi on scaling maintainer intuition to facilitate PR review with PR triage boards</title><link>https://2i2c.org/blog/pr-triage-boards/</link><pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/pr-triage-boards/</guid><description>&lt;p>Yuvi has a recent post on the
+&lt;a href="https://www.youtube.com/watch?v=NnsD_Ly49Z0" target="_blank" rel="noopener" >Findings from the Voices of JupyterHub report&lt;/a> - This community strategy talk shares insights from conversations with JupyterHub users and operators about their needs and challenges. It&amp;rsquo;s not given by a 2i2c team member, but many of us have been involved in guiding (and being participants in!) this project.&lt;/p>
+&lt;h2 id="pythia-sharing-their-myst-journey">
+Pythia sharing their MyST journey
+&lt;a class="header-anchor" href="#pythia-sharing-their-myst-journey">#&lt;/a>
+&lt;/h2>&lt;p>
+&lt;a href="https://www.youtube.com/watch?v=SqmMoyqSU8o" target="_blank" rel="noopener" >MyST-ifying Project Pythia&lt;/a> - Julia Kent of NSF NCAR discusses
+&lt;a href="https://2i2c.org/collaborators/pythia/" >Project Pythia&lt;/a>, an open-source platform dedicated to educating geoscientists on Python for complex Earth data analysis. Learn how Project Pythia manages its expansive repository of &amp;ldquo;cookbooks&amp;rdquo; and educational content, detailing their strategic shift to MyST Markdown and
+&lt;a href="https://2i2c.org/collaborators/jupyter-book/" >Jupyter Book&lt;/a> 2 to drastically improve project sustainability and reduce maintenance overhead.&lt;/p>
+&lt;h2 id="how-cryocloud-built-a-healthy-open-science-community">
+How CryoCloud built a healthy open science community
+&lt;a class="header-anchor" href="#how-cryocloud-built-a-healthy-open-science-community">#&lt;/a>
+&lt;/h2>&lt;p>
+&lt;a href="https://www.youtube.com/watch?v=XD72H0Dkhq8" target="_blank" rel="noopener" >Building a successful open science community in the cloud&lt;/a> - Tasha Snow shares key insights from running the
+&lt;a href="https://2i2c.org/collaborators/cryocloud/" >CryoCloud&lt;/a>
+&lt;a href="https://2i2c.org/collaborators/jupyterhub/" >JupyterHub&lt;/a>, emphasizing that a successful scientific community relies on both technology and social innovation. She shares data-driven results on how shared JupyterHubs can significantly reduce research computing costs and accelerate scientific iteration. She also explores the critical balance between platform capabilities and the need for &lt;em>social infrastructure&lt;/em> to overcome technical barriers and foster true collaboration.&lt;/p></description></item><item><title>Yuvi on scaling maintainer intuition to facilitate PR review with PR triage boards</title><link>https://2i2c.org/blog/pr-triage-boards/</link><pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/pr-triage-boards/</guid><description>&lt;p>Yuvi has a recent post on the
 &lt;a href="https://jupyter.org" target="_blank" rel="noopener" >Jupyter blog&lt;/a> on how his &amp;ldquo;maintainer intuition&amp;rdquo; about reviewable pull requests grew into the open-source
 &lt;a href="https://github.com/jupyter/pr-triage-board-bot" target="_blank" rel="noopener" >&lt;code>pr-triage-board-bot&lt;/code>&lt;/a>, a reusable workflow that keeps GitHub Project boards curated for the JupyterHub, JupyterLab, and GeoJupyter communities.
 &lt;a href="https://2i2c.org/blog/pr-triage-boards/../foundational-contributions/" >Foundational contributions&lt;/a> are rellay important to 2i2c. This is a great example of building clever technical systems that help maintainers prioritize the social work of facilitating contributions to keep ecosystems healthy.&lt;/p>
@@ -9411,16 +9427,6 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;a href="https://evc.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/evergreen_valley_college.png" alt="Evergreen Valley College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">Evergreen Valley College&lt;/small>
-&lt;/a>
-&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;div class="col-sm-6 col-md-4 col-lg-3">
-&lt;div class="card border-0" style="background-color: #f8f9fa;">
-&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
-&lt;a href="https://foothill.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
-&lt;img src="https://2i2c.org/members/images/foothill_college.png" alt="Foothill College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
-&lt;small class="text-dark fw-medium">Foothill College&lt;/small>
 &lt;/a>
 &lt;/div>
 &lt;/div>

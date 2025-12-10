@@ -20,11 +20,27 @@ JupyterHub&amp;rsquo;s evolution and sustainable operations
 &lt;a href="https://www.youtube.com/watch?v=M5x3bTgRzVs" target="_blank" rel="noopener" >Cloudy With a Chance of Savings: Per-User Usage and Cost Monitoring for JupyterHubs in the Cloud&lt;/a> - Jenny Wong presents our recent work improving tools and approaches for monitoring per-user cloud costs in JupyterHub deployments, helping communities operate more sustainably.&lt;/p>
 &lt;p>
 &lt;a href="https://jupytercon2025.sched.com/event/1jNQC" target="_blank" rel="noopener" >Lightning Talk: Controlling Home Directory Costs (with User Empathy) on the Cloud&lt;/a> - Yuvi Panda shares practical strategies for managing home directory storage costs while keeping user experience in mind, using &lt;code>jupyterhub-home-nfs&lt;/code>.&lt;/p>
+&lt;hr>
+&lt;p>Finally, there were also several talks that weren&amp;rsquo;t &lt;em>by&lt;/em> 2i2c team members, but were partially &lt;em>enabled&lt;/em> by 2i2c&amp;rsquo;s collaboration. We&amp;rsquo;re particularly proud of these, because it&amp;rsquo;s an example of us bringing others into the ecosystem and empowering them to contribute.&lt;/p>
 &lt;h2 id="understanding-the-jupyterhub-community">
 Understanding the JupyterHub community
 &lt;a class="header-anchor" href="#understanding-the-jupyterhub-community">#&lt;/a>
 &lt;/h2>&lt;p>
-&lt;a href="https://www.youtube.com/watch?v=NnsD_Ly49Z0" target="_blank" rel="noopener" >Findings from the Voices of JupyterHub report&lt;/a> - This community strategy talk shares insights from conversations with JupyterHub users and operators about their needs and challenges. It&amp;rsquo;s not given by a 2i2c team member, but many of us have been involved in guiding (and being participants in!) this project.&lt;/p></description></item><item><title>Sharing JupyterHub's vision for more flexible application deployment at the doepy talk series.</title><link>https://2i2c.org/blog/doepy-yuvi/</link><pubDate>Wed, 03 Sep 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/doepy-yuvi/</guid><description>&lt;p>Our Technical Lead
+&lt;a href="https://www.youtube.com/watch?v=NnsD_Ly49Z0" target="_blank" rel="noopener" >Findings from the Voices of JupyterHub report&lt;/a> - This community strategy talk shares insights from conversations with JupyterHub users and operators about their needs and challenges. It&amp;rsquo;s not given by a 2i2c team member, but many of us have been involved in guiding (and being participants in!) this project.&lt;/p>
+&lt;h2 id="pythia-sharing-their-myst-journey">
+Pythia sharing their MyST journey
+&lt;a class="header-anchor" href="#pythia-sharing-their-myst-journey">#&lt;/a>
+&lt;/h2>&lt;p>
+&lt;a href="https://www.youtube.com/watch?v=SqmMoyqSU8o" target="_blank" rel="noopener" >MyST-ifying Project Pythia&lt;/a> - Julia Kent of NSF NCAR discusses
+&lt;a href="https://2i2c.org/collaborators/pythia/" >Project Pythia&lt;/a>, an open-source platform dedicated to educating geoscientists on Python for complex Earth data analysis. Learn how Project Pythia manages its expansive repository of &amp;ldquo;cookbooks&amp;rdquo; and educational content, detailing their strategic shift to MyST Markdown and
+&lt;a href="https://2i2c.org/collaborators/jupyter-book/" >Jupyter Book&lt;/a> 2 to drastically improve project sustainability and reduce maintenance overhead.&lt;/p>
+&lt;h2 id="how-cryocloud-built-a-healthy-open-science-community">
+How CryoCloud built a healthy open science community
+&lt;a class="header-anchor" href="#how-cryocloud-built-a-healthy-open-science-community">#&lt;/a>
+&lt;/h2>&lt;p>
+&lt;a href="https://www.youtube.com/watch?v=XD72H0Dkhq8" target="_blank" rel="noopener" >Building a successful open science community in the cloud&lt;/a> - Tasha Snow shares key insights from running the
+&lt;a href="https://2i2c.org/collaborators/cryocloud/" >CryoCloud&lt;/a>
+&lt;a href="https://2i2c.org/collaborators/jupyterhub/" >JupyterHub&lt;/a>, emphasizing that a successful scientific community relies on both technology and social innovation. She shares data-driven results on how shared JupyterHubs can significantly reduce research computing costs and accelerate scientific iteration. She also explores the critical balance between platform capabilities and the need for &lt;em>social infrastructure&lt;/em> to overcome technical barriers and foster true collaboration.&lt;/p></description></item><item><title>Sharing JupyterHub's vision for more flexible application deployment at the doepy talk series.</title><link>https://2i2c.org/blog/doepy-yuvi/</link><pubDate>Wed, 03 Sep 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/doepy-yuvi/</guid><description>&lt;p>Our Technical Lead
 &lt;a href="https://2i2c.org/blog/doepy-yuvi/../../authors/yuvi-panda/_index.md" >Yuvi Panda&lt;/a> recently gave a talk at the
 &lt;a href="https://meetup.doepy.org/" target="_blank" rel="noopener" >doepy meetup&lt;/a> about JupyterHub&amp;rsquo;s interest in moving beyond the &amp;ldquo;single-user notebook application&amp;rdquo; and towards a more flexible approach to enabling administrators to deploy many different types of applications and environments.&lt;/p>
 &lt;p>Check out a video of the talk here:&lt;/p>
