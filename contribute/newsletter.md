@@ -39,6 +39,14 @@ Follow this to create the newsletter each month.
   * Copy the campaign from the previous month
   * Update the **Subject** and **Content** with the newsletter we just wrote.
 
+## Blog links
+
+**You must use the `slug:` field to generate blog links**. The file path is not used in generating the URL, instead all blog entries will have a path like:
+
+```
+2i2c.org/blog/[slug]
+```
+
 ## Template
 
 *This is the short, 300-500 word email for our mailing list.*
@@ -64,9 +72,9 @@ Follow this to create the newsletter each month.
 
 [A list of highlights taken from blog posts. Use the `category:` to categorize each and add a label before each list item. See below for example:]
 
-* **Community Impact:** [1-2 sentence teaser for a community story...] [**Read more**](https://www.google.com/search?q=link-to-post)  
-* **Upstream Impact:** [1-2 sentence teaser for an open-source contribution...] [**Read more**](https://www.google.com/search?q=link-to-post)  
-* **Service Enhancement:** [1-2 sentence teaser for a new feature or infrastructure update...] [**Read more**](https://www.google.com/search?q=link-to-post)
+* [**Summary title of item**] [1-2 sentence teaser for a community story...] [**Read more**](https://www.google.com/search?q=link-to-post)  
+* [**Summary title of item**] [1-2 sentence teaser for an open-source contribution...] [**Read more**](https://www.google.com/search?q=link-to-post)  
+* [**Summary title of item**] [1-2 sentence teaser for a new feature or infrastructure update...] [**Read more**](https://www.google.com/search?q=link-to-post)
 
 ### Community spotlights
 

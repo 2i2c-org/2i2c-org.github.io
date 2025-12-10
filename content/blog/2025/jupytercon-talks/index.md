@@ -40,4 +40,8 @@ Finally, there were also several talks that weren't _by_ 2i2c team members, but 
 
 ## Pythia sharing their MyST journey
 
+[MyST-ifying Project Pythia](https://www.youtube.com/watch?v=SqmMoyqSU8o) - Julia Kent of NSF NCAR discusses [Project Pythia](../../../collaborators/pythia/), an open-source platform dedicated to educating geoscientists on Python for complex Earth data analysis. Learn how Project Pythia manages its expansive repository of "cookbooks" and educational content, detailing their strategic shift to MyST Markdown and [Jupyter Book](../../../collaborators/jupyter-book/) 2 to drastically improve project sustainability and reduce maintenance overhead.
+
 ## How CryoCloud built a healthy open science community
+
+[Building a successful open science community in the cloud](https://www.youtube.com/watch?v=XD72H0Dkhq8) - Tasha Snow shares key insights from running the [CryoCloud](../../../collaborators/cryocloud/) [JupyterHub](../../../collaborators/jupyterhub/), emphasizing that a successful scientific community relies on both technology and social innovation. She shares data-driven results on how shared JupyterHubs can significantly reduce research computing costs and accelerate scientific iteration. She also explores the critical balance between platform capabilities and the need for _social infrastructure_ to overcome technical barriers and foster true collaboration.
