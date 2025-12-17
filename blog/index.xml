@@ -1,4 +1,101 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2i2c's blog | 2i2c</title><link>https://2i2c.org/blog/</link><atom:link href="https://2i2c.org/blog/index.xml" rel="self" type="application/rss+xml"/><description>2i2c's blog</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Sun, 30 Nov 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>2i2c's blog</title><link>https://2i2c.org/blog/</link></image><item><title>Supporting NASA Openscapes Champions with Cloud Infrastructure</title><link>https://2i2c.org/blog/nasa-openscapes-champions-2025/</link><pubDate>Sun, 30 Nov 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/nasa-openscapes-champions-2025/</guid><description>&lt;p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2i2c's blog | 2i2c</title><link>https://2i2c.org/blog/</link><atom:link href="https://2i2c.org/blog/index.xml" rel="self" type="application/rss+xml"/><description>2i2c's blog</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 16 Dec 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>2i2c's blog</title><link>https://2i2c.org/blog/</link></image><item><title>Improving our community hub reliability and stability in Q4 2025</title><link>https://2i2c.org/blog/infrastructure-reliability-q4-2025/</link><pubDate>Tue, 16 Dec 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/infrastructure-reliability-q4-2025/</guid><description>&lt;p>This year we&amp;rsquo;ve prioritized &lt;strong>making the cloud safe to try&lt;/strong> for our member communities. This has driven work in monitoring, alerting, and automating infrastructure so that we resolve small problems before they become big problems. In the last quarter of 2025, we wrapped up this effort by testing the following hypothesis:&lt;/p>
+&lt;blockquote>
+&lt;p>We can reduce P1 incidents if we shorten the time to act on current alerts and learnings from prior incidents.&lt;/p>
+&lt;/blockquote>
+&lt;p>Here&amp;rsquo;s what we accomplished and what we learned.&lt;/p>
+&lt;h2 id="what-we-accomplished">
+What we accomplished
+&lt;a class="header-anchor" href="#what-we-accomplished">#&lt;/a>
+&lt;/h2>&lt;p>In short: we&amp;rsquo;re now much more confident in the stability of community infrastructure.
+Here&amp;rsquo;s a snapshot of our new incident dashboard, which shows high-level trends for the stability of our infrastructure:&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Dashboard of pagerduty status page for 2i2c" srcset="
+/blog/infrastructure-reliability-q4-2025/featured_hu04df3383ec51b90b248012f6472de1e6_185237_74b9b73aaa4181449c130e6842c7c5c1.webp 400w,
+/blog/infrastructure-reliability-q4-2025/featured_hu04df3383ec51b90b248012f6472de1e6_185237_ecd16460171bcb533e6a99e18171cbd6.webp 760w,
+/blog/infrastructure-reliability-q4-2025/featured_hu04df3383ec51b90b248012f6472de1e6_185237_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/infrastructure-reliability-q4-2025/featured_hu04df3383ec51b90b248012f6472de1e6_185237_74b9b73aaa4181449c130e6842c7c5c1.webp"
+width="760"
+height="394"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;em>See the real-time status of our community hubs at
+&lt;a href="http://status.2i2c.org" target="_blank" rel="noopener" >status.2i2c.org&lt;/a>&lt;/em>&lt;/p>
+&lt;h3 id="we-improved-infrastructure-reliability-for-our-communities">
+We improved infrastructure reliability for our communities
+&lt;a class="header-anchor" href="#we-improved-infrastructure-reliability-for-our-communities">#&lt;/a>
+&lt;/h3>&lt;p>We made several technology and team process improvements that led to these benefits for our communities:&lt;/p>
+&lt;ol>
+&lt;li>We are now more likely to catch outages before a community reports them to us.&lt;/li>
+&lt;li>We are now less likely to have an outage happen more than once, or affect more than one community, because we consistently fix the issues that cause outages.&lt;/li>
+&lt;/ol>
+&lt;p>We saw a consistent drop in critical alerts that required immediate response:&lt;/p>
+&lt;ul>
+&lt;li>For August and September we had an average of 7 outages/month (6 from alerts, 1 from community)&lt;/li>
+&lt;li>In October, November, and December we had an average of 3 outages/month (9 in October, 0 in November, 1 in December, with only one of these being reported by a community)&lt;/li>
+&lt;/ul>
+&lt;h3 id="we-became-more-efficient-responsive-and-focused">
+We became more efficient, responsive, and focused
+&lt;a class="header-anchor" href="#we-became-more-efficient-responsive-and-focused">#&lt;/a>
+&lt;/h3>&lt;p>We also got several team benefits from this work:&lt;/p>
+&lt;ol>
+&lt;li>We get fewer interruptions and distractions from deeper work.&lt;/li>
+&lt;li>We have clear assignment policies to make it clear who is responsible for acting in response to alerts.&lt;/li>
+&lt;li>We avoid invisible work from falling down rabbit-holes when responding to outages.&lt;/li>
+&lt;li>We decreased the stress and pressure of doing upgrades, making them easier to split into sprint items and more likely to get done consistently.&lt;/li>
+&lt;/ol>
+&lt;h2 id="the-improvements-we-made">
+The improvements we made
+&lt;a class="header-anchor" href="#the-improvements-we-made">#&lt;/a>
+&lt;/h2>
+&lt;h3 id="infrastructure-improvements">
+Infrastructure improvements
+&lt;a class="header-anchor" href="#infrastructure-improvements">#&lt;/a>
+&lt;/h3>&lt;ul>
+&lt;li>Created a
+&lt;a href="http://status.2i2c.org" target="_blank" rel="noopener" >status page for all 2i2c community hubs&lt;/a>, giving our team and communities visibility into the status of our infrastructure.&lt;/li>
+&lt;li>Created an alert that triggers when two servers fail to start consecutively in a 30-minute time window.&lt;/li>
+&lt;li>Improved deployment infrastructure so that we can roll out sub-chart upgrades to individual clusters, allowing us to roll out major changes in batches.&lt;/li>
+&lt;li>Removed our &amp;ldquo;configurator&amp;rdquo; application from community hubs, because it was causing more confusion than it was resolving.&lt;/li>
+&lt;li>Allowed servers to start even when users hit their storage quotas.&lt;/li>
+&lt;li>Provided a number of upgrades to Kubernetes and the support services that we run alongside each community hub.&lt;/li>
+&lt;/ul>
+&lt;h3 id="process-improvements">
+Process improvements
+&lt;a class="header-anchor" href="#process-improvements">#&lt;/a>
+&lt;/h3>&lt;ul>
+&lt;li>Made a team commitment to prioritize issues from
+&lt;a href="https://2i2c.org/incident-reports" target="_blank" rel="noopener" >incident reports&lt;/a> and other stability-related problems.&lt;/li>
+&lt;li>Defined incident
+&lt;a href="https://infrastructure.2i2c.org/topic/monitoring-alerting/escalation-policies/" target="_blank" rel="noopener" >escalation policies&lt;/a> using the
+&lt;a href="http://status.2i2c.org" target="_blank" rel="noopener" >status page&lt;/a> to calibrate the urgency of our response to the severity of incidents.&lt;/li>
+&lt;li>Defined &amp;ldquo;on-call&amp;rdquo; procedures so our team knows when and how to be more responsive to outages.&lt;/li>
+&lt;li>Time-boxed our alert response process to avoid accidentally falling down rabbit holes for non-urgent problems.&lt;/li>
+&lt;li>Created a more reliable process for
+&lt;a href="https://infrastructure.2i2c.org/topic/monitoring-alerting/escalation-policies/" target="_blank" rel="noopener" >responding to incidents&lt;/a> and writing
+&lt;a href="https://2i2c.org/incident-reports" target="_blank" rel="noopener" >incident reports&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;h2 id="looking-forward">
+Looking forward
+&lt;a class="header-anchor" href="#looking-forward">#&lt;/a>
+&lt;/h2>&lt;p>After this push around infrastructure reliability, we&amp;rsquo;re significantly more confident in the stability and transparency of our community hub infrastructure. This will deliver better service for our member communities and free up more of our time to engage with them instead of fighting infrastructure fires.&lt;/p>
+&lt;p>We will continue to improve our infrastructure, and have a better foundation to do so incrementally in the coming quarters. Here are a few things we&amp;rsquo;d still like to improve:&lt;/p>
+&lt;ol>
+&lt;li>We still need to improve how reliably we complete follow-up actions from incidents (e.g., writing incident reports). When a process doesn&amp;rsquo;t fit into planning &amp;amp; scoping ceremonies, we struggle to follow it consistently.&lt;/li>
+&lt;li>We&amp;rsquo;d like to improve our testing framework for major upgrades across all hubs (e.g., Kubernetes version upgrades) to catch bugs before communities do.&lt;/li>
+&lt;/ol>
+&lt;h2 id="learn-more">
+Learn More
+&lt;a class="header-anchor" href="#learn-more">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;a href="https://2i2c.statuspage.io/" target="_blank" rel="noopener" >2i2c Status Page&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://infrastructure.2i2c.org/hub-deployment-guide/runbooks/on-call/" target="_blank" rel="noopener" >On-call procedures documentation&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://github.com/2i2c-org/infrastructure" target="_blank" rel="noopener" >Infrastructure repository&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Supporting NASA Openscapes Champions with Cloud Infrastructure</title><link>https://2i2c.org/blog/nasa-openscapes-champions-2025/</link><pubDate>Sun, 30 Nov 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/nasa-openscapes-champions-2025/</guid><description>&lt;p>
 &lt;a href="https://2i2c.org/collaborators/openscapes/" >Openscapes&lt;/a> ran a NASA Champions program in November, bringing 30 participants together to learn about NASA Earthdata and the earthaccess Python library. We provided JupyterHub infrastructure for hands-on breakout sessions - a good example of using shared infrastructure to facilitate learning and collaboration in remote events.&lt;/p>
 &lt;p>They used their JupyterHub for co-working, where participants practiced streaming techniques for accessing cloud data without downloading. Multiple NASA Data Centers (NSIDC, ORNL, ASDC, PO.DAAC) collaborated to co-teach using the shared environment, succeeding despite the event happening the day after a government shutdown.&lt;/p>
 &lt;p>They also used this to grow the OpenScapes community by getting attendees to join their slack and sign up for
