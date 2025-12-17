@@ -1,0 +1,38 @@
+name: Add Blog Issues to Project Board
+
+on:
+  issues:
+    types: [labeled]
+
+jobs:
+  add-to-project:
+    name: Add issue to BD Team Board
+    if: github.event.label.name == 'blog'
+    runs-on: ubuntu-latest
+    steps:
+      - name: Check if issue is already on project board
+        id: check-membership
+        env:
+          GH_TOKEN: ${{ secrets.PROJECTS_TOKEN }}
+          ISSUE_URL: ${{ github.event.issue.html_url }}
+        run: |
+          ITEMS=$(gh project item-list 61 --owner 2i2c-org --format json)
+          if echo "$ITEMS" | jq -e --arg url "$ISSUE_URL" '.items[] | select(.content.url == $url)' > /dev/null; then
+            echo "on_board=true" >> $GITHUB_OUTPUT
+          else
+            echo "on_board=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Add issue to project board
+        if: steps.check-membership.outputs.on_board == 'false'
+        env:
+          GH_TOKEN: ${{ secrets.PROJECTS_TOKEN }}
+          ISSUE_URL: ${{ github.event.issue.html_url }}
+        run: |
+          RESULT=$(gh project item-add 61 --owner 2i2c-org --url "$ISSUE_URL" --format json)
+          ITEM_ID=$(echo "$RESULT" | jq -r '.id')
+          gh project item-edit \
+            --id "$ITEM_ID" \
+            --field-id "PVTSSF_lADOA9MvIs4A46agzgtzMSI" \
+            --project-id "PVT_kwDOA9MvIs4A46ag" \
+            --single-select-option-id "7d536f8f"
