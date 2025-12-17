@@ -25,6 +25,8 @@ In short: we're now much more confident in the stability of community infrastruc
 Here's a snapshot of our new incident dashboard, which shows high-level trends for the stability of our infrastructure:
 
 ![Dashboard of pagerduty status page for 2i2c](featured.png)
+_See the real-time status of our community hubs at [status.2i2c.org](http://status.2i2c.org)_
+
 
 ### We improved infrastructure reliability for our communities
 
