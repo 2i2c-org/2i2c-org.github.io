@@ -79,6 +79,6 @@ We will continue to improve our infrastructure, and have a better foundation to 
 
 ## Learn More
 
-- [2i2c Status Page](https://2i2c.statuspage.io/)
+- [2i2c Status Page](http://status.2i2c.org/)
 - [On-call procedures documentation](https://infrastructure.2i2c.org/hub-deployment-guide/runbooks/on-call/)
 - [Infrastructure repository](https://github.com/2i2c-org/infrastructure)
