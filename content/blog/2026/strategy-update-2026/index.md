@@ -21,7 +21,7 @@ _You can check out all of [our core strategy documentation](https://compass.2i2c
 
 Frankly, it is hard to predict what the future is going to look like. 2i2c is a "second order" recipient of research funding, as our [member organizations](https://2i2c.org/members/) provide us support to manage infrastructure and facilitate open source contributions. How these institutions respond to funding cuts will have big implications for our sustainability. For example, these two outcomes both seem reasonable:
 
-- Scenario 1: Institutions cut all of their "nice to have" funding choices. That means 2i2c struggles to cover its costs under its current membership model.
+- Scenario 1: Institutions cut all of their "nice-to-have" funding choices. That means 2i2c struggles to cover its costs under its current membership model.
 - Scenario 2: Funding cuts create an increased need for shared infrastructure and services, and 2i2c is seen as a more cost-effective provider compared with bespoke self-managed infrastructure.
 
 Our goal is to learn which of these two realities will come to pass as quickly as possible, so that we can make the necessary organizational changes and get ahead of the outcomes.
@@ -30,7 +30,7 @@ We're being conservative about our hiring and team structure - we don't plan on 
 
 ## How member communities see value in our service
 
-We had a chance to test out several organizational hypothesis about the core value of our organization and service. We originally framed "premier" membership as a means of accessing "more" community hubs for larger communities. However, we learned that for many organizations "more hubs" is not what they want, even if they have a large community. It certainly isn't the core driver of value for their service.
+We had a chance to test out several organizational hypotheses about the core value of our organization and service. We originally framed "premier" membership as a means of accessing "more" community hubs for larger communities. However, we learned that for many organizations "more hubs" is not what they want, even if they have a large community. It certainly isn't the core driver of value for their service.
 
 Instead, our most successful [member organizations](https://2i2c.org/members/) seemed to view their membership as a combination of a few things:
 
@@ -38,18 +38,18 @@ Instead, our most successful [member organizations](https://2i2c.org/members/) s
 - Proximity to other people in open science and open source who they could learn from, and an ability to participate in open source spaces more effectively.
 - Managed infrastructure that acted as a technical scaffold to make iterations of development more efficient, and made new enhancements immediately accessible.
 
-Managed infrastructure was a necessary, but not sufficient, part of our value proposition. This makes sense - managed open source infrastructure is a commodity, and our organization is simply not competitive on price when it comes to commodity-level infrastructure (even with constraints like the [Right to Replicate](https://2i2c.org/right-to-replicate)). 
+Managed infrastructure was a necessary, but not sufficient, part of our value proposition. This makes sense - managed open source infrastructure is a commodity, and our organization is simply not competitive on price when it comes to commodity-level infrastructure (even with constraints like the [Right to Replicate](https://2i2c.org/right-to-replicate)).
 
 At the same time, some of the biggest successes of last year came out of deeper partnerships and development efforts that were _made more likely by membership_. For example, we deepened our collaboration with [NASA VEDA](../../../collaborators/nasa-veda/index.md) and [Development Seed](../../../collaborators/devseed/index.md) and created several interesting new pieces of technology, like [`jupyterhub-fancy-profiles`](https://2i2c.org/jupyterhub-fancy-profiles/).
 
-Historically, we've treated these kinds of deeper partnerships as "one off" opportunities that we take on a case-by-case basis. Given the impact that we've seen out of these kinds of engagements, we've decided to incorporate them into our service and sustainability strategy directly.
+Historically, we've treated these kinds of deeper partnerships as "one-off" opportunities that we take on a case-by-case basis. Given the impact that we've seen out of these kinds of engagements, we've decided to incorporate them into our service and sustainability strategy directly.
 
 ## How we're adjusting the value proposition and operations of membership
 
 We're updating our strategy to center the value of **human connection, collaboration, and development** as part of our service, and incorporating it in our business objectives as well. This is a way to dedicate more organizational resources to this kind of impactful work, and helps us hedge our bets against a slower potential growth from standardized memberships. Here are a few highlights from these changes (taken from our [core strategy](https://compass.2i2c.org/organization/#core-strategy)):
 
-- Our [theory of impact](https://compass.2i2c.org/organization/theory-of-impact/) now includes an explicit call-out to the need for 2i2c to facilitate an exchange of ideas and resources between research communities and open source communities.
-- We've adjusted language of [our strategy](https://compass.2i2c.org/organization/strategy/) such that managed infrastructure is a "necessary but not sufficient" aspect of member value. Members must be able to trust their infrastructure, but the real value comes from cycles of development and collaboration that is made _easier_ by managed infrastructure.
+- Our [theory of impact](https://compass.2i2c.org/organization/theory-of-impact/) now includes an explicit callout to the need for 2i2c to facilitate an exchange of ideas and resources between research communities and open source communities.
+- We've adjusted the language of [our strategy](https://compass.2i2c.org/organization/strategy/) such that managed infrastructure is a "necessary but not sufficient" aspect of member value. Members must be able to trust their infrastructure, but the real value comes from cycles of development and collaboration that is made _easier_ by managed infrastructure.
 - Our [key challenge](https://compass.2i2c.org/organization/strategy/#our-big-challenge) is thus building a shared "development and operations" service in a way that serves multiple communities without the cost structure of a bespoke consultancy.
 - We have a few ideas for how to do this, and a key starting point is to define a [shared roadmap](https://compass.2i2c.org/organization/strategy/#operating-principles) and a selective group of member organizations that we can engage collectively.
 
