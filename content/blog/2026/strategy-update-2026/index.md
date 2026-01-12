@@ -11,13 +11,13 @@ tags:
   - strategy
 ---
 
-In finishing 2025, we were excited to incorporate some of the major lessons we learned at a strategic perspective, and update our organizational documentation accordingly. Here's a quick rundown of what we learned and how we're adjusting.
+As we wrapped up 2025, we felt compelled to incorporate what we learned over the year into our strategic direction, and to update our organizational documentation accordingly. Here's a quick rundown of what we learned and how we're adjusting.
 
 _You can check out all of [our core strategy documentation](https://compass.2i2c.org/organization/#core-strategy) in our Team Compass._
 
 ## The macro view from 2025
 
-2025 was a disruptive year. The new political and economic climate sheds a lot of uncertainty onto how the research and education space will be resourced and structured moving forward. Federal funding seems less likely in general, and private philanthropy has become more competitive as many organizations turn to these funding sources to make up the gap that the government has left.
+2025 was a disruptive year. The shifting political and economic climate creates a lot of uncertainty around how the research and education space will be resourced and structured moving forward. Federal funding seems less likely in general, and private philanthropy has become more competitive as many organizations turn to these funding sources to make up the gap that the government has left.
 
 Frankly, it is hard to predict what the future is going to look like. 2i2c is a "second order" recipient of research funding, as our [member organizations](https://2i2c.org/members/) provide us support to manage infrastructure and facilitate open source contributions. How these institutions respond to funding cuts will have big implications for our sustainability. For example, these two outcomes both seem reasonable:
 
