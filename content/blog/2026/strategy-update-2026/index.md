@@ -48,12 +48,24 @@ Historically, we've treated these kinds of deeper partnerships as "one-off" oppo
 
 ## How we're adjusting the value proposition and operations of membership
 
-We're updating our strategy to center the value of **human connection, collaboration, and development** as part of our service, and incorporating it in our business objectives as well. This is a way to dedicate more organizational resources to this kind of impactful work, and helps us hedge our bets against a slower potential growth from standardized memberships. Here are a few highlights from these changes (taken from our [core strategy](https://compass.2i2c.org/organization/#core-strategy)):
+We're updating our strategy to center the value of **human connection, collaboration, and development** as part of our service, and incorporating it in our business objectives as well. This is a way to dedicate more organizational resources to this kind of impactful work, and helps us hedge our bets against a slower potential growth from standardized memberships. 
+
+Here are a few highlights from these changes (taken from our [core strategy](https://compass.2i2c.org/organization/#core-strategy)):
 
 - Our [theory of impact](https://compass.2i2c.org/organization/theory-of-impact/) now includes an explicit callout to the need for 2i2c to facilitate an exchange of ideas and resources between research communities and open source communities.
 - We've adjusted the language of [our strategy](https://compass.2i2c.org/organization/strategy/) such that managed infrastructure is a "necessary but not sufficient" aspect of member value. Members must be able to trust their infrastructure, but the real value comes from cycles of development and collaboration that is made _easier_ by managed infrastructure.
 - Our [key challenge](https://compass.2i2c.org/organization/strategy/#our-big-challenge) is thus building a shared "development and operations" service in a way that serves multiple communities without the cost structure of a bespoke consultancy.
 - We have a few ideas for how to do this, and a key starting point is to define a [shared roadmap](https://compass.2i2c.org/organization/strategy/#operating-principles) and a selective group of member organizations that we can engage collectively.
+
+Or, if you'd like to just get a quick summary, here is the strategic approach that we've defined for the team:
+
+> We serve independent communities with a single roadmap and service team.
+> 
+> Operations must use the same 80% infrastructure stack across all communities. Say no to communities that need infrastructure that deviates from this rule.
+> 
+> Development work must be attached to roadmap items. Roadmap items must deliver value to many communities instead of just one. Say no to project opportunities that deviate from this rule.
+
+Our assumption is that by constraining ourselves to serve multiple member communities, we'll force ourselves to make the technology useful for the broader open source user ecosystem as well. By choosing communities that are aligned in their workflows and values, we'll be able to do this with a single team and roadmap in a cost-effective way.
 
 ## Hypotheses we'd like to test next
 
