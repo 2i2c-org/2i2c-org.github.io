@@ -1,7 +1,7 @@
 ---
-title: How we're updating our strategy after 2025
+title: "2026 Strategy Update: An increased focus on co-creation"
 slug: "strategy-update-after-2025"
-date: 2026-01-08
+date: 2026-01-12
 categories:
   - organization
 authors:
@@ -61,4 +61,8 @@ You can find more information about how we're operationalizing this in [our serv
 - _By engaging member communities in this way, we will have a significant new stream of revenue to sustain the organization while making open source improvements that are broadly useful._
 - _By engaging member communities in this way, we'll be able to advertise the value of this service as collectively improving a public good. This will increase our hit-rate for new member growth and participation._
 
-2026 is going to be a pivotal year for the organization - I suspect it'll force us to either double down on our current sustainability model, or to pivot towards something that is lighter given the new funding realities that the sector is facing. We're excited to lean into this more active and collaborative aspect of our service, and we're confident this will be more impactful for our member organizations, and for the broader ecosystem. We'll keep folks updated with our progress via [our blog](https://2i2c.org/blog) and [our mailing list](https://2i2c.org/mailing-list) as always.
+## What we're watching for in 2026
+
+2026 is going to be a pivotal year for the organization - I suspect it'll force us to either double down on our current sustainability model, or to pivot towards something that is lighter given the new funding realities that the sector is facing. We watching our for whether research institutions begin cancelling or scaling back their contract work _en-masse_, and we're also being mindful for whether our assumptions about a "shared roadmap" across our communities are actually delivering the value to them that we'd expect.
+
+We're excited to lean into this more active and collaborative aspect of our service. We're confident this will be more impactful for our member organizations, and for the broader ecosystem. We'll keep folks updated with our progress via [our blog](https://2i2c.org/blog) and [our mailing list](https://2i2c.org/mailing-list) as always.
