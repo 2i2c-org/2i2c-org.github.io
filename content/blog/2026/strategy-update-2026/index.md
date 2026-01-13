@@ -19,6 +19,8 @@ _You can check out all of [our core strategy documentation](https://compass.2i2c
 
 2025 was a disruptive year. The new political and economic climate sheds a lot of uncertainty onto how the research and education space will be resourced and structured moving forward. Federal funding seems less likely in general, and private philanthropy has become more competitive as many organizations turn to these funding sources to make up the gap that the government has left.
 
+At its core, this makes us more confident in our sustainability strategy, which is rooted in a self-sustaining service that delivers value to _many different_ member organizations in exchange for funds to support our operations. In 2024 we [received funding from The Navigation Fund](../../2024/funding-navigation/) to build this model, and it's the path we've been exploring over the last year. We like the fact that this spreads the financial risk across many different organizations, rather than depending strategically on a single donor or government agency. That said, there may still be sector-wide changes that cause the entire ecosystem of research organizations to change behavior at once.
+
 Frankly, it is hard to predict what the future is going to look like. 2i2c is a "second order" recipient of research funding, as our [member organizations](https://2i2c.org/members/) provide us support to manage infrastructure and facilitate open source contributions. How these institutions respond to funding cuts will have big implications for our sustainability. For example, these two outcomes both seem reasonable:
 
 - Scenario 1: Institutions cut all of their "nice-to-have" funding choices. That means 2i2c struggles to cover its costs under its current membership model.
@@ -35,7 +37,7 @@ We had a chance to test out several organizational hypotheses about the core val
 Instead, our most successful [member organizations](https://2i2c.org/members/) seemed to view their membership as a combination of a few things:
 
 - Collaboration with our team, and the ability to work with us in shaping and delivering open source work.
-- Proximity to other people in open science and open source who they could learn from, and an ability to participate in open source spaces more effectively.
+- Proximity to others to learn from in open science and open source, and an ability to participate in open source spaces more effectively.
 - Managed infrastructure that acted as a technical scaffold to make iterations of development more efficient, and made new enhancements immediately accessible.
 
 Managed infrastructure was a necessary, but not sufficient, part of our value proposition. This makes sense - managed open source infrastructure is a commodity, and our organization is simply not competitive on price when it comes to commodity-level infrastructure (even with constraints like the [Right to Replicate](https://2i2c.org/right-to-replicate)).
