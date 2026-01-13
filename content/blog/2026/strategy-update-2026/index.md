@@ -11,13 +11,13 @@ tags:
   - strategy
 ---
 
-In finishing 2025, we were excited to incorporate some of the major lessons we learned at a strategic perspective, and update our organizational documentation accordingly. Here's a quick rundown of what we learned and how we're adjusting.
+As we wrapped up 2025, we felt compelled to incorporate what we learned over the year into our strategic direction, and to update our organizational documentation accordingly. Here's a quick rundown of what we learned and how we're adjusting.
 
 _You can check out all of [our core strategy documentation](https://compass.2i2c.org/organization/#core-strategy) in our Team Compass._
 
 ## The macro view from 2025
 
-2025 was a disruptive year. The new political and economic climate sheds a lot of uncertainty onto how the research and education space will be resourced and structured moving forward. Federal funding seems less likely in general, and private philanthropy has become more competitive as many organizations turn to these funding sources to make up the gap that the government has left.
+2025 was a disruptive year. The shifting political and economic climate creates a lot of uncertainty around how the research and education space will be resourced and structured moving forward. Federal funding seems less likely in general, and private philanthropy has become more competitive as many organizations turn to these funding sources to make up the gap that the government has left.
 
 At its core, this makes us more confident in our sustainability strategy, which is rooted in a self-sustaining service that delivers value to _many different_ member organizations in exchange for funds to support our operations. In 2024 we [received funding from The Navigation Fund](../../2024/funding-navigation/) to build this model, and it's the path we've been exploring over the last year. We like the fact that this spreads the financial risk across many different organizations, rather than depending strategically on a single donor or government agency. That said, there may still be sector-wide changes that cause the entire ecosystem of research organizations to change behavior at once.
 
@@ -79,6 +79,6 @@ You can find more information about how we're operationalizing this in [our serv
 
 ## What we're watching for in 2026
 
-2026 is going to be a pivotal year for the organization - I suspect it'll force us to either double down on our current sustainability model, or to pivot towards something that is lighter given the new funding realities that the sector is facing. We watching our for whether research institutions begin cancelling or scaling back their contract work _en-masse_, and we're also being mindful for whether our assumptions about a "shared roadmap" across our communities are actually delivering the value to them that we'd expect.
+2026 is going to be a pivotal year for the organization - I suspect it'll force us to either double down on our current sustainability model, or to pivot towards something that is lighter given the new funding realities that the sector is facing. We are watching for whether research institutions begin cancelling or scaling back their contract work _en-masse_, and we're also being mindful for whether our assumptions about a "shared roadmap" across our communities are actually delivering the value to them that we'd expect.
 
 We're excited to lean into this more active and collaborative aspect of our service. We're confident this will be more impactful for our member organizations, and for the broader ecosystem. We'll keep folks updated with our progress via [our blog](https://2i2c.org/blog) and [our mailing list](https://2i2c.org/mailing-list) as always.
