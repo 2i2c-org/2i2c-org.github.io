@@ -10,7 +10,7 @@ tags:
   - learning
 ---
 
-We recently enabled [CloudBank](/collaborators/cloudbank) to run Terraform changes for their cluster without needing to wait on 2i2c engineers for each request. The initial motivator was provisioning home-directory storage disks for new community hubs, and we wanted to empower them to solve similar problems in the future.
+We recently enabled [CloudBank](/collaborators/cloudbank) to run Terraform changes for their cluster without needing to wait on 2i2c engineers for each request. They run 50+ hubs for various community colleges, and we want to enable them to self serve as much of that as possible. When we introduced home directory quotas, they were no longer able to set up hubs by themselves without help from 2i2c engineers. Our goal was to empower them to be able to set up new hubs in a safe way while still benefiting from the home directory limits work.
 
 {{< figure src="featured.png" caption="CloudBank simplifies cloud access for computer science research and education.">}}
 
