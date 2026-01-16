@@ -19,7 +19,7 @@ We've improved how quickly hub administrators can see user home directory sizes 
 
 Our existing storage monitoring tool, [`prometheus-dirsize-exporter`](https://github.com/2i2c-org/prometheus-dirsize-exporter), deliberately runs slowly to avoid excessive disk I/O. This meant home directory metrics could be **hours out of date** on systems with many users or large directories. Plus, there was no way to report user quota limits at all.
 
-Our home directory storage is managed by [`jupyterhub-home-nfs`](https://github.com/2i2c-org/jupyterhub-home-nfs/), which enforces per-user quotas. It can also expose usage and limit information as Prometheus metrics using data from the underlying filesystem quota system ([XFS](https://en.wikipedia.org/wiki/XFS) in our deployments). Because this information is already tracked by the filesystem, it's available immediately without scanning individual files.
+Our home directory storage is managed by [`jupyterhub-home-nfs`](https://github.com/2i2c-org/jupyterhub-home-nfs/), which enforces per-user quotas. It could also expose usage and limit information as Prometheus metrics using data from the underlying filesystem quota system. Because this information is already tracked by the filesystem, it's available immediately without scanning individual files.
 
 We made two key improvements:
 
