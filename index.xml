@@ -1,4 +1,38 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2i2c</title><link>https://2i2c.org/</link><atom:link href="https://2i2c.org/index.xml" rel="self" type="application/rss+xml"/><description>2i2c</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 20 Jan 2026 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>2i2c</title><link>https://2i2c.org/</link></image><item><title>2026 Strategy Update: An increased focus on co-creation</title><link>https://2i2c.org/blog/strategy-update-after-2025/</link><pubDate>Mon, 12 Jan 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/strategy-update-after-2025/</guid><description>&lt;p>As we wrapped up 2025, we felt compelled to incorporate what we learned over the year into our strategic direction, and to update our organizational documentation accordingly. Here&amp;rsquo;s a quick rundown of what we learned and how we&amp;rsquo;re adjusting.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2i2c</title><link>https://2i2c.org/</link><atom:link href="https://2i2c.org/index.xml" rel="self" type="application/rss+xml"/><description>2i2c</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 20 Jan 2026 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>2i2c</title><link>https://2i2c.org/</link></image><item><title>Enabling CloudBank to safely manage their own cluster infrastructure</title><link>https://2i2c.org/blog/cloudbank-self-service/</link><pubDate>Tue, 20 Jan 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/cloudbank-self-service/</guid><description>&lt;p>We recently enabled
+&lt;a href="https://2i2c.org/collaborators/cloudbank/" >CloudBank&lt;/a> to run Terraform changes for their cluster without needing to wait on 2i2c engineers for each request. They run 50+ hubs for various community colleges, and we want to enable them to self serve as much of that as possible. When we introduced home directory quotas, they were no longer able to set up hubs by themselves without help from 2i2c engineers. Our goal was to empower them to be able to set up new hubs in a safe way while still benefiting from the home directory limits work.&lt;/p>
+&lt;figure id="figure-cloudbank-simplifies-cloud-access-for-computer-science-research-and-education">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="CloudBank simplifies cloud access for computer science research and education." srcset="
+/blog/cloudbank-self-service/featured_hu47b0024f802a2569dc8459bb45285f77_14544_505142d1d03b49aba40a39c3543786fb.webp 400w,
+/blog/cloudbank-self-service/featured_hu47b0024f802a2569dc8459bb45285f77_14544_19848883e58d82235033f5dce74db4d8.webp 760w,
+/blog/cloudbank-self-service/featured_hu47b0024f802a2569dc8459bb45285f77_14544_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/cloudbank-self-service/featured_hu47b0024f802a2569dc8459bb45285f77_14544_505142d1d03b49aba40a39c3543786fb.webp"
+width="411"
+height="88"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+CloudBank simplifies cloud access for computer science research and education.
+&lt;/figcaption>&lt;/figure>
+&lt;p>To do this safely, we needed to avoid granting access to shared Terraform state that could impact other communities. Following
+&lt;a href="https://github.com/2i2c-org/infrastructure/pull/6797#pullrequestreview-3246004031" target="_blank" rel="noopener" >Yuvi&amp;rsquo;s suggestion&lt;/a>, we migrated CloudBank&amp;rsquo;s Terraform state to CloudBank’s own GCP project so that infrastructure changes from the CloudBank team are isolated to their cluster only, making this safe to try. This unblocks CloudBank to run changes like &lt;code>terraform plan&lt;/code> and &lt;code>terraform apply&lt;/code> themselves, meaning that CloudBank can deploy and update a hub without 2i2c engineers in the loop.&lt;/p>
+&lt;p>This is a good example of how we aim to balance &lt;strong>community autonomy&lt;/strong> with &lt;strong>infrastructure safety&lt;/strong>. CloudBank can now self-serve routine operations while our broader infrastructure remains protected.&lt;/p>
+&lt;h2 id="learn-more">
+Learn more
+&lt;a class="header-anchor" href="#learn-more">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;a href="https://github.com/2i2c-org/infrastructure/issues/6795" target="_blank" rel="noopener" >The infrastructure issue describing this work&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://github.com/2i2c-org/infrastructure/pull/7339" target="_blank" rel="noopener" >A hub deployed by CloudBank using this workflow&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>Thanks to Sean Morris and the
+&lt;a href="https://2i2c.org/collaborators/cloudbank/" >CloudBank&lt;/a> team at
+&lt;a href="https://2i2c.org/collaborators/bids/" >UC Berkeley&lt;/a> for collaborating on this workflow.&lt;/li>
+&lt;/ul></description></item><item><title>2026 Strategy Update: An increased focus on co-creation</title><link>https://2i2c.org/blog/strategy-update-after-2025/</link><pubDate>Mon, 12 Jan 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/strategy-update-after-2025/</guid><description>&lt;p>As we wrapped up 2025, we felt compelled to incorporate what we learned over the year into our strategic direction, and to update our organizational documentation accordingly. Here&amp;rsquo;s a quick rundown of what we learned and how we&amp;rsquo;re adjusting.&lt;/p>
 &lt;p>&lt;em>You can check out all of
 &lt;a href="https://compass.2i2c.org/organization/#core-strategy" target="_blank" rel="noopener" >our core strategy documentation&lt;/a> in our Team Compass.&lt;/em>&lt;/p>
 &lt;h2 id="the-macro-view-from-2025">
@@ -211,6 +245,18 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;figcaption>
 Home Directory Usage dashboard showing total size metrics from jupyterhub-home-nfs and other data from prometheus-dirsize-exporter
 &lt;/figcaption>&lt;/figure>
+&lt;h2 id="try-it-out">
+Try it out
+&lt;a class="header-anchor" href="#try-it-out">#&lt;/a>
+&lt;/h2>&lt;p>2i2c member organizations can try this out now. If you have access to your hub&amp;rsquo;s Grafana instance, you can see these new metrics in the &lt;em>Home Directory Usage&lt;/em> dashboard:&lt;/p>
+&lt;ol>
+&lt;li>Open your hub&amp;rsquo;s
+&lt;a href="https://docs.2i2c.org/admin/monitoring/grafana-dashboards/" target="_blank" rel="noopener" >Grafana dashboard&lt;/a>.&lt;/li>
+&lt;li>Go to &lt;code>Dashboards&lt;/code> -&amp;gt; &lt;code>JupyterHub Default Dashboards&lt;/code> -&amp;gt; &lt;code>Home Directory Usage&lt;/code>.&lt;/li>
+&lt;li>Check the table for up-to-date &lt;em>total size&lt;/em> and &lt;em>quota limit&lt;/em> values.&lt;/li>
+&lt;/ol>
+&lt;p>For more details, see our
+&lt;a href="https://docs.2i2c.org/admin/monitoring/disk-usage/" target="_blank" rel="noopener" >docs on filesystem and disk dashboards&lt;/a>.&lt;/p>
 &lt;h2 id="coming-next">
 Coming next
 &lt;a class="header-anchor" href="#coming-next">#&lt;/a>
@@ -9838,9 +9884,9 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;div class="col-sm-6 col-md-4 col-lg-3">
 &lt;div class="card border-0" style="background-color: #f8f9fa;">
 &lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
-&lt;a href="https://staging.hub.disasters.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
-&lt;img src="https://2i2c.org/members/images/nasa_disasters_program.png" alt="NASA Disasters Program" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
-&lt;small class="text-dark fw-medium">NASA Disasters Program&lt;/small>
+&lt;a href="https://must.af.catalystproject.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
+&lt;img src="https://2i2c.org/members/images/must.png" alt="MUST" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
+&lt;small class="text-dark fw-medium">MUST&lt;/small>
 &lt;/a>
 &lt;/div>
 &lt;/div>

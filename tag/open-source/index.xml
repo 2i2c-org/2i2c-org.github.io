@@ -34,6 +34,18 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;figcaption>
 Home Directory Usage dashboard showing total size metrics from jupyterhub-home-nfs and other data from prometheus-dirsize-exporter
 &lt;/figcaption>&lt;/figure>
+&lt;h2 id="try-it-out">
+Try it out
+&lt;a class="header-anchor" href="#try-it-out">#&lt;/a>
+&lt;/h2>&lt;p>2i2c member organizations can try this out now. If you have access to your hub&amp;rsquo;s Grafana instance, you can see these new metrics in the &lt;em>Home Directory Usage&lt;/em> dashboard:&lt;/p>
+&lt;ol>
+&lt;li>Open your hub&amp;rsquo;s
+&lt;a href="https://docs.2i2c.org/admin/monitoring/grafana-dashboards/" target="_blank" rel="noopener" >Grafana dashboard&lt;/a>.&lt;/li>
+&lt;li>Go to &lt;code>Dashboards&lt;/code> -&amp;gt; &lt;code>JupyterHub Default Dashboards&lt;/code> -&amp;gt; &lt;code>Home Directory Usage&lt;/code>.&lt;/li>
+&lt;li>Check the table for up-to-date &lt;em>total size&lt;/em> and &lt;em>quota limit&lt;/em> values.&lt;/li>
+&lt;/ol>
+&lt;p>For more details, see our
+&lt;a href="https://docs.2i2c.org/admin/monitoring/disk-usage/" target="_blank" rel="noopener" >docs on filesystem and disk dashboards&lt;/a>.&lt;/p>
 &lt;h2 id="coming-next">
 Coming next
 &lt;a class="header-anchor" href="#coming-next">#&lt;/a>
