@@ -31,6 +31,16 @@ These changes were [deployed across all our communities](https://github.com/2i2c
 
 {{< figure src="featured.png" title="Home Directory Usage dashboard showing total size metrics from jupyterhub-home-nfs and other data from prometheus-dirsize-exporter">}}
 
+## Try it out
+
+2i2c member organizations can try this out now. If you have access to your hub's Grafana instance, you can see these new metrics in the _Home Directory Usage_ dashboard:
+
+1. Open your hub's [Grafana dashboard](https://docs.2i2c.org/admin/monitoring/grafana-dashboards/).
+2. Go to `Dashboards` -> `JupyterHub Default Dashboards` -> `Home Directory Usage`.
+3. Check the table for up-to-date *total size* and *quota limit* values.
+
+For more details, see our [docs on filesystem and disk dashboards](https://docs.2i2c.org/admin/monitoring/disk-usage/).
+
 ## Coming next
 
 We'd like to build on this work to enable **alerting when individual users near their disk quotas**. This will make it easier to more reliably track user disk usage across a community. See this issue for tracking: https://github.com/2i2c-org/infrastructure/issues/7166
