@@ -25,7 +25,7 @@ https://2i2c.org/roadmap
 At 2i2c, [initiatives drive most of our work](LINK).
 They represent major chunks of value with multiple steps needed to implement and unlock it.
 They range from making core infrastructure improvements to our member network to making upstream contributions that enable new functionality on behalf of our member communities.
-While initiaties are generally public, we've managed their prioritization, sequencing, and refinement in internal team spaces.
+While initiatves are generally public, we've managed their prioritization, sequencing, and refinement in internal team spaces.
 This made it difficult for others to follow along, signal-boost, and potentially support initiatives they wanted to see done.
 
 For this reason, we decided to build a _public view of our initiatives roadmap_ (https://2i2c.org/roadmap). This reflects our current team priorities, and what is coming down the pipeline. By opening this up, we hope to accomplish these goals:
