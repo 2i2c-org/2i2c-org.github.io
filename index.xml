@@ -1,4 +1,15 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2i2c</title><link>https://2i2c.org/</link><atom:link href="https://2i2c.org/index.xml" rel="self" type="application/rss+xml"/><description>2i2c</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 20 Jan 2026 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>2i2c</title><link>https://2i2c.org/</link></image><item><title>Enabling CloudBank to safely manage their own cluster infrastructure</title><link>https://2i2c.org/blog/cloudbank-self-service/</link><pubDate>Tue, 20 Jan 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/cloudbank-self-service/</guid><description>&lt;p>We recently enabled
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2i2c</title><link>https://2i2c.org/</link><atom:link href="https://2i2c.org/index.xml" rel="self" type="application/rss+xml"/><description>2i2c</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 23 Jan 2026 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>2i2c</title><link>https://2i2c.org/</link></image><item><title>April joins the Jupyter Community Building Working Group</title><link>https://2i2c.org/blog/april-jupyter-community-building/</link><pubDate>Fri, 23 Jan 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/april-jupyter-community-building/</guid><description>&lt;p>We&amp;rsquo;re pleased to share that our People Operations Lead,
+&lt;a href="https://2i2c.org/author/april-johnson/" >April Johnson&lt;/a>, has joined the
+&lt;a href="https://jupyter.org/governance/communitybuildingworkinggroup.html" target="_blank" rel="noopener" >Jupyter Community Building Working Group&lt;/a>!&lt;/p>
+&lt;p>This kind of work reflects how we think about
+&lt;a href="https://2i2c.org/blog/april-jupyter-community-building/../../2025/foundational-contributions/" >foundational contributions&lt;/a> and upstream support: strengthening the social infrastructure that helps open source communities grow and thrive, not just contributing code and running infrastructure. April brings deep experience building teams and communities, and we’re proud to support her upstream efforts in this way.&lt;/p>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>Thanks to the
+&lt;a href="https://2i2c.org/collaborators/jupyter/" >Jupyter&lt;/a> Community Building Working Group for their leadership in building a stronger Jupyter community, and for welcoming April&lt;/li>
+&lt;/ul></description></item><item><title>Enabling CloudBank to safely manage their own cluster infrastructure</title><link>https://2i2c.org/blog/cloudbank-self-service/</link><pubDate>Tue, 20 Jan 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/cloudbank-self-service/</guid><description>&lt;p>We recently enabled
 &lt;a href="https://2i2c.org/collaborators/cloudbank/" >CloudBank&lt;/a> to run Terraform changes for their cluster without needing to wait on 2i2c engineers for each request. They run 50+ hubs for various community colleges, and we want to enable them to self serve as much of that as possible. When we introduced home directory quotas, they were no longer able to set up hubs by themselves without help from 2i2c engineers. Our goal was to empower them to be able to set up new hubs in a safe way while still benefiting from the home directory limits work.&lt;/p>
 &lt;figure id="figure-cloudbank-simplifies-cloud-access-for-computer-science-research-and-education">
 &lt;div class="d-flex justify-content-center">
@@ -9714,6 +9725,16 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;div class="col-sm-6 col-md-4 col-lg-3">
 &lt;div class="card border-0" style="background-color: #f8f9fa;">
 &lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
+&lt;a href="https://foothill.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
+&lt;img src="https://2i2c.org/members/images/foothill_college.png" alt="Foothill College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
+&lt;small class="text-dark fw-medium">Foothill College&lt;/small>
+&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="col-sm-6 col-md-4 col-lg-3">
+&lt;div class="card border-0" style="background-color: #f8f9fa;">
+&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
 &lt;a href="https://fresno.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/fresno_city_college.png" alt="Fresno City College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">Fresno City College&lt;/small>
@@ -9877,16 +9898,6 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;a href="https://must.af.catalystproject.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/must.png" alt="MUST" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">MUST&lt;/small>
-&lt;/a>
-&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;div class="col-sm-6 col-md-4 col-lg-3">
-&lt;div class="card border-0" style="background-color: #f8f9fa;">
-&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
-&lt;a href="https://staging.hub.disasters.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
-&lt;img src="https://2i2c.org/members/images/nasa_disasters_program.png" alt="NASA Disasters Program" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
-&lt;small class="text-dark fw-medium">NASA Disasters Program&lt;/small>
 &lt;/a>
 &lt;/div>
 &lt;/div>
