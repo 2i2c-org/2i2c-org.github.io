@@ -1,7 +1,7 @@
 ---
 title: April joins the Jupyter Community Building Working Group
 slug: "april-jupyter-community-building"
-date: 2026-12-25
+date: 2026-01-23
 tags:
   - open-source
   - community
