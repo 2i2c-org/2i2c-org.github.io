@@ -9359,7 +9359,7 @@ Grants that fund this collaboration
 &lt;/h2>&lt;ul>
 &lt;li>In cooperation with NFDI4DS, (project number:
 &lt;a href="https://gepris.dfg.de/gepris/projekt/460234259?context=projekt&amp;amp;task=showDetail&amp;amp;id=460234259&amp;amp;" target="_blank" rel="noopener" >460234259&lt;/a>)&lt;/li>
-&lt;/ul></description></item><item><title>Give us an idea for the 2i2c blog</title><link>https://2i2c.org/blog/give-us-an-idea-for-the-2i2c-blog/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/give-us-an-idea-for-the-2i2c-blog/</guid><description>&lt;p>We use our blog to
+&lt;/ul></description></item><item><title>Give us an idea for the 2i2c blog</title><link>https://2i2c.org/blog/idea/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/idea/</guid><description>&lt;p>We use our blog to
 &lt;a href="https://2i2c.org/blog/communications-strategy/" >highlight the impact we&amp;rsquo;ve had&lt;/a>.
 Many of these ideas come directly from member and upstream communities! &lt;strong>We strongly encourage any of our collaborators to submit an idea for a blog post by clicking the button below&lt;/strong>.&lt;/p>
 &lt;!-- This is so the article metadata doesn't show up at the top of the page -->
@@ -9374,7 +9374,7 @@ display: none;
 &lt;/li>
 &lt;/ul>
 &lt;p>We want our blog posts to be short, direct, and low-effort (see our
-&lt;a href="https://2i2c.org/blog/give-us-an-idea-for-the-2i2c-blog/../../../contribute/blog.md" >blog guide&lt;/a> for guidance).
+&lt;a href="https://2i2c.org/blog/idea/../../../contribute/blog.md" >blog guide&lt;/a> for guidance).
 Time-box yourself at 2-3 minutes, don&amp;rsquo;t worry if it isn&amp;rsquo;t perfect!&lt;/p>
 &lt;p>If you&amp;rsquo;d like to fill in the template and share it via Slack or e-mail, that&amp;rsquo;s fine too!
 Here&amp;rsquo;s a markdown block you can copy.&lt;/p>
@@ -9714,16 +9714,6 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;div class="col-sm-6 col-md-4 col-lg-3">
 &lt;div class="card border-0" style="background-color: #f8f9fa;">
 &lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
-&lt;a href="https://foothill.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
-&lt;img src="https://2i2c.org/members/images/foothill_college.png" alt="Foothill College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
-&lt;small class="text-dark fw-medium">Foothill College&lt;/small>
-&lt;/a>
-&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;div class="col-sm-6 col-md-4 col-lg-3">
-&lt;div class="card border-0" style="background-color: #f8f9fa;">
-&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
 &lt;a href="https://fresno.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/fresno_city_college.png" alt="Fresno City College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">Fresno City College&lt;/small>
@@ -9887,6 +9877,16 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;a href="https://must.af.catalystproject.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/must.png" alt="MUST" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">MUST&lt;/small>
+&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="col-sm-6 col-md-4 col-lg-3">
+&lt;div class="card border-0" style="background-color: #f8f9fa;">
+&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
+&lt;a href="https://staging.hub.disasters.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
+&lt;img src="https://2i2c.org/members/images/nasa_disasters_program.png" alt="NASA Disasters Program" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
+&lt;small class="text-dark fw-medium">NASA Disasters Program&lt;/small>
 &lt;/a>
 &lt;/div>
 &lt;/div>
@@ -10097,6 +10097,16 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;a href="https://uchicago.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/university_of_chicago.svg" alt="University of Chicago" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">University of Chicago&lt;/small>
+&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="col-sm-6 col-md-4 col-lg-3">
+&lt;div class="card border-0" style="background-color: #f8f9fa;">
+&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
+&lt;a href="https://umd.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
+&lt;img src="https://2i2c.org/members/images/university_of_maryland.svg" alt="University of Maryland" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
+&lt;small class="text-dark fw-medium">University of Maryland&lt;/small>
 &lt;/a>
 &lt;/div>
 &lt;/div>
