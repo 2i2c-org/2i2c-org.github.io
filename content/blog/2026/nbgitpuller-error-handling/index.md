@@ -74,9 +74,8 @@ New improvements to the UX include:
 - there is a copy to clipboard button to easily share the error log from the terminal
 - more user-friendly and context aware helper message is displayed
 - a link to the general documentation for reference
-- in the case of merge errors, two button options are presented:
-  - Backup and resync
-  - Proceed without syncing
+- a 'Proceed without syncing' button take the user to the compute platform without making any changes
+- in the case of merge errors and extra Backup and resync button option is presented
 
 ## Learn more
 
