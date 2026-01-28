@@ -14,11 +14,11 @@ draft: false
 
 ## What happened
 
-The STRUDEL team hosted an all-day workshop with over thirty participants prototyping web applications using the [STRUDEL Design System](https://strudel.science/strudel-kit/docs/) and AI assistants in a custom [2i2c](https://2i2c.org/) hub environment. By the end of the day, all of the participants had a working prototype that incorporated their own data or dummy data into complex flows facilitated by the STRUDEL Design System.
+The STRUDEL team hosted an all-day workshop with over thirty participants prototyping web applications using the [STRUDEL Design System](https://strudel.science/strudel-kit/docs/) and AI assistants in a custom hub environment designed and managed by 2i2c. By the end of the day, all of the participants had a working prototype that incorporated their own data (or dummy data) into complex flows facilitated by the STRUDEL Design System.
 
 ![Workshop participants collaborating](featured.png)
 
-After a brief introduction to STRUDEL, participants were guided on setting up their personal coding environments using the STRUDEL 2i2c Hub. The hub was configured to launch a unique code repository for each participant that was set up pre-workshop on the [strudel-workshops](https://github.com/strudel-workshops) GitHub organization.
+After a brief introduction to STRUDEL, participants were guided on setting up their personal coding environments using the STRUDEL Hub that 2i2c managed. The hub was configured to launch a unique code repository for each participant that was set up pre-workshop on the [strudel-workshops](https://github.com/strudel-workshops) GitHub organization.
 
 > "Having a startup environment was very nice, as often getting a good development environment set up is half the battle for smaller projects."
 
@@ -36,7 +36,7 @@ The day was split up into four sprints during which participants worked on diffe
 
 We think it's a great example of setting up a complex environment once, and then providing rapid access to these environments via a centralized hub.
 
-This setup accelerated prototyping by removing the burden of setting up a development environment. The setup enabled participants, many of whom had never coded a web application or used an AI coding assistant before, to work seamlessly towards the goals of their web application. The work they produced may continue beyond the workshop and have an impact on scientific discovery and operations.
+This setup accelerated prototyping by removing the burden of setting up a development environment. The setup enabled participants, many of whom had never coded a web application or used an AI coding assistant before, to work seamlessly towards the goals of their design and development projects. The work they produced may continue beyond the workshop and have an impact on scientific discovery and operations.
 
 This setup is a valuable mechanism for encouraging people to build within a pre-existing design system. Being able to launch repositories that are preconfigured with design system tools and templates is a powerful way to promote the adoption of a design system and its embedded patterns and best practices.
 
