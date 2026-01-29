@@ -1,7 +1,7 @@
 ---
 title: "New Jupyter Book / MyST stack release (Jan 2026)"
 slug: "jupyter-book-release-jan-2026"
-date: 2026-01-27
+date: 2026-01-29
 authors:
   - Chris Holdgraf
 categories:
