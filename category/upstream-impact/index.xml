@@ -1,4 +1,37 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Upstream-Impact | 2i2c</title><link>https://2i2c.org/category/upstream-impact/</link><atom:link href="https://2i2c.org/category/upstream-impact/index.xml" rel="self" type="application/rss+xml"/><description>Upstream-Impact</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 19 Nov 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Upstream-Impact</title><link>https://2i2c.org/category/upstream-impact/</link></image><item><title>Yuvi on scaling maintainer intuition to facilitate PR review with PR triage boards</title><link>https://2i2c.org/blog/pr-triage-boards/</link><pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/pr-triage-boards/</guid><description>&lt;p>Yuvi has a recent post on the
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Upstream-Impact | 2i2c</title><link>https://2i2c.org/category/upstream-impact/</link><atom:link href="https://2i2c.org/category/upstream-impact/index.xml" rel="self" type="application/rss+xml"/><description>Upstream-Impact</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 29 Jan 2026 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Upstream-Impact</title><link>https://2i2c.org/category/upstream-impact/</link></image><item><title>New Jupyter Book / MyST stack release (Jan 2026)</title><link>https://2i2c.org/blog/jupyter-book-release-jan-2026/</link><pubDate>Thu, 29 Jan 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/jupyter-book-release-jan-2026/</guid><description>&lt;p>The MyST/Jupyter Book stack shipped new releases this week. Release pages:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="https://github.com/jupyter-book/mystmd/releases/tag/mystmd%401.8.0" target="_blank" rel="noopener" >mystmd 1.8.0&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://github.com/jupyter-book/myst-theme/releases/tag/myst-to-react%401.1.0" target="_blank" rel="noopener" >myst-theme 1.1.0&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://github.com/jupyter-book/jupyter-book/releases/tag/v2.1.1" target="_blank" rel="noopener" >Jupyter Book 2.1.1&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="where-we-contributed">
+Where we contributed
+&lt;a class="header-anchor" href="#where-we-contributed">#&lt;/a>
+&lt;/h2>&lt;p>We&amp;rsquo;ve spent extra time lately trying to fix bugs and generally improve stability, reliability, and UX papercuts.
+Here are some of the things we focused on:&lt;/p>
+&lt;ul>
+&lt;li>Extra review time to get in
+&lt;a href="https://github.com/jupyter-book/mystmd/pull/2428" target="_blank" rel="noopener" >concurrent executions in mystmd&lt;/a>&lt;/li>
+&lt;li>Fixing broken edit URL logic so our community
+&lt;a href="https://github.com/jupyter-book/mystmd/pull/2642" target="_blank" rel="noopener" >&amp;ldquo;edit buttons&amp;rdquo; worked again&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://github.com/jupyter-book/myst-theme/pull/757" target="_blank" rel="noopener" >Standardized link styles&lt;/a> so users know what to expect from links&lt;/li>
+&lt;li>
+&lt;a href="https://github.com/jupyter-book/myst-theme/pull/747" target="_blank" rel="noopener" >Added extra hover metadata for github issues and PRs&lt;/a> for communities that often link to their GitHub issues&lt;/li>
+&lt;li>Made all of these releases and wrote up the release notes!&lt;/li>
+&lt;/ul>
+&lt;p>Most of our contributions were foundational in nature - we fixed a bunch of bugs, did review on the PRs of others, and managed the release process itself. Check out the changelogs for more details!&lt;/p>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;p>Thanks to our
+&lt;a href="https://2i2c.org/members/" >member communities&lt;/a> - their memberships cover the cost of
+&lt;a href="https://2i2c.org/blog/jupyter-book-release-jan-2026/../../2025/foundational-contributions/" >foundational upstream contributions&lt;/a> to projects like these.&lt;/p>
+&lt;p>Particular thanks to
+&lt;a href="https://2i2c.org/collaborators/pythia/" >Project Pythia&lt;/a> which currently supports much of our upstream contributions in Jupyter Book.&lt;/p></description></item><item><title>Yuvi on scaling maintainer intuition to facilitate PR review with PR triage boards</title><link>https://2i2c.org/blog/pr-triage-boards/</link><pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/pr-triage-boards/</guid><description>&lt;p>Yuvi has a recent post on the
 &lt;a href="https://jupyter.org" target="_blank" rel="noopener" >Jupyter blog&lt;/a> on how his &amp;ldquo;maintainer intuition&amp;rdquo; about reviewable pull requests grew into the open-source
 &lt;a href="https://github.com/jupyter/pr-triage-board-bot" target="_blank" rel="noopener" >&lt;code>pr-triage-board-bot&lt;/code>&lt;/a>, a reusable workflow that keeps GitHub Project boards curated for the JupyterHub, JupyterLab, and GeoJupyter communities.
 &lt;a href="https://2i2c.org/blog/pr-triage-boards/../foundational-contributions/" >Foundational contributions&lt;/a> are rellay important to 2i2c. This is a great example of building clever technical systems that help maintainers prioritize the social work of facilitating contributions to keep ecosystems healthy.&lt;/p>
