@@ -15,4 +15,18 @@ nav.navbar {
     padding-top: .1rem;
     padding-bottom: .1rem;
   }
+
+  .menu-badge {
+    background: $color-secondary;
+    border-radius: 999px;
+    color: #fff;
+    display: inline-block;
+    font-size: .6em;
+    font-weight: 700;
+    letter-spacing: .04em;
+    line-height: 1;
+    padding: .15rem .2rem;
+    text-transform: uppercase;
+    vertical-align: text-top;
+  }
 }

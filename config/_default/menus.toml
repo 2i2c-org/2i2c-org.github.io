@@ -9,66 +9,40 @@
   weight = 10
 
 [[main]]
-  name = "Impact"
-  weight = 11
-
-[[main]]
-  name = "Impact stories"
-  parent = "Impact"
-  url = "impact/"
-  weight = 11
-
-[[main]]
-  name = "Case studies"
-  parent = "Impact"
-  url = "case-studies/"
-  weight = 14
-
-[[main]]
-  name = "Member communities"
-  parent = "Impact"
-  url = "members/"
-  weight = 12
-  
-[[main]]
-  name = "Collaborators and funders"
-  parent = "Impact"
-  url = "collaborators/"
-  weight = 13
-
-[[main]]
-  name = "Our Principles"
-  weight = 12
-
-[[main]]
-  parent = "Our Principles"
-  name = "Open Practices"
-  url = "open-practices/"
-  weight = 11
-
-[[main]]
-  parent = "Our Principles"
-  name = "Right to Replicate"
-  url = "right-to-replicate/"
-  weight = 13
-
-[[main]]
-  parent = "Our Principles"
-  name = "Commitment to Open Technology"
-  url = "open-technology/"
-  weight = 13
-
-
-[[main]]
   name = "About"
   identifier = "about"
-  weight = 30
+  weight = 20
 
   [[main]]
   parent = "about"
   name = "Mission and goals"
   url = "mission/"
   weight = 10
+
+  [[main]]
+  parent = "about"
+  name = "Our Principles"
+  identifier = "principles"
+  url = "open-practices/"
+  weight = 12
+
+  [[main]]
+  parent = "principles"
+  name = "Open Practices"
+  url = "open-practices/"
+  weight = 11
+
+  [[main]]
+  parent = "principles"
+  name = "Right to Replicate"
+  url = "right-to-replicate/"
+  weight = 13
+
+  [[main]]
+  parent = "principles"
+  name = "Commitment to Open Technology"
+  url = "open-technology/"
+  weight = 13
 
   [[main]]
   parent = "about"
@@ -100,17 +74,50 @@
   url = "jobs/"
   weight = 60
 
-  [[main]]
-  name = 'Blog'
+[[main]]
+  name = "Impact"
+  weight = 30
+
+[[main]]
+  name = "Impact stories"
+  parent = "Impact"
+  url = "impact/"
+  weight = 11
+
+[[main]]
+  name = "Case studies"
+  parent = "Impact"
+  url = "case-studies/"
+  weight = 14
+
+[[main]]
+  name = "Member communities"
+  parent = "Impact"
+  url = "members/"
+  weight = 12
+  
+[[main]]
+  name = "Collaborators and funders"
+  parent = "Impact"
+  url = "collaborators/"
+  weight = 13
+
+[[main]]
+  name = "Roadmap <span class=\"menu-badge\">NEW</span>"
+  url = "roadmap/"
+  weight = 40
+
+[[main]]
+  name = "Docs"
+  url = "https://docs.2i2c.org"
+  weight = 50
+
+[[main]]
+  name = "Blog"
   url = "/blog"
-  weight = 90
+  weight = 60
 
 [[main_right]]
-  name = 'Membership'
+  name = "Join our network"
   url = "/join"
   weight = 90
-
-[[main_right]]
-  name = 'Docs'
-  url = "https://docs.2i2c.org"
-  weight = 100
