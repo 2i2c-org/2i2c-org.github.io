@@ -360,7 +360,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 		<div class="row py-3">
 			<div class="col-12 col-md-3 contactus">
 				<div class="location">
-					<h3>Skyline College</h3>
+					<h2 style="color:white;">Skyline College</h2>
 					<address>3300 College Drive <br />San Bruno, CA 94066</address>
 					<a href="https://skylinecollege.edu/contactskyline/" class="btn btn-outline-n-50 btn-sm">Contact
 						Us</a>
@@ -436,15 +436,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 
 
+
 <script>
 	// when you click the navigation icon, focus on the input field 
 	function focusSearch() {
 		$("#nav-search").click(function () {
 			// timeout is required because the item is not visible yet when the click is made
-			setTimeout(function () { $("#home-search").focus(); }, 10);
+			setTimeout(function () { $("#home_search").focus(); }, 10);
 		});
 	};
 </script>
+
 
 
 <!--google analytics tracking code so can track individual pages-->
