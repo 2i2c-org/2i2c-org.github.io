@@ -2,6 +2,7 @@
 title: Give us an idea for the 2i2c blog
 date: none
 last_updated: none
+slug: idea
 ---
 
 We use our blog to [highlight the impact we've had](../2025/communications-strategy/index.md). 
