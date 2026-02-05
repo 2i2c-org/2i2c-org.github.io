@@ -24,7 +24,7 @@ sections:
 
         **Shared development.** Members influence [our open roadmap](https://2i2c.org/roadmap) with feedback and co-funding. This drives contributions across the open source ecosystem, creating better tools for the world and improvements that we can rapidly deploy to our member hubs.
 
-        {{< cta cta_text="Learn more about our theory of impact" cta_link="/theory-of-impact" cta_new_tab="false" >}}
+        {{< cta cta_text="Learn more about our mission" cta_link="/mission" cta_new_tab="false" >}}
 
   - block: features
     id: personas
@@ -59,7 +59,7 @@ sections:
 
         **Project collaborations** let organizations fund specific development work that addresses shared challenges. Project work accelerates [our roadmap](https://2i2c.org/roadmap) and creates improvements deployed across the network.
 
-        Many organizations do both: membership for day-to-day infrastructure, plus project funding for strategic priorities. See [our collaborators and funders](/collaborators) for examples of organizations we work with.
+        Many organizations do both: membership for day-to-day infrastructure, plus project funding for strategic priorities. See [our collaborators and funders](/collaborators) for examples of organizations we work with, or read more about [our service model](https://compass.2i2c.org/organization/service-model/).
 
         {{< cta cta_text="Learn about our platform" cta_link="/platform" cta_new_tab="false" >}}
 

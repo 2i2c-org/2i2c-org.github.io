@@ -9,13 +9,18 @@
   weight = 10
 
 [[main]]
+  name = "Membership"
+  url = "membership/"
+  weight = 15
+
+[[main]]
   name = "About"
   identifier = "about"
-  weight = 20
+  weight = 25
 
   [[main]]
   parent = "about"
-  name = "Mission and goals"
+  name = "Our mission"
   url = "mission/"
   weight = 10
 
