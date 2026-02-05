@@ -17,9 +17,9 @@ tags:
 
 [nbgitpuller](https://github.com/jupyterhub/nbgitpuller) is a way to sync *content* with *compute* through the click of a link. Example use cases include:
 
-- [Spyglass](https://elifesciences.org/reviewed-preprints/108089) (HHMI)
-- Workshops and training scenarios (Openscapes, Data8, …)
-- Exams (UToronto, UCBerkeley DataHub, …)
+- Interactive research demos, such as [Spyglass](https://elifesciences.org/reviewed-preprints/108089) (HHMI)
+- Workshops and training scenarios
+- University exams
 
 In the case of [Spyglass](https://elifesciences.org/reviewed-preprints/108089), the *content* is [https://github.com/LorenFrankLab/spyglass-demo](https://github.com/LorenFrankLab/spyglass-demo) hosted on GitHub, the *compute* is a 2i2c cloud hub hosted at [https://spyglass.hhmi.2i2c.cloud](https://spyglass.hhmi.2i2c.cloud/), and by using the handy [nbgitpuller link generator](https://nbgitpuller.readthedocs.io/en/latest/link.html), you can generate [this nbgitpuller link](https://spyglass.hhmi.2i2c.cloud/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FLorenFrankLab%2Fspyglass-demo&urlpath=lab%2Ftree%2Fspyglass-demo%2Fnotebooks%2F00_HubQuickStart.ipynb&branch=main) to share with others to seamlessly explore content on the desired compute platform with the relevant data and toolchains installed.
 
@@ -86,4 +86,6 @@ New improvements to the UX include:
 
 - [UC Berkeley](https://www.berkeley.edu/) and the [CloudBank Classroom](https://www.cloudbank.org/training/access-cloudbank-classroom) project
 - [Eric Van Dusen](https://github.com/ericvd-ucb) and [Sean Morris](https://github.com/sean-morris) were key champions of this work
+- [Balaji Alwar](https://github.com/balajialg) for providing the data and sharing feedback
+- [Nicolas M. Thiéry](https://github.com/nthiery) for feedback on the UX design
 - [CAL ICOR](https://www.cal-icor.org/) for co-funding
