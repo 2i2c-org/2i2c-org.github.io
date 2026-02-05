@@ -96,15 +96,36 @@ sections:
 
   - block: markdown
     content:
-      title: Software Stack
+      title: User interface
       subtitle: ""
       text: |
-        2i2c supports a number of standard community-maintained images for research and education including Pangeo Notebook, SciPy, Julia, and Rocker with RStudio.
+        JupyterLab provides a flexible interface to create and explore notebooks, interactive visualizations, and computational narratives.
 
-        Additionally, hub users can configure their hubs with any existing pre-built image hosted on [Docker Hub](https://hub.docker.com/) or [quay.io](https://quay.io).
+        <figure class="videofigure">
+          {{< video src="videos/jupyterlab.mp4">}}
 
-        Hub administrators can also provide their own self-maintained images, should they wish to do so.
-        
+          <figcaption>
+              Powered by <a href="https://jupyterlab.readthedocs.io"><img src="/images/logos/project/jupyterlab.svg" /></a> and <a href="https://mystmd.org"><img src="/images/logos/project/myst.svg" /></a>.
+          </figcaption>
+        </figure>
+
+  - block: markdown
+    content:
+      title: Software stack
+      subtitle: ""
+      text: |
+        Community leaders can offer multiple environments to fit different workflows. We support standard community-maintained images including Pangeo Notebook, SciPy, Julia, and Rocker with RStudio.
+
+        <figure class="videofigure">
+          {{< video src="/videos/jupyterhub-environment.mp4" >}}
+
+          <figcaption>
+              Powered by <a href="https://jupyterhub.readthedocs.io"><img src="/images/logos/project/jupyterhub.svg" /></a> and <a href="https://repo2docker.readthedocs.io"><img src="/images/logos/project/repo2docker.png" /></a>.
+          </figcaption>
+        </figure>
+
+        Hub users can also configure hubs with any pre-built image from [Docker Hub](https://hub.docker.com/) or [quay.io](https://quay.io), or provide their own self-maintained images.
+
         {{< softwarestacklogos >}}
 
   - block: markdown
@@ -130,6 +151,36 @@ sections:
 
           <figcaption>
             Powered by <a href="https://mystmd.org"><img src="/images/logos/project/myst.svg" /></a> and <a href="https://jupyterhub.readthedocs.io"><img src="/images/logos/project/jupyterhub.svg" /></a>. Example from <a href="https://www.biorxiv.org/content/10.1101/2024.01.25.577295v4">the Spyglass toolbox paper</a>.
+          </figcaption>
+        </figure>
+
+  - block: markdown
+    content:
+      title: Knowledge base
+      subtitle: ""
+      text: |
+        Shared knowledge bases allow communities to contribute their ideas and work to a shared space that is accessible to the community.
+
+        <figure class="videofigure">
+          {{< video src="videos/jupyterbook.mp4">}}
+
+          <figcaption>
+              Powered by <a href="https://jupyterbook.org"><img src="/images/logos/project/jupyterbook.svg" /></a> and <a href="https://mystmd.org"><img src="/images/logos/project/myst.svg" /></a>. Example from <a href="https://book.cryointhecloud.com">the CryoCloud JupyterBook</a>.
+          </figcaption>
+        </figure>
+
+  - block: markdown
+    content:
+      title: Desktop applications
+      subtitle: ""
+      text: |
+        You can provide users a full linux UI that provides access to GUI applications via the web.
+
+        <figure class="videofigure">
+          {{< video src="videos/desktop.mp4">}}
+
+          <figcaption>
+              Powered by <a href="https://jupyterhub.readthedocs.io"><img src="/images/logos/project/jupyterhub.svg" /></a>. Example from <a href="https://www.earthdata.nasa.gov/esds/veda">the NASA VEDA project</a>.
           </figcaption>
         </figure>              
 
