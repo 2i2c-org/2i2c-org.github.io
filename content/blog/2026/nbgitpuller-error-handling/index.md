@@ -1,7 +1,7 @@
 ---
 title: Better sharing UX with nbgitpuller and contextual error handling
 slug: "nbgitpuller-better-ux"
-date: 2026-01-27
+date: 2026-02-05
 authors:
   - Jenny Wong
 categories:
@@ -11,9 +11,7 @@ tags:
 
 ## TL;DR
 
-[nbgitpuller](https://github.com/jupyterhub/nbgitpuller) now has improved UX context-aware error handling. Try it out and update to the latest version 🚀
-
-{{< feedback >}}
+[nbgitpuller](https://github.com/jupyterhub/nbgitpuller) now has improved UX context-aware error handling. Try out the pre-release [version 1.3.0b1](https://pypi.org/project/nbgitpuller/1.3.0b1/) and let us know what you think by opening an [issue](https://github.com/jupyterhub/nbgitpuller/issues) or via the feedback form below 🚀
 
 ## What is nbgitpullter?
 
@@ -77,10 +75,12 @@ New improvements to the UX include:
 - a 'Proceed without syncing' button take the user to the compute platform without making any changes
 - in the case of merge errors and extra Backup and resync button option is presented
 
+{{< feedback >}}
+
 ## Learn more
 
 - [nbgitpuller documentation](https://nbgitpuller.readthedocs.io/en/latest/)
-- [GitHub tracking issue](https://github.com/2i2c-org/infrastructure/issues/6442)
+- [Roadmap initiative](https://github.com/2i2c-org/initiatives/issues/22)
 
 ## Acknowledgements
 
