@@ -15,7 +15,7 @@ sections:
       css_class: "bigtitle"
     content:
       title: Create a home with everything your community needs for data-driven discovery
-      subtitle: We build and manage community hubs that provide access to all the tools needed to do their work, enabled with open infrastructure that ensures your [Right to Replicate](./right-to-replicate/).
+      subtitle: Each community gets their own hub with access to the tools, data, and computing resources needed for their work. Behind the scenes, we operate [shared infrastructure](/membership#model) so improvements benefit everyone and flow back to open source. Your [Right to Replicate](/right-to-replicate) ensures you're never locked in.
 
       items:
         - icon: software
@@ -33,7 +33,7 @@ sections:
   - block: markdown
     id: hub-services-intro
     content:
-      title: We provide services to design, develop, and manage your community hub.
+      title: A network of independent community hubs with shared infrastructure
       text: |
         <style>
         /* This makes the titles on the page a bit bigger to differentiate section titles */
@@ -42,28 +42,9 @@ sections:
         }
         </style>
 
-        <div class="row row-cols-3">
-          <div class="card col">
-            <div class="card-body">
-              <h5 class="card-title">Management</h5>
-              <p class="card-text px-0">Our cloud infrastructure team deploys and manages your hub infrastructure so that you can focus on your work.</p>
-            </div>
-          </div>
-          <div class="card col">
-            <div class="card-body">
-              <h5 class="card-title">Development</h5>
-              <p class="card-text px-0">Our infrastructure team actively contributes to the open source community, ensuring our hubs, and your service, always benefit from the latest developments.</p>
-            </div>
-          </div>
-          <div class="card col">
-            <div class="card-body">
-              <h5 class="card-title">Guidance</h5>
-              <p class="card-text px-0">Our cloud workflows team helps community leaders and their users learn how to make the most of your hub for impact.</p>
-            </div>
-          </div>
-        </div>
+        Each community gets their own hub, customized to their needs, while benefiting from a [common infrastructure repository](https://github.com/2i2c-org/infrastructure) that lets us deploy improvements everywhere at once. We manage and develop your hub infrastructure so you can focus on your work.
 
-        {{< cta cta_text="Join our network of community hubs" cta_link="/join" cta_new_tab="false" >}}
+        {{< cta cta_text="Learn how our collaborative model works" cta_link="/membership#model" cta_new_tab="false" >}}
 
 
   - block: markdown
