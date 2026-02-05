@@ -1,6 +1,4 @@
 ---
-# Page title
-title: Open practices at 2i2c
 # Page type - we want a landing page
 type: landing
 
@@ -8,6 +6,7 @@ sections:
   - block: markdown
     id: intro
     content:
+      title: Open practices we follow
       text: |
         We believe that open science requires open practices - here are a few ways we lean into open practices and support open communities at 2i2c. See [our open source strategy](https://compass.2i2c.org/open-source/strategy/#upstream-first) for more details about the practices we follow.
 
@@ -87,7 +86,7 @@ sections:
         
         {{< figure
             target="https://jupyterbook.org/intro.html"
-            src="https://jupyterbook.org/_static/logo-wide.svg"
+            src="/images/logos/project/jupyterbook.svg"
             title="<p class='project-title'>Jupyter Book</p><p class='project-caption'>Interactive, beautiful books with Jupyter</p>"
             class="project-highlight"
         >}}

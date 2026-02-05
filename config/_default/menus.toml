@@ -21,25 +21,18 @@
 
   [[main]]
   parent = "about"
-  name = "Our Principles"
-  identifier = "principles"
+  name = "Open Practices"
   url = "open-practices/"
   weight = 12
 
   [[main]]
-  parent = "principles"
-  name = "Open Practices"
-  url = "open-practices/"
-  weight = 11
-
-  [[main]]
-  parent = "principles"
+  parent = "about"
   name = "Right to Replicate"
   url = "right-to-replicate/"
   weight = 13
 
   [[main]]
-  parent = "principles"
+  parent = "about"
   name = "Commitment to Open Technology"
   url = "open-technology/"
   weight = 13
