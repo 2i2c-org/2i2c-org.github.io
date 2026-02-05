@@ -84,8 +84,8 @@ New improvements to the UX include:
 
 ## Acknowledgements
 
-- [UC Berkeley](https://www.berkeley.edu/) and the [CloudBank Classroom](https://www.cloudbank.org/training/access-cloudbank-classroom) project
+- [UC Berkeley](https://www.berkeley.edu/) and the [CloudBank Classroom](../../../collaborators/cloudbank/) project
+- [CAL ICOR](../../../collaborators/cal-icor/) for co-funding
 - [Eric Van Dusen](https://github.com/ericvd-ucb) and [Sean Morris](https://github.com/sean-morris) for championing this work
 - [Balaji Alwar](https://github.com/balajialg) for providing the data and sharing feedback
 - [Nicolas M. Thiéry](https://github.com/nthiery) for feedback on the UX design
-- [CAL ICOR](https://www.cal-icor.org/) for co-funding
