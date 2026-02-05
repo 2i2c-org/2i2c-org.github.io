@@ -73,7 +73,7 @@ New improvements to the UX include:
 - more user-friendly and context aware helper message is displayed
 - a link to the general documentation for reference
 - a 'Proceed without syncing' button take the user to the compute platform without making any changes
-- in the case of merge errors and extra Backup and resync button option is presented
+- in the case of merge errors an extra Backup and resync button option is presented
 
 {{< feedback >}}
 
@@ -85,7 +85,7 @@ New improvements to the UX include:
 ## Acknowledgements
 
 - [UC Berkeley](https://www.berkeley.edu/) and the [CloudBank Classroom](https://www.cloudbank.org/training/access-cloudbank-classroom) project
-- [Eric Van Dusen](https://github.com/ericvd-ucb) and [Sean Morris](https://github.com/sean-morris) were key champions of this work
+- [Eric Van Dusen](https://github.com/ericvd-ucb) and [Sean Morris](https://github.com/sean-morris) for championing this work
 - [Balaji Alwar](https://github.com/balajialg) for providing the data and sharing feedback
 - [Nicolas M. Thiéry](https://github.com/nthiery) for feedback on the UX design
 - [CAL ICOR](https://www.cal-icor.org/) for co-funding
