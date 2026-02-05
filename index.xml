@@ -1,4 +1,128 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2i2c</title><link>https://2i2c.org/</link><atom:link href="https://2i2c.org/index.xml" rel="self" type="application/rss+xml"/><description>2i2c</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 29 Jan 2026 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>2i2c</title><link>https://2i2c.org/</link></image><item><title>New Jupyter Book / MyST stack release (Jan 2026)</title><link>https://2i2c.org/blog/jupyter-book-release-jan-2026/</link><pubDate>Thu, 29 Jan 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/jupyter-book-release-jan-2026/</guid><description>&lt;p>The MyST/Jupyter Book stack shipped new releases this week. Release pages:&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2i2c</title><link>https://2i2c.org/</link><atom:link href="https://2i2c.org/index.xml" rel="self" type="application/rss+xml"/><description>2i2c</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 05 Feb 2026 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>2i2c</title><link>https://2i2c.org/</link></image><item><title>Better sharing UX with nbgitpuller and contextual error handling</title><link>https://2i2c.org/blog/nbgitpuller-better-ux/</link><pubDate>Thu, 05 Feb 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/nbgitpuller-better-ux/</guid><description>
+&lt;h2 id="tldr">
+TL;DR
+&lt;a class="header-anchor" href="#tldr">#&lt;/a>
+&lt;/h2>&lt;p>
+&lt;a href="https://github.com/jupyterhub/nbgitpuller" target="_blank" rel="noopener" >nbgitpuller&lt;/a> now has improved UX context-aware error handling. Try out the pre-release
+&lt;a href="https://pypi.org/project/nbgitpuller/1.3.0b1/" target="_blank" rel="noopener" >version 1.3.0b1&lt;/a> and let us know what you think by opening an
+&lt;a href="https://github.com/jupyterhub/nbgitpuller/issues" target="_blank" rel="noopener" >issue&lt;/a> or via the feedback form below 🚀&lt;/p>
+&lt;h2 id="what-is-nbgitpuller">
+What is nbgitpuller?
+&lt;a class="header-anchor" href="#what-is-nbgitpuller">#&lt;/a>
+&lt;/h2>&lt;p>
+&lt;a href="https://github.com/jupyterhub/nbgitpuller" target="_blank" rel="noopener" >nbgitpuller&lt;/a> is a way to sync &lt;em>content&lt;/em> with &lt;em>compute&lt;/em> through the click of a link. Example use cases include:&lt;/p>
+&lt;ul>
+&lt;li>Interactive research demos, such as
+&lt;a href="https://elifesciences.org/reviewed-preprints/108089" target="_blank" rel="noopener" >Spyglass&lt;/a> (HHMI)&lt;/li>
+&lt;li>Workshops and training scenarios&lt;/li>
+&lt;li>University exams&lt;/li>
+&lt;/ul>
+&lt;p>In the case of
+&lt;a href="https://elifesciences.org/reviewed-preprints/108089" target="_blank" rel="noopener" >Spyglass&lt;/a>, the &lt;em>content&lt;/em> is
+&lt;a href="https://github.com/LorenFrankLab/spyglass-demo" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> LorenFrankLab/spyglass-demo&lt;/a> hosted on GitHub, the &lt;em>compute&lt;/em> is a 2i2c cloud hub hosted at
+&lt;a href="https://spyglass.hhmi.2i2c.cloud/" target="_blank" rel="noopener" >spyglass.hhmi.2i2c.cloud&lt;/a>, and by using the handy
+&lt;a href="https://nbgitpuller.readthedocs.io/en/latest/link.html" target="_blank" rel="noopener" >nbgitpuller link generator&lt;/a>, you can generate
+&lt;a href="https://spyglass.hhmi.2i2c.cloud/hub/user-redirect/git-pull?repo=https%3A%2F%2Fgithub.com%2FLorenFrankLab%2Fspyglass-demo&amp;amp;urlpath=lab%2Ftree%2Fspyglass-demo%2Fnotebooks%2F00_HubQuickStart.ipynb&amp;amp;branch=main" target="_blank" rel="noopener" >this nbgitpuller link&lt;/a> to share with others to seamlessly explore content on the desired compute platform with the relevant data and toolchains installed.&lt;/p>
+&lt;h2 id="how-does-nbgitpuller-work">
+How does nbgitpuller work?
+&lt;a class="header-anchor" href="#how-does-nbgitpuller-work">#&lt;/a>
+&lt;/h2>&lt;p>&lt;code>nbgitpuller&lt;/code> is installed in the compute environment. The compute environment now has an &lt;code>/git-pull&lt;/code> endpoint URL that can understand where to pull content from using URL parameters. Syncing content critically depends on &lt;code>git&lt;/code> operations to &lt;code>fetch&lt;/code>, &lt;code>checkout&lt;/code>, &lt;code>clone&lt;/code>, &lt;code>merge&lt;/code>, &lt;code>commit&lt;/code>, etc.&lt;/p>
+&lt;h2 id="when-it-goes-wrong">
+When it goes wrong
+&lt;a class="header-anchor" href="#when-it-goes-wrong">#&lt;/a>
+&lt;/h2>&lt;p>Based on the data sent through by the kind folks running the Berkeley DataHub, there were 2163 logs available, of which:&lt;/p>
+&lt;ul>
+&lt;li>983 (45%) were ‘merge’ conflicts&lt;/li>
+&lt;li>493 (23%) were ‘fetch’ errors&lt;/li>
+&lt;li>467 (22%) were ‘ls-remote’ errors&lt;/li>
+&lt;/ul>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./errors_common.png" alt="Bar chart showing the most common errors users faced." loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>The remaining errors (10%) were mostly ‘checkout’ errors. This represents most &lt;strong>frequent&lt;/strong> errors as seen by students.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./errors_unique.png" alt="Bar chart showing the most unique errors link authors made." loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>In the same set of logs, there were 172 &lt;strong>unique&lt;/strong> errors: most ‘ls-remote’ errors come from mistakes in the content repo URL. This represents most uniquely common errors made by instructors.&lt;/p>
+&lt;h2 id="merge-conflicts">
+Merge conflicts
+&lt;a class="header-anchor" href="#merge-conflicts">#&lt;/a>
+&lt;/h2>&lt;p>If the link author changes content after the link consumer clicked a link, then &lt;code>nbgitpuller&lt;/code> needs to sync updates for the consumer on subsequent link clicks. The &lt;code>nbgitpuller&lt;/code> merging strategy makes opinionated choices so that the link consumer &lt;em>never&lt;/em> has to interact with git, and will always preserve the consumer’s working changes.&lt;/p>
+&lt;p>Things can go wrong when&lt;/p>
+&lt;ul>
+&lt;li>Consumers can diverge the git history if they perform a git commit&lt;/li>
+&lt;li>Authors can diverge the git history if they perform force push commits&lt;/li>
+&lt;/ul>
+&lt;h2 id="error-ux-old">
+Error UX (old)
+&lt;a class="header-anchor" href="#error-ux-old">#&lt;/a>
+&lt;/h2>&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./ux_old.png" alt="Old UX for merge errors" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>Problems with the old UX include:&lt;/p>
+&lt;ul>
+&lt;li>a scary terminal&lt;/li>
+&lt;li>difficulty for the user to figure out what went wrong&lt;/li>
+&lt;li>no suggestion for the user to fix the problem or signpost to continue to the compute platform&lt;/li>
+&lt;/ul>
+&lt;h2 id="error-ux-new">
+Error UX (new)
+&lt;a class="header-anchor" href="#error-ux-new">#&lt;/a>
+&lt;/h2>&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./ux_new.png" alt="New UX for merge errors" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>New improvements to the UX include:&lt;/p>
+&lt;ul>
+&lt;li>terminal closed by default, but you can optionally toggle this open&lt;/li>
+&lt;li>there is a copy to clipboard button to easily share the error log from the terminal&lt;/li>
+&lt;li>more user-friendly and context aware helper message is displayed&lt;/li>
+&lt;li>a link to the general documentation for reference&lt;/li>
+&lt;li>a &amp;lsquo;Proceed without syncing&amp;rsquo; button take the user to the compute platform without making any changes&lt;/li>
+&lt;li>in the case of merge errors an extra Backup and resync button option is presented&lt;/li>
+&lt;/ul>
+&lt;a href="https://docs.google.com/forms/d/e/1FAIpQLSff-u-sWFuwO1-VTgk2Ir7f1nfUUlLevQk_Vkk_jnmcI1nJnw/viewform?usp=pp_url&amp;amp;entry.648332035=https://2i2c.org/blog/nbgitpuller-better-ux/" target="_blank" rel="noopener" class="text-decoration-none">
+&lt;div class="alert alert-info d-flex align-items-start p-3" role="button" style="transition: all 0.2s ease; box-shadow: 0 2px 4px rgba(0,0,0,0.1);" onmouseover="this.style.backgroundColor='#b3e5fc'; this.style.boxShadow='0 4px 8px rgba(0,0,0,0.15)'; this.style.transform='translateY(-1px)'" onmouseout="this.style.backgroundColor=''; this.style.boxShadow='0 2px 4px rgba(0,0,0,0.1)'; this.style.transform='translateY(0)'" onfocus="this.style.backgroundColor='#b3e5fc'; this.style.boxShadow='0 4px 8px rgba(0,0,0,0.15)'; this.style.transform='translateY(-1px)'" onblur="this.style.backgroundColor=''; this.style.boxShadow='0 2px 4px rgba(0,0,0,0.1)'; this.style.transform='translateY(0)'">
+&lt;div class="fw-bold mb-1">&lt;span style="font-weight:bold">Give us feedback!&lt;/span> Click here to provide feedback that will help us make this more impactful.&lt;/div>
+&lt;/div>
+&lt;/a>
+&lt;h2 id="learn-more">
+Learn more
+&lt;a class="header-anchor" href="#learn-more">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;a href="https://nbgitpuller.readthedocs.io/en/latest/" target="_blank" rel="noopener" >nbgitpuller documentation&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://github.com/2i2c-org/initiatives/issues/22" target="_blank" rel="noopener" >Roadmap initiative&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;a href="https://www.berkeley.edu/" target="_blank" rel="noopener" >UC Berkeley&lt;/a> and the
+&lt;a href="https://www.cloudbank.org/training/access-cloudbank-classroom" target="_blank" rel="noopener" >CloudBank Classroom&lt;/a> project&lt;/li>
+&lt;li>
+&lt;a href="https://github.com/ericvd-ucb" target="_blank" rel="noopener" >Eric Van Dusen&lt;/a> and
+&lt;a href="https://github.com/sean-morris" target="_blank" rel="noopener" >Sean Morris&lt;/a> for championing this work&lt;/li>
+&lt;li>
+&lt;a href="https://github.com/balajialg" target="_blank" rel="noopener" >Balaji Alwar&lt;/a> for providing the data and sharing feedback&lt;/li>
+&lt;li>
+&lt;a href="https://github.com/nthiery" target="_blank" rel="noopener" >Nicolas M. Thiéry&lt;/a> for feedback on the UX design&lt;/li>
+&lt;li>
+&lt;a href="https://www.cal-icor.org/" target="_blank" rel="noopener" >CAL ICOR&lt;/a> for co-funding&lt;/li>
+&lt;/ul></description></item><item><title>New Jupyter Book / MyST stack release (Jan 2026)</title><link>https://2i2c.org/blog/jupyter-book-release-jan-2026/</link><pubDate>Thu, 29 Jan 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/jupyter-book-release-jan-2026/</guid><description>&lt;p>The MyST/Jupyter Book stack shipped new releases this week. Release pages:&lt;/p>
 &lt;ul>
 &lt;li>
 &lt;a href="https://github.com/jupyter-book/mystmd/releases/tag/mystmd%401.8.0" target="_blank" rel="noopener" >mystmd 1.8.0&lt;/a>&lt;/li>
@@ -9789,16 +9913,6 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;div class="col-sm-6 col-md-4 col-lg-3">
 &lt;div class="card border-0" style="background-color: #f8f9fa;">
 &lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
-&lt;a href="https://dvc.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
-&lt;img src="https://2i2c.org/members/images/diablo_valley_college.png" alt="Diablo Valley College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
-&lt;small class="text-dark fw-medium">Diablo Valley College&lt;/small>
-&lt;/a>
-&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;div class="col-sm-6 col-md-4 col-lg-3">
-&lt;div class="card border-0" style="background-color: #f8f9fa;">
-&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
 &lt;a href="https://elac.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/east_los_angeles_college.svg" alt="East Los Angeles College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">East Los Angeles College&lt;/small>
@@ -10022,16 +10136,6 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;a href="https://must.af.catalystproject.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/must.png" alt="MUST" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">MUST&lt;/small>
-&lt;/a>
-&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;div class="col-sm-6 col-md-4 col-lg-3">
-&lt;div class="card border-0" style="background-color: #f8f9fa;">
-&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
-&lt;a href="https://staging.hub.disasters.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
-&lt;img src="https://2i2c.org/members/images/nasa_disasters_program.png" alt="NASA Disasters Program" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
-&lt;small class="text-dark fw-medium">NASA Disasters Program&lt;/small>
 &lt;/a>
 &lt;/div>
 &lt;/div>
