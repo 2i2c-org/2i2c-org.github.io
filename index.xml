@@ -112,7 +112,9 @@ Acknowledgements
 &lt;/h2>&lt;ul>
 &lt;li>
 &lt;a href="https://www.berkeley.edu/" target="_blank" rel="noopener" >UC Berkeley&lt;/a> and the
-&lt;a href="https://www.cloudbank.org/training/access-cloudbank-classroom" target="_blank" rel="noopener" >CloudBank Classroom&lt;/a> project&lt;/li>
+&lt;a href="https://2i2c.org/collaborators/cloudbank/" >CloudBank Classroom&lt;/a> project&lt;/li>
+&lt;li>
+&lt;a href="https://2i2c.org/collaborators/cal-icor/" >CAL ICOR&lt;/a> for co-funding&lt;/li>
 &lt;li>
 &lt;a href="https://github.com/ericvd-ucb" target="_blank" rel="noopener" >Eric Van Dusen&lt;/a> and
 &lt;a href="https://github.com/sean-morris" target="_blank" rel="noopener" >Sean Morris&lt;/a> for championing this work&lt;/li>
@@ -120,8 +122,6 @@ Acknowledgements
 &lt;a href="https://github.com/balajialg" target="_blank" rel="noopener" >Balaji Alwar&lt;/a> for providing the data and sharing feedback&lt;/li>
 &lt;li>
 &lt;a href="https://github.com/nthiery" target="_blank" rel="noopener" >Nicolas M. Thiéry&lt;/a> for feedback on the UX design&lt;/li>
-&lt;li>
-&lt;a href="https://www.cal-icor.org/" target="_blank" rel="noopener" >CAL ICOR&lt;/a> for co-funding&lt;/li>
 &lt;/ul></description></item><item><title>New Jupyter Book / MyST stack release (Jan 2026)</title><link>https://2i2c.org/blog/jupyter-book-release-jan-2026/</link><pubDate>Thu, 29 Jan 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/jupyter-book-release-jan-2026/</guid><description>&lt;p>The MyST/Jupyter Book stack shipped new releases this week. Release pages:&lt;/p>
 &lt;ul>
 &lt;li>
@@ -9338,7 +9338,28 @@ Grants from this funder
 &lt;a href="https://2i2c.org/blog/funding-czi/" >Support from CZI to sustain 2i2c&amp;rsquo;s mission&lt;/a> - ~$700K over one year for continued operations&lt;/li>
 &lt;li>&lt;strong>CZI Global Communities Grant (2022)&lt;/strong>:
 &lt;a href="https://2i2c.org/blog/czi-global-communities-announcement/" >New project: Open science cloud infrastructure and training for communities in Latin America and Africa&lt;/a> - Support for international collaborative programs&lt;/li>
-&lt;/ul></description></item><item><title>Cloudbank</title><link>https://2i2c.org/collaborators/cloudbank/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://2i2c.org/collaborators/cloudbank/</guid><description>&lt;p>
+&lt;/ul></description></item><item><title>Cloudbank</title><link>https://2i2c.org/collaborators/cal-icor/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://2i2c.org/collaborators/cal-icor/</guid><description>&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="" srcset="
+/collaborators/cal-icor/featured_hu8173cb96b7d0e6cf6d062ed5813a28e1_42417_b85a05696623e4aee486ee47c7c68767.webp 400w,
+/collaborators/cal-icor/featured_hu8173cb96b7d0e6cf6d062ed5813a28e1_42417_3bf104ac5b9a5b9ed2fb6e53da2dec9c.webp 760w,
+/collaborators/cal-icor/featured_hu8173cb96b7d0e6cf6d062ed5813a28e1_42417_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/collaborators/cal-icor/featured_hu8173cb96b7d0e6cf6d062ed5813a28e1_42417_b85a05696623e4aee486ee47c7c68767.webp"
+width="760"
+height="498"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>
+&lt;a href="https://www.cal-icor.org/" target="_blank" rel="noopener" >CAL-ICOR&lt;/a> is a &amp;ldquo;Browser-based Interactive Programming and Data Science Platform for Every California Student&amp;rdquo;. It gives educators and institutions a shared, scalable JupyterHub platform that removes hardware barriers, supports modern data science instruction, and expands access across the state.&lt;/p>
+&lt;p>From their website:&lt;/p>
+&lt;blockquote>
+&lt;p>The California Interactive Computing Open Resource (Cal-ICOR) initiative is a statewide effort to expand high-quality, accessible data science education across the University of California, California State University, and California Community College systems. Led by UC Berkeley and supported by the California Education Learning Lab, Cal-ICOR builds shared infrastructure, curriculum, and instructor support that lower the barriers to offering data-enabled learning, no matter the size, resources, or technical capacity of an institution.&lt;/p>
+&lt;/blockquote>
+&lt;blockquote>
+&lt;p>Our mission is simple: ensure that every student in California has access to the tools, skills, and learning environments that prepare them for data-rich careers and civic participation.&lt;/p>
+&lt;/blockquote></description></item><item><title>Cloudbank</title><link>https://2i2c.org/collaborators/cloudbank/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://2i2c.org/collaborators/cloudbank/</guid><description>&lt;p>
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="" srcset="
@@ -9351,7 +9372,9 @@ height="88"
 loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;/figure>
 &lt;/p>
-&lt;p>Cloudbank enables and provides &amp;ldquo;anaged Services to Simplify Cloud Access for Computer Science Research and Education&amp;rdquo;.&lt;/p></description></item><item><title>Code for Science and Society</title><link>https://2i2c.org/collaborators/css/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://2i2c.org/collaborators/css/</guid><description>&lt;p>
+&lt;p>Cloudbank enables and provides &amp;ldquo;anaged Services to Simplify Cloud Access for Computer Science Research and Education&amp;rdquo;.&lt;/p>
+&lt;p>In particular, the
+&lt;a href="https://www.cloudbank.org/training/access-cloudbank-classroom" target="_blank" rel="noopener" >CloudBank Classroom&lt;/a> project is driving a lot of collaboration with 2i2c via our shared work on JupyterHubs for education.&lt;/p></description></item><item><title>Code for Science and Society</title><link>https://2i2c.org/collaborators/css/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://2i2c.org/collaborators/css/</guid><description>&lt;p>
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="" srcset="
@@ -9906,6 +9929,16 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;a href="https://csum.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/csu_maritime.svg" alt="CSU Maritime" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">CSU Maritime&lt;/small>
+&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="col-sm-6 col-md-4 col-lg-3">
+&lt;div class="card border-0" style="background-color: #f8f9fa;">
+&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
+&lt;a href="https://dvc.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
+&lt;img src="https://2i2c.org/members/images/diablo_valley_college.png" alt="Diablo Valley College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
+&lt;small class="text-dark fw-medium">Diablo Valley College&lt;/small>
 &lt;/a>
 &lt;/div>
 &lt;/div>
