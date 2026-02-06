@@ -79,7 +79,7 @@ sections:
             <li class="list-inline-item"><a href="https://columbia.edu/" target="_blank"><img src="/images/logos/community/columbia-university.png" alt="Columbia University logo"></a></li>
         </ul>
 
-        <p class="text-center"><a href="/members">All member communities</a> · <a href="/impact">Impact stories</a> · <a href="/case-studies">Case studies</a></p>
+        {{< cta cta_text="Learn how membership works" cta_link="/membership" cta_new_tab="false" >}}
 
   - block: markdown
     id: what-is-hub
@@ -108,10 +108,10 @@ sections:
     content:
       title: What makes us different
       items:
-        - name: Customizable infrastructure
-          icon: laptop-code
+        - name: Non-profit, no vendor lock-in
+          icon: lock-open
           icon_pack: fas
-          description: Communities choose their own software environments and computing resources. Need a custom stack? Users can build and share environments that fit their workflows.
+          description: We exist to serve research and education communities, not shareholders. Your [Right to Replicate](/right-to-replicate) means you can take your infrastructure anywhere, with or without us.
         - name: Open source collaboration
           icon: arrows-spin
           icon_pack: fas

@@ -13,12 +13,7 @@ sections:
 
         When you become a member, your community joins a network where usage shapes development priorities, improvements flow back to open source, and everyone benefits.
 
-  - block: markdown
-    id: model
-    content:
-      title: Our collaborative development and operations model
-      text: |
-        {{< figure src="images/collaborative-model.png" alt="Diagram showing the collaborative model: member communities use their hub to have impact, they influence our open roadmap with feedback and co-funding, which drives contributions across the open source ecosystem, which creates better tools for our members and for the world." >}}
+        {{< figure src="images/collaborative-model.png" alt="Diagram showing the collaborative model: member communities use their hub to have impact, they influence our open roadmap with feedback and co-funding, which drives contributions across the open source ecosystem, which creates better tools for our members and for the world." caption="Our collaborative development and operations model." >}}
 
         **Shared operations.** One infrastructure team manages hubs for all member communities using a [shared infrastructure repository](https://github.com/2i2c-org/infrastructure). Each community gets their own hub customized to their needs, while benefiting from shared expertise, faster incident response, and improvements deployed everywhere at once.
 

@@ -10,38 +10,22 @@ aliases:
 sections:
   
 
-  - block: features
-    design:
-      css_class: "bigtitle"
+  - block: markdown
+    id: platform-intro
     content:
-      title: Create a home with everything your community needs for data-driven discovery
-      subtitle: Each community gets their own hub, customized to their needs, while benefiting from a [common infrastructure repository](https://github.com/2i2c-org/infrastructure) that deploys improvements everywhere at once. Your [Right to Replicate](/right-to-replicate) ensures you're never locked in.
+      title: Our shared open infrastructure platform
+      subtitle: A network of community hubs with everything they need for data-driven discovery
+      text: |
+        Each community gets their own hub with the tools, data, and computing resources for their work. Behind the scenes, we operate [shared infrastructure](https://github.com/2i2c-org/infrastructure) so improvements benefit everyone and flow back to open source. Your [Right to Replicate](/right-to-replicate) ensures you're never locked in.
 
-      items:
-        - icon: software
-          icon_pack: custom
-          name: Software & Tools
-          description: "Provide easy access to community software and tools."
-        - icon: compute
-          icon_pack: custom
-          name: Compute & Data
-          description: "Provide the hardware and data resources available to your community."
-        - icon: content
-          icon_pack: custom
-          name: Computational Content
-          description: "Facilitate learning and sharing through community documentation."
+        {{< figure src="images/platform-system.png" alt="Diagram showing how 2i2c's shared devops team and deployment repository powers many independent community hubs, each with access to content, tools, data, and compute." caption="One shared team and open infrastructure powers many independent community hubs." >}}
+
+        Each community hub is **100% built with open tools and infrastructure** and we support open source communities as part of our membership service. Check out the sections below for the features and customizability that comes with each community hub.
 
   - block: markdown
     content:
       title: Sign-in
       text: |
-        <style>
-        /* This makes the titles on the page a bit bigger to differentiate section titles */
-        .bigtitle h1 {
-          font-size: 2.2em;
-        }
-        </style>
-
         We support the following authentication and authorization options:
           - **GitHub** - with support for GitHub Organization and Teams
           - **CILogon** - with support for institutional logins, Google Auth, Microsoft, and ORCID
