@@ -16,11 +16,11 @@ sections:
       title: Our shared open infrastructure platform
       subtitle: A network of community hubs with everything they need for data-driven discovery
       text: |
-        Each community gets their own hub with the tools, data, and computing resources for their work. Behind the scenes, we operate [shared infrastructure](https://github.com/2i2c-org/infrastructure) so improvements benefit everyone and flow back to open source. Your [Right to Replicate](/right-to-replicate) ensures you're never locked in.
+        Each community gets their own hub with the tools, data, and computing resources for their work. Behind the scenes, we operate [shared infrastructure](https://github.com/2i2c-org/infrastructure) so improvements benefit everyone and flow back to open source. Our [commitment to open source](/open-practices) means you can [replicate your infrastructure](/right-to-replicate) anywhere, with or without us.
 
         {{< figure src="images/platform-system.png" alt="Diagram showing how 2i2c's shared devops team and deployment repository powers many independent community hubs, each with access to content, tools, data, and compute." caption="One shared team and open infrastructure powers many independent community hubs." >}}
 
-        Each community hub is **100% built with open tools and infrastructure** and we support open source communities as part of our membership service. Check out the sections below for the features and customizability that comes with each community hub.
+        Every community hub is built entirely with open tools and infrastructure, and we support open source communities as part of our [membership](/membership) service. Below are the features and customization options that come with each hub.
 
   - block: markdown
     content:

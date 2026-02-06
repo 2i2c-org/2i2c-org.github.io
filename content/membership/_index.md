@@ -64,7 +64,7 @@ sections:
       title: Our commitments
       subtitle: We make specific commitments to ensure your infrastructure remains open, portable, and community-controlled.
       text: |
-        Your [Right to Replicate](/right-to-replicate) means you can take your infrastructure anywhere, with or without 2i2c. All our engineering work is [open source](/open-technology) with licensing that protects communities. We work transparently and [contribute upstream](https://2i2c.org/kpis/upstream/) to the projects we depend on.
+        We guarantee your [Right to Replicate](/right-to-replicate) - your infrastructure configuration is transparent and portable, so you're never locked in. All our engineering work is [open source](/open-technology) with licensing that protects communities. We work transparently and [contribute upstream](https://2i2c.org/kpis/upstream/) to the projects we depend on.
 
         See [our public roadmap](https://2i2c.org/roadmap) for current priorities, or read more about [our open practices](/open-practices).
 
