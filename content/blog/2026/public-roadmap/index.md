@@ -26,6 +26,8 @@ You can find all of our roadmap initiatives at this GitHub repository (please co
 
 https://github.com/2i2c-org/initiatives
 
+Moving forward, the roadmap will be a key part of our [service to member organizations](../../../membership/).
+
 ### Why we're opening up our roadmap
 
 At 2i2c, [initiatives drive most of our work](https://github.com/2i2c-org/initiatives).
