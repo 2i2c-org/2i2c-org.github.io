@@ -9,6 +9,8 @@ comments = false  # Show comments?
 
 +++
 
+*This is part of [our open practices](/open-practices).*
+
 The Right to Replicate gives communities the right to **replicate their infrastructure in its entirety elsewhere, with or without 2i2c**.
 
 This document describes 2i2c’s commitment to a community's “right to replicate”, and how this translates into specific infrastructure commitments from 2i2c.  We make these commitments because we believe that using infrastructure that follows these principles will lead to a more fair, just, equitable world. We also believe they are the right foundation for more productive and impactful research and education.

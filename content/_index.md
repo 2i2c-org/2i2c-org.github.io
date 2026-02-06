@@ -8,29 +8,16 @@ type: landing
 sections:
   - block: hero
     content:
-      title: A global network of community hubs for interactive learning and discovery
-      # image:
-      #   # Reference an image in your `assets/media/` folder
-      #   filename: hero-academic.png
-      # Add your Call-To-Action (CTA) button and optional icon
+      title: Open infrastructure for research and education
       cta:
-        label: Learn about our interactive computing platform
-        url: /platform
-        #icon_pack: fas
-        #icon: download
-      # Optionally, add an alternative CTA link
+        label: How our model works
+        url: /membership
       cta_alt:
         label: Join our network
         url: /join
-      # Optionally, add a note under the Call-To-Action button
-      # cta_note:
-      #   label: >-
-                  
-      # Add your Hero text here
       text: |-
-        Our interactive computing platform gives research and education communities a digital home to create and share knowledge with a global network of communities to learn from.
+        We're a non-profit that believes communities shouldn't choose between managing their own servers and vendor lock-in. We operate shared cloud infrastructure so you can focus on discovery, and we contribute to the open source tools that make it possible.
     design:
-      # Choose an optional background color, gradient, image, or video
       background:
         text_color_light: true
         image:
@@ -41,14 +28,34 @@ sections:
   - block: markdown
     id: service
     content:
-      title: We give communities a digital hub with the tools, resources, and data for their workflows
-      subtitle: 
+      title: Each community gets a hub with the tools, data, and resources for their workflows
+      subtitle:
       text: |
 
         {{< servicetech >}}
-       
-        Membership in 2i2c's [community network](./join/_index.md) provides access to our [hub platform and services](/platform) so your community can create an share knowledge with your own open infrastructure. We serve [over 90 communities](./members/index.md) in research and education. See [our community impact stories](/communities) for inspiration.
-        
+
+        [Membership](/membership) in our network provides access to our [hub platform](/platform) so your community can create and share knowledge with open infrastructure.
+
+        <div class="row">
+            <div id="stats" class="section-heading d-flex flex-wrap col-12 mb-3">
+                <div class="stat col-3">
+                    <h5 class="card-title text-uppercase text-muted mb-0">Communities</h5>
+                    <span class="h2 font-weight-bold mb-0">>90</span>
+                </div>
+                <div class="stat col-3">
+                    <h5 class="card-title text-uppercase text-muted mb-0">Active users</h5>
+                    <span class="h2 font-weight-bold mb-0">>6500</span>
+                </div>
+                <div class="stat col-3">
+                    <h5 class="card-title text-uppercase text-muted mb-0">Countries</h5>
+                    <span class="h2 font-weight-bold mb-0">>15</span>
+                </div>
+                <div class="stat col-3">
+                    <h5 class="card-title text-uppercase text-muted mb-0">Upstream PRs</h5>
+                    <span class="h2 font-weight-bold mb-0">>2000</span>
+                </div>
+            </div>
+        </div>
 
         <style>
           #who-logos {
@@ -72,13 +79,53 @@ sections:
             <li class="list-inline-item"><a href="https://columbia.edu/" target="_blank"><img src="/images/logos/community/columbia-university.png" alt="Columbia University logo"></a></li>
         </ul>
 
-        {{< cta cta_text="Join our network of community hubs" cta_link="/join" cta_new_tab="false" >}}
+        {{< cta cta_text="Learn how membership works" cta_link="/membership" cta_new_tab="false" >}}
+
+  - block: markdown
+    id: what-is-hub
+    content:
+      title: What is a community hub?
+      subtitle: A hub is a cloud environment where your community can access shared tools, data, and computational resources.
+      text: |
+        <figure class="videofigure">
+          {{< video src="videos/jupyterhub-environment.mp4">}}
+
+          <figcaption>
+              Powered by <a href="https://jupyterhub.readthedocs.io"><img src="/images/logos/project/jupyterhub.svg" /></a> and <a href="https://repo2docker.readthedocs.io"><img src="/images/logos/project/repo2docker.png" /></a>.
+          </figcaption>
+        </figure>
+
+        <div class="row row-cols-3 mt-4">
+          <div class="col text-center"><strong>Custom environments</strong><br/>Choose from community-maintained stacks or bring your own.</div>
+          <div class="col text-center"><strong>Managed access</strong><br/>Community leaders control who can use the hub.</div>
+          <div class="col text-center"><strong>Scalable compute</strong><br/>From laptops to GPUs, sized for your workflows.</div>
+        </div>
+
+        {{< cta cta_text="Explore platform features" cta_link="/platform" cta_new_tab="false" >}}
+
+  - block: features
+    id: why-2i2c
+    content:
+      title: What makes us different
+      items:
+        - name: Non-profit, no vendor lock-in
+          icon: lock-open
+          icon_pack: fas
+          description: We exist to serve research and education communities, not shareholders. Your [Right to Replicate](/right-to-replicate) means you can take your infrastructure anywhere, with or without us.
+        - name: Open source collaboration
+          icon: arrows-spin
+          icon_pack: fas
+          description: We listen to researchers and educators, then work with upstream open source projects on solutions that benefit everyone — not just our members.
+        - name: Cross-community learning
+          icon: people-arrows
+          icon_pack: fas
+          description: Our network connects communities across disciplines. When geoscientists and biologists face similar challenges, we bridge the gap through shared tools and practices.
 
   - block: collection
     id: posts
     content:
-      title: From our blog
-      subtitle: The [2i2c blog](./blog/_index.md) shares our recent enhancements and impact.
+      title: Recent work
+      subtitle: We share our progress and impact on [our blog](/blog).
       count: 3
       filters:
         folders:
@@ -98,151 +145,10 @@ sections:
       css_class: 'recent-posts-row'
 
   - block: markdown
-    id: jupyterhub
-    design:
-        columns: 2
+    id: join-cta
     content:
-      title: Manage and monitor resources and users
-      subtitle: Community leaders can manage user access to the hub, and provide each user their own workspace that persists over time.
+      title: Learn more or get started
       text: |
-        <figure class="videofigure">
-          {{< video src="videos/jupyterhub-admin.mp4">}}
-
-          <figcaption>
-              Powered by <a href="https://jupyterhub.readthedocs.io"><img src="/images/logos/project/jupyterhub.svg" /></a>
-          </figcaption>
-        </figure>
-
-  - block: markdown
-    id: jupyterlab
-    design:
-        columns: 2
-        css_class: reverse-markdown-row
-    content:
-      title: Design interactive interfaces for data-driven discovery
-      subtitle:  JupyterLab provides a flexible user interface to create and explore notebooks, interactive visualizations, and computational narratives.
-      text: |
-
-        <figure class="videofigure">
-          {{< video src="videos/jupyterlab.mp4">}}
-
-          <figcaption>
-              Powered by <a href="https://jupyterlab.readthedocs.io"><img src="/images/logos/project/jupyterlab.svg" /></a> and <a href="https://mystmd.org"><img src="/images/logos/project/myst.svg" /></a>. Example from <a href="https://github.com/google/neuroglancer"> Neuroglancer-JupyterLab</a>.
-          </figcaption>
-        </figure>
-
-  - block: markdown
-    id: environment-choice
-    design:
-        columns: 2
-    content:
-      title: Choose a community environment, or create your own
-      subtitle:  Community leaders can offer many environments for users to fit all of their workflows.
-      text: |
-        <figure class="videofigure">
-          {{< video src="/videos/jupyterhub-environment.mp4" >}}
-
-          <figcaption>
-              Powered by <a href="https://jupyterhub.readthedocs.io"><img src="/images/logos/project/jupyterhub.svg" /></a> and <a href="https://repo2docker.readthedocs.io"><img src="/images/logos/project/repo2docker.png" /></a>. Example from <a href="https://www.earthdata.nasa.gov/esds/veda">the NASA VEDA project</a>.
-          </figcaption>
-        </figure>
-  - block: markdown
-    id: knowledge-base
-    design:
-        columns: 2
-        css_class: reverse-markdown-row
-    content:
-      title: Share workflows with a community knowledge base.
-      subtitle:  Shared knowledge bases allow communities to contribute their ideas and work to a shared space that is accessible to the community.
-      text: |
-        <figure class="videofigure">
-          {{< video src="videos/jupyterbook.mp4">}}
-
-          <figcaption>
-              Powered by <a href="https://jupyterbook.org"><img src="/images/logos/project/jupyterbook.svg" /></a> and <a href="https://mystmd.org"><img src="/images/logos/project/myst.svg" /></a>. Example from <a href="https://book.cryointhecloud.com">the CryoCloud JupyterBook</a>.
-          </figcaption>
-        </figure>
-
-  - block: markdown
-    id: magiclink
-    design:
-        columns: 2
-    content:
-      title: Share content and interactive links to a hub
-      subtitle: Create and share a magic link to instantly share a copy of your content with anyone so that they can interact and explore with live code and data.
-      text: |
-
-        <figure class="videofigure">
-          {{< video src="videos/magic-links.mp4">}}
-          
-          <figcaption>
-            Powered by <a href="https://mystmd.org"><img src="/images/logos/project/myst.svg" /></a> and <a href="https://jupyterhub.readthedocs.io"><img src="/images/logos/project/jupyterhub.svg" /></a>. Example from <a href="https://www.biorxiv.org/content/10.1101/2024.01.25.577295v4">the Spyglass toolbox paper</a>.
-          </figcaption>
-        </figure>
-
-
-  - block: markdown
-    id: desktop
-    design:
-        columns: 2
-        css_class: reverse-markdown-row
-    content:
-      title: Serve linux applications via a remote desktop
-      subtitle: You can provide users a full linux UI that provides access to GUI applications via the web.
-      text: |
-
-        <figure class="videofigure">
-          {{< video src="videos/desktop.mp4">}}
-          
-          <figcaption>
-              Powered by <a href="https://jupyterhub.readthedocs.io"><img src="/images/logos/project/jupyterhub.svg" /></a>. Example from <a href="https://www.earthdata.nasa.gov/esds/veda">the NASA VEDA project</a>.
-          </figcaption>
-        </figure>
-
-  - block: features
-    id: clouds
-    content:
-      title: Supported cloud providers
-      subtitle: ""
-      text: |
-        2i2c aims to support JupyterHubs on any cloud provider that offers a managed Kubernetes service.
-        To start, we are focusing on the major commercial cloud providers listed below.
-        If you would like a hub hosted on a different cloud provider, please [give us your feedback](mailto:hello@2i2c.org).
-        See [our Organizational Strategy and Goals](https://compass.2i2c.org/organization/strategy) to learn more about our plans.
-
-      items:
-        - icon: google-cloud
-          icon_pack: custom
-          name: Google Cloud
-          description: ""
-        - icon: azure 
-          icon_pack: custom
-          name: Microsoft Azure
-          description: ""
-        - icon: aws
-          icon_pack: custom 
-          name: Amazon Web Services
-          description: ""
-
-  - block: markdown
-    id: learnplatform
-    content:
-      title: Learn more about our platform.
-      subtitle:
-      text: |
-
-        {{< cta cta_text="Learn about our interactive computing platform" cta_link="/platform" cta_new_tab="false" >}}
-
-  - block: markdown
-    id: learnmore
-    design:
-        columns: 2
-    content:
-      title: Learn more about our organization.
-      subtitle: 
-      text: |
-
-        {{% about-hubs %}}
+        {{< cta cta_text="See membership options" cta_link="/join" cta_new_tab="false" >}}
 
 ---
-

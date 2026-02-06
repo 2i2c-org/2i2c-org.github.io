@@ -1,5 +1,7 @@
 # Our commitment to open technology
 
+*This is part of [our open practices](/open-practices).*
+
 This page describes 2i2c's commitment to developing and contributing to infrastructure that is open source now and into the future. More context can be found [in this blog post](blog/2025/community-ownership/index.md).
 
 _Definitions of MUST, MUST NOT, SHOULD, MAY, etc are defined in [RFC 2119](https://tools.ietf.org/html/rfc2119)_

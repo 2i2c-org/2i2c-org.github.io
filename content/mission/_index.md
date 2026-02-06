@@ -1,41 +1,47 @@
 ---
-# Page title
-title: Our open service
-# Page type - we want a landing page (such as a homepage)
+title: Our mission
 type: landing
 sections:
   - block: markdown
     id: mission
     content:
-      text: Our mission is to make research and education more **impactful**, **accessible**, and **delightful** by developing, operating, and supporting infrastructure for interactive computing.
+      title: We grow the world's collective ability to make discoveries and learn from one another.
+      text: |
+        We do this by operating shared cloud infrastructure for research and education communities, and by contributing to the open source tools they depend on.
+  - block: markdown
+    id: problem
+    content:
+      title: The problem we address
+      text: |
+        Research and education communities face a difficult choice: manage fragile self-built infrastructure, or rely on proprietary platforms that create vendor lock-in. Either way, communities work in isolation. They can't pool resources, share learnings, or collectively invest in the open source tools they depend on.
+
+  - block: markdown
+    id: approach
+    content:
+      title: Our approach
+      text: |
+        2i2c creates a connection between the communities using open infrastructure, the team operating it, and the open source projects it's built on. This creates a flywheel where each part reinforces the others:
+
+        {{< figure src="images/flywheel.png" alt="A flywheel diagram showing the virtuous cycle: easier access to open infrastructure leads to more support for open source communities, which leads to more enhancements to open source tools, which leads to more discoveries for the global community, which leads back to easier access." caption="Our theory of impact: a virtuous cycle of open infrastructure, open source, and community impact." >}}
+
+        **Easier access to open infrastructure.** We offer [shared, managed infrastructure](/platform) that eliminates the complexity distracting communities from their core work.
+
+        **More support for open source communities.** By serving many communities through a unified [roadmap](https://2i2c.org/roadmap), we identify common needs and facilitate cross-community learning and collaboration.
+
+        **More enhancements to open source tools.** We develop solutions that work across contexts and [contribute improvements upstream](https://2i2c.org/kpis/upstream/) where they benefit everyone — not just our members.
+
+        **More discoveries for the global community.** Communities get reliable infrastructure without operational burden. Open source projects get sustained contribution and real-world feedback. The broader ecosystem benefits from improvements that would never happen if every community worked alone.
+
+        {{< cta cta_text="Learn how our membership model works" cta_link="/membership" cta_new_tab="false" >}}
 
   - block: features
-    id: goals
+    id: principles
     content:
-      title: Goals
-      subtitle: "Our service goals are to help communities in research and education be more..."
+      title: Our principles
+      subtitle: These principles help communities trust us as stewards of critical workflows.
       items:
-        - name: Impactful
-          description: Accelerate the ability to create and share interactive knowledge internally and externally. Make community workflows more productive and efficient so that users can ask questions and share results more effectively.
-          icon: bolt
-          icon_pack: fas
-        - name: Accessible
-          description: Make interactive computing accessible to a diverse range of global communities. Broaden participation in knowledge creation and sharing across the world, particularly from marginalized communities.
-          icon: globe
-          icon_pack: fas
-        - name: Sustainable
-          description: Build a financially sustainable and globally scalable service. Use our resources to support and grow the open source communities that we partner with to support a healthy open ecosystem. 
-          icon: leaf
-          icon_pack: fas
-
-  - block: features
-    content:
-      title: Principles
-      subtitle: Our service principles help communities trust us as stewards of critical scientific workflows.
-      items:
-        # LEAVE OUT PARTNERSHIP because this forces us to use 3 columns
         - name: Transparency
-          description: Our infrastructure should be transparent and modular so that it respects the community's [Right to Replicate](/right-to-replicate).
+          description: Our infrastructure is transparent and modular, respecting the community's [Right to Replicate](/right-to-replicate).
           icon: magnifying-glass
           icon_pack: fas
         - name: Empowerment
@@ -43,55 +49,17 @@ sections:
           icon: bolt
           icon_pack: fas
         - name: Partnership
-          description: Our participatory service model ensures we maximize our impact and keeps our incentives aligned with community needs.
+          description: Our participatory service model keeps our incentives aligned with community needs.
           icon: handshake
           icon_pack: fas
-        
-  - block: markdown
-    id: share-learn
-    content:
-      title: We empower communities to share and learn.
-      subtitle: Interactive computing hubs provide access to standardized workflows that make it easier for community members to teach and share with one another, and to enhance their work together.
-      text: |
-
-        {{< figure src="/images/service/community-improvements.png" alt="How communities improve with shared infrastructure.">}}
-
 
   - block: markdown
-    id: numbers
+    id: learn-more
     content:
-      title: We build on an ecosystem of open tools, standards, and services to enable the lifecycle of knowledge creation
-      subtitle: Building with flexible, modular, and open technology allows us to re-use the same components for many community workflows. This allows us to build community-centric infrastructure in a scalable way.
+      title: Learn more
       text: |
-        {{< figure src="/images/service/service-lifecycle.png" alt="The service lifecycle we enable.">}}
-
-        <center> <strong>Open source tools we use and support in our service.</strong></center>
-
-        {{< opensourcelogos >}}
-
-  - block: markdown
-    id: impactful
-    content:
-      title: We make open source tools more impactful for research and education
-      subtitle: 
-      text: |
-
-        Our global network gives us a unique perspective to identify high-impact improvements to open source tools. We collaborate with open source communities to make upstream enhancements, and re-deploy the improved tools to the communities in our network.
-
-        {{< figure src="/images/home/os-lifecycle.png" alt="The lifecycle of upstream development">}}
-
-  - block: markdown
-    id: values
-    content:
-      title: Our values
-      text: |
-      
-        Our values are crucial to accomplishing our goals in a way that is equitable
-        and accessible to all.
-
-        Here are some of the core values underlying 2i2c:
-
-        * 2i2c values **fairness** and **justice** as requirements for successful communities.
-        * 2i2c values **learning** and **discovery** for all people.
-        * 2i2c values **collaborating** and **connecting** to foster environments for learning and discovery.
+        - [Our public roadmap](https://2i2c.org/roadmap) shows current development priorities
+        - [Upstream contributions](https://2i2c.org/kpis/upstream/) tracks what we've contributed to open source
+        - [Impact stories](/impact) shows how communities use shared infrastructure
+        - [Core strategy documentation](https://compass.2i2c.org/organization/#core-strategy) has full details on our organizational strategy
 ---

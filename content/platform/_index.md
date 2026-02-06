@@ -10,70 +10,18 @@ aliases:
 sections:
   
 
-  - block: features
-    design:
-      css_class: "bigtitle"
-    content:
-      title: Create a home with everything your community needs for data-driven discovery
-      subtitle: We build and manage community hubs that provide access to all the tools needed to do their work, enabled with open infrastructure that ensures your [Right to Replicate](./right-to-replicate/).
-
-      items:
-        - icon: software
-          icon_pack: custom
-          name: Software & Tools
-          description: "Provide easy access to community software and tools."
-        - icon: compute
-          icon_pack: custom
-          name: Compute & Data
-          description: "Provide the hardware and data resources available to your community."
-        - icon: content
-          icon_pack: custom
-          name: Computational Content
-          description: "Facilitate learning and sharing through community documentation."
   - block: markdown
-    id: hub-services-intro
+    id: platform-intro
     content:
-      title: We provide services to design, develop, and manage your community hub.
+      title: Our shared open infrastructure platform
+      subtitle: A network of community hubs with everything they need for data-driven discovery
       text: |
-        <style>
-        /* This makes the titles on the page a bit bigger to differentiate section titles */
-        .bigtitle h1 {
-          font-size: 2.2em;
-        }
-        </style>
+        Each community gets their own hub with the tools, data, and computing resources for their work. Behind the scenes, we operate [shared infrastructure](https://github.com/2i2c-org/infrastructure) so improvements benefit everyone and flow back to open source. Our [commitment to open source](/open-practices) means you can [replicate your infrastructure](/right-to-replicate) anywhere, with or without us.
 
-        <div class="row row-cols-3">
-          <div class="card col">
-            <div class="card-body">
-              <h5 class="card-title">Management</h5>
-              <p class="card-text px-0">Our cloud infrastructure team deploys and manages your hub infrastructure so that you can focus on your work.</p>
-            </div>
-          </div>
-          <div class="card col">
-            <div class="card-body">
-              <h5 class="card-title">Development</h5>
-              <p class="card-text px-0">Our infrastructure team actively contributes to the open source community, ensuring our hubs, and your service, always benefit from the latest developments.</p>
-            </div>
-          </div>
-          <div class="card col">
-            <div class="card-body">
-              <h5 class="card-title">Guidance</h5>
-              <p class="card-text px-0">Our cloud workflows team helps community leaders and their users learn how to make the most of your hub for impact.</p>
-            </div>
-          </div>
-        </div>
+        {{< figure src="images/platform-system.png" alt="Diagram showing how 2i2c's shared devops team and deployment repository powers many independent community hubs, each with access to content, tools, data, and compute." caption="One shared team and open infrastructure powers many independent community hubs." >}}
 
-        {{< cta cta_text="Join our network of community hubs" cta_link="/join" cta_new_tab="false" >}}
+        Every community hub is built entirely with open tools and infrastructure, and we support open source communities as part of our [membership](/membership) service. Below are the features and customization options that come with each hub.
 
-
-  - block: markdown
-    id: hub-service-intro
-    design:
-      css_class: "bigtitle"
-    content:
-      title: Standard hub features
-      subtitle: Below we outline our standard hub configuration options, which can be usually be **deployed in 1 day or less**. Should your community require a more customized approach, don't hesitate to [contact us](../join/_index.md) to discuss your specific requirements.
-                
   - block: markdown
     content:
       title: Sign-in
@@ -115,15 +63,36 @@ sections:
 
   - block: markdown
     content:
-      title: Software Stack
+      title: User interface
       subtitle: ""
       text: |
-        2i2c supports a number of standard community-maintained images for research and education including Pangeo Notebook, SciPy, Julia, and Rocker with RStudio.
+        JupyterLab provides a flexible interface to create and explore notebooks, interactive visualizations, and computational narratives.
 
-        Additionally, hub users can configure their hubs with any existing pre-built image hosted on [Docker Hub](https://hub.docker.com/) or [quay.io](https://quay.io).
+        <figure class="videofigure">
+          {{< video src="videos/jupyterlab.mp4">}}
 
-        Hub administrators can also provide their own self-maintained images, should they wish to do so.
-        
+          <figcaption>
+              Powered by <a href="https://jupyterlab.readthedocs.io"><img src="/images/logos/project/jupyterlab.svg" /></a> and <a href="https://mystmd.org"><img src="/images/logos/project/myst.svg" /></a>.
+          </figcaption>
+        </figure>
+
+  - block: markdown
+    content:
+      title: Software stack
+      subtitle: ""
+      text: |
+        Community leaders can offer multiple environments to fit different workflows. We support standard community-maintained images including Pangeo Notebook, SciPy, Julia, and Rocker with RStudio.
+
+        <figure class="videofigure">
+          {{< video src="/videos/jupyterhub-environment.mp4" >}}
+
+          <figcaption>
+              Powered by <a href="https://jupyterhub.readthedocs.io"><img src="/images/logos/project/jupyterhub.svg" /></a> and <a href="https://repo2docker.readthedocs.io"><img src="/images/logos/project/repo2docker.png" /></a>.
+          </figcaption>
+        </figure>
+
+        Hub users can also configure hubs with any pre-built image from [Docker Hub](https://hub.docker.com/) or [quay.io](https://quay.io), or provide their own self-maintained images.
+
         {{< softwarestacklogos >}}
 
   - block: markdown
@@ -149,6 +118,36 @@ sections:
 
           <figcaption>
             Powered by <a href="https://mystmd.org"><img src="/images/logos/project/myst.svg" /></a> and <a href="https://jupyterhub.readthedocs.io"><img src="/images/logos/project/jupyterhub.svg" /></a>. Example from <a href="https://www.biorxiv.org/content/10.1101/2024.01.25.577295v4">the Spyglass toolbox paper</a>.
+          </figcaption>
+        </figure>
+
+  - block: markdown
+    content:
+      title: Knowledge base
+      subtitle: ""
+      text: |
+        Shared knowledge bases allow communities to contribute their ideas and work to a shared space that is accessible to the community.
+
+        <figure class="videofigure">
+          {{< video src="videos/jupyterbook.mp4">}}
+
+          <figcaption>
+              Powered by <a href="https://jupyterbook.org"><img src="/images/logos/project/jupyterbook.svg" /></a> and <a href="https://mystmd.org"><img src="/images/logos/project/myst.svg" /></a>. Example from <a href="https://book.cryointhecloud.com">the CryoCloud JupyterBook</a>.
+          </figcaption>
+        </figure>
+
+  - block: markdown
+    content:
+      title: Desktop applications
+      subtitle: ""
+      text: |
+        You can provide users a full linux UI that provides access to GUI applications via the web.
+
+        <figure class="videofigure">
+          {{< video src="videos/desktop.mp4">}}
+
+          <figcaption>
+              Powered by <a href="https://jupyterhub.readthedocs.io"><img src="/images/logos/project/jupyterhub.svg" /></a>. Example from <a href="https://www.earthdata.nasa.gov/esds/veda">the NASA VEDA project</a>.
           </figcaption>
         </figure>              
 
