@@ -6,17 +6,4 @@ Ready to join our network of community hubs? Below you'll find our membership op
 
 Questions? <a href="mailto:hello@2i2c.org">Contact us</a> or <a href="https://cal.com/colliand/30min">book a call</a> to discuss your community's needs.
 
-<style>
-  .article-container {
-    max-width: 900px;
-  }
-  iframe.sales-iframe {
-    width: 100%;
-    border: 1px solid #e0e0e0;
-    border-radius: 8px;
-    height: 100em;
-    margin-top: 1em;
-  }
-</style>
-<iframe class="sales-iframe" src="https://sales.2i2c.org/service-description">
-</iframe>
+{{< cta cta_text="View membership options and pricing" cta_link="https://sales.2i2c.org/service-description" cta_new_tab="true" >}}
