@@ -93,7 +93,7 @@ sections:
         - name: Collaborative model
           icon: arrows-spin
           icon_pack: fas
-          description: Member communities shape what we build through our [collaborative model](/membership#model). See [our roadmap](/roadmap) for current priorities.
+          description: Member communities shape what we build through our [collaborative model](/membership#model). See [our roadmap](https://2i2c.org/roadmap) for current priorities.
         - name: No lock-in
           icon: lock-open
           icon_pack: fas

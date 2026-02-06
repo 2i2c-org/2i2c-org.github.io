@@ -103,7 +103,7 @@
 [[main]]
   name = "Roadmap <span class=\"menu-badge\">NEW</span>"
   # This is actually served from the 2i2c-org/roadmap repository
-  url = "roadmap/"
+  url = "https://2i2c.org/roadmap/"
   weight = 40
 
 [[main]]
