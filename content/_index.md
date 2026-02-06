@@ -81,23 +81,45 @@ sections:
 
         <p class="text-center"><a href="/members">All member communities</a> · <a href="/impact">Impact stories</a> · <a href="/case-studies">Case studies</a></p>
 
+  - block: markdown
+    id: what-is-hub
+    content:
+      title: What is a community hub?
+      subtitle: A hub is a cloud environment where your community can access shared tools, data, and computational resources.
+      text: |
+        <figure class="videofigure">
+          {{< video src="videos/jupyterhub-environment.mp4">}}
+
+          <figcaption>
+              Powered by <a href="https://jupyterhub.readthedocs.io"><img src="/images/logos/project/jupyterhub.svg" /></a> and <a href="https://repo2docker.readthedocs.io"><img src="/images/logos/project/repo2docker.png" /></a>.
+          </figcaption>
+        </figure>
+
+        <div class="row row-cols-3 mt-4">
+          <div class="col text-center"><strong>Custom environments</strong><br/>Choose from community-maintained stacks or bring your own.</div>
+          <div class="col text-center"><strong>Managed access</strong><br/>Community leaders control who can use the hub.</div>
+          <div class="col text-center"><strong>Scalable compute</strong><br/>From laptops to GPUs, sized for your workflows.</div>
+        </div>
+
+        {{< cta cta_text="Explore platform features" cta_link="/platform" cta_new_tab="false" >}}
+
   - block: features
     id: why-2i2c
     content:
       title: What makes us different
       items:
-        - name: Non-profit mission
-          icon: heart
+        - name: Customizable infrastructure
+          icon: laptop-code
           icon_pack: fas
-          description: We exist to serve research and education communities. Your membership fees support open source development and community infrastructure.
-        - name: Collaborative model
+          description: Communities choose their own software environments and computing resources. Need a custom stack? Users can build and share environments that fit their workflows.
+        - name: Open source collaboration
           icon: arrows-spin
           icon_pack: fas
-          description: Member communities shape what we build through our [collaborative model](/membership#model). See [our roadmap](https://2i2c.org/roadmap) for current priorities.
-        - name: No lock-in
-          icon: lock-open
+          description: We listen to researchers and educators, then work with upstream open source projects on solutions that benefit everyone — not just our members.
+        - name: Cross-community learning
+          icon: people-arrows
           icon_pack: fas
-          description: Your [Right to Replicate](/right-to-replicate) means you can take your infrastructure anywhere, with or without us.
+          description: Our network connects communities across disciplines. When geoscientists and biologists face similar challenges, we bridge the gap through shared tools and practices.
 
   - block: collection
     id: posts
@@ -121,28 +143,6 @@ sections:
       view: masonry
       columns: '1'
       css_class: 'recent-posts-row'
-
-  - block: markdown
-    id: what-is-hub
-    content:
-      title: What is a community hub?
-      subtitle: A hub is a cloud environment where your community can access shared tools, data, and computational resources.
-      text: |
-        <figure class="videofigure">
-          {{< video src="videos/jupyterlab.mp4">}}
-
-          <figcaption>
-              Powered by <a href="https://jupyterlab.readthedocs.io"><img src="/images/logos/project/jupyterlab.svg" /></a> and <a href="https://mystmd.org"><img src="/images/logos/project/myst.svg" /></a>.
-          </figcaption>
-        </figure>
-
-        <div class="row row-cols-3 mt-4">
-          <div class="col text-center"><strong>Shared environment</strong><br/>Everyone works with the same tools and configurations.</div>
-          <div class="col text-center"><strong>Managed access</strong><br/>Community leaders control who can use the hub.</div>
-          <div class="col text-center"><strong>Scalable compute</strong><br/>From laptops to GPUs, sized for your workflows.</div>
-        </div>
-
-        {{< cta cta_text="Explore platform features" cta_link="/platform" cta_new_tab="false" >}}
 
   - block: markdown
     id: join-cta
