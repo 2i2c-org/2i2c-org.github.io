@@ -26,21 +26,9 @@
 
   [[main]]
   parent = "about"
-  name = "Open Practices"
+  name = "Open practices"
   url = "open-practices/"
   weight = 12
-
-  [[main]]
-  parent = "about"
-  name = "Right to Replicate"
-  url = "right-to-replicate/"
-  weight = 13
-
-  [[main]]
-  parent = "about"
-  name = "Commitment to Open Technology"
-  url = "open-technology/"
-  weight = 13
 
   [[main]]
   parent = "about"

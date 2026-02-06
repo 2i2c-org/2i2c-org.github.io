@@ -64,23 +64,9 @@ sections:
       title: Our commitments
       subtitle: We make specific commitments to ensure your infrastructure remains open, portable, and community-controlled.
       text: |
-        <div class="row">
-          <div class="col-md-4">
-            <h4><a href="/right-to-replicate">Right to Replicate</a></h4>
-            <p>Your infrastructure is yours. Replicate it anywhere, with or without 2i2c.</p>
-          </div>
-          <div class="col-md-4">
-            <h4><a href="/open-technology">Open Technology</a></h4>
-            <p>All our engineering work is open source, with licensing that protects communities.</p>
-          </div>
-          <div class="col-md-4">
-            <h4><a href="/open-practices">Open Practices</a></h4>
-            <p>We work transparently and contribute upstream to the projects we depend on.</p>
-          </div>
-        </div>
-        <br />
+        Your [Right to Replicate](/right-to-replicate) means you can take your infrastructure anywhere, with or without 2i2c. All our engineering work is [open source](/open-technology) with licensing that protects communities. We work transparently and [contribute upstream](https://2i2c.org/kpis/upstream/) to the projects we depend on.
 
-        See [our public roadmap](https://2i2c.org/roadmap) for current priorities, or [track our upstream contributions](https://2i2c.org/kpis/upstream/).
+        See [our public roadmap](https://2i2c.org/roadmap) for current priorities, or read more about [our open practices](/open-practices).
 
   - block: markdown
     id: join
