@@ -1,7 +1,7 @@
 ---
 title: "Announcing our public roadmap for open development"
 slug: "public-roadmap"
-date: 2026-01-24
+date: 2026-02-06
 categories:
   - organization
 authors:
