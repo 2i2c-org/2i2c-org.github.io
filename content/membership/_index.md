@@ -24,7 +24,7 @@ sections:
 
         **Shared development.** Members influence [our open roadmap](https://2i2c.org/roadmap) with feedback and co-funding. This drives contributions across the open source ecosystem, creating better tools for the world and improvements that we can rapidly deploy to our member hubs.
 
-        {{< cta cta_text="Learn more about our mission" cta_link="/mission" cta_new_tab="false" >}}
+        Learn more about [our mission](/mission) and the values that drive our work.
 
   - block: features
     id: personas
