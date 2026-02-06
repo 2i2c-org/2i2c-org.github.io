@@ -1,4 +1,48 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2i2c's blog | 2i2c</title><link>https://2i2c.org/blog/</link><atom:link href="https://2i2c.org/blog/index.xml" rel="self" type="application/rss+xml"/><description>2i2c's blog</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 05 Feb 2026 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>2i2c's blog</title><link>https://2i2c.org/blog/</link></image><item><title>Better sharing UX with nbgitpuller and contextual error handling</title><link>https://2i2c.org/blog/nbgitpuller-better-ux/</link><pubDate>Thu, 05 Feb 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/nbgitpuller-better-ux/</guid><description>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2i2c's blog | 2i2c</title><link>https://2i2c.org/blog/</link><atom:link href="https://2i2c.org/blog/index.xml" rel="self" type="application/rss+xml"/><description>2i2c's blog</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 06 Feb 2026 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>2i2c's blog</title><link>https://2i2c.org/blog/</link></image><item><title>Introducing Jupyter Book 2 at FOSDEM 2026</title><link>https://2i2c.org/blog/fosdem-jupyter-book-2/</link><pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/fosdem-jupyter-book-2/</guid><description>&lt;p>Our teammate
+&lt;a href="https://2i2c.org/author/angus-hollands/" >Angus Hollands&lt;/a> gave a talk at FOSDEM 2026:
+&lt;a href="https://fosdem.org/2026/schedule/event/ZY9WYD-introducing-jb-2/" target="_blank" rel="noopener" >Introducing Jupyter Book 2&lt;/a>.&lt;/p>
+&lt;p>The talk shares why the Jupyter Book 2 and MyST stack was rebuilt, and how it supports open, reusable computational publishing workflows.&lt;/p>
+&lt;figure id="figure-slide-from-the-fosdem-2026-session-introducing-jupyter-book-2">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Slide from the FOSDEM 2026 session introducing Jupyter Book 2." srcset="
+/blog/fosdem-jupyter-book-2/featured_huebc44838a5457ae22511d566a17f4261_473619_db1e1bd0968e53a1ce9247cfc095769c.webp 400w,
+/blog/fosdem-jupyter-book-2/featured_huebc44838a5457ae22511d566a17f4261_473619_a782d8f5908a69ccd5d58fcf30c78105.webp 760w,
+/blog/fosdem-jupyter-book-2/featured_huebc44838a5457ae22511d566a17f4261_473619_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/fosdem-jupyter-book-2/featured_huebc44838a5457ae22511d566a17f4261_473619_db1e1bd0968e53a1ce9247cfc095769c.webp"
+width="760"
+height="383"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+Slide from the FOSDEM 2026 session introducing Jupyter Book 2.
+&lt;/figcaption>&lt;/figure>
+&lt;ul>
+&lt;li>
+&lt;a href="https://video.fosdem.org/2026/aw1120/ZY9WYD-introducing-jb-2.mp4" target="_blank" rel="noopener" >Watch the recording&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://fosdem.org/2026/schedule/event/ZY9WYD-introducing-jb-2/" target="_blank" rel="noopener" >FOSDEM event page&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="learn-more">
+Learn more
+&lt;a class="header-anchor" href="#learn-more">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;a href="https://proceedings.scipy.org/articles/hwcj9957" target="_blank" rel="noopener" >Jupyter Book 2 and the MyST Document Stack (SciPy 2025 paper)&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://jupyterbook.org/" target="_blank" rel="noopener" >Jupyter Book documentation&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://github.com/jupyter-book/jupyter-book" target="_blank" rel="noopener" >Jupyter Book on GitHub&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>Thanks to
+&lt;a href="https://2i2c.org/collaborators/pythia/" >Project Pythia&lt;/a> and to
+&lt;a href="https://2i2c.org/collaborators/bids/" >BIDS&lt;/a> for supporting deeper
+&lt;a href="https://2i2c.org/blog/fosdem-jupyter-book-2/../../2025/foundational-contributions/" >foundational contributions&lt;/a> like this in Jupyter Book.&lt;/li>
+&lt;li>Thanks to the
+&lt;a href="https://2i2c.org/collaborators/jupyter-book/" >Jupyter Book&lt;/a> team for helping out with slide creation and doing all the work Angus spoke about here!&lt;/li>
+&lt;/ul></description></item><item><title>Better sharing UX with nbgitpuller and contextual error handling</title><link>https://2i2c.org/blog/nbgitpuller-better-ux/</link><pubDate>Thu, 05 Feb 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/nbgitpuller-better-ux/</guid><description>
 &lt;h2 id="tldr">
 TL;DR
 &lt;a class="header-anchor" href="#tldr">#&lt;/a>
