@@ -9048,7 +9048,9 @@ Acknowledgements
 &lt;a href="http://www.icsi.berkeley.edu/" target="_blank" rel="noopener" >International Computer Science Institute&lt;/a>, a 501(c)(3) charitable organization. We thank ICSI for its collaboration and leadership in launching 2i2c!&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/div></description></item><item><title>The Community Right to Replicate</title><link>https://2i2c.org/right-to-replicate/</link><pubDate>Thu, 28 Jun 2018 00:00:00 +0000</pubDate><guid>https://2i2c.org/right-to-replicate/</guid><description>&lt;p>The Right to Replicate gives communities the right to &lt;strong>replicate their infrastructure in its entirety elsewhere, with or without 2i2c&lt;/strong>.&lt;/p>
+&lt;/div></description></item><item><title>The Community Right to Replicate</title><link>https://2i2c.org/right-to-replicate/</link><pubDate>Thu, 28 Jun 2018 00:00:00 +0000</pubDate><guid>https://2i2c.org/right-to-replicate/</guid><description>&lt;p>&lt;em>This is part of
+&lt;a href="https://2i2c.org/open-practices/" >our open practices&lt;/a>.&lt;/em>&lt;/p>
+&lt;p>The Right to Replicate gives communities the right to &lt;strong>replicate their infrastructure in its entirety elsewhere, with or without 2i2c&lt;/strong>.&lt;/p>
 &lt;p>This document describes 2i2c’s commitment to a community&amp;rsquo;s “right to replicate”, and how this translates into specific infrastructure commitments from 2i2c. We make these commitments because we believe that using infrastructure that follows these principles will lead to a more fair, just, equitable world. We also believe they are the right foundation for more productive and impactful research and education.&lt;/p>
 &lt;p>2i2c is committed to running its own infrastructure on open-source tools and vendor-agnostic infrastructure, though it does not &lt;em>force&lt;/em> users to use only open-source tools in their own environments, code, and data. Below is a table describing how the Right to Replicate fits into 2i2c hub technology.&lt;/p>
 &lt;p>(Definitions of &lt;code>MUST&lt;/code>, &lt;code>MUST NOT&lt;/code>, &lt;code>SHOULD&lt;/code>, &lt;code>MAY&lt;/code>, etc are defined in
@@ -9273,11 +9275,13 @@ border-radius: .25rem;
 &lt;a href="https://investinopen.org/blog/jrost-rapid-response-fund-awardees/" target="_blank" rel="noopener" >a $5,000 grant&lt;/a> to fund JupyterHub cloud infrastructure for projects that did not have their own cloud funding.&lt;/p>
 &lt;/div>
 &lt;/div>
-&lt;/div></description></item><item><title/><link>https://2i2c.org/open-technology/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://2i2c.org/open-technology/</guid><description>
+&lt;/div></description></item><item><title/><link>https://2i2c.org/open-practices/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://2i2c.org/open-practices/</guid><description/></item><item><title/><link>https://2i2c.org/open-technology/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://2i2c.org/open-technology/</guid><description>
 &lt;h1 id="our-commitment-to-open-technology">
 Our commitment to open technology
 &lt;a class="header-anchor" href="#our-commitment-to-open-technology">#&lt;/a>
-&lt;/h1>&lt;p>This page describes 2i2c&amp;rsquo;s commitment to developing and contributing to infrastructure that is open source now and into the future. More context can be found
+&lt;/h1>&lt;p>&lt;em>This is part of
+&lt;a href="https://2i2c.org/open-practices/" >our open practices&lt;/a>.&lt;/em>&lt;/p>
+&lt;p>This page describes 2i2c&amp;rsquo;s commitment to developing and contributing to infrastructure that is open source now and into the future. More context can be found
 &lt;a href="https://2i2c.org/blog/community-ownership/" >in this blog post&lt;/a>.&lt;/p>
 &lt;p>&lt;em>Definitions of MUST, MUST NOT, SHOULD, MAY, etc are defined in
 &lt;a href="https://tools.ietf.org/html/rfc2119" target="_blank" rel="noopener" >RFC 2119&lt;/a>&lt;/em>&lt;/p>
@@ -9839,7 +9843,7 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;/figure>
 &lt;/p>
 &lt;p>
-&lt;a href="https://numfocus.org" target="_blank" rel="noopener" >NumFOCUS&lt;/a> is a nonprofit organization that serves as a fiscal sponsor for open source scientific computing tools in Python, R, and Julia.&lt;/p></description></item><item><title>Open practices at 2i2c</title><link>https://2i2c.org/open-practices/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://2i2c.org/open-practices/</guid><description/></item><item><title>Openscapes</title><link>https://2i2c.org/collaborators/openscapes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://2i2c.org/collaborators/openscapes/</guid><description>&lt;p>
+&lt;a href="https://numfocus.org" target="_blank" rel="noopener" >NumFOCUS&lt;/a> is a nonprofit organization that serves as a fiscal sponsor for open source scientific computing tools in Python, R, and Julia.&lt;/p></description></item><item><title>Openscapes</title><link>https://2i2c.org/collaborators/openscapes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://2i2c.org/collaborators/openscapes/</guid><description>&lt;p>
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="" srcset="
@@ -10023,6 +10027,16 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;a href="https://hub.big.binder.opensci.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/ephemeral_interactive_computing_for_nasa_communities.png" alt="Ephemeral Interactive Computing for NASA Communities" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">Ephemeral Interactive Computing for NASA Communities&lt;/small>
+&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="col-sm-6 col-md-4 col-lg-3">
+&lt;div class="card border-0" style="background-color: #f8f9fa;">
+&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
+&lt;a href="https://foothill.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
+&lt;img src="https://2i2c.org/members/images/foothill_college.png" alt="Foothill College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
+&lt;small class="text-dark fw-medium">Foothill College&lt;/small>
 &lt;/a>
 &lt;/div>
 &lt;/div>
