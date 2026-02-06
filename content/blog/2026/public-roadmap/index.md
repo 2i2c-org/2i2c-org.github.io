@@ -1,7 +1,7 @@
 ---
 title: "Announcing our public roadmap for open development"
 slug: "public-roadmap"
-date: 2026-01-24
+date: 2026-02-06
 categories:
   - organization
 authors:
@@ -26,11 +26,13 @@ You can find all of our roadmap initiatives at this GitHub repository (please co
 
 https://github.com/2i2c-org/initiatives
 
+Moving forward, the roadmap will be a key part of our [service to member organizations](../../../membership/).
+
 ### Why we're opening up our roadmap
 
 At 2i2c, [initiatives drive most of our work](https://github.com/2i2c-org/initiatives).
 They represent major chunks of value with multiple steps needed to implement and unlock it.
-They range from making core infrastructure improvements to our member network to making upstream contributions that enable new functionality on behalf of our member communities.
+They range from making core infrastructure improvements to our member network, to making upstream contributions that enable new functionality on behalf of our member communities.
 While initiatves are generally public, they are spread across many places, and we've managed their prioritization, sequencing, and refinement in internal team spaces.
 This made it difficult for others to follow along, signal-boost, and potentially support initiatives they wanted to see done.
 
@@ -40,7 +42,7 @@ By opening this up, we hope to accomplish these goals:
 
 1. **Make it easier for everyone to see and influence our priorities**.
 2. **Make it easier for member organizations to fund or collaborate on work**.
-3. **Make it easier for open source communities to see what's driving our contributions**. For [directed contributions](LINK) we want upstream communities to have visibility into what's driving the work and who is making it happen.
+3. **Make it easier for open source communities to see what's driving our contributions**.
 4. **Make it easier to give credit to member communities that fund work**.
 
 In short, we want to **model what sustainable open development can look like**.
