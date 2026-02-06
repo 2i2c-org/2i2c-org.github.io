@@ -20,11 +20,17 @@ sections:
     content:
       title: Our approach
       text: |
-        2i2c creates a connection between communities using open infrastructure, the team operating it, and the open source projects it's built on. By serving many communities through [shared infrastructure](/platform) and a unified [roadmap](https://2i2c.org/roadmap), we identify common needs, develop solutions that work across contexts, and contribute improvements upstream where they benefit everyone.
+        2i2c creates a connection between the communities using open infrastructure, the team operating it, and the open source projects it's built on. This creates a flywheel where each part reinforces the others:
 
-        {{< figure src="/membership/images/collaborative-model.png" alt="Diagram showing the collaborative model: member communities use their hub to have impact, they influence our open roadmap with feedback and co-funding, which drives contributions across the open source ecosystem, which creates better tools for our members and for the world." >}}
+        {{< figure src="images/flywheel.png" alt="A flywheel diagram showing the virtuous cycle: easier access to open infrastructure leads to more support for open source communities, which leads to more enhancements to open source tools, which leads to more discoveries for the global community, which leads back to easier access." caption="Our theory of impact: a virtuous cycle of open infrastructure, open source, and community impact." >}}
 
-        This transforms a fragmented landscape into a virtuous cycle. Communities get reliable infrastructure without operational burden. Open source projects get sustained contribution and real-world feedback. And the broader ecosystem benefits from improvements that would never happen if every community worked alone.
+        **Easier access to open infrastructure.** We offer [shared, managed infrastructure](/platform) that eliminates the complexity distracting communities from their core work.
+
+        **More support for open source communities.** By serving many communities through a unified [roadmap](https://2i2c.org/roadmap), we identify common needs and facilitate cross-community learning and collaboration.
+
+        **More enhancements to open source tools.** We develop solutions that work across contexts and [contribute improvements upstream](https://2i2c.org/kpis/upstream/) where they benefit everyone — not just our members.
+
+        **More discoveries for the global community.** Communities get reliable infrastructure without operational burden. Open source projects get sustained contribution and real-world feedback. The broader ecosystem benefits from improvements that would never happen if every community worked alone.
 
         {{< cta cta_text="Learn how our membership model works" cta_link="/membership" cta_new_tab="false" >}}
 
