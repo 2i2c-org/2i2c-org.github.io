@@ -1,4 +1,51 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2i2c's blog | 2i2c</title><link>https://2i2c.org/blog/</link><atom:link href="https://2i2c.org/blog/index.xml" rel="self" type="application/rss+xml"/><description>2i2c's blog</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 06 Feb 2026 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>2i2c's blog</title><link>https://2i2c.org/blog/</link></image><item><title>Introducing Jupyter Book 2 at FOSDEM 2026</title><link>https://2i2c.org/blog/fosdem-jupyter-book-2/</link><pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/fosdem-jupyter-book-2/</guid><description>&lt;p>Our teammate
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2i2c's blog | 2i2c</title><link>https://2i2c.org/blog/</link><atom:link href="https://2i2c.org/blog/index.xml" rel="self" type="application/rss+xml"/><description>2i2c's blog</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 06 Feb 2026 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>2i2c's blog</title><link>https://2i2c.org/blog/</link></image><item><title>Announcing our public roadmap for open development</title><link>https://2i2c.org/blog/public-roadmap/</link><pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/public-roadmap/</guid><description>&lt;p>At the core of 2i2c&amp;rsquo;s service is a commitment to doing our work in a way that follows open principles and practices.
+We commit to
+&lt;a href="https://2i2c.org/open-practices/" >doing all of our work in the open&lt;/a> and
+&lt;a href="https://2i2c.org/open-technology/" >only managing and developing open infrastructure&lt;/a>.
+As part of this effort, we&amp;rsquo;re shifting our strategy to
+&lt;a href="https://2i2c.org/blog/public-roadmap/../strategy-update-2026/" >lean more heavily into co-creation&lt;/a> with member communities and open source communities.&lt;/p>
+&lt;p>Today we&amp;rsquo;re excited to share a first step towards making our development process more participatory, transparent, and useful: &lt;strong>we&amp;rsquo;re opening up our initiatives roadmap&lt;/strong>.
+You can find it here:&lt;/p>
+&lt;p>👉
+&lt;a href="https://2i2c.org/roadmap" target="_blank" rel="noopener" >2i2c.org/roadmap&lt;/a>&lt;/p>
+&lt;p>You can find all of our roadmap initiatives in this GitHub repository (please comment and engage with us there!):&lt;/p>
+&lt;p>👉
+&lt;a href="https://github.com/2i2c-org/initiatives" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> github.com/2i2c-org/initiatives&lt;/a>&lt;/p>
+&lt;p>Moving forward, the roadmap will be a key part of our
+&lt;a href="https://2i2c.org/membership/" >service to member organizations&lt;/a>.&lt;/p>
+&lt;h2 id="why-were-opening-up-our-roadmap">
+Why we&amp;rsquo;re opening up our roadmap
+&lt;a class="header-anchor" href="#why-were-opening-up-our-roadmap">#&lt;/a>
+&lt;/h2>&lt;p>At 2i2c,
+&lt;a href="https://github.com/2i2c-org/initiatives" target="_blank" rel="noopener" >initiatives drive most of our work&lt;/a>.
+They represent major chunks of value with multiple steps needed to implement and unlock it.
+They range from making core infrastructure improvements to our member network, to making upstream contributions that enable new functionality on behalf of our member communities.
+While initiatives are generally public, they are spread across many places, and we&amp;rsquo;ve managed their prioritization, sequencing, and refinement in internal team spaces.
+This made it difficult for others to follow along, signal-boost, and potentially support initiatives they wanted to see done.&lt;/p>
+&lt;p>For this reason, we decided to build a
+&lt;a href="https://2i2c.org/roadmap" target="_blank" rel="noopener" >public view of our initiatives roadmap&lt;/a>. This reflects our current team priorities and what is coming down the pipeline.&lt;/p>
+&lt;p>We&amp;rsquo;ve also put our platform initiatives in a
+&lt;a href="https://github.com/2i2c-org/initiatives" target="_blank" rel="noopener" >public repository&lt;/a>. This gives us a public space for member communities (or anybody else) to discuss, collaborate, and support ideas in the open.&lt;/p>
+&lt;p>By opening this up, we hope to accomplish these goals:&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>Make it easier for everyone to see and influence our priorities&lt;/strong>.&lt;/li>
+&lt;li>&lt;strong>Make it easier for member organizations to fund or collaborate on work&lt;/strong>.&lt;/li>
+&lt;li>&lt;strong>Make it easier for open source communities to see what&amp;rsquo;s driving our contributions&lt;/strong>.&lt;/li>
+&lt;li>&lt;strong>Make it easier to give credit to member communities that fund work&lt;/strong>.&lt;/li>
+&lt;/ol>
+&lt;p>In short, we want to &lt;strong>model what sustainable open development can look like&lt;/strong>.
+Our hope is that this will both create more transparency and trust with our stakeholder communities, and invite them to tell us how we can best use our team capacity.&lt;/p>
+&lt;h2 id="we-hope-to-use-a-shared-roadmap-to-funnel-more-resources-into-open-source">
+We hope to use a shared roadmap to funnel more resources into open source
+&lt;a class="header-anchor" href="#we-hope-to-use-a-shared-roadmap-to-funnel-more-resources-into-open-source">#&lt;/a>
+&lt;/h2>&lt;p>We also hope we can leverage this as a &lt;strong>shared roadmap across our member communities&lt;/strong> that helps focus our attention and drive fundraising for our work.
+To begin, we&amp;rsquo;re inviting any
+&lt;a href="https://2i2c.org/members/" >member community&lt;/a> to provide financial support for these items as a way to influence our timelines and priorities, and we&amp;rsquo;re exploring ways to facilitate fractional co-funding across our member communities to help share the cost of development across many organizations.&lt;/p>
+&lt;p>This is an early experiment in collaborative and radically transparent development, and we will iterate and learn as we get feedback from member communities.
+We&amp;rsquo;re excited to see where this goes!&lt;/p>
+&lt;p>Please
+&lt;a href="https://2i2c.org/blog/public-roadmap/mailto:hello@2i2c.org" >give feedback on this idea&lt;/a>. If you&amp;rsquo;re interested in being a member organization of 2i2c,
+&lt;a href="https://2i2c.org/join" target="_blank" rel="noopener" >reach out to us about membership&lt;/a>.&lt;/p></description></item><item><title>Introducing Jupyter Book 2 at FOSDEM 2026</title><link>https://2i2c.org/blog/fosdem-jupyter-book-2/</link><pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/fosdem-jupyter-book-2/</guid><description>&lt;p>Our teammate
 &lt;a href="https://2i2c.org/author/angus-hollands/" >Angus Hollands&lt;/a> gave a talk at FOSDEM 2026:
 &lt;a href="https://fosdem.org/2026/schedule/event/ZY9WYD-introducing-jb-2/" target="_blank" rel="noopener" >Introducing Jupyter Book 2&lt;/a>.&lt;/p>
 &lt;p>The talk shares why the Jupyter Book 2 and MyST stack was rebuilt, and how it supports open, reusable computational publishing workflows.&lt;/p>
