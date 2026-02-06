@@ -15,7 +15,7 @@ sections:
       css_class: "bigtitle"
     content:
       title: Create a home with everything your community needs for data-driven discovery
-      subtitle: Each community gets their own hub with access to the tools, data, and computing resources needed for their work. Behind the scenes, we operate [shared infrastructure](/membership#model) so improvements benefit everyone and flow back to open source. Your [Right to Replicate](/right-to-replicate) ensures you're never locked in.
+      subtitle: Each community gets their own hub, customized to their needs, while benefiting from a [common infrastructure repository](https://github.com/2i2c-org/infrastructure) that deploys improvements everywhere at once. Your [Right to Replicate](/right-to-replicate) ensures you're never locked in.
 
       items:
         - icon: software
@@ -30,10 +30,10 @@ sections:
           icon_pack: custom
           name: Computational Content
           description: "Facilitate learning and sharing through community documentation."
+
   - block: markdown
-    id: hub-services-intro
     content:
-      title: A network of independent community hubs with shared infrastructure
+      title: Sign-in
       text: |
         <style>
         /* This makes the titles on the page a bit bigger to differentiate section titles */
@@ -42,23 +42,6 @@ sections:
         }
         </style>
 
-        Each community gets their own hub, customized to their needs, while benefiting from a [common infrastructure repository](https://github.com/2i2c-org/infrastructure) that lets us deploy improvements everywhere at once. We manage and develop your hub infrastructure so you can focus on your work.
-
-        {{< cta cta_text="Learn how our collaborative model works" cta_link="/membership#model" cta_new_tab="false" >}}
-
-
-  - block: markdown
-    id: hub-service-intro
-    design:
-      css_class: "bigtitle"
-    content:
-      title: Standard hub features
-      subtitle: Below we outline our standard hub configuration options, which can be usually be **deployed in 1 day or less**. Should your community require a more customized approach, don't hesitate to [contact us](../join/_index.md) to discuss your specific requirements.
-                
-  - block: markdown
-    content:
-      title: Sign-in
-      text: |
         We support the following authentication and authorization options:
           - **GitHub** - with support for GitHub Organization and Teams
           - **CILogon** - with support for institutional logins, Google Auth, Microsoft, and ORCID
