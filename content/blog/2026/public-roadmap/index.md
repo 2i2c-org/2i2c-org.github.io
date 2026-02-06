@@ -40,7 +40,7 @@ By opening this up, we hope to accomplish these goals:
 
 1. **Make it easier for everyone to see and influence our priorities**.
 2. **Make it easier for member organizations to fund or collaborate on work**.
-3. **Make it easier for open source communities to see what's driving our contributions**. For [directed contributions](LINK) we want upstream communities to have visibility into what's driving the work and who is making it happen.
+3. **Make it easier for open source communities to see what's driving our contributions**.
 4. **Make it easier to give credit to member communities that fund work**.
 
 In short, we want to **model what sustainable open development can look like**.
