@@ -1,4 +1,45 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Community | 2i2c</title><link>https://2i2c.org/tag/community/</link><atom:link href="https://2i2c.org/tag/community/index.xml" rel="self" type="application/rss+xml"/><description>Community</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 06 Feb 2026 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Community</title><link>https://2i2c.org/tag/community/</link></image><item><title>Announcing our public roadmap for open development</title><link>https://2i2c.org/blog/public-roadmap/</link><pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/public-roadmap/</guid><description>&lt;p>At the core of 2i2c&amp;rsquo;s service is a commitment to doing our work in a way that follows open principles and practices.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Community | 2i2c</title><link>https://2i2c.org/tag/community/</link><atom:link href="https://2i2c.org/tag/community/index.xml" rel="self" type="application/rss+xml"/><description>Community</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 09 Feb 2026 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Community</title><link>https://2i2c.org/tag/community/</link></image><item><title>Jenny Wong joins the JupyterHub team</title><link>https://2i2c.org/blog/jenny-jupyterhub-team/</link><pubDate>Mon, 09 Feb 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/jenny-jupyterhub-team/</guid><description>&lt;p>We&amp;rsquo;re excited to share that
+&lt;a href="https://2i2c.org/author/jenny-wong" >Jenny Wong&lt;/a> has been
+&lt;a href="https://github.com/jupyterhub/team-compass/pull/876" target="_blank" rel="noopener" >invited to join the JupyterHub team&lt;/a> as a contributor and maintainer.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="" srcset="
+/blog/jenny-jupyterhub-team/featured_hud4aa732603690fdbf1310c8591f72bcc_150634_ddabf68fc6b2a28d89787f12bbfc15bf.webp 400w,
+/blog/jenny-jupyterhub-team/featured_hud4aa732603690fdbf1310c8591f72bcc_150634_09171b0e8ae76f6336bbe904eb791b1e.webp 760w,
+/blog/jenny-jupyterhub-team/featured_hud4aa732603690fdbf1310c8591f72bcc_150634_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/jenny-jupyterhub-team/featured_hud4aa732603690fdbf1310c8591f72bcc_150634_ddabf68fc6b2a28d89787f12bbfc15bf.webp"
+width="760"
+height="398"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>Jenny&amp;rsquo;s contributions to
+&lt;a href="https://github.com/jupyterhub/nbgitpuller" target="_blank" rel="noopener" >nbgitpuller&lt;/a> and
+&lt;a href="https://github.com/jupyterhub/grafana-dashboards" target="_blank" rel="noopener" >grafana-dashboards&lt;/a>, along with her active participation in project meetings and community planning, earned her this recognition from the JupyterHub community. Being invited to a project team means that existing team members have recognized a pattern of high-quality contributions and trust in a person&amp;rsquo;s ability to steward the project.&lt;/p>
+&lt;p>We&amp;rsquo;re particularly excited about this because our mission isn&amp;rsquo;t just about deploying infrastructure - it&amp;rsquo;s about being
+&lt;a href="https://2i2c.org/blog/good-citizen/" >good citizens&lt;/a> in the open source communities we depend on. We invest in upstream contributions, participate in community governance, and aim to build the kind of relationships that strengthen the whole ecosystem. When our team members are welcomed into upstream project teams, it&amp;rsquo;s a signal that we&amp;rsquo;re doing this well.&lt;/p>
+&lt;h2 id="learn-more">
+Learn more
+&lt;a class="header-anchor" href="#learn-more">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;a href="https://compass.hub.jupyter.org/en/latest/team/structure.html" target="_blank" rel="noopener" >JupyterHub team compass&lt;/a> - how the team is structured and how new members are added&lt;/li>
+&lt;li>
+&lt;a href="https://github.com/jupyterhub/team-compass/pull/876" target="_blank" rel="noopener" >JupyterHub proposal to add Jenny to the team&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://github.com/jupyterhub/nbgitpuller" target="_blank" rel="noopener" >nbgitpuller&lt;/a> and
+&lt;a href="https://github.com/jupyterhub/grafana-dashboards" target="_blank" rel="noopener" >grafana-dashboards&lt;/a> - projects Jenny contributes to&lt;/li>
+&lt;/ul>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>The
+&lt;a href="https://2i2c.org/collaborators/jupyterhub/" >JupyterHub&lt;/a> community for fostering an open and welcoming project culture&lt;/li>
+&lt;li>Support from our
+&lt;a href="https://2i2c.org/members/" >member communities&lt;/a> gives us the capacity to invest in upstream open source engagement and build relationships like this&lt;/li>
+&lt;/ul></description></item><item><title>Announcing our public roadmap for open development</title><link>https://2i2c.org/blog/public-roadmap/</link><pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/public-roadmap/</guid><description>&lt;p>At the core of 2i2c&amp;rsquo;s service is a commitment to doing our work in a way that follows open principles and practices.
 We commit to
 &lt;a href="https://2i2c.org/open-practices/" >doing all of our work in the open&lt;/a> and
 &lt;a href="https://2i2c.org/open-technology/" >only managing and developing open infrastructure&lt;/a>.
