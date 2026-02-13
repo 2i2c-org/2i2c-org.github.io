@@ -35,7 +35,7 @@ Follow this to create the newsletter each month.
 
 ### Send
 
-* Send the email to our mailing list via [MailChimp](https://compass.2i2c.org/marketing/mailinglist/).  
+* Send the email to our mailing list via [Buttondown](https://buttondown.com/2i2c).  
   * Copy the campaign from the previous month
   * Update the **Subject** and **Content** with the newsletter we just wrote.
 

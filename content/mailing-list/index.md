@@ -9,14 +9,15 @@ Our mailing list shares the most important information with our community, and i
 - Announcements from the open source and open science communities.
 - Guidance for how you can help our open science and open source network.
 
-To sign up, just provide some basic information below:
+To sign up, **subscribe below**:
 
-<style>
-  iframe.ml-iframe {
-    width: 100%;
-    border: none;
-    height: 100vh;
-  }
-</style>
-
-<iframe class="ml-iframe" src="https://2i2c.us2.list-manage.com/subscribe?u=494ab59616acdfc381a699b44&id=94ce07e556"></iframe>
+<form
+  action="https://buttondown.com/api/emails/embed-subscribe/2i2c"
+  method="post"
+  class="embeddable-buttondown-form"
+  referrerpolicy="unsafe-url"
+>
+  <label for="bd-email">Enter your email</label>
+  <input type="email" name="email" id="bd-email" />
+  <input type="submit" value="Subscribe" />
+</form>
