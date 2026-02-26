@@ -80,7 +80,7 @@ Finally, we want to recognize that there are plenty of challenges along with suc
 ## Get involved
 
 Thanks for your interest in 2i2c and the mission that it hopes to accomplish.
-We hope that this update has been informative and interesting, and we welcome feedback about any of the information provided. If you'd like to help with any of the challenges or efforts described above, we welcome all forms of collaboration, and are happy to chat. Please drop us a line at [`hello@2i2c.org`](mailto:hello@2i2c.org) or [contact us about joining our Slack community](https://2i2c.org/#contact). Thanks for reading!
+We hope that this update has been informative and interesting, and we welcome feedback about any of the information provided. If you'd like to help with any of the challenges or efforts described above, we welcome all forms of collaboration, and are happy to chat. Please drop us a line at [`hello@2i2c.org`](mailto:hello@2i2c.org) or [contact us about joining our Slack community](mailto:hello@2i2c.org). Thanks for reading!
 
 
 

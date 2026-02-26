@@ -60,6 +60,12 @@
   url = "jobs/"
   weight = 60
 
+  [[main]]
+  parent = "about"
+  name = "Newsletter"
+  url = "mailing-list/"
+  weight = 80
+
 [[main]]
   name = "Impact"
   weight = 30

@@ -18,7 +18,7 @@ aliases:
 It has been about six months since 2i2c first began operations (after receiving [funding from the Chan Zuckerberg Initiative](../czi-core-support)).
 In that time we've made progress along several directions, and wish to use this blog post to provide updates about the ways in which 2i2c has evolved over the first months of its existence.
 
-Below are a few major updates from the 2i2c community - as always, if you want to learn more about 2i2c, keep an eye [on our blog](/posts) or subscribe to the [2i2c mailing list](/#contact).
+Below are a few major updates from the 2i2c community - as always, if you want to learn more about 2i2c, keep an eye [on our blog](/posts) or subscribe to the [2i2c mailing list](/mailing-list/).
 
 ## Early pilot JupyterHub infrastructure
 

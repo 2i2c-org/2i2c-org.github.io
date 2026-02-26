@@ -151,4 +151,6 @@ sections:
       text: |
         {{< cta cta_text="See membership options" cta_link="/join" cta_new_tab="false" >}}
 
+        <p class="text-center mt-3"><a href="/mailing-list/">Subscribe to our newsletter</a> for monthly updates on open infrastructure.</p>
+
 ---

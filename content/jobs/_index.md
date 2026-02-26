@@ -11,7 +11,7 @@ aliases = ["/careers"]
 
 We grow our team on a rolling basis as funds and projects are available.[^archive]
 This page has general information about working at 2i2c, as well as a list of open positions for which we're accepting applications.
-To be notified of any open positions, [sign up for our mailing list](/#contact).
+To be notified of any open positions, [sign up for our mailing list](/mailing-list/).
 
 {{< open_jobs >}}
 
