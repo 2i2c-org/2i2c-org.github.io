@@ -1,87 +1,59 @@
 # Guide to the monthly newsletter
 
-This is a guide to creating the monthly 2i2c community update. We frame this update as a "dispatch": a short, proactive, and curated update on our most important work. It should not be exhaustive - only cover the most important points.
+A short, curated monthly dispatch meant to be transparent and scannable. It is not exhaustive - think of it as our community heartbeat.
 
 ## Guiding principles
 
-Our goal is to **be transparent**, **demonstrate expertise**, and **demonstrate impact** with our community by proactively sharing our work. Here are some guiding principles we follow:
-
-* **Mission-driven:** We are a non-profit, not a SaaS company. Our updates reflect this "partnership" model. We celebrate sustainability (like new members) as a community win.  
-* **Blog-first:** Our blog is the content engine. We write individual posts there first. The monthly email *curates and distributes* this content; it doesn't create new content from scratch.  
-* **Human-centered:** Use a personal, direct voice (e.g., `From: Chris from 2i2c`).  
-* **Utility-focused:** Be useful and scannable. Respect our reader's time.  
-* **Consistent:** A "good enough" update sent on schedule is better than a "perfect" one sent late. This and our blog are our community "heartbeat."
+* **Personal voice:** Write like you're talking to a colleague. First person, direct.
+* **Curate, don't create:** The blog and GitHub issues are where we generate "content". The newsletter just summarizes and distributes it.
+* **Consistency is better than perfection:** don't worry about doing it exactly right, just get it out.
 
 ## Monthly workflow
 
-Follow this to create the newsletter each month.
+1. **Gather** blog posts and issue / initiative updates from the last month.
+2. **Pick a lead story** with the biggest win or most important update.
+3. **Fill highlights** with shipped work and in-progress items, 6-8 bullets total.
+4. **Use the template below** to fill in a basic structure, and modify it as you wish.
+5. **Send** via [Buttondown](https://buttondown.com/2i2c) - copy last month's campaign, update subject and body.
 
-### Curate
-
-* Gather all blog posts from the last 30 days.  
-* Define the **Monthly Theme** in one sentence (e.g., "This month was all about sustainability.").  
-* Select the **"Lead Story"** (our biggest win).  
-* Select 2-4 **"Featured Stories"** that map to our [core value proposition](https://compass.2i2c.org/organization/value-proposition/) and [strategy](https://compass.2i2c.org/organization/strategy/). Here are a few key areas, each with their own `category:` in blog metadata:
-  * **Community Impact:** (e.g., A research group's success, a great workshop).  
-  * **Upstream Impact:** (e.g., A fix for Jupyter, a Binder report).  
-  * **Service Enhancements:** (e.g., A new hub feature, a support story).  
-  * **Organization Updates:** (e.g., major new announcements or updates on our strategy).  
-* Find a **"Community Spotlight"** (e.g., a new contributor to thank).
-
-### Write the newsletter
-
-* Use [the template in the next section](#template) to write the full email.  
-* Review to make sure it makes sense as a holistic newsletter.
-
-### Send
-
-* Send the email to our mailing list via [Buttondown](https://buttondown.com/2i2c).  
-  * Copy the campaign from the previous month
-  * Update the **Subject** and **Content** with the newsletter we just wrote.
-
-## Blog links
-
-**You must use the `slug:` field to generate blog links**. The file path is not used in generating the URL, instead all blog entries will have a path like:
+**Note on blog URLs**: Blog URLs use the `slug:` field from the post frontmatter: 
 
 ```
-2i2c.org/blog/[slug]
+https://2i2c.org/blog/[slug]
 ```
 
 ## Template
 
-*This is the short, 300-500 word email for our mailing list.*
-
 **From:** `Chris from 2i2c`
-**Title:** `[2i2c Update] <A brief, specific hook, e.g., "Our first premier member & a 400-person NASA workshop">`
+**Subject:** `[2i2c Update] <brief, specific hook>`
 
-*[Intro summary. Example: "October was a milestone month for us in building out our new membership model towards organizational sustainability. We’ve spent the last few months designing the basic structure of membership, and this month welcome our first premier member: the Berkeley Institute for Data Science! We think this is a key foundational step towards refining and building out this member network. Along the way, we’ve been hard at work to highlight all the work our community members and collaborators are doing. Check out a few highlights from last month below from our blog.”]*
+*[1-2 sentence intro setting the monthly theme.]*
 
-### [Lead story headline, e.g., "BIDS Joins as Our First Premier Member"]
+### [Lead story headline]
 
-*[1-2 sentence teaser for the lead story.]*
+*[1-2 sentence teaser.]*
 
-[**Read the full announcement**](https://www.google.com/search?q=link-to-individual-blog-post)
+[**Read more**](https://2i2c.org/blog/slug)
 
-[feature image from blog post, example below.]
 <figure>
 <img src="[featured_image_url]" alt="[description]">
-  <figcaption>[1-2 sentences explaining the figure]</figcaption>
+  <figcaption>[Caption.]</figcaption>
 </figure>
 
 ### This Month's Highlights
 
-[A list of highlights taken from blog posts. Use the `category:` to categorize each and add a label before each list item. See below for example:]
+*6-8 bullets total. Mix of shipped work (link to blog post) and notable in-progress initiatives (link to GitHub issue).*
 
-* [**Summary title of item**] [1-2 sentence teaser for a community story...] [**Read more**](https://www.google.com/search?q=link-to-post)  
-* [**Summary title of item**] [1-2 sentence teaser for an open-source contribution...] [**Read more**](https://www.google.com/search?q=link-to-post)  
-* [**Summary title of item**] [1-2 sentence teaser for a new feature or infrastructure update...] [**Read more**](https://www.google.com/search?q=link-to-post)
+* **Shipped - [category]** [1-2 sentence teaser.] [**Read more**](https://2i2c.org/blog/slug)
+* **Shipped - [category]** [1-2 sentence teaser.] [**Read more**](https://2i2c.org/blog/slug)
+* **In progress** [What problem it solves and where we are now.] [**Follow along**](https://github.com/2i2c-org/initiatives/issues/NNN)
 
 ### Community spotlights
 
-*[A bulleted list of 1-2 sentence "Thank You"s to a new contributor, a partner, or a great forum question. Or updates from communities we've blogged about. This makes the communities feel seen, signal-boosted, and appreciated.]*
+*1-2 sentence thank-yous to contributors, partners, or communities. Makes people feel seen.*
 
 Thanks for being a part of the 2i2c community,
 
-— Chris and the 2i2c Team
+- Chris and the 2i2c Team
 
 *P.S. For more updates and to see all of our posts, visit [our blog](https://2i2c.org/blog).*
