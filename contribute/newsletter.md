@@ -10,11 +10,11 @@ A short, curated monthly dispatch meant to be transparent and scannable. It is n
 
 ## Monthly workflow
 
-1. **Gather** blog posts and issue / initiative updates from the last month.
-2. **Pick a lead story** with the biggest win or most important update.
-3. **Fill highlights** with shipped work and in-progress items, 6-8 bullets total.
-4. **Use the template below** to fill in a basic structure, and modify it as you wish.
-5. **Send** via [Buttondown](https://buttondown.com/2i2c) - copy last month's campaign, update subject and body.
+1. **Collect** from two sources: blog posts published last month, and comments/activity on initiative issues (and their child issues or closing PRs) from last month.
+2. **Pick 6-8 items** that are most interesting across both sources. One sentence each.
+3. **Split** into "This month" (blog posts, link to post or PR) and "What we're working on" (initiative activity, link to issue).
+4. **Pick a lead story** - the biggest shipped thing gets its own section up top.
+5. **Use the template below** to fill in the structure, then send via [Buttondown](https://buttondown.com/2i2c).
 
 **Note on blog URLs**: Blog URLs use the `slug:` field from the post frontmatter: 
 
@@ -27,7 +27,7 @@ https://2i2c.org/blog/[slug]
 **From:** `Chris from 2i2c`
 **Subject:** `[2i2c Update] <brief, specific hook>`
 
-*[1-2 sentence intro setting the monthly theme.]*
+*[1-2 sentence intro for what stood out this month at a high level.]*
 
 ### [Lead story headline]
 
@@ -40,17 +40,24 @@ https://2i2c.org/blog/[slug]
   <figcaption>[Caption.]</figcaption>
 </figure>
 
-### This Month's Highlights
+### This month
 
-*6-8 bullets total. Mix of shipped work (link to blog post) and notable in-progress initiatives (link to GitHub issue).*
+*One sentence per item. Link to the blog post or PR.*
 
-* **Shipped - [category]** [1-2 sentence teaser.] [**Read more**](https://2i2c.org/blog/slug)
-* **Shipped - [category]** [1-2 sentence teaser.] [**Read more**](https://2i2c.org/blog/slug)
-* **In progress** [What problem it solves and where we are now.] [**Follow along**](https://github.com/2i2c-org/initiatives/issues/NNN)
+* **[Category]:** [One sentence.] [**Read more**](https://2i2c.org/blog/slug)
+* **[Category]:** [One sentence.] [**Read more**](https://2i2c.org/blog/slug)
 
-### Community spotlights
+### What we're working on
 
-*1-2 sentence thank-yous to contributors, partners, or communities. Makes people feel seen.*
+*One sentence per item. Link to the initiative issue so readers can follow along.*
+
+* **[Initiative]:** [What it is and where we are.] [**Follow along**](https://github.com/2i2c-org/initiatives/issues/NNN)
+
+_Check out [our roadmap](https://2i2c.org/roadmap) for more about what we're up to._
+
+### Shout-outs
+
+*Thank-yous to external contributors, partners, or communities — not 2i2c team members. 1-2 sentences each.*
 
 Thanks for being a part of the 2i2c community,
 
