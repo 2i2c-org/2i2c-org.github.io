@@ -44,14 +44,14 @@ https://2i2c.org/blog/[slug]
 
 *One sentence per item. Link to the blog post or PR.*
 
-* **[Category]:** [One sentence.] [**Read more**](https://2i2c.org/blog/slug)
-* **[Category]:** [One sentence.] [**Read more**](https://2i2c.org/blog/slug)
+* **[Short bolded title]:** [One sentence.] [**Read more**](https://2i2c.org/blog/slug)
+* **[Short bolded title]:** [One sentence.] [**Read more**](https://2i2c.org/blog/slug)
 
 ### What we're working on
 
 *One sentence per item. Link to the initiative issue so readers can follow along.*
 
-* **[Initiative]:** [What it is and where we are.] [**Follow along**](https://github.com/2i2c-org/initiatives/issues/NNN)
+* **[Short bolded title]:** [What it is and where we are.] [**Follow along**](https://github.com/2i2c-org/initiatives/issues/NNN)
 
 _Check out [our roadmap](https://2i2c.org/roadmap) for more about what we're up to._
 
