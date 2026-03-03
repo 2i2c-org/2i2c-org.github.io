@@ -9296,74 +9296,24 @@ How we are funded
 &lt;a class="header-anchor" href="#how-we-are-funded">#&lt;/a>
 &lt;/h1>&lt;p>To sustain and grow our operations, 2i2c receives funding from the following sources:&lt;/p>
 &lt;ul>
-&lt;li>&lt;strong>Revenue from managed services&lt;/strong>. We build self-sustaining cloud services that generate revenue through management and support contracts. See
-&lt;a href="https://2i2c.org/platform/" >our services page&lt;/a> for more information.&lt;/li>
-&lt;li>&lt;strong>Project-focused grants&lt;/strong>. We lead and collaborate on several projects that involve developing and supporting infrastructure for research and education. See
-&lt;a href="https://2i2c.org/projects" >our projects page&lt;/a> for more information.&lt;/li>
-&lt;li>&lt;strong>Core organizational support&lt;/strong>. We raise core funding that covers the costs of strategically-critical roles that are not easily linked to specific deliverables and contracts.&lt;/li>
+&lt;li>&lt;strong>Membership&lt;/strong> - Communities join 2i2c&amp;rsquo;s network to collaborate with our team and
+&lt;a href="https://2i2c.org/members/" >peer organizations&lt;/a>, pool resources toward shared open source needs, and help drive the direction of the tools that research depends on. It includes managed open infrastructure via our
+&lt;a href="https://2i2c.org/platform/" >community hub platform&lt;/a>. See
+&lt;a href="https://2i2c.org/membership/" >our membership page&lt;/a> for more information.&lt;/li>
+&lt;li>&lt;strong>Co-funded development projects&lt;/strong> - Members and funders invest in specific development work that addresses shared infrastructure challenges on
+&lt;a href="https://2i2c.org/roadmap/" target="_blank" rel="noopener" >our roadmap&lt;/a>, with improvements flowing back upstream to the open source communities we all rely on.&lt;/li>
+&lt;li>&lt;strong>Core organizational support&lt;/strong> - We raise philanthropic funding to cover core organizational costs. Our long-term goal is to fund operations entirely through the membership and co-development flywheel, and we&amp;rsquo;re actively working toward that.&lt;/li>
 &lt;/ul>
 &lt;div class="alert alert-">
 &lt;div>
-&lt;p>
-&lt;p>&lt;a href="https://compass.2i2c.org/finance/strategy" target="_blank" rel="noopener" >2i2c’s Financial and Sustainability Strategy page&lt;/a> has our full financial sustainability strategy.&lt;/p>&lt;/p>
-&lt;p>
-&lt;p>&lt;a href="https://2i2c.org/kpis/finances" target="_blank" rel="noopener" >Our accounting dashboards&lt;/a> have all our latest costs and revenue.&lt;/p>&lt;/p>
+&lt;a href="https://compass.2i2c.org/organization/service-model/" target="_blank" rel="noopener" >Our service model&lt;/a> describes how membership and co-funded projects work together.
 &lt;/div>
 &lt;/div>
-&lt;h2 id="major-sources-of-funding">
-Major sources of funding
-&lt;a class="header-anchor" href="#major-sources-of-funding">#&lt;/a>
-&lt;/h2>&lt;!-- This is in layouts/shortcodes/list-funders.html -->
-&lt;style>
-.funding-sources img {
-border-radius: .25rem;
-}
-&lt;/style>
-&lt;div class="funding-sources">
-&lt;div class="row py-3">
-&lt;div class="col-2">
-&lt;img src="https://2i2c.org/blog/2024/funding-czi/images/czi-logo.png" />
-&lt;/div>
-&lt;div class="col-10">
-&lt;p>The
-&lt;a href="https://chanzuckerberg.com/eoss/" target="_blank" rel="noopener" >Chan Zuckerberg Initiative &lt;/a> has supported 2i2c with three awards over 2i2c's lifetime. In 2020, we received
-&lt;a href="https://2i2c.org/blog/czi-core-support/" >~$1.4m over 3 years&lt;/a> to support capacity building in the Jupyter ecosystem for research and education. In 2022, we received
-&lt;a href="https://2i2c.org/blog/czi-global-communities-announcement/" >~$800K over two years&lt;/a> to serve open cloud infrastructure to communities in Latin America and Africa. In 2024, we received
-&lt;a href="https://2i2c.org/blog/funding-czi/" >~700K over one year&lt;/a> for core organizational support for 2i2c's mission.&lt;/p>
-&lt;/div>
-&lt;/div>
-&lt;div class="row py-3">
-&lt;div class="col-2">
-&lt;img src="https://2i2c.org/blog/2024/funding-navigation/images/tnf-logo.png" />
-&lt;/div>
-&lt;div class="col-10">
-&lt;p>In 2024, we received
-&lt;a href="https://2i2c.org/blog/funding-navigation/" >~$1.5M over 2 years from The Navigation Fund&lt;/a> to identify and build a scalable sustainability model for 2i2c.&lt;/p>
-&lt;/div>
-&lt;/div>
-&lt;div class="row py-3">
-&lt;div class="col-2">
-&lt;img src="https://repository-images.githubusercontent.com/101820659/4fcdfc00-6c25-11e9-9e30-33a31a285450" />
-&lt;/div>
-&lt;div class="col-10">
-&lt;p>In 2020, we received
-&lt;a href="https://2i2c.org/blog/pangeo-goes-live/" >$500,000 over two years&lt;/a> from
-&lt;a href="https://medium.com/pangeo/announcing-the-climate-data-science-lab-funded-by-the-moore-foundation-4bc4314ac02d" target="_blank" rel="noopener" >the Climate Data Lab&lt;/a> at Columbia University for managing and developing cloud infrastructure for
-&lt;a href="https://pangeo.io" target="_blank" rel="noopener" >the Pangeo Project&lt;/a>.&lt;/p>
-&lt;/div>
-&lt;/div>
-&lt;div class="row py-3">
-&lt;div class="col-2">
-&lt;img src="https://investinopen.org/content/images/2020/09/ioi-logo-sq-1.png" />
-&lt;/div>
-&lt;div class="col-10">
-&lt;p>
-&lt;a href="https://investinopen.org" target="_blank" rel="noopener" >Invest in Open Infrastructure&lt;/a> along with
-&lt;a href="https://jrost.org" target="_blank" rel="noopener" >Joint Roadmap for Open Science Tools&lt;/a> awarded 2i2c
-&lt;a href="https://investinopen.org/blog/jrost-rapid-response-fund-awardees/" target="_blank" rel="noopener" >a $5,000 grant&lt;/a> to fund JupyterHub cloud infrastructure for projects that did not have their own cloud funding.&lt;/p>
-&lt;/div>
-&lt;/div>
-&lt;/div></description></item><item><title/><link>https://2i2c.org/open-practices/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://2i2c.org/open-practices/</guid><description/></item><item><title/><link>https://2i2c.org/open-technology/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://2i2c.org/open-technology/</guid><description>
+&lt;h2 id="our-funders-and-collaborators">
+Our funders and collaborators
+&lt;a class="header-anchor" href="#our-funders-and-collaborators">#&lt;/a>
+&lt;/h2>&lt;p>See our
+&lt;a href="https://2i2c.org/collaborators/" >collaborators and funders page&lt;/a> for a full list of organizations that have supported 2i2c. You can filter by &lt;strong>Funders&lt;/strong> to see philanthropic supporters specifically.&lt;/p></description></item><item><title/><link>https://2i2c.org/open-practices/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://2i2c.org/open-practices/</guid><description/></item><item><title/><link>https://2i2c.org/open-technology/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://2i2c.org/open-technology/</guid><description>
 &lt;h1 id="our-commitment-to-open-technology">
 Our commitment to open technology
 &lt;a class="header-anchor" href="#our-commitment-to-open-technology">#&lt;/a>
@@ -10314,16 +10264,6 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;div class="col-sm-6 col-md-4 col-lg-3">
 &lt;div class="card border-0" style="background-color: #f8f9fa;">
 &lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
-&lt;a href="https://staging.hub.disasters.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
-&lt;img src="https://2i2c.org/members/images/nasa_disasters_program.png" alt="NASA Disasters Program" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
-&lt;small class="text-dark fw-medium">NASA Disasters Program&lt;/small>
-&lt;/a>
-&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;div class="col-sm-6 col-md-4 col-lg-3">
-&lt;div class="card border-0" style="background-color: #f8f9fa;">
-&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
 &lt;a href="https://staging.nmfs-openscapes.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/noaa_fisheries_openscapes.png" alt="NOAA Fisheries Openscapes" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">NOAA Fisheries Openscapes&lt;/small>
@@ -10347,6 +10287,16 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;a href="https://pasadena.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/pasadena_city_college.png" alt="Pasadena City College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">Pasadena City College&lt;/small>
+&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="col-sm-6 col-md-4 col-lg-3">
+&lt;div class="card border-0" style="background-color: #f8f9fa;">
+&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
+&lt;a href="https://purdue.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
+&lt;img src="https://2i2c.org/members/images/purdue_university.jpg" alt="Purdue University" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
+&lt;small class="text-dark fw-medium">Purdue University&lt;/small>
 &lt;/a>
 &lt;/div>
 &lt;/div>
@@ -10477,6 +10427,16 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;a href="https://spelman.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/spelman_college.png" alt="Spelman College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">Spelman College&lt;/small>
+&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="col-sm-6 col-md-4 col-lg-3">
+&lt;div class="card border-0" style="background-color: #f8f9fa;">
+&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
+&lt;a href="https://stanford.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
+&lt;img src="https://2i2c.org/members/images/stanford_university.png" alt="Stanford University" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
+&lt;small class="text-dark fw-medium">Stanford University&lt;/small>
 &lt;/a>
 &lt;/div>
 &lt;/div>
