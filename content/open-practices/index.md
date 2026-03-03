@@ -36,7 +36,7 @@ sections:
     content:
       title: Upstream contributions
       text: |
-        We take an [upstream first](https://compass.2i2c.org/open-source/strategy/#upstream-first) approach — improvements we build flow back to the open source projects they came from. We provide both [directed and foundational contributions](blog/2025/good-citizen/index.md) and [track our upstream impact](https://2i2c.org/kpis/upstream/) publicly.
+        We take an [upstream first](https://compass.2i2c.org/open-source/strategy/#upstream-first) approach — improvements we build flow back to the open source projects they came from. We provide both [directed and foundational contributions](blog/2025/good-citizen/index.md) and [track our upstream impact](https://2i2c.org/kpis/upstream/) publicly. This work is funded through our [membership and co-development model](/membership).
 
   - block: markdown
     id: transparent

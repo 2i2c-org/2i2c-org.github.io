@@ -26,21 +26,22 @@
 
   [[main]]
   parent = "about"
-  name = "Open practices"
-  url = "open-practices/"
-  weight = 12
-
-  [[main]]
-  parent = "about"
-  name = "Our organization and team"
+  name = "Our team"
   url = "organization/"
-  weight = 15
+  weight = 12
 
   [[main]]
   parent = "about"
   name = "How we're funded"
   url = "about/funding/"
+  weight = 15
+
+  [[main]]
+  parent = "about"
+  name = "Open practices"
+  url = "open-practices/"
   weight = 16
+
 
   [[main]]
   parent = "about"

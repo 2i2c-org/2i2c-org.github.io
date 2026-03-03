@@ -177,5 +177,7 @@ sections:
 
         {{< cta cta_text="Join our network of communities" cta_link="/join" cta_new_tab="false" >}}
 
+        Or [learn more about membership](/membership) to understand how our network works.
+
 ---
 
