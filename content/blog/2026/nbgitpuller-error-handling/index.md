@@ -1,7 +1,7 @@
 ---
 title: Better sharing UX with nbgitpuller and contextual error handling
 slug: "nbgitpuller-better-ux"
-date: 2026-02-05
+date: 2026-03-31
 authors:
   - Jenny Wong
 categories:
@@ -11,7 +11,7 @@ tags:
 
 ## TL;DR
 
-[nbgitpuller](https://github.com/jupyterhub/nbgitpuller) now has improved UX context-aware error handling. Try out the pre-release [version 1.3.0b1](https://pypi.org/project/nbgitpuller/1.3.0b1/) and let us know what you think by opening an [issue](https://github.com/jupyterhub/nbgitpuller/issues) or via the feedback form below 🚀
+[nbgitpuller](https://github.com/jupyterhub/nbgitpuller) now has improved UX context-aware error handling. Update to [version 1.3.0](https://pypi.org/project/nbgitpuller/1.3.0/) and let us know what you think by opening an [issue](https://github.com/jupyterhub/nbgitpuller/issues) or via the feedback form below 🚀
 
 ## What is nbgitpuller?
 
