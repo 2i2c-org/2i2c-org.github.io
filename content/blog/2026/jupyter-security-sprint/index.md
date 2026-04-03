@@ -30,4 +30,4 @@ One challenge we discussed was how blindly running security scanning tools gener
 ## Acknowledgements
 
 - Thanks to [the jupyter security working group](https://github.com/jupyter/security) for providing leadership and organizing, in particular Joe Lucas!
-- Thanks to the [Jupyter Foundation](https://jupyter.org/governance/intro.html) for funding community meetings like these.
+- Thanks to the [Jupyter Foundation](https://jupyterfoundation.org) for funding community meetings like these.
