@@ -13,9 +13,12 @@ tags:
 
 As part of [an initiative to improve jupyterbook.org's documentation](https://github.com/2i2c-org/initiatives/issues/28), we refactored the site so that multiple repositories are served under one domain. We wrote up the details on the [Jupyter Book blog](https://jupyterbook.org/blog).
 
+
 Read the full post here:
 
 [How we combine multiple repositories into one website at jupyterbook.org](https://jupyterbook.org/blog/posts/2026/multi-repo).
+
+![The landing page of jupyterbook.org](./featured.png)
 
 Along the way we made several upstream improvements to the [MyST Engine](https://mystmd.org) and the [MyST theme](https://github.com/jupyter-book/myst-theme):
 
