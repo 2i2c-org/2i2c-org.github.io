@@ -1,4 +1,38 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Open Source | 2i2c</title><link>https://2i2c.org/tag/open-source/</link><atom:link href="https://2i2c.org/tag/open-source/index.xml" rel="self" type="application/rss+xml"/><description>Open Source</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 31 Mar 2026 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Open Source</title><link>https://2i2c.org/tag/open-source/</link></image><item><title>Better sharing UX with nbgitpuller and contextual error handling</title><link>https://2i2c.org/blog/nbgitpuller-better-ux/</link><pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/nbgitpuller-better-ux/</guid><description>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Open Source | 2i2c</title><link>https://2i2c.org/tag/open-source/</link><atom:link href="https://2i2c.org/tag/open-source/index.xml" rel="self" type="application/rss+xml"/><description>Open Source</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 06 Apr 2026 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Open Source</title><link>https://2i2c.org/tag/open-source/</link></image><item><title>Combining multiple repos into one site at jupyterbook.org</title><link>https://2i2c.org/blog/jupyterbook-multi-repo-site/</link><pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/jupyterbook-multi-repo-site/</guid><description>&lt;p>As part of
+&lt;a href="https://github.com/2i2c-org/initiatives/issues/28" target="_blank" rel="noopener" >an initiative to improve jupyterbook.org&amp;rsquo;s documentation&lt;/a>, we refactored the site so that multiple repositories are served under one domain. We wrote up the details on the
+&lt;a href="https://jupyterbook.org/blog" target="_blank" rel="noopener" >Jupyter Book blog&lt;/a>.&lt;/p>
+&lt;p>Read the full post here:&lt;/p>
+&lt;p>
+&lt;a href="https://jupyterbook.org/blog/posts/2026/multi-repo" target="_blank" rel="noopener" >How we combine multiple repositories into one website at jupyterbook.org&lt;/a>.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./featured.png" alt="The landing page of jupyterbook.org" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>Along the way we made several upstream improvements to the
+&lt;a href="https://mystmd.org" target="_blank" rel="noopener" >MyST Engine&lt;/a> and the
+&lt;a href="https://github.com/jupyter-book/myst-theme" target="_blank" rel="noopener" >MyST theme&lt;/a>:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="https://github.com/jupyter-book/mystmd/issues/2126" target="_blank" rel="noopener" >&lt;code>parts:&lt;/code> support for &lt;code>extends:&lt;/code>&lt;/a> and
+&lt;a href="https://github.com/jupyter-book/mystmd/issues/2127" target="_blank" rel="noopener" >URL support as well&lt;/a> so we can share a footer / navbar configuration across repositories&lt;/li>
+&lt;li>
+&lt;a href="https://github.com/jupyter-book/myst-theme/pull/816" target="_blank" rel="noopener" >&lt;code>internal_domains&lt;/code> option&lt;/a> so that links to another repository&amp;rsquo;s content could still be treated as internal&lt;/li>
+&lt;li>
+&lt;a href="https://github.com/jupyter-book/mystmd/pull/2684" target="_blank" rel="noopener" >Less aggressive citation parsing&lt;/a> so that text like &lt;code>@githubhandle&lt;/code> weren&amp;rsquo;t parsed as a citation&lt;/li>
+&lt;li>
+&lt;a href="https://github.com/jupyter-book/myst-theme/pull/790" target="_blank" rel="noopener" >Several mobile and UX fixes&lt;/a> (that&amp;rsquo;s one, there were many others!)&lt;/li>
+&lt;/ul>
+&lt;p>These all felt particularly relevant for documentation that our
+&lt;a href="https://2i2c.org/members" target="_blank" rel="noopener" >member communities&lt;/a> manage, where you have content split across multiple repositories but served at a single domain.&lt;/p>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;p>Thanks to
+&lt;a href="https://2i2c.org/collaborators/pythia/" >Project Pythia&lt;/a> and
+&lt;a href="https://2i2c.org/collaborators/earthscope/" >EarthScope&lt;/a> for collaboration and feedback that helped shape this work. And thanks to our
+&lt;a href="https://2i2c.org/members/" >member communities&lt;/a> whose memberships fund upstream contributions like these.&lt;/p></description></item><item><title>Better sharing UX with nbgitpuller and contextual error handling</title><link>https://2i2c.org/blog/nbgitpuller-better-ux/</link><pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/nbgitpuller-better-ux/</guid><description>
 &lt;h2 id="tldr">
 TL;DR
 &lt;a class="header-anchor" href="#tldr">#&lt;/a>

@@ -1,4 +1,54 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Chris Holdgraf | 2i2c</title><link>https://2i2c.org/author/chris-holdgraf/</link><atom:link href="https://2i2c.org/author/chris-holdgraf/index.xml" rel="self" type="application/rss+xml"/><description>Chris Holdgraf</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 06 Feb 2026 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/author/chris-holdgraf/avatar_hu239570f3b0123c4756b7a8f15caec1a2_32796_270x270_fill_q75_lanczos_center.jpg</url><title>Chris Holdgraf</title><link>https://2i2c.org/author/chris-holdgraf/</link></image><item><title>Announcing our public roadmap for open development</title><link>https://2i2c.org/blog/public-roadmap/</link><pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/public-roadmap/</guid><description>&lt;p>At the core of 2i2c&amp;rsquo;s service is a commitment to doing our work in a way that follows open principles and practices.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Chris Holdgraf | 2i2c</title><link>https://2i2c.org/author/chris-holdgraf/</link><atom:link href="https://2i2c.org/author/chris-holdgraf/index.xml" rel="self" type="application/rss+xml"/><description>Chris Holdgraf</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 06 Apr 2026 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/author/chris-holdgraf/avatar_hu239570f3b0123c4756b7a8f15caec1a2_32796_270x270_fill_q75_lanczos_center.jpg</url><title>Chris Holdgraf</title><link>https://2i2c.org/author/chris-holdgraf/</link></image><item><title>Chris Holdgraf</title><link>https://2i2c.org/author/chris-holdgraf/</link><pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/author/chris-holdgraf/</guid><description>&lt;p>Chris is the Executive Director of
+&lt;a href="https://2i2c.org" target="_blank" rel="noopener" >2i2c&lt;/a>. He is on the
+&lt;a href="https://ec.jupyter.org" target="_blank" rel="noopener" >Jupyter Executive Council&lt;/a> as well as the
+&lt;a href="https://jupyterfoundation.org" target="_blank" rel="noopener" >Jupyter Foundation Board&lt;/a>. He has been a co-lead of several projects within the Jupyter ecosystem for over ten years (particularly the
+&lt;a href="https://jupyterhub-team-compass.readthedocs.io/en/latest/team.html#jupyterhub-team" target="_blank" rel="noopener" >JupyterHub and Binder projects&lt;/a>, as well as the
+&lt;a href="https://jupyterbook.org" target="_blank" rel="noopener" >Jupyter Book project&lt;/a>). He’s interested in the boundary between technology, open-source software, and research and education workflows, as well as how open communities can support and extend these workflows to make science more impactful and inclusive.&lt;/p>
+&lt;p>He was previously a post-doctoral researcher in the Department of Statistics at
+&lt;a href="https://www.berkeley.edu/" target="_blank" rel="noopener" >UC Berkeley&lt;/a>, and a Community Architect with the
+&lt;a href="https://data.berkeley.edu/" target="_blank" rel="noopener" >Division of Data Science&lt;/a> at Berkeley. His background is in cognitive and computational neuroscience, where he used
+&lt;a href="https://www.nature.com/articles/ncomms13654" target="_blank" rel="noopener" >predictive models to understand the auditory system&lt;/a> in the human brain.&lt;/p>
+&lt;p>&lt;strong>Highlights&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>10+ years leading and building open source projects, open infrastructure teams and services&lt;/li>
+&lt;li>Jupyter Distinguished Contributor&lt;/li>
+&lt;li>Co-led JupyterHub, Binder, and Jupyter Book&lt;/li>
+&lt;li>Co-created the DataHub interactive computing service for the Data Science Education Program at UC Berkeley.&lt;/li>
+&lt;/ul></description></item><item><title>Combining multiple repos into one site at jupyterbook.org</title><link>https://2i2c.org/blog/jupyterbook-multi-repo-site/</link><pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/jupyterbook-multi-repo-site/</guid><description>&lt;p>As part of
+&lt;a href="https://github.com/2i2c-org/initiatives/issues/28" target="_blank" rel="noopener" >an initiative to improve jupyterbook.org&amp;rsquo;s documentation&lt;/a>, we refactored the site so that multiple repositories are served under one domain. We wrote up the details on the
+&lt;a href="https://jupyterbook.org/blog" target="_blank" rel="noopener" >Jupyter Book blog&lt;/a>.&lt;/p>
+&lt;p>Read the full post here:&lt;/p>
+&lt;p>
+&lt;a href="https://jupyterbook.org/blog/posts/2026/multi-repo" target="_blank" rel="noopener" >How we combine multiple repositories into one website at jupyterbook.org&lt;/a>.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./featured.png" alt="The landing page of jupyterbook.org" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>Along the way we made several upstream improvements to the
+&lt;a href="https://mystmd.org" target="_blank" rel="noopener" >MyST Engine&lt;/a> and the
+&lt;a href="https://github.com/jupyter-book/myst-theme" target="_blank" rel="noopener" >MyST theme&lt;/a>:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="https://github.com/jupyter-book/mystmd/issues/2126" target="_blank" rel="noopener" >&lt;code>parts:&lt;/code> support for &lt;code>extends:&lt;/code>&lt;/a> and
+&lt;a href="https://github.com/jupyter-book/mystmd/issues/2127" target="_blank" rel="noopener" >URL support as well&lt;/a> so we can share a footer / navbar configuration across repositories&lt;/li>
+&lt;li>
+&lt;a href="https://github.com/jupyter-book/myst-theme/pull/816" target="_blank" rel="noopener" >&lt;code>internal_domains&lt;/code> option&lt;/a> so that links to another repository&amp;rsquo;s content could still be treated as internal&lt;/li>
+&lt;li>
+&lt;a href="https://github.com/jupyter-book/mystmd/pull/2684" target="_blank" rel="noopener" >Less aggressive citation parsing&lt;/a> so that text like &lt;code>@githubhandle&lt;/code> weren&amp;rsquo;t parsed as a citation&lt;/li>
+&lt;li>
+&lt;a href="https://github.com/jupyter-book/myst-theme/pull/790" target="_blank" rel="noopener" >Several mobile and UX fixes&lt;/a> (that&amp;rsquo;s one, there were many others!)&lt;/li>
+&lt;/ul>
+&lt;p>These all felt particularly relevant for documentation that our
+&lt;a href="https://2i2c.org/members" target="_blank" rel="noopener" >member communities&lt;/a> manage, where you have content split across multiple repositories but served at a single domain.&lt;/p>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;p>Thanks to
+&lt;a href="https://2i2c.org/collaborators/pythia/" >Project Pythia&lt;/a> and
+&lt;a href="https://2i2c.org/collaborators/earthscope/" >EarthScope&lt;/a> for collaboration and feedback that helped shape this work. And thanks to our
+&lt;a href="https://2i2c.org/members/" >member communities&lt;/a> whose memberships fund upstream contributions like these.&lt;/p></description></item><item><title>Announcing our public roadmap for open development</title><link>https://2i2c.org/blog/public-roadmap/</link><pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/public-roadmap/</guid><description>&lt;p>At the core of 2i2c&amp;rsquo;s service is a commitment to doing our work in a way that follows open principles and practices.
 We commit to
 &lt;a href="https://2i2c.org/open-practices/" >doing all of our work in the open&lt;/a> and
 &lt;a href="https://2i2c.org/open-technology/" >only managing and developing open infrastructure&lt;/a>.
@@ -45,23 +95,7 @@ To begin, we&amp;rsquo;re inviting any
 We&amp;rsquo;re excited to see where this goes!&lt;/p>
 &lt;p>Please
 &lt;a href="https://2i2c.org/blog/public-roadmap/mailto:hello@2i2c.org" >give feedback on this idea&lt;/a>. If you&amp;rsquo;re interested in being a member organization of 2i2c,
-&lt;a href="https://2i2c.org/join" target="_blank" rel="noopener" >reach out to us about membership&lt;/a>.&lt;/p></description></item><item><title>Chris Holdgraf</title><link>https://2i2c.org/author/chris-holdgraf/</link><pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/author/chris-holdgraf/</guid><description>&lt;p>Chris is the Executive Director of
-&lt;a href="https://2i2c.org" target="_blank" rel="noopener" >2i2c&lt;/a>. He is on the
-&lt;a href="https://ec.jupyter.org" target="_blank" rel="noopener" >Jupyter Executive Council&lt;/a> as well as the
-&lt;a href="https://jupyterfoundation.org" target="_blank" rel="noopener" >Jupyter Foundation Board&lt;/a>. He has been a co-lead of several projects within the Jupyter ecosystem for over ten years (particularly the
-&lt;a href="https://jupyterhub-team-compass.readthedocs.io/en/latest/team.html#jupyterhub-team" target="_blank" rel="noopener" >JupyterHub and Binder projects&lt;/a>, as well as the
-&lt;a href="https://jupyterbook.org" target="_blank" rel="noopener" >Jupyter Book project&lt;/a>). He’s interested in the boundary between technology, open-source software, and research and education workflows, as well as how open communities can support and extend these workflows to make science more impactful and inclusive.&lt;/p>
-&lt;p>He was previously a post-doctoral researcher in the Department of Statistics at
-&lt;a href="https://www.berkeley.edu/" target="_blank" rel="noopener" >UC Berkeley&lt;/a>, and a Community Architect with the
-&lt;a href="https://data.berkeley.edu/" target="_blank" rel="noopener" >Division of Data Science&lt;/a> at Berkeley. His background is in cognitive and computational neuroscience, where he used
-&lt;a href="https://www.nature.com/articles/ncomms13654" target="_blank" rel="noopener" >predictive models to understand the auditory system&lt;/a> in the human brain.&lt;/p>
-&lt;p>&lt;strong>Highlights&lt;/strong>:&lt;/p>
-&lt;ul>
-&lt;li>10+ years leading and building open source projects, open infrastructure teams and services&lt;/li>
-&lt;li>Jupyter Distinguished Contributor&lt;/li>
-&lt;li>Co-led JupyterHub, Binder, and Jupyter Book&lt;/li>
-&lt;li>Co-created the DataHub interactive computing service for the Data Science Education Program at UC Berkeley.&lt;/li>
-&lt;/ul></description></item><item><title>New Jupyter Book / MyST stack release (Jan 2026)</title><link>https://2i2c.org/blog/jupyter-book-release-jan-2026/</link><pubDate>Thu, 29 Jan 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/jupyter-book-release-jan-2026/</guid><description>&lt;p>The MyST/Jupyter Book stack shipped new releases this week. Release pages:&lt;/p>
+&lt;a href="https://2i2c.org/join" target="_blank" rel="noopener" >reach out to us about membership&lt;/a>.&lt;/p></description></item><item><title>New Jupyter Book / MyST stack release (Jan 2026)</title><link>https://2i2c.org/blog/jupyter-book-release-jan-2026/</link><pubDate>Thu, 29 Jan 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/jupyter-book-release-jan-2026/</guid><description>&lt;p>The MyST/Jupyter Book stack shipped new releases this week. Release pages:&lt;/p>
 &lt;ul>
 &lt;li>
 &lt;a href="https://github.com/jupyter-book/mystmd/releases/tag/mystmd%401.8.0" target="_blank" rel="noopener" >mystmd 1.8.0&lt;/a>&lt;/li>
