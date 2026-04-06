@@ -27,8 +27,6 @@ Along the way we made several upstream improvements to the [MyST Engine](https:/
 - [Less aggressive citation parsing](https://github.com/jupyter-book/mystmd/pull/2684) so that text like `@githubhandle` weren't parsed as a citation
 - [Several mobile and UX fixes](https://github.com/jupyter-book/myst-theme/pull/790) (that's one, there were many others!)
 
-- [Several mobile and UX fixes](https://github.com/jupyter-book/myst-theme/pull/790) (that's one, there were many others!)
-
 These all felt particularly relevant for documentation that our [member communities](https://2i2c.org/members) manage, where you have content split across multiple repositories but served at a single domain.
 ## Acknowledgements
 
