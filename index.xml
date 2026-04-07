@@ -5517,7 +5517,8 @@ Acknowledgments
 The UToronto hub landing page
 &lt;/figcaption>&lt;/figure>
 &lt;/p>
-&lt;p>2i2c has operated The University of Toronto hub since 2021 and this hub supports over 6000 educators and learners in a day! With a community of this size, file storage can quickly grow out of control and cause issues.&lt;/p>
+&lt;p>2i2c has operated
+&lt;a href="https://2i2c.org/collaborators/utoronto/" >The University of Toronto&lt;/a> hub since 2021 and this hub supports over 6000 educators and learners in a day! With a community of this size, file storage can quickly grow out of control and cause issues.&lt;/p>
 &lt;p>The 2i2c engineering team have implemented a
 &lt;a href="https://github.com/2i2c-org/infrastructure/issues/3320" target="_blank" rel="noopener" >low storage alerting system&lt;/a> for Microsoft Azure, so that they can pre-emptively take remedial action before the filesystem is about to run out of diskspace.&lt;/p>
 &lt;p>Great job team 🚀&lt;/p>
@@ -6897,7 +6898,7 @@ New community partnerships
 We&amp;rsquo;ve deployed new hub infrastructure for each of the following groups:&lt;/p>
 &lt;ul>
 &lt;li>Our
-&lt;a href="https://act.utoronto.ca/jupyterhub-support/" target="_blank" rel="noopener" >University of Toronto Jupyter service&lt;/a> now has a dedicated R hub.&lt;/li>
+&lt;a href="https://2i2c.org/collaborators/utoronto/" >University of Toronto&lt;/a> Jupyter service now has a dedicated R hub.&lt;/li>
 &lt;li>We ran an event hub for the
 &lt;a href="https://www.drakkar-ocean.eu/" target="_blank" rel="noopener" >Drakkar Ocean project&lt;/a>&lt;/li>
 &lt;li>We deployed a hub for the
@@ -8260,7 +8261,7 @@ Communities we&amp;rsquo;ve served and lessons learned
 With that in mind, here are a few highlights of communities we&amp;rsquo;ve served, and what we&amp;rsquo;ve learned from it:&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>We grew a hub for
-&lt;a href="https://jupyter.utoronto.ca/" target="_blank" rel="noopener" >the University of Toronto&lt;/a> to around 4000 monthly users&lt;/strong>. This has taught us a lot about where our support and operations can and cannot scale, and where we have gaps in our sustainability / pricing model.&lt;/li>
+&lt;a href="https://2i2c.org/collaborators/utoronto/" >the University of Toronto&lt;/a> to around 4000 monthly users&lt;/strong>. This has taught us a lot about where our support and operations can and cannot scale, and where we have gaps in our sustainability / pricing model.&lt;/li>
 &lt;li>&lt;strong>We deployed CILogon on a hub for
 &lt;a href="https://anu.pilot.2i2c.cloud/" target="_blank" rel="noopener" >a class at Australian National University&lt;/a>&lt;/strong>. This gives us an opportunity to work out any UX issues and improvements to be made before a deeper CILogon integration.&lt;/li>
 &lt;li>&lt;strong>We deployed a dedicated database per user for
@@ -8631,7 +8632,8 @@ These three areas are:&lt;/p>
 Educational community hubs
 &lt;a class="header-anchor" href="#educational-community-hubs">#&lt;/a>
 &lt;/h2>&lt;p>A primary use-case that 2i2c seeks to enable is &lt;strong>collaborative, distributed educational spaces for learning with data&lt;/strong>. In 2021 we ran several pilots with educational communities:&lt;/p>
-&lt;p>&lt;strong>A university-wide hub for the University of Toronto.&lt;/strong> This hub is used in a variety of classes throughout the university, and is made freely available to anyone with a UofT account. We hope to repeat this model for other university-wide communities, and have learned a lot about the challenges of working with particularly large educational communities.&lt;/p>
+&lt;p>&lt;strong>A university-wide hub for
+&lt;a href="https://2i2c.org/collaborators/utoronto/" >the University of Toronto&lt;/a>.&lt;/strong> This hub is used in a variety of classes throughout the university, and is made freely available to anyone with a UofT account. We hope to repeat this model for other university-wide communities, and have learned a lot about the challenges of working with particularly large educational communities.&lt;/p>
 &lt;p>&lt;strong>Several hubs for community colleges across California.&lt;/strong> In partnership with UC Berkeley and CloudBank, we&amp;rsquo;ve run several hubs for nearly a dozen small community colleges teaching the
 &lt;a href="http://data8.org" target="_blank" rel="noopener" >Data 8 curriculum&lt;/a> for their students. These hubs are lightweight and offer standardized environments for their students to use, in order to lower the cost of deploying and maintaining the hubs over time.&lt;/p>
 &lt;h3 id="what-we-learned">
@@ -10160,6 +10162,16 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;div class="col-sm-6 col-md-4 col-lg-3">
 &lt;div class="card border-0" style="background-color: #f8f9fa;">
 &lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
+&lt;a href="https://foothill.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
+&lt;img src="https://2i2c.org/members/images/foothill_college.png" alt="Foothill College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
+&lt;small class="text-dark fw-medium">Foothill College&lt;/small>
+&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="col-sm-6 col-md-4 col-lg-3">
+&lt;div class="card border-0" style="background-color: #f8f9fa;">
+&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
 &lt;a href="https://fresno.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/fresno_city_college.png" alt="Fresno City College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">Fresno City College&lt;/small>
@@ -10333,16 +10345,6 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;a href="https://moreno.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/moreno_valley_college.png" alt="Moreno Valley College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">Moreno Valley College&lt;/small>
-&lt;/a>
-&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;div class="col-sm-6 col-md-4 col-lg-3">
-&lt;div class="card border-0" style="background-color: #f8f9fa;">
-&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
-&lt;a href="https://staging.hub.disasters.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
-&lt;img src="https://2i2c.org/members/images/nasa_disasters_program.png" alt="NASA Disasters Program" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
-&lt;small class="text-dark fw-medium">NASA Disasters Program&lt;/small>
 &lt;/a>
 &lt;/div>
 &lt;/div>
@@ -10716,4 +10718,20 @@ Grants from this funder
 &lt;li>
 &lt;a href="https://www.navigation.org/" target="_blank" rel="noopener" >The Navigation Fund&lt;/a> awarded 2i2c approximately
 &lt;a href="https://2i2c.org/blog/funding-navigation/" >$1.5 million over 2 years in 2024&lt;/a> to identify and build a scalable sustainability model for the organization. This strategic investment enables 2i2c to develop comprehensive sustainability strategies and establish long-term financial resilience.&lt;/li>
-&lt;/ul></description></item></channel></rss>
+&lt;/ul></description></item><item><title>University of Toronto</title><link>https://2i2c.org/collaborators/utoronto/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://2i2c.org/collaborators/utoronto/</guid><description>&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="" srcset="
+/collaborators/utoronto/featured_hu36d6ac3b581cd742d4dfb7cb00f0acad_31376_ed7f5008893c827e81be33253377ff31.webp 400w,
+/collaborators/utoronto/featured_hu36d6ac3b581cd742d4dfb7cb00f0acad_31376_d9bb9512027e0a0323ca22be7a4ad188.webp 760w,
+/collaborators/utoronto/featured_hu36d6ac3b581cd742d4dfb7cb00f0acad_31376_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/collaborators/utoronto/featured_hu36d6ac3b581cd742d4dfb7cb00f0acad_31376_ed7f5008893c827e81be33253377ff31.webp"
+width="760"
+height="272"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>The
+&lt;a href="https://www.utoronto.ca/" target="_blank" rel="noopener" >University of Toronto&lt;/a> is one of 2i2c&amp;rsquo;s longest-running community partnerships. 2i2c has operated a
+&lt;a href="https://act.utoronto.ca/jupyterhub-support/" target="_blank" rel="noopener" >university-wide JupyterHub&lt;/a> for UofT since 2021. It supports thousands of educators and learners across many departments and is one of our largest educational hub deployments.&lt;/p>
+&lt;p>UofT&amp;rsquo;s large-scale usage has been a major driver of improvements to 2i2c&amp;rsquo;s core infrastructure, helping us improve our operational practices around scalability, storage monitoring, and cost sustainability.&lt;/p></description></item></channel></rss>

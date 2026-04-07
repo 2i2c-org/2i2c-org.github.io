@@ -1125,7 +1125,8 @@ Acknowledgements
 The UToronto hub landing page
 &lt;/figcaption>&lt;/figure>
 &lt;/p>
-&lt;p>2i2c has operated The University of Toronto hub since 2021 and this hub supports over 6000 educators and learners in a day! With a community of this size, file storage can quickly grow out of control and cause issues.&lt;/p>
+&lt;p>2i2c has operated
+&lt;a href="https://2i2c.org/collaborators/utoronto/" >The University of Toronto&lt;/a> hub since 2021 and this hub supports over 6000 educators and learners in a day! With a community of this size, file storage can quickly grow out of control and cause issues.&lt;/p>
 &lt;p>The 2i2c engineering team have implemented a
 &lt;a href="https://github.com/2i2c-org/infrastructure/issues/3320" target="_blank" rel="noopener" >low storage alerting system&lt;/a> for Microsoft Azure, so that they can pre-emptively take remedial action before the filesystem is about to run out of diskspace.&lt;/p>
 &lt;p>Great job team 🚀&lt;/p>

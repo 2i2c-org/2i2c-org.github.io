@@ -1860,7 +1860,7 @@ New community partnerships
 We&amp;rsquo;ve deployed new hub infrastructure for each of the following groups:&lt;/p>
 &lt;ul>
 &lt;li>Our
-&lt;a href="https://act.utoronto.ca/jupyterhub-support/" target="_blank" rel="noopener" >University of Toronto Jupyter service&lt;/a> now has a dedicated R hub.&lt;/li>
+&lt;a href="https://2i2c.org/collaborators/utoronto/" >University of Toronto&lt;/a> Jupyter service now has a dedicated R hub.&lt;/li>
 &lt;li>We ran an event hub for the
 &lt;a href="https://www.drakkar-ocean.eu/" target="_blank" rel="noopener" >Drakkar Ocean project&lt;/a>&lt;/li>
 &lt;li>We deployed a hub for the
@@ -2719,7 +2719,7 @@ Communities we&amp;rsquo;ve served and lessons learned
 With that in mind, here are a few highlights of communities we&amp;rsquo;ve served, and what we&amp;rsquo;ve learned from it:&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>We grew a hub for
-&lt;a href="https://jupyter.utoronto.ca/" target="_blank" rel="noopener" >the University of Toronto&lt;/a> to around 4000 monthly users&lt;/strong>. This has taught us a lot about where our support and operations can and cannot scale, and where we have gaps in our sustainability / pricing model.&lt;/li>
+&lt;a href="https://2i2c.org/collaborators/utoronto/" >the University of Toronto&lt;/a> to around 4000 monthly users&lt;/strong>. This has taught us a lot about where our support and operations can and cannot scale, and where we have gaps in our sustainability / pricing model.&lt;/li>
 &lt;li>&lt;strong>We deployed CILogon on a hub for
 &lt;a href="https://anu.pilot.2i2c.cloud/" target="_blank" rel="noopener" >a class at Australian National University&lt;/a>&lt;/strong>. This gives us an opportunity to work out any UX issues and improvements to be made before a deeper CILogon integration.&lt;/li>
 &lt;li>&lt;strong>We deployed a dedicated database per user for
@@ -2969,7 +2969,8 @@ These three areas are:&lt;/p>
 Educational community hubs
 &lt;a class="header-anchor" href="#educational-community-hubs">#&lt;/a>
 &lt;/h2>&lt;p>A primary use-case that 2i2c seeks to enable is &lt;strong>collaborative, distributed educational spaces for learning with data&lt;/strong>. In 2021 we ran several pilots with educational communities:&lt;/p>
-&lt;p>&lt;strong>A university-wide hub for the University of Toronto.&lt;/strong> This hub is used in a variety of classes throughout the university, and is made freely available to anyone with a UofT account. We hope to repeat this model for other university-wide communities, and have learned a lot about the challenges of working with particularly large educational communities.&lt;/p>
+&lt;p>&lt;strong>A university-wide hub for
+&lt;a href="https://2i2c.org/collaborators/utoronto/" >the University of Toronto&lt;/a>.&lt;/strong> This hub is used in a variety of classes throughout the university, and is made freely available to anyone with a UofT account. We hope to repeat this model for other university-wide communities, and have learned a lot about the challenges of working with particularly large educational communities.&lt;/p>
 &lt;p>&lt;strong>Several hubs for community colleges across California.&lt;/strong> In partnership with UC Berkeley and CloudBank, we&amp;rsquo;ve run several hubs for nearly a dozen small community colleges teaching the
 &lt;a href="http://data8.org" target="_blank" rel="noopener" >Data 8 curriculum&lt;/a> for their students. These hubs are lightweight and offer standardized environments for their students to use, in order to lower the cost of deploying and maintaining the hubs over time.&lt;/p>
 &lt;h3 id="what-we-learned">
