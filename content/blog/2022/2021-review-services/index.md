@@ -31,7 +31,7 @@ Ultimately, 2i2c's mission is to facilitate use-cases in research and education 
 
 A primary use-case that 2i2c seeks to enable is **collaborative, distributed educational spaces for learning with data**. In 2021 we ran several pilots with educational communities:
 
-**A university-wide hub for the University of Toronto.** This hub is used in a variety of classes throughout the university, and is made freely available to anyone with a UofT account. We hope to repeat this model for other university-wide communities, and have learned a lot about the challenges of working with particularly large educational communities.
+**A university-wide hub for [the University of Toronto](../../../collaborators/utoronto/).** This hub is used in a variety of classes throughout the university, and is made freely available to anyone with a UofT account. We hope to repeat this model for other university-wide communities, and have learned a lot about the challenges of working with particularly large educational communities.
 
 **Several hubs for community colleges across California.** In partnership with UC Berkeley and CloudBank, we've run several hubs for nearly a dozen small community colleges teaching the [Data 8 curriculum](http://data8.org) for their students. These hubs are lightweight and offer standardized environments for their students to use, in order to lower the cost of deploying and maintaining the hubs over time.
 
