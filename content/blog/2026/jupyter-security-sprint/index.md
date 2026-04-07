@@ -15,7 +15,7 @@ tags:
 ---
 
 The [Jupyter Security Working Group](https://github.com/jupyter/security) recently held a Security Tooling Sprint.
-It was a timely event given the recent spate of software supply chain attacks across the tech world.
+It was a timely event given the [recent spate](https://blog.pypi.org/posts/2026-04-02-incident-report-litellm-telnyx-supply-chain-attack/) of software supply chain attacks across the tech world.
 
 The sprint covered two main areas:
 
