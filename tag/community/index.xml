@@ -1,4 +1,36 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Community | 2i2c</title><link>https://2i2c.org/tag/community/</link><atom:link href="https://2i2c.org/tag/community/index.xml" rel="self" type="application/rss+xml"/><description>Community</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 09 Feb 2026 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Community</title><link>https://2i2c.org/tag/community/</link></image><item><title>Jenny Wong joins the JupyterHub team</title><link>https://2i2c.org/blog/jenny-jupyterhub-team/</link><pubDate>Mon, 09 Feb 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/jenny-jupyterhub-team/</guid><description>&lt;p>We&amp;rsquo;re excited to share that
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Community | 2i2c</title><link>https://2i2c.org/tag/community/</link><atom:link href="https://2i2c.org/tag/community/index.xml" rel="self" type="application/rss+xml"/><description>Community</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 03 Apr 2026 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Community</title><link>https://2i2c.org/tag/community/</link></image><item><title>Report from the Jupyter Security Working Group security tooling sprint</title><link>https://2i2c.org/blog/jupyter-security-sprint/</link><pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/jupyter-security-sprint/</guid><description>&lt;p>The
+&lt;a href="https://github.com/jupyter/security" target="_blank" rel="noopener" >Jupyter Security Working Group&lt;/a> recently held a Security Tooling Sprint.
+It was a timely event given the
+&lt;a href="https://blog.pypi.org/posts/2026-04-02-incident-report-litellm-telnyx-supply-chain-attack/" target="_blank" rel="noopener" >recent spate&lt;/a> of software supply chain attacks across the tech world.&lt;/p>
+&lt;p>The sprint covered two main areas:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Governance and strategy&lt;/strong> — conversations about responsibility and accountability in the face of AI, with emphasis on ensuring humans are ultimately responsible for code committed to
+&lt;a href="https://2i2c.org/collaborators/jupyter/" >Jupyter&lt;/a> subprojects. The group also discussed how security could benefit from working group members regularly attending subproject meetings like the
+&lt;a href="https://2i2c.org/collaborators/jupyterhub/" >JupyterHub&lt;/a> Collaboration Cafes.&lt;/li>
+&lt;li>&lt;strong>Automation and tools&lt;/strong> — the group evaluated several tools for improving security posture across the Jupyter ecosystem. Here are a few that stood out:
+&lt;ul>
+&lt;li>
+&lt;a href="https://semgrep.dev/" target="_blank" rel="noopener" >Semgrep&lt;/a> as an alternative vulnerability scanner to CodeQL&lt;/li>
+&lt;li>
+&lt;a href="https://github.com/anchore/grype" target="_blank" rel="noopener" >Grype&lt;/a>,
+&lt;a href="https://www.checkov.io/" target="_blank" rel="noopener" >Checkov&lt;/a>, and
+&lt;a href="https://kubescape.io/" target="_blank" rel="noopener" >Kubescape&lt;/a> for cloud infrastructure misconfiguration checks&lt;/li>
+&lt;li>
+&lt;a href="https://github.com/schemathesis/schemathesis" target="_blank" rel="noopener" >Schemathesis&lt;/a> and
+&lt;a href="https://github.com/microsoft/restler-fuzzer" target="_blank" rel="noopener" >restler-fuzzer&lt;/a> for API fuzz testing&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>One challenge we discussed was how blindly running security scanning tools generates many false positives. There&amp;rsquo;s real effort needed to tune these tools for each project&amp;rsquo;s edge cases before they&amp;rsquo;re useful in automation. On a related note, we discussed the increase in AI-generated (or AI-assisted) vulnerability and security reports, and the challenges associated with sifting through all of those pieces of information.&lt;/p>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>Thanks to
+&lt;a href="https://github.com/jupyter/security" target="_blank" rel="noopener" >the jupyter security working group&lt;/a> for providing leadership and organizing, in particular Joe Lucas!&lt;/li>
+&lt;li>Thanks to the
+&lt;a href="https://jupyterfoundation.org" target="_blank" rel="noopener" >Jupyter Foundation&lt;/a> for funding community meetings like these.&lt;/li>
+&lt;/ul></description></item><item><title>Jenny Wong joins the JupyterHub team</title><link>https://2i2c.org/blog/jenny-jupyterhub-team/</link><pubDate>Mon, 09 Feb 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/jenny-jupyterhub-team/</guid><description>&lt;p>We&amp;rsquo;re excited to share that
 &lt;a href="https://2i2c.org/author/jenny-wong" >Jenny Wong&lt;/a> has been
 &lt;a href="https://github.com/jupyterhub/team-compass/pull/876" target="_blank" rel="noopener" >invited to join the JupyterHub team&lt;/a> as a contributor and maintainer.&lt;/p>
 &lt;p>

@@ -1,4 +1,38 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Jenny Wong | 2i2c</title><link>https://2i2c.org/author/jenny-wong/</link><atom:link href="https://2i2c.org/author/jenny-wong/index.xml" rel="self" type="application/rss+xml"/><description>Jenny Wong</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 31 Mar 2026 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/author/jenny-wong/avatar_huc2333c99a5a6960f14279231c17feb93_40255_270x270_fill_q75_lanczos_center.jpg</url><title>Jenny Wong</title><link>https://2i2c.org/author/jenny-wong/</link></image><item><title>Better sharing UX with nbgitpuller and contextual error handling</title><link>https://2i2c.org/blog/nbgitpuller-better-ux/</link><pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/nbgitpuller-better-ux/</guid><description>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Jenny Wong | 2i2c</title><link>https://2i2c.org/author/jenny-wong/</link><atom:link href="https://2i2c.org/author/jenny-wong/index.xml" rel="self" type="application/rss+xml"/><description>Jenny Wong</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 03 Apr 2026 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/author/jenny-wong/avatar_huc2333c99a5a6960f14279231c17feb93_40255_270x270_fill_q75_lanczos_center.jpg</url><title>Jenny Wong</title><link>https://2i2c.org/author/jenny-wong/</link></image><item><title>Jenny Wong</title><link>https://2i2c.org/author/jenny-wong/</link><pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/author/jenny-wong/</guid><description>&lt;p>Jenny is an Open Source Applications Engineer focused on delivering the Platform and Services roadmap for 2i2c. Her previous work has included the CZI-funded Catalyst Project, an initiative aiming to provide research communities in Latin America and Africa with access to large-scale scientific infrastructure. She&amp;rsquo;s built community-based training materials for interactive cloud-native workflows. Jenny is responsible for building user-centered open source applications that ensure the alignment of Product and Services value streams to the needs of the communities we serve.&lt;/p>
+&lt;p>As a former research software engineer, Jenny has considerable experience supporting researchers with writing documentation, creating video tutorials, and designing and delivering training for advanced research computing. Jenny is also a qualified Software Carpentries Instructor.&lt;/p>
+&lt;p>Jenny&amp;rsquo;s background is in mathematics, with a special interest in geophysical fluid dynamics. She obtained a PhD in the subject with her thesis titled &amp;ldquo;A slurry model of the F-layer in the Earth&amp;rsquo;s core&amp;rdquo;.&lt;/p></description></item><item><title>Report from the Jupyter Security Working Group security tooling sprint</title><link>https://2i2c.org/blog/jupyter-security-sprint/</link><pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/jupyter-security-sprint/</guid><description>&lt;p>The
+&lt;a href="https://github.com/jupyter/security" target="_blank" rel="noopener" >Jupyter Security Working Group&lt;/a> recently held a Security Tooling Sprint.
+It was a timely event given the
+&lt;a href="https://blog.pypi.org/posts/2026-04-02-incident-report-litellm-telnyx-supply-chain-attack/" target="_blank" rel="noopener" >recent spate&lt;/a> of software supply chain attacks across the tech world.&lt;/p>
+&lt;p>The sprint covered two main areas:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Governance and strategy&lt;/strong> — conversations about responsibility and accountability in the face of AI, with emphasis on ensuring humans are ultimately responsible for code committed to
+&lt;a href="https://2i2c.org/collaborators/jupyter/" >Jupyter&lt;/a> subprojects. The group also discussed how security could benefit from working group members regularly attending subproject meetings like the
+&lt;a href="https://2i2c.org/collaborators/jupyterhub/" >JupyterHub&lt;/a> Collaboration Cafes.&lt;/li>
+&lt;li>&lt;strong>Automation and tools&lt;/strong> — the group evaluated several tools for improving security posture across the Jupyter ecosystem. Here are a few that stood out:
+&lt;ul>
+&lt;li>
+&lt;a href="https://semgrep.dev/" target="_blank" rel="noopener" >Semgrep&lt;/a> as an alternative vulnerability scanner to CodeQL&lt;/li>
+&lt;li>
+&lt;a href="https://github.com/anchore/grype" target="_blank" rel="noopener" >Grype&lt;/a>,
+&lt;a href="https://www.checkov.io/" target="_blank" rel="noopener" >Checkov&lt;/a>, and
+&lt;a href="https://kubescape.io/" target="_blank" rel="noopener" >Kubescape&lt;/a> for cloud infrastructure misconfiguration checks&lt;/li>
+&lt;li>
+&lt;a href="https://github.com/schemathesis/schemathesis" target="_blank" rel="noopener" >Schemathesis&lt;/a> and
+&lt;a href="https://github.com/microsoft/restler-fuzzer" target="_blank" rel="noopener" >restler-fuzzer&lt;/a> for API fuzz testing&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>One challenge we discussed was how blindly running security scanning tools generates many false positives. There&amp;rsquo;s real effort needed to tune these tools for each project&amp;rsquo;s edge cases before they&amp;rsquo;re useful in automation. On a related note, we discussed the increase in AI-generated (or AI-assisted) vulnerability and security reports, and the challenges associated with sifting through all of those pieces of information.&lt;/p>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>Thanks to
+&lt;a href="https://github.com/jupyter/security" target="_blank" rel="noopener" >the jupyter security working group&lt;/a> for providing leadership and organizing, in particular Joe Lucas!&lt;/li>
+&lt;li>Thanks to the
+&lt;a href="https://jupyterfoundation.org" target="_blank" rel="noopener" >Jupyter Foundation&lt;/a> for funding community meetings like these.&lt;/li>
+&lt;/ul></description></item><item><title>Better sharing UX with nbgitpuller and contextual error handling</title><link>https://2i2c.org/blog/nbgitpuller-better-ux/</link><pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/nbgitpuller-better-ux/</guid><description>
 &lt;h2 id="tldr">
 TL;DR
 &lt;a class="header-anchor" href="#tldr">#&lt;/a>
@@ -122,9 +156,7 @@ Acknowledgements
 &lt;a href="https://github.com/balajialg" target="_blank" rel="noopener" >Balaji Alwar&lt;/a> for providing the data and sharing feedback&lt;/li>
 &lt;li>
 &lt;a href="https://github.com/nthiery" target="_blank" rel="noopener" >Nicolas M. Thiéry&lt;/a> for feedback on the UX design&lt;/li>
-&lt;/ul></description></item><item><title>Jenny Wong</title><link>https://2i2c.org/author/jenny-wong/</link><pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/author/jenny-wong/</guid><description>&lt;p>Jenny is an Open Source Applications Engineer focused on delivering the Platform and Services roadmap for 2i2c. Her previous work has included the CZI-funded Catalyst Project, an initiative aiming to provide research communities in Latin America and Africa with access to large-scale scientific infrastructure. She&amp;rsquo;s built community-based training materials for interactive cloud-native workflows. Jenny is responsible for building user-centered open source applications that ensure the alignment of Product and Services value streams to the needs of the communities we serve.&lt;/p>
-&lt;p>As a former research software engineer, Jenny has considerable experience supporting researchers with writing documentation, creating video tutorials, and designing and delivering training for advanced research computing. Jenny is also a qualified Software Carpentries Instructor.&lt;/p>
-&lt;p>Jenny&amp;rsquo;s background is in mathematics, with a special interest in geophysical fluid dynamics. She obtained a PhD in the subject with her thesis titled &amp;ldquo;A slurry model of the F-layer in the Earth&amp;rsquo;s core&amp;rdquo;.&lt;/p></description></item><item><title>Adding User Group Insights to Cloud Cost Dashboards with Grafana</title><link>https://2i2c.org/blog/cloud-cost-groups/</link><pubDate>Mon, 24 Nov 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/cloud-cost-groups/</guid><description>&lt;p>We are excited to announce that we have extended our cloud cost dashboards to support display costs filtered by user groups using Grafana! This new feature allows administrators to monitor and manage cloud expenses based on user group memberships in JupyterHub.&lt;/p>
+&lt;/ul></description></item><item><title>Adding User Group Insights to Cloud Cost Dashboards with Grafana</title><link>https://2i2c.org/blog/cloud-cost-groups/</link><pubDate>Mon, 24 Nov 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/cloud-cost-groups/</guid><description>&lt;p>We are excited to announce that we have extended our cloud cost dashboards to support display costs filtered by user groups using Grafana! This new feature allows administrators to monitor and manage cloud expenses based on user group memberships in JupyterHub.&lt;/p>
 &lt;p>
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
