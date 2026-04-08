@@ -2435,7 +2435,10 @@ Acknowledgements
 &lt;a href="https://2i2c.org/collaborators/cloudbank/" >CloudBank&lt;/a> for collaborating with us on adapting and deploying Jupyter Book for education and organizing this summit&lt;/li>
 &lt;li>Thanks to the
 &lt;a href="https://2i2c.org/collaborators/jupyter-book/" >Jupyter Book project&lt;/a> for collaborating with us on these strategic efforts over the last years&lt;/li>
-&lt;/ul></description></item><item><title>Announcing `jupyterhub-groups-exporter`: monitor usage based on JupyterHub group membership with Prometheus and Grafana</title><link>https://2i2c.org/blog/jupyterhub-groups-exporter/</link><pubDate>Wed, 11 Jun 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/jupyterhub-groups-exporter/</guid><description>&lt;p>Managing user groups in JupyterHub can be a challenging task, especially in environments with dynamic user bases and complex group structures. This post describes how we can leverage the latest group management features in JupyterHub, along with Prometheus and Grafana, to monitor group-level resource usage effectively.&lt;/p>
+&lt;/ul></description></item><item><title>AWI-CIROH showcases cloud infrastructure at their DevCon 2025</title><link>https://2i2c.org/blog/awi-ciroh-devcon/</link><pubDate>Thu, 12 Jun 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/awi-ciroh-devcon/</guid><description>&lt;p>
+&lt;a href="https://2i2c.org/collaborators/ciroh/" >CIROH&lt;/a> published a post on their DocuHub blog about their cloud infrastructure success at DevCon 2025, highlighting how their JupyterHub deployment supported the conference&amp;rsquo;s interactive computing needs.&lt;/p>
+&lt;p>Read the full post:
+&lt;a href="https://docs.ciroh.org/blog/devcon25-infra/" target="_blank" rel="noopener" >DevCon 2025 Infrastructure&lt;/a>&lt;/p></description></item><item><title>Announcing `jupyterhub-groups-exporter`: monitor usage based on JupyterHub group membership with Prometheus and Grafana</title><link>https://2i2c.org/blog/jupyterhub-groups-exporter/</link><pubDate>Wed, 11 Jun 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/jupyterhub-groups-exporter/</guid><description>&lt;p>Managing user groups in JupyterHub can be a challenging task, especially in environments with dynamic user bases and complex group structures. This post describes how we can leverage the latest group management features in JupyterHub, along with Prometheus and Grafana, to monitor group-level resource usage effectively.&lt;/p>
 &lt;blockquote>
 &lt;p>⭐ &lt;strong>Members of 2i2c&amp;rsquo;s community network&lt;/strong> can use this feature in their hubs by
 &lt;a href="https://docs.2i2c.org/admin/monitoring/cost-users" target="_blank" rel="noopener" >following our cost attribution documentation&lt;/a>.&lt;/p>
@@ -7578,7 +7581,8 @@ Community impact
 &lt;a href="https://github.com/2i2c-org/infrastructure/issues/1418" target="_blank" rel="noopener" >infrastructure#1418&lt;/a>&lt;/li>
 &lt;li>NeuroHackademy 2022
 &lt;a href="https://github.com/2i2c-org/infrastructure/issues/1505" target="_blank" rel="noopener" >infrastructure#1505&lt;/a>&lt;/li>
-&lt;li>Alabama Water Institute CIROH hub
+&lt;li>
+&lt;a href="https://2i2c.org/collaborators/ciroh/" >Alabama Water Institute CIROH&lt;/a> hub
 &lt;a href="https://github.com/2i2c-org/infrastructure/issues/1444" target="_blank" rel="noopener" >infrastructure#1444&lt;/a>&lt;/li>
 &lt;li>OceanHackWeek 2022
 &lt;a href="https://github.com/2i2c-org/infrastructure/issues/1515" target="_blank" rel="noopener" >infrastructure#1515&lt;/a>&lt;/li>
@@ -9492,7 +9496,22 @@ Grants from this funder
 &lt;a href="https://2i2c.org/blog/funding-czi/" >Support from CZI to sustain 2i2c&amp;rsquo;s mission&lt;/a> - ~$700K over one year for continued operations&lt;/li>
 &lt;li>&lt;strong>CZI Global Communities Grant (2022)&lt;/strong>:
 &lt;a href="https://2i2c.org/blog/czi-global-communities-announcement/" >New project: Open science cloud infrastructure and training for communities in Latin America and Africa&lt;/a> - Support for international collaborative programs&lt;/li>
-&lt;/ul></description></item><item><title>Cloudbank</title><link>https://2i2c.org/collaborators/cal-icor/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://2i2c.org/collaborators/cal-icor/</guid><description>&lt;p>
+&lt;/ul></description></item><item><title>CIROH</title><link>https://2i2c.org/collaborators/ciroh/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://2i2c.org/collaborators/ciroh/</guid><description>&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="" srcset="
+/collaborators/ciroh/featured_hu69f5e3f8ab7969f93cbc4083b5a9f8e5_69657_6a6cd57d8c9c03b78d6a4b6e70612ab1.webp 400w,
+/collaborators/ciroh/featured_hu69f5e3f8ab7969f93cbc4083b5a9f8e5_69657_1fe4e1e67724535ef21deace5d5178f1.webp 760w,
+/collaborators/ciroh/featured_hu69f5e3f8ab7969f93cbc4083b5a9f8e5_69657_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/collaborators/ciroh/featured_hu69f5e3f8ab7969f93cbc4083b5a9f8e5_69657_6a6cd57d8c9c03b78d6a4b6e70612ab1.webp"
+width="760"
+height="760"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>
+&lt;a href="https://ciroh.ua.edu/" target="_blank" rel="noopener" >CIROH&lt;/a> (Cooperative Institute for Research to Operations in Hydrology) is a NOAA-funded institute hosted by the
+&lt;a href="https://awi.ua.edu/" target="_blank" rel="noopener" >Alabama Water Institute&lt;/a> at the University of Alabama. CIROH advances national water prediction capabilities through research and technology transfer. 2i2c operates JupyterHub infrastructure for the CIROH community, supporting hydrological research and training across their consortium of partner institutions.&lt;/p></description></item><item><title>Cloudbank</title><link>https://2i2c.org/collaborators/cal-icor/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://2i2c.org/collaborators/cal-icor/</guid><description>&lt;p>
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="" srcset="
@@ -10345,6 +10364,16 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;a href="https://moreno.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/moreno_valley_college.png" alt="Moreno Valley College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">Moreno Valley College&lt;/small>
+&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="col-sm-6 col-md-4 col-lg-3">
+&lt;div class="card border-0" style="background-color: #f8f9fa;">
+&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
+&lt;a href="https://staging.hub.disasters.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
+&lt;img src="https://2i2c.org/members/images/nasa_disasters_program.png" alt="NASA Disasters Program" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
+&lt;small class="text-dark fw-medium">NASA Disasters Program&lt;/small>
 &lt;/a>
 &lt;/div>
 &lt;/div>
