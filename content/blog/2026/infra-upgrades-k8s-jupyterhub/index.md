@@ -1,7 +1,7 @@
 ---
-title: Upgrading our infrastructure to Kubernetes 1.34 and JupyterHub 4.3.3
+title: Upgrading community infrastructure to Kubernetes 1.34 and JupyterHub 4.3.3
 slug: "infra-upgrades-k8s-jupyterhub"
-date: 2026-04-03
+date: 2026-04-08
 authors:
   - Georgiana Dolocan
 categories:
