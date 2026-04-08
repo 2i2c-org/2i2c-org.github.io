@@ -1,4 +1,35 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Devops | 2i2c</title><link>https://2i2c.org/tag/devops/</link><atom:link href="https://2i2c.org/tag/devops/index.xml" rel="self" type="application/rss+xml"/><description>Devops</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 20 Jan 2026 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Devops</title><link>https://2i2c.org/tag/devops/</link></image><item><title>Enabling CloudBank to safely manage their own cluster infrastructure</title><link>https://2i2c.org/blog/cloudbank-self-service/</link><pubDate>Tue, 20 Jan 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/cloudbank-self-service/</guid><description>&lt;p>We recently enabled
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Devops | 2i2c</title><link>https://2i2c.org/tag/devops/</link><atom:link href="https://2i2c.org/tag/devops/index.xml" rel="self" type="application/rss+xml"/><description>Devops</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 08 Apr 2026 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Devops</title><link>https://2i2c.org/tag/devops/</link></image><item><title>Upgrading community infrastructure to Kubernetes 1.34 and JupyterHub 4.3.3</title><link>https://2i2c.org/blog/infra-upgrades-k8s-jupyterhub/</link><pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/infra-upgrades-k8s-jupyterhub/</guid><description>&lt;p>We&amp;rsquo;ve completed a major round of infrastructure upgrades across all 2i2c-managed hubs - every hub is now running
+&lt;a href="https://kubernetes.io/releases/" target="_blank" rel="noopener" >Kubernetes 1.34&lt;/a> and
+&lt;a href="https://z2jh.jupyter.org/en/stable/changelog.html" target="_blank" rel="noopener" >Z2JH helm chart 4.3.3&lt;/a>.&lt;/p>
+&lt;p>Running up-to-date versions of both Kubernetes and the
+&lt;a href="https://2i2c.org/collaborators/jupyterhub/" >JupyterHub&lt;/a> helm chart ensures that our communities get the best support and reliability, both in terms of features and security.&lt;/p>
+&lt;h2 id="a-new-approach-to-infrastructure-upgrades-upgrading-in-rounds">
+A new approach to infrastructure upgrades: upgrading in rounds
+&lt;a class="header-anchor" href="#a-new-approach-to-infrastructure-upgrades-upgrading-in-rounds">#&lt;/a>
+&lt;/h2>&lt;p>This was the first time we rolled out JupyterHub helm chart upgrades &lt;strong>in rounds&lt;/strong> rather than all at once. By upgrading a subset of hubs at a time, we could identify and fix issues in isolation before they affected the broader network. This made the process safer and more predictable.&lt;/p>
+&lt;p>We&amp;rsquo;re planning to perform these kinds of upgrades on a regular schedule for our member communities. Around &lt;strong>every 6 months&lt;/strong> we&amp;rsquo;ll create an issue to make sure nothing falls through the cracks (here&amp;rsquo;s
+&lt;a href="https://github.com/2i2c-org/infrastructure/blob/main/.github/workflows/recurrent-k8s-gcp-upgrades.yaml" target="_blank" rel="noopener" >example config for creating our reminder issues&lt;/a>).&lt;/p>
+&lt;p>Check out our
+&lt;a href="https://compass.2i2c.org/services/interactive-computing/multiple-hub-upgrades/#making-changes-to-multiple-hubs" target="_blank" rel="noopener" >process docs for multi-hub upgrades&lt;/a> for more information.&lt;/p>
+&lt;h2 id="learn-more">
+Learn more
+&lt;a class="header-anchor" href="#learn-more">#&lt;/a>
+&lt;/h2>&lt;p>Check out these pages for what kinds of improvements we&amp;rsquo;ve brought into our clusters / hubs with these latest updates.&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="https://z2jh.jupyter.org/en/stable/changelog.html" target="_blank" rel="noopener" >Z2JH Helm Chart Changelog&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.34.md" target="_blank" rel="noopener" >Kubernetes 1.34 Changelog&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>Thanks to
+&lt;a href="https://2i2c.org/author/georgiana-dolocan/" >Georgiana Dolocan&lt;/a> for leading this upgrade effort and establishing the rounds-based approach.&lt;/li>
+&lt;li>Thanks to
+&lt;a href="https://2i2c.org/author/chris-holdgraf/" >Chris Holdgraf&lt;/a> for adapting and editing Georgiana&amp;rsquo;s notes into a blog post.&lt;/li>
+&lt;/ul></description></item><item><title>Enabling CloudBank to safely manage their own cluster infrastructure</title><link>https://2i2c.org/blog/cloudbank-self-service/</link><pubDate>Tue, 20 Jan 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/cloudbank-self-service/</guid><description>&lt;p>We recently enabled
 &lt;a href="https://2i2c.org/collaborators/cloudbank/" >CloudBank&lt;/a> to run Terraform changes for their cluster without needing to wait on 2i2c engineers for each request. They run 50+ hubs for various community colleges, and we want to enable them to self serve as much of that as possible. When we introduced home directory quotas, they were no longer able to set up hubs by themselves without help from 2i2c engineers. Our goal was to empower them to be able to set up new hubs in a safe way while still benefiting from the home directory limits work.&lt;/p>
 &lt;figure id="figure-cloudbank-simplifies-cloud-access-for-computer-science-research-and-education">
 &lt;div class="d-flex justify-content-center">
