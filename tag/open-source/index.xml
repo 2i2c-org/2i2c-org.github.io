@@ -1,4 +1,36 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Open Source | 2i2c</title><link>https://2i2c.org/tag/open-source/</link><atom:link href="https://2i2c.org/tag/open-source/index.xml" rel="self" type="application/rss+xml"/><description>Open Source</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 08 Apr 2026 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Open Source</title><link>https://2i2c.org/tag/open-source/</link></image><item><title>Upgrading community infrastructure to Kubernetes 1.34 and JupyterHub 4.3.3</title><link>https://2i2c.org/blog/infra-upgrades-k8s-jupyterhub/</link><pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/infra-upgrades-k8s-jupyterhub/</guid><description>&lt;p>We&amp;rsquo;ve completed a major round of infrastructure upgrades across all 2i2c-managed hubs - every hub is now running
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Open Source | 2i2c</title><link>https://2i2c.org/tag/open-source/</link><atom:link href="https://2i2c.org/tag/open-source/index.xml" rel="self" type="application/rss+xml"/><description>Open Source</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 08 Apr 2026 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Open Source</title><link>https://2i2c.org/tag/open-source/</link></image><item><title>Report from the Jupyter Security Working Group security tooling sprint</title><link>https://2i2c.org/blog/jupyter-security-sprint/</link><pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/jupyter-security-sprint/</guid><description>&lt;p>The
+&lt;a href="https://github.com/jupyter/security" target="_blank" rel="noopener" >Jupyter Security Working Group&lt;/a> recently held a Security Tooling Sprint.
+It was a timely event given the
+&lt;a href="https://blog.pypi.org/posts/2026-04-02-incident-report-litellm-telnyx-supply-chain-attack/" target="_blank" rel="noopener" >recent spate&lt;/a> of software supply chain attacks across the tech world.&lt;/p>
+&lt;p>The sprint covered two main areas:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Governance and strategy&lt;/strong> — conversations about responsibility and accountability in the face of AI, with emphasis on ensuring humans are ultimately responsible for code committed to
+&lt;a href="https://2i2c.org/collaborators/jupyter/" >Jupyter&lt;/a> subprojects. The group also discussed how security could benefit from working group members regularly attending subproject meetings like the
+&lt;a href="https://2i2c.org/collaborators/jupyterhub/" >JupyterHub&lt;/a> Collaboration Cafes.&lt;/li>
+&lt;li>&lt;strong>Automation and tools&lt;/strong> — the group evaluated several tools for improving security posture across the Jupyter ecosystem. Here are a few that stood out:
+&lt;ul>
+&lt;li>
+&lt;a href="https://semgrep.dev/" target="_blank" rel="noopener" >Semgrep&lt;/a> as an alternative vulnerability scanner to CodeQL&lt;/li>
+&lt;li>
+&lt;a href="https://github.com/anchore/grype" target="_blank" rel="noopener" >Grype&lt;/a>,
+&lt;a href="https://www.checkov.io/" target="_blank" rel="noopener" >Checkov&lt;/a>, and
+&lt;a href="https://kubescape.io/" target="_blank" rel="noopener" >Kubescape&lt;/a> for cloud infrastructure misconfiguration checks&lt;/li>
+&lt;li>
+&lt;a href="https://github.com/schemathesis/schemathesis" target="_blank" rel="noopener" >Schemathesis&lt;/a> and
+&lt;a href="https://github.com/microsoft/restler-fuzzer" target="_blank" rel="noopener" >restler-fuzzer&lt;/a> for API fuzz testing&lt;/li>
+&lt;/ul>
+&lt;/li>
+&lt;/ul>
+&lt;p>One challenge we discussed was how blindly running security scanning tools generates many false positives. There&amp;rsquo;s real effort needed to tune these tools for each project&amp;rsquo;s edge cases before they&amp;rsquo;re useful in automation. On a related note, we discussed the increase in AI-generated (or AI-assisted) vulnerability and security reports, and the challenges associated with sifting through all of those pieces of information.&lt;/p>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>Thanks to
+&lt;a href="https://github.com/jupyter/security" target="_blank" rel="noopener" >the jupyter security working group&lt;/a> for providing leadership and organizing, in particular Joe Lucas!&lt;/li>
+&lt;li>Thanks to the
+&lt;a href="https://jupyterfoundation.org" target="_blank" rel="noopener" >Jupyter Foundation&lt;/a> for funding community meetings like these.&lt;/li>
+&lt;/ul></description></item><item><title>Upgrading community infrastructure to Kubernetes 1.34 and JupyterHub 4.3.3</title><link>https://2i2c.org/blog/infra-upgrades-k8s-jupyterhub/</link><pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/infra-upgrades-k8s-jupyterhub/</guid><description>&lt;p>We&amp;rsquo;ve completed a major round of infrastructure upgrades across all 2i2c-managed hubs - every hub is now running
 &lt;a href="https://kubernetes.io/releases/" target="_blank" rel="noopener" >Kubernetes 1.34&lt;/a> and
 &lt;a href="https://z2jh.jupyter.org/en/stable/changelog.html" target="_blank" rel="noopener" >Z2JH helm chart 4.3.3&lt;/a>.&lt;/p>
 &lt;p>Running up-to-date versions of both Kubernetes and the
@@ -63,39 +95,7 @@ Acknowledgements
 &lt;/h2>&lt;p>Thanks to
 &lt;a href="https://2i2c.org/collaborators/pythia/" >Project Pythia&lt;/a> and
 &lt;a href="https://2i2c.org/collaborators/earthscope/" >EarthScope&lt;/a> for collaboration and feedback that helped shape this work. And thanks to our
-&lt;a href="https://2i2c.org/members/" >member communities&lt;/a> whose memberships fund upstream contributions like these.&lt;/p></description></item><item><title>Report from the Jupyter Security Working Group security tooling sprint</title><link>https://2i2c.org/blog/jupyter-security-sprint/</link><pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/jupyter-security-sprint/</guid><description>&lt;p>The
-&lt;a href="https://github.com/jupyter/security" target="_blank" rel="noopener" >Jupyter Security Working Group&lt;/a> recently held a Security Tooling Sprint.
-It was a timely event given the
-&lt;a href="https://blog.pypi.org/posts/2026-04-02-incident-report-litellm-telnyx-supply-chain-attack/" target="_blank" rel="noopener" >recent spate&lt;/a> of software supply chain attacks across the tech world.&lt;/p>
-&lt;p>The sprint covered two main areas:&lt;/p>
-&lt;ul>
-&lt;li>&lt;strong>Governance and strategy&lt;/strong> — conversations about responsibility and accountability in the face of AI, with emphasis on ensuring humans are ultimately responsible for code committed to
-&lt;a href="https://2i2c.org/collaborators/jupyter/" >Jupyter&lt;/a> subprojects. The group also discussed how security could benefit from working group members regularly attending subproject meetings like the
-&lt;a href="https://2i2c.org/collaborators/jupyterhub/" >JupyterHub&lt;/a> Collaboration Cafes.&lt;/li>
-&lt;li>&lt;strong>Automation and tools&lt;/strong> — the group evaluated several tools for improving security posture across the Jupyter ecosystem. Here are a few that stood out:
-&lt;ul>
-&lt;li>
-&lt;a href="https://semgrep.dev/" target="_blank" rel="noopener" >Semgrep&lt;/a> as an alternative vulnerability scanner to CodeQL&lt;/li>
-&lt;li>
-&lt;a href="https://github.com/anchore/grype" target="_blank" rel="noopener" >Grype&lt;/a>,
-&lt;a href="https://www.checkov.io/" target="_blank" rel="noopener" >Checkov&lt;/a>, and
-&lt;a href="https://kubescape.io/" target="_blank" rel="noopener" >Kubescape&lt;/a> for cloud infrastructure misconfiguration checks&lt;/li>
-&lt;li>
-&lt;a href="https://github.com/schemathesis/schemathesis" target="_blank" rel="noopener" >Schemathesis&lt;/a> and
-&lt;a href="https://github.com/microsoft/restler-fuzzer" target="_blank" rel="noopener" >restler-fuzzer&lt;/a> for API fuzz testing&lt;/li>
-&lt;/ul>
-&lt;/li>
-&lt;/ul>
-&lt;p>One challenge we discussed was how blindly running security scanning tools generates many false positives. There&amp;rsquo;s real effort needed to tune these tools for each project&amp;rsquo;s edge cases before they&amp;rsquo;re useful in automation. On a related note, we discussed the increase in AI-generated (or AI-assisted) vulnerability and security reports, and the challenges associated with sifting through all of those pieces of information.&lt;/p>
-&lt;h2 id="acknowledgements">
-Acknowledgements
-&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
-&lt;/h2>&lt;ul>
-&lt;li>Thanks to
-&lt;a href="https://github.com/jupyter/security" target="_blank" rel="noopener" >the jupyter security working group&lt;/a> for providing leadership and organizing, in particular Joe Lucas!&lt;/li>
-&lt;li>Thanks to the
-&lt;a href="https://jupyterfoundation.org" target="_blank" rel="noopener" >Jupyter Foundation&lt;/a> for funding community meetings like these.&lt;/li>
-&lt;/ul></description></item><item><title>Better sharing UX with nbgitpuller and contextual error handling</title><link>https://2i2c.org/blog/nbgitpuller-better-ux/</link><pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/nbgitpuller-better-ux/</guid><description>
+&lt;a href="https://2i2c.org/members/" >member communities&lt;/a> whose memberships fund upstream contributions like these.&lt;/p></description></item><item><title>Better sharing UX with nbgitpuller and contextual error handling</title><link>https://2i2c.org/blog/nbgitpuller-better-ux/</link><pubDate>Tue, 31 Mar 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/nbgitpuller-better-ux/</guid><description>
 &lt;h2 id="tldr">
 TL;DR
 &lt;a class="header-anchor" href="#tldr">#&lt;/a>
