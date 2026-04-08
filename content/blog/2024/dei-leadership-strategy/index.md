@@ -35,7 +35,7 @@ However, over the past few months, we have reflected on our organization's struc
 
 We need to do better.
 
-2i2c is at a moment of maturation and growth as an organization, kicked off by [our organizational audit from 2023](../2023/organizational-report/index.md) as well as [our three-year retrospective](../report-czi/index.md).
+2i2c is at a moment of maturation and growth as an organization, kicked off by [our organizational audit from 2023](../../2023/organizational-report/index.md) as well as [our three-year retrospective](../report-czi/index.md).
 We believe that improving the diversity of leadership throughout the organization is a necessary part of that maturation over the next three years.
 
 Below are a few ideas for how we aim to make improvements, and we invite feedback from others who are interested in helping us improve this aspect of our organization.
