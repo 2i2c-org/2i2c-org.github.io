@@ -1,7 +1,7 @@
 ---
 title: "Report from the Jupyter Security Working Group security tooling sprint"
 slug: "jupyter-security-sprint"
-date: 2026-04-03
+date: 2026-04-08
 authors:
   - Jenny Wong
 categories:
