@@ -35,7 +35,7 @@ These are a few ways in which we've collaborated with communities and demonstrat
 
 - PaleoCube and PaleoHack Hubs [infrastructure#1418](https://github.com/2i2c-org/infrastructure/issues/1418)
 - NeuroHackademy 2022 [infrastructure#1505](https://github.com/2i2c-org/infrastructure/issues/1505)
-- Alabama Water Institute CIROH hub [infrastructure#1444](https://github.com/2i2c-org/infrastructure/issues/1444)
+- [Alabama Water Institute CIROH](../../../collaborators/ciroh/) hub [infrastructure#1444](https://github.com/2i2c-org/infrastructure/issues/1444)
 - OceanHackWeek 2022 [infrastructure#1515](https://github.com/2i2c-org/infrastructure/issues/1515)
 - COESSING Pangeo-Style Hub [infrastructure#1516](https://github.com/2i2c-org/infrastructure/issues/1516)
 - Temple University Education Hub [infrastructure#1648](https://github.com/2i2c-org/infrastructure/issues/1648)
