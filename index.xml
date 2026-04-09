@@ -2,7 +2,9 @@
 &lt;a href="https://2i2c.org/collaborators/bids/" >Berkeley Institute for Data Science (BIDS)&lt;/a> has joined the
 &lt;a href="https://mybinder.readthedocs.io/en/latest/about/federation.html" target="_blank" rel="noopener" >mybinder.org federation&lt;/a>, contributing a new node alongside 2i2c and
 &lt;a href="https://2i2c.org/collaborators/gesis/" >GESIS&lt;/a>. BIDS is the birthplace of &lt;code>mybinder.org&lt;/code>, so it&amp;rsquo;s great to see them back as an active federation member.&lt;/p>
-&lt;p>This is a win for the resilience of mybinder.org - the BIDS node runs on a different cloud provider than the existing nodes, reducing the risk that a single provider outage takes down the whole service. 2i2c contributed expertise in extending the deployment infrastructure to this new cloud setup, and is managing some infrastructure and cloud cost payments with BIDS via their premier membership.&lt;/p>
+&lt;p>We helped out with development, setup, and operations for the new federation member on OVH.
+&lt;a href="https://github.com/2i2c-org/initiatives/issues/21" target="_blank" rel="noopener" >Here&amp;rsquo;s the initiative we just closed out »&lt;/a>.&lt;/p>
+&lt;p>This is a win for the resilience of mybinder.org - the BIDS node runs on a different cloud provider than the existing nodes, reducing the risk that a single provider outage takes down the whole service.&lt;/p>
 &lt;p>Read the full details on the
 &lt;a href="https://blog.jupyter.org/berkeley-institute-for-data-science-bids-joins-the-mybinder-org-federation-with-help-from-2i2c-f0f22d0b5ba5" target="_blank" rel="noopener" >Jupyter blog&lt;/a>.&lt;/p></description></item><item><title>Report from the Jupyter Security Working Group security tooling sprint</title><link>https://2i2c.org/blog/jupyter-security-sprint/</link><pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/jupyter-security-sprint/</guid><description>&lt;p>The
 &lt;a href="https://github.com/jupyter/security" target="_blank" rel="noopener" >Jupyter Security Working Group&lt;/a> recently held a Security Tooling Sprint.
@@ -109,6 +111,9 @@ TL;DR
 &lt;a href="https://github.com/jupyterhub/nbgitpuller" target="_blank" rel="noopener" >nbgitpuller&lt;/a> now has improved UX context-aware error handling. Update to
 &lt;a href="https://pypi.org/project/nbgitpuller/1.3.0/" target="_blank" rel="noopener" >version 1.3.0&lt;/a> and let us know what you think by opening an
 &lt;a href="https://github.com/jupyterhub/nbgitpuller/issues" target="_blank" rel="noopener" >issue&lt;/a> or via the feedback form below 🚀&lt;/p>
+&lt;p>Check out the initiative we used to structure and complete this work:&lt;/p>
+&lt;p>
+&lt;a href="https://github.com/2i2c-org/initiatives/issues/22" target="_blank" rel="noopener" >GitHub initiative »&lt;/a>&lt;/p>
 &lt;h2 id="what-is-nbgitpuller">
 What is nbgitpuller?
 &lt;a class="header-anchor" href="#what-is-nbgitpuller">#&lt;/a>
@@ -10168,6 +10173,16 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;div class="col-sm-6 col-md-4 col-lg-3">
 &lt;div class="card border-0" style="background-color: #f8f9fa;">
 &lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
+&lt;a href="https://dvc.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
+&lt;img src="https://2i2c.org/members/images/diablo_valley_college.png" alt="Diablo Valley College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
+&lt;small class="text-dark fw-medium">Diablo Valley College&lt;/small>
+&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="col-sm-6 col-md-4 col-lg-3">
+&lt;div class="card border-0" style="background-color: #f8f9fa;">
+&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
 &lt;a href="https://elac.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/east_los_angeles_college.svg" alt="East Los Angeles College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">East Los Angeles College&lt;/small>
@@ -10391,6 +10406,16 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;a href="https://moreno.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/moreno_valley_college.png" alt="Moreno Valley College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">Moreno Valley College&lt;/small>
+&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="col-sm-6 col-md-4 col-lg-3">
+&lt;div class="card border-0" style="background-color: #f8f9fa;">
+&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
+&lt;a href="https://staging.hub.disasters.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
+&lt;img src="https://2i2c.org/members/images/nasa_disasters_program.png" alt="NASA Disasters Program" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
+&lt;small class="text-dark fw-medium">NASA Disasters Program&lt;/small>
 &lt;/a>
 &lt;/div>
 &lt;/div>
