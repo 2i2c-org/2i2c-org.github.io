@@ -13,6 +13,10 @@ tags:
 
 [nbgitpuller](https://github.com/jupyterhub/nbgitpuller) now has improved UX context-aware error handling. Update to [version 1.3.0](https://pypi.org/project/nbgitpuller/1.3.0/) and let us know what you think by opening an [issue](https://github.com/jupyterhub/nbgitpuller/issues) or via the feedback form below 🚀
 
+Check out the initiative we used to structure and complete this work:
+
+[GitHub initiative »](https://github.com/2i2c-org/initiatives/issues/22)
+
 ## What is nbgitpuller?
 
 [nbgitpuller](https://github.com/jupyterhub/nbgitpuller) is a way to sync *content* with *compute* through the click of a link. Example use cases include:

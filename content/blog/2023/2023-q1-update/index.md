@@ -26,7 +26,7 @@ Read on below to learn more about what we've been up to!
 We added several new community partnerships to our managed hub service.
 We've deployed new hub infrastructure for each of the following groups:
 
-- Our [University of Toronto Jupyter service](https://act.utoronto.ca/jupyterhub-support/) now has a dedicated R hub.
+- Our [University of Toronto](../../../collaborators/utoronto/) Jupyter service now has a dedicated R hub.
 - We ran an event hub for the [Drakkar Ocean project](https://www.drakkar-ocean.eu/)
 - We deployed a hub for the [NASA Visuaslization Exploration and Data Analysis (VEDA) project](https://www.earthdata.nasa.gov/esds/veda).
 - We deployed a hub for the [QuantifiedCarbon](https://www.linkedin.com/company/quantifiedcarbon/about/) organization.
