@@ -1,7 +1,7 @@
 ---
 title: "Report from the Jupyter and AI community meetup"
 slug: "jupyter-ai-seattle-meetup"
-date: 2026-04-03
+date: 2026-04-23
 authors:
   - Harold Campbell
 categories:
