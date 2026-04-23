@@ -1,4 +1,49 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Open Source | 2i2c</title><link>https://2i2c.org/tag/open-source/</link><atom:link href="https://2i2c.org/tag/open-source/index.xml" rel="self" type="application/rss+xml"/><description>Open Source</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 09 Apr 2026 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Open Source</title><link>https://2i2c.org/tag/open-source/</link></image><item><title>BIDS joins the mybinder.org federation with help from 2i2c</title><link>https://2i2c.org/blog/bids-mybinder-federation/</link><pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/bids-mybinder-federation/</guid><description>&lt;p>The
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Open Source | 2i2c</title><link>https://2i2c.org/tag/open-source/</link><atom:link href="https://2i2c.org/tag/open-source/index.xml" rel="self" type="application/rss+xml"/><description>Open Source</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 23 Apr 2026 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Open Source</title><link>https://2i2c.org/tag/open-source/</link></image><item><title>Report from the Jupyter and AI community meetup</title><link>https://2i2c.org/blog/jupyter-ai-seattle-meetup/</link><pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/jupyter-ai-seattle-meetup/</guid><description>&lt;p>A small group of
+&lt;a href="https://2i2c.org/collaborators/jupyter/" >Jupyter&lt;/a> community members recently met in Seattle to demo Jupyter workflows augmented with AI tools and discuss what&amp;rsquo;s next. This is a quick report-out about what stood out.&lt;/p>
+&lt;p>The conversations focused on what agentic workflows could unlock for researchers and students - with broad acknowledgement that deployment, security, authorization, and ethics still have a lot to be worked out.&lt;/p>
+&lt;p>Here are a few highlights from the demos.&lt;/p>
+&lt;h2 id="jupyter-ai-and-the-agent-client-protocol">
+Jupyter AI and the Agent Client Protocol
+&lt;a class="header-anchor" href="#jupyter-ai-and-the-agent-client-protocol">#&lt;/a>
+&lt;/h2>&lt;p>
+&lt;a href="https://github.com/jupyterlab/jupyter-ai" target="_blank" rel="noopener" >Jupyter AI&lt;/a> v3 is adding support for the
+&lt;a href="https://agentclientprotocol.com/" target="_blank" rel="noopener" >Agent Client Protocol (ACP)&lt;/a>, enabling multi-agent collaboration within JupyterLab. We saw how a single request could be split across multiple specialized agents based on each one&amp;rsquo;s skills, similar to
+&lt;a href="https://www.youtube.com/watch?v=hyzPC6moEJ0" target="_blank" rel="noopener" >this demo from JupyterCon 2025&lt;/a>.&lt;/p>
+&lt;p>Some things still to figure out:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>No tool isolation yet&lt;/strong> - agents aren&amp;rsquo;t scoped by user role or security group.&lt;/li>
+&lt;li>&lt;strong>Manual configuration required&lt;/strong> - agents running locally need to be registered by hand.&lt;/li>
+&lt;li>A future goal is for JupyterLab to auto-detect locally installed agents, or for LLM providers to contribute integrations directly.&lt;/li>
+&lt;/ul>
+&lt;p>The Jupyter AI team also shared a new &amp;ldquo;Personas&amp;rdquo; abstraction that lets you define a skill-specific agent in just a few lines of Python. Personas open the door to domain-specific agents or agents with crafted &amp;ldquo;personalities&amp;rdquo;. They are written in a few lines of Python, though we discussed the possibility of using markdown instead. This seems to be evolving rapidly!&lt;/p>
+&lt;p>
+&lt;a href="https://github.com/jupyterlab/jupyter-ai/releases/tag/v3.0.0" target="_blank" rel="noopener" >Jupyter AI v3.0.0 has since been released&lt;/a>.&lt;/p>
+&lt;h2 id="notebook-cli">
+Notebook CLI
+&lt;a class="header-anchor" href="#notebook-cli">#&lt;/a>
+&lt;/h2>&lt;p>
+&lt;a href="https://github.com/jupyter-ai-contrib/nb-cli" target="_blank" rel="noopener" >&lt;code>nb-cli&lt;/code>&lt;/a> is a Rust-based tool for interacting with notebooks from the command line - changing cells, running them, checking errors, and rendering the notebook in the console. It can also connect to remote JupyterLab instances, making it useful for headless workflows like CI pipelines or batch grading.&lt;/p>
+&lt;h2 id="sidebar-comments-and-real-time-collaboration">
+Sidebar comments and Real-time collaboration
+&lt;a class="header-anchor" href="#sidebar-comments-and-real-time-collaboration">#&lt;/a>
+&lt;/h2>&lt;p>A demo showed Google Docs-style side-panel comments for &lt;code>.ipynb&lt;/code> files. Previous collaboration efforts used
+&lt;a href="https://en.wikipedia.org/wiki/Conflict-free_replicated_data_type" target="_blank" rel="noopener" >Conflict-free Replicated Data Types (CRDTs)&lt;/a> for multi-cursor editing, but the team felt that approach may not have hit the mark. Side-panel comments felt more natural, though how this extends to &lt;code>.py&lt;/code> files is still an open question.&lt;/p>
+&lt;h2 id="opportunities-for-2i2c">
+Opportunities for 2i2c
+&lt;a class="header-anchor" href="#opportunities-for-2i2c">#&lt;/a>
+&lt;/h2>&lt;p>The meeting helped us understand the role we &lt;em>could&lt;/em> play in this space.
+We think there&amp;rsquo;s opportunity to help facilitate the use of agents on shared infrastructure, particularly around the upstream control planes for deployment, administration, and authorization. We can also help facilitate community conversations about the ethics and impact of AI tools on open science.&lt;/p>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>The
+&lt;a href="https://jupyterfoundation.org" target="_blank" rel="noopener" >Jupyter Foundation&lt;/a> for supporting the event.&lt;/li>
+&lt;li>
+&lt;a href="https://www.linkedin.com/in/zach-sailer-8a1472151" target="_blank" rel="noopener" >Zach Sailer&lt;/a> (Apple), for organizing this meetup.&lt;/li>
+&lt;li>
+&lt;a href="https://2i2c.org/author/chris-holdgraf/" >Chris Holdgraf&lt;/a> for editing and adapting the original content for this post.&lt;/li>
+&lt;/ul></description></item><item><title>BIDS joins the mybinder.org federation with help from 2i2c</title><link>https://2i2c.org/blog/bids-mybinder-federation/</link><pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/bids-mybinder-federation/</guid><description>&lt;p>The
 &lt;a href="https://2i2c.org/collaborators/bids/" >Berkeley Institute for Data Science (BIDS)&lt;/a> has joined the
 &lt;a href="https://mybinder.readthedocs.io/en/latest/about/federation.html" target="_blank" rel="noopener" >mybinder.org federation&lt;/a>, contributing a new node alongside 2i2c and
 &lt;a href="https://2i2c.org/collaborators/gesis/" >GESIS&lt;/a>. BIDS is the birthplace of &lt;code>mybinder.org&lt;/code>, so it&amp;rsquo;s great to see them back as an active federation member.&lt;/p>
