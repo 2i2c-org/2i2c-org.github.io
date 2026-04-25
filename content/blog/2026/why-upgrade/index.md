@@ -2,6 +2,7 @@
 title: How regularly upgrading core infrastructure leads to upstream improvements and better infrastructure
 slug: "why-upgrade-regularly"
 date: "2026-04-03"
+author: Yuvi Panda
 categories:
   - service enhancements
 tags:
