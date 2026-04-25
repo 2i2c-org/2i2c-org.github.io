@@ -35,6 +35,7 @@ This is similar to the other part of [/our VEDA objective] - rolling out new ver
 
 This isn't the case quite yet for helm v3, as it's still supported, but it's much better to do this work earlier than wait.
 
+If you encounter a bug in a popular open source software, often you can just 'wait' for it to be fixed. But this isn't just about time - someone somewhere has to put in the *effort* of getting it fixed, filing helpful upstream bug reports, and testing to make sure it works. This is an example of 2i2c continuing to contribute this *effort* upstream wherever we can. 
 ## Acknowledgements
 
 - Thanks to [NASA VEDA](../../../collaborators/nasa-veda/) for collaborating deeply with us on infrastructure questions like this.
