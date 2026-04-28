@@ -1,4 +1,26 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2i2c's blog | 2i2c</title><link>https://2i2c.org/blog/</link><atom:link href="https://2i2c.org/blog/index.xml" rel="self" type="application/rss+xml"/><description>2i2c's blog</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 23 Apr 2026 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>2i2c's blog</title><link>https://2i2c.org/blog/</link></image><item><title>Report from the Jupyter and AI community meetup</title><link>https://2i2c.org/blog/jupyter-ai-seattle-meetup/</link><pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/jupyter-ai-seattle-meetup/</guid><description>&lt;p>A small group of
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2i2c's blog | 2i2c</title><link>https://2i2c.org/blog/</link><atom:link href="https://2i2c.org/blog/index.xml" rel="self" type="application/rss+xml"/><description>2i2c's blog</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 27 Apr 2026 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>2i2c's blog</title><link>https://2i2c.org/blog/</link></image><item><title>Supporting JupyterHub admins on workshop hubs with shared passwords</title><link>https://2i2c.org/blog/shared-password-admin/</link><pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/shared-password-admin/</guid><description>&lt;p>To facilitate communities using JupyterHub for a workshop, we introduced the idea of a &amp;lsquo;shared password&amp;rsquo; based authentication a few years ago.
+This lets communities set a single &lt;em>global&lt;/em> password that is handed out to all workshop attendees (instead of collecting email addresses or GitHub usernames &lt;em>before&lt;/em> the workshop starts).
+Users can login with their email and this shared global password, and get going immediately. We worked with
+&lt;a href="https://2i2c.org/collaborators/openscapes/" >OpenScapes&lt;/a> (which runs a lot of workshops) in developing this method, and it&amp;rsquo;s been heavily used since among other communities!&lt;/p>
+&lt;p>However, until now this method required us to &lt;em>restrict admin access&lt;/em> for all users, preventing users from using admin features like group management, accessing the JupyterHub Admin dashboard (which lets you see which other users are logged in), and using the
+&lt;a href="https://docs.2i2c.org/user/data/filesystem/#the-shared-directory" target="_blank" rel="noopener" >shared directory&lt;/a>.&lt;/p>
+&lt;p>To mitigate these, we
+&lt;a href="https://github.com/jupyterhub/jupyterhub/pull/5037" target="_blank" rel="noopener" >contributed the SharedPasswordAuthenticator&lt;/a> upstream to the JupyterHub organization, allowing hub admins to set set &lt;em>two&lt;/em> passwords instead of &lt;em>one&lt;/em>.
+Hub admins can now &lt;strong>generate a special password that can be distributed just to admins&lt;/strong>, and that gives users these extra capabilities without giving up the simplicity of using a single password for all workshop participants!&lt;/p>
+&lt;p>By contributing this upstream, we made sure this feature is available for everyone to use, rather than just for communities served by 2i2c.
+We&amp;rsquo;re
+&lt;a href="https://github.com/2i2c-org/infrastructure/issues/7864" target="_blank" rel="noopener" >rolling this&lt;/a> out to our communities now, and many communities have already benefitted from this!&lt;/p>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>To
+&lt;a href="https://github.com/minrk" target="_blank" rel="noopener" >MinRK&lt;/a> for code review and merge of the pull requests!&lt;/li>
+&lt;li>The
+&lt;a href="https://2i2c.org/collaborators/openscapes/" >OpenScapes&lt;/a> community for collaborating with us on building features that benefit themselves and everyone else!&lt;/li>
+&lt;li>Support from our
+&lt;a href="https://2i2c.org/members/" >member communities&lt;/a> gives us the capacity to invest in upstream open source engagement and build relationships like this&lt;/li>
+&lt;/ul></description></item><item><title>Report from the Jupyter and AI community meetup</title><link>https://2i2c.org/blog/jupyter-ai-seattle-meetup/</link><pubDate>Thu, 23 Apr 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/jupyter-ai-seattle-meetup/</guid><description>&lt;p>A small group of
 &lt;a href="https://2i2c.org/collaborators/jupyter/" >Jupyter&lt;/a> community members recently met in Seattle to demo Jupyter workflows augmented with AI tools and discuss what&amp;rsquo;s next. This is a quick report-out about what stood out.&lt;/p>
 &lt;p>The conversations focused on what agentic workflows could unlock for researchers and students - with broad acknowledgement that deployment, security, authorization, and ethics still have a lot to be worked out.&lt;/p>
 &lt;p>Here are a few highlights from the demos.&lt;/p>
