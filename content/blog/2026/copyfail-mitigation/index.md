@@ -12,7 +12,7 @@ tags:
 ---
 
 The recently disclosed [CopyFail Linux kernel zero-day](https://copy.fail/) (CVE-2026-31431) opens up a way for code running inside a container to break out onto the underlying node.
-We took a close look at our hubs to confirm whether they were exposed, confirmed that we our hubs are likely not at risk, and added another layer of protection just in case.
+We took a close look at our hubs to confirm whether they were exposed, confirmed that our hubs are likely not at risk, and added another layer of protection just in case.
 
 ### Are 2i2c's hubs at risk?
 
