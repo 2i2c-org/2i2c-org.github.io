@@ -1,4 +1,53 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Reliability | 2i2c</title><link>https://2i2c.org/tag/reliability/</link><atom:link href="https://2i2c.org/tag/reliability/index.xml" rel="self" type="application/rss+xml"/><description>Reliability</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 08 Apr 2026 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Reliability</title><link>https://2i2c.org/tag/reliability/</link></image><item><title>Upgrading community infrastructure to Kubernetes 1.34 and JupyterHub 4.3.3</title><link>https://2i2c.org/blog/infra-upgrades-k8s-jupyterhub/</link><pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/infra-upgrades-k8s-jupyterhub/</guid><description>&lt;p>We&amp;rsquo;ve completed a major round of infrastructure upgrades across all 2i2c-managed hubs - every hub is now running
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Reliability | 2i2c</title><link>https://2i2c.org/tag/reliability/</link><atom:link href="https://2i2c.org/tag/reliability/index.xml" rel="self" type="application/rss+xml"/><description>Reliability</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 04 May 2026 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Reliability</title><link>https://2i2c.org/tag/reliability/</link></image><item><title>Protecting our hubs against the CopyFail kernel exploit</title><link>https://2i2c.org/blog/copyfail-mitigation/</link><pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/copyfail-mitigation/</guid><description>&lt;p>The recently disclosed
+&lt;a href="https://copy.fail/" target="_blank" rel="noopener" >CopyFail Linux kernel zero-day&lt;/a> (CVE-2026-31431) opens up a way for code running inside a container to break out onto the underlying node.
+We took a close look at our hubs to confirm whether they were exposed, confirmed that our hubs are likely not at risk, and added another layer of protection just in case.&lt;/p>
+&lt;h3 id="are-2i2cs-hubs-at-risk">
+Are 2i2c&amp;rsquo;s hubs at risk?
+&lt;a class="header-anchor" href="#are-2i2cs-hubs-at-risk">#&lt;/a>
+&lt;/h3>&lt;p>No - based on our testing and mitigation efforts, our hubs are not vulnerable to CopyFail.&lt;/p>
+&lt;h3 id="why-do-we-think-were-not-at-risk">
+Why do we think we&amp;rsquo;re not at risk?
+&lt;a class="header-anchor" href="#why-do-we-think-were-not-at-risk">#&lt;/a>
+&lt;/h3>&lt;ul>
+&lt;li>We tried to reproduce the exploit on a staging hub by following the
+&lt;a href="https://github.com/Percivalll/Copy-Fail-CVE-2026-31431-Kubernetes-PoC" target="_blank" rel="noopener" >public Kubernetes proof-of-concept&lt;/a> on both AWS and EKS, and the exploit was unable to break out of the container.&lt;/li>
+&lt;li>Existing JupyterHub hardening on Kubernetes from
+&lt;a href="https://github.com/jupyterhub/kubespawner/pull/545" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> jupyterhub/kubespawner#545&lt;/a> (originally added by Yuvi in 2021 in response to a different security issue) had already significantly reduced our risk exposure, and the exposure of anyone else running
+&lt;a href="https://z2jh.jupyter.org" target="_blank" rel="noopener" >Z2JH&lt;/a> (the standard way to deploy JupyterHub on Kubernetes).&lt;/li>
+&lt;li>As an extra layer of protection, we deployed
+&lt;a href="https://github.com/iwanhae/copyfail-ebpf-k8s" target="_blank" rel="noopener" >&lt;code>copyfail-ebpf-k8s&lt;/code>&lt;/a> across our hubs in
+&lt;a href="https://github.com/2i2c-org/infrastructure/pull/8227" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> 2i2c-org/infrastructure#8227&lt;/a>. It blocks the specific kernel feature that CopyFail depends on. See
+&lt;a href="https://github.com/iwanhae/copyfail-ebpf-k8s#quick-start" target="_blank" rel="noopener" >the project&amp;rsquo;s explanation&lt;/a> for how that works.&lt;/li>
+&lt;li>We&amp;rsquo;ve upgraded all GKE clusters to use
+&lt;a href="https://docs.cloud.google.com/kubernetes-engine/security-bulletins" target="_blank" rel="noopener" >a patched image&lt;/a> in
+&lt;a href="https://github.com/2i2c-org/infrastructure/pull/8230" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> 2i2c-org/infrastructure#8230&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;h3 id="what-else-did-we-look-into">
+What else did we look into
+&lt;a class="header-anchor" href="#what-else-did-we-look-into">#&lt;/a>
+&lt;/h3>&lt;ul>
+&lt;li>
+&lt;a href="https://github.com/deckhouse/d8-copy-fail-mitigation" target="_blank" rel="noopener" >Deckhouse&amp;rsquo;s mitigation&lt;/a> was too platform-specific for us.&lt;/li>
+&lt;li>
+&lt;a href="https://blog.ovhcloud.com/copy-fail-cve-2026-31431-how-to-rapidly-protect-ovhcloud-mks-clusters-from-the-linux-kernel-zero-day/" target="_blank" rel="noopener" >OVHcloud&amp;rsquo;s &lt;code>modprobe&lt;/code> blocking&lt;/a> likely
+&lt;a href="https://github.com/aws/containers-roadmap/issues/2808" target="_blank" rel="noopener" >won&amp;rsquo;t work on Amazon Linux 2023&lt;/a>, since the relevant module is built into the kernel image.&lt;/li>
+&lt;li>
+&lt;a href="https://alas.aws.amazon.com/alas2023.html" target="_blank" rel="noopener" >AL2023 security advisories&lt;/a> - no patched AL2023 image is available yet, so we can&amp;rsquo;t rely on a kernel-level fix from AWS for now.&lt;/li>
+&lt;/ul>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>Huge thanks to
+&lt;a href="https://2i2c.org/author/georgiana-dolocan/" >Georgiana&lt;/a> for the deep dive into the exploit and whether we&amp;rsquo;re exposed here.&lt;/li>
+&lt;li>Thanks to
+&lt;a href="https://2i2c.org/author/yuvaraj-yuvi/" >Yuvi&lt;/a> for the PR that reduces JupyterHub&amp;rsquo;s exposure to this back in 2021!&lt;/li>
+&lt;li>Thanks to
+&lt;a href="https://github.com/iwanhae/copyfail-ebpf-k8s" target="_blank" rel="noopener" >iwanhae&lt;/a> for the eBPF daemonset we deployed in Kubernetes, and to
+&lt;a href="https://2i2c.org/collaborators/jupyterhub/" >JupyterHub&lt;/a> for the upstream kubespawner hardening that lowered our exposure.&lt;/li>
+&lt;li>Thanks to our collaborators at
+&lt;a href="https://2i2c.org/collaborators/nasa-veda/" >NASA VEDA&lt;/a> for the ongoing conversations about hub security.&lt;/li>
+&lt;/ul></description></item><item><title>Upgrading community infrastructure to Kubernetes 1.34 and JupyterHub 4.3.3</title><link>https://2i2c.org/blog/infra-upgrades-k8s-jupyterhub/</link><pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/infra-upgrades-k8s-jupyterhub/</guid><description>&lt;p>We&amp;rsquo;ve completed a major round of infrastructure upgrades across all 2i2c-managed hubs - every hub is now running
 &lt;a href="https://kubernetes.io/releases/" target="_blank" rel="noopener" >Kubernetes 1.34&lt;/a> and
 &lt;a href="https://z2jh.jupyter.org/en/stable/changelog.html" target="_blank" rel="noopener" >Z2JH helm chart 4.3.3&lt;/a>.&lt;/p>
 &lt;p>Running up-to-date versions of both Kubernetes and the
