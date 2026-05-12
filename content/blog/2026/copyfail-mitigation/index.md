@@ -20,7 +20,7 @@ No - based on our testing and mitigation efforts, our hubs are not vulnerable to
 
 ### Why do we think we're not at risk?
 
-- We tried to reproduce the exploit on a staging hub by following the [public Kubernetes proof-of-concept](https://github.com/Percivalll/Copy-Fail-CVE-2026-31431-Kubernetes-PoC) on both AWS and EKS, and the exploit was unable to break out of the container.
+- We tried to reproduce the exploit on a staging hub by following the [public Kubernetes proof-of-concept](https://github.com/Percivalll/Copy-Fail-CVE-2026-31431-Kubernetes-PoC) on both AWS and GCP, and the exploit was unable to break out of the container.
 - Existing JupyterHub hardening on Kubernetes from https://github.com/jupyterhub/kubespawner/pull/545 (originally added by Yuvi in 2021 in response to a different security issue) had already significantly reduced our risk exposure, and the exposure of anyone else running [Z2JH](https://z2jh.jupyter.org) (the standard way to deploy JupyterHub on Kubernetes).
 - As an extra layer of protection, we deployed [`copyfail-ebpf-k8s`](https://github.com/iwanhae/copyfail-ebpf-k8s) across our hubs in https://github.com/2i2c-org/infrastructure/pull/8227. It blocks the specific kernel feature that CopyFail depends on. See [the project's explanation](https://github.com/iwanhae/copyfail-ebpf-k8s#quick-start) for how that works.
 - We've upgraded all GKE clusters to use [a patched image](https://docs.cloud.google.com/kubernetes-engine/security-bulletins) in https://github.com/2i2c-org/infrastructure/pull/8230.
