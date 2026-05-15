@@ -3,7 +3,7 @@ title: Serving more users with fewer cheap GPUs for workshops and education
 slug: "more-users-fewer-gpus"
 date: 2026-05-12
 categories:
-  - eduacation
+  - education
 tags:
   - open source
   - gpu
