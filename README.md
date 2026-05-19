@@ -5,7 +5,12 @@ It is built from the [academic hugo theme](https://github.com/HugoBlox).
 
 ## Where the website is hosted
 
-This website is **hosted** by GitHub Pages, and we use Netlify to display previews of the website from PRs.
+The production site at https://2i2c.org is **hosted on GitHub Pages**.
+It is built and deployed from `main` by [`.github/workflows/deploy.yml`](./.github/workflows/deploy.yml).
+
+**Netlify is only used for pull request deploy previews**.
+It does not serve the production site.
+The Netlify build is configured in [`netlify.toml`](./netlify.toml).
 
 ## How to edit, build, and preview this website
 

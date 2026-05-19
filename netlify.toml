@@ -1,3 +1,7 @@
+# Production 2i2c.org is served from GitHub Pages.
+# Netlify is used ONLY for pull request deploy previews, so we tell search
+# engines not to index any of these URLs.
+
 [build]
   command = "python scripts/add_slugs_to_blog_posts.py && pip install -r requirements.txt && python scripts/extract_org_logos.py && hugo --gc --minify -b $URL"
   publish = "public"
@@ -6,14 +10,16 @@
   HUGO_VERSION = "0.125.3"
   HUGO_ENABLEGITINFO = "true"
 
-[context.production.environment]
-  HUGO_ENV = "production"
-
 [context.deploy-preview]
   command = "python scripts/add_slugs_to_blog_posts.py && pip install -r requirements.txt && python scripts/extract_org_logos.py && hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
 
 [context.branch-deploy]
   command = "python scripts/add_slugs_to_blog_posts.py && pip install -r requirements.txt && python scripts/extract_org_logos.py && hugo --gc --minify -b $DEPLOY_PRIME_URL"
+
+[[headers]]
+  for = "/*"
+  [headers.values]
+    X-Robots-Tag = "noindex, nofollow"
 
 [[plugins]]
   package = "netlify-plugin-hugo-cache-resources"
