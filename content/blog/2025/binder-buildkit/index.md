@@ -18,5 +18,5 @@ Chris and Yuvi recently wrote [a blog post on the Jupyter blog](https://blog.jup
 
 ## Acknowledgements
 
-- [Project Pythia](../../../collaborators/pythia/) provides support for some of our work with the Binder project.
+- [Project Pythia](../../../collaborators/pythia/) and [NASA Open Science / ScienceCore](../../../collaborators/nasa-open-science/) provide support for some of our work with the Binder project.
 - [JupyterHub](../../../collaborators/jupyterhub/) for working with us to get this new node deployed for mybinder.org.

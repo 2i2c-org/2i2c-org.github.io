@@ -20,5 +20,5 @@ We hope this makes repo2docker a more useful tool for everybody, and also gives 
 
 ## Acknowledgements
 
-- Thanks to the [NASA VEDA project](../../../collaborators/nasa-veda/) for providing funding and collaboration for this work.
+- Thanks to the [NASA VEDA project](../../../collaborators/nasa-veda/) and to [NASA Open Science](../../../collaborators/nasa-open-science/) for providing funding and collaboration for this work.
 - Thanks to the [JupyterHub community](../../../collaborators/jupyterhub/) for collaboration and review of this work.

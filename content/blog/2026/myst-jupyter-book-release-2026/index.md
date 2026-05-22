@@ -37,3 +37,5 @@ Most of our contributions were foundational in nature - we fixed a bunch of bugs
 Thanks to our [member communities](../../../members/) - their memberships cover the cost of [foundational upstream contributions](../../2025/foundational-contributions/) to projects like these.
 
 Particular thanks to [Project Pythia](../../../collaborators/pythia/) which currently supports much of our upstream contributions in Jupyter Book.
+
+These releases also support training communities that author curricula in MyST, including [NASA ScienceCore](../../../collaborators/nasa-open-science/).

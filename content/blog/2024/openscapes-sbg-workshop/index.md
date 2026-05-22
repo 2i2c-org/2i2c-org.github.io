@@ -43,7 +43,8 @@ We have documented the technical infrastructure changes required to enable a sha
 
 ## Acknowledgements
 
-- [NASA Openscapes](https://nasa-openscapes.github.io/)
+- [NASA Openscapes](../../../collaborators/openscapes/index.md)
 - [NASA LP DAAC](https://lpdaac.usgs.gov/)
 - [NASA JPL](https://www.jpl.nasa.gov/)
 - [NASA ROSES funding](https://science.nasa.gov/researchers/)
+- [NASA Open Science / ScienceCore](../../../collaborators/nasa-open-science/) for supporting some of our work on JupyterHub.
