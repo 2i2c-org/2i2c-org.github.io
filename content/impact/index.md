@@ -1,5 +1,5 @@
 ---
-title: Impact
+title: Stories
 type: landing
 
 # Your landing page sections - add as many different content blocks as you like

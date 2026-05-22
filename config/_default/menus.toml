@@ -68,30 +68,30 @@
   weight = 80
 
 [[main]]
-  name = "Impact"
+  name = "Communities"
   weight = 30
 
 [[main]]
-  name = "Impact stories"
-  parent = "Impact"
+  name = "Stories"
+  parent = "Communities"
   url = "impact/"
   weight = 11
 
 [[main]]
   name = "Case studies"
-  parent = "Impact"
+  parent = "Communities"
   url = "case-studies/"
   weight = 14
 
 [[main]]
   name = "Member communities"
-  parent = "Impact"
+  parent = "Communities"
   url = "members/"
   weight = 12
-  
+
 [[main]]
   name = "Collaborators and funders"
-  parent = "Impact"
+  parent = "Communities"
   url = "collaborators/"
   weight = 13
 
