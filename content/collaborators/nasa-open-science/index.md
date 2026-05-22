@@ -1,7 +1,7 @@
 ---
 title: NASA Open Science
 tags:
-  - funder
+  - collaborator
 show_date: false
 ---
 
