@@ -10,3 +10,10 @@
 .collaborators-gallery a.card-image {
   background-color: white !important;
 }
+
+// Individual collaborator page: cap inline image width so logos don't
+// blow up to full container width.
+.collaborator-page .article-style figure img {
+  max-width: 360px;
+  height: auto;
+}

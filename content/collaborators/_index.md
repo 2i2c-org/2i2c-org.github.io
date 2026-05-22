@@ -9,6 +9,10 @@
 title: Our Collaborators
 type: landing
 
+cascade:
+  design:
+    css_class: collaborator-page
+
 sections:
   - block: markdown
     content:
