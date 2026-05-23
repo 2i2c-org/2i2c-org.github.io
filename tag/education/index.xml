@@ -501,7 +501,7 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;/p>
 &lt;p>
 &lt;a href="https://www.amerigeo.org/" target="_blank" rel="noopener" >AmeriGEO&lt;/a> provides a framework for cooperation in the Americas for the use of Earth data to benefit science and society with data driven decision-making. As part of a virtual workshop held on 1st August 2024, 2i2c provided an interactive computing environment to support the delivery of a
-&lt;a href="https://www.nasa.gov/centers-and-facilities/marshall/nasa-boosts-open-science-through-innovative-training/" target="_blank" rel="noopener" >NASA TOPST&lt;/a> water module.&lt;/p>
+&lt;a href="https://2i2c.org/collaborators/nasa-open-science/" >NASA Open Science / ScienceCore&lt;/a> water module.&lt;/p>
 &lt;p>The workshop was facilitated by
 &lt;a href="https://people.climate.columbia.edu/users/profile/kytt-macmanus" target="_blank" rel="noopener" >Kytt MacManus&lt;/a> and
 &lt;a href="https://ciesin.climate.columbia.edu/directory/juan-f-martinez" target="_blank" rel="noopener" >Juan F. Martinez&lt;/a> (both of
@@ -601,15 +601,17 @@ Acknowledgements
 &lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
 &lt;/h2>&lt;ul>
 &lt;li>
-&lt;a href="https://nasa-openscapes.github.io/" target="_blank" rel="noopener" >NASA Openscapes&lt;/a>&lt;/li>
+&lt;a href="https://2i2c.org/collaborators/openscapes/" >NASA Openscapes&lt;/a>&lt;/li>
 &lt;li>
 &lt;a href="https://lpdaac.usgs.gov/" target="_blank" rel="noopener" >NASA LP DAAC&lt;/a>&lt;/li>
 &lt;li>
 &lt;a href="https://www.jpl.nasa.gov/" target="_blank" rel="noopener" >NASA JPL&lt;/a>&lt;/li>
 &lt;li>
 &lt;a href="https://science.nasa.gov/researchers/" target="_blank" rel="noopener" >NASA ROSES funding&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://2i2c.org/collaborators/nasa-open-science/" >NASA Open Science / ScienceCore&lt;/a> for supporting some of our work on JupyterHub.&lt;/li>
 &lt;/ul></description></item><item><title>Determining Climate Risks with NASA Earthdata Cloud at Scipy 2024</title><link>https://2i2c.org/blog/climaterisk-scipy-tutorial/</link><pubDate>Mon, 08 Jul 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/climaterisk-scipy-tutorial/</guid><description>&lt;p>&lt;em>Determining Climate Risks with NASA Earthdata Cloud&lt;/em> is a
-&lt;a href="https://www.nasa.gov/centers-and-facilities/marshall/nasa-boosts-open-science-through-innovative-training/" target="_blank" rel="noopener" >ScienceCore&lt;/a> curriculum module that comprises part of NASA&amp;rsquo;s
+&lt;a href="https://2i2c.org/collaborators/nasa-open-science/" >ScienceCore&lt;/a> curriculum module that comprises part of NASA&amp;rsquo;s
 &lt;a href="https://science.nasa.gov/open-science-overview" target="_blank" rel="noopener" >Open Science&lt;/a> and
 &lt;a href="https://nasa.github.io/Transform-to-Open-Science/" target="_blank" rel="noopener" >Transform to Open Science (TOPS)&lt;/a> initiatives.
 The aim of this module is to deliver a hands-on experience with &amp;ldquo;data-proximate computing&amp;rdquo; in the cloud with
@@ -628,7 +630,8 @@ The aim of this module is to deliver a hands-on experience with &amp;ldquo;data-
 Acknowledgements
 &lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
 &lt;/h2>&lt;ul>
-&lt;li>NASA F.14 Transform to Open Science Training award NNH23ZDA001N-TOPST&lt;/li>
+&lt;li>NASA F.14 Transform to Open Science Training award NNH22ZDA001N-TOPST (80NSSC23K0861), which seeded this contribution to
+&lt;a href="https://2i2c.org/collaborators/nasa-open-science/" >NASA ScienceCore&lt;/a>&lt;/li>
 &lt;li>
 &lt;a href="https://www.metadocencia.org/en/proyecto/nasa-2i2c/" target="_blank" rel="noopener" >MetaDocencia&lt;/a>&lt;/li>
 &lt;li>
@@ -659,7 +662,7 @@ How did we do it?
 &lt;a class="header-anchor" href="#how-did-we-do-it">#&lt;/a>
 &lt;/h2>&lt;p>Ephemeral interactive computing services benefited from some of our previous development work in collaboration with GESIS (see our
 &lt;a href="https://2i2c.org/blog/nasa-ephemeral-hubs/blog/2024/jupyterhub-binderhub-gesis/index.mdindex" >detailed blog post&lt;/a> for more information). The research and development of this project achieved wide-reaching impact across many NASA communities we currently serve, including
-&lt;a href="https://www.nasa.gov/centers-and-facilities/marshall/nasa-boosts-open-science-through-innovative-training/" target="_blank" rel="noopener" >TOPST ScienceCore&lt;/a>,
+&lt;a href="https://2i2c.org/collaborators/nasa-open-science/" >ScienceCore&lt;/a>,
 &lt;a href="https://2i2c.org/blog/openscapes-sbg-workshop/" >Openscapes&lt;/a>,
 &lt;a href="https://2i2c.org/blog/ghg-summer-school/" >US Greenhouse Gas Center&lt;/a>,
 &lt;a href="https://www.earthdata.nasa.gov/esds/veda" target="_blank" rel="noopener" >VEDA&lt;/a> and
@@ -687,6 +690,8 @@ Acknowledgements
 &lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
 &lt;/h2>&lt;ul>
 &lt;li>NASA NSPIRES F.15 High Priority Open-Source Science Award NNH22ZDA001N-HPOSS&lt;/li>
+&lt;li>The
+&lt;a href="https://2i2c.org/collaborators/nasa-open-science/" >NASA ScienceCore&lt;/a> community (originally seeded by TOPS-T award 80NSSC23K0861), an anchor user community whose training delivery requirements helped shape the design of these ephemeral binder services&lt;/li>
 &lt;/ul></description></item><item><title>Neurohackademy Summer School in Neuroimaging and Data Science 2024</title><link>https://2i2c.org/blog/neurohackademy-summer-school/</link><pubDate>Fri, 21 Jun 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/neurohackademy-summer-school/</guid><description>&lt;p>
 &lt;figure id="figure-neurohackademy-summer-schoolhttpsneurohackademyorg">
 &lt;div class="d-flex justify-content-center">

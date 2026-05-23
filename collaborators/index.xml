@@ -281,7 +281,33 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;/figure>
 &lt;/p>
 &lt;p>
-&lt;a href="https://jupyter.org/hub" target="_blank" rel="noopener" >JupyterHub&lt;/a> is a multi-user server that manages and spawns multiple instances of single-user Jupyter notebook servers. It enables organizations to provide managed Jupyter environments to groups of users, supporting authentication, resource management, and scalable deployment on cloud and on-premise infrastructure.&lt;/p></description></item><item><title>NASA VEDA</title><link>https://2i2c.org/collaborators/nasa-veda/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://2i2c.org/collaborators/nasa-veda/</guid><description>&lt;p>
+&lt;a href="https://jupyter.org/hub" target="_blank" rel="noopener" >JupyterHub&lt;/a> is a multi-user server that manages and spawns multiple instances of single-user Jupyter notebook servers. It enables organizations to provide managed Jupyter environments to groups of users, supporting authentication, resource management, and scalable deployment on cloud and on-premise infrastructure.&lt;/p></description></item><item><title>NASA Open Science</title><link>https://2i2c.org/collaborators/nasa-open-science/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://2i2c.org/collaborators/nasa-open-science/</guid><description>&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="" srcset="
+/collaborators/nasa-open-science/featured_hu64b8f5f0ebee3d199ed385904f9356ab_172545_bcb78086256806e4f72a38e181048250.webp 400w,
+/collaborators/nasa-open-science/featured_hu64b8f5f0ebee3d199ed385904f9356ab_172545_8841358bcc8a91592004a8b9b1dd8bcc.webp 760w,
+/collaborators/nasa-open-science/featured_hu64b8f5f0ebee3d199ed385904f9356ab_172545_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/collaborators/nasa-open-science/featured_hu64b8f5f0ebee3d199ed385904f9356ab_172545_bcb78086256806e4f72a38e181048250.webp"
+width="760"
+height="760"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>NASA&amp;rsquo;s
+&lt;a href="https://science.nasa.gov/open-science/" target="_blank" rel="noopener" >Open Science&lt;/a> initiative supports the agency-wide shift toward open, reproducible, and inclusive science.
+It encompasses multiple programs that fund training, tooling, and infrastructure for working with NASA Earthdata in the cloud, including
+&lt;a href="https://nasa.github.io/Transform-to-Open-Science/" target="_blank" rel="noopener" >Transform to Open Science (TOPS)&lt;/a> and the community-developed
+&lt;a href="https://sciencecore.github.io/" target="_blank" rel="noopener" >ScienceCore&lt;/a> curriculum.&lt;/p>
+&lt;p>2i2c partners with the NASA Open Science community as a curriculum author, developer, and infrastructure provider.
+We co-developed the &lt;em>Determining Climate Risks with NASA Earthdata Cloud&lt;/em> ScienceCore module with
+&lt;a href="https://www.metadocencia.org/" target="_blank" rel="noopener" >MetaDocencia&lt;/a>, and we operate the shared &lt;code>sciencecore.opensci.2i2c.cloud&lt;/code> JupyterHub and opensci BinderHub services that deliver hands-on exercises for ScienceCore modules from multiple teams.&lt;/p>
+&lt;h2 id="grants-that-fund-this-project">
+Grants that fund this project
+&lt;a class="header-anchor" href="#grants-that-fund-this-project">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>NASA TOPS-T award 80NSSC23K0861 (&amp;ldquo;Reproducibly Analyzing Wildfire, Drought, and Flood Risk with NASA Earthdata Cloud&amp;rdquo;, solicitation NNH22ZDA001N-TOPST) — funded the ScienceCore climaterisk module and infrastructure for the broader ScienceCore community&lt;/li>
+&lt;/ul></description></item><item><title>NASA VEDA</title><link>https://2i2c.org/collaborators/nasa-veda/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://2i2c.org/collaborators/nasa-veda/</guid><description>&lt;p>
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="" srcset="

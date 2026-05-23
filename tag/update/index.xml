@@ -31,7 +31,9 @@ Acknowledgements
 &lt;a href="https://2i2c.org/members/" >member communities&lt;/a> - their memberships cover the cost of
 &lt;a href="https://2i2c.org/blog/jupyter-book-release-jan-2026/../../2025/foundational-contributions/" >foundational upstream contributions&lt;/a> to projects like these.&lt;/p>
 &lt;p>Particular thanks to
-&lt;a href="https://2i2c.org/collaborators/pythia/" >Project Pythia&lt;/a> which currently supports much of our upstream contributions in Jupyter Book.&lt;/p></description></item><item><title>Improving our community hub reliability and stability in Q4 2025</title><link>https://2i2c.org/blog/infrastructure-reliability-q4-2025/</link><pubDate>Tue, 16 Dec 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/infrastructure-reliability-q4-2025/</guid><description>&lt;p>This year we&amp;rsquo;ve prioritized &lt;strong>making the cloud safe to try&lt;/strong> for our member communities. This has driven work in monitoring, alerting, and automating infrastructure so that we resolve small problems before they become big problems. In the last quarter of 2025, we wrapped up this effort by testing the following hypothesis:&lt;/p>
+&lt;a href="https://2i2c.org/collaborators/pythia/" >Project Pythia&lt;/a> which currently supports much of our upstream contributions in Jupyter Book.&lt;/p>
+&lt;p>These releases also support training communities that author curricula in MyST, including
+&lt;a href="https://2i2c.org/collaborators/nasa-open-science/" >NASA ScienceCore&lt;/a>.&lt;/p></description></item><item><title>Improving our community hub reliability and stability in Q4 2025</title><link>https://2i2c.org/blog/infrastructure-reliability-q4-2025/</link><pubDate>Tue, 16 Dec 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/infrastructure-reliability-q4-2025/</guid><description>&lt;p>This year we&amp;rsquo;ve prioritized &lt;strong>making the cloud safe to try&lt;/strong> for our member communities. This has driven work in monitoring, alerting, and automating infrastructure so that we resolve small problems before they become big problems. In the last quarter of 2025, we wrapped up this effort by testing the following hypothesis:&lt;/p>
 &lt;blockquote>
 &lt;p>We can reduce P1 incidents if we shorten the time to act on current alerts and learnings from prior incidents.&lt;/p>
 &lt;/blockquote>
@@ -167,7 +169,8 @@ Acknowledgements
 &lt;a href="https://github.com/bsipocz" target="_blank" rel="noopener" >@bsipocz&lt;/a> for their helpful reviews, edits, and feedback on the PR!&lt;/li>
 &lt;li>
 &lt;a href="https://2i2c.org/collaborators/pythia/" >Project Pythia&lt;/a>,
-&lt;a href="https://2i2c.org/collaborators/cryocloud/" >CryoCloud&lt;/a>, and the Berkeley educational projects are our primary member communities using MyST and
+&lt;a href="https://2i2c.org/collaborators/cryocloud/" >CryoCloud&lt;/a>,
+&lt;a href="https://2i2c.org/collaborators/nasa-open-science/" >NASA Open Science / ScienceCore&lt;/a>, and the Berkeley educational projects are our primary member communities using MyST and
 &lt;a href="https://2i2c.org/collaborators/jupyter-book/" >Jupyter Book&lt;/a>. Their support covers the cost of these kinds of foundational contributions.&lt;/li>
 &lt;/ul></description></item><item><title>Our Product and Service goals for Q3 2025</title><link>https://2i2c.org/blog/q3-goals/</link><pubDate>Tue, 22 Jul 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/q3-goals/</guid><description>&lt;p>As we enter Q3 2025, our focus remains on enabling better cost controls for our communities and increasing flexibility for end-users. In line with our commitment to transparency, we’re sharing our platform and service objectives for the quarter and inviting feedback to ensure our direction reflects what matters most to the communities we serve. See our
 &lt;a href="https://2i2c.org/blog/q2-product-goals/" >product goals from the previous quarter here&lt;/a>.&lt;/p>

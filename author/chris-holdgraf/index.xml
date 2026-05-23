@@ -48,7 +48,9 @@ Acknowledgements
 &lt;/h2>&lt;p>Thanks to
 &lt;a href="https://2i2c.org/collaborators/pythia/" >Project Pythia&lt;/a> and
 &lt;a href="https://2i2c.org/collaborators/earthscope/" >EarthScope&lt;/a> for collaboration and feedback that helped shape this work. And thanks to our
-&lt;a href="https://2i2c.org/members/" >member communities&lt;/a> whose memberships fund upstream contributions like these.&lt;/p></description></item><item><title>Announcing our public roadmap for open development</title><link>https://2i2c.org/blog/public-roadmap/</link><pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/public-roadmap/</guid><description>&lt;p>At the core of 2i2c&amp;rsquo;s service is a commitment to doing our work in a way that follows open principles and practices.
+&lt;a href="https://2i2c.org/members/" >member communities&lt;/a> whose memberships fund upstream contributions like these.&lt;/p>
+&lt;p>Multi-repo site support is also useful for training programs that span several content repositories, including
+&lt;a href="https://2i2c.org/collaborators/nasa-open-science/" >NASA Open Science / ScienceCore&lt;/a>.&lt;/p></description></item><item><title>Announcing our public roadmap for open development</title><link>https://2i2c.org/blog/public-roadmap/</link><pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/public-roadmap/</guid><description>&lt;p>At the core of 2i2c&amp;rsquo;s service is a commitment to doing our work in a way that follows open principles and practices.
 We commit to
 &lt;a href="https://2i2c.org/open-practices/" >doing all of our work in the open&lt;/a> and
 &lt;a href="https://2i2c.org/open-technology/" >only managing and developing open infrastructure&lt;/a>.
@@ -128,7 +130,9 @@ Acknowledgements
 &lt;a href="https://2i2c.org/members/" >member communities&lt;/a> - their memberships cover the cost of
 &lt;a href="https://2i2c.org/blog/jupyter-book-release-jan-2026/../../2025/foundational-contributions/" >foundational upstream contributions&lt;/a> to projects like these.&lt;/p>
 &lt;p>Particular thanks to
-&lt;a href="https://2i2c.org/collaborators/pythia/" >Project Pythia&lt;/a> which currently supports much of our upstream contributions in Jupyter Book.&lt;/p></description></item><item><title>2026 Strategy Update: An increased focus on co-creation</title><link>https://2i2c.org/blog/strategy-update-after-2025/</link><pubDate>Mon, 12 Jan 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/strategy-update-after-2025/</guid><description>&lt;p>As we wrapped up 2025, we felt compelled to incorporate what we learned over the year into our strategic direction, and to update our organizational documentation accordingly. Here&amp;rsquo;s a quick rundown of what we learned and how we&amp;rsquo;re adjusting.&lt;/p>
+&lt;a href="https://2i2c.org/collaborators/pythia/" >Project Pythia&lt;/a> which currently supports much of our upstream contributions in Jupyter Book.&lt;/p>
+&lt;p>These releases also support training communities that author curricula in MyST, including
+&lt;a href="https://2i2c.org/collaborators/nasa-open-science/" >NASA ScienceCore&lt;/a>.&lt;/p></description></item><item><title>2026 Strategy Update: An increased focus on co-creation</title><link>https://2i2c.org/blog/strategy-update-after-2025/</link><pubDate>Mon, 12 Jan 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/strategy-update-after-2025/</guid><description>&lt;p>As we wrapped up 2025, we felt compelled to incorporate what we learned over the year into our strategic direction, and to update our organizational documentation accordingly. Here&amp;rsquo;s a quick rundown of what we learned and how we&amp;rsquo;re adjusting.&lt;/p>
 &lt;p>&lt;em>You can check out all of
 &lt;a href="https://compass.2i2c.org/organization/#core-strategy" target="_blank" rel="noopener" >our core strategy documentation&lt;/a> in our Team Compass.&lt;/em>&lt;/p>
 &lt;h2 id="the-macro-view-from-2025">
@@ -298,7 +302,8 @@ Acknowledgements
 &lt;a href="https://github.com/bsipocz" target="_blank" rel="noopener" >@bsipocz&lt;/a> for their helpful reviews, edits, and feedback on the PR!&lt;/li>
 &lt;li>
 &lt;a href="https://2i2c.org/collaborators/pythia/" >Project Pythia&lt;/a>,
-&lt;a href="https://2i2c.org/collaborators/cryocloud/" >CryoCloud&lt;/a>, and the Berkeley educational projects are our primary member communities using MyST and
+&lt;a href="https://2i2c.org/collaborators/cryocloud/" >CryoCloud&lt;/a>,
+&lt;a href="https://2i2c.org/collaborators/nasa-open-science/" >NASA Open Science / ScienceCore&lt;/a>, and the Berkeley educational projects are our primary member communities using MyST and
 &lt;a href="https://2i2c.org/collaborators/jupyter-book/" >Jupyter Book&lt;/a>. Their support covers the cost of these kinds of foundational contributions.&lt;/li>
 &lt;/ul></description></item><item><title>BIDS joins as 2i2c's first premier member organization</title><link>https://2i2c.org/blog/bids-premier-member/</link><pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/bids-premier-member/</guid><description>&lt;p>We&amp;rsquo;re thrilled to announce that the
 &lt;a href="https://2i2c.org/collaborators/bids/" >Berkeley Institute for Data Science (BIDS)&lt;/a> has joined as 2i2c&amp;rsquo;s first premier member organization! This partnership marks a significant milestone in our sustainability strategy and recognizes a relationship that&amp;rsquo;s been central to 2i2c&amp;rsquo;s story from the very beginning.&lt;/p>
@@ -1243,7 +1248,8 @@ Acknowledgements
 &lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
 &lt;/h2>&lt;ul>
 &lt;li>
-&lt;a href="https://2i2c.org/collaborators/pythia/" >Project Pythia&lt;/a> provides support for some of our work with the Binder project.&lt;/li>
+&lt;a href="https://2i2c.org/collaborators/pythia/" >Project Pythia&lt;/a> and
+&lt;a href="https://2i2c.org/collaborators/nasa-open-science/" >NASA Open Science / ScienceCore&lt;/a> provide support for some of our work with the Binder project.&lt;/li>
 &lt;li>
 &lt;a href="https://2i2c.org/collaborators/jupyterhub/" >JupyterHub&lt;/a> for working with us to get this new node deployed for mybinder.org.&lt;/li>
 &lt;/ul></description></item><item><title>Towards frictionless, portable, and sustainable reproducibility with Binder</title><link>https://2i2c.org/blog/frictionless-reproducibility/</link><pubDate>Mon, 10 Feb 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/frictionless-reproducibility/</guid><description>&lt;p>Last December I had an opportunity to discuss the current and future state of the open publishing ecosystem at a workshop hosted by
@@ -1634,6 +1640,8 @@ Acknowledgements
 &lt;/h2>&lt;p>Thanks to the
 &lt;a href="https://2i2c.org/collaborators/jupyterhub/" >JupyterHub&lt;/a> and
 &lt;a href="https://2i2c.org/collaborators/jupyter-book/" >Jupyter Book&lt;/a> communities for collaboration and review on this work.&lt;/p>
+&lt;p>This &amp;ldquo;bring your own Binder&amp;rdquo; workflow benefits NASA training communities including
+&lt;a href="https://2i2c.org/collaborators/nasa-open-science/" >NASA Open Science / ScienceCore&lt;/a>, which partially supports this work.&lt;/p>
 &lt;div class="footnotes" role="doc-endnotes">
 &lt;hr>
 &lt;ol>

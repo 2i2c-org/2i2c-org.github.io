@@ -221,7 +221,9 @@ Acknowledgements
 &lt;/h2>&lt;p>Thanks to
 &lt;a href="https://2i2c.org/collaborators/pythia/" >Project Pythia&lt;/a> and
 &lt;a href="https://2i2c.org/collaborators/earthscope/" >EarthScope&lt;/a> for collaboration and feedback that helped shape this work. And thanks to our
-&lt;a href="https://2i2c.org/members/" >member communities&lt;/a> whose memberships fund upstream contributions like these.&lt;/p></description></item><item><title>How regularly upgrading core infrastructure leads to upstream improvements and better infrastructure</title><link>https://2i2c.org/blog/why-upgrade-regularly/</link><pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/why-upgrade-regularly/</guid><description>&lt;p>Our collaborators at
+&lt;a href="https://2i2c.org/members/" >member communities&lt;/a> whose memberships fund upstream contributions like these.&lt;/p>
+&lt;p>Multi-repo site support is also useful for training programs that span several content repositories, including
+&lt;a href="https://2i2c.org/collaborators/nasa-open-science/" >NASA Open Science / ScienceCore&lt;/a>.&lt;/p></description></item><item><title>How regularly upgrading core infrastructure leads to upstream improvements and better infrastructure</title><link>https://2i2c.org/blog/why-upgrade-regularly/</link><pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/why-upgrade-regularly/</guid><description>&lt;p>Our collaborators at
 &lt;a href="https://2i2c.org/collaborators/nasa-veda/" >NASA VEDA&lt;/a> recently asked us about the rationale behind policies for upgrading our infrastructure relatively quickly when new versions come out. Here&amp;rsquo;s the explanation that we shared with them, in case it&amp;rsquo;s useful for others as well.&lt;/p>
 &lt;p>In this case, the decision was whether to upgrade to Helm 4, and you can find our
 &lt;a href="https://github.com/2i2c-org/initiatives/issues/4" target="_blank" rel="noopener" >rationale in the &lt;code>/initiatives&lt;/code> repository&lt;/a>. Here&amp;rsquo;s a brief summary from Yuvi:&lt;/p>
@@ -548,7 +550,9 @@ Acknowledgements
 &lt;a href="https://2i2c.org/members/" >member communities&lt;/a> - their memberships cover the cost of
 &lt;a href="https://2i2c.org/blog/jupyter-book-release-jan-2026/../../2025/foundational-contributions/" >foundational upstream contributions&lt;/a> to projects like these.&lt;/p>
 &lt;p>Particular thanks to
-&lt;a href="https://2i2c.org/collaborators/pythia/" >Project Pythia&lt;/a> which currently supports much of our upstream contributions in Jupyter Book.&lt;/p></description></item><item><title>STRUDEL enables rapid scientific GUI prototyping in partnership with 2i2c</title><link>https://2i2c.org/blog/strudel-gui-prototyping/</link><pubDate>Tue, 27 Jan 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/strudel-gui-prototyping/</guid><description>
+&lt;a href="https://2i2c.org/collaborators/pythia/" >Project Pythia&lt;/a> which currently supports much of our upstream contributions in Jupyter Book.&lt;/p>
+&lt;p>These releases also support training communities that author curricula in MyST, including
+&lt;a href="https://2i2c.org/collaborators/nasa-open-science/" >NASA ScienceCore&lt;/a>.&lt;/p></description></item><item><title>STRUDEL enables rapid scientific GUI prototyping in partnership with 2i2c</title><link>https://2i2c.org/blog/strudel-gui-prototyping/</link><pubDate>Tue, 27 Jan 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/strudel-gui-prototyping/</guid><description>
 &lt;h2 id="what-happened">
 What happened
 &lt;a class="header-anchor" href="#what-happened">#&lt;/a>
@@ -744,7 +748,33 @@ What we&amp;rsquo;re watching for in 2026
 &lt;/h2>&lt;p>2026 is going to be a pivotal year for the organization - I suspect it&amp;rsquo;ll force us to either double down on our current sustainability model, or to pivot towards something that is lighter given the new funding realities that the sector is facing. We are watching for whether research institutions begin cancelling or scaling back their contract work &lt;em>en-masse&lt;/em>, and we&amp;rsquo;re also being mindful for whether our assumptions about a &amp;ldquo;shared roadmap&amp;rdquo; across our communities are actually delivering the value to them that we&amp;rsquo;d expect.&lt;/p>
 &lt;p>We&amp;rsquo;re excited to lean into this more active and collaborative aspect of our service. We&amp;rsquo;re confident this will be more impactful for our member organizations, and for the broader ecosystem. We&amp;rsquo;ll keep folks updated with our progress via
 &lt;a href="https://2i2c.org/blog" target="_blank" rel="noopener" >our blog&lt;/a> and
-&lt;a href="https://2i2c.org/mailing-list" target="_blank" rel="noopener" >our mailing list&lt;/a> as always.&lt;/p></description></item><item><title>Improving our community hub reliability and stability in Q4 2025</title><link>https://2i2c.org/blog/infrastructure-reliability-q4-2025/</link><pubDate>Tue, 16 Dec 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/infrastructure-reliability-q4-2025/</guid><description>&lt;p>This year we&amp;rsquo;ve prioritized &lt;strong>making the cloud safe to try&lt;/strong> for our member communities. This has driven work in monitoring, alerting, and automating infrastructure so that we resolve small problems before they become big problems. In the last quarter of 2025, we wrapped up this effort by testing the following hypothesis:&lt;/p>
+&lt;a href="https://2i2c.org/mailing-list" target="_blank" rel="noopener" >our mailing list&lt;/a> as always.&lt;/p></description></item><item><title>NASA Open Science ScienceCore tutorial available at github.com/sciencecore</title><link>https://2i2c.org/blog/sciencecore-github-org/</link><pubDate>Thu, 18 Dec 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/sciencecore-github-org/</guid><description>&lt;p>As part of the
+&lt;a href="https://2i2c.org/collaborators/nasa-open-science/" >NASA Open Science&lt;/a> initiative, we co-developed a ScienceCore curriculum module with
+&lt;a href="https://www.metadocencia.org/" target="_blank" rel="noopener" >MetaDocencia&lt;/a> that teaches researchers and educators how to use NASA Earthdata in the cloud to analyze climate risk.&lt;/p>
+&lt;p>You can find the material at
+&lt;a href="https://github.com/sciencecore" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> &lt;strong>github.com/sciencecore&lt;/strong>&lt;/a>:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="https://sciencecore.github.io/climaterisk/" target="_blank" rel="noopener" >&lt;strong>climaterisk&lt;/strong>&lt;/a>: the &lt;em>Determining Climate Risks with NASA Earthdata Cloud&lt;/em> module (
+&lt;a href="https://github.com/ScienceCore/climaterisk" target="_blank" rel="noopener" >source repo&lt;/a>).&lt;/li>
+&lt;li>
+&lt;a href="https://github.com/ScienceCore/scipy-2024-climaterisk" target="_blank" rel="noopener" >&lt;strong>scipy-2024-climaterisk&lt;/strong>&lt;/a> and
+&lt;a href="https://github.com/ScienceCore/pydata-nyc-2024-climaterisk" target="_blank" rel="noopener" >&lt;strong>pydata-nyc-2024-climaterisk&lt;/strong>&lt;/a>: conference tutorial versions of the climaterisk material.&lt;/li>
+&lt;/ul>
+&lt;p>We also run the shared &lt;code>sciencecore.opensci.2i2c.cloud&lt;/code> JupyterHub and an opensci BinderHub that host the hands-on exercises.
+These deployments use
+&lt;a href="https://jupyter.org/hub" target="_blank" rel="noopener" >JupyterHub&lt;/a> and
+&lt;a href="https://binderhub.readthedocs.io/" target="_blank" rel="noopener" >BinderHub&lt;/a> for hosting live computational infrastructure, and
+&lt;a href="https://jupyterbook.org" target="_blank" rel="noopener" >Jupyter Book&lt;/a> for hosting the reading materials.&lt;/p>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;p>This work was supported by a NASA TOPS-T award that funded the
+&lt;a href="https://2i2c.org/collaborators/nasa-open-science/" >ScienceCore climaterisk&lt;/a> module and shared infrastructure for the broader ScienceCore community.&lt;/p>
+&lt;p>Thanks to
+&lt;a href="https://metadocencia.org/" target="_blank" rel="noopener" >MetaDocencia&lt;/a> for leading translation and localization of the material into Spanish, and helping with content creation.&lt;/p>
+&lt;p>Thanks to
+&lt;a href="https://www.linkedin.com/in/dhavide/" target="_blank" rel="noopener" >Dhavide Arulia&lt;/a> for leading much of the content creation.&lt;/p></description></item><item><title>Improving our community hub reliability and stability in Q4 2025</title><link>https://2i2c.org/blog/infrastructure-reliability-q4-2025/</link><pubDate>Tue, 16 Dec 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/infrastructure-reliability-q4-2025/</guid><description>&lt;p>This year we&amp;rsquo;ve prioritized &lt;strong>making the cloud safe to try&lt;/strong> for our member communities. This has driven work in monitoring, alerting, and automating infrastructure so that we resolve small problems before they become big problems. In the last quarter of 2025, we wrapped up this effort by testing the following hypothesis:&lt;/p>
 &lt;blockquote>
 &lt;p>We can reduce P1 incidents if we shorten the time to act on current alerts and learnings from prior incidents.&lt;/p>
 &lt;/blockquote>
@@ -1193,7 +1223,8 @@ Acknowledgements
 &lt;a href="https://github.com/bsipocz" target="_blank" rel="noopener" >@bsipocz&lt;/a> for their helpful reviews, edits, and feedback on the PR!&lt;/li>
 &lt;li>
 &lt;a href="https://2i2c.org/collaborators/pythia/" >Project Pythia&lt;/a>,
-&lt;a href="https://2i2c.org/collaborators/cryocloud/" >CryoCloud&lt;/a>, and the Berkeley educational projects are our primary member communities using MyST and
+&lt;a href="https://2i2c.org/collaborators/cryocloud/" >CryoCloud&lt;/a>,
+&lt;a href="https://2i2c.org/collaborators/nasa-open-science/" >NASA Open Science / ScienceCore&lt;/a>, and the Berkeley educational projects are our primary member communities using MyST and
 &lt;a href="https://2i2c.org/collaborators/jupyter-book/" >Jupyter Book&lt;/a>. Their support covers the cost of these kinds of foundational contributions.&lt;/li>
 &lt;/ul></description></item><item><title>2i2c Supports the Science Platforms Coordination IHDEA Working Group</title><link>https://2i2c.org/blog/ihdea-working-group/</link><pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/ihdea-working-group/</guid><description>&lt;p>The Science Platforms Coordination IHDEA working group (which includes our own
 &lt;a href="https://2i2c.org/author/jim-colliander/" >Jim Colliander&lt;/a>) is developing international standard software computing environments for Heliophysics. The working group recently presented their work at two major conferences:
@@ -1660,6 +1691,8 @@ Acknowledgements
 &lt;li>Thanks to
 &lt;a href="https://2i2c.org/collaborators/gesis/" >GESIS&lt;/a> for their continued support of &lt;code>mybinder.org&lt;/code> and to
 &lt;a href="https://github.com/rgaiacs" target="_blank" rel="noopener" >Raniere Silva&lt;/a> for collaborating on this deployment with us.&lt;/li>
+&lt;li>More reliable Binder infrastructure is also supported by
+&lt;a href="https://2i2c.org/collaborators/nasa-open-science/" >NASA Open Science / Science Core&lt;/a>, whose tutorials run on the opensci binders that depend on this same anti-abuse stack.&lt;/li>
 &lt;/ul></description></item><item><title>TIL: GitHub Action secrets are only available from non-forked repositories</title><link>https://2i2c.org/blog/github-action-secrets-forked-repositories/</link><pubDate>Wed, 08 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/github-action-secrets-forked-repositories/</guid><description>&lt;p>If you&amp;rsquo;ve worked with GitHub Actions in open source projects, you might encounter a hard-to-debug error where repository secrets are simply &lt;em>empty&lt;/em>. That&amp;rsquo;s probably because the PR is from a forked repository! Here&amp;rsquo;s a little learning we had after losing a bunch of time figuring this out:&lt;/p>
 &lt;h2 id="our-pr-from-a-fork-was-using-empty-strings-for-repository-secrets">
 Our PR from a fork was using empty strings for repository secrets
@@ -2339,7 +2372,8 @@ Acknowledgements
 &lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
 &lt;/h2>&lt;ul>
 &lt;li>Thanks to the
-&lt;a href="https://2i2c.org/collaborators/nasa-veda/" >NASA VEDA project&lt;/a> for providing funding and collaboration for this work.&lt;/li>
+&lt;a href="https://2i2c.org/collaborators/nasa-veda/" >NASA VEDA project&lt;/a> and to
+&lt;a href="https://2i2c.org/collaborators/nasa-open-science/" >NASA Open Science&lt;/a> for providing funding and collaboration for this work.&lt;/li>
 &lt;li>Thanks to the
 &lt;a href="https://2i2c.org/collaborators/jupyterhub/" >JupyterHub community&lt;/a> for collaboration and review of this work.&lt;/li>
 &lt;/ul></description></item><item><title>Our Product and Service goals for Q3 2025</title><link>https://2i2c.org/blog/q3-goals/</link><pubDate>Tue, 22 Jul 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/q3-goals/</guid><description>&lt;p>As we enter Q3 2025, our focus remains on enabling better cost controls for our communities and increasing flexibility for end-users. In line with our commitment to transparency, we’re sharing our platform and service objectives for the quarter and inviting feedback to ensure our direction reflects what matters most to the communities we serve. See our
@@ -3152,7 +3186,8 @@ Acknowledgements
 &lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
 &lt;/h2>&lt;ul>
 &lt;li>
-&lt;a href="https://2i2c.org/collaborators/pythia/" >Project Pythia&lt;/a> provides support for some of our work with the Binder project.&lt;/li>
+&lt;a href="https://2i2c.org/collaborators/pythia/" >Project Pythia&lt;/a> and
+&lt;a href="https://2i2c.org/collaborators/nasa-open-science/" >NASA Open Science / ScienceCore&lt;/a> provide support for some of our work with the Binder project.&lt;/li>
 &lt;li>
 &lt;a href="https://2i2c.org/collaborators/jupyterhub/" >JupyterHub&lt;/a> for working with us to get this new node deployed for mybinder.org.&lt;/li>
 &lt;/ul></description></item><item><title>Enforcing per-user storage quotas now available on GCP</title><link>https://2i2c.org/blog/per-user-storage-quota-gcp/</link><pubDate>Tue, 25 Feb 2025 14:18:04 +0000</pubDate><guid>https://2i2c.org/blog/per-user-storage-quota-gcp/</guid><description>&lt;p>Building upon our previous work developing
@@ -3627,6 +3662,8 @@ Acknowledgements
 &lt;/h2>&lt;p>Thanks to the
 &lt;a href="https://2i2c.org/collaborators/jupyterhub/" >JupyterHub&lt;/a> and
 &lt;a href="https://2i2c.org/collaborators/jupyter-book/" >Jupyter Book&lt;/a> communities for collaboration and review on this work.&lt;/p>
+&lt;p>This &amp;ldquo;bring your own Binder&amp;rdquo; workflow benefits NASA training communities including
+&lt;a href="https://2i2c.org/collaborators/nasa-open-science/" >NASA Open Science / ScienceCore&lt;/a>, which partially supports this work.&lt;/p>
 &lt;div class="footnotes" role="doc-endnotes">
 &lt;hr>
 &lt;ol>
@@ -4989,7 +5026,7 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;/p>
 &lt;p>
 &lt;a href="https://www.amerigeo.org/" target="_blank" rel="noopener" >AmeriGEO&lt;/a> provides a framework for cooperation in the Americas for the use of Earth data to benefit science and society with data driven decision-making. As part of a virtual workshop held on 1st August 2024, 2i2c provided an interactive computing environment to support the delivery of a
-&lt;a href="https://www.nasa.gov/centers-and-facilities/marshall/nasa-boosts-open-science-through-innovative-training/" target="_blank" rel="noopener" >NASA TOPST&lt;/a> water module.&lt;/p>
+&lt;a href="https://2i2c.org/collaborators/nasa-open-science/" >NASA Open Science / ScienceCore&lt;/a> water module.&lt;/p>
 &lt;p>The workshop was facilitated by
 &lt;a href="https://people.climate.columbia.edu/users/profile/kytt-macmanus" target="_blank" rel="noopener" >Kytt MacManus&lt;/a> and
 &lt;a href="https://ciesin.climate.columbia.edu/directory/juan-f-martinez" target="_blank" rel="noopener" >Juan F. Martinez&lt;/a> (both of
@@ -5210,15 +5247,17 @@ Acknowledgements
 &lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
 &lt;/h2>&lt;ul>
 &lt;li>
-&lt;a href="https://nasa-openscapes.github.io/" target="_blank" rel="noopener" >NASA Openscapes&lt;/a>&lt;/li>
+&lt;a href="https://2i2c.org/collaborators/openscapes/" >NASA Openscapes&lt;/a>&lt;/li>
 &lt;li>
 &lt;a href="https://lpdaac.usgs.gov/" target="_blank" rel="noopener" >NASA LP DAAC&lt;/a>&lt;/li>
 &lt;li>
 &lt;a href="https://www.jpl.nasa.gov/" target="_blank" rel="noopener" >NASA JPL&lt;/a>&lt;/li>
 &lt;li>
 &lt;a href="https://science.nasa.gov/researchers/" target="_blank" rel="noopener" >NASA ROSES funding&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://2i2c.org/collaborators/nasa-open-science/" >NASA Open Science / ScienceCore&lt;/a> for supporting some of our work on JupyterHub.&lt;/li>
 &lt;/ul></description></item><item><title>Determining Climate Risks with NASA Earthdata Cloud at Scipy 2024</title><link>https://2i2c.org/blog/climaterisk-scipy-tutorial/</link><pubDate>Mon, 08 Jul 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/climaterisk-scipy-tutorial/</guid><description>&lt;p>&lt;em>Determining Climate Risks with NASA Earthdata Cloud&lt;/em> is a
-&lt;a href="https://www.nasa.gov/centers-and-facilities/marshall/nasa-boosts-open-science-through-innovative-training/" target="_blank" rel="noopener" >ScienceCore&lt;/a> curriculum module that comprises part of NASA&amp;rsquo;s
+&lt;a href="https://2i2c.org/collaborators/nasa-open-science/" >ScienceCore&lt;/a> curriculum module that comprises part of NASA&amp;rsquo;s
 &lt;a href="https://science.nasa.gov/open-science-overview" target="_blank" rel="noopener" >Open Science&lt;/a> and
 &lt;a href="https://nasa.github.io/Transform-to-Open-Science/" target="_blank" rel="noopener" >Transform to Open Science (TOPS)&lt;/a> initiatives.
 The aim of this module is to deliver a hands-on experience with &amp;ldquo;data-proximate computing&amp;rdquo; in the cloud with
@@ -5237,7 +5276,8 @@ The aim of this module is to deliver a hands-on experience with &amp;ldquo;data-
 Acknowledgements
 &lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
 &lt;/h2>&lt;ul>
-&lt;li>NASA F.14 Transform to Open Science Training award NNH23ZDA001N-TOPST&lt;/li>
+&lt;li>NASA F.14 Transform to Open Science Training award NNH22ZDA001N-TOPST (80NSSC23K0861), which seeded this contribution to
+&lt;a href="https://2i2c.org/collaborators/nasa-open-science/" >NASA ScienceCore&lt;/a>&lt;/li>
 &lt;li>
 &lt;a href="https://www.metadocencia.org/en/proyecto/nasa-2i2c/" target="_blank" rel="noopener" >MetaDocencia&lt;/a>&lt;/li>
 &lt;li>
@@ -5412,7 +5452,7 @@ How did we do it?
 &lt;a class="header-anchor" href="#how-did-we-do-it">#&lt;/a>
 &lt;/h2>&lt;p>Ephemeral interactive computing services benefited from some of our previous development work in collaboration with GESIS (see our
 &lt;a href="https://2i2c.org/blog/nasa-ephemeral-hubs/blog/2024/jupyterhub-binderhub-gesis/index.mdindex" >detailed blog post&lt;/a> for more information). The research and development of this project achieved wide-reaching impact across many NASA communities we currently serve, including
-&lt;a href="https://www.nasa.gov/centers-and-facilities/marshall/nasa-boosts-open-science-through-innovative-training/" target="_blank" rel="noopener" >TOPST ScienceCore&lt;/a>,
+&lt;a href="https://2i2c.org/collaborators/nasa-open-science/" >ScienceCore&lt;/a>,
 &lt;a href="https://2i2c.org/blog/openscapes-sbg-workshop/" >Openscapes&lt;/a>,
 &lt;a href="https://2i2c.org/blog/ghg-summer-school/" >US Greenhouse Gas Center&lt;/a>,
 &lt;a href="https://www.earthdata.nasa.gov/esds/veda" target="_blank" rel="noopener" >VEDA&lt;/a> and
@@ -5440,6 +5480,8 @@ Acknowledgements
 &lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
 &lt;/h2>&lt;ul>
 &lt;li>NASA NSPIRES F.15 High Priority Open-Source Science Award NNH22ZDA001N-HPOSS&lt;/li>
+&lt;li>The
+&lt;a href="https://2i2c.org/collaborators/nasa-open-science/" >NASA ScienceCore&lt;/a> community (originally seeded by TOPS-T award 80NSSC23K0861), an anchor user community whose training delivery requirements helped shape the design of these ephemeral binder services&lt;/li>
 &lt;/ul></description></item><item><title>Neurohackademy Summer School in Neuroimaging and Data Science 2024</title><link>https://2i2c.org/blog/neurohackademy-summer-school/</link><pubDate>Fri, 21 Jun 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/neurohackademy-summer-school/</guid><description>&lt;p>
 &lt;figure id="figure-neurohackademy-summer-schoolhttpsneurohackademyorg">
 &lt;div class="d-flex justify-content-center">
@@ -10136,7 +10178,33 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;/figure>
 &lt;/p>
 &lt;p>
-&lt;a href="https://jupyter.org/hub" target="_blank" rel="noopener" >JupyterHub&lt;/a> is a multi-user server that manages and spawns multiple instances of single-user Jupyter notebook servers. It enables organizations to provide managed Jupyter environments to groups of users, supporting authentication, resource management, and scalable deployment on cloud and on-premise infrastructure.&lt;/p></description></item><item><title>NASA VEDA</title><link>https://2i2c.org/collaborators/nasa-veda/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://2i2c.org/collaborators/nasa-veda/</guid><description>&lt;p>
+&lt;a href="https://jupyter.org/hub" target="_blank" rel="noopener" >JupyterHub&lt;/a> is a multi-user server that manages and spawns multiple instances of single-user Jupyter notebook servers. It enables organizations to provide managed Jupyter environments to groups of users, supporting authentication, resource management, and scalable deployment on cloud and on-premise infrastructure.&lt;/p></description></item><item><title>NASA Open Science</title><link>https://2i2c.org/collaborators/nasa-open-science/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://2i2c.org/collaborators/nasa-open-science/</guid><description>&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="" srcset="
+/collaborators/nasa-open-science/featured_hu64b8f5f0ebee3d199ed385904f9356ab_172545_bcb78086256806e4f72a38e181048250.webp 400w,
+/collaborators/nasa-open-science/featured_hu64b8f5f0ebee3d199ed385904f9356ab_172545_8841358bcc8a91592004a8b9b1dd8bcc.webp 760w,
+/collaborators/nasa-open-science/featured_hu64b8f5f0ebee3d199ed385904f9356ab_172545_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/collaborators/nasa-open-science/featured_hu64b8f5f0ebee3d199ed385904f9356ab_172545_bcb78086256806e4f72a38e181048250.webp"
+width="760"
+height="760"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>NASA&amp;rsquo;s
+&lt;a href="https://science.nasa.gov/open-science/" target="_blank" rel="noopener" >Open Science&lt;/a> initiative supports the agency-wide shift toward open, reproducible, and inclusive science.
+It encompasses multiple programs that fund training, tooling, and infrastructure for working with NASA Earthdata in the cloud, including
+&lt;a href="https://nasa.github.io/Transform-to-Open-Science/" target="_blank" rel="noopener" >Transform to Open Science (TOPS)&lt;/a> and the community-developed
+&lt;a href="https://sciencecore.github.io/" target="_blank" rel="noopener" >ScienceCore&lt;/a> curriculum.&lt;/p>
+&lt;p>2i2c partners with the NASA Open Science community as a curriculum author, developer, and infrastructure provider.
+We co-developed the &lt;em>Determining Climate Risks with NASA Earthdata Cloud&lt;/em> ScienceCore module with
+&lt;a href="https://www.metadocencia.org/" target="_blank" rel="noopener" >MetaDocencia&lt;/a>, and we operate the shared &lt;code>sciencecore.opensci.2i2c.cloud&lt;/code> JupyterHub and opensci BinderHub services that deliver hands-on exercises for ScienceCore modules from multiple teams.&lt;/p>
+&lt;h2 id="grants-that-fund-this-project">
+Grants that fund this project
+&lt;a class="header-anchor" href="#grants-that-fund-this-project">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>NASA TOPS-T award 80NSSC23K0861 (&amp;ldquo;Reproducibly Analyzing Wildfire, Drought, and Flood Risk with NASA Earthdata Cloud&amp;rdquo;, solicitation NNH22ZDA001N-TOPST) — funded the ScienceCore climaterisk module and infrastructure for the broader ScienceCore community&lt;/li>
+&lt;/ul></description></item><item><title>NASA VEDA</title><link>https://2i2c.org/collaborators/nasa-veda/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://2i2c.org/collaborators/nasa-veda/</guid><description>&lt;p>
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="" srcset="
@@ -10559,16 +10627,6 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;a href="https://moreno.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/moreno_valley_college.png" alt="Moreno Valley College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">Moreno Valley College&lt;/small>
-&lt;/a>
-&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;div class="col-sm-6 col-md-4 col-lg-3">
-&lt;div class="card border-0" style="background-color: #f8f9fa;">
-&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
-&lt;a href="https://staging.hub.disasters.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
-&lt;img src="https://2i2c.org/members/images/nasa_disasters_program.png" alt="NASA Disasters Program" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
-&lt;small class="text-dark fw-medium">NASA Disasters Program&lt;/small>
 &lt;/a>
 &lt;/div>
 &lt;/div>
