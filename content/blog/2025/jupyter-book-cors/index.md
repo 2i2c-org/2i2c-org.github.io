@@ -54,3 +54,5 @@ We think there's a lot more potential in these kinds of workflows, and are eager
 ## Acknowledgements
 
 Thanks to the [JupyterHub](../../../collaborators/jupyterhub/) and [Jupyter Book](../../../collaborators/jupyter-book/) communities for collaboration and review on this work.
+
+This "bring your own Binder" workflow benefits NASA training communities including [NASA Open Science / ScienceCore](../../../collaborators/nasa-open-science/), which partially supports this work.

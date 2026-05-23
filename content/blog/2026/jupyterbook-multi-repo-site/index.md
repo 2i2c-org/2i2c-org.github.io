@@ -31,3 +31,5 @@ These all felt particularly relevant for documentation that our [member communit
 ## Acknowledgements
 
 Thanks to [Project Pythia](/collaborators/pythia/) and [EarthScope](/collaborators/earthscope/) for collaboration and feedback that helped shape this work. And thanks to our [member communities](/members/) whose memberships fund upstream contributions like these.
+
+Multi-repo site support is also useful for training programs that span several content repositories, including [NASA Open Science / ScienceCore](/collaborators/nasa-open-science/).

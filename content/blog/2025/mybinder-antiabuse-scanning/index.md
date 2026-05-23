@@ -35,3 +35,4 @@ This tool [has now been deployed to mybinder.org](https://github.com/jupyterhub/
 ## Acknowledgements
 
 - Thanks to [GESIS](../../../collaborators/gesis/) for their continued support of `mybinder.org` and to [Raniere Silva](https://github.com/rgaiacs) for collaborating on this deployment with us.
+- More reliable Binder infrastructure is also supported by [NASA Open Science / Science Core](../../../collaborators/nasa-open-science/), whose tutorials run on the opensci binders that depend on this same anti-abuse stack.

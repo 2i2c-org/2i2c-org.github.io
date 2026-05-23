@@ -41,4 +41,4 @@ We're also excited because so many others helped provide edits and comments!
 ## Acknowledgements
 
 - Thanks to [@rlanzafame](https://github.com/rlanzafame), [@FreekPols](https://github.com/FreekPols), and [@bsipocz](https://github.com/bsipocz) for their helpful reviews, edits, and feedback on the PR!
-- [Project Pythia](../../../collaborators/pythia/), [CryoCloud](../../../collaborators/cryocloud/), and the Berkeley educational projects are our primary member communities using MyST and [Jupyter Book](../../../collaborators/jupyter-book/). Their support covers the cost of these kinds of foundational contributions.
+- [Project Pythia](../../../collaborators/pythia/), [CryoCloud](../../../collaborators/cryocloud/), [NASA Open Science / ScienceCore](../../../collaborators/nasa-open-science/), and the Berkeley educational projects are our primary member communities using MyST and [Jupyter Book](../../../collaborators/jupyter-book/). Their support covers the cost of these kinds of foundational contributions.

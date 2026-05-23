@@ -13,7 +13,7 @@ featured: false
 draft: false
 ---
 
-*Determining Climate Risks with NASA Earthdata Cloud* is a [ScienceCore](https://www.nasa.gov/centers-and-facilities/marshall/nasa-boosts-open-science-through-innovative-training/) curriculum module that comprises part of NASA's [Open Science](https://science.nasa.gov/open-science-overview) and [Transform to Open Science (TOPS)](https://nasa.github.io/Transform-to-Open-Science/) initiatives.
+*Determining Climate Risks with NASA Earthdata Cloud* is a [ScienceCore](../../../collaborators/nasa-open-science/) curriculum module that comprises part of NASA's [Open Science](https://science.nasa.gov/open-science-overview) and [Transform to Open Science (TOPS)](https://nasa.github.io/Transform-to-Open-Science/) initiatives.
 The aim of this module is to deliver a hands-on experience with "data-proximate computing" in the cloud with [NASA Earthdata](https://www.earthdata.nasa.gov/) products with content co-developed with [MetaDocencia](https://www.metadocencia.org/).
 
 This module was delivered as a [SciPy tutorial](https://cfp.scipy.org/2024/talk/3DVH7S/) at this year's conference. 2i2c have been working closely with the organizers to provide the hub infrastructure for the tutorial, including enabling a shared password for easy authentication (see our [Openscapes post](blog/2024/openscapes-sbg-workshop/index.mdindex) for more about this feature) and operating a small binder service for participants to view content after the event.
@@ -24,7 +24,7 @@ The event was well-attended, with 40 learners taking part. Special thanks go to 
 
 ## Acknowledgements
 
-- NASA F.14 Transform to Open Science Training award NNH23ZDA001N-TOPST
+- NASA F.14 Transform to Open Science Training award NNH22ZDA001N-TOPST (80NSSC23K0861), which seeded this contribution to [NASA ScienceCore](../../../collaborators/nasa-open-science/)
 - [MetaDocencia](https://www.metadocencia.org/en/proyecto/nasa-2i2c/)
 - [Dhavide Aruliah](https://github.com/dhavide)
 - [Karthik Venkataramani](https://www.linkedin.com/in/karthikvenkataramani/)
