@@ -22,7 +22,7 @@ No - based on our testing and mitigation efforts, our hubs are not vulnerable to
 
 - We tried to reproduce the exploit on a staging hub by following the [public Kubernetes proof-of-concept](https://github.com/Percivalll/Copy-Fail-CVE-2026-31431-Kubernetes-PoC) on both AWS and EKS, and the exploit was unable to break out of the container.
 - Existing JupyterHub hardening on Kubernetes from https://github.com/jupyterhub/kubespawner/pull/545 (originally added by Yuvi in 2021 in response to a different security issue) had already significantly reduced our risk exposure, and the exposure of anyone else running [Z2JH](https://z2jh.jupyter.org) (the standard way to deploy JupyterHub on Kubernetes).
-- As an extra layer of protection, we deployed [`copyfail-ebpf-k8s`](https://github.com/iwanhae/copyfail-ebpf-k8s) across our hubs in https://github.com/2i2c-org/infrastructure/pull/8227. It blocks the specific kernel feature that CopyFail depends on. See [the project's explanation](https://github.com/iwanhae/copyfail-ebpf-k8s#quick-start) for how that works.
+- As an extra layer of protection, we deployed [`copyfail-ebpf-k8s`](https://github.com/iwanhae/copyfail-ebpf-k8s) as a daemonset across all of our clusters in https://github.com/2i2c-org/infrastructure/pull/8227. This runs on every node and covers all of our hubs (including those on non-commercial cloud infrastructure, like JetStream2). It blocks the specific kernel features that CopyFail depends on. See [the project's explanation](https://github.com/iwanhae/copyfail-ebpf-k8s#quick-start) for how that works.
 - We've upgraded all GKE clusters to use [a patched image](https://docs.cloud.google.com/kubernetes-engine/security-bulletins) in https://github.com/2i2c-org/infrastructure/pull/8230.
 
 ### What else did we look into
@@ -37,3 +37,4 @@ No - based on our testing and mitigation efforts, our hubs are not vulnerable to
 - Thanks to [Yuvi](/authors/yuvi-panda) for the PR that reduces JupyterHub's exposure to this back in 2021!
 - Thanks to [iwanhae](https://github.com/iwanhae/copyfail-ebpf-k8s) for the eBPF daemonset we deployed in Kubernetes, and to [JupyterHub](../../../collaborators/jupyterhub/) for the upstream kubespawner hardening that lowered our exposure.
 - Thanks to our collaborators at [NASA VEDA](../../../collaborators/nasa-veda/) for the ongoing conversations about hub security.
+- Thanks to our collaborators at [Pythia](../../../collaborators/pythia/) for supporting ongoing work around security in JupyterHub and BinderHub, especially on non-commercial cloud like JetStream.
