@@ -15,8 +15,8 @@ Why do we think we&amp;rsquo;re not at risk?
 &lt;a href="https://github.com/jupyterhub/kubespawner/pull/545" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> jupyterhub/kubespawner#545&lt;/a> (originally added by Yuvi in 2021 in response to a different security issue) had already significantly reduced our risk exposure, and the exposure of anyone else running
 &lt;a href="https://z2jh.jupyter.org" target="_blank" rel="noopener" >Z2JH&lt;/a> (the standard way to deploy JupyterHub on Kubernetes).&lt;/li>
 &lt;li>As an extra layer of protection, we deployed
-&lt;a href="https://github.com/iwanhae/copyfail-ebpf-k8s" target="_blank" rel="noopener" >&lt;code>copyfail-ebpf-k8s&lt;/code>&lt;/a> across our hubs in
-&lt;a href="https://github.com/2i2c-org/infrastructure/pull/8227" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> 2i2c-org/infrastructure#8227&lt;/a>. It blocks the specific kernel feature that CopyFail depends on. See
+&lt;a href="https://github.com/iwanhae/copyfail-ebpf-k8s" target="_blank" rel="noopener" >&lt;code>copyfail-ebpf-k8s&lt;/code>&lt;/a> as a daemonset across all of our clusters in
+&lt;a href="https://github.com/2i2c-org/infrastructure/pull/8227" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> 2i2c-org/infrastructure#8227&lt;/a>. This runs on every node and covers all of our hubs (including those on non-commercial cloud infrastructure, like JetStream2). It blocks the specific kernel features that CopyFail depends on. See
 &lt;a href="https://github.com/iwanhae/copyfail-ebpf-k8s#quick-start" target="_blank" rel="noopener" >the project&amp;rsquo;s explanation&lt;/a> for how that works.&lt;/li>
 &lt;li>We&amp;rsquo;ve upgraded all GKE clusters to use
 &lt;a href="https://docs.cloud.google.com/kubernetes-engine/security-bulletins" target="_blank" rel="noopener" >a patched image&lt;/a> in
@@ -47,6 +47,8 @@ Acknowledgements
 &lt;a href="https://2i2c.org/collaborators/jupyterhub/" >JupyterHub&lt;/a> for the upstream kubespawner hardening that lowered our exposure.&lt;/li>
 &lt;li>Thanks to our collaborators at
 &lt;a href="https://2i2c.org/collaborators/nasa-veda/" >NASA VEDA&lt;/a> for the ongoing conversations about hub security.&lt;/li>
+&lt;li>Thanks to our collaborators at
+&lt;a href="https://2i2c.org/collaborators/pythia/" >Pythia&lt;/a> for supporting ongoing work around security in JupyterHub and BinderHub, especially on non-commercial cloud like JetStream.&lt;/li>
 &lt;/ul></description></item><item><title>Supporting JupyterHub admins on workshop hubs with shared passwords</title><link>https://2i2c.org/blog/shared-password-admin/</link><pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/shared-password-admin/</guid><description>&lt;p>To facilitate communities using JupyterHub for a workshop, we introduced the idea of a &amp;lsquo;shared password&amp;rsquo; based authentication a few years ago.
 This lets communities set a single &lt;em>global&lt;/em> password that is handed out to all workshop attendees (instead of collecting email addresses or GitHub usernames &lt;em>before&lt;/em> the workshop starts).
 Users can login with their email and this shared global password, and get going immediately. We worked with
@@ -10214,6 +10216,16 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;div class="col-sm-6 col-md-4 col-lg-3">
 &lt;div class="card border-0" style="background-color: #f8f9fa;">
 &lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
+&lt;a href="https://boise.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
+&lt;img src="https://2i2c.org/members/images/boise_state_university.png" alt="Boise State University" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
+&lt;small class="text-dark fw-medium">Boise State University&lt;/small>
+&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="col-sm-6 col-md-4 col-lg-3">
+&lt;div class="card border-0" style="background-color: #f8f9fa;">
+&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
 &lt;a href="https://bmcc.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/borough_of_manhattan_community_college_cuny.png" alt="Borough of Manhattan Community College, CUNY" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">Borough of Manhattan Community College, CUNY&lt;/small>
@@ -10624,6 +10636,16 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;div class="col-sm-6 col-md-4 col-lg-3">
 &lt;div class="card border-0" style="background-color: #f8f9fa;">
 &lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
+&lt;a href="https://sjcc.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
+&lt;img src="https://2i2c.org/members/images/san_jose_community_college.png" alt="San Jose Community College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
+&lt;small class="text-dark fw-medium">San Jose Community College&lt;/small>
+&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="col-sm-6 col-md-4 col-lg-3">
+&lt;div class="card border-0" style="background-color: #f8f9fa;">
+&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
 &lt;a href="https://sjsu.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/san_jose_state_university.svg" alt="San Jose State University" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">San Jose State University&lt;/small>
@@ -10737,6 +10759,16 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;a href="https://virginia.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/university_of_virginia.png" alt="University of Virginia" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">University of Virginia&lt;/small>
+&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="col-sm-6 col-md-4 col-lg-3">
+&lt;div class="card border-0" style="background-color: #f8f9fa;">
+&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
+&lt;a href="https://washington.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
+&lt;img src="https://2i2c.org/members/images/university_of_washington.png" alt="University of Washington" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
+&lt;small class="text-dark fw-medium">University of Washington&lt;/small>
 &lt;/a>
 &lt;/div>
 &lt;/div>
