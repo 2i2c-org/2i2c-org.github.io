@@ -1,4 +1,33 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2i2c</title><link>https://2i2c.org/</link><atom:link href="https://2i2c.org/index.xml" rel="self" type="application/rss+xml"/><description>2i2c</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 04 May 2026 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>2i2c</title><link>https://2i2c.org/</link></image><item><title>Protecting our hubs against the CopyFail kernel exploit</title><link>https://2i2c.org/blog/copyfail-mitigation/</link><pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/copyfail-mitigation/</guid><description>&lt;p>The recently disclosed
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2i2c</title><link>https://2i2c.org/</link><atom:link href="https://2i2c.org/index.xml" rel="self" type="application/rss+xml"/><description>2i2c</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 22 May 2026 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>2i2c</title><link>https://2i2c.org/</link></image><item><title>Accessibility improvements in Jupyter Book</title><link>https://2i2c.org/blog/myst-theme-accessibility/</link><pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/myst-theme-accessibility/</guid><description>&lt;p>We helped shepherd and implement a batch of accessibility improvements in &lt;code>myst-theme&lt;/code> as part of the
+&lt;a href="https://2i2c.org/collaborators/jupyter-book/" >Jupyter Book&lt;/a> project.
+The Jupyter Book team blogged about it here:&lt;/p>
+&lt;p>
+&lt;a href="https://jupyterbook.org/blog/posts/2026/accessibility-improvements" target="_blank" rel="noopener" >jupyterbook.org/blog/posts/2026/accessibility-improvements&lt;/a>&lt;/p>
+&lt;p>Accessibility is a key part of making technology broadly impactful and useful, and it&amp;rsquo;s increasingly a requirement for the institutions we serve.
+The work started from an audit by Silas at
+&lt;a href="https://2i2c.org/collaborators/bids/" >BIDS&lt;/a>, who surfaced and iterated on the issues with the rest of the Jupyter Book team.&lt;/p>
+&lt;p>A few of the fixes that landed:&lt;/p>
+&lt;ul>
+&lt;li>Improved keyboard focus for horizontally scrollable content&lt;/li>
+&lt;li>Better ARIA semantics for screen readers&lt;/li>
+&lt;li>Better color contrast in ANSI outputs&lt;/li>
+&lt;li>Better re-flow / re-size for dynamic screen widths&lt;/li>
+&lt;/ul>
+&lt;p>The team also published accessibility statements you can point your own institutions to:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="https://jupyterbook.org/accessibility" target="_blank" rel="noopener" >Jupyter Book accessibility statement&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://mystmd.org/guide/accessibility-and-performance" target="_blank" rel="noopener" >MyST accessibility and performance guide&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>Thanks to Silas (
+&lt;a href="https://github.com/pancakereport" target="_blank" rel="noopener" >@pancakereport&lt;/a>) at
+&lt;a href="https://2i2c.org/collaborators/bids/" >BIDS&lt;/a> for surfacing these issues and iterating on them!&lt;/li>
+&lt;/ul></description></item><item><title>Protecting our hubs against the CopyFail kernel exploit</title><link>https://2i2c.org/blog/copyfail-mitigation/</link><pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/copyfail-mitigation/</guid><description>&lt;p>The recently disclosed
 &lt;a href="https://copy.fail/" target="_blank" rel="noopener" >CopyFail Linux kernel zero-day&lt;/a> (CVE-2026-31431) opens up a way for code running inside a container to break out onto the underlying node.
 We took a close look at our hubs to confirm whether they were exposed, confirmed that our hubs are likely not at risk, and added another layer of protection just in case.&lt;/p>
 &lt;h3 id="are-2i2cs-hubs-at-risk">
@@ -10634,6 +10663,16 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;div class="col-sm-6 col-md-4 col-lg-3">
 &lt;div class="card border-0" style="background-color: #f8f9fa;">
 &lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
+&lt;a href="https://staging.hub.disasters.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
+&lt;img src="https://2i2c.org/members/images/nasa_disasters_program.png" alt="NASA Disasters Program" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
+&lt;small class="text-dark fw-medium">NASA Disasters Program&lt;/small>
+&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="col-sm-6 col-md-4 col-lg-3">
+&lt;div class="card border-0" style="background-color: #f8f9fa;">
+&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
 &lt;a href="https://staging.nmfs-openscapes.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/noaa_fisheries_openscapes.png" alt="NOAA Fisheries Openscapes" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">NOAA Fisheries Openscapes&lt;/small>
@@ -10694,16 +10733,6 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;div class="col-sm-6 col-md-4 col-lg-3">
 &lt;div class="card border-0" style="background-color: #f8f9fa;">
 &lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
-&lt;a href="https://sjcc.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
-&lt;img src="https://2i2c.org/members/images/san_jose_community_college.png" alt="San Jose Community College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
-&lt;small class="text-dark fw-medium">San Jose Community College&lt;/small>
-&lt;/a>
-&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;div class="col-sm-6 col-md-4 col-lg-3">
-&lt;div class="card border-0" style="background-color: #f8f9fa;">
-&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
 &lt;a href="https://sjsu.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/san_jose_state_university.svg" alt="San Jose State University" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">San Jose State University&lt;/small>
@@ -10737,6 +10766,16 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;a href="https://sciencecore.opensci.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/sciencecore.png" alt="Sciencecore" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">Sciencecore&lt;/small>
+&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="col-sm-6 col-md-4 col-lg-3">
+&lt;div class="card border-0" style="background-color: #f8f9fa;">
+&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
+&lt;a href="https://shasta.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
+&lt;img src="https://2i2c.org/members/images/shasta_college.png" alt="Shasta College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
+&lt;small class="text-dark fw-medium">Shasta College&lt;/small>
 &lt;/a>
 &lt;/div>
 &lt;/div>

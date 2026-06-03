@@ -1,4 +1,33 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Jupyterbook | 2i2c</title><link>https://2i2c.org/tag/jupyterbook/</link><atom:link href="https://2i2c.org/tag/jupyterbook/index.xml" rel="self" type="application/rss+xml"/><description>Jupyterbook</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 06 Apr 2026 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Jupyterbook</title><link>https://2i2c.org/tag/jupyterbook/</link></image><item><title>Combining multiple repos into one site at jupyterbook.org</title><link>https://2i2c.org/blog/jupyterbook-multi-repo-site/</link><pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/jupyterbook-multi-repo-site/</guid><description>&lt;p>As part of
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Jupyterbook | 2i2c</title><link>https://2i2c.org/tag/jupyterbook/</link><atom:link href="https://2i2c.org/tag/jupyterbook/index.xml" rel="self" type="application/rss+xml"/><description>Jupyterbook</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 22 May 2026 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Jupyterbook</title><link>https://2i2c.org/tag/jupyterbook/</link></image><item><title>Accessibility improvements in Jupyter Book</title><link>https://2i2c.org/blog/myst-theme-accessibility/</link><pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/myst-theme-accessibility/</guid><description>&lt;p>We helped shepherd and implement a batch of accessibility improvements in &lt;code>myst-theme&lt;/code> as part of the
+&lt;a href="https://2i2c.org/collaborators/jupyter-book/" >Jupyter Book&lt;/a> project.
+The Jupyter Book team blogged about it here:&lt;/p>
+&lt;p>
+&lt;a href="https://jupyterbook.org/blog/posts/2026/accessibility-improvements" target="_blank" rel="noopener" >jupyterbook.org/blog/posts/2026/accessibility-improvements&lt;/a>&lt;/p>
+&lt;p>Accessibility is a key part of making technology broadly impactful and useful, and it&amp;rsquo;s increasingly a requirement for the institutions we serve.
+The work started from an audit by Silas at
+&lt;a href="https://2i2c.org/collaborators/bids/" >BIDS&lt;/a>, who surfaced and iterated on the issues with the rest of the Jupyter Book team.&lt;/p>
+&lt;p>A few of the fixes that landed:&lt;/p>
+&lt;ul>
+&lt;li>Improved keyboard focus for horizontally scrollable content&lt;/li>
+&lt;li>Better ARIA semantics for screen readers&lt;/li>
+&lt;li>Better color contrast in ANSI outputs&lt;/li>
+&lt;li>Better re-flow / re-size for dynamic screen widths&lt;/li>
+&lt;/ul>
+&lt;p>The team also published accessibility statements you can point your own institutions to:&lt;/p>
+&lt;ul>
+&lt;li>
+&lt;a href="https://jupyterbook.org/accessibility" target="_blank" rel="noopener" >Jupyter Book accessibility statement&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://mystmd.org/guide/accessibility-and-performance" target="_blank" rel="noopener" >MyST accessibility and performance guide&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>Thanks to Silas (
+&lt;a href="https://github.com/pancakereport" target="_blank" rel="noopener" >@pancakereport&lt;/a>) at
+&lt;a href="https://2i2c.org/collaborators/bids/" >BIDS&lt;/a> for surfacing these issues and iterating on them!&lt;/li>
+&lt;/ul></description></item><item><title>Combining multiple repos into one site at jupyterbook.org</title><link>https://2i2c.org/blog/jupyterbook-multi-repo-site/</link><pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/jupyterbook-multi-repo-site/</guid><description>&lt;p>As part of
 &lt;a href="https://github.com/2i2c-org/initiatives/issues/28" target="_blank" rel="noopener" >an initiative to improve jupyterbook.org&amp;rsquo;s documentation&lt;/a>, we refactored the site so that multiple repositories are served under one domain. We wrote up the details on the
 &lt;a href="https://jupyterbook.org/blog" target="_blank" rel="noopener" >Jupyter Book blog&lt;/a>.&lt;/p>
 &lt;p>Read the full post here:&lt;/p>
