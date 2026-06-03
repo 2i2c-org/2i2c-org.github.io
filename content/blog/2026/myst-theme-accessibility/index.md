@@ -1,7 +1,7 @@
 ---
 title: "Accessibility improvements in Jupyter Book"
 slug: "myst-theme-accessibility"
-date: 2026-5-22-26
+date: 2026-5-22
 authors:
   - Chris Holdgraf
 categories:
