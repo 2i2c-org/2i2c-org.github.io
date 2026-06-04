@@ -34,10 +34,11 @@ This testing allowed us to be confident that the workshop itself would go well, 
 
 ## The workshop experience
 
-5. In actual usage, we found that the GPUs were even less heavily utilized than we expected - so we could have potentially put more users on fewer GPUs, for cheaper! However, since Timeslicing has *no* safeguards around one user stomping on another user's work, we want to be careful here to not overdo it.
+The workshop itself went without any issues, thanks to the effort we put into it. In practice, we found that people's GPU utilization was even less than we had tested, so we could potentially put even more users on fewer GPUs for this kind of workshop. However that requires us to better understand the failure condition, to see what happens when users interfere with each other's memory usage. An exercise for another day.
+
 ![Graph of GPU utilization (0-1.0) during the workshop itself](./gpu-utilization-workshop.png)
 
-## How much did this cost?
+We were able to serve everyone who signed up, without running into resource exhaustion on GCP. Overall, a big win for us and those who attended the workshop! We also estimated that the entire workshop cost roughly ~200$, which is very affordable for what we were doing.
 
 ## Available for all 2i2c communities running on Google Cloud
 
@@ -45,8 +46,7 @@ We [documented this whole process](https://infrastructure.2i2c.org/howto/feature
 
 ## Acknowledgements
 
-- To Eric
-- To Sean
-- To April (for setting up our community meetings and strategy so we were able to serve them well)
-- To Kirstie, for putting together a social event that encouraged ad-hoc information exchange that allowed us to serve Cloudbank Classroom better
-- Support from our [member communities](../../../members/) gives us the capacity to invest in upstream open source engagement and build relationships like this
+- To Eric van Dusen, for setting up and running this workshop. Pedagogy is the hardest part of teaching, and we are grateful to work with Eric!
+- To Sean Morris, for collaborating with us in a pretty deep way to make this possible.
+- To April Johnson for building out our community strategy and putting it in practice over the last 6 months, enabling us to spot opportunities like this and serve our community well
+- To Kirstie (from [BIDS](../../../collaborators/bids/)), for putting together a social event that encouraged ad-hoc information exchange (our tech lead, Yuvi, was able to spend high bandwidth synchronous time with Eric at that event) that allowed us to serve [Cloudbank Classroom](../../../collaborators/cloudbank/) better
