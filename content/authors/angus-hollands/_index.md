@@ -55,7 +55,7 @@ social:
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Product and Services Team
+- Core Team
 ---
 
 Angus Hollands is an Open Source Applications Engineer at 2i2c. He was previously a post-doctoral researcher in the Computational High Energy Physics group at Princeton University. He has a long-standing history of working collaboratively in open source projects, such as Executable Books, Jupyter, scikit-hep, and Blender. He is motivated by open-source, open-science, and the FAIR principles to build a more accessible, empowering future for scientific research and publication. He obtained his PhD in nuclear structure from the University of Birmingham, and later worked as a postdoctoral researcher for the Princeton Institute for Computational Science and Engineering (PICSciE).

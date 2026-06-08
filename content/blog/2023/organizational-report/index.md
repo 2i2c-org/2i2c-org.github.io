@@ -47,7 +47,7 @@ It makes a number of recommendations for how we should shift our practices, and 
 The immediate result of this work is that we currently have three jobs posted:
 
 - [A Product Lead role](/jobs/2023/product-lead) to help us build a "product function" within 2i2c's team.
-- [A Delivery Manager / Chief of Staff role](/jobs/2023/delivery-manager) to oversee and manage 2i2c's system of work.
+- [A Delivery Manager & Chief of Staff role](/jobs/2023/delivery-manager) to oversee and manage 2i2c's system of work.
 - [A cloud and operations engineering role](/jobs/2023/23qq4-open-source-infrastructure-engineer) to grow our cloud engineering team's capacity in serving communities.
 
 Our next steps are to fill these positions, and to then begin the work of implementing many of the recommendations that are contained in the report.

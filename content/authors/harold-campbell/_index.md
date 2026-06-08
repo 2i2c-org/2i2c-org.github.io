@@ -10,7 +10,7 @@ authors:
 superuser: false
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: Delivery Manager / Chief of Staff
+role: Delivery Manager & Chief of Staff
 
 # Organizations/Affiliations
 organizations:
@@ -52,7 +52,7 @@ social:
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-    - Delivery Enablement Team
+    - Core Team
 ---
 
 I enjoy building and supporting communities of practice. I have built a small JS visualization library and dabbled in delivery management systems. Recently, I have strong interests in music (programming VST, etc.), AI and data science.

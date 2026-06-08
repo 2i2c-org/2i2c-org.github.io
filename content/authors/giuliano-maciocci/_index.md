@@ -39,7 +39,7 @@ social:
 # Organizational groups that you belong to (for People widget)
 #   Set this to `[]` or comment out if you are not using People widget.
 user_groups:
-- Product and Services Team
+- Core Team
 ---
 
 Giuliano is a product specialist with an extensive User Experience background and strong analytical skills, I help organisations define their product development roadmaps and customer engagement strategies with a user-focused, data-driven approach that starts by building a shared understanding of what constitutes value, then structures and empowers the organisational talent needed to deliver it. (from Giuliano's [LinkedIn profile](https://www.linkedin.com/in/gmaciocci/))

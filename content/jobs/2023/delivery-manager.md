@@ -1,6 +1,6 @@
 +++
 authors =  ["Chris Holdgraf"]
-title = "Delivery Manager / Chief of Staff"
+title = "Delivery Manager & Chief of Staff"
 work_description = [
   "Ensure the successful and efficient delivery of our product (https://2i2c.org/service/)",
   "Organize and oversee cross-functional work across the team",

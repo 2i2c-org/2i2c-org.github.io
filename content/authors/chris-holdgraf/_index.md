@@ -10,7 +10,7 @@ authors:
 superuser: true
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: Executive Director
+role: Executive Director & Co-Founder
 
 # Organizations/Affiliations
 organizations:
@@ -53,7 +53,7 @@ email: "choldgraf@berkeley.edu"
 user_groups:
 - Founders
 - Steering Council
-- Executive Director
+- Core Team
 ---
 
 
