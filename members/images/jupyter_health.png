@@ -3,6 +3,17 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1" />
+    <script>
+      // Redirect the /software-documentation path to the GitHub Pages docs.
+      // Runs before the app loads so there is no flash of the main page.
+      (function () {
+        if (window.location.pathname.indexOf("/software-documentation") === 0) {
+          window.location.replace(
+            "https://jupyterhealth.github.io/software-documentation/"
+          );
+        }
+      })();
+    </script>
     <title>JupyterHealth</title>
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
