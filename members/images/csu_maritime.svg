@@ -65,7 +65,7 @@
 <link rel="stylesheet" media="all" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css" />
 <link rel="stylesheet" media="all" href="https://cdnjs.cloudflare.com/ajax/libs/slick-lightbox/0.2.12/slick-lightbox.css" />
 
-				<script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"node\/1","currentPathIsAdmin":false,"isFront":true,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"gtag":{"tagId":"","consentMode":false,"otherIds":[],"events":[],"additionalConfigInfo":[]},"ajaxPageState":{"libraries":"eJx9kGluhDAMhS9EE6k9Sg-ADDHBxcRR7Azk9kXtdJkK-sfL-57kBUIwgdQ83As3FUnWjcBZuPWB1AoN1UiSnw7yBBuqrHjuiCwD8DmTjd0IRarihUOZxuUf5JjibIPs5x5rGRe62P1GShag6TneZPsGk9QU4OGeBQOZlL69GPWZa6SkHncr8DoWynbh-NooikTG3iD6eIS_vYM32B_FtctQIBbIs_pQagZ2P4qrKdeBSWcM3fFOHO3Z37NbKXXa1HD1Ayh2N8JN_Uf8HPRbWCVUxncujc1d","theme":"calpoly_distribution","theme_token":null},"ajaxTrustedUrl":[],"gtm":{"tagId":null,"settings":{"data_layer":"dataLayer","include_environment":false},"tagIds":["GTM-MBL5BT2"]},"views":{"ajax_path":"\/views\/ajax","ajaxViews":{"views_dom_id:b1a7916d1b3bc60b47014d2e38ace94d60153537304f69edd0ebfd334a020d12":{"view_name":"news","view_display_id":"content_list","view_args":"5","view_path":"\/node\/1","view_base_path":"\/node\/1","view_dom_id":"b1a7916d1b3bc60b47014d2e38ace94d60153537304f69edd0ebfd334a020d12","pager_element":0}}},"field_group":{"html_element":{"mode":"default","context":"view","settings":{"classes":"page-feature-content","id":"","element":"div","show_label":false,"label_element":"h3","label_element_classes":"","attributes":"","effect":"none","speed":"fast"}}},"user":{"uid":0,"permissionsHash":"1f8f9472da587eb2af694de6bd379a80a40eaaafdc1575f83a48262781a3e53e"}}</script>
+				<script type="application/json" data-drupal-selector="drupal-settings-json">{"path":{"baseUrl":"\/","pathPrefix":"","currentPath":"node\/1","currentPathIsAdmin":false,"isFront":true,"currentLanguage":"en"},"pluralDelimiter":"\u0003","suppressDeprecationErrors":true,"gtag":{"tagId":"","consentMode":false,"otherIds":[],"events":[],"additionalConfigInfo":[]},"ajaxPageState":{"libraries":"eJx9kGluhDAMhS9EE6k9Sg-ADDHBxcRR7Azk9kXtdJkK-sfL-57kBUIwgdQ83As3FUnWjcBZuPWB1AoN1UiSnw7yBBuqrHjuiCwD8DmTjd0IRarihUOZxuUf5JjibIPs5x5rGRe62P1GShag6TneZPsGk9QU4OGeBQOZlL69GPWZa6SkHncr8DoWynbh-NooikTG3iD6eIS_vYM32B_FtctQIBbIs_pQagZ2P4qrKdeBSWcM3fFOHO3Z37NbKXXa1HD1Ayh2N8JN_Uf8HPRbWCVUxncujc1d","theme":"calpoly_distribution","theme_token":null},"ajaxTrustedUrl":[],"gtm":{"tagId":null,"settings":{"data_layer":"dataLayer","include_environment":false},"tagIds":["GTM-MBL5BT2"]},"views":{"ajax_path":"\/views\/ajax","ajaxViews":{"views_dom_id:3a001b6be855a8c5ed8664938c181df4c68473396483a8f5b3fcd316fd80db1d":{"view_name":"news","view_display_id":"content_list","view_args":"5","view_path":"\/node\/1","view_base_path":"\/node\/1","view_dom_id":"3a001b6be855a8c5ed8664938c181df4c68473396483a8f5b3fcd316fd80db1d","pager_element":0}}},"field_group":{"html_element":{"mode":"default","context":"view","settings":{"classes":"page-feature-content","id":"","element":"div","show_label":false,"label_element":"h3","label_element_classes":"","attributes":"","effect":"none","speed":"fast"}}},"user":{"uid":0,"permissionsHash":"1f8f9472da587eb2af694de6bd379a80a40eaaafdc1575f83a48262781a3e53e"}}</script>
 <script src="/sites/default/files/js/js_rPMvmRxbeKAGe2HPMcd4VV5Rt20OShINI9Dvi_B7_Zg.js?scope=header&amp;delta=0&amp;language=en&amp;theme=calpoly_distribution&amp;include=eJx9j-sKwjAMhV-otOALjfSyGs0aadN1fXvHGKJS_XNy-c6BBLwXhtQNnI2eMydRDujB1CePRTLaKsjJRGILNGbcSDvIXEv44SiE7v4HacJ4Fcvb2LNiQfHQyxg3bi8wc00e3k-OzJHCJBBN3OV71nCD7XO5qP2R4ORizqoXTGrF0Io59Mg8AcR8fhM"></script>
 <script src="/modules/contrib/google_tag/js/gtag.js?tg0ukj"></script>
 <script src="/modules/contrib/google_tag/js/gtm.js?tg0ukj"></script>
@@ -759,7 +759,7 @@
 				</div>
 			</div>
 
-							<div class="views-element-container"><div class="news-grid view view-eva view-news view-id-news view-display-id-content_list js-view-dom-id-b1a7916d1b3bc60b47014d2e38ace94d60153537304f69edd0ebfd334a020d12">
+							<div class="views-element-container"><div class="news-grid view view-eva view-news view-id-news view-display-id-content_list js-view-dom-id-3a001b6be855a8c5ed8664938c181df4c68473396483a8f5b3fcd316fd80db1d">
   
     
 
@@ -768,6 +768,53 @@
 
   <div class="grid-container large">
 	<div class="grid-x grid-margin-x align-center">
+								<div class="news-item large-6 xlarge-3 cell"><div class="news-item large-6 cell">
+	<div class="news-item-img no-img">
+		<a href="/news/summer-sea-term-assistant-pursers-day-life">
+									
+			    <picture>
+                  <source srcset="/sites/default/files/styles/width_310px/public/2026-06/SST-Hero-Water-Canon-Blog-9.webp?itok=jMmkOjgD 1x" media="all and (min-width: 1024px)" type="image/webp" width="310" height="174"/>
+              <source srcset="/sites/default/files/styles/width_470px/public/2026-06/SST-Hero-Water-Canon-Blog-9.webp?itok=N1-7P0Bj 1x" media="all and (min-width: 640px)" type="image/webp" width="3456" height="1944"/>
+              <source srcset="/sites/default/files/styles/width_585px/public/2026-06/SST-Hero-Water-Canon-Blog-9.webp?itok=rEKsmBEY 1x" media="all and (min-width: 400px)" type="image/webp" width="585" height="329"/>
+              <source srcset="/sites/default/files/styles/width_345px/public/2026-06/SST-Hero-Water-Canon-Blog-9.webp?itok=yDY_RsnO 1x" type="image/webp" width="345" height="194"/>
+              <source srcset="/sites/default/files/styles/width_310px/public/2026-06/SST-Hero-Water-Canon-Blog-9.JPG.avif?itok=jMmkOjgD 1x" media="all and (min-width: 1024px)" type="image/avif" width="310" height="174"/>
+              <source srcset="/sites/default/files/styles/width_470px/public/2026-06/SST-Hero-Water-Canon-Blog-9.JPG.avif?itok=N1-7P0Bj 1x" media="all and (min-width: 640px)" type="image/avif" width="3456" height="1944"/>
+              <source srcset="/sites/default/files/styles/width_585px/public/2026-06/SST-Hero-Water-Canon-Blog-9.JPG.avif?itok=rEKsmBEY 1x" media="all and (min-width: 400px)" type="image/avif" width="585" height="329"/>
+              <source srcset="/sites/default/files/styles/width_345px/public/2026-06/SST-Hero-Water-Canon-Blog-9.JPG.avif?itok=yDY_RsnO 1x" type="image/avif" width="345" height="194"/>
+              <source srcset="/sites/default/files/styles/width_310px/public/2026-06/SST-Hero-Water-Canon-Blog-9.JPG?itok=jMmkOjgD 1x" media="all and (min-width: 1024px)" type="image/jpeg" width="310" height="174"/>
+              <source srcset="/sites/default/files/styles/width_470px/public/2026-06/SST-Hero-Water-Canon-Blog-9.JPG?itok=N1-7P0Bj 1x" media="all and (min-width: 640px)" type="image/jpeg" width="3456" height="1944"/>
+              <source srcset="/sites/default/files/styles/width_585px/public/2026-06/SST-Hero-Water-Canon-Blog-9.JPG?itok=rEKsmBEY 1x" media="all and (min-width: 400px)" type="image/jpeg" width="585" height="329"/>
+              <source srcset="/sites/default/files/styles/width_345px/public/2026-06/SST-Hero-Water-Canon-Blog-9.JPG?itok=yDY_RsnO 1x" type="image/jpeg" width="345" height="194"/>
+                  <img loading="lazy" width="310" height="174" src="/sites/default/files/styles/width_310px/public/2026-06/SST-Hero-Water-Canon-Blog-9.JPG?itok=jMmkOjgD" alt="Cadet Gia Espejo using a water canon on the deck of Training Ship Golden Bear." />
+
+  </picture>
+
+
+
+
+
+
+
+					</a>
+	</div>
+	<div class="news-item-content">
+		<div class="category">
+					<span class="category"><a href="/news/category/follow-2026-voyage" hreflang="en">Follow the 2026 Voyage</a></span>
+
+		</div>
+		<h4 class="title">
+			<a href="/news/summer-sea-term-assistant-pursers-day-life">Summer Sea Term Assistant Pursers: A Day in the Life</a>
+		</h4>
+		<div class="teaser">  <div class="paragraph--id--757 paragraph paragraph--type--news-content-row paragraph--view-mode--preview">
+          		<div class="summary-only">Get to know the business students doing the administrative work behind the scenes to make every port call possible.</div>
+
+
+
+      </div>
+</div>
+	</div>
+</div>
+</div>
 								<div class="news-item large-6 xlarge-3 cell"><div class="news-item large-6 cell">
 	<div class="news-item-img no-img">
 		<a href="/news/cadets-crew">
@@ -901,53 +948,6 @@
 		</h4>
 		<div class="teaser">  <div class="paragraph--id--754 paragraph paragraph--type--news-content-row paragraph--view-mode--preview">
           		<div class="summary-only">Despite today’s advanced GPS technology, celestial navigation remains a vital maritime skill that teaches precision, teamwork and self-reliance at sea.</div>
-
-
-
-      </div>
-</div>
-	</div>
-</div>
-</div>
-								<div class="news-item large-6 xlarge-3 cell"><div class="news-item large-6 cell">
-	<div class="news-item-img no-img">
-		<a href="/news/adapting-sea-lessons-engine-room">
-									
-			    <picture>
-                  <source srcset="/sites/default/files/styles/width_310px/public/2026-05/SST-Hero-Blog-5-2026.webp?itok=tnUwuBWa 1x" media="all and (min-width: 1024px)" type="image/webp" width="310" height="174"/>
-              <source srcset="/sites/default/files/styles/width_470px/public/2026-05/SST-Hero-Blog-5-2026.webp?itok=FI_OG7zH 1x" media="all and (min-width: 640px)" type="image/webp" width="1251" height="704"/>
-              <source srcset="/sites/default/files/styles/width_585px/public/2026-05/SST-Hero-Blog-5-2026.webp?itok=SQLFR_wo 1x" media="all and (min-width: 400px)" type="image/webp" width="585" height="329"/>
-              <source srcset="/sites/default/files/styles/width_345px/public/2026-05/SST-Hero-Blog-5-2026.webp?itok=k_3M1vVJ 1x" type="image/webp" width="345" height="194"/>
-              <source srcset="/sites/default/files/styles/width_310px/public/2026-05/SST-Hero-Blog-5-2026.png.avif?itok=tnUwuBWa 1x" media="all and (min-width: 1024px)" type="image/avif" width="310" height="174"/>
-              <source srcset="/sites/default/files/styles/width_470px/public/2026-05/SST-Hero-Blog-5-2026.png.avif?itok=FI_OG7zH 1x" media="all and (min-width: 640px)" type="image/avif" width="1251" height="704"/>
-              <source srcset="/sites/default/files/styles/width_585px/public/2026-05/SST-Hero-Blog-5-2026.png.avif?itok=SQLFR_wo 1x" media="all and (min-width: 400px)" type="image/avif" width="585" height="329"/>
-              <source srcset="/sites/default/files/styles/width_345px/public/2026-05/SST-Hero-Blog-5-2026.png.avif?itok=k_3M1vVJ 1x" type="image/avif" width="345" height="194"/>
-              <source srcset="/sites/default/files/styles/width_310px/public/2026-05/SST-Hero-Blog-5-2026.png?itok=tnUwuBWa 1x" media="all and (min-width: 1024px)" type="image/png" width="310" height="174"/>
-              <source srcset="/sites/default/files/styles/width_470px/public/2026-05/SST-Hero-Blog-5-2026.png?itok=FI_OG7zH 1x" media="all and (min-width: 640px)" type="image/png" width="1251" height="704"/>
-              <source srcset="/sites/default/files/styles/width_585px/public/2026-05/SST-Hero-Blog-5-2026.png?itok=SQLFR_wo 1x" media="all and (min-width: 400px)" type="image/png" width="585" height="329"/>
-              <source srcset="/sites/default/files/styles/width_345px/public/2026-05/SST-Hero-Blog-5-2026.png?itok=k_3M1vVJ 1x" type="image/png" width="345" height="194"/>
-                  <img loading="lazy" width="310" height="174" src="/sites/default/files/styles/width_310px/public/2026-05/SST-Hero-Blog-5-2026.png?itok=tnUwuBWa" alt="Cadet Elijah Kadish standing on a side deck of Training Ship Golden Bear looking out at the ocean." />
-
-  </picture>
-
-
-
-
-
-
-
-					</a>
-	</div>
-	<div class="news-item-content">
-		<div class="category">
-					<span class="category"><a href="/news/category/follow-2026-voyage" hreflang="en">Follow the 2026 Voyage</a></span>
-
-		</div>
-		<h4 class="title">
-			<a href="/news/adapting-sea-lessons-engine-room">Adapting at Sea: Lessons from the Engine Room</a>
-		</h4>
-		<div class="teaser">  <div class="paragraph--id--753 paragraph paragraph--type--news-content-row paragraph--view-mode--preview">
-          		<div class="summary-only">Engineering cadets gain hands-on experience in the engine room by learning how to operate equipment, solve problems and adapt to changing conditions at sea.</div>
 
 
 

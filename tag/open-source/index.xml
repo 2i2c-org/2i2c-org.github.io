@@ -1,4 +1,30 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Open Source | 2i2c</title><link>https://2i2c.org/tag/open-source/</link><atom:link href="https://2i2c.org/tag/open-source/index.xml" rel="self" type="application/rss+xml"/><description>Open Source</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 22 May 2026 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Open Source</title><link>https://2i2c.org/tag/open-source/</link></image><item><title>Accessibility improvements in Jupyter Book</title><link>https://2i2c.org/blog/myst-theme-accessibility/</link><pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/myst-theme-accessibility/</guid><description>&lt;p>We helped shepherd and implement a batch of accessibility improvements in &lt;code>myst-theme&lt;/code> as part of the
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Open Source | 2i2c</title><link>https://2i2c.org/tag/open-source/</link><atom:link href="https://2i2c.org/tag/open-source/index.xml" rel="self" type="application/rss+xml"/><description>Open Source</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 10 Jun 2026 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Open Source</title><link>https://2i2c.org/tag/open-source/</link></image><item><title>Allow limiting access to Dask Gateway based on group membership</title><link>https://2i2c.org/blog/dask-gateway-membership-access/</link><pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/dask-gateway-membership-access/</guid><description>&lt;p>Starting with
+&lt;a href="https://gateway.dask.org/" target="_blank" rel="noopener" >Dask Gateway&lt;/a> version
+&lt;a href="https://gateway.dask.org/changelog.html#v2026-3-0" target="_blank" rel="noopener" >v2026.3.0&lt;/a>, JupyterHub access scopes support has been added to Dask-Gateway.&lt;/p>
+&lt;p>That means hub admins can now set, via JupyterHub role-based access control (RBAC), which hub users or groups have access to Dask-Gateway. This is especially important from a cost perspective, as it allows admins to control who can access Dask-Gateway and thus have more control over their cloud spend.&lt;/p>
+&lt;p>If your community is part of the 2i2c member network, you can take advantage of this feature now. 2i2c is deploying the new Dask-Gateway version alongside our hubs, so all communities we serve that are using Dask-Gateway now have access to this feature.&lt;/p>
+&lt;p>Want to know more, or set this up on your hub? Check out:&lt;/p>
+&lt;ul>
+&lt;li>the
+&lt;a href="https://docs.2i2c.org/admin/user-management/dask-access/" target="_blank" rel="noopener" >Control access to Dask Gateway&lt;/a> page for how to ask 2i2c to set up this feature for your hub&lt;/li>
+&lt;li>the
+&lt;a href="https://gateway.dask.org/authentication.html#using-jupyterhub-s-authentication" target="_blank" rel="noopener" >Dask Gateway documentation&lt;/a> for more details on how it works.&lt;/li>
+&lt;/ul>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>To
+&lt;a href="https://2i2c.org/collaborators/earthscope/" >EarthScope&lt;/a> for motivating this work and providing feedback&lt;/li>
+&lt;li>To
+&lt;a href="https://github.com/minrk" target="_blank" rel="noopener" >MinRK&lt;/a> for adding this feature to Dask-Gateway&lt;/li>
+&lt;li>To
+&lt;a href="https://2i2c.org/author/yuvaraj-yuvi/" >Yuvi&lt;/a> for code review and guidance on the implementation&lt;/li>
+&lt;li>To
+&lt;a href="https://2i2c.org/author/erik-sundell/" >Erik&lt;/a> for code review&lt;/li>
+&lt;li>To our
+&lt;a href="https://2i2c.org/members/" >member communities&lt;/a> for supporting us and giving us the capacity to invest in upstream open source engagement&lt;/li>
+&lt;/ul></description></item><item><title>Accessibility improvements in Jupyter Book</title><link>https://2i2c.org/blog/myst-theme-accessibility/</link><pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/myst-theme-accessibility/</guid><description>&lt;p>We helped shepherd and implement a batch of accessibility improvements in &lt;code>myst-theme&lt;/code> as part of the
 &lt;a href="https://2i2c.org/collaborators/jupyter-book/" >Jupyter Book&lt;/a> project.
 The Jupyter Book team blogged about it here:&lt;/p>
 &lt;p>
