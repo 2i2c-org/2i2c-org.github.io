@@ -1,4 +1,61 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Service-Enhancements | 2i2c</title><link>https://2i2c.org/category/service-enhancements/</link><atom:link href="https://2i2c.org/category/service-enhancements/index.xml" rel="self" type="application/rss+xml"/><description>Service-Enhancements</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 12 May 2026 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Service-Enhancements</title><link>https://2i2c.org/category/service-enhancements/</link></image><item><title>Protecting our hubs against the Dirty Frag kernel exploit</title><link>https://2i2c.org/blog/dirty-frag-mitigation/</link><pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/dirty-frag-mitigation/</guid><description>&lt;p>This week, another Linux kernel exploit &amp;ldquo;Dirty Frag&amp;rdquo; (CVE-2026-43284 and CVE-2026-43500) was disclosed to the general public. Unlike the recent
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Service-Enhancements | 2i2c</title><link>https://2i2c.org/category/service-enhancements/</link><atom:link href="https://2i2c.org/category/service-enhancements/index.xml" rel="self" type="application/rss+xml"/><description>Service-Enhancements</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 12 May 2026 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Service-Enhancements</title><link>https://2i2c.org/category/service-enhancements/</link></image><item><title>Fixing out-of-memory behaviour in recent Kubernetes deployments</title><link>https://2i2c.org/blog/kubernetes-cgroup-changes/</link><pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/kubernetes-cgroup-changes/</guid><description>&lt;p>In Q1, 2i2c finished upgrading our community clusters to Kubernetes &lt;code>1.34&lt;/code>.
+In order to continue providing the latest features and security fixes, we are keen to ensure that our communities are using up to date versions of key components like Kubernetes, JupyterHub, and the various Helm charts that we deploy.
+This recent round of upgrades marks the start of a new process to ensure that we roll these updates out on a regular cadence, as described in
+&lt;a href="https://2i2c.org/blog/kubernetes-cgroup-changes/../infra-upgrades-k8s-jupyterhub/" >our recent blog post&lt;/a>.&lt;/p>
+&lt;p>After completing these upgrades, we received a report from the
+&lt;a href="https://2i2c.org/collaborators/cryocloud/" >CryoCloud&lt;/a> community concerning &amp;ldquo;unusual&amp;rdquo; behaviour of their hub:&lt;/p>
+&lt;blockquote>
+&lt;p>It regularly occurs when I blow out my memory. [&amp;hellip;] Usually when I run out of memory though, the kernel just restarts.&lt;/p>
+&lt;/blockquote>
+&lt;p>This is a &lt;em>fantastic&lt;/em> message to receive as an infrastructure engineer; it details both the &lt;em>expected&lt;/em> behaviour, and what the user saw instead!
+Forewarned with the notion that this was related to out-of-memory events, 2i2c Engineers wrote a tiny script to trigger an out-of-memory event from a notebook kernel process, and observed the infrastructure.
+Like this user, we expected the Linux kernel to terminate the greedy process which usually appears with the following message&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="A screenshot of a typical kernel restarting message seen after a kernel was OOM killed" srcset="
+/blog/kubernetes-cgroup-changes/featured_hu85d2cb51e87aca838b6f2336bf4c5134_15440_bdf0e7289ba47ec1b5f0cdff0738e47b.webp 400w,
+/blog/kubernetes-cgroup-changes/featured_hu85d2cb51e87aca838b6f2336bf4c5134_15440_a09c91dfe05933b413008fe62d607c4f.webp 760w,
+/blog/kubernetes-cgroup-changes/featured_hu85d2cb51e87aca838b6f2336bf4c5134_15440_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/kubernetes-cgroup-changes/featured_hu85d2cb51e87aca838b6f2336bf4c5134_15440_bdf0e7289ba47ec1b5f0cdff0738e47b.webp"
+width="714"
+height="366"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>What we observed was the kernel killing every process in the user pod, a much more disruptive experience!
+Knowing that we had recently upgraded the EKS version on this cluster from 1.32 to 1.34, we suspected that a change to the out-of-memory behaviour had been introduced with a newer version of Kubernetes.
+An initial comparison of the changelogs for Kubernetes 1.32 through 1.34 did not yield any obvious suspects.
+Kubernetes itself did not significantly alter process memory handling in any version between 1.32 and 1.34. So, we took a closer look at the changes introduced by our upgrade.&lt;/p>
+&lt;p>During the move from 1.32 to 1.34, we upgraded from AL2 to AL2023 AMIs.
+The Amazon Machine Image governs the configuration of the host virtual machine that underpins each AWS EC2 instance.
+Buried in the documentation about the differences between AL2 and AL2023 AMIs is
+&lt;a href="https://docs.aws.amazon.com/linux/al2023/ug/cgroupv2.html" target="_blank" rel="noopener" >a note detailing the switch of the cgroups mechanism&lt;/a> for organizing processes and distributing system resources from version 1 to version 2.
+Out-of-memory scenarios are handled differently by cgroups v1 and cgroups v2.
+In v2, there is a new &lt;code>memory.oom.group&lt;/code> flag that turns on cgroup-wide process killing when any single process within that cgroup consumes too much memory.
+In Kubernetes 1.28 and newer,
+&lt;a href="https://github.com/kubernetes/kubernetes/pull/117793" target="_blank" rel="noopener" >this flag defaults to &lt;code>1&lt;/code> (on)&lt;/a>.&lt;/p>
+&lt;p>Our conclusion was that the upgrade from EKS 1.32 to EKS 1.34 inadvertently introduced a regression in the behaviour of out-of-memory scenarios through the application of an &amp;ldquo;old&amp;rdquo; cgroups policy that became active in AL2023.
+A &lt;code>singleProcessOOMKill&lt;/code> kubelet configuration flag
+&lt;a href="https://github.com/kubernetes/kubernetes/pull/126096" target="_blank" rel="noopener" >was added in Kubernetes 1.32&lt;/a> that restores the previous cgroups v1 behavior.
+We now set this flag in our kubelet configurations to ensure that OOM kill behaviour follows our users&amp;rsquo; expectations.
+We are rolling this fix out across our network gradually to avoid disruption.&lt;/p>
+&lt;p>&lt;em>&lt;strong>Note&lt;/strong>: This has since been fixed in a new version of AL2023
+&lt;a href="https://docs.aws.amazon.com/linux/al2023/ug/ecs.html#ecs-al2-changes" target="_blank" rel="noopener" >docs.aws.amazon.com/linux/al2023/ug/ecs.html#ecs-al2-changes&lt;/a>&lt;/em>&lt;/p>
+&lt;h2 id="learn-more">
+Learn more
+&lt;a class="header-anchor" href="#learn-more">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;a href="https://2i2c.org/blog/kubernetes-cgroup-changes/../infra-upgrades-k8s-jupyterhub/" >See our recent blogpost on Kubernetes upgrades.&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>Thanks to
+&lt;a href="https://2i2c.org/collaborators/cryocloud/" >the CryoCloud community&lt;/a> for surfacing this regression so articulately!&lt;/li>
+&lt;/ul></description></item><item><title>Protecting our hubs against the Dirty Frag kernel exploit</title><link>https://2i2c.org/blog/dirty-frag-mitigation/</link><pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/dirty-frag-mitigation/</guid><description>&lt;p>This week, another Linux kernel exploit &amp;ldquo;Dirty Frag&amp;rdquo; (CVE-2026-43284 and CVE-2026-43500) was disclosed to the general public. Unlike the recent
 &lt;a href="https://2i2c.org/blog/dirty-frag-mitigation/../copyfail-mitigation/" >Copy Fail Linux kernel zero-day&lt;/a>, this set of exploits was leaked ahead of the embargo period expiring, leaving insufficient time for kernel maintainers to release a patch.&lt;/p>
 &lt;p>The Dirty Frag exploit belongs to the same bug class as
 &lt;a href="https://2i2c.org/blog/copyfail-mitigation/" >Copy Fail&lt;/a> and Dirty Pipe (CVE-2022-0847), and provides a robust mechanism for obtaining root privileges on most major Linux distributions. It does this by chaining two separate CVEs against which most Linux distributions are unlikely to be simultaneously protected.&lt;/p>
