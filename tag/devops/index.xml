@@ -1,4 +1,45 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Devops | 2i2c</title><link>https://2i2c.org/tag/devops/</link><atom:link href="https://2i2c.org/tag/devops/index.xml" rel="self" type="application/rss+xml"/><description>Devops</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 04 May 2026 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Devops</title><link>https://2i2c.org/tag/devops/</link></image><item><title>Protecting our hubs against the CopyFail kernel exploit</title><link>https://2i2c.org/blog/copyfail-mitigation/</link><pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/copyfail-mitigation/</guid><description>&lt;p>The recently disclosed
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Devops | 2i2c</title><link>https://2i2c.org/tag/devops/</link><atom:link href="https://2i2c.org/tag/devops/index.xml" rel="self" type="application/rss+xml"/><description>Devops</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 12 May 2026 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Devops</title><link>https://2i2c.org/tag/devops/</link></image><item><title>Protecting our hubs against the Dirty Frag kernel exploit</title><link>https://2i2c.org/blog/dirty-frag-mitigation/</link><pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/dirty-frag-mitigation/</guid><description>&lt;p>This week, another Linux kernel exploit &amp;ldquo;Dirty Frag&amp;rdquo; (CVE-2026-43284 and CVE-2026-43500) was disclosed to the general public. Unlike the recent
+&lt;a href="https://2i2c.org/blog/dirty-frag-mitigation/../copyfail-mitigation/" >Copy Fail Linux kernel zero-day&lt;/a>, this set of exploits was leaked ahead of the embargo period expiring, leaving insufficient time for kernel maintainers to release a patch.&lt;/p>
+&lt;p>The Dirty Frag exploit belongs to the same bug class as
+&lt;a href="https://2i2c.org/blog/copyfail-mitigation/" >Copy Fail&lt;/a> and Dirty Pipe (CVE-2022-0847), and provides a robust mechanism for obtaining root privileges on most major Linux distributions. It does this by chaining two separate CVEs against which most Linux distributions are unlikely to be simultaneously protected.&lt;/p>
+&lt;p>We took a close look at our hubs to confirm whether they were exposed, confirmed that our hubs are likely &lt;strong>not at risk&lt;/strong>, and added another layer of protection just in case.&lt;/p>
+&lt;h3 id="are-2i2cs-hubs-at-risk">
+Are 2i2c&amp;rsquo;s hubs at risk?
+&lt;a class="header-anchor" href="#are-2i2cs-hubs-at-risk">#&lt;/a>
+&lt;/h3>&lt;p>No - based on our testing and mitigation efforts, our hubs are not vulnerable to Dirty Frag.&lt;/p>
+&lt;h3 id="why-do-we-think-were-not-at-risk">
+Why do we think we&amp;rsquo;re not at risk?
+&lt;a class="header-anchor" href="#why-do-we-think-were-not-at-risk">#&lt;/a>
+&lt;/h3>&lt;ul>
+&lt;li>We tried to reproduce the exploit on a staging hub by following the
+&lt;a href="https://github.com/Percivalll/Dirty-Frag-Kubernetes-PoC" target="_blank" rel="noopener" >public Kubernetes proof-of-concept&lt;/a> on both AWS and EKS, and the exploit was unable to break out of the container.&lt;/li>
+&lt;li>Existing JupyterHub hardening on Kubernetes from
+&lt;a href="https://github.com/jupyterhub/kubespawner/pull/545" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> jupyterhub/kubespawner#545&lt;/a> (originally added by Yuvi in 2021 in response to a different security issue) had already significantly reduced our risk exposure, and the exposure of anyone else running
+&lt;a href="https://z2jh.jupyter.org" target="_blank" rel="noopener" >Z2JH&lt;/a> (the standard way to deploy JupyterHub on Kubernetes).&lt;/li>
+&lt;li>As an extra layer of protection, we deployed an audited version of
+&lt;a href="https://github.com/mrunalp/block-dirtyfrag" target="_blank" rel="noopener" >&lt;code>block-dirtyfrag&lt;/code>&lt;/a> across our hubs in
+&lt;a href="https://github.com/2i2c-org/infrastructure/pull/8227" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> 2i2c-org/infrastructure#8227&lt;/a>. It blocks the specific kernel features that Dirty Frag depends on. See
+&lt;a href="https://github.com/mrunalp/block-dirtyfrag#bpf-lsm-daemonset-deployment" target="_blank" rel="noopener" >the project&amp;rsquo;s explanation&lt;/a> for how that works.&lt;/li>
+&lt;/ul>
+&lt;h3 id="what-else-did-we-look-into">
+What else did we look into
+&lt;a class="header-anchor" href="#what-else-did-we-look-into">#&lt;/a>
+&lt;/h3>&lt;ul>
+&lt;li>
+&lt;a href="https://alas.aws.amazon.com/alas2023.html" target="_blank" rel="noopener" >AL2023 security advisories&lt;/a> - no patched AL2023 image is available yet, so we can&amp;rsquo;t rely on a kernel-level fix from AWS for now.&lt;/li>
+&lt;/ul>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>Thanks to
+&lt;a href="https://2i2c.org/author/georgiana-dolocan/" >Georgiana&lt;/a> for the prior work on the Copy Fail exploit patching that set the stage for this.&lt;/li>
+&lt;li>Thanks to
+&lt;a href="https://2i2c.org/author/yuvaraj-yuvi/" >Yuvi&lt;/a> for the PR that reduces JupyterHub&amp;rsquo;s exposure to this back in 2021!&lt;/li>
+&lt;li>Thanks to
+&lt;a href="https://github.com/mrunalp/" target="_blank" rel="noopener" >mrunalp&lt;/a> for the eBPF daemonset we deployed in Kubernetes, and to
+&lt;a href="https://2i2c.org/collaborators/jupyterhub/" >JupyterHub&lt;/a> for the upstream kubespawner hardening that lowered our exposure.&lt;/li>
+&lt;/ul></description></item><item><title>Protecting our hubs against the CopyFail kernel exploit</title><link>https://2i2c.org/blog/copyfail-mitigation/</link><pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/copyfail-mitigation/</guid><description>&lt;p>The recently disclosed
 &lt;a href="https://copy.fail/" target="_blank" rel="noopener" >CopyFail Linux kernel zero-day&lt;/a> (CVE-2026-31431) opens up a way for code running inside a container to break out onto the underlying node.
 We took a close look at our hubs to confirm whether they were exposed, confirmed that our hubs are likely not at risk, and added another layer of protection just in case.&lt;/p>
 &lt;h3 id="are-2i2cs-hubs-at-risk">
@@ -10,7 +51,7 @@ Why do we think we&amp;rsquo;re not at risk?
 &lt;a class="header-anchor" href="#why-do-we-think-were-not-at-risk">#&lt;/a>
 &lt;/h3>&lt;ul>
 &lt;li>We tried to reproduce the exploit on a staging hub by following the
-&lt;a href="https://github.com/Percivalll/Copy-Fail-CVE-2026-31431-Kubernetes-PoC" target="_blank" rel="noopener" >public Kubernetes proof-of-concept&lt;/a> on both AWS and EKS, and the exploit was unable to break out of the container.&lt;/li>
+&lt;a href="https://github.com/Percivalll/Copy-Fail-CVE-2026-31431-Kubernetes-PoC" target="_blank" rel="noopener" >public Kubernetes proof-of-concept&lt;/a> on both AWS and GCP, and the exploit was unable to break out of the container.&lt;/li>
 &lt;li>Existing JupyterHub hardening on Kubernetes from
 &lt;a href="https://github.com/jupyterhub/kubespawner/pull/545" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> jupyterhub/kubespawner#545&lt;/a> (originally added by Yuvi in 2021 in response to a different security issue) had already significantly reduced our risk exposure, and the exposure of anyone else running
 &lt;a href="https://z2jh.jupyter.org" target="_blank" rel="noopener" >Z2JH&lt;/a> (the standard way to deploy JupyterHub on Kubernetes).&lt;/li>
