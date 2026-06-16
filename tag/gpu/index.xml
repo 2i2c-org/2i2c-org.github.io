@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Gpu | 2i2c</title><link>https://2i2c.org/tag/gpu/</link><atom:link href="https://2i2c.org/tag/gpu/index.xml" rel="self" type="application/rss+xml"/><description>Gpu</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 12 May 2026 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Gpu</title><link>https://2i2c.org/tag/gpu/</link></image><item><title>Serving more users with fewer cheap GPUs for workshops and education</title><link>https://2i2c.org/blog/more-users-fewer-gpus/</link><pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/more-users-fewer-gpus/</guid><description>&lt;p>Eric Van Dusen was running
+&lt;a href="https://events.internet2.edu/website/89730/tutorials/" target="_blank" rel="noopener" >a workshop&lt;/a> titled &amp;ldquo;Teaching in the AI Classroom: Expanding Access to Interactive Computing through JupyterHub and CloudBank&amp;rdquo; at the National Artificial Intelligence Research Resource (NAIRR) Annual Meeting, showing how JupyterHub can be used to seamlessly provide access to GPU computation for teaching.&lt;/p>
+&lt;p>2i2c runs roughly 70 JupyterHubs with Eric and Sean Morris for
+&lt;a href="https://operations.access-ci.org/node/907" target="_blank" rel="noopener" >Cloudbank Classroom&lt;/a>, and to support running this workshop we
+&lt;a href="https://github.com/2i2c-org/infrastructure/issues/7758" target="_blank" rel="noopener" >added the first GPU enabled hub&lt;/a> to this fleet!&lt;/p>
+&lt;h2 id="serving-more-users-with-fewer-gpus">
+Serving more users with fewer GPUs
+&lt;a class="header-anchor" href="#serving-more-users-with-fewer-gpus">#&lt;/a>
+&lt;/h2>&lt;p>2i2c already supported running hubs with GPU on Google Cloud, so setting up the hub was trivial.
+Since we didn&amp;rsquo;t need very powerful GPUs, and wanted to keep costs down, we were using the cheapest GPUs available -
+&lt;a href="https://www.nvidia.com/en-us/data-center/tesla-t4/" target="_blank" rel="noopener" >NVIDIA T4&lt;/a>.
+However, when we tested to see if we could support ~50 users, we discovered that Google Cloud didn&amp;rsquo;t have that many GPUs to give us consistently!
+We could consistently get upto 25 at a time, but never once more than 30 before Google Cloud reported it was out of GPUs.&lt;/p>
+&lt;p>To successfully run this workshop, we had to put multiple users on the same GPU, in a way that still supported the &lt;em>content&lt;/em> to be taught.
+A nice side effect would be that we can serve more users for cheaper!&lt;/p>
+&lt;p>NVIDIA supports three ways to
+&lt;a href="https://docs.cloud.google.com/kubernetes-engine/docs/concepts/timesharing-gpus#choose-gpu-sharing" target="_blank" rel="noopener" >&amp;lsquo;share&amp;rsquo; 1 GPU&lt;/a> across multiple users:
+&lt;a href="https://docs.nvidia.com/datacenter/cloud-native/gpu-operator/latest/gpu-sharing.html" target="_blank" rel="noopener" >Time Slicing&lt;/a>,
+&lt;a href="https://docs.nvidia.com/datacenter/cloud-native/gpu-operator/latest/gpu-operator-mig.html" target="_blank" rel="noopener" >Multi-instance GPU (MIG)&lt;/a> and
+&lt;a href="https://docs.nvidia.com/deploy/mps/index.html" target="_blank" rel="noopener" >Multi-Process Service (MPS)&lt;/a>. We had to pick what strategy to use for our particular use case, and spent a bunch of time researching them.&lt;/p>
+&lt;ol>
+&lt;li>&lt;strong>MIG&lt;/strong>: Offered the best end user experience, as it provides hardware level &lt;em>fault isolation&lt;/em> - one user&amp;rsquo;s mistakes won&amp;rsquo;t be noticed by another user at all. However, it is only available on more expensive GPUs, so we could not use it.&lt;/li>
+&lt;li>&lt;strong>MPS&lt;/strong>: Offered decent fault isolation (through software, rather than hardware), supported the GPU we wanted to use, and seemed ideal. However, it has security implications that we did not have time to properly evaluate - it required that we grant all users direct access to the host&amp;rsquo;s IPC interface, and that is a security risk we weren&amp;rsquo;t willing to take at that moment.&lt;/li>
+&lt;li>&lt;strong>Time Slicing&lt;/strong>: This provided &lt;em>no&lt;/em> fault isolation - one user can crash another user&amp;rsquo;s process (like Windows 98!).
+However, it supported the GPU we cared about, had security boundaries we were ok with, and could be implemented very quickly.&lt;/li>
+&lt;/ol>
+&lt;p>So we settled on &lt;strong>using Time Slicing&lt;/strong> for this particular workshop. Since there is no fault isolation, we needed to measure the actual GPU usage of our content to determine how many users we can reasonably put on one GPU without one user constantly &amp;lsquo;hogging&amp;rsquo; all the GPU resources.&lt;/p>
+&lt;h2 id="measuring-gpu-utilization">
+Measuring GPU utilization
+&lt;a class="header-anchor" href="#measuring-gpu-utilization">#&lt;/a>
+&lt;/h2>&lt;p>Google Cloud offers
+&lt;a href="https://docs.cloud.google.com/kubernetes-engine/docs/concepts/timesharing-gpus#monitor" target="_blank" rel="noopener" >built in metrics&lt;/a> for measuring GPU utilization. They&amp;rsquo;re coarse, operating at the node level rather than the user level.
+But it was good enough for us to run multiple copies of the workshop content at the same time, and determine how much GPU was being used.
+Sean Morris did a lot of this testing, and determined that 2 concurrent users max out 1 GPU without any negative effects on their perceived performance.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./gpu-utilization-testing.png" alt="Graph of GPU utilization (0-1.0) when we were testing our workshop material" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>This testing allowed us to be confident that the workshop itself would go well, and users won&amp;rsquo;t suffer too much from the lack of fault isolation.
+If you&amp;rsquo;re planning on using Time Slicing, this kind of measurement is &lt;em>critical&lt;/em> to ensure that your users have an acceptable experience - otherwise everything may look &lt;em>fine&lt;/em> when it&amp;rsquo;s just one person testing, but fall apart when multiple users use it.&lt;/p>
+&lt;h2 id="the-workshop-experience">
+The workshop experience
+&lt;a class="header-anchor" href="#the-workshop-experience">#&lt;/a>
+&lt;/h2>&lt;p>The workshop itself went without any issues, thanks to the preparation and planning described above.
+In practice, we found that people&amp;rsquo;s GPU utilization was even less than we had tested, so we could potentially put even more users on fewer GPUs for this kind of workshop.
+However that requires us to better understand the failure condition, to see what happens when users interfere with each other&amp;rsquo;s memory usage.
+An exercise for another day.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img src="./gpu-utilization-workshop.png" alt="Graph of GPU utilization (0-1.0) during the workshop itself" loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>We were able to serve everyone who signed up, without running into resource exhaustion on Google Cloud.
+Overall, a big win for us and those who attended the workshop!
+We also estimated that the entire workshop cost roughly ~200$, which is very affordable for what we were doing.&lt;/p>
+&lt;h2 id="available-for-all-2i2c-communities-running-on-google-cloud">
+Available for all 2i2c communities running on Google Cloud
+&lt;a class="header-anchor" href="#available-for-all-2i2c-communities-running-on-google-cloud">#&lt;/a>
+&lt;/h2>&lt;p>We
+&lt;a href="https://infrastructure.2i2c.org/howto/features/gpu/#gpu-time-sharing" target="_blank" rel="noopener" >documented this whole process&lt;/a> as we went along, and now GPUs shared with Time Slicing is available for all 2i2c community hubs running on Google Cloud!
+If your community is running on AWS and would like this feature, please
+&lt;a href="https://docs.2i2c.org/support/" target="_blank" rel="noopener" >let us know&lt;/a>.&lt;/p>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>To Eric van Dusen, for setting up and running this workshop. Pedagogy is the hardest part of teaching, and we are grateful to work with Eric!&lt;/li>
+&lt;li>To Sean Morris, for collaborating with us in a pretty deep way to make this possible.&lt;/li>
+&lt;li>To April Johnson for building out our community strategy and putting it in practice over the last 6 months, enabling us to spot opportunities like this and serve our community well&lt;/li>
+&lt;li>To Kirstie Whitaker (from
+&lt;a href="https://2i2c.org/collaborators/bids/" >BIDS&lt;/a>), for putting together a social event that encouraged ad-hoc information exchange (our tech lead, Yuvi, was able to spend high bandwidth synchronous time with Eric at that event) that allowed us to serve
+&lt;a href="https://2i2c.org/collaborators/cloudbank/" >Cloudbank Classroom&lt;/a> better&lt;/li>
+&lt;/ul></description></item></channel></rss>
