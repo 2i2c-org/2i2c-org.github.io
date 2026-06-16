@@ -11,9 +11,11 @@ tags:
   - jupyterhub
 ---
 
-This week, another Linux kernel exploit "Dirty Frag" (CVE-2026-43284 and CVE-2026-43500) was disclosed to the general public. Unlike the recent [Copy Fail Linux kernel zero-day](../copyfail-mitigation/), this set of exploits was leaked ahead of the embargo period expiring, leaving insufficient time for kernel maintainers to release a patch. The Dirty Frag exploit belongs to the same bug class as Copy Fail and Dirty Pipe (CVE-2022-0847), and provides a robust mechanism for obtaining root privileges on most major Linux distributions. It does this by chaining two separate CVEs against which most Linux distributions are unlikely to be simultaneously protected.
+This week, another Linux kernel exploit "Dirty Frag" (CVE-2026-43284 and CVE-2026-43500) was disclosed to the general public. Unlike the recent [Copy Fail Linux kernel zero-day](../copyfail-mitigation/), this set of exploits was leaked ahead of the embargo period expiring, leaving insufficient time for kernel maintainers to release a patch.
 
-We took a close look at our hubs to confirm whether they were exposed, confirmed that our hubs are likely not at risk, and added another layer of protection just in case.
+The Dirty Frag exploit belongs to the same bug class as [Copy Fail](../copyfail-mitigation/index.md) and Dirty Pipe (CVE-2022-0847), and provides a robust mechanism for obtaining root privileges on most major Linux distributions. It does this by chaining two separate CVEs against which most Linux distributions are unlikely to be simultaneously protected.
+
+We took a close look at our hubs to confirm whether they were exposed, confirmed that our hubs are likely **not at risk**, and added another layer of protection just in case.
 
 ### Are 2i2c's hubs at risk?
 
