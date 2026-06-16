@@ -15,11 +15,11 @@ categories:
 
 Starting with [Dask Gateway](https://gateway.dask.org/) version [v2026.3.0](https://gateway.dask.org/changelog.html#v2026-3-0), JupyterHub access scopes support has been added to Dask-Gateway.
 
-What this means for JupyterHub users, is that hub admins can control, via JupyterHub RBAC, which hub users or groups have access to Dask-Gateway. This is especially important from the cost perspective, as it allows admins to control who can access Dask-Gateway and thus have more control over their cloud spend.
+That means hub admins can now set, via JupyterHub role-based access control (RBAC), which hub users or groups have access to Dask-Gateway. This is especially important from a cost perspective, as it allows admins to control who can access Dask-Gateway and thus have more control over their cloud spend.
 
-2i2c is deploying this version alongside the hubs, so all communities we serve that are using Dask-Gateway, now have access to this feature.
+If your community is part of the 2i2c member network, you can take advantage of this feature now. 2i2c is deploying the new Dask-Gateway version alongside our hubs, so all communities we serve that are using Dask-Gateway now have access to this feature. 
 
-Checkout
+Want to know more, or set this up on your hub? Check out:
   - the [Control access to Dask Gateway](https://docs.2i2c.org/admin/user-management/dask-access/) page for how to ask 2i2c to set up this feature for your hub
   - the [Dask Gateway documentation](https://gateway.dask.org/authentication.html#using-jupyterhub-s-authentication) for more details on how it works.
 
