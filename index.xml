@@ -224,7 +224,8 @@ Acknowledgements
 &lt;li>To Sean Morris, for collaborating with us in a pretty deep way to make this possible.&lt;/li>
 &lt;li>To April Johnson for building out our community strategy and putting it in practice over the last 6 months, enabling us to spot opportunities like this and serve our community well&lt;/li>
 &lt;li>To Kirstie Whitaker (from
-&lt;a href="https://2i2c.org/collaborators/bids/" >BIDS&lt;/a>), for putting together a social event that encouraged ad-hoc information exchange (our tech lead, Yuvi, was able to spend high bandwidth synchronous time with Eric at that event) that allowed us to serve
+&lt;a href="https://2i2c.org/collaborators/bids/" >BIDS&lt;/a>) and the AI Futures Lab, for hosting
+&lt;a href="https://events.linuxfoundation.org/roadmap-workshop-for-jupyterhub-and-binder/" target="_blank" rel="noopener" >the JupyterHub Roadmapping Workshop&lt;/a> encouraged ad-hoc information exchange (our tech lead, Yuvi, was able to spend high bandwidth synchronous time with Eric at that event during lunch) that allowed us to serve
 &lt;a href="https://2i2c.org/collaborators/cloudbank/" >Cloudbank Classroom&lt;/a> better&lt;/li>
 &lt;/ul></description></item><item><title>Protecting our hubs against the CopyFail kernel exploit</title><link>https://2i2c.org/blog/copyfail-mitigation/</link><pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/copyfail-mitigation/</guid><description>&lt;p>The recently disclosed
 &lt;a href="https://copy.fail/" target="_blank" rel="noopener" >CopyFail Linux kernel zero-day&lt;/a> (CVE-2026-31431) opens up a way for code running inside a container to break out onto the underlying node.
@@ -10675,9 +10676,29 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;div class="col-sm-6 col-md-4 col-lg-3">
 &lt;div class="card border-0" style="background-color: #f8f9fa;">
 &lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
+&lt;a href="https://csum.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
+&lt;img src="https://2i2c.org/members/images/csu_maritime.svg" alt="CSU Maritime" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
+&lt;small class="text-dark fw-medium">CSU Maritime&lt;/small>
+&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="col-sm-6 col-md-4 col-lg-3">
+&lt;div class="card border-0" style="background-color: #f8f9fa;">
+&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
 &lt;a href="https://dvc.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/diablo_valley_college.png" alt="Diablo Valley College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">Diablo Valley College&lt;/small>
+&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="col-sm-6 col-md-4 col-lg-3">
+&lt;div class="card border-0" style="background-color: #f8f9fa;">
+&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
+&lt;a href="https://elac.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
+&lt;img src="https://2i2c.org/members/images/east_los_angeles_college.svg" alt="East Los Angeles College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
+&lt;small class="text-dark fw-medium">East Los Angeles College&lt;/small>
 &lt;/a>
 &lt;/div>
 &lt;/div>
@@ -10835,6 +10856,36 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;div class="col-sm-6 col-md-4 col-lg-3">
 &lt;div class="card border-0" style="background-color: #f8f9fa;">
 &lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
+&lt;a href="https://lacc.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
+&lt;img src="https://2i2c.org/members/images/los_angeles_city_college.svg" alt="Los Angeles City College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
+&lt;small class="text-dark fw-medium">Los Angeles City College&lt;/small>
+&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="col-sm-6 col-md-4 col-lg-3">
+&lt;div class="card border-0" style="background-color: #f8f9fa;">
+&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
+&lt;a href="https://lahc.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
+&lt;img src="https://2i2c.org/members/images/los_angeles_harbor_college.svg" alt="Los Angeles Harbor College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
+&lt;small class="text-dark fw-medium">Los Angeles Harbor College&lt;/small>
+&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="col-sm-6 col-md-4 col-lg-3">
+&lt;div class="card border-0" style="background-color: #f8f9fa;">
+&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
+&lt;a href="https://lavc.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
+&lt;img src="https://2i2c.org/members/images/los_angeles_valley_college.svg" alt="Los Angeles Valley College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
+&lt;small class="text-dark fw-medium">Los Angeles Valley College&lt;/small>
+&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="col-sm-6 col-md-4 col-lg-3">
+&lt;div class="card border-0" style="background-color: #f8f9fa;">
+&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
 &lt;a href="https://mendocino.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/mendocino_college.png" alt="Mendocino College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">Mendocino College&lt;/small>
@@ -10868,16 +10919,6 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;a href="https://moreno.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/moreno_valley_college.png" alt="Moreno Valley College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">Moreno Valley College&lt;/small>
-&lt;/a>
-&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;div class="col-sm-6 col-md-4 col-lg-3">
-&lt;div class="card border-0" style="background-color: #f8f9fa;">
-&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
-&lt;a href="https://staging.hub.disasters.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
-&lt;img src="https://2i2c.org/members/images/nasa_disasters_program.png" alt="NASA Disasters Program" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
-&lt;small class="text-dark fw-medium">NASA Disasters Program&lt;/small>
 &lt;/a>
 &lt;/div>
 &lt;/div>
@@ -11098,6 +11139,16 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;a href="https://virginia.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/university_of_virginia.png" alt="University of Virginia" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">University of Virginia&lt;/small>
+&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="col-sm-6 col-md-4 col-lg-3">
+&lt;div class="card border-0" style="background-color: #f8f9fa;">
+&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
+&lt;a href="https://wlac.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
+&lt;img src="https://2i2c.org/members/images/west_los_angeles_college.svg" alt="West Los Angeles College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
+&lt;small class="text-dark fw-medium">West Los Angeles College&lt;/small>
 &lt;/a>
 &lt;/div>
 &lt;/div>
