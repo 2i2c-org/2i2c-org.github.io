@@ -6,12 +6,14 @@ on:
   schedule:
     # https://crontab.guru/#00_18_*_*_1
     - cron: "00 18 * * 1"
+  pull_request:
 
 permissions:
   issues: write
 
 jobs:
-  linkChecker:
+  linkcheck-pr:
+    if: github.event_name == 'pull_request'
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
@@ -25,22 +27,37 @@ jobs:
       - name: Build
         run: hugo --minify
 
-      - name: Link Checker
-        uses: lycheeverse/lychee-action@v2.0.2
+      # Intentionally skips (req for full deploy parity) to keep
+      # PR checks fast and network-light.
+      - name: Generate blog post redirects
+        run: python scripts/generate-blog-aliases.py
+
+      - name: Link Checker (internal, offline)
+        uses: lycheeverse/lychee-action@v2.7.0
         with:
-          args: |
-            # fonts.gstatic.com is an expected fail
-            --exclude https://fonts.gstatic.com
-            # "%oo many requests" errors
-            --exclude twitter.com
-            # 403 Forbidden errors
-            --exclude https://data8.org
-            # 403 Forbidden errors
-            --exclude https://biorxiv.org
-            --exclude https://www.biorxiv.org
-            --verbose
-            --no-progress
-            public/**/*.html
+          args: --offline --no-progress --root-dir "${{ github.workspace }}/public" --exclude '^file://.*/public/roadmap/?$' public/**/*.html
+
+  linkcheck-scheduled:
+    if: github.event_name != 'pull_request'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: Setup Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: '0.125.3'
+          extended: true
+
+      - name: Build
+        run: hugo --minify
+
+      - name: Generate blog post redirects
+        run: python scripts/generate-blog-aliases.py
+
+      - name: Link Checker (external)
+        uses: lycheeverse/lychee-action@v2.7.0
+        with:
+          args: --verbose --no-progress --root-dir "${{ github.workspace }}/public" public/**/*.html
         env:
           GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN}}
 

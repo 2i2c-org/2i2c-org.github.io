@@ -1,0 +1,9 @@
+exclude = [
+    "https://fonts.gstatic.com", # expected connectivity failure
+    "twitter.com",
+    "https://data8.org",
+    "https://biorxiv.org",
+    "https://www.biorxiv.org",
+]
+
+max_concurrency = 50
