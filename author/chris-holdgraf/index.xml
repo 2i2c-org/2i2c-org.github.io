@@ -1,4 +1,62 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Chris Holdgraf | 2i2c</title><link>https://2i2c.org/author/chris-holdgraf/</link><atom:link href="https://2i2c.org/author/chris-holdgraf/index.xml" rel="self" type="application/rss+xml"/><description>Chris Holdgraf</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 22 May 2026 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/author/chris-holdgraf/avatar_hu239570f3b0123c4756b7a8f15caec1a2_32796_270x270_fill_q75_lanczos_center.jpg</url><title>Chris Holdgraf</title><link>https://2i2c.org/author/chris-holdgraf/</link></image><item><title>Accessibility improvements in Jupyter Book</title><link>https://2i2c.org/blog/myst-theme-accessibility/</link><pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/myst-theme-accessibility/</guid><description>&lt;p>We helped shepherd and implement a batch of accessibility improvements in &lt;code>myst-theme&lt;/code> as part of the
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Chris Holdgraf | 2i2c</title><link>https://2i2c.org/author/chris-holdgraf/</link><atom:link href="https://2i2c.org/author/chris-holdgraf/index.xml" rel="self" type="application/rss+xml"/><description>Chris Holdgraf</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 23 Jun 2026 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/author/chris-holdgraf/avatar_hu239570f3b0123c4756b7a8f15caec1a2_32796_270x270_fill_q75_lanczos_center.jpg</url><title>Chris Holdgraf</title><link>https://2i2c.org/author/chris-holdgraf/</link></image><item><title>Chris Holdgraf</title><link>https://2i2c.org/author/chris-holdgraf/</link><pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/author/chris-holdgraf/</guid><description>&lt;p>Chris is the Executive Director of
+&lt;a href="https://2i2c.org" target="_blank" rel="noopener" >2i2c&lt;/a>. He is on the
+&lt;a href="https://ec.jupyter.org" target="_blank" rel="noopener" >Jupyter Executive Council&lt;/a> as well as the
+&lt;a href="https://jupyterfoundation.org" target="_blank" rel="noopener" >Jupyter Foundation Board&lt;/a>. He has been a co-lead of several projects within the Jupyter ecosystem for over ten years (particularly the
+&lt;a href="https://jupyterhub-team-compass.readthedocs.io/en/latest/team.html#jupyterhub-team" target="_blank" rel="noopener" >JupyterHub and Binder projects&lt;/a>, as well as the
+&lt;a href="https://jupyterbook.org" target="_blank" rel="noopener" >Jupyter Book project&lt;/a>). He’s interested in the boundary between technology, open-source software, and research and education workflows, as well as how open communities can support and extend these workflows to make science more impactful and inclusive.&lt;/p>
+&lt;p>He was previously a post-doctoral researcher in the Department of Statistics at
+&lt;a href="https://www.berkeley.edu/" target="_blank" rel="noopener" >UC Berkeley&lt;/a>, and a Community Architect with the
+&lt;a href="https://data.berkeley.edu/" target="_blank" rel="noopener" >Division of Data Science&lt;/a> at Berkeley. His background is in cognitive and computational neuroscience, where he used
+&lt;a href="https://www.nature.com/articles/ncomms13654" target="_blank" rel="noopener" >predictive models to understand the auditory system&lt;/a> in the human brain.&lt;/p>
+&lt;p>&lt;strong>Highlights&lt;/strong>:&lt;/p>
+&lt;ul>
+&lt;li>10+ years leading and building open source projects, open infrastructure teams and services&lt;/li>
+&lt;li>Jupyter Distinguished Contributor&lt;/li>
+&lt;li>Co-led JupyterHub, Binder, and Jupyter Book&lt;/li>
+&lt;li>Co-created the DataHub interactive computing service for the Data Science Education Program at UC Berkeley.&lt;/li>
+&lt;/ul></description></item><item><title>Rebuilding Project Pythia's gallery on reusable MyST tooling</title><link>https://2i2c.org/blog/pythia-cookoff-myst-tooling/</link><pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/pythia-cookoff-myst-tooling/</guid><description>&lt;p>At the
+&lt;a href="https://projectpythia.org/pythia-cookoff-2026/" target="_blank" rel="noopener" >2026 Pythia Cookoff&lt;/a> at NCAR, we spent some hackathon time rebuilding the
+&lt;a href="https://2i2c.org/collaborators/pythia/" >Project Pythia&lt;/a> Cookbook Gallery and blog on shared
+&lt;a href="https://mystmd.org" target="_blank" rel="noopener" >MyST Engine&lt;/a> tooling, replacing the one-off custom scripts Pythia had been using before.&lt;/p>
+&lt;figure id="figure-the-redesigned-pythia-cookbook-gallery-now-with-a-search-bar-and-consistent-cards">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="The redesigned Pythia Cookbook Gallery, now with a search bar and consistent cards." srcset="
+/blog/pythia-cookoff-myst-tooling/featured_hua0812bee393596d2edcfc9b23f33eb7c_348109_2614458882900d97f01456672619b5a8.webp 400w,
+/blog/pythia-cookoff-myst-tooling/featured_hua0812bee393596d2edcfc9b23f33eb7c_348109_47b517bd57561d82f6b6a4a217495393.webp 760w,
+/blog/pythia-cookoff-myst-tooling/featured_hua0812bee393596d2edcfc9b23f33eb7c_348109_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/pythia-cookoff-myst-tooling/featured_hua0812bee393596d2edcfc9b23f33eb7c_348109_2614458882900d97f01456672619b5a8.webp"
+width="760"
+height="425"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+The redesigned Pythia Cookbook Gallery, now with a search bar and consistent cards.
+&lt;/figcaption>&lt;/figure>
+&lt;p>The gallery and blog now run on the same new
+&lt;a href="https://contrib.mystmd.org/myst-listing" target="_blank" rel="noopener" >&lt;code>myst-listing&lt;/code> plugin&lt;/a>, which we created in the new
+&lt;a href="https://github.com/myst-contrib" target="_blank" rel="noopener" >&lt;code>myst-contrib&lt;/code>&lt;/a> organization. It defines an experimental &lt;strong>collect -&amp;gt; transform -&amp;gt; display&lt;/strong> pipeline for turning sources of content into galleries, blogs, or other listings. Two very different pages running on one plugin is a good sign it can generalize!&lt;/p>
+&lt;p>We also pushed on
+&lt;a href="https://2i2c-org.github.io/clinder/" target="_blank" rel="noopener" >&lt;code>clinder&lt;/code>&lt;/a>, a BinderHub CLI and GitHub Action that allows you to execute a Jupyter Book&amp;rsquo;s notebooks on
+&lt;a href="https://mybinder.org" target="_blank" rel="noopener" >mybinder.org&lt;/a> in CI instead of on the Actions machine. This is a nice fit for cookbook-style content that requires additional computational resources to run. It now has docs, preview deploys, and tests on PRs.&lt;/p>
+&lt;p>We also managed the JupyterHub that participants worked on (including a few late-night fixes heroically made by Angus). The Pythia team used the new
+&lt;a href="https://2i2c.org/jupyterhub-fancy-profiles/image-building/" target="_blank" rel="noopener" >build your own environment&lt;/a> feature in JupyterHub to build a custom environment for each cookbook! And we spent time with the Pythia team gathering feedback on the Jupyter Book and JupyterHub improvements they&amp;rsquo;d most like to see next.&lt;/p>
+&lt;h2 id="learn-more">
+Learn more
+&lt;a class="header-anchor" href="#learn-more">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>
+&lt;a href="https://projectpythia.org/posts/2026/gallery-listing" target="_blank" rel="noopener" >Chris&amp;rsquo;s write-up on the Pythia blog&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://contrib.mystmd.org/myst-listing" target="_blank" rel="noopener" >&lt;code>myst-listing&lt;/code> plugin docs&lt;/a>&lt;/li>
+&lt;li>
+&lt;a href="https://2i2c-org.github.io/clinder/" target="_blank" rel="noopener" >&lt;code>clinder&lt;/code> documentation&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;p>Thanks to
+&lt;a href="https://2i2c.org/collaborators/pythia/" >Project Pythia&lt;/a> for hosting the Cookoff, and to our
+&lt;a href="https://2i2c.org/members/" >member communities&lt;/a> whose memberships cover
+&lt;a href="https://2i2c.org/blog/pythia-cookoff-myst-tooling/../../2025/foundational-contributions/" >foundational upstream contributions&lt;/a> like these.&lt;/p></description></item><item><title>Accessibility improvements in Jupyter Book</title><link>https://2i2c.org/blog/myst-theme-accessibility/</link><pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/myst-theme-accessibility/</guid><description>&lt;p>We helped shepherd and implement a batch of accessibility improvements in &lt;code>myst-theme&lt;/code> as part of the
 &lt;a href="https://2i2c.org/collaborators/jupyter-book/" >Jupyter Book&lt;/a> project.
 The Jupyter Book team blogged about it here:&lt;/p>
 &lt;p>
@@ -27,22 +85,6 @@ Acknowledgements
 &lt;li>Thanks to Silas (
 &lt;a href="https://github.com/pancakereport" target="_blank" rel="noopener" >@pancakereport&lt;/a>) at
 &lt;a href="https://2i2c.org/collaborators/bids/" >BIDS&lt;/a> for surfacing these issues and iterating on them!&lt;/li>
-&lt;/ul></description></item><item><title>Chris Holdgraf</title><link>https://2i2c.org/author/chris-holdgraf/</link><pubDate>Fri, 22 May 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/author/chris-holdgraf/</guid><description>&lt;p>Chris is the Executive Director of
-&lt;a href="https://2i2c.org" target="_blank" rel="noopener" >2i2c&lt;/a>. He is on the
-&lt;a href="https://ec.jupyter.org" target="_blank" rel="noopener" >Jupyter Executive Council&lt;/a> as well as the
-&lt;a href="https://jupyterfoundation.org" target="_blank" rel="noopener" >Jupyter Foundation Board&lt;/a>. He has been a co-lead of several projects within the Jupyter ecosystem for over ten years (particularly the
-&lt;a href="https://jupyterhub-team-compass.readthedocs.io/en/latest/team.html#jupyterhub-team" target="_blank" rel="noopener" >JupyterHub and Binder projects&lt;/a>, as well as the
-&lt;a href="https://jupyterbook.org" target="_blank" rel="noopener" >Jupyter Book project&lt;/a>). He’s interested in the boundary between technology, open-source software, and research and education workflows, as well as how open communities can support and extend these workflows to make science more impactful and inclusive.&lt;/p>
-&lt;p>He was previously a post-doctoral researcher in the Department of Statistics at
-&lt;a href="https://www.berkeley.edu/" target="_blank" rel="noopener" >UC Berkeley&lt;/a>, and a Community Architect with the
-&lt;a href="https://data.berkeley.edu/" target="_blank" rel="noopener" >Division of Data Science&lt;/a> at Berkeley. His background is in cognitive and computational neuroscience, where he used
-&lt;a href="https://www.nature.com/articles/ncomms13654" target="_blank" rel="noopener" >predictive models to understand the auditory system&lt;/a> in the human brain.&lt;/p>
-&lt;p>&lt;strong>Highlights&lt;/strong>:&lt;/p>
-&lt;ul>
-&lt;li>10+ years leading and building open source projects, open infrastructure teams and services&lt;/li>
-&lt;li>Jupyter Distinguished Contributor&lt;/li>
-&lt;li>Co-led JupyterHub, Binder, and Jupyter Book&lt;/li>
-&lt;li>Co-created the DataHub interactive computing service for the Data Science Education Program at UC Berkeley.&lt;/li>
 &lt;/ul></description></item><item><title>Combining multiple repos into one site at jupyterbook.org</title><link>https://2i2c.org/blog/jupyterbook-multi-repo-site/</link><pubDate>Mon, 06 Apr 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/jupyterbook-multi-repo-site/</guid><description>&lt;p>As part of
 &lt;a href="https://github.com/2i2c-org/initiatives/issues/28" target="_blank" rel="noopener" >an initiative to improve jupyterbook.org&amp;rsquo;s documentation&lt;/a>, we refactored the site so that multiple repositories are served under one domain. We wrote up the details on the
 &lt;a href="https://jupyterbook.org/blog" target="_blank" rel="noopener" >Jupyter Book blog&lt;/a>.&lt;/p>
