@@ -22,6 +22,8 @@ The gallery and blog now run on the same new [`myst-listing` plugin](https://con
 
 We also pushed on [`clinder`](https://2i2c-org.github.io/clinder/), a BinderHub CLI and GitHub Action that allows you to execute a Jupyter Book's notebooks on [mybinder.org](https://mybinder.org) in CI instead of on the Actions machine. This is a nice fit for cookbook-style content that requires additional computational resources to run. It now has docs, preview deploys, and tests on PRs.
 
+We also managed the JupyterHub that participants worked on (including a few late-night fixes heroically made by Angus). The Pythia team used the new [build your own environment](https://2i2c.org/jupyterhub-fancy-profiles/image-building/) feature in JupyterHub to build a custom environment for each cookbook! And we spent time with the Pythia team gathering feedback on the Jupyter Book and JupyterHub improvements they'd most like to see next.
+
 ## Learn more
 
 - [Chris's write-up on the Pythia blog](https://projectpythia.org/posts/2026/gallery-listing)
