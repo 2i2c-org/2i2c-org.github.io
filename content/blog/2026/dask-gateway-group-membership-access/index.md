@@ -4,7 +4,6 @@ slug: "dask-gateway-membership-access"
 date: 2026-06-10
 authors:
   - Georgiana Dolocan
-categories:
 tags:
   - open-source
   - community
