@@ -18,4 +18,4 @@ authors:
 
 [CIROH](../../../collaborators/ciroh/) published a post on their DocuHub blog about their cloud infrastructure success at DevCon 2025, highlighting how their JupyterHub deployment supported the conference's interactive computing needs.
 
-Read the full post: [DevCon 2025 Infrastructure](https://docs.ciroh.org/blog/devcon25-infra/)
+Read the full post: [DevCon 2025 Infrastructure](https://hub.ciroh.org/blog/devcon25-infra/)
