@@ -1,4 +1,5 @@
 ---
+title: Our open practices
 # Page type - we want a landing page
 type: landing
 
