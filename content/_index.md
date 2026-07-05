@@ -108,16 +108,16 @@ sections:
   - block: features
     id: why-2i2c
     content:
-      title: What makes us different
+      title: How we work
       items:
         - name: Non-profit, no vendor lock-in
           icon: lock-open
           icon_pack: fas
-          description: We exist to serve research and education communities, not shareholders. Your [Right to Replicate](/right-to-replicate) means you can take your infrastructure anywhere, with or without us.
+          description: As a non-profit, our only obligation is to the research and education communities we serve. Your [Right to Replicate](/right-to-replicate) means you can take your infrastructure anywhere, with or without us.
         - name: Open source collaboration
           icon: arrows-spin
           icon_pack: fas
-          description: We listen to researchers and educators, then work with upstream open source projects on solutions that benefit everyone — not just our members.
+          description: We listen to researchers and educators, then work with upstream open source projects on solutions that benefit the whole ecosystem, not just our members.
         - name: Cross-community learning
           icon: people-arrows
           icon_pack: fas
