@@ -14,9 +14,43 @@
   weight = 15
 
 [[main]]
+  name = "Communities"
+  weight = 30
+
+[[main]]
+  name = "Impact"
+  parent = "Communities"
+  url = "impact/"
+  weight = 11
+
+[[main]]
+  name = "Case studies"
+  parent = "Communities"
+  url = "case-studies/"
+  weight = 14
+
+[[main]]
+  name = "Member communities"
+  parent = "Communities"
+  url = "members/"
+  weight = 12
+
+[[main]]
+  name = "Collaborators and funders"
+  parent = "Communities"
+  url = "collaborators/"
+  weight = 13
+
+[[main]]
+  name = "Roadmap <span class=\"menu-badge\">NEW</span>"
+  # This is actually served from the 2i2c-org/roadmap repository
+  url = "https://2i2c.org/roadmap/"
+  weight = 40
+
+[[main]]
   name = "About"
   identifier = "about"
-  weight = 25
+  weight = 45
 
   [[main]]
   parent = "about"
@@ -66,40 +100,6 @@
   name = "Newsletter"
   url = "mailing-list/"
   weight = 80
-
-[[main]]
-  name = "Communities"
-  weight = 30
-
-[[main]]
-  name = "Impact"
-  parent = "Communities"
-  url = "impact/"
-  weight = 11
-
-[[main]]
-  name = "Case studies"
-  parent = "Communities"
-  url = "case-studies/"
-  weight = 14
-
-[[main]]
-  name = "Member communities"
-  parent = "Communities"
-  url = "members/"
-  weight = 12
-
-[[main]]
-  name = "Collaborators and funders"
-  parent = "Communities"
-  url = "collaborators/"
-  weight = 13
-
-[[main]]
-  name = "Roadmap <span class=\"menu-badge\">NEW</span>"
-  # This is actually served from the 2i2c-org/roadmap repository
-  url = "https://2i2c.org/roadmap/"
-  weight = 40
 
 [[main]]
   name = "Docs"
