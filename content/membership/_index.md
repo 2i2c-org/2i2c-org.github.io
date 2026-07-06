@@ -6,32 +6,27 @@ sections:
   - block: markdown
     id: intro
     content:
-      title: Membership in 2i2c
+      title: Membership with 2i2c
       subtitle: Join a network of communities building shared open infrastructure
       text: |
-        As a non-profit, we believe the best infrastructure comes from co-creation. Our membership model pools resources across research and education communities to operate [shared infrastructure](/platform) and to improve the [open source tools](/open-practices/#projects) everyone depends on.
+        As a non-profit, we run [shared, open infrastructure](/platform) for research and education communities. Membership pools resources so that one team can operate everyone's hubs and improve the [open source tools](/open-practices/#projects) you depend on.
 
-        When you become a member, your community joins a network where usage shapes development priorities, improvements flow back to open source, and everyone benefits.
+        That work spans four areas: **operating** your infrastructure, **building** software your community needs, **stewarding** upstream open source projects, and **connecting and advising** communities and funders. These fuel the cycle you see below:
 
-        {{< figure src="images/collaborative-model.png" alt="Diagram showing the collaborative model: member communities use their hub to have impact, they influence our open roadmap with feedback and co-funding, which drives contributions across the open source ecosystem, which creates better tools for our members and for the world." caption="Our collaborative development and operations model." >}}
+        {{< figure src="images/collaborative-model.png" alt="Diagram showing the collaborative model: member communities use their hub to have impact, they influence our open roadmap with feedback and co-funding, which drives contributions across the open source ecosystem, which creates better tools for our members and for the world." caption="How our collaborative development and operations model improves the open source ecosystem, and leads to better technology for our managed community hubs." >}}
 
-        **Shared operations.** One infrastructure team manages hubs for all member communities using a [shared infrastructure repository](https://github.com/2i2c-org/infrastructure). Each community gets their own hub customized to their needs, while benefiting from shared expertise, faster incident response, and improvements deployed everywhere at once.
-
-        **Shared development.** Members influence [our open roadmap](https://2i2c.org/roadmap) with feedback and co-funding. This drives contributions across the open source ecosystem, creating better tools for the world and improvements that we can rapidly deploy to our member hubs.
-
-        Learn more about [our mission](/mission) and the values that drive our work.
+        Membership also connects you with a network of [member communities](/members) that mutually support one another: a problem solved for one community becomes an improvement shared by all. Members co-fund and steer [our open roadmap](https://2i2c.org/roadmap), and those improvements flow back to the open source ecosystem. Learn more about [our mission](/mission) or [explore the platform](/platform).
 
   - block: features
     id: personas
     content:
       title: What members get
-      subtitle: Our platform serves researchers, administrators, and community leaders with different needs.
       items:
         - name: For your community
           icon: laptop-code
           icon_pack: fas
           description: |
-            Ready-to-use cloud environments with your community's tools, data, and computational resources. Focus on discovery, not server management. Shared environments for reproducible collaboration.
+            Ready-to-use cloud environments with your community's tools, data, and computational resources. Your community focuses on discovery while we manage the servers. Shared environments for reproducible collaboration.
         - name: For hub administrators
           icon: cogs
           icon_pack: fas
@@ -44,27 +39,12 @@ sections:
             Pool resources with other communities for greater impact. Influence 2i2c's roadmap and priorities. Support open source sustainability.
 
   - block: markdown
-    id: engagement
-    content:
-      title: Membership and project work
-      text: |
-        We offer two ways to work together:
-
-        **Membership** provides ongoing access to our managed hub platform. Membership fees sustain operations and support [foundational open source contributions](../blog/2025/foundational-contributions/) that benefit all members.
-
-        **Project collaborations** let organizations fund specific development work that addresses shared challenges. Project work accelerates [our roadmap](https://2i2c.org/roadmap) and creates improvements deployed across the network.
-
-        Many organizations do both: membership for day-to-day infrastructure, plus project funding for strategic priorities. See [our collaborators and funders](/collaborators) for examples of organizations we work with, or read more about [our service model](https://compass.2i2c.org/organization/service-model/).
-
-        {{< cta cta_text="Learn about our platform" cta_link="/platform" cta_new_tab="false" >}}
-
-  - block: markdown
     id: commitments
     content:
       title: Our commitments
       subtitle: We make specific commitments to ensure your infrastructure remains open, portable, and community-controlled.
       text: |
-        We guarantee your [Right to Replicate](/right-to-replicate) - your infrastructure configuration is transparent and portable, so you're never locked in. All our engineering work is [open source](/open-technology) with licensing that protects communities. We work transparently and [contribute upstream](https://2i2c.org/kpis/upstream/) to the projects we depend on.
+        Your [Right to Replicate](/right-to-replicate) keeps your configuration transparent and portable, so you're never locked in. All our engineering work is [open source](/open-technology) with licensing that protects communities, and we [contribute upstream](https://2i2c.org/kpis/upstream/) to the projects we depend on. Our hubs are [secure by default](https://docs.2i2c.org/admin/security/security-foundations/), with isolated user environments and continuous monitoring.
 
         See [our public roadmap](https://2i2c.org/roadmap) for current priorities, or read more about [our open practices](/open-practices).
 
@@ -73,5 +53,21 @@ sections:
     content:
       title: Membership options and pricing
       text: |
-        {{< cta cta_text="See membership options" cta_link="/join" cta_new_tab="false" >}}
+        <!-- MAINTAINER NOTE: the $15k / $50k caps and "free above 10,000 users" also appear on sales.2i2c.org/service-description and compass pricing-strategy.md. If a figure changes, update all three. -->
+        Your total cost is predictable and bounded: a fixed annual fee, a usage fee that caps as your community grows, and cloud passed through at cost.
+
+        **Base membership.** A fixed annual fee at one of two tiers. Both cover all four areas of our work; they differ in how much time and strategic attention you get.
+
+        - **General**: For communities that want to benefit from our core shared platform and team. We operate your hub, support your community, and include you in the building, stewarding, and connecting we do for the whole network.
+        - **Premier**: For communities that want to support open source, our mission, and who want deeper engagement with our team. Includes more service hours across all four areas, plus a deeper strategic relationship, including optional monthly strategy sessions, quarterly roadmap reviews, and collaborative work time with our team.
+
+        See [the service description](https://sales.2i2c.org/service-description) for the services included with each tier.
+
+        **Directed engagements.** Fund extra dedicated work in any of the four areas described above. For example, you can support development from [our roadmap](https://2i2c.org/roadmap), more complex infrastructure operations, or dedicated upstream stewardship time. Some organizations also fund larger [project collaborations](/collaborators) alongside membership.
+
+        **Usage.** A per-user fee that changes monthly based on who has used your hub, with a rate that levels off as your monthly users grows so that heavy usage doesn't result in runaway costs.
+
+        **Cloud.** You can bring your own cloud acount and manage cloud spending on your own (we'll just need access to the infrastructure). We can also manage cloud spending on your behalf, and will pass through your cloud costs with no usage-based markup. You can track cloud spend in dashboards, get alerts before it runs over, and read [how cloud costs work and how to control them](https://docs.2i2c.org/community-lead/billing/overview/).
+
+        {{< cta cta_text="Get started" cta_link="/join" cta_new_tab="false" >}}
 ---
