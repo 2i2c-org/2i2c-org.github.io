@@ -53,19 +53,20 @@ sections:
     content:
       title: Membership options and pricing
       text: |
-        <!-- MAINTAINER NOTE: the $15k / $50k caps and "free above 10,000 users" also appear on sales.2i2c.org/service-description and compass pricing-strategy.md. If a figure changes, update all three. -->
-        Your total cost is predictable and bounded: a fixed annual fee, a usage fee that caps as your community grows, and cloud passed through at cost.
+        <!-- NOTE: the numbers here also appear at sales.2i2c.org/service-description
+        so make sure to mirror the changes! -->
+        Membership is a fixed annual amount that supports our mission and key member services. Where we run infrastructure for members, we add bounded usage costs to cover the time and cloud fees that we incur with extra usage.
 
-        **Base membership.** A fixed annual fee at one of two tiers. Both cover all four areas of our work; they differ in how much time and strategic attention you get.
+        **Base membership.** A fixed annual fee at one of two tiers. Both cover all four areas of our work. They differ in how much time and strategic attention you get.
 
-        - **General**: For communities that want to benefit from our core shared platform and team. We operate your hub, support your community, and include you in the building, stewarding, and connecting we do for the whole network.
-        - **Premier**: For communities that want to support open source, our mission, and who want deeper engagement with our team. Includes more service hours across all four areas, plus a deeper strategic relationship, including optional monthly strategy sessions, quarterly roadmap reviews, and collaborative work time with our team.
+        - **General**: For communities that want to benefit from our core shared platform and team. We'll operate your hub, support your community, and steward open source projects on your behalf.
+        - **Premier**: For communities that want to support open source, our mission, and who want deeper engagement with our team and member network. Includes more service hours across all four areas, plus a deeper strategic relationship, including optional monthly strategy sessions, quarterly roadmap reviews, and collaborative work time with our team.
 
         See [the service description](https://sales.2i2c.org/service-description) for the services included with each tier.
 
         **Directed engagements.** Fund extra dedicated work in any of the four areas described above. For example, you can support development from [our roadmap](https://2i2c.org/roadmap), more complex infrastructure operations, or dedicated upstream stewardship time. Some organizations also fund larger [project collaborations](/collaborators) alongside membership.
 
-        **Usage.** A per-user fee that changes monthly based on who has used your hub, with a rate that levels off as your monthly users grows so that heavy usage doesn't result in runaway costs.
+        **Usage.** A per-user fee that changes monthly based on who has used your hub, with a rate that levels off as your monthly users grow so that heavy usage doesn't result in runaway costs.
 
         **Cloud.** You can bring your own cloud acount and manage cloud spending on your own (we'll just need access to the infrastructure). We can also manage cloud spending on your behalf, and will pass through your cloud costs with no usage-based markup. You can track cloud spend in dashboards, get alerts before it runs over, and read [how cloud costs work and how to control them](https://docs.2i2c.org/community-lead/billing/overview/).
 
