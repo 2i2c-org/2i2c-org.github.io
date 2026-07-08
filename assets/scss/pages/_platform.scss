@@ -60,15 +60,12 @@ figure.videofigure {
     display: flex;
     flex-direction: column;
     figcaption {
-        display: inline-flex;
         font-size: .8rem;
-        flex-wrap: wrap;
-        a {
-            margin: 0 .2rem;
-        }
         img {
+            display: inline-block;
             height: 1.2rem;
             border: none;
+            vertical-align: middle;
         }
     }
 }
