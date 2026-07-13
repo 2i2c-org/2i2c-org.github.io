@@ -1,6 +1,6 @@
 ---
 # Page title
-title: Hub service
+title: Platform & Infrastructure
 # Page type - we want a landing page (such as a homepage)
 type: landing
 aliases:
@@ -26,10 +26,12 @@ sections:
     content:
       title: Sign-in
       text: |
-        We support the following authentication and authorization options:
-          - **GitHub** - with support for GitHub Organization and Teams
-          - **CILogon** - with support for institutional logins, Google Auth, Microsoft, and ORCID
-          - **Shared Password** - simple authentication with a global shared password, ideal for workshops and webinar
+        We support the following [authentication and authorization options](https://docs.2i2c.org/admin/user-management/authentication-and-access/):
+
+        - **GitHub** - with support for GitHub Organization and Teams
+        - **CILogon** - with support for institutional logins, Google Auth, Microsoft, and ORCID
+        - **Shared Password** - simple authentication with a global shared password, ideal for workshops and webinars
+        - **Other providers** - we also run direct Google sign-in and other standard single-sign-on providers. Ask us about yours.
 
         <figure class="videofigure">
           {{< video src="videos/jupyterhub-admin.mp4">}}
@@ -91,7 +93,7 @@ sections:
           </figcaption>
         </figure>
 
-        Hub users can also configure hubs with any pre-built image from [Docker Hub](https://hub.docker.com/) or [quay.io](https://quay.io), or provide their own self-maintained images.
+        Hub users can also configure hubs with any pre-built image from [Docker Hub](https://hub.docker.com/) or [quay.io](https://quay.io), or provide their own self-maintained images. Users can even [build environments themselves](https://docs.2i2c.org/user/environment/dynamic-imagebuilding/) from a GitHub repository, right from the hub.
 
         {{< softwarestacklogos >}}
 
