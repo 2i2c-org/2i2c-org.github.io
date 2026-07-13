@@ -1,6 +1,8 @@
 ---
 # Page title
 title: 2i2c
+seo:
+  title: "2i2c: Open infrastructure for research and education"
 # Page type - we want a landing page (such as a homepage)
 type: landing
 

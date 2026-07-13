@@ -53,6 +53,6 @@
   {{ $poster = $asset_preview.RelPermalink }}
 {{ end }}
 
-<video mute {{if (.Get "controls")}}controls{{else}}autoplay loop{{end}} {{with $poster}}poster="{{.}}"{{end}} {{ with (.Get "id") }}id="video-{{.|anchorize}}"{{end}}>
+<video muted playsinline {{if (.Get "controls")}}controls{{else}}autoplay loop{{end}} {{with $poster}}poster="{{.}}"{{end}} {{ with (.Get "id") }}id="video-{{.|anchorize}}"{{end}}>
   <source src="{{$destination}}" type="video/{{$video_type}}">
 </video>

@@ -1,14 +1,14 @@
-{{ $title := .Text }}
-{{ if (in $title "github.com") }}
-  {{ $title = (delimit (slice "<i class='fa-brands fa-github'></i>" $title) " ") }}
-{{ end }}
-{{ $title = replace $title "https://github.com/" "" }}
-{{ $title = replace $title "/issues/" "#" }}
-{{ $title = replace $title "/pull/" "#" }}
-{{ $title = replace $title "https://" "" }}
-{{ $title = replace $title "http://" "" }}
+{{- $title := .Text -}}
+{{- if (in $title "github.com") -}}
+  {{- $title = (delimit (slice "<i class='fa-brands fa-github'></i>" $title) " ") -}}
+{{- end -}}
+{{- $title = replace $title "https://github.com/" "" -}}
+{{- $title = replace $title "/issues/" "#" -}}
+{{- $title = replace $title "/pull/" "#" -}}
+{{- $title = replace $title "https://" "" -}}
+{{- $title = replace $title "http://" "" -}}
 
-{{/* This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix. */}}
+{{- /* This is a custom link resolver that resolves both internal and external links, thanks to @cmd-ntrf for the helpful fix. */ -}}
 
 {{- $destination := "" -}}
 {{- if strings.HasPrefix .Destination "http" -}}

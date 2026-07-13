@@ -21,5 +21,5 @@ sections:
 
         {{< cta cta_text="View membership options and pricing" cta_link="https://sales.2i2c.org/service-description" cta_new_tab="true" >}}
 
-        Not sure yet? Learn more about [how our membership model works](/membership) or [explore our platform](/platform).
+        Not sure yet? Learn more about [how our membership model works](/membership) or [explore our platform](/platform). To evaluate our platform and service in more depth, see our [technical documentation](https://docs.2i2c.org).
 ---

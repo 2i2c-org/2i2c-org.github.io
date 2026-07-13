@@ -8,6 +8,10 @@ categories:
 - learning
 tags:
 - open source
+# Remove these in the actual post, they prevent the template from showing up
+_build:
+  render: never
+  list: never
 ---
 
 One or two sentences setting context about a common problem.

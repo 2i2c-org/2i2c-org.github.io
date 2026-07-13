@@ -6,6 +6,10 @@ categories:
   - service-enhancements
 tags:
   - incident-report
+# Remove these in the actual post, they prevent the template from showing up
+_build:
+  render: never
+  list: never
 ---
 
 On MMMM DD, YYYY our cloud infrastructure team experienced an incident with the XXXXX community hub. [See this issue for the full report](LINK TO ISSUE IN 2i2c-org/incident-reports).
