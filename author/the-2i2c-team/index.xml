@@ -1,10 +1,6 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The 2i2c Team | 2i2c</title><link>https://2i2c.org/author/the-2i2c-team/</link><atom:link href="https://2i2c.org/author/the-2i2c-team/index.xml" rel="self" type="application/rss+xml"/><description>The 2i2c Team</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 14 Oct 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>The 2i2c Team</title><link>https://2i2c.org/author/the-2i2c-team/</link></image><item><title>Impact report from 2i2c's Binder federation instance</title><link>https://2i2c.org/blog/binder-report/</link><pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/binder-report/</guid><description>&lt;p>The
-&lt;a href="https://mybinder.org" target="_blank" rel="noopener" >mybinder.org&lt;/a> service provides reproducible and interactive computational environments for the open science community. It is financially supported by a
-&lt;a href="https://mybinder.readthedocs.io/en/latest/about/federation.html" target="_blank" rel="noopener" >federation of BinderHubs&lt;/a>.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>The 2i2c Team | 2i2c</title><link>https://2i2c.org/author/the-2i2c-team/</link><atom:link href="https://2i2c.org/author/the-2i2c-team/index.xml" rel="self" type="application/rss+xml"/><description>The 2i2c Team</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 14 Oct 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>The 2i2c Team</title><link>https://2i2c.org/author/the-2i2c-team/</link></image><item><title>Impact report from 2i2c's Binder federation instance</title><link>https://2i2c.org/blog/binder-report/</link><pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/binder-report/</guid><description>&lt;p>The &lt;a href="https://mybinder.org" target="_blank" rel="noopener" >mybinder.org&lt;/a> service provides reproducible and interactive computational environments for the open science community. It is financially supported by a &lt;a href="https://mybinder.readthedocs.io/en/latest/about/federation.html" target="_blank" rel="noopener" >federation of BinderHubs&lt;/a>.
 2i2c is part of the team that manages mybinder.org, and we&amp;rsquo;re committed to supporting this critical infrastructure for open science and reproducibility.&lt;/p>
-&lt;p>We developed a more
-&lt;a href="https://2i2c.org/blog/binder-report/../binder-singlenode/" >cost-efficient process for deploying BinderHub on a single VM&lt;/a> and are now running a BinderHub at
-&lt;a href="https://2i2c.mybinder.org" target="_blank" rel="noopener" >2i2c.mybinder.org&lt;/a>.
+&lt;p>We developed a more &lt;a href="https://2i2c.org/blog/binder-report/../binder-singlenode/" >cost-efficient process for deploying BinderHub on a single VM&lt;/a> and are now running a BinderHub at &lt;a href="https://2i2c.mybinder.org" target="_blank" rel="noopener" >2i2c.mybinder.org&lt;/a>.
 This post highlights the impact we&amp;rsquo;ve had through our support of the mybinder.org federation, we&amp;rsquo;ll update it periodically.&lt;/p>
 &lt;h2 id="usage-over-time">
 Usage over time
@@ -22,64 +18,40 @@ height="673"
 loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;/figure>
 &lt;/p>
-&lt;p>&lt;em>Here are weekly launches on mybinder.org. Launches from &lt;code>2i2c.mybinder.org&lt;/code> are in red. Source:
-&lt;a href="https://hub.jupyter.org/binder-data/" target="_blank" rel="noopener" >mybinder analytics dashboard&lt;/a>.&lt;/em>&lt;/p>
-&lt;p>&lt;strong>In Q1 of 2025&lt;/strong>, &lt;code>2i2c.mybinder.org&lt;/code> launched &lt;strong>417,048 reproducible sessions&lt;/strong>. In this time, mybinder.org was primarily driven by our
-&lt;a href="https://2i2c.org/blog/binder-report/../binder-singlenode/" >new Hetzner node&lt;/a> as we worked with GESIS to stabilize their own BinderHub instance.&lt;/p>
-&lt;p>&lt;strong>In Q2 of 2025&lt;/strong>, &lt;code>2i2c.mybinder.org&lt;/code> launched &lt;strong>249,750 reproducible sessions&lt;/strong>. In this time, we worked with
-&lt;a href="https://2i2c.org/collaborators/gesis/" >GESIS&lt;/a> to deploy their BinderHub instance on the same Hetzner node setup, which let us distribute more of Binder&amp;rsquo;s load onto them.&lt;/p>
-&lt;p>&lt;strong>In Q3 of 2025&lt;/strong>, &lt;code>2i2c.mybinder.org&lt;/code> launched &lt;strong>118,083 reproducible sessions&lt;/strong>. We experienced a typical summer dip in sessions, had to
-&lt;a href="https://2i2c.org/blog/binder-report/../mybinder-analytics-fix/" >fix the analytics dashboard&lt;/a> as well as
-&lt;a href="https://2i2c.org/blog/binder-report/../mybinder-antiabuse-scanning/" >fix a TCP scanning abuse case&lt;/a> that briefly brought down the 2i2c node.&lt;/p>
+&lt;p>&lt;em>Here are weekly launches on mybinder.org. Launches from &lt;code>2i2c.mybinder.org&lt;/code> are in red. Source: &lt;a href="https://hub.jupyter.org/binder-data/" target="_blank" rel="noopener" >mybinder analytics dashboard&lt;/a>.&lt;/em>&lt;/p>
+&lt;p>&lt;strong>In Q1 of 2025&lt;/strong>, &lt;code>2i2c.mybinder.org&lt;/code> launched &lt;strong>417,048 reproducible sessions&lt;/strong>. In this time, mybinder.org was primarily driven by our &lt;a href="https://2i2c.org/blog/binder-report/../binder-singlenode/" >new Hetzner node&lt;/a> as we worked with GESIS to stabilize their own BinderHub instance.&lt;/p>
+&lt;p>&lt;strong>In Q2 of 2025&lt;/strong>, &lt;code>2i2c.mybinder.org&lt;/code> launched &lt;strong>249,750 reproducible sessions&lt;/strong>. In this time, we worked with &lt;a href="https://2i2c.org/collaborators/gesis/" >GESIS&lt;/a> to deploy their BinderHub instance on the same Hetzner node setup, which let us distribute more of Binder&amp;rsquo;s load onto them.&lt;/p>
+&lt;p>&lt;strong>In Q3 of 2025&lt;/strong>, &lt;code>2i2c.mybinder.org&lt;/code> launched &lt;strong>118,083 reproducible sessions&lt;/strong>. We experienced a typical summer dip in sessions, had to &lt;a href="https://2i2c.org/blog/binder-report/../mybinder-analytics-fix/" >fix the analytics dashboard&lt;/a> as well as &lt;a href="https://2i2c.org/blog/binder-report/../mybinder-antiabuse-scanning/" >fix a TCP scanning abuse case&lt;/a> that briefly brought down the 2i2c node.&lt;/p>
 &lt;h2 id="where-weve-made-improvements">
 Where we&amp;rsquo;ve made improvements
 &lt;a class="header-anchor" href="#where-weve-made-improvements">#&lt;/a>
 &lt;/h2>&lt;p>As part of this effort, we&amp;rsquo;ve made several improvements to the Binder and JupyterHub ecosystem. Here are a few links where you can read more:&lt;/p>
 &lt;ul>
-&lt;li>
-&lt;a href="https://2i2c.org/blog/binder-report/../binder-singlenode/" >Deploying BinderHub on a single VM with k3s&lt;/a> - Our approach to making BinderHub deployment cheaper and simpler&lt;/li>
-&lt;li>
-&lt;a href="https://2i2c.org/blog/binder-report/../jetstream-binderhub/" >Hetzner cloud infrastructure experience&lt;/a> - Cost-effective cloud hosting for mybinder.org&lt;/li>
-&lt;li>
-&lt;a href="https://2i2c.org/blog/binder-report/../mybinder-antiabuse-scanning/" >Combating TCP scanning abuse on mybinder.org&lt;/a> - Developing anti-abuse tools to prevent an abuse use-case.&lt;/li>
-&lt;li>
-&lt;a href="https://hub.jupyter.org/binder-data/" target="_blank" rel="noopener" >Improving Binder&amp;rsquo;s usage dashboard&lt;/a> - This helps us create posts like these and is useful to others as well.&lt;/li>
-&lt;li>
-&lt;a href="https://2i2c.org/blog/binder-report/../../2024/jupyterhub-binderhub-gesis/" >Integrating BinderHub with JupyterHub&lt;/a> - Working with
-&lt;a href="https://2i2c.org/collaborators/gesis/" >GESIS&lt;/a> to bring Binder&amp;rsquo;s dynamic image building capabilities to persistent JupyterHubs, empowering users to manage their own environments&lt;/li>
+&lt;li>&lt;a href="https://2i2c.org/blog/binder-report/../binder-singlenode/" >Deploying BinderHub on a single VM with k3s&lt;/a> - Our approach to making BinderHub deployment cheaper and simpler&lt;/li>
+&lt;li>&lt;a href="https://2i2c.org/blog/binder-report/../jetstream-binderhub/" >Hetzner cloud infrastructure experience&lt;/a> - Cost-effective cloud hosting for mybinder.org&lt;/li>
+&lt;li>&lt;a href="https://2i2c.org/blog/binder-report/../mybinder-antiabuse-scanning/" >Combating TCP scanning abuse on mybinder.org&lt;/a> - Developing anti-abuse tools to prevent an abuse use-case.&lt;/li>
+&lt;li>&lt;a href="https://hub.jupyter.org/binder-data/" target="_blank" rel="noopener" >Improving Binder&amp;rsquo;s usage dashboard&lt;/a> - This helps us create posts like these and is useful to others as well.&lt;/li>
+&lt;li>&lt;a href="https://2i2c.org/blog/binder-report/../../2024/jupyterhub-binderhub-gesis/" >Integrating BinderHub with JupyterHub&lt;/a> - Working with &lt;a href="https://2i2c.org/collaborators/gesis/" >GESIS&lt;/a> to bring Binder&amp;rsquo;s dynamic image building capabilities to persistent JupyterHubs, empowering users to manage their own environments&lt;/li>
 &lt;/ul>
 &lt;h2 id="acknowledgements">
 Acknowledgements
 &lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
 &lt;/h2>&lt;p>This work is made possible by:&lt;/p>
 &lt;ul>
-&lt;li>
-&lt;a href="https://2i2c.org/collaborators/gesis/" >GESIS&lt;/a> for their continued support as mybinder.org federation members&lt;/li>
-&lt;li>The
-&lt;a href="https://2i2c.org/collaborators/jupyterhub/" >JupyterHub community&lt;/a> for collaboration and support&lt;/li>
-&lt;li>Our
-&lt;a href="https://2i2c.org/members/" >member communities&lt;/a> whose fees support this work&lt;/li>
-&lt;/ul></description></item><item><title>2i2c's submissions to JupyterCon 2025</title><link>https://2i2c.org/blog/jupytercon-2025-submissions/</link><pubDate>Sat, 19 Jul 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/jupytercon-2025-submissions/</guid><description>&lt;p>&lt;em>&lt;strong>Update&lt;/strong>: The talks are now live! See this
-&lt;a href="https://2i2c.org/blog/jupytercon-2025-talks/" >blog post with links to our videos&lt;/a>.&lt;/em>&lt;/p>
-&lt;p>We were excited to hear that
-&lt;a href="https://jupytercon.com" target="_blank" rel="noopener" >JupyterCon is happening again in 2025&lt;/a>. The Call for Proposals just wrapped up, and our team was involved in preparing and submitting several directly from 2i2c as well as from the ecosystem in general.&lt;/p>
-&lt;p>Enjoy brief summaries of the proposals we contributed to below.
-&lt;a href="https://forms.fillout.com/t/uQHVMkgvsuus" target="_blank" rel="noopener" >Let us know&lt;/a> if you have ideas for future talks you want to hear from us?&lt;/p>
+&lt;li>&lt;a href="https://2i2c.org/collaborators/gesis/" >GESIS&lt;/a> for their continued support as mybinder.org federation members&lt;/li>
+&lt;li>The &lt;a href="https://2i2c.org/collaborators/jupyterhub/" >JupyterHub community&lt;/a> for collaboration and support&lt;/li>
+&lt;li>Our &lt;a href="https://2i2c.org/members/" >member communities&lt;/a> whose fees support this work&lt;/li>
+&lt;/ul></description></item><item><title>2i2c's submissions to JupyterCon 2025</title><link>https://2i2c.org/blog/jupytercon-2025-submissions/</link><pubDate>Sat, 19 Jul 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/jupytercon-2025-submissions/</guid><description>&lt;p>&lt;em>&lt;strong>Update&lt;/strong>: The talks are now live! See this &lt;a href="https://2i2c.org/blog/jupytercon-2025-talks/" >blog post with links to our videos&lt;/a>.&lt;/em>&lt;/p>
+&lt;p>We were excited to hear that &lt;a href="https://jupytercon.com" target="_blank" rel="noopener" >JupyterCon is happening again in 2025&lt;/a>. The Call for Proposals just wrapped up, and our team was involved in preparing and submitting several directly from 2i2c as well as from the ecosystem in general.&lt;/p>
+&lt;p>Enjoy brief summaries of the proposals we contributed to below. &lt;a href="https://forms.fillout.com/t/uQHVMkgvsuus" target="_blank" rel="noopener" >Let us know&lt;/a> if you have ideas for future talks you want to hear from us?&lt;/p>
 &lt;blockquote>
-&lt;p>&lt;strong>Note&lt;/strong>: Many of these submissions were written in collaboration with others in the open-source projects we participate in. Particularly, in
-&lt;a href="https://compass.hub.jupyter.org" target="_blank" rel="noopener" >JupyterHub&lt;/a> and
-&lt;a href="https://compass.jupyterbook.org" target="_blank" rel="noopener" >JupyterBook&lt;/a>.&lt;/p>
+&lt;p>&lt;strong>Note&lt;/strong>: Many of these submissions were written in collaboration with others in the open-source projects we participate in. Particularly, in &lt;a href="https://compass.hub.jupyter.org" target="_blank" rel="noopener" >JupyterHub&lt;/a> and &lt;a href="https://compass.jupyterbook.org" target="_blank" rel="noopener" >JupyterBook&lt;/a>.&lt;/p>
 &lt;/blockquote>
 &lt;h2 id="jupyterhub-a-multi-user-server-for-jupyter-notebooks">
 JupyterHub: A multi-user server for Jupyter notebooks
 &lt;a class="header-anchor" href="#jupyterhub-a-multi-user-server-for-jupyter-notebooks">#&lt;/a>
 &lt;/h2>&lt;p>This is how JupyterHub was described when it was announced in 2015, 10 years ago. The focus was on bringing Jupyter Notebooks to multiple users on shared infrastructure. The Jupyter Notebooks focus was so strong that Jupyter was even in the name of the project! Fast forward 10 years, &amp;amp; this is still the most common perception of JupyterHub.&lt;/p>
-&lt;p>However, this has not been true for a &lt;em>long&lt;/em> time now. Instead of setting up 5 different kinds of infrastructure to support your users based on what kind of &lt;em>interface&lt;/em> they like to use (
-&lt;a href="https://jupyterlab.readthedocs.io/" target="_blank" rel="noopener" >JupyterLab&lt;/a>,
-&lt;a href="https://posit.co/products/open-source/rstudio/" target="_blank" rel="noopener" >RStudio&lt;/a>, Linux Desktop tools like
-&lt;a href="https://qgis.org/" target="_blank" rel="noopener" >QGIS&lt;/a> or
-&lt;a href="https://napari.org/" target="_blank" rel="noopener" >Napari&lt;/a>,
-&lt;a href="https://code.visualstudio.com/" target="_blank" rel="noopener" >Visual Studio Code&lt;/a>, full &lt;code>ssh&lt;/code> (!?), etc) for their interactive computing, you can set up a JupyterHub that supports all of those! Meet your users where they are, rather than force them to conform to using only a specific set of tools.&lt;/p>
+&lt;p>However, this has not been true for a &lt;em>long&lt;/em> time now. Instead of setting up 5 different kinds of infrastructure to support your users based on what kind of &lt;em>interface&lt;/em> they like to use (&lt;a href="https://jupyterlab.readthedocs.io/" target="_blank" rel="noopener" >JupyterLab&lt;/a>, &lt;a href="https://posit.co/products/open-source/rstudio/" target="_blank" rel="noopener" >RStudio&lt;/a>, Linux Desktop tools like &lt;a href="https://qgis.org/" target="_blank" rel="noopener" >QGIS&lt;/a> or &lt;a href="https://napari.org/" target="_blank" rel="noopener" >Napari&lt;/a>, &lt;a href="https://code.visualstudio.com/" target="_blank" rel="noopener" >Visual Studio Code&lt;/a>, full &lt;code>ssh&lt;/code> (!?), etc) for their interactive computing, you can set up a JupyterHub that supports all of those! Meet your users where they are, rather than force them to conform to using only a specific set of tools.&lt;/p>
 &lt;p>Come to this talk to:&lt;/p>
 &lt;ul>
 &lt;li>See cool demos of various popular applications running on JupyterHub seamlessly&lt;/li>
@@ -93,21 +65,16 @@ Cloudy with a Chance of Savings: Per-User Usage and Cost Monitoring for JupyterH
 &lt;/h2>&lt;p>Cloud cost monitoring is moving beyond just preventing runaway cost explosions – it&amp;rsquo;s about empowering JupyterHub administrators with the guardrails they need to run efficient, transparent, and sustainable infrastructures. A cloud cost bill can show a broad view of services and machines provisioned, but how can we provide granular insights into each user and the value they are deriving from the hub on an application level?&lt;/p>
 &lt;p>We&amp;rsquo;ve developed several open-source components towards answering this question:&lt;/p>
 &lt;ul>
-&lt;li>&lt;strong>Metric Collection&lt;/strong> –
-&lt;a href="https://prometheus.io/" target="_blank" rel="noopener" >Prometheus&lt;/a> collects resource usage metrics (including CPU, memory, and storage) from individual user pods via standard and custom exporters.&lt;/li>
+&lt;li>&lt;strong>Metric Collection&lt;/strong> – &lt;a href="https://prometheus.io/" target="_blank" rel="noopener" >Prometheus&lt;/a> collects resource usage metrics (including CPU, memory, and storage) from individual user pods via standard and custom exporters.&lt;/li>
 &lt;li>&lt;strong>Cost Estimation&lt;/strong> – Usage is correlated with AWS cost data to estimate per-user costs.&lt;/li>
-&lt;li>&lt;strong>Visualization&lt;/strong> –
-&lt;a href="https://grafana.com/" target="_blank" rel="noopener" >Grafana&lt;/a> dashboards display rich, interactive views of usage and cost data, making it easy to monitor trends, identify high-cost workloads, and generate reports for funders and decision-makers.&lt;/li>
+&lt;li>&lt;strong>Visualization&lt;/strong> – &lt;a href="https://grafana.com/" target="_blank" rel="noopener" >Grafana&lt;/a> dashboards display rich, interactive views of usage and cost data, making it easy to monitor trends, identify high-cost workloads, and generate reports for funders and decision-makers.&lt;/li>
 &lt;/ul>
-&lt;p>This approach delivers cloud observability and cost transparency that can be reliably deployed using
-&lt;a href="https://kubernetes.io/" target="_blank" rel="noopener" >Kubernetes&lt;/a> and integrated with
-&lt;a href="https://z2jh.jupyter.org/" target="_blank" rel="noopener" >Zero to JupyterHub&lt;/a> distributions.&lt;/p>
+&lt;p>This approach delivers cloud observability and cost transparency that can be reliably deployed using &lt;a href="https://kubernetes.io/" target="_blank" rel="noopener" >Kubernetes&lt;/a> and integrated with &lt;a href="https://z2jh.jupyter.org/" target="_blank" rel="noopener" >Zero to JupyterHub&lt;/a> distributions.&lt;/p>
 &lt;h2 id="controlling-home-directory-costs-with-user-empathy-on-the-cloud-with-jupyterhub-home-nfs">
 Controlling home directory costs (with user empathy) on the cloud with jupyterhub-home-nfs
 &lt;a class="header-anchor" href="#controlling-home-directory-costs-with-user-empathy-on-the-cloud-with-jupyterhub-home-nfs">#&lt;/a>
 &lt;/h2>&lt;p>User home directories on JupyterHubs deployed in cloud providers has been a pain point for both end users and administrators. Administrators feel the pain of cloud costs for home directory storage (sometimes higher than compute!). No user wants to receive an email saying &amp;ldquo;well, this code you copy pasted downloaded 3TB of netcdf files into your home directory, and now we have used up our entire team&amp;rsquo;s cloud budget for the next 2 years&amp;rdquo; (true story).&lt;/p>
-&lt;p>The
-&lt;a href="https://github.com/2i2c-org/jupyterhub-home-nfs" target="_blank" rel="noopener" >jupyterhub-home-nfs&lt;/a> open source project is a JupyterHub native, cloud agnostic solution to these problems. Administrators can do per user limits, tune performance, report on usage and make cloud cost conscious choices around overprovisioning. It provides users empathetic guardrails to prevent them from overuse, rather than punitive gates that zap them after the fact.&lt;/p>
+&lt;p>The &lt;a href="https://github.com/2i2c-org/jupyterhub-home-nfs" target="_blank" rel="noopener" >jupyterhub-home-nfs&lt;/a> open source project is a JupyterHub native, cloud agnostic solution to these problems. Administrators can do per user limits, tune performance, report on usage and make cloud cost conscious choices around overprovisioning. It provides users empathetic guardrails to prevent them from overuse, rather than punitive gates that zap them after the fact.&lt;/p>
 &lt;p>In this short talk, we will:&lt;/p>
 &lt;ul>
 &lt;li>Describe the core of the problem, and how it manifests for users and admins.&lt;/li>
@@ -119,8 +86,7 @@ Controlling home directory costs (with user empathy) on the cloud with jupyterhu
 &lt;h2 id="rebuilding-user-trust-in-mybinderorg">
 Rebuilding user trust in &lt;code>mybinder.org&lt;/code>
 &lt;a class="header-anchor" href="#rebuilding-user-trust-in-mybinderorg">#&lt;/a>
-&lt;/h2>&lt;p>Have you clicked a
-&lt;a href="https://mybinder.org/" target="_blank" rel="noopener" >mybinder.org&lt;/a> link, waited for it to start and gave up after it took far too long to start? Or just failed?&lt;/p>
+&lt;/h2>&lt;p>Have you clicked a &lt;a href="https://mybinder.org/" target="_blank" rel="noopener" >mybinder.org&lt;/a> link, waited for it to start and gave up after it took far too long to start? Or just failed?&lt;/p>
 &lt;p>Have you stopped using mybinder.org for your tutorials, repositories and presentations because you could no longer rely on it to work each time?&lt;/p>
 &lt;p>mybinder.org is open infrastructure run by incredible volunteers (who go above and beyond constantly) in the Jupyter community. Is &amp;lsquo;slow fade into unreliability&amp;rsquo; just the fate of all openly run infrastructure?&lt;/p>
 &lt;p>But perhaps maybe, just maybe, you have tried doing that again recently, &amp;amp; noticed improvements! Launches are more reliable. Faster. The UI looks better. Maybe things are getting better?&lt;/p>
@@ -137,8 +103,7 @@ Can your JupyterHub handle your workload? Performance testing with &lt;code>jupy
 &lt;a class="header-anchor" href="#can-your-jupyterhub-handle-your-workload-performance-testing-with-jupyterhub-simulator">#&lt;/a>
 &lt;/h2>&lt;p>Your JupyterHub is all set up, and you&amp;rsquo;re excited to use it for your workshop of 60 students. Or your class of 600 students. Or your research group of 5 people with complex workflows.&lt;/p>
 &lt;p>You &lt;em>feel&lt;/em> your infrastructure should hold up fine, but do you &lt;em>know&lt;/em> if your infrastructure will hold up fine? Is that just excitement, or is there a little bit of nervousness in there too? Wouldn&amp;rsquo;t it be nice to test and know for sure?&lt;/p>
-&lt;p>&lt;code>jupyterhub-simulator&lt;/code> is an open source project that allows you to describe what you expect your users to be doing - starting servers, clicking on
-&lt;a href="https://github.com/jupyterhub/nbgitpuller" target="_blank" rel="noopener" >nbgitpuller&lt;/a> links, running notebooks, etc. Once you have described it, you can then simulate any number of users doing that workflow simultaneously, and verify that your JupyterHub can handle that workload. If it can&amp;rsquo;t, tweak your infrastructure and try again until it does!&lt;/p>
+&lt;p>&lt;code>jupyterhub-simulator&lt;/code> is an open source project that allows you to describe what you expect your users to be doing - starting servers, clicking on &lt;a href="https://github.com/jupyterhub/nbgitpuller" target="_blank" rel="noopener" >nbgitpuller&lt;/a> links, running notebooks, etc. Once you have described it, you can then simulate any number of users doing that workflow simultaneously, and verify that your JupyterHub can handle that workload. If it can&amp;rsquo;t, tweak your infrastructure and try again until it does!&lt;/p>
 &lt;p>In this talk you will learn:&lt;/p>
 &lt;ul>
 &lt;li>What is &lt;code>jupyterhub-simulator&lt;/code>?&lt;/li>
@@ -153,12 +118,7 @@ Not just for notebooks: JupyterHub in 2025
 &lt;p>JupyterHub: A multi-user server for Jupyter notebooks&lt;/p>
 &lt;/blockquote>
 &lt;p>This is how JupyterHub was described when it was announced in 2015, 10 years ago. The focus was on bringing Jupyter Notebooks to multiple users on shared infrastructure. The Jupyter Notebooks focus was so strong that Jupyter was even in the name of the project! Fast forward 10 years, &amp;amp; this is still the most common perception of JupyterHub.&lt;/p>
-&lt;p>However, this has not been true for a &lt;em>long&lt;/em> time now. Instead of setting up 5 different kinds of infrastructure to support your users based on what kind of &lt;em>interface&lt;/em> they like to use (
-&lt;a href="https://jupyterlab.readthedocs.io/" target="_blank" rel="noopener" >JupyterLab&lt;/a>,
-&lt;a href="https://posit.co/products/open-source/rstudio/" target="_blank" rel="noopener" >RStudio&lt;/a>, Linux Desktop tools like
-&lt;a href="https://qgis.org/" target="_blank" rel="noopener" >QGIS&lt;/a> or
-&lt;a href="https://napari.org/" target="_blank" rel="noopener" >Napari&lt;/a>,
-&lt;a href="https://code.visualstudio.com/" target="_blank" rel="noopener" >Visual Studio Code&lt;/a>, full &lt;code>ssh&lt;/code> (!?), etc) for their interactive computing, you can set up a JupyterHub that supports all of those! Meet your users where they are, rather than force them to conform to using only a specific set of tools.&lt;/p>
+&lt;p>However, this has not been true for a &lt;em>long&lt;/em> time now. Instead of setting up 5 different kinds of infrastructure to support your users based on what kind of &lt;em>interface&lt;/em> they like to use (&lt;a href="https://jupyterlab.readthedocs.io/" target="_blank" rel="noopener" >JupyterLab&lt;/a>, &lt;a href="https://posit.co/products/open-source/rstudio/" target="_blank" rel="noopener" >RStudio&lt;/a>, Linux Desktop tools like &lt;a href="https://qgis.org/" target="_blank" rel="noopener" >QGIS&lt;/a> or &lt;a href="https://napari.org/" target="_blank" rel="noopener" >Napari&lt;/a>, &lt;a href="https://code.visualstudio.com/" target="_blank" rel="noopener" >Visual Studio Code&lt;/a>, full &lt;code>ssh&lt;/code> (!?), etc) for their interactive computing, you can set up a JupyterHub that supports all of those! Meet your users where they are, rather than force them to conform to using only a specific set of tools.&lt;/p>
 &lt;p>Come to this talk to:&lt;/p>
 &lt;ul>
 &lt;li>See cool demos of various popular applications running on JupyterHub seamlessly&lt;/li>
@@ -169,10 +129,7 @@ Not just for notebooks: JupyterHub in 2025
 &lt;h2 id="introducing-jupyter-book-20">
 Introducing Jupyter Book 2.0
 &lt;a class="header-anchor" href="#introducing-jupyter-book-20">#&lt;/a>
-&lt;/h2>&lt;p>This is a community talk from the
-&lt;a href="https://compass.jupyterbook.org/team" target="_blank" rel="noopener" >Jupyter Book team&lt;/a>, detailing the principles behind the new
-&lt;a href="https://mystmd.org/" target="_blank" rel="noopener" >MyST Document Engine&lt;/a> and
-&lt;a href="https://next.jupyterbook.org" target="_blank" rel="noopener" >Jupyter Book 2&amp;rsquo;s upcoming release&lt;/a>. We&amp;rsquo;ll share the text when the Jupyter Book team posts it publicly.&lt;/p>
+&lt;/h2>&lt;p>This is a community talk from the &lt;a href="https://compass.jupyterbook.org/team" target="_blank" rel="noopener" >Jupyter Book team&lt;/a>, detailing the principles behind the new &lt;a href="https://mystmd.org/" target="_blank" rel="noopener" >MyST Document Engine&lt;/a> and &lt;a href="https://next.jupyterbook.org" target="_blank" rel="noopener" >Jupyter Book 2&amp;rsquo;s upcoming release&lt;/a>. We&amp;rsquo;ll share the text when the Jupyter Book team posts it publicly.&lt;/p>
 &lt;h2 id="you-dont-need-to-contribute-more-to-open-source-you-need-to-go-to-therapy">
 You don&amp;rsquo;t need to contribute more to open source, you need to go to therapy
 &lt;a class="header-anchor" href="#you-dont-need-to-contribute-more-to-open-source-you-need-to-go-to-therapy">#&lt;/a>

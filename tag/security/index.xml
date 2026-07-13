@@ -1,23 +1,13 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Security | 2i2c</title><link>https://2i2c.org/tag/security/</link><atom:link href="https://2i2c.org/tag/security/index.xml" rel="self" type="application/rss+xml"/><description>Security</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 08 Apr 2026 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Security</title><link>https://2i2c.org/tag/security/</link></image><item><title>Report from the Jupyter Security Working Group security tooling sprint</title><link>https://2i2c.org/blog/jupyter-security-sprint/</link><pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/jupyter-security-sprint/</guid><description>&lt;p>The
-&lt;a href="https://github.com/jupyter/security" target="_blank" rel="noopener" >Jupyter Security Working Group&lt;/a> recently held a Security Tooling Sprint.
-It was a timely event given the
-&lt;a href="https://blog.pypi.org/posts/2026-04-02-incident-report-litellm-telnyx-supply-chain-attack/" target="_blank" rel="noopener" >recent spate&lt;/a> of software supply chain attacks across the tech world.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Security | 2i2c</title><link>https://2i2c.org/tag/security/</link><atom:link href="https://2i2c.org/tag/security/index.xml" rel="self" type="application/rss+xml"/><description>Security</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 08 Apr 2026 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Security</title><link>https://2i2c.org/tag/security/</link></image><item><title>Report from the Jupyter Security Working Group security tooling sprint</title><link>https://2i2c.org/blog/jupyter-security-sprint/</link><pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/jupyter-security-sprint/</guid><description>&lt;p>The &lt;a href="https://github.com/jupyter/security" target="_blank" rel="noopener" >Jupyter Security Working Group&lt;/a> recently held a Security Tooling Sprint.
+It was a timely event given the &lt;a href="https://blog.pypi.org/posts/2026-04-02-incident-report-litellm-telnyx-supply-chain-attack/" target="_blank" rel="noopener" >recent spate&lt;/a> of software supply chain attacks across the tech world.&lt;/p>
 &lt;p>The sprint covered two main areas:&lt;/p>
 &lt;ul>
-&lt;li>&lt;strong>Governance and strategy&lt;/strong> — conversations about responsibility and accountability in the face of AI, with emphasis on ensuring humans are ultimately responsible for code committed to
-&lt;a href="https://2i2c.org/collaborators/jupyter/" >Jupyter&lt;/a> subprojects. The group also discussed how security could benefit from working group members regularly attending subproject meetings like the
-&lt;a href="https://2i2c.org/collaborators/jupyterhub/" >JupyterHub&lt;/a> Collaboration Cafes.&lt;/li>
+&lt;li>&lt;strong>Governance and strategy&lt;/strong> — conversations about responsibility and accountability in the face of AI, with emphasis on ensuring humans are ultimately responsible for code committed to &lt;a href="https://2i2c.org/collaborators/jupyter/" >Jupyter&lt;/a> subprojects. The group also discussed how security could benefit from working group members regularly attending subproject meetings like the &lt;a href="https://2i2c.org/collaborators/jupyterhub/" >JupyterHub&lt;/a> Collaboration Cafes.&lt;/li>
 &lt;li>&lt;strong>Automation and tools&lt;/strong> — the group evaluated several tools for improving security posture across the Jupyter ecosystem. Here are a few that stood out:
 &lt;ul>
-&lt;li>
-&lt;a href="https://semgrep.dev/" target="_blank" rel="noopener" >Semgrep&lt;/a> as an alternative vulnerability scanner to CodeQL&lt;/li>
-&lt;li>
-&lt;a href="https://github.com/anchore/grype" target="_blank" rel="noopener" >Grype&lt;/a>,
-&lt;a href="https://www.checkov.io/" target="_blank" rel="noopener" >Checkov&lt;/a>, and
-&lt;a href="https://kubescape.io/" target="_blank" rel="noopener" >Kubescape&lt;/a> for cloud infrastructure misconfiguration checks&lt;/li>
-&lt;li>
-&lt;a href="https://github.com/schemathesis/schemathesis" target="_blank" rel="noopener" >Schemathesis&lt;/a> and
-&lt;a href="https://github.com/microsoft/restler-fuzzer" target="_blank" rel="noopener" >restler-fuzzer&lt;/a> for API fuzz testing&lt;/li>
+&lt;li>&lt;a href="https://semgrep.dev/" target="_blank" rel="noopener" >Semgrep&lt;/a> as an alternative vulnerability scanner to CodeQL&lt;/li>
+&lt;li>&lt;a href="https://github.com/anchore/grype" target="_blank" rel="noopener" >Grype&lt;/a>, &lt;a href="https://www.checkov.io/" target="_blank" rel="noopener" >Checkov&lt;/a>, and &lt;a href="https://kubescape.io/" target="_blank" rel="noopener" >Kubescape&lt;/a> for cloud infrastructure misconfiguration checks&lt;/li>
+&lt;li>&lt;a href="https://github.com/schemathesis/schemathesis" target="_blank" rel="noopener" >Schemathesis&lt;/a> and &lt;a href="https://github.com/microsoft/restler-fuzzer" target="_blank" rel="noopener" >restler-fuzzer&lt;/a> for API fuzz testing&lt;/li>
 &lt;/ul>
 &lt;/li>
 &lt;/ul>
@@ -26,30 +16,25 @@ It was a timely event given the
 Acknowledgements
 &lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
 &lt;/h2>&lt;ul>
-&lt;li>Thanks to
-&lt;a href="https://github.com/jupyter/security" target="_blank" rel="noopener" >the jupyter security working group&lt;/a> for providing leadership and organizing, in particular Joe Lucas!&lt;/li>
-&lt;li>Thanks to the
-&lt;a href="https://jupyterfoundation.org" target="_blank" rel="noopener" >Jupyter Foundation&lt;/a> for funding community meetings like these.&lt;/li>
+&lt;li>Thanks to &lt;a href="https://github.com/jupyter/security" target="_blank" rel="noopener" >the jupyter security working group&lt;/a> for providing leadership and organizing, in particular Joe Lucas!&lt;/li>
+&lt;li>Thanks to the &lt;a href="https://jupyterfoundation.org" target="_blank" rel="noopener" >Jupyter Foundation&lt;/a> for funding community meetings like these.&lt;/li>
 &lt;/ul></description></item><item><title>Security report for jupyter-server-proxy: CVE-2024-28179</title><link>https://2i2c.org/blog/cve-jupyter-server-proxy/</link><pubDate>Tue, 19 Mar 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/cve-jupyter-server-proxy/</guid><description>
 &lt;h2 id="what-happened">
 What happened?
 &lt;a class="header-anchor" href="#what-happened">#&lt;/a>
-&lt;/h2>&lt;p>A few weeks ago, the JupyterHub team discovered a security vulnerability in
-&lt;a href="https://jupyter-server-proxy.readthedocs.io/en/latest/" target="_blank" rel="noopener" >the &lt;code>jupyter-server-proxy&lt;/code> package&lt;/a> that would allow potential unauthenticated access to a JupyterHub via WebSockets, allowing unauthenticated users to run arbitrary code on the JupyterHub.
+&lt;/h2>&lt;p>A few weeks ago, the JupyterHub team discovered a security vulnerability in &lt;a href="https://jupyter-server-proxy.readthedocs.io/en/latest/" target="_blank" rel="noopener" >the &lt;code>jupyter-server-proxy&lt;/code> package&lt;/a> that would allow potential unauthenticated access to a JupyterHub via WebSockets, allowing unauthenticated users to run arbitrary code on the JupyterHub.
 &lt;code>jupyter-server-proxy&lt;/code> is used by many communities to provide alternative user interfaces like RStudio and remote desktops.&lt;/p>
 &lt;p>This vulnerability was detected by the JupyterHub team, with leadership from 2i2c&amp;rsquo;s engineers. It was resolved through upstream contributions to the JupyterHub project, and we have deployed a fix that mitigates this vulnerability for all the hubs 2i2c manages.&lt;/p>
 &lt;h2 id="does-this-impact-my-2i2c-community-hub">
 Does this impact my 2i2c community hub?
 &lt;a class="header-anchor" href="#does-this-impact-my-2i2c-community-hub">#&lt;/a>
-&lt;/h2>&lt;p>We do not believe that any of 2i2c&amp;rsquo;s communities were impacted by this vulnerability, and
-&lt;a href="https://github.com/2i2c-org/infrastructure/blob/f86d128a0d045163e72802f6df287a6f46d4b738/helm-charts/basehub/values.yaml#L296" target="_blank" rel="noopener" >a patch&lt;/a> has now been pushed to all community hubs to resolve this issue.&lt;/p>
+&lt;/h2>&lt;p>We do not believe that any of 2i2c&amp;rsquo;s communities were impacted by this vulnerability, and &lt;a href="https://github.com/2i2c-org/infrastructure/blob/f86d128a0d045163e72802f6df287a6f46d4b738/helm-charts/basehub/values.yaml#L296" target="_blank" rel="noopener" >a patch&lt;/a> has now been pushed to all community hubs to resolve this issue.&lt;/p>
 &lt;p>If your community was vulnerable to this problem, you might experience slightly slower startup latency while we work out a long-term solution.&lt;/p>
 &lt;p>Since this is a vulnerability in the docker image used by our communities, we will be reaching out over the next few weeks to put a more permanent fix in place.&lt;/p>
 &lt;h2 id="where-can-i-learn-more">
 Where can I learn more?
 &lt;a class="header-anchor" href="#where-can-i-learn-more">#&lt;/a>
-&lt;/h2>&lt;p>See
-&lt;a href="https://github.com/jupyterhub/jupyter-server-proxy/security/advisories/GHSA-w3vc-fx9p-wp4v" target="_blank" rel="noopener" >the JupyterHub security advisory for CVE-2024-28179&lt;/a> for more information about the security vulnerability, including details on the mitigation we have put in place to protect our communities.&lt;/p>
+&lt;/h2>&lt;p>See &lt;a href="https://github.com/jupyterhub/jupyter-server-proxy/security/advisories/GHSA-w3vc-fx9p-wp4v" target="_blank" rel="noopener" >the JupyterHub security advisory for CVE-2024-28179&lt;/a> for more information about the security vulnerability, including details on the mitigation we have put in place to protect our communities.&lt;/p>
 &lt;h2 id="conclusion">
 Conclusion
 &lt;a class="header-anchor" href="#conclusion">#&lt;/a>
@@ -57,8 +42,7 @@ Conclusion
 We&amp;rsquo;re also proud that 2i2c&amp;rsquo;s engineers helped the JupyterHub team throughout the process.&lt;/p>
 &lt;p>This allowed our team to resolve the problem before it impacted any of 2i2c&amp;rsquo;s communities.
 Because 2i2c community infrastructure is managed in a central location, we were able to resolve this for over 80 communities with a single team rather than expecting each community to learn about and fix this problem on their own.&lt;/p>
-&lt;p>We also believe this reflects the healthy upstream relationships that we hope to encourage with our team&amp;rsquo;s
-&lt;a href="https://compass.2i2c.org/open-source/" target="_blank" rel="noopener" >Open Source strategy and practices&lt;/a>.
+&lt;p>We also believe this reflects the healthy upstream relationships that we hope to encourage with our team&amp;rsquo;s &lt;a href="https://compass.2i2c.org/open-source/" target="_blank" rel="noopener" >Open Source strategy and practices&lt;/a>.
 By working with the JupyterHub community and pushing changes upstream, we&amp;rsquo;ve resolved this issue for &lt;em>any&lt;/em> user of &lt;code>jupyter-server-proxy&lt;/code>, not just 2i2c&amp;rsquo;s own ecosystem.
 In particular, because of 2i2c&amp;rsquo;s position running hubs for many communities via Kubernetes, we were able to identify a solution that did not require every user image to be updated (as described in section &lt;strong>For JupyterHub admins of Z2JH installations&lt;/strong>).&lt;/p>
 &lt;p>We believe that all of these lead to a healthier, safer ecosystem of open source tools ❤️.&lt;/p></description></item></channel></rss>

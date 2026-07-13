@@ -1,69 +1,43 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>James Munroe | 2i2c</title><link>https://2i2c.org/author/james-munroe/</link><atom:link href="https://2i2c.org/author/james-munroe/index.xml" rel="self" type="application/rss+xml"/><description>James Munroe</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 02 Sep 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/author/james-munroe/avatar_hub371cd7a269305c27180d2a71fc22121_87959_270x270_fill_lanczos_center_3.png</url><title>James Munroe</title><link>https://2i2c.org/author/james-munroe/</link></image><item><title>Giving CCAD more control over data science infrastructure via a Catalyst Project hardware exchange</title><link>https://2i2c.org/blog/catalyst-hardware-exchange/</link><pubDate>Tue, 02 Sep 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/catalyst-hardware-exchange/</guid><description>&lt;p>2i2c has successfully completed a hardware exchange with Universidad Nacional de Córdoba&amp;rsquo;s
-&lt;a href="https://supercomputo.unc.edu.ar/" target="_blank" rel="noopener" >Centro de Computación de Alto Desempeño (CCAD)&lt;/a> through funding from the
-&lt;a href="https://catalystproject.cloud/" target="_blank" rel="noopener" >Catalyst Project&lt;/a>. CCAD used funding to purchase new on-prem computing infrastructure, significantly expanding their computing capabilities.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>James Munroe | 2i2c</title><link>https://2i2c.org/author/james-munroe/</link><atom:link href="https://2i2c.org/author/james-munroe/index.xml" rel="self" type="application/rss+xml"/><description>James Munroe</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 02 Sep 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/author/james-munroe/avatar_hub371cd7a269305c27180d2a71fc22121_87959_270x270_fill_lanczos_center_3.png</url><title>James Munroe</title><link>https://2i2c.org/author/james-munroe/</link></image><item><title>Giving CCAD more control over data science infrastructure via a Catalyst Project hardware exchange</title><link>https://2i2c.org/blog/catalyst-hardware-exchange/</link><pubDate>Tue, 02 Sep 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/catalyst-hardware-exchange/</guid><description>&lt;p>2i2c has successfully completed a hardware exchange with Universidad Nacional de Córdoba&amp;rsquo;s &lt;a href="https://supercomputo.unc.edu.ar/" target="_blank" rel="noopener" >Centro de Computación de Alto Desempeño (CCAD)&lt;/a> through funding from the &lt;a href="https://catalystproject.cloud/" target="_blank" rel="noopener" >Catalyst Project&lt;/a>. CCAD used funding to purchase new on-prem computing infrastructure, significantly expanding their computing capabilities.&lt;/p>
 &lt;p>This exchange reduces CCAD&amp;rsquo;s reliance on ongoing cloud funding while giving them direct control over their infrastructure. The new hardware will support a scalable JupyterHub deployment and provide valuable training opportunities for researchers who may work with local computing resources.&lt;/p>
 &lt;h2 id="learn-more">
 Learn more
 &lt;a class="header-anchor" href="#learn-more">#&lt;/a>
 &lt;/h2>&lt;ul>
-&lt;li>
-&lt;a href="https://supercomputo.unc.edu.ar/2025/09/02/colgando-a-boogie/" target="_blank" rel="noopener" >CCAD&amp;rsquo;s blog post about the hardware deployment&lt;/a>&lt;/li>
-&lt;li>
-&lt;a href="https://catalystproject.cloud/" target="_blank" rel="noopener" >The Catalyst Project&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://supercomputo.unc.edu.ar/2025/09/02/colgando-a-boogie/" target="_blank" rel="noopener" >CCAD&amp;rsquo;s blog post about the hardware deployment&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://catalystproject.cloud/" target="_blank" rel="noopener" >The Catalyst Project&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h2 id="acknowledgements">
 Acknowledgements
 &lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
 &lt;/h2>&lt;ul>
-&lt;li>
-&lt;a href="https://2i2c.org/collaborators/czi/" >Chan Zuckerberg Initiative&lt;/a> for their
-&lt;a href="https://2i2c.org/collaborators/catalyst/" >Catalyst Project award&lt;/a>&lt;/li>
-&lt;li>
-&lt;a href="https://supercomputo.unc.edu.ar/" target="_blank" rel="noopener" >CCAD&lt;/a> for their collaboration on this hardware exchange&lt;/li>
-&lt;/ul></description></item><item><title>James Munroe</title><link>https://2i2c.org/author/james-munroe/</link><pubDate>Tue, 02 Sep 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/author/james-munroe/</guid><description>&lt;p>James is Senior Product Manager, Open Science Enablement for 2i2c. Coming from a background as an associate professor in the Department of Physics and Physical Oceanography at
-&lt;a href="https://mun.ca" target="_blank" rel="noopener" >Memorial University of Newfoundland&lt;/a>, he is a strong advocate for enabling scientists and students to be efficient and effective in their computational workflows. Building on previous work in big data oceanography with links to the
-&lt;a href="https://pangeo.io/" target="_blank" rel="noopener" >Pangeo&lt;/a> project,
-&lt;a href="http://cosima.org.au/" target="_blank" rel="noopener" >COSIMA&lt;/a>: Consortium for Ocean-Sea Ice Modelling in Australia, and
-&lt;a href="https://cioos.ca/" target="_blank" rel="noopener" >CIOOS&lt;/a>: Canadian Integrated Ocean Observing System, James wants to bring the strength of the Jupyter ecosystem to users across a broad range of educational and research domains.&lt;/p></description></item><item><title>Open infrastructure for collaborative geoscience with Project Pythia: Learning how to deploy a BinderHub on Jetstream2</title><link>https://2i2c.org/blog/jetstream-binderhub/</link><pubDate>Wed, 12 Feb 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/jetstream-binderhub/</guid><description>
+&lt;li>&lt;a href="https://2i2c.org/collaborators/czi/" >Chan Zuckerberg Initiative&lt;/a> for their &lt;a href="https://2i2c.org/collaborators/catalyst/" >Catalyst Project award&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://supercomputo.unc.edu.ar/" target="_blank" rel="noopener" >CCAD&lt;/a> for their collaboration on this hardware exchange&lt;/li>
+&lt;/ul></description></item><item><title>James Munroe</title><link>https://2i2c.org/author/james-munroe/</link><pubDate>Tue, 02 Sep 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/author/james-munroe/</guid><description>&lt;p>James is Senior Product Manager, Open Science Enablement for 2i2c. Coming from a background as an associate professor in the Department of Physics and Physical Oceanography at &lt;a href="https://mun.ca" target="_blank" rel="noopener" >Memorial University of Newfoundland&lt;/a>, he is a strong advocate for enabling scientists and students to be efficient and effective in their computational workflows. Building on previous work in big data oceanography with links to the &lt;a href="https://pangeo.io/" target="_blank" rel="noopener" >Pangeo&lt;/a> project, &lt;a href="http://cosima.org.au/" target="_blank" rel="noopener" >COSIMA&lt;/a>: Consortium for Ocean-Sea Ice Modelling in Australia, and &lt;a href="https://cioos.ca/" target="_blank" rel="noopener" >CIOOS&lt;/a>: Canadian Integrated Ocean Observing System, James wants to bring the strength of the Jupyter ecosystem to users across a broad range of educational and research domains.&lt;/p></description></item><item><title>Open infrastructure for collaborative geoscience with Project Pythia: Learning how to deploy a BinderHub on Jetstream2</title><link>https://2i2c.org/blog/jetstream-binderhub/</link><pubDate>Wed, 12 Feb 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/jetstream-binderhub/</guid><description>
 &lt;h2 id="project-pythia-and-the-jupyter-notebook-obsolescence-problem">
 Project Pythia and the &amp;ldquo;Jupyter notebook obsolescence&amp;rdquo; problem
 &lt;a class="header-anchor" href="#project-pythia-and-the-jupyter-notebook-obsolescence-problem">#&lt;/a>
-&lt;/h2>&lt;p>
-&lt;a href="https://projectpythia.org/" target="_blank" rel="noopener" >Project Pythia&lt;/a> provides educational resources for essential software tools that enable open, reproducible and scalable geoscience, such as the
-&lt;a href="https://pangeo.io" target="_blank" rel="noopener" >Pangeo&lt;/a> stack of packages (Xarray, Dask, Jupyter). Their &lt;em>Cookbooks&lt;/em> are crowdsourced, community-curated, and open-source collections of Jupyter notebooks that demonstrate how to use these tools for cloud-native, geoscientific workflows (see our
-&lt;a href="https://2i2c.org/contentblog/2024/project-pythia-cookoff/index.md" >Project Pythia Cookoff&lt;/a> blog post). However, &amp;ldquo;Jupyter notebook obsolescence&amp;rdquo; is a common problem: tutorials that were created a few years ago may no longer work due to changes in the software ecosystem and hampers the reproducibility of scientific results. A reproducible execution environment and the infrastructure to support it are essential for the long-term sustainability of these educational resources.&lt;/p>
+&lt;/h2>&lt;p>&lt;a href="https://projectpythia.org/" target="_blank" rel="noopener" >Project Pythia&lt;/a> provides educational resources for essential software tools that enable open, reproducible and scalable geoscience, such as the &lt;a href="https://pangeo.io" target="_blank" rel="noopener" >Pangeo&lt;/a> stack of packages (Xarray, Dask, Jupyter). Their &lt;em>Cookbooks&lt;/em> are crowdsourced, community-curated, and open-source collections of Jupyter notebooks that demonstrate how to use these tools for cloud-native, geoscientific workflows (see our &lt;a href="https://2i2c.org/contentblog/2024/project-pythia-cookoff/index.md" >Project Pythia Cookoff&lt;/a> blog post). However, &amp;ldquo;Jupyter notebook obsolescence&amp;rdquo; is a common problem: tutorials that were created a few years ago may no longer work due to changes in the software ecosystem and hampers the reproducibility of scientific results. A reproducible execution environment and the infrastructure to support it are essential for the long-term sustainability of these educational resources.&lt;/p>
 &lt;h2 id="leveraging-nsf-funded-cyberinfrastructure-for-binderhub">
 Leveraging NSF-funded cyberinfrastructure for BinderHub
 &lt;a class="header-anchor" href="#leveraging-nsf-funded-cyberinfrastructure-for-binderhub">#&lt;/a>
-&lt;/h2>&lt;p>A
-&lt;a href="https://binderhub.readthedocs.io/en/latest/" target="_blank" rel="noopener" >BinderHub&lt;/a> allows users to dynamically create custom computing environments from
-&lt;a href="https://mybinder.readthedocs.io/en/latest/introduction.html#what-is-a-binder" target="_blank" rel="noopener" >Binder-ready&lt;/a> repositories containing computational notebooks and configuration files that describe the software environment required to run them. A public Binder service exists at
-&lt;a href="https://mybinder.org/" target="_blank" rel="noopener" >mybinder.org&lt;/a> (see our blog post about
-&lt;a href="https://2i2c.org/blog/binder-singlenode/" >joining the mybinder federation&lt;/a> 🎉) and is a successful example of how open cloud infrastructure can accommodate reproducible execution environments.&lt;/p>
-&lt;p>The resources available on such a public service are limited therefore 2i2c, together with Project Pythia, have been exploring how to deploy a BinderHub backed by larger resources from the NSF-funded cloud computing platform
-&lt;a href="https://jetstream-cloud.org/" target="_blank" rel="noopener" >Jetstream2&lt;/a>. This allows for larger simultaneous user loads, such as at workshops, as well as access to more powerful distributed and parallelized workflows required to process large geoscientific datasets, under a persistent resource allocation.&lt;/p>
+&lt;/h2>&lt;p>A &lt;a href="https://binderhub.readthedocs.io/en/latest/" target="_blank" rel="noopener" >BinderHub&lt;/a> allows users to dynamically create custom computing environments from &lt;a href="https://mybinder.readthedocs.io/en/latest/introduction.html#what-is-a-binder" target="_blank" rel="noopener" >Binder-ready&lt;/a> repositories containing computational notebooks and configuration files that describe the software environment required to run them. A public Binder service exists at &lt;a href="https://mybinder.org/" target="_blank" rel="noopener" >mybinder.org&lt;/a> (see our blog post about &lt;a href="https://2i2c.org/blog/binder-singlenode/" >joining the mybinder federation&lt;/a> 🎉) and is a successful example of how open cloud infrastructure can accommodate reproducible execution environments.&lt;/p>
+&lt;p>The resources available on such a public service are limited therefore 2i2c, together with Project Pythia, have been exploring how to deploy a BinderHub backed by larger resources from the NSF-funded cloud computing platform &lt;a href="https://jetstream-cloud.org/" target="_blank" rel="noopener" >Jetstream2&lt;/a>. This allows for larger simultaneous user loads, such as at workshops, as well as access to more powerful distributed and parallelized workflows required to process large geoscientific datasets, under a persistent resource allocation.&lt;/p>
 &lt;h2 id="learning-how-to-deploy-on-openstack">
 Learning how to deploy on OpenStack
 &lt;a class="header-anchor" href="#learning-how-to-deploy-on-openstack">#&lt;/a>
-&lt;/h2>&lt;p>Jetstream2 uses
-&lt;a href="https://www.openstack.org" target="_blank" rel="noopener" >OpenStack&lt;/a> in order to manage pools of compute, storage and networking resources, and for our purposes we specifically make use of OpenStack
-&lt;a href="https://docs.openstack.org/magnum/latest/" target="_blank" rel="noopener" >Magnum&lt;/a>
-&lt;a href="https://specs.openstack.org/openstack//magnum-specs/specs/bobcat/clusterapi-driver.html" target="_blank" rel="noopener" >Cluster API driver&lt;/a> to manage Kubernetes for our deployment.&lt;/p>
+&lt;/h2>&lt;p>Jetstream2 uses &lt;a href="https://www.openstack.org" target="_blank" rel="noopener" >OpenStack&lt;/a> in order to manage pools of compute, storage and networking resources, and for our purposes we specifically make use of OpenStack &lt;a href="https://docs.openstack.org/magnum/latest/" target="_blank" rel="noopener" >Magnum&lt;/a> &lt;a href="https://specs.openstack.org/openstack//magnum-specs/specs/bobcat/clusterapi-driver.html" target="_blank" rel="noopener" >Cluster API driver&lt;/a> to manage Kubernetes for our deployment.&lt;/p>
 &lt;p>Cluster API needs a &lt;code>CAPI management cluster&lt;/code> in order to manage other Kubernetes clusters, called workload clusters. On Jetstream2, this management cluster is gracefully created and operated by the Jetstream2 team, which means that the only task to worry about is creating and configuring the workload cluster.&lt;/p>
-&lt;p>For the workload cluster we used the
-&lt;a href="https://registry.terraform.io/providers/terraform-provider-openstack/openstack/latest/docs" target="_blank" rel="noopener" >Openstack Terraform provider&lt;/a> to define the cluster template, the cluster itself and the node groups in a reproducible way.&lt;/p>
+&lt;p>For the workload cluster we used the &lt;a href="https://registry.terraform.io/providers/terraform-provider-openstack/openstack/latest/docs" target="_blank" rel="noopener" >Openstack Terraform provider&lt;/a> to define the cluster template, the cluster itself and the node groups in a reproducible way.&lt;/p>
 &lt;p>After the cluster infrastructure was successfully created on Jetstream2, thanks to the 2i2c hub infrastructure being cloud agnostic as well, deploying BinderHub to Jetstream2, was a seamless experience and it was no different than on other cloud providers that we already supported.&lt;/p>
 &lt;p>We also learnt about some limitations of the Openstack Magnum driver project, which were expected given it being a relatively recent project, slowly being adopted, but they were all reported upstream and hopefully will soon be fixed.&lt;/p>
 &lt;h2 id="acknowledgements">
 Acknowledgements
 &lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
 &lt;/h2>&lt;ul>
-&lt;li>
-&lt;a href="https://jetstream-cloud.org/" target="_blank" rel="noopener" >Jetstream2&lt;/a>: Explore ACCESS allocation and Julian Pistorius for technical support&lt;/li>
-&lt;li>Thanks to
-&lt;a href="https://2i2c.org/collaborators/pythia/" >Project Pythia&lt;/a> for funding and collaborating with us on this work.&lt;/li>
-&lt;li>
-&lt;a href="https://www.zonca.dev/posts/2024-12-11-jetstream_kubernetes_magnum" target="_blank" rel="noopener" >Andrea Zonca&lt;/a> for preliminary work on Kubernetes deployments on Jetstream 2&lt;/li>
+&lt;li>&lt;a href="https://jetstream-cloud.org/" target="_blank" rel="noopener" >Jetstream2&lt;/a>: Explore ACCESS allocation and Julian Pistorius for technical support&lt;/li>
+&lt;li>Thanks to &lt;a href="https://2i2c.org/collaborators/pythia/" >Project Pythia&lt;/a> for funding and collaborating with us on this work.&lt;/li>
+&lt;li>&lt;a href="https://www.zonca.dev/posts/2024-12-11-jetstream_kubernetes_magnum" target="_blank" rel="noopener" >Andrea Zonca&lt;/a> for preliminary work on Kubernetes deployments on Jetstream 2&lt;/li>
 &lt;/ul></description></item><item><title>Enabling neuroscience in the cloud with HHMI Spyglass and MySQL on JupyterHub</title><link>https://2i2c.org/blog/hhmi-spyglass-mysql/</link><pubDate>Fri, 05 Jul 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/hhmi-spyglass-mysql/</guid><description>&lt;p>
 &lt;figure id="figure-the-hhmi-spyglass-tutorialhttpsspyglasshhmi2i2ccloud">
 &lt;div class="d-flex justify-content-center">
@@ -76,33 +50,26 @@ width="760"
 height="498"
 loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;figcaption>
-The
-&lt;a href="https://spyglass.hhmi.2i2c.cloud/" target="_blank" rel="noopener" >HHMI Spyglass tutorial&lt;/a>
+The &lt;a href="https://spyglass.hhmi.2i2c.cloud/" target="_blank" rel="noopener" >HHMI Spyglass tutorial&lt;/a>
 &lt;/figcaption>&lt;/figure>
 &lt;/p>
 &lt;h2 id="spyglass">
 Spyglass
 &lt;a class="header-anchor" href="#spyglass">#&lt;/a>
-&lt;/h2>&lt;p>
-&lt;a href="https://github.com/LorenFrankLab/spyglass" target="_blank" rel="noopener" >Spyglass&lt;/a> is a framework for reproducible and shareable neuroscience research produced by
-&lt;a href="https://github.com/LorenFrankLab" target="_blank" rel="noopener" >Loren Frank’s lab&lt;/a> at the University of California, San Francisco. Check out our
-&lt;a href="https://2i2c.org/blog/hhmi-spyglass/" >blog post about the release of their preprint&lt;/a> to read more about the methods.&lt;/p>
+&lt;/h2>&lt;p>&lt;a href="https://github.com/LorenFrankLab/spyglass" target="_blank" rel="noopener" >Spyglass&lt;/a> is a framework for reproducible and shareable neuroscience research produced by &lt;a href="https://github.com/LorenFrankLab" target="_blank" rel="noopener" >Loren Frank’s lab&lt;/a> at the University of California, San Francisco. Check out our &lt;a href="https://2i2c.org/blog/hhmi-spyglass/" >blog post about the release of their preprint&lt;/a> to read more about the methods.&lt;/p>
 &lt;p>This post focuses on the complex data storage needed for the project, which can be difficult to set up locally or at scale in the cloud. In particular, the analysis needed a MySQL database for reproducibility. This is a fairly common task across many fields. The aim of 2i2c is to enable researchers to focus on the essential complexity of what they were doing, i.e. the science, without managing the accidental complexity of how to do it &amp;ndash; in this case, setting up databases.&lt;/p>
-&lt;p>We describe how you can do this too for your own JupyterHubs. Since 2i2c commits to running our infrastructure in line with open-source values as much as possible, you can also directly see the
-&lt;a href="https://github.com/2i2c-org/infrastructure/blob/99071c38712ef8e6bed6609117ca4b894b89ae5c/config/clusters/hhmi/spyglass.values.yaml#L76" target="_blank" rel="noopener" >configuration for the hub&lt;/a> referenced in the paper.&lt;/p>
+&lt;p>We describe how you can do this too for your own JupyterHubs. Since 2i2c commits to running our infrastructure in line with open-source values as much as possible, you can also directly see the &lt;a href="https://github.com/2i2c-org/infrastructure/blob/99071c38712ef8e6bed6609117ca4b894b89ae5c/config/clusters/hhmi/spyglass.values.yaml#L76" target="_blank" rel="noopener" >configuration for the hub&lt;/a> referenced in the paper.&lt;/p>
 &lt;h2 id="what-is-a-sidecar-container">
 What is a &amp;ldquo;sidecar container&amp;rdquo;?
 &lt;a class="header-anchor" href="#what-is-a-sidecar-container">#&lt;/a>
-&lt;/h2>&lt;p>The Kubernetes definition of a
-&lt;a href="https://kubernetes.io/docs/concepts/workloads/pods/sidecar-containers/" target="_blank" rel="noopener" >sidecar container&lt;/a> is&lt;/p>
+&lt;/h2>&lt;p>The Kubernetes definition of a &lt;a href="https://kubernetes.io/docs/concepts/workloads/pods/sidecar-containers/" target="_blank" rel="noopener" >sidecar container&lt;/a> is&lt;/p>
 &lt;blockquote>
 &lt;p>Sidecar containers are the secondary containers that run along with the main application container within the same Pod. These containers are used to enhance or to extend the functionality of the primary app container by providing additional services, or functionality such as logging, monitoring, security, or data synchronization, without directly altering the primary application code.&lt;/p>
 &lt;/blockquote>
 &lt;p>In this case, the &lt;em>primary&lt;/em> app container is the JupyterLab instance where people are interactively running code and doing science. We want to provide a MySQL database as a sidecar so that each user server gets their own independent MySQL server instance (that is not accessible to anyone else). We can then run code such as&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">%%bash
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">mysql -h 127.0.0.1 -u root --password=tutorial &amp;lt; path-to-sql-file-with-data
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>to load data into the database. Note the IP address &lt;code>127.0.0.1&lt;/code> - the MySQL server is listening on localhost, even though it is not running in the &lt;em>same container&lt;/em>! Thanks to the magic of
-&lt;a href="https://lwn.net/Articles/580893/" target="_blank" rel="noopener" >Linux Network Namespaces&lt;/a>, the sidecar and main app container can share &lt;code>127.0.0.1&lt;/code>. This allows you to write code that works &lt;strong>in the exact same way&lt;/strong> on a user&amp;rsquo;s local computers as on the JupyterHub, making transitions and replication easier.&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>to load data into the database. Note the IP address &lt;code>127.0.0.1&lt;/code> - the MySQL server is listening on localhost, even though it is not running in the &lt;em>same container&lt;/em>! Thanks to the magic of &lt;a href="https://lwn.net/Articles/580893/" target="_blank" rel="noopener" >Linux Network Namespaces&lt;/a>, the sidecar and main app container can share &lt;code>127.0.0.1&lt;/code>. This allows you to write code that works &lt;strong>in the exact same way&lt;/strong> on a user&amp;rsquo;s local computers as on the JupyterHub, making transitions and replication easier.&lt;/p>
 &lt;h2 id="setting-up-sidecars-in-jupyterhub-on-kubernetes">
 Setting up sidecars in JupyterHub on Kubernetes
 &lt;a class="header-anchor" href="#setting-up-sidecars-in-jupyterhub-on-kubernetes">#&lt;/a>
@@ -110,12 +77,8 @@ Setting up sidecars in JupyterHub on Kubernetes
 &lt;p>Since this is a &lt;em>Kubernetes&lt;/em> feature, we can pass through config to it. There are
 two layers here, which are&lt;/p>
 &lt;ol>
-&lt;li>
-&lt;a href="https://z2jh.jupyter.org/en/latest/resources/reference.html#singleuser-extracontainers" target="_blank" rel="noopener" >singleuser.extraContainers&lt;/a> in
-&lt;a href="https://z2jh.jupyter.org/en/stable/" target="_blank" rel="noopener" >z2jh&lt;/a> configuration&lt;/li>
-&lt;li>
-&lt;a href="https://jupyterhub-kubespawner.readthedocs.io/en/latest/spawner.html#kubespawner.KubeSpawner.extra_containers" target="_blank" rel="noopener" >KubeSpawner.extra_containers&lt;/a> in
-&lt;a href="https://jupyterhub-kubespawner.readthedocs.io/en/latest/spawner.html" target="_blank" rel="noopener" >KubeSpawner&lt;/a> configuration&lt;/li>
+&lt;li>&lt;a href="https://z2jh.jupyter.org/en/latest/resources/reference.html#singleuser-extracontainers" target="_blank" rel="noopener" >singleuser.extraContainers&lt;/a> in &lt;a href="https://z2jh.jupyter.org/en/stable/" target="_blank" rel="noopener" >z2jh&lt;/a> configuration&lt;/li>
+&lt;li>&lt;a href="https://jupyterhub-kubespawner.readthedocs.io/en/latest/spawner.html#kubespawner.KubeSpawner.extra_containers" target="_blank" rel="noopener" >KubeSpawner.extra_containers&lt;/a> in &lt;a href="https://jupyterhub-kubespawner.readthedocs.io/en/latest/spawner.html" target="_blank" rel="noopener" >KubeSpawner&lt;/a> configuration&lt;/li>
 &lt;/ol>
 &lt;p>The hub configuration looks like&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-yaml" data-lang="yaml">&lt;span class="line">&lt;span class="cl">&lt;span class="w"> &lt;/span>&lt;span class="nt">singleuser&lt;/span>&lt;span class="p">:&lt;/span>&lt;span class="w">
@@ -142,22 +105,16 @@ two layers here, which are&lt;/p>
 &lt;/span>&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>By setting this up, we allow users to insert the code snippet above&lt;/p>
 &lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-fallback" data-lang="fallback">&lt;span class="line">&lt;span class="cl">%%bash
 &lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">mysql -h 127.0.0.1 -u root --password=tutorial &amp;lt; path-to-sql-file-with-data
-&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>into their
-&lt;a href="https://github.com/LorenFrankLab/spyglass-demo/blob/main/notebooks/00_HubQuickStart.ipynb" target="_blank" rel="noopener" >Jupyter Notebooks&lt;/a>, which gives access to their MySQL database in the hub!&lt;/p>
-&lt;p>However, this configuration does not include permanently store the database itself between hub server sessions. Thanks to a pilot in a prior collaboration with University of Texas, Austin, we do have
-&lt;a href="https://github.com/2i2c-org/infrastructure/blob/main/docs/howto/features/per-user-db.md" target="_blank" rel="noopener" >some documentation&lt;/a> on how you can enable that as well!&lt;/p>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>into their &lt;a href="https://github.com/LorenFrankLab/spyglass-demo/blob/main/notebooks/00_HubQuickStart.ipynb" target="_blank" rel="noopener" >Jupyter Notebooks&lt;/a>, which gives access to their MySQL database in the hub!&lt;/p>
+&lt;p>However, this configuration does not include permanently store the database itself between hub server sessions. Thanks to a pilot in a prior collaboration with University of Texas, Austin, we do have &lt;a href="https://github.com/2i2c-org/infrastructure/blob/main/docs/howto/features/per-user-db.md" target="_blank" rel="noopener" >some documentation&lt;/a> on how you can enable that as well!&lt;/p>
 &lt;h2 id="acknowledgements">
 Acknowledgements
 &lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
 &lt;/h2>&lt;ul>
-&lt;li>
-&lt;a href="https://2i2c.org/collaborators/hhmi/" >Howard Hughes Medical Institute&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://2i2c.org/collaborators/hhmi/" >Howard Hughes Medical Institute&lt;/a>&lt;/li>
 &lt;li>National Institute of Mental Health (NIMH), grant number RF1MH130623&lt;/li>
-&lt;li>
-&lt;a href="https://github.com/jupyterhub/kubespawner" target="_blank" rel="noopener" >kubespawner&lt;/a>&lt;/li>
-&lt;li>
-&lt;a href="https://github.com/jupyterhub/zero-to-jupyterhub-k8s/" target="_blank" rel="noopener" >zero-to-jupyterhub-k8s&lt;/a> and the
-&lt;a href="https://2i2c.org/collaborators/jupyterhub/" >JupyterHub community&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/jupyterhub/kubespawner" target="_blank" rel="noopener" >kubespawner&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/jupyterhub/zero-to-jupyterhub-k8s/" target="_blank" rel="noopener" >zero-to-jupyterhub-k8s&lt;/a> and the &lt;a href="https://2i2c.org/collaborators/jupyterhub/" >JupyterHub community&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>Hacking the Project Pythia Cook-off with MyST Markdown</title><link>https://2i2c.org/blog/project-pythia-cookoff/</link><pubDate>Tue, 18 Jun 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/project-pythia-cookoff/</guid><description>&lt;p>
 &lt;figure id="figure-photo-courtesy-of-dr-debanjana-das">
 &lt;div class="d-flex justify-content-center">
@@ -169,19 +126,12 @@ Photo courtesy of Dr Debanjana Das
 &lt;h2 id="what-is-project-pythia">
 What is Project Pythia?
 &lt;a class="header-anchor" href="#what-is-project-pythia">#&lt;/a>
-&lt;/h2>&lt;p>
-&lt;a href="https://projectpythia.org/" target="_blank" rel="noopener" >Project Pythia&lt;/a> is the education working group for
-&lt;a href="https://pangeo.io/index.html" target="_blank" rel="noopener" >Pangeo&lt;/a>, a community platform for Big Data geoscience in which 2i2c operates a cloud hub. The core aim of Project Pythia is to spearhead the creation and curation of community-driven, open-source documentation, in the form of &amp;ldquo;cookbooks&amp;rdquo;, to enable the adoption of &lt;em>open&lt;/em>, &lt;em>scalable&lt;/em> and &lt;em>reproducible&lt;/em> workflows for geoscientists.&lt;/p>
+&lt;/h2>&lt;p>&lt;a href="https://projectpythia.org/" target="_blank" rel="noopener" >Project Pythia&lt;/a> is the education working group for &lt;a href="https://pangeo.io/index.html" target="_blank" rel="noopener" >Pangeo&lt;/a>, a community platform for Big Data geoscience in which 2i2c operates a cloud hub. The core aim of Project Pythia is to spearhead the creation and curation of community-driven, open-source documentation, in the form of &amp;ldquo;cookbooks&amp;rdquo;, to enable the adoption of &lt;em>open&lt;/em>, &lt;em>scalable&lt;/em> and &lt;em>reproducible&lt;/em> workflows for geoscientists.&lt;/p>
 &lt;h2 id="what-did-2i2c-do">
 What did 2i2c do?
 &lt;a class="header-anchor" href="#what-did-2i2c-do">#&lt;/a>
-&lt;/h2>&lt;p>Jenny, James and Angus from the 2i2c team participated in the annual
-&lt;a href="https://projectpythia.org/pythia-cookoff-2024/" target="_blank" rel="noopener" >Project Pythia Cook-off 2024&lt;/a>, a hackathon where cookbook authors and collaborators can spend dedicated time on creating and maintaining their content using
-&lt;a href="https://jupyterbook.org/en/stable/intro.html" target="_blank" rel="noopener" >Jupyter Book&lt;/a> and deploying their cookbooks with GitHub actions.&lt;/p>
-&lt;p>2i2c teamed up with the infrastructure breakout group during the hackathon, led by Katelyn FitzGerald (
-&lt;a href="https://2i2c.org/collaborators/pythia/" >UCAR&lt;/a>) and Kevin Tyle (
-&lt;a href="https://2i2c.org/collaborators/pythia/" >University at Albany&lt;/a>), and members of the
-&lt;a href="https://curvenote.com" target="_blank" rel="noopener" >Curvenote&lt;/a> team also joined the group.&lt;/p>
+&lt;/h2>&lt;p>Jenny, James and Angus from the 2i2c team participated in the annual &lt;a href="https://projectpythia.org/pythia-cookoff-2024/" target="_blank" rel="noopener" >Project Pythia Cook-off 2024&lt;/a>, a hackathon where cookbook authors and collaborators can spend dedicated time on creating and maintaining their content using &lt;a href="https://jupyterbook.org/en/stable/intro.html" target="_blank" rel="noopener" >Jupyter Book&lt;/a> and deploying their cookbooks with GitHub actions.&lt;/p>
+&lt;p>2i2c teamed up with the infrastructure breakout group during the hackathon, led by Katelyn FitzGerald (&lt;a href="https://2i2c.org/collaborators/pythia/" >UCAR&lt;/a>) and Kevin Tyle (&lt;a href="https://2i2c.org/collaborators/pythia/" >University at Albany&lt;/a>), and members of the &lt;a href="https://curvenote.com" target="_blank" rel="noopener" >Curvenote&lt;/a> team also joined the group.&lt;/p>
 &lt;h2 id="day-1">
 Day 1
 &lt;a class="header-anchor" href="#day-1">#&lt;/a>
@@ -206,23 +156,16 @@ Day 2
 &lt;ul>
 &lt;li>&lt;input disabled="" type="checkbox"> Configuration files for each cookbook were difficult to update at scale. Project Pythia currently have a gallery of over 30 cookbooks!&lt;/li>
 &lt;li>&lt;input disabled="" type="checkbox"> Changes to Sphinx-based themes inherited from upstream were prone to breaking custom Project Pythia branding downstream.&lt;/li>
-&lt;li>&lt;input disabled="" type="checkbox"> Executable content was not able to run on the Project Pythia&amp;rsquo;s dedicated BinderHub hosted on
-&lt;a href="https://jetstream-cloud.org/index.html" target="_blank" rel="noopener" >JetStream2&lt;/a> (operated by NSF).&lt;/li>
+&lt;li>&lt;input disabled="" type="checkbox"> Executable content was not able to run on the Project Pythia&amp;rsquo;s dedicated BinderHub hosted on &lt;a href="https://jetstream-cloud.org/index.html" target="_blank" rel="noopener" >JetStream2&lt;/a> (operated by NSF).&lt;/li>
 &lt;li>&lt;input disabled="" type="checkbox"> Cookbooks frequently cross-referenced materials from other cookbooks to build upon pre-existing knowledge, but this was not easy to author and the reader experience was not as smooth as it could be.&lt;/li>
 &lt;/ul>
-&lt;p>Following the announcement that
-&lt;a href="https://2i2c.org/blog/project-pythia-cookoff/../myst-jupyter-book/index" >Jupyter Book 2.0 will use MyST&lt;/a> last month, Rowan (Curvenote) and Angus (2i2c) delivered a compelling demonstration of the
-&lt;a href="https://mystmd.org/" target="_blank" rel="noopener" >MyST&lt;/a> ecosystem centered around modern web-first technologies (JavaScript/TypeScript) that offers improved interactivity and accessibility.&lt;/p>
+&lt;p>Following the announcement that &lt;a href="https://2i2c.org/blog/project-pythia-cookoff/../myst-jupyter-book/index" >Jupyter Book 2.0 will use MyST&lt;/a> last month, Rowan (Curvenote) and Angus (2i2c) delivered a compelling demonstration of the &lt;a href="https://mystmd.org/" target="_blank" rel="noopener" >MyST&lt;/a> ecosystem centered around modern web-first technologies (JavaScript/TypeScript) that offers improved interactivity and accessibility.&lt;/p>
 &lt;p>In the second half of the day, we decided to use the hackathon to explore migrating the Pythia cookbooks from using a Sphinx-based to a MyST-based document structure and engine. Within one afternoon, the group migrated four cookbooks to use MyST MD&lt;/p>
 &lt;ol>
-&lt;li>
-&lt;a href="https://projectpythia-mystmd.github.io/pythia-foundations/" target="_blank" rel="noopener" >Pythia Foundations&lt;/a>&lt;/li>
-&lt;li>
-&lt;a href="https://projectpythia-mystmd.github.io/HRRR-AWS-cookbook/" target="_blank" rel="noopener" >High Resolution Rapid Refresh on AWS&lt;/a>&lt;/li>
-&lt;li>
-&lt;a href="https://projectpythia-mystmd.github.io/radar-cookbook/" target="_blank" rel="noopener" >Radar Cookbook&lt;/a>&lt;/li>
-&lt;li>
-&lt;a href="https://projectpythia-mystmd.github.io/advanced-viz-cookbook/" target="_blank" rel="noopener" >Advanced Visualization&lt;/a>.&lt;/li>
+&lt;li>&lt;a href="https://projectpythia-mystmd.github.io/pythia-foundations/" target="_blank" rel="noopener" >Pythia Foundations&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://projectpythia-mystmd.github.io/HRRR-AWS-cookbook/" target="_blank" rel="noopener" >High Resolution Rapid Refresh on AWS&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://projectpythia-mystmd.github.io/radar-cookbook/" target="_blank" rel="noopener" >Radar Cookbook&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://projectpythia-mystmd.github.io/advanced-viz-cookbook/" target="_blank" rel="noopener" >Advanced Visualization&lt;/a>.&lt;/li>
 &lt;/ol>
 &lt;p>
 &lt;figure >
@@ -243,45 +186,32 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;h2 id="day-3">
 Day 3
 &lt;a class="header-anchor" href="#day-3">#&lt;/a>
-&lt;/h2>&lt;p>We spent this day tackling support for managing a gallery of Project Pythia cookbooks at scale. See the
-&lt;a href="https://executablebooks.org/en/latest/blog/2024-06-14-project-pythia-mystmd/" target="_blank" rel="noopener" >Executable Books blog post&lt;/a> for technical details on how we&lt;/p>
+&lt;/h2>&lt;p>We spent this day tackling support for managing a gallery of Project Pythia cookbooks at scale. See the &lt;a href="https://executablebooks.org/en/latest/blog/2024-06-14-project-pythia-mystmd/" target="_blank" rel="noopener" >Executable Books blog post&lt;/a> for technical details on how we&lt;/p>
 &lt;ul>
-&lt;li>
-&lt;a href="https://github.com/projectpythia-mystmd/pythia-config" target="_blank" rel="noopener" >Centralized configuration&lt;/a>&lt;/li>
-&lt;li>Prototyped a
-&lt;a href="https://projectpythia-mystmd.github.io/" target="_blank" rel="noopener" >gallery&lt;/a> plugin in Python&lt;/li>
-&lt;li>Fixed a number of bugs related to integrated computation with
-&lt;a href="https://mystmd.org/guide/integrating-jupyter#connecting-to-a-binder" target="_blank" rel="noopener" >Binder&lt;/a> and
-&lt;a href="https://mystmd.org/guide/integrating-jupyter#jupyterlite" target="_blank" rel="noopener" >JupyterLite&lt;/a>&lt;/li>
-&lt;li>Embraced the referencing and reuse of content with
-&lt;a href="https://mystmd.org/guide/external-references#tbl-syntax-xref" target="_blank" rel="noopener" >simple markdown syntax for hover-references&lt;/a>.&lt;/li>
+&lt;li>&lt;a href="https://github.com/projectpythia-mystmd/pythia-config" target="_blank" rel="noopener" >Centralized configuration&lt;/a>&lt;/li>
+&lt;li>Prototyped a &lt;a href="https://projectpythia-mystmd.github.io/" target="_blank" rel="noopener" >gallery&lt;/a> plugin in Python&lt;/li>
+&lt;li>Fixed a number of bugs related to integrated computation with &lt;a href="https://mystmd.org/guide/integrating-jupyter#connecting-to-a-binder" target="_blank" rel="noopener" >Binder&lt;/a> and &lt;a href="https://mystmd.org/guide/integrating-jupyter#jupyterlite" target="_blank" rel="noopener" >JupyterLite&lt;/a>&lt;/li>
+&lt;li>Embraced the referencing and reuse of content with &lt;a href="https://mystmd.org/guide/external-references#tbl-syntax-xref" target="_blank" rel="noopener" >simple markdown syntax for hover-references&lt;/a>.&lt;/li>
 &lt;/ul>
-&lt;video mute autoplay loop >
+&lt;video muted playsinline autoplay loop >
 &lt;source src="https://2i2c.org/blog/project-pythia-cookoff/hover-ref.mp4" type="video/mp4">
 &lt;/video>
 &lt;h2 id="day-4">
 Day 4
 &lt;a class="header-anchor" href="#day-4">#&lt;/a>
 &lt;/h2>&lt;p>Looking to the future, we spent time reflecting on our experiences and discussing the potential, transformative impact MyST MD tooling could have in the hands of the scientific community at large, including the communities served by 2i2c. Knowledge-sharing based on static figures and PDFs would fall obsolete and give way to a dynamic, web-first approach to sharing interactive narratives backed by compute from a Jupyter server.&lt;/p>
-&lt;p>Throughout the course of the hackathon, the rate of iterated development for both end users of the community cookbook and the developers of the open-source tooling was astounding. For example, we were able to quickly expose small bugs (
-&lt;a href="https://github.com/executablebooks/mystmd/issues/1297" target="_blank" rel="noopener" >e.g. support for HTML video tags&lt;/a>) in the MyST MD tooling, which were immediately fixed upstream and released within minutes. The feedback loop that connected the user experience with the software tooling was incredibly synergistic, with immediate impact both upstream and downstream that 2i2c hopes to continue replicating across many facets of their operations.&lt;/p>
-&lt;p>Beyond the Project Pythia Cook-off, the breakout group will continue conversations around strengthening their community of practice and hopefully advocating for wider adoption of MyST MD amongst the scientific community (say hello to some of our group members at
-&lt;a href="https://www.scipy2024.scipy.org/" target="_blank" rel="noopener" >SciPy 2024&lt;/a> in July!).&lt;/p>
+&lt;p>Throughout the course of the hackathon, the rate of iterated development for both end users of the community cookbook and the developers of the open-source tooling was astounding. For example, we were able to quickly expose small bugs (&lt;a href="https://github.com/executablebooks/mystmd/issues/1297" target="_blank" rel="noopener" >e.g. support for HTML video tags&lt;/a>) in the MyST MD tooling, which were immediately fixed upstream and released within minutes. The feedback loop that connected the user experience with the software tooling was incredibly synergistic, with immediate impact both upstream and downstream that 2i2c hopes to continue replicating across many facets of their operations.&lt;/p>
+&lt;p>Beyond the Project Pythia Cook-off, the breakout group will continue conversations around strengthening their community of practice and hopefully advocating for wider adoption of MyST MD amongst the scientific community (say hello to some of our group members at &lt;a href="https://www.scipy2024.scipy.org/" target="_blank" rel="noopener" >SciPy 2024&lt;/a> in July!).&lt;/p>
 &lt;h2 id="acknowledgements">
 Acknowledgements
 &lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
 &lt;/h2>&lt;ul>
-&lt;li>
-&lt;a href="https://2i2c.org/collaborators/pythia/" >University at Albany&lt;/a> (NSF award 2324302): Led the funding acquisition, helped organize and facilitate the event&lt;/li>
-&lt;li>
-&lt;a href="https://2i2c.org/collaborators/pythia/" >UCAR&lt;/a> (NSF award 2324303): Led the planning and logistics for the event&lt;/li>
-&lt;li>
-&lt;a href="https://2i2c.org/collaborators/pythia/" >Project Pythia&lt;/a> for organizing this workshop.&lt;/li>
-&lt;li>
-&lt;a href="https://2i2c.org/collaborators/jupyter-book/" >Jupyter Book&lt;/a> for providing development and collaboration at this workshop.&lt;/li>
+&lt;li>&lt;a href="https://2i2c.org/collaborators/pythia/" >University at Albany&lt;/a> (NSF award 2324302): Led the funding acquisition, helped organize and facilitate the event&lt;/li>
+&lt;li>&lt;a href="https://2i2c.org/collaborators/pythia/" >UCAR&lt;/a> (NSF award 2324303): Led the planning and logistics for the event&lt;/li>
+&lt;li>&lt;a href="https://2i2c.org/collaborators/pythia/" >Project Pythia&lt;/a> for organizing this workshop.&lt;/li>
+&lt;li>&lt;a href="https://2i2c.org/collaborators/jupyter-book/" >Jupyter Book&lt;/a> for providing development and collaboration at this workshop.&lt;/li>
 &lt;li>2i2c / Code for Science and Society (NSF award 2324304): Provided tailored compute services and on-site support&lt;/li>
-&lt;li>
-&lt;a href="https://curvenote.com" target="_blank" rel="noopener" >Curvenote&lt;/a>: Contributed engineering cycles to MyST MD development.&lt;/li>
+&lt;li>&lt;a href="https://curvenote.com" target="_blank" rel="noopener" >Curvenote&lt;/a>: Contributed engineering cycles to MyST MD development.&lt;/li>
 &lt;/ul></description></item><item><title>Technical Content Specialist</title><link>https://2i2c.org/jobs/2023/technical-content-specialist/</link><pubDate>Wed, 12 Jul 2023 00:00:00 +0000</pubDate><guid>https://2i2c.org/jobs/2023/technical-content-specialist/</guid><description>&lt;p>2i2c manages, supports, and builds community-centric infrastructure for interactive computing in the cloud with partner communities in research and education.&lt;/p>
 &lt;p>We’re looking for a Technical Content Specialist that will create and curate documentation that supports interactive computing and cloud based open science. It intersects job titles such as “technical writer” and “content creator” while emphasizing previous experience working with open source science and related tools and a desire to share that knowledge.&lt;/p>
 &lt;!-- Insert metadata for this job -->
@@ -308,14 +238,10 @@ See &lt;a href="https://2i2c.org/jobs">the jobs page&lt;/a> for our open positio
 &lt;/ul>
 &lt;p>For more general information about 2i2c, see the links below:&lt;/p>
 &lt;ul>
-&lt;li>
-&lt;a href="https://compass.2i2c.org/" target="_blank" rel="noopener" >Our Team Compass&lt;/a>&lt;/li>
-&lt;li>
-&lt;a href="https://compass.2i2c.org/code-of-conduct/index.html" target="_blank" rel="noopener" >Our Code of Conduct&lt;/a>&lt;/li>
-&lt;li>
-&lt;a href="https://compass.2i2c.org/organization/mission.html" target="_blank" rel="noopener" >Our Mission and Values&lt;/a>&lt;/li>
-&lt;li>
-&lt;a href="https://2i2c.org/jobs/#what-its-like-to-work-at-2i2c" target="_blank" rel="noopener" >What it&amp;rsquo;s like to work at 2i2c&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://compass.2i2c.org/" target="_blank" rel="noopener" >Our Team Compass&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://compass.2i2c.org/code-of-conduct/index.html" target="_blank" rel="noopener" >Our Code of Conduct&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://compass.2i2c.org/organization/mission.html" target="_blank" rel="noopener" >Our Mission and Values&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://2i2c.org/jobs/#what-its-like-to-work-at-2i2c" target="_blank" rel="noopener" >What it&amp;rsquo;s like to work at 2i2c&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;ul class="cta-group">
 &lt;li>
@@ -367,11 +293,9 @@ What you’ll do…
 &lt;h2 id="our-benefits-and-compensation">
 Our benefits and compensation
 &lt;a class="header-anchor" href="#our-benefits-and-compensation">#&lt;/a>
-&lt;/h2>&lt;p>We believe it is important for mission-driven non-profits to also provide competitive benefits and compensation packages. See
-&lt;a href="https://2i2c.org/jobs/#our-compensation-philosophy" target="_blank" rel="noopener" >our compensation philosophy page&lt;/a> for more information about our compensation and benefits.&lt;/p>
+&lt;/h2>&lt;p>We believe it is important for mission-driven non-profits to also provide competitive benefits and compensation packages. See &lt;a href="https://2i2c.org/jobs/#our-compensation-philosophy" target="_blank" rel="noopener" >our compensation philosophy page&lt;/a> for more information about our compensation and benefits.&lt;/p>
 &lt;h2 id="how-to-apply">
 How to apply
 &lt;a class="header-anchor" href="#how-to-apply">#&lt;/a>
 &lt;/h2>&lt;p>2i2c is committed to hiring processes that are inclusive of people with many lived experiences and qualities. We try to structure our hiring process so that it is predictable, doesn’t take too long, and doesn’t take too much effort.&lt;/p>
-&lt;p>If you’d like to apply for this position, please upload your resume and cover letter using this
-&lt;a href="https://forms.gle/H43CsVUoF7e2C2Nm8" target="_blank" rel="noopener" >application form&lt;/a>. We will begin reviewing applications after &lt;strong>August 2, 2023&lt;/strong> and will fill this position on a rolling basis once we find a candidate with the right fit for the job.&lt;/p></description></item></channel></rss>
+&lt;p>If you’d like to apply for this position, please upload your resume and cover letter using this &lt;a href="https://forms.gle/H43CsVUoF7e2C2Nm8" target="_blank" rel="noopener" >application form&lt;/a>. We will begin reviewing applications after &lt;strong>August 2, 2023&lt;/strong> and will fill this position on a rolling basis once we find a candidate with the right fit for the job.&lt;/p></description></item></channel></rss>

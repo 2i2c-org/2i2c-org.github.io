@@ -1,48 +1,30 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Leadership | 2i2c</title><link>https://2i2c.org/tag/leadership/</link><atom:link href="https://2i2c.org/tag/leadership/index.xml" rel="self" type="application/rss+xml"/><description>Leadership</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 20 Nov 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Leadership</title><link>https://2i2c.org/tag/leadership/</link></image><item><title>2i2c at JupyterCon 2025: Helping communities navigate the Interactive Computing ecosystem</title><link>https://2i2c.org/blog/jupytercon-2025-talks/</link><pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/jupytercon-2025-talks/</guid><description>&lt;p>This year several team members attended
-&lt;a href="https://jupytercon.com" target="_blank" rel="noopener" >JupyterCon 2025&lt;/a> to show off our own work and the upstream work that we&amp;rsquo;ve been doing in open source.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Leadership | 2i2c</title><link>https://2i2c.org/tag/leadership/</link><atom:link href="https://2i2c.org/tag/leadership/index.xml" rel="self" type="application/rss+xml"/><description>Leadership</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 20 Nov 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Leadership</title><link>https://2i2c.org/tag/leadership/</link></image><item><title>2i2c at JupyterCon 2025: Helping communities navigate the Interactive Computing ecosystem</title><link>https://2i2c.org/blog/jupytercon-2025-talks/</link><pubDate>Thu, 20 Nov 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/jupytercon-2025-talks/</guid><description>&lt;p>This year several team members attended &lt;a href="https://jupytercon.com" target="_blank" rel="noopener" >JupyterCon 2025&lt;/a> to show off our own work and the upstream work that we&amp;rsquo;ve been doing in open source.
 JupyterCon recently shared the videos of all talks, so here&amp;rsquo;s a quick run-down of 2i2c&amp;rsquo;s contributions and where you can watch more.&lt;/p>
 &lt;h2 id="building-computational-narratives-with-jupyter-book">
 Building computational narratives with Jupyter Book
 &lt;a class="header-anchor" href="#building-computational-narratives-with-jupyter-book">#&lt;/a>
-&lt;/h2>&lt;p>
-&lt;a href="https://www.youtube.com/watch?v=3MUSteQFGq8&amp;amp;t=850s" target="_blank" rel="noopener" >Introducing Jupyter Book 2: Next-generation Tools for Creating Computational Narratives&lt;/a> - Chris Holdgraf and Rowan Cockett (
-&lt;a href="https://curvenote.com" target="_blank" rel="noopener" >Curvenote&lt;/a>) introduce the next generation of
-&lt;a href="https://2i2c.org/collaborators/jupyter-book/" >Jupyter Book&lt;/a>, built on modern tooling and designed for creating rich computational narratives.&lt;/p>
-&lt;p>
-&lt;a href="https://jupytercon2025.sched.com/event/1jNKI" target="_blank" rel="noopener" >Tutorial: Build-a-Jupyter Book With the Turing Way&lt;/a> - Angus Hollands co-led this hands-on tutorial teaching participants how to create their own Jupyter Books using examples from the Turing Way.&lt;/p>
+&lt;/h2>&lt;p>&lt;a href="https://www.youtube.com/watch?v=3MUSteQFGq8&amp;amp;t=850s" target="_blank" rel="noopener" >Introducing Jupyter Book 2: Next-generation Tools for Creating Computational Narratives&lt;/a> - Chris Holdgraf and Rowan Cockett (&lt;a href="https://curvenote.com" target="_blank" rel="noopener" >Curvenote&lt;/a>) introduce the next generation of &lt;a href="https://2i2c.org/collaborators/jupyter-book/" >Jupyter Book&lt;/a>, built on modern tooling and designed for creating rich computational narratives.&lt;/p>
+&lt;p>&lt;a href="https://jupytercon2025.sched.com/event/1jNKI" target="_blank" rel="noopener" >Tutorial: Build-a-Jupyter Book With the Turing Way&lt;/a> - Angus Hollands co-led this hands-on tutorial teaching participants how to create their own Jupyter Books using examples from the Turing Way.&lt;/p>
 &lt;h2 id="jupyterhubs-evolution-and-sustainable-operations">
 JupyterHub&amp;rsquo;s evolution and sustainable operations
 &lt;a class="header-anchor" href="#jupyterhubs-evolution-and-sustainable-operations">#&lt;/a>
-&lt;/h2>&lt;p>
-&lt;a href="https://www.youtube.com/watch?v=-wwia9YzHO" target="_blank" rel="noopener" >Not Just for Notebooks: JupyterHub in 2025&lt;/a> - Yuvi Panda explores how
-&lt;a href="https://2i2c.org/collaborators/jupyterhub/" >JupyterHub&lt;/a> is evolving beyond just notebooks to support a wider range of interactive computing workflows.&lt;/p>
-&lt;p>
-&lt;a href="https://www.youtube.com/watch?v=M5x3bTgRzVs" target="_blank" rel="noopener" >Cloudy With a Chance of Savings: Per-User Usage and Cost Monitoring for JupyterHubs in the Cloud&lt;/a> - Jenny Wong presents our recent work improving tools and approaches for monitoring per-user cloud costs in JupyterHub deployments, helping communities operate more sustainably.&lt;/p>
-&lt;p>
-&lt;a href="https://jupytercon2025.sched.com/event/1jNQC" target="_blank" rel="noopener" >Lightning Talk: Controlling Home Directory Costs (with User Empathy) on the Cloud&lt;/a> - Yuvi Panda shares practical strategies for managing home directory storage costs while keeping user experience in mind, using &lt;code>jupyterhub-home-nfs&lt;/code>.&lt;/p>
+&lt;/h2>&lt;p>&lt;a href="https://www.youtube.com/watch?v=-wwia9YzHO" target="_blank" rel="noopener" >Not Just for Notebooks: JupyterHub in 2025&lt;/a> - Yuvi Panda explores how &lt;a href="https://2i2c.org/collaborators/jupyterhub/" >JupyterHub&lt;/a> is evolving beyond just notebooks to support a wider range of interactive computing workflows.&lt;/p>
+&lt;p>&lt;a href="https://www.youtube.com/watch?v=M5x3bTgRzVs" target="_blank" rel="noopener" >Cloudy With a Chance of Savings: Per-User Usage and Cost Monitoring for JupyterHubs in the Cloud&lt;/a> - Jenny Wong presents our recent work improving tools and approaches for monitoring per-user cloud costs in JupyterHub deployments, helping communities operate more sustainably.&lt;/p>
+&lt;p>&lt;a href="https://jupytercon2025.sched.com/event/1jNQC" target="_blank" rel="noopener" >Lightning Talk: Controlling Home Directory Costs (with User Empathy) on the Cloud&lt;/a> - Yuvi Panda shares practical strategies for managing home directory storage costs while keeping user experience in mind, using &lt;code>jupyterhub-home-nfs&lt;/code>.&lt;/p>
 &lt;hr>
 &lt;p>Finally, there were also several talks that weren&amp;rsquo;t &lt;em>by&lt;/em> 2i2c team members, but were partially &lt;em>enabled&lt;/em> by 2i2c&amp;rsquo;s collaboration. We&amp;rsquo;re particularly proud of these, because it&amp;rsquo;s an example of us bringing others into the ecosystem and empowering them to contribute.&lt;/p>
 &lt;h2 id="understanding-the-jupyterhub-community">
 Understanding the JupyterHub community
 &lt;a class="header-anchor" href="#understanding-the-jupyterhub-community">#&lt;/a>
-&lt;/h2>&lt;p>
-&lt;a href="https://www.youtube.com/watch?v=NnsD_Ly49Z0" target="_blank" rel="noopener" >Findings from the Voices of JupyterHub report&lt;/a> - This community strategy talk shares insights from conversations with JupyterHub users and operators about their needs and challenges. It&amp;rsquo;s not given by a 2i2c team member, but many of us have been involved in guiding (and being participants in!) this project.&lt;/p>
+&lt;/h2>&lt;p>&lt;a href="https://www.youtube.com/watch?v=NnsD_Ly49Z0" target="_blank" rel="noopener" >Findings from the Voices of JupyterHub report&lt;/a> - This community strategy talk shares insights from conversations with JupyterHub users and operators about their needs and challenges. It&amp;rsquo;s not given by a 2i2c team member, but many of us have been involved in guiding (and being participants in!) this project.&lt;/p>
 &lt;h2 id="pythia-sharing-their-myst-journey">
 Pythia sharing their MyST journey
 &lt;a class="header-anchor" href="#pythia-sharing-their-myst-journey">#&lt;/a>
-&lt;/h2>&lt;p>
-&lt;a href="https://www.youtube.com/watch?v=SqmMoyqSU8o" target="_blank" rel="noopener" >MyST-ifying Project Pythia&lt;/a> - Julia Kent of NSF NCAR discusses
-&lt;a href="https://2i2c.org/collaborators/pythia/" >Project Pythia&lt;/a>, an open-source platform dedicated to educating geoscientists on Python for complex Earth data analysis. Learn how Project Pythia manages its expansive repository of &amp;ldquo;cookbooks&amp;rdquo; and educational content, detailing their strategic shift to MyST Markdown and
-&lt;a href="https://2i2c.org/collaborators/jupyter-book/" >Jupyter Book&lt;/a> 2 to drastically improve project sustainability and reduce maintenance overhead.&lt;/p>
+&lt;/h2>&lt;p>&lt;a href="https://www.youtube.com/watch?v=SqmMoyqSU8o" target="_blank" rel="noopener" >MyST-ifying Project Pythia&lt;/a> - Julia Kent of NSF NCAR discusses &lt;a href="https://2i2c.org/collaborators/pythia/" >Project Pythia&lt;/a>, an open-source platform dedicated to educating geoscientists on Python for complex Earth data analysis. Learn how Project Pythia manages its expansive repository of &amp;ldquo;cookbooks&amp;rdquo; and educational content, detailing their strategic shift to MyST Markdown and &lt;a href="https://2i2c.org/collaborators/jupyter-book/" >Jupyter Book&lt;/a> 2 to drastically improve project sustainability and reduce maintenance overhead.&lt;/p>
 &lt;h2 id="how-cryocloud-built-a-healthy-open-science-community">
 How CryoCloud built a healthy open science community
 &lt;a class="header-anchor" href="#how-cryocloud-built-a-healthy-open-science-community">#&lt;/a>
-&lt;/h2>&lt;p>
-&lt;a href="https://www.youtube.com/watch?v=XD72H0Dkhq8" target="_blank" rel="noopener" >Building a successful open science community in the cloud&lt;/a> - Tasha Snow shares key insights from running the
-&lt;a href="https://2i2c.org/collaborators/cryocloud/" >CryoCloud&lt;/a>
-&lt;a href="https://2i2c.org/collaborators/jupyterhub/" >JupyterHub&lt;/a>, emphasizing that a successful scientific community relies on both technology and social innovation. She shares data-driven results on how shared JupyterHubs can significantly reduce research computing costs and accelerate scientific iteration. She also explores the critical balance between platform capabilities and the need for &lt;em>social infrastructure&lt;/em> to overcome technical barriers and foster true collaboration.&lt;/p></description></item><item><title>Sharing JupyterHub's vision for more flexible application deployment at the doepy talk series.</title><link>https://2i2c.org/blog/doepy-yuvi/</link><pubDate>Wed, 03 Sep 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/doepy-yuvi/</guid><description>&lt;p>Our Technical Lead
-&lt;a href="https://2i2c.org/blog/doepy-yuvi/../../authors/yuvi-panda/_index.md" >Yuvi Panda&lt;/a> recently gave a talk at the
-&lt;a href="https://meetup.doepy.org/" target="_blank" rel="noopener" >doepy meetup&lt;/a> about JupyterHub&amp;rsquo;s interest in moving beyond the &amp;ldquo;single-user notebook application&amp;rdquo; and towards a more flexible approach to enabling administrators to deploy many different types of applications and environments.&lt;/p>
+&lt;/h2>&lt;p>&lt;a href="https://www.youtube.com/watch?v=XD72H0Dkhq8" target="_blank" rel="noopener" >Building a successful open science community in the cloud&lt;/a> - Tasha Snow shares key insights from running the &lt;a href="https://2i2c.org/collaborators/cryocloud/" >CryoCloud&lt;/a> &lt;a href="https://2i2c.org/collaborators/jupyterhub/" >JupyterHub&lt;/a>, emphasizing that a successful scientific community relies on both technology and social innovation. She shares data-driven results on how shared JupyterHubs can significantly reduce research computing costs and accelerate scientific iteration. She also explores the critical balance between platform capabilities and the need for &lt;em>social infrastructure&lt;/em> to overcome technical barriers and foster true collaboration.&lt;/p></description></item><item><title>Sharing JupyterHub's vision for more flexible application deployment at the doepy talk series.</title><link>https://2i2c.org/blog/doepy-yuvi/</link><pubDate>Wed, 03 Sep 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/doepy-yuvi/</guid><description>&lt;p>Our Technical Lead &lt;a href="https://2i2c.org/blog/doepy-yuvi/../../authors/yuvi-panda/_index.md" >Yuvi Panda&lt;/a> recently gave a talk at the &lt;a href="https://meetup.doepy.org/" target="_blank" rel="noopener" >doepy meetup&lt;/a> about JupyterHub&amp;rsquo;s interest in moving beyond the &amp;ldquo;single-user notebook application&amp;rdquo; and towards a more flexible approach to enabling administrators to deploy many different types of applications and environments.&lt;/p>
 &lt;p>Check out a video of the talk here:&lt;/p>
 &lt;div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
 &lt;iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen="allowfullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/vsbHMvvsFw8?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"
@@ -53,27 +35,19 @@ How CryoCloud built a healthy open science community
 Learn more
 &lt;a class="header-anchor" href="#learn-more">#&lt;/a>
 &lt;/h2>&lt;ul>
-&lt;li>
-&lt;a href="https://www.youtube.com/watch?v=vsbHMvvsFw8" target="_blank" rel="noopener" >YouTube video of this talk&lt;/a>&lt;/li>
-&lt;li>
-&lt;a href="https://jupyter.zulipchat.com/#narrow/channel/469744-jupyterhub/topic/JupyterHub.20in.202025.3A.20Not.20just.20for.20Jupyter.20Notebooks/near/537708184" target="_blank" rel="noopener" >Jupyter Chat about this talk&lt;/a>&lt;/li>
-&lt;li>
-&lt;a href="https://www.linkedin.com/feed/update/urn:li:activity:7364763956525092868" target="_blank" rel="noopener" >LinkedIn post announcing the talk&lt;/a>&lt;/li>
-&lt;li>
-&lt;a href="https://www.linkedin.com/posts/cameron-riddell_we-dont-use-this-code-loved-having-yuvi-activity-7369421556516601859-qOxw?utm_medium=ios_app&amp;amp;rcm=ACoAADSgbM8BXeDyQi3bGVtD7qmmJg9b20KhG6A&amp;amp;utm_source=social_share_send&amp;amp;utm_campaign=copy_link" target="_blank" rel="noopener" >LinkedIn post describing the talk&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.youtube.com/watch?v=vsbHMvvsFw8" target="_blank" rel="noopener" >YouTube video of this talk&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://jupyter.zulipchat.com/#narrow/channel/469744-jupyterhub/topic/JupyterHub.20in.202025.3A.20Not.20just.20for.20Jupyter.20Notebooks/near/537708184" target="_blank" rel="noopener" >Jupyter Chat about this talk&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.linkedin.com/feed/update/urn:li:activity:7364763956525092868" target="_blank" rel="noopener" >LinkedIn post announcing the talk&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.linkedin.com/posts/cameron-riddell_we-dont-use-this-code-loved-having-yuvi-activity-7369421556516601859-qOxw?utm_medium=ios_app&amp;amp;rcm=ACoAADSgbM8BXeDyQi3bGVtD7qmmJg9b20KhG6A&amp;amp;utm_source=social_share_send&amp;amp;utm_campaign=copy_link" target="_blank" rel="noopener" >LinkedIn post describing the talk&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h2 id="acknowledgements">
 Acknowledgements
 &lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
 &lt;/h2>&lt;ul>
-&lt;li>
-&lt;a href="https://meetup.doepy.org/" target="_blank" rel="noopener" >The doepy team&lt;/a> for inviting Yuvi to give this talk.&lt;/li>
-&lt;li>
-&lt;a href="https://2i2c.org/collaborators/jupyterhub/" >The JupyterHub team&lt;/a> for working with us on this strategy.&lt;/li>
-&lt;li>
-&lt;a href="https://2i2c.org/members/" >2i2c&amp;rsquo;s network of member communities&lt;/a> whose fees support our Foundational open source engagement.&lt;/li>
-&lt;/ul></description></item><item><title>An update to 2i2c's value proposition</title><link>https://2i2c.org/blog/value-proposition/</link><pubDate>Mon, 06 May 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/value-proposition/</guid><description>&lt;p>2i2c recently finished
-&lt;a href="https://2i2c.org/report-czi-2021" target="_blank" rel="noopener" >it&amp;rsquo;s three year retrospective&lt;/a> after closing out its original seed grant.
+&lt;li>&lt;a href="https://meetup.doepy.org/" target="_blank" rel="noopener" >The doepy team&lt;/a> for inviting Yuvi to give this talk.&lt;/li>
+&lt;li>&lt;a href="https://2i2c.org/collaborators/jupyterhub/" >The JupyterHub team&lt;/a> for working with us on this strategy.&lt;/li>
+&lt;li>&lt;a href="https://2i2c.org/members/" >2i2c&amp;rsquo;s network of member communities&lt;/a> whose fees support our Foundational open source engagement.&lt;/li>
+&lt;/ul></description></item><item><title>An update to 2i2c's value proposition</title><link>https://2i2c.org/blog/value-proposition/</link><pubDate>Mon, 06 May 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/value-proposition/</guid><description>&lt;p>2i2c recently finished &lt;a href="https://2i2c.org/report-czi-2021" target="_blank" rel="noopener" >it&amp;rsquo;s three year retrospective&lt;/a> after closing out its original seed grant.
 As part of this process, we&amp;rsquo;re revisiting our organizational strategy, structure, and overall plan, in order to incorporate the learning that we&amp;rsquo;ve done over our first three years.&lt;/p>
 &lt;p>Our &lt;strong>value proposition&lt;/strong> is a key framing for 2i2c&amp;rsquo;s intended impact, key stakeholders, and platform strategy.
 We recently completed a team exercise to refine this statement for 2i2c, and are excited to share it with you below:&lt;/p>
@@ -110,16 +84,11 @@ We&amp;rsquo;d love feedback from anyone who has an idea, a critique, or &amp;ld
 &lt;h2 id="a-recent-talk-with-this-value-proposition">
 A recent talk with this value proposition
 &lt;a class="header-anchor" href="#a-recent-talk-with-this-value-proposition">#&lt;/a>
-&lt;/h2>&lt;p>As part of this work, 2i2c&amp;rsquo;s Executive Director,
-&lt;a href="https://2i2c.org/content/authors/chris-holdgraf/" >Chris Holdgraf&lt;/a>, gave a talk about 2i2c to the
-&lt;a href="https://incentivizingopen.org" target="_blank" rel="noopener" >Incentivizing Open and Collaborative Research&lt;/a> (ICOR) community. Here are some links in case others are interested:&lt;/p>
+&lt;/h2>&lt;p>As part of this work, 2i2c&amp;rsquo;s Executive Director, &lt;a href="https://2i2c.org/content/authors/chris-holdgraf/" >Chris Holdgraf&lt;/a>, gave a talk about 2i2c to the &lt;a href="https://incentivizingopen.org" target="_blank" rel="noopener" >Incentivizing Open and Collaborative Research&lt;/a> (ICOR) community. Here are some links in case others are interested:&lt;/p>
 &lt;ul>
-&lt;li>
-&lt;a href="https://docs.google.com/presentation/d/1C-TNSI2h0181y6-z5tL9AWSRsWp9IfZqCDtcIZEs1MM/edit?usp=sharing" target="_blank" rel="noopener" >Slides for viewing&lt;/a>&lt;/li>
-&lt;li>
-&lt;a href="https://incentivizingopen.org/2024/05/data-sharing-and-analysis-in-collaborative-open-research-environments/" target="_blank" rel="noopener" >More information for the talk&lt;/a>&lt;/li>
-&lt;li>
-&lt;a href="https://vimeo.com/944769875#t=400s" target="_blank" rel="noopener" >Video link&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.google.com/presentation/d/1C-TNSI2h0181y6-z5tL9AWSRsWp9IfZqCDtcIZEs1MM/edit?usp=sharing" target="_blank" rel="noopener" >Slides for viewing&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://incentivizingopen.org/2024/05/data-sharing-and-analysis-in-collaborative-open-research-environments/" target="_blank" rel="noopener" >More information for the talk&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://vimeo.com/944769875#t=400s" target="_blank" rel="noopener" >Video link&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;p>Here&amp;rsquo;s the video below for quick reference:&lt;/p>
 &lt;iframe src="https://player.vimeo.com/video/944769875#t=400s?h=e0f92e7926" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen>&lt;/iframe>
@@ -128,7 +97,5 @@ A recent talk with this value proposition
 Acknowledgments
 &lt;a class="header-anchor" href="#acknowledgments">#&lt;/a>
 &lt;/h2>&lt;ul>
-&lt;li>Support for organizational and strategic work like this is provided by a grant from
-&lt;a href="https://2i2c.org/collaborators/czi/" >CZI&lt;/a> and fees from
-&lt;a href="https://2i2c.org/members/" >our Member Communities&lt;/a>.&lt;/li>
+&lt;li>Support for organizational and strategic work like this is provided by a grant from &lt;a href="https://2i2c.org/collaborators/czi/" >CZI&lt;/a> and fees from &lt;a href="https://2i2c.org/members/" >our Member Communities&lt;/a>.&lt;/li>
 &lt;/ul></description></item></channel></rss>

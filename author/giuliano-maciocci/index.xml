@@ -1,31 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Giuliano Maciocci | 2i2c</title><link>https://2i2c.org/author/giuliano-maciocci/</link><atom:link href="https://2i2c.org/author/giuliano-maciocci/index.xml" rel="self" type="application/rss+xml"/><description>Giuliano Maciocci</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 06 Feb 2026 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/author/giuliano-maciocci/avatar_hub476b85606dbed83ed86b6f1164e1fdb_3350_270x270_fill_q75_lanczos_center.jpg</url><title>Giuliano Maciocci</title><link>https://2i2c.org/author/giuliano-maciocci/</link></image><item><title>Announcing our public roadmap for open development</title><link>https://2i2c.org/blog/public-roadmap/</link><pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/public-roadmap/</guid><description>&lt;p>At the core of 2i2c&amp;rsquo;s service is a commitment to doing our work in a way that follows open principles and practices.
-We commit to
-&lt;a href="https://2i2c.org/open-practices/" >doing all of our work in the open&lt;/a> and
-&lt;a href="https://2i2c.org/open-technology/" >only managing and developing open infrastructure&lt;/a>.
-As part of this effort, we&amp;rsquo;re shifting our strategy to
-&lt;a href="https://2i2c.org/blog/public-roadmap/../strategy-update-2026/" >lean more heavily into co-creation&lt;/a> with member communities and open source communities.&lt;/p>
+We commit to &lt;a href="https://2i2c.org/open-practices/" >doing all of our work in the open&lt;/a> and &lt;a href="https://2i2c.org/open-technology/" >only managing and developing open infrastructure&lt;/a>.
+As part of this effort, we&amp;rsquo;re shifting our strategy to &lt;a href="https://2i2c.org/blog/public-roadmap/../strategy-update-2026/" >lean more heavily into co-creation&lt;/a> with member communities and open source communities.&lt;/p>
 &lt;p>Today we&amp;rsquo;re excited to share a first step towards making our development process more participatory, transparent, and useful: &lt;strong>we&amp;rsquo;re opening up our initiatives roadmap&lt;/strong>.
 You can find it here:&lt;/p>
-&lt;p>👉
-&lt;a href="https://2i2c.org/roadmap" target="_blank" rel="noopener" >2i2c.org/roadmap&lt;/a>&lt;/p>
+&lt;p>👉 &lt;a href="https://2i2c.org/roadmap" target="_blank" rel="noopener" >2i2c.org/roadmap&lt;/a>&lt;/p>
 &lt;p>You can find all of our roadmap initiatives in this GitHub repository (please comment and engage with us there!):&lt;/p>
-&lt;p>👉
-&lt;a href="https://github.com/2i2c-org/initiatives" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> github.com/2i2c-org/initiatives&lt;/a>&lt;/p>
-&lt;p>Moving forward, the roadmap will be a key part of our
-&lt;a href="https://2i2c.org/membership/" >service to member organizations&lt;/a>.&lt;/p>
+&lt;p>👉 &lt;a href="https://github.com/2i2c-org/initiatives" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> github.com/2i2c-org/initiatives&lt;/a>&lt;/p>
+&lt;p>Moving forward, the roadmap will be a key part of our &lt;a href="https://2i2c.org/membership/" >service to member organizations&lt;/a>.&lt;/p>
 &lt;h2 id="why-were-opening-up-our-roadmap">
 Why we&amp;rsquo;re opening up our roadmap
 &lt;a class="header-anchor" href="#why-were-opening-up-our-roadmap">#&lt;/a>
-&lt;/h2>&lt;p>At 2i2c,
-&lt;a href="https://github.com/2i2c-org/initiatives" target="_blank" rel="noopener" >initiatives drive most of our work&lt;/a>.
+&lt;/h2>&lt;p>At 2i2c, &lt;a href="https://github.com/2i2c-org/initiatives" target="_blank" rel="noopener" >initiatives drive most of our work&lt;/a>.
 They represent major chunks of value with multiple steps needed to implement and unlock it.
 They range from making core infrastructure improvements to our member network, to making upstream contributions that enable new functionality on behalf of our member communities.
 While initiatives are generally public, they are spread across many places, and we&amp;rsquo;ve managed their prioritization, sequencing, and refinement in internal team spaces.
 This made it difficult for others to follow along, signal-boost, and potentially support initiatives they wanted to see done.&lt;/p>
-&lt;p>For this reason, we decided to build a
-&lt;a href="https://2i2c.org/roadmap" target="_blank" rel="noopener" >public view of our initiatives roadmap&lt;/a>. This reflects our current team priorities and what is coming down the pipeline.&lt;/p>
-&lt;p>We&amp;rsquo;ve also put our platform initiatives in a
-&lt;a href="https://github.com/2i2c-org/initiatives" target="_blank" rel="noopener" >public repository&lt;/a>. This gives us a public space for member communities (or anybody else) to discuss, collaborate, and support ideas in the open.&lt;/p>
+&lt;p>For this reason, we decided to build a &lt;a href="https://2i2c.org/roadmap" target="_blank" rel="noopener" >public view of our initiatives roadmap&lt;/a>. This reflects our current team priorities and what is coming down the pipeline.&lt;/p>
+&lt;p>We&amp;rsquo;ve also put our platform initiatives in a &lt;a href="https://github.com/2i2c-org/initiatives" target="_blank" rel="noopener" >public repository&lt;/a>. This gives us a public space for member communities (or anybody else) to discuss, collaborate, and support ideas in the open.&lt;/p>
 &lt;p>By opening this up, we hope to accomplish these goals:&lt;/p>
 &lt;ol>
 &lt;li>&lt;strong>Make it easier for everyone to see and influence our priorities&lt;/strong>.&lt;/li>
@@ -39,14 +30,10 @@ Our hope is that this will both create more transparency and trust with our stak
 We hope to use a shared roadmap to funnel more resources into open source
 &lt;a class="header-anchor" href="#we-hope-to-use-a-shared-roadmap-to-funnel-more-resources-into-open-source">#&lt;/a>
 &lt;/h2>&lt;p>We also hope we can leverage this as a &lt;strong>shared roadmap across our member communities&lt;/strong> that helps focus our attention and drive fundraising for our work.
-To begin, we&amp;rsquo;re inviting any
-&lt;a href="https://2i2c.org/members/" >member community&lt;/a> to provide financial support for these items as a way to influence our timelines and priorities, and we&amp;rsquo;re exploring ways to facilitate fractional co-funding across our member communities to help share the cost of development across many organizations.&lt;/p>
+To begin, we&amp;rsquo;re inviting any &lt;a href="https://2i2c.org/members/" >member community&lt;/a> to provide financial support for these items as a way to influence our timelines and priorities, and we&amp;rsquo;re exploring ways to facilitate fractional co-funding across our member communities to help share the cost of development across many organizations.&lt;/p>
 &lt;p>This is an early experiment in collaborative and radically transparent development, and we will iterate and learn as we get feedback from member communities.
 We&amp;rsquo;re excited to see where this goes!&lt;/p>
-&lt;p>Please
-&lt;a href="https://2i2c.org/blog/public-roadmap/mailto:hello@2i2c.org" >give feedback on this idea&lt;/a>. If you&amp;rsquo;re interested in being a member organization of 2i2c,
-&lt;a href="https://2i2c.org/join" target="_blank" rel="noopener" >reach out to us about membership&lt;/a>.&lt;/p></description></item><item><title>Giuliano Maciocci</title><link>https://2i2c.org/author/giuliano-maciocci/</link><pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/author/giuliano-maciocci/</guid><description>&lt;p>Giuliano is a product specialist with an extensive User Experience background and strong analytical skills, I help organisations define their product development roadmaps and customer engagement strategies with a user-focused, data-driven approach that starts by building a shared understanding of what constitutes value, then structures and empowers the organisational talent needed to deliver it. (from Giuliano&amp;rsquo;s
-&lt;a href="https://www.linkedin.com/in/gmaciocci/" target="_blank" rel="noopener" >LinkedIn profile&lt;/a>)&lt;/p>
+&lt;p>Please &lt;a href="https://2i2c.org/blog/public-roadmap/mailto:hello@2i2c.org" >give feedback on this idea&lt;/a>. If you&amp;rsquo;re interested in being a member organization of 2i2c, &lt;a href="https://2i2c.org/join" target="_blank" rel="noopener" >reach out to us about membership&lt;/a>.&lt;/p></description></item><item><title>Giuliano Maciocci</title><link>https://2i2c.org/author/giuliano-maciocci/</link><pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/author/giuliano-maciocci/</guid><description>&lt;p>Giuliano is a product specialist with an extensive User Experience background and strong analytical skills, I help organisations define their product development roadmaps and customer engagement strategies with a user-focused, data-driven approach that starts by building a shared understanding of what constitutes value, then structures and empowers the organisational talent needed to deliver it. (from Giuliano&amp;rsquo;s &lt;a href="https://www.linkedin.com/in/gmaciocci/" target="_blank" rel="noopener" >LinkedIn profile&lt;/a>)&lt;/p>
 &lt;p>&lt;strong>Highlights&lt;/strong>:&lt;/p>
 &lt;ul>
 &lt;li>10+ years experience driving growth in companies&lt;/li>
@@ -55,16 +42,13 @@ We&amp;rsquo;re excited to see where this goes!&lt;/p>
 &lt;li>Led the open science product Executable Research Article&lt;/li>
 &lt;li>Led Qualcomm to $65M platform sale&lt;/li>
 &lt;li>Contributed significantly to mobile design and innovation at Adobe.&lt;/li>
-&lt;/ul></description></item><item><title>Our Product and Service goals for Q3 2025</title><link>https://2i2c.org/blog/q3-goals/</link><pubDate>Tue, 22 Jul 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/q3-goals/</guid><description>&lt;p>As we enter Q3 2025, our focus remains on enabling better cost controls for our communities and increasing flexibility for end-users. In line with our commitment to transparency, we’re sharing our platform and service objectives for the quarter and inviting feedback to ensure our direction reflects what matters most to the communities we serve. See our
-&lt;a href="https://2i2c.org/blog/q2-product-goals/" >product goals from the previous quarter here&lt;/a>.&lt;/p>
+&lt;/ul></description></item><item><title>Our Product and Service goals for Q3 2025</title><link>https://2i2c.org/blog/q3-goals/</link><pubDate>Tue, 22 Jul 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/q3-goals/</guid><description>&lt;p>As we enter Q3 2025, our focus remains on enabling better cost controls for our communities and increasing flexibility for end-users. In line with our commitment to transparency, we’re sharing our platform and service objectives for the quarter and inviting feedback to ensure our direction reflects what matters most to the communities we serve. See our &lt;a href="https://2i2c.org/blog/q2-product-goals/" >product goals from the previous quarter here&lt;/a>.&lt;/p>
 &lt;p>The themes below offer a high-level snapshot of where we aim to evolve our offerings in the coming months.&lt;/p>
 &lt;blockquote>
 &lt;p>⭐ Connect with us&lt;/p>
 &lt;ul>
-&lt;li>
-&lt;a href="https://docs.google.com/forms/u/1/d/1PXGM9_j0nyFLR1FEs7fz9x1vUuhs-J4IvoWGy5r-2aE/edit?fromCopy=true&amp;amp;ct=2" target="_blank" rel="noopener" >Give us feedback&lt;/a> about our direction and how it can improve.&lt;/li>
-&lt;li>
-&lt;a href="https://forms.fillout.com/t/uQHVMkgvsuus" target="_blank" rel="noopener" >Fund parts of this work&lt;/a> if you&amp;rsquo;re interested in making something happen.&lt;/li>
+&lt;li>&lt;a href="https://docs.google.com/forms/u/1/d/1PXGM9_j0nyFLR1FEs7fz9x1vUuhs-J4IvoWGy5r-2aE/edit?fromCopy=true&amp;amp;ct=2" target="_blank" rel="noopener" >Give us feedback&lt;/a> about our direction and how it can improve.&lt;/li>
+&lt;li>&lt;a href="https://forms.fillout.com/t/uQHVMkgvsuus" target="_blank" rel="noopener" >Fund parts of this work&lt;/a> if you&amp;rsquo;re interested in making something happen.&lt;/li>
 &lt;/ul>
 &lt;/blockquote>
 &lt;h2 id="demonstrable-reliability-of-our-infrastructure">
@@ -74,8 +58,7 @@ Demonstrable reliability of our infrastructure
 &lt;h2 id="user-level-costs-monitoring-and-group-level-usage-monitoring">
 User-level costs monitoring and group-level usage monitoring
 &lt;a class="header-anchor" href="#user-level-costs-monitoring-and-group-level-usage-monitoring">#&lt;/a>
-&lt;/h2>&lt;p>We&amp;rsquo;ll build on our recent
-&lt;a href="https://2i2c.org/blog/aws-cost-attribution/" >Grafana dashboard usage monitoring&lt;/a> to add &lt;strong>usage monitoring for user groups&lt;/strong> and begin work on &lt;strong>user-level costs monitoring&lt;/strong>. These are steps toward group-level cost tracking, which will enable better management of team and departmental expenses, especially in large institutions.&lt;/p>
+&lt;/h2>&lt;p>We&amp;rsquo;ll build on our recent &lt;a href="https://2i2c.org/blog/aws-cost-attribution/" >Grafana dashboard usage monitoring&lt;/a> to add &lt;strong>usage monitoring for user groups&lt;/strong> and begin work on &lt;strong>user-level costs monitoring&lt;/strong>. These are steps toward group-level cost tracking, which will enable better management of team and departmental expenses, especially in large institutions.&lt;/p>
 &lt;h2 id="improving-our-incident-response-capability">
 Improving our Incident Response capability
 &lt;a class="header-anchor" href="#improving-our-incident-response-capability">#&lt;/a>
@@ -91,60 +74,44 @@ Piloting a feature co-funding model
 &lt;li>&lt;strong>nbgitpuller UX improvements&lt;/strong>: Enhance nbgitpuller for sharing interactive projects via a simple link, focusing on error handling, conflict resolution, and per-user authentication for content retrieval.&lt;/li>
 &lt;/ul>
 &lt;p>As we develop this initiative, we’ll need to learn how to credit community partners who co-sponsor work and align our roadmap with the interests of the upstream communities we support.&lt;/p>
-&lt;p>If you have suggestions for improving this process, or if any features interest your community,
-&lt;a href="https://forms.fillout.com/t/uQHVMkgvsuus" target="_blank" rel="noopener" >reach out to us&lt;/a> to discuss joining other 2i2c communities in funding and accelerating their development.&lt;/p>
+&lt;p>If you have suggestions for improving this process, or if any features interest your community, &lt;a href="https://forms.fillout.com/t/uQHVMkgvsuus" target="_blank" rel="noopener" >reach out to us&lt;/a> to discuss joining other 2i2c communities in funding and accelerating their development.&lt;/p>
 &lt;h2 id="another-update-coming-in-q4">
 Another update coming in Q4
 &lt;a class="header-anchor" href="#another-update-coming-in-q4">#&lt;/a>
 &lt;/h2>&lt;p>Each quarter, we’ll share an update like this to outline our product priorities and track progress. When planning for Q4, we’ll review what we’ve accomplished and provide a community update. Stay tuned!&lt;/p>
-&lt;p>Meanwhile,
-&lt;a href="https://docs.google.com/forms/u/1/d/1PXGM9_j0nyFLR1FEs7fz9x1vUuhs-J4IvoWGy5r-2aE/edit?fromCopy=true&amp;amp;ct=2" target="_blank" rel="noopener" >let us know what you think&lt;/a> about our direction. Your feedback helps us provide the best value to our communities. Thank you!&lt;/p>
+&lt;p>Meanwhile, &lt;a href="https://docs.google.com/forms/u/1/d/1PXGM9_j0nyFLR1FEs7fz9x1vUuhs-J4IvoWGy5r-2aE/edit?fromCopy=true&amp;amp;ct=2" target="_blank" rel="noopener" >let us know what you think&lt;/a> about our direction. Your feedback helps us provide the best value to our communities. Thank you!&lt;/p>
 &lt;h2 id="acknowledgements">
 Acknowledgements
 &lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
 &lt;/h2>&lt;ul>
-&lt;li>Our strategic and organization-level work is supported by a grant from
-&lt;a href="https://2i2c.org/collaborators/navigation/" >The Navigation Fund&lt;/a> and fees from
-&lt;a href="https://2i2c.org/members/" >our member organizations&lt;/a>.&lt;/li>
-&lt;/ul></description></item><item><title>Product and team highlights from Q2 2025</title><link>https://2i2c.org/blog/q2-highlights/</link><pubDate>Mon, 21 Jul 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/q2-highlights/</guid><description>&lt;p>This post highlights what stood out to us from last quarter and reflects on the
-&lt;a href="https://2i2c.org/blog/q2-product-goals/" >targets we set at the start of the quarter&lt;/a>.&lt;/p>
+&lt;li>Our strategic and organization-level work is supported by a grant from &lt;a href="https://2i2c.org/collaborators/navigation/" >The Navigation Fund&lt;/a> and fees from &lt;a href="https://2i2c.org/members/" >our member organizations&lt;/a>.&lt;/li>
+&lt;/ul></description></item><item><title>Product and team highlights from Q2 2025</title><link>https://2i2c.org/blog/q2-highlights/</link><pubDate>Mon, 21 Jul 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/q2-highlights/</guid><description>&lt;p>This post highlights what stood out to us from last quarter and reflects on the &lt;a href="https://2i2c.org/blog/q2-product-goals/" >targets we set at the start of the quarter&lt;/a>.&lt;/p>
 &lt;p>This quarter, our team learned the importance of shipping iteratively and inviting feedback frequently. In some cases, we learned this the hard way - having spent multiple cycles developing without feedback from community representatives. In other cases, we made rapid progress by working in collaboration with community members in our network. next quarter, we are leaning into this approach as we work towards &lt;strong>building a more standardized and sustainable service&lt;/strong> for our community network.&lt;/p>
 &lt;p>We&amp;rsquo;ve experienced some disruption and more uncertainty due to the current scientific funding climate, and we&amp;rsquo;re working hard to iterate on this model with feedback from our communities to find a path towards sustainability. We&amp;rsquo;re confident that we&amp;rsquo;ll get there, and improving the value our network of community hubs is a key way to do so.&lt;/p>
 &lt;p>With that in mind, here&amp;rsquo;s what stood out from the quarter:&lt;/p>
 &lt;blockquote>
-&lt;p>⭐ Find
-&lt;a href="https://2i2c.org/blog/jupytercon-2025-submissions/" >our JupyterCon 2025 submissions here&lt;/a> to see some other things we&amp;rsquo;re excited about sharing.&lt;/p>
+&lt;p>⭐ Find &lt;a href="https://2i2c.org/blog/jupytercon-2025-submissions/" >our JupyterCon 2025 submissions here&lt;/a> to see some other things we&amp;rsquo;re excited about sharing.&lt;/p>
 &lt;/blockquote>
 &lt;h2 id="group-level-resource-monitoring">
 Group-level resource monitoring
 &lt;a class="header-anchor" href="#group-level-resource-monitoring">#&lt;/a>
-&lt;/h2>&lt;p>Building on our previous work delivering
-&lt;a href="https://2i2c.org/blog/aws-cost-attribution/" >usage monitoring using Prometheus and Grafana&lt;/a>, we&amp;rsquo;ve released
-&lt;a href="https://2i2c.org/blog/jupyterhub-groups-exporter/" >jupyterhub-groups-exporter&lt;/a>, allowing hub administrators to leverage the latest group management features in JupyterHub to monitor group-level resource usage effectively, making it easier to identify usage patterns across teams and departments.&lt;/p>
+&lt;/h2>&lt;p>Building on our previous work delivering &lt;a href="https://2i2c.org/blog/aws-cost-attribution/" >usage monitoring using Prometheus and Grafana&lt;/a>, we&amp;rsquo;ve released &lt;a href="https://2i2c.org/blog/jupyterhub-groups-exporter/" >jupyterhub-groups-exporter&lt;/a>, allowing hub administrators to leverage the latest group management features in JupyterHub to monitor group-level resource usage effectively, making it easier to identify usage patterns across teams and departments.&lt;/p>
 &lt;blockquote>
-&lt;p>⭐ Members of 2i2c&amp;rsquo;s community network can learn how to use this in
-&lt;a href="https://docs.2i2c.org/admin/monitoring/grafana-dashboards#getting-a-grafana-account" target="_blank" rel="noopener" >our user guide to usage monitoring&lt;/a>. See this
-&lt;a href="https://2i2c.org/blog/jupyterhub-groups-exporter/" >blog post announcing &lt;code>jupyterhub-groups-exporter&lt;/code>&lt;/a>.&lt;/p>
+&lt;p>⭐ Members of 2i2c&amp;rsquo;s community network can learn how to use this in &lt;a href="https://docs.2i2c.org/admin/monitoring/grafana-dashboards#getting-a-grafana-account" target="_blank" rel="noopener" >our user guide to usage monitoring&lt;/a>. See this &lt;a href="https://2i2c.org/blog/jupyterhub-groups-exporter/" >blog post announcing &lt;code>jupyterhub-groups-exporter&lt;/code>&lt;/a>.&lt;/p>
 &lt;/blockquote>
 &lt;h2 id="improve-creating-and-sharing-custom-environments">
 Improve creating and sharing custom environments
 &lt;a class="header-anchor" href="#improve-creating-and-sharing-custom-environments">#&lt;/a>
-&lt;/h2>&lt;p>Last year we introduced
-&lt;a href="https://2i2c.org/blog/jupyterhub-fancy-profiles-rollout/" >customizable servers via profile lists&lt;/a>. We&amp;rsquo;re building on that - servers can now be configured to
-&lt;a href="https://docs.2i2c.org/user/environment/dynamic-imagebuilding" target="_blank" rel="noopener" >allow users to dynamically specify, build, and share their own custom environment images&lt;/a> without the need for a hub administrator. This will allow community champions with diverse user bases to give their users greater flexibility to support a wide variety of custom computational workflows, accelerating knowledge discovery and sharing. Look out for a blog post on this development in the coming weeks and months.&lt;/p>
+&lt;/h2>&lt;p>Last year we introduced &lt;a href="https://2i2c.org/blog/jupyterhub-fancy-profiles-rollout/" >customizable servers via profile lists&lt;/a>. We&amp;rsquo;re building on that - servers can now be configured to &lt;a href="https://docs.2i2c.org/user/environment/dynamic-imagebuilding" target="_blank" rel="noopener" >allow users to dynamically specify, build, and share their own custom environment images&lt;/a> without the need for a hub administrator. This will allow community champions with diverse user bases to give their users greater flexibility to support a wide variety of custom computational workflows, accelerating knowledge discovery and sharing. Look out for a blog post on this development in the coming weeks and months.&lt;/p>
 &lt;blockquote>
-&lt;p>⭐ Members of 2i2c&amp;rsquo;s community network can learn how to use this in our &lt;strong>
-&lt;a href="https://docs.2i2c.org/user/environment/dynamic-imagebuilding" target="_blank" rel="noopener" >dynamic image building quick start guide&lt;/a>&lt;/strong>.&lt;/p>
+&lt;p>⭐ Members of 2i2c&amp;rsquo;s community network can learn how to use this in our &lt;strong>&lt;a href="https://docs.2i2c.org/user/environment/dynamic-imagebuilding" target="_blank" rel="noopener" >dynamic image building quick start guide&lt;/a>&lt;/strong>.&lt;/p>
 &lt;/blockquote>
 &lt;h2 id="co-located-narrative-content-with-out-of-the-box-jupyter-book-support">
 Co-located narrative content with out-of-the-box Jupyter Book support
 &lt;a class="header-anchor" href="#co-located-narrative-content-with-out-of-the-box-jupyter-book-support">#&lt;/a>
-&lt;/h2>&lt;p>Central to our communities&amp;rsquo; work is sharing new findings, best practices, and community resources. To facilitate that, we&amp;rsquo;ve added support for
-&lt;a href="http://next.jupyterbook.org" target="_blank" rel="noopener" >Jupyter Book 2&lt;/a> for all of our member communities. Our communities can rapidly build interactive starter documentation and provide users with a rich, interactive, and informative onboarding experience. With a suite of customizable landing-page layouts, colour themes, and component galleries ready to match a community&amp;rsquo;s branding, it&amp;rsquo;s now easier than ever to couple a hub with its own co-located narrative content.&lt;/p>
+&lt;/h2>&lt;p>Central to our communities&amp;rsquo; work is sharing new findings, best practices, and community resources. To facilitate that, we&amp;rsquo;ve added support for &lt;a href="http://next.jupyterbook.org" target="_blank" rel="noopener" >Jupyter Book 2&lt;/a> for all of our member communities. Our communities can rapidly build interactive starter documentation and provide users with a rich, interactive, and informative onboarding experience. With a suite of customizable landing-page layouts, colour themes, and component galleries ready to match a community&amp;rsquo;s branding, it&amp;rsquo;s now easier than ever to couple a hub with its own co-located narrative content.&lt;/p>
 &lt;blockquote>
-&lt;p>⭐ Members of 2i2c&amp;rsquo;s community network can learn how to use this in
-&lt;a href="https://docs.2i2c.org/admin/monitoring/cost-users" target="_blank" rel="noopener" >our user guide to documentation and sharing&lt;/a>. See
-&lt;a href="https://2i2c.org/blog/jb-for-communities/" >this blog post for an announcement&lt;/a>.&lt;/p>
+&lt;p>⭐ Members of 2i2c&amp;rsquo;s community network can learn how to use this in &lt;a href="https://docs.2i2c.org/admin/monitoring/cost-users" target="_blank" rel="noopener" >our user guide to documentation and sharing&lt;/a>. See &lt;a href="https://2i2c.org/blog/jb-for-communities/" >this blog post for an announcement&lt;/a>.&lt;/p>
 &lt;/blockquote>
 &lt;h2 id="a-better-onboarding-experience-for-our-communities">
 A better onboarding experience for our communities
@@ -158,29 +125,23 @@ Efforts to improve and formalize the services we deliver to our communities
 &lt;a class="header-anchor" href="#efforts-to-improve-and-formalize-the-services-we-deliver-to-our-communities">#&lt;/a>
 &lt;/h2>&lt;p>As 2i2c has grown over the past few years, it organically developed internal processes for handling common tasks such as the management, rollout and maintenance of hubs, as well as expect consulting to help our communities get the most value out of their hubs. Earlier in the year, we realised it was time to review and refine these processes to better serve our growing community network. As a result of this exercise, we now have tighter service definitions and best practices which clarify what service levels our communities can expect, and how we can internally meet those expectations. We will be publishing our service definitions in the coming months as they are finalized, to ensure full transparency with our communities.&lt;/p>
 &lt;blockquote>
-&lt;p>⭐ You can learn more about our efforts to standardize and scale our services by
-&lt;a href="http://2i2c.org/blog" target="_blank" rel="noopener" >following the 2i2c blog&lt;/a>, where we&amp;rsquo;ll share our work as it stabilizes.&lt;/p>
+&lt;p>⭐ You can learn more about our efforts to standardize and scale our services by &lt;a href="http://2i2c.org/blog" target="_blank" rel="noopener" >following the 2i2c blog&lt;/a>, where we&amp;rsquo;ll share our work as it stabilizes.&lt;/p>
 &lt;/blockquote>
 &lt;h2 id="another-update-coming-in-q3">
 Another update coming in Q3
 &lt;a class="header-anchor" href="#another-update-coming-in-q3">#&lt;/a>
-&lt;/h2>&lt;p>We&amp;rsquo;ll be announcing the focus for our next quarter in a follow-up post, so stay tuned for our next roadmap update, and don&amp;rsquo;t forget to
-&lt;a href="https://docs.google.com/forms/d/e/1FAIpQLSfo6JFr9L5gEFpk_QjoR23YZ9GHXYaO-3WZWZV3qRz8pj7dbg/viewform?usp=dialog" target="_blank" rel="noopener" >let us know what you think&lt;/a> of our direction - we welcome your feedback!&lt;/p>
+&lt;/h2>&lt;p>We&amp;rsquo;ll be announcing the focus for our next quarter in a follow-up post, so stay tuned for our next roadmap update, and don&amp;rsquo;t forget to &lt;a href="https://docs.google.com/forms/d/e/1FAIpQLSfo6JFr9L5gEFpk_QjoR23YZ9GHXYaO-3WZWZV3qRz8pj7dbg/viewform?usp=dialog" target="_blank" rel="noopener" >let us know what you think&lt;/a> of our direction - we welcome your feedback!&lt;/p>
 &lt;h2 id="acknowledgements">
 Acknowledgements
 &lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
 &lt;/h2>&lt;ul>
-&lt;li>Thanks to
-&lt;a href="https://2i2c.org/collaborators/navigation/" >The Navigation Fund&lt;/a> for core support to 2i2c which funds this strategic and organizational work.&lt;/li>
-&lt;/ul></description></item><item><title>Our Product and Service goals for Q2 2025</title><link>https://2i2c.org/blog/q2-product-goals/</link><pubDate>Wed, 16 Apr 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/q2-product-goals/</guid><description>&lt;p>&lt;em>As we head into Q2 of 2025, we continue to focus our work delivering on a small set of core themes that reflect our communities’ most pressing needs. As a part of this process, we want to continue sharing our platform and service goals in an effort to remain transparent, as well as to provide our communities with an opportunity to give us feedback on our direction, and on what’s important for them. See
-&lt;a href="https://2i2c.org/blog/q1-product-goals/" >last quarter’s product goals here&lt;/a>.&lt;/em>&lt;/p>
-&lt;p>The following themes are not guarantees, but should provide a high level view on how we plan to improve our product and services offerings in the next quarter. &lt;strong>If your organization has funding available to support any of the enhancements below,
-&lt;a href="https://forms.fillout.com/t/uQHVMkgvsuus" target="_blank" rel="noopener" >reach out to us&lt;/a> and we can discuss how you can shape our priorities and outcomes&lt;/strong>.&lt;/p>
+&lt;li>Thanks to &lt;a href="https://2i2c.org/collaborators/navigation/" >The Navigation Fund&lt;/a> for core support to 2i2c which funds this strategic and organizational work.&lt;/li>
+&lt;/ul></description></item><item><title>Our Product and Service goals for Q2 2025</title><link>https://2i2c.org/blog/q2-product-goals/</link><pubDate>Wed, 16 Apr 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/q2-product-goals/</guid><description>&lt;p>&lt;em>As we head into Q2 of 2025, we continue to focus our work delivering on a small set of core themes that reflect our communities’ most pressing needs. As a part of this process, we want to continue sharing our platform and service goals in an effort to remain transparent, as well as to provide our communities with an opportunity to give us feedback on our direction, and on what’s important for them. See &lt;a href="https://2i2c.org/blog/q1-product-goals/" >last quarter’s product goals here&lt;/a>.&lt;/em>&lt;/p>
+&lt;p>The following themes are not guarantees, but should provide a high level view on how we plan to improve our product and services offerings in the next quarter. &lt;strong>If your organization has funding available to support any of the enhancements below, &lt;a href="https://forms.fillout.com/t/uQHVMkgvsuus" target="_blank" rel="noopener" >reach out to us&lt;/a> and we can discuss how you can shape our priorities and outcomes&lt;/strong>.&lt;/p>
 &lt;h2 id="give-administrators-more-control">
 Give administrators more control
 &lt;a class="header-anchor" href="#give-administrators-more-control">#&lt;/a>
-&lt;/h2>&lt;p>The implementation of
-&lt;a href="https://2i2c.org/blog/per-user-storage-quota-gcp/" >per-user storage quotas&lt;/a> in Q1 was the start of a set of product initiatives aimed at giving hub administrators more control and peace of mind over unexpected cost overruns.&lt;/p>
+&lt;/h2>&lt;p>The implementation of &lt;a href="https://2i2c.org/blog/per-user-storage-quota-gcp/" >per-user storage quotas&lt;/a> in Q1 was the start of a set of product initiatives aimed at giving hub administrators more control and peace of mind over unexpected cost overruns.&lt;/p>
 &lt;p>We aim to continue giving administrators more control by implementing the ability to &lt;strong>associate users with groups for usage monitoring&lt;/strong>, and as a foundation for future improvements which will deliver &lt;strong>group-level management of storage quotas,&lt;/strong> and later Compute and Dask quotas.&lt;/p>
 &lt;h2 id="improve-creating-and-sharing-custom-environments">
 Improve creating and sharing custom environments
@@ -190,8 +151,7 @@ Improve creating and sharing custom environments
 &lt;h2 id="out-of-the-box-jupyter-book-support">
 Out-of-the-box Jupyter Book support
 &lt;a class="header-anchor" href="#out-of-the-box-jupyter-book-support">#&lt;/a>
-&lt;/h2>&lt;p>We have been working on scoping and building a default JupyterBook implementation
-&lt;a href="http://mystmd.org" target="_blank" rel="noopener" >using the new MyST document engine&lt;/a>, aiming to deliver a default set of tools for &lt;strong>authoring and sharing documentation&lt;/strong>, &lt;strong>customizable landing pages&lt;/strong> and &lt;strong>interactive training materials&lt;/strong> out of the box with new hub deployments.&lt;/p>
+&lt;/h2>&lt;p>We have been working on scoping and building a default JupyterBook implementation &lt;a href="http://mystmd.org" target="_blank" rel="noopener" >using the new MyST document engine&lt;/a>, aiming to deliver a default set of tools for &lt;strong>authoring and sharing documentation&lt;/strong>, &lt;strong>customizable landing pages&lt;/strong> and &lt;strong>interactive training materials&lt;/strong> out of the box with new hub deployments.&lt;/p>
 &lt;p>In Q1 we delivered improvements to the JupyterBook launching interface to allow for &lt;strong>automatic hub type detection&lt;/strong>, as well as &lt;strong>landing page components, theming capabilities, galleries and more&lt;/strong>. We aim to complete this work in Q2.&lt;/p>
 &lt;h2 id="a-better-onboarding-experience-for-our-communities">
 A better onboarding experience for our communities
@@ -210,7 +170,5 @@ Another update coming in Q3
 Acknowledgements
 &lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
 &lt;/h2>&lt;ul>
-&lt;li>Our strategic and organization-level work is supported by a grant from
-&lt;a href="https://2i2c.org/collaborators/navigation/" >The Navigation Fund&lt;/a> and fees from
-&lt;a href="https://2i2c.org/members/" >our member organizations&lt;/a>.&lt;/li>
+&lt;li>Our strategic and organization-level work is supported by a grant from &lt;a href="https://2i2c.org/collaborators/navigation/" >The Navigation Fund&lt;/a> and fees from &lt;a href="https://2i2c.org/members/" >our member organizations&lt;/a>.&lt;/li>
 &lt;/ul></description></item></channel></rss>

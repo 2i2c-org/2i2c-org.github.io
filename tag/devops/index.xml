@@ -1,7 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Devops | 2i2c</title><link>https://2i2c.org/tag/devops/</link><atom:link href="https://2i2c.org/tag/devops/index.xml" rel="self" type="application/rss+xml"/><description>Devops</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 12 May 2026 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Devops</title><link>https://2i2c.org/tag/devops/</link></image><item><title>Protecting our hubs against the Dirty Frag kernel exploit</title><link>https://2i2c.org/blog/dirty-frag-mitigation/</link><pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/dirty-frag-mitigation/</guid><description>&lt;p>This week, another Linux kernel exploit &amp;ldquo;Dirty Frag&amp;rdquo; (CVE-2026-43284 and CVE-2026-43500) was disclosed to the general public. Unlike the recent
-&lt;a href="https://2i2c.org/blog/dirty-frag-mitigation/../copyfail-mitigation/" >Copy Fail Linux kernel zero-day&lt;/a>, this set of exploits was leaked ahead of the embargo period expiring, leaving insufficient time for kernel maintainers to release a patch.&lt;/p>
-&lt;p>The Dirty Frag exploit belongs to the same bug class as
-&lt;a href="https://2i2c.org/blog/copyfail-mitigation/" >Copy Fail&lt;/a> and Dirty Pipe (CVE-2022-0847), and provides a robust mechanism for obtaining root privileges on most major Linux distributions. It does this by chaining two separate CVEs against which most Linux distributions are unlikely to be simultaneously protected.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Devops | 2i2c</title><link>https://2i2c.org/tag/devops/</link><atom:link href="https://2i2c.org/tag/devops/index.xml" rel="self" type="application/rss+xml"/><description>Devops</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 12 May 2026 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Devops</title><link>https://2i2c.org/tag/devops/</link></image><item><title>Protecting our hubs against the Dirty Frag kernel exploit</title><link>https://2i2c.org/blog/dirty-frag-mitigation/</link><pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/dirty-frag-mitigation/</guid><description>&lt;p>This week, another Linux kernel exploit &amp;ldquo;Dirty Frag&amp;rdquo; (CVE-2026-43284 and CVE-2026-43500) was disclosed to the general public. Unlike the recent &lt;a href="https://2i2c.org/blog/dirty-frag-mitigation/../copyfail-mitigation/" >Copy Fail Linux kernel zero-day&lt;/a>, this set of exploits was leaked ahead of the embargo period expiring, leaving insufficient time for kernel maintainers to release a patch.&lt;/p>
+&lt;p>The Dirty Frag exploit belongs to the same bug class as &lt;a href="https://2i2c.org/blog/copyfail-mitigation/" >Copy Fail&lt;/a> and Dirty Pipe (CVE-2022-0847), and provides a robust mechanism for obtaining root privileges on most major Linux distributions. It does this by chaining two separate CVEs against which most Linux distributions are unlikely to be simultaneously protected.&lt;/p>
 &lt;p>We took a close look at our hubs to confirm whether they were exposed, confirmed that our hubs are likely &lt;strong>not at risk&lt;/strong>, and added another layer of protection just in case.&lt;/p>
 &lt;h3 id="are-2i2cs-hubs-at-risk">
 Are 2i2c&amp;rsquo;s hubs at risk?
@@ -11,36 +9,24 @@ Are 2i2c&amp;rsquo;s hubs at risk?
 Why do we think we&amp;rsquo;re not at risk?
 &lt;a class="header-anchor" href="#why-do-we-think-were-not-at-risk">#&lt;/a>
 &lt;/h3>&lt;ul>
-&lt;li>We tried to reproduce the exploit on a staging hub by following the
-&lt;a href="https://github.com/Percivalll/Dirty-Frag-Kubernetes-PoC" target="_blank" rel="noopener" >public Kubernetes proof-of-concept&lt;/a> on both AWS and EKS, and the exploit was unable to break out of the container.&lt;/li>
-&lt;li>Existing JupyterHub hardening on Kubernetes from
-&lt;a href="https://github.com/jupyterhub/kubespawner/pull/545" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> jupyterhub/kubespawner#545&lt;/a> (originally added by Yuvi in 2021 in response to a different security issue) had already significantly reduced our risk exposure, and the exposure of anyone else running
-&lt;a href="https://z2jh.jupyter.org" target="_blank" rel="noopener" >Z2JH&lt;/a> (the standard way to deploy JupyterHub on Kubernetes).&lt;/li>
-&lt;li>As an extra layer of protection, we deployed an audited version of
-&lt;a href="https://github.com/mrunalp/block-dirtyfrag" target="_blank" rel="noopener" >&lt;code>block-dirtyfrag&lt;/code>&lt;/a> across our hubs in
-&lt;a href="https://github.com/2i2c-org/infrastructure/pull/8227" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> 2i2c-org/infrastructure#8227&lt;/a>. It blocks the specific kernel features that Dirty Frag depends on. See
-&lt;a href="https://github.com/mrunalp/block-dirtyfrag#bpf-lsm-daemonset-deployment" target="_blank" rel="noopener" >the project&amp;rsquo;s explanation&lt;/a> for how that works.&lt;/li>
+&lt;li>We tried to reproduce the exploit on a staging hub by following the &lt;a href="https://github.com/Percivalll/Dirty-Frag-Kubernetes-PoC" target="_blank" rel="noopener" >public Kubernetes proof-of-concept&lt;/a> on both AWS and EKS, and the exploit was unable to break out of the container.&lt;/li>
+&lt;li>Existing JupyterHub hardening on Kubernetes from &lt;a href="https://github.com/jupyterhub/kubespawner/pull/545" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> jupyterhub/kubespawner#545&lt;/a> (originally added by Yuvi in 2021 in response to a different security issue) had already significantly reduced our risk exposure, and the exposure of anyone else running &lt;a href="https://z2jh.jupyter.org" target="_blank" rel="noopener" >Z2JH&lt;/a> (the standard way to deploy JupyterHub on Kubernetes).&lt;/li>
+&lt;li>As an extra layer of protection, we deployed an audited version of &lt;a href="https://github.com/mrunalp/block-dirtyfrag" target="_blank" rel="noopener" >&lt;code>block-dirtyfrag&lt;/code>&lt;/a> across our hubs in &lt;a href="https://github.com/2i2c-org/infrastructure/pull/8227" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> 2i2c-org/infrastructure#8227&lt;/a>. It blocks the specific kernel features that Dirty Frag depends on. See &lt;a href="https://github.com/mrunalp/block-dirtyfrag#bpf-lsm-daemonset-deployment" target="_blank" rel="noopener" >the project&amp;rsquo;s explanation&lt;/a> for how that works.&lt;/li>
 &lt;/ul>
 &lt;h3 id="what-else-did-we-look-into">
 What else did we look into
 &lt;a class="header-anchor" href="#what-else-did-we-look-into">#&lt;/a>
 &lt;/h3>&lt;ul>
-&lt;li>
-&lt;a href="https://alas.aws.amazon.com/alas2023.html" target="_blank" rel="noopener" >AL2023 security advisories&lt;/a> - no patched AL2023 image is available yet, so we can&amp;rsquo;t rely on a kernel-level fix from AWS for now.&lt;/li>
+&lt;li>&lt;a href="https://alas.aws.amazon.com/alas2023.html" target="_blank" rel="noopener" >AL2023 security advisories&lt;/a> - no patched AL2023 image is available yet, so we can&amp;rsquo;t rely on a kernel-level fix from AWS for now.&lt;/li>
 &lt;/ul>
 &lt;h2 id="acknowledgements">
 Acknowledgements
 &lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
 &lt;/h2>&lt;ul>
-&lt;li>Thanks to
-&lt;a href="https://2i2c.org/author/georgiana-dolocan/" >Georgiana&lt;/a> for the prior work on the Copy Fail exploit patching that set the stage for this.&lt;/li>
-&lt;li>Thanks to
-&lt;a href="https://2i2c.org/author/yuvaraj-yuvi/" >Yuvi&lt;/a> for the PR that reduces JupyterHub&amp;rsquo;s exposure to this back in 2021!&lt;/li>
-&lt;li>Thanks to
-&lt;a href="https://github.com/mrunalp/" target="_blank" rel="noopener" >mrunalp&lt;/a> for the eBPF daemonset we deployed in Kubernetes, and to
-&lt;a href="https://2i2c.org/collaborators/jupyterhub/" >JupyterHub&lt;/a> for the upstream kubespawner hardening that lowered our exposure.&lt;/li>
-&lt;/ul></description></item><item><title>Protecting our hubs against the CopyFail kernel exploit</title><link>https://2i2c.org/blog/copyfail-mitigation/</link><pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/copyfail-mitigation/</guid><description>&lt;p>The recently disclosed
-&lt;a href="https://copy.fail/" target="_blank" rel="noopener" >CopyFail Linux kernel zero-day&lt;/a> (CVE-2026-31431) opens up a way for code running inside a container to break out onto the underlying node.
+&lt;li>Thanks to &lt;a href="https://2i2c.org/author/georgiana-dolocan/" >Georgiana&lt;/a> for the prior work on the Copy Fail exploit patching that set the stage for this.&lt;/li>
+&lt;li>Thanks to &lt;a href="https://2i2c.org/author/yuvaraj-yuvi/" >Yuvi&lt;/a> for the PR that reduces JupyterHub&amp;rsquo;s exposure to this back in 2021!&lt;/li>
+&lt;li>Thanks to &lt;a href="https://github.com/mrunalp/" target="_blank" rel="noopener" >mrunalp&lt;/a> for the eBPF daemonset we deployed in Kubernetes, and to &lt;a href="https://2i2c.org/collaborators/jupyterhub/" >JupyterHub&lt;/a> for the upstream kubespawner hardening that lowered our exposure.&lt;/li>
+&lt;/ul></description></item><item><title>Protecting our hubs against the CopyFail kernel exploit</title><link>https://2i2c.org/blog/copyfail-mitigation/</link><pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/copyfail-mitigation/</guid><description>&lt;p>The recently disclosed &lt;a href="https://copy.fail/" target="_blank" rel="noopener" >CopyFail Linux kernel zero-day&lt;/a> (CVE-2026-31431) opens up a way for code running inside a container to break out onto the underlying node.
 We took a close look at our hubs to confirm whether they were exposed, confirmed that our hubs are likely not at risk, and added another layer of protection just in case.&lt;/p>
 &lt;h3 id="are-2i2cs-hubs-at-risk">
 Are 2i2c&amp;rsquo;s hubs at risk?
@@ -50,103 +36,67 @@ Are 2i2c&amp;rsquo;s hubs at risk?
 Why do we think we&amp;rsquo;re not at risk?
 &lt;a class="header-anchor" href="#why-do-we-think-were-not-at-risk">#&lt;/a>
 &lt;/h3>&lt;ul>
-&lt;li>We tried to reproduce the exploit on a staging hub by following the
-&lt;a href="https://github.com/Percivalll/Copy-Fail-CVE-2026-31431-Kubernetes-PoC" target="_blank" rel="noopener" >public Kubernetes proof-of-concept&lt;/a> on both AWS and GCP, and the exploit was unable to break out of the container.&lt;/li>
-&lt;li>Existing JupyterHub hardening on Kubernetes from
-&lt;a href="https://github.com/jupyterhub/kubespawner/pull/545" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> jupyterhub/kubespawner#545&lt;/a> (originally added by Yuvi in 2021 in response to a different security issue) had already significantly reduced our risk exposure, and the exposure of anyone else running
-&lt;a href="https://z2jh.jupyter.org" target="_blank" rel="noopener" >Z2JH&lt;/a> (the standard way to deploy JupyterHub on Kubernetes).&lt;/li>
-&lt;li>As an extra layer of protection, we deployed
-&lt;a href="https://github.com/iwanhae/copyfail-ebpf-k8s" target="_blank" rel="noopener" >&lt;code>copyfail-ebpf-k8s&lt;/code>&lt;/a> as a daemonset across all of our clusters in
-&lt;a href="https://github.com/2i2c-org/infrastructure/pull/8227" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> 2i2c-org/infrastructure#8227&lt;/a>. This runs on every node and covers all of our hubs (including those on non-commercial cloud infrastructure, like JetStream2). It blocks the specific kernel features that CopyFail depends on. See
-&lt;a href="https://github.com/iwanhae/copyfail-ebpf-k8s#quick-start" target="_blank" rel="noopener" >the project&amp;rsquo;s explanation&lt;/a> for how that works.&lt;/li>
-&lt;li>We&amp;rsquo;ve upgraded all GKE clusters to use
-&lt;a href="https://docs.cloud.google.com/kubernetes-engine/security-bulletins" target="_blank" rel="noopener" >a patched image&lt;/a> in
-&lt;a href="https://github.com/2i2c-org/infrastructure/pull/8230" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> 2i2c-org/infrastructure#8230&lt;/a>.&lt;/li>
+&lt;li>We tried to reproduce the exploit on a staging hub by following the &lt;a href="https://github.com/Percivalll/Copy-Fail-CVE-2026-31431-Kubernetes-PoC" target="_blank" rel="noopener" >public Kubernetes proof-of-concept&lt;/a> on both AWS and GCP, and the exploit was unable to break out of the container.&lt;/li>
+&lt;li>Existing JupyterHub hardening on Kubernetes from &lt;a href="https://github.com/jupyterhub/kubespawner/pull/545" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> jupyterhub/kubespawner#545&lt;/a> (originally added by Yuvi in 2021 in response to a different security issue) had already significantly reduced our risk exposure, and the exposure of anyone else running &lt;a href="https://z2jh.jupyter.org" target="_blank" rel="noopener" >Z2JH&lt;/a> (the standard way to deploy JupyterHub on Kubernetes).&lt;/li>
+&lt;li>As an extra layer of protection, we deployed &lt;a href="https://github.com/iwanhae/copyfail-ebpf-k8s" target="_blank" rel="noopener" >&lt;code>copyfail-ebpf-k8s&lt;/code>&lt;/a> as a daemonset across all of our clusters in &lt;a href="https://github.com/2i2c-org/infrastructure/pull/8227" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> 2i2c-org/infrastructure#8227&lt;/a>. This runs on every node and covers all of our hubs (including those on non-commercial cloud infrastructure, like JetStream2). It blocks the specific kernel features that CopyFail depends on. See &lt;a href="https://github.com/iwanhae/copyfail-ebpf-k8s#quick-start" target="_blank" rel="noopener" >the project&amp;rsquo;s explanation&lt;/a> for how that works.&lt;/li>
+&lt;li>We&amp;rsquo;ve upgraded all GKE clusters to use &lt;a href="https://docs.cloud.google.com/kubernetes-engine/security-bulletins" target="_blank" rel="noopener" >a patched image&lt;/a> in &lt;a href="https://github.com/2i2c-org/infrastructure/pull/8230" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> 2i2c-org/infrastructure#8230&lt;/a>.&lt;/li>
 &lt;/ul>
 &lt;h3 id="what-else-did-we-look-into">
 What else did we look into
 &lt;a class="header-anchor" href="#what-else-did-we-look-into">#&lt;/a>
 &lt;/h3>&lt;ul>
-&lt;li>
-&lt;a href="https://github.com/deckhouse/d8-copy-fail-mitigation" target="_blank" rel="noopener" >Deckhouse&amp;rsquo;s mitigation&lt;/a> was too platform-specific for us.&lt;/li>
-&lt;li>
-&lt;a href="https://blog.ovhcloud.com/copy-fail-cve-2026-31431-how-to-rapidly-protect-ovhcloud-mks-clusters-from-the-linux-kernel-zero-day/" target="_blank" rel="noopener" >OVHcloud&amp;rsquo;s &lt;code>modprobe&lt;/code> blocking&lt;/a> likely
-&lt;a href="https://github.com/aws/containers-roadmap/issues/2808" target="_blank" rel="noopener" >won&amp;rsquo;t work on Amazon Linux 2023&lt;/a>, since the relevant module is built into the kernel image.&lt;/li>
-&lt;li>
-&lt;a href="https://alas.aws.amazon.com/alas2023.html" target="_blank" rel="noopener" >AL2023 security advisories&lt;/a> - no patched AL2023 image is available yet, so we can&amp;rsquo;t rely on a kernel-level fix from AWS for now.&lt;/li>
+&lt;li>&lt;a href="https://github.com/deckhouse/d8-copy-fail-mitigation" target="_blank" rel="noopener" >Deckhouse&amp;rsquo;s mitigation&lt;/a> was too platform-specific for us.&lt;/li>
+&lt;li>&lt;a href="https://blog.ovhcloud.com/copy-fail-cve-2026-31431-how-to-rapidly-protect-ovhcloud-mks-clusters-from-the-linux-kernel-zero-day/" target="_blank" rel="noopener" >OVHcloud&amp;rsquo;s &lt;code>modprobe&lt;/code> blocking&lt;/a> likely &lt;a href="https://github.com/aws/containers-roadmap/issues/2808" target="_blank" rel="noopener" >won&amp;rsquo;t work on Amazon Linux 2023&lt;/a>, since the relevant module is built into the kernel image.&lt;/li>
+&lt;li>&lt;a href="https://alas.aws.amazon.com/alas2023.html" target="_blank" rel="noopener" >AL2023 security advisories&lt;/a> - no patched AL2023 image is available yet, so we can&amp;rsquo;t rely on a kernel-level fix from AWS for now.&lt;/li>
 &lt;/ul>
 &lt;h2 id="acknowledgements">
 Acknowledgements
 &lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
 &lt;/h2>&lt;ul>
-&lt;li>Huge thanks to
-&lt;a href="https://2i2c.org/author/georgiana-dolocan/" >Georgiana&lt;/a> for the deep dive into the exploit and whether we&amp;rsquo;re exposed here.&lt;/li>
-&lt;li>Thanks to
-&lt;a href="https://2i2c.org/author/yuvaraj-yuvi/" >Yuvi&lt;/a> for the PR that reduces JupyterHub&amp;rsquo;s exposure to this back in 2021!&lt;/li>
-&lt;li>Thanks to
-&lt;a href="https://github.com/iwanhae/copyfail-ebpf-k8s" target="_blank" rel="noopener" >iwanhae&lt;/a> for the eBPF daemonset we deployed in Kubernetes, and to
-&lt;a href="https://2i2c.org/collaborators/jupyterhub/" >JupyterHub&lt;/a> for the upstream kubespawner hardening that lowered our exposure.&lt;/li>
-&lt;li>Thanks to our collaborators at
-&lt;a href="https://2i2c.org/collaborators/nasa-veda/" >NASA VEDA&lt;/a> for the ongoing conversations about hub security.&lt;/li>
-&lt;li>Thanks to our collaborators at
-&lt;a href="https://2i2c.org/collaborators/pythia/" >Pythia&lt;/a> for supporting ongoing work around security in JupyterHub and BinderHub, especially on non-commercial cloud like JetStream.&lt;/li>
-&lt;/ul></description></item><item><title>Upgrading community infrastructure to Kubernetes 1.34 and JupyterHub 4.3.3</title><link>https://2i2c.org/blog/infra-upgrades-k8s-jupyterhub/</link><pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/infra-upgrades-k8s-jupyterhub/</guid><description>&lt;p>We&amp;rsquo;ve completed a major round of infrastructure upgrades across all 2i2c-managed hubs - every hub is now running
-&lt;a href="https://kubernetes.io/releases/" target="_blank" rel="noopener" >Kubernetes 1.34&lt;/a> and
-&lt;a href="https://z2jh.jupyter.org/en/stable/changelog.html" target="_blank" rel="noopener" >Z2JH helm chart 4.3.3&lt;/a>.&lt;/p>
-&lt;p>Running up-to-date versions of both Kubernetes and the
-&lt;a href="https://2i2c.org/collaborators/jupyterhub/" >JupyterHub&lt;/a> helm chart ensures that our communities get the best support and reliability, both in terms of features and security.&lt;/p>
+&lt;li>Huge thanks to &lt;a href="https://2i2c.org/author/georgiana-dolocan/" >Georgiana&lt;/a> for the deep dive into the exploit and whether we&amp;rsquo;re exposed here.&lt;/li>
+&lt;li>Thanks to &lt;a href="https://2i2c.org/author/yuvaraj-yuvi/" >Yuvi&lt;/a> for the PR that reduces JupyterHub&amp;rsquo;s exposure to this back in 2021!&lt;/li>
+&lt;li>Thanks to &lt;a href="https://github.com/iwanhae/copyfail-ebpf-k8s" target="_blank" rel="noopener" >iwanhae&lt;/a> for the eBPF daemonset we deployed in Kubernetes, and to &lt;a href="https://2i2c.org/collaborators/jupyterhub/" >JupyterHub&lt;/a> for the upstream kubespawner hardening that lowered our exposure.&lt;/li>
+&lt;li>Thanks to our collaborators at &lt;a href="https://2i2c.org/collaborators/nasa-veda/" >NASA VEDA&lt;/a> for the ongoing conversations about hub security.&lt;/li>
+&lt;li>Thanks to our collaborators at &lt;a href="https://2i2c.org/collaborators/pythia/" >Pythia&lt;/a> for supporting ongoing work around security in JupyterHub and BinderHub, especially on non-commercial cloud like JetStream.&lt;/li>
+&lt;/ul></description></item><item><title>Upgrading community infrastructure to Kubernetes 1.34 and JupyterHub 4.3.3</title><link>https://2i2c.org/blog/infra-upgrades-k8s-jupyterhub/</link><pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/infra-upgrades-k8s-jupyterhub/</guid><description>&lt;p>We&amp;rsquo;ve completed a major round of infrastructure upgrades across all 2i2c-managed hubs - every hub is now running &lt;a href="https://kubernetes.io/releases/" target="_blank" rel="noopener" >Kubernetes 1.34&lt;/a> and &lt;a href="https://z2jh.jupyter.org/en/stable/changelog.html" target="_blank" rel="noopener" >Z2JH helm chart 4.3.3&lt;/a>.&lt;/p>
+&lt;p>Running up-to-date versions of both Kubernetes and the &lt;a href="https://2i2c.org/collaborators/jupyterhub/" >JupyterHub&lt;/a> helm chart ensures that our communities get the best support and reliability, both in terms of features and security.&lt;/p>
 &lt;h2 id="a-new-approach-to-infrastructure-upgrades-upgrading-in-rounds">
 A new approach to infrastructure upgrades: upgrading in rounds
 &lt;a class="header-anchor" href="#a-new-approach-to-infrastructure-upgrades-upgrading-in-rounds">#&lt;/a>
 &lt;/h2>&lt;p>This was the first time we rolled out JupyterHub helm chart upgrades &lt;strong>in rounds&lt;/strong> rather than all at once. By upgrading a subset of hubs at a time, we could identify and fix issues in isolation before they affected the broader network. This made the process safer and more predictable.&lt;/p>
-&lt;p>We&amp;rsquo;re planning to perform these kinds of upgrades on a regular schedule for our member communities. Around &lt;strong>every 6 months&lt;/strong> we&amp;rsquo;ll create an issue to make sure nothing falls through the cracks (here&amp;rsquo;s
-&lt;a href="https://github.com/2i2c-org/infrastructure/blob/main/.github/workflows/recurrent-k8s-gcp-upgrades.yaml" target="_blank" rel="noopener" >example config for creating our reminder issues&lt;/a>).&lt;/p>
-&lt;p>Check out our
-&lt;a href="https://compass.2i2c.org/services/interactive-computing/multiple-hub-upgrades/#making-changes-to-multiple-hubs" target="_blank" rel="noopener" >process docs for multi-hub upgrades&lt;/a> for more information.&lt;/p>
+&lt;p>We&amp;rsquo;re planning to perform these kinds of upgrades on a regular schedule for our member communities. Around &lt;strong>every 6 months&lt;/strong> we&amp;rsquo;ll create an issue to make sure nothing falls through the cracks (here&amp;rsquo;s &lt;a href="https://github.com/2i2c-org/infrastructure/blob/main/.github/workflows/recurrent-k8s-gcp-upgrades.yaml" target="_blank" rel="noopener" >example config for creating our reminder issues&lt;/a>).&lt;/p>
+&lt;p>Check out our &lt;a href="https://compass.2i2c.org/services/interactive-computing/multiple-hub-upgrades/#making-changes-to-multiple-hubs" target="_blank" rel="noopener" >process docs for multi-hub upgrades&lt;/a> for more information.&lt;/p>
 &lt;h2 id="learn-more">
 Learn more
 &lt;a class="header-anchor" href="#learn-more">#&lt;/a>
 &lt;/h2>&lt;p>Check out these pages for what kinds of improvements we&amp;rsquo;ve brought into our clusters / hubs with these latest updates.&lt;/p>
 &lt;ul>
-&lt;li>
-&lt;a href="https://z2jh.jupyter.org/en/stable/changelog.html" target="_blank" rel="noopener" >Z2JH Helm Chart Changelog&lt;/a>&lt;/li>
-&lt;li>
-&lt;a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.34.md" target="_blank" rel="noopener" >Kubernetes 1.34 Changelog&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://z2jh.jupyter.org/en/stable/changelog.html" target="_blank" rel="noopener" >Z2JH Helm Chart Changelog&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.34.md" target="_blank" rel="noopener" >Kubernetes 1.34 Changelog&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h2 id="acknowledgements">
 Acknowledgements
 &lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
 &lt;/h2>&lt;ul>
-&lt;li>Thanks to
-&lt;a href="https://2i2c.org/author/georgiana-dolocan/" >Georgiana Dolocan&lt;/a> for leading this upgrade effort and establishing the rounds-based approach.&lt;/li>
-&lt;li>Thanks to
-&lt;a href="https://2i2c.org/author/chris-holdgraf/" >Chris Holdgraf&lt;/a> for adapting and editing Georgiana&amp;rsquo;s notes into a blog post.&lt;/li>
-&lt;/ul></description></item><item><title>How regularly upgrading core infrastructure leads to upstream improvements and better infrastructure</title><link>https://2i2c.org/blog/why-upgrade-regularly/</link><pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/why-upgrade-regularly/</guid><description>&lt;p>Our collaborators at
-&lt;a href="https://2i2c.org/collaborators/nasa-veda/" >NASA VEDA&lt;/a> recently asked us about the rationale behind policies for upgrading our infrastructure relatively quickly when new versions come out. Here&amp;rsquo;s the explanation that we shared with them, in case it&amp;rsquo;s useful for others as well.&lt;/p>
-&lt;p>In this case, the decision was whether to upgrade to Helm 4, and you can find our
-&lt;a href="https://github.com/2i2c-org/initiatives/issues/4" target="_blank" rel="noopener" >rationale in the &lt;code>/initiatives&lt;/code> repository&lt;/a>. Here&amp;rsquo;s a brief summary from Yuvi:&lt;/p>
+&lt;li>Thanks to &lt;a href="https://2i2c.org/author/georgiana-dolocan/" >Georgiana Dolocan&lt;/a> for leading this upgrade effort and establishing the rounds-based approach.&lt;/li>
+&lt;li>Thanks to &lt;a href="https://2i2c.org/author/chris-holdgraf/" >Chris Holdgraf&lt;/a> for adapting and editing Georgiana&amp;rsquo;s notes into a blog post.&lt;/li>
+&lt;/ul></description></item><item><title>How regularly upgrading core infrastructure leads to upstream improvements and better infrastructure</title><link>https://2i2c.org/blog/why-upgrade-regularly/</link><pubDate>Fri, 03 Apr 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/why-upgrade-regularly/</guid><description>&lt;p>Our collaborators at &lt;a href="https://2i2c.org/collaborators/nasa-veda/" >NASA VEDA&lt;/a> recently asked us about the rationale behind policies for upgrading our infrastructure relatively quickly when new versions come out. Here&amp;rsquo;s the explanation that we shared with them, in case it&amp;rsquo;s useful for others as well.&lt;/p>
+&lt;p>In this case, the decision was whether to upgrade to Helm 4, and you can find our &lt;a href="https://github.com/2i2c-org/initiatives/issues/4" target="_blank" rel="noopener" >rationale in the &lt;code>/initiatives&lt;/code> repository&lt;/a>. Here&amp;rsquo;s a brief summary from Yuvi:&lt;/p>
 &lt;p>Fundamentally, it helps keep moving us and the ecosystem forward, and drive improvements upstream, in both JupyterHub and Helm.&lt;/p>
-&lt;p>It has driven these PRs in
-&lt;a href="https://2i2c.org/collaborators/jupyterhub/" >JupyterHub&lt;/a>:&lt;/p>
+&lt;p>It has driven these PRs in &lt;a href="https://2i2c.org/collaborators/jupyterhub/" >JupyterHub&lt;/a>:&lt;/p>
 &lt;ul>
-&lt;li>
-&lt;a href="https://github.com/jupyterhub/action-k3s-helm/pull/126" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> jupyterhub/action-k3s-helm#126&lt;/a> (merged)&lt;/li>
-&lt;li>
-&lt;a href="https://github.com/jupyterhub/zero-to-jupyterhub-k8s/pull/3797" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> jupyterhub/zero-to-jupyterhub-k8s#3797&lt;/a> (validated, but not merged yet)&lt;/li>
+&lt;li>&lt;a href="https://github.com/jupyterhub/action-k3s-helm/pull/126" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> jupyterhub/action-k3s-helm#126&lt;/a> (merged)&lt;/li>
+&lt;li>&lt;a href="https://github.com/jupyterhub/zero-to-jupyterhub-k8s/pull/3797" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> jupyterhub/zero-to-jupyterhub-k8s#3797&lt;/a> (validated, but not merged yet)&lt;/li>
 &lt;/ul>
 &lt;p>It&amp;rsquo;s also driven improvements to helm itself - see this bug report that is being worked on:&lt;/p>
 &lt;ul>
-&lt;li>
-&lt;a href="https://github.com/helm/helm/issues/31919" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> helm/helm#31919&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/helm/helm/issues/31919" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> helm/helm#31919&lt;/a>&lt;/li>
 &lt;/ul>
-&lt;p>Upgrading helm versions can break things (and it has for some of our other communities in the past - see
-&lt;a href="https://github.com/2i2c-org/infrastructure/pull/7886#issuecomment-4031310423" target="_blank" rel="noopener" >this example&lt;/a>). So it&amp;rsquo;s important we do that on a reasonable timeframe and carefully, to avoid disruptions.&lt;/p>
-&lt;p>We&amp;rsquo;re also discovering for example that potentially the new &lt;code>nginx-ingress&lt;/code> controller we had to move to has some issues working with older helm versions (ongoing WIP in
-&lt;a href="https://github.com/2i2c-org/infrastructure/pull/7995%29" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> 2i2c-org/infrastructure#7995)&lt;/a>. That feels much more tractable because we can now go &amp;lsquo;ok, let us just apply a quick fix now, and wait for the helm 4 rollout, and try again&amp;rsquo; instead of being totally stuck.&lt;/p>
+&lt;p>Upgrading helm versions can break things (and it has for some of our other communities in the past - see &lt;a href="https://github.com/2i2c-org/infrastructure/pull/7886#issuecomment-4031310423" target="_blank" rel="noopener" >this example&lt;/a>). So it&amp;rsquo;s important we do that on a reasonable timeframe and carefully, to avoid disruptions.&lt;/p>
+&lt;p>We&amp;rsquo;re also discovering for example that potentially the new &lt;code>nginx-ingress&lt;/code> controller we had to move to has some issues working with older helm versions (ongoing WIP in &lt;a href="https://github.com/2i2c-org/infrastructure/pull/7995%29" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> 2i2c-org/infrastructure#7995)&lt;/a>. That feels much more tractable because we can now go &amp;lsquo;ok, let us just apply a quick fix now, and wait for the helm 4 rollout, and try again&amp;rsquo; instead of being totally stuck.&lt;/p>
 &lt;p>This is similar to the other part of [/our VEDA objective] - rolling out new versions of jupyterhub. If we need to roll out security fixes, it&amp;rsquo;s much easier now because we already did the hard work of being up to date:&lt;/p>
 &lt;ul>
-&lt;li>
-&lt;a href="https://github.com/2i2c-org/infrastructure/issues/7996" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> 2i2c-org/infrastructure#7996&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/2i2c-org/infrastructure/issues/7996" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> 2i2c-org/infrastructure#7996&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;p>This isn&amp;rsquo;t the case quite yet for helm v3, as it&amp;rsquo;s still supported, but it&amp;rsquo;s much better to do this work earlier than wait.&lt;/p>
 &lt;p>If you encounter a bug in a popular open source software, often you can just &amp;lsquo;wait&amp;rsquo; for it to be fixed. But this isn&amp;rsquo;t just about time - someone somewhere has to put in the &lt;em>effort&lt;/em> of getting it fixed, filing helpful upstream bug reports, and testing to make sure it works. This is an example of 2i2c continuing to contribute this &lt;em>effort&lt;/em> upstream wherever we can.&lt;/p>
@@ -154,10 +104,8 @@ Acknowledgements
 Acknowledgements
 &lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
 &lt;/h2>&lt;ul>
-&lt;li>Thanks to
-&lt;a href="https://2i2c.org/collaborators/nasa-veda/" >NASA VEDA&lt;/a> for collaborating deeply with us on infrastructure questions like this.&lt;/li>
-&lt;/ul></description></item><item><title>Enabling CloudBank to safely manage their own cluster infrastructure</title><link>https://2i2c.org/blog/cloudbank-self-service/</link><pubDate>Tue, 20 Jan 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/cloudbank-self-service/</guid><description>&lt;p>We recently enabled
-&lt;a href="https://2i2c.org/collaborators/cloudbank/" >CloudBank&lt;/a> to run Terraform changes for their cluster without needing to wait on 2i2c engineers for each request. They run 50+ hubs for various community colleges, and we want to enable them to self serve as much of that as possible. When we introduced home directory quotas, they were no longer able to set up hubs by themselves without help from 2i2c engineers. Our goal was to empower them to be able to set up new hubs in a safe way while still benefiting from the home directory limits work.&lt;/p>
+&lt;li>Thanks to &lt;a href="https://2i2c.org/collaborators/nasa-veda/" >NASA VEDA&lt;/a> for collaborating deeply with us on infrastructure questions like this.&lt;/li>
+&lt;/ul></description></item><item><title>Enabling CloudBank to safely manage their own cluster infrastructure</title><link>https://2i2c.org/blog/cloudbank-self-service/</link><pubDate>Tue, 20 Jan 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/cloudbank-self-service/</guid><description>&lt;p>We recently enabled &lt;a href="https://2i2c.org/collaborators/cloudbank/" >CloudBank&lt;/a> to run Terraform changes for their cluster without needing to wait on 2i2c engineers for each request. They run 50+ hubs for various community colleges, and we want to enable them to self serve as much of that as possible. When we introduced home directory quotas, they were no longer able to set up hubs by themselves without help from 2i2c engineers. Our goal was to empower them to be able to set up new hubs in a safe way while still benefiting from the home directory limits work.&lt;/p>
 &lt;figure id="figure-cloudbank-simplifies-cloud-access-for-computer-science-research-and-education">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="CloudBank simplifies cloud access for computer science research and education." srcset="
@@ -171,25 +119,20 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;figcaption>
 CloudBank simplifies cloud access for computer science research and education.
 &lt;/figcaption>&lt;/figure>
-&lt;p>To do this safely, we needed to avoid granting access to shared Terraform state that could impact other communities. Following
-&lt;a href="https://github.com/2i2c-org/infrastructure/pull/6797#pullrequestreview-3246004031" target="_blank" rel="noopener" >Yuvi&amp;rsquo;s suggestion&lt;/a>, we migrated CloudBank&amp;rsquo;s Terraform state to CloudBank’s own GCP project so that infrastructure changes from the CloudBank team are isolated to their cluster only, making this safe to try. This unblocks CloudBank to run changes like &lt;code>terraform plan&lt;/code> and &lt;code>terraform apply&lt;/code> themselves, meaning that CloudBank can deploy and update a hub without 2i2c engineers in the loop.&lt;/p>
+&lt;p>To do this safely, we needed to avoid granting access to shared Terraform state that could impact other communities. Following &lt;a href="https://github.com/2i2c-org/infrastructure/pull/6797#pullrequestreview-3246004031" target="_blank" rel="noopener" >Yuvi&amp;rsquo;s suggestion&lt;/a>, we migrated CloudBank&amp;rsquo;s Terraform state to CloudBank’s own GCP project so that infrastructure changes from the CloudBank team are isolated to their cluster only, making this safe to try. This unblocks CloudBank to run changes like &lt;code>terraform plan&lt;/code> and &lt;code>terraform apply&lt;/code> themselves, meaning that CloudBank can deploy and update a hub without 2i2c engineers in the loop.&lt;/p>
 &lt;p>This is a good example of how we aim to balance &lt;strong>community autonomy&lt;/strong> with &lt;strong>infrastructure safety&lt;/strong>. CloudBank can now self-serve routine operations while our broader infrastructure remains protected.&lt;/p>
 &lt;h2 id="learn-more">
 Learn more
 &lt;a class="header-anchor" href="#learn-more">#&lt;/a>
 &lt;/h2>&lt;ul>
-&lt;li>
-&lt;a href="https://github.com/2i2c-org/infrastructure/issues/6795" target="_blank" rel="noopener" >The infrastructure issue describing this work&lt;/a>&lt;/li>
-&lt;li>
-&lt;a href="https://github.com/2i2c-org/infrastructure/pull/7339" target="_blank" rel="noopener" >A hub deployed by CloudBank using this workflow&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/2i2c-org/infrastructure/issues/6795" target="_blank" rel="noopener" >The infrastructure issue describing this work&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/2i2c-org/infrastructure/pull/7339" target="_blank" rel="noopener" >A hub deployed by CloudBank using this workflow&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h2 id="acknowledgements">
 Acknowledgements
 &lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
 &lt;/h2>&lt;ul>
-&lt;li>Thanks to Sean Morris and the
-&lt;a href="https://2i2c.org/collaborators/cloudbank/" >CloudBank&lt;/a> team at
-&lt;a href="https://2i2c.org/collaborators/bids/" >UC Berkeley&lt;/a> for collaborating on this workflow.&lt;/li>
+&lt;li>Thanks to Sean Morris and the &lt;a href="https://2i2c.org/collaborators/cloudbank/" >CloudBank&lt;/a> team at &lt;a href="https://2i2c.org/collaborators/bids/" >UC Berkeley&lt;/a> for collaborating on this workflow.&lt;/li>
 &lt;/ul></description></item><item><title>Improving our community hub reliability and stability in Q4 2025</title><link>https://2i2c.org/blog/infrastructure-reliability-q4-2025/</link><pubDate>Tue, 16 Dec 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/infrastructure-reliability-q4-2025/</guid><description>&lt;p>This year we&amp;rsquo;ve prioritized &lt;strong>making the cloud safe to try&lt;/strong> for our member communities. This has driven work in monitoring, alerting, and automating infrastructure so that we resolve small problems before they become big problems. In the last quarter of 2025, we wrapped up this effort by testing the following hypothesis:&lt;/p>
 &lt;blockquote>
 &lt;p>We can reduce P1 incidents if we shorten the time to act on current alerts and learnings from prior incidents.&lt;/p>
@@ -212,8 +155,7 @@ width="760"
 height="394"
 loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;/figure>
-&lt;em>See the real-time status of our community hubs at
-&lt;a href="http://status.2i2c.org" target="_blank" rel="noopener" >status.2i2c.org&lt;/a>&lt;/em>&lt;/p>
+&lt;em>See the real-time status of our community hubs at &lt;a href="http://status.2i2c.org" target="_blank" rel="noopener" >status.2i2c.org&lt;/a>&lt;/em>&lt;/p>
 &lt;h3 id="we-improved-infrastructure-reliability-for-our-communities">
 We improved infrastructure reliability for our communities
 &lt;a class="header-anchor" href="#we-improved-infrastructure-reliability-for-our-communities">#&lt;/a>
@@ -245,8 +187,7 @@ The improvements we made
 Infrastructure improvements
 &lt;a class="header-anchor" href="#infrastructure-improvements">#&lt;/a>
 &lt;/h3>&lt;ul>
-&lt;li>Created a
-&lt;a href="http://status.2i2c.org" target="_blank" rel="noopener" >status page for all 2i2c community hubs&lt;/a>, giving our team and communities visibility into the status of our infrastructure.&lt;/li>
+&lt;li>Created a &lt;a href="http://status.2i2c.org" target="_blank" rel="noopener" >status page for all 2i2c community hubs&lt;/a>, giving our team and communities visibility into the status of our infrastructure.&lt;/li>
 &lt;li>Created an alert that triggers when two servers fail to start consecutively in a 30-minute time window.&lt;/li>
 &lt;li>Improved deployment infrastructure so that we can roll out sub-chart upgrades to individual clusters, allowing us to roll out major changes in batches.&lt;/li>
 &lt;li>Removed our &amp;ldquo;configurator&amp;rdquo; application from community hubs, because it was causing more confusion than it was resolving.&lt;/li>
@@ -257,16 +198,11 @@ Infrastructure improvements
 Process improvements
 &lt;a class="header-anchor" href="#process-improvements">#&lt;/a>
 &lt;/h3>&lt;ul>
-&lt;li>Made a team commitment to prioritize issues from
-&lt;a href="https://2i2c.org/incident-reports" target="_blank" rel="noopener" >incident reports&lt;/a> and other stability-related problems.&lt;/li>
-&lt;li>Defined incident
-&lt;a href="https://infrastructure.2i2c.org/topic/monitoring-alerting/escalation-policies/" target="_blank" rel="noopener" >escalation policies&lt;/a> using the
-&lt;a href="http://status.2i2c.org" target="_blank" rel="noopener" >status page&lt;/a> to calibrate the urgency of our response to the severity of incidents.&lt;/li>
+&lt;li>Made a team commitment to prioritize issues from &lt;a href="https://2i2c.org/incident-reports" target="_blank" rel="noopener" >incident reports&lt;/a> and other stability-related problems.&lt;/li>
+&lt;li>Defined incident &lt;a href="https://infrastructure.2i2c.org/topic/monitoring-alerting/escalation-policies/" target="_blank" rel="noopener" >escalation policies&lt;/a> using the &lt;a href="http://status.2i2c.org" target="_blank" rel="noopener" >status page&lt;/a> to calibrate the urgency of our response to the severity of incidents.&lt;/li>
 &lt;li>Defined &amp;ldquo;on-call&amp;rdquo; procedures so our team knows when and how to be more responsive to outages.&lt;/li>
 &lt;li>Time-boxed our alert response process to avoid accidentally falling down rabbit holes for non-urgent problems.&lt;/li>
-&lt;li>Created a more reliable process for
-&lt;a href="https://infrastructure.2i2c.org/topic/monitoring-alerting/escalation-policies/" target="_blank" rel="noopener" >responding to incidents&lt;/a> and writing
-&lt;a href="https://2i2c.org/incident-reports" target="_blank" rel="noopener" >incident reports&lt;/a>.&lt;/li>
+&lt;li>Created a more reliable process for &lt;a href="https://infrastructure.2i2c.org/topic/monitoring-alerting/escalation-policies/" target="_blank" rel="noopener" >responding to incidents&lt;/a> and writing &lt;a href="https://2i2c.org/incident-reports" target="_blank" rel="noopener" >incident reports&lt;/a>.&lt;/li>
 &lt;/ul>
 &lt;h2 id="looking-forward">
 Looking forward
@@ -281,35 +217,26 @@ Looking forward
 Learn More
 &lt;a class="header-anchor" href="#learn-more">#&lt;/a>
 &lt;/h2>&lt;ul>
-&lt;li>
-&lt;a href="http://status.2i2c.org/" target="_blank" rel="noopener" >2i2c Status Page&lt;/a>&lt;/li>
-&lt;li>
-&lt;a href="https://infrastructure.2i2c.org/hub-deployment-guide/runbooks/on-call/" target="_blank" rel="noopener" >On-call procedures documentation&lt;/a>&lt;/li>
-&lt;li>
-&lt;a href="https://github.com/2i2c-org/infrastructure" target="_blank" rel="noopener" >Infrastructure repository&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://status.2i2c.org/" target="_blank" rel="noopener" >2i2c Status Page&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://infrastructure.2i2c.org/hub-deployment-guide/runbooks/on-call/" target="_blank" rel="noopener" >On-call procedures documentation&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/2i2c-org/infrastructure" target="_blank" rel="noopener" >Infrastructure repository&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>Faster reporting of user home directory sizes</title><link>https://2i2c.org/blog/faster-home-directory-reporting/</link><pubDate>Tue, 09 Dec 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/faster-home-directory-reporting/</guid><description>&lt;p>Storage quotas help users avoid running out of space unexpectedly and give administrators visibility into capacity planning. However, storage usage can change rapidly, and it&amp;rsquo;s important to have quick information so that administrators know whether they are close to hitting limits.&lt;/p>
 &lt;p>We&amp;rsquo;ve improved how quickly hub administrators can see user home directory sizes across our JupyterHubs. This makes monitoring more responsive and adds quota limit visibility that wasn&amp;rsquo;t possible before.&lt;/p>
 &lt;h2 id="using-jupyterhub-home-nfs-for-near-instant-disk-usage-metrics">
 Using &lt;code>jupyterhub-home-nfs&lt;/code> for near-instant disk usage metrics
 &lt;a class="header-anchor" href="#using-jupyterhub-home-nfs-for-near-instant-disk-usage-metrics">#&lt;/a>
-&lt;/h2>&lt;p>Our existing storage monitoring tool,
-&lt;a href="https://github.com/2i2c-org/prometheus-dirsize-exporter" target="_blank" rel="noopener" >&lt;code>prometheus-dirsize-exporter&lt;/code>&lt;/a>, deliberately runs slowly to avoid excessive disk I/O. This meant home directory metrics could be &lt;strong>hours out of date&lt;/strong> on systems with many users or large directories. Plus, there was no way to report user quota limits at all.&lt;/p>
-&lt;p>Our home directory storage is managed by
-&lt;a href="https://github.com/2i2c-org/jupyterhub-home-nfs/" target="_blank" rel="noopener" >&lt;code>jupyterhub-home-nfs&lt;/code>&lt;/a>, which enforces per-user quotas. It could also expose usage and limit information as Prometheus metrics using data from the underlying filesystem quota system. Because this information is already tracked by the filesystem, it&amp;rsquo;s available immediately without scanning individual files.&lt;/p>
+&lt;/h2>&lt;p>Our existing storage monitoring tool, &lt;a href="https://github.com/2i2c-org/prometheus-dirsize-exporter" target="_blank" rel="noopener" >&lt;code>prometheus-dirsize-exporter&lt;/code>&lt;/a>, deliberately runs slowly to avoid excessive disk I/O. This meant home directory metrics could be &lt;strong>hours out of date&lt;/strong> on systems with many users or large directories. Plus, there was no way to report user quota limits at all.&lt;/p>
+&lt;p>Our home directory storage is managed by &lt;a href="https://github.com/2i2c-org/jupyterhub-home-nfs/" target="_blank" rel="noopener" >&lt;code>jupyterhub-home-nfs&lt;/code>&lt;/a>, which enforces per-user quotas. It could also expose usage and limit information as Prometheus metrics using data from the underlying filesystem quota system. Because this information is already tracked by the filesystem, it&amp;rsquo;s available immediately without scanning individual files.&lt;/p>
 &lt;p>We made two key improvements:&lt;/p>
 &lt;ol>
 &lt;li>
-&lt;p>&lt;strong>Make disk usage reporting almost instantaneous&lt;/strong>. We made &lt;code>jupyterhub-home-nfs&lt;/code> export &lt;code>total_size_bytes&lt;/code> and &lt;code>hard_limit_bytes&lt;/code> metrics to Prometheus for near-instant reporting. We used the same metric names and namespace as &lt;code>prometheus-dirsize-exporter&lt;/code> for compatibility. See
-&lt;a href="https://github.com/2i2c-org/jupyterhub-home-nfs/pull/76" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> 2i2c-org/jupyterhub-home-nfs#76&lt;/a>&lt;/p>
+&lt;p>&lt;strong>Make disk usage reporting almost instantaneous&lt;/strong>. We made &lt;code>jupyterhub-home-nfs&lt;/code> export &lt;code>total_size_bytes&lt;/code> and &lt;code>hard_limit_bytes&lt;/code> metrics to Prometheus for near-instant reporting. We used the same metric names and namespace as &lt;code>prometheus-dirsize-exporter&lt;/code> for compatibility. See &lt;a href="https://github.com/2i2c-org/jupyterhub-home-nfs/pull/76" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> 2i2c-org/jupyterhub-home-nfs#76&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;strong>Allow this to be used upstream in JupyterHub Grafana Dashboards&lt;/strong> so that it can support both types of disk usage reporting. This means users of the upstream
-&lt;a href="https://github.com/jupyterhub/grafana-dashboards" target="_blank" rel="noopener" >JupyterHub Grafana dashboards&lt;/a> get the same useful view about home directory usage, regardless of whether the metric comes from &lt;code>prometheus-dirsize-exporter&lt;/code> or &lt;code>jupyterhub-home-nfs&lt;/code>. See
-&lt;a href="https://github.com/2i2c-org/prometheus-dirsize-exporter/pull/29" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> 2i2c-org/prometheus-dirsize-exporter#29&lt;/a>&lt;/p>
+&lt;p>&lt;strong>Allow this to be used upstream in JupyterHub Grafana Dashboards&lt;/strong> so that it can support both types of disk usage reporting. This means users of the upstream &lt;a href="https://github.com/jupyterhub/grafana-dashboards" target="_blank" rel="noopener" >JupyterHub Grafana dashboards&lt;/a> get the same useful view about home directory usage, regardless of whether the metric comes from &lt;code>prometheus-dirsize-exporter&lt;/code> or &lt;code>jupyterhub-home-nfs&lt;/code>. See &lt;a href="https://github.com/2i2c-org/prometheus-dirsize-exporter/pull/29" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> 2i2c-org/prometheus-dirsize-exporter#29&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;p>These changes were
-&lt;a href="https://github.com/2i2c-org/infrastructure/pull/7261" target="_blank" rel="noopener" >deployed across all our communities&lt;/a>, so administrators can now access current home directory information &lt;strong>within minutes&lt;/strong> regardless of directory size.&lt;/p>
+&lt;p>These changes were &lt;a href="https://github.com/2i2c-org/infrastructure/pull/7261" target="_blank" rel="noopener" >deployed across all our communities&lt;/a>, so administrators can now access current home directory information &lt;strong>within minutes&lt;/strong> regardless of directory size.&lt;/p>
 &lt;figure id="figure-home-directory-usage-dashboard-showing-total-size-metrics-from-jupyterhub-home-nfs-and-other-data-from-prometheus-dirsize-exporter">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Home Directory Usage dashboard showing total size metrics from jupyterhub-home-nfs and other data from prometheus-dirsize-exporter" srcset="
@@ -328,26 +255,21 @@ Try it out
 &lt;a class="header-anchor" href="#try-it-out">#&lt;/a>
 &lt;/h2>&lt;p>2i2c member organizations can try this out now. If you have access to your hub&amp;rsquo;s Grafana instance, you can see these new metrics in the &lt;em>Home Directory Usage&lt;/em> dashboard:&lt;/p>
 &lt;ol>
-&lt;li>Open your hub&amp;rsquo;s
-&lt;a href="https://docs.2i2c.org/admin/monitoring/grafana-dashboards/" target="_blank" rel="noopener" >Grafana dashboard&lt;/a>.&lt;/li>
+&lt;li>Open your hub&amp;rsquo;s &lt;a href="https://docs.2i2c.org/admin/monitoring/grafana-dashboards/" target="_blank" rel="noopener" >Grafana dashboard&lt;/a>.&lt;/li>
 &lt;li>Go to &lt;code>Dashboards&lt;/code> -&amp;gt; &lt;code>JupyterHub Default Dashboards&lt;/code> -&amp;gt; &lt;code>Home Directory Usage&lt;/code>.&lt;/li>
 &lt;li>Check the table for up-to-date &lt;em>total size&lt;/em> and &lt;em>quota limit&lt;/em> values.&lt;/li>
 &lt;/ol>
-&lt;p>For more details, see our
-&lt;a href="https://docs.2i2c.org/admin/monitoring/disk-usage/" target="_blank" rel="noopener" >docs on filesystem and disk dashboards&lt;/a>.&lt;/p>
+&lt;p>For more details, see our &lt;a href="https://docs.2i2c.org/admin/monitoring/disk-usage/" target="_blank" rel="noopener" >docs on filesystem and disk dashboards&lt;/a>.&lt;/p>
 &lt;h2 id="coming-next">
 Coming next
 &lt;a class="header-anchor" href="#coming-next">#&lt;/a>
-&lt;/h2>&lt;p>We&amp;rsquo;d like to build on this work to enable &lt;strong>alerting when individual users near their disk quotas&lt;/strong>. This will make it easier to more reliably track user disk usage across a community. See this issue for tracking:
-&lt;a href="https://github.com/2i2c-org/infrastructure/issues/7166" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> 2i2c-org/infrastructure#7166&lt;/a>&lt;/p>
+&lt;/h2>&lt;p>We&amp;rsquo;d like to build on this work to enable &lt;strong>alerting when individual users near their disk quotas&lt;/strong>. This will make it easier to more reliably track user disk usage across a community. See this issue for tracking: &lt;a href="https://github.com/2i2c-org/infrastructure/issues/7166" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> 2i2c-org/infrastructure#7166&lt;/a>&lt;/p>
 &lt;h2 id="acknowledgements">
 Acknowledgements
 &lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
 &lt;/h2>&lt;ul>
-&lt;li>This was a directed contribution supported by
-&lt;a href="https://2i2c.org/collaborators/nasa-veda/" >NASA VEDA&lt;/a> to enable more proactive monitoring and alerting for hub administrators.&lt;/li>
-&lt;/ul></description></item><item><title>Tech update: Multiple JupyterHubs, multiple clusters, one repository.</title><link>https://2i2c.org/blog/ci-cd-improvements/</link><pubDate>Tue, 19 Apr 2022 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/ci-cd-improvements/</guid><description>&lt;p>2i2c manages the configuration and deployment of multiple Kubernetes clusters and JupyterHubs from
-&lt;a href="https://github.com/2i2c-org/infrastructure" target="_blank" rel="noopener" >a single open infrastructure repository&lt;/a>.
+&lt;li>This was a directed contribution supported by &lt;a href="https://2i2c.org/collaborators/nasa-veda/" >NASA VEDA&lt;/a> to enable more proactive monitoring and alerting for hub administrators.&lt;/li>
+&lt;/ul></description></item><item><title>Tech update: Multiple JupyterHubs, multiple clusters, one repository.</title><link>https://2i2c.org/blog/ci-cd-improvements/</link><pubDate>Tue, 19 Apr 2022 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/ci-cd-improvements/</guid><description>&lt;p>2i2c manages the configuration and deployment of multiple Kubernetes clusters and JupyterHubs from &lt;a href="https://github.com/2i2c-org/infrastructure" target="_blank" rel="noopener" >a single open infrastructure repository&lt;/a>.
 This is a challenging problem, as it requires us to centralize information about a number of &lt;em>independent&lt;/em> cloud services, and deploy them in an efficient and reliable manner.
 Our initial attempt at this had a number of inefficiencies, and we recently completed an overhaul of its configuration and deployment infrastructure.&lt;/p>
 &lt;p>This post is a short description of what we did and the benefit that it had.
@@ -357,14 +279,11 @@ We hope that it helps other organizations make similar improvements to their own
 Our problem
 &lt;a class="header-anchor" href="#our-problem">#&lt;/a>
 &lt;/h2>&lt;p>2i2c&amp;rsquo;s problem is similar to that of many large organizations that have independent sub-communities within them.
-We must centralize the operation and configuration of JupyterHubs in order to boost our efficiency in developing and operating them, but must also treat these hubs &lt;em>independently&lt;/em> because their user communities are not necessarily related, and because we want communities to
-&lt;a href="https://2i2c.org/right-to-replicate/" >be able to replicate their infrastructure on their own&lt;/a>.&lt;/p>
-&lt;p>A year ago, we built the first version of our deployment infrastructure at
-&lt;a href="https://github.com/2i2c-org/infrastructure" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> github.com/2i2c-org/infrastructure&lt;/a>.
+We must centralize the operation and configuration of JupyterHubs in order to boost our efficiency in developing and operating them, but must also treat these hubs &lt;em>independently&lt;/em> because their user communities are not necessarily related, and because we want communities to &lt;a href="https://2i2c.org/right-to-replicate/" >be able to replicate their infrastructure on their own&lt;/a>.&lt;/p>
+&lt;p>A year ago, we built the first version of our deployment infrastructure at &lt;a href="https://github.com/2i2c-org/infrastructure" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> github.com/2i2c-org/infrastructure&lt;/a>.
 Over the last year of operation, we identified a number of major shortcomings:&lt;/p>
 &lt;ul>
-&lt;li>Within a Kubernetes cluster, we deployed hubs sequentially, not in parallel. This grew out of a common practice of
-&lt;a href="https://sre.google/workbook/canarying-releases/" target="_blank" rel="noopener" >Canary deployments&lt;/a> that allowed us to test changes on a &lt;strong>staging hub&lt;/strong> before rolling them out to a &lt;strong>production hub&lt;/strong>.&lt;/li>
+&lt;li>Within a Kubernetes cluster, we deployed hubs sequentially, not in parallel. This grew out of a common practice of &lt;a href="https://sre.google/workbook/canarying-releases/" target="_blank" rel="noopener" >Canary deployments&lt;/a> that allowed us to test changes on a &lt;strong>staging hub&lt;/strong> before rolling them out to a &lt;strong>production hub&lt;/strong>.&lt;/li>
 &lt;li>We used a single configuration file for all hubs within a cluster, which led to confusion and difficulty in identifying a hub-specific configuration.&lt;/li>
 &lt;li>Moreover, any change to a hub within a cluster caused a re-deploy of &lt;em>all hubs on that cluster&lt;/em>. This is because we did not know whether a given change touched cluster-wide configuration or hub-specific configuration.&lt;/li>
 &lt;/ul>
@@ -385,17 +304,12 @@ This took a lot of discussion and iteration on design, and so we share it below 
 &lt;h3 id="improvements-to-our-code-and-structure">
 Improvements to our code and structure
 &lt;a class="header-anchor" href="#improvements-to-our-code-and-structure">#&lt;/a>
-&lt;/h3>&lt;p>We made a few major changes to
-&lt;a href="https://github.com/2i2c-org/infrastructure" target="_blank" rel="noopener" >the infrastructure repository&lt;/a> to facilitate the deployment logic described above.
+&lt;/h3>&lt;p>We made a few major changes to &lt;a href="https://github.com/2i2c-org/infrastructure" target="_blank" rel="noopener" >the infrastructure repository&lt;/a> to facilitate the deployment logic described above.
 Here are the major changes we implemented:&lt;/p>
 &lt;ul>
-&lt;li>We separated each hub&amp;rsquo;s configuration into its own file, or set of files. For example,
-&lt;a href="https://github.com/2i2c-org/infrastructure/blob/master/config/clusters/2i2c/staging.values.yaml" target="_blank" rel="noopener" >here is 2i2c&amp;rsquo;s &lt;code>staging&lt;/code> hub configuration&lt;/a>.&lt;/li>
-&lt;li>We created a separate &lt;code>cluster.yaml&lt;/code> file that holds the canonical list of hubs deployed to that cluster and the configuration file(s) associated with each one. For example,
-&lt;a href="https://github.com/2i2c-org/infrastructure/blob/master/config/clusters/2i2c/cluster.yaml" target="_blank" rel="noopener" >here is 2i2c&amp;rsquo;s GKE cluster configuration&lt;/a>, which contains a reference to the previously mentioned
-&lt;a href="https://github.com/2i2c-org/infrastructure/blob/master/config/clusters/2i2c/cluster.yaml#L14-L26" target="_blank" rel="noopener" >staging hub&lt;/a>.&lt;/li>
-&lt;li>We updated
-&lt;a href="https://github.com/2i2c-org/infrastructure/tree/master/deployer" target="_blank" rel="noopener" >our deployer module&lt;/a> to do the following things:
+&lt;li>We separated each hub&amp;rsquo;s configuration into its own file, or set of files. For example, &lt;a href="https://github.com/2i2c-org/infrastructure/blob/master/config/clusters/2i2c/staging.values.yaml" target="_blank" rel="noopener" >here is 2i2c&amp;rsquo;s &lt;code>staging&lt;/code> hub configuration&lt;/a>.&lt;/li>
+&lt;li>We created a separate &lt;code>cluster.yaml&lt;/code> file that holds the canonical list of hubs deployed to that cluster and the configuration file(s) associated with each one. For example, &lt;a href="https://github.com/2i2c-org/infrastructure/blob/master/config/clusters/2i2c/cluster.yaml" target="_blank" rel="noopener" >here is 2i2c&amp;rsquo;s GKE cluster configuration&lt;/a>, which contains a reference to the previously mentioned &lt;a href="https://github.com/2i2c-org/infrastructure/blob/master/config/clusters/2i2c/cluster.yaml#L14-L26" target="_blank" rel="noopener" >staging hub&lt;/a>.&lt;/li>
+&lt;li>We updated &lt;a href="https://github.com/2i2c-org/infrastructure/tree/master/deployer" target="_blank" rel="noopener" >our deployer module&lt;/a> to do the following things:
 &lt;ul>
 &lt;li>Inspect the list of files modified in a Pull Request.&lt;/li>
 &lt;li>From this list, calculate the name of a hub that required an upgrade, and the name of its respective cluster.&lt;/li>
@@ -408,8 +322,7 @@ Here are the major changes we implemented:&lt;/p>
 A GitHub Actions workflow for upgrading our JupyterHubs
 &lt;a class="header-anchor" href="#a-github-actions-workflow-for-upgrading-our-jupyterhubs">#&lt;/a>
 &lt;/h3>&lt;p>We defined a new GitHub Actions workflow that carries out the logic described above.
-These are all defined in
-&lt;a href="https://github.com/2i2c-org/infrastructure/blob/master/.github/workflows/deploy-hubs.yaml" target="_blank" rel="noopener" >this &lt;code>deploy-hubs.yaml&lt;/code> configuration file&lt;/a>.
+These are all defined in &lt;a href="https://github.com/2i2c-org/infrastructure/blob/master/.github/workflows/deploy-hubs.yaml" target="_blank" rel="noopener" >this &lt;code>deploy-hubs.yaml&lt;/code> configuration file&lt;/a>.
 Here are the major jobs in this workflow, and what each does:&lt;/p>
 &lt;ol>
 &lt;li>
@@ -426,8 +339,7 @@ Here are the major jobs in this workflow, and what each does:&lt;/p>
 &lt;/ul>
 &lt;p>This produced two outputs to be used in subsequent steps:&lt;/p>
 &lt;ul>
-&lt;li>A &lt;strong>human-readable table&lt;/strong> including information on &lt;em>why&lt;/em> a given deployment requires an upgrade (using the excellent
-&lt;a href="https://github.com/Textualize/rich" target="_blank" rel="noopener" >Rich library&lt;/a>).&lt;/li>
+&lt;li>A &lt;strong>human-readable table&lt;/strong> including information on &lt;em>why&lt;/em> a given deployment requires an upgrade (using the excellent &lt;a href="https://github.com/Textualize/rich" target="_blank" rel="noopener" >Rich library&lt;/a>).&lt;/li>
 &lt;li>&lt;strong>JSON outputs&lt;/strong> that can be interpreted by GitHub Actions as sets of matrix jobs to run.&lt;/li>
 &lt;/ul>
 &lt;figure id="figure-our-staging-and-support-hub-job-matrix-tells-github-actions-to-deploy-staging-and-support-upgrades-that-act-as-canaries-and-stop-production-deploys-if-they-fail">
@@ -486,16 +398,10 @@ Our production hub job matrix tells GitHub Actions which hubs to update with new
 Concluding Remarks
 &lt;a class="header-anchor" href="#concluding-remarks">#&lt;/a>
 &lt;/h2>&lt;p>We think that this is a nice balance of infrastructure complexity and flexibility.
-It allows us to separate the configuration of each hub and cluster, which makes each more maintainable by us, and is more aligned with a community&amp;rsquo;s
-&lt;a href="https://2i2c.org/right-to-replicate/" >Right to Replicate&lt;/a> their infrastructure.
+It allows us to separate the configuration of each hub and cluster, which makes each more maintainable by us, and is more aligned with a community&amp;rsquo;s &lt;a href="https://2i2c.org/right-to-replicate/" >Right to Replicate&lt;/a> their infrastructure.
 It allows us to remove the interdependence of deploy jobs that do not &lt;em>need&lt;/em> to be dependent, which makes our deploys more efficient.
-Finally, it allows us to make &lt;em>targeted deploys&lt;/em> more effectively, which reduces the amount of toil and unnecessary waiting associated with each change. (It also
-&lt;a href="https://github.blog/2021-04-22-environmental-sustainability-github/" target="_blank" rel="noopener" >reduces our carbon footprint by reducing unnecessary GitHub Action time&lt;/a>).&lt;/p>
+Finally, it allows us to make &lt;em>targeted deploys&lt;/em> more effectively, which reduces the amount of toil and unnecessary waiting associated with each change. (It also &lt;a href="https://github.blog/2021-04-22-environmental-sustainability-github/" target="_blank" rel="noopener" >reduces our carbon footprint by reducing unnecessary GitHub Action time&lt;/a>).&lt;/p>
 &lt;p>We hope that this is a useful resource for others to follow if they also maintain JupyterHubs for multiple communities.
 If you have any ideas of how we could further improve this infrastructure, please reach out on GitHub!
-If you know of a community that would like 2i2c to
-&lt;a href="https://2i2c.org/service/" target="_blank" rel="noopener" >manage a hub for your community&lt;/a>, please
-&lt;a href="https://2i2c.org/blog/ci-cd-improvements/mailto:hello@2i2c.org" >send us an email&lt;/a>.&lt;/p>
-&lt;p>&lt;em>&lt;strong>Acknowledgements&lt;/strong>: The infrastructure described in this post was developed by
-&lt;a href="https://2i2c.org/organization/team.md" >the 2i2c engineering team&lt;/a>, and this post was edited by
-&lt;a href="https://2i2c.org/author/chris-holdgraf" >Chris Holdgraf&lt;/a>.&lt;/em>&lt;/p></description></item></channel></rss>
+If you know of a community that would like 2i2c to &lt;a href="https://2i2c.org/service/" target="_blank" rel="noopener" >manage a hub for your community&lt;/a>, please &lt;a href="https://2i2c.org/blog/ci-cd-improvements/mailto:hello@2i2c.org" >send us an email&lt;/a>.&lt;/p>
+&lt;p>&lt;em>&lt;strong>Acknowledgements&lt;/strong>: The infrastructure described in this post was developed by &lt;a href="https://2i2c.org/organization/team.md" >the 2i2c engineering team&lt;/a>, and this post was edited by &lt;a href="https://2i2c.org/author/chris-holdgraf" >Chris Holdgraf&lt;/a>.&lt;/em>&lt;/p></description></item></channel></rss>

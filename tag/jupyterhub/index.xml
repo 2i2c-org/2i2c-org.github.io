@@ -1,7 +1,5 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Jupyterhub | 2i2c</title><link>https://2i2c.org/tag/jupyterhub/</link><atom:link href="https://2i2c.org/tag/jupyterhub/index.xml" rel="self" type="application/rss+xml"/><description>Jupyterhub</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 12 May 2026 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Jupyterhub</title><link>https://2i2c.org/tag/jupyterhub/</link></image><item><title>Protecting our hubs against the Dirty Frag kernel exploit</title><link>https://2i2c.org/blog/dirty-frag-mitigation/</link><pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/dirty-frag-mitigation/</guid><description>&lt;p>This week, another Linux kernel exploit &amp;ldquo;Dirty Frag&amp;rdquo; (CVE-2026-43284 and CVE-2026-43500) was disclosed to the general public. Unlike the recent
-&lt;a href="https://2i2c.org/blog/dirty-frag-mitigation/../copyfail-mitigation/" >Copy Fail Linux kernel zero-day&lt;/a>, this set of exploits was leaked ahead of the embargo period expiring, leaving insufficient time for kernel maintainers to release a patch.&lt;/p>
-&lt;p>The Dirty Frag exploit belongs to the same bug class as
-&lt;a href="https://2i2c.org/blog/copyfail-mitigation/" >Copy Fail&lt;/a> and Dirty Pipe (CVE-2022-0847), and provides a robust mechanism for obtaining root privileges on most major Linux distributions. It does this by chaining two separate CVEs against which most Linux distributions are unlikely to be simultaneously protected.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Jupyterhub | 2i2c</title><link>https://2i2c.org/tag/jupyterhub/</link><atom:link href="https://2i2c.org/tag/jupyterhub/index.xml" rel="self" type="application/rss+xml"/><description>Jupyterhub</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 12 May 2026 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Jupyterhub</title><link>https://2i2c.org/tag/jupyterhub/</link></image><item><title>Protecting our hubs against the Dirty Frag kernel exploit</title><link>https://2i2c.org/blog/dirty-frag-mitigation/</link><pubDate>Tue, 12 May 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/dirty-frag-mitigation/</guid><description>&lt;p>This week, another Linux kernel exploit &amp;ldquo;Dirty Frag&amp;rdquo; (CVE-2026-43284 and CVE-2026-43500) was disclosed to the general public. Unlike the recent &lt;a href="https://2i2c.org/blog/dirty-frag-mitigation/../copyfail-mitigation/" >Copy Fail Linux kernel zero-day&lt;/a>, this set of exploits was leaked ahead of the embargo period expiring, leaving insufficient time for kernel maintainers to release a patch.&lt;/p>
+&lt;p>The Dirty Frag exploit belongs to the same bug class as &lt;a href="https://2i2c.org/blog/copyfail-mitigation/" >Copy Fail&lt;/a> and Dirty Pipe (CVE-2022-0847), and provides a robust mechanism for obtaining root privileges on most major Linux distributions. It does this by chaining two separate CVEs against which most Linux distributions are unlikely to be simultaneously protected.&lt;/p>
 &lt;p>We took a close look at our hubs to confirm whether they were exposed, confirmed that our hubs are likely &lt;strong>not at risk&lt;/strong>, and added another layer of protection just in case.&lt;/p>
 &lt;h3 id="are-2i2cs-hubs-at-risk">
 Are 2i2c&amp;rsquo;s hubs at risk?
@@ -11,36 +9,24 @@ Are 2i2c&amp;rsquo;s hubs at risk?
 Why do we think we&amp;rsquo;re not at risk?
 &lt;a class="header-anchor" href="#why-do-we-think-were-not-at-risk">#&lt;/a>
 &lt;/h3>&lt;ul>
-&lt;li>We tried to reproduce the exploit on a staging hub by following the
-&lt;a href="https://github.com/Percivalll/Dirty-Frag-Kubernetes-PoC" target="_blank" rel="noopener" >public Kubernetes proof-of-concept&lt;/a> on both AWS and EKS, and the exploit was unable to break out of the container.&lt;/li>
-&lt;li>Existing JupyterHub hardening on Kubernetes from
-&lt;a href="https://github.com/jupyterhub/kubespawner/pull/545" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> jupyterhub/kubespawner#545&lt;/a> (originally added by Yuvi in 2021 in response to a different security issue) had already significantly reduced our risk exposure, and the exposure of anyone else running
-&lt;a href="https://z2jh.jupyter.org" target="_blank" rel="noopener" >Z2JH&lt;/a> (the standard way to deploy JupyterHub on Kubernetes).&lt;/li>
-&lt;li>As an extra layer of protection, we deployed an audited version of
-&lt;a href="https://github.com/mrunalp/block-dirtyfrag" target="_blank" rel="noopener" >&lt;code>block-dirtyfrag&lt;/code>&lt;/a> across our hubs in
-&lt;a href="https://github.com/2i2c-org/infrastructure/pull/8227" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> 2i2c-org/infrastructure#8227&lt;/a>. It blocks the specific kernel features that Dirty Frag depends on. See
-&lt;a href="https://github.com/mrunalp/block-dirtyfrag#bpf-lsm-daemonset-deployment" target="_blank" rel="noopener" >the project&amp;rsquo;s explanation&lt;/a> for how that works.&lt;/li>
+&lt;li>We tried to reproduce the exploit on a staging hub by following the &lt;a href="https://github.com/Percivalll/Dirty-Frag-Kubernetes-PoC" target="_blank" rel="noopener" >public Kubernetes proof-of-concept&lt;/a> on both AWS and EKS, and the exploit was unable to break out of the container.&lt;/li>
+&lt;li>Existing JupyterHub hardening on Kubernetes from &lt;a href="https://github.com/jupyterhub/kubespawner/pull/545" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> jupyterhub/kubespawner#545&lt;/a> (originally added by Yuvi in 2021 in response to a different security issue) had already significantly reduced our risk exposure, and the exposure of anyone else running &lt;a href="https://z2jh.jupyter.org" target="_blank" rel="noopener" >Z2JH&lt;/a> (the standard way to deploy JupyterHub on Kubernetes).&lt;/li>
+&lt;li>As an extra layer of protection, we deployed an audited version of &lt;a href="https://github.com/mrunalp/block-dirtyfrag" target="_blank" rel="noopener" >&lt;code>block-dirtyfrag&lt;/code>&lt;/a> across our hubs in &lt;a href="https://github.com/2i2c-org/infrastructure/pull/8227" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> 2i2c-org/infrastructure#8227&lt;/a>. It blocks the specific kernel features that Dirty Frag depends on. See &lt;a href="https://github.com/mrunalp/block-dirtyfrag#bpf-lsm-daemonset-deployment" target="_blank" rel="noopener" >the project&amp;rsquo;s explanation&lt;/a> for how that works.&lt;/li>
 &lt;/ul>
 &lt;h3 id="what-else-did-we-look-into">
 What else did we look into
 &lt;a class="header-anchor" href="#what-else-did-we-look-into">#&lt;/a>
 &lt;/h3>&lt;ul>
-&lt;li>
-&lt;a href="https://alas.aws.amazon.com/alas2023.html" target="_blank" rel="noopener" >AL2023 security advisories&lt;/a> - no patched AL2023 image is available yet, so we can&amp;rsquo;t rely on a kernel-level fix from AWS for now.&lt;/li>
+&lt;li>&lt;a href="https://alas.aws.amazon.com/alas2023.html" target="_blank" rel="noopener" >AL2023 security advisories&lt;/a> - no patched AL2023 image is available yet, so we can&amp;rsquo;t rely on a kernel-level fix from AWS for now.&lt;/li>
 &lt;/ul>
 &lt;h2 id="acknowledgements">
 Acknowledgements
 &lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
 &lt;/h2>&lt;ul>
-&lt;li>Thanks to
-&lt;a href="https://2i2c.org/author/georgiana-dolocan/" >Georgiana&lt;/a> for the prior work on the Copy Fail exploit patching that set the stage for this.&lt;/li>
-&lt;li>Thanks to
-&lt;a href="https://2i2c.org/author/yuvaraj-yuvi/" >Yuvi&lt;/a> for the PR that reduces JupyterHub&amp;rsquo;s exposure to this back in 2021!&lt;/li>
-&lt;li>Thanks to
-&lt;a href="https://github.com/mrunalp/" target="_blank" rel="noopener" >mrunalp&lt;/a> for the eBPF daemonset we deployed in Kubernetes, and to
-&lt;a href="https://2i2c.org/collaborators/jupyterhub/" >JupyterHub&lt;/a> for the upstream kubespawner hardening that lowered our exposure.&lt;/li>
-&lt;/ul></description></item><item><title>Protecting our hubs against the CopyFail kernel exploit</title><link>https://2i2c.org/blog/copyfail-mitigation/</link><pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/copyfail-mitigation/</guid><description>&lt;p>The recently disclosed
-&lt;a href="https://copy.fail/" target="_blank" rel="noopener" >CopyFail Linux kernel zero-day&lt;/a> (CVE-2026-31431) opens up a way for code running inside a container to break out onto the underlying node.
+&lt;li>Thanks to &lt;a href="https://2i2c.org/author/georgiana-dolocan/" >Georgiana&lt;/a> for the prior work on the Copy Fail exploit patching that set the stage for this.&lt;/li>
+&lt;li>Thanks to &lt;a href="https://2i2c.org/author/yuvaraj-yuvi/" >Yuvi&lt;/a> for the PR that reduces JupyterHub&amp;rsquo;s exposure to this back in 2021!&lt;/li>
+&lt;li>Thanks to &lt;a href="https://github.com/mrunalp/" target="_blank" rel="noopener" >mrunalp&lt;/a> for the eBPF daemonset we deployed in Kubernetes, and to &lt;a href="https://2i2c.org/collaborators/jupyterhub/" >JupyterHub&lt;/a> for the upstream kubespawner hardening that lowered our exposure.&lt;/li>
+&lt;/ul></description></item><item><title>Protecting our hubs against the CopyFail kernel exploit</title><link>https://2i2c.org/blog/copyfail-mitigation/</link><pubDate>Mon, 04 May 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/copyfail-mitigation/</guid><description>&lt;p>The recently disclosed &lt;a href="https://copy.fail/" target="_blank" rel="noopener" >CopyFail Linux kernel zero-day&lt;/a> (CVE-2026-31431) opens up a way for code running inside a container to break out onto the underlying node.
 We took a close look at our hubs to confirm whether they were exposed, confirmed that our hubs are likely not at risk, and added another layer of protection just in case.&lt;/p>
 &lt;h3 id="are-2i2cs-hubs-at-risk">
 Are 2i2c&amp;rsquo;s hubs at risk?
@@ -50,99 +36,60 @@ Are 2i2c&amp;rsquo;s hubs at risk?
 Why do we think we&amp;rsquo;re not at risk?
 &lt;a class="header-anchor" href="#why-do-we-think-were-not-at-risk">#&lt;/a>
 &lt;/h3>&lt;ul>
-&lt;li>We tried to reproduce the exploit on a staging hub by following the
-&lt;a href="https://github.com/Percivalll/Copy-Fail-CVE-2026-31431-Kubernetes-PoC" target="_blank" rel="noopener" >public Kubernetes proof-of-concept&lt;/a> on both AWS and GCP, and the exploit was unable to break out of the container.&lt;/li>
-&lt;li>Existing JupyterHub hardening on Kubernetes from
-&lt;a href="https://github.com/jupyterhub/kubespawner/pull/545" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> jupyterhub/kubespawner#545&lt;/a> (originally added by Yuvi in 2021 in response to a different security issue) had already significantly reduced our risk exposure, and the exposure of anyone else running
-&lt;a href="https://z2jh.jupyter.org" target="_blank" rel="noopener" >Z2JH&lt;/a> (the standard way to deploy JupyterHub on Kubernetes).&lt;/li>
-&lt;li>As an extra layer of protection, we deployed
-&lt;a href="https://github.com/iwanhae/copyfail-ebpf-k8s" target="_blank" rel="noopener" >&lt;code>copyfail-ebpf-k8s&lt;/code>&lt;/a> as a daemonset across all of our clusters in
-&lt;a href="https://github.com/2i2c-org/infrastructure/pull/8227" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> 2i2c-org/infrastructure#8227&lt;/a>. This runs on every node and covers all of our hubs (including those on non-commercial cloud infrastructure, like JetStream2). It blocks the specific kernel features that CopyFail depends on. See
-&lt;a href="https://github.com/iwanhae/copyfail-ebpf-k8s#quick-start" target="_blank" rel="noopener" >the project&amp;rsquo;s explanation&lt;/a> for how that works.&lt;/li>
-&lt;li>We&amp;rsquo;ve upgraded all GKE clusters to use
-&lt;a href="https://docs.cloud.google.com/kubernetes-engine/security-bulletins" target="_blank" rel="noopener" >a patched image&lt;/a> in
-&lt;a href="https://github.com/2i2c-org/infrastructure/pull/8230" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> 2i2c-org/infrastructure#8230&lt;/a>.&lt;/li>
+&lt;li>We tried to reproduce the exploit on a staging hub by following the &lt;a href="https://github.com/Percivalll/Copy-Fail-CVE-2026-31431-Kubernetes-PoC" target="_blank" rel="noopener" >public Kubernetes proof-of-concept&lt;/a> on both AWS and GCP, and the exploit was unable to break out of the container.&lt;/li>
+&lt;li>Existing JupyterHub hardening on Kubernetes from &lt;a href="https://github.com/jupyterhub/kubespawner/pull/545" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> jupyterhub/kubespawner#545&lt;/a> (originally added by Yuvi in 2021 in response to a different security issue) had already significantly reduced our risk exposure, and the exposure of anyone else running &lt;a href="https://z2jh.jupyter.org" target="_blank" rel="noopener" >Z2JH&lt;/a> (the standard way to deploy JupyterHub on Kubernetes).&lt;/li>
+&lt;li>As an extra layer of protection, we deployed &lt;a href="https://github.com/iwanhae/copyfail-ebpf-k8s" target="_blank" rel="noopener" >&lt;code>copyfail-ebpf-k8s&lt;/code>&lt;/a> as a daemonset across all of our clusters in &lt;a href="https://github.com/2i2c-org/infrastructure/pull/8227" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> 2i2c-org/infrastructure#8227&lt;/a>. This runs on every node and covers all of our hubs (including those on non-commercial cloud infrastructure, like JetStream2). It blocks the specific kernel features that CopyFail depends on. See &lt;a href="https://github.com/iwanhae/copyfail-ebpf-k8s#quick-start" target="_blank" rel="noopener" >the project&amp;rsquo;s explanation&lt;/a> for how that works.&lt;/li>
+&lt;li>We&amp;rsquo;ve upgraded all GKE clusters to use &lt;a href="https://docs.cloud.google.com/kubernetes-engine/security-bulletins" target="_blank" rel="noopener" >a patched image&lt;/a> in &lt;a href="https://github.com/2i2c-org/infrastructure/pull/8230" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> 2i2c-org/infrastructure#8230&lt;/a>.&lt;/li>
 &lt;/ul>
 &lt;h3 id="what-else-did-we-look-into">
 What else did we look into
 &lt;a class="header-anchor" href="#what-else-did-we-look-into">#&lt;/a>
 &lt;/h3>&lt;ul>
-&lt;li>
-&lt;a href="https://github.com/deckhouse/d8-copy-fail-mitigation" target="_blank" rel="noopener" >Deckhouse&amp;rsquo;s mitigation&lt;/a> was too platform-specific for us.&lt;/li>
-&lt;li>
-&lt;a href="https://blog.ovhcloud.com/copy-fail-cve-2026-31431-how-to-rapidly-protect-ovhcloud-mks-clusters-from-the-linux-kernel-zero-day/" target="_blank" rel="noopener" >OVHcloud&amp;rsquo;s &lt;code>modprobe&lt;/code> blocking&lt;/a> likely
-&lt;a href="https://github.com/aws/containers-roadmap/issues/2808" target="_blank" rel="noopener" >won&amp;rsquo;t work on Amazon Linux 2023&lt;/a>, since the relevant module is built into the kernel image.&lt;/li>
-&lt;li>
-&lt;a href="https://alas.aws.amazon.com/alas2023.html" target="_blank" rel="noopener" >AL2023 security advisories&lt;/a> - no patched AL2023 image is available yet, so we can&amp;rsquo;t rely on a kernel-level fix from AWS for now.&lt;/li>
+&lt;li>&lt;a href="https://github.com/deckhouse/d8-copy-fail-mitigation" target="_blank" rel="noopener" >Deckhouse&amp;rsquo;s mitigation&lt;/a> was too platform-specific for us.&lt;/li>
+&lt;li>&lt;a href="https://blog.ovhcloud.com/copy-fail-cve-2026-31431-how-to-rapidly-protect-ovhcloud-mks-clusters-from-the-linux-kernel-zero-day/" target="_blank" rel="noopener" >OVHcloud&amp;rsquo;s &lt;code>modprobe&lt;/code> blocking&lt;/a> likely &lt;a href="https://github.com/aws/containers-roadmap/issues/2808" target="_blank" rel="noopener" >won&amp;rsquo;t work on Amazon Linux 2023&lt;/a>, since the relevant module is built into the kernel image.&lt;/li>
+&lt;li>&lt;a href="https://alas.aws.amazon.com/alas2023.html" target="_blank" rel="noopener" >AL2023 security advisories&lt;/a> - no patched AL2023 image is available yet, so we can&amp;rsquo;t rely on a kernel-level fix from AWS for now.&lt;/li>
 &lt;/ul>
 &lt;h2 id="acknowledgements">
 Acknowledgements
 &lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
 &lt;/h2>&lt;ul>
-&lt;li>Huge thanks to
-&lt;a href="https://2i2c.org/author/georgiana-dolocan/" >Georgiana&lt;/a> for the deep dive into the exploit and whether we&amp;rsquo;re exposed here.&lt;/li>
-&lt;li>Thanks to
-&lt;a href="https://2i2c.org/author/yuvaraj-yuvi/" >Yuvi&lt;/a> for the PR that reduces JupyterHub&amp;rsquo;s exposure to this back in 2021!&lt;/li>
-&lt;li>Thanks to
-&lt;a href="https://github.com/iwanhae/copyfail-ebpf-k8s" target="_blank" rel="noopener" >iwanhae&lt;/a> for the eBPF daemonset we deployed in Kubernetes, and to
-&lt;a href="https://2i2c.org/collaborators/jupyterhub/" >JupyterHub&lt;/a> for the upstream kubespawner hardening that lowered our exposure.&lt;/li>
-&lt;li>Thanks to our collaborators at
-&lt;a href="https://2i2c.org/collaborators/nasa-veda/" >NASA VEDA&lt;/a> for the ongoing conversations about hub security.&lt;/li>
-&lt;li>Thanks to our collaborators at
-&lt;a href="https://2i2c.org/collaborators/pythia/" >Pythia&lt;/a> for supporting ongoing work around security in JupyterHub and BinderHub, especially on non-commercial cloud like JetStream.&lt;/li>
+&lt;li>Huge thanks to &lt;a href="https://2i2c.org/author/georgiana-dolocan/" >Georgiana&lt;/a> for the deep dive into the exploit and whether we&amp;rsquo;re exposed here.&lt;/li>
+&lt;li>Thanks to &lt;a href="https://2i2c.org/author/yuvaraj-yuvi/" >Yuvi&lt;/a> for the PR that reduces JupyterHub&amp;rsquo;s exposure to this back in 2021!&lt;/li>
+&lt;li>Thanks to &lt;a href="https://github.com/iwanhae/copyfail-ebpf-k8s" target="_blank" rel="noopener" >iwanhae&lt;/a> for the eBPF daemonset we deployed in Kubernetes, and to &lt;a href="https://2i2c.org/collaborators/jupyterhub/" >JupyterHub&lt;/a> for the upstream kubespawner hardening that lowered our exposure.&lt;/li>
+&lt;li>Thanks to our collaborators at &lt;a href="https://2i2c.org/collaborators/nasa-veda/" >NASA VEDA&lt;/a> for the ongoing conversations about hub security.&lt;/li>
+&lt;li>Thanks to our collaborators at &lt;a href="https://2i2c.org/collaborators/pythia/" >Pythia&lt;/a> for supporting ongoing work around security in JupyterHub and BinderHub, especially on non-commercial cloud like JetStream.&lt;/li>
 &lt;/ul></description></item><item><title>Supporting JupyterHub admins on workshop hubs with shared passwords</title><link>https://2i2c.org/blog/shared-password-admin/</link><pubDate>Mon, 27 Apr 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/shared-password-admin/</guid><description>&lt;p>To facilitate communities using JupyterHub for a workshop, we introduced the idea of a &amp;lsquo;shared password&amp;rsquo; based authentication a few years ago.
 This lets communities set a single &lt;em>global&lt;/em> password that is handed out to all workshop attendees (instead of collecting email addresses or GitHub usernames &lt;em>before&lt;/em> the workshop starts).
-Users can login with their email and this shared global password, and get going immediately. We worked with
-&lt;a href="https://2i2c.org/collaborators/openscapes/" >OpenScapes&lt;/a> (which runs a lot of workshops) in developing this method, and it&amp;rsquo;s been heavily used since among other communities!&lt;/p>
-&lt;p>However, until now this method required us to &lt;em>restrict admin access&lt;/em> for all users, preventing users from using admin features like group management, accessing the JupyterHub Admin dashboard (which lets you see which other users are logged in), and using the
-&lt;a href="https://docs.2i2c.org/user/data/filesystem/#the-shared-directory" target="_blank" rel="noopener" >shared directory&lt;/a>.&lt;/p>
-&lt;p>To mitigate these, we
-&lt;a href="https://github.com/jupyterhub/jupyterhub/pull/5037" target="_blank" rel="noopener" >contributed the SharedPasswordAuthenticator&lt;/a> upstream to the JupyterHub organization, allowing hub admins to set set &lt;em>two&lt;/em> passwords instead of &lt;em>one&lt;/em>.
+Users can login with their email and this shared global password, and get going immediately. We worked with &lt;a href="https://2i2c.org/collaborators/openscapes/" >OpenScapes&lt;/a> (which runs a lot of workshops) in developing this method, and it&amp;rsquo;s been heavily used since among other communities!&lt;/p>
+&lt;p>However, until now this method required us to &lt;em>restrict admin access&lt;/em> for all users, preventing users from using admin features like group management, accessing the JupyterHub Admin dashboard (which lets you see which other users are logged in), and using the &lt;a href="https://docs.2i2c.org/user/data/filesystem/#the-shared-directory" target="_blank" rel="noopener" >shared directory&lt;/a>.&lt;/p>
+&lt;p>To mitigate these, we &lt;a href="https://github.com/jupyterhub/jupyterhub/pull/5037" target="_blank" rel="noopener" >contributed the SharedPasswordAuthenticator&lt;/a> upstream to the JupyterHub organization, allowing hub admins to set set &lt;em>two&lt;/em> passwords instead of &lt;em>one&lt;/em>.
 Hub admins can now &lt;strong>generate a special password that can be distributed just to admins&lt;/strong>, and that gives users these extra capabilities without giving up the simplicity of using a single password for all workshop participants!&lt;/p>
 &lt;p>By contributing this upstream, we made sure this feature is available for everyone to use, rather than just for communities served by 2i2c.
-We&amp;rsquo;re
-&lt;a href="https://github.com/2i2c-org/infrastructure/issues/7864" target="_blank" rel="noopener" >rolling this&lt;/a> out to our communities now, and many communities have already benefitted from this!&lt;/p>
+We&amp;rsquo;re &lt;a href="https://github.com/2i2c-org/infrastructure/issues/7864" target="_blank" rel="noopener" >rolling this&lt;/a> out to our communities now, and many communities have already benefitted from this!&lt;/p>
 &lt;h2 id="acknowledgements">
 Acknowledgements
 &lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
 &lt;/h2>&lt;ul>
-&lt;li>To
-&lt;a href="https://github.com/minrk" target="_blank" rel="noopener" >MinRK&lt;/a> for code review and merge of the pull requests!&lt;/li>
-&lt;li>The
-&lt;a href="https://2i2c.org/collaborators/openscapes/" >OpenScapes&lt;/a> community for collaborating with us on building features that benefit themselves and everyone else!&lt;/li>
-&lt;li>Support from our
-&lt;a href="https://2i2c.org/members/" >member communities&lt;/a> gives us the capacity to invest in upstream open source engagement and build relationships like this&lt;/li>
-&lt;/ul></description></item><item><title>How solving a disk usage bug for one community benefitted all communities</title><link>https://2i2c.org/blog/benefit-all-communities/</link><pubDate>Sat, 11 Apr 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/benefit-all-communities/</guid><description>&lt;p>Scott Henderson
-&lt;a href="https://github.com/2i2c-org/infrastructure/issues/3321" target="_blank" rel="noopener" >noticed&lt;/a>
-&lt;a href="https://en.wikipedia.org/wiki/Core_dump" target="_blank" rel="noopener" >core dump files&lt;/a> appearing on home directories that were taking up space when a program crashes in one of the hubs we run for the
-&lt;a href="https://cryointhecloud.com/" target="_blank" rel="noopener" >CryoCloud community&lt;/a>.
+&lt;li>To &lt;a href="https://github.com/minrk" target="_blank" rel="noopener" >MinRK&lt;/a> for code review and merge of the pull requests!&lt;/li>
+&lt;li>The &lt;a href="https://2i2c.org/collaborators/openscapes/" >OpenScapes&lt;/a> community for collaborating with us on building features that benefit themselves and everyone else!&lt;/li>
+&lt;li>Support from our &lt;a href="https://2i2c.org/members/" >member communities&lt;/a> gives us the capacity to invest in upstream open source engagement and build relationships like this&lt;/li>
+&lt;/ul></description></item><item><title>How solving a disk usage bug for one community benefitted all communities</title><link>https://2i2c.org/blog/benefit-all-communities/</link><pubDate>Sat, 11 Apr 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/benefit-all-communities/</guid><description>&lt;p>Scott Henderson &lt;a href="https://github.com/2i2c-org/infrastructure/issues/3321" target="_blank" rel="noopener" >noticed&lt;/a> &lt;a href="https://en.wikipedia.org/wiki/Core_dump" target="_blank" rel="noopener" >core dump files&lt;/a> appearing on home directories that were taking up space when a program crashes in one of the hubs we run for the &lt;a href="https://cryointhecloud.com/" target="_blank" rel="noopener" >CryoCloud community&lt;/a>.
 While core dump files can be useful in some circumstances, they are almost never useful on a hub.
 They can also be &lt;em>huge&lt;/em>, costing real cloud spend.
-Ian Caroll
-&lt;a href="https://github.com/2i2c-org/infrastructure/issues/3321#issuecomment-3191672965" target="_blank" rel="noopener" >noticed the increase in disk usage&lt;/a> happening again on both the CryoCloud and the
-&lt;a href="https://openscapes.org/" target="_blank" rel="noopener" >openscapes&lt;/a> hubs as well.
-Ian
-&lt;a href="https://github.com/2i2c-org/infrastructure/issues/3321#issuecomment-3191672965" target="_blank" rel="noopener" >pointed out a fix&lt;/a>, but it would need to be adapted to run on kubernetes.
-2i2c is a small organization, and at that moment
-&lt;a href="https://github.com/2i2c-org/infrastructure/issues/3321#issuecomment-3514101956" target="_blank" rel="noopener" >we did not have the capacity&lt;/a> to do that work.&lt;/p>
-&lt;p>Separately,
-&lt;a href="http://github.com/wildintellect" target="_blank" rel="noopener" >Alex Mandel&lt;/a> from
-&lt;a href="https://developmentseed.org/" target="_blank" rel="noopener" >Development Seed&lt;/a>, working for the NASA VEDA project &lt;em>also&lt;/em> noticed this in their hubs in late 2025, as part of their efforts to audit home directory usage and control costs.
-They were able to build on top of the work from the other communities we supported, and with help from
-&lt;a href="https://github.com/chuckwondo" target="_blank" rel="noopener" >Chuck Daniels&lt;/a> and
-&lt;a href="https://developmentseed.org/team/tarashish-mishra/" target="_blank" rel="noopener" >Tarashish Mishra&lt;/a> (also from Development Seed), they were able to:&lt;/p>
+Ian Caroll &lt;a href="https://github.com/2i2c-org/infrastructure/issues/3321#issuecomment-3191672965" target="_blank" rel="noopener" >noticed the increase in disk usage&lt;/a> happening again on both the CryoCloud and the &lt;a href="https://openscapes.org/" target="_blank" rel="noopener" >openscapes&lt;/a> hubs as well.
+Ian &lt;a href="https://github.com/2i2c-org/infrastructure/issues/3321#issuecomment-3191672965" target="_blank" rel="noopener" >pointed out a fix&lt;/a>, but it would need to be adapted to run on kubernetes.
+2i2c is a small organization, and at that moment &lt;a href="https://github.com/2i2c-org/infrastructure/issues/3321#issuecomment-3514101956" target="_blank" rel="noopener" >we did not have the capacity&lt;/a> to do that work.&lt;/p>
+&lt;p>Separately, &lt;a href="http://github.com/wildintellect" target="_blank" rel="noopener" >Alex Mandel&lt;/a> from &lt;a href="https://developmentseed.org/" target="_blank" rel="noopener" >Development Seed&lt;/a>, working for the NASA VEDA project &lt;em>also&lt;/em> noticed this in their hubs in late 2025, as part of their efforts to audit home directory usage and control costs.
+They were able to build on top of the work from the other communities we supported, and with help from &lt;a href="https://github.com/chuckwondo" target="_blank" rel="noopener" >Chuck Daniels&lt;/a> and &lt;a href="https://developmentseed.org/team/tarashish-mishra/" target="_blank" rel="noopener" >Tarashish Mishra&lt;/a> (also from Development Seed), they were able to:&lt;/p>
 &lt;ol>
 &lt;li>Clean up all core dumps in their communities, and reclaim &lt;code>171G&lt;/code> of space&lt;/li>
-&lt;li>
-&lt;a href="https://github.com/2i2c-org/infrastructure/pull/7588" target="_blank" rel="noopener" >Operationalize&lt;/a> the kubernetes setup needed to disable core
+&lt;li>&lt;a href="https://github.com/2i2c-org/infrastructure/pull/7588" target="_blank" rel="noopener" >Operationalize&lt;/a> the kubernetes setup needed to disable core
 dumps on an ongoing basis.&lt;/li>
 &lt;/ol>
-&lt;p>We were able to roll this out to all our communities, and saved communities
-&lt;a href="https://github.com/2i2c-org/infrastructure/issues/3321#issuecomment-4028227976" target="_blank" rel="noopener" >a lot of space&lt;/a>.
+&lt;p>We were able to roll this out to all our communities, and saved communities &lt;a href="https://github.com/2i2c-org/infrastructure/issues/3321#issuecomment-4028227976" target="_blank" rel="noopener" >a lot of space&lt;/a>.
 In particular, the CryoCloud community was saved &lt;code>717G&lt;/code>, which translates to a lot of money!
 Also poignant that they were the first community to notice the problem.&lt;/p>
-&lt;p>We&amp;rsquo;re also working on contributing this upstream to
-&lt;a href="https://z2jh.jupyter.org" target="_blank" rel="noopener" >zero to jupyterhub&lt;/a>, as this is valuble to everyone running a JupyterHub, not just us.&lt;/p>
+&lt;p>We&amp;rsquo;re also working on contributing this upstream to &lt;a href="https://z2jh.jupyter.org" target="_blank" rel="noopener" >zero to jupyterhub&lt;/a>, as this is valuble to everyone running a JupyterHub, not just us.&lt;/p>
 &lt;h2 id="2i2cs-value">
 2i2c&amp;rsquo;s Value
 &lt;a class="header-anchor" href="#2i2cs-value">#&lt;/a>
@@ -159,46 +106,31 @@ it play out in a way that&amp;rsquo;s organizationally supported by 2i2c.&lt;/p>
 Acknowledgements
 &lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
 &lt;/h2>&lt;ul>
-&lt;li>Thanks to
-&lt;a href="https://2i2c.org/collaborators/cryocloud/" >CryoCloud&lt;/a>,
-&lt;a href="https://2i2c.org/collaborators/devseed/" >Development Seed&lt;/a>, and
-&lt;a href="https://2i2c.org/collaborators/pangeo/" >CryoCloud&lt;/a> for helping with identifying and making this improvement!&lt;/li>
-&lt;li>This work was funded in-part by
-&lt;a href="https://2i2c.org/collaborators/nasa-veda/" >NASA VEDA&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Upgrading community infrastructure to Kubernetes 1.34 and JupyterHub 4.3.3</title><link>https://2i2c.org/blog/infra-upgrades-k8s-jupyterhub/</link><pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/infra-upgrades-k8s-jupyterhub/</guid><description>&lt;p>We&amp;rsquo;ve completed a major round of infrastructure upgrades across all 2i2c-managed hubs - every hub is now running
-&lt;a href="https://kubernetes.io/releases/" target="_blank" rel="noopener" >Kubernetes 1.34&lt;/a> and
-&lt;a href="https://z2jh.jupyter.org/en/stable/changelog.html" target="_blank" rel="noopener" >Z2JH helm chart 4.3.3&lt;/a>.&lt;/p>
-&lt;p>Running up-to-date versions of both Kubernetes and the
-&lt;a href="https://2i2c.org/collaborators/jupyterhub/" >JupyterHub&lt;/a> helm chart ensures that our communities get the best support and reliability, both in terms of features and security.&lt;/p>
+&lt;li>Thanks to &lt;a href="https://2i2c.org/collaborators/cryocloud/" >CryoCloud&lt;/a>, &lt;a href="https://2i2c.org/collaborators/devseed/" >Development Seed&lt;/a>, and &lt;a href="https://2i2c.org/collaborators/pangeo/" >CryoCloud&lt;/a> for helping with identifying and making this improvement!&lt;/li>
+&lt;li>This work was funded in-part by &lt;a href="https://2i2c.org/collaborators/nasa-veda/" >NASA VEDA&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Upgrading community infrastructure to Kubernetes 1.34 and JupyterHub 4.3.3</title><link>https://2i2c.org/blog/infra-upgrades-k8s-jupyterhub/</link><pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/infra-upgrades-k8s-jupyterhub/</guid><description>&lt;p>We&amp;rsquo;ve completed a major round of infrastructure upgrades across all 2i2c-managed hubs - every hub is now running &lt;a href="https://kubernetes.io/releases/" target="_blank" rel="noopener" >Kubernetes 1.34&lt;/a> and &lt;a href="https://z2jh.jupyter.org/en/stable/changelog.html" target="_blank" rel="noopener" >Z2JH helm chart 4.3.3&lt;/a>.&lt;/p>
+&lt;p>Running up-to-date versions of both Kubernetes and the &lt;a href="https://2i2c.org/collaborators/jupyterhub/" >JupyterHub&lt;/a> helm chart ensures that our communities get the best support and reliability, both in terms of features and security.&lt;/p>
 &lt;h2 id="a-new-approach-to-infrastructure-upgrades-upgrading-in-rounds">
 A new approach to infrastructure upgrades: upgrading in rounds
 &lt;a class="header-anchor" href="#a-new-approach-to-infrastructure-upgrades-upgrading-in-rounds">#&lt;/a>
 &lt;/h2>&lt;p>This was the first time we rolled out JupyterHub helm chart upgrades &lt;strong>in rounds&lt;/strong> rather than all at once. By upgrading a subset of hubs at a time, we could identify and fix issues in isolation before they affected the broader network. This made the process safer and more predictable.&lt;/p>
-&lt;p>We&amp;rsquo;re planning to perform these kinds of upgrades on a regular schedule for our member communities. Around &lt;strong>every 6 months&lt;/strong> we&amp;rsquo;ll create an issue to make sure nothing falls through the cracks (here&amp;rsquo;s
-&lt;a href="https://github.com/2i2c-org/infrastructure/blob/main/.github/workflows/recurrent-k8s-gcp-upgrades.yaml" target="_blank" rel="noopener" >example config for creating our reminder issues&lt;/a>).&lt;/p>
-&lt;p>Check out our
-&lt;a href="https://compass.2i2c.org/services/interactive-computing/multiple-hub-upgrades/#making-changes-to-multiple-hubs" target="_blank" rel="noopener" >process docs for multi-hub upgrades&lt;/a> for more information.&lt;/p>
+&lt;p>We&amp;rsquo;re planning to perform these kinds of upgrades on a regular schedule for our member communities. Around &lt;strong>every 6 months&lt;/strong> we&amp;rsquo;ll create an issue to make sure nothing falls through the cracks (here&amp;rsquo;s &lt;a href="https://github.com/2i2c-org/infrastructure/blob/main/.github/workflows/recurrent-k8s-gcp-upgrades.yaml" target="_blank" rel="noopener" >example config for creating our reminder issues&lt;/a>).&lt;/p>
+&lt;p>Check out our &lt;a href="https://compass.2i2c.org/services/interactive-computing/multiple-hub-upgrades/#making-changes-to-multiple-hubs" target="_blank" rel="noopener" >process docs for multi-hub upgrades&lt;/a> for more information.&lt;/p>
 &lt;h2 id="learn-more">
 Learn more
 &lt;a class="header-anchor" href="#learn-more">#&lt;/a>
 &lt;/h2>&lt;p>Check out these pages for what kinds of improvements we&amp;rsquo;ve brought into our clusters / hubs with these latest updates.&lt;/p>
 &lt;ul>
-&lt;li>
-&lt;a href="https://z2jh.jupyter.org/en/stable/changelog.html" target="_blank" rel="noopener" >Z2JH Helm Chart Changelog&lt;/a>&lt;/li>
-&lt;li>
-&lt;a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.34.md" target="_blank" rel="noopener" >Kubernetes 1.34 Changelog&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://z2jh.jupyter.org/en/stable/changelog.html" target="_blank" rel="noopener" >Z2JH Helm Chart Changelog&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.34.md" target="_blank" rel="noopener" >Kubernetes 1.34 Changelog&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h2 id="acknowledgements">
 Acknowledgements
 &lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
 &lt;/h2>&lt;ul>
-&lt;li>Thanks to
-&lt;a href="https://2i2c.org/author/georgiana-dolocan/" >Georgiana Dolocan&lt;/a> for leading this upgrade effort and establishing the rounds-based approach.&lt;/li>
-&lt;li>Thanks to
-&lt;a href="https://2i2c.org/author/chris-holdgraf/" >Chris Holdgraf&lt;/a> for adapting and editing Georgiana&amp;rsquo;s notes into a blog post.&lt;/li>
-&lt;/ul></description></item><item><title>Jenny Wong joins the JupyterHub team</title><link>https://2i2c.org/blog/jenny-jupyterhub-team/</link><pubDate>Mon, 09 Feb 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/jenny-jupyterhub-team/</guid><description>&lt;p>We&amp;rsquo;re excited to share that
-&lt;a href="https://2i2c.org/author/jenny-wong" >Jenny Wong&lt;/a> has been
-&lt;a href="https://github.com/jupyterhub/team-compass/pull/876" target="_blank" rel="noopener" >invited to join the JupyterHub team&lt;/a> as a contributor and maintainer.&lt;/p>
+&lt;li>Thanks to &lt;a href="https://2i2c.org/author/georgiana-dolocan/" >Georgiana Dolocan&lt;/a> for leading this upgrade effort and establishing the rounds-based approach.&lt;/li>
+&lt;li>Thanks to &lt;a href="https://2i2c.org/author/chris-holdgraf/" >Chris Holdgraf&lt;/a> for adapting and editing Georgiana&amp;rsquo;s notes into a blog post.&lt;/li>
+&lt;/ul></description></item><item><title>Jenny Wong joins the JupyterHub team</title><link>https://2i2c.org/blog/jenny-jupyterhub-team/</link><pubDate>Mon, 09 Feb 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/jenny-jupyterhub-team/</guid><description>&lt;p>We&amp;rsquo;re excited to share that &lt;a href="https://2i2c.org/author/jenny-wong" >Jenny Wong&lt;/a> has been &lt;a href="https://github.com/jupyterhub/team-compass/pull/876" target="_blank" rel="noopener" >invited to join the JupyterHub team&lt;/a> as a contributor and maintainer.&lt;/p>
 &lt;p>
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
@@ -212,61 +144,40 @@ height="398"
 loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;/figure>
 &lt;/p>
-&lt;p>Jenny&amp;rsquo;s contributions to
-&lt;a href="https://github.com/jupyterhub/nbgitpuller" target="_blank" rel="noopener" >nbgitpuller&lt;/a> and
-&lt;a href="https://github.com/jupyterhub/grafana-dashboards" target="_blank" rel="noopener" >grafana-dashboards&lt;/a>, along with her active participation in project meetings and community planning, earned her this recognition from the JupyterHub community. Being invited to a project team means that existing team members have recognized a pattern of high-quality contributions and trust in a person&amp;rsquo;s ability to steward the project.&lt;/p>
-&lt;p>We&amp;rsquo;re particularly excited about this because our mission isn&amp;rsquo;t just about deploying infrastructure - it&amp;rsquo;s about being
-&lt;a href="https://2i2c.org/blog/good-citizen/" >good citizens&lt;/a> in the open source communities we depend on. We invest in upstream contributions, participate in community governance, and aim to build the kind of relationships that strengthen the whole ecosystem. When our team members are welcomed into upstream project teams, it&amp;rsquo;s a signal that we&amp;rsquo;re doing this well.&lt;/p>
+&lt;p>Jenny&amp;rsquo;s contributions to &lt;a href="https://github.com/jupyterhub/nbgitpuller" target="_blank" rel="noopener" >nbgitpuller&lt;/a> and &lt;a href="https://github.com/jupyterhub/grafana-dashboards" target="_blank" rel="noopener" >grafana-dashboards&lt;/a>, along with her active participation in project meetings and community planning, earned her this recognition from the JupyterHub community. Being invited to a project team means that existing team members have recognized a pattern of high-quality contributions and trust in a person&amp;rsquo;s ability to steward the project.&lt;/p>
+&lt;p>We&amp;rsquo;re particularly excited about this because our mission isn&amp;rsquo;t just about deploying infrastructure - it&amp;rsquo;s about being &lt;a href="https://2i2c.org/blog/good-citizen/" >good citizens&lt;/a> in the open source communities we depend on. We invest in upstream contributions, participate in community governance, and aim to build the kind of relationships that strengthen the whole ecosystem. When our team members are welcomed into upstream project teams, it&amp;rsquo;s a signal that we&amp;rsquo;re doing this well.&lt;/p>
 &lt;h2 id="learn-more">
 Learn more
 &lt;a class="header-anchor" href="#learn-more">#&lt;/a>
 &lt;/h2>&lt;ul>
-&lt;li>
-&lt;a href="https://compass.hub.jupyter.org/en/latest/team/structure.html" target="_blank" rel="noopener" >JupyterHub team compass&lt;/a> - how the team is structured and how new members are added&lt;/li>
-&lt;li>
-&lt;a href="https://github.com/jupyterhub/team-compass/pull/876" target="_blank" rel="noopener" >JupyterHub proposal to add Jenny to the team&lt;/a>&lt;/li>
-&lt;li>
-&lt;a href="https://github.com/jupyterhub/nbgitpuller" target="_blank" rel="noopener" >nbgitpuller&lt;/a> and
-&lt;a href="https://github.com/jupyterhub/grafana-dashboards" target="_blank" rel="noopener" >grafana-dashboards&lt;/a> - projects Jenny contributes to&lt;/li>
+&lt;li>&lt;a href="https://compass.hub.jupyter.org/en/latest/team/structure.html" target="_blank" rel="noopener" >JupyterHub team compass&lt;/a> - how the team is structured and how new members are added&lt;/li>
+&lt;li>&lt;a href="https://github.com/jupyterhub/team-compass/pull/876" target="_blank" rel="noopener" >JupyterHub proposal to add Jenny to the team&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/jupyterhub/nbgitpuller" target="_blank" rel="noopener" >nbgitpuller&lt;/a> and &lt;a href="https://github.com/jupyterhub/grafana-dashboards" target="_blank" rel="noopener" >grafana-dashboards&lt;/a> - projects Jenny contributes to&lt;/li>
 &lt;/ul>
 &lt;h2 id="acknowledgements">
 Acknowledgements
 &lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
 &lt;/h2>&lt;ul>
-&lt;li>The
-&lt;a href="https://2i2c.org/collaborators/jupyterhub/" >JupyterHub&lt;/a> community for fostering an open and welcoming project culture&lt;/li>
-&lt;li>Support from our
-&lt;a href="https://2i2c.org/members/" >member communities&lt;/a> gives us the capacity to invest in upstream open source engagement and build relationships like this&lt;/li>
+&lt;li>The &lt;a href="https://2i2c.org/collaborators/jupyterhub/" >JupyterHub&lt;/a> community for fostering an open and welcoming project culture&lt;/li>
+&lt;li>Support from our &lt;a href="https://2i2c.org/members/" >member communities&lt;/a> gives us the capacity to invest in upstream open source engagement and build relationships like this&lt;/li>
 &lt;/ul></description></item><item><title>Community learning: Hub config to pass oauth tokens into user environments</title><link>https://2i2c.org/blog/communities-learning-from-one-another/</link><pubDate>Thu, 06 Nov 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/communities-learning-from-one-another/</guid><description>&lt;p>One of our favorite things to see: communities learning from and building on each other&amp;rsquo;s work!&lt;/p>
-&lt;p>
-&lt;a href="https://ops.maap-project.org/" target="_blank" rel="noopener" >MAAP&lt;/a> recently
-&lt;a href="https://github.com/2i2c-org/infrastructure/pull/7068" target="_blank" rel="noopener" >contributed infrastructure configuration&lt;/a> inspired by
-&lt;a href="https://github.com/2i2c-org/infrastructure/blob/0046e14a68d7af9e353c494ee6ad39beb0ce970a/config/clusters/earthscope/common.values.yaml#L29" target="_blank" rel="noopener" >EarthScope&amp;rsquo;s approach&lt;/a> to handling authentication tokens. Both communities need to pass OAuth tokens into user environments so their SDKs can access protected data - and MAAP adapted EarthScope&amp;rsquo;s pattern to fit their needs.&lt;/p>
-&lt;p>This is the kind of peer-to-peer knowledge sharing we hope to foster with our
-&lt;a href="https://github.com/2i2c-org/infrastructure" target="_blank" rel="noopener" >open infrastructure model&lt;/a>. When infrastructure is open and communities can see each other&amp;rsquo;s solutions, they can adapt and build on proven approaches rather than starting from scratch.&lt;/p>
+&lt;p>&lt;a href="https://ops.maap-project.org/" target="_blank" rel="noopener" >MAAP&lt;/a> recently &lt;a href="https://github.com/2i2c-org/infrastructure/pull/7068" target="_blank" rel="noopener" >contributed infrastructure configuration&lt;/a> inspired by &lt;a href="https://github.com/2i2c-org/infrastructure/blob/0046e14a68d7af9e353c494ee6ad39beb0ce970a/config/clusters/earthscope/common.values.yaml#L29" target="_blank" rel="noopener" >EarthScope&amp;rsquo;s approach&lt;/a> to handling authentication tokens. Both communities need to pass OAuth tokens into user environments so their SDKs can access protected data - and MAAP adapted EarthScope&amp;rsquo;s pattern to fit their needs.&lt;/p>
+&lt;p>This is the kind of peer-to-peer knowledge sharing we hope to foster with our &lt;a href="https://github.com/2i2c-org/infrastructure" target="_blank" rel="noopener" >open infrastructure model&lt;/a>. When infrastructure is open and communities can see each other&amp;rsquo;s solutions, they can adapt and build on proven approaches rather than starting from scratch.&lt;/p>
 &lt;h2 id="learn-more">
 Learn more
 &lt;a class="header-anchor" href="#learn-more">#&lt;/a>
 &lt;/h2>&lt;ul>
-&lt;li>
-&lt;a href="https://github.com/2i2c-org/infrastructure/pull/7068" target="_blank" rel="noopener" >MAAP&amp;rsquo;s PR&lt;/a> adapting the configuration&lt;/li>
-&lt;li>
-&lt;a href="https://github.com/2i2c-org/infrastructure/blob/0046e14a68d7af9e353c494ee6ad39beb0ce970a/config/clusters/earthscope/common.values.yaml#L29" target="_blank" rel="noopener" >EarthScope&amp;rsquo;s original config&lt;/a>&lt;/li>
-&lt;li>
-&lt;a href="https://github.com/2i2c-org/infrastructure" target="_blank" rel="noopener" >Our infrastructure repository&lt;/a> where all community configurations live&lt;/li>
+&lt;li>&lt;a href="https://github.com/2i2c-org/infrastructure/pull/7068" target="_blank" rel="noopener" >MAAP&amp;rsquo;s PR&lt;/a> adapting the configuration&lt;/li>
+&lt;li>&lt;a href="https://github.com/2i2c-org/infrastructure/blob/0046e14a68d7af9e353c494ee6ad39beb0ce970a/config/clusters/earthscope/common.values.yaml#L29" target="_blank" rel="noopener" >EarthScope&amp;rsquo;s original config&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/2i2c-org/infrastructure" target="_blank" rel="noopener" >Our infrastructure repository&lt;/a> where all community configurations live&lt;/li>
 &lt;/ul>
 &lt;h2 id="acknowledgments">
 Acknowledgments
 &lt;a class="header-anchor" href="#acknowledgments">#&lt;/a>
 &lt;/h2>&lt;ul>
-&lt;li>
-&lt;a href="https://ops.maap-project.org/" target="_blank" rel="noopener" >MAAP team&lt;/a> for adapting and contributing this configuration&lt;/li>
-&lt;li>
-&lt;a href="https://2i2c.org/collaborators/earthscope/" >EarthScope Consortium&lt;/a> for the original implementation&lt;/li>
-&lt;/ul></description></item><item><title>2i2c Supports the Science Platforms Coordination IHDEA Working Group</title><link>https://2i2c.org/blog/ihdea-working-group/</link><pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/ihdea-working-group/</guid><description>&lt;p>The Science Platforms Coordination IHDEA working group (which includes our own
-&lt;a href="https://2i2c.org/author/jim-colliander/" >Jim Colliander&lt;/a>) is developing international standard software computing environments for Heliophysics. The working group recently presented their work at two major conferences:
-&lt;a href="https://ml-helio.github.io/" target="_blank" rel="noopener" >ML-Helio&lt;/a> in Madrid and
-&lt;a href="https://dash2025.space.swri.edu/" target="_blank" rel="noopener" >DASH/IHDEA&lt;/a> in San Antonio.&lt;/p>
+&lt;li>&lt;a href="https://ops.maap-project.org/" target="_blank" rel="noopener" >MAAP team&lt;/a> for adapting and contributing this configuration&lt;/li>
+&lt;li>&lt;a href="https://2i2c.org/collaborators/earthscope/" >EarthScope Consortium&lt;/a> for the original implementation&lt;/li>
+&lt;/ul></description></item><item><title>2i2c Supports the Science Platforms Coordination IHDEA Working Group</title><link>https://2i2c.org/blog/ihdea-working-group/</link><pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/ihdea-working-group/</guid><description>&lt;p>The Science Platforms Coordination IHDEA working group (which includes our own &lt;a href="https://2i2c.org/author/jim-colliander/" >Jim Colliander&lt;/a>) is developing international standard software computing environments for Heliophysics. The working group recently presented their work at two major conferences: &lt;a href="https://ml-helio.github.io/" target="_blank" rel="noopener" >ML-Helio&lt;/a> in Madrid and &lt;a href="https://dash2025.space.swri.edu/" target="_blank" rel="noopener" >DASH/IHDEA&lt;/a> in San Antonio.&lt;/p>
 &lt;p>
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
@@ -280,8 +191,7 @@ height="123"
 loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;/figure>
 &lt;em>The DASH/IHDEA 2025 conference brings together the heliophysics community to advance data, analysis, and software standards&lt;/em>&lt;/p>
-&lt;p>When the working group received $2k from NASA SMCE for cloud infrastructure, they were already member organizations of 2i2c. This meant we could quickly stand up a
-&lt;a href="https://2i2c.org/collaborators/jupyterhub/" >JupyterHub&lt;/a> with their Heliophysics-tailored environments for the conferences:&lt;/p>
+&lt;p>When the working group received $2k from NASA SMCE for cloud infrastructure, they were already member organizations of 2i2c. This meant we could quickly stand up a &lt;a href="https://2i2c.org/collaborators/jupyterhub/" >JupyterHub&lt;/a> with their Heliophysics-tailored environments for the conferences:&lt;/p>
 &lt;ul>
 &lt;li>&lt;strong>Easy access&lt;/strong> - Shared password authentication for conference attendees&lt;/li>
 &lt;li>&lt;strong>Persistent storage&lt;/strong> - Work saved across sessions&lt;/li>
@@ -296,10 +206,8 @@ Why we&amp;rsquo;re excited about this
 Learn more
 &lt;a class="header-anchor" href="#learn-more">#&lt;/a>
 &lt;/h2>&lt;ul>
-&lt;li>
-&lt;a href="https://ml-helio.github.io/" target="_blank" rel="noopener" >ML-Helio Conference&lt;/a> - Machine learning in heliophysics&lt;/li>
-&lt;li>
-&lt;a href="https://dash2025.space.swri.edu/" target="_blank" rel="noopener" >DASH/IHDEA Conference&lt;/a> - Data, analysis, and software in heliophysics&lt;/li>
+&lt;li>&lt;a href="https://ml-helio.github.io/" target="_blank" rel="noopener" >ML-Helio Conference&lt;/a> - Machine learning in heliophysics&lt;/li>
+&lt;li>&lt;a href="https://dash2025.space.swri.edu/" target="_blank" rel="noopener" >DASH/IHDEA Conference&lt;/a> - Data, analysis, and software in heliophysics&lt;/li>
 &lt;/ul>
 &lt;h2 id="acknowledgements">
 Acknowledgements
@@ -308,13 +216,10 @@ Acknowledgements
 &lt;li>NASA SMCE for providing $2k funding and AWS infrastructure&lt;/li>
 &lt;li>Shawn Polson for being the community champion leading this effort&lt;/li>
 &lt;li>The IHDEA working group for their collaborative partnership in advancing Heliophysics research infrastructure&lt;/li>
-&lt;/ul></description></item><item><title>AWI-CIROH showcases cloud infrastructure at their DevCon 2025</title><link>https://2i2c.org/blog/awi-ciroh-devcon/</link><pubDate>Thu, 12 Jun 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/awi-ciroh-devcon/</guid><description>&lt;p>
-&lt;a href="https://2i2c.org/collaborators/ciroh/" >CIROH&lt;/a> published a post on their DocuHub blog about their cloud infrastructure success at DevCon 2025, highlighting how their JupyterHub deployment supported the conference&amp;rsquo;s interactive computing needs.&lt;/p>
-&lt;p>Read the full post:
-&lt;a href="https://hub.ciroh.org/blog/devcon25-infra/" target="_blank" rel="noopener" >DevCon 2025 Infrastructure&lt;/a>&lt;/p></description></item><item><title>Announcing `jupyterhub-groups-exporter`: monitor usage based on JupyterHub group membership with Prometheus and Grafana</title><link>https://2i2c.org/blog/jupyterhub-groups-exporter/</link><pubDate>Wed, 11 Jun 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/jupyterhub-groups-exporter/</guid><description>&lt;p>Managing user groups in JupyterHub can be a challenging task, especially in environments with dynamic user bases and complex group structures. This post describes how we can leverage the latest group management features in JupyterHub, along with Prometheus and Grafana, to monitor group-level resource usage effectively.&lt;/p>
+&lt;/ul></description></item><item><title>AWI-CIROH showcases cloud infrastructure at their DevCon 2025</title><link>https://2i2c.org/blog/awi-ciroh-devcon/</link><pubDate>Thu, 12 Jun 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/awi-ciroh-devcon/</guid><description>&lt;p>&lt;a href="https://2i2c.org/collaborators/ciroh/" >CIROH&lt;/a> published a post on their DocuHub blog about their cloud infrastructure success at DevCon 2025, highlighting how their JupyterHub deployment supported the conference&amp;rsquo;s interactive computing needs.&lt;/p>
+&lt;p>Read the full post: &lt;a href="https://hub.ciroh.org/blog/devcon25-infra/" target="_blank" rel="noopener" >DevCon 2025 Infrastructure&lt;/a>&lt;/p></description></item><item><title>Announcing `jupyterhub-groups-exporter`: monitor usage based on JupyterHub group membership with Prometheus and Grafana</title><link>https://2i2c.org/blog/jupyterhub-groups-exporter/</link><pubDate>Wed, 11 Jun 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/jupyterhub-groups-exporter/</guid><description>&lt;p>Managing user groups in JupyterHub can be a challenging task, especially in environments with dynamic user bases and complex group structures. This post describes how we can leverage the latest group management features in JupyterHub, along with Prometheus and Grafana, to monitor group-level resource usage effectively.&lt;/p>
 &lt;blockquote>
-&lt;p>⭐ &lt;strong>Members of 2i2c&amp;rsquo;s community network&lt;/strong> can use this feature in their hubs by
-&lt;a href="https://docs.2i2c.org/admin/monitoring/cost-users" target="_blank" rel="noopener" >following our cost attribution documentation&lt;/a>.&lt;/p>
+&lt;p>⭐ &lt;strong>Members of 2i2c&amp;rsquo;s community network&lt;/strong> can use this feature in their hubs by &lt;a href="https://docs.2i2c.org/admin/monitoring/cost-users" target="_blank" rel="noopener" >following our cost attribution documentation&lt;/a>.&lt;/p>
 &lt;/blockquote>
 &lt;p>
 &lt;figure >
@@ -340,22 +245,14 @@ because it allows them to advocate for better funding and cost recovery models b
 &lt;h2 id="jupyterhub-and-user-groups">
 JupyterHub and user groups
 &lt;a class="header-anchor" href="#jupyterhub-and-user-groups">#&lt;/a>
-&lt;/h2>&lt;p>Recent key developments upstream in JupyterHub for groups management, such as
-&lt;a href="https://jupyterhub.readthedocs.io/en/latest/reference/authenticators.html#authenticator-managed-group-membership" target="_blank" rel="noopener" >Authenticator managed group membership&lt;/a>, makes this piece of work a prime and timely opportunity to be tackled. For more technical details of these upstream contributions, see GitHub PRs
-&lt;a href="https://github.com/jupyterhub/oauthenticator/pull/735" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> jupyterhub/oauthenticator#735&lt;/a> and
-&lt;a href="https://github.com/jupyterhub/oauthenticator/pull/498" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> jupyterhub/oauthenticator#498&lt;/a>.&lt;/p>
+&lt;/h2>&lt;p>Recent key developments upstream in JupyterHub for groups management, such as &lt;a href="https://jupyterhub.readthedocs.io/en/latest/reference/authenticators.html#authenticator-managed-group-membership" target="_blank" rel="noopener" >Authenticator managed group membership&lt;/a>, makes this piece of work a prime and timely opportunity to be tackled. For more technical details of these upstream contributions, see GitHub PRs &lt;a href="https://github.com/jupyterhub/oauthenticator/pull/735" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> jupyterhub/oauthenticator#735&lt;/a> and &lt;a href="https://github.com/jupyterhub/oauthenticator/pull/498" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> jupyterhub/oauthenticator#498&lt;/a>.&lt;/p>
 &lt;p>Users can access JupyterHub using a variety of authentication methods. Authentication providers like GitHub have built-in user management features that allow admins to create and manage user groups. These groups can then be configured in JupyterHub to authorize access to the hub, as well as control access to certain hardware profiles.&lt;/p>
-&lt;p>Following the key upstream contributions above, we can leverage
-&lt;a href="https://jupyterhub.readthedocs.io/en/stable/reference/authenticators.html#authenticator-managed-group-membership" target="_blank" rel="noopener" >Authenticator-managed group membership&lt;/a> to automatically pass user group memberships from the authentication layer to JupyterHub itself. This allows us to capitalize on JupyterHub&amp;rsquo;s REST API to retrieve user group memberships from other
-&lt;a href="https://jupyterhub.readthedocs.io/en/latest/reference/services.html" target="_blank" rel="noopener" >services&lt;/a>, such as exporting them as Prometheus metrics.&lt;/p>
+&lt;p>Following the key upstream contributions above, we can leverage &lt;a href="https://jupyterhub.readthedocs.io/en/stable/reference/authenticators.html#authenticator-managed-group-membership" target="_blank" rel="noopener" >Authenticator-managed group membership&lt;/a> to automatically pass user group memberships from the authentication layer to JupyterHub itself. This allows us to capitalize on JupyterHub&amp;rsquo;s REST API to retrieve user group memberships from other &lt;a href="https://jupyterhub.readthedocs.io/en/latest/reference/services.html" target="_blank" rel="noopener" >services&lt;/a>, such as exporting them as Prometheus metrics.&lt;/p>
 &lt;h2 id="exporting-user-group-memberships-to-prometheus">
 Exporting user group memberships to Prometheus
 &lt;a class="header-anchor" href="#exporting-user-group-memberships-to-prometheus">#&lt;/a>
-&lt;/h2>&lt;p>The
-&lt;a href="https://github.com/2i2c-org/jupyterhub-groups-exporter" target="_blank" rel="noopener" >&lt;code>jupyterhub-groups-exporter&lt;/code>&lt;/a> project provides a
-&lt;a href="https://jupyterhub.readthedocs.io/en/latest/reference/services.html" target="_blank" rel="noopener" >service&lt;/a> that integrates with JupyterHub to export user group memberships as Prometheus metrics. This component is readily deployable as part of any JupyterHub instance, such as a standalone deployment or a Zero to JupyterHub deployment on Kubernetes.&lt;/p>
-&lt;p>The exporter provides a
-&lt;a href="https://prometheus.io/docs/concepts/metric_types/" target="_blank" rel="noopener" >Gauge metric&lt;/a> called &lt;code>jupyterhub_user_group_info&lt;/code>, which contain the following labels:&lt;/p>
+&lt;/h2>&lt;p>The &lt;a href="https://github.com/2i2c-org/jupyterhub-groups-exporter" target="_blank" rel="noopener" >&lt;code>jupyterhub-groups-exporter&lt;/code>&lt;/a> project provides a &lt;a href="https://jupyterhub.readthedocs.io/en/latest/reference/services.html" target="_blank" rel="noopener" >service&lt;/a> that integrates with JupyterHub to export user group memberships as Prometheus metrics. This component is readily deployable as part of any JupyterHub instance, such as a standalone deployment or a Zero to JupyterHub deployment on Kubernetes.&lt;/p>
+&lt;p>The exporter provides a &lt;a href="https://prometheus.io/docs/concepts/metric_types/" target="_blank" rel="noopener" >Gauge metric&lt;/a> called &lt;code>jupyterhub_user_group_info&lt;/code>, which contain the following labels:&lt;/p>
 &lt;ul>
 &lt;li>&lt;code>namespace&lt;/code> – the Kubernetes namespace where the JupyterHub is deployed&lt;/li>
 &lt;li>&lt;code>usergroup&lt;/code> – the name of the user group&lt;/li>
@@ -380,10 +277,7 @@ Exporting user group memberships to Prometheus
 &lt;h2 id="visualizing-user-group-resource-usage-with-grafana">
 Visualizing user group resource usage with Grafana
 &lt;a class="header-anchor" href="#visualizing-user-group-resource-usage-with-grafana">#&lt;/a>
-&lt;/h2>&lt;p>The PromQL query above is rather long and complex to construct! However, you can benefit from an
-&lt;a href="https://github.com/jupyterhub/grafana-dashboards/pull/149" target="_blank" rel="noopener" >upstream contribution&lt;/a> to the
-&lt;a href="https://github.com/jupyterhub/grafana-dashboards" target="_blank" rel="noopener" >jupyterhub/grafana-dashboards&lt;/a> project where we have encapsulated the PromQL queries as Jsonnet code and represented them as Grafana Dashboard visualizations (also known as
-&lt;a href="https://grafana.github.io/grafonnet/index.html" target="_blank" rel="noopener" >Grafonnet&lt;/a>). If you have a Kubernetes cluster running JupyterHub, try deploying these Grafana Dashboards and let us know what you think!&lt;/p>
+&lt;/h2>&lt;p>The PromQL query above is rather long and complex to construct! However, you can benefit from an &lt;a href="https://github.com/jupyterhub/grafana-dashboards/pull/149" target="_blank" rel="noopener" >upstream contribution&lt;/a> to the &lt;a href="https://github.com/jupyterhub/grafana-dashboards" target="_blank" rel="noopener" >jupyterhub/grafana-dashboards&lt;/a> project where we have encapsulated the PromQL queries as Jsonnet code and represented them as Grafana Dashboard visualizations (also known as &lt;a href="https://grafana.github.io/grafonnet/index.html" target="_blank" rel="noopener" >Grafonnet&lt;/a>). If you have a Kubernetes cluster running JupyterHub, try deploying these Grafana Dashboards and let us know what you think!&lt;/p>
 &lt;p>Our particular PromQL query above is visualized in the Grafana Dashboard &lt;strong>User Groups Diagnostics&lt;/strong> under the &lt;strong>Memory Usage&lt;/strong> panel (see also the corresponding screenshot at the top of this post). This is equivalent to its counterpart &lt;strong>User Diagnostics&lt;/strong> dashboard, but with resource usage visualized on a &lt;em>per-group&lt;/em> level rather than a per-user level &amp;#x1f389;&lt;/p>
 &lt;h2 id="future-work">
 Future work
@@ -395,26 +289,18 @@ Future work
 &lt;li>developing more group-level reporting and monitoring dashboards&lt;/li>
 &lt;li>introducing group-level resource quotas.&lt;/li>
 &lt;/ul>
-&lt;p>What do you think? How would you like to see JupyterHub&amp;rsquo;s group management features evolve? Have you tried deploying this yourself?
-&lt;a href="https://docs.google.com/forms/d/e/1FAIpQLSff-u-sWFuwO1-VTgk2Ir7f1nfUUlLevQk_Vkk_jnmcI1nJnw/viewform?usp=header" target="_blank" rel="noopener" >We welcome your feedback&lt;/a> and feel free to open GitHub issues or make contributions to the repositories mentioned in this post.&lt;/p>
+&lt;p>What do you think? How would you like to see JupyterHub&amp;rsquo;s group management features evolve? Have you tried deploying this yourself? &lt;a href="https://docs.google.com/forms/d/e/1FAIpQLSff-u-sWFuwO1-VTgk2Ir7f1nfUUlLevQk_Vkk_jnmcI1nJnw/viewform?usp=header" target="_blank" rel="noopener" >We welcome your feedback&lt;/a> and feel free to open GitHub issues or make contributions to the repositories mentioned in this post.&lt;/p>
 &lt;h2 id="acknowledgements">
 Acknowledgements
 &lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
-&lt;/h2>&lt;p>Thanks to the
-&lt;a href="https://2i2c.org/collaborators/jupyterhub/" >JupyterHub project&lt;/a> for their collaboration and review of this work.&lt;/p></description></item><item><title>2i2c hubs now run JupyterHub 5.0</title><link>https://2i2c.org/blog/jupyterhub5-upgrade/</link><pubDate>Fri, 17 Jan 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/jupyterhub5-upgrade/</guid><description>&lt;p>We are excited to announce that all 2i2c hubs now run JupyterHub 5.0!&lt;/p>
+&lt;/h2>&lt;p>Thanks to the &lt;a href="https://2i2c.org/collaborators/jupyterhub/" >JupyterHub project&lt;/a> for their collaboration and review of this work.&lt;/p></description></item><item><title>2i2c hubs now run JupyterHub 5.0</title><link>https://2i2c.org/blog/jupyterhub5-upgrade/</link><pubDate>Fri, 17 Jan 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/jupyterhub5-upgrade/</guid><description>&lt;p>We are excited to announce that all 2i2c hubs now run JupyterHub 5.0!&lt;/p>
 &lt;p>This is an upgrade that brings some exciting new features and improvements. Some of the highlights include:&lt;/p>
 &lt;ol>
-&lt;li>The possibility to enable
-&lt;a href="https://jupyterhub.readthedocs.io/en/5.0.0/tutorial/sharing.html" target="_blank" rel="noopener" >user-initiated server sharing&lt;/a>&lt;/li>
-&lt;li>
-&lt;a href="https://jupyterhub.readthedocs.io/en/5.0.0/reference/authenticators.html#authenticator-managed-roles" target="_blank" rel="noopener" >Authenticator-managed roles&lt;/a>&lt;/li>
+&lt;li>The possibility to enable &lt;a href="https://jupyterhub.readthedocs.io/en/5.0.0/tutorial/sharing.html" target="_blank" rel="noopener" >user-initiated server sharing&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://jupyterhub.readthedocs.io/en/5.0.0/reference/authenticators.html#authenticator-managed-roles" target="_blank" rel="noopener" >Authenticator-managed roles&lt;/a>&lt;/li>
 &lt;/ol>
-&lt;p>Also, JupyterHub 5 will enable us to offer per-group shared directories in the future!
-&lt;a href="https://github.com/NASA-IMPACT/veda-jupyterhub/issues/61" target="_blank" rel="noopener" >Tracking Issue&lt;/a>.&lt;/p>
-&lt;p>Checkout the
-&lt;a href="https://jupyterhub.readthedocs.io/en/latest/howto/upgrading-v5.html" target="_blank" rel="noopener" >JupyterHub 5.0 migration&lt;/a> docs or the
-&lt;a href="https://jupyterhub.readthedocs.io/en/5.0.0/reference/changelog.html#id3" target="_blank" rel="noopener" >changelog&lt;/a> for more details.&lt;/p></description></item><item><title>Improving the logged in home page experience in JupyterHub with `jupyterhub-fancy-profiles`</title><link>https://2i2c.org/blog/jupyterhub-fancy-profiles-rollout/</link><pubDate>Mon, 18 Nov 2024 12:55:20 -0800</pubDate><guid>https://2i2c.org/blog/jupyterhub-fancy-profiles-rollout/</guid><description>&lt;p>On most research oriented JupyterHub installations, users would like to customize their server (the environment, resources available, etc) after logging in. In Kubernetes based JupyterHub environments, a
-&lt;a href="https://z2jh.jupyter.org/en/latest/jupyterhub/customizing/user-environment.html#using-multiple-profiles-to-let-users-select-their-environment" target="_blank" rel="noopener" >profile list&lt;/a> provides this functionality.&lt;/p>
+&lt;p>Also, JupyterHub 5 will enable us to offer per-group shared directories in the future! &lt;a href="https://github.com/NASA-IMPACT/veda-jupyterhub/issues/61" target="_blank" rel="noopener" >Tracking Issue&lt;/a>.&lt;/p>
+&lt;p>Checkout the &lt;a href="https://jupyterhub.readthedocs.io/en/latest/howto/upgrading-v5.html" target="_blank" rel="noopener" >JupyterHub 5.0 migration&lt;/a> docs or the &lt;a href="https://jupyterhub.readthedocs.io/en/5.0.0/reference/changelog.html#id3" target="_blank" rel="noopener" >changelog&lt;/a> for more details.&lt;/p></description></item><item><title>Improving the logged in home page experience in JupyterHub with `jupyterhub-fancy-profiles`</title><link>https://2i2c.org/blog/jupyterhub-fancy-profiles-rollout/</link><pubDate>Mon, 18 Nov 2024 12:55:20 -0800</pubDate><guid>https://2i2c.org/blog/jupyterhub-fancy-profiles-rollout/</guid><description>&lt;p>On most research oriented JupyterHub installations, users would like to customize their server (the environment, resources available, etc) after logging in. In Kubernetes based JupyterHub environments, a &lt;a href="https://z2jh.jupyter.org/en/latest/jupyterhub/customizing/user-environment.html#using-multiple-profiles-to-let-users-select-their-environment" target="_blank" rel="noopener" >profile list&lt;/a> provides this functionality.&lt;/p>
 &lt;p>
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
@@ -422,12 +308,7 @@ Acknowledgements
 &lt;/div>&lt;/figure>
 (Profile List for the NASA VEDA JupyterHub with the default implementation from KubeSpawner)&lt;/p>
 &lt;p>The profile list is the de-facto &amp;ldquo;logged in homepage&amp;rdquo; for these users, as that is what they see after they have logged in.&lt;/p>
-&lt;p>In collaboration with
-&lt;a href="https://developmentseed.org/" target="_blank" rel="noopener" >Development Seed&lt;/a>, funded by our
-&lt;a href="https://2i2c.org/blog/jupyterhub-binderhub-gesis/" >earlier grant&lt;/a> from
-&lt;a href="https://www.gesis.org/home" target="_blank" rel="noopener" >GESIS&lt;/a> as well as the
-&lt;a href="https://www.earthdata.nasa.gov/data/tools/veda" target="_blank" rel="noopener" >NASA VEDA project&lt;/a>, we have been building the
-&lt;a href="https://github.com/2i2c-org/jupyterhub-fancy-profiles" target="_blank" rel="noopener" >&lt;code>jupyterhub-fancy-profiles&lt;/code>&lt;/a> project to improve this experience.&lt;/p>
+&lt;p>In collaboration with &lt;a href="https://developmentseed.org/" target="_blank" rel="noopener" >Development Seed&lt;/a>, funded by our &lt;a href="https://2i2c.org/blog/jupyterhub-binderhub-gesis/" >earlier grant&lt;/a> from &lt;a href="https://www.gesis.org/home" target="_blank" rel="noopener" >GESIS&lt;/a> as well as the &lt;a href="https://www.earthdata.nasa.gov/data/tools/veda" target="_blank" rel="noopener" >NASA VEDA project&lt;/a>, we have been building the &lt;a href="https://github.com/2i2c-org/jupyterhub-fancy-profiles" target="_blank" rel="noopener" >&lt;code>jupyterhub-fancy-profiles&lt;/code>&lt;/a> project to improve this experience.&lt;/p>
 &lt;p>
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
@@ -440,18 +321,13 @@ Acknowledgements
 &lt;p>Descriptions for choices in the dropdowns, making it much easier for users to know what they are getting with each environment (or resource selection).&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>Fully backwards compatible with the existing KubeSpawner profile list implementation. In our PR to
-&lt;a href="https://github.com/2i2c-org/infrastructure/pull/5083" target="_blank" rel="noopener" >roll this out&lt;/a> to all hubs, you notice that we didn&amp;rsquo;t have to change the structure of any profile lists! So you can safely roll this out to your hubs too without needing to fundamentally change how your profiles are set up.&lt;/p>
+&lt;p>Fully backwards compatible with the existing KubeSpawner profile list implementation. In our PR to &lt;a href="https://github.com/2i2c-org/infrastructure/pull/5083" target="_blank" rel="noopener" >roll this out&lt;/a> to all hubs, you notice that we didn&amp;rsquo;t have to change the structure of any profile lists! So you can safely roll this out to your hubs too without needing to fundamentally change how your profiles are set up.&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>It is a modern web app (built with
-&lt;a href="https://react.dev/" target="_blank" rel="noopener" >react&lt;/a>), just like the JupyterHub admin panel. This allows us to evolve and satisfy user needs much faster, as well as expanding the pool of people who can contribute to the project!&lt;/p>
+&lt;p>It is a modern web app (built with &lt;a href="https://react.dev/" target="_blank" rel="noopener" >react&lt;/a>), just like the JupyterHub admin panel. This allows us to evolve and satisfy user needs much faster, as well as expanding the pool of people who can contribute to the project!&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>Support for dynamically building images using
-&lt;a href="https://mybinder.org" target="_blank" rel="noopener" >mybinder.org&lt;/a> style repositories! It talks to the
-&lt;a href="https://github.com/jupyterhub/binderhub/" target="_blank" rel="noopener" >binderhub&lt;/a> API so users can build reproducible environments as they wish without admin involvement nor needing to fully understand how docker and containers work. Our
-&lt;a href="https://2i2c.org/blog/jupyterhub-binderhub-gesis/" >earlier blog post&lt;/a> has more information.&lt;/p>
+&lt;p>Support for dynamically building images using &lt;a href="https://mybinder.org" target="_blank" rel="noopener" >mybinder.org&lt;/a> style repositories! It talks to the &lt;a href="https://github.com/jupyterhub/binderhub/" target="_blank" rel="noopener" >binderhub&lt;/a> API so users can build reproducible environments as they wish without admin involvement nor needing to fully understand how docker and containers work. Our &lt;a href="https://2i2c.org/blog/jupyterhub-binderhub-gesis/" >earlier blog post&lt;/a> has more information.&lt;/p>
 &lt;p>
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
@@ -460,56 +336,29 @@ Acknowledgements
 &lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;p>This is just the start, and thanks to ongoing funding from the
-&lt;a href="https://www.earthdata.nasa.gov/data/tools/veda" target="_blank" rel="noopener" >NASA VEDA&lt;/a> project, we are going to continue making improvements to this experience.&lt;/p>
+&lt;p>This is just the start, and thanks to ongoing funding from the &lt;a href="https://www.earthdata.nasa.gov/data/tools/veda" target="_blank" rel="noopener" >NASA VEDA&lt;/a> project, we are going to continue making improvements to this experience.&lt;/p>
 &lt;h2 id="use-this-in-your-jupyterhub">
 Use this in your JupyterHub
 &lt;a class="header-anchor" href="#use-this-in-your-jupyterhub">#&lt;/a>
-&lt;/h2>&lt;p>As with everything we build at 2i2c (per our
-&lt;a href="https://2i2c.org/right-to-replicate/" target="_blank" rel="noopener" >right to replicate&lt;/a> policy), this project can be used with &lt;em>any&lt;/em> JupyterHub installation that uses Kubernetes. There are
-&lt;a href="https://github.com/2i2c-org/jupyterhub-fancy-profiles/?tab=readme-ov-file#how-to-use" target="_blank" rel="noopener" >instructions&lt;/a> in the README. Please try it out on yours and let us know what you think!&lt;/p>
+&lt;/h2>&lt;p>As with everything we build at 2i2c (per our &lt;a href="https://2i2c.org/right-to-replicate/" target="_blank" rel="noopener" >right to replicate&lt;/a> policy), this project can be used with &lt;em>any&lt;/em> JupyterHub installation that uses Kubernetes. There are &lt;a href="https://github.com/2i2c-org/jupyterhub-fancy-profiles/?tab=readme-ov-file#how-to-use" target="_blank" rel="noopener" >instructions&lt;/a> in the README. Please try it out on yours and let us know what you think!&lt;/p>
 &lt;h2 id="credit">
 Credit
 &lt;a class="header-anchor" href="#credit">#&lt;/a>
 &lt;/h2>&lt;ul>
-&lt;li>The project was initiated with funding generously provided by
-&lt;a href="https://2i2c.org/collaborators/gesis/" >GESIS&lt;/a> (see our
-&lt;a href="https://2i2c.org/blog/jupyterhub-binderhub-gesis/" >earlier blog post&lt;/a>).&lt;/li>
-&lt;li>
-&lt;a href="https://developmentseed.org/team/sanjay-bhangar/" target="_blank" rel="noopener" >Sanjay Bhangar&lt;/a> and
-&lt;a href="https://oliverroick.net/" target="_blank" rel="noopener" >Oliver Roick&lt;/a> from
-&lt;a href="https://developmentseed.org/" target="_blank" rel="noopener" >Development Seed&lt;/a> for advocating for this project and contributing heavily to it.&lt;/li>
-&lt;li>The
-&lt;a href="https://2i2c.org/collaborators/nasa-veda/" >NASA VEDA&lt;/a> project (in particular,
-&lt;a href="https://github.com/freitagb/" target="_blank" rel="noopener" >Brian Freitag&lt;/a> and
-&lt;a href="https://github.com/wildintellect" target="_blank" rel="noopener" >Alex Mandel&lt;/a>), for continued funding (in the form of engineering time) plus being early adopters!&lt;/li>
-&lt;/ul></description></item><item><title>Integrating BinderHub with JupyterHub: Empowering users to manage their own environments</title><link>https://2i2c.org/blog/jupyterhub-binderhub-gesis/</link><pubDate>Wed, 03 Jan 2024 16:56:14 -0800</pubDate><guid>https://2i2c.org/blog/jupyterhub-binderhub-gesis/</guid><description>&lt;p>&lt;em>Thanks to
-&lt;a href="https://www.gesis.org/en/institute/staff/person/arnim.bleier" target="_blank" rel="noopener" >Arnim Bleier&lt;/a>,
-&lt;a href="https://jnywong.github.io/" target="_blank" rel="noopener" >Jenny Wong&lt;/a>,
-&lt;a href="https://github.com/GeorgianaElena" target="_blank" rel="noopener" >Georgiana Elena&lt;/a>,
-&lt;a href="https://github.com/damianavila" target="_blank" rel="noopener" >Damián Avila&lt;/a>,
-&lt;a href="https://colliand.com/" target="_blank" rel="noopener" >Jim Colliander&lt;/a> and
-&lt;a href="https://github.com/jmunroe" target="_blank" rel="noopener" >James Munroe&lt;/a> for contributing to this blog post&lt;/em>&lt;/p>
-&lt;p>
-&lt;a href="https://mybinder.org" target="_blank" rel="noopener" >mybinder.org&lt;/a> is a very popular service that allows end users to specify and share the environment (languages, packages, etc) required for their notebooks to run correctly by placing
-&lt;a href="https://repo2docker.readthedocs.io/en/latest/config_files.html#config-files" target="_blank" rel="noopener" >configuration files&lt;/a> they are already familiar with (like &lt;code>requirements.txt&lt;/code> or &lt;code>environment.yml&lt;/code>) along with their notebooks. While not without its own set of challenges, this is extremely powerful because it puts control of the &lt;em>environment&lt;/em> in the hands of the people who write the code. They can customize the environment to fit the needs of their code, instead of having to fit their code into the environment that admins have made available.&lt;/p>
-&lt;p>But, mybinder.org (and the
-&lt;a href="https://github.com/jupyterhub/binderhub/" target="_blank" rel="noopener" >BinderHub&lt;/a> software that powers it) is built for &lt;em>sharing&lt;/em> your work after you are done with it, &lt;em>not&lt;/em> for actively doing work. BinderHubs often do not have persistent storage nor persistent user identity, and UX is centered around &lt;em>ephemeral&lt;/em> interactivity that can be shared with others (via a link), rather than &lt;em>persistent&lt;/em> interactivity that a single user repeatedly comes back to.
-&lt;a href="https://jupyter.org/hub" target="_blank" rel="noopener" >JupyterHub&lt;/a> is more commonly used for this kinda workflow, but doesn&amp;rsquo;t currently have the ability for users to easily build their own environments. Admins who are &lt;em>running&lt;/em> the JupyterHub can make
-&lt;a href="https://z2jh.jupyter.org/en/stable/jupyterhub/customizing/user-environment.html#using-multiple-profiles-to-let-users-select-their-environment" target="_blank" rel="noopener" >multiple environments&lt;/a> available for users to choose from, but this still puts admins in the critical path for environment customization.&lt;/p>
-&lt;p>Our
-&lt;a href="https://2i2c.org/blog/gesis-2i2c-collaboration-update/" >collaboration&lt;/a> with
-&lt;a href="https://2i2c.org/collaborators/gesis/" >GESIS&lt;/a>,
-&lt;a href="https://www.nfdi4datascience.de" target="_blank" rel="noopener" >NFDI4DS&lt;/a>, and
-&lt;a href="https://www.cessda.eu" target="_blank" rel="noopener" >CESSDA&lt;/a>, aims to bring this flexibility to JupyterHub directly. We aim to empower users to decide for themselves which applications and dependencies are installed on a per-project basis. Our work enables communities with heterogeneous requirements to share a single Hub. Our approach frees administrators from being overwhelmed by installation requests and transforms the JupyterHub platform into a platform for collaborative computational reproducibility. In this update, we report on our progress and upcoming steps in this project.&lt;/p>
+&lt;li>The project was initiated with funding generously provided by &lt;a href="https://2i2c.org/collaborators/gesis/" >GESIS&lt;/a> (see our &lt;a href="https://2i2c.org/blog/jupyterhub-binderhub-gesis/" >earlier blog post&lt;/a>).&lt;/li>
+&lt;li>&lt;a href="https://developmentseed.org/team/sanjay-bhangar/" target="_blank" rel="noopener" >Sanjay Bhangar&lt;/a> and &lt;a href="https://oliverroick.net/" target="_blank" rel="noopener" >Oliver Roick&lt;/a> from &lt;a href="https://developmentseed.org/" target="_blank" rel="noopener" >Development Seed&lt;/a> for advocating for this project and contributing heavily to it.&lt;/li>
+&lt;li>The &lt;a href="https://2i2c.org/collaborators/nasa-veda/" >NASA VEDA&lt;/a> project (in particular, &lt;a href="https://github.com/freitagb/" target="_blank" rel="noopener" >Brian Freitag&lt;/a> and &lt;a href="https://github.com/wildintellect" target="_blank" rel="noopener" >Alex Mandel&lt;/a>), for continued funding (in the form of engineering time) plus being early adopters!&lt;/li>
+&lt;/ul></description></item><item><title>Integrating BinderHub with JupyterHub: Empowering users to manage their own environments</title><link>https://2i2c.org/blog/jupyterhub-binderhub-gesis/</link><pubDate>Wed, 03 Jan 2024 16:56:14 -0800</pubDate><guid>https://2i2c.org/blog/jupyterhub-binderhub-gesis/</guid><description>&lt;p>&lt;em>Thanks to &lt;a href="https://www.gesis.org/en/institute/staff/person/arnim.bleier" target="_blank" rel="noopener" >Arnim Bleier&lt;/a>, &lt;a href="https://jnywong.github.io/" target="_blank" rel="noopener" >Jenny Wong&lt;/a>, &lt;a href="https://github.com/GeorgianaElena" target="_blank" rel="noopener" >Georgiana Elena&lt;/a>, &lt;a href="https://github.com/damianavila" target="_blank" rel="noopener" >Damián Avila&lt;/a>, &lt;a href="https://colliand.com/" target="_blank" rel="noopener" >Jim Colliander&lt;/a> and &lt;a href="https://github.com/jmunroe" target="_blank" rel="noopener" >James Munroe&lt;/a> for contributing to this blog post&lt;/em>&lt;/p>
+&lt;p>&lt;a href="https://mybinder.org" target="_blank" rel="noopener" >mybinder.org&lt;/a> is a very popular service that allows end users to specify and share the environment (languages, packages, etc) required for their notebooks to run correctly by placing &lt;a href="https://repo2docker.readthedocs.io/en/latest/config_files.html#config-files" target="_blank" rel="noopener" >configuration files&lt;/a> they are already familiar with (like &lt;code>requirements.txt&lt;/code> or &lt;code>environment.yml&lt;/code>) along with their notebooks. While not without its own set of challenges, this is extremely powerful because it puts control of the &lt;em>environment&lt;/em> in the hands of the people who write the code. They can customize the environment to fit the needs of their code, instead of having to fit their code into the environment that admins have made available.&lt;/p>
+&lt;p>But, mybinder.org (and the &lt;a href="https://github.com/jupyterhub/binderhub/" target="_blank" rel="noopener" >BinderHub&lt;/a> software that powers it) is built for &lt;em>sharing&lt;/em> your work after you are done with it, &lt;em>not&lt;/em> for actively doing work. BinderHubs often do not have persistent storage nor persistent user identity, and UX is centered around &lt;em>ephemeral&lt;/em> interactivity that can be shared with others (via a link), rather than &lt;em>persistent&lt;/em> interactivity that a single user repeatedly comes back to. &lt;a href="https://jupyter.org/hub" target="_blank" rel="noopener" >JupyterHub&lt;/a> is more commonly used for this kinda workflow, but doesn&amp;rsquo;t currently have the ability for users to easily build their own environments. Admins who are &lt;em>running&lt;/em> the JupyterHub can make &lt;a href="https://z2jh.jupyter.org/en/stable/jupyterhub/customizing/user-environment.html#using-multiple-profiles-to-let-users-select-their-environment" target="_blank" rel="noopener" >multiple environments&lt;/a> available for users to choose from, but this still puts admins in the critical path for environment customization.&lt;/p>
+&lt;p>Our &lt;a href="https://2i2c.org/blog/gesis-2i2c-collaboration-update/" >collaboration&lt;/a> with &lt;a href="https://2i2c.org/collaborators/gesis/" >GESIS&lt;/a>, &lt;a href="https://www.nfdi4datascience.de" target="_blank" rel="noopener" >NFDI4DS&lt;/a>, and &lt;a href="https://www.cessda.eu" target="_blank" rel="noopener" >CESSDA&lt;/a>, aims to bring this flexibility to JupyterHub directly. We aim to empower users to decide for themselves which applications and dependencies are installed on a per-project basis. Our work enables communities with heterogeneous requirements to share a single Hub. Our approach frees administrators from being overwhelmed by installation requests and transforms the JupyterHub platform into a platform for collaborative computational reproducibility. In this update, we report on our progress and upcoming steps in this project.&lt;/p>
 &lt;h2 id="what-does-a-binderhub-do-exactly">
 What does a BinderHub do, exactly?
 &lt;a class="header-anchor" href="#what-does-a-binderhub-do-exactly">#&lt;/a>
 &lt;/h2>&lt;p>It is helpful to understand that BinderHub primarily has 3 responsibilities:&lt;/p>
 &lt;ol>
 &lt;li>Present a UI to the end user for them to provide details on what to build (this is what you see when you go to mybinder.org)&lt;/li>
-&lt;li>Call out to
-&lt;a href="https://github.com/jupyterhub/repo2docker" target="_blank" rel="noopener" >repo2docker&lt;/a> in a scalable way to actually &lt;em>build and push&lt;/em> an image containing the environment for the given repository, and show the user logs as this build process happens. This also allows users to debug issues with their build more easily.&lt;/li>
+&lt;li>Call out to &lt;a href="https://github.com/jupyterhub/repo2docker" target="_blank" rel="noopener" >repo2docker&lt;/a> in a scalable way to actually &lt;em>build and push&lt;/em> an image containing the environment for the given repository, and show the user logs as this build process happens. This also allows users to debug issues with their build more easily.&lt;/li>
 &lt;li>Talk to a JupyterHub instance to launch a user server with the built docker image, and redirect the user to this.&lt;/li>
 &lt;/ol>
 &lt;p>(2) is really the &lt;em>core&lt;/em> feature of BinderHub, and we settled on figuring out how to make that available to JupyterHub users. It was really important to us that this was also done in a way that can be sustainably used by &lt;em>everyone&lt;/em>, not just 2i2c. This blog post discusses the various improvements to the broad ecosystem of projects in the Jupyter ecosystem to get this done.&lt;/p>
@@ -535,35 +384,19 @@ c. A mybinder.org style way to specify a GitHub repository, which will be then d
 &lt;h2 id="a-standalone-binderhub-service-helm-chart">
 A Standalone &lt;code>binderhub-service&lt;/code> helm chart
 &lt;a class="header-anchor" href="#a-standalone-binderhub-service-helm-chart">#&lt;/a>
-&lt;/h2>&lt;p>The default upstream
-&lt;a href="https://github.com/jupyterhub/binderhub/tree/main/helm-chart" target="_blank" rel="noopener" >BinderHub helm chart&lt;/a> &lt;em>includes&lt;/em> a JupyterHub as a dependency, and configures itself to be used primarily in a manner similar to
-&lt;a href="https://mybinder.org" target="_blank" rel="noopener" >mybinder.org&lt;/a>. As the person who helped make that choice early on, I can tell you why it was made - for convenience! And it &lt;em>was&lt;/em> very convenient, as it allowed us to get mybinder.org going fast. However, it makes it difficult to install a BinderHub service &lt;em>alongside&lt;/em> an existing JupyterHub. To this end, we have created a standalone
-&lt;a href="https://github.com/2i2c-org/binderhub-service/" target="_blank" rel="noopener" >BinderHub helm chart&lt;/a>, designed to be installed &lt;em>alongside&lt;/em> an existing JupyterHub, so we can use it &lt;em>purely&lt;/em> to build images. This allows the BinderHub instance to be used as a
-&lt;a href="https://jupyterhub.readthedocs.io/en/stable/reference/services.html" target="_blank" rel="noopener" >JupyterHub Service&lt;/a>, which is what we want.&lt;/p>
-&lt;p>While this helm chart is currently under the 2i2c GitHub org, the hope is that it can eventually migrate to a
-&lt;a href="https://github.com/jupyterhub/team-compass/issues/519" target="_blank" rel="noopener" >jupyterhub-contrib&lt;/a> organization (once it is created), or it can become the upstream helm chart for BinderHub if enough work can be done in BinderHub to allow it to serve use cases like mybinder.org.&lt;/p>
-&lt;p>As part of this work, we also added a way for BinderHub to run in
-&lt;a href="https://github.com/jupyterhub/binderhub/pull/1647" target="_blank" rel="noopener" >API only mode&lt;/a>, so we can fully turn off the UI &lt;em>and&lt;/em> launching ability of BinderHub. This change decoupled the
-&lt;a href="#what-does-a-binderhub-do-exactly" >three responsibilities of BinderHub&lt;/a> we discussed previously, allowing us to bring our own UI and JupyterHub. BinderHub could now be used &lt;em>purely&lt;/em> for its scalable image building features, which is exactly what we want!&lt;/p>
+&lt;/h2>&lt;p>The default upstream &lt;a href="https://github.com/jupyterhub/binderhub/tree/main/helm-chart" target="_blank" rel="noopener" >BinderHub helm chart&lt;/a> &lt;em>includes&lt;/em> a JupyterHub as a dependency, and configures itself to be used primarily in a manner similar to &lt;a href="https://mybinder.org" target="_blank" rel="noopener" >mybinder.org&lt;/a>. As the person who helped make that choice early on, I can tell you why it was made - for convenience! And it &lt;em>was&lt;/em> very convenient, as it allowed us to get mybinder.org going fast. However, it makes it difficult to install a BinderHub service &lt;em>alongside&lt;/em> an existing JupyterHub. To this end, we have created a standalone &lt;a href="https://github.com/2i2c-org/binderhub-service/" target="_blank" rel="noopener" >BinderHub helm chart&lt;/a>, designed to be installed &lt;em>alongside&lt;/em> an existing JupyterHub, so we can use it &lt;em>purely&lt;/em> to build images. This allows the BinderHub instance to be used as a &lt;a href="https://jupyterhub.readthedocs.io/en/stable/reference/services.html" target="_blank" rel="noopener" >JupyterHub Service&lt;/a>, which is what we want.&lt;/p>
+&lt;p>While this helm chart is currently under the 2i2c GitHub org, the hope is that it can eventually migrate to a &lt;a href="https://github.com/jupyterhub/team-compass/issues/519" target="_blank" rel="noopener" >jupyterhub-contrib&lt;/a> organization (once it is created), or it can become the upstream helm chart for BinderHub if enough work can be done in BinderHub to allow it to serve use cases like mybinder.org.&lt;/p>
+&lt;p>As part of this work, we also added a way for BinderHub to run in &lt;a href="https://github.com/jupyterhub/binderhub/pull/1647" target="_blank" rel="noopener" >API only mode&lt;/a>, so we can fully turn off the UI &lt;em>and&lt;/em> launching ability of BinderHub. This change decoupled the &lt;a href="#what-does-a-binderhub-do-exactly" >three responsibilities of BinderHub&lt;/a> we discussed previously, allowing us to bring our own UI and JupyterHub. BinderHub could now be used &lt;em>purely&lt;/em> for its scalable image building features, which is exactly what we want!&lt;/p>
 &lt;h2 id="sustainably-extending-kubespawners-profilelist">
 Sustainably extending KubeSpawner&amp;rsquo;s &lt;code>profileList&lt;/code>
 &lt;a class="header-anchor" href="#sustainably-extending-kubespawners-profilelist">#&lt;/a>
 &lt;/h2>&lt;p>We identified KubeSpawner&amp;rsquo;s &lt;code>profileList&lt;/code> feature as the ideal location for UI to dynamically build environments (container images), making it just another &amp;rsquo;environment choice&amp;rsquo; people can choose, along with picking the resources their server needs. From an end-user perspective, it was also the logical place for them to specify a repository to build into an environment, as they could already choose some pre-built environments from here. They can also select other arbitrary resources they want (such as memory, GPU, etc) from here as well. From a maintainer perspective, it helps with long-term maintenance of the JupyterHub projects.&lt;/p>
-&lt;p>The implementation of &lt;code>profileList&lt;/code> however, was not easy to extend at this point. So
-&lt;a href="https://github.com/jupyterhub/kubespawner/pull/724" target="_blank" rel="noopener" >this PR&lt;/a> improved how easy it was to extend it in more complex ways, without making the implementation in KubeSpawner itself complicated. Even though this had &lt;em>no&lt;/em> visible end-user effects, it was an extremely important step in allowing us to experiment with UI in a &lt;em>sustainable&lt;/em> way without having to rely on upstream. These kinds of changes can sometimes be hard to sell to stakeholders but are extremely important in ensuring a continuous and sustainable relationship with upstream.&lt;/p>
+&lt;p>The implementation of &lt;code>profileList&lt;/code> however, was not easy to extend at this point. So &lt;a href="https://github.com/jupyterhub/kubespawner/pull/724" target="_blank" rel="noopener" >this PR&lt;/a> improved how easy it was to extend it in more complex ways, without making the implementation in KubeSpawner itself complicated. Even though this had &lt;em>no&lt;/em> visible end-user effects, it was an extremely important step in allowing us to experiment with UI in a &lt;em>sustainable&lt;/em> way without having to rely on upstream. These kinds of changes can sometimes be hard to sell to stakeholders but are extremely important in ensuring a continuous and sustainable relationship with upstream.&lt;/p>
 &lt;h2 id="implementing-unlisted_choice-feature-in-kubespawner">
 Implementing &lt;code>unlisted_choice&lt;/code> feature in KubeSpawner
 &lt;a class="header-anchor" href="#implementing-unlisted_choice-feature-in-kubespawner">#&lt;/a>
 &lt;/h2>&lt;p>The profileList feature was built to allow JupyterHub &lt;em>admins&lt;/em> to specify an explicit list of container images the end-user can choose from. It did not have a way for any choice that was &lt;em>not&lt;/em> pre-approved by the admin to be used. We needed this feature since the BinderHub API will build a new docker image for each environment the user wants, and so this can not be chosen from a pre-approved list. We had to safely add this feature to KubeSpawner in such a way that it was generally useful to everyone. Many other communities had been asking for such a feature anyway - the ability to simply &amp;rsquo;type in&amp;rsquo; an image and have that be used.&lt;/p>
-&lt;p>
-&lt;a href="https://www.earthdata.nasa.gov/esds/veda" target="_blank" rel="noopener" >NASA VEDA&lt;/a> was one such community, so we partnered with
-&lt;a href="https://github.com/batpad/" target="_blank" rel="noopener" >Sanjay Bhangar&lt;/a> from
-&lt;a href="https://developmentseed.org/" target="_blank" rel="noopener" >Development Seed&lt;/a> (an organization that helps run NASA VEDA) to implement this feature. Engineers from 2i2c contributed heavily to this feature as well, and after &lt;em>several&lt;/em> PRs (
-&lt;a href="https://github.com/jupyterhub/kubespawner/pull/735" target="_blank" rel="noopener" >1&lt;/a>,
-&lt;a href="https://github.com/jupyterhub/kubespawner/pull/766" target="_blank" rel="noopener" >2&lt;/a>,
-&lt;a href="https://github.com/jupyterhub/kubespawner/pull/773" target="_blank" rel="noopener" >3&lt;/a>,
-&lt;a href="https://github.com/jupyterhub/kubespawner/pull/774" target="_blank" rel="noopener" >4&lt;/a> and
-&lt;a href="https://github.com/jupyterhub/kubespawner/pull/777" target="_blank" rel="noopener" >5&lt;/a>), this feature is now available for everyone to use!&lt;/p>
+&lt;p>&lt;a href="https://www.earthdata.nasa.gov/esds/veda" target="_blank" rel="noopener" >NASA VEDA&lt;/a> was one such community, so we partnered with &lt;a href="https://github.com/batpad/" target="_blank" rel="noopener" >Sanjay Bhangar&lt;/a> from &lt;a href="https://developmentseed.org/" target="_blank" rel="noopener" >Development Seed&lt;/a> (an organization that helps run NASA VEDA) to implement this feature. Engineers from 2i2c contributed heavily to this feature as well, and after &lt;em>several&lt;/em> PRs (&lt;a href="https://github.com/jupyterhub/kubespawner/pull/735" target="_blank" rel="noopener" >1&lt;/a>, &lt;a href="https://github.com/jupyterhub/kubespawner/pull/766" target="_blank" rel="noopener" >2&lt;/a>, &lt;a href="https://github.com/jupyterhub/kubespawner/pull/773" target="_blank" rel="noopener" >3&lt;/a>, &lt;a href="https://github.com/jupyterhub/kubespawner/pull/774" target="_blank" rel="noopener" >4&lt;/a> and &lt;a href="https://github.com/jupyterhub/kubespawner/pull/777" target="_blank" rel="noopener" >5&lt;/a>), this feature is now available for everyone to use!&lt;/p>
 &lt;p>
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
@@ -575,70 +408,38 @@ Implementing &lt;code>unlisted_choice&lt;/code> feature in KubeSpawner
 &lt;code>jupyterhub-fancy-profiles&lt;/code>
 &lt;a class="header-anchor" href="#jupyterhub-fancy-profiles">#&lt;/a>
 &lt;/h2>&lt;p>Once we had all these pieces in place, it was time to actually work on the frontend UI that would allow users to build images dynamically and launch them. Since this will replace the &amp;lsquo;profileList&amp;rsquo; feature, it should also allow them to select different resources (RAM, CPU, etc) as needed, as well as type in an existing image if they desire. So it was a full re-implementation of the &lt;code>profileList&lt;/code> frontend.&lt;/p>
-&lt;p>This is ongoing now at the
-&lt;a href="https://github.com/yuvipanda/jupyterhub-fancy-profiles" target="_blank" rel="noopener" >jupyterhub-fancy-profiles&lt;/a> project. It is a pure frontend web application, using modern frontend tooling (
-&lt;a href="https://react.dev/" target="_blank" rel="noopener" >React&lt;/a>,
-&lt;a href="https://webpack.js.org/" target="_blank" rel="noopener" >webpack&lt;/a>,
-&lt;a href="https://babeljs.io/" target="_blank" rel="noopener" >Babel&lt;/a>, etc) and written in JavaScript. It&amp;rsquo;s gone through a few revisions, but the demo provided earlier in the blog post is in its current state. Because the default profileList implementation is pure HTML / CSS with very &lt;em>minimal&lt;/em> JS, it is limited in what kind of UX it could have. &lt;code>jupyterhub-fancy-profiles&lt;/code> aims to be very helpful &lt;em>even&lt;/em> when dynamic image-building features are not enabled on a JupyterHub. We hope to roll this out to a few JupyterHubs and improve it over time based on feedback.&lt;/p>
+&lt;p>This is ongoing now at the &lt;a href="https://github.com/yuvipanda/jupyterhub-fancy-profiles" target="_blank" rel="noopener" >jupyterhub-fancy-profiles&lt;/a> project. It is a pure frontend web application, using modern frontend tooling (&lt;a href="https://react.dev/" target="_blank" rel="noopener" >React&lt;/a>, &lt;a href="https://webpack.js.org/" target="_blank" rel="noopener" >webpack&lt;/a>, &lt;a href="https://babeljs.io/" target="_blank" rel="noopener" >Babel&lt;/a>, etc) and written in JavaScript. It&amp;rsquo;s gone through a few revisions, but the demo provided earlier in the blog post is in its current state. Because the default profileList implementation is pure HTML / CSS with very &lt;em>minimal&lt;/em> JS, it is limited in what kind of UX it could have. &lt;code>jupyterhub-fancy-profiles&lt;/code> aims to be very helpful &lt;em>even&lt;/em> when dynamic image-building features are not enabled on a JupyterHub. We hope to roll this out to a few JupyterHubs and improve it over time based on feedback.&lt;/p>
 &lt;h2 id="jupyterhubbinderhub-clienthttpswwwnpmjscompackagejupyterhubbinderhub-client-npm-package">
 &lt;a href="https://www.npmjs.com/package/@jupyterhub/binderhub-client" target="_blank" rel="noopener" >&lt;code>jupyterhub/@binderhub-client&lt;/code>&lt;/a> npm package
 &lt;a class="header-anchor" href="#jupyterhubbinderhub-clienthttpswwwnpmjscompackagejupyterhubbinderhub-client-npm-package">#&lt;/a>
-&lt;/h2>&lt;p>While building &lt;code>jupyterhub-fancy-profiles&lt;/code>, we wanted to use the &lt;em>same&lt;/em> javascript code used by BinderHub frontend to interact with the BinderHub API, instead of re-implementing it. However, the existing BinderHub JavaScript code was not easily consumable by external projects. We refactored the code, added tests, migrated to use modern JS practices and published the
-&lt;a href="https://www.npmjs.com/package/@jupyterhub/binderhub-client" target="_blank" rel="noopener" >&lt;code>jupyterhub/@binderhub-client&lt;/code> NPM package&lt;/a> that can be used not just by &lt;code>jupyerhub-fancy-profiles&lt;/code> but any external project for talking to the BinderHub API.&lt;/p>
-&lt;p>This had to be done in such a way that current BinderHub installations (such as mybinder.org) do not break. That took quite a few pull requests:
-&lt;a href="https://github.com/jupyterhub/binderhub/pull/1689" target="_blank" rel="noopener" >1&lt;/a>,
-&lt;a href="https://github.com/jupyterhub/binderhub/pull/1693" target="_blank" rel="noopener" >2&lt;/a>,
-&lt;a href="https://github.com/jupyterhub/binderhub/pull/1694" target="_blank" rel="noopener" >3&lt;/a>,
-&lt;a href="https://github.com/jupyterhub/binderhub/pull/1741" target="_blank" rel="noopener" >4&lt;/a>,
-&lt;a href="https://github.com/jupyterhub/binderhub/pull/1742" target="_blank" rel="noopener" >5&lt;/a>,
-&lt;a href="https://github.com/jupyterhub/binderhub/pull/1758" target="_blank" rel="noopener" >6&lt;/a>,
-&lt;a href="https://github.com/jupyterhub/binderhub/pull/1761" target="_blank" rel="noopener" >7&lt;/a>,
-&lt;a href="https://github.com/jupyterhub/binderhub/pull/1771" target="_blank" rel="noopener" >8&lt;/a>,
-&lt;a href="https://github.com/jupyterhub/binderhub/pull/1773" target="_blank" rel="noopener" >9&lt;/a>,
-&lt;a href="https://github.com/jupyterhub/binderhub/pull/1775" target="_blank" rel="noopener" >10&lt;/a>,
-&lt;a href="https://github.com/jupyterhub/binderhub/pull/1778" target="_blank" rel="noopener" >11&lt;/a>,
-&lt;a href="https://github.com/jupyterhub/binderhub/pull/1779" target="_blank" rel="noopener" >12&lt;/a>,
-&lt;a href="https://github.com/jupyterhub/binderhub/pull/1781" target="_blank" rel="noopener" >13&lt;/a>,
-&lt;a href="https://github.com/jupyterhub/binderhub/pull/1782" target="_blank" rel="noopener" >14&lt;/a>,
-&lt;a href="https://github.com/jupyterhub/binderhub/pull/1783" target="_blank" rel="noopener" >15&lt;/a>. This refactoring work was very helpful to us, and also appreciated by the broader community.&lt;/p>
+&lt;/h2>&lt;p>While building &lt;code>jupyterhub-fancy-profiles&lt;/code>, we wanted to use the &lt;em>same&lt;/em> javascript code used by BinderHub frontend to interact with the BinderHub API, instead of re-implementing it. However, the existing BinderHub JavaScript code was not easily consumable by external projects. We refactored the code, added tests, migrated to use modern JS practices and published the &lt;a href="https://www.npmjs.com/package/@jupyterhub/binderhub-client" target="_blank" rel="noopener" >&lt;code>jupyterhub/@binderhub-client&lt;/code> NPM package&lt;/a> that can be used not just by &lt;code>jupyerhub-fancy-profiles&lt;/code> but any external project for talking to the BinderHub API.&lt;/p>
+&lt;p>This had to be done in such a way that current BinderHub installations (such as mybinder.org) do not break. That took quite a few pull requests: &lt;a href="https://github.com/jupyterhub/binderhub/pull/1689" target="_blank" rel="noopener" >1&lt;/a>, &lt;a href="https://github.com/jupyterhub/binderhub/pull/1693" target="_blank" rel="noopener" >2&lt;/a>, &lt;a href="https://github.com/jupyterhub/binderhub/pull/1694" target="_blank" rel="noopener" >3&lt;/a>, &lt;a href="https://github.com/jupyterhub/binderhub/pull/1741" target="_blank" rel="noopener" >4&lt;/a>, &lt;a href="https://github.com/jupyterhub/binderhub/pull/1742" target="_blank" rel="noopener" >5&lt;/a>, &lt;a href="https://github.com/jupyterhub/binderhub/pull/1758" target="_blank" rel="noopener" >6&lt;/a>, &lt;a href="https://github.com/jupyterhub/binderhub/pull/1761" target="_blank" rel="noopener" >7&lt;/a>, &lt;a href="https://github.com/jupyterhub/binderhub/pull/1771" target="_blank" rel="noopener" >8&lt;/a>, &lt;a href="https://github.com/jupyterhub/binderhub/pull/1773" target="_blank" rel="noopener" >9&lt;/a>, &lt;a href="https://github.com/jupyterhub/binderhub/pull/1775" target="_blank" rel="noopener" >10&lt;/a>, &lt;a href="https://github.com/jupyterhub/binderhub/pull/1778" target="_blank" rel="noopener" >11&lt;/a>, &lt;a href="https://github.com/jupyterhub/binderhub/pull/1779" target="_blank" rel="noopener" >12&lt;/a>, &lt;a href="https://github.com/jupyterhub/binderhub/pull/1781" target="_blank" rel="noopener" >13&lt;/a>, &lt;a href="https://github.com/jupyterhub/binderhub/pull/1782" target="_blank" rel="noopener" >14&lt;/a>, &lt;a href="https://github.com/jupyterhub/binderhub/pull/1783" target="_blank" rel="noopener" >15&lt;/a>. This refactoring work was very helpful to us, and also appreciated by the broader community.&lt;/p>
 &lt;h2 id="defending-against-cryptojacking-with-cryptnono">
 Defending against cryptojacking with &lt;code>cryptnono&lt;/code>
 &lt;a class="header-anchor" href="#defending-against-cryptojacking-with-cryptnono">#&lt;/a>
-&lt;/h2>&lt;p>For Open Science to flourish, we need to allow access to resources without login / paywalls wherever possible. A new menace against this has been
-&lt;a href="https://www.interpol.int/en/Crimes/Cybercrime/Cryptojacking" target="_blank" rel="noopener" >cryptojacking&lt;/a> - where attackers use up any and all available free compute to mine cryptocurrencies. This has affected &lt;em>many&lt;/em> folks on the internet, including
-&lt;a href="https://www.bleepingcomputer.com/news/security/github-actions-being-actively-abused-to-mine-cryptocurrency-on-github-servers/" target="_blank" rel="noopener" >GitHub Actions&lt;/a> and mybinder.org, the primary public BinderHub installation. mybinder.org has some extra protections against cryptojacking that aren&amp;rsquo;t easily usable elsewhere, and this has unfortunately meant that the demo JupyterHubs we have with these features enabled have been behind a login wall. I personally believe login walls are long term antithetical to open science, and so this was an important problem to solve.&lt;/p>
-&lt;p>
-&lt;a href="https://github.com/cryptnono/cryptnono" target="_blank" rel="noopener" >cryptnono&lt;/a> is an open source project designed to help fight cryptojacking, and as part of this grant we ported some of this functionality out of mybinder.org specific code into cryptnono, so other deployments may also benefit from it! We also migrated to using the super efficient
-&lt;a href="https://ebpf.io/" target="_blank" rel="noopener" >ebpf&lt;/a> Linux Kernel subsystem, allowing for more complex heuristics to catch a much broader range of cryptomining activity. We have been slowly tweaking the config on mybinder.org, and it has proven to be very effective! This will be very helpful for &lt;em>anyone&lt;/em> who wants to provide a JupyterHub (or any other computational service) without a login wall. If you are interested in using cryptnono in this fashion, please
-&lt;a href="https://github.com/cryptnono/cryptnono/issues" target="_blank" rel="noopener" >reach out to us&lt;/a> so we can work together!&lt;/p>
+&lt;/h2>&lt;p>For Open Science to flourish, we need to allow access to resources without login / paywalls wherever possible. A new menace against this has been &lt;a href="https://www.interpol.int/en/Crimes/Cybercrime/Cryptojacking" target="_blank" rel="noopener" >cryptojacking&lt;/a> - where attackers use up any and all available free compute to mine cryptocurrencies. This has affected &lt;em>many&lt;/em> folks on the internet, including &lt;a href="https://www.bleepingcomputer.com/news/security/github-actions-being-actively-abused-to-mine-cryptocurrency-on-github-servers/" target="_blank" rel="noopener" >GitHub Actions&lt;/a> and mybinder.org, the primary public BinderHub installation. mybinder.org has some extra protections against cryptojacking that aren&amp;rsquo;t easily usable elsewhere, and this has unfortunately meant that the demo JupyterHubs we have with these features enabled have been behind a login wall. I personally believe login walls are long term antithetical to open science, and so this was an important problem to solve.&lt;/p>
+&lt;p>&lt;a href="https://github.com/cryptnono/cryptnono" target="_blank" rel="noopener" >cryptnono&lt;/a> is an open source project designed to help fight cryptojacking, and as part of this grant we ported some of this functionality out of mybinder.org specific code into cryptnono, so other deployments may also benefit from it! We also migrated to using the super efficient &lt;a href="https://ebpf.io/" target="_blank" rel="noopener" >ebpf&lt;/a> Linux Kernel subsystem, allowing for more complex heuristics to catch a much broader range of cryptomining activity. We have been slowly tweaking the config on mybinder.org, and it has proven to be very effective! This will be very helpful for &lt;em>anyone&lt;/em> who wants to provide a JupyterHub (or any other computational service) without a login wall. If you are interested in using cryptnono in this fashion, please &lt;a href="https://github.com/cryptnono/cryptnono/issues" target="_blank" rel="noopener" >reach out to us&lt;/a> so we can work together!&lt;/p>
 &lt;h2 id="explored-pathways-that-were-then-discarded">
 Explored pathways that were then discarded
 &lt;a class="header-anchor" href="#explored-pathways-that-were-then-discarded">#&lt;/a>
 &lt;/h2>&lt;p>List of things that were tried and then decided as not good pathways:&lt;/p>
 &lt;ul>
-&lt;li>
-&lt;a href="https://github.com/consideRatio/repo2docker-service" target="_blank" rel="noopener" >repo2docker-service&lt;/a>, a separate JupyterHub service that could &lt;em>only&lt;/em> build images. As we worked on it, we realized that it was replicating a lot of features that BinderHub already has, so we pivoted to working on BinderHub directly instead.&lt;/li>
-&lt;li>Building off of
-&lt;a href="https://github.com/plasmabio/tljh-repo2docker" target="_blank" rel="noopener" >tljh-repo2docker&lt;/a>. While this already had a nice UI, it would be hard to port it to run on a distributed Kubernetes environment without it becoming a &amp;lsquo;hard fork&amp;rsquo;.&lt;/li>
+&lt;li>&lt;a href="https://github.com/consideRatio/repo2docker-service" target="_blank" rel="noopener" >repo2docker-service&lt;/a>, a separate JupyterHub service that could &lt;em>only&lt;/em> build images. As we worked on it, we realized that it was replicating a lot of features that BinderHub already has, so we pivoted to working on BinderHub directly instead.&lt;/li>
+&lt;li>Building off of &lt;a href="https://github.com/plasmabio/tljh-repo2docker" target="_blank" rel="noopener" >tljh-repo2docker&lt;/a>. While this already had a nice UI, it would be hard to port it to run on a distributed Kubernetes environment without it becoming a &amp;lsquo;hard fork&amp;rsquo;.&lt;/li>
 &lt;/ul>
 &lt;p>While these did slow down the implementation of the project, it has allowed us to be very confident that the methods we have chosen are long-term sustainable.&lt;/p>
 &lt;h2 id="want-to-try-this-out">
 Want to try this out?
 &lt;a class="header-anchor" href="#want-to-try-this-out">#&lt;/a>
-&lt;/h2>&lt;p>We have a demo of this running at
-&lt;a href="https://imagebuilding-demo.2i2c.cloud" target="_blank" rel="noopener" >imagebuilding-demo.2i2c.cloud&lt;/a>, but unfortunately as we are still fine-tuning &lt;code>cryptnono&lt;/code> config, at this moment it is not open to the public. Please
-&lt;a href="https://2i2c.org/blog/jupyterhub-binderhub-gesis/mailto:yuvipanda@2i2c.org" >contact me&lt;/a> with your GitHub account if you want access, and promise to not be a cryptominer and you shall be granted access.&lt;/p>
-&lt;p>Want to set this up on your own JupyterHub? There is some
-&lt;a href="https://github.com/2i2c-org/binderhub-service/pull/72" target="_blank" rel="noopener" >work in progress&lt;/a> documentation and more is being worked on. Drop a line in the linked pull request and we&amp;rsquo;ll be happy to help. The eventual goal is for &lt;em>anyone&lt;/em> to be able to simply follow documentation and set this up for themselves.&lt;/p>
-&lt;p>We also have user facing documentation on using this service on
-&lt;a href="https://docs.2i2c.org/user/environment/dynamic-imagebuilding#dynamic-image-building" target="_blank" rel="noopener" >docs.2i2c.org&lt;/a>.&lt;/p>
+&lt;/h2>&lt;p>We have a demo of this running at &lt;a href="https://imagebuilding-demo.2i2c.cloud" target="_blank" rel="noopener" >imagebuilding-demo.2i2c.cloud&lt;/a>, but unfortunately as we are still fine-tuning &lt;code>cryptnono&lt;/code> config, at this moment it is not open to the public. Please &lt;a href="https://2i2c.org/blog/jupyterhub-binderhub-gesis/mailto:yuvipanda@2i2c.org" >contact me&lt;/a> with your GitHub account if you want access, and promise to not be a cryptominer and you shall be granted access.&lt;/p>
+&lt;p>Want to set this up on your own JupyterHub? There is some &lt;a href="https://github.com/2i2c-org/binderhub-service/pull/72" target="_blank" rel="noopener" >work in progress&lt;/a> documentation and more is being worked on. Drop a line in the linked pull request and we&amp;rsquo;ll be happy to help. The eventual goal is for &lt;em>anyone&lt;/em> to be able to simply follow documentation and set this up for themselves.&lt;/p>
+&lt;p>We also have user facing documentation on using this service on &lt;a href="https://docs.2i2c.org/user/environment/dynamic-imagebuilding#dynamic-image-building" target="_blank" rel="noopener" >docs.2i2c.org&lt;/a>.&lt;/p>
 &lt;h2 id="future-work">
 Future work
 &lt;a class="header-anchor" href="#future-work">#&lt;/a>
 &lt;/h2>&lt;p>This is not complete of course, and there is a lot of future work to be done.&lt;/p>
 &lt;ol>
-&lt;li>mybinder.org also helps you distribute your &lt;em>content&lt;/em>, not just the environment for your code to run in. Since JupyterHub usually comes with a persistent home directory for the user,
-&lt;a href="https://github.com/jupyterhub/nbgitpuller/" target="_blank" rel="noopener" >nbgitpuller&lt;/a> is commonly used for this purpose instead. We should explore ways to integrate nbgitpuller (and other ways to distribute content) in the future.&lt;/li>
+&lt;li>mybinder.org also helps you distribute your &lt;em>content&lt;/em>, not just the environment for your code to run in. Since JupyterHub usually comes with a persistent home directory for the user, &lt;a href="https://github.com/jupyterhub/nbgitpuller/" target="_blank" rel="noopener" >nbgitpuller&lt;/a> is commonly used for this purpose instead. We should explore ways to integrate nbgitpuller (and other ways to distribute content) in the future.&lt;/li>
 &lt;li>More thorough documentation for how you can recreate what is in the demo for yourself in your own JupyterHub installation.&lt;/li>
 &lt;li>Better UX for specifying images, including figuring out how to &amp;lsquo;save&amp;rsquo; them for future reuse.&lt;/li>
 &lt;li>Better compatibility with mybinder.org, particularly in allowing other sources of environments (not just GitHub, but Zenodo, raw git repositories, etc) and URL compatibility.&lt;/li>
@@ -649,24 +450,10 @@ Credit
 &lt;a class="header-anchor" href="#credit">#&lt;/a>
 &lt;/h2>&lt;p>All this work would not be possible without a large group of collaborators!&lt;/p>
 &lt;ul>
-&lt;li>From 2i2c:
-&lt;a href="https://github.com/consideRatio" target="_blank" rel="noopener" >Erik Sundell&lt;/a>,
-&lt;a href="https://github.com/GeorgianaElena" target="_blank" rel="noopener" >Georgiana Elena&lt;/a>,
-&lt;a href="https://words.yuvi.in/" target="_blank" rel="noopener" >Yuvi&lt;/a>,
-&lt;a href="https://github.com/jmunroe" target="_blank" rel="noopener" >James Munroe&lt;/a>, and
-&lt;a href="https://github.com/damianavila" target="_blank" rel="noopener" >Damián Avila&lt;/a>.&lt;/li>
-&lt;li>The
-&lt;a href="https://github.com/gesiscss/persistent_BinderHub/" target="_blank" rel="noopener" >persistent BinderHub&lt;/a> project was the direct inspiration for all this work, with particular thanks to
-&lt;a href="https://github.com/bitnik" target="_blank" rel="noopener" >Kenan Erdogan&lt;/a>.&lt;/li>
-&lt;li>The
-&lt;a href="https://github.com/plasmabio/tljh-repo2docker" target="_blank" rel="noopener" >tljh-repo2docker&lt;/a> project, which explores similar ideas in the context of running only on a single node.&lt;/li>
-&lt;li>The broad JupyterHub and MyBinder.org community, particularly
-&lt;a href="https://github.com/manics" target="_blank" rel="noopener" >Simon Li&lt;/a> and
-&lt;a href="https://github.com/minrk/" target="_blank" rel="noopener" >MinRK&lt;/a>.&lt;/li>
-&lt;li>Funding generously provided by
-&lt;a href="http://gesis.org" target="_blank" rel="noopener" >GESIS&lt;/a> in cooperation with NFDI4DS (project number:
-&lt;a href="https://gepris.dfg.de/gepris/projekt/460234259?context=projekt&amp;amp;task=showDetail&amp;amp;id=460234259&amp;amp;" target="_blank" rel="noopener" >460234259&lt;/a>) and
-&lt;a href="https://www.cessda.eu" target="_blank" rel="noopener" >CESSDA&lt;/a>.&lt;/li>
-&lt;li>
-&lt;a href="https://www.gesis.org/en/institute/staff/person/arnim.bleier" target="_blank" rel="noopener" >Arnim Bleier&lt;/a> from GESIS was &lt;em>instrumental&lt;/em> in making this project happen.&lt;/li>
+&lt;li>From 2i2c: &lt;a href="https://github.com/consideRatio" target="_blank" rel="noopener" >Erik Sundell&lt;/a>, &lt;a href="https://github.com/GeorgianaElena" target="_blank" rel="noopener" >Georgiana Elena&lt;/a>, &lt;a href="https://words.yuvi.in/" target="_blank" rel="noopener" >Yuvi&lt;/a>, &lt;a href="https://github.com/jmunroe" target="_blank" rel="noopener" >James Munroe&lt;/a>, and &lt;a href="https://github.com/damianavila" target="_blank" rel="noopener" >Damián Avila&lt;/a>.&lt;/li>
+&lt;li>The &lt;a href="https://github.com/gesiscss/persistent_BinderHub/" target="_blank" rel="noopener" >persistent BinderHub&lt;/a> project was the direct inspiration for all this work, with particular thanks to &lt;a href="https://github.com/bitnik" target="_blank" rel="noopener" >Kenan Erdogan&lt;/a>.&lt;/li>
+&lt;li>The &lt;a href="https://github.com/plasmabio/tljh-repo2docker" target="_blank" rel="noopener" >tljh-repo2docker&lt;/a> project, which explores similar ideas in the context of running only on a single node.&lt;/li>
+&lt;li>The broad JupyterHub and MyBinder.org community, particularly &lt;a href="https://github.com/manics" target="_blank" rel="noopener" >Simon Li&lt;/a> and &lt;a href="https://github.com/minrk/" target="_blank" rel="noopener" >MinRK&lt;/a>.&lt;/li>
+&lt;li>Funding generously provided by &lt;a href="http://gesis.org" target="_blank" rel="noopener" >GESIS&lt;/a> in cooperation with NFDI4DS (project number: &lt;a href="https://gepris.dfg.de/gepris/projekt/460234259?context=projekt&amp;amp;task=showDetail&amp;amp;id=460234259&amp;amp;" target="_blank" rel="noopener" >460234259&lt;/a>) and &lt;a href="https://www.cessda.eu" target="_blank" rel="noopener" >CESSDA&lt;/a>.&lt;/li>
+&lt;li>&lt;a href="https://www.gesis.org/en/institute/staff/person/arnim.bleier" target="_blank" rel="noopener" >Arnim Bleier&lt;/a> from GESIS was &lt;em>instrumental&lt;/em> in making this project happen.&lt;/li>
 &lt;/ul></description></item></channel></rss>

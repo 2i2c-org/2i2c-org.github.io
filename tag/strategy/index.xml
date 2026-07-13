@@ -1,31 +1,22 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Strategy | 2i2c</title><link>https://2i2c.org/tag/strategy/</link><atom:link href="https://2i2c.org/tag/strategy/index.xml" rel="self" type="application/rss+xml"/><description>Strategy</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Fri, 06 Feb 2026 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Strategy</title><link>https://2i2c.org/tag/strategy/</link></image><item><title>Announcing our public roadmap for open development</title><link>https://2i2c.org/blog/public-roadmap/</link><pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/public-roadmap/</guid><description>&lt;p>At the core of 2i2c&amp;rsquo;s service is a commitment to doing our work in a way that follows open principles and practices.
-We commit to
-&lt;a href="https://2i2c.org/open-practices/" >doing all of our work in the open&lt;/a> and
-&lt;a href="https://2i2c.org/open-technology/" >only managing and developing open infrastructure&lt;/a>.
-As part of this effort, we&amp;rsquo;re shifting our strategy to
-&lt;a href="https://2i2c.org/blog/public-roadmap/../strategy-update-2026/" >lean more heavily into co-creation&lt;/a> with member communities and open source communities.&lt;/p>
+We commit to &lt;a href="https://2i2c.org/open-practices/" >doing all of our work in the open&lt;/a> and &lt;a href="https://2i2c.org/open-technology/" >only managing and developing open infrastructure&lt;/a>.
+As part of this effort, we&amp;rsquo;re shifting our strategy to &lt;a href="https://2i2c.org/blog/public-roadmap/../strategy-update-2026/" >lean more heavily into co-creation&lt;/a> with member communities and open source communities.&lt;/p>
 &lt;p>Today we&amp;rsquo;re excited to share a first step towards making our development process more participatory, transparent, and useful: &lt;strong>we&amp;rsquo;re opening up our initiatives roadmap&lt;/strong>.
 You can find it here:&lt;/p>
-&lt;p>👉
-&lt;a href="https://2i2c.org/roadmap" target="_blank" rel="noopener" >2i2c.org/roadmap&lt;/a>&lt;/p>
+&lt;p>👉 &lt;a href="https://2i2c.org/roadmap" target="_blank" rel="noopener" >2i2c.org/roadmap&lt;/a>&lt;/p>
 &lt;p>You can find all of our roadmap initiatives in this GitHub repository (please comment and engage with us there!):&lt;/p>
-&lt;p>👉
-&lt;a href="https://github.com/2i2c-org/initiatives" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> github.com/2i2c-org/initiatives&lt;/a>&lt;/p>
-&lt;p>Moving forward, the roadmap will be a key part of our
-&lt;a href="https://2i2c.org/membership/" >service to member organizations&lt;/a>.&lt;/p>
+&lt;p>👉 &lt;a href="https://github.com/2i2c-org/initiatives" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> github.com/2i2c-org/initiatives&lt;/a>&lt;/p>
+&lt;p>Moving forward, the roadmap will be a key part of our &lt;a href="https://2i2c.org/membership/" >service to member organizations&lt;/a>.&lt;/p>
 &lt;h2 id="why-were-opening-up-our-roadmap">
 Why we&amp;rsquo;re opening up our roadmap
 &lt;a class="header-anchor" href="#why-were-opening-up-our-roadmap">#&lt;/a>
-&lt;/h2>&lt;p>At 2i2c,
-&lt;a href="https://github.com/2i2c-org/initiatives" target="_blank" rel="noopener" >initiatives drive most of our work&lt;/a>.
+&lt;/h2>&lt;p>At 2i2c, &lt;a href="https://github.com/2i2c-org/initiatives" target="_blank" rel="noopener" >initiatives drive most of our work&lt;/a>.
 They represent major chunks of value with multiple steps needed to implement and unlock it.
 They range from making core infrastructure improvements to our member network, to making upstream contributions that enable new functionality on behalf of our member communities.
 While initiatives are generally public, they are spread across many places, and we&amp;rsquo;ve managed their prioritization, sequencing, and refinement in internal team spaces.
 This made it difficult for others to follow along, signal-boost, and potentially support initiatives they wanted to see done.&lt;/p>
-&lt;p>For this reason, we decided to build a
-&lt;a href="https://2i2c.org/roadmap" target="_blank" rel="noopener" >public view of our initiatives roadmap&lt;/a>. This reflects our current team priorities and what is coming down the pipeline.&lt;/p>
-&lt;p>We&amp;rsquo;ve also put our platform initiatives in a
-&lt;a href="https://github.com/2i2c-org/initiatives" target="_blank" rel="noopener" >public repository&lt;/a>. This gives us a public space for member communities (or anybody else) to discuss, collaborate, and support ideas in the open.&lt;/p>
+&lt;p>For this reason, we decided to build a &lt;a href="https://2i2c.org/roadmap" target="_blank" rel="noopener" >public view of our initiatives roadmap&lt;/a>. This reflects our current team priorities and what is coming down the pipeline.&lt;/p>
+&lt;p>We&amp;rsquo;ve also put our platform initiatives in a &lt;a href="https://github.com/2i2c-org/initiatives" target="_blank" rel="noopener" >public repository&lt;/a>. This gives us a public space for member communities (or anybody else) to discuss, collaborate, and support ideas in the open.&lt;/p>
 &lt;p>By opening this up, we hope to accomplish these goals:&lt;/p>
 &lt;ol>
 &lt;li>&lt;strong>Make it easier for everyone to see and influence our priorities&lt;/strong>.&lt;/li>
@@ -39,23 +30,17 @@ Our hope is that this will both create more transparency and trust with our stak
 We hope to use a shared roadmap to funnel more resources into open source
 &lt;a class="header-anchor" href="#we-hope-to-use-a-shared-roadmap-to-funnel-more-resources-into-open-source">#&lt;/a>
 &lt;/h2>&lt;p>We also hope we can leverage this as a &lt;strong>shared roadmap across our member communities&lt;/strong> that helps focus our attention and drive fundraising for our work.
-To begin, we&amp;rsquo;re inviting any
-&lt;a href="https://2i2c.org/members/" >member community&lt;/a> to provide financial support for these items as a way to influence our timelines and priorities, and we&amp;rsquo;re exploring ways to facilitate fractional co-funding across our member communities to help share the cost of development across many organizations.&lt;/p>
+To begin, we&amp;rsquo;re inviting any &lt;a href="https://2i2c.org/members/" >member community&lt;/a> to provide financial support for these items as a way to influence our timelines and priorities, and we&amp;rsquo;re exploring ways to facilitate fractional co-funding across our member communities to help share the cost of development across many organizations.&lt;/p>
 &lt;p>This is an early experiment in collaborative and radically transparent development, and we will iterate and learn as we get feedback from member communities.
 We&amp;rsquo;re excited to see where this goes!&lt;/p>
-&lt;p>Please
-&lt;a href="https://2i2c.org/blog/public-roadmap/mailto:hello@2i2c.org" >give feedback on this idea&lt;/a>. If you&amp;rsquo;re interested in being a member organization of 2i2c,
-&lt;a href="https://2i2c.org/join" target="_blank" rel="noopener" >reach out to us about membership&lt;/a>.&lt;/p></description></item><item><title>2026 Strategy Update: An increased focus on co-creation</title><link>https://2i2c.org/blog/strategy-update-after-2025/</link><pubDate>Mon, 12 Jan 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/strategy-update-after-2025/</guid><description>&lt;p>As we wrapped up 2025, we felt compelled to incorporate what we learned over the year into our strategic direction, and to update our organizational documentation accordingly. Here&amp;rsquo;s a quick rundown of what we learned and how we&amp;rsquo;re adjusting.&lt;/p>
-&lt;p>&lt;em>You can check out all of
-&lt;a href="https://compass.2i2c.org/organization/#core-strategy" target="_blank" rel="noopener" >our core strategy documentation&lt;/a> in our Team Compass.&lt;/em>&lt;/p>
+&lt;p>Please &lt;a href="https://2i2c.org/blog/public-roadmap/mailto:hello@2i2c.org" >give feedback on this idea&lt;/a>. If you&amp;rsquo;re interested in being a member organization of 2i2c, &lt;a href="https://2i2c.org/join" target="_blank" rel="noopener" >reach out to us about membership&lt;/a>.&lt;/p></description></item><item><title>2026 Strategy Update: An increased focus on co-creation</title><link>https://2i2c.org/blog/strategy-update-after-2025/</link><pubDate>Mon, 12 Jan 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/strategy-update-after-2025/</guid><description>&lt;p>As we wrapped up 2025, we felt compelled to incorporate what we learned over the year into our strategic direction, and to update our organizational documentation accordingly. Here&amp;rsquo;s a quick rundown of what we learned and how we&amp;rsquo;re adjusting.&lt;/p>
+&lt;p>&lt;em>You can check out all of &lt;a href="https://compass.2i2c.org/organization/#core-strategy" target="_blank" rel="noopener" >our core strategy documentation&lt;/a> in our Team Compass.&lt;/em>&lt;/p>
 &lt;h2 id="the-macro-view-from-2025">
 The macro view from 2025
 &lt;a class="header-anchor" href="#the-macro-view-from-2025">#&lt;/a>
 &lt;/h2>&lt;p>2025 was a disruptive year. The shifting political and economic climate creates a lot of uncertainty around how the research and education space will be resourced and structured moving forward. Federal funding seems less likely in general, and private philanthropy has become more competitive as many organizations turn to these funding sources to make up the gap that the government has left.&lt;/p>
-&lt;p>At its core, this makes us more confident in our sustainability strategy, which is rooted in a self-sustaining service that delivers value to &lt;em>many different&lt;/em> member organizations in exchange for funds to support our operations. In 2024 we
-&lt;a href="https://2i2c.org/blog/strategy-update-after-2025/../../2024/funding-navigation/" >received funding from The Navigation Fund&lt;/a> to build this model, and it&amp;rsquo;s the path we&amp;rsquo;ve been exploring over the last year. We like the fact that this spreads the financial risk across many different organizations, rather than depending strategically on a single donor or government agency. That said, there may still be sector-wide changes that cause the entire ecosystem of research organizations to change behavior at once.&lt;/p>
-&lt;p>Frankly, it is hard to predict what the future is going to look like. 2i2c is a &amp;ldquo;second order&amp;rdquo; recipient of research funding, as our
-&lt;a href="https://2i2c.org/members/" target="_blank" rel="noopener" >member organizations&lt;/a> provide us support to manage infrastructure and facilitate open source contributions. How these institutions respond to funding cuts will have big implications for our sustainability. For example, these two outcomes both seem reasonable:&lt;/p>
+&lt;p>At its core, this makes us more confident in our sustainability strategy, which is rooted in a self-sustaining service that delivers value to &lt;em>many different&lt;/em> member organizations in exchange for funds to support our operations. In 2024 we &lt;a href="https://2i2c.org/blog/strategy-update-after-2025/../../2024/funding-navigation/" >received funding from The Navigation Fund&lt;/a> to build this model, and it&amp;rsquo;s the path we&amp;rsquo;ve been exploring over the last year. We like the fact that this spreads the financial risk across many different organizations, rather than depending strategically on a single donor or government agency. That said, there may still be sector-wide changes that cause the entire ecosystem of research organizations to change behavior at once.&lt;/p>
+&lt;p>Frankly, it is hard to predict what the future is going to look like. 2i2c is a &amp;ldquo;second order&amp;rdquo; recipient of research funding, as our &lt;a href="https://2i2c.org/members/" target="_blank" rel="noopener" >member organizations&lt;/a> provide us support to manage infrastructure and facilitate open source contributions. How these institutions respond to funding cuts will have big implications for our sustainability. For example, these two outcomes both seem reasonable:&lt;/p>
 &lt;ul>
 &lt;li>Scenario 1: Institutions cut all of their &amp;ldquo;nice-to-have&amp;rdquo; funding choices. That means 2i2c struggles to cover its costs under its current membership model.&lt;/li>
 &lt;li>Scenario 2: Funding cuts create an increased need for shared infrastructure and services, and 2i2c is seen as a more cost-effective provider compared with bespoke self-managed infrastructure.&lt;/li>
@@ -66,21 +51,14 @@ The macro view from 2025
 How member communities see value in our service
 &lt;a class="header-anchor" href="#how-member-communities-see-value-in-our-service">#&lt;/a>
 &lt;/h2>&lt;p>We had a chance to test out several organizational hypotheses about the core value of our organization and service. We originally framed &amp;ldquo;premier&amp;rdquo; membership as a means of accessing &amp;ldquo;more&amp;rdquo; community hubs for larger communities. However, we learned that for many organizations &amp;ldquo;more hubs&amp;rdquo; is not what they want, even if they have a large community. It certainly isn&amp;rsquo;t the core driver of value for their service.&lt;/p>
-&lt;p>Instead, our most successful
-&lt;a href="https://2i2c.org/members/" target="_blank" rel="noopener" >member organizations&lt;/a> seemed to view their membership as a combination of a few things:&lt;/p>
+&lt;p>Instead, our most successful &lt;a href="https://2i2c.org/members/" target="_blank" rel="noopener" >member organizations&lt;/a> seemed to view their membership as a combination of a few things:&lt;/p>
 &lt;ul>
 &lt;li>Collaboration with our team, and the ability to work with us in shaping and delivering open source work.&lt;/li>
 &lt;li>Proximity to others to learn from in open science and open source, and an ability to participate in open source spaces more effectively.&lt;/li>
 &lt;li>Managed infrastructure that acted as a technical scaffold to make iterations of development more efficient, and made new enhancements immediately accessible.&lt;/li>
 &lt;/ul>
-&lt;p>Managed infrastructure was a necessary, but not sufficient, part of our value proposition. This makes sense - managed open source infrastructure is a commodity, and our organization is simply not competitive on price when it comes to commodity-level infrastructure (even with constraints like the
-&lt;a href="https://2i2c.org/right-to-replicate" target="_blank" rel="noopener" >Right to Replicate&lt;/a>).&lt;/p>
-&lt;p>At the same time, some of the biggest successes of last year came out of deeper partnerships and development efforts that were &lt;em>made more likely by membership&lt;/em>. For example, we deepened our collaboration with
-&lt;a href="https://2i2c.org/collaborators/nasa-veda/" >NASA VEDA&lt;/a> and
-&lt;a href="https://2i2c.org/collaborators/devseed/" >Development Seed&lt;/a> and created several interesting new pieces of technology, like
-&lt;a href="https://2i2c.org/jupyterhub-fancy-profiles/" target="_blank" rel="noopener" >&lt;code>jupyterhub-fancy-profiles&lt;/code>&lt;/a>. We also felt this strongly at
-&lt;a href="https://2i2c.org/blog/strategy-update-after-2025/../../2025/jupytercon-talks/" >JupyterCon 2025&lt;/a> - here&amp;rsquo;s a quote by
-&lt;a href="https://2i2c.org/author/yuvaraj-yuvi/" >Yuvi&lt;/a> from our team&amp;rsquo;s JupyterCon retrospective:&lt;/p>
+&lt;p>Managed infrastructure was a necessary, but not sufficient, part of our value proposition. This makes sense - managed open source infrastructure is a commodity, and our organization is simply not competitive on price when it comes to commodity-level infrastructure (even with constraints like the &lt;a href="https://2i2c.org/right-to-replicate" target="_blank" rel="noopener" >Right to Replicate&lt;/a>).&lt;/p>
+&lt;p>At the same time, some of the biggest successes of last year came out of deeper partnerships and development efforts that were &lt;em>made more likely by membership&lt;/em>. For example, we deepened our collaboration with &lt;a href="https://2i2c.org/collaborators/nasa-veda/" >NASA VEDA&lt;/a> and &lt;a href="https://2i2c.org/collaborators/devseed/" >Development Seed&lt;/a> and created several interesting new pieces of technology, like &lt;a href="https://2i2c.org/jupyterhub-fancy-profiles/" target="_blank" rel="noopener" >&lt;code>jupyterhub-fancy-profiles&lt;/code>&lt;/a>. We also felt this strongly at &lt;a href="https://2i2c.org/blog/strategy-update-after-2025/../../2025/jupytercon-talks/" >JupyterCon 2025&lt;/a> - here&amp;rsquo;s a quote by &lt;a href="https://2i2c.org/author/yuvaraj-yuvi/" >Yuvi&lt;/a> from our team&amp;rsquo;s JupyterCon retrospective:&lt;/p>
 &lt;blockquote>
 &lt;p>The unique value we add is that we help communities navigate the fairly complex and fast moving ecosystem of interactive computing, by helping them make choices that work for them. We do this by understanding their needs, understanding the ecosystem, and both making connections when they exist, and creating new ones (in ways that integrate with the existing ecosystem) when necessary.&lt;/p>
 &lt;/blockquote>
@@ -89,17 +67,12 @@ How member communities see value in our service
 How we&amp;rsquo;re adjusting the value proposition and operations of membership
 &lt;a class="header-anchor" href="#how-were-adjusting-the-value-proposition-and-operations-of-membership">#&lt;/a>
 &lt;/h2>&lt;p>We&amp;rsquo;re updating our strategy to center the value of &lt;strong>human connection, collaboration, and development&lt;/strong> as part of our service, and incorporating it in our business objectives as well. This is a way to dedicate more organizational resources to this kind of impactful work, and helps us hedge our bets against a slower potential growth from standardized memberships.&lt;/p>
-&lt;p>Here are a few highlights from these changes (taken from our
-&lt;a href="https://compass.2i2c.org/organization/#core-strategy" target="_blank" rel="noopener" >core strategy&lt;/a>):&lt;/p>
+&lt;p>Here are a few highlights from these changes (taken from our &lt;a href="https://compass.2i2c.org/organization/#core-strategy" target="_blank" rel="noopener" >core strategy&lt;/a>):&lt;/p>
 &lt;ul>
-&lt;li>Our
-&lt;a href="https://compass.2i2c.org/organization/theory-of-impact/" target="_blank" rel="noopener" >theory of impact&lt;/a> now includes an explicit callout to the need for 2i2c to facilitate an exchange of ideas and resources between research communities and open source communities.&lt;/li>
-&lt;li>We&amp;rsquo;ve adjusted the language of
-&lt;a href="https://compass.2i2c.org/organization/strategy/" target="_blank" rel="noopener" >our strategy&lt;/a> such that managed infrastructure is a &amp;ldquo;necessary but not sufficient&amp;rdquo; aspect of member value. Members must be able to trust their infrastructure, but the real value comes from cycles of development and collaboration that is made &lt;em>easier&lt;/em> by managed infrastructure.&lt;/li>
-&lt;li>Our
-&lt;a href="https://compass.2i2c.org/organization/strategy/#our-big-challenge" target="_blank" rel="noopener" >key challenge&lt;/a> is thus building a shared &amp;ldquo;development and operations&amp;rdquo; service in a way that serves multiple communities without the cost structure of a bespoke consultancy.&lt;/li>
-&lt;li>We have a few ideas for how to do this, and a key starting point is to define a
-&lt;a href="https://compass.2i2c.org/organization/strategy/#operating-principles" target="_blank" rel="noopener" >shared roadmap&lt;/a> and a selective group of member organizations that we can engage collectively.&lt;/li>
+&lt;li>Our &lt;a href="https://compass.2i2c.org/organization/theory-of-impact/" target="_blank" rel="noopener" >theory of impact&lt;/a> now includes an explicit callout to the need for 2i2c to facilitate an exchange of ideas and resources between research communities and open source communities.&lt;/li>
+&lt;li>We&amp;rsquo;ve adjusted the language of &lt;a href="https://compass.2i2c.org/organization/strategy/" target="_blank" rel="noopener" >our strategy&lt;/a> such that managed infrastructure is a &amp;ldquo;necessary but not sufficient&amp;rdquo; aspect of member value. Members must be able to trust their infrastructure, but the real value comes from cycles of development and collaboration that is made &lt;em>easier&lt;/em> by managed infrastructure.&lt;/li>
+&lt;li>Our &lt;a href="https://compass.2i2c.org/organization/strategy/#our-big-challenge" target="_blank" rel="noopener" >key challenge&lt;/a> is thus building a shared &amp;ldquo;development and operations&amp;rdquo; service in a way that serves multiple communities without the cost structure of a bespoke consultancy.&lt;/li>
+&lt;li>We have a few ideas for how to do this, and a key starting point is to define a &lt;a href="https://compass.2i2c.org/organization/strategy/#operating-principles" target="_blank" rel="noopener" >shared roadmap&lt;/a> and a selective group of member organizations that we can engage collectively.&lt;/li>
 &lt;/ul>
 &lt;p>Or, if you&amp;rsquo;d like to just get a quick summary, here is the strategic approach that we&amp;rsquo;ve defined for the team:&lt;/p>
 &lt;blockquote>
@@ -111,9 +84,7 @@ How we&amp;rsquo;re adjusting the value proposition and operations of membership
 &lt;h2 id="hypotheses-wed-like-to-test-next">
 Hypotheses we&amp;rsquo;d like to test next
 &lt;a class="header-anchor" href="#hypotheses-wed-like-to-test-next">#&lt;/a>
-&lt;/h2>&lt;p>You can find more information about how we&amp;rsquo;re operationalizing this in
-&lt;a href="https://compass.2i2c.org/organization/service-model/" target="_blank" rel="noopener" >our service model&lt;/a> and
-&lt;a href="https://compass.2i2c.org/organization/plan/" target="_blank" rel="noopener" >annual plan&lt;/a> pages - we&amp;rsquo;ll adjust these as we learn. Our next step is to test these hypotheses as quickly as we can:&lt;/p>
+&lt;/h2>&lt;p>You can find more information about how we&amp;rsquo;re operationalizing this in &lt;a href="https://compass.2i2c.org/organization/service-model/" target="_blank" rel="noopener" >our service model&lt;/a> and &lt;a href="https://compass.2i2c.org/organization/plan/" target="_blank" rel="noopener" >annual plan&lt;/a> pages - we&amp;rsquo;ll adjust these as we learn. Our next step is to test these hypotheses as quickly as we can:&lt;/p>
 &lt;ul>
 &lt;li>&lt;em>By choosing the right communities for membership and building an accessible process around our team&amp;rsquo;s priorities, we can define a shared roadmapping and development system that is scalable to all of our members, and that they all view as valuable.&lt;/em>&lt;/li>
 &lt;li>&lt;em>By engaging member communities in this way, we will have a significant new stream of revenue to sustain the organization while making open source improvements that are broadly useful.&lt;/em>&lt;/li>
@@ -123,6 +94,4 @@ Hypotheses we&amp;rsquo;d like to test next
 What we&amp;rsquo;re watching for in 2026
 &lt;a class="header-anchor" href="#what-were-watching-for-in-2026">#&lt;/a>
 &lt;/h2>&lt;p>2026 is going to be a pivotal year for the organization - I suspect it&amp;rsquo;ll force us to either double down on our current sustainability model, or to pivot towards something that is lighter given the new funding realities that the sector is facing. We are watching for whether research institutions begin cancelling or scaling back their contract work &lt;em>en-masse&lt;/em>, and we&amp;rsquo;re also being mindful for whether our assumptions about a &amp;ldquo;shared roadmap&amp;rdquo; across our communities are actually delivering the value to them that we&amp;rsquo;d expect.&lt;/p>
-&lt;p>We&amp;rsquo;re excited to lean into this more active and collaborative aspect of our service. We&amp;rsquo;re confident this will be more impactful for our member organizations, and for the broader ecosystem. We&amp;rsquo;ll keep folks updated with our progress via
-&lt;a href="https://2i2c.org/blog" target="_blank" rel="noopener" >our blog&lt;/a> and
-&lt;a href="https://2i2c.org/mailing-list" target="_blank" rel="noopener" >our mailing list&lt;/a> as always.&lt;/p></description></item></channel></rss>
+&lt;p>We&amp;rsquo;re excited to lean into this more active and collaborative aspect of our service. We&amp;rsquo;re confident this will be more impactful for our member organizations, and for the broader ecosystem. We&amp;rsquo;ll keep folks updated with our progress via &lt;a href="https://2i2c.org/blog" target="_blank" rel="noopener" >our blog&lt;/a> and &lt;a href="https://2i2c.org/mailing-list" target="_blank" rel="noopener" >our mailing list&lt;/a> as always.&lt;/p></description></item></channel></rss>

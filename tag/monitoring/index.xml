@@ -20,8 +20,7 @@ width="760"
 height="394"
 loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;/figure>
-&lt;em>See the real-time status of our community hubs at
-&lt;a href="http://status.2i2c.org" target="_blank" rel="noopener" >status.2i2c.org&lt;/a>&lt;/em>&lt;/p>
+&lt;em>See the real-time status of our community hubs at &lt;a href="http://status.2i2c.org" target="_blank" rel="noopener" >status.2i2c.org&lt;/a>&lt;/em>&lt;/p>
 &lt;h3 id="we-improved-infrastructure-reliability-for-our-communities">
 We improved infrastructure reliability for our communities
 &lt;a class="header-anchor" href="#we-improved-infrastructure-reliability-for-our-communities">#&lt;/a>
@@ -53,8 +52,7 @@ The improvements we made
 Infrastructure improvements
 &lt;a class="header-anchor" href="#infrastructure-improvements">#&lt;/a>
 &lt;/h3>&lt;ul>
-&lt;li>Created a
-&lt;a href="http://status.2i2c.org" target="_blank" rel="noopener" >status page for all 2i2c community hubs&lt;/a>, giving our team and communities visibility into the status of our infrastructure.&lt;/li>
+&lt;li>Created a &lt;a href="http://status.2i2c.org" target="_blank" rel="noopener" >status page for all 2i2c community hubs&lt;/a>, giving our team and communities visibility into the status of our infrastructure.&lt;/li>
 &lt;li>Created an alert that triggers when two servers fail to start consecutively in a 30-minute time window.&lt;/li>
 &lt;li>Improved deployment infrastructure so that we can roll out sub-chart upgrades to individual clusters, allowing us to roll out major changes in batches.&lt;/li>
 &lt;li>Removed our &amp;ldquo;configurator&amp;rdquo; application from community hubs, because it was causing more confusion than it was resolving.&lt;/li>
@@ -65,16 +63,11 @@ Infrastructure improvements
 Process improvements
 &lt;a class="header-anchor" href="#process-improvements">#&lt;/a>
 &lt;/h3>&lt;ul>
-&lt;li>Made a team commitment to prioritize issues from
-&lt;a href="https://2i2c.org/incident-reports" target="_blank" rel="noopener" >incident reports&lt;/a> and other stability-related problems.&lt;/li>
-&lt;li>Defined incident
-&lt;a href="https://infrastructure.2i2c.org/topic/monitoring-alerting/escalation-policies/" target="_blank" rel="noopener" >escalation policies&lt;/a> using the
-&lt;a href="http://status.2i2c.org" target="_blank" rel="noopener" >status page&lt;/a> to calibrate the urgency of our response to the severity of incidents.&lt;/li>
+&lt;li>Made a team commitment to prioritize issues from &lt;a href="https://2i2c.org/incident-reports" target="_blank" rel="noopener" >incident reports&lt;/a> and other stability-related problems.&lt;/li>
+&lt;li>Defined incident &lt;a href="https://infrastructure.2i2c.org/topic/monitoring-alerting/escalation-policies/" target="_blank" rel="noopener" >escalation policies&lt;/a> using the &lt;a href="http://status.2i2c.org" target="_blank" rel="noopener" >status page&lt;/a> to calibrate the urgency of our response to the severity of incidents.&lt;/li>
 &lt;li>Defined &amp;ldquo;on-call&amp;rdquo; procedures so our team knows when and how to be more responsive to outages.&lt;/li>
 &lt;li>Time-boxed our alert response process to avoid accidentally falling down rabbit holes for non-urgent problems.&lt;/li>
-&lt;li>Created a more reliable process for
-&lt;a href="https://infrastructure.2i2c.org/topic/monitoring-alerting/escalation-policies/" target="_blank" rel="noopener" >responding to incidents&lt;/a> and writing
-&lt;a href="https://2i2c.org/incident-reports" target="_blank" rel="noopener" >incident reports&lt;/a>.&lt;/li>
+&lt;li>Created a more reliable process for &lt;a href="https://infrastructure.2i2c.org/topic/monitoring-alerting/escalation-policies/" target="_blank" rel="noopener" >responding to incidents&lt;/a> and writing &lt;a href="https://2i2c.org/incident-reports" target="_blank" rel="noopener" >incident reports&lt;/a>.&lt;/li>
 &lt;/ul>
 &lt;h2 id="looking-forward">
 Looking forward
@@ -89,35 +82,26 @@ Looking forward
 Learn More
 &lt;a class="header-anchor" href="#learn-more">#&lt;/a>
 &lt;/h2>&lt;ul>
-&lt;li>
-&lt;a href="http://status.2i2c.org/" target="_blank" rel="noopener" >2i2c Status Page&lt;/a>&lt;/li>
-&lt;li>
-&lt;a href="https://infrastructure.2i2c.org/hub-deployment-guide/runbooks/on-call/" target="_blank" rel="noopener" >On-call procedures documentation&lt;/a>&lt;/li>
-&lt;li>
-&lt;a href="https://github.com/2i2c-org/infrastructure" target="_blank" rel="noopener" >Infrastructure repository&lt;/a>&lt;/li>
+&lt;li>&lt;a href="http://status.2i2c.org/" target="_blank" rel="noopener" >2i2c Status Page&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://infrastructure.2i2c.org/hub-deployment-guide/runbooks/on-call/" target="_blank" rel="noopener" >On-call procedures documentation&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/2i2c-org/infrastructure" target="_blank" rel="noopener" >Infrastructure repository&lt;/a>&lt;/li>
 &lt;/ul></description></item><item><title>Faster reporting of user home directory sizes</title><link>https://2i2c.org/blog/faster-home-directory-reporting/</link><pubDate>Tue, 09 Dec 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/faster-home-directory-reporting/</guid><description>&lt;p>Storage quotas help users avoid running out of space unexpectedly and give administrators visibility into capacity planning. However, storage usage can change rapidly, and it&amp;rsquo;s important to have quick information so that administrators know whether they are close to hitting limits.&lt;/p>
 &lt;p>We&amp;rsquo;ve improved how quickly hub administrators can see user home directory sizes across our JupyterHubs. This makes monitoring more responsive and adds quota limit visibility that wasn&amp;rsquo;t possible before.&lt;/p>
 &lt;h2 id="using-jupyterhub-home-nfs-for-near-instant-disk-usage-metrics">
 Using &lt;code>jupyterhub-home-nfs&lt;/code> for near-instant disk usage metrics
 &lt;a class="header-anchor" href="#using-jupyterhub-home-nfs-for-near-instant-disk-usage-metrics">#&lt;/a>
-&lt;/h2>&lt;p>Our existing storage monitoring tool,
-&lt;a href="https://github.com/2i2c-org/prometheus-dirsize-exporter" target="_blank" rel="noopener" >&lt;code>prometheus-dirsize-exporter&lt;/code>&lt;/a>, deliberately runs slowly to avoid excessive disk I/O. This meant home directory metrics could be &lt;strong>hours out of date&lt;/strong> on systems with many users or large directories. Plus, there was no way to report user quota limits at all.&lt;/p>
-&lt;p>Our home directory storage is managed by
-&lt;a href="https://github.com/2i2c-org/jupyterhub-home-nfs/" target="_blank" rel="noopener" >&lt;code>jupyterhub-home-nfs&lt;/code>&lt;/a>, which enforces per-user quotas. It could also expose usage and limit information as Prometheus metrics using data from the underlying filesystem quota system. Because this information is already tracked by the filesystem, it&amp;rsquo;s available immediately without scanning individual files.&lt;/p>
+&lt;/h2>&lt;p>Our existing storage monitoring tool, &lt;a href="https://github.com/2i2c-org/prometheus-dirsize-exporter" target="_blank" rel="noopener" >&lt;code>prometheus-dirsize-exporter&lt;/code>&lt;/a>, deliberately runs slowly to avoid excessive disk I/O. This meant home directory metrics could be &lt;strong>hours out of date&lt;/strong> on systems with many users or large directories. Plus, there was no way to report user quota limits at all.&lt;/p>
+&lt;p>Our home directory storage is managed by &lt;a href="https://github.com/2i2c-org/jupyterhub-home-nfs/" target="_blank" rel="noopener" >&lt;code>jupyterhub-home-nfs&lt;/code>&lt;/a>, which enforces per-user quotas. It could also expose usage and limit information as Prometheus metrics using data from the underlying filesystem quota system. Because this information is already tracked by the filesystem, it&amp;rsquo;s available immediately without scanning individual files.&lt;/p>
 &lt;p>We made two key improvements:&lt;/p>
 &lt;ol>
 &lt;li>
-&lt;p>&lt;strong>Make disk usage reporting almost instantaneous&lt;/strong>. We made &lt;code>jupyterhub-home-nfs&lt;/code> export &lt;code>total_size_bytes&lt;/code> and &lt;code>hard_limit_bytes&lt;/code> metrics to Prometheus for near-instant reporting. We used the same metric names and namespace as &lt;code>prometheus-dirsize-exporter&lt;/code> for compatibility. See
-&lt;a href="https://github.com/2i2c-org/jupyterhub-home-nfs/pull/76" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> 2i2c-org/jupyterhub-home-nfs#76&lt;/a>&lt;/p>
+&lt;p>&lt;strong>Make disk usage reporting almost instantaneous&lt;/strong>. We made &lt;code>jupyterhub-home-nfs&lt;/code> export &lt;code>total_size_bytes&lt;/code> and &lt;code>hard_limit_bytes&lt;/code> metrics to Prometheus for near-instant reporting. We used the same metric names and namespace as &lt;code>prometheus-dirsize-exporter&lt;/code> for compatibility. See &lt;a href="https://github.com/2i2c-org/jupyterhub-home-nfs/pull/76" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> 2i2c-org/jupyterhub-home-nfs#76&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li>
-&lt;p>&lt;strong>Allow this to be used upstream in JupyterHub Grafana Dashboards&lt;/strong> so that it can support both types of disk usage reporting. This means users of the upstream
-&lt;a href="https://github.com/jupyterhub/grafana-dashboards" target="_blank" rel="noopener" >JupyterHub Grafana dashboards&lt;/a> get the same useful view about home directory usage, regardless of whether the metric comes from &lt;code>prometheus-dirsize-exporter&lt;/code> or &lt;code>jupyterhub-home-nfs&lt;/code>. See
-&lt;a href="https://github.com/2i2c-org/prometheus-dirsize-exporter/pull/29" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> 2i2c-org/prometheus-dirsize-exporter#29&lt;/a>&lt;/p>
+&lt;p>&lt;strong>Allow this to be used upstream in JupyterHub Grafana Dashboards&lt;/strong> so that it can support both types of disk usage reporting. This means users of the upstream &lt;a href="https://github.com/jupyterhub/grafana-dashboards" target="_blank" rel="noopener" >JupyterHub Grafana dashboards&lt;/a> get the same useful view about home directory usage, regardless of whether the metric comes from &lt;code>prometheus-dirsize-exporter&lt;/code> or &lt;code>jupyterhub-home-nfs&lt;/code>. See &lt;a href="https://github.com/2i2c-org/prometheus-dirsize-exporter/pull/29" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> 2i2c-org/prometheus-dirsize-exporter#29&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;p>These changes were
-&lt;a href="https://github.com/2i2c-org/infrastructure/pull/7261" target="_blank" rel="noopener" >deployed across all our communities&lt;/a>, so administrators can now access current home directory information &lt;strong>within minutes&lt;/strong> regardless of directory size.&lt;/p>
+&lt;p>These changes were &lt;a href="https://github.com/2i2c-org/infrastructure/pull/7261" target="_blank" rel="noopener" >deployed across all our communities&lt;/a>, so administrators can now access current home directory information &lt;strong>within minutes&lt;/strong> regardless of directory size.&lt;/p>
 &lt;figure id="figure-home-directory-usage-dashboard-showing-total-size-metrics-from-jupyterhub-home-nfs-and-other-data-from-prometheus-dirsize-exporter">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Home Directory Usage dashboard showing total size metrics from jupyterhub-home-nfs and other data from prometheus-dirsize-exporter" srcset="
@@ -136,24 +120,20 @@ Try it out
 &lt;a class="header-anchor" href="#try-it-out">#&lt;/a>
 &lt;/h2>&lt;p>2i2c member organizations can try this out now. If you have access to your hub&amp;rsquo;s Grafana instance, you can see these new metrics in the &lt;em>Home Directory Usage&lt;/em> dashboard:&lt;/p>
 &lt;ol>
-&lt;li>Open your hub&amp;rsquo;s
-&lt;a href="https://docs.2i2c.org/admin/monitoring/grafana-dashboards/" target="_blank" rel="noopener" >Grafana dashboard&lt;/a>.&lt;/li>
+&lt;li>Open your hub&amp;rsquo;s &lt;a href="https://docs.2i2c.org/admin/monitoring/grafana-dashboards/" target="_blank" rel="noopener" >Grafana dashboard&lt;/a>.&lt;/li>
 &lt;li>Go to &lt;code>Dashboards&lt;/code> -&amp;gt; &lt;code>JupyterHub Default Dashboards&lt;/code> -&amp;gt; &lt;code>Home Directory Usage&lt;/code>.&lt;/li>
 &lt;li>Check the table for up-to-date &lt;em>total size&lt;/em> and &lt;em>quota limit&lt;/em> values.&lt;/li>
 &lt;/ol>
-&lt;p>For more details, see our
-&lt;a href="https://docs.2i2c.org/admin/monitoring/disk-usage/" target="_blank" rel="noopener" >docs on filesystem and disk dashboards&lt;/a>.&lt;/p>
+&lt;p>For more details, see our &lt;a href="https://docs.2i2c.org/admin/monitoring/disk-usage/" target="_blank" rel="noopener" >docs on filesystem and disk dashboards&lt;/a>.&lt;/p>
 &lt;h2 id="coming-next">
 Coming next
 &lt;a class="header-anchor" href="#coming-next">#&lt;/a>
-&lt;/h2>&lt;p>We&amp;rsquo;d like to build on this work to enable &lt;strong>alerting when individual users near their disk quotas&lt;/strong>. This will make it easier to more reliably track user disk usage across a community. See this issue for tracking:
-&lt;a href="https://github.com/2i2c-org/infrastructure/issues/7166" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> 2i2c-org/infrastructure#7166&lt;/a>&lt;/p>
+&lt;/h2>&lt;p>We&amp;rsquo;d like to build on this work to enable &lt;strong>alerting when individual users near their disk quotas&lt;/strong>. This will make it easier to more reliably track user disk usage across a community. See this issue for tracking: &lt;a href="https://github.com/2i2c-org/infrastructure/issues/7166" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> 2i2c-org/infrastructure#7166&lt;/a>&lt;/p>
 &lt;h2 id="acknowledgements">
 Acknowledgements
 &lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
 &lt;/h2>&lt;ul>
-&lt;li>This was a directed contribution supported by
-&lt;a href="https://2i2c.org/collaborators/nasa-veda/" >NASA VEDA&lt;/a> to enable more proactive monitoring and alerting for hub administrators.&lt;/li>
+&lt;li>This was a directed contribution supported by &lt;a href="https://2i2c.org/collaborators/nasa-veda/" >NASA VEDA&lt;/a> to enable more proactive monitoring and alerting for hub administrators.&lt;/li>
 &lt;/ul></description></item><item><title>Adding User Group Insights to Cloud Cost Dashboards with Grafana</title><link>https://2i2c.org/blog/cloud-cost-groups/</link><pubDate>Mon, 24 Nov 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/cloud-cost-groups/</guid><description>&lt;p>We are excited to announce that we have extended our cloud cost dashboards to support display costs filtered by user groups using Grafana! This new feature allows administrators to monitor and manage cloud expenses based on user group memberships in JupyterHub.&lt;/p>
 &lt;p>
 &lt;figure >
@@ -177,15 +157,9 @@ Available for dedicated AWS clusters only (and excluding CloudBank managed accou
 Learn more
 &lt;a class="header-anchor" href="#learn-more">#&lt;/a>
 &lt;/h2>&lt;ul>
-&lt;li>Take a look at the
-&lt;a href="https://docs.2i2c.org/admin/monitoring/cost-users-groups/#group-cloud-costs" target="_blank" rel="noopener" >Community Hub Guide&lt;/a> to see what&amp;rsquo;s new&lt;/li>
-&lt;li>Check out the documentation of the
-&lt;a href="https://jupyterhub-cost-monitoring.readthedocs.io/en/latest/" target="_blank" rel="noopener" >2i2c-org/jupyterhub-cost-monitoring&lt;/a> project to see how it all works&lt;/li>
-&lt;li>
-&lt;a href="https://2i2c.org/author/jenny-wong/" >Jenny&lt;/a> recently presented her work on the cost monitoring system at
-&lt;a href="https://events.linuxfoundation.org/jupytercon/" target="_blank" rel="noopener" >JupyterCon 2025&lt;/a> earlier this month. Watch a
-&lt;a href="https://youtu.be/M5x3bTgRzVs?si=P2c3Ngb8v7f4ks0I" target="_blank" rel="noopener" >video&lt;/a> or look at the
-&lt;a href="https://docs.google.com/presentation/d/1N8V7dna1atpRmcbpgZ0-VL5cbOQfwYfXTstudT2ierY/edit?usp=sharing" target="_blank" rel="noopener" >slides&lt;/a>.&lt;/li>
+&lt;li>Take a look at the &lt;a href="https://docs.2i2c.org/admin/monitoring/cost-users-groups/#group-cloud-costs" target="_blank" rel="noopener" >Community Hub Guide&lt;/a> to see what&amp;rsquo;s new&lt;/li>
+&lt;li>Check out the documentation of the &lt;a href="https://jupyterhub-cost-monitoring.readthedocs.io/en/latest/" target="_blank" rel="noopener" >2i2c-org/jupyterhub-cost-monitoring&lt;/a> project to see how it all works&lt;/li>
+&lt;li>&lt;a href="https://2i2c.org/author/jenny-wong/" >Jenny&lt;/a> recently presented her work on the cost monitoring system at &lt;a href="https://events.linuxfoundation.org/jupytercon/" target="_blank" rel="noopener" >JupyterCon 2025&lt;/a> earlier this month. Watch a &lt;a href="https://youtu.be/M5x3bTgRzVs?si=P2c3Ngb8v7f4ks0I" target="_blank" rel="noopener" >video&lt;/a> or look at the &lt;a href="https://docs.google.com/presentation/d/1N8V7dna1atpRmcbpgZ0-VL5cbOQfwYfXTstudT2ierY/edit?usp=sharing" target="_blank" rel="noopener" >slides&lt;/a>.&lt;/li>
 &lt;/ul>
 &lt;a href="https://docs.google.com/forms/d/e/1FAIpQLSff-u-sWFuwO1-VTgk2Ir7f1nfUUlLevQk_Vkk_jnmcI1nJnw/viewform?usp=pp_url&amp;amp;entry.648332035=https://2i2c.org/blog/cloud-cost-groups/" target="_blank" rel="noopener" class="text-decoration-none">
 &lt;div class="alert alert-info d-flex align-items-start p-3" role="button" style="transition: all 0.2s ease; box-shadow: 0 2px 4px rgba(0,0,0,0.1);" onmouseover="this.style.backgroundColor='#b3e5fc'; this.style.boxShadow='0 4px 8px rgba(0,0,0,0.15)'; this.style.transform='translateY(-1px)'" onmouseout="this.style.backgroundColor=''; this.style.boxShadow='0 2px 4px rgba(0,0,0,0.1)'; this.style.transform='translateY(0)'" onfocus="this.style.backgroundColor='#b3e5fc'; this.style.boxShadow='0 4px 8px rgba(0,0,0,0.15)'; this.style.transform='translateY(-1px)'" onblur="this.style.backgroundColor=''; this.style.boxShadow='0 2px 4px rgba(0,0,0,0.1)'; this.style.transform='translateY(0)'">
@@ -196,17 +170,12 @@ Learn more
 Acknowledgements
 &lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
 &lt;/h2>&lt;ul>
-&lt;li>
-&lt;a href="https://github.com/sunu" target="_blank" rel="noopener" >Tarashish&lt;/a> @
-&lt;a href="https://2i2c.org/collaborators/devseed/" >Development Seed&lt;/a> for collaborating on this project with us.&lt;/li>
-&lt;li>
-&lt;a href="https://2i2c.org/collaborators/nasa-veda/" >NASA VEDA&lt;/a> and the DSE Team at NASA MSFC ODSI for funding much of this work.&lt;/li>
-&lt;li>
-&lt;a href="https://github.com/kyle-lesinger" target="_blank" rel="noopener" >Kyle Lesinger&lt;/a> from the NASA MSFC Office of Data Science and Informatics for providing valuable feedback and bug reports during development.&lt;/li>
+&lt;li>&lt;a href="https://github.com/sunu" target="_blank" rel="noopener" >Tarashish&lt;/a> @ &lt;a href="https://2i2c.org/collaborators/devseed/" >Development Seed&lt;/a> for collaborating on this project with us.&lt;/li>
+&lt;li>&lt;a href="https://2i2c.org/collaborators/nasa-veda/" >NASA VEDA&lt;/a> and the DSE Team at NASA MSFC ODSI for funding much of this work.&lt;/li>
+&lt;li>&lt;a href="https://github.com/kyle-lesinger" target="_blank" rel="noopener" >Kyle Lesinger&lt;/a> from the NASA MSFC Office of Data Science and Informatics for providing valuable feedback and bug reports during development.&lt;/li>
 &lt;/ul></description></item><item><title>Announcing `jupyterhub-groups-exporter`: monitor usage based on JupyterHub group membership with Prometheus and Grafana</title><link>https://2i2c.org/blog/jupyterhub-groups-exporter/</link><pubDate>Wed, 11 Jun 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/jupyterhub-groups-exporter/</guid><description>&lt;p>Managing user groups in JupyterHub can be a challenging task, especially in environments with dynamic user bases and complex group structures. This post describes how we can leverage the latest group management features in JupyterHub, along with Prometheus and Grafana, to monitor group-level resource usage effectively.&lt;/p>
 &lt;blockquote>
-&lt;p>⭐ &lt;strong>Members of 2i2c&amp;rsquo;s community network&lt;/strong> can use this feature in their hubs by
-&lt;a href="https://docs.2i2c.org/admin/monitoring/cost-users" target="_blank" rel="noopener" >following our cost attribution documentation&lt;/a>.&lt;/p>
+&lt;p>⭐ &lt;strong>Members of 2i2c&amp;rsquo;s community network&lt;/strong> can use this feature in their hubs by &lt;a href="https://docs.2i2c.org/admin/monitoring/cost-users" target="_blank" rel="noopener" >following our cost attribution documentation&lt;/a>.&lt;/p>
 &lt;/blockquote>
 &lt;p>
 &lt;figure >
@@ -232,22 +201,14 @@ because it allows them to advocate for better funding and cost recovery models b
 &lt;h2 id="jupyterhub-and-user-groups">
 JupyterHub and user groups
 &lt;a class="header-anchor" href="#jupyterhub-and-user-groups">#&lt;/a>
-&lt;/h2>&lt;p>Recent key developments upstream in JupyterHub for groups management, such as
-&lt;a href="https://jupyterhub.readthedocs.io/en/latest/reference/authenticators.html#authenticator-managed-group-membership" target="_blank" rel="noopener" >Authenticator managed group membership&lt;/a>, makes this piece of work a prime and timely opportunity to be tackled. For more technical details of these upstream contributions, see GitHub PRs
-&lt;a href="https://github.com/jupyterhub/oauthenticator/pull/735" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> jupyterhub/oauthenticator#735&lt;/a> and
-&lt;a href="https://github.com/jupyterhub/oauthenticator/pull/498" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> jupyterhub/oauthenticator#498&lt;/a>.&lt;/p>
+&lt;/h2>&lt;p>Recent key developments upstream in JupyterHub for groups management, such as &lt;a href="https://jupyterhub.readthedocs.io/en/latest/reference/authenticators.html#authenticator-managed-group-membership" target="_blank" rel="noopener" >Authenticator managed group membership&lt;/a>, makes this piece of work a prime and timely opportunity to be tackled. For more technical details of these upstream contributions, see GitHub PRs &lt;a href="https://github.com/jupyterhub/oauthenticator/pull/735" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> jupyterhub/oauthenticator#735&lt;/a> and &lt;a href="https://github.com/jupyterhub/oauthenticator/pull/498" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> jupyterhub/oauthenticator#498&lt;/a>.&lt;/p>
 &lt;p>Users can access JupyterHub using a variety of authentication methods. Authentication providers like GitHub have built-in user management features that allow admins to create and manage user groups. These groups can then be configured in JupyterHub to authorize access to the hub, as well as control access to certain hardware profiles.&lt;/p>
-&lt;p>Following the key upstream contributions above, we can leverage
-&lt;a href="https://jupyterhub.readthedocs.io/en/stable/reference/authenticators.html#authenticator-managed-group-membership" target="_blank" rel="noopener" >Authenticator-managed group membership&lt;/a> to automatically pass user group memberships from the authentication layer to JupyterHub itself. This allows us to capitalize on JupyterHub&amp;rsquo;s REST API to retrieve user group memberships from other
-&lt;a href="https://jupyterhub.readthedocs.io/en/latest/reference/services.html" target="_blank" rel="noopener" >services&lt;/a>, such as exporting them as Prometheus metrics.&lt;/p>
+&lt;p>Following the key upstream contributions above, we can leverage &lt;a href="https://jupyterhub.readthedocs.io/en/stable/reference/authenticators.html#authenticator-managed-group-membership" target="_blank" rel="noopener" >Authenticator-managed group membership&lt;/a> to automatically pass user group memberships from the authentication layer to JupyterHub itself. This allows us to capitalize on JupyterHub&amp;rsquo;s REST API to retrieve user group memberships from other &lt;a href="https://jupyterhub.readthedocs.io/en/latest/reference/services.html" target="_blank" rel="noopener" >services&lt;/a>, such as exporting them as Prometheus metrics.&lt;/p>
 &lt;h2 id="exporting-user-group-memberships-to-prometheus">
 Exporting user group memberships to Prometheus
 &lt;a class="header-anchor" href="#exporting-user-group-memberships-to-prometheus">#&lt;/a>
-&lt;/h2>&lt;p>The
-&lt;a href="https://github.com/2i2c-org/jupyterhub-groups-exporter" target="_blank" rel="noopener" >&lt;code>jupyterhub-groups-exporter&lt;/code>&lt;/a> project provides a
-&lt;a href="https://jupyterhub.readthedocs.io/en/latest/reference/services.html" target="_blank" rel="noopener" >service&lt;/a> that integrates with JupyterHub to export user group memberships as Prometheus metrics. This component is readily deployable as part of any JupyterHub instance, such as a standalone deployment or a Zero to JupyterHub deployment on Kubernetes.&lt;/p>
-&lt;p>The exporter provides a
-&lt;a href="https://prometheus.io/docs/concepts/metric_types/" target="_blank" rel="noopener" >Gauge metric&lt;/a> called &lt;code>jupyterhub_user_group_info&lt;/code>, which contain the following labels:&lt;/p>
+&lt;/h2>&lt;p>The &lt;a href="https://github.com/2i2c-org/jupyterhub-groups-exporter" target="_blank" rel="noopener" >&lt;code>jupyterhub-groups-exporter&lt;/code>&lt;/a> project provides a &lt;a href="https://jupyterhub.readthedocs.io/en/latest/reference/services.html" target="_blank" rel="noopener" >service&lt;/a> that integrates with JupyterHub to export user group memberships as Prometheus metrics. This component is readily deployable as part of any JupyterHub instance, such as a standalone deployment or a Zero to JupyterHub deployment on Kubernetes.&lt;/p>
+&lt;p>The exporter provides a &lt;a href="https://prometheus.io/docs/concepts/metric_types/" target="_blank" rel="noopener" >Gauge metric&lt;/a> called &lt;code>jupyterhub_user_group_info&lt;/code>, which contain the following labels:&lt;/p>
 &lt;ul>
 &lt;li>&lt;code>namespace&lt;/code> – the Kubernetes namespace where the JupyterHub is deployed&lt;/li>
 &lt;li>&lt;code>usergroup&lt;/code> – the name of the user group&lt;/li>
@@ -272,10 +233,7 @@ Exporting user group memberships to Prometheus
 &lt;h2 id="visualizing-user-group-resource-usage-with-grafana">
 Visualizing user group resource usage with Grafana
 &lt;a class="header-anchor" href="#visualizing-user-group-resource-usage-with-grafana">#&lt;/a>
-&lt;/h2>&lt;p>The PromQL query above is rather long and complex to construct! However, you can benefit from an
-&lt;a href="https://github.com/jupyterhub/grafana-dashboards/pull/149" target="_blank" rel="noopener" >upstream contribution&lt;/a> to the
-&lt;a href="https://github.com/jupyterhub/grafana-dashboards" target="_blank" rel="noopener" >jupyterhub/grafana-dashboards&lt;/a> project where we have encapsulated the PromQL queries as Jsonnet code and represented them as Grafana Dashboard visualizations (also known as
-&lt;a href="https://grafana.github.io/grafonnet/index.html" target="_blank" rel="noopener" >Grafonnet&lt;/a>). If you have a Kubernetes cluster running JupyterHub, try deploying these Grafana Dashboards and let us know what you think!&lt;/p>
+&lt;/h2>&lt;p>The PromQL query above is rather long and complex to construct! However, you can benefit from an &lt;a href="https://github.com/jupyterhub/grafana-dashboards/pull/149" target="_blank" rel="noopener" >upstream contribution&lt;/a> to the &lt;a href="https://github.com/jupyterhub/grafana-dashboards" target="_blank" rel="noopener" >jupyterhub/grafana-dashboards&lt;/a> project where we have encapsulated the PromQL queries as Jsonnet code and represented them as Grafana Dashboard visualizations (also known as &lt;a href="https://grafana.github.io/grafonnet/index.html" target="_blank" rel="noopener" >Grafonnet&lt;/a>). If you have a Kubernetes cluster running JupyterHub, try deploying these Grafana Dashboards and let us know what you think!&lt;/p>
 &lt;p>Our particular PromQL query above is visualized in the Grafana Dashboard &lt;strong>User Groups Diagnostics&lt;/strong> under the &lt;strong>Memory Usage&lt;/strong> panel (see also the corresponding screenshot at the top of this post). This is equivalent to its counterpart &lt;strong>User Diagnostics&lt;/strong> dashboard, but with resource usage visualized on a &lt;em>per-group&lt;/em> level rather than a per-user level &amp;#x1f389;&lt;/p>
 &lt;h2 id="future-work">
 Future work
@@ -287,13 +245,11 @@ Future work
 &lt;li>developing more group-level reporting and monitoring dashboards&lt;/li>
 &lt;li>introducing group-level resource quotas.&lt;/li>
 &lt;/ul>
-&lt;p>What do you think? How would you like to see JupyterHub&amp;rsquo;s group management features evolve? Have you tried deploying this yourself?
-&lt;a href="https://docs.google.com/forms/d/e/1FAIpQLSff-u-sWFuwO1-VTgk2Ir7f1nfUUlLevQk_Vkk_jnmcI1nJnw/viewform?usp=header" target="_blank" rel="noopener" >We welcome your feedback&lt;/a> and feel free to open GitHub issues or make contributions to the repositories mentioned in this post.&lt;/p>
+&lt;p>What do you think? How would you like to see JupyterHub&amp;rsquo;s group management features evolve? Have you tried deploying this yourself? &lt;a href="https://docs.google.com/forms/d/e/1FAIpQLSff-u-sWFuwO1-VTgk2Ir7f1nfUUlLevQk_Vkk_jnmcI1nJnw/viewform?usp=header" target="_blank" rel="noopener" >We welcome your feedback&lt;/a> and feel free to open GitHub issues or make contributions to the repositories mentioned in this post.&lt;/p>
 &lt;h2 id="acknowledgements">
 Acknowledgements
 &lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
-&lt;/h2>&lt;p>Thanks to the
-&lt;a href="https://2i2c.org/collaborators/jupyterhub/" >JupyterHub project&lt;/a> for their collaboration and review of this work.&lt;/p></description></item><item><title>Track and manage cloud costs using Grafana</title><link>https://2i2c.org/blog/aws-cost-attribution/</link><pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/aws-cost-attribution/</guid><description>&lt;p>
+&lt;/h2>&lt;p>Thanks to the &lt;a href="https://2i2c.org/collaborators/jupyterhub/" >JupyterHub project&lt;/a> for their collaboration and review of this work.&lt;/p></description></item><item><title>Track and manage cloud costs using Grafana</title><link>https://2i2c.org/blog/aws-cost-attribution/</link><pubDate>Fri, 15 Nov 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/aws-cost-attribution/</guid><description>&lt;p>
 &lt;figure id="figure-grafana-dashboard-showing-cloud-costs-broken-down-by-compute-storage-and-other-components-for-the-openscapeshttpsopenscapesorg-hub">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="Screenshot of a graph showing total daily costs per component." srcset="
@@ -305,8 +261,7 @@ width="760"
 height="485"
 loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;figcaption>
-Grafana dashboard showing cloud costs broken down by compute, storage and other components for the
-&lt;a href="https://openscapes.org/" target="_blank" rel="noopener" >Openscapes&lt;/a> hub.
+Grafana dashboard showing cloud costs broken down by compute, storage and other components for the &lt;a href="https://openscapes.org/" target="_blank" rel="noopener" >Openscapes&lt;/a> hub.
 &lt;/figcaption>&lt;/figure>
 &lt;/p>
 &lt;p>We are pleased to unveil a new feature to track cloud costs within our Grafana dashboards! Community Champions now have the ability to monitor the cost and usage of their 2i2c-managed hubs that displays up to date aggregated costs as well as detailed breakdowns for more granular reports.&lt;/p>
@@ -318,8 +273,7 @@ Note that this feature is currently available to AWS hosted hubs only and will b
 &lt;h2 id="accessing-the-cloud-cost-dashboard">
 Accessing the cloud cost dashboard
 &lt;a class="header-anchor" href="#accessing-the-cloud-cost-dashboard">#&lt;/a>
-&lt;/h2>&lt;p>Community Champions can view the Cloud Cost dashboard from their Grafana instance (please see the
-&lt;a href="https://docs.2i2c.org/admin/monitoring/grafana-dashboards#getting-a-grafana-account" target="_blank" rel="noopener" >Service Guide&lt;/a> for how to gain access).&lt;/p>
+&lt;/h2>&lt;p>Community Champions can view the Cloud Cost dashboard from their Grafana instance (please see the &lt;a href="https://docs.2i2c.org/admin/monitoring/grafana-dashboards#getting-a-grafana-account" target="_blank" rel="noopener" >Service Guide&lt;/a> for how to gain access).&lt;/p>
 &lt;p>From the main menu of Grafana, navigate to &lt;em>Dashboards &amp;gt; Cloud cost dashboards &amp;gt; Cloud cost attribution&lt;/em> to view the dashboard.&lt;/p>
 &lt;h2 id="understanding-the-cloud-cost-dashboard">
 Understanding the cloud cost dashboard
@@ -332,17 +286,15 @@ Understanding the cloud cost dashboard
 &lt;li>Total daily costs per component&lt;/li>
 &lt;li>Daily costs per component per hub (opt-in only).&lt;/li>
 &lt;/ul>
-&lt;video mute autoplay loop >
+&lt;video muted playsinline autoplay loop >
 &lt;source src="https://2i2c.org/blog/aws-cost-attribution/demo.mp4" type="video/mp4">
 &lt;/video>
-&lt;p>For more detailed information on the data that each panel displays, please consult our
-&lt;a href="https://docs.2i2c.org/admin/monitoring/cost-users#understanding-the-cloud-cost-dashboard" target="_blank" rel="noopener" >Service Guide&lt;/a> for reference.&lt;/p>
+&lt;p>For more detailed information on the data that each panel displays, please consult our &lt;a href="https://docs.2i2c.org/admin/monitoring/cost-users#understanding-the-cloud-cost-dashboard" target="_blank" rel="noopener" >Service Guide&lt;/a> for reference.&lt;/p>
 &lt;h2 id="sharing-cost-reports">
 Sharing cost reports
 &lt;a class="header-anchor" href="#sharing-cost-reports">#&lt;/a>
 &lt;/h2>&lt;p>The dashboard can be shared with other community members and stakeholders so they can understand usage and cost patterns. Community Champions can export data to a CSV file, or they can generate a snapshot of the Grafana dashboard and share a public link.&lt;/p>
-&lt;p>For instructions on how to export data from the dashboard, please see our
-&lt;a href="https://docs.2i2c.org/admin/monitoring/cost-users#sharing-cost-reports" target="_blank" rel="noopener" >Service Guide&lt;/a> for reference.&lt;/p>
+&lt;p>For instructions on how to export data from the dashboard, please see our &lt;a href="https://docs.2i2c.org/admin/monitoring/cost-users#sharing-cost-reports" target="_blank" rel="noopener" >Service Guide&lt;/a> for reference.&lt;/p>
 &lt;h2 id="next-steps">
 Next steps
 &lt;a class="header-anchor" href="#next-steps">#&lt;/a>
@@ -353,7 +305,5 @@ Acknowledgements
 &lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
 &lt;/h2>&lt;ul>
 &lt;li>Thank you to Erik for spearheading the rollout effort and to the rest of the 2i2c team for their support.&lt;/li>
-&lt;li>Thanks to
-&lt;a href="https://2i2c.org/collaborators/openscapes/" >Openscapes&lt;/a> and
-&lt;a href="https://2i2c.org/collaborators/cryocloud/" >Cryocloud&lt;/a> communities for providing valuable insights during the prototyping and testing phase, and for funding part of this work.&lt;/li>
+&lt;li>Thanks to &lt;a href="https://2i2c.org/collaborators/openscapes/" >Openscapes&lt;/a> and &lt;a href="https://2i2c.org/collaborators/cryocloud/" >Cryocloud&lt;/a> communities for providing valuable insights during the prototyping and testing phase, and for funding part of this work.&lt;/li>
 &lt;/ul></description></item></channel></rss>

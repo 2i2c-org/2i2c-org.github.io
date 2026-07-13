@@ -1,60 +1,42 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Georgiana Dolocan | 2i2c</title><link>https://2i2c.org/author/georgiana-dolocan/</link><atom:link href="https://2i2c.org/author/georgiana-dolocan/index.xml" rel="self" type="application/rss+xml"/><description>Georgiana Dolocan</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 10 Jun 2026 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/author/georgiana-dolocan/avatar_hu5a78bf28ffb183ff0de0c23a9805fa26_292451_270x270_fill_q75_lanczos_center.jpg</url><title>Georgiana Dolocan</title><link>https://2i2c.org/author/georgiana-dolocan/</link></image><item><title>Allow limiting access to Dask Gateway based on group membership</title><link>https://2i2c.org/blog/dask-gateway-membership-access/</link><pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/dask-gateway-membership-access/</guid><description>&lt;p>Starting with
-&lt;a href="https://gateway.dask.org/" target="_blank" rel="noopener" >Dask Gateway&lt;/a> version
-&lt;a href="https://gateway.dask.org/changelog.html#v2026-3-0" target="_blank" rel="noopener" >v2026.3.0&lt;/a>, JupyterHub access scopes support has been added to Dask-Gateway.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Georgiana Dolocan | 2i2c</title><link>https://2i2c.org/author/georgiana-dolocan/</link><atom:link href="https://2i2c.org/author/georgiana-dolocan/index.xml" rel="self" type="application/rss+xml"/><description>Georgiana Dolocan</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 10 Jun 2026 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/author/georgiana-dolocan/avatar_hu5a78bf28ffb183ff0de0c23a9805fa26_292451_270x270_fill_q75_lanczos_center.jpg</url><title>Georgiana Dolocan</title><link>https://2i2c.org/author/georgiana-dolocan/</link></image><item><title>Allow limiting access to Dask Gateway based on group membership</title><link>https://2i2c.org/blog/dask-gateway-membership-access/</link><pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/dask-gateway-membership-access/</guid><description>&lt;p>Starting with &lt;a href="https://gateway.dask.org/" target="_blank" rel="noopener" >Dask Gateway&lt;/a> version &lt;a href="https://gateway.dask.org/changelog.html#v2026-3-0" target="_blank" rel="noopener" >v2026.3.0&lt;/a>, JupyterHub access scopes support has been added to Dask-Gateway.&lt;/p>
 &lt;p>That means hub admins can now set, via JupyterHub role-based access control (RBAC), which hub users or groups have access to Dask-Gateway. This is especially important from a cost perspective, as it allows admins to control who can access Dask-Gateway and thus have more control over their cloud spend.&lt;/p>
 &lt;p>If your community is part of the 2i2c member network, you can take advantage of this feature now. 2i2c is deploying the new Dask-Gateway version alongside our hubs, so all communities we serve that are using Dask-Gateway now have access to this feature.&lt;/p>
 &lt;p>Want to know more, or set this up on your hub? Check out:&lt;/p>
 &lt;ul>
-&lt;li>the
-&lt;a href="https://docs.2i2c.org/admin/user-management/dask-access/" target="_blank" rel="noopener" >Control access to Dask Gateway&lt;/a> page for how to ask 2i2c to set up this feature for your hub&lt;/li>
-&lt;li>the
-&lt;a href="https://gateway.dask.org/authentication.html#using-jupyterhub-s-authentication" target="_blank" rel="noopener" >Dask Gateway documentation&lt;/a> for more details on how it works.&lt;/li>
+&lt;li>the &lt;a href="https://docs.2i2c.org/admin/user-management/dask-access/" target="_blank" rel="noopener" >Control access to Dask Gateway&lt;/a> page for how to ask 2i2c to set up this feature for your hub&lt;/li>
+&lt;li>the &lt;a href="https://gateway.dask.org/authentication.html#using-jupyterhub-s-authentication" target="_blank" rel="noopener" >Dask Gateway documentation&lt;/a> for more details on how it works.&lt;/li>
 &lt;/ul>
 &lt;h2 id="acknowledgements">
 Acknowledgements
 &lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
 &lt;/h2>&lt;ul>
-&lt;li>To
-&lt;a href="https://2i2c.org/collaborators/earthscope/" >EarthScope&lt;/a> for motivating this work and providing feedback&lt;/li>
-&lt;li>To
-&lt;a href="https://github.com/minrk" target="_blank" rel="noopener" >MinRK&lt;/a> for adding this feature to Dask-Gateway&lt;/li>
-&lt;li>To
-&lt;a href="https://2i2c.org/author/yuvaraj-yuvi/" >Yuvi&lt;/a> for code review and guidance on the implementation&lt;/li>
-&lt;li>To
-&lt;a href="https://2i2c.org/author/erik-sundell/" >Erik&lt;/a> for code review&lt;/li>
-&lt;li>To our
-&lt;a href="https://2i2c.org/members/" >member communities&lt;/a> for supporting us and giving us the capacity to invest in upstream open source engagement&lt;/li>
-&lt;/ul></description></item><item><title>Georgiana Dolocan</title><link>https://2i2c.org/author/georgiana-dolocan/</link><pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/author/georgiana-dolocan/</guid><description>&lt;p>Software Engineer irreversibly in love with open source. A JupyterHub team member, focusing on infrastructure and community growth. Previously JupyterHub Contributor in Residence and Outreachy intern through an internship that supports diversity in open source and free software.&lt;/p></description></item><item><title>Upgrading community infrastructure to Kubernetes 1.34 and JupyterHub 4.3.3</title><link>https://2i2c.org/blog/infra-upgrades-k8s-jupyterhub/</link><pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/infra-upgrades-k8s-jupyterhub/</guid><description>&lt;p>We&amp;rsquo;ve completed a major round of infrastructure upgrades across all 2i2c-managed hubs - every hub is now running
-&lt;a href="https://kubernetes.io/releases/" target="_blank" rel="noopener" >Kubernetes 1.34&lt;/a> and
-&lt;a href="https://z2jh.jupyter.org/en/stable/changelog.html" target="_blank" rel="noopener" >Z2JH helm chart 4.3.3&lt;/a>.&lt;/p>
-&lt;p>Running up-to-date versions of both Kubernetes and the
-&lt;a href="https://2i2c.org/collaborators/jupyterhub/" >JupyterHub&lt;/a> helm chart ensures that our communities get the best support and reliability, both in terms of features and security.&lt;/p>
+&lt;li>To &lt;a href="https://2i2c.org/collaborators/earthscope/" >EarthScope&lt;/a> for motivating this work and providing feedback&lt;/li>
+&lt;li>To &lt;a href="https://github.com/minrk" target="_blank" rel="noopener" >MinRK&lt;/a> for adding this feature to Dask-Gateway&lt;/li>
+&lt;li>To &lt;a href="https://2i2c.org/author/yuvaraj-yuvi/" >Yuvi&lt;/a> for code review and guidance on the implementation&lt;/li>
+&lt;li>To &lt;a href="https://2i2c.org/author/erik-sundell/" >Erik&lt;/a> for code review&lt;/li>
+&lt;li>To our &lt;a href="https://2i2c.org/members/" >member communities&lt;/a> for supporting us and giving us the capacity to invest in upstream open source engagement&lt;/li>
+&lt;/ul></description></item><item><title>Georgiana Dolocan</title><link>https://2i2c.org/author/georgiana-dolocan/</link><pubDate>Wed, 10 Jun 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/author/georgiana-dolocan/</guid><description>&lt;p>Software Engineer irreversibly in love with open source. A JupyterHub team member, focusing on infrastructure and community growth. Previously JupyterHub Contributor in Residence and Outreachy intern through an internship that supports diversity in open source and free software.&lt;/p></description></item><item><title>Upgrading community infrastructure to Kubernetes 1.34 and JupyterHub 4.3.3</title><link>https://2i2c.org/blog/infra-upgrades-k8s-jupyterhub/</link><pubDate>Wed, 08 Apr 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/infra-upgrades-k8s-jupyterhub/</guid><description>&lt;p>We&amp;rsquo;ve completed a major round of infrastructure upgrades across all 2i2c-managed hubs - every hub is now running &lt;a href="https://kubernetes.io/releases/" target="_blank" rel="noopener" >Kubernetes 1.34&lt;/a> and &lt;a href="https://z2jh.jupyter.org/en/stable/changelog.html" target="_blank" rel="noopener" >Z2JH helm chart 4.3.3&lt;/a>.&lt;/p>
+&lt;p>Running up-to-date versions of both Kubernetes and the &lt;a href="https://2i2c.org/collaborators/jupyterhub/" >JupyterHub&lt;/a> helm chart ensures that our communities get the best support and reliability, both in terms of features and security.&lt;/p>
 &lt;h2 id="a-new-approach-to-infrastructure-upgrades-upgrading-in-rounds">
 A new approach to infrastructure upgrades: upgrading in rounds
 &lt;a class="header-anchor" href="#a-new-approach-to-infrastructure-upgrades-upgrading-in-rounds">#&lt;/a>
 &lt;/h2>&lt;p>This was the first time we rolled out JupyterHub helm chart upgrades &lt;strong>in rounds&lt;/strong> rather than all at once. By upgrading a subset of hubs at a time, we could identify and fix issues in isolation before they affected the broader network. This made the process safer and more predictable.&lt;/p>
-&lt;p>We&amp;rsquo;re planning to perform these kinds of upgrades on a regular schedule for our member communities. Around &lt;strong>every 6 months&lt;/strong> we&amp;rsquo;ll create an issue to make sure nothing falls through the cracks (here&amp;rsquo;s
-&lt;a href="https://github.com/2i2c-org/infrastructure/blob/main/.github/workflows/recurrent-k8s-gcp-upgrades.yaml" target="_blank" rel="noopener" >example config for creating our reminder issues&lt;/a>).&lt;/p>
-&lt;p>Check out our
-&lt;a href="https://compass.2i2c.org/services/interactive-computing/multiple-hub-upgrades/#making-changes-to-multiple-hubs" target="_blank" rel="noopener" >process docs for multi-hub upgrades&lt;/a> for more information.&lt;/p>
+&lt;p>We&amp;rsquo;re planning to perform these kinds of upgrades on a regular schedule for our member communities. Around &lt;strong>every 6 months&lt;/strong> we&amp;rsquo;ll create an issue to make sure nothing falls through the cracks (here&amp;rsquo;s &lt;a href="https://github.com/2i2c-org/infrastructure/blob/main/.github/workflows/recurrent-k8s-gcp-upgrades.yaml" target="_blank" rel="noopener" >example config for creating our reminder issues&lt;/a>).&lt;/p>
+&lt;p>Check out our &lt;a href="https://compass.2i2c.org/services/interactive-computing/multiple-hub-upgrades/#making-changes-to-multiple-hubs" target="_blank" rel="noopener" >process docs for multi-hub upgrades&lt;/a> for more information.&lt;/p>
 &lt;h2 id="learn-more">
 Learn more
 &lt;a class="header-anchor" href="#learn-more">#&lt;/a>
 &lt;/h2>&lt;p>Check out these pages for what kinds of improvements we&amp;rsquo;ve brought into our clusters / hubs with these latest updates.&lt;/p>
 &lt;ul>
-&lt;li>
-&lt;a href="https://z2jh.jupyter.org/en/stable/changelog.html" target="_blank" rel="noopener" >Z2JH Helm Chart Changelog&lt;/a>&lt;/li>
-&lt;li>
-&lt;a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.34.md" target="_blank" rel="noopener" >Kubernetes 1.34 Changelog&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://z2jh.jupyter.org/en/stable/changelog.html" target="_blank" rel="noopener" >Z2JH Helm Chart Changelog&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/kubernetes/kubernetes/blob/master/CHANGELOG/CHANGELOG-1.34.md" target="_blank" rel="noopener" >Kubernetes 1.34 Changelog&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h2 id="acknowledgements">
 Acknowledgements
 &lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
 &lt;/h2>&lt;ul>
-&lt;li>Thanks to
-&lt;a href="https://2i2c.org/author/georgiana-dolocan/" >Georgiana Dolocan&lt;/a> for leading this upgrade effort and establishing the rounds-based approach.&lt;/li>
-&lt;li>Thanks to
-&lt;a href="https://2i2c.org/author/chris-holdgraf/" >Chris Holdgraf&lt;/a> for adapting and editing Georgiana&amp;rsquo;s notes into a blog post.&lt;/li>
+&lt;li>Thanks to &lt;a href="https://2i2c.org/author/georgiana-dolocan/" >Georgiana Dolocan&lt;/a> for leading this upgrade effort and establishing the rounds-based approach.&lt;/li>
+&lt;li>Thanks to &lt;a href="https://2i2c.org/author/chris-holdgraf/" >Chris Holdgraf&lt;/a> for adapting and editing Georgiana&amp;rsquo;s notes into a blog post.&lt;/li>
 &lt;/ul></description></item><item><title>Improving our community hub reliability and stability in Q4 2025</title><link>https://2i2c.org/blog/infrastructure-reliability-q4-2025/</link><pubDate>Tue, 16 Dec 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/infrastructure-reliability-q4-2025/</guid><description>&lt;p>This year we&amp;rsquo;ve prioritized &lt;strong>making the cloud safe to try&lt;/strong> for our member communities. This has driven work in monitoring, alerting, and automating infrastructure so that we resolve small problems before they become big problems. In the last quarter of 2025, we wrapped up this effort by testing the following hypothesis:&lt;/p>
 &lt;blockquote>
 &lt;p>We can reduce P1 incidents if we shorten the time to act on current alerts and learnings from prior incidents.&lt;/p>
@@ -77,8 +59,7 @@ width="760"
 height="394"
 loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;/figure>
-&lt;em>See the real-time status of our community hubs at
-&lt;a href="http://status.2i2c.org" target="_blank" rel="noopener" >status.2i2c.org&lt;/a>&lt;/em>&lt;/p>
+&lt;em>See the real-time status of our community hubs at &lt;a href="http://status.2i2c.org" target="_blank" rel="noopener" >status.2i2c.org&lt;/a>&lt;/em>&lt;/p>
 &lt;h3 id="we-improved-infrastructure-reliability-for-our-communities">
 We improved infrastructure reliability for our communities
 &lt;a class="header-anchor" href="#we-improved-infrastructure-reliability-for-our-communities">#&lt;/a>
@@ -110,8 +91,7 @@ The improvements we made
 Infrastructure improvements
 &lt;a class="header-anchor" href="#infrastructure-improvements">#&lt;/a>
 &lt;/h3>&lt;ul>
-&lt;li>Created a
-&lt;a href="http://status.2i2c.org" target="_blank" rel="noopener" >status page for all 2i2c community hubs&lt;/a>, giving our team and communities visibility into the status of our infrastructure.&lt;/li>
+&lt;li>Created a &lt;a href="http://status.2i2c.org" target="_blank" rel="noopener" >status page for all 2i2c community hubs&lt;/a>, giving our team and communities visibility into the status of our infrastructure.&lt;/li>
 &lt;li>Created an alert that triggers when two servers fail to start consecutively in a 30-minute time window.&lt;/li>
 &lt;li>Improved deployment infrastructure so that we can roll out sub-chart upgrades to individual clusters, allowing us to roll out major changes in batches.&lt;/li>
 &lt;li>Removed our &amp;ldquo;configurator&amp;rdquo; application from community hubs, because it was causing more confusion than it was resolving.&lt;/li>
@@ -122,16 +102,11 @@ Infrastructure improvements
 Process improvements
 &lt;a class="header-anchor" href="#process-improvements">#&lt;/a>
 &lt;/h3>&lt;ul>
-&lt;li>Made a team commitment to prioritize issues from
-&lt;a href="https://2i2c.org/incident-reports" target="_blank" rel="noopener" >incident reports&lt;/a> and other stability-related problems.&lt;/li>
-&lt;li>Defined incident
-&lt;a href="https://infrastructure.2i2c.org/topic/monitoring-alerting/escalation-policies/" target="_blank" rel="noopener" >escalation policies&lt;/a> using the
-&lt;a href="http://status.2i2c.org" target="_blank" rel="noopener" >status page&lt;/a> to calibrate the urgency of our response to the severity of incidents.&lt;/li>
+&lt;li>Made a team commitment to prioritize issues from &lt;a href="https://2i2c.org/incident-reports" target="_blank" rel="noopener" >incident reports&lt;/a> and other stability-related problems.&lt;/li>
+&lt;li>Defined incident &lt;a href="https://infrastructure.2i2c.org/topic/monitoring-alerting/escalation-policies/" target="_blank" rel="noopener" >escalation policies&lt;/a> using the &lt;a href="http://status.2i2c.org" target="_blank" rel="noopener" >status page&lt;/a> to calibrate the urgency of our response to the severity of incidents.&lt;/li>
 &lt;li>Defined &amp;ldquo;on-call&amp;rdquo; procedures so our team knows when and how to be more responsive to outages.&lt;/li>
 &lt;li>Time-boxed our alert response process to avoid accidentally falling down rabbit holes for non-urgent problems.&lt;/li>
-&lt;li>Created a more reliable process for
-&lt;a href="https://infrastructure.2i2c.org/topic/monitoring-alerting/escalation-policies/" target="_blank" rel="noopener" >responding to incidents&lt;/a> and writing
-&lt;a href="https://2i2c.org/incident-reports" target="_blank" rel="noopener" >incident reports&lt;/a>.&lt;/li>
+&lt;li>Created a more reliable process for &lt;a href="https://infrastructure.2i2c.org/topic/monitoring-alerting/escalation-policies/" target="_blank" rel="noopener" >responding to incidents&lt;/a> and writing &lt;a href="https://2i2c.org/incident-reports" target="_blank" rel="noopener" >incident reports&lt;/a>.&lt;/li>
 &lt;/ul>
 &lt;h2 id="looking-forward">
 Looking forward
@@ -146,23 +121,14 @@ Looking forward
 Learn More
 &lt;a class="header-anchor" href="#learn-more">#&lt;/a>
 &lt;/h2>&lt;ul>
-&lt;li>
-&lt;a href="http://status.2i2c.org/" target="_blank" rel="noopener" >2i2c Status Page&lt;/a>&lt;/li>
-&lt;li>
-&lt;a href="https://infrastructure.2i2c.org/hub-deployment-guide/runbooks/on-call/" target="_blank" rel="noopener" >On-call procedures documentation&lt;/a>&lt;/li>
-&lt;li>
-&lt;a href="https://github.com/2i2c-org/infrastructure" target="_blank" rel="noopener" >Infrastructure repository&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Offering Jetstream2-powered hub support at 2i2c</title><link>https://2i2c.org/blog/jetstream2-persistent-hub/</link><pubDate>Mon, 28 Apr 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/jetstream2-persistent-hub/</guid><description>&lt;p>When we first committed to offer
-&lt;a href="https://jetstream-cloud.org/index.html" target="_blank" rel="noopener" >Jetstream2&lt;/a> support at 2i2c, Jetstream2,
-&lt;a href="https://docs.openstack.org/magnum/latest/" target="_blank" rel="noopener" >Magnum&lt;/a>,
-&lt;a href="https://www.openstack.org/" target="_blank" rel="noopener" >OpenStack&lt;/a>,
-&lt;a href="https://cluster-api.sigs.k8s.io/" target="_blank" rel="noopener" >ClusterAPI&lt;/a> were all new concepts that we hadn&amp;rsquo;t used at 2i2c before.
+&lt;li>&lt;a href="http://status.2i2c.org/" target="_blank" rel="noopener" >2i2c Status Page&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://infrastructure.2i2c.org/hub-deployment-guide/runbooks/on-call/" target="_blank" rel="noopener" >On-call procedures documentation&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/2i2c-org/infrastructure" target="_blank" rel="noopener" >Infrastructure repository&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Offering Jetstream2-powered hub support at 2i2c</title><link>https://2i2c.org/blog/jetstream2-persistent-hub/</link><pubDate>Mon, 28 Apr 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/jetstream2-persistent-hub/</guid><description>&lt;p>When we first committed to offer &lt;a href="https://jetstream-cloud.org/index.html" target="_blank" rel="noopener" >Jetstream2&lt;/a> support at 2i2c, Jetstream2, &lt;a href="https://docs.openstack.org/magnum/latest/" target="_blank" rel="noopener" >Magnum&lt;/a>, &lt;a href="https://www.openstack.org/" target="_blank" rel="noopener" >OpenStack&lt;/a>, &lt;a href="https://cluster-api.sigs.k8s.io/" target="_blank" rel="noopener" >ClusterAPI&lt;/a> were all new concepts that we hadn&amp;rsquo;t used at 2i2c before.
 And although the initial exercise of reading about each of them independently was confusing, learning how they actually glued together was the key.
 This post is about Jetstream2, 2i2c persistent hub offerings, and the learning that took place in the process.&lt;/p>
 &lt;blockquote>
-&lt;p>⭐ &lt;strong>Members of 2i2c&amp;rsquo;s community network&lt;/strong> can determine their eligibility and learn about JetStream2 in
-&lt;a href="https://docs.2i2c.org/community-lead/about/cloud-providers#jetstream2" target="_blank" rel="noopener" >our supported cloud providers documentation&lt;/a>. If needed,
-&lt;a href="https://docs.2i2c.org/support" target="_blank" rel="noopener" >reach out to 2i2c for support&lt;/a>.&lt;/p>
+&lt;p>⭐ &lt;strong>Members of 2i2c&amp;rsquo;s community network&lt;/strong> can determine their eligibility and learn about JetStream2 in &lt;a href="https://docs.2i2c.org/community-lead/about/cloud-providers#jetstream2" target="_blank" rel="noopener" >our supported cloud providers documentation&lt;/a>. If needed, &lt;a href="https://docs.2i2c.org/support" target="_blank" rel="noopener" >reach out to 2i2c for support&lt;/a>.&lt;/p>
 &lt;/blockquote>
 &lt;h2 id="context">
 Context
@@ -171,10 +137,8 @@ Context
 &lt;ul>
 &lt;li>&lt;code>Infrastructure as code&lt;/code> to describe, deploy and manage the actual physical infrastructure from the cloud providers&lt;/li>
 &lt;li>Cloud specific CLI to authenticate to this infrastructure&lt;/li>
-&lt;li>
-&lt;a href="https://helm.sh/" target="_blank" rel="noopener" >&lt;code>Helm&lt;/code>&lt;/a> to deploy and manage k8s resources onto this infrastructure&lt;/li>
-&lt;li>And finally
-&lt;a href="https://kubernetes.io/docs/reference/kubectl/" target="_blank" rel="noopener" >&lt;code>kubectl&lt;/code>&lt;/a> to interact with all of these k8s resources&lt;/li>
+&lt;li>&lt;a href="https://helm.sh/" target="_blank" rel="noopener" >&lt;code>Helm&lt;/code>&lt;/a> to deploy and manage k8s resources onto this infrastructure&lt;/li>
+&lt;li>And finally &lt;a href="https://kubernetes.io/docs/reference/kubectl/" target="_blank" rel="noopener" >&lt;code>kubectl&lt;/code>&lt;/a> to interact with all of these k8s resources&lt;/li>
 &lt;/ul>
 &lt;p>
 &lt;figure >
@@ -186,17 +150,14 @@ Context
 &lt;h2 id="jetstream2-kubernetes-support-stack">
 Jetstream2 Kubernetes support stack
 &lt;a class="header-anchor" href="#jetstream2-kubernetes-support-stack">#&lt;/a>
-&lt;/h2>&lt;p>Jetstream2 is a collection of supercomputers that are part of the
-&lt;a href="https://access-ci.org/" target="_blank" rel="noopener" >ACCESS cyberinfrastructure&lt;/a>. This ACCESS infrastructure groups together super computers like Jetstream2 (but not limited to it), into a mesh that creates the impression of a single, virtual system that scientists can openly access and interactively use.&lt;/p>
+&lt;/h2>&lt;p>Jetstream2 is a collection of supercomputers that are part of the &lt;a href="https://access-ci.org/" target="_blank" rel="noopener" >ACCESS cyberinfrastructure&lt;/a>. This ACCESS infrastructure groups together super computers like Jetstream2 (but not limited to it), into a mesh that creates the impression of a single, virtual system that scientists can openly access and interactively use.&lt;/p>
 &lt;p>It offers Infrastructure as a Service (IaaS), that allows users to deploy VMs and manage environments dynamically. And the piece that enables this Infrastructure as a Service feature is OpenStack.&lt;/p>
 &lt;h3 id="openstack-and-magnum">
 OpenStack and Magnum
 &lt;a class="header-anchor" href="#openstack-and-magnum">#&lt;/a>
 &lt;/h3>&lt;p>OpenStack is an open source platform made of multiple projects that help build and manage both private and public cloud infrastructure.&lt;/p>
 &lt;p>For our use-case, one of the most relevant OpenStack sub-project is Magnum. Magnum offers container orchestration engines for deploying and managing containers, like Kubernetes, but not limited to it.&lt;/p>
-&lt;p>Initially, Kubernetes support was provided through a project called
-&lt;a href="https://wiki.openstack.org/wiki/Heat" target="_blank" rel="noopener" >HEAT&lt;/a>. However that has proven harder to manage and maintain, and it was extremely hard to upgrade a cluster. So, they’ve migrated towards a new driver called
-&lt;a href="https://docs.openstack.org/magnum-capi-helm/latest/user_docs/index.html" target="_blank" rel="noopener" >Cluster API magnum driver&lt;/a>, which offers a more native k8s integration.&lt;/p>
+&lt;p>Initially, Kubernetes support was provided through a project called &lt;a href="https://wiki.openstack.org/wiki/Heat" target="_blank" rel="noopener" >HEAT&lt;/a>. However that has proven harder to manage and maintain, and it was extremely hard to upgrade a cluster. So, they’ve migrated towards a new driver called &lt;a href="https://docs.openstack.org/magnum-capi-helm/latest/user_docs/index.html" target="_blank" rel="noopener" >Cluster API magnum driver&lt;/a>, which offers a more native k8s integration.&lt;/p>
 &lt;h3 id="cluster-api-and-capi-helm-driver">
 Cluster API and CAPI helm driver
 &lt;a class="header-anchor" href="#cluster-api-and-capi-helm-driver">#&lt;/a>
@@ -223,97 +184,70 @@ Challenges
 &lt;li>We have to create terraform resource in sequence which takes longer because of a race condition that makes concurrent nodegroups creation requests to fail&lt;/li>
 &lt;/ol>
 &lt;ul>
-&lt;li>
-&lt;a href="https://bugs.launchpad.net/magnum/&amp;#43;bug/2097946" target="_blank" rel="noopener" >bugs.launchpad.net/magnum/+bug/2097946&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://bugs.launchpad.net/magnum/&amp;#43;bug/2097946" target="_blank" rel="noopener" >bugs.launchpad.net/magnum/+bug/2097946&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;ol start="2">
 &lt;li>The role and labels of the nodegroups don&amp;rsquo;t get propagated to the actual nodes, so we cannot put our own labels on nodes at once&lt;/li>
 &lt;/ol>
 &lt;ul>
-&lt;li>
-&lt;a href="https://github.com/azimuth-cloud/capi-helm-charts/issues/84" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> azimuth-cloud/capi-helm-charts#84&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/azimuth-cloud/capi-helm-charts/issues/84" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> azimuth-cloud/capi-helm-charts#84&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;ol start="3">
 &lt;li>The node count and min node count cannot be set to 0 and each nodegroup has to have at least 1 node&lt;/li>
 &lt;/ol>
 &lt;ul>
-&lt;li>
-&lt;a href="https://bugs.launchpad.net/magnum/&amp;#43;bug/2098002" target="_blank" rel="noopener" >bugs.launchpad.net/magnum/+bug/2098002&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://bugs.launchpad.net/magnum/&amp;#43;bug/2098002" target="_blank" rel="noopener" >bugs.launchpad.net/magnum/+bug/2098002&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;ol start="4">
 &lt;li>A default-worker is created apart from the default-control plane nodegroup and we cannot delete it due to the same issue as in 2.&lt;/li>
 &lt;li>Latest CAPI helm chart version causes autoscaling to stop working in a persistent hub setup, so we had to downgrade it to a previous version&lt;/li>
 &lt;/ol>
 &lt;ul>
-&lt;li>
-&lt;a href="https://github.com/2i2c-org/infrastructure/issues/5601" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> 2i2c-org/infrastructure#5601&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/2i2c-org/infrastructure/issues/5601" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> 2i2c-org/infrastructure#5601&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h2 id="conclusion">
 Conclusion
 &lt;a class="header-anchor" href="#conclusion">#&lt;/a>
-&lt;/h2>&lt;p>The biggest plus, is the people. We got support from
-&lt;a href="https://github.com/julianpistorius" target="_blank" rel="noopener" >Julian Pistorius&lt;/a>, which has helped us a lot to both fix and validate some of the behaviours we were experiencing. Also, going through the
-&lt;a href="https://jetstream-cloud.org/contact/index.html" target="_blank" rel="noopener" >Jetstream2 support process&lt;/a> was also a pleasant experience because they were super prompt in answering and they were very nice.&lt;/p>
+&lt;/h2>&lt;p>The biggest plus, is the people. We got support from &lt;a href="https://github.com/julianpistorius" target="_blank" rel="noopener" >Julian Pistorius&lt;/a>, which has helped us a lot to both fix and validate some of the behaviours we were experiencing. Also, going through the &lt;a href="https://jetstream-cloud.org/contact/index.html" target="_blank" rel="noopener" >Jetstream2 support process&lt;/a> was also a pleasant experience because they were super prompt in answering and they were very nice.&lt;/p>
 &lt;p>Jetstream2 has a big plus over the other cloud providers with its openness thought the ACCESS program. This is something very handy to researchers and less costly than other cloud providers. 2i2c being able to offer hubs though this ACCESS program makes things more accessible to more researchers and more cost efficient.&lt;/p>
 &lt;p>Higher complexity comes also with more control over the infrastructure which has its advantages.&lt;/p>
 &lt;p>Leaving the challenges apart, the experience was a nice one and the outcome was positive -&amp;gt; 2i2c is now able to deploy both mybinder.org-like hubs as well as persistent storage hubs on Jetstream2 hardware, from the same cloud-agnostic infrastructure.&lt;/p>
 &lt;h2 id="acknowledgements">
 Acknowledgements
 &lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
-&lt;/h2>&lt;p>Thanks to
-&lt;a href="https://2i2c.org/collaborators/pythia/" >Project Pythia&lt;/a> for funding and collaborating with us on this work.&lt;/p></description></item><item><title>Open infrastructure for collaborative geoscience with Project Pythia: Learning how to deploy a BinderHub on Jetstream2</title><link>https://2i2c.org/blog/jetstream-binderhub/</link><pubDate>Wed, 12 Feb 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/jetstream-binderhub/</guid><description>
+&lt;/h2>&lt;p>Thanks to &lt;a href="https://2i2c.org/collaborators/pythia/" >Project Pythia&lt;/a> for funding and collaborating with us on this work.&lt;/p></description></item><item><title>Open infrastructure for collaborative geoscience with Project Pythia: Learning how to deploy a BinderHub on Jetstream2</title><link>https://2i2c.org/blog/jetstream-binderhub/</link><pubDate>Wed, 12 Feb 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/jetstream-binderhub/</guid><description>
 &lt;h2 id="project-pythia-and-the-jupyter-notebook-obsolescence-problem">
 Project Pythia and the &amp;ldquo;Jupyter notebook obsolescence&amp;rdquo; problem
 &lt;a class="header-anchor" href="#project-pythia-and-the-jupyter-notebook-obsolescence-problem">#&lt;/a>
-&lt;/h2>&lt;p>
-&lt;a href="https://projectpythia.org/" target="_blank" rel="noopener" >Project Pythia&lt;/a> provides educational resources for essential software tools that enable open, reproducible and scalable geoscience, such as the
-&lt;a href="https://pangeo.io" target="_blank" rel="noopener" >Pangeo&lt;/a> stack of packages (Xarray, Dask, Jupyter). Their &lt;em>Cookbooks&lt;/em> are crowdsourced, community-curated, and open-source collections of Jupyter notebooks that demonstrate how to use these tools for cloud-native, geoscientific workflows (see our
-&lt;a href="https://2i2c.org/contentblog/2024/project-pythia-cookoff/index.md" >Project Pythia Cookoff&lt;/a> blog post). However, &amp;ldquo;Jupyter notebook obsolescence&amp;rdquo; is a common problem: tutorials that were created a few years ago may no longer work due to changes in the software ecosystem and hampers the reproducibility of scientific results. A reproducible execution environment and the infrastructure to support it are essential for the long-term sustainability of these educational resources.&lt;/p>
+&lt;/h2>&lt;p>&lt;a href="https://projectpythia.org/" target="_blank" rel="noopener" >Project Pythia&lt;/a> provides educational resources for essential software tools that enable open, reproducible and scalable geoscience, such as the &lt;a href="https://pangeo.io" target="_blank" rel="noopener" >Pangeo&lt;/a> stack of packages (Xarray, Dask, Jupyter). Their &lt;em>Cookbooks&lt;/em> are crowdsourced, community-curated, and open-source collections of Jupyter notebooks that demonstrate how to use these tools for cloud-native, geoscientific workflows (see our &lt;a href="https://2i2c.org/contentblog/2024/project-pythia-cookoff/index.md" >Project Pythia Cookoff&lt;/a> blog post). However, &amp;ldquo;Jupyter notebook obsolescence&amp;rdquo; is a common problem: tutorials that were created a few years ago may no longer work due to changes in the software ecosystem and hampers the reproducibility of scientific results. A reproducible execution environment and the infrastructure to support it are essential for the long-term sustainability of these educational resources.&lt;/p>
 &lt;h2 id="leveraging-nsf-funded-cyberinfrastructure-for-binderhub">
 Leveraging NSF-funded cyberinfrastructure for BinderHub
 &lt;a class="header-anchor" href="#leveraging-nsf-funded-cyberinfrastructure-for-binderhub">#&lt;/a>
-&lt;/h2>&lt;p>A
-&lt;a href="https://binderhub.readthedocs.io/en/latest/" target="_blank" rel="noopener" >BinderHub&lt;/a> allows users to dynamically create custom computing environments from
-&lt;a href="https://mybinder.readthedocs.io/en/latest/introduction.html#what-is-a-binder" target="_blank" rel="noopener" >Binder-ready&lt;/a> repositories containing computational notebooks and configuration files that describe the software environment required to run them. A public Binder service exists at
-&lt;a href="https://mybinder.org/" target="_blank" rel="noopener" >mybinder.org&lt;/a> (see our blog post about
-&lt;a href="https://2i2c.org/blog/binder-singlenode/" >joining the mybinder federation&lt;/a> 🎉) and is a successful example of how open cloud infrastructure can accommodate reproducible execution environments.&lt;/p>
-&lt;p>The resources available on such a public service are limited therefore 2i2c, together with Project Pythia, have been exploring how to deploy a BinderHub backed by larger resources from the NSF-funded cloud computing platform
-&lt;a href="https://jetstream-cloud.org/" target="_blank" rel="noopener" >Jetstream2&lt;/a>. This allows for larger simultaneous user loads, such as at workshops, as well as access to more powerful distributed and parallelized workflows required to process large geoscientific datasets, under a persistent resource allocation.&lt;/p>
+&lt;/h2>&lt;p>A &lt;a href="https://binderhub.readthedocs.io/en/latest/" target="_blank" rel="noopener" >BinderHub&lt;/a> allows users to dynamically create custom computing environments from &lt;a href="https://mybinder.readthedocs.io/en/latest/introduction.html#what-is-a-binder" target="_blank" rel="noopener" >Binder-ready&lt;/a> repositories containing computational notebooks and configuration files that describe the software environment required to run them. A public Binder service exists at &lt;a href="https://mybinder.org/" target="_blank" rel="noopener" >mybinder.org&lt;/a> (see our blog post about &lt;a href="https://2i2c.org/blog/binder-singlenode/" >joining the mybinder federation&lt;/a> 🎉) and is a successful example of how open cloud infrastructure can accommodate reproducible execution environments.&lt;/p>
+&lt;p>The resources available on such a public service are limited therefore 2i2c, together with Project Pythia, have been exploring how to deploy a BinderHub backed by larger resources from the NSF-funded cloud computing platform &lt;a href="https://jetstream-cloud.org/" target="_blank" rel="noopener" >Jetstream2&lt;/a>. This allows for larger simultaneous user loads, such as at workshops, as well as access to more powerful distributed and parallelized workflows required to process large geoscientific datasets, under a persistent resource allocation.&lt;/p>
 &lt;h2 id="learning-how-to-deploy-on-openstack">
 Learning how to deploy on OpenStack
 &lt;a class="header-anchor" href="#learning-how-to-deploy-on-openstack">#&lt;/a>
-&lt;/h2>&lt;p>Jetstream2 uses
-&lt;a href="https://www.openstack.org" target="_blank" rel="noopener" >OpenStack&lt;/a> in order to manage pools of compute, storage and networking resources, and for our purposes we specifically make use of OpenStack
-&lt;a href="https://docs.openstack.org/magnum/latest/" target="_blank" rel="noopener" >Magnum&lt;/a>
-&lt;a href="https://specs.openstack.org/openstack//magnum-specs/specs/bobcat/clusterapi-driver.html" target="_blank" rel="noopener" >Cluster API driver&lt;/a> to manage Kubernetes for our deployment.&lt;/p>
+&lt;/h2>&lt;p>Jetstream2 uses &lt;a href="https://www.openstack.org" target="_blank" rel="noopener" >OpenStack&lt;/a> in order to manage pools of compute, storage and networking resources, and for our purposes we specifically make use of OpenStack &lt;a href="https://docs.openstack.org/magnum/latest/" target="_blank" rel="noopener" >Magnum&lt;/a> &lt;a href="https://specs.openstack.org/openstack//magnum-specs/specs/bobcat/clusterapi-driver.html" target="_blank" rel="noopener" >Cluster API driver&lt;/a> to manage Kubernetes for our deployment.&lt;/p>
 &lt;p>Cluster API needs a &lt;code>CAPI management cluster&lt;/code> in order to manage other Kubernetes clusters, called workload clusters. On Jetstream2, this management cluster is gracefully created and operated by the Jetstream2 team, which means that the only task to worry about is creating and configuring the workload cluster.&lt;/p>
-&lt;p>For the workload cluster we used the
-&lt;a href="https://registry.terraform.io/providers/terraform-provider-openstack/openstack/latest/docs" target="_blank" rel="noopener" >Openstack Terraform provider&lt;/a> to define the cluster template, the cluster itself and the node groups in a reproducible way.&lt;/p>
+&lt;p>For the workload cluster we used the &lt;a href="https://registry.terraform.io/providers/terraform-provider-openstack/openstack/latest/docs" target="_blank" rel="noopener" >Openstack Terraform provider&lt;/a> to define the cluster template, the cluster itself and the node groups in a reproducible way.&lt;/p>
 &lt;p>After the cluster infrastructure was successfully created on Jetstream2, thanks to the 2i2c hub infrastructure being cloud agnostic as well, deploying BinderHub to Jetstream2, was a seamless experience and it was no different than on other cloud providers that we already supported.&lt;/p>
 &lt;p>We also learnt about some limitations of the Openstack Magnum driver project, which were expected given it being a relatively recent project, slowly being adopted, but they were all reported upstream and hopefully will soon be fixed.&lt;/p>
 &lt;h2 id="acknowledgements">
 Acknowledgements
 &lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
 &lt;/h2>&lt;ul>
-&lt;li>
-&lt;a href="https://jetstream-cloud.org/" target="_blank" rel="noopener" >Jetstream2&lt;/a>: Explore ACCESS allocation and Julian Pistorius for technical support&lt;/li>
-&lt;li>Thanks to
-&lt;a href="https://2i2c.org/collaborators/pythia/" >Project Pythia&lt;/a> for funding and collaborating with us on this work.&lt;/li>
-&lt;li>
-&lt;a href="https://www.zonca.dev/posts/2024-12-11-jetstream_kubernetes_magnum" target="_blank" rel="noopener" >Andrea Zonca&lt;/a> for preliminary work on Kubernetes deployments on Jetstream 2&lt;/li>
+&lt;li>&lt;a href="https://jetstream-cloud.org/" target="_blank" rel="noopener" >Jetstream2&lt;/a>: Explore ACCESS allocation and Julian Pistorius for technical support&lt;/li>
+&lt;li>Thanks to &lt;a href="https://2i2c.org/collaborators/pythia/" >Project Pythia&lt;/a> for funding and collaborating with us on this work.&lt;/li>
+&lt;li>&lt;a href="https://www.zonca.dev/posts/2024-12-11-jetstream_kubernetes_magnum" target="_blank" rel="noopener" >Andrea Zonca&lt;/a> for preliminary work on Kubernetes deployments on Jetstream 2&lt;/li>
 &lt;/ul></description></item><item><title>2i2c hubs now run JupyterHub 5.0</title><link>https://2i2c.org/blog/jupyterhub5-upgrade/</link><pubDate>Fri, 17 Jan 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/jupyterhub5-upgrade/</guid><description>&lt;p>We are excited to announce that all 2i2c hubs now run JupyterHub 5.0!&lt;/p>
 &lt;p>This is an upgrade that brings some exciting new features and improvements. Some of the highlights include:&lt;/p>
 &lt;ol>
-&lt;li>The possibility to enable
-&lt;a href="https://jupyterhub.readthedocs.io/en/5.0.0/tutorial/sharing.html" target="_blank" rel="noopener" >user-initiated server sharing&lt;/a>&lt;/li>
-&lt;li>
-&lt;a href="https://jupyterhub.readthedocs.io/en/5.0.0/reference/authenticators.html#authenticator-managed-roles" target="_blank" rel="noopener" >Authenticator-managed roles&lt;/a>&lt;/li>
+&lt;li>The possibility to enable &lt;a href="https://jupyterhub.readthedocs.io/en/5.0.0/tutorial/sharing.html" target="_blank" rel="noopener" >user-initiated server sharing&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://jupyterhub.readthedocs.io/en/5.0.0/reference/authenticators.html#authenticator-managed-roles" target="_blank" rel="noopener" >Authenticator-managed roles&lt;/a>&lt;/li>
 &lt;/ol>
-&lt;p>Also, JupyterHub 5 will enable us to offer per-group shared directories in the future!
-&lt;a href="https://github.com/NASA-IMPACT/veda-jupyterhub/issues/61" target="_blank" rel="noopener" >Tracking Issue&lt;/a>.&lt;/p>
-&lt;p>Checkout the
-&lt;a href="https://jupyterhub.readthedocs.io/en/latest/howto/upgrading-v5.html" target="_blank" rel="noopener" >JupyterHub 5.0 migration&lt;/a> docs or the
-&lt;a href="https://jupyterhub.readthedocs.io/en/5.0.0/reference/changelog.html#id3" target="_blank" rel="noopener" >changelog&lt;/a> for more details.&lt;/p></description></item><item><title>On the Jupyter Blog: From intern to mentor.</title><link>https://2i2c.org/blog/external-jupyter-georgiana-mentor/</link><pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/external-jupyter-georgiana-mentor/</guid><description>
+&lt;p>Also, JupyterHub 5 will enable us to offer per-group shared directories in the future! &lt;a href="https://github.com/NASA-IMPACT/veda-jupyterhub/issues/61" target="_blank" rel="noopener" >Tracking Issue&lt;/a>.&lt;/p>
+&lt;p>Checkout the &lt;a href="https://jupyterhub.readthedocs.io/en/latest/howto/upgrading-v5.html" target="_blank" rel="noopener" >JupyterHub 5.0 migration&lt;/a> docs or the &lt;a href="https://jupyterhub.readthedocs.io/en/5.0.0/reference/changelog.html#id3" target="_blank" rel="noopener" >changelog&lt;/a> for more details.&lt;/p></description></item><item><title>On the Jupyter Blog: From intern to mentor.</title><link>https://2i2c.org/blog/external-jupyter-georgiana-mentor/</link><pubDate>Fri, 30 Jun 2023 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/external-jupyter-georgiana-mentor/</guid><description>
 &lt;h2 id="6------1-----------------------">
 6&amp;mdash;&amp;mdash;1&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;ndash;
 &lt;a class="header-anchor" href="#6------1-----------------------">#&lt;/a>
@@ -321,9 +255,7 @@ Acknowledgements
 &lt;h2 id="about-cilogon">
 About CILogon
 &lt;a class="header-anchor" href="#about-cilogon">#&lt;/a>
-&lt;/h2>&lt;p>
-&lt;a href="https://www.cilogon.org" target="_blank" rel="noopener" >CILogon&lt;/a> is an open source service provider that allows users to log in against over 4000 various identity providers, including campus identity providers. The available identity providers are members of
-&lt;a href="https://incommon.org/federation/" target="_blank" rel="noopener" >InCommon&lt;/a>, a federation of universities and other organizations that provide single sign-on access to various resources.&lt;/p>
+&lt;/h2>&lt;p>&lt;a href="https://www.cilogon.org" target="_blank" rel="noopener" >CILogon&lt;/a> is an open source service provider that allows users to log in against over 4000 various identity providers, including campus identity providers. The available identity providers are members of &lt;a href="https://incommon.org/federation/" target="_blank" rel="noopener" >InCommon&lt;/a>, a federation of universities and other organizations that provide single sign-on access to various resources.&lt;/p>
 &lt;h2 id="cilogon-and-2i2c">
 CILogon and 2i2c
 &lt;a class="header-anchor" href="#cilogon-and-2i2c">#&lt;/a>
@@ -338,30 +270,17 @@ The setup
 &lt;h3 id="the-cilogon-administrative-client">
 The CILogon administrative client
 &lt;a class="header-anchor" href="#the-cilogon-administrative-client">#&lt;/a>
-&lt;/h3>&lt;p>The
-&lt;a href="https://cilogon.github.io/oa4mp/server/manuals/dynamic-client-registration.html" target="_blank" rel="noopener" >2i2c administrative client&lt;/a> provided by CILogon allowed us to automatically manage the CILogon OAuth applications needed for authenticating into the hub.&lt;/p>
-&lt;p>For each hub that uses CILogon, we dynamically create an OAuth
-&lt;a href="https://cilogon.github.io/oa4mp/server/manuals/dynamic-client-registration.html" target="_blank" rel="noopener" >client application&lt;/a> in CILogon and store the credentials safely, using the script at
-&lt;a href="https://github.com/2i2c-org/infrastructure/blob/3312f373f0aa59fbc98dc1c8161aa9623b68726b/deployer/cilogon_app.py" target="_blank" rel="noopener" >cilogon_app.py&lt;/a>. The script can also used for &lt;code>updating&lt;/code> the callback URLs of an existing OAuth application, &lt;code>deleting&lt;/code> a CILogon OAuth application when a hub is removed or changes authentication methods, &lt;code>getting&lt;/code> details about an existing OAuth application, &lt;code>getting all&lt;/code> existing 2i2c CILogon OAuth applications.&lt;/p>
+&lt;/h3>&lt;p>The &lt;a href="https://cilogon.github.io/oa4mp/server/manuals/dynamic-client-registration.html" target="_blank" rel="noopener" >2i2c administrative client&lt;/a> provided by CILogon allowed us to automatically manage the CILogon OAuth applications needed for authenticating into the hub.&lt;/p>
+&lt;p>For each hub that uses CILogon, we dynamically create an OAuth &lt;a href="https://cilogon.github.io/oa4mp/server/manuals/dynamic-client-registration.html" target="_blank" rel="noopener" >client application&lt;/a> in CILogon and store the credentials safely, using the script at &lt;a href="https://github.com/2i2c-org/infrastructure/blob/3312f373f0aa59fbc98dc1c8161aa9623b68726b/deployer/cilogon_app.py" target="_blank" rel="noopener" >cilogon_app.py&lt;/a>. The script can also used for &lt;code>updating&lt;/code> the callback URLs of an existing OAuth application, &lt;code>deleting&lt;/code> a CILogon OAuth application when a hub is removed or changes authentication methods, &lt;code>getting&lt;/code> details about an existing OAuth application, &lt;code>getting all&lt;/code> existing 2i2c CILogon OAuth applications.&lt;/p>
 &lt;h3 id="the-jupyterhub-cilogonoauthenticator">
 The JupyterHub CILogonOAuthenticator
 &lt;a class="header-anchor" href="#the-jupyterhub-cilogonoauthenticator">#&lt;/a>
-&lt;/h3>&lt;p>For CILogon&amp;rsquo;s integration with JupyterHub&amp;rsquo;s authentication workflow, we&amp;rsquo;re using the
-&lt;a href="https://github.com/jupyterhub/oauthenticator/blob/main/oauthenticator/cilogon.py" target="_blank" rel="noopener" >&lt;strong>CILogonOAuthenticator&lt;/strong>&lt;/a>, which is part of the
-&lt;a href="https://oauthenticator.readthedocs.io/en/latest/" target="_blank" rel="noopener" >JupyterHub OAuthenticator project&lt;/a>. This is what allows JupyterHub to use common OAuth providers for authentication, and it&amp;rsquo;s also a base for writing other Authenticators with any OAuth 2.0 provider.&lt;/p>
-&lt;p>As part of this 2i2c integration with the JupyterHub CILogonOAuthenticator some important upstream fixes and enhancements to the
-&lt;a href="https://github.com/jupyterhub/oauthenticator" target="_blank" rel="noopener" >&lt;code>oauthenticator&lt;/code>&lt;/a> were identified and performed. For example, the
-&lt;a href="https://github.com/jupyterhub/oauthenticator/security/advisories/GHSA-r7v4-jwx9-wx43" target="_blank" rel="noopener" >GHSA-r7v4-jwx9-wx43&lt;/a> vulnerability was reported and fixed, and a
-&lt;a href="https://oauthenticator.readthedocs.io/en/latest/how-to/migrations/upgrade-to-15.html" target="_blank" rel="noopener" >migration guide&lt;/a> containing a description of the breaking changes that were made, together with a step by step guide for the users on how to update their usage of JupyterHub CILogonOAuthenticator was provided.&lt;/p>
-&lt;p>Read more about how CILogon is setup for use at 2i2c from
-&lt;a href="https://infrastructure.2i2c.org/hub-deployment-guide/configure-auth/cilogon.html" target="_blank" rel="noopener" >the docs&lt;/a>.&lt;/p>
+&lt;/h3>&lt;p>For CILogon&amp;rsquo;s integration with JupyterHub&amp;rsquo;s authentication workflow, we&amp;rsquo;re using the &lt;a href="https://github.com/jupyterhub/oauthenticator/blob/main/oauthenticator/cilogon.py" target="_blank" rel="noopener" >&lt;strong>CILogonOAuthenticator&lt;/strong>&lt;/a>, which is part of the &lt;a href="https://oauthenticator.readthedocs.io/en/latest/" target="_blank" rel="noopener" >JupyterHub OAuthenticator project&lt;/a>. This is what allows JupyterHub to use common OAuth providers for authentication, and it&amp;rsquo;s also a base for writing other Authenticators with any OAuth 2.0 provider.&lt;/p>
+&lt;p>As part of this 2i2c integration with the JupyterHub CILogonOAuthenticator some important upstream fixes and enhancements to the &lt;a href="https://github.com/jupyterhub/oauthenticator" target="_blank" rel="noopener" >&lt;code>oauthenticator&lt;/code>&lt;/a> were identified and performed. For example, the &lt;a href="https://github.com/jupyterhub/oauthenticator/security/advisories/GHSA-r7v4-jwx9-wx43" target="_blank" rel="noopener" >GHSA-r7v4-jwx9-wx43&lt;/a> vulnerability was reported and fixed, and a &lt;a href="https://oauthenticator.readthedocs.io/en/latest/how-to/migrations/upgrade-to-15.html" target="_blank" rel="noopener" >migration guide&lt;/a> containing a description of the breaking changes that were made, together with a step by step guide for the users on how to update their usage of JupyterHub CILogonOAuthenticator was provided.&lt;/p>
+&lt;p>Read more about how CILogon is setup for use at 2i2c from &lt;a href="https://infrastructure.2i2c.org/hub-deployment-guide/configure-auth/cilogon.html" target="_blank" rel="noopener" >the docs&lt;/a>.&lt;/p>
 &lt;h2 id="celebration">
 Celebration
 &lt;a class="header-anchor" href="#celebration">#&lt;/a>
 &lt;/h2>&lt;p>Thanks to the 2i2c - CILogon partnership, during this past year we were able to integrate CILogon into 2i2c&amp;rsquo;s infrastructure and to observe its importance, usefulness and great support for 2i2c and the communities we server.&lt;/p>
 &lt;p>We are now happy to announce that the 2i2c - CILogon partnership has been expanded to another year!&lt;/p>
-&lt;p>&lt;strong>Acknowledgements&lt;/strong>: The upstream
-&lt;a href="https://oauthenticator.readthedocs.io/en/latest" target="_blank" rel="noopener" >&lt;code>jupyterhub-oauthenticator&lt;/code>&lt;/a> project mentioned in this post as being used at 2i2c is a JupyterHub package, kindly developed and maintained by the
-&lt;a href="https://discourse.jupyter.org/c/jupyterhub/" target="_blank" rel="noopener" >JupyterHub community&lt;/a> and the 2i2c integration described was developed by
-&lt;a href="https://2i2c.org/organization/" >the 2i2c engineering team&lt;/a>. Also, this post was edited by
-&lt;a href="https://jbasney.net/" target="_blank" rel="noopener" >Jim Basney&lt;/a>.&lt;/p></description></item></channel></rss>
+&lt;p>&lt;strong>Acknowledgements&lt;/strong>: The upstream &lt;a href="https://oauthenticator.readthedocs.io/en/latest" target="_blank" rel="noopener" >&lt;code>jupyterhub-oauthenticator&lt;/code>&lt;/a> project mentioned in this post as being used at 2i2c is a JupyterHub package, kindly developed and maintained by the &lt;a href="https://discourse.jupyter.org/c/jupyterhub/" target="_blank" rel="noopener" >JupyterHub community&lt;/a> and the 2i2c integration described was developed by &lt;a href="https://2i2c.org/organization/" >the 2i2c engineering team&lt;/a>. Also, this post was edited by &lt;a href="https://jbasney.net/" target="_blank" rel="noopener" >Jim Basney&lt;/a>.&lt;/p></description></item></channel></rss>

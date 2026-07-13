@@ -21,15 +21,9 @@ Available for dedicated AWS clusters only (and excluding CloudBank managed accou
 Learn more
 &lt;a class="header-anchor" href="#learn-more">#&lt;/a>
 &lt;/h2>&lt;ul>
-&lt;li>Take a look at the
-&lt;a href="https://docs.2i2c.org/admin/monitoring/cost-users-groups/#group-cloud-costs" target="_blank" rel="noopener" >Community Hub Guide&lt;/a> to see what&amp;rsquo;s new&lt;/li>
-&lt;li>Check out the documentation of the
-&lt;a href="https://jupyterhub-cost-monitoring.readthedocs.io/en/latest/" target="_blank" rel="noopener" >2i2c-org/jupyterhub-cost-monitoring&lt;/a> project to see how it all works&lt;/li>
-&lt;li>
-&lt;a href="https://2i2c.org/author/jenny-wong/" >Jenny&lt;/a> recently presented her work on the cost monitoring system at
-&lt;a href="https://events.linuxfoundation.org/jupytercon/" target="_blank" rel="noopener" >JupyterCon 2025&lt;/a> earlier this month. Watch a
-&lt;a href="https://youtu.be/M5x3bTgRzVs?si=P2c3Ngb8v7f4ks0I" target="_blank" rel="noopener" >video&lt;/a> or look at the
-&lt;a href="https://docs.google.com/presentation/d/1N8V7dna1atpRmcbpgZ0-VL5cbOQfwYfXTstudT2ierY/edit?usp=sharing" target="_blank" rel="noopener" >slides&lt;/a>.&lt;/li>
+&lt;li>Take a look at the &lt;a href="https://docs.2i2c.org/admin/monitoring/cost-users-groups/#group-cloud-costs" target="_blank" rel="noopener" >Community Hub Guide&lt;/a> to see what&amp;rsquo;s new&lt;/li>
+&lt;li>Check out the documentation of the &lt;a href="https://jupyterhub-cost-monitoring.readthedocs.io/en/latest/" target="_blank" rel="noopener" >2i2c-org/jupyterhub-cost-monitoring&lt;/a> project to see how it all works&lt;/li>
+&lt;li>&lt;a href="https://2i2c.org/author/jenny-wong/" >Jenny&lt;/a> recently presented her work on the cost monitoring system at &lt;a href="https://events.linuxfoundation.org/jupytercon/" target="_blank" rel="noopener" >JupyterCon 2025&lt;/a> earlier this month. Watch a &lt;a href="https://youtu.be/M5x3bTgRzVs?si=P2c3Ngb8v7f4ks0I" target="_blank" rel="noopener" >video&lt;/a> or look at the &lt;a href="https://docs.google.com/presentation/d/1N8V7dna1atpRmcbpgZ0-VL5cbOQfwYfXTstudT2ierY/edit?usp=sharing" target="_blank" rel="noopener" >slides&lt;/a>.&lt;/li>
 &lt;/ul>
 &lt;a href="https://docs.google.com/forms/d/e/1FAIpQLSff-u-sWFuwO1-VTgk2Ir7f1nfUUlLevQk_Vkk_jnmcI1nJnw/viewform?usp=pp_url&amp;amp;entry.648332035=https://2i2c.org/blog/cloud-cost-groups/" target="_blank" rel="noopener" class="text-decoration-none">
 &lt;div class="alert alert-info d-flex align-items-start p-3" role="button" style="transition: all 0.2s ease; box-shadow: 0 2px 4px rgba(0,0,0,0.1);" onmouseover="this.style.backgroundColor='#b3e5fc'; this.style.boxShadow='0 4px 8px rgba(0,0,0,0.15)'; this.style.transform='translateY(-1px)'" onmouseout="this.style.backgroundColor=''; this.style.boxShadow='0 2px 4px rgba(0,0,0,0.1)'; this.style.transform='translateY(0)'" onfocus="this.style.backgroundColor='#b3e5fc'; this.style.boxShadow='0 4px 8px rgba(0,0,0,0.15)'; this.style.transform='translateY(-1px)'" onblur="this.style.backgroundColor=''; this.style.boxShadow='0 2px 4px rgba(0,0,0,0.1)'; this.style.transform='translateY(0)'">
@@ -40,15 +34,10 @@ Learn more
 Acknowledgements
 &lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
 &lt;/h2>&lt;ul>
-&lt;li>
-&lt;a href="https://github.com/sunu" target="_blank" rel="noopener" >Tarashish&lt;/a> @
-&lt;a href="https://2i2c.org/collaborators/devseed/" >Development Seed&lt;/a> for collaborating on this project with us.&lt;/li>
-&lt;li>
-&lt;a href="https://2i2c.org/collaborators/nasa-veda/" >NASA VEDA&lt;/a> and the DSE Team at NASA MSFC ODSI for funding much of this work.&lt;/li>
-&lt;li>
-&lt;a href="https://github.com/kyle-lesinger" target="_blank" rel="noopener" >Kyle Lesinger&lt;/a> from the NASA MSFC Office of Data Science and Informatics for providing valuable feedback and bug reports during development.&lt;/li>
-&lt;/ul></description></item><item><title>Enabling transparent cloud cost monitoring with user-level dashboards</title><link>https://2i2c.org/blog/cloud-cost-monitoring/</link><pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/cloud-cost-monitoring/</guid><description>&lt;p>We are excited to announce that &lt;strong>dashboards to monitor cloud usage and costs at a per-user level&lt;/strong> are now available! See the
-&lt;a href="https://docs.2i2c.org/admin/monitoring/cost-users" target="_blank" rel="noopener" >cost monitoring documentation&lt;/a> for more information.&lt;/p>
+&lt;li>&lt;a href="https://github.com/sunu" target="_blank" rel="noopener" >Tarashish&lt;/a> @ &lt;a href="https://2i2c.org/collaborators/devseed/" >Development Seed&lt;/a> for collaborating on this project with us.&lt;/li>
+&lt;li>&lt;a href="https://2i2c.org/collaborators/nasa-veda/" >NASA VEDA&lt;/a> and the DSE Team at NASA MSFC ODSI for funding much of this work.&lt;/li>
+&lt;li>&lt;a href="https://github.com/kyle-lesinger" target="_blank" rel="noopener" >Kyle Lesinger&lt;/a> from the NASA MSFC Office of Data Science and Informatics for providing valuable feedback and bug reports during development.&lt;/li>
+&lt;/ul></description></item><item><title>Enabling transparent cloud cost monitoring with user-level dashboards</title><link>https://2i2c.org/blog/cloud-cost-monitoring/</link><pubDate>Tue, 30 Sep 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/cloud-cost-monitoring/</guid><description>&lt;p>We are excited to announce that &lt;strong>dashboards to monitor cloud usage and costs at a per-user level&lt;/strong> are now available! See the &lt;a href="https://docs.2i2c.org/admin/monitoring/cost-users" target="_blank" rel="noopener" >cost monitoring documentation&lt;/a> for more information.&lt;/p>
 &lt;p>A key goal of 2i2c is to make the cloud safe for science. By providing transparent cost monitoring, we give communities the confidence that they won&amp;rsquo;t face unexpected bills and can better understand how their usage patterns translate to cloud costs. This visibility is especially valuable in our shared platform model, where each community gets their own independent hub while benefiting from shared infrastructure expertise.&lt;/p>
 &lt;p>
 &lt;figure >
@@ -73,22 +62,16 @@ loading="lazy" data-zoomable />&lt;/div>
 Learn more
 &lt;a class="header-anchor" href="#learn-more">#&lt;/a>
 &lt;/h2>&lt;ul>
-&lt;li>
-&lt;a href="https://docs.2i2c.org/admin/monitoring/cost-users" target="_blank" rel="noopener" >Cost monitoring documentation&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.2i2c.org/admin/monitoring/cost-users" target="_blank" rel="noopener" >Cost monitoring documentation&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h2 id="acknowledgements">
 Acknowledgements
 &lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
 &lt;/h2>&lt;ul>
-&lt;li>Tarashish @
-&lt;a href="https://2i2c.org/collaborators/devseed/" >Development Seed&lt;/a> for working on this with us.&lt;/li>
-&lt;li>
-&lt;a href="https://2i2c.org/collaborators/nasa-veda/" >NASA VEDA&lt;/a> for funding much of this work.&lt;/li>
-&lt;li>Andy @
-&lt;a href="https://2i2c.org/collaborators/openscapes/" >Openscapes&lt;/a>, Alex @ Development Seed and Sarah @
-&lt;a href="https://2i2c.org/collaborators/earthscope/" >Earthscope&lt;/a> for giving us close feedback.&lt;/li>
-&lt;/ul></description></item><item><title>Reducing base infrastructure costs on AWS with smarter instance types</title><link>https://2i2c.org/blog/aws-cost-reduction/</link><pubDate>Wed, 17 Sep 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/aws-cost-reduction/</guid><description>&lt;p>We&amp;rsquo;ve been working to reduce the base costs of running our cloud infrastructure on AWS by switching to more efficient instance types for our core nodes. This is the core infrastructure we use to ensure hubs are &amp;ldquo;always available&amp;rdquo; for users, even when no one is actively using a hub. By moving from older &lt;code>r5.xlarge&lt;/code> instances to newer, more efficient &lt;code>r8i-flex.large&lt;/code> instances, we&amp;rsquo;ve significantly reduced these baseline costs while maintaining the same level of service. Here&amp;rsquo;s a plot of daily savings for the
-&lt;a href="https://2i2c.org/collaborators/geojupyter/" >GeoJupyter community&lt;/a>.&lt;/p>
+&lt;li>Tarashish @ &lt;a href="https://2i2c.org/collaborators/devseed/" >Development Seed&lt;/a> for working on this with us.&lt;/li>
+&lt;li>&lt;a href="https://2i2c.org/collaborators/nasa-veda/" >NASA VEDA&lt;/a> for funding much of this work.&lt;/li>
+&lt;li>Andy @ &lt;a href="https://2i2c.org/collaborators/openscapes/" >Openscapes&lt;/a>, Alex @ Development Seed and Sarah @ &lt;a href="https://2i2c.org/collaborators/earthscope/" >Earthscope&lt;/a> for giving us close feedback.&lt;/li>
+&lt;/ul></description></item><item><title>Reducing base infrastructure costs on AWS with smarter instance types</title><link>https://2i2c.org/blog/aws-cost-reduction/</link><pubDate>Wed, 17 Sep 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/aws-cost-reduction/</guid><description>&lt;p>We&amp;rsquo;ve been working to reduce the base costs of running our cloud infrastructure on AWS by switching to more efficient instance types for our core nodes. This is the core infrastructure we use to ensure hubs are &amp;ldquo;always available&amp;rdquo; for users, even when no one is actively using a hub. By moving from older &lt;code>r5.xlarge&lt;/code> instances to newer, more efficient &lt;code>r8i-flex.large&lt;/code> instances, we&amp;rsquo;ve significantly reduced these baseline costs while maintaining the same level of service. Here&amp;rsquo;s a plot of daily savings for the &lt;a href="https://2i2c.org/collaborators/geojupyter/" >GeoJupyter community&lt;/a>.&lt;/p>
 &lt;p>
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
@@ -107,8 +90,6 @@ loading="lazy" data-zoomable />&lt;/div>
 Learn more
 &lt;a class="header-anchor" href="#learn-more">#&lt;/a>
 &lt;/h2>&lt;ul>
-&lt;li>
-&lt;a href="https://github.com/2i2c-org/infrastructure/pull/6721" target="_blank" rel="noopener" >Pull request implementing the instance type changes&lt;/a>&lt;/li>
-&lt;li>
-&lt;a href="https://github.com/2i2c-org/infrastructure/issues/6756" target="_blank" rel="noopener" >Our rollout plan for existing clusters&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/2i2c-org/infrastructure/pull/6721" target="_blank" rel="noopener" >Pull request implementing the instance type changes&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/2i2c-org/infrastructure/issues/6756" target="_blank" rel="noopener" >Our rollout plan for existing clusters&lt;/a>&lt;/li>
 &lt;/ul></description></item></channel></rss>

@@ -1,20 +1,11 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Announcement | 2i2c</title><link>https://2i2c.org/tag/announcement/</link><atom:link href="https://2i2c.org/tag/announcement/index.xml" rel="self" type="application/rss+xml"/><description>Announcement</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 09 Apr 2026 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Announcement</title><link>https://2i2c.org/tag/announcement/</link></image><item><title>BIDS joins the mybinder.org federation with help from 2i2c</title><link>https://2i2c.org/blog/bids-mybinder-federation/</link><pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/bids-mybinder-federation/</guid><description>&lt;p>The
-&lt;a href="https://2i2c.org/collaborators/bids/" >Berkeley Institute for Data Science (BIDS)&lt;/a> has joined the
-&lt;a href="https://mybinder.readthedocs.io/en/latest/about/federation.html" target="_blank" rel="noopener" >mybinder.org federation&lt;/a>, contributing a new node alongside 2i2c and
-&lt;a href="https://2i2c.org/collaborators/gesis/" >GESIS&lt;/a>. BIDS is the birthplace of &lt;code>mybinder.org&lt;/code>, so it&amp;rsquo;s great to see them back as an active federation member.&lt;/p>
-&lt;p>We helped out with development, setup, and operations for the new federation member on OVH.
-&lt;a href="https://github.com/2i2c-org/initiatives/issues/21" target="_blank" rel="noopener" >Here&amp;rsquo;s the initiative we just closed out »&lt;/a>.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Announcement | 2i2c</title><link>https://2i2c.org/tag/announcement/</link><atom:link href="https://2i2c.org/tag/announcement/index.xml" rel="self" type="application/rss+xml"/><description>Announcement</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 09 Apr 2026 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Announcement</title><link>https://2i2c.org/tag/announcement/</link></image><item><title>BIDS joins the mybinder.org federation with help from 2i2c</title><link>https://2i2c.org/blog/bids-mybinder-federation/</link><pubDate>Thu, 09 Apr 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/bids-mybinder-federation/</guid><description>&lt;p>The &lt;a href="https://2i2c.org/collaborators/bids/" >Berkeley Institute for Data Science (BIDS)&lt;/a> has joined the &lt;a href="https://mybinder.readthedocs.io/en/latest/about/federation.html" target="_blank" rel="noopener" >mybinder.org federation&lt;/a>, contributing a new node alongside 2i2c and &lt;a href="https://2i2c.org/collaborators/gesis/" >GESIS&lt;/a>. BIDS is the birthplace of &lt;code>mybinder.org&lt;/code>, so it&amp;rsquo;s great to see them back as an active federation member.&lt;/p>
+&lt;p>We helped out with development, setup, and operations for the new federation member on OVH. &lt;a href="https://github.com/2i2c-org/initiatives/issues/21" target="_blank" rel="noopener" >Here&amp;rsquo;s the initiative we just closed out »&lt;/a>.&lt;/p>
 &lt;p>This is a win for the resilience of mybinder.org - the BIDS node runs on a different cloud provider than the existing nodes, reducing the risk that a single provider outage takes down the whole service.&lt;/p>
-&lt;p>Read the full details on the
-&lt;a href="https://blog.jupyter.org/berkeley-institute-for-data-science-bids-joins-the-mybinder-org-federation-with-help-from-2i2c-f0f22d0b5ba5" target="_blank" rel="noopener" >Jupyter blog&lt;/a>.&lt;/p></description></item><item><title>Introducing Jupyter Book 2 at FOSDEM 2026</title><link>https://2i2c.org/blog/fosdem-jupyter-book-2/</link><pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/fosdem-jupyter-book-2/</guid><description>&lt;p>Our teammate
-&lt;a href="https://2i2c.org/author/angus-hollands/" >Angus Hollands&lt;/a> gave a talk at FOSDEM 2026:
-&lt;a href="https://fosdem.org/2026/schedule/event/ZY9WYD-introducing-jb-2/" target="_blank" rel="noopener" >Introducing Jupyter Book 2&lt;/a>.&lt;/p>
+&lt;p>Read the full details on the &lt;a href="https://blog.jupyter.org/berkeley-institute-for-data-science-bids-joins-the-mybinder-org-federation-with-help-from-2i2c-f0f22d0b5ba5" target="_blank" rel="noopener" >Jupyter blog&lt;/a>.&lt;/p></description></item><item><title>Introducing Jupyter Book 2 at FOSDEM 2026</title><link>https://2i2c.org/blog/fosdem-jupyter-book-2/</link><pubDate>Fri, 06 Feb 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/fosdem-jupyter-book-2/</guid><description>&lt;p>Our teammate &lt;a href="https://2i2c.org/author/angus-hollands/" >Angus Hollands&lt;/a> gave a talk at FOSDEM 2026: &lt;a href="https://fosdem.org/2026/schedule/event/ZY9WYD-introducing-jb-2/" target="_blank" rel="noopener" >Introducing Jupyter Book 2&lt;/a>.&lt;/p>
 &lt;p>The talk shares why the Jupyter Book 2 and MyST stack was rebuilt, and how it supports open, reusable computational publishing workflows.&lt;/p>
 &lt;ul>
-&lt;li>
-&lt;a href="https://video.fosdem.org/2026/aw1120/ZY9WYD-introducing-jb-2.mp4" target="_blank" rel="noopener" >Watch the recording&lt;/a>&lt;/li>
-&lt;li>
-&lt;a href="https://fosdem.org/2026/schedule/event/ZY9WYD-introducing-jb-2/" target="_blank" rel="noopener" >FOSDEM event page&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://video.fosdem.org/2026/aw1120/ZY9WYD-introducing-jb-2.mp4" target="_blank" rel="noopener" >Watch the recording&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://fosdem.org/2026/schedule/event/ZY9WYD-introducing-jb-2/" target="_blank" rel="noopener" >FOSDEM event page&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;figure id="figure-slide-from-the-fosdem-2026-session-introducing-jupyter-book-2">
 &lt;div class="d-flex justify-content-center">
@@ -33,23 +24,16 @@ Slide from the FOSDEM 2026 session introducing Jupyter Book 2.
 Learn more
 &lt;a class="header-anchor" href="#learn-more">#&lt;/a>
 &lt;/h2>&lt;ul>
-&lt;li>
-&lt;a href="https://proceedings.scipy.org/articles/hwcj9957" target="_blank" rel="noopener" >Jupyter Book 2 and the MyST Document Stack (SciPy 2025 paper)&lt;/a>&lt;/li>
-&lt;li>
-&lt;a href="https://jupyterbook.org/" target="_blank" rel="noopener" >Jupyter Book documentation&lt;/a>&lt;/li>
-&lt;li>
-&lt;a href="https://github.com/jupyter-book/jupyter-book" target="_blank" rel="noopener" >Jupyter Book on GitHub&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://proceedings.scipy.org/articles/hwcj9957" target="_blank" rel="noopener" >Jupyter Book 2 and the MyST Document Stack (SciPy 2025 paper)&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://jupyterbook.org/" target="_blank" rel="noopener" >Jupyter Book documentation&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/jupyter-book/jupyter-book" target="_blank" rel="noopener" >Jupyter Book on GitHub&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h2 id="acknowledgements">
 Acknowledgements
 &lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
 &lt;/h2>&lt;ul>
-&lt;li>Thanks to
-&lt;a href="https://2i2c.org/collaborators/pythia/" >Project Pythia&lt;/a> and to
-&lt;a href="https://2i2c.org/collaborators/bids/" >BIDS&lt;/a> for supporting deeper
-&lt;a href="https://2i2c.org/blog/fosdem-jupyter-book-2/../../2025/foundational-contributions/" >foundational contributions&lt;/a> like this in Jupyter Book.&lt;/li>
-&lt;li>Thanks to the
-&lt;a href="https://2i2c.org/collaborators/jupyter-book/" >Jupyter Book&lt;/a> team for helping out with slide creation and doing all the work Angus spoke about here!&lt;/li>
+&lt;li>Thanks to &lt;a href="https://2i2c.org/collaborators/pythia/" >Project Pythia&lt;/a> and to &lt;a href="https://2i2c.org/collaborators/bids/" >BIDS&lt;/a> for supporting deeper &lt;a href="https://2i2c.org/blog/fosdem-jupyter-book-2/../../2025/foundational-contributions/" >foundational contributions&lt;/a> like this in Jupyter Book.&lt;/li>
+&lt;li>Thanks to the &lt;a href="https://2i2c.org/collaborators/jupyter-book/" >Jupyter Book&lt;/a> team for helping out with slide creation and doing all the work Angus spoke about here!&lt;/li>
 &lt;/ul></description></item><item><title>Adding User Group Insights to Cloud Cost Dashboards with Grafana</title><link>https://2i2c.org/blog/cloud-cost-groups/</link><pubDate>Mon, 24 Nov 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/cloud-cost-groups/</guid><description>&lt;p>We are excited to announce that we have extended our cloud cost dashboards to support display costs filtered by user groups using Grafana! This new feature allows administrators to monitor and manage cloud expenses based on user group memberships in JupyterHub.&lt;/p>
 &lt;p>
 &lt;figure >
@@ -73,15 +57,9 @@ Available for dedicated AWS clusters only (and excluding CloudBank managed accou
 Learn more
 &lt;a class="header-anchor" href="#learn-more">#&lt;/a>
 &lt;/h2>&lt;ul>
-&lt;li>Take a look at the
-&lt;a href="https://docs.2i2c.org/admin/monitoring/cost-users-groups/#group-cloud-costs" target="_blank" rel="noopener" >Community Hub Guide&lt;/a> to see what&amp;rsquo;s new&lt;/li>
-&lt;li>Check out the documentation of the
-&lt;a href="https://jupyterhub-cost-monitoring.readthedocs.io/en/latest/" target="_blank" rel="noopener" >2i2c-org/jupyterhub-cost-monitoring&lt;/a> project to see how it all works&lt;/li>
-&lt;li>
-&lt;a href="https://2i2c.org/author/jenny-wong/" >Jenny&lt;/a> recently presented her work on the cost monitoring system at
-&lt;a href="https://events.linuxfoundation.org/jupytercon/" target="_blank" rel="noopener" >JupyterCon 2025&lt;/a> earlier this month. Watch a
-&lt;a href="https://youtu.be/M5x3bTgRzVs?si=P2c3Ngb8v7f4ks0I" target="_blank" rel="noopener" >video&lt;/a> or look at the
-&lt;a href="https://docs.google.com/presentation/d/1N8V7dna1atpRmcbpgZ0-VL5cbOQfwYfXTstudT2ierY/edit?usp=sharing" target="_blank" rel="noopener" >slides&lt;/a>.&lt;/li>
+&lt;li>Take a look at the &lt;a href="https://docs.2i2c.org/admin/monitoring/cost-users-groups/#group-cloud-costs" target="_blank" rel="noopener" >Community Hub Guide&lt;/a> to see what&amp;rsquo;s new&lt;/li>
+&lt;li>Check out the documentation of the &lt;a href="https://jupyterhub-cost-monitoring.readthedocs.io/en/latest/" target="_blank" rel="noopener" >2i2c-org/jupyterhub-cost-monitoring&lt;/a> project to see how it all works&lt;/li>
+&lt;li>&lt;a href="https://2i2c.org/author/jenny-wong/" >Jenny&lt;/a> recently presented her work on the cost monitoring system at &lt;a href="https://events.linuxfoundation.org/jupytercon/" target="_blank" rel="noopener" >JupyterCon 2025&lt;/a> earlier this month. Watch a &lt;a href="https://youtu.be/M5x3bTgRzVs?si=P2c3Ngb8v7f4ks0I" target="_blank" rel="noopener" >video&lt;/a> or look at the &lt;a href="https://docs.google.com/presentation/d/1N8V7dna1atpRmcbpgZ0-VL5cbOQfwYfXTstudT2ierY/edit?usp=sharing" target="_blank" rel="noopener" >slides&lt;/a>.&lt;/li>
 &lt;/ul>
 &lt;a href="https://docs.google.com/forms/d/e/1FAIpQLSff-u-sWFuwO1-VTgk2Ir7f1nfUUlLevQk_Vkk_jnmcI1nJnw/viewform?usp=pp_url&amp;amp;entry.648332035=https://2i2c.org/blog/cloud-cost-groups/" target="_blank" rel="noopener" class="text-decoration-none">
 &lt;div class="alert alert-info d-flex align-items-start p-3" role="button" style="transition: all 0.2s ease; box-shadow: 0 2px 4px rgba(0,0,0,0.1);" onmouseover="this.style.backgroundColor='#b3e5fc'; this.style.boxShadow='0 4px 8px rgba(0,0,0,0.15)'; this.style.transform='translateY(-1px)'" onmouseout="this.style.backgroundColor=''; this.style.boxShadow='0 2px 4px rgba(0,0,0,0.1)'; this.style.transform='translateY(0)'" onfocus="this.style.backgroundColor='#b3e5fc'; this.style.boxShadow='0 4px 8px rgba(0,0,0,0.15)'; this.style.transform='translateY(-1px)'" onblur="this.style.backgroundColor=''; this.style.boxShadow='0 2px 4px rgba(0,0,0,0.1)'; this.style.transform='translateY(0)'">
@@ -92,15 +70,10 @@ Learn more
 Acknowledgements
 &lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
 &lt;/h2>&lt;ul>
-&lt;li>
-&lt;a href="https://github.com/sunu" target="_blank" rel="noopener" >Tarashish&lt;/a> @
-&lt;a href="https://2i2c.org/collaborators/devseed/" >Development Seed&lt;/a> for collaborating on this project with us.&lt;/li>
-&lt;li>
-&lt;a href="https://2i2c.org/collaborators/nasa-veda/" >NASA VEDA&lt;/a> and the DSE Team at NASA MSFC ODSI for funding much of this work.&lt;/li>
-&lt;li>
-&lt;a href="https://github.com/kyle-lesinger" target="_blank" rel="noopener" >Kyle Lesinger&lt;/a> from the NASA MSFC Office of Data Science and Informatics for providing valuable feedback and bug reports during development.&lt;/li>
-&lt;/ul></description></item><item><title>BIDS joins as 2i2c's first premier member organization</title><link>https://2i2c.org/blog/bids-premier-member/</link><pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/bids-premier-member/</guid><description>&lt;p>We&amp;rsquo;re thrilled to announce that the
-&lt;a href="https://2i2c.org/collaborators/bids/" >Berkeley Institute for Data Science (BIDS)&lt;/a> has joined as 2i2c&amp;rsquo;s first premier member organization! This partnership marks a significant milestone in our sustainability strategy and recognizes a relationship that&amp;rsquo;s been central to 2i2c&amp;rsquo;s story from the very beginning.&lt;/p>
+&lt;li>&lt;a href="https://github.com/sunu" target="_blank" rel="noopener" >Tarashish&lt;/a> @ &lt;a href="https://2i2c.org/collaborators/devseed/" >Development Seed&lt;/a> for collaborating on this project with us.&lt;/li>
+&lt;li>&lt;a href="https://2i2c.org/collaborators/nasa-veda/" >NASA VEDA&lt;/a> and the DSE Team at NASA MSFC ODSI for funding much of this work.&lt;/li>
+&lt;li>&lt;a href="https://github.com/kyle-lesinger" target="_blank" rel="noopener" >Kyle Lesinger&lt;/a> from the NASA MSFC Office of Data Science and Informatics for providing valuable feedback and bug reports during development.&lt;/li>
+&lt;/ul></description></item><item><title>BIDS joins as 2i2c's first premier member organization</title><link>https://2i2c.org/blog/bids-premier-member/</link><pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/bids-premier-member/</guid><description>&lt;p>We&amp;rsquo;re thrilled to announce that the &lt;a href="https://2i2c.org/collaborators/bids/" >Berkeley Institute for Data Science (BIDS)&lt;/a> has joined as 2i2c&amp;rsquo;s first premier member organization! This partnership marks a significant milestone in our sustainability strategy and recognizes a relationship that&amp;rsquo;s been central to 2i2c&amp;rsquo;s story from the very beginning.&lt;/p>
 &lt;p>
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
@@ -113,8 +86,7 @@ width="760"
 height="428"
 loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;/figure>
-&lt;em>BIDS Executive Director Kirstie Whitaker and 2i2c Executive Director Chris Holdgraf discuss the partnership at the
-&lt;a href="https://2i2c.org/blog/bids-premier-member/../bids-premier-membership-event/" >membership launch event&lt;/a>.&lt;/em>&lt;/p>
+&lt;em>BIDS Executive Director Kirstie Whitaker and 2i2c Executive Director Chris Holdgraf discuss the partnership at the &lt;a href="https://2i2c.org/blog/bids-premier-member/../bids-premier-membership-event/" >membership launch event&lt;/a>.&lt;/em>&lt;/p>
 &lt;h2 id="what-this-partnership-means">
 What this partnership means
 &lt;a class="header-anchor" href="#what-this-partnership-means">#&lt;/a>
@@ -132,36 +104,25 @@ What this partnership means
 &lt;h2 id="why-were-excited-about-this">
 Why we&amp;rsquo;re excited about this
 &lt;a class="header-anchor" href="#why-were-excited-about-this">#&lt;/a>
-&lt;/h2>&lt;p>&lt;strong>For open source:&lt;/strong>
-&lt;a href="https://2i2c.org/collaborators/bids/" >BIDS&lt;/a> has been a leader in supporting open source and cross-disciplinary open science for many years - helping to shape projects like NumPy, scikit-image, NetworkX, and
-&lt;a href="https://2i2c.org/collaborators/jupyterhub/" >JupyterHub&lt;/a>. Their feedback and partnership will help us improve our impact across the entire ecosystem.&lt;/p>
-&lt;p>&lt;strong>For sustainability:&lt;/strong> This is the first paying member of our new
-&lt;a href="https://2i2c.org/join/" >membership model&lt;/a>, which is a key part of our long-term sustainability strategy. It demonstrates that organizations value what we&amp;rsquo;re building and want to invest in shared open source infrastructure.&lt;/p>
-&lt;p>&lt;strong>For 2i2c:&lt;/strong>
-&lt;a href="https://2i2c.org/collaborators/bids/" >BIDS&lt;/a> has been part of our story from the beginning, and this partnership recognizes the continuing influence and support we&amp;rsquo;ve received from the organization.&lt;/p>
+&lt;/h2>&lt;p>&lt;strong>For open source:&lt;/strong> &lt;a href="https://2i2c.org/collaborators/bids/" >BIDS&lt;/a> has been a leader in supporting open source and cross-disciplinary open science for many years - helping to shape projects like NumPy, scikit-image, NetworkX, and &lt;a href="https://2i2c.org/collaborators/jupyterhub/" >JupyterHub&lt;/a>. Their feedback and partnership will help us improve our impact across the entire ecosystem.&lt;/p>
+&lt;p>&lt;strong>For sustainability:&lt;/strong> This is the first paying member of our new &lt;a href="https://2i2c.org/join/" >membership model&lt;/a>, which is a key part of our long-term sustainability strategy. It demonstrates that organizations value what we&amp;rsquo;re building and want to invest in shared open source infrastructure.&lt;/p>
+&lt;p>&lt;strong>For 2i2c:&lt;/strong> &lt;a href="https://2i2c.org/collaborators/bids/" >BIDS&lt;/a> has been part of our story from the beginning, and this partnership recognizes the continuing influence and support we&amp;rsquo;ve received from the organization.&lt;/p>
 &lt;h2 id="learn-more">
 Learn more
 &lt;a class="header-anchor" href="#learn-more">#&lt;/a>
 &lt;/h2>&lt;p>Read the full announcements from our partners:&lt;/p>
 &lt;ul>
-&lt;li>👉
-&lt;a href="https://cdss.berkeley.edu/news/berkeley-institute-data-science-partners-2i2c-open-source-infrastructure" target="_blank" rel="noopener" >CDSS press release: Berkeley Institute for Data Science Partners with 2i2c&lt;/a>&lt;/li>
-&lt;li>👉
-&lt;a href="https://bids.berkeley.edu/news/shaping-future-open-source-2i2c-and-bids" target="_blank" rel="noopener" >BIDS press release: Shaping the Future of Open Source: 2i2c and BIDS&lt;/a>&lt;/li>
+&lt;li>👉 &lt;a href="https://cdss.berkeley.edu/news/berkeley-institute-data-science-partners-2i2c-open-source-infrastructure" target="_blank" rel="noopener" >CDSS press release: Berkeley Institute for Data Science Partners with 2i2c&lt;/a>&lt;/li>
+&lt;li>👉 &lt;a href="https://bids.berkeley.edu/news/shaping-future-open-source-2i2c-and-bids" target="_blank" rel="noopener" >BIDS press release: Shaping the Future of Open Source: 2i2c and BIDS&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h2 id="acknowledgements">
 Acknowledgements
 &lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
 &lt;/h2>&lt;ul>
-&lt;li>The
-&lt;a href="https://2i2c.org/collaborators/bids/" >Berkeley Institute for Data Science&lt;/a> and the entire BIDS team&lt;/li>
-&lt;li>
-&lt;a href="https://cdss.berkeley.edu/" target="_blank" rel="noopener" >UC Berkeley&amp;rsquo;s College of Computing, Data Science, and Society&lt;/a>&lt;/li>
-&lt;/ul></description></item><item><title>Celebrating BIDS as 2i2c's first premier member at UC Berkeley</title><link>https://2i2c.org/blog/bids-premier-membership-event/</link><pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/bids-premier-membership-event/</guid><description>&lt;p>We&amp;rsquo;re celebrating
-&lt;a href="https://2i2c.org/collaborators/bids/" >BIDS (the Berkeley Institute for Data Science)&lt;/a> as 2i2c&amp;rsquo;s first premier member at an event at UC Berkeley on &lt;strong>Thursday, October 15th&lt;/strong>. If you&amp;rsquo;re in the Berkeley area, we&amp;rsquo;d love for you to join us!
-&lt;a href="https://events.berkeley.edu/BIDS/event/306419-ospo-monthly-meetup-launching-the-bids-membership-of-" target="_blank" rel="noopener" >Event page here&lt;/a>.&lt;/p>
-&lt;p>This is a milestone for 2i2c and demonstrates BIDS&amp;rsquo;s commitment to open infrastructure and partnership. As our first premier member under our
-&lt;a href="https://2i2c.org/join/" >new membership model&lt;/a>, BIDS is helping us build a more sustainable path forward while strengthening our collaboration for shared impact in open science.&lt;/p>
+&lt;li>The &lt;a href="https://2i2c.org/collaborators/bids/" >Berkeley Institute for Data Science&lt;/a> and the entire BIDS team&lt;/li>
+&lt;li>&lt;a href="https://cdss.berkeley.edu/" target="_blank" rel="noopener" >UC Berkeley&amp;rsquo;s College of Computing, Data Science, and Society&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>Celebrating BIDS as 2i2c's first premier member at UC Berkeley</title><link>https://2i2c.org/blog/bids-premier-membership-event/</link><pubDate>Wed, 15 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/bids-premier-membership-event/</guid><description>&lt;p>We&amp;rsquo;re celebrating &lt;a href="https://2i2c.org/collaborators/bids/" >BIDS (the Berkeley Institute for Data Science)&lt;/a> as 2i2c&amp;rsquo;s first premier member at an event at UC Berkeley on &lt;strong>Thursday, October 15th&lt;/strong>. If you&amp;rsquo;re in the Berkeley area, we&amp;rsquo;d love for you to join us! &lt;a href="https://events.berkeley.edu/BIDS/event/306419-ospo-monthly-meetup-launching-the-bids-membership-of-" target="_blank" rel="noopener" >Event page here&lt;/a>.&lt;/p>
+&lt;p>This is a milestone for 2i2c and demonstrates BIDS&amp;rsquo;s commitment to open infrastructure and partnership. As our first premier member under our &lt;a href="https://2i2c.org/join/" >new membership model&lt;/a>, BIDS is helping us build a more sustainable path forward while strengthening our collaboration for shared impact in open science.&lt;/p>
 &lt;p>
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
@@ -172,37 +133,28 @@ Acknowledgements
 Learn more
 &lt;a class="header-anchor" href="#learn-more">#&lt;/a>
 &lt;/h2>&lt;ul>
-&lt;li>
-&lt;a href="https://events.berkeley.edu/BIDS/event/306419-ospo-monthly-meetup-launching-the-bids-membership-of-" target="_blank" rel="noopener" >Event page and registration&lt;/a>&lt;/li>
-&lt;li>
-&lt;a href="https://www.linkedin.com/feed/update/urn:li:activity:7381377448354988032" target="_blank" rel="noopener" >LinkedIn announcement&lt;/a>&lt;/li>
-&lt;li>
-&lt;a href="https://bsky.app/profile/ucbids.bsky.social/post/3m2mnocu2wc2m" target="_blank" rel="noopener" >Bluesky announcement&lt;/a>&lt;/li>
-&lt;li>
-&lt;a href="https://2i2c.org/join/" >Our membership tiers and information page&lt;/a>&lt;/li>
-&lt;li>
-&lt;a href="https://2i2c.org/collaborators/" >Other collaborators in our network&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://events.berkeley.edu/BIDS/event/306419-ospo-monthly-meetup-launching-the-bids-membership-of-" target="_blank" rel="noopener" >Event page and registration&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.linkedin.com/feed/update/urn:li:activity:7381377448354988032" target="_blank" rel="noopener" >LinkedIn announcement&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://bsky.app/profile/ucbids.bsky.social/post/3m2mnocu2wc2m" target="_blank" rel="noopener" >Bluesky announcement&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://2i2c.org/join/" >Our membership tiers and information page&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://2i2c.org/collaborators/" >Other collaborators in our network&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h2 id="acknowledgements">
 Acknowledgements
 &lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
 &lt;/h2>&lt;ul>
-&lt;li>Thanks to
-&lt;a href="https://2i2c.org/collaborators/navigation/" >The Navigation Fund&lt;/a> for funding the strategic roles that have led to this new membership model.&lt;/li>
-&lt;/ul></description></item><item><title>Openscapes is hiring a new team member</title><link>https://2i2c.org/blog/openscapes-is-hiring-a-new-team-member/</link><pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/openscapes-is-hiring-a-new-team-member/</guid><description>&lt;p>
-&lt;a href="https://2i2c.org/collaborators/openscapes/" >Openscapes&lt;/a> is hiring a &lt;strong>NASA Openscapes Suborbital Team Member&lt;/strong> to engage with NASA suborbital science teams and support open science practices. This is a &lt;strong>part-time contract position (20 hrs/week) starting as early as December 1, 2025&lt;/strong>, with a 6-month initial term and potential for extension.
+&lt;li>Thanks to &lt;a href="https://2i2c.org/collaborators/navigation/" >The Navigation Fund&lt;/a> for funding the strategic roles that have led to this new membership model.&lt;/li>
+&lt;/ul></description></item><item><title>Openscapes is hiring a new team member</title><link>https://2i2c.org/blog/openscapes-is-hiring-a-new-team-member/</link><pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/openscapes-is-hiring-a-new-team-member/</guid><description>&lt;p>&lt;a href="https://2i2c.org/collaborators/openscapes/" >Openscapes&lt;/a> is hiring a &lt;strong>NASA Openscapes Suborbital Team Member&lt;/strong> to engage with NASA suborbital science teams and support open science practices. This is a &lt;strong>part-time contract position (20 hrs/week) starting as early as December 1, 2025&lt;/strong>, with a 6-month initial term and potential for extension.
 The position is fully remote ($100/hr) with applications due by &lt;strong>October 26, 2025&lt;/strong>.&lt;/p>
 &lt;h2 id="learn-more">
 Learn more
 &lt;a class="header-anchor" href="#learn-more">#&lt;/a>
 &lt;/h2>&lt;ul>
-&lt;li>
-&lt;a href="https://openscapes.org/connect#work-with-us" target="_blank" rel="noopener" >Openscapes job posting&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://openscapes.org/connect#work-with-us" target="_blank" rel="noopener" >Openscapes job posting&lt;/a>&lt;/li>
 &lt;/ul>
 &lt;h2 id="acknowledgements">
 Acknowledgements
 &lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
 &lt;/h2>&lt;ul>
-&lt;li>
-&lt;a href="https://2i2c.org/collaborators/openscapes/" >Openscapes&lt;/a> for their continued work in empowering the research community&lt;/li>
+&lt;li>&lt;a href="https://2i2c.org/collaborators/openscapes/" >Openscapes&lt;/a> for their continued work in empowering the research community&lt;/li>
 &lt;/ul></description></item></channel></rss>
