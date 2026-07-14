@@ -55,7 +55,7 @@ sections:
     content:
       title: Our role in the open source ecosystem
       text: |
-        We strive to be a co-leader, maintainer, and contributor to the open source projects that we work with, not an "owner" or a gatekeeper. We help these communities grow large, diverse, multi-stakeholder teams of contributors, and we take on leadership roles so that we can support projects at a strategic level. The technology we build is by and for the commons - we are a part of that ecosystem, but do not own or control it.
+        We strive to be a co-leader, maintainer, and contributor to the open source projects that we work with, not an "owner" or a gatekeeper. We help these communities grow large, diverse, multi-stakeholder teams of contributors, and we take on leadership roles so that we can support projects at a strategic level. While we may incubate projects in our own repositories for a time, our goal is to move them into multi-stakeholder, community-maintained spaces. The technology we build is by and for the commons - we are a part of that ecosystem, but do not own or control it.
 
   - block: markdown
     id: projects
