@@ -72,7 +72,7 @@ sections:
 
         **Cloud.** Bring your own cloud account and manage spending yourself (we'll just need access to the infrastructure), or have us manage it and pass through your cloud costs with no usage-based markup. Either way, you can track cloud spend in dashboards, get alerts before it runs over, and read [how cloud costs work and how to control them](https://docs.2i2c.org/community-lead/billing/overview/).
 
-        **Getting started.** Most hubs can be set up in a few weeks. The timeline usually depends on how quickly your community settles on what it needs, and we'll help you work through those decisions.
+        **Getting started.** The timeline is usually influenced by how quickly your community settles on what it needs. Most hubs are set up in a few days, once these decisions are made. Figuring out the needs is not trivial and might take a few weeks on its own, but we'll guide you through the process.
 
         {{< cta cta_text="Get started" cta_link="/join" cta_new_tab="false" >}}
 ---
