@@ -12,13 +12,13 @@ sections:
     content:
       title: Open infrastructure for research and education
       cta:
-        label: How our model works
-        url: /membership
+        label: See how it works
+        url: /platform
       cta_alt:
         label: Join our network
         url: /join
       text: |-
-        We're a non-profit that believes communities shouldn't choose between managing their own servers and vendor lock-in. We operate shared cloud infrastructure so you can focus on discovery, and we contribute to the open source tools that make it possible.
+        We're a non-profit that believes communities shouldn't choose between managing their own servers and vendor lock-in. We operate shared cloud infrastructure so your community can focus on its work, not its servers, and we invest back into the open source tools that make it possible.
     design:
       background:
         text_color_light: true
@@ -53,7 +53,7 @@ sections:
                     <span class="h2 font-weight-bold mb-0">>15</span>
                 </div>
                 <div class="stat col-3">
-                    <h5 class="card-title text-uppercase text-muted mb-0">Upstream PRs</h5>
+                    <h5 class="card-title text-uppercase text-muted mb-0">Upstream PRs contributed</h5>
                     <span class="h2 font-weight-bold mb-0">>2000</span>
                 </div>
             </div>
@@ -97,27 +97,21 @@ sections:
           </figcaption>
         </figure>
 
-        <div class="row row-cols-3 mt-4">
-          <div class="col text-center"><strong>Custom environments</strong><br/>Choose from community-maintained stacks or bring your own.</div>
-          <div class="col text-center"><strong>Managed access</strong><br/>Community leaders control who can use the hub.</div>
-          <div class="col text-center"><strong>Scalable compute</strong><br/>From laptops to GPUs, sized for your workflows.</div>
-        </div>
-
-        {{< cta cta_text="Explore platform features" cta_link="/platform" cta_new_tab="false" >}}
+        {{< cta cta_text="See how communities use their hubs" cta_link="/case-studies" cta_new_tab="false" >}}
 
   - block: features
     id: why-2i2c
     content:
-      title: What makes us different
+      title: How we are different
       items:
         - name: Non-profit, no vendor lock-in
           icon: lock-open
           icon_pack: fas
-          description: We exist to serve research and education communities, not shareholders. Your [Right to Replicate](/right-to-replicate) means you can take your infrastructure anywhere, with or without us.
+          description: As a non-profit, our only obligation is to the research and education communities we serve. Your [Right to Replicate](/right-to-replicate) means you can take your infrastructure anywhere, with or without us.
         - name: Open source collaboration
           icon: arrows-spin
           icon_pack: fas
-          description: We listen to researchers and educators, then work with upstream open source projects on solutions that benefit everyone — not just our members.
+          description: We listen to researchers and educators, then work with upstream open source projects on solutions that benefit the whole ecosystem, not just our members.
         - name: Cross-community learning
           icon: people-arrows
           icon_pack: fas

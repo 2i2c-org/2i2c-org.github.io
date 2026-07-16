@@ -37,7 +37,7 @@ sections:
     content:
       title: Upstream contributions
       text: |
-        We take an [upstream first](https://compass.2i2c.org/open-source/strategy/#upstream-first) approach — improvements we build flow back to the open source projects they came from. We provide both [directed and foundational contributions](blog/2025/good-citizen/index.md) and [track our upstream impact](https://2i2c.org/kpis/upstream/) publicly. This work is funded through our [membership and co-development model](/membership).
+        We take an [upstream first](https://compass.2i2c.org/open-source/strategy/#upstream-first) approach - improvements we build flow back to the open source projects they came from. We provide both [directed and foundational contributions](blog/2025/good-citizen/index.md) and [track our upstream impact](https://2i2c.org/kpis/upstream/) publicly. This work is funded through our [membership and co-development model](/membership).
 
   - block: markdown
     id: transparent
@@ -47,6 +47,15 @@ sections:
       title: Transparency
       text: |
         We do our work openly. We are transparent about [organizations that support and fund us](../about/funding/index.md), communicate [in-progress work on our blog](blog/2025/communications-strategy/index.md), and publish [our roadmap](https://2i2c.org/roadmap) and [collaborators](/collaborators) for anyone to see.
+
+  - block: markdown
+    id: ecosystem-role
+    design:
+      columns: 2
+    content:
+      title: Our role in the open source ecosystem
+      text: |
+        We strive to be a co-leader, maintainer, and contributor to the open source projects that we work with, not an "owner" or a gatekeeper. We help these communities grow large, diverse, multi-stakeholder teams of contributors, and we take on leadership roles so that we can support projects at a strategic level. While we may incubate projects in our own repositories for a time, our goal is to move them into multi-stakeholder, community-maintained spaces. The technology we build is by and for the commons - we are a part of that ecosystem, but do not own or control it.
 
   - block: markdown
     id: projects
