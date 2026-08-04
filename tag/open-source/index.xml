@@ -1,4 +1,51 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Open Source | 2i2c</title><link>https://2i2c.org/tag/open-source/</link><atom:link href="https://2i2c.org/tag/open-source/index.xml" rel="self" type="application/rss+xml"/><description>Open Source</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 23 Jun 2026 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Open Source</title><link>https://2i2c.org/tag/open-source/</link></image><item><title>Rebuilding Project Pythia's gallery on reusable MyST tooling</title><link>https://2i2c.org/blog/pythia-cookoff-myst-tooling/</link><pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/pythia-cookoff-myst-tooling/</guid><description>&lt;p>At the &lt;a href="https://projectpythia.org/pythia-cookoff-2026/" target="_blank" rel="noopener" >2026 Pythia Cookoff&lt;/a> at NCAR, we spent some hackathon time rebuilding the &lt;a href="https://2i2c.org/collaborators/pythia/" >Project Pythia&lt;/a> Cookbook Gallery and blog on shared &lt;a href="https://mystmd.org" target="_blank" rel="noopener" >MyST Engine&lt;/a> tooling, replacing the one-off custom scripts Pythia had been using before.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Open Source | 2i2c</title><link>https://2i2c.org/tag/open-source/</link><atom:link href="https://2i2c.org/tag/open-source/index.xml" rel="self" type="application/rss+xml"/><description>Open Source</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 04 Aug 2026 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Open Source</title><link>https://2i2c.org/tag/open-source/</link></image><item><title>Migrating from one ingress controller to another</title><link>https://2i2c.org/blog/migrating-ingress-controllers/</link><pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/migrating-ingress-controllers/</guid><description>
+&lt;h1 id="what-we-learned">
+What we learned
+&lt;a class="header-anchor" href="#what-we-learned">#&lt;/a>
+&lt;/h1>&lt;p>Migrating from one ingress controller to another is not a trivial task!&lt;/p>
+&lt;h1 id="context">
+Context
+&lt;a class="header-anchor" href="#context">#&lt;/a>
+&lt;/h1>&lt;p>The news that the best-effort maintenance of the Ingress NGINX Controller would end in &lt;a href="https://www.kubernetes.dev/blog/2025/11/12/ingress-nginx-retirement/" target="_blank" rel="noopener" >the first quarter of 2026&lt;/a> sparked a considerable amount of &lt;a href="https://github.com/2i2c-org/infrastructure/issues/7106" target="_blank" rel="noopener" >discussion&lt;/a> among the community about what the best replacement for this controller is.&lt;/p>
+&lt;p>Because &amp;ldquo;what the best replacement is&amp;rdquo; depends on the specifics and maturity levels of the infrastructure stack, for the near future, 2i2c has decided to migrate to the &lt;a href="https://docs.nginx.com/nginx-ingress-controller/install/helm/open-source/" target="_blank" rel="noopener" >official NGINX Ingress Controller&lt;/a>. However, this choice will have to be challenged in the future, because the Kubernetes Ingress API itself was frozen when the INGRESS NGINX Controller was sunset, with the Kubernetes project &lt;a href="https://kubernetes.io/docs/concepts/services-networking/ingress-controllers/" target="_blank" rel="noopener" >recommending the Gateway API instead&lt;/a>. So, we may need/want to migrate to the Gateway API down the road.&lt;/p>
+&lt;h1 id="migration">
+Migration
+&lt;a class="header-anchor" href="#migration">#&lt;/a>
+&lt;/h1>&lt;p>Our &lt;a href="https://infrastructure.2i2c.org/howto/migrate-ingress/" target="_blank" rel="noopener" >migration plan&lt;/a> has all the technical details about the steps we took towards the actual controller migration, so this blog post will not go into those aspects. Instead, it will describe the approach we took to achieve the least amount of downtime for our communities, as well as list the challenges that we couldn&amp;rsquo;t anticipate during the planning phase.&lt;/p>
+&lt;h2 id="least-amount-of-downtime">
+Least amount of downtime
+&lt;a class="header-anchor" href="#least-amount-of-downtime">#&lt;/a>
+&lt;/h2>&lt;p>In our initial setup, we were using the &lt;code>LoadBalancer&lt;/code> service provided by the ingress controller. This meant that migrating from one controller to another, meant updating &lt;em>all&lt;/em> DNS records to point to the new controller&amp;rsquo;s LB. During this time, the cluster infrastructure would have been unavailable to users.&lt;/p>
+&lt;p>So, in order to minimize the downtime, we have introduced a new &lt;code>LoadBalancer&lt;/code> ingress service, independent of the ingress controller. This service provides a static external IP address &lt;em>(the entrypoint into each cluster)&lt;/em> that points to the ingress controller &lt;code>ClusterIP&lt;/code> service. This allows us to simply point this LB at a new service pod whenever we need to switch to the new controller/gateway.&lt;/p>
+&lt;h2 id="challenges">
+Challenges
+&lt;a class="header-anchor" href="#challenges">#&lt;/a>
+&lt;/h2>&lt;p>The &lt;a href="https://github.com/2i2c-org/infrastructure/issues/7743" target="_blank" rel="noopener" >tracking issue&lt;/a> on our infrastructure repo tracks almost all the tasks (both expected and unexpected) related to the migration. But here is a summary of the ones that took us by surprise:&lt;/p>
+&lt;ol>
+&lt;li>
+&lt;p>On one hub, the reverse proxy was unable to communicate with &lt;code>binderhub-service&lt;/code>. This resulted in 502 errors. This also pointed us to identify a websocket failure between the frontend and the user server due to missing ingress annotations. The problem and solution are described in the &lt;a href="https://github.com/2i2c-org/incident-reports/blob/main/reports/2026-03-09-BinderHub-URL-responds-Bad-GatewayforProjectPythia.pdf" target="_blank" rel="noopener" >incident report&lt;/a>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Manually updating all DNS records is, of course, error-prone. So, we ended up missing one. The full &lt;a href="https://github.com/2i2c-org/incident-reports/blob/main/reports/2026-03-12-LIS-hub-unreachable-after-ingress-migration.pdf" target="_blank" rel="noopener" >incident report&lt;/a> is available to be checked-out.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>The F5 NGINX Ingress controller came with an unexpected behaviour. When certificates needed to be renewed, it was trying to create (new) temporary ingress objects. The new controller does not support multiple ingresses naively sharing the same host. So, we had to update all ingress objects needing TLS, to allow &lt;code>cert-manager&lt;/code> to mutate the ingress via &lt;code>edit-in-place&lt;/code>. More about it in this &lt;a href="https://github.com/2i2c-org/incident-reports/blob/main/reports/2026-03-31-unable-to-provision-new-tls-certs.pdf" target="_blank" rel="noopener" >incident report&lt;/a>.&lt;/p>
+&lt;/li>
+&lt;li>
+&lt;p>Renewing certificates was still failing&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;ul>
+&lt;li>Even though ingress objects were updated to allow &lt;code>cert-manager&lt;/code> to &lt;code>edit-in-place&lt;/code>, this did not trigger the update of the certificate itself, which meant that &lt;code>nginx-ingress&lt;/code> still tried to create temporary ingresses. Manually reconciling the &lt;code>Certificate&lt;/code> resource with the &lt;code>Ingress&lt;/code> fixed this. More in the &lt;a href="https://github.com/2i2c-org/incident-reports/blob/main/reports/2026-04-15-TLS%20certificates%20expired%20for%20two%202i2c%20hubs.pdf" target="_blank" rel="noopener" >incident report&lt;/a> and this &lt;a href="https://github.com/2i2c-org/infrastructure/issues/8063" target="_blank" rel="noopener" >discussion&lt;/a>.&lt;/li>
+&lt;li>Our Prometheus instances were being authenticated at the ingress controller level. This made the ACME challenge resolution during renewal encounter &lt;code>HTTP 401&lt;/code> responses. So we had to move the authentication from the ingress controller level to the Prometheus service itself. Although a beneficial change, this generated more work and more integrations to fix &lt;a href="https://github.com/2i2c-org/infrastructure/issues/8123" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> 2i2c-org/infrastructure#8123&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>To &lt;a href="https://github.com/minrk" target="_blank" rel="noopener" >MinRK&lt;/a> for adding this feature to Dask-Gateway and &lt;a href="https://2i2c.org/author/yuvaraj-yuvi/" >Yuvi&lt;/a> for brainstorming the best migration approach&lt;/li>
+&lt;li>To &lt;a href="https://2i2c.org/author/angus-hollands/" >Angus&lt;/a> for helping with the migration and troubleshooting the issues&lt;/li>
+&lt;/ul></description></item><item><title>Rebuilding Project Pythia's gallery on reusable MyST tooling</title><link>https://2i2c.org/blog/pythia-cookoff-myst-tooling/</link><pubDate>Tue, 23 Jun 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/pythia-cookoff-myst-tooling/</guid><description>&lt;p>At the &lt;a href="https://projectpythia.org/pythia-cookoff-2026/" target="_blank" rel="noopener" >2026 Pythia Cookoff&lt;/a> at NCAR, we spent some hackathon time rebuilding the &lt;a href="https://2i2c.org/collaborators/pythia/" >Project Pythia&lt;/a> Cookbook Gallery and blog on shared &lt;a href="https://mystmd.org" target="_blank" rel="noopener" >MyST Engine&lt;/a> tooling, replacing the one-off custom scripts Pythia had been using before.&lt;/p>
 &lt;figure id="figure-the-redesigned-pythia-cookbook-gallery-now-with-a-search-bar-and-consistent-cards">
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="The redesigned Pythia Cookbook Gallery, now with a search bar and consistent cards." srcset="
