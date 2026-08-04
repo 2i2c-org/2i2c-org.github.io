@@ -1,7 +1,9 @@
 ---
 title: Migrating from one ingress controller to another
 slug: "migrating-ingress-controllers  "
-date: 2026-07-31
+date: 2026-08-04
+authors:
+  - Georgiana Dolocan
 categories:
     - service enhancements
 tags:
@@ -39,10 +41,10 @@ https://github.com/2i2c-org/incident-reports/blob/main/reports/2026-03-09-Binder
 
 2. Manually updating all DNS records is, of course, error-prone. So, we ended up missing one. The full [incident report](https://github.com/2i2c-org/incident-reports/blob/main/reports/2026-03-12-LIS-hub-unreachable-after-ingress-migration.pdf) is available to be checked-out.
 
-3. The F5 NGINX Ingress controller came with an unexpected behaviour. When certificates needed to be renewed, it was trying to create (new) temporary ingress objects. This caused issues with multiple ingresses sharing the same host. So, we had to update all ingress objects needing TLS, to allow `cert-manager` to mutate the ingress via `edit-in-place`. More about it in this [incident report](https://github.com/2i2c-org/incident-reports/blob/main/reports/2026-03-31-unable-to-provision-new-tls-certs.pdf).
+3. The F5 NGINX Ingress controller came with an unexpected behaviour. When certificates needed to be renewed, it was trying to create (new) temporary ingress objects. The new controller does not support multiple ingresses naively sharing the same host. So, we had to update all ingress objects needing TLS, to allow `cert-manager` to mutate the ingress via `edit-in-place`. More about it in this [incident report](https://github.com/2i2c-org/incident-reports/blob/main/reports/2026-03-31-unable-to-provision-new-tls-certs.pdf).
 
 4. Renewing certificates was still failing
-  - Even though ingress objects were updated to allow `cert-manager` to `edit-in-place`, this did not trigger the update of the certificate itself, which meant that `nginx-ingress` still tried to create temporary ingresses. Manually reconciling the Certificate resource with the Ingress fixed this. More in the [incident report](https://github.com/2i2c-org/incident-reports/blob/main/reports/2026-04-15-TLS%20certificates%20expired%20for%20two%202i2c%20hubs.pdf) and this [discussion](https://github.com/2i2c-org/infrastructure/issues/8063).
+  - Even though ingress objects were updated to allow `cert-manager` to `edit-in-place`, this did not trigger the update of the certificate itself, which meant that `nginx-ingress` still tried to create temporary ingresses. Manually reconciling the `Certificate` resource with the `Ingress` fixed this. More in the [incident report](https://github.com/2i2c-org/incident-reports/blob/main/reports/2026-04-15-TLS%20certificates%20expired%20for%20two%202i2c%20hubs.pdf) and this [discussion](https://github.com/2i2c-org/infrastructure/issues/8063).
   - Our Prometheus instances were being authenticated at the ingress controller level. This made the ACME challenge resolution during renewal encounter `HTTP 401` responses. So we had to move the authentication from the ingress controller level to the Prometheus service itself. Although a beneficial change, this generated more work and more integrations to fix https://github.com/2i2c-org/infrastructure/issues/8123.
 
 ## Acknowledgements
