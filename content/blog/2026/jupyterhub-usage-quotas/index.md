@@ -18,7 +18,7 @@ This allows hub admins to cap the amount of compute resource a user can access o
 
 ## Compute quotas
 
-Suppose you are running a workshop and would like to cap usage to a 4GiB RAM server for each user per day. Then with compute quotas you can apply a usage cap of 4GiB x 24 hours = 96 GiB-hours over a rolling 1 day window individually to every member of a particular JupyterHub group. Alternatively, can also apply a blanket compute usage policy to all users irrespective of JupyterHub group memberships. For more details, see the [documentation](https://jupyterhub-usage-quotas.readthedocs.io/en/latest/explanation/technical/#policy-configuration). If you would like to apply a compute usage policy for your hub, then please get in touch with our [support desk](https://docs.2i2c.org/support/).
+Suppose you are running a workshop and would like to cap usage to a 4GiB RAM server for each user per day. Then with compute quotas you can apply a usage cap of 4GiB x 24 hours = 96 GiB-hours over a rolling 1 day window individually to every member of a particular [JupyterHub group](https://jupyterhub-usage-quotas.readthedocs.io/en/latest/howto/user-group-management/). Alternatively, can also apply a blanket compute usage policy to all users irrespective of JupyterHub group memberships. For more details, see the [documentation](https://jupyterhub-usage-quotas.readthedocs.io/en/latest/explanation/technical/#policy-configuration). If you would like to apply a compute usage policy for your hub, then please get in touch with our [support desk](https://docs.2i2c.org/support/).
 
 ## Usage dashboards
 
