@@ -26,6 +26,7 @@ To accompany this new feature, we have rolled out a user-facing dashboard to kee
 
 ## Learn more
 
+- [2i2c documentation](https://docs.2i2c.org/admin/user-management/compute-quotas/)
 - [`jupyterhub-usage-quotas` documentation](https://jupyterhub-usage-quotas.readthedocs.io/en/latest)
 - [`jupyterhub-usage-quotas` GitHub repository](https://github.com/2i2c-org/jupyterhub-usage-quotas)
 
