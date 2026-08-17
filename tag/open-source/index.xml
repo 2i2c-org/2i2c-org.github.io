@@ -1,4 +1,42 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Open Source | 2i2c</title><link>https://2i2c.org/tag/open-source/</link><atom:link href="https://2i2c.org/tag/open-source/index.xml" rel="self" type="application/rss+xml"/><description>Open Source</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 04 Aug 2026 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Open Source</title><link>https://2i2c.org/tag/open-source/</link></image><item><title>Migrating from one ingress controller to another</title><link>https://2i2c.org/blog/migrating-ingress-controllers/</link><pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/migrating-ingress-controllers/</guid><description>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Open Source | 2i2c</title><link>https://2i2c.org/tag/open-source/</link><atom:link href="https://2i2c.org/tag/open-source/index.xml" rel="self" type="application/rss+xml"/><description>Open Source</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 13 Aug 2026 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Open Source</title><link>https://2i2c.org/tag/open-source/</link></image><item><title>Better resource management with compute quotas and usage dashboards</title><link>https://2i2c.org/blog/jupyterhub-usage-quotas/</link><pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/jupyterhub-usage-quotas/</guid><description>&lt;p>Compute quotas and usage dashboards are now available on 2i2c hubs 🚀&lt;/p>
+&lt;p>This allows hub admins to cap the amount of compute resource a user can access over a given time period, as well as providing end-users with updates on their current usage.&lt;/p>
+&lt;figure id="figure-the-usage-dashboard-can-be-found-from-the-hub-home-page-navbar-under-services--usage-quota-menu">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="The usage dashboard can be found from the hub home page navbar under *Services &amp;gt; usage-quota* menu." srcset="
+/blog/jupyterhub-usage-quotas/featured_hu0a3a1eee541c27a46edd6a17ae49eeeb_40827_5f30b6d90e80e45ab0b9f9e7ea0be0e7.webp 400w,
+/blog/jupyterhub-usage-quotas/featured_hu0a3a1eee541c27a46edd6a17ae49eeeb_40827_f3fe157ad7df554203b45c6ae3a65b33.webp 760w,
+/blog/jupyterhub-usage-quotas/featured_hu0a3a1eee541c27a46edd6a17ae49eeeb_40827_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/jupyterhub-usage-quotas/featured_hu0a3a1eee541c27a46edd6a17ae49eeeb_40827_5f30b6d90e80e45ab0b9f9e7ea0be0e7.webp"
+width="760"
+height="364"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+The usage dashboard can be found from the hub home page navbar under &lt;em>Services &amp;gt; usage-quota&lt;/em> menu.
+&lt;/figcaption>&lt;/figure>
+&lt;h2 id="compute-quotas">
+Compute quotas
+&lt;a class="header-anchor" href="#compute-quotas">#&lt;/a>
+&lt;/h2>&lt;p>Suppose you are running a workshop and would like to cap usage to a 4GiB RAM server for each user per day. Then with compute quotas you can apply a usage cap of 4GiB x 24 hours = 96 GiB-hours over a rolling 1 day window individually to every member of a particular &lt;a href="https://jupyterhub-usage-quotas.readthedocs.io/en/latest/howto/user-group-management/" target="_blank" rel="noopener" >JupyterHub group&lt;/a>. Alternatively, can also apply a blanket compute usage policy to all users irrespective of JupyterHub group memberships. For more details, see the &lt;a href="https://jupyterhub-usage-quotas.readthedocs.io/en/latest/explanation/technical/#policy-configuration" target="_blank" rel="noopener" >documentation&lt;/a>. If you would like to apply a compute usage policy for your hub, then please get in touch with our &lt;a href="https://docs.2i2c.org/support/" target="_blank" rel="noopener" >support desk&lt;/a>.&lt;/p>
+&lt;h2 id="usage-dashboards">
+Usage dashboards
+&lt;a class="header-anchor" href="#usage-dashboards">#&lt;/a>
+&lt;/h2>&lt;p>To accompany this new feature, we have rolled out a user-facing dashboard to keep track of usage. The home storage component is enabled by default, which shows the used versus available disk usage in a user&amp;rsquo;s home directory. The compute component is enabled if a compute quota policy is applied to the hub.&lt;/p>
+&lt;h2 id="learn-more">
+Learn more
+&lt;a class="header-anchor" href="#learn-more">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>&lt;a href="https://jupyterhub-usage-quotas.readthedocs.io/en/latest" target="_blank" rel="noopener" >&lt;code>jupyterhub-usage-quotas&lt;/code> documentation&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/2i2c-org/jupyterhub-usage-quotas" target="_blank" rel="noopener" >&lt;code>jupyterhub-usage-quotas&lt;/code> GitHub repository&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>&lt;a href="https://github.com/sarahw-earthscope" target="_blank" rel="noopener" >@sarahw-earthscope&lt;/a> and team at the &lt;a href="https://2i2c.org/collaborators/earthscope/" >Earthscope Consortium&lt;/a> for co-creating and funding this project&lt;/li>
+&lt;li>&lt;a href="https://github.com/sunu" target="_blank" rel="noopener" >@sunu&lt;/a> (&lt;a href="https://2i2c.org/collaborators/devseed/" >Development Seed&lt;/a>) for co-developing the &lt;code>jupyterhub-usage-quotas&lt;/code> package&lt;/li>
+&lt;li>&lt;a href="https://github.com/hanbyul-here" target="_blank" rel="noopener" >@hanbyul-here&lt;/a> and &lt;a href="https://github.com/wildintellect" target="_blank" rel="noopener" >@wildintellect&lt;/a> (&lt;a href="https://2i2c.org/collaborators/devseed/" >Development Seed&lt;/a>) for early design feedback&lt;/li>
+&lt;li>&lt;a href="https://github.com/minrk" target="_blank" rel="noopener" >@minrk&lt;/a> (&lt;a href="https://2i2c.org/collaborators/bids/" >BIDS&lt;/a>) for making upstream improvements to JupyterHub for this feature&lt;/li>
+&lt;/ul></description></item><item><title>Migrating from one ingress controller to another</title><link>https://2i2c.org/blog/migrating-ingress-controllers/</link><pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/migrating-ingress-controllers/</guid><description>
 &lt;h1 id="what-we-learned">
 What we learned
 &lt;a class="header-anchor" href="#what-we-learned">#&lt;/a>

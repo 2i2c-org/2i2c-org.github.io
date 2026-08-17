@@ -1,4 +1,42 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2i2c</title><link>https://2i2c.org/</link><atom:link href="https://2i2c.org/index.xml" rel="self" type="application/rss+xml"/><description>2i2c</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 04 Aug 2026 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>2i2c</title><link>https://2i2c.org/</link></image><item><title>Migrating from one ingress controller to another</title><link>https://2i2c.org/blog/migrating-ingress-controllers/</link><pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/migrating-ingress-controllers/</guid><description>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2i2c</title><link>https://2i2c.org/</link><atom:link href="https://2i2c.org/index.xml" rel="self" type="application/rss+xml"/><description>2i2c</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 13 Aug 2026 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>2i2c</title><link>https://2i2c.org/</link></image><item><title>Better resource management with compute quotas and usage dashboards</title><link>https://2i2c.org/blog/jupyterhub-usage-quotas/</link><pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/jupyterhub-usage-quotas/</guid><description>&lt;p>Compute quotas and usage dashboards are now available on 2i2c hubs 🚀&lt;/p>
+&lt;p>This allows hub admins to cap the amount of compute resource a user can access over a given time period, as well as providing end-users with updates on their current usage.&lt;/p>
+&lt;figure id="figure-the-usage-dashboard-can-be-found-from-the-hub-home-page-navbar-under-services--usage-quota-menu">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="The usage dashboard can be found from the hub home page navbar under *Services &amp;gt; usage-quota* menu." srcset="
+/blog/jupyterhub-usage-quotas/featured_hu0a3a1eee541c27a46edd6a17ae49eeeb_40827_5f30b6d90e80e45ab0b9f9e7ea0be0e7.webp 400w,
+/blog/jupyterhub-usage-quotas/featured_hu0a3a1eee541c27a46edd6a17ae49eeeb_40827_f3fe157ad7df554203b45c6ae3a65b33.webp 760w,
+/blog/jupyterhub-usage-quotas/featured_hu0a3a1eee541c27a46edd6a17ae49eeeb_40827_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/jupyterhub-usage-quotas/featured_hu0a3a1eee541c27a46edd6a17ae49eeeb_40827_5f30b6d90e80e45ab0b9f9e7ea0be0e7.webp"
+width="760"
+height="364"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+The usage dashboard can be found from the hub home page navbar under &lt;em>Services &amp;gt; usage-quota&lt;/em> menu.
+&lt;/figcaption>&lt;/figure>
+&lt;h2 id="compute-quotas">
+Compute quotas
+&lt;a class="header-anchor" href="#compute-quotas">#&lt;/a>
+&lt;/h2>&lt;p>Suppose you are running a workshop and would like to cap usage to a 4GiB RAM server for each user per day. Then with compute quotas you can apply a usage cap of 4GiB x 24 hours = 96 GiB-hours over a rolling 1 day window individually to every member of a particular &lt;a href="https://jupyterhub-usage-quotas.readthedocs.io/en/latest/howto/user-group-management/" target="_blank" rel="noopener" >JupyterHub group&lt;/a>. Alternatively, can also apply a blanket compute usage policy to all users irrespective of JupyterHub group memberships. For more details, see the &lt;a href="https://jupyterhub-usage-quotas.readthedocs.io/en/latest/explanation/technical/#policy-configuration" target="_blank" rel="noopener" >documentation&lt;/a>. If you would like to apply a compute usage policy for your hub, then please get in touch with our &lt;a href="https://docs.2i2c.org/support/" target="_blank" rel="noopener" >support desk&lt;/a>.&lt;/p>
+&lt;h2 id="usage-dashboards">
+Usage dashboards
+&lt;a class="header-anchor" href="#usage-dashboards">#&lt;/a>
+&lt;/h2>&lt;p>To accompany this new feature, we have rolled out a user-facing dashboard to keep track of usage. The home storage component is enabled by default, which shows the used versus available disk usage in a user&amp;rsquo;s home directory. The compute component is enabled if a compute quota policy is applied to the hub.&lt;/p>
+&lt;h2 id="learn-more">
+Learn more
+&lt;a class="header-anchor" href="#learn-more">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>&lt;a href="https://jupyterhub-usage-quotas.readthedocs.io/en/latest" target="_blank" rel="noopener" >&lt;code>jupyterhub-usage-quotas&lt;/code> documentation&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/2i2c-org/jupyterhub-usage-quotas" target="_blank" rel="noopener" >&lt;code>jupyterhub-usage-quotas&lt;/code> GitHub repository&lt;/a>&lt;/li>
+&lt;/ul>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>&lt;a href="https://github.com/sarahw-earthscope" target="_blank" rel="noopener" >@sarahw-earthscope&lt;/a> and team at the &lt;a href="https://2i2c.org/collaborators/earthscope/" >Earthscope Consortium&lt;/a> for co-creating and funding this project&lt;/li>
+&lt;li>&lt;a href="https://github.com/sunu" target="_blank" rel="noopener" >@sunu&lt;/a> (&lt;a href="https://2i2c.org/collaborators/devseed/" >Development Seed&lt;/a>) for co-developing the &lt;code>jupyterhub-usage-quotas&lt;/code> package&lt;/li>
+&lt;li>&lt;a href="https://github.com/hanbyul-here" target="_blank" rel="noopener" >@hanbyul-here&lt;/a> and &lt;a href="https://github.com/wildintellect" target="_blank" rel="noopener" >@wildintellect&lt;/a> (&lt;a href="https://2i2c.org/collaborators/devseed/" >Development Seed&lt;/a>) for early design feedback&lt;/li>
+&lt;li>&lt;a href="https://github.com/minrk" target="_blank" rel="noopener" >@minrk&lt;/a> (&lt;a href="https://2i2c.org/collaborators/bids/" >BIDS&lt;/a>) for making upstream improvements to JupyterHub for this feature&lt;/li>
+&lt;/ul></description></item><item><title>Migrating from one ingress controller to another</title><link>https://2i2c.org/blog/migrating-ingress-controllers/</link><pubDate>Tue, 04 Aug 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/migrating-ingress-controllers/</guid><description>
 &lt;h1 id="what-we-learned">
 What we learned
 &lt;a class="header-anchor" href="#what-we-learned">#&lt;/a>
@@ -8561,6 +8599,16 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;div class="col-sm-6 col-md-4 col-lg-3">
 &lt;div class="card border-0" style="background-color: #f8f9fa;">
 &lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
+&lt;a href="https://elac.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
+&lt;img src="https://2i2c.org/members/images/east_los_angeles_college.svg" alt="East Los Angeles College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
+&lt;small class="text-dark fw-medium">East Los Angeles College&lt;/small>
+&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="col-sm-6 col-md-4 col-lg-3">
+&lt;div class="card border-0" style="background-color: #f8f9fa;">
+&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
 &lt;a href="https://etsu.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/east_tennessee_state_university.png" alt="East Tennessee State University" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">East Tennessee State University&lt;/small>
@@ -8691,6 +8739,16 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;div class="col-sm-6 col-md-4 col-lg-3">
 &lt;div class="card border-0" style="background-color: #f8f9fa;">
 &lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
+&lt;a href="https://ivytech.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
+&lt;img src="https://2i2c.org/members/images/ivy_tech_community_college_of_indiana.png" alt="Ivy Tech Community College of Indiana" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
+&lt;small class="text-dark fw-medium">Ivy Tech Community College of Indiana&lt;/small>
+&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="col-sm-6 col-md-4 col-lg-3">
+&lt;div class="card border-0" style="background-color: #f8f9fa;">
+&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
 &lt;a href="https://staging.jupyter-health.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/jupyter_health.png" alt="Jupyter Health" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">Jupyter Health&lt;/small>
@@ -8741,6 +8799,36 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;div class="col-sm-6 col-md-4 col-lg-3">
 &lt;div class="card border-0" style="background-color: #f8f9fa;">
 &lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
+&lt;a href="https://lacc.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
+&lt;img src="https://2i2c.org/members/images/los_angeles_city_college.svg" alt="Los Angeles City College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
+&lt;small class="text-dark fw-medium">Los Angeles City College&lt;/small>
+&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="col-sm-6 col-md-4 col-lg-3">
+&lt;div class="card border-0" style="background-color: #f8f9fa;">
+&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
+&lt;a href="https://lahc.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
+&lt;img src="https://2i2c.org/members/images/los_angeles_harbor_college.svg" alt="Los Angeles Harbor College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
+&lt;small class="text-dark fw-medium">Los Angeles Harbor College&lt;/small>
+&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="col-sm-6 col-md-4 col-lg-3">
+&lt;div class="card border-0" style="background-color: #f8f9fa;">
+&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
+&lt;a href="https://lavc.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
+&lt;img src="https://2i2c.org/members/images/los_angeles_valley_college.svg" alt="Los Angeles Valley College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
+&lt;small class="text-dark fw-medium">Los Angeles Valley College&lt;/small>
+&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="col-sm-6 col-md-4 col-lg-3">
+&lt;div class="card border-0" style="background-color: #f8f9fa;">
+&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
 &lt;a href="https://mendocino.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/mendocino_college.png" alt="Mendocino College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">Mendocino College&lt;/small>
@@ -8764,6 +8852,16 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;a href="https://miracosta.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/miracosta_college.svg" alt="MiraCosta College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">MiraCosta College&lt;/small>
+&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="col-sm-6 col-md-4 col-lg-3">
+&lt;div class="card border-0" style="background-color: #f8f9fa;">
+&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
+&lt;a href="https://monmouth.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
+&lt;img src="https://2i2c.org/members/images/monmouth_university.svg" alt="Monmouth University" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
+&lt;small class="text-dark fw-medium">Monmouth University&lt;/small>
 &lt;/a>
 &lt;/div>
 &lt;/div>
@@ -8831,6 +8929,16 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;div class="col-sm-6 col-md-4 col-lg-3">
 &lt;div class="card border-0" style="background-color: #f8f9fa;">
 &lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
+&lt;a href="https://ornl.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
+&lt;img src="https://2i2c.org/members/images/oak_ridge_national_laboratory.svg" alt="Oak Ridge National Laboratory" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
+&lt;small class="text-dark fw-medium">Oak Ridge National Laboratory&lt;/small>
+&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="col-sm-6 col-md-4 col-lg-3">
+&lt;div class="card border-0" style="background-color: #f8f9fa;">
+&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
 &lt;a href="https://ocu.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/oakland_city_university.svg" alt="Oakland City University" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">Oakland City University&lt;/small>
@@ -8871,6 +8979,16 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;div class="col-sm-6 col-md-4 col-lg-3">
 &lt;div class="card border-0" style="background-color: #f8f9fa;">
 &lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
+&lt;a href="https://psu.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
+&lt;img src="https://2i2c.org/members/images/pennsylvania_state_university.svg" alt="Pennsylvania State University" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
+&lt;small class="text-dark fw-medium">Pennsylvania State University&lt;/small>
+&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="col-sm-6 col-md-4 col-lg-3">
+&lt;div class="card border-0" style="background-color: #f8f9fa;">
+&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
 &lt;a href="https://reedley.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/reedley_college.png" alt="Reedley College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">Reedley College&lt;/small>
@@ -8894,6 +9012,16 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;a href="https://saddleback.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/saddleback_college.svg" alt="Saddleback College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">Saddleback College&lt;/small>
+&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="col-sm-6 col-md-4 col-lg-3">
+&lt;div class="card border-0" style="background-color: #f8f9fa;">
+&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
+&lt;a href="https://smc.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
+&lt;img src="https://2i2c.org/members/images/santa_monica_college.svg" alt="Santa Monica College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
+&lt;small class="text-dark fw-medium">Santa Monica College&lt;/small>
 &lt;/a>
 &lt;/div>
 &lt;/div>
@@ -8961,9 +9089,29 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;div class="col-sm-6 col-md-4 col-lg-3">
 &lt;div class="card border-0" style="background-color: #f8f9fa;">
 &lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
+&lt;a href="https://tntech.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
+&lt;img src="https://2i2c.org/members/images/tennessee_technological_university.svg" alt="Tennessee Technological University" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
+&lt;small class="text-dark fw-medium">Tennessee Technological University&lt;/small>
+&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="col-sm-6 col-md-4 col-lg-3">
+&lt;div class="card border-0" style="background-color: #f8f9fa;">
+&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
 &lt;a href="https://tuskegee.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/tuskegee_university.png" alt="Tuskegee University" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">Tuskegee University&lt;/small>
+&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="col-sm-6 col-md-4 col-lg-3">
+&lt;div class="card border-0" style="background-color: #f8f9fa;">
+&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
+&lt;a href="https://uams.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
+&lt;img src="https://2i2c.org/members/images/university_of_arkansas_for_medical_sciences.png" alt="University of Arkansas for Medical Sciences" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
+&lt;small class="text-dark fw-medium">University of Arkansas for Medical Sciences&lt;/small>
 &lt;/a>
 &lt;/div>
 &lt;/div>
@@ -9064,6 +9212,26 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;a href="https://weber.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/weber_state_university.svg" alt="Weber State University" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">Weber State University&lt;/small>
+&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="col-sm-6 col-md-4 col-lg-3">
+&lt;div class="card border-0" style="background-color: #f8f9fa;">
+&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
+&lt;a href="https://wlac.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
+&lt;img src="https://2i2c.org/members/images/west_los_angeles_college.svg" alt="West Los Angeles College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
+&lt;small class="text-dark fw-medium">West Los Angeles College&lt;/small>
+&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="col-sm-6 col-md-4 col-lg-3">
+&lt;div class="card border-0" style="background-color: #f8f9fa;">
+&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
+&lt;a href="https://wcu.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
+&lt;img src="https://2i2c.org/members/images/western_carolina_university.svg" alt="Western Carolina University" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
+&lt;small class="text-dark fw-medium">Western Carolina University&lt;/small>
 &lt;/a>
 &lt;/div>
 &lt;/div>
