@@ -62,21 +62,44 @@ Grants funding this project
 &lt;a class="header-anchor" href="#grants-funding-this-project">#&lt;/a>
 &lt;/h2>&lt;ul>
 &lt;li>Several projects with HHMI are supported by National Institute of Mental Health (NIMH), grant number RF1MH130623.&lt;/li>
-&lt;/ul></description></item><item><title>NASA VEDA</title><link>https://2i2c.org/collaborators/nasa-veda/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://2i2c.org/collaborators/nasa-veda/</guid><description>&lt;p>
+&lt;/ul></description></item><item><title>NASA VEDA &amp; ODSI</title><link>https://2i2c.org/collaborators/nasa-veda/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://2i2c.org/collaborators/nasa-veda/</guid><description>&lt;p>
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="" srcset="
-/collaborators/nasa-veda/featured_hu16fab841fb1da2c8af3fa171949f4183_9448_526c52a4cd3bea35e1a29008da0263d4.webp 400w,
-/collaborators/nasa-veda/featured_hu16fab841fb1da2c8af3fa171949f4183_9448_644191f9fbd396d291cb2466d08f9e33.webp 760w,
-/collaborators/nasa-veda/featured_hu16fab841fb1da2c8af3fa171949f4183_9448_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
-src="https://2i2c.org/collaborators/nasa-veda/featured_hu16fab841fb1da2c8af3fa171949f4183_9448_526c52a4cd3bea35e1a29008da0263d4.webp"
+/collaborators/nasa-veda/featured_hu84f4dea9cb4026b21abb32c5e5b417a9_173212_18df4894958a772e87409de66f35d97e.webp 400w,
+/collaborators/nasa-veda/featured_hu84f4dea9cb4026b21abb32c5e5b417a9_173212_4096c654b48bd491f294de40d156c95b.webp 760w,
+/collaborators/nasa-veda/featured_hu84f4dea9cb4026b21abb32c5e5b417a9_173212_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/collaborators/nasa-veda/featured_hu84f4dea9cb4026b21abb32c5e5b417a9_173212_18df4894958a772e87409de66f35d97e.webp"
+width="760"
+height="302"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="NASA Logo" srcset="
+/collaborators/nasa-veda/nasa_hu16fab841fb1da2c8af3fa171949f4183_9448_9fcca2057b54d7eece667e9276ea3229.webp 400w,
+/collaborators/nasa-veda/nasa_hu16fab841fb1da2c8af3fa171949f4183_9448_9a531f43542bc4830f96100f52c041fc.webp 760w,
+/collaborators/nasa-veda/nasa_hu16fab841fb1da2c8af3fa171949f4183_9448_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/collaborators/nasa-veda/nasa_hu16fab841fb1da2c8af3fa171949f4183_9448_9fcca2057b54d7eece667e9276ea3229.webp"
 width="200"
 height="168"
 loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;/figure>
 &lt;/p>
-&lt;p>&lt;a href="https://www.earthdata.nasa.gov/dashboard/" target="_blank" rel="noopener" >NASA VEDA&lt;/a> (Visualization, Exploration, and Data Analysis) is NASA&amp;rsquo;s cloud-based data visualization and analysis platform that makes Earth science data more accessible and usable for researchers, policymakers, and the public.&lt;/p>
-&lt;p>2i2c provides interactive computing infrastructure for VEDA, enabling users to explore and analyze NASA&amp;rsquo;s vast earth science datasets through JupyterHub environments in the cloud.&lt;/p></description></item><item><title>Openscapes</title><link>https://2i2c.org/collaborators/openscapes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://2i2c.org/collaborators/openscapes/</guid><description>&lt;p>
+&lt;p>&lt;a href="https://www.earthdata.nasa.gov/dashboard/" target="_blank" rel="noopener" >NASA VEDA&lt;/a> (Visualization, Exploration, and Data Analysis) is NASA&amp;rsquo;s open-source, cloud-native platform for Earth science data.
+It makes NASA&amp;rsquo;s Earth observation data more accessible and usable for researchers, policymakers, and the public, and demonstrates the benefits of cloud-native data for open science.&lt;/p>
+&lt;p>VEDA is a project of the Data Systems Evolution (DSE) team at NASA Marshall Space Flight Center&amp;rsquo;s &lt;a href="https://www.nasa.gov/marshall/marshall-space-flight-missions/office-of-data-science-and-informatics-odsi/" target="_blank" rel="noopener" >Office of Data Science and Informatics (ODSI)&lt;/a>, developed in partnership with &lt;a href="https://2i2c.org/collaborators/nasa-veda/../devseed/" >Development Seed&lt;/a>.
+ODSI enables scientific exploration and discovery through innovative data visualization techniques and analysis capabilities that lower the barrier to entry for cloud-hosted data.&lt;/p>
+&lt;p>The platform has several major components:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Dashboard&lt;/strong>: browse, visualize, and explore Earth science datasets and data stories in the browser.&lt;/li>
+&lt;li>&lt;strong>Analytics Platform&lt;/strong>: a JupyterHub environment for deeper, more complex analysis. (&lt;em>this is where 2i2c spends much of our time on the project&lt;/em>)&lt;/li>
+&lt;li>&lt;strong>Data Services&lt;/strong>: analysis-ready, cloud-optimized data published through a SpatioTemporal Asset Catalog (STAC).&lt;/li>
+&lt;/ul>
+&lt;p>2i2c provides the interactive computing infrastructure behind the VEDA Analytics Platform, enabling users to explore and analyze NASA&amp;rsquo;s vast Earth science datasets through JupyterHub environments in the cloud.&lt;/p>
+&lt;p>&lt;em>Check out the &lt;a href="https://developmentseed.org/projects/nasa-odsi-veda/" target="_blank" rel="noopener" >DevSeed NASA VEDA project page&lt;/a> for more information about VEDA.&lt;/em>&lt;/p></description></item><item><title>Openscapes</title><link>https://2i2c.org/collaborators/openscapes/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://2i2c.org/collaborators/openscapes/</guid><description>&lt;p>
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="" srcset="
