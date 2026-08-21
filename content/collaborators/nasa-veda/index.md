@@ -1,5 +1,5 @@
 ---
-title: NASA VEDA
+title: NASA VEDA & ODSI
 tags:
   - member
 show_date: false
