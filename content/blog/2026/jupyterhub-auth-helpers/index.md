@@ -1,6 +1,6 @@
 ---
 title: Building an authentication helper library for JupyterHub
-slug: "buliding-jhub-authz"
+slug: "building-canvas-auth"
 date: "2026-08-26"
 author: Angus Hollands
 categories:
