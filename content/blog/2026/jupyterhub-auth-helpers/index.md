@@ -52,7 +52,7 @@ async def auth_state_hook(authenticator, auth_state):
   access_token = auth_state["access_token"]
   auth_state[authenticator.auth_state_groups_key] = [
     # Populate groups from Canvas courses, using the scheme defined in get_course_groups
-    *await get_course_groups(canvas_url, access_token, "course_code"),
+    *await get_course_groups(canvas_url, access_token),
     # Populate groups from Canvas groups, using the scheme defined in get_user_groups
     *await get_user_groups(canvas_url, access_token),
   ]
