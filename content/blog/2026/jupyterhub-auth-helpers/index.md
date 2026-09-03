@@ -12,7 +12,7 @@ tags:
   - auth
 ---
 
-2i2c have been working with the [University of Toronto](../../../collaborators/utoronto/) to add support for Canvas as a supported identity provider for JupyterHub. Out of the box, JupyterHub implements support for _authenticating_ users (figuring out who there are) and _authorizing_ users (figuring out whether they are permitted to log into the hub) using an `Authenicator` interface. Via the separate `oauthenticator` package, JupyterHub has support for many kinds of OAuth2-based Identity Providers such as Google or GitHub, in addition to providing a _generic_ authenticator `GenericOAuthenticator` that can be used with any OAuth2 implementation.
+2i2c have been working with the [University of Toronto](../../../collaborators/utoronto/) to add support for Canvas as a supported identity provider for JupyterHub. Out of the box, JupyterHub implements support for _authenticating_ users (figuring out who there are) and _authorizing_ users (figuring out whether they are permitted to log into the hub) using an `Authenticator` interface. Via the separate `oauthenticator` package, JupyterHub has support for many kinds of OAuth2-based Identity Providers such as Google or GitHub, in addition to providing a _generic_ authenticator `GenericOAuthenticator` that can be used with any OAuth2 implementation.
 
 {{< figure src="oauth-flow.png" caption="Diagram of an OAuth flow during the authentication process, taken from [the oauthenticator documentation](https://oauthenticator.readthedocs.io/en/latest/_images/JupyterHub-OAuth-external-flow.png).">}}
 
