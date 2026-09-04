@@ -12,7 +12,7 @@ featured: false
 draft: false
 ---
 
-I recently got back from the 2026 Responsible GenAI for NASA EarthData workshop in Seattle.
+I recently got back from the [2026 Responsible GenAI for NASA EarthData workshop](https://responsible-genai.hackweek.io/) in Seattle.
 It was an opportunity for members across the NASA ecosystem to share their experiences experimenting and learning with Generative AI models around Earth Data.
 This ranged everywhere from personal workflows to large-scale automations with non-trivial amounts of data.
 I'd say it was a way to share "best practices", but I also realize that **there's no such thing as best-practices for LLMs yet**.
@@ -26,11 +26,11 @@ This is a quick report out for what we I noticed and some things that stood out 
 First off, we got to do some fun hacking and experimenting while we were there.
 Here's the main new thing that came out of this:
 
-**[MySTifAI]** attempts to make MyST websites more useful for LLMs to parse and use as part of Retrieval-Augmented Generation workflows.
+**[MySTifAI](https://responsible-genai-hackweek.github.io/MySTifAI/)** attempts to make MyST websites more useful for LLMs to parse and use as part of Retrieval-Augmented Generation workflows.
 
-Many LLMs (especially smaller models) benefit from having real-time information loaded into their context to guide the kinds of responses they give. This is particularly useful if you need the latest, specific information from a community resources, like a documentation site. Many NASA communities use MyST, and this is a little experiment at using MyST's modular and machine-readable nature to turn it into a RAG-like resource for LLMs.
+Many LLMs (especially smaller models) benefit from having real-time information loaded into their context to guide the kinds of responses they give. This is particularly useful if you need the latest, specific information from a community resources, like a documentation site. Many NASA communities use [MyST](https://mystmd.org), and this is a little experiment at using MyST's modular and machine-readable nature to turn it into a RAG-like resource for LLMs.
 
-The [`docslice` tool] is a CLI that indexes and searches content in a MyST site, and returns little chunks as markdown for the model to read. Check out the [evaluations page] where we ran it with a few different model sizes to see how it did. In short: the smaller the model, the more context you save by using a RAG-like helper like `docslice`.
+The [`docslice` tool](https://responsible-genai-hackweek.github.io/MySTifAI/docslice) is a CLI that indexes and searches content in a MyST site, and returns little chunks as markdown for the model to read. Check out the [evaluations page](https://responsible-genai-hackweek.github.io/MySTifAI/evaluation) where we ran it with a few different model sizes to see how it did. In short: the smaller the model, the more context you save by using a RAG-like helper like `docslice`.
 
 ## Scientists find "skills" to be a useful way to standardize LLM workflows
 
@@ -41,7 +41,7 @@ The EarthData community is interested in this because there are often particular
 Asking an LLM to figure that out on its own each time is noisy and costly, and skills are a way to standardize the experience across NASA scientists.
 
 We explored a few different ways to distribute skills, because I think NASA's ecosystem is interested in co-maintaining and sharing as much as possible.
-Right now it seems like the [agentskills.io] specification and the [skills.sh] tooling are the simplest ways to distribute and use skills. However, I also learned that [you can distribute skills as pixi packages via conda-forge] and maybe even via `pypi`.
+Right now it seems like the [agentskills.io](https://agentskills.io) specification and the [skills.sh](https://skills.sh) tooling are the simplest ways to distribute and use skills. However, I also learned that [you can distribute skills as pixi packages via conda-forge](https://pavel.pink/blog/pixi-skills/) and maybe even via `pypi`.
 
 ## Non-frontier models are an important design target for software and workflows
 
@@ -52,7 +52,7 @@ A number of conversations challenged this idea, for example:
 - The fanciest models might a lot more expensive in the future, because they are heavily subsidized.
 
 For this reason, **it's important to buid technology that's still useful with sub-frontier model capabilities**.
-For example, tools like [MySTifAI] (above) probably aren't necessary if you're using the latest Fable model that was trained recently.
+For example, tools like [MySTifAI](https://responsible-genai-hackweek.github.io/MySTifAI/) (above) probably aren't necessary if you're using the latest Fable model that was trained recently.
 But they're much more valuable in saving context and reducing noise for anything less sophisticated.
 
 I suspect that, over time, there will be a bifurcation of who has access to the most cutting-edge models.
@@ -85,15 +85,15 @@ _To complexify this a bit: Something else I didn't consider, but seems painfully
 
 ## Setting up an LLM-style environment in the cloud is non-trivial!
 
-We did some last-second environment building with [Tasha] to provide a cloud environment where users could experiment with LLMs for their hackweek projects.
+We did some last-second environment building with [Tasha](https://github.com/tsnow03) to provide a cloud environment where users could experiment with LLMs for their hackweek projects.
 This had a bunch of rough edges!
 Here are a few that stood out to me:
 
-- **Workshop administrators need clear documentation for how to connect with common inference servers and get their credentials onto the hub safely**. We had to generate credentials to run LLM inference against the [NRP inference service via OpenRouter]. It wasn't super clear how to do this, and how to insert these credentials into the hub environment properly. In some cases I'm pretty sure we inserted credentials in a way that wasn't "safe" because they were baked into the environment image, and thus available to all of the users.
+- **Workshop administrators need clear documentation for how to connect with common inference servers and get their credentials onto the hub safely**. We had to generate credentials to run LLM inference against the [NRP inference service](https://nrp.ai/documentation/userdocs/ai/llm-managed/) via [OpenRouter](https://openrouter.ai/). It wasn't super clear how to do this, and how to insert these credentials into the hub environment properly. In some cases I'm pretty sure we inserted credentials in a way that wasn't "safe" because they were baked into the environment image, and thus available to all of the users.
 - **Workshop adminsitrators need a cleaner story for how to share LLM credits across participants**. We had to use a semi-bespoke Python script to connect people's Claude accounts with the allotment of credits that the workshop provided. This felt a little bit janky, but it still worked pretty well!
 - **People need guidance for generating hub configuration with LLMs.** Some of the hub configuration for this workshop was itself generated with LLMs. As a result, there was some complex stuff (see above re: credentials) that we probably could have guarded against with more guidance that an LLM could discover (either a "skill" file, or documentation about how to do this).
-- **JupyterAI is relatively new and unknown to folks that would otherwise benefit from it**. We had a nice presentation from [David Qiu] who works on Jupyter AI. He showed off some nice capabilities leveraging arbitrary models as part of a notebook / data science workflow. Folks seemed to like it, but many had never heard about it! We could do more to surface the existence of this tool, and basic ways to integrate its workflows into the hub (especially if you've got access to managed inference servers like we had on the [NRP].)
-- **There's not an obvious way to programmatically trigger LLM inference on a hub**. We also realized that sometimes you want a *non-interactive* way to trigger LLM inference. For example, if you want to run an evaluation suite against your code or data and need to programmatically generate an inference query with a script. There are a few model-agnostic tools for doing this - I'm interested in learning more about Simon Willison's [LLM CLI]. I think some basic guidance for hub administrators would help us solve these problems more effectively.
+- **JupyterAI is relatively new and unknown to folks that would otherwise benefit from it**. We had a nice presentation from [David Qiu](https://github.com/dlqqq) who works on [Jupyter AI](https://github.com/jupyterlab/jupyter-ai). He showed off some nice capabilities leveraging arbitrary models as part of a notebook / data science workflow. Folks seemed to like it, but many had never heard about it! We could do more to surface the existence of this tool, and basic ways to integrate its workflows into the hub (especially if you've got access to managed inference servers like we had on the [NRP](https://nationalresearchplatform.org/).)
+- **There's not an obvious way to programmatically trigger LLM inference on a hub**. We also realized that sometimes you want a *non-interactive* way to trigger LLM inference. For example, if you want to run an evaluation suite against your code or data and need to programmatically generate an inference query with a script. There are a few model-agnostic tools for doing this - I'm interested in learning more about Simon Willison's [LLM CLI](https://llm.datasette.io/). I think some basic guidance for hub administrators would help us solve these problems more effectively.
 
 ## It's important to have a safe space for honest conversation and respectful criticism
 
@@ -108,8 +108,8 @@ LLMs bring out strong emotions in everybody, and we need to find a way to willin
 
 ## Thanks to the organizers
 
-I'm grateful to [Tasha Snow] for encouraging me to join this event, and to the rest of the organizing team for making it happen.
-The [CryoCloud community] generously let us use their hub for hacking and experimenting.
-I'm also grateful to NASA ESDS for funding the event and bringing a diverse group of people together to learn.
+I'm grateful to [Tasha Snow](https://github.com/tsnow03) for encouraging me to join this event, and to the rest of the organizing team for making it happen.
+The [CryoCloud community](../../../collaborators/cryocloud/) generously let us use their hub for hacking and experimenting.
+I'm also grateful to [NASA ESDS](https://www.earthdata.nasa.gov/esds) for funding the event and bringing a diverse group of people together to learn.
 Finally, I was appreciative of the attendees for coming to engage in a challenging topic that is nonetheless important to reason about and learn from.
 I hope to have more interactions like this in the future!
