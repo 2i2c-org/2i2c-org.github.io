@@ -1,5 +1,5 @@
 ---
-title: Building an authentication helper library for JupyterHub
+title: Building a Canvas authentication helper library for JupyterHub
 slug: "building-canvas-auth"
 date: "2026-08-26"
 author: Angus Hollands
