@@ -66,7 +66,7 @@ cfg.scope = [*build_auth_urls.scopes, *get_user_groups.scopes, *get_course_group
 
 In this approach, authentication and authorization are _composed_ — each primitive that represents an operation that requires a set of permissions possesses a `.scopes` attribute that can be added to the requested token scopes, e.g. `get_course_groups` or `build_auth_urls`. Hub administrators that only wish to authorize users by course groups do not need to use `get_user_groups` or request its `.scopes`. In order to prove the generality of this approach, 2i2c have added a Mastodon implementation of these authentication and authorization primitives that restricts hub access to those users which are followed by a particular _authorizing user_.
 
-In addition to building out this library, 2i2c hopes to foster collaboration with other users and maintainers to continue to upstream additional OAuth2 adaptors. As part of the funded initiative, 2i2c will spend time conducting gonvernance and community work upstream to establish a [jupyterhub-contrib](https://github.com/jupyterhub-contrib) organisation that provides stewardship and maintainance of this work, and future third-party projects.
+In addition to building out this library, 2i2c hopes to foster collaboration with other users and maintainers to continue to upstream additional OAuth2 adaptors. As part of the funded initiative, 2i2c will spend time conducting governance and community work upstream to establish a [jupyterhub-contrib](https://github.com/jupyterhub-contrib) organization that provides stewardship and maintenance of this work, and future third-party projects.
 
 ## Acknowledgements
 
