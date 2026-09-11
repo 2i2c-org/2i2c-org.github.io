@@ -42,6 +42,7 @@ sections:
         </figure>      
 
   - block: features
+    id: compute
     content:
       title: Compute
       subtitle: | 
@@ -66,6 +67,7 @@ sections:
           description: ""
 
   - block: markdown
+    id: user-interface
     content:
       title: User interface
       subtitle: ""
@@ -113,6 +115,7 @@ sections:
         Additionally, object storage can be configured for access to scratch, persistent, or pre-existing buckets, as needed.
 
   - block: markdown
+    id: sharing
     content:
       title: Sharing
       subtitle: ""
@@ -147,6 +150,7 @@ sections:
         </figure>
 
   - block: markdown
+    id: desktop
     content:
       title: Desktop applications
       subtitle: ""
@@ -164,6 +168,7 @@ sections:
         </figure>              
 
   - block: markdown
+    id: reporting
     content:
       title: Reporting and quotas
       subtitle: ""

@@ -35,9 +35,9 @@ sections:
             image="/images/communities/earthscope-gnss-benchmark.png"
             alt="Bar chart comparing days of GNSS data processed per second from downloaded files, analysis-ready data, and analysis-ready data with a compute cluster"
             caption="Chart by EarthScope, from [Pancakes are the future of geophysical data processing](https://www.earthscope.org/news/pancakes-are-the-future-of-geophysical-data-processing/)." >}}
-        EarthScope built GeoLab beside its cloud-optimized geodesy archive on AWS, so researchers start in a small notebook server and scale out to a Dask cluster from the same browser tab.
+        EarthScope built GeoLab beside its cloud-optimized geodesy archive on AWS, so researchers start in a small notebook server and scale out to a [Dask cluster](/platform/#compute) from the same browser tab.
         In June 2026 EarthScope [opened GeoLab to its whole community](https://www.earthscope.org/news/geolab-cloud-compute-hub-now-open-to-all-users/).
-        NASA MAAP's hub sits [beside petabytes of NASA and ESA data](https://www.earthdata.nasa.gov/about/maap), and LEAP members reach [about 40 analysis-ready climate datasets](https://catalog.leap.columbia.edu/) from servers of [up to 128 GB](https://leap-stc.github.io/introduction/getting_started/).
+        NASA MAAP's hub sits [beside petabytes of NASA and ESA data](https://www.earthdata.nasa.gov/about/maap), and [LEAP](https://leap.columbia.edu/) members reach [about 40 analysis-ready climate datasets](https://catalog.leap.columbia.edu/) from servers of [up to 128 GB](https://leap-stc.github.io/introduction/getting_started/).
         {{< /hub-example >}}
 
         {{< hub-example id="practice" community="CryoCloud" url="https://cryointhecloud.com/"
@@ -46,7 +46,7 @@ sections:
             image="/images/communities/cryocloud-tutorials.png"
             alt="The tutorials page of the CryoCloud Jupyter Book, listing notebooks and recordings"
             caption="[The CryoCloud book](https://book.cryointhecloud.com/): tutorials, onboarding recordings, and hub guides written by the CryoCloud community." >}}
-        CryoCloud gives NASA cryosphere scientists several Python and R environments, maintained by the community, and a book of tutorials that hackweeks and science teams build on.
+        CryoCloud gives NASA cryosphere scientists several Python and R environments, maintained by the community, and a book of tutorials that [hackweeks](https://icesat-2.hackweek.io/) and science teams build on.
         Its leaders described the approach in [*Democratizing Science in the Cloud*](https://eos.org/opinions/democratizing-science-in-the-cloud), including 12 hackathon-style workshops on the hub at about a dollar per person per day.
         {{< /hub-example >}}
 
@@ -66,8 +66,8 @@ sections:
             image="/images/communities/openscapes-workflow-cost.png"
             alt="Chart of CPU and memory requested and used over three hours for a NASA Openscapes workflow, with a total cost of 74 cents"
             caption="Chart by Openscapes, from [their community call on hub cloud costs](https://openscapes.org/blog/2025-05-01-community-call-hub-cloud-costs/)." >}}
-        Openscapes priced a real workflow on their hub from its usage metrics and AWS billing, then shared the result and their tooling with their community.
-        Every hub reports usage the same way, and EarthScope runs its open hub with a [rolling 30-day usage quota](https://www.earthscope.org/data/geolab/) per user.
+        Openscapes priced a real workflow on their hub from its usage metrics and AWS billing, then shared the result and [their tooling](https://github.com/Openscapes/jupycost) with their community.
+        Every hub [reports usage](/platform/#reporting) the same way, and EarthScope runs its open hub with a [rolling 30-day usage quota](https://www.earthscope.org/data/geolab/) per user, using [compute quotas](../blog/2026/jupyterhub-usage-quotas/index.md) available on any hub.
         {{< /hub-example >}}
 
         {{< hub-example id="events" community="CIROH" url="https://hub.ciroh.org/"
@@ -86,8 +86,8 @@ sections:
             image="/images/communities/veda-server-options.png"
             alt="The NASA VEDA server options page, with a Pangeo notebook environment and an NVIDIA T4 GPU option"
             caption="The launch page of the [NASA VEDA hub](https://docs.openveda.cloud/user-guide/scientific-computing/). Users pick the environment and server size each time." >}}
-        NASA VEDA's launch page offers a Python environment, RStudio, or a Linux desktop with QGIS, with an optional GPU, and [VEDA's docs](https://docs.openveda.cloud/user-guide/scientific-computing/) cover VS Code on the same hub.
-        Development Seed and 2i2c demonstrated an [Open in QGIS button](../blog/2025/veda-update-q4-2024/index.md) that takes a layer from the VEDA dashboard straight into QGIS on the hub.
+        NASA VEDA's launch page offers a Python environment, RStudio, or a [Linux desktop with QGIS](/platform/#desktop), with an optional [GPU](/platform/#compute), and [VEDA's docs](https://docs.openveda.cloud/user-guide/scientific-computing/) cover VS Code on the same hub.
+        [Development Seed](../collaborators/devseed/index.md) and 2i2c demonstrated an [Open in QGIS button](../blog/2025/veda-update-q4-2024/index.md) that takes a layer from the VEDA dashboard straight into QGIS on the hub.
         [Openscapes](https://openscapes.org/blog/2023-10-17-matlab-on-openscapes/) runs MATLAB on its hub with users' own licenses.
         {{< /hub-example >}}
 
@@ -109,8 +109,9 @@ sections:
             alt="The Project Pythia cookbook gallery with cards for several cookbooks"
             caption="[The Project Pythia cookbook gallery](https://cookbooks.projectpythia.org/). Cookbooks are binderized so each can run in the cloud with one click." >}}
         Project Pythia's cookbooks are complete, re-runnable analyses.
-        Each opens on a BinderHub, so a reader can run it without installing anything, and cookbooks that need more compute than GitHub provides are [executed on the Pythia Binder](https://projectpythia.org/cookbook-guide/) instead.
-        Pythia's Binder runs on [NSF Jetstream2](../blog/2025/jetstream-binderhub/index.md).
+        Each opens on a [BinderHub](/platform/#sharing), so a reader can run it without installing anything, and cookbooks that need more compute than GitHub provides are [executed on the Pythia Binder](https://projectpythia.org/cookbook-guide/) instead.
+        Pythia's Binder runs on [NSF Jetstream2](https://jetstream-cloud.org/).
+        [How we deployed it](../blog/2025/jetstream-binderhub/index.md) is on our blog.
         NASA VEDA offers a [Trial Hub](https://docs.openveda.cloud/user-guide/scientific-computing/) the same way.
         {{< /hub-example >}}
 
@@ -120,8 +121,8 @@ sections:
             image="/images/communities/cloudbank-hub-logos.png"
             alt="Logos of two dozen colleges and universities with CloudBank Classroom hubs"
             caption="Some of the institutions with a CloudBank Classroom hub, from California community colleges to HBCUs and research universities." >}}
-        CloudBank Classroom gives colleges the same Jupyter setup Berkeley uses for Data 8.
-        NASA runs [the same hub software](https://docs.maap-project.org/en/hub/system_reference_guide/faq/ade_to_hub.html) across VEDA, the GHG Center, MAAP, and Disasters, and the CZI-funded Catalyst Project ran hubs for [19 biomedical groups in Africa and Latin America](../blog/2024/catalyst-partner-highlights/index.md).
+        CloudBank Classroom gives colleges the same Jupyter setup Berkeley uses for [Data 8](https://data8.org/).
+        NASA runs [the same hub software](https://docs.maap-project.org/en/hub/system_reference_guide/faq/ade_to_hub.html) across VEDA, the [GHG Center](https://earth.gov/ghgcenter), [MAAP](https://maap-project.org/), and Disasters, and the [CZI](../collaborators/czi/index.md)-funded [Catalyst Project](../collaborators/catalyst/index.md) ran hubs for [19 biomedical groups in Africa and Latin America](../blog/2024/catalyst-partner-highlights/index.md).
         {{< /hub-example >}}
 
         {{< hub-example id="own" community="CloudBank" url="https://www.cloudbank.org/"
@@ -131,7 +132,7 @@ sections:
             caption="CloudBank's hub configuration in [our public infrastructure repository](https://github.com/2i2c-org/infrastructure/tree/main/config/clusters/cloudbank). The latest commit shown is by a member of the CloudBank team." >}}
         Every hub is deployed from open source and a public configuration you can fork, and you keep the [right to replicate](../right-to-replicate/index.md) it elsewhere.
         CloudBank's team now [deploys changes to their own cluster](../blog/2026/cloudbank-self-service/index.md).
-        As Catalyst Project funding wound down, one partner [used it to buy on-premise hardware](../blog/2025/catalyst-hardware-exchange/index.md) for its own JupyterHub.
+        As Catalyst Project funding wound down, [CCAD](https://supercomputo.unc.edu.ar/2025/09/02/colgando-a-boogie/) in Argentina [used it to buy on-premise hardware](../blog/2025/catalyst-hardware-exchange/index.md) for its own JupyterHub.
         EarthScope, Openscapes, and CIROH run their hubs in cloud accounts they own.
         {{< /hub-example >}}
 
@@ -140,6 +141,8 @@ sections:
     content:
       title: "Join our community network"
       text: |
+        Many of these communities are [members](../members/index.md) or [collaborators](../collaborators/_index.md) of 2i2c.
+        The longer versions of these stories are in [Impact & Stories](../impact/index.md).
 
         {{< cta cta_text="Join our network of communities" cta_link="/join" cta_new_tab="false" >}}
 
