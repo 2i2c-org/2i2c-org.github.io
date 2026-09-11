@@ -1,0 +1,36 @@
+{{/*
+    One example of what a community does with its hub, for the
+    "Hubs in practice" page. The rules for choosing an example are in
+    the header comment of content/case-studies/_index.md.
+    Styles: assets/scss/shortcodes/_hub-example.scss
+
+    Usage:
+    {{< hub-example id="data" community="EarthScope GeoLab" url="https://..."
+        heading="Analysis next to the data, at cluster scale"
+        stat="14 months" stat_label="of GNSS data processed in 27 seconds ..."
+        image="/images/communities/earthscope-gnss-benchmark.png" alt="..."
+        caption="Chart by EarthScope, from [their post](https://...)." >}}
+    Two or three sentences with the community as the actor. Markdown works.
+    {{< /hub-example >}}
+
+    Parameters:
+    - id: anchor for the section, used by the index at the top of the page
+    - community, url: the community's name and a link to their own site
+    - heading: the capability in plain words
+    - stat, stat_label: optional number and its label; leave out if there is no sourced number
+    - image, alt, caption: one image, its alt text, and a caption with attribution
+*/}}
+<section class="hub-example" id="{{ .Get "id" }}">
+  <figure class="hub-example-media">
+    <img src="{{ .Get "image" }}" alt="{{ .Get "alt" }}" loading="lazy">
+    {{ with .Get "caption" }}<figcaption>{{ $.Page.RenderString . }}</figcaption>{{ end }}
+  </figure>
+  <div class="hub-example-text">
+    <p class="hub-example-community"><a href="{{ .Get "url" }}">{{ .Get "community" }}</a></p>
+    <h2>{{ .Get "heading" }}</h2>
+    {{ with .Get "stat" }}
+    <p class="hub-example-stat"><b>{{ . }}</b><span>{{ $.Get "stat_label" }}</span></p>
+    {{ end }}
+    {{ .Page.RenderString .Inner }}
+  </div>
+</section>
