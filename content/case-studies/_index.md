@@ -27,6 +27,7 @@ sections:
           <li><a href="#events">Workshops for hundreds</a></li>
           <li><a href="#interfaces">RStudio, VS Code, desktop</a></li>
           <li><a href="#gpu">GPUs for a classroom</a></li>
+          <li><a href="#genai">Generative AI on the hub</a></li>
           <li><a href="#share">Reproduce from a link</a></li>
           <li><a href="#network">Funded hub networks</a></li>
           <li><a href="#own">No lock-in</a></li>
@@ -103,6 +104,16 @@ sections:
         CloudBank Classroom taught [Teaching in the AI Classroom](https://events.internet2.edu/website/89730/tutorials/) at the NAIRR annual meeting on a GPU-enabled hub.
         The cloud provider could not supply one GPU per learner, so learners shared GPUs, sized from measurements beforehand, and the tutorial ran without issues.
         [How GPU sharing works](../blog/2026/t4-gpu-timeslicing/index.md) is on our blog.
+        {{< /hub-example >}}
+
+        {{< hub-example id="genai" community="Responsible Gen-AI for NASA Earthdata" url="https://responsible-genai.hackweek.io/"
+            heading="Jupyter AI and coding agents, inside the hub"
+            image="/images/communities/responsible-genai-hackweek.png"
+            alt="Landing page of the Responsible Gen-AI for NASA Earthdata 2026 hackweek, August 24 to 28 in Seattle"
+            caption="The [hackweek site](https://responsible-genai.hackweek.io/), by the UW eScience Institute. Tutorials cover coding agents, context engineering, Model Context Protocol servers, and agent sandboxing." >}}
+        In August 2026 the UW eScience Institute, NASA Earthdata, and CryoCloud ran a five-day hackweek in Seattle on using generative AI for NASA Earth data responsibly.
+        Participants worked on the CryoCloud hub, where the CryoCloud team [built an image](https://github.com/CryoInTheCloud/image-cryo-python-AI) with a Jupyter AI pre-release and [a coding agent](https://github.com/2i2c-org/infrastructure/pull/8905) that runs against [open-weight models hosted by the NSF National Research Platform](https://nrp.ai/llms/).
+        *Note: this is early work and communities are still learning the best ways to responsible incorporate GenAI in their hubs!*
         {{< /hub-example >}}
 
         {{< hub-example id="share" community="Project Pythia" url="https://projectpythia.org/"
