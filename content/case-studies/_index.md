@@ -16,6 +16,9 @@ sections:
       title: What communities do with their hubs
       subtitle: Examples of key workflows and use-cases that communities in our network do with their hubs.
       text: |
+
+        Communities are always experimenting and developing new workflows and ways to solve problems with their hubs. Here are a few notable use-cases that address common needs and challenges across the communities that we serve.
+
         <ul class="hub-index">
           <li><a href="#data">Cloud-scale data</a></li>
           <li><a href="#practice">A shared environment</a></li>
