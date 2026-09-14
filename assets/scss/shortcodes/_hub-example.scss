@@ -1,40 +1,6 @@
 // For use with the {{< hub-example >}} shortcode and the index list above it
 // HTML here: layouts/shortcodes/hub-example.html
 
-// Index of short cards linking to each example
-ul.hub-index {
-  list-style: none;
-  padding: 0;
-  margin: 1.5rem 0 1rem;
-  display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-  gap: 0.5rem;
-
-  li {
-    display: flex;
-    margin: 0;
-  }
-
-  a {
-    flex: 1;
-    display: flex;
-    align-items: center;
-    min-height: 3.5rem;
-    padding: 0.6rem 0.9rem;
-    background: var(--color-surface);
-    border: 1px solid var(--color-on-surface);
-    color: inherit;
-    font-weight: 600;
-    line-height: 1.25;
-    text-decoration: none;
-
-    &:hover,
-    &:focus-visible {
-      border-color: $color-primary;
-    }
-  }
-}
-
 // One example: image on one side, text on the other
 section.hub-example {
   display: grid;

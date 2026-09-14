@@ -19,20 +19,6 @@ sections:
 
         Communities are always experimenting and developing new workflows and ways to solve problems with their hubs. Here are a few notable use-cases that address common needs and challenges across the communities that we serve.
 
-        <ul class="hub-index">
-          <li><a href="#data">Cloud-scale data</a></li>
-          <li><a href="#practice">A shared environment</a></li>
-          <li><a href="#scale">Thousands of students</a></li>
-          <li><a href="#cost">Predictable costs</a></li>
-          <li><a href="#events">Workshops for hundreds</a></li>
-          <li><a href="#interfaces">RStudio, VS Code, desktop</a></li>
-          <li><a href="#gpu">GPUs for a classroom</a></li>
-          <li><a href="#genai">Generative AI on the hub</a></li>
-          <li><a href="#share">Reproduce from a link</a></li>
-          <li><a href="#network">Funded hub networks</a></li>
-          <li><a href="#own">No lock-in</a></li>
-        </ul>
-
         {{< hub-example id="data" community="EarthScope GeoLab" url="https://www.earthscope.org/data/geolab/"
             heading="Analysis next to the data, at cluster scale"
             stat="14 months" stat_label="of GNSS data processed in 27 seconds by 12 Dask workers on GeoLab."
