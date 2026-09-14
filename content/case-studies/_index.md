@@ -61,7 +61,7 @@ sections:
             alt="The University of Toronto JupyterHub landing page with Jupyter Notebook, RStudio, and JupyterLab log-in options"
             caption="The [datatools.utoronto.ca](https://datatools.utoronto.ca/) landing page. Students choose Notebook, RStudio, or JupyterLab and sign in with their university account." >}}
         The University of Toronto runs a Python hub, an R hub, and a high-memory hub for courses across the university, with [its own support pages](https://act.utoronto.ca/jupyterhub-support/).
-        Instructors [share assignments as `nbgitpuller` links](https://teaching.utoronto.ca/tool-guides/jupyterhub/) that open directly on the hub, and on busy days [more than 6,000 people](../blog/2024/utoronto-storage-monitoring/index.md) use it.
+        Instructors share assignments as [nbgitpuller links](https://nbgitpuller.readthedocs.io/) that open directly on the hub, and on busy days [more than 6,000 people](../blog/2024/utoronto-storage-monitoring/index.md) use it.
         {{< /hub-example >}}
 
         {{< hub-example id="cost" community="NASA Openscapes" url="https://openscapes.cloud/"
