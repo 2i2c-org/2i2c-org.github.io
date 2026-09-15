@@ -36,6 +36,7 @@ sections:
           <figcaption>
             Active communities in our network.
             See <a href="https://2i2c.org/kpis/cloud/#geographic-map-of-community-locations">our interactive map of active communities</a> for the latest data.
+            See also <a href="/case-studies/">what communities do with their hubs</a>.
           </figcaption>
         </figure>
 

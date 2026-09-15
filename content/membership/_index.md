@@ -26,7 +26,7 @@ sections:
           icon: laptop-code
           icon_pack: fas
           description: |
-            Ready-to-use cloud environments with your community's tools, data, and computational resources. Your community focuses on discovery while we manage the servers. Shared environments for reproducible collaboration.
+            Ready-to-use cloud environments with your community's tools, data, and computational resources. Your community focuses on discovery while we manage the servers. Shared environments for reproducible collaboration. See [what communities do with their hubs](../case-studies/_index.md).
         - name: For hub administrators
           icon: cogs
           icon_pack: fas
