@@ -60,6 +60,6 @@ sections:
       text: |
         - [Our public roadmap](https://2i2c.org/roadmap) shows current development priorities
         - [Upstream contributions](https://2i2c.org/kpis/upstream/) tracks what we've contributed to open source
-        - [Impact stories](/impact) shows how communities use shared infrastructure
+        - [Hubs in practice](/case-studies) shows how communities use shared infrastructure
         - [Core strategy documentation](https://compass.2i2c.org/organization/#core-strategy) has full details on our organizational strategy
 ---

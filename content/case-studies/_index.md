@@ -14,10 +14,8 @@ sections:
     id: examples
     content:
       title: What communities do with their hubs
-      subtitle: Examples of key workflows and use-cases that communities in our network do with their hubs.
+      subtitle: Examples of key workflows and use cases that communities in our network run on their hubs.
       text: |
-
-        Communities are always experimenting and developing new workflows and ways to solve problems with their hubs. Here are a few notable use-cases that address common needs and challenges across the communities that we serve.
 
         {{< hub-example id="data" community="EarthScope GeoLab" url="https://www.earthscope.org/data/geolab/"
             heading="Analysis next to the data, at cluster scale"
@@ -43,12 +41,13 @@ sections:
 
         {{< hub-example id="scale" community="University of Toronto" url="https://datatools.utoronto.ca/"
             heading="Thousands of students on one hub"
-            stat=">7,000" stat_label="monthly active users at peak"
+            stat=">6,000" stat_label="educators and learners using the hub in a single day"
             image="/images/communities/utoronto-datatools.png"
             alt="The University of Toronto JupyterHub landing page with Jupyter Notebook, RStudio, and JupyterLab log-in options"
             caption="The [datatools.utoronto.ca](https://datatools.utoronto.ca/) landing page. Students choose Notebook, RStudio, or JupyterLab and sign in with their university account." >}}
         The University of Toronto runs a Python hub, an R hub, and a high-memory hub for courses across the university, with [its own support pages](https://act.utoronto.ca/jupyterhub-support/).
-        Instructors share assignments as [nbgitpuller links](https://nbgitpuller.readthedocs.io/) that open directly on the hub, and on busy days [more than 6,000 people](../blog/2024/utoronto-storage-monitoring/index.md) use it.
+        Instructors share assignments as [nbgitpuller links](https://nbgitpuller.readthedocs.io/) that open directly on the hub.
+        [How the hub manages storage at that scale](../blog/2024/utoronto-storage-monitoring/index.md) is on our blog.
         {{< /hub-example >}}
 
         {{< hub-example id="cost" community="NASA Openscapes" url="https://openscapes.cloud/"
@@ -106,7 +105,7 @@ sections:
             caption="The [hackweek site](https://responsible-genai.hackweek.io/), by the UW eScience Institute. Tutorials cover coding agents, context engineering, Model Context Protocol servers, and agent sandboxing." >}}
         In August 2026 the UW eScience Institute, NASA Earthdata, and CryoCloud ran a five-day hackweek in Seattle on using generative AI for NASA Earth data responsibly.
         Participants worked on the CryoCloud hub, where the CryoCloud team [built an image](https://github.com/CryoInTheCloud/image-cryo-python-AI) with a Jupyter AI pre-release and [a coding agent](https://github.com/2i2c-org/infrastructure/pull/8905) that runs against [open-weight models hosted by the NSF National Research Platform](https://nrp.ai/llms/).
-        *Note: this is early work and communities are still learning the best ways to responsible incorporate GenAI in their hubs!*
+        *Note: this is early work and communities are still learning the best ways to responsibly incorporate GenAI in their hubs!*
         {{< /hub-example >}}
 
         {{< hub-example id="share" community="Project Pythia" url="https://projectpythia.org/"
@@ -152,7 +151,7 @@ sections:
       title: "Join our community network"
       text: |
         Many of these communities are [members](../members/index.md) or [collaborators](../collaborators/_index.md) of 2i2c.
-        The longer versions of these stories are in [Impact & Stories](../impact/index.md).
+        Longer versions of many of these stories are on [our blog](../blog/_index.md).
 
         {{< cta cta_text="Join our network of communities" cta_link="/join" cta_new_tab="false" >}}
 
