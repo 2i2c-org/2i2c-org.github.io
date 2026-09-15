@@ -62,13 +62,15 @@ sections:
 
         {{< hub-example id="events" community="CIROH" url="https://hub.ciroh.org/"
             heading="Workshops for hundreds"
-            stat="131" stat_label="attendees on the CIROH hub at DevCon 2025"
-            image="/images/communities/ciroh-devcon-2025.png"
-            alt="CIROH DevCon 2025 infographic showing 12 workshops, 337 attendees, and 131 attendees on the CIROH 2i2c JupyterHub"
-            caption="Infographic by CIROH, from [DevCon 2025: A DevOps and Cyberinfrastructure Success Story](https://hub.ciroh.org/blog/devcon25-infra/)." >}}
+            stat="132" stat_label="participants a day on the CIROH workshop hub at the peak of DevCon 2026"
+            image="/images/communities/ciroh-devcon-2026-usage.png"
+            alt="Chart of daily active users on the CIROH hubs around DevCon 2026, with the workshop hub rising from about 20 to over 140 during the event and falling back afterward"
+            caption="Chart by CIROH, from [Powering CIROH DevCon 2026: How CIROH and 2i2c Ran Cloud Computing at Scale](https://hub.ciroh.org/blog/devcon26-infra/). The workshop hub fills for the event and empties afterward." >}}
         Workshops bring hundreds of first-time users at once, for a day or two.
-        CIROH ran DevCon 2025 on a dedicated workshop hub with single sign-on for participants.
-        NASA Openscapes mentors ran a [machine learning workshop](https://openscapes.org/blog/2025-09-30-ornl-arset-workshop/) on their hub with 401 participants from 68 countries.
+        CIROH ran 12 of DevCon 2026's 15 hands-on workshops on a dedicated workshop hub, nine of them on software images built for the sessions.
+
+        NASA Openscapes mentors did the same at a larger scale.
+        Their [machine learning workshop](https://openscapes.org/blog/2025-09-30-ornl-arset-workshop/) on the Openscapes hub drew 401 participants from 68 countries.
         {{< /hub-example >}}
 
         {{< hub-example id="interfaces" community="NASA VEDA" url="https://www.earthdata.nasa.gov/dashboard/"
