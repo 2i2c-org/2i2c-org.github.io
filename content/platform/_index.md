@@ -33,6 +33,8 @@ sections:
         - **Shared Password** - simple authentication with a global shared password, ideal for workshops and webinars
         - **Other providers** - we also run direct Google sign-in and other standard single-sign-on providers. Ask us about yours.
 
+        See it in practice: [University of Toronto students signing in with their university accounts](/case-studies/#scale).
+
         <figure class="videofigure">
           {{< video src="videos/jupyterhub-admin.mp4">}}
 
@@ -114,6 +116,8 @@ sections:
 
         Additionally, object storage can be configured for access to scratch, persistent, or pre-existing buckets, as needed.
 
+        See it in practice: [managing home directories for thousands of students at the University of Toronto](/case-studies/#scale).
+
   - block: markdown
     id: sharing
     content:
@@ -140,6 +144,8 @@ sections:
       subtitle: ""
       text: |
         Shared knowledge bases allow communities to contribute their ideas and work to a shared space that is accessible to the community.
+
+        See it in practice: [the CryoCloud book of tutorials and hub guides](/case-studies/#practice).
 
         <figure class="videofigure">
           {{< video src="videos/jupyterbook.mp4">}}
@@ -185,6 +191,8 @@ sections:
       subtitle: ""
       text: |
         Looking to customize your hub's look and feel to match your community? We can give your hub a unique look to match your message and mission, with a customizable landing page, branding, and announcements area.
+
+        See it in practice: [the University of Toronto's branded landing page](/case-studies/#scale).
 
   - block: markdown
     id: join

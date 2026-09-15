@@ -1,6 +1,6 @@
 ---
 # Page title
-title: What communities do with their hubs
+title: Hubs in practice
 # Page type - we want a landing page (such as a homepage)
 type: landing
 
@@ -9,13 +9,20 @@ type: landing
 # space, attribute it in the caption, and use *their* content for quotes or numbers.
 # We want to highlight (and give attribution for) their work, not make this about us.
 # See layouts/shortcodes/hub-example.html for the shortcode definition / parameters / etc.
+# The jump list at the top of the page is maintained by hand: update it when you add or remove an example.
 sections:
   - block: markdown
     id: examples
     content:
-      title: What communities do with their hubs
-      subtitle: Examples of key workflows and use cases that communities in our network run on their hubs.
+      title: Hubs in practice
+      subtitle: What communities in our network do with their hubs.
       text: |
+
+        <div class="hub-example-index">
+
+        [Compute next to data](#data) ⋅ [Shared learning environments](#practice) ⋅ [Thousands of students](#scale) ⋅ [Predictable costs](#cost) ⋅ [Workshops and events](#events) ⋅ [Notebooks, RStudio, desktops](#interfaces) ⋅ [GPUs](#gpu) ⋅ [GenAI](#genai) ⋅ [Reproducible sharing](#share) ⋅ [Networks of hubs](#network) ⋅ [Right to replicate](#own)
+
+        </div>
 
         {{< hub-example id="data" community="EarthScope GeoLab" url="https://www.earthscope.org/data/geolab/"
             heading="Analysis next to the data, at cluster scale"
@@ -44,7 +51,7 @@ sections:
             stat=">6,000" stat_label="educators and learners using the hub in a single day"
             image="/images/communities/utoronto-datatools.png"
             alt="The University of Toronto JupyterHub landing page with Jupyter Notebook, RStudio, and JupyterLab log-in options"
-            caption="The [datatools.utoronto.ca](https://datatools.utoronto.ca/) landing page. Students choose Notebook, RStudio, or JupyterLab and sign in with their university account." >}}
+            caption="The [datatools.utoronto.ca](https://datatools.utoronto.ca/) landing page, branded for the university. Students choose Notebook, RStudio, or JupyterLab and sign in with their university account." >}}
         The University of Toronto runs a Python hub, an R hub, and a high-memory hub for courses across the university, with [its own support pages](https://act.utoronto.ca/jupyterhub-support/).
         Instructors share assignments as [nbgitpuller links](https://nbgitpuller.readthedocs.io/) that open directly on the hub.
         [How the hub manages storage at that scale](../blog/2024/utoronto-storage-monitoring/index.md) is on our blog.
@@ -105,7 +112,7 @@ sections:
             caption="The [hackweek site](https://responsible-genai.hackweek.io/), by the UW eScience Institute. Tutorials cover coding agents, context engineering, Model Context Protocol servers, and agent sandboxing." >}}
         In August 2026 the UW eScience Institute, NASA Earthdata, and CryoCloud ran a five-day hackweek in Seattle on using generative AI for NASA Earth data responsibly.
         Participants worked on the CryoCloud hub, where the CryoCloud team [built an image](https://github.com/CryoInTheCloud/image-cryo-python-AI) with a Jupyter AI pre-release and [a coding agent](https://github.com/2i2c-org/infrastructure/pull/8905) that runs against [open-weight models hosted by the NSF National Research Platform](https://nrp.ai/llms/).
-        *Note: this is early work and communities are still learning the best ways to responsibly incorporate GenAI in their hubs!*
+        This is early work, and communities are still learning how to incorporate generative AI in their hubs responsibly.
         {{< /hub-example >}}
 
         {{< hub-example id="share" community="Project Pythia" url="https://projectpythia.org/"
@@ -133,7 +140,7 @@ sections:
         {{< /hub-example >}}
 
         {{< hub-example id="own" community="CloudBank" url="https://www.cloudbank.org/"
-            heading="No lock-in"
+            heading="Your right to replicate"
             image="/images/communities/cloudbank-config-github.png"
             alt="The CloudBank cluster configuration folder in the public 2i2c infrastructure repository on GitHub, with a recent commit by a CloudBank engineer"
             caption="CloudBank's hub configuration in [our public infrastructure repository](https://github.com/2i2c-org/infrastructure/tree/main/config/clusters/cloudbank). The latest commit shown is by a member of the CloudBank team." >}}
