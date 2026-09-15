@@ -10,6 +10,14 @@ section.hub-example {
   padding: 3rem 0;
   border-top: 1px solid var(--color-on-surface);
 
+  // Break out wider than the page column so the wide screenshots are tall
+  // enough to sit beside their text. Shrinks with the viewport on small screens.
+  // (Written without CSS min() because Hugo's Sass compiler intercepts it.)
+  width: calc(100vw - 3rem);
+  max-width: 1140px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+
   // Alternate which side the image sits on
   &:nth-of-type(even) .hub-example-media {
     order: 2;

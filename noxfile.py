@@ -61,6 +61,7 @@ def linkcheck(session):
     )
 
 @nox.session(name="docs-live")
+@nox.session(name="docs:live")
 def docs_live(session):
     """Build and serve the Hugo documentation site with live reload.
 
