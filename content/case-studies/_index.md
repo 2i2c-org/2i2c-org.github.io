@@ -20,12 +20,12 @@ sections:
 
         <div class="hub-example-index">
 
-        [Compute next to data](#data) ⋅ [Shared learning environments](#practice) ⋅ [Thousands of students](#scale) ⋅ [Predictable costs](#cost) ⋅ [Workshops and events](#events) ⋅ [Notebooks, RStudio, desktops](#interfaces) ⋅ [GPUs](#gpu) ⋅ [GenAI](#genai) ⋅ [Reproducible sharing](#share) ⋅ [Networks of hubs](#network) ⋅ [Right to replicate](#own)
+        [Analyze data where it lives](#data) ⋅ [Learn as a field](#practice) ⋅ [Thousands of students](#scale) ⋅ [Predictable costs](#cost) ⋅ [Workshops](#events) ⋅ [Notebooks, RStudio, desktops](#interfaces) ⋅ [GPUs](#gpu) ⋅ [Generative AI](#genai) ⋅ [Run analyses from a link](#share) ⋅ [Networks of hubs](#network) ⋅ [Right to replicate](#own)
 
         </div>
 
         {{< hub-example id="data" community="EarthScope GeoLab" url="https://www.earthscope.org/data/geolab/"
-            heading="Analysis next to the data, at cluster scale"
+            heading="Analyze data where it lives, then scale up to a cluster"
             stat="14 months" stat_label="of satellite positioning (GNSS) data processed in 27 seconds by 12 Dask workers on GeoLab."
             image="/images/communities/earthscope-gnss-benchmark.png"
             alt="Bar chart comparing days of GNSS data processed per second from downloaded files, analysis-ready data, and analysis-ready data with a compute cluster"
@@ -37,8 +37,8 @@ sections:
         {{< /hub-example >}}
 
         {{< hub-example id="practice" community="CryoCloud" url="https://cryointhecloud.com/"
-            heading="A shared environment a field can learn on"
-            stat="500+" stat_label="scientists onboarded since 2022 through workshops, hackweeks, and open learning resources"
+            heading="One environment where a whole field learns together"
+            stat="500+" stat_label="scientists trained since 2022 through workshops, hackweeks, and open tutorials"
             image="/images/communities/cryocloud-tutorials.png"
             alt="The tutorials page of the CryoCloud Jupyter Book, listing notebooks and recordings"
             caption="[The CryoCloud book](https://book.cryointhecloud.com/): tutorials, onboarding recordings, and hub guides written by the CryoCloud community." >}}
@@ -72,7 +72,7 @@ sections:
         {{< /hub-example >}}
 
         {{< hub-example id="events" community="CIROH" url="https://hub.ciroh.org/"
-            heading="Workshops for hundreds"
+            heading="Workshops for hundreds of people at once"
             stat="132" stat_label="participants a day on the CIROH workshop hub at the peak of DevCon 2026"
             image="/images/communities/ciroh-devcon-2026-usage.png"
             alt="Chart of daily active users on the CIROH hubs around DevCon 2026, with the workshop hub rising from about 20 to over 140 during the event and falling back afterward"
@@ -85,11 +85,12 @@ sections:
         {{< /hub-example >}}
 
         {{< hub-example id="interfaces" community="NASA VEDA" url="https://www.earthdata.nasa.gov/dashboard/"
-            heading="Notebooks, RStudio, VS Code, web apps, or a desktop"
+            heading="Notebooks, RStudio, VS Code, or a full desktop"
             image="/images/communities/veda-server-options.png"
             alt="The NASA VEDA server options page, with a Pangeo notebook environment and an NVIDIA T4 GPU option"
             caption="The launch page of the [NASA VEDA hub](https://docs.openveda.cloud/user-guide/scientific-computing/). Users pick the environment and server size each time." >}}
-        NASA VEDA's launch page offers a Python environment, RStudio, or a [Linux desktop with QGIS](/platform/#desktop), with an optional [GPU](/platform/#compute), and [VEDA's docs](https://docs.openveda.cloud/user-guide/scientific-computing/) cover VS Code on the same hub.
+        NASA VEDA's launch page offers a Python environment, RStudio, or a [Linux desktop with QGIS](/platform/#desktop), each with an optional [GPU](/platform/#compute).
+        [VEDA's docs](https://docs.openveda.cloud/user-guide/scientific-computing/) also cover VS Code on the same hub.
         [Development Seed](../collaborators/devseed/index.md) and 2i2c demonstrated an [Open in QGIS button](../blog/2025/veda-update-q4-2024/index.md) that takes a layer from the VEDA dashboard straight into QGIS on the hub.
 
         On its own hub, [Openscapes](https://openscapes.org/blog/2023-10-17-matlab-on-openscapes/) runs MATLAB with users' own licenses.
@@ -102,34 +103,36 @@ sections:
             alt="Line chart of GPU utilization during the workshop"
             caption="GPU load during the tutorial, taught by Eric Van Dusen and Sean Morris of UC Berkeley for CloudBank Classroom. Chart from [our write-up](../blog/2026/t4-gpu-timeslicing/index.md)." >}}
         CloudBank Classroom taught [Teaching in the AI Classroom](https://events.internet2.edu/website/89730/tutorials/) at the NAIRR annual meeting on a GPU-enabled hub.
-        The cloud provider could not supply one GPU per learner, so learners shared GPUs, sized from measurements beforehand, and the tutorial ran without issues.
+        The cloud provider could not supply one GPU per learner, so learners shared GPUs.
+        We measured how much GPU each learner needed beforehand, and the tutorial ran without problems.
         [How GPU sharing works](../blog/2026/t4-gpu-timeslicing/index.md) is on our blog.
         {{< /hub-example >}}
 
         {{< hub-example id="genai" community="Responsible Gen-AI for NASA Earthdata" url="https://responsible-genai.hackweek.io/"
-            heading="Jupyter AI and coding agents, inside the hub"
+            heading="Jupyter AI and coding agents inside the hub"
             image="/images/communities/responsible-genai-hackweek.png"
             alt="Landing page of the Responsible Gen-AI for NASA Earthdata 2026 hackweek, August 24 to 28 in Seattle"
             caption="The [hackweek site](https://responsible-genai.hackweek.io/), by the UW eScience Institute. Tutorials cover coding agents, context engineering, Model Context Protocol servers, and agent sandboxing." >}}
         In August 2026 the UW eScience Institute, NASA Earthdata, and CryoCloud ran a five-day hackweek in Seattle on using generative AI for NASA Earth data responsibly.
         Participants worked on the CryoCloud hub, where the CryoCloud team [built an image](https://github.com/CryoInTheCloud/image-cryo-python-AI) with a Jupyter AI pre-release and [a coding agent](https://github.com/2i2c-org/infrastructure/pull/8905) that runs against [open-weight models hosted by the NSF National Research Platform](https://nrp.ai/llms/).
-        This is early work, and communities are still learning how to incorporate generative AI in their hubs responsibly.
+        This is early work, and communities are still learning how best to use generative AI in their hubs.
         {{< /hub-example >}}
 
         {{< hub-example id="share" community="Project Pythia" url="https://projectpythia.org/"
-            heading="Reproduce an analysis from a link"
+            heading="Run a published analysis from a link"
             stat="30+" stat_label="geoscience cookbooks, each with a launch button that runs it in the browser"
             image="/images/communities/pythia-cookbook-gallery.png"
             alt="The Project Pythia cookbook gallery with cards for several cookbooks"
-            caption="[The Project Pythia cookbook gallery](https://cookbooks.projectpythia.org/). Cookbooks are binderized so each can run in the cloud with one click." >}}
+            caption="[The Project Pythia cookbook gallery](https://cookbooks.projectpythia.org/). Each cookbook has a launch button, so it runs in the cloud with one click." >}}
         Project Pythia's cookbooks are complete, re-runnable analyses.
-        Each opens on a [BinderHub](/platform/#sharing), so a reader can run it without installing anything, and cookbooks that need more compute than GitHub provides are [executed on the Pythia Binder](https://projectpythia.org/cookbook-guide/) instead.
+        Each opens on a [BinderHub](/platform/#sharing), so a reader can run it without installing anything.
+        Cookbooks that need more compute than GitHub provides [run on the Pythia Binder](https://projectpythia.org/cookbook-guide/) instead.
         Pythia's Binder runs on [NSF Jetstream2](https://jetstream-cloud.org/).
         [How we deployed it](../blog/2025/jetstream-binderhub/index.md) is on our blog.
         {{< /hub-example >}}
 
         {{< hub-example id="network" community="CloudBank Classroom" url="https://www.cloudbank.org/training/access-cloudbank-classroom"
-            heading="Funded networks of hubs that share the same workflow"
+            heading="Networks of hubs that share one setup"
             stat="~70" stat_label="hubs run from one shared configuration"
             image="/images/communities/cloudbank-hub-logos.png"
             alt="Logos of two dozen colleges and universities with CloudBank Classroom hubs"
@@ -149,7 +152,7 @@ sections:
         Every hub is deployed from open source and a public configuration you can fork, and you keep the [right to replicate](../right-to-replicate/index.md) it elsewhere.
         [CloudBank](https://www.cloudbank.org/)'s team now [deploys changes to their own cluster](../blog/2026/cloudbank-self-service/index.md).
 
-        As Catalyst Project funding wound down, [CCAD](https://supercomputo.unc.edu.ar/2025/09/02/colgando-a-boogie/) in Argentina [used it to buy on-premise hardware](../blog/2025/catalyst-hardware-exchange/index.md) for its own JupyterHub.
+        As Catalyst Project funding wound down, [CCAD](https://supercomputo.unc.edu.ar/2025/09/02/colgando-a-boogie/) in Argentina [used the remaining funds to buy on-premise hardware](../blog/2025/catalyst-hardware-exchange/index.md) for its own JupyterHub.
 
         EarthScope, Openscapes, and CIROH run their hubs in cloud accounts they own.
         {{< /hub-example >}}
