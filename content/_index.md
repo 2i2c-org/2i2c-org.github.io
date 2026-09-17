@@ -97,7 +97,7 @@ sections:
           </figcaption>
         </figure>
 
-        {{< cta cta_text="See how communities use their hubs" cta_link="/case-studies" cta_new_tab="false" >}}
+        {{< cta cta_text="See hubs in practice" cta_link="/case-studies" cta_new_tab="false" >}}
 
   - block: features
     id: why-2i2c

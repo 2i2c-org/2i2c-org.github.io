@@ -33,6 +33,8 @@ sections:
         - **Shared Password** - simple authentication with a global shared password, ideal for workshops and webinars
         - **Other providers** - we also run direct Google sign-in and other standard single-sign-on providers. Ask us about yours.
 
+        See it in practice: [University of Toronto students signing in with their university accounts](/case-studies/#scale).
+
         <figure class="videofigure">
           {{< video src="videos/jupyterhub-admin.mp4">}}
 
@@ -42,12 +44,15 @@ sections:
         </figure>      
 
   - block: features
+    id: compute
     content:
       title: Compute
       subtitle: | 
         We offer a choice of CPU, Memory (from 4GB to 512GB) and GPU configurations for all types of workloads, with added support for Dask Gateway for task parallelization. 
 
         We can also co-locate your hub's compute next to your cloud data to improve performance and costs, with AWS and Google Cloud Platform supported out-of-the-box, and Azure configurations available on request.
+
+        See it in practice: [EarthScope scaling GNSS processing with Dask](/case-studies/#data) and [GPUs for a CloudBank classroom](/case-studies/#gpu).
 
       items:
         - icon: google-cloud
@@ -64,11 +69,14 @@ sections:
           description: ""
 
   - block: markdown
+    id: user-interface
     content:
       title: User interface
       subtitle: ""
       text: |
         JupyterLab provides a flexible interface to create and explore notebooks, interactive visualizations, and computational narratives.
+
+        See it in practice: [NASA VEDA's launch page](/case-studies/#interfaces) with notebooks, RStudio, VS Code, and a desktop.
 
         <figure class="videofigure">
           {{< video src="videos/jupyterlab.mp4">}}
@@ -97,6 +105,8 @@ sections:
 
         {{< softwarestacklogos >}}
 
+        See it in practice: [CryoCloud's shared environment and tutorials](/case-studies/#practice).
+
   - block: markdown
     content:
       title: Storage
@@ -106,7 +116,10 @@ sections:
 
         Additionally, object storage can be configured for access to scratch, persistent, or pre-existing buckets, as needed.
 
+        See it in practice: [managing home directories for thousands of students at the University of Toronto](/case-studies/#scale).
+
   - block: markdown
+    id: sharing
     content:
       title: Sharing
       subtitle: ""
@@ -114,6 +127,8 @@ sections:
         Learning and discovery through interactive cloud computing are more powerful when shared.
 
         You can choose to let your hub users share their fully interactive projects through ephemeral hubs generated on the fly, giving others the opportunity to experience their work in full by simply clicking on a shared link.
+
+        See it in practice: [Project Pythia's runnable cookbooks](/case-studies/#share).
 
         <figure class="videofigure">
           {{< video src="videos/magic-links.mp4">}}
@@ -130,6 +145,8 @@ sections:
       text: |
         Shared knowledge bases allow communities to contribute their ideas and work to a shared space that is accessible to the community.
 
+        See it in practice: [the CryoCloud book of tutorials and hub guides](/case-studies/#practice).
+
         <figure class="videofigure">
           {{< video src="videos/jupyterbook.mp4">}}
 
@@ -139,11 +156,14 @@ sections:
         </figure>
 
   - block: markdown
+    id: desktop
     content:
       title: Desktop applications
       subtitle: ""
       text: |
         You can provide users a full linux UI that provides access to GUI applications via the web.
+
+        See it in practice: [QGIS on a desktop at NASA VEDA](/case-studies/#interfaces).
 
         <figure class="videofigure">
           {{< video src="videos/desktop.mp4">}}
@@ -154,11 +174,14 @@ sections:
         </figure>              
 
   - block: markdown
+    id: reporting
     content:
       title: Reporting and quotas
       subtitle: ""
       text: |
         Our hubs come standard with Grafana access to help users and administrators keep an eye on their usage and cost analytics, which together with configurable storage quotas help ensure that cost overruns and unexpected bill shocks are a thing of the past.
+
+        See it in practice: [Openscapes pricing a workflow at 74 cents](/case-studies/#cost).
 
         {{< figure src="/images/service/grafana.png" alt="Grafana dashboard">}}
 
@@ -168,6 +191,8 @@ sections:
       subtitle: ""
       text: |
         Looking to customize your hub's look and feel to match your community? We can give your hub a unique look to match your message and mission, with a customizable landing page, branding, and announcements area.
+
+        See it in practice: [the University of Toronto's branded landing page](/case-studies/#scale).
 
   - block: markdown
     id: join

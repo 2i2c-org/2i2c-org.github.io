@@ -1,5 +1,5 @@
 ---
-title: Cloudbank
+title: CloudBank
 tags:
   - collaborator
 show_date: false
@@ -7,6 +7,6 @@ show_date: false
 
 ![](featured.png)
 
-Cloudbank enables and provides "anaged Services to Simplify Cloud Access for Computer Science Research and Education".
+[CloudBank](https://www.cloudbank.org/) is an NSF-funded service that simplifies access to the commercial cloud for computer science research and education, run by UC San Diego, UC Berkeley, and the University of Washington.
 
-In particular, the [CloudBank Classroom](https://www.cloudbank.org/training/access-cloudbank-classroom) project is driving a lot of collaboration with 2i2c via our shared work on JupyterHubs for education.
+2i2c partners with CloudBank to host and support [CloudBank Classroom](https://www.cloudbank.org/training/access-cloudbank-classroom), a lightweight, cloud-hosted JupyterHub designed for teaching.

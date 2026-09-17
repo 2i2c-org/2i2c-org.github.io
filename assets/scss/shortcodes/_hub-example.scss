@@ -1,0 +1,102 @@
+// For use with the {{< hub-example >}} shortcode and the index list above it
+// HTML here: layouts/shortcodes/hub-example.html
+
+// Jump list above the examples
+.hub-example-index {
+  margin-bottom: 1rem;
+  text-align: center;
+
+  // Wrap between items, never inside one
+  a {
+    white-space: nowrap;
+  }
+}
+
+// One example: image on one side, text on the other
+section.hub-example {
+  display: grid;
+  grid-template-columns: 1.15fr 1fr;
+  gap: 2.75rem;
+  align-items: start;
+  padding: 3rem 0;
+  border-top: 1px solid var(--color-on-surface);
+
+  // Break out wider than the page column so the wide screenshots are tall enough to sit beside their text.
+  // Shrinks with the viewport on small screens.
+  // Written without CSS min() because Hugo's Sass compiler intercepts it.
+  width: calc(100vw - 3rem);
+  max-width: 1140px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+
+  // Alternate which side the image sits on
+  &:nth-of-type(even) .hub-example-media {
+    order: 2;
+  }
+
+  // Grid children default to min-width: auto, which lets wide images overflow
+  > * {
+    min-width: 0;
+  }
+
+  figure.hub-example-media {
+    margin: 0;
+    max-width: 100%;
+
+    img {
+      width: 100%;
+      height: auto;
+      border: 1px solid var(--color-on-surface);
+    }
+
+    figcaption {
+      font-size: 0.85rem;
+      margin-top: 0.5rem;
+      line-height: 1.4;
+      opacity: 0.8;
+    }
+  }
+
+  .hub-example-community {
+    font-weight: 600;
+    margin: 0 0 0.4rem;
+  }
+
+  h2 {
+    margin: 0 0 1rem;
+    line-height: 1.15;
+  }
+
+  .hub-example-stat {
+    margin: 0 0 1rem;
+    line-height: 1.2;
+
+    b {
+      display: block;
+      font-size: 2.2rem;
+      font-weight: 700;
+      font-variant-numeric: tabular-nums;
+    }
+
+    span {
+      font-size: 0.95rem;
+      opacity: 0.8;
+    }
+  }
+
+  .hub-example-text p:last-child {
+    margin-bottom: 0;
+  }
+
+  @media (max-width: 767px) {
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+    padding: 2rem 0;
+
+    // Image always first on small screens
+    .hub-example-media,
+    &:nth-of-type(even) .hub-example-media {
+      order: -1;
+    }
+  }
+}

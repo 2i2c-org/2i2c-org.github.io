@@ -21,19 +21,19 @@
   name = "Impact & Stories"
   parent = "Communities"
   url = "impact/"
-  weight = 11
+  weight = 12
 
 [[main]]
-  name = "Case studies"
+  name = "Hubs in practice"
   parent = "Communities"
   url = "case-studies/"
-  weight = 14
+  weight = 11
 
 [[main]]
   name = "Member communities"
   parent = "Communities"
   url = "members/"
-  weight = 12
+  weight = 14
 
 [[main]]
   name = "Collaborators and funders"
