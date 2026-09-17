@@ -5,8 +5,8 @@ title: Hubs in practice
 type: landing
 
 # Each example below is one {{< hub-example >}} block.
-# The community is the subject: link to their site, use an image from their
-# space, attribute it in the caption, and use *their* content for quotes or numbers.
+# The community is the subject: link to their site and use their content for quotes and numbers.
+# Prefer an image from their spaces and websites, attributed in the caption. If an image or number ours, make that clear.
 # We want to highlight (and give attribution for) their work, not make this about us.
 # See layouts/shortcodes/hub-example.html for the shortcode definition / parameters / etc.
 # The jump list at the top of the page is maintained by hand: update it when you add or remove an example.
@@ -21,17 +21,17 @@ sections:
 
         <div class="hub-example-index">
 
-        [Analyze data where it lives](#data) ⋅ [Learn as a field](#practice) ⋅ [Thousands of students](#scale) ⋅ [Predictable costs](#cost) ⋅ [Workshops](#events) ⋅ [Notebooks, RStudio, desktops](#interfaces) ⋅ [GPUs](#gpu) ⋅ [Generative AI](#genai) ⋅ [Run analyses from a link](#share) ⋅ [Networks of hubs](#network) ⋅ [Right to replicate](#own)
+        [Analyze data where it lives](#data) ⋅ [Learn as a field](#practice) ⋅ [Thousands of students](#scale) ⋅ [Networks of hubs](#network) ⋅ [Predictable costs](#cost) ⋅ [Workshops](#events) ⋅ [Notebooks, RStudio, desktops](#interfaces) ⋅ [GPUs](#gpu) ⋅ [Generative AI](#genai) ⋅ [Run analyses from a link](#share) ⋅ [Take it anywhere](#own)
 
         </div>
 
         {{< hub-example id="data" community="EarthScope GeoLab" url="https://www.earthscope.org/data/geolab/"
             heading="Analyze data where it lives, then scale up to a cluster"
-            stat="14 months" stat_label="of satellite positioning (GNSS) data processed in 27 seconds by 12 Dask workers on GeoLab."
+            stat="14 months" stat_label="of satellite positioning (GNSS) data processed in 27 seconds by 12 Dask workers on GeoLab"
             image="/images/communities/earthscope-gnss-benchmark.png"
             alt="Bar chart comparing days of GNSS data processed per second from downloaded files, analysis-ready data, and analysis-ready data with a compute cluster"
             caption="Days of GNSS data processed per second, from downloaded files, from cloud-optimized data, and from cloud-optimized data with a Dask cluster. The cluster makes the biggest difference. Chart by EarthScope, from [Pancakes are the future of geophysical data processing](https://www.earthscope.org/news/pancakes-are-the-future-of-geophysical-data-processing/)." >}}
-        EarthScope built GeoLab beside its cloud-optimized geodesy archive on AWS, so researchers start in a small notebook server and scale out to a [Dask cluster](/platform/#compute) from the same browser tab.
+        EarthScope, which operates the [NSF National Geophysical Facility](https://www.earthscope.org/about/), built GeoLab beside its cloud-optimized geodesy archive on AWS, so researchers start in a small notebook server and scale out to a [Dask cluster](/platform/#compute) from the same browser tab.
         In June 2026 EarthScope [opened GeoLab to its whole community](https://www.earthscope.org/news/geolab-cloud-compute-hub-now-open-to-all-users/) of [nearly 400 member institutions](https://www.earthscope.org/about/membership/).
 
         [NASA MAAP](https://www.earthdata.nasa.gov/about/maap) and [LEAP](https://leap.columbia.edu/) work the same way, with hubs beside petabytes of Earth and climate data.
@@ -39,13 +39,13 @@ sections:
 
         {{< hub-example id="practice" community="CryoCloud" url="https://cryointhecloud.com/"
             heading="One environment where a whole field learns together"
-            stat="500+" stat_label="scientists trained since 2022 through workshops, hackweeks, and open tutorials"
+            stat="500+" stat_label="scientists onboarded since 2022 through workshops, hackathons, and open learning resources"
             image="/images/communities/cryocloud-tutorials.png"
             alt="The tutorials page of the CryoCloud Jupyter Book, listing notebooks and recordings"
             caption="[The CryoCloud book](https://book.cryointhecloud.com/): tutorials, onboarding recordings, and hub guides written by the CryoCloud community." >}}
         CryoCloud began as a hub for NASA cryosphere scientists and now serves Earth scientists more broadly.
         It runs next to NASA Earth data, with several community-maintained Python and R environments and a book of tutorials that [hackweeks](https://icesat-2.hackweek.io/) and science teams build on.
-        Its leaders described the approach in [*Democratizing Science in the Cloud*](https://eos.org/opinions/democratizing-science-in-the-cloud), including 12 hackathon-style workshops on the hub at about a dollar per person per day.
+        Its leaders described the approach, and the numbers here, in [*Democratizing Science in the Cloud*](https://eos.org/opinions/democratizing-science-in-the-cloud): 12 hackathon-style workshops on the hub at about a dollar per person per day.
         {{< /hub-example >}}
 
         {{< hub-example id="scale" community="University of Toronto" url="https://datatools.utoronto.ca/"
@@ -56,7 +56,20 @@ sections:
             caption="The [datatools.utoronto.ca](https://datatools.utoronto.ca/) landing page, branded for the university. Students choose Notebook, RStudio, or JupyterLab and sign in with their university account." >}}
         The University of Toronto runs a Python hub, an R hub, and a high-memory hub for courses across the university, with [its own support pages](https://act.utoronto.ca/jupyterhub-support/).
         Instructors share assignments as [nbgitpuller links](https://nbgitpuller.readthedocs.io/) that open directly on the hub.
-        [How the hub manages storage at that scale](../blog/2024/utoronto-storage-monitoring/index.md) is on our blog.
+        The usage numbers, and [how the hub manages storage at that scale](../blog/2024/utoronto-storage-monitoring/index.md), are on our blog.
+        {{< /hub-example >}}
+
+        {{< hub-example id="network" community="CloudBank Classroom" url="https://www.cloudbank.org/training/access-cloudbank-classroom"
+            heading="Networks of hubs that share one setup"
+            stat="~100" stat_label="hubs run from one shared configuration"
+            image="/images/communities/cloudbank-hub-logos.png"
+            alt="Logos of two dozen colleges and universities with CloudBank Classroom hubs"
+            caption="Some of the California colleges and universities with a CloudBank Classroom hub. The full list is in [CloudBank's hub configuration](https://github.com/2i2c-org/infrastructure/blob/main/config/clusters/cloudbank/cluster.yaml)." >}}
+        One program can sponsor hubs for many groups, with one setup and one support team.
+        NSF's CloudBank Classroom gives colleges the same Jupyter setup Berkeley uses for [Data 8](https://data8.org/).
+
+        NASA runs [the same hub software](https://docs.maap-project.org/en/hub/system_reference_guide/faq/ade_to_hub.html) across VEDA, the [GHG Center](https://earth.gov/ghgcenter), [MAAP](https://maap-project.org/), and Disasters.
+        The [CZI](../collaborators/czi/index.md)-funded [Catalyst Project](../collaborators/catalyst/index.md) ran hubs for [19 biomedical groups in Africa and Latin America](../blog/2024/catalyst-partner-highlights/index.md).
         {{< /hub-example >}}
 
         {{< hub-example id="cost" community="NASA Openscapes" url="https://openscapes.cloud/"
@@ -79,7 +92,7 @@ sections:
             alt="Chart of daily active users on the CIROH hubs around DevCon 2026, with the workshop hub rising from about 20 to over 140 during the event and falling back afterward"
             caption="Chart by CIROH, from [Powering CIROH DevCon 2026: How CIROH and 2i2c Ran Cloud Computing at Scale](https://hub.ciroh.org/blog/devcon26-infra/). The workshop hub fills for the event and empties afterward." >}}
         Workshops bring hundreds of first-time users at once, for a day or two.
-        CIROH ran 12 of DevCon 2026's 15 hands-on workshops on a dedicated workshop hub, nine of them on software images built for the sessions.
+        CIROH, the NOAA-funded Cooperative Institute for Research to Operations in Hydrology, ran 12 of DevCon 2026's 15 hands-on workshops on a dedicated workshop hub, nine of them on software images built for the sessions.
 
         NASA Openscapes mentors did the same at a larger scale.
         Their [machine learning workshop](https://openscapes.org/blog/2025-09-30-ornl-arset-workshop/) on the Openscapes hub drew 401 participants from 68 countries.
@@ -105,7 +118,7 @@ sections:
             caption="GPU load during the tutorial, taught by Eric Van Dusen and Sean Morris of UC Berkeley for CloudBank Classroom. Chart from [our write-up](../blog/2026/t4-gpu-timeslicing/index.md)." >}}
         CloudBank Classroom taught [Teaching in the AI Classroom](https://events.internet2.edu/website/89730/tutorials/) at the NAIRR annual meeting on a GPU-enabled hub.
         The cloud provider could not supply one GPU per learner, so learners shared GPUs.
-        We measured how much GPU each learner needed beforehand, and the tutorial ran without problems.
+        2i2c measured how much GPU each learner needed beforehand, and the tutorial ran without problems.
         [How GPU sharing works](../blog/2026/t4-gpu-timeslicing/index.md) is on our blog.
         {{< /hub-example >}}
 
@@ -132,20 +145,9 @@ sections:
         [How we deployed it](../blog/2025/jetstream-binderhub/index.md) is on our blog.
         {{< /hub-example >}}
 
-        {{< hub-example id="network" community="CloudBank Classroom" url="https://www.cloudbank.org/training/access-cloudbank-classroom"
-            heading="Networks of hubs that share one setup"
-            stat="~70" stat_label="hubs run from one shared configuration"
-            image="/images/communities/cloudbank-hub-logos.png"
-            alt="Logos of two dozen colleges and universities with CloudBank Classroom hubs"
-            caption="Some of the institutions with a CloudBank Classroom hub, from California community colleges to HBCUs and research universities." >}}
-        CloudBank Classroom gives colleges the same Jupyter setup Berkeley uses for [Data 8](https://data8.org/).
 
-        NASA runs [the same hub software](https://docs.maap-project.org/en/hub/system_reference_guide/faq/ade_to_hub.html) across VEDA, the [GHG Center](https://earth.gov/ghgcenter), [MAAP](https://maap-project.org/), and Disasters.
-        The [CZI](../collaborators/czi/index.md)-funded [Catalyst Project](../collaborators/catalyst/index.md) ran hubs for [19 biomedical groups in Africa and Latin America](../blog/2024/catalyst-partner-highlights/index.md).
-        {{< /hub-example >}}
-
-        {{< hub-example id="own" community="Open infrastructure" url="/open-practices/"
-            heading="Your right to replicate and control"
+        {{< hub-example id="own" community="CloudBank" url="https://www.cloudbank.org/"
+            heading="Control your hub, and take it anywhere"
             image="/images/communities/cloudbank-config-github.png"
             alt="The CloudBank cluster configuration folder in the public 2i2c infrastructure repository on GitHub, with a recent commit by a CloudBank engineer"
             caption="CloudBank's hub configuration in [our public infrastructure repository](https://github.com/2i2c-org/infrastructure/tree/main/config/clusters/cloudbank). The latest commit shown is by a member of the CloudBank team." >}}
@@ -163,9 +165,11 @@ sections:
     content:
       title: "Join our community network"
       text: |
-        Many of these communities are [members](../members/index.md) or [collaborators](../collaborators/_index.md) of 2i2c.
-        Longer versions of many of these stories are on [our blog](../blog/_index.md).
+        Many of these communities are [members](../members/index.md) or [collaborators](../collaborators/_index.md) of 2i2c, and many of their hubs are sponsored by a funder or program for the field it serves.
+        Longer versions of these stories are on [our blog](../blog/_index.md), and [Impact & Stories](../impact/index.md) has more numbers across our whole network.
 
-        {{< cta cta_text="Join our network of communities" cta_link="/join" cta_new_tab="false" >}}
+        If you lead a community that needs a hub, or fund communities that do, we'd like to hear from you.
+
+        {{< cta cta_text="Talk to us" cta_link="/join" cta_new_tab="false" >}}
 
 ---
