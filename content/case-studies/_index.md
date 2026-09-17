@@ -26,12 +26,12 @@ sections:
 
         {{< hub-example id="data" community="EarthScope GeoLab" url="https://www.earthscope.org/data/geolab/"
             heading="Analysis next to the data, at cluster scale"
-            stat="14 months" stat_label="of GNSS data processed in 27 seconds by 12 Dask workers on GeoLab."
+            stat="14 months" stat_label="of satellite positioning (GNSS) data processed in 27 seconds by 12 Dask workers on GeoLab."
             image="/images/communities/earthscope-gnss-benchmark.png"
             alt="Bar chart comparing days of GNSS data processed per second from downloaded files, analysis-ready data, and analysis-ready data with a compute cluster"
-            caption="Chart by EarthScope, from [Pancakes are the future of geophysical data processing](https://www.earthscope.org/news/pancakes-are-the-future-of-geophysical-data-processing/)." >}}
+            caption="Days of GNSS data processed per second, from downloaded files, from cloud-optimized data, and from cloud-optimized data with a Dask cluster. The cluster makes the biggest difference. Chart by EarthScope, from [Pancakes are the future of geophysical data processing](https://www.earthscope.org/news/pancakes-are-the-future-of-geophysical-data-processing/)." >}}
         EarthScope built GeoLab beside its cloud-optimized geodesy archive on AWS, so researchers start in a small notebook server and scale out to a [Dask cluster](/platform/#compute) from the same browser tab.
-        In June 2026 EarthScope [opened GeoLab to its whole community](https://www.earthscope.org/news/geolab-cloud-compute-hub-now-open-to-all-users/).
+        In June 2026 EarthScope [opened GeoLab to its whole community](https://www.earthscope.org/news/geolab-cloud-compute-hub-now-open-to-all-users/) of [nearly 400 member institutions](https://www.earthscope.org/about/membership/).
 
         [NASA MAAP](https://www.earthdata.nasa.gov/about/maap) and [LEAP](https://leap.columbia.edu/) work the same way, with hubs beside petabytes of Earth and climate data.
         {{< /hub-example >}}
@@ -42,7 +42,8 @@ sections:
             image="/images/communities/cryocloud-tutorials.png"
             alt="The tutorials page of the CryoCloud Jupyter Book, listing notebooks and recordings"
             caption="[The CryoCloud book](https://book.cryointhecloud.com/): tutorials, onboarding recordings, and hub guides written by the CryoCloud community." >}}
-        CryoCloud gives NASA cryosphere scientists several Python and R environments, maintained by the community, and a book of tutorials that [hackweeks](https://icesat-2.hackweek.io/) and science teams build on.
+        CryoCloud began as a hub for NASA cryosphere scientists and now serves Earth scientists more broadly.
+        It runs next to NASA Earth data, with several community-maintained Python and R environments and a book of tutorials that [hackweeks](https://icesat-2.hackweek.io/) and science teams build on.
         Its leaders described the approach in [*Democratizing Science in the Cloud*](https://eos.org/opinions/democratizing-science-in-the-cloud), including 12 hackathon-style workshops on the hub at about a dollar per person per day.
         {{< /hub-example >}}
 
@@ -139,13 +140,14 @@ sections:
         The [CZI](../collaborators/czi/index.md)-funded [Catalyst Project](../collaborators/catalyst/index.md) ran hubs for [19 biomedical groups in Africa and Latin America](../blog/2024/catalyst-partner-highlights/index.md).
         {{< /hub-example >}}
 
-        {{< hub-example id="own" community="CloudBank" url="https://www.cloudbank.org/"
-            heading="Your right to replicate"
+        {{< hub-example id="own" community="Open infrastructure" url="/open-practices/"
+            heading="Your right to replicate and control"
             image="/images/communities/cloudbank-config-github.png"
             alt="The CloudBank cluster configuration folder in the public 2i2c infrastructure repository on GitHub, with a recent commit by a CloudBank engineer"
             caption="CloudBank's hub configuration in [our public infrastructure repository](https://github.com/2i2c-org/infrastructure/tree/main/config/clusters/cloudbank). The latest commit shown is by a member of the CloudBank team." >}}
+        Communities own the tools they use.
         Every hub is deployed from open source and a public configuration you can fork, and you keep the [right to replicate](../right-to-replicate/index.md) it elsewhere.
-        CloudBank's team now [deploys changes to their own cluster](../blog/2026/cloudbank-self-service/index.md).
+        [CloudBank](https://www.cloudbank.org/)'s team now [deploys changes to their own cluster](../blog/2026/cloudbank-self-service/index.md).
 
         As Catalyst Project funding wound down, [CCAD](https://supercomputo.unc.edu.ar/2025/09/02/colgando-a-boogie/) in Argentina [used it to buy on-premise hardware](../blog/2025/catalyst-hardware-exchange/index.md) for its own JupyterHub.
 
