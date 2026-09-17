@@ -90,7 +90,7 @@ sections:
             alt="The NASA VEDA server options page, with a Pangeo notebook environment and an NVIDIA T4 GPU option"
             caption="The launch page of the [NASA VEDA hub](https://docs.openveda.cloud/user-guide/scientific-computing/). Users pick the environment and server size each time." >}}
         NASA VEDA's launch page offers a Python environment, RStudio, or a [Linux desktop with QGIS](/platform/#desktop), each with an optional [GPU](/platform/#compute).
-        [VEDA's docs](https://docs.openveda.cloud/user-guide/scientific-computing/) also cover VS Code on the same hub.
+        [VEDA's docs](https://docs.openveda.cloud/user-guide/scientific-computing/code-server.html) also cover VS Code on the same hub.
         [Development Seed](../collaborators/devseed/index.md) and 2i2c demonstrated an [Open in QGIS button](../blog/2025/veda-update-q4-2024/index.md) that takes a layer from the VEDA dashboard straight into QGIS on the hub.
 
         On its own hub, [Openscapes](https://openscapes.org/blog/2023-10-17-matlab-on-openscapes/) runs MATLAB with users' own licenses.
