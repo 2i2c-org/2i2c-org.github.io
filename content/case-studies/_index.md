@@ -48,7 +48,7 @@ sections:
         {{< /hub-example >}}
 
         {{< hub-example id="scale" community="University of Toronto" url="https://datatools.utoronto.ca/"
-            heading="Thousands of students on one hub"
+            heading="Thousands of students on one university-branded hub"
             stat=">6,000" stat_label="educators and learners using the hub in a single day"
             image="/images/communities/utoronto-datatools.png"
             alt="The University of Toronto JupyterHub landing page with Jupyter Notebook, RStudio, and JupyterLab log-in options"
