@@ -17,6 +17,7 @@ sections:
       title: Hubs in practice
       subtitle: What communities in our network do with their hubs.
       text: |
+        Most of these hubs are run for a field by a program or funder, such as NASA Earthdata, NSF CloudBank, NOAA's CIROH, and CZI, that sponsors one or more hubs for the communities it serves.
 
         <div class="hub-example-index">
 
