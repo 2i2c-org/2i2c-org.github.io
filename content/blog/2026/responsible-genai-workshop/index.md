@@ -49,7 +49,7 @@ Many developers are building with the assumption that the latest and best models
 A number of conversations challenged this idea, for example:
 
 - The fanciest models are already fairly expensive for many individuals.
-- The fanciest models might a lot more expensive in the future, because they are heavily subsidized.
+- The fanciest models might be a lot more expensive in the future, because they are heavily subsidized.
 
 For this reason, **it's important to buid technology that's still useful with sub-frontier model capabilities**.
 For example, tools like [MySTifAI](https://responsible-genai-hackweek.github.io/MySTifAI/) (above) probably aren't necessary if you're using the latest Fable model that was trained recently.
