@@ -1,4 +1,93 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2i2c's blog | 2i2c</title><link>https://2i2c.org/blog/</link><atom:link href="https://2i2c.org/blog/index.xml" rel="self" type="application/rss+xml"/><description>2i2c's blog</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 13 Aug 2026 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>2i2c's blog</title><link>https://2i2c.org/blog/</link></image><item><title>Better resource management with compute quotas and usage dashboards</title><link>https://2i2c.org/blog/jupyterhub-usage-quotas/</link><pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/jupyterhub-usage-quotas/</guid><description>&lt;p>Compute quotas and usage dashboards are now available on 2i2c hubs 🚀&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2i2c's blog | 2i2c</title><link>https://2i2c.org/blog/</link><atom:link href="https://2i2c.org/blog/index.xml" rel="self" type="application/rss+xml"/><description>2i2c's blog</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Sep 2026 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>2i2c's blog</title><link>https://2i2c.org/blog/</link></image><item><title>A few things I learned at the Responsible GenAI for NASA Earth Data Workshop</title><link>https://2i2c.org/blog/respnosible-genai-workshop/</link><pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/respnosible-genai-workshop/</guid><description>&lt;p>I recently got back from the &lt;a href="https://responsible-genai.hackweek.io/" target="_blank" rel="noopener" >2026 Responsible GenAI for NASA EarthData workshop&lt;/a> in Seattle.
+It was an opportunity for members across the NASA ecosystem to share their experiences experimenting and learning with Generative AI models around Earth Data.
+This ranged everywhere from personal workflows to large-scale automations with non-trivial amounts of data.
+I&amp;rsquo;d say it was a way to share &amp;ldquo;best practices&amp;rdquo;, but I also realize that &lt;strong>there&amp;rsquo;s no such thing as best-practices for LLMs yet&lt;/strong>.
+Everyone is still in the experimenting and seeing what happens phase, in all directions.
+So I&amp;rsquo;ll just say that we shared &amp;ldquo;practices&amp;rdquo; - who knows if they&amp;rsquo;re the best yet :-).&lt;/p>
+&lt;p>This is a quick report out for what we I noticed and some things that stood out to me while I was there.&lt;/p>
+&lt;h2 id="we-can-make-myst-documentation-more-useful-for-llms-without-any-extra-effort">
+We can make MyST documentation more useful for LLMs without any extra effort
+&lt;a class="header-anchor" href="#we-can-make-myst-documentation-more-useful-for-llms-without-any-extra-effort">#&lt;/a>
+&lt;/h2>&lt;p>First off, we got to do some fun hacking and experimenting while we were there.
+Here&amp;rsquo;s the main new thing that came out of this:&lt;/p>
+&lt;p>&lt;strong>&lt;a href="https://responsible-genai-hackweek.github.io/MySTifAI/" target="_blank" rel="noopener" >MySTifAI&lt;/a>&lt;/strong> attempts to make MyST websites more useful for LLMs to parse and use as part of Retrieval-Augmented Generation workflows.&lt;/p>
+&lt;p>Many LLMs (especially smaller models) benefit from having real-time information loaded into their context to guide the kinds of responses they give. This is particularly useful if you need the latest, specific information from a community resources, like a documentation site. Many NASA communities use &lt;a href="https://mystmd.org" target="_blank" rel="noopener" >MyST&lt;/a>, and this is a little experiment at using MyST&amp;rsquo;s modular and machine-readable nature to turn it into a RAG-like resource for LLMs.&lt;/p>
+&lt;p>The &lt;a href="https://responsible-genai-hackweek.github.io/MySTifAI/docslice" target="_blank" rel="noopener" >&lt;code>docslice&lt;/code> tool&lt;/a> is a CLI that indexes and searches content in a MyST site, and returns little chunks as markdown for the model to read. Check out the &lt;a href="https://responsible-genai-hackweek.github.io/MySTifAI/evaluation" target="_blank" rel="noopener" >evaluations page&lt;/a> where we ran it with a few different model sizes to see how it did. In short: the smaller the model, the more context you save by using a RAG-like helper like &lt;code>docslice&lt;/code>.&lt;/p>
+&lt;h2 id="scientists-find-skills-to-be-a-useful-way-to-standardize-llm-workflows">
+Scientists find &amp;ldquo;skills&amp;rdquo; to be a useful way to standardize LLM workflows
+&lt;a class="header-anchor" href="#scientists-find-skills-to-be-a-useful-way-to-standardize-llm-workflows">#&lt;/a>
+&lt;/h2>&lt;p>A lot of discussion revolved around how to use, find, and write &amp;ldquo;skill files&amp;rdquo; for LLMs that work with Earth Data.
+These are little files that live in a folder like &lt;code>.claude/skills/[skillname]/SKILL.md&lt;/code>, and they can be dynamically loaded by an LLM to learn how to do a particular thing at the moment it must be done.&lt;/p>
+&lt;p>The EarthData community is interested in this because there are often particular ways that datasets should be discovered, retrieved, and used.
+Asking an LLM to figure that out on its own each time is noisy and costly, and skills are a way to standardize the experience across NASA scientists.&lt;/p>
+&lt;p>We explored a few different ways to distribute skills, because I think NASA&amp;rsquo;s ecosystem is interested in co-maintaining and sharing as much as possible.
+Right now it seems like the &lt;a href="https://agentskills.io" target="_blank" rel="noopener" >agentskills.io&lt;/a> specification and the &lt;a href="https://skills.sh" target="_blank" rel="noopener" >skills.sh&lt;/a> tooling are the simplest ways to distribute and use skills. However, I also learned that &lt;a href="https://pavel.pink/blog/pixi-skills/" target="_blank" rel="noopener" >you can distribute skills as pixi packages via conda-forge&lt;/a> and maybe even via &lt;code>pypi&lt;/code>.&lt;/p>
+&lt;h2 id="non-frontier-models-are-an-important-design-target-for-software-and-workflows">
+Non-frontier models are an important design target for software and workflows
+&lt;a class="header-anchor" href="#non-frontier-models-are-an-important-design-target-for-software-and-workflows">#&lt;/a>
+&lt;/h2>&lt;p>Many developers are building with the assumption that the latest and best models are available to the kinds of users they mean to serve.
+A number of conversations challenged this idea, for example:&lt;/p>
+&lt;ul>
+&lt;li>The fanciest models are already fairly expensive for many individuals.&lt;/li>
+&lt;li>The fanciest models might a lot more expensive in the future, because they are heavily subsidized.&lt;/li>
+&lt;/ul>
+&lt;p>For this reason, &lt;strong>it&amp;rsquo;s important to buid technology that&amp;rsquo;s still useful with sub-frontier model capabilities&lt;/strong>.
+For example, tools like &lt;a href="https://responsible-genai-hackweek.github.io/MySTifAI/" target="_blank" rel="noopener" >MySTifAI&lt;/a> (above) probably aren&amp;rsquo;t necessary if you&amp;rsquo;re using the latest Fable model that was trained recently.
+But they&amp;rsquo;re much more valuable in saving context and reducing noise for anything less sophisticated.&lt;/p>
+&lt;p>I suspect that, over time, there will be a bifurcation of who has access to the most cutting-edge models.
+My fear is that access to models will become similar to access to scientific publications: if you happen to be at an institution with enough money to pay for a license, you&amp;rsquo;re OK, but the rest of the world will be left behind.&lt;/p>
+&lt;p>I think we can cut against this outcome by building technology that provides value with model capabilities that are &lt;em>likely to remain accessible&lt;/em> in the future.&lt;/p>
+&lt;p>That said&amp;hellip;&lt;/p>
+&lt;h2 id="nobody-knows-what-model-capabilities-will-exist-in-the-near-future">
+Nobody knows what model capabilities will exist in the near future
+&lt;a class="header-anchor" href="#nobody-knows-what-model-capabilities-will-exist-in-the-near-future">#&lt;/a>
+&lt;/h2>&lt;p>The cone of &amp;ldquo;what&amp;rsquo;s possible&amp;rdquo; for model capabilities is huge!
+Nobody really knows where this field is heading.
+For example, I&amp;rsquo;ve seen everything from:&lt;/p>
+&lt;blockquote>
+&lt;p>Fable-level capabilities will become a fraction of the cost in the future, and runaway model improvement will essentially create an infinitely better and more accessible LLM capability.&lt;/p>
+&lt;/blockquote>
+&lt;p>to&lt;/p>
+&lt;blockquote>
+&lt;p>Non-trivial models are going to become extremely expensive, with key features gate-kept behind enterprise plans and API costs, in order to justify the extreme costs of model training and inference.&lt;/p>
+&lt;/blockquote>
+&lt;p>to&lt;/p>
+&lt;blockquote>
+&lt;p>This entire ecosystem is going to collapse under its own weight because it has no financial model whatsoever.&lt;/p>
+&lt;/blockquote>
+&lt;p>I think all of these outcomes seem plausible! It feels like a good way to hedge against any one of them is to build technology that assumes we&amp;rsquo;ll land somewhere in between.
+For example, maybe it&amp;rsquo;s safe to assume that today&amp;rsquo;s &amp;ldquo;Haiku&amp;rdquo;-level capabilities will be massively accessible for the forseeable future. Can we build the right &amp;ldquo;skills&amp;rdquo;, APIs, MCPs, etc to ensure they&amp;rsquo;ll still be useful?&lt;/p>
+&lt;p>&lt;em>To complexify this a bit: Something else I didn&amp;rsquo;t consider, but seems painfully obvious in retrospect, is that many &amp;ldquo;open weights&amp;rdquo; models come from countries that the current US administration considers to be hostile to US interests. This means that for federal-adjacent communities like NASA, many open weights models simply are not an option.&lt;/em>&lt;/p>
+&lt;h2 id="setting-up-an-llm-style-environment-in-the-cloud-is-non-trivial">
+Setting up an LLM-style environment in the cloud is non-trivial!
+&lt;a class="header-anchor" href="#setting-up-an-llm-style-environment-in-the-cloud-is-non-trivial">#&lt;/a>
+&lt;/h2>&lt;p>We did some last-second environment building with &lt;a href="https://github.com/tsnow03" target="_blank" rel="noopener" >Tasha&lt;/a> to provide a cloud environment where users could experiment with LLMs for their hackweek projects.
+This had a bunch of rough edges!
+Here are a few that stood out to me:&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>Workshop administrators need clear documentation for how to connect with common inference servers and get their credentials onto the hub safely&lt;/strong>. We had to generate credentials to run LLM inference against the &lt;a href="https://nrp.ai/documentation/userdocs/ai/llm-managed/" target="_blank" rel="noopener" >NRP inference service&lt;/a> via &lt;a href="https://openrouter.ai/" target="_blank" rel="noopener" >OpenRouter&lt;/a>. It wasn&amp;rsquo;t super clear how to do this, and how to insert these credentials into the hub environment properly. In some cases I&amp;rsquo;m pretty sure we inserted credentials in a way that wasn&amp;rsquo;t &amp;ldquo;safe&amp;rdquo; because they were baked into the environment image, and thus available to all of the users.&lt;/li>
+&lt;li>&lt;strong>Workshop adminsitrators need a cleaner story for how to share LLM credits across participants&lt;/strong>. We had to use a semi-bespoke Python script to connect people&amp;rsquo;s Claude accounts with the allotment of credits that the workshop provided. This felt a little bit janky, but it still worked pretty well!&lt;/li>
+&lt;li>&lt;strong>People need guidance for generating hub configuration with LLMs.&lt;/strong> Some of the hub configuration for this workshop was itself generated with LLMs. As a result, there was some complex stuff (see above re: credentials) that we probably could have guarded against with more guidance that an LLM could discover (either a &amp;ldquo;skill&amp;rdquo; file, or documentation about how to do this).&lt;/li>
+&lt;li>&lt;strong>JupyterAI is relatively new and unknown to folks that would otherwise benefit from it&lt;/strong>. We had a nice presentation from &lt;a href="https://github.com/dlqqq" target="_blank" rel="noopener" >David Qiu&lt;/a> who works on &lt;a href="https://github.com/jupyterlab/jupyter-ai" target="_blank" rel="noopener" >Jupyter AI&lt;/a>. He showed off some nice capabilities leveraging arbitrary models as part of a notebook / data science workflow. Folks seemed to like it, but many had never heard about it! We could do more to surface the existence of this tool, and basic ways to integrate its workflows into the hub (especially if you&amp;rsquo;ve got access to managed inference servers like we had on the &lt;a href="https://nationalresearchplatform.org/" target="_blank" rel="noopener" >NRP&lt;/a>.)&lt;/li>
+&lt;li>&lt;strong>There&amp;rsquo;s not an obvious way to programmatically trigger LLM inference on a hub&lt;/strong>. We also realized that sometimes you want a &lt;em>non-interactive&lt;/em> way to trigger LLM inference. For example, if you want to run an evaluation suite against your code or data and need to programmatically generate an inference query with a script. There are a few model-agnostic tools for doing this - I&amp;rsquo;m interested in learning more about Simon Willison&amp;rsquo;s &lt;a href="https://llm.datasette.io/" target="_blank" rel="noopener" >LLM CLI&lt;/a>. I think some basic guidance for hub administrators would help us solve these problems more effectively.&lt;/li>
+&lt;/ul>
+&lt;h2 id="its-important-to-have-a-safe-space-for-honest-conversation-and-respectful-criticism">
+It&amp;rsquo;s important to have a safe space for honest conversation and respectful criticism
+&lt;a class="header-anchor" href="#its-important-to-have-a-safe-space-for-honest-conversation-and-respectful-criticism">#&lt;/a>
+&lt;/h2>&lt;p>This is one of the first LLM events that felt like there was psychological and emotional space for both optimism and pessimism.
+A recurring topic that came up was how many folks felt like conversations about LLMs created a feeling of &lt;em>shame&lt;/em> in themselves or in the others they spoke with.&lt;/p>
+&lt;p>Shame is a really powerful human emotion, and tends to have a strong dampening effect on whatever action it&amp;rsquo;s connected with.
+Many folks privately reported that they felt unable to talk about LLM use (for bad or for good) &lt;em>at all&lt;/em>, because they were afraid of how the conversation would play out.&lt;/p>
+&lt;p>I need to reflect on this observation more, but it occurs to me that the most important thing to preserve through all of this is the sense of human connection that we&amp;rsquo;ve got, and the communities of people that are trying to solve problems together.
+LLMs bring out strong emotions in everybody, and we need to find a way to willingly engage in this topic &lt;em>as a community of diverse perspectives&lt;/em> or we&amp;rsquo;ll self-sort into mini-groups that share the same biases and perspectives. This will make it harder to navigate the ethical and moral questions around LLMs, and will also make it harder to effectively integrate them (or not) with scientific workflows for the most impact.&lt;/p>
+&lt;h2 id="thanks-to-the-organizers">
+Thanks to the organizers
+&lt;a class="header-anchor" href="#thanks-to-the-organizers">#&lt;/a>
+&lt;/h2>&lt;p>I&amp;rsquo;m grateful to &lt;a href="https://github.com/tsnow03" target="_blank" rel="noopener" >Tasha Snow&lt;/a> for encouraging me to join this event, and to the rest of the organizing team for making it happen.
+The &lt;a href="https://2i2c.org/collaborators/cryocloud/" >CryoCloud community&lt;/a> generously let us use their hub for hacking and experimenting.
+I&amp;rsquo;m also grateful to &lt;a href="https://www.earthdata.nasa.gov/esds" target="_blank" rel="noopener" >NASA ESDS&lt;/a> for funding the event and bringing a diverse group of people together to learn.
+Finally, I was appreciative of the attendees for coming to engage in a challenging topic that is nonetheless important to reason about and learn from.
+I hope to have more interactions like this in the future!&lt;/p></description></item><item><title>Better resource management with compute quotas and usage dashboards</title><link>https://2i2c.org/blog/jupyterhub-usage-quotas/</link><pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/jupyterhub-usage-quotas/</guid><description>&lt;p>Compute quotas and usage dashboards are now available on 2i2c hubs 🚀&lt;/p>
 &lt;p>This allows hub admins to cap the amount of compute resource a user can access over a given time period, as well as providing end-users with updates on their current usage.&lt;/p>
 &lt;figure id="figure-the-usage-dashboard-can-be-found-from-the-hub-home-page-navbar-under-services--usage-quota-menu">
 &lt;div class="d-flex justify-content-center">
