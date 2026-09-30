@@ -1,0 +1,98 @@
+---
+title: How we set up an AI-enabled hub for the Responsible GenAI workshop
+date: 2026-09-29
+slug: "genai-workshop-hub-setup"
+tags:
+  - open-source
+  - jupyter
+  - cloud
+  - genai
+  - llms
+categories:
+  - community-impact
+featured: false
+---
+
+This summer, we participated in the [Responsible GenAI for NASA Earthdata workshop](https://responsible-genai.hackweek.io/), a community gathering to explore how others were using GenAI in their workflows across the NASA community, and share best practices.
+
+As part of this work, we worked with [Tasha Snow](https://tsnow03.github.io/) to set up an environment on the [CryoCloud hub](../../../collaborators/cryocloud/) that allowed attendees to access and experiment with a few different LLM workflows with Earth data.
+
+This is a short post to describe some of the decisions we made, how we set it up, and what we'd like to improve or do differently next time[^1].
+
+_Setting up a hub environment for community LLM use is very much still a work in progress!
+Don't treat it as a "best practices" post, more like a "here's one pattern to consider" post._
+
+[^1]: Note: we already wrote up [some reflections from the workshop](../responsible-genai-workshop/index.md) that are more general. This one is focused on infrastructure and environment setup.
+
+## Tools and services that hub users could access
+
+Here's a quick description of what each user on the hub had access to:
+
+- Two coding agents ready to use in the terminal: [Claude Code](https://github.com/anthropics/claude-code) and [opencode](https://opencode.ai). _([Codex](https://github.com/openai/codex) was installed too, but we didn't use it in the workshop so we're not sure if it was set up properly!)_
+- A pre-release of [Jupyter AI](https://github.com/jupyterlab/jupyter-ai) 3.2, for chatting with opencode inside JupyterLab (thanks to [David Qiu](https://github.com/dlqqq) for doing some rapid pre-releasing during the event!).
+- Claude models, through a personal API key from UW eScience for each participant (using `llmoxie`, more on this below).
+- Open-weights models served by the [National Research Platform (NRP)](https://nrp.ai/documentation/userdocs/ai/llm-managed/) and preconfigured in opencode.
+- The [`mothership` CLI](https://github.com/mikerjacobi/agent-workshop), for Mike Jacobi's [hands-on tutorial on agent sandboxing and evals](https://docs.google.com/presentation/d/16h45tch0_KpPrRXlw7DN618aXRRpjJ8edAzHiOy7SI0/edit).
+
+## How the user environment was set up
+
+The environment is a Docker image built from [`CryoInTheCloud/image-cryo-python-AI`](https://github.com/CryoInTheCloud/image-cryo-python-AI).[^tasha]
+
+[^tasha]: If you'd rather build your own image from scratch, Tasha's [image template](https://github.com/tsnow03/BuildOwnImage_template_env) is a minimal starting point.
+
+These two files do most of the setup for various LLM workflows:
+
+- [`.binder/postBuild`](https://github.com/CryoInTheCloud/image-cryo-python-AI/blob/main/.binder/postBuild) installs Claude Code, Codex, and the ACP bridge with `npm`.
+- [`appendix`](https://github.com/CryoInTheCloud/image-cryo-python-AI/blob/main/appendix) installs opencode, the `gcloud` CLI, `mothership`, and the Jupyter AI pre-release.
+
+We used [a GitHub Actions workflow](https://github.com/CryoInTheCloud/image-cryo-python-AI/blob/main/.github/workflows/build.yaml) to build the image and push it to a [Docker image registry](https://quay.io/repository/cryointhecloud/cryo-python-ai) so that it could be used by the hub.
+We then asked users to specify this image when they launched their user sessions.[^access]
+
+![The hub's launch page, with the workshop image entered as a custom image](featured.png)
+
+Throughout the workshop we made changes to [the repository that built this image](https://github.com/CryoInTheCloud/image-cryo-python-AI).
+CI/CD jobs in a PR checked that each change built properly.
+After merging the new image was automatically pushed to the registry so users got the changes when they re-launched their sessions.
+For example, here's a [PR that upgraded Jupyter AI](https://github.com/CryoInTheCloud/image-cryo-python-AI/pull/15) in the middle of the workshop.
+
+[^access]: We could have added this to the drop-down list of user environments, but opted not to because there were some security considerations that made us not want to unleash this image on everybody on the hub, just those at the workshop :-).
+
+## How users accessed LLM models
+
+There were two model inference services that we used.
+Here's a quick breakdown of these, and how we gave users access to them.
+
+### NRP
+
+For the NRP models, we added a single API key to the hub.[^bids]
+[This pull request](https://github.com/2i2c-org/infrastructure/pull/8905) to [2i2c's infrastructure repository](https://github.com/2i2c-org/infrastructure/blob/main/config/clusters/nasa-cryo/prod.values.yaml) added two things to every user server:
+
+- An `opencode.json` file that points opencode at NRP's inference endpoint and lists its models.
+- The NRP API key, stored encrypted in the repository and exposed to users as the `OPENAI_API_KEY` environment variable.
+
+This allowed the event participants to use NRP models without setting anything up themselves!
+
+[^bids]: Both are adapted from the [BIDS demo hub](https://github.com/BIDS/hub-deploy/blob/2a0e060f930fe9ff7f2dc0e4a38ed9cb0dd791b4/hubs/demo/config.yaml#L257-L299), which is another good example to learn from.
+
+### Claude
+
+Claude access came through the [UW eScience Institute](https://escience.washington.edu/), which has model access through an allocation from [NSF CloudBank](https://www.cloudbank.org/).
+UW eScience e-mailed each participant their own API key for a [LiteLLM proxy called `llmoxie`](https://github.com/uw-ssec/llmoxie), which is a service run by UW.
+On the hub, participants ran a small setup script from a shared folder that configured Claude Code to use the proxy with their key (see a [version of this script from UW](https://github.com/uw-escience-cloudbank/hub-image-jupyterai/blob/main/binder/setup-claude-cloudbank.py), and its [README](https://github.com/uw-escience-cloudbank/hub-image-jupyterai#claude-code) for more information).
+
+## We need a better way to store shared API keys!
+
+The biggest thing that we need to improve is getting those API keys onto the hub without exposing them to our users.
+For workshops this is usually OK, since you can just cycle the keys once the workshop is over (and you've revoked access from many users).
+However, for any long-standing hub, you can't have API access to an LLM sitting around.
+
+Min has proposed [a credential proxy for JupyterHub](https://github.com/jupyterhub/roadmap/issues/13) that would make this much easier!
+
+Until then, beware if you follow a pattern like this for exposing an inference service API to your hub users!
+
+## Acknowledgements
+
+- Thanks to [Tasha Snow](https://tsnow03.github.io/) for pulling this together, to [David Qiu](https://github.com/dlqqq) for the Jupyter AI updates, to [Min RK](https://github.com/minrk) for the first LLM tooling, and to [Scott Henderson](https://github.com/scottyhq) and [Anshul Tambay](https://github.com/atambay37) for handling the Claude keys.
+- Thanks to the [CryoCloud](../../../collaborators/cryocloud/) community for letting us experiment on their hub, and to NASA's [Office of Data Science and Informatics (ODSI)](https://www.nasa.gov/marshall/marshall-space-flight-missions/office-of-data-science-and-informatics-odsi/) and [Earth Science Data Systems (ESDS)](https://www.earthdata.nasa.gov/esds) program for supporting the workshop.
+- Thanks to the [UW eScience Institute](https://escience.washington.edu/) for hosting the workshop and providing Claude access.
+- Finally, much of the cloud and the LLM infrastructure was funded or operated by external sources: the [NRP](https://nrp.ai/) and [CloudBank](https://www.cloudbank.org/) are funded by the [National Science Foundation](https://www.nsf.gov/), and UW SSEC's [LLM proxy](https://github.com/uw-ssec/llmoxie) was developed with support from the NSF [NAIRR Pilot](https://nairrpilot.org/) and [Schmidt Sciences Virtual Institutes for Scientific Software](https://www.schmidtsciences.org/viss/) program.
