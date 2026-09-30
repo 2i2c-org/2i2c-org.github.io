@@ -80,13 +80,22 @@ Claude access came through the [UW eScience Institute](https://escience.washingt
 UW eScience e-mailed each participant their own API key for a [LiteLLM proxy called `llmoxie`](https://github.com/uw-ssec/llmoxie), which is a service run by UW.
 On the hub, participants ran a small setup script from a shared folder that configured Claude Code to use the proxy with their key (see a [version of this script from UW](https://github.com/uw-escience-cloudbank/hub-image-jupyterai/blob/main/binder/setup-claude-cloudbank.py), and its [README](https://github.com/uw-escience-cloudbank/hub-image-jupyterai#claude-code) for more information).
 
-## We need a better way to store shared API keys!
+## What we'd like to improve
 
-The biggest thing that we need to improve is getting those API keys onto the hub without exposing them to our users.
-For workshops this is usually OK, since you can just cycle the keys once the workshop is over (and you've revoked access from many users).
-However, for any long-standing hub, you can't have API access to an LLM sitting around.
+Both approaches worked for a short workshop, but each has problems we'd want to fix before using them on a long-running hub.
 
-Min has proposed [a credential proxy for JupyterHub](https://github.com/jupyterhub/roadmap/issues/13) that would make this much easier!
+- **The shared NRP key was visible to every user.** Anyone on the hub could read it from their environment, and potentially take it off the hub.
+  This isn't a big deal for a workshop, since you can just recycle (or revoke) the keys once it's over, but it's a bigger risk for long-running infrastructure.
+  It also meant we couldn't track any per-user or per-group usage, since it's just one token used by everybody.
+- **The per-user Claude keys took manual work.** For Claude, we used the `llmoxie` service, but this required a manual e-mail step + running a Python script on the hub to connect their local Claude Code to the `llmoxie` service.
+  This service also might not be usable by _other_ communities that are outside of the UW ecosystem (we need to double check this).
+
+We've written up [an initiative to improve this](https://github.com/2i2c-org/initiatives/issues/79)[^hub].
+It is essentially a "credential proxy service" for JupyterHub that would connect to either `llmoxie` or a per-cluster service like `llmoxie` that we could run for communities.
+It would allow communities to access inference servers using the authentication from their hub's user session , without needing to duplicate or expose API keys.
+Let us know if this idea sounds useful!
+
+[^hub]: There's actually already an [initiative in the JupyterHub roadmap](https://github.com/jupyterhub/roadmap/issues/13) for the hub proxy service as well!
 
 Until then, beware if you follow a pattern like this for exposing an inference service API to your hub users!
 
