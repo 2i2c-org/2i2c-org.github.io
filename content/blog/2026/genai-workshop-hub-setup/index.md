@@ -1,5 +1,5 @@
 ---
-title: How we set up an AI-enabled hub for the Responsible GenAI workshop
+title: How we set up an AI-enabled hub for the NASA Earth Responsible GenAI workshop
 date: 2026-09-29
 slug: "genai-workshop-hub-setup"
 tags:
@@ -28,7 +28,7 @@ Don't treat it as a "best practices" post, more like a "here's one pattern to co
 
 Here's a quick description of what each user on the hub had access to:
 
-- Two coding agents ready to use in the terminal: [Claude Code](https://github.com/anthropics/claude-code) and [opencode](https://opencode.ai). _([Codex](https://github.com/openai/codex) was installed too, but we didn't use it in the workshop so we're not sure if it was set up properly!)_
+- Two coding agents ready to use in the terminal: [Claude Code](https://github.com/anthropics/claude-code) and [opencode](https://opencode.ai).
 - A pre-release of [Jupyter AI](https://github.com/jupyterlab/jupyter-ai) 3.2, for chatting with opencode inside JupyterLab (thanks to [David Qiu](https://github.com/dlqqq) for doing some rapid pre-releasing during the event!).
 - Claude models, through a personal API key from UW eScience for each participant (using LLMoxie, more on this below).
 - Open-weights models served by the [National Research Platform (NRP)](https://nrp.ai/documentation/userdocs/ai/llm-managed/) and preconfigured in opencode.
@@ -42,7 +42,7 @@ The environment is a Docker image built from [`CryoInTheCloud/image-cryo-python-
 
 These two files do most of the setup for various LLM workflows:
 
-- [`.binder/postBuild`](https://github.com/CryoInTheCloud/image-cryo-python-AI/blob/main/.binder/postBuild) installs Claude Code, Codex, and the ACP bridge with `npm`.
+- [`.binder/postBuild`](https://github.com/CryoInTheCloud/image-cryo-python-AI/blob/main/.binder/postBuild) installs Claude Code and the ACP bridge with `npm`.
 - [`appendix`](https://github.com/CryoInTheCloud/image-cryo-python-AI/blob/main/appendix) installs opencode, the `gcloud` CLI, `mothership`, and the Jupyter AI pre-release.
 
 We used [a GitHub Actions workflow](https://github.com/CryoInTheCloud/image-cryo-python-AI/blob/main/.github/workflows/build.yaml) to build the image and push it to a [Docker image registry](https://quay.io/repository/cryointhecloud/cryo-python-ai) so that it could be used by the hub.
@@ -64,7 +64,7 @@ Here's a quick breakdown of these, and how we gave users access to them.
 
 ### NRP
 
-For the NRP models, we added a single API key to the hub.[^bids]
+For the NRP models, we added a single API key to the hub (this didn't go through LLMoxie since the API keys were generated straight from NRP).[^bids]
 [This pull request](https://github.com/2i2c-org/infrastructure/pull/8905) to [2i2c's infrastructure repository](https://github.com/2i2c-org/infrastructure/blob/main/config/clusters/nasa-cryo/prod.values.yaml) added two things to every user server:
 
 - An `opencode.json` file that points opencode at NRP's inference endpoint and lists its models.
@@ -78,8 +78,9 @@ This allowed the event participants to use NRP models without setting anything u
 
 Each participant received an e-mail from the [UW eScience Institute](https://escience.washington.edu/) with their own API key for [UW SSEC's](https://uwssec.org) [LLMoxie AI Platform](https://github.com/uw-ssec/llmoxie).
 This allowed the organizers to monitor the usage of each participant, control they could incur, and prevent participants from ever seeing raw API keys for Anthropic.
-
+LLMoxie also adds a layer of security, since it can mask sensitive information in requests before they reach the model.
 Model inference was provided through an allocation from [NSF CloudBank](https://www.cloudbank.org/).
+
 On the hub, participants ran a small setup script from a shared folder that configured Claude Code to use the proxy with their key (see a [version of this script from UW](https://github.com/uw-escience-cloudbank/hub-image-jupyterai/blob/main/binder/setup-claude-cloudbank.py), and its [README](https://github.com/uw-escience-cloudbank/hub-image-jupyterai#claude-code) for more information).
 
 ## What we'd like to improve
