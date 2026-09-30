@@ -1,4 +1,115 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Jupyter | 2i2c</title><link>https://2i2c.org/tag/jupyter/</link><atom:link href="https://2i2c.org/tag/jupyter/index.xml" rel="self" type="application/rss+xml"/><description>Jupyter</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 01 Sep 2026 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Jupyter</title><link>https://2i2c.org/tag/jupyter/</link></image><item><title>A few things I learned at the Responsible GenAI for NASA Earth Data Workshop</title><link>https://2i2c.org/blog/respnosible-genai-workshop/</link><pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/respnosible-genai-workshop/</guid><description>&lt;p>I recently got back from the &lt;a href="https://responsible-genai.hackweek.io/" target="_blank" rel="noopener" >2026 Responsible GenAI for NASA EarthData workshop&lt;/a> in Seattle.
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Jupyter | 2i2c</title><link>https://2i2c.org/tag/jupyter/</link><atom:link href="https://2i2c.org/tag/jupyter/index.xml" rel="self" type="application/rss+xml"/><description>Jupyter</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 29 Sep 2026 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Jupyter</title><link>https://2i2c.org/tag/jupyter/</link></image><item><title>How we set up an AI-enabled hub for the NASA Earth Responsible GenAI workshop</title><link>https://2i2c.org/blog/genai-workshop-hub-setup/</link><pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/genai-workshop-hub-setup/</guid><description>&lt;p>This summer, we participated in the &lt;a href="https://responsible-genai.hackweek.io/" target="_blank" rel="noopener" >Responsible GenAI for NASA Earthdata workshop&lt;/a>, a community gathering to explore how others were using GenAI in their workflows across the NASA community, and share best practices.&lt;/p>
+&lt;p>As part of this work, we worked with &lt;a href="https://tsnow03.github.io/" target="_blank" rel="noopener" >Tasha Snow&lt;/a> to set up an environment on the &lt;a href="https://2i2c.org/collaborators/cryocloud/" >CryoCloud hub&lt;/a> that allowed attendees to access and experiment with a few different LLM workflows with Earth data.&lt;/p>
+&lt;p>This is a short post to describe some of the decisions we made, how we set it up, and what we&amp;rsquo;d like to improve or do differently next time&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
+&lt;p>&lt;em>Setting up a hub environment for community LLM use is very much still a work in progress!
+Don&amp;rsquo;t treat it as a &amp;ldquo;best practices&amp;rdquo; post, more like a &amp;ldquo;here&amp;rsquo;s one pattern to consider&amp;rdquo; post.&lt;/em>&lt;/p>
+&lt;h2 id="tools-and-services-that-hub-users-could-access">
+Tools and services that hub users could access
+&lt;a class="header-anchor" href="#tools-and-services-that-hub-users-could-access">#&lt;/a>
+&lt;/h2>&lt;p>Here&amp;rsquo;s a quick description of what each user on the hub had access to:&lt;/p>
+&lt;ul>
+&lt;li>Two coding agents ready to use in the terminal: &lt;a href="https://github.com/anthropics/claude-code" target="_blank" rel="noopener" >Claude Code&lt;/a> and &lt;a href="https://opencode.ai" target="_blank" rel="noopener" >opencode&lt;/a>.&lt;/li>
+&lt;li>A pre-release of &lt;a href="https://github.com/jupyterlab/jupyter-ai" target="_blank" rel="noopener" >Jupyter AI&lt;/a> 3.2, for chatting with opencode inside JupyterLab (thanks to &lt;a href="https://github.com/dlqqq" target="_blank" rel="noopener" >David Qiu&lt;/a> for doing some rapid pre-releasing during the event!).&lt;/li>
+&lt;li>Claude models, through a personal API key from UW eScience for each participant (using LLMoxie, more on this below).&lt;/li>
+&lt;li>Open-weights models served by the &lt;a href="https://nrp.ai/documentation/userdocs/ai/llm-managed/" target="_blank" rel="noopener" >National Research Platform (NRP)&lt;/a> and preconfigured in opencode.&lt;/li>
+&lt;li>The &lt;a href="https://github.com/mikerjacobi/agent-workshop" target="_blank" rel="noopener" >&lt;code>mothership&lt;/code> CLI&lt;/a>, for Mike Jacobi&amp;rsquo;s &lt;a href="https://docs.google.com/presentation/d/16h45tch0_KpPrRXlw7DN618aXRRpjJ8edAzHiOy7SI0/edit" target="_blank" rel="noopener" >hands-on tutorial on agent sandboxing and evals&lt;/a>.&lt;/li>
+&lt;/ul>
+&lt;h2 id="how-the-user-environment-was-set-up">
+How the user environment was set up
+&lt;a class="header-anchor" href="#how-the-user-environment-was-set-up">#&lt;/a>
+&lt;/h2>&lt;p>The environment is a Docker image built from &lt;a href="https://github.com/CryoInTheCloud/image-cryo-python-AI" target="_blank" rel="noopener" >&lt;code>CryoInTheCloud/image-cryo-python-AI&lt;/code>&lt;/a>.&lt;sup id="fnref:2">&lt;a href="#fn:2" class="footnote-ref" role="doc-noteref">2&lt;/a>&lt;/sup>&lt;/p>
+&lt;p>These two files do most of the setup for various LLM workflows:&lt;/p>
+&lt;ul>
+&lt;li>&lt;a href="https://github.com/CryoInTheCloud/image-cryo-python-AI/blob/main/.binder/postBuild" target="_blank" rel="noopener" >&lt;code>.binder/postBuild&lt;/code>&lt;/a> installs Claude Code and the ACP bridge with &lt;code>npm&lt;/code>.&lt;/li>
+&lt;li>&lt;a href="https://github.com/CryoInTheCloud/image-cryo-python-AI/blob/main/appendix" target="_blank" rel="noopener" >&lt;code>appendix&lt;/code>&lt;/a> installs opencode, the &lt;code>gcloud&lt;/code> CLI, &lt;code>mothership&lt;/code>, and the Jupyter AI pre-release.&lt;/li>
+&lt;/ul>
+&lt;p>We used &lt;a href="https://github.com/CryoInTheCloud/image-cryo-python-AI/blob/main/.github/workflows/build.yaml" target="_blank" rel="noopener" >a GitHub Actions workflow&lt;/a> to build the image and push it to a &lt;a href="https://quay.io/repository/cryointhecloud/cryo-python-ai" target="_blank" rel="noopener" >Docker image registry&lt;/a> so that it could be used by the hub.
+We then asked users to specify this image when they launched their user sessions.&lt;sup id="fnref:3">&lt;a href="#fn:3" class="footnote-ref" role="doc-noteref">3&lt;/a>&lt;/sup>&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="The hub&amp;amp;rsquo;s launch page, with the workshop image entered as a custom image" srcset="
+/blog/genai-workshop-hub-setup/featured_huaf8db3a00761835c06ae0af3fdff9f95_38125_af976042d4b33bdff7c00f68b4322904.webp 400w,
+/blog/genai-workshop-hub-setup/featured_huaf8db3a00761835c06ae0af3fdff9f95_38125_fe3ffc5af334b7646a44890ef0aae836.webp 760w,
+/blog/genai-workshop-hub-setup/featured_huaf8db3a00761835c06ae0af3fdff9f95_38125_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/genai-workshop-hub-setup/featured_huaf8db3a00761835c06ae0af3fdff9f95_38125_af976042d4b33bdff7c00f68b4322904.webp"
+width="760"
+height="705"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>Throughout the workshop we made changes to &lt;a href="https://github.com/CryoInTheCloud/image-cryo-python-AI" target="_blank" rel="noopener" >the repository that built this image&lt;/a>.
+CI/CD jobs in a PR checked that each change built properly.
+After merging the new image was automatically pushed to the registry so users got the changes when they re-launched their sessions.
+For example, here&amp;rsquo;s a &lt;a href="https://github.com/CryoInTheCloud/image-cryo-python-AI/pull/15" target="_blank" rel="noopener" >PR that upgraded Jupyter AI&lt;/a> in the middle of the workshop.&lt;/p>
+&lt;h2 id="how-users-accessed-llm-models">
+How users accessed LLM models
+&lt;a class="header-anchor" href="#how-users-accessed-llm-models">#&lt;/a>
+&lt;/h2>&lt;p>There were two model inference services that we used.
+Here&amp;rsquo;s a quick breakdown of these, and how we gave users access to them.&lt;/p>
+&lt;h3 id="nrp">
+NRP
+&lt;a class="header-anchor" href="#nrp">#&lt;/a>
+&lt;/h3>&lt;p>For the NRP models, we added a single API key to the hub (this didn&amp;rsquo;t go through LLMoxie since the API keys were generated straight from NRP).&lt;sup id="fnref:4">&lt;a href="#fn:4" class="footnote-ref" role="doc-noteref">4&lt;/a>&lt;/sup>
+&lt;a href="https://github.com/2i2c-org/infrastructure/pull/8905" target="_blank" rel="noopener" >This pull request&lt;/a> to &lt;a href="https://github.com/2i2c-org/infrastructure/blob/main/config/clusters/nasa-cryo/prod.values.yaml" target="_blank" rel="noopener" >2i2c&amp;rsquo;s infrastructure repository&lt;/a> added two things to every user server:&lt;/p>
+&lt;ul>
+&lt;li>An &lt;code>opencode.json&lt;/code> file that points opencode at NRP&amp;rsquo;s inference endpoint and lists its models.&lt;/li>
+&lt;li>The NRP API key, stored encrypted in the repository and exposed to users as the &lt;code>OPENAI_API_KEY&lt;/code> environment variable.&lt;/li>
+&lt;/ul>
+&lt;p>This allowed the event participants to use NRP models without setting anything up themselves!&lt;/p>
+&lt;h3 id="claude">
+Claude
+&lt;a class="header-anchor" href="#claude">#&lt;/a>
+&lt;/h3>&lt;p>Each participant received an e-mail from the &lt;a href="https://escience.washington.edu/" target="_blank" rel="noopener" >UW eScience Institute&lt;/a> with their own API key for &lt;a href="https://uwssec.org" target="_blank" rel="noopener" >UW SSEC&amp;rsquo;s&lt;/a> &lt;a href="https://github.com/uw-ssec/llmoxie" target="_blank" rel="noopener" >LLMoxie AI Platform&lt;/a>.
+This allowed the organizers to monitor the usage of each participant, control they could incur, and prevent participants from ever seeing raw API keys for Anthropic.
+LLMoxie also adds a layer of security, since it can mask sensitive information in requests before they reach the model.
+Model inference was provided through an allocation from &lt;a href="https://www.cloudbank.org/" target="_blank" rel="noopener" >NSF CloudBank&lt;/a>.&lt;/p>
+&lt;p>On the hub, participants ran a small setup script from a shared folder that configured Claude Code to use the proxy with their key (see a &lt;a href="https://github.com/uw-escience-cloudbank/hub-image-jupyterai/blob/main/binder/setup-claude-cloudbank.py" target="_blank" rel="noopener" >version of this script from UW&lt;/a>, and its &lt;a href="https://github.com/uw-escience-cloudbank/hub-image-jupyterai#claude-code" target="_blank" rel="noopener" >README&lt;/a> for more information).&lt;/p>
+&lt;h2 id="what-wed-like-to-improve">
+What we&amp;rsquo;d like to improve
+&lt;a class="header-anchor" href="#what-wed-like-to-improve">#&lt;/a>
+&lt;/h2>&lt;p>Both approaches worked for a short workshop, but each has problems we&amp;rsquo;d want to fix before using them on a long-running hub.&lt;/p>
+&lt;ul>
+&lt;li>&lt;strong>The shared NRP key was visible to every user.&lt;/strong> Anyone on the hub could read it from their environment, and potentially take it off the hub.
+This isn&amp;rsquo;t a big deal for a workshop, since you can just recycle (or revoke) the keys once it&amp;rsquo;s over, but it&amp;rsquo;s a bigger risk for long-running infrastructure.
+It also meant we couldn&amp;rsquo;t track any per-user or per-group usage, since it&amp;rsquo;s just one token used by everybody.&lt;/li>
+&lt;li>&lt;strong>The per-user Claude keys took manual work.&lt;/strong> For Claude, we used the LLMoxie service, but this required a manual e-mail step + running a Python script on the hub to connect their local Claude Code to the LLMoxie service.
+&lt;em>&lt;strong>Note&lt;/strong>: Communities outside of UW can also request access to LLMoxie from &lt;a href="https://uwssec.org" target="_blank" rel="noopener" >UW SSEC&lt;/a>&lt;/em>.&lt;/li>
+&lt;/ul>
+&lt;p>We&amp;rsquo;ve written up &lt;a href="https://github.com/2i2c-org/initiatives/issues/79" target="_blank" rel="noopener" >an initiative to improve this&lt;/a>&lt;sup id="fnref:5">&lt;a href="#fn:5" class="footnote-ref" role="doc-noteref">5&lt;/a>&lt;/sup>.
+It is essentially a &amp;ldquo;credential proxy service&amp;rdquo; for JupyterHub that would connect to either LLMoxie or a per-cluster service like LLMoxie that we could run for communities.
+It would allow communities to access inference servers using the authentication from their hub&amp;rsquo;s user session, without needing to duplicate or expose API keys.
+Let us know if this idea sounds useful!&lt;/p>
+&lt;p>Until then, beware if you follow a pattern like this for exposing an inference service API to your hub users!&lt;/p>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>Thanks to &lt;a href="https://tsnow03.github.io/" target="_blank" rel="noopener" >Tasha Snow&lt;/a> for pulling this together, to &lt;a href="https://github.com/dlqqq" target="_blank" rel="noopener" >David Qiu&lt;/a> for the Jupyter AI updates, to &lt;a href="https://github.com/minrk" target="_blank" rel="noopener" >Min RK&lt;/a> for the first LLM tooling, and to &lt;a href="https://github.com/scottyhq" target="_blank" rel="noopener" >Scott Henderson&lt;/a> and &lt;a href="https://github.com/atambay37" target="_blank" rel="noopener" >Anshul Tambay&lt;/a> for handling the Claude keys.&lt;/li>
+&lt;li>Thanks to the &lt;a href="https://2i2c.org/collaborators/cryocloud/" >CryoCloud&lt;/a> community for letting us experiment on their hub, and to NASA&amp;rsquo;s &lt;a href="https://www.nasa.gov/marshall/marshall-space-flight-missions/office-of-data-science-and-informatics-odsi/" target="_blank" rel="noopener" >Office of Data Science and Informatics (ODSI)&lt;/a> and &lt;a href="https://www.earthdata.nasa.gov/esds" target="_blank" rel="noopener" >Earth Science Data Systems (ESDS)&lt;/a> program for supporting the workshop.&lt;/li>
+&lt;li>Thanks to the &lt;a href="https://escience.washington.edu/" target="_blank" rel="noopener" >UW eScience Institute&lt;/a> for hosting the workshop and providing Claude access.&lt;/li>
+&lt;li>Finally, much of the cloud and the LLM infrastructure was funded or operated by external sources: the &lt;a href="https://nrp.ai/" target="_blank" rel="noopener" >NRP&lt;/a> and &lt;a href="https://www.cloudbank.org/" target="_blank" rel="noopener" >CloudBank&lt;/a> are funded by the &lt;a href="https://www.nsf.gov/" target="_blank" rel="noopener" >National Science Foundation&lt;/a>, and UW SSEC&amp;rsquo;s &lt;a href="https://github.com/uw-ssec/llmoxie" target="_blank" rel="noopener" >LLMoxie&lt;/a> was developed with support from the NSF &lt;a href="https://nairrpilot.org/" target="_blank" rel="noopener" >NAIRR Pilot&lt;/a> and &lt;a href="https://www.schmidtsciences.org/viss/" target="_blank" rel="noopener" >Schmidt Sciences Virtual Institutes for Scientific Software&lt;/a> program.&lt;/li>
+&lt;/ul>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>Note: we already wrote up &lt;a href="https://2i2c.org/blog/respnosible-genai-workshop/" >some reflections from the workshop&lt;/a> that are more general. This one is focused on infrastructure and environment setup.&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:2">
+&lt;p>If you&amp;rsquo;d rather build your own image from scratch, Tasha&amp;rsquo;s &lt;a href="https://github.com/tsnow03/BuildOwnImage_template_env" target="_blank" rel="noopener" >image template&lt;/a> is a minimal starting point.&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:3">
+&lt;p>We could have added this to the drop-down list of user environments, but opted not to because there were some security considerations that made us not want to unleash this image on everybody on the hub, just those at the workshop :-).&amp;#160;&lt;a href="#fnref:3" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:4">
+&lt;p>Both are adapted from the &lt;a href="https://github.com/BIDS/hub-deploy/blob/2a0e060f930fe9ff7f2dc0e4a38ed9cb0dd791b4/hubs/demo/config.yaml#L257-L299" target="_blank" rel="noopener" >BIDS demo hub&lt;/a>, which is another good example to learn from.&amp;#160;&lt;a href="#fnref:4" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;li id="fn:5">
+&lt;p>There&amp;rsquo;s actually already an &lt;a href="https://github.com/jupyterhub/roadmap/issues/13" target="_blank" rel="noopener" >initiative in the JupyterHub roadmap&lt;/a> for the hub proxy service as well!&amp;#160;&lt;a href="#fnref:5" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></description></item><item><title>A few things I learned at the Responsible GenAI for NASA Earth Data Workshop</title><link>https://2i2c.org/blog/respnosible-genai-workshop/</link><pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/respnosible-genai-workshop/</guid><description>&lt;p>I recently got back from the &lt;a href="https://responsible-genai.hackweek.io/" target="_blank" rel="noopener" >2026 Responsible GenAI for NASA EarthData workshop&lt;/a> in Seattle.
 It was an opportunity for members across the NASA ecosystem to share their experiences experimenting and learning with Generative AI models around Earth Data.
 This ranged everywhere from personal workflows to large-scale automations with non-trivial amounts of data.
 I&amp;rsquo;d say it was a way to share &amp;ldquo;best practices&amp;rdquo;, but I also realize that &lt;strong>there&amp;rsquo;s no such thing as best-practices for LLMs yet&lt;/strong>.
