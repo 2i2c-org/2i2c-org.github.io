@@ -30,7 +30,7 @@ Here's a quick description of what each user on the hub had access to:
 
 - Two coding agents ready to use in the terminal: [Claude Code](https://github.com/anthropics/claude-code) and [opencode](https://opencode.ai). _([Codex](https://github.com/openai/codex) was installed too, but we didn't use it in the workshop so we're not sure if it was set up properly!)_
 - A pre-release of [Jupyter AI](https://github.com/jupyterlab/jupyter-ai) 3.2, for chatting with opencode inside JupyterLab (thanks to [David Qiu](https://github.com/dlqqq) for doing some rapid pre-releasing during the event!).
-- Claude models, through a personal API key from UW eScience for each participant (using `llmoxie`, more on this below).
+- Claude models, through a personal API key from UW eScience for each participant (using LLMoxie, more on this below).
 - Open-weights models served by the [National Research Platform (NRP)](https://nrp.ai/documentation/userdocs/ai/llm-managed/) and preconfigured in opencode.
 - The [`mothership` CLI](https://github.com/mikerjacobi/agent-workshop), for Mike Jacobi's [hands-on tutorial on agent sandboxing and evals](https://docs.google.com/presentation/d/16h45tch0_KpPrRXlw7DN618aXRRpjJ8edAzHiOy7SI0/edit).
 
@@ -76,8 +76,10 @@ This allowed the event participants to use NRP models without setting anything u
 
 ### Claude
 
-Claude access came through the [UW eScience Institute](https://escience.washington.edu/), which has model access through an allocation from [NSF CloudBank](https://www.cloudbank.org/).
-UW eScience e-mailed each participant their own API key for a [LiteLLM proxy called `llmoxie`](https://github.com/uw-ssec/llmoxie), which is a service run by UW.
+Each participant received an e-mail from the [UW eScience Institute](https://escience.washington.edu/) with their own API key for [UW SSEC's](https://uwssec.org) [LLMoxie AI Platform](https://github.com/uw-ssec/llmoxie).
+This allowed the organizers to monitor the usage of each participant, control they could incur, and prevent participants from ever seeing raw API keys for Anthropic.
+
+Model inference was provided through an allocation from [NSF CloudBank](https://www.cloudbank.org/).
 On the hub, participants ran a small setup script from a shared folder that configured Claude Code to use the proxy with their key (see a [version of this script from UW](https://github.com/uw-escience-cloudbank/hub-image-jupyterai/blob/main/binder/setup-claude-cloudbank.py), and its [README](https://github.com/uw-escience-cloudbank/hub-image-jupyterai#claude-code) for more information).
 
 ## What we'd like to improve
@@ -87,12 +89,12 @@ Both approaches worked for a short workshop, but each has problems we'd want to 
 - **The shared NRP key was visible to every user.** Anyone on the hub could read it from their environment, and potentially take it off the hub.
   This isn't a big deal for a workshop, since you can just recycle (or revoke) the keys once it's over, but it's a bigger risk for long-running infrastructure.
   It also meant we couldn't track any per-user or per-group usage, since it's just one token used by everybody.
-- **The per-user Claude keys took manual work.** For Claude, we used the `llmoxie` service, but this required a manual e-mail step + running a Python script on the hub to connect their local Claude Code to the `llmoxie` service.
-  This service also might not be usable by _other_ communities that are outside of the UW ecosystem (we need to double check this).
+- **The per-user Claude keys took manual work.** For Claude, we used the LLMoxie service, but this required a manual e-mail step + running a Python script on the hub to connect their local Claude Code to the LLMoxie service.
+  _**Note**: Communities outside of UW can also request access to LLMoxie from [UW SSEC](https://uwssec.org)_.
 
 We've written up [an initiative to improve this](https://github.com/2i2c-org/initiatives/issues/79)[^hub].
-It is essentially a "credential proxy service" for JupyterHub that would connect to either `llmoxie` or a per-cluster service like `llmoxie` that we could run for communities.
-It would allow communities to access inference servers using the authentication from their hub's user session , without needing to duplicate or expose API keys.
+It is essentially a "credential proxy service" for JupyterHub that would connect to either LLMoxie or a per-cluster service like LLMoxie that we could run for communities.
+It would allow communities to access inference servers using the authentication from their hub's user session, without needing to duplicate or expose API keys.
 Let us know if this idea sounds useful!
 
 [^hub]: There's actually already an [initiative in the JupyterHub roadmap](https://github.com/jupyterhub/roadmap/issues/13) for the hub proxy service as well!
@@ -104,4 +106,4 @@ Until then, beware if you follow a pattern like this for exposing an inference s
 - Thanks to [Tasha Snow](https://tsnow03.github.io/) for pulling this together, to [David Qiu](https://github.com/dlqqq) for the Jupyter AI updates, to [Min RK](https://github.com/minrk) for the first LLM tooling, and to [Scott Henderson](https://github.com/scottyhq) and [Anshul Tambay](https://github.com/atambay37) for handling the Claude keys.
 - Thanks to the [CryoCloud](../../../collaborators/cryocloud/) community for letting us experiment on their hub, and to NASA's [Office of Data Science and Informatics (ODSI)](https://www.nasa.gov/marshall/marshall-space-flight-missions/office-of-data-science-and-informatics-odsi/) and [Earth Science Data Systems (ESDS)](https://www.earthdata.nasa.gov/esds) program for supporting the workshop.
 - Thanks to the [UW eScience Institute](https://escience.washington.edu/) for hosting the workshop and providing Claude access.
-- Finally, much of the cloud and the LLM infrastructure was funded or operated by external sources: the [NRP](https://nrp.ai/) and [CloudBank](https://www.cloudbank.org/) are funded by the [National Science Foundation](https://www.nsf.gov/), and UW SSEC's [LLM proxy](https://github.com/uw-ssec/llmoxie) was developed with support from the NSF [NAIRR Pilot](https://nairrpilot.org/) and [Schmidt Sciences Virtual Institutes for Scientific Software](https://www.schmidtsciences.org/viss/) program.
+- Finally, much of the cloud and the LLM infrastructure was funded or operated by external sources: the [NRP](https://nrp.ai/) and [CloudBank](https://www.cloudbank.org/) are funded by the [National Science Foundation](https://www.nsf.gov/), and UW SSEC's [LLMoxie](https://github.com/uw-ssec/llmoxie) was developed with support from the NSF [NAIRR Pilot](https://nairrpilot.org/) and [Schmidt Sciences Virtual Institutes for Scientific Software](https://www.schmidtsciences.org/viss/) program.
