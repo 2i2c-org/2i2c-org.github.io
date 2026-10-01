@@ -76,7 +76,7 @@ This allowed the event participants to use NRP models without setting anything u
 
 ### Claude
 
-Each participant received an e-mail from the [UW eScience Institute](https://escience.washington.edu/) with their own API key for [UW SSEC's](https://uwssec.org) [LLMoxie AI Platform](https://github.com/uw-ssec/llmoxie).
+Each participant received an e-mail from the [UW eScience Institute](https://escience.washington.edu/) with their own API key for [UW SSEC's](https://uwssec.org) [LLMoxie AI Platform](https://arxiv.org/abs/2607.02703).
 This allowed the organizers to monitor the usage of each participant, control they could incur, and prevent participants from ever seeing raw API keys for Anthropic.
 LLMoxie also adds a layer of security, since it can mask sensitive information in requests before they reach the model.
 Model inference was provided through an allocation from [NSF CloudBank](https://www.cloudbank.org/).
@@ -107,4 +107,4 @@ Until then, beware if you follow a pattern like this for exposing an inference s
 - Thanks to [Tasha Snow](https://tsnow03.github.io/) for pulling this together, to [David Qiu](https://github.com/dlqqq) for the Jupyter AI updates, to [Min RK](https://github.com/minrk) for the first LLM tooling, and to [Scott Henderson](https://github.com/scottyhq) and [Anshul Tambay](https://github.com/atambay37) for handling the Claude keys.
 - Thanks to the [CryoCloud](../../../collaborators/cryocloud/) community for letting us experiment on their hub, and to NASA's [Office of Data Science and Informatics (ODSI)](https://www.nasa.gov/marshall/marshall-space-flight-missions/office-of-data-science-and-informatics-odsi/) and [Earth Science Data Systems (ESDS)](https://www.earthdata.nasa.gov/esds) program for supporting the workshop.
 - Thanks to the [UW eScience Institute](https://escience.washington.edu/) for hosting the workshop and providing Claude access.
-- Finally, much of the cloud and the LLM infrastructure was funded or operated by external sources: the [NRP](https://nrp.ai/) and [CloudBank](https://www.cloudbank.org/) are funded by the [National Science Foundation](https://www.nsf.gov/), and UW SSEC's [LLMoxie](https://github.com/uw-ssec/llmoxie) was developed with support from the NSF [NAIRR Pilot](https://nairrpilot.org/) and [Schmidt Sciences Virtual Institutes for Scientific Software](https://www.schmidtsciences.org/viss/) program.
+- Finally, much of the cloud and the LLM infrastructure was funded or operated by external sources: the [NRP](https://nrp.ai/) and [CloudBank](https://www.cloudbank.org/) are funded by the [National Science Foundation](https://www.nsf.gov/), and UW SSEC's [LLMoxie](https://arxiv.org/abs/2607.02703) was developed with support from the NSF [NAIRR Pilot](https://nairrpilot.org/) and [Schmidt Sciences Virtual Institutes for Scientific Software](https://www.schmidtsciences.org/viss/) program.
