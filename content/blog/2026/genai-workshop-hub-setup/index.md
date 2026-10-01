@@ -13,9 +13,9 @@ categories:
 featured: false
 ---
 
-This summer, we participated in the [Responsible GenAI for NASA Earthdata workshop](https://responsible-genai.hackweek.io/), a community gathering to explore how others were using GenAI in their workflows across the NASA community, and share best practices.
+This summer, we participated in the [Responsible GenAI for NASA Earthdata workshop](https://responsible-genai.hackweek.io/), a community gathering [University of Washington's eScience institute](https://escience.washington.edu/), to explore how others were using GenAI in their workflows across the NASA community, and share best practices.
 
-As part of this work, we worked with [Tasha Snow](https://tsnow03.github.io/) to set up an environment on the [CryoCloud hub](../../../collaborators/cryocloud/) that allowed attendees to access and experiment with a few different LLM workflows with Earth data.
+As part of this work, we worked with [Tasha Snow](https://tsnow03.github.io/), [Scott Henderson](https://scottyhq.github.io/), [Anshul Tambay](https://escience.washington.edu/member/anshul-tambay/), and [Don Setiawan](https://lsetiawan.github.io/) to set up an environment on the [CryoCloud hub](../../../collaborators/cryocloud/) that allowed attendees to access and experiment with a few different LLM workflows with Earth data.
 
 This is a short post to describe some of the decisions we made, how we set it up, and what we'd like to improve or do differently next time[^1].
 
