@@ -1,7 +1,7 @@
 ---
 title: Giving users a dedicated /tmp disk with Kubernetes ephemeral volumes
 slug: "dedicated-tmp-disks"
-date: 2026-10-06
+date: 2026-10-08
 authors:
   - Chris Holdgraf
 categories:
@@ -9,8 +9,7 @@ categories:
 tags:
   - open source
   - jupyterhub
-  - computation
-  - learning
+  - cloud costs
 ---
 
 We recently figured out a simple way to give individual users their own `/tmp` folder so that they have more space in a cost-effective way.
