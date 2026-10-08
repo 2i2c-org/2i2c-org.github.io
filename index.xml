@@ -1,4 +1,31 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2i2c</title><link>https://2i2c.org/</link><atom:link href="https://2i2c.org/index.xml" rel="self" type="application/rss+xml"/><description>2i2c</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Tue, 29 Sep 2026 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>2i2c</title><link>https://2i2c.org/</link></image><item><title>How we set up an AI-enabled hub for the NASA Earth Responsible GenAI workshop</title><link>https://2i2c.org/blog/genai-workshop-hub-setup/</link><pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/genai-workshop-hub-setup/</guid><description>&lt;p>This summer, we participated in the &lt;a href="https://responsible-genai.hackweek.io/" target="_blank" rel="noopener" >Responsible GenAI for NASA Earthdata workshop&lt;/a>, a community gathering organized by &lt;a href="https://escience.washington.edu/" target="_blank" rel="noopener" >University of Washington&amp;rsquo;s eScience institute&lt;/a>, to explore how others were using GenAI in their workflows across the NASA community, and share best practices.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>2i2c</title><link>https://2i2c.org/</link><atom:link href="https://2i2c.org/index.xml" rel="self" type="application/rss+xml"/><description>2i2c</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Thu, 08 Oct 2026 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>2i2c</title><link>https://2i2c.org/</link></image><item><title>Giving users a dedicated /tmp disk with Kubernetes ephemeral volumes</title><link>https://2i2c.org/blog/dedicated-tmp-disks/</link><pubDate>Thu, 08 Oct 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/dedicated-tmp-disks/</guid><description>&lt;p>We recently figured out a simple way to give individual users their own &lt;code>/tmp&lt;/code> folder so that they have more space in a cost-effective way.
+&lt;code>/tmp&lt;/code> is often used for storing intermediate data files and processing steps, but a few communities like &lt;a href="https://2i2c.org/collaborators/nasa-veda/" >MAAP&lt;/a> and &lt;a href="https://2i2c.org/collaborators/earthscope/" >EarthScope&lt;/a> were running into size limits.
+We could always increase the total size of the disk, but this increases a steady-state cost, ååwhich is overkill for something that is inherently ephemeral.
+By using dedicated, temporary storage for the &lt;code>/tmp&lt;/code> folder, we can make it more cost-effective to dynamically grow (and shrink) the space available to users.&lt;/p>
+&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="The server options page, with a &amp;amp;ldquo;Scratch Disk on /tmp&amp;amp;rdquo; dropdown offering a dedicated 500GB disk" srcset="
+/blog/dedicated-tmp-disks/featured_huf33a6af57d216f871f66790be8369556_89279_521398e4f367b2fe69eed403c5336fdb.webp 400w,
+/blog/dedicated-tmp-disks/featured_huf33a6af57d216f871f66790be8369556_89279_83a0da6ecb35b8dcdc28d78f3e29c1ca.webp 760w,
+/blog/dedicated-tmp-disks/featured_huf33a6af57d216f871f66790be8369556_89279_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/dedicated-tmp-disks/featured_huf33a6af57d216f871f66790be8369556_89279_521398e4f367b2fe69eed403c5336fdb.webp"
+width="760"
+height="488"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;em>Choosing a dedicated &lt;code>/tmp&lt;/code> disk on the MAAP staging hub.&lt;/em>&lt;/p>
+&lt;p>This builds on top of the &lt;a href="https://kubernetes.io/docs/concepts/storage/ephemeral-volumes/" target="_blank" rel="noopener" >ephemeral volumes&lt;/a> feature of Kubernetes, which our team recently discovered!
+These attach a cloud disk to a single user&amp;rsquo;s server, and Kubernetes deletes the disk when the server stops.&lt;/p>
+&lt;p>We built on the &lt;a href="https://2i2c.org/jupyterhub-fancy-profiles/stable/" target="_blank" rel="noopener" >JupyterHub Fancy Profiles&lt;/a> project to add a dropdown for users to pick a dedicated &lt;code>/tmp&lt;/code> disk and how big they want it to be (see ths PR to learn more: &lt;a href="https://github.com/2i2c-org/infrastructure/pull/9112%29" target="_blank" rel="noopener" >&lt;i class='fa-brands fa-github'>&lt;/i> 2i2c-org/infrastructure#9112)&lt;/a>.&lt;/p>
+&lt;h2 id="learn-more">
+Learn more
+&lt;a class="header-anchor" href="#learn-more">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>&lt;a href="https://docs.2i2c.org/user/data/filesystem/#filesystem-tmp-dedicated" target="_blank" rel="noopener" >User docs on dedicated &lt;code>/tmp&lt;/code> disks&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://docs.2i2c.org/admin/monitoring/disk-usage/" target="_blank" rel="noopener" >Admin docs on dedicated &lt;code>/tmp&lt;/code> disks&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://github.com/2i2c-org/initiatives/issues/61" target="_blank" rel="noopener" >The initiative that asked for faster scratch space&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>How we set up an AI-enabled hub for the NASA Earth Responsible GenAI workshop</title><link>https://2i2c.org/blog/genai-workshop-hub-setup/</link><pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/genai-workshop-hub-setup/</guid><description>&lt;p>This summer, we participated in the &lt;a href="https://responsible-genai.hackweek.io/" target="_blank" rel="noopener" >Responsible GenAI for NASA Earthdata workshop&lt;/a>, a community gathering organized by &lt;a href="https://escience.washington.edu/" target="_blank" rel="noopener" >University of Washington&amp;rsquo;s eScience institute&lt;/a>, to explore how others were using GenAI in their workflows across the NASA community, and share best practices.&lt;/p>
 &lt;p>As part of this work, we worked with &lt;a href="https://tsnow03.github.io/" target="_blank" rel="noopener" >Tasha Snow&lt;/a>, &lt;a href="https://scottyhq.github.io/" target="_blank" rel="noopener" >Scott Henderson&lt;/a>, &lt;a href="https://escience.washington.edu/member/anshul-tambay/" target="_blank" rel="noopener" >Anshul Tambay&lt;/a>, and &lt;a href="https://lsetiawan.github.io/" target="_blank" rel="noopener" >Don Setiawan&lt;/a> to set up an environment on the &lt;a href="https://2i2c.org/collaborators/cryocloud/" >CryoCloud hub&lt;/a> that allowed attendees to access and experiment with a few different LLM workflows with Earth data.&lt;/p>
 &lt;p>This is a short post to describe some of the decisions we made, how we set it up, and what we&amp;rsquo;d like to improve or do differently next time&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
 &lt;p>&lt;em>Setting up a hub environment for community LLM use is very much still a work in progress!
@@ -8664,6 +8691,16 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;div class="col-sm-6 col-md-4 col-lg-3">
 &lt;div class="card border-0" style="background-color: #f8f9fa;">
 &lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
+&lt;a href="https://berea.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
+&lt;img src="https://2i2c.org/members/images/berea_college.png" alt="Berea College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
+&lt;small class="text-dark fw-medium">Berea College&lt;/small>
+&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="col-sm-6 col-md-4 col-lg-3">
+&lt;div class="card border-0" style="background-color: #f8f9fa;">
+&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
 &lt;a href="https://bcc.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/berkeley_city_college.svg" alt="Berkeley City College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">Berkeley City College&lt;/small>
@@ -9094,16 +9131,6 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;div class="col-sm-6 col-md-4 col-lg-3">
 &lt;div class="card border-0" style="background-color: #f8f9fa;">
 &lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
-&lt;a href="https://lahc.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
-&lt;img src="https://2i2c.org/members/images/los_angeles_harbor_college.svg" alt="Los Angeles Harbor College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
-&lt;small class="text-dark fw-medium">Los Angeles Harbor College&lt;/small>
-&lt;/a>
-&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;div class="col-sm-6 col-md-4 col-lg-3">
-&lt;div class="card border-0" style="background-color: #f8f9fa;">
-&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
 &lt;a href="https://lavc.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/los_angeles_valley_college.svg" alt="Los Angeles Valley College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">Los Angeles Valley College&lt;/small>
@@ -9134,6 +9161,16 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;div class="col-sm-6 col-md-4 col-lg-3">
 &lt;div class="card border-0" style="background-color: #f8f9fa;">
 &lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
+&lt;a href="https://mtu.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
+&lt;img src="https://2i2c.org/members/images/michigan_technological_university.svg" alt="Michigan Technological University" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
+&lt;small class="text-dark fw-medium">Michigan Technological University&lt;/small>
+&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="col-sm-6 col-md-4 col-lg-3">
+&lt;div class="card border-0" style="background-color: #f8f9fa;">
+&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
 &lt;a href="https://miracosta.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/miracosta_college.svg" alt="MiraCosta College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">MiraCosta College&lt;/small>
@@ -9147,16 +9184,6 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;a href="https://monmouth.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/monmouth_university.svg" alt="Monmouth University" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">Monmouth University&lt;/small>
-&lt;/a>
-&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;div class="col-sm-6 col-md-4 col-lg-3">
-&lt;div class="card border-0" style="background-color: #f8f9fa;">
-&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
-&lt;a href="https://staging.hub.disasters.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
-&lt;img src="https://2i2c.org/members/images/nasa_disasters_program.png" alt="NASA Disasters Program" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
-&lt;small class="text-dark fw-medium">NASA Disasters Program&lt;/small>
 &lt;/a>
 &lt;/div>
 &lt;/div>
@@ -9197,16 +9224,6 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;a href="https://nova.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/nova_southeastern_university.svg" alt="Nova Southeastern University" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">Nova Southeastern University&lt;/small>
-&lt;/a>
-&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;div class="col-sm-6 col-md-4 col-lg-3">
-&lt;div class="card border-0" style="background-color: #f8f9fa;">
-&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
-&lt;a href="https://ornl.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
-&lt;img src="https://2i2c.org/members/images/oak_ridge_national_laboratory.svg" alt="Oak Ridge National Laboratory" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
-&lt;small class="text-dark fw-medium">Oak Ridge National Laboratory&lt;/small>
 &lt;/a>
 &lt;/div>
 &lt;/div>
@@ -9494,6 +9511,16 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;div class="col-sm-6 col-md-4 col-lg-3">
 &lt;div class="card border-0" style="background-color: #f8f9fa;">
 &lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
+&lt;a href="https://virginia.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
+&lt;img src="https://2i2c.org/members/images/university_of_virginia.png" alt="University of Virginia" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
+&lt;small class="text-dark fw-medium">University of Virginia&lt;/small>
+&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="col-sm-6 col-md-4 col-lg-3">
+&lt;div class="card border-0" style="background-color: #f8f9fa;">
+&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
 &lt;a href="https://uwyo.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/university_of_wyoming.png" alt="University of Wyoming" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">University of Wyoming&lt;/small>
@@ -9547,16 +9574,6 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;a href="https://whitman.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/whitman_college.svg" alt="Whitman College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">Whitman College&lt;/small>
-&lt;/a>
-&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;div class="col-sm-6 col-md-4 col-lg-3">
-&lt;div class="card border-0" style="background-color: #f8f9fa;">
-&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
-&lt;a href="https://willamette.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
-&lt;img src="https://2i2c.org/members/images/willamette_university.png" alt="Willamette University" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
-&lt;small class="text-dark fw-medium">Willamette University&lt;/small>
 &lt;/a>
 &lt;/div>
 &lt;/div>
