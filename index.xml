@@ -8581,7 +8581,23 @@ height="205"
 loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;/figure>
 &lt;/p>
-&lt;p>&lt;a href="https://jupyterbook.org/" target="_blank" rel="noopener" >Jupyter Book&lt;/a> is an open source project for building beautiful, publication-quality books and documents from computational material. It allows users to create interactive books from Jupyter notebooks, Markdown files, and other computational content, supporting rich formatting and cross-references.&lt;/p></description></item><item><title>JupyterHub</title><link>https://2i2c.org/collaborators/jupyterhub/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://2i2c.org/collaborators/jupyterhub/</guid><description>&lt;p>
+&lt;p>&lt;a href="https://jupyterbook.org/" target="_blank" rel="noopener" >Jupyter Book&lt;/a> is an open source project for building beautiful, publication-quality books and documents from computational material. It allows users to create interactive books from Jupyter notebooks, Markdown files, and other computational content, supporting rich formatting and cross-references.&lt;/p></description></item><item><title>JupyterHealth</title><link>https://2i2c.org/collaborators/jupyterhealth/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://2i2c.org/collaborators/jupyterhealth/</guid><description>&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="" srcset="
+/collaborators/jupyterhealth/featured_hu695aa5f40eb633abd6bc5f28b625b075_16176_c471ec8409b164683c67947150ff4ae0.webp 400w,
+/collaborators/jupyterhealth/featured_hu695aa5f40eb633abd6bc5f28b625b075_16176_05f332c9efbfe07b1a68c7f6aaf520c1.webp 760w,
+/collaborators/jupyterhealth/featured_hu695aa5f40eb633abd6bc5f28b625b075_16176_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/collaborators/jupyterhealth/featured_hu695aa5f40eb633abd6bc5f28b625b075_16176_c471ec8409b164683c67947150ff4ae0.webp"
+width="310"
+height="70"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>&lt;a href="https://jupyterhealth.org/" target="_blank" rel="noopener" >JupyterHealth&lt;/a> is an open source project that connects wearable, clinical, and patient-generated data to computational and AI tools for health care.
+It is built on Jupyter and open standards like FHIR and Open mHealth, and is made for researchers, clinicians, and patients.&lt;/p>
+&lt;p>Its two main components are the &lt;strong>Exchange&lt;/strong>, which stores patient-consented data, and the &lt;strong>Hub&lt;/strong>, where people analyze that data and build data products for clinicians and patients.
+Learn more in the &lt;a href="https://docs.jupyterhealth.org/" target="_blank" rel="noopener" >JupyterHealth documentation&lt;/a>.&lt;/p></description></item><item><title>JupyterHub</title><link>https://2i2c.org/collaborators/jupyterhub/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://2i2c.org/collaborators/jupyterhub/</guid><description>&lt;p>
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="" srcset="
@@ -8688,16 +8704,6 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;/ul>
 &lt;div class="container-fluid py-5">
 &lt;div class="row g-4">
-&lt;div class="col-sm-6 col-md-4 col-lg-3">
-&lt;div class="card border-0" style="background-color: #f8f9fa;">
-&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
-&lt;a href="https://berea.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
-&lt;img src="https://2i2c.org/members/images/berea_college.png" alt="Berea College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
-&lt;small class="text-dark fw-medium">Berea College&lt;/small>
-&lt;/a>
-&lt;/div>
-&lt;/div>
-&lt;/div>
 &lt;div class="col-sm-6 col-md-4 col-lg-3">
 &lt;div class="card border-0" style="background-color: #f8f9fa;">
 &lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
@@ -8891,16 +8897,6 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;div class="col-sm-6 col-md-4 col-lg-3">
 &lt;div class="card border-0" style="background-color: #f8f9fa;">
 &lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
-&lt;a href="https://emich.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
-&lt;img src="https://2i2c.org/members/images/eastern_michigan_university.svg" alt="Eastern Michigan University" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
-&lt;small class="text-dark fw-medium">Eastern Michigan University&lt;/small>
-&lt;/a>
-&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;div class="col-sm-6 col-md-4 col-lg-3">
-&lt;div class="card border-0" style="background-color: #f8f9fa;">
-&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
 &lt;a href="https://elcamino.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/el_camino_college.png" alt="El Camino College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">El Camino College&lt;/small>
@@ -8924,16 +8920,6 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;a href="https://hub.big.binder.opensci.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/ephemeral_interactive_computing_for_nasa_communities.png" alt="Ephemeral Interactive Computing for NASA Communities" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">Ephemeral Interactive Computing for NASA Communities&lt;/small>
-&lt;/a>
-&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;div class="col-sm-6 col-md-4 col-lg-3">
-&lt;div class="card border-0" style="background-color: #f8f9fa;">
-&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
-&lt;a href="https://fgcu.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
-&lt;img src="https://2i2c.org/members/images/florida_gulf_coast_university.png" alt="Florida Gulf Coast University" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
-&lt;small class="text-dark fw-medium">Florida Gulf Coast University&lt;/small>
 &lt;/a>
 &lt;/div>
 &lt;/div>
@@ -9034,6 +9020,16 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;a href="https://howard.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/howard_university.png" alt="Howard University" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">Howard University&lt;/small>
+&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="col-sm-6 col-md-4 col-lg-3">
+&lt;div class="card border-0" style="background-color: #f8f9fa;">
+&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
+&lt;a href="https://iecc.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
+&lt;img src="https://2i2c.org/members/images/illinois_eastern_community_colleges.svg" alt="Illinois Eastern Community Colleges" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
+&lt;small class="text-dark fw-medium">Illinois Eastern Community Colleges&lt;/small>
 &lt;/a>
 &lt;/div>
 &lt;/div>
@@ -9184,6 +9180,16 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;a href="https://monmouth.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/monmouth_university.svg" alt="Monmouth University" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">Monmouth University&lt;/small>
+&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="col-sm-6 col-md-4 col-lg-3">
+&lt;div class="card border-0" style="background-color: #f8f9fa;">
+&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
+&lt;a href="https://staging.hub.disasters.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
+&lt;img src="https://2i2c.org/members/images/nasa_disasters_program.png" alt="NASA Disasters Program" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
+&lt;small class="text-dark fw-medium">NASA Disasters Program&lt;/small>
 &lt;/a>
 &lt;/div>
 &lt;/div>
@@ -9441,16 +9447,6 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;div class="col-sm-6 col-md-4 col-lg-3">
 &lt;div class="card border-0" style="background-color: #f8f9fa;">
 &lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
-&lt;a href="https://maine.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
-&lt;img src="https://2i2c.org/members/images/university_of_maine.svg" alt="University of Maine" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
-&lt;small class="text-dark fw-medium">University of Maine&lt;/small>
-&lt;/a>
-&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;div class="col-sm-6 col-md-4 col-lg-3">
-&lt;div class="card border-0" style="background-color: #f8f9fa;">
-&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
 &lt;a href="https://umd.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/university_of_maryland.svg" alt="University of Maryland" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">University of Maryland&lt;/small>
@@ -9474,16 +9470,6 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;a href="https://und.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/university_of_north_dakota.jpg" alt="University of North Dakota" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">University of North Dakota&lt;/small>
-&lt;/a>
-&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;div class="col-sm-6 col-md-4 col-lg-3">
-&lt;div class="card border-0" style="background-color: #f8f9fa;">
-&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
-&lt;a href="https://uta.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
-&lt;img src="https://2i2c.org/members/images/university_of_texas_at_arlington.svg" alt="University of Texas at Arlington" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
-&lt;small class="text-dark fw-medium">University of Texas at Arlington&lt;/small>
 &lt;/a>
 &lt;/div>
 &lt;/div>
@@ -9561,9 +9547,9 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;div class="col-sm-6 col-md-4 col-lg-3">
 &lt;div class="card border-0" style="background-color: #f8f9fa;">
 &lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
-&lt;a href="https://wcu.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
-&lt;img src="https://2i2c.org/members/images/western_carolina_university.svg" alt="Western Carolina University" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
-&lt;small class="text-dark fw-medium">Western Carolina University&lt;/small>
+&lt;a href="https://whitman.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
+&lt;img src="https://2i2c.org/members/images/whitman_college.svg" alt="Whitman College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
+&lt;small class="text-dark fw-medium">Whitman College&lt;/small>
 &lt;/a>
 &lt;/div>
 &lt;/div>
@@ -9571,9 +9557,19 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;div class="col-sm-6 col-md-4 col-lg-3">
 &lt;div class="card border-0" style="background-color: #f8f9fa;">
 &lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
-&lt;a href="https://whitman.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
-&lt;img src="https://2i2c.org/members/images/whitman_college.svg" alt="Whitman College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
-&lt;small class="text-dark fw-medium">Whitman College&lt;/small>
+&lt;a href="https://willamette.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
+&lt;img src="https://2i2c.org/members/images/willamette_university.png" alt="Willamette University" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
+&lt;small class="text-dark fw-medium">Willamette University&lt;/small>
+&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="col-sm-6 col-md-4 col-lg-3">
+&lt;div class="card border-0" style="background-color: #f8f9fa;">
+&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
+&lt;a href="https://york.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
+&lt;img src="https://2i2c.org/members/images/york_college_cuny.svg" alt="York College, CUNY" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
+&lt;small class="text-dark fw-medium">York College, CUNY&lt;/small>
 &lt;/a>
 &lt;/div>
 &lt;/div>

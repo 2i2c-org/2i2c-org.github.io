@@ -240,7 +240,23 @@ height="205"
 loading="lazy" data-zoomable />&lt;/div>
 &lt;/div>&lt;/figure>
 &lt;/p>
-&lt;p>&lt;a href="https://jupyterbook.org/" target="_blank" rel="noopener" >Jupyter Book&lt;/a> is an open source project for building beautiful, publication-quality books and documents from computational material. It allows users to create interactive books from Jupyter notebooks, Markdown files, and other computational content, supporting rich formatting and cross-references.&lt;/p></description></item><item><title>JupyterHub</title><link>https://2i2c.org/collaborators/jupyterhub/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://2i2c.org/collaborators/jupyterhub/</guid><description>&lt;p>
+&lt;p>&lt;a href="https://jupyterbook.org/" target="_blank" rel="noopener" >Jupyter Book&lt;/a> is an open source project for building beautiful, publication-quality books and documents from computational material. It allows users to create interactive books from Jupyter notebooks, Markdown files, and other computational content, supporting rich formatting and cross-references.&lt;/p></description></item><item><title>JupyterHealth</title><link>https://2i2c.org/collaborators/jupyterhealth/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://2i2c.org/collaborators/jupyterhealth/</guid><description>&lt;p>
+&lt;figure >
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="" srcset="
+/collaborators/jupyterhealth/featured_hu695aa5f40eb633abd6bc5f28b625b075_16176_c471ec8409b164683c67947150ff4ae0.webp 400w,
+/collaborators/jupyterhealth/featured_hu695aa5f40eb633abd6bc5f28b625b075_16176_05f332c9efbfe07b1a68c7f6aaf520c1.webp 760w,
+/collaborators/jupyterhealth/featured_hu695aa5f40eb633abd6bc5f28b625b075_16176_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/collaborators/jupyterhealth/featured_hu695aa5f40eb633abd6bc5f28b625b075_16176_c471ec8409b164683c67947150ff4ae0.webp"
+width="310"
+height="70"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;/figure>
+&lt;/p>
+&lt;p>&lt;a href="https://jupyterhealth.org/" target="_blank" rel="noopener" >JupyterHealth&lt;/a> is an open source project that connects wearable, clinical, and patient-generated data to computational and AI tools for health care.
+It is built on Jupyter and open standards like FHIR and Open mHealth, and is made for researchers, clinicians, and patients.&lt;/p>
+&lt;p>Its two main components are the &lt;strong>Exchange&lt;/strong>, which stores patient-consented data, and the &lt;strong>Hub&lt;/strong>, where people analyze that data and build data products for clinicians and patients.
+Learn more in the &lt;a href="https://docs.jupyterhealth.org/" target="_blank" rel="noopener" >JupyterHealth documentation&lt;/a>.&lt;/p></description></item><item><title>JupyterHub</title><link>https://2i2c.org/collaborators/jupyterhub/</link><pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><guid>https://2i2c.org/collaborators/jupyterhub/</guid><description>&lt;p>
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
 &lt;div class="w-100" >&lt;img alt="" srcset="
