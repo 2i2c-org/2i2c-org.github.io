@@ -1,6 +1,6 @@
 ---
 title: A few things I learned at the Responsible GenAI for NASA Earth Data Workshop
-slug: "respnosible-genai-workshop"
+slug: "responsible-genai-workshop"
 date: 2026-09-01
 tags:
   - open-source
