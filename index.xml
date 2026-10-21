@@ -121,7 +121,7 @@ Acknowledgements
 &lt;hr>
 &lt;ol>
 &lt;li id="fn:1">
-&lt;p>Note: we already wrote up &lt;a href="https://2i2c.org/blog/respnosible-genai-workshop/" >some reflections from the workshop&lt;/a> that are more general. This one is focused on infrastructure and environment setup.&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;p>Note: we already wrote up &lt;a href="https://2i2c.org/blog/responsible-genai-workshop/" >some reflections from the workshop&lt;/a> that are more general. This one is focused on infrastructure and environment setup.&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li id="fn:2">
 &lt;p>If you&amp;rsquo;d rather build your own image from scratch, Tasha&amp;rsquo;s &lt;a href="https://github.com/tsnow03/BuildOwnImage_template_env" target="_blank" rel="noopener" >image template&lt;/a> is a minimal starting point.&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
@@ -136,7 +136,7 @@ Acknowledgements
 &lt;p>There&amp;rsquo;s actually already an &lt;a href="https://github.com/jupyterhub/roadmap/issues/13" target="_blank" rel="noopener" >initiative in the JupyterHub roadmap&lt;/a> for the hub proxy service as well!&amp;#160;&lt;a href="#fnref:5" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/div></description></item><item><title>A few things I learned at the Responsible GenAI for NASA Earth Data Workshop</title><link>https://2i2c.org/blog/respnosible-genai-workshop/</link><pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/respnosible-genai-workshop/</guid><description>&lt;p>I recently got back from the &lt;a href="https://responsible-genai.hackweek.io/" target="_blank" rel="noopener" >2026 Responsible GenAI for NASA EarthData workshop&lt;/a> in Seattle.
+&lt;/div></description></item><item><title>A few things I learned at the Responsible GenAI for NASA Earth Data Workshop</title><link>https://2i2c.org/blog/responsible-genai-workshop/</link><pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/responsible-genai-workshop/</guid><description>&lt;p>I recently got back from the &lt;a href="https://responsible-genai.hackweek.io/" target="_blank" rel="noopener" >2026 Responsible GenAI for NASA EarthData workshop&lt;/a> in Seattle.
 It was an opportunity for members across the NASA ecosystem to share their experiences experimenting and learning with Generative AI models around Earth Data.
 This ranged everywhere from personal workflows to large-scale automations with non-trivial amounts of data.
 I&amp;rsquo;d say it was a way to share &amp;ldquo;best practices&amp;rdquo;, but I also realize that &lt;strong>there&amp;rsquo;s no such thing as best-practices for LLMs yet&lt;/strong>.
@@ -8707,6 +8707,16 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;div class="col-sm-6 col-md-4 col-lg-3">
 &lt;div class="card border-0" style="background-color: #f8f9fa;">
 &lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
+&lt;a href="https://berea.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
+&lt;img src="https://2i2c.org/members/images/berea_college.png" alt="Berea College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
+&lt;small class="text-dark fw-medium">Berea College&lt;/small>
+&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="col-sm-6 col-md-4 col-lg-3">
+&lt;div class="card border-0" style="background-color: #f8f9fa;">
+&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
 &lt;a href="https://bcc.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/berkeley_city_college.svg" alt="Berkeley City College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">Berkeley City College&lt;/small>
@@ -8927,6 +8937,16 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;div class="col-sm-6 col-md-4 col-lg-3">
 &lt;div class="card border-0" style="background-color: #f8f9fa;">
 &lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
+&lt;a href="https://fgcu.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
+&lt;img src="https://2i2c.org/members/images/florida_gulf_coast_university.png" alt="Florida Gulf Coast University" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
+&lt;small class="text-dark fw-medium">Florida Gulf Coast University&lt;/small>
+&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="col-sm-6 col-md-4 col-lg-3">
+&lt;div class="card border-0" style="background-color: #f8f9fa;">
+&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
 &lt;a href="https://fresno.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/fresno_city_college.png" alt="Fresno City College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">Fresno City College&lt;/small>
@@ -9010,16 +9030,6 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;a href="https://high.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/high_schools_experimental.svg" alt="High Schools Experimental" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">High Schools Experimental&lt;/small>
-&lt;/a>
-&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;div class="col-sm-6 col-md-4 col-lg-3">
-&lt;div class="card border-0" style="background-color: #f8f9fa;">
-&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
-&lt;a href="https://howard.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
-&lt;img src="https://2i2c.org/members/images/howard_university.png" alt="Howard University" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
-&lt;small class="text-dark fw-medium">Howard University&lt;/small>
 &lt;/a>
 &lt;/div>
 &lt;/div>
@@ -9137,16 +9147,6 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;div class="col-sm-6 col-md-4 col-lg-3">
 &lt;div class="card border-0" style="background-color: #f8f9fa;">
 &lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
-&lt;a href="https://marian.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
-&lt;img src="https://2i2c.org/members/images/marian_university.png" alt="Marian University" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
-&lt;small class="text-dark fw-medium">Marian University&lt;/small>
-&lt;/a>
-&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;div class="col-sm-6 col-md-4 col-lg-3">
-&lt;div class="card border-0" style="background-color: #f8f9fa;">
-&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
 &lt;a href="https://mendocino.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/mendocino_college.png" alt="Mendocino College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">Mendocino College&lt;/small>
@@ -9180,6 +9180,16 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;a href="https://monmouth.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/monmouth_university.svg" alt="Monmouth University" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">Monmouth University&lt;/small>
+&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="col-sm-6 col-md-4 col-lg-3">
+&lt;div class="card border-0" style="background-color: #f8f9fa;">
+&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
+&lt;a href="https://moreno.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
+&lt;img src="https://2i2c.org/members/images/moreno_valley_college.png" alt="Moreno Valley College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
+&lt;small class="text-dark fw-medium">Moreno Valley College&lt;/small>
 &lt;/a>
 &lt;/div>
 &lt;/div>
@@ -9427,6 +9437,16 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;div class="col-sm-6 col-md-4 col-lg-3">
 &lt;div class="card border-0" style="background-color: #f8f9fa;">
 &lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
+&lt;a href="https://uams.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
+&lt;img src="https://2i2c.org/members/images/university_of_arkansas_for_medical_sciences.png" alt="University of Arkansas for Medical Sciences" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
+&lt;small class="text-dark fw-medium">University of Arkansas for Medical Sciences&lt;/small>
+&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="col-sm-6 col-md-4 col-lg-3">
+&lt;div class="card border-0" style="background-color: #f8f9fa;">
+&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
 &lt;a href="https://staging.ucmerced.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/university_of_california_merced.png" alt="University of California, Merced" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">University of California, Merced&lt;/small>
@@ -9540,6 +9560,16 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;a href="https://wlac.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/west_los_angeles_college.svg" alt="West Los Angeles College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">West Los Angeles College&lt;/small>
+&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="col-sm-6 col-md-4 col-lg-3">
+&lt;div class="card border-0" style="background-color: #f8f9fa;">
+&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
+&lt;a href="https://wcu.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
+&lt;img src="https://2i2c.org/members/images/western_carolina_university.svg" alt="Western Carolina University" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
+&lt;small class="text-dark fw-medium">Western Carolina University&lt;/small>
 &lt;/a>
 &lt;/div>
 &lt;/div>

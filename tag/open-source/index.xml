@@ -121,7 +121,7 @@ Acknowledgements
 &lt;hr>
 &lt;ol>
 &lt;li id="fn:1">
-&lt;p>Note: we already wrote up &lt;a href="https://2i2c.org/blog/respnosible-genai-workshop/" >some reflections from the workshop&lt;/a> that are more general. This one is focused on infrastructure and environment setup.&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;p>Note: we already wrote up &lt;a href="https://2i2c.org/blog/responsible-genai-workshop/" >some reflections from the workshop&lt;/a> that are more general. This one is focused on infrastructure and environment setup.&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;li id="fn:2">
 &lt;p>If you&amp;rsquo;d rather build your own image from scratch, Tasha&amp;rsquo;s &lt;a href="https://github.com/tsnow03/BuildOwnImage_template_env" target="_blank" rel="noopener" >image template&lt;/a> is a minimal starting point.&amp;#160;&lt;a href="#fnref:2" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
@@ -136,7 +136,7 @@ Acknowledgements
 &lt;p>There&amp;rsquo;s actually already an &lt;a href="https://github.com/jupyterhub/roadmap/issues/13" target="_blank" rel="noopener" >initiative in the JupyterHub roadmap&lt;/a> for the hub proxy service as well!&amp;#160;&lt;a href="#fnref:5" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/div></description></item><item><title>A few things I learned at the Responsible GenAI for NASA Earth Data Workshop</title><link>https://2i2c.org/blog/respnosible-genai-workshop/</link><pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/respnosible-genai-workshop/</guid><description>&lt;p>I recently got back from the &lt;a href="https://responsible-genai.hackweek.io/" target="_blank" rel="noopener" >2026 Responsible GenAI for NASA EarthData workshop&lt;/a> in Seattle.
+&lt;/div></description></item><item><title>A few things I learned at the Responsible GenAI for NASA Earth Data Workshop</title><link>https://2i2c.org/blog/responsible-genai-workshop/</link><pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/responsible-genai-workshop/</guid><description>&lt;p>I recently got back from the &lt;a href="https://responsible-genai.hackweek.io/" target="_blank" rel="noopener" >2026 Responsible GenAI for NASA EarthData workshop&lt;/a> in Seattle.
 It was an opportunity for members across the NASA ecosystem to share their experiences experimenting and learning with Generative AI models around Earth Data.
 This ranged everywhere from personal workflows to large-scale automations with non-trivial amounts of data.
 I&amp;rsquo;d say it was a way to share &amp;ldquo;best practices&amp;rdquo;, but I also realize that &lt;strong>there&amp;rsquo;s no such thing as best-practices for LLMs yet&lt;/strong>.
