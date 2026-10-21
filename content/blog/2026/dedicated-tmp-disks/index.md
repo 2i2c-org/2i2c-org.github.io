@@ -14,7 +14,7 @@ tags:
 
 We recently figured out a simple way to give individual users their own `/tmp` folder so that they have more space in a cost-effective way.
 `/tmp` is often used for storing intermediate data files and processing steps, but a few communities like [MAAP](../../../collaborators/nasa-veda) and [EarthScope](../../../collaborators/earthscope/) were running into size limits.
-We could always increase the total size of the disk, but this increases a steady-state cost, ååwhich is overkill for something that is inherently ephemeral.
+We could always increase the total size of the disk, but this increases a steady-state cost, which is overkill for something that is inherently ephemeral.
 By using dedicated, temporary storage for the `/tmp` folder, we can make it more cost-effective to dynamically grow (and shrink) the space available to users.
 
 ![The server options page, with a "Scratch Disk on /tmp" dropdown offering a dedicated 500GB disk](featured.png)
