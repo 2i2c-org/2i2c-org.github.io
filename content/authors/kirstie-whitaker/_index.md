@@ -7,7 +7,7 @@ authors:
 - "kirstie-whitaker"
 
 # Role/position (e.g., Professor of Artificial Intelligence)
-role: Advisory Council
+role: Advisory Committee
 
 # Organizations/Affiliations
 organizations: []
@@ -23,5 +23,5 @@ social: []
 
 # Organizational groups that you belong to (for People widget)
 user_groups:
-- Advisory Council
+- Advisory Committee
 ---

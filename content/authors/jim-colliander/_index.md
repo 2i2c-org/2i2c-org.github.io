@@ -55,7 +55,7 @@ email: "colliand@2i2c.org"
 user_groups:
 - Founders
 - Founding Steering Council
-- Advisory Council
+- Advisory Committee
 - Core Team
 ---
 
