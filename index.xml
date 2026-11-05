@@ -225,7 +225,68 @@ Thanks to the organizers
 The &lt;a href="https://2i2c.org/collaborators/stratusgeo/" >CryoCloud community&lt;/a> generously let us use their hub for hacking and experimenting.
 I&amp;rsquo;m also grateful to &lt;a href="https://www.earthdata.nasa.gov/esds" target="_blank" rel="noopener" >NASA ESDS&lt;/a> for funding the event and bringing a diverse group of people together to learn.
 Finally, I was appreciative of the attendees for coming to engage in a challenging topic that is nonetheless important to reason about and learn from.
-I hope to have more interactions like this in the future!&lt;/p></description></item><item><title>Better resource management with compute quotas and usage dashboards</title><link>https://2i2c.org/blog/jupyterhub-usage-quotas/</link><pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/jupyterhub-usage-quotas/</guid><description>&lt;p>Compute quotas and usage dashboards are now available on 2i2c hubs 🚀&lt;/p>
+I hope to have more interactions like this in the future!&lt;/p></description></item><item><title>Building a Canvas authentication helper library for JupyterHub</title><link>https://2i2c.org/blog/building-canvas-auth/</link><pubDate>Wed, 26 Aug 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/building-canvas-auth/</guid><description>&lt;p>2i2c have been working with the &lt;a href="https://2i2c.org/collaborators/utoronto/" >University of Toronto&lt;/a> to add support for Canvas as a supported identity provider for JupyterHub. Out of the box, JupyterHub implements support for &lt;em>authenticating&lt;/em> users (figuring out who they are) and &lt;em>authorizing&lt;/em> users (figuring out whether they are permitted to log into the hub) using an &lt;code>Authenticator&lt;/code> interface. Via the separate &lt;a href="https://oauthenticator.readthedocs.io/en/latest/" target="_blank" rel="noopener" >&lt;code>oauthenticator&lt;/code> package&lt;/a>, JupyterHub has support for many kinds of OAuth2-based Identity Providers such as Google or GitHub, in addition to providing a &lt;em>generic&lt;/em> authenticator &lt;code>GenericOAuthenticator&lt;/code> that can be used with any OAuth2 implementation.&lt;/p>
+&lt;figure id="figure-diagram-of-an-oauth-flow-during-the-authentication-process-taken-from-the-oauthenticator-documentationhttpsoauthenticatorreadthedocsioenlatest_imagesjupyterhub-oauth-external-flowpng">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="Diagram of an OAuth flow during the authentication process, taken from [the oauthenticator documentation](https://oauthenticator.readthedocs.io/en/latest/_images/JupyterHub-OAuth-external-flow.png)." srcset="
+/blog/building-canvas-auth/oauth-flow_hu0c8a8127bb8c611237d98151170d7a50_76835_3b90dd686be44dc5e5271fe8b6a74d81.webp 400w,
+/blog/building-canvas-auth/oauth-flow_hu0c8a8127bb8c611237d98151170d7a50_76835_b76b2c9bead95c9862c4df0ce3110d69.webp 760w,
+/blog/building-canvas-auth/oauth-flow_hu0c8a8127bb8c611237d98151170d7a50_76835_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/building-canvas-auth/oauth-flow_hu0c8a8127bb8c611237d98151170d7a50_76835_3b90dd686be44dc5e5271fe8b6a74d81.webp"
+width="760"
+height="428"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+Diagram of an OAuth flow during the authentication process, taken from &lt;a href="https://oauthenticator.readthedocs.io/en/latest/_images/JupyterHub-OAuth-external-flow.png" target="_blank" rel="noopener" >the oauthenticator documentation&lt;/a>.
+&lt;/figcaption>&lt;/figure>
+&lt;p>Our friends at UC Berkeley maintain &lt;a href="https://github.com/berkeley-dsep-infra/canvasoauthenticator" target="_blank" rel="noopener" >the &lt;code>CanvasOAuthenticator&lt;/code> project&lt;/a>, which has performed authentication for thousands of students over the last seven years. The project provides an implementation of &lt;code>GenericOAuthenticator&lt;/code>, which queries the Canvas REST API to determine user &lt;em>identity&lt;/em> (e.g. their email address), and their &lt;em>authorization&lt;/em> (e.g. the courses that the user is enrolled in). In the time since &lt;code>CanvasOAuthenticator&lt;/code> was first written (with involvement from 2i2c members), the &lt;code>GenericOAuthenticator&lt;/code> has seen significant improvements, such that it is now possible to implement Canvas authentication without maintaining an entirely separate &lt;code>GenericOAuthenticator&lt;/code> subclass.&lt;/p>
+&lt;p>After recognizing that it is much easier to maintain a small set of OAuth2 rules (adaptors) for each identity provider (like Canvas) rather than full-blown authenticators, 2i2c built &lt;a href="https://2i2c.org/jupyterhub-oauthenticator-authz-helpers/" target="_blank" rel="noopener" >&lt;code>jupyterhub_oauthenticator_authz_helpers&lt;/code>&lt;/a>. This library maintains an implementation of a subset of UC Berkeley&amp;rsquo;s &lt;code>CanvasOAuthenticator&lt;/code> rules for mapping Canvas courses and groups onto JupyterHub groups. With this work, adding Canvas authentication requires only a few additional lines:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="kn">from&lt;/span> &lt;span class="nn">jupyterhub_oauthenticator_authz_helpers.canvas&lt;/span> &lt;span class="n">build_auth_urls&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">cfg&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">c&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">GenericOAuthenticator&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">canvas_url&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s2">&amp;#34;&amp;lt;CANVAS-URL&amp;gt;&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Configure auths&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">cfg&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">authorize_url&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">cfg&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">token_url&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">cfg&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">userdata_url&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">build_auth_urls&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">canvas_url&lt;/span>&lt;span class="p">)&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Scopes that this token will need&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">cfg&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">scope&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="p">[&lt;/span>&lt;span class="o">*&lt;/span>&lt;span class="n">build_auth_urls&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">scopes&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>Adding support for group population (from Canvas groups and courses) requires a little bit more config:&lt;/p>
+&lt;div class="highlight">&lt;pre tabindex="0" class="chroma">&lt;code class="language-python" data-lang="python">&lt;span class="line">&lt;span class="cl">&lt;span class="kn">from&lt;/span> &lt;span class="nn">jupyterhub_oauthenticator_authz_helpers.canvas&lt;/span> &lt;span class="n">get_user_groups&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">get_course_groups&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">build_auth_urls&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># ...&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Define a custom key for auth groups&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">cfg&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">auth_state_groups_key&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="s2">&amp;#34;custom-groups&amp;#34;&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Define and inject auth state&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="k">async&lt;/span> &lt;span class="k">def&lt;/span> &lt;span class="nf">auth_state_hook&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">authenticator&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">auth_state&lt;/span>&lt;span class="p">):&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">if&lt;/span> &lt;span class="n">auth_state&lt;/span> &lt;span class="ow">is&lt;/span> &lt;span class="kc">None&lt;/span>&lt;span class="p">:&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="kc">None&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">access_token&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">auth_state&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="s2">&amp;#34;access_token&amp;#34;&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="n">auth_state&lt;/span>&lt;span class="p">[&lt;/span>&lt;span class="n">authenticator&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">auth_state_groups_key&lt;/span>&lt;span class="p">]&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="p">[&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1"># Populate groups from Canvas courses, using the scheme defined in get_course_groups&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">*&lt;/span>&lt;span class="k">await&lt;/span> &lt;span class="n">get_course_groups&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">canvas_url&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">access_token&lt;/span>&lt;span class="p">),&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="c1"># Populate groups from Canvas groups, using the scheme defined in get_user_groups&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="o">*&lt;/span>&lt;span class="k">await&lt;/span> &lt;span class="n">get_user_groups&lt;/span>&lt;span class="p">(&lt;/span>&lt;span class="n">canvas_url&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="n">access_token&lt;/span>&lt;span class="p">),&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl"> &lt;span class="k">return&lt;/span> &lt;span class="n">auth_state&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">cfg&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">modify_auth_state_hook&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="n">auth_state_hook&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="c1"># Request additional scopes for the course / user group fetching&lt;/span>
+&lt;/span>&lt;/span>&lt;span class="line">&lt;span class="cl">&lt;span class="n">cfg&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">scope&lt;/span> &lt;span class="o">=&lt;/span> &lt;span class="p">[&lt;/span>&lt;span class="o">*&lt;/span>&lt;span class="n">build_auth_urls&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">scopes&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="o">*&lt;/span>&lt;span class="n">get_user_groups&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">scopes&lt;/span>&lt;span class="p">,&lt;/span> &lt;span class="o">*&lt;/span>&lt;span class="n">get_course_groups&lt;/span>&lt;span class="o">.&lt;/span>&lt;span class="n">scopes&lt;/span>&lt;span class="p">]&lt;/span>
+&lt;/span>&lt;/span>&lt;/code>&lt;/pre>&lt;/div>&lt;p>In this approach, authentication and authorization are &lt;em>composed&lt;/em> — each primitive that represents an operation that requires a set of permissions possesses a &lt;code>.scopes&lt;/code> attribute that can be added to the requested token scopes, e.g. &lt;code>get_course_groups&lt;/code> or &lt;code>build_auth_urls&lt;/code>. Hub administrators that only wish to authorize users by course groups do not need to use &lt;code>get_user_groups&lt;/code> or request its &lt;code>.scopes&lt;/code>. In order to prove the generality of this approach, 2i2c have added a Mastodon implementation of these authentication and authorization primitives that restricts hub access to those users which are followed by a particular &lt;em>authorizing user&lt;/em>.&lt;/p>
+&lt;p>In addition to building out this library, 2i2c hopes to foster collaboration with other users and maintainers to continue to upstream additional OAuth2 adaptors. As part of the funded initiative, 2i2c will spend time conducting governance and community work upstream to establish a &lt;a href="https://github.com/jupyterhub-contrib" target="_blank" rel="noopener" >jupyterhub-contrib&lt;/a> organization that provides stewardship and maintenance of this work, and future third-party projects.&lt;/p>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>Thanks to the &lt;a href="https://2i2c.org/collaborators/utoronto/" >University of Toronto&lt;/a> for collaborating with us, and funding this work.&lt;/li>
+&lt;li>Thanks to UC Berkeley for the prior work that inspired this project.&lt;/li>
+&lt;/ul></description></item><item><title>Better resource management with compute quotas and usage dashboards</title><link>https://2i2c.org/blog/jupyterhub-usage-quotas/</link><pubDate>Thu, 13 Aug 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/jupyterhub-usage-quotas/</guid><description>&lt;p>Compute quotas and usage dashboards are now available on 2i2c hubs 🚀&lt;/p>
 &lt;p>This allows hub admins to cap the amount of compute resource a user can access over a given time period, as well as providing end-users with updates on their current usage.&lt;/p>
 &lt;figure id="figure-the-usage-dashboard-can-be-found-from-the-hub-home-page-navbar-under-services--usage-quota-menu">
 &lt;div class="d-flex justify-content-center">
@@ -8874,6 +8935,16 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;div class="col-sm-6 col-md-4 col-lg-3">
 &lt;div class="card border-0" style="background-color: #f8f9fa;">
 &lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
+&lt;a href="https://deanza.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
+&lt;img src="https://2i2c.org/members/images/deanza_college.svg" alt="DeAnza College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
+&lt;small class="text-dark fw-medium">DeAnza College&lt;/small>
+&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="col-sm-6 col-md-4 col-lg-3">
+&lt;div class="card border-0" style="background-color: #f8f9fa;">
+&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
 &lt;a href="https://elac.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/east_los_angeles_college.svg" alt="East Los Angeles College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">East Los Angeles College&lt;/small>
@@ -8887,6 +8958,16 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;a href="https://etsu.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/east_tennessee_state_university.png" alt="East Tennessee State University" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">East Tennessee State University&lt;/small>
+&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="col-sm-6 col-md-4 col-lg-3">
+&lt;div class="card border-0" style="background-color: #f8f9fa;">
+&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
+&lt;a href="https://emich.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
+&lt;img src="https://2i2c.org/members/images/eastern_michigan_university.svg" alt="Eastern Michigan University" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
+&lt;small class="text-dark fw-medium">Eastern Michigan University&lt;/small>
 &lt;/a>
 &lt;/div>
 &lt;/div>
@@ -8934,6 +9015,26 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;div class="col-sm-6 col-md-4 col-lg-3">
 &lt;div class="card border-0" style="background-color: #f8f9fa;">
 &lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
+&lt;a href="https://fgcu.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
+&lt;img src="https://2i2c.org/members/images/florida_gulf_coast_university.png" alt="Florida Gulf Coast University" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
+&lt;small class="text-dark fw-medium">Florida Gulf Coast University&lt;/small>
+&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="col-sm-6 col-md-4 col-lg-3">
+&lt;div class="card border-0" style="background-color: #f8f9fa;">
+&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
+&lt;a href="https://foothill.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
+&lt;img src="https://2i2c.org/members/images/foothill_college.svg" alt="Foothill College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
+&lt;small class="text-dark fw-medium">Foothill College&lt;/small>
+&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="col-sm-6 col-md-4 col-lg-3">
+&lt;div class="card border-0" style="background-color: #f8f9fa;">
+&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
 &lt;a href="https://fresno.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/fresno_city_college.png" alt="Fresno City College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">Fresno City College&lt;/small>
@@ -8967,6 +9068,16 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;a href="https://georgetown.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/georgetown_university.jpg" alt="Georgetown University" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">Georgetown University&lt;/small>
+&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="col-sm-6 col-md-4 col-lg-3">
+&lt;div class="card border-0" style="background-color: #f8f9fa;">
+&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
+&lt;a href="https://glendale.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
+&lt;img src="https://2i2c.org/members/images/glendale_community_college.png" alt="Glendale Community College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
+&lt;small class="text-dark fw-medium">Glendale Community College&lt;/small>
 &lt;/a>
 &lt;/div>
 &lt;/div>
@@ -9154,6 +9265,16 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;div class="col-sm-6 col-md-4 col-lg-3">
 &lt;div class="card border-0" style="background-color: #f8f9fa;">
 &lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
+&lt;a href="https://marian.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
+&lt;img src="https://2i2c.org/members/images/marian_university.png" alt="Marian University" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
+&lt;small class="text-dark fw-medium">Marian University&lt;/small>
+&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="col-sm-6 col-md-4 col-lg-3">
+&lt;div class="card border-0" style="background-color: #f8f9fa;">
+&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
 &lt;a href="https://mendocino.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/mendocino_college.png" alt="Mendocino College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">Mendocino College&lt;/small>
@@ -9264,16 +9385,6 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;div class="col-sm-6 col-md-4 col-lg-3">
 &lt;div class="card border-0" style="background-color: #f8f9fa;">
 &lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
-&lt;a href="https://norco.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
-&lt;img src="https://2i2c.org/members/images/norco_college.png" alt="Norco College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
-&lt;small class="text-dark fw-medium">Norco College&lt;/small>
-&lt;/a>
-&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;div class="col-sm-6 col-md-4 col-lg-3">
-&lt;div class="card border-0" style="background-color: #f8f9fa;">
-&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
 &lt;a href="https://ncsu.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/north_carolina_state_university.png" alt="North Carolina State University" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">North Carolina State University&lt;/small>
@@ -9314,16 +9425,6 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;div class="col-sm-6 col-md-4 col-lg-3">
 &lt;div class="card border-0" style="background-color: #f8f9fa;">
 &lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
-&lt;a href="https://ocu.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
-&lt;img src="https://2i2c.org/members/images/oakland_city_university.jpg" alt="Oakland City University" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
-&lt;small class="text-dark fw-medium">Oakland City University&lt;/small>
-&lt;/a>
-&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;div class="col-sm-6 col-md-4 col-lg-3">
-&lt;div class="card border-0" style="background-color: #f8f9fa;">
-&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
 &lt;a href="https://orangecoast.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/orange_coast_college.png" alt="Orange Coast College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">Orange Coast College&lt;/small>
@@ -9337,16 +9438,6 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;a href="https://oit.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/oregon_institute_of_technology.png" alt="Oregon Institute of Technology" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">Oregon Institute of Technology&lt;/small>
-&lt;/a>
-&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;div class="col-sm-6 col-md-4 col-lg-3">
-&lt;div class="card border-0" style="background-color: #f8f9fa;">
-&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
-&lt;a href="https://palomar.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
-&lt;img src="https://2i2c.org/members/images/palomar_community_college.png" alt="Palomar Community College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
-&lt;small class="text-dark fw-medium">Palomar Community College&lt;/small>
 &lt;/a>
 &lt;/div>
 &lt;/div>
@@ -9387,16 +9478,6 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;a href="https://staging.reflective.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/reflective_cloud.png" alt="Reflective Cloud" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">Reflective Cloud&lt;/small>
-&lt;/a>
-&lt;/div>
-&lt;/div>
-&lt;/div>
-&lt;div class="col-sm-6 col-md-4 col-lg-3">
-&lt;div class="card border-0" style="background-color: #f8f9fa;">
-&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
-&lt;a href="https://ric.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
-&lt;img src="https://2i2c.org/members/images/rhode_island_college.svg" alt="Rhode Island College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
-&lt;small class="text-dark fw-medium">Rhode Island College&lt;/small>
 &lt;/a>
 &lt;/div>
 &lt;/div>
@@ -9524,6 +9605,16 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;div class="col-sm-6 col-md-4 col-lg-3">
 &lt;div class="card border-0" style="background-color: #f8f9fa;">
 &lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
+&lt;a href="https://uams.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
+&lt;img src="https://2i2c.org/members/images/university_of_arkansas_for_medical_sciences.png" alt="University of Arkansas for Medical Sciences" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
+&lt;small class="text-dark fw-medium">University of Arkansas for Medical Sciences&lt;/small>
+&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="col-sm-6 col-md-4 col-lg-3">
+&lt;div class="card border-0" style="background-color: #f8f9fa;">
+&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
 &lt;a href="https://staging.ucmerced.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/university_of_california_merced.png" alt="University of California, Merced" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">University of California, Merced&lt;/small>
@@ -9557,6 +9648,16 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;a href="https://und.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/university_of_north_dakota.jpg" alt="University of North Dakota" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">University of North Dakota&lt;/small>
+&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="col-sm-6 col-md-4 col-lg-3">
+&lt;div class="card border-0" style="background-color: #f8f9fa;">
+&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
+&lt;a href="https://uta.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
+&lt;img src="https://2i2c.org/members/images/university_of_texas_at_arlington.svg" alt="University of Texas at Arlington" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
+&lt;small class="text-dark fw-medium">University of Texas at Arlington&lt;/small>
 &lt;/a>
 &lt;/div>
 &lt;/div>
@@ -9627,6 +9728,16 @@ loading="lazy" data-zoomable />&lt;/div>
 &lt;a href="https://wlac.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
 &lt;img src="https://2i2c.org/members/images/west_los_angeles_college.svg" alt="West Los Angeles College" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
 &lt;small class="text-dark fw-medium">West Los Angeles College&lt;/small>
+&lt;/a>
+&lt;/div>
+&lt;/div>
+&lt;/div>
+&lt;div class="col-sm-6 col-md-4 col-lg-3">
+&lt;div class="card border-0" style="background-color: #f8f9fa;">
+&lt;div class="card-body d-flex flex-column justify-content-center align-items-center p-2 text-center">
+&lt;a href="https://wcu.cloudbank.2i2c.cloud" target="_blank" rel="noopener" class="text-decoration-none d-flex flex-column align-items-center">
+&lt;img src="https://2i2c.org/members/images/western_carolina_university.svg" alt="Western Carolina University" class="img-fluid mb-3" style="max-height: 50px; max-width: 120px; ">
+&lt;small class="text-dark fw-medium">Western Carolina University&lt;/small>
 &lt;/a>
 &lt;/div>
 &lt;/div>
