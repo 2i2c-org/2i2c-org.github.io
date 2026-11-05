@@ -3,6 +3,8 @@ title: StratusGeo
 tags:
   - member
 show_date: false
+aliases:
+  - /collaborators/cryocloud/
 ---
 
 ![](featured.png)

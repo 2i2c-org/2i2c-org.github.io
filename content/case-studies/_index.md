@@ -37,13 +37,13 @@ sections:
         [NASA MAAP](https://www.earthdata.nasa.gov/about/maap) and [LEAP](https://leap.columbia.edu/) work the same way, with hubs beside petabytes of Earth and climate data.
         {{< /hub-example >}}
 
-        {{< hub-example id="practice" community="CryoCloud" url="https://cryointhecloud.com/"
+        {{< hub-example id="practice" community="StratusGeo" url="https://stratusgeo.org/"
             heading="One environment where a whole field learns together"
             stat="500+" stat_label="scientists onboarded since 2022 through workshops, hackathons, and open learning resources"
             image="/images/communities/cryocloud-tutorials.png"
-            alt="The tutorials page of the CryoCloud Jupyter Book, listing notebooks and recordings"
-            caption="[The CryoCloud book](https://book.cryointhecloud.com/): tutorials, onboarding recordings, and hub guides written by the CryoCloud community." >}}
-        CryoCloud began as a hub for NASA cryosphere scientists and now serves Earth scientists more broadly.
+            alt="The tutorials page of the StratusGeo Jupyter Book, listing notebooks and recordings"
+            caption="[The StratusGeo book](https://book.stratusgeo.org/): tutorials, onboarding recordings, and hub guides written by the StratusGeo community." >}}
+        StratusGeo (formerly CryoCloud) began as a hub for NASA cryosphere scientists and now serves Earth scientists more broadly.
         It runs next to NASA Earth data, with several community-maintained Python and R environments and a book of tutorials that [hackweeks](https://icesat-2.hackweek.io/) and science teams build on.
         Its leaders described the approach, and the numbers here, in [*Democratizing Science in the Cloud*](https://eos.org/opinions/democratizing-science-in-the-cloud): 12 hackathon-style workshops on the hub at about a dollar per person per day.
         {{< /hub-example >}}
@@ -127,8 +127,8 @@ sections:
             image="/images/communities/responsible-genai-hackweek.png"
             alt="Landing page of the Responsible Gen-AI for NASA Earthdata 2026 hackweek, August 24 to 28 in Seattle"
             caption="The [hackweek site](https://responsible-genai.hackweek.io/), by the UW eScience Institute. Tutorials cover coding agents, context engineering, Model Context Protocol servers, and agent sandboxing." >}}
-        In August 2026 the UW eScience Institute, NASA Earthdata, and CryoCloud ran a five-day hackweek in Seattle on using generative AI for NASA Earth data responsibly.
-        Participants worked on the CryoCloud hub, where the CryoCloud team [built an image](https://github.com/CryoInTheCloud/image-cryo-python-AI) with a Jupyter AI pre-release and [a coding agent](https://github.com/2i2c-org/infrastructure/pull/8905) that runs against [open-weight models hosted by the NSF National Research Platform](https://nrp.ai/llms/).
+        In August 2026 the UW eScience Institute, NASA Earthdata, and StratusGeo ran a five-day hackweek in Seattle on using generative AI for NASA Earth data responsibly.
+        Participants worked on the StratusGeo hub, where the StratusGeo team [built an image](https://github.com/CryoInTheCloud/image-cryo-python-AI) with a Jupyter AI pre-release and [a coding agent](https://github.com/2i2c-org/infrastructure/pull/8905) that runs against [open-weight models hosted by the NSF National Research Platform](https://nrp.ai/llms/).
         This is early work, and communities are still learning how best to use generative AI in their hubs.
         {{< /hub-example >}}
 
