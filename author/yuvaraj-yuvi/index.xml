@@ -305,14 +305,14 @@ Directed Contributions benefit the stakeholder you represent
 &lt;blockquote>
 &lt;p>2i2c serves a global network of community hubs for interactive learning and discovery&lt;/p>
 &lt;/blockquote>
-&lt;p>&lt;em>Community&lt;/em> here does &lt;strong>not&lt;/strong> refer to open source upstream software provider communities (like JupyterHub or Kubernetes), but instead to downstream &lt;em>user communities&lt;/em> (like &lt;a href="https://2i2c.org/collaborators/cryocloud/" >CryoCloud&lt;/a>, &lt;a href="https://openscapes.org" target="_blank" rel="noopener" >Openscapes&lt;/a>, or &lt;a href="https://www.earthdata.nasa.gov/data/tools/veda" target="_blank" rel="noopener" >NASA VEDA&lt;/a>).&lt;/p>
+&lt;p>&lt;em>Community&lt;/em> here does &lt;strong>not&lt;/strong> refer to open source upstream software provider communities (like JupyterHub or Kubernetes), but instead to downstream &lt;em>user communities&lt;/em> (like &lt;a href="https://2i2c.org/collaborators/stratusgeo/" >CryoCloud&lt;/a>, &lt;a href="https://openscapes.org" target="_blank" rel="noopener" >Openscapes&lt;/a>, or &lt;a href="https://www.earthdata.nasa.gov/data/tools/veda" target="_blank" rel="noopener" >NASA VEDA&lt;/a>).&lt;/p>
 &lt;p>When 2i2c makes a Directed Contribution, it means we are trying to &lt;em>deliver value to one or more of our member communities&lt;/em> by making an upstream contribution.&lt;/p>
 &lt;p>Satisfying community needs often involves directly working on the software they use. Driven by our &lt;a href="https://2i2c.org/right-to-replicate/" target="_blank" rel="noopener" >right to replicate&lt;/a> principles, this means we mostly work on software that is not proprietary to 2i2c nor solely owned by us permanently - but by contributing to an upstream software community. These are all Directed Contributions.&lt;/p>
 &lt;p>Some illustrative examples:&lt;/p>
 &lt;ol>
 &lt;li>&lt;a href="https://github.com/jupyterhub/oauthenticator/pull/719" target="_blank" rel="noopener" >Allow login to be gated on OAuth2 granted scopes&lt;/a> was a feature we added to support one of our communities&amp;rsquo; auth flow (&lt;a href="https://2i2c.org/collaborators/earthscope/" >EarthScope&lt;/a>)&lt;/li>
 &lt;li>&lt;a href="https://github.com/pangeo-data/pangeo-docker-images/pull/426" target="_blank" rel="noopener" >Changing how &lt;code>.pyc&lt;/code> files are kept in images&lt;/a> was work we did as a result of a support ticket investigating spawn timeout issues in the &lt;a href="https://leap.columbia.edu/" target="_blank" rel="noopener" >LEAP&lt;/a> hub.&lt;/li>
-&lt;li>&lt;a href="https://github.com/jupyter-book/myst-theme/pull/531" target="_blank" rel="noopener" >Adding landing pages functionality to Jupyter Book and MyST&lt;/a> was work we did to support member communities like &lt;a href="https://2i2c.org/collaborators/cryocloud/" >CryoCloud&lt;/a> and &lt;a href="https://2i2c.org/collaborators/pythia/" >Project Pythia&lt;/a>.&lt;/li>
+&lt;li>&lt;a href="https://github.com/jupyter-book/myst-theme/pull/531" target="_blank" rel="noopener" >Adding landing pages functionality to Jupyter Book and MyST&lt;/a> was work we did to support member communities like &lt;a href="https://2i2c.org/collaborators/stratusgeo/" >CryoCloud&lt;/a> and &lt;a href="https://2i2c.org/collaborators/pythia/" >Project Pythia&lt;/a>.&lt;/li>
 &lt;/ol>
 &lt;p>The fact that these are open source contributions is &lt;em>incidental&lt;/em>. We are &lt;em>primarily&lt;/em> doing this work to deliver value to &lt;em>our community network&lt;/em>.&lt;/p>
 &lt;h3 id="we-plan-directed-contributions-according-to-our-roadmap-and-member-feedback">
@@ -433,7 +433,7 @@ Moving forward
 Acknowledgements
 &lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
 &lt;/h2>&lt;ul>
-&lt;li>Thanks to the &lt;a href="https://2i2c.org/collaborators/openscapes/" >OpenScapes&lt;/a> and &lt;a href="https://2i2c.org/collaborators/cryocloud/" >CryoCloud&lt;/a> communities for working with us closely on infrastructure to identify improvements like this.&lt;/li>
+&lt;li>Thanks to the &lt;a href="https://2i2c.org/collaborators/openscapes/" >OpenScapes&lt;/a> and &lt;a href="https://2i2c.org/collaborators/stratusgeo/" >CryoCloud&lt;/a> communities for working with us closely on infrastructure to identify improvements like this.&lt;/li>
 &lt;/ul></description></item><item><title>Simplifying and speeding up Binder builds with BuildKit</title><link>https://2i2c.org/blog/binder-buildkit/</link><pubDate>Mon, 03 Mar 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/binder-buildkit/</guid><description>&lt;p>Chris and Yuvi recently wrote &lt;a href="https://blog.jupyter.org/simplifying-and-speeding-up-binder-builds-with-buildkit-d44f96582994" target="_blank" rel="noopener" >a blog post on the Jupyter blog&lt;/a> about a recent experiment to significantly reduce the cost of running a node on the mybinder.org federation.&lt;/p>
 &lt;h2 id="acknowledgements">
 Acknowledgements
@@ -1134,7 +1134,7 @@ loading="lazy" data-zoomable />&lt;/div>
 The &lt;a href="https://qgreenland-workshop-2023-researcher.github.io/" target="_blank" rel="noopener" >QGreenland Researcher Workshop&lt;/a>
 &lt;/figcaption>&lt;/figure>
 &lt;/p>
-&lt;p>JupyterHub is a versatile platform that can serve a desktop with Geospatial Information Systems (GIS) software in the cloud. This was demonstrated by the QGreenland Researcher Workshop that was hosted by the NASA &lt;a href="https://2i2c.org/collaborators/cryocloud/" >CryoCloud&lt;/a> hub. The hands-on workshop trained 25-30 researchers, from Germany, India, France, Canada, Poland and the United States, on how to work with geospatial data in an open science framework.&lt;/p>
+&lt;p>JupyterHub is a versatile platform that can serve a desktop with Geospatial Information Systems (GIS) software in the cloud. This was demonstrated by the QGreenland Researcher Workshop that was hosted by the NASA &lt;a href="https://2i2c.org/collaborators/stratusgeo/" >CryoCloud&lt;/a> hub. The hands-on workshop trained 25-30 researchers, from Germany, India, France, Canada, Poland and the United States, on how to work with geospatial data in an open science framework.&lt;/p>
 &lt;h2 id="qgreenland-overview">
 QGreenland Overview
 &lt;a class="header-anchor" href="#qgreenland-overview">#&lt;/a>
@@ -1146,7 +1146,7 @@ Workshop Success
 &lt;ul>
 &lt;li>Accessibility: Participants from across the world could access the same powerful GIS tools through a web browser, eliminating the need for complex local installations while enhancing reproducibility&lt;/li>
 &lt;li>Cloud block storage: Using a JupyterHub in the cloud allowed for faster data access than a traditional NFS file store by provisioning each user with an elastic block store disk, reducing load times from 5 minutes to under 3 seconds.&lt;/li>
-&lt;li>Cost Efficiency: Utilizing the &lt;a href="https://2i2c.org/collaborators/cryocloud/" >CryoCloud&lt;/a> JupyterHub instance managed by 2i2c drastically cut down setup costs and time, with only minimal cloud operating expenses of roughly $1/person/day.&lt;/li>
+&lt;li>Cost Efficiency: Utilizing the &lt;a href="https://2i2c.org/collaborators/stratusgeo/" >CryoCloud&lt;/a> JupyterHub instance managed by 2i2c drastically cut down setup costs and time, with only minimal cloud operating expenses of roughly $1/person/day.&lt;/li>
 &lt;/ul>
 &lt;h2 id="conclusion">
 Conclusion

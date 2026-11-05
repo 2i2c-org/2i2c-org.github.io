@@ -512,7 +512,7 @@ Acknowledgements
 &lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
 &lt;/h2>&lt;ul>
 &lt;li>Thank you to Erik for spearheading the rollout effort and to the rest of the 2i2c team for their support.&lt;/li>
-&lt;li>Thanks to &lt;a href="https://2i2c.org/collaborators/openscapes/" >Openscapes&lt;/a> and &lt;a href="https://2i2c.org/collaborators/cryocloud/" >Cryocloud&lt;/a> communities for providing valuable insights during the prototyping and testing phase, and for funding part of this work.&lt;/li>
+&lt;li>Thanks to &lt;a href="https://2i2c.org/collaborators/openscapes/" >Openscapes&lt;/a> and &lt;a href="https://2i2c.org/collaborators/stratusgeo/" >Cryocloud&lt;/a> communities for providing valuable insights during the prototyping and testing phase, and for funding part of this work.&lt;/li>
 &lt;/ul></description></item><item><title>Introducing the Catalyst Project Community Partner Highlights</title><link>https://2i2c.org/blog/catalyst-partner-highlights/</link><pubDate>Thu, 31 Oct 2024 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/catalyst-partner-highlights/</guid><description>&lt;p>&lt;em>Cross-posted from the &lt;a href="https://catalystproject.cloud/blog.html" target="_blank" rel="noopener" >Catalyst Project blog&lt;/a>&lt;/em>&lt;/p>
 &lt;p>
 &lt;figure id="figure-catalyst-project-community-partners-using-accessible-cloud-infrastructure-for-open-science-leadership-and-training-clockwise-from-top-left-nnb-ccghttpswwwnnbunammx-musthttpswwwmustacmw-cicadahttpscicadauy-and-iner-photos-courtesy-of-shirley-alquicira-hernández-bennett-kankuzi-maría-inés-fariello-rico-and-yalbi-i-balderas-martinez">
@@ -1373,7 +1373,7 @@ loading="lazy" data-zoomable />&lt;/div>
 The &lt;a href="https://qgreenland-workshop-2023-researcher.github.io/" target="_blank" rel="noopener" >QGreenland Researcher Workshop&lt;/a>
 &lt;/figcaption>&lt;/figure>
 &lt;/p>
-&lt;p>JupyterHub is a versatile platform that can serve a desktop with Geospatial Information Systems (GIS) software in the cloud. This was demonstrated by the QGreenland Researcher Workshop that was hosted by the NASA &lt;a href="https://2i2c.org/collaborators/cryocloud/" >CryoCloud&lt;/a> hub. The hands-on workshop trained 25-30 researchers, from Germany, India, France, Canada, Poland and the United States, on how to work with geospatial data in an open science framework.&lt;/p>
+&lt;p>JupyterHub is a versatile platform that can serve a desktop with Geospatial Information Systems (GIS) software in the cloud. This was demonstrated by the QGreenland Researcher Workshop that was hosted by the NASA &lt;a href="https://2i2c.org/collaborators/stratusgeo/" >CryoCloud&lt;/a> hub. The hands-on workshop trained 25-30 researchers, from Germany, India, France, Canada, Poland and the United States, on how to work with geospatial data in an open science framework.&lt;/p>
 &lt;h2 id="qgreenland-overview">
 QGreenland Overview
 &lt;a class="header-anchor" href="#qgreenland-overview">#&lt;/a>
@@ -1385,7 +1385,7 @@ Workshop Success
 &lt;ul>
 &lt;li>Accessibility: Participants from across the world could access the same powerful GIS tools through a web browser, eliminating the need for complex local installations while enhancing reproducibility&lt;/li>
 &lt;li>Cloud block storage: Using a JupyterHub in the cloud allowed for faster data access than a traditional NFS file store by provisioning each user with an elastic block store disk, reducing load times from 5 minutes to under 3 seconds.&lt;/li>
-&lt;li>Cost Efficiency: Utilizing the &lt;a href="https://2i2c.org/collaborators/cryocloud/" >CryoCloud&lt;/a> JupyterHub instance managed by 2i2c drastically cut down setup costs and time, with only minimal cloud operating expenses of roughly $1/person/day.&lt;/li>
+&lt;li>Cost Efficiency: Utilizing the &lt;a href="https://2i2c.org/collaborators/stratusgeo/" >CryoCloud&lt;/a> JupyterHub instance managed by 2i2c drastically cut down setup costs and time, with only minimal cloud operating expenses of roughly $1/person/day.&lt;/li>
 &lt;/ul>
 &lt;h2 id="conclusion">
 Conclusion
