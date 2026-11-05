@@ -51,7 +51,7 @@ A _Directed Contribution_ is primarily driven by the needs of a stakeholder in a
 
 > 2i2c serves a global network of community hubs for interactive learning and discovery
 
-*Community* here does **not** refer to open source upstream software provider communities (like JupyterHub or Kubernetes), but instead to downstream _user communities_ (like [CryoCloud](../../collaborators/cryocloud/), [Openscapes](https://openscapes.org), or [NASA VEDA](https://www.earthdata.nasa.gov/data/tools/veda)).
+*Community* here does **not** refer to open source upstream software provider communities (like JupyterHub or Kubernetes), but instead to downstream _user communities_ (like [CryoCloud](../../collaborators/stratusgeo/), [Openscapes](https://openscapes.org), or [NASA VEDA](https://www.earthdata.nasa.gov/data/tools/veda)).
 
 When 2i2c makes a Directed Contribution, it means we are trying to _deliver value to one or more of our member communities_ by making an upstream contribution.
 
@@ -61,7 +61,7 @@ Some illustrative examples:
 
 1. [Allow login to be gated on OAuth2 granted scopes](https://github.com/jupyterhub/oauthenticator/pull/719) was a feature we added to support one of our communities' auth flow ([EarthScope](../../collaborators/earthscope/))
 2. [Changing how `.pyc` files are kept in images](https://github.com/pangeo-data/pangeo-docker-images/pull/426) was work we did as a result of a support ticket investigating spawn timeout issues in the [LEAP](https://leap.columbia.edu/) hub.
-3. [Adding landing pages functionality to Jupyter Book and MyST](https://github.com/jupyter-book/myst-theme/pull/531) was work we did to support member communities like [CryoCloud](../../collaborators/cryocloud/) and [Project Pythia](../../../collaborators/pythia/).
+3. [Adding landing pages functionality to Jupyter Book and MyST](https://github.com/jupyter-book/myst-theme/pull/531) was work we did to support member communities like [CryoCloud](../../collaborators/stratusgeo/) and [Project Pythia](../../../collaborators/pythia/).
 
 The fact that these are open source contributions is *incidental*. We are _primarily_ doing this work to deliver value to _our community network_. 
 

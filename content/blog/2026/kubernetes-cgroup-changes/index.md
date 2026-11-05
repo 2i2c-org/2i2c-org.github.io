@@ -12,7 +12,7 @@ In Q1, 2i2c finished upgrading our community clusters to Kubernetes `1.34`.
 In order to continue providing the latest features and security fixes, we are keen to ensure that our communities are using up to date versions of key components like Kubernetes, JupyterHub, and the various Helm charts that we deploy.
 This recent round of upgrades marks the start of a new process to ensure that we roll these updates out on a regular cadence, as described in [our recent blog post](../infra-upgrades-k8s-jupyterhub/).
 
-After completing these upgrades, we received a report from the [CryoCloud](../../../collaborators/cryocloud/) community concerning "unusual" behaviour of their hub:
+After completing these upgrades, we received a report from the [CryoCloud](../../../collaborators/stratusgeo/) community concerning "unusual" behaviour of their hub:
 
 > It regularly occurs when I blow out my memory. [...] Usually when I run out of memory though, the kernel just restarts.
 
@@ -47,4 +47,4 @@ _**Note**: This has since been fixed in a new version of AL2023 https://docs.aws
 
 ## Acknowledgements
 
-- Thanks to [the CryoCloud community](../../../collaborators/cryocloud/) for surfacing this regression so articulately!
+- Thanks to [the CryoCloud community](../../../collaborators/stratusgeo/) for surfacing this regression so articulately!

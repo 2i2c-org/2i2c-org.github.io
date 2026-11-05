@@ -105,7 +105,7 @@ sections:
 
         {{< softwarestacklogos >}}
 
-        See it in practice: [CryoCloud's shared environment and tutorials](/case-studies/#practice).
+        See it in practice: [StratusGeo's shared environment and tutorials](/case-studies/#practice).
 
   - block: markdown
     content:
@@ -145,13 +145,13 @@ sections:
       text: |
         Shared knowledge bases allow communities to contribute their ideas and work to a shared space that is accessible to the community.
 
-        See it in practice: [the CryoCloud book of tutorials and hub guides](/case-studies/#practice).
+        See it in practice: [the StratusGeo book of tutorials and hub guides](/case-studies/#practice).
 
         <figure class="videofigure">
           {{< video src="videos/jupyterbook.mp4">}}
 
           <figcaption>
-              Powered by <a href="https://jupyterbook.org"><img src="/images/logos/project/jupyterbook.svg" /></a> and <a href="https://mystmd.org"><img src="/images/logos/project/myst.svg" /></a>. Example from <a href="https://book.cryointhecloud.com">the CryoCloud JupyterBook</a>.
+              Powered by <a href="https://jupyterbook.org"><img src="/images/logos/project/jupyterbook.svg" /></a> and <a href="https://mystmd.org"><img src="/images/logos/project/myst.svg" /></a>. Example from <a href="https://book.stratusgeo.org">the StratusGeo JupyterBook</a>.
           </figcaption>
         </figure>
 

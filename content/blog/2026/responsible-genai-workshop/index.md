@@ -109,7 +109,7 @@ LLMs bring out strong emotions in everybody, and we need to find a way to willin
 ## Thanks to the organizers
 
 I'm grateful to [Tasha Snow](https://github.com/tsnow03) for encouraging me to join this event, and to the rest of the organizing team for making it happen.
-The [CryoCloud community](../../../collaborators/cryocloud/) generously let us use their hub for hacking and experimenting.
+The [CryoCloud community](../../../collaborators/stratusgeo/) generously let us use their hub for hacking and experimenting.
 I'm also grateful to [NASA ESDS](https://www.earthdata.nasa.gov/esds) for funding the event and bringing a diverse group of people together to learn.
 Finally, I was appreciative of the attendees for coming to engage in a challenging topic that is nonetheless important to reason about and learn from.
 I hope to have more interactions like this in the future!
