@@ -44,5 +44,5 @@ it play out in a way that's organizationally supported by 2i2c.
 
 ## Acknowledgements
 
-- Thanks to [CryoCloud](../../../collaborators/cryocloud/), [Development Seed](../../../collaborators/devseed/), and [CryoCloud](../../../collaborators/pangeo/) for helping with identifying and making this improvement! 
+- Thanks to [CryoCloud](../../../collaborators/stratusgeo/), [Development Seed](../../../collaborators/devseed/), and [CryoCloud](../../../collaborators/pangeo/) for helping with identifying and making this improvement! 
 - This work was funded in-part by [NASA VEDA](../../../collaborators/nasa-veda/)

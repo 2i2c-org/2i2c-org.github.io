@@ -15,7 +15,7 @@ featured: false
 
 This summer, we participated in the [Responsible GenAI for NASA Earthdata workshop](https://responsible-genai.hackweek.io/), a community gathering organized by [University of Washington's eScience institute](https://escience.washington.edu/), to explore how others were using GenAI in their workflows across the NASA community, and share best practices.
 
-As part of this work, we worked with [Tasha Snow](https://tsnow03.github.io/), [Scott Henderson](https://scottyhq.github.io/), [Anshul Tambay](https://escience.washington.edu/member/anshul-tambay/), and [Don Setiawan](https://lsetiawan.github.io/) to set up an environment on the [CryoCloud hub](../../../collaborators/cryocloud/) that allowed attendees to access and experiment with a few different LLM workflows with Earth data.
+As part of this work, we worked with [Tasha Snow](https://tsnow03.github.io/), [Scott Henderson](https://scottyhq.github.io/), [Anshul Tambay](https://escience.washington.edu/member/anshul-tambay/), and [Don Setiawan](https://lsetiawan.github.io/) to set up an environment on the [CryoCloud hub](../../../collaborators/stratusgeo/) that allowed attendees to access and experiment with a few different LLM workflows with Earth data.
 
 This is a short post to describe some of the decisions we made, how we set it up, and what we'd like to improve or do differently next time[^1].
 
@@ -105,6 +105,6 @@ Until then, beware if you follow a pattern like this for exposing an inference s
 ## Acknowledgements
 
 - Thanks to [Tasha Snow](https://tsnow03.github.io/) for pulling this together, to [David Qiu](https://github.com/dlqqq) for the Jupyter AI updates, to [Min RK](https://github.com/minrk) for the first LLM tooling, and to [Scott Henderson](https://github.com/scottyhq) and [Anshul Tambay](https://github.com/atambay37) for handling the Claude keys.
-- Thanks to the [CryoCloud](../../../collaborators/cryocloud/) community for letting us experiment on their hub, and to NASA's [Office of Data Science and Informatics (ODSI)](https://www.nasa.gov/marshall/marshall-space-flight-missions/office-of-data-science-and-informatics-odsi/) and [Earth Science Data Systems (ESDS)](https://www.earthdata.nasa.gov/esds) program for supporting the workshop.
+- Thanks to the [CryoCloud](../../../collaborators/stratusgeo/) community for letting us experiment on their hub, and to NASA's [Office of Data Science and Informatics (ODSI)](https://www.nasa.gov/marshall/marshall-space-flight-missions/office-of-data-science-and-informatics-odsi/) and [Earth Science Data Systems (ESDS)](https://www.earthdata.nasa.gov/esds) program for supporting the workshop.
 - Thanks to the [UW eScience Institute](https://escience.washington.edu/) for hosting the workshop and providing Claude access.
 - Finally, much of the cloud and the LLM infrastructure was funded or operated by external sources: the [NRP](https://nrp.ai/) and [CloudBank](https://www.cloudbank.org/) are funded by the [National Science Foundation](https://www.nsf.gov/), and UW SSEC's [LLMoxie](https://arxiv.org/abs/2607.02703) was developed with support from the NSF [NAIRR Pilot](https://nairrpilot.org/) and [Schmidt Sciences Virtual Institutes for Scientific Software](https://www.schmidtsciences.org/viss/) program.

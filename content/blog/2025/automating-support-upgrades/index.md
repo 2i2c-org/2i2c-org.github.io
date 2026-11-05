@@ -44,4 +44,4 @@ While we have been *implicitly* trying to solve whole classes of issues rather t
 
 ## Acknowledgements
 
-- Thanks to the [OpenScapes](../../../collaborators/openscapes/) and [CryoCloud](../../../collaborators/cryocloud/) communities for working with us closely on infrastructure to identify improvements like this.
+- Thanks to the [OpenScapes](../../../collaborators/openscapes/) and [CryoCloud](../../../collaborators/stratusgeo/) communities for working with us closely on infrastructure to identify improvements like this.
