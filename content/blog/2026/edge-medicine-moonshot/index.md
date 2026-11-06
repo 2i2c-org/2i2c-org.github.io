@@ -13,8 +13,6 @@ tags:
   - health
 featured: false
 draft: false
-image:
-  preview_only: true
 ---
 
 Congratulations to the Edge Medicine team at UCSF and UC Berkeley!
