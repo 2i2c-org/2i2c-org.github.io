@@ -54,8 +54,6 @@ def linkcheck(session):
         "--offline",
         "--accept",
         "200,301,302",
-        "--max-concurrency",
-        "50",
         "public",
         external=True,
     )
