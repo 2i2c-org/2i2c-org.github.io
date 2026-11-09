@@ -16,11 +16,12 @@ draft: false
 ---
 
 Congratulations to the Edge Medicine team at UCSF and UC Berkeley!
-They are [one of four Laude Institute Moonshot Labs](https://www.laude.org/updates/moonshots-one-labs), and will receive $10 million over several years to start the Center for Edge Medicine.
+They are [one of four Laude Institute Moonshot Labs](https://www.laude.org/updates/moonshots-one-labs), and will receive a $10 million multiyear award to start the Center for Edge Medicine.
 
-{{< figure src="featured.png" caption="The Edge Medicine team at the Laude Moonshots announcement. Photo from [UC Berkeley](https://cdss.berkeley.edu/news/edge-medicine-awarded-10-million-laude-institute-competition-ai-healthcare)." >}}
+{{< figure src="featured.png" caption="The Edge Medicine team at the Laude Moonshots announcement. Photo from [Edge Medicine](https://edgemedicine.org/impact/laude-moonshot-lab-winner)." >}}
 
-The center will build open infrastructure, care models, and AI methods to support patients at the "edge" of medicine (such as *between* clinic visits).
+The center will build open infrastructure, care models, and AI methods to support patients at the "edge" of medicine: everyday life, where people live, work, and make decisions 24/7.
+By meeting patients there, edge medicine will bring care to where health is actually shaped.
 Its foundation is [JupyterHealth](collaborators/jupyterhealth/index.md), an open source platform built on [Project Jupyter](https://jupyter.org) that combines wearable and medical record data for patients, researchers, and care teams.
 
 We've been working with the JupyterHealth team over the past year, assisting with their open source strategy and product development. You can learn more about the open source pieces of the project at the [JupyterHealth documentation](https://docs.jupyterhealth.org/).
