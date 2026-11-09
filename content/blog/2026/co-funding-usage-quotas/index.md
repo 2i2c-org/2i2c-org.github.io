@@ -28,7 +28,7 @@ Here's roughly how it worked:
 - We met with the EarthScope team about every month to share demos, flag blockers, and get feedback from their team. We deployed any new changes onto their hub to facilitate these cycles of testing and feedback.
 - All the technology we built went into the open source package, [`jupyterhub-usage-quotas`](https://github.com/2i2c-org/jupyterhub-usage-quotas). This work was led by [Jenny Wong](https://github.com/jnywong), with help from [Development Seed](../../../collaborators/devseed/).
 - The work also led to a lot of upstream fixes in JupyterHub along the way. For example, [@minrk](https://github.com/minrk) [added a `SpawnException`](https://github.com/jupyterhub/jupyterhub/pull/5464) so that JupyterHub can tell if a server was *intentionally* rejected (e.g., when a user exceeded their quota).
-- After completing this initiative, we deployed cost monitoring into production for EarthScope, and began rolling it out for our other communities as well. This was relatively little extra effort, because everybody runs the same standardized set of infrastructure.
+- After completing this initiative, we deployed usage quotas into production for EarthScope, and began rolling it out for our other communities as well. This was relatively little extra effort, because everybody runs the same standardized set of infrastructure.
 
 [^1]: Note, you can find more statements of work like this here: https://2i2c.org/statements-of-work/
 
