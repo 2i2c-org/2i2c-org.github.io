@@ -43,7 +43,7 @@ email: ""
 user_groups:
 - Founders
 - Core Team
-- Steering Council
+- Founding Steering Council
 ---
 
 Building participatory open infrastructure for scientific & educational use cases. A Project Jupyter team member working on infrastructure related projects. Ex Wikimedia and ex-GNOME. Let's eliminate accidental complexities wherever we find them.
