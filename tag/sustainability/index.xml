@@ -1,4 +1,44 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sustainability | 2i2c</title><link>https://2i2c.org/tag/sustainability/</link><atom:link href="https://2i2c.org/tag/sustainability/index.xml" rel="self" type="application/rss+xml"/><description>Sustainability</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Wed, 29 Oct 2025 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Sustainability</title><link>https://2i2c.org/tag/sustainability/</link></image><item><title>BIDS joins as 2i2c's first premier member organization</title><link>https://2i2c.org/blog/bids-premier-member/</link><pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/bids-premier-member/</guid><description>&lt;p>We&amp;rsquo;re thrilled to announce that the &lt;a href="https://2i2c.org/collaborators/bids/" >Berkeley Institute for Data Science (BIDS)&lt;/a> has joined as 2i2c&amp;rsquo;s first premier member organization! This partnership marks a significant milestone in our sustainability strategy and recognizes a relationship that&amp;rsquo;s been central to 2i2c&amp;rsquo;s story from the very beginning.&lt;/p>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sustainability | 2i2c</title><link>https://2i2c.org/tag/sustainability/</link><atom:link href="https://2i2c.org/tag/sustainability/index.xml" rel="self" type="application/rss+xml"/><description>Sustainability</description><generator>Hugo Blox Builder (https://hugoblox.com)</generator><language>en-us</language><lastBuildDate>Mon, 09 Nov 2026 00:00:00 +0000</lastBuildDate><image><url>https://2i2c.org/media/sharing.png</url><title>Sustainability</title><link>https://2i2c.org/tag/sustainability/</link></image><item><title>How co-funding from EarthScope brought usage quotas to every 2i2c hub</title><link>https://2i2c.org/blog/co-funding-usage-quotas/</link><pubDate>Mon, 09 Nov 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/co-funding-usage-quotas/</guid><description>&lt;p>One of 2i2c&amp;rsquo;s goals is to support ecosystems of research communities by operating and improving the same set of shared infrastructure.
+Our hope is that by doing so, we&amp;rsquo;ll be able to use the needs and resources of one community to improve a shared good that benefits all.
+This is a short post describing this loop for one of our recent product initiatives as an example of how &lt;a href="https://2i2c.org/about/funding/" >our co-funding model&lt;/a> is supposed to work.&lt;/p>
+&lt;h2 id="what-happened">
+What happened
+&lt;a class="header-anchor" href="#what-happened">#&lt;/a>
+&lt;/h2>&lt;p>In August, we &lt;a href="https://2i2c.org/blog/jupyterhub-usage-quotas/" >released compute quotas and usage dashboards&lt;/a> for 2i2c hubs.
+This was co-funded work from the &lt;a href="https://2i2c.org/collaborators/earthscope/" >EarthScope Consortium&lt;/a>, who covered the cost of both developing this technology and deploying it into production for our community network.
+Here&amp;rsquo;s roughly how it worked:&lt;/p>
+&lt;ul>
+&lt;li>EarthScope runs its GeoLab platform on a 2i2c hub, and needed a way to control compute costs by capping how much each user can run. They had some resources for this, and so we decided to scope a project that was appropriately-scoped to those resources.&lt;/li>
+&lt;li>Together, we wrote a &lt;a href="https://2i2c.org/statements-of-work/sow/compute-usage-quotas/" target="_blank" rel="noopener" >Statement of Work&lt;/a> that described and estimated each deliverable up front&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/li>
+&lt;li>We tracked the work in &lt;a href="https://github.com/2i2c-org/initiatives/issues/23" target="_blank" rel="noopener" >a public initiative&lt;/a> so that others could follow-along with our efforts, and got to work.&lt;/li>
+&lt;li>We met with the EarthScope team about every month to share demos, flag blockers, and get feedback from their team. We deployed any new changes onto their hub to facilitate these cycles of testing and feedback.&lt;/li>
+&lt;li>All the technology we built went into the open source package, &lt;a href="https://github.com/2i2c-org/jupyterhub-usage-quotas" target="_blank" rel="noopener" >&lt;code>jupyterhub-usage-quotas&lt;/code>&lt;/a>. This work was led by &lt;a href="https://github.com/jnywong" target="_blank" rel="noopener" >Jenny Wong&lt;/a>, with help from &lt;a href="https://2i2c.org/collaborators/devseed/" >Development Seed&lt;/a>.&lt;/li>
+&lt;li>The work also led to a lot of upstream fixes in JupyterHub along the way. For example, &lt;a href="https://github.com/minrk" target="_blank" rel="noopener" >@minrk&lt;/a> &lt;a href="https://github.com/jupyterhub/jupyterhub/pull/5464" target="_blank" rel="noopener" >added a &lt;code>SpawnException&lt;/code>&lt;/a> so that JupyterHub can tell if a server was &lt;em>intentionally&lt;/em> rejected (e.g., when a user exceeded their quota).&lt;/li>
+&lt;li>After completing this initiative, we deployed usage quotas into production for EarthScope, and began rolling it out for our other communities as well. This was relatively little extra effort, because everybody runs the same standardized set of infrastructure.&lt;/li>
+&lt;/ul>
+&lt;h2 id="building-for-one-community-can-benefit-the-whole-network">
+Building for one community can benefit the whole network
+&lt;a class="header-anchor" href="#building-for-one-community-can-benefit-the-whole-network">#&lt;/a>
+&lt;/h2>&lt;p>We think this is a good example of how the needs of one community can be met in a way that feeds into a broader ecosystem.
+In this case, EarthScope paid for a feature that it needed, but the result wasn&amp;rsquo;t exclusively useful to their hub.
+Any 2i2c community can now &lt;a href="https://docs.2i2c.org/admin/user-management/compute-quotas/" target="_blank" rel="noopener" >turn on compute quotas&lt;/a>, and anyone running JupyterHub can &lt;a href="https://jupyterhub-usage-quotas.readthedocs.io/en/latest" target="_blank" rel="noopener" >use the &lt;code>usage-quotas&lt;/code> tool in their own hub&lt;/a>.
+This is the cycle we are aiming for: one community invests in a shared need, and everyone benefits as a result.&lt;/p>
+&lt;h2 id="acknowledgements">
+Acknowledgements
+&lt;a class="header-anchor" href="#acknowledgements">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>&lt;a href="https://github.com/sarahw-earthscope" target="_blank" rel="noopener" >Sarah Wilson&lt;/a>, Sophia Parafina, Robert Weekly, and Alex Hamilton from &lt;a href="https://2i2c.org/collaborators/earthscope/" >EarthScope&lt;/a> for co-funding, testing, and championing this work with us&lt;/li>
+&lt;li>&lt;a href="https://2i2c.org/collaborators/nasa-veda/" >NASA VEDA&lt;/a> for co-funding the user-facing storage dashboard&lt;/li>
+&lt;li>&lt;a href="https://2i2c.org/collaborators/devseed/" >Development Seed&lt;/a> and &lt;a href="https://2i2c.org/collaborators/bids/" >BIDS&lt;/a> for development and upstream contributions throughout the process&lt;/li>
+&lt;/ul>
+&lt;div class="footnotes" role="doc-endnotes">
+&lt;hr>
+&lt;ol>
+&lt;li id="fn:1">
+&lt;p>Note, you can find more statements of work like this here: &lt;a href="https://2i2c.org/statements-of-work/" target="_blank" rel="noopener" >2i2c.org/statements-of-work/&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
+&lt;/li>
+&lt;/ol>
+&lt;/div></description></item><item><title>BIDS joins as 2i2c's first premier member organization</title><link>https://2i2c.org/blog/bids-premier-member/</link><pubDate>Wed, 29 Oct 2025 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/bids-premier-member/</guid><description>&lt;p>We&amp;rsquo;re thrilled to announce that the &lt;a href="https://2i2c.org/collaborators/bids/" >Berkeley Institute for Data Science (BIDS)&lt;/a> has joined as 2i2c&amp;rsquo;s first premier member organization! This partnership marks a significant milestone in our sustainability strategy and recognizes a relationship that&amp;rsquo;s been central to 2i2c&amp;rsquo;s story from the very beginning.&lt;/p>
 &lt;p>
 &lt;figure >
 &lt;div class="d-flex justify-content-center">
