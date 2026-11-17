@@ -38,7 +38,35 @@ Acknowledgements
 &lt;p>Note, you can find more statements of work like this here: &lt;a href="https://2i2c.org/statements-of-work/" target="_blank" rel="noopener" >2i2c.org/statements-of-work/&lt;/a>&amp;#160;&lt;a href="#fnref:1" class="footnote-backref" role="doc-backlink">&amp;#x21a9;&amp;#xfe0e;&lt;/a>&lt;/p>
 &lt;/li>
 &lt;/ol>
-&lt;/div></description></item><item><title>How we set up an AI-enabled hub for the NASA Earth Responsible GenAI workshop</title><link>https://2i2c.org/blog/genai-workshop-hub-setup/</link><pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/genai-workshop-hub-setup/</guid><description>&lt;p>This summer, we participated in the &lt;a href="https://responsible-genai.hackweek.io/" target="_blank" rel="noopener" >Responsible GenAI for NASA Earthdata workshop&lt;/a>, a community gathering organized by &lt;a href="https://escience.washington.edu/" target="_blank" rel="noopener" >University of Washington&amp;rsquo;s eScience institute&lt;/a>, to explore how others were using GenAI in their workflows across the NASA community, and share best practices.&lt;/p>
+&lt;/div></description></item><item><title>Edge Medicine wins a $10M Laude Moonshot to build on JupyterHealth</title><link>https://2i2c.org/blog/edge-medicine-moonshot/</link><pubDate>Fri, 06 Nov 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/edge-medicine-moonshot/</guid><description>&lt;p>Congratulations to the Edge Medicine team at UCSF and UC Berkeley!
+They are &lt;a href="https://www.laude.org/updates/moonshots-one-labs" target="_blank" rel="noopener" >one of four Laude Institute Moonshot Labs&lt;/a>, and will receive a $10 million multiyear award to start the Center for Edge Medicine.&lt;/p>
+&lt;figure id="figure-the-edge-medicine-team-at-the-laude-moonshots-announcement-photo-from-edge-medicinehttpsedgemedicineorgimpactlaude-moonshot-lab-winner">
+&lt;div class="d-flex justify-content-center">
+&lt;div class="w-100" >&lt;img alt="The Edge Medicine team at the Laude Moonshots announcement. Photo from [Edge Medicine](https://edgemedicine.org/impact/laude-moonshot-lab-winner)." srcset="
+/blog/edge-medicine-moonshot/featured_hu698b4a53697edac5b12e947dfa2ec6bc_2742714_32a354ac30e8c126536ee18cfbf01cb9.webp 400w,
+/blog/edge-medicine-moonshot/featured_hu698b4a53697edac5b12e947dfa2ec6bc_2742714_d371e1dae26bccc3ac3f8df214c55852.webp 760w,
+/blog/edge-medicine-moonshot/featured_hu698b4a53697edac5b12e947dfa2ec6bc_2742714_1200x1200_fit_q75_h2_lanczos_3.webp 1200w"
+src="https://2i2c.org/blog/edge-medicine-moonshot/featured_hu698b4a53697edac5b12e947dfa2ec6bc_2742714_32a354ac30e8c126536ee18cfbf01cb9.webp"
+width="760"
+height="507"
+loading="lazy" data-zoomable />&lt;/div>
+&lt;/div>&lt;figcaption>
+The Edge Medicine team at the Laude Moonshots announcement. Photo from &lt;a href="https://edgemedicine.org/impact/laude-moonshot-lab-winner" target="_blank" rel="noopener" >Edge Medicine&lt;/a>.
+&lt;/figcaption>&lt;/figure>
+&lt;p>The center will build open infrastructure, care models, and AI methods to support patients at the &amp;ldquo;edge&amp;rdquo; of medicine: everyday life, where people live, work, and make decisions 24/7.
+By meeting patients there, edge medicine will bring care to where health is actually shaped.
+Its foundation is &lt;a href="https://2i2c.org/collaborators/jupyterhealth/" >JupyterHealth&lt;/a>, an open source platform built on &lt;a href="https://jupyter.org" target="_blank" rel="noopener" >Project Jupyter&lt;/a> that combines wearable and medical record data for patients, researchers, and care teams.&lt;/p>
+&lt;p>We&amp;rsquo;ve been working with the JupyterHealth team over the past year, assisting with their open source strategy and product development. You can learn more about the open source pieces of the project at the &lt;a href="https://docs.jupyterhealth.org/" target="_blank" rel="noopener" >JupyterHealth documentation&lt;/a>.&lt;/p>
+&lt;p>We&amp;rsquo;re excited to see Jupyter&amp;rsquo;s open approach used to improve patient care, and we look forward to supporting the work ahead!&lt;/p>
+&lt;h2 id="learn-more">
+Learn more
+&lt;a class="header-anchor" href="#learn-more">#&lt;/a>
+&lt;/h2>&lt;ul>
+&lt;li>&lt;a href="https://edgemedicine.org/impact/laude-moonshot-lab-winner" target="_blank" rel="noopener" >Edge Medicine&amp;rsquo;s announcement&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://cdss.berkeley.edu/news/edge-medicine-awarded-10-million-laude-institute-competition-ai-healthcare" target="_blank" rel="noopener" >UC Berkeley CDSS&amp;rsquo;s announcement&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://www.laude.org/moonshots" target="_blank" rel="noopener" >The Laude Moonshots program&lt;/a>&lt;/li>
+&lt;li>&lt;a href="https://jupyterhealth.org/" target="_blank" rel="noopener" >JupyterHealth website&lt;/a>&lt;/li>
+&lt;/ul></description></item><item><title>How we set up an AI-enabled hub for the NASA Earth Responsible GenAI workshop</title><link>https://2i2c.org/blog/genai-workshop-hub-setup/</link><pubDate>Tue, 29 Sep 2026 00:00:00 +0000</pubDate><guid>https://2i2c.org/blog/genai-workshop-hub-setup/</guid><description>&lt;p>This summer, we participated in the &lt;a href="https://responsible-genai.hackweek.io/" target="_blank" rel="noopener" >Responsible GenAI for NASA Earthdata workshop&lt;/a>, a community gathering organized by &lt;a href="https://escience.washington.edu/" target="_blank" rel="noopener" >University of Washington&amp;rsquo;s eScience institute&lt;/a>, to explore how others were using GenAI in their workflows across the NASA community, and share best practices.&lt;/p>
 &lt;p>As part of this work, we worked with &lt;a href="https://tsnow03.github.io/" target="_blank" rel="noopener" >Tasha Snow&lt;/a>, &lt;a href="https://scottyhq.github.io/" target="_blank" rel="noopener" >Scott Henderson&lt;/a>, &lt;a href="https://escience.washington.edu/member/anshul-tambay/" target="_blank" rel="noopener" >Anshul Tambay&lt;/a>, and &lt;a href="https://lsetiawan.github.io/" target="_blank" rel="noopener" >Don Setiawan&lt;/a> to set up an environment on the &lt;a href="https://2i2c.org/collaborators/stratusgeo/" >CryoCloud hub&lt;/a> that allowed attendees to access and experiment with a few different LLM workflows with Earth data.&lt;/p>
 &lt;p>This is a short post to describe some of the decisions we made, how we set it up, and what we&amp;rsquo;d like to improve or do differently next time&lt;sup id="fnref:1">&lt;a href="#fn:1" class="footnote-ref" role="doc-noteref">1&lt;/a>&lt;/sup>.&lt;/p>
 &lt;p>&lt;em>Setting up a hub environment for community LLM use is very much still a work in progress!
